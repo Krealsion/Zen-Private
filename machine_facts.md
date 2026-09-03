@@ -59,3 +59,7 @@
 - **The MSYS2 toolchain at `C:\msys64x\mingw64`** (g++ 15.2, binutils 2.45) is the local road to a
   full MinGW lane: its binutils clear the 2.40 ceiling that stops CLion's bundled MinGW from
   assembling `workshop.cpp`; a Loom built by it and a fresh Zengine tree are still owed.
+- **The harness collapses `\\` to `\` in a command before the shell sees it**, so a `\b`
+  written as `\\b` reaches Python or printf as a backspace (measured 2026-09-03: a
+  single-quoted `'x\\b'` arrived in Python as one backslash). Text that must carry a
+  backslash goes through a file written by a tool, never through the command line.

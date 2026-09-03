@@ -12,3 +12,7 @@ FOUNDER-REFRESH-NOTES.md
 
 CONSOLIDATION-NOTES.md
     historical founder consolidation record from 2026-08-08; old repository identities are evidence of that consolidation, not current state
+
+zen-companion-maps.md
+    the three companion maps, moved from memory 2026-09-03; the maps themselves are
+    Zen/prompts/zen-map-{1,2,3}-*.md

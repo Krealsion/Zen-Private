@@ -1,5 +1,6 @@
 Source: memory node `zen-companion-maps` (memory store commit 88e7b28); the body below is that node's, verbatim.
 Moved from memory 2026-09-03.
+The maps are `Zen/prompts/zen-map-{1,2,3}-*.md`, not Downloads.
 
 # The three companion maps (landed 2026-07-17)
 
