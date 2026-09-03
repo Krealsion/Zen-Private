@@ -48,3 +48,14 @@
   regeneration with a message that blames Zengine.
 - **This harness keys its memory directory to the launch cwd** `G:\programming\cpp\Zen`; launching
   from a sub-repository opens a different, empty store.
+- **`build-win-jx`'s Loom prefix lives in a harness session's scratchpad** (its `CMakeCache.txt`
+  names it), so it vanishes with that session's temp sweep and the tree then cannot configure;
+  rebuild the MinGW Loom prefix somewhere durable before trusting that tree again.
+- **Git Bash rewrites `/c` and `/J` to drive paths** (MSYS argument conversion), so `cmd.exe /c …`
+  and `mklink /J …` silently misfire from the Bash tool: write `//c` and `//J`, or put the
+  command in a batch file.
+- **`VsDevCmd.bat` changes the working directory** when it loads unless `VSCMD_START_DIR` is set;
+  set it to the tree first, or every relative path after the call points at the VS install.
+- **The MSYS2 toolchain at `C:\msys64x\mingw64`** (g++ 15.2, binutils 2.45) is the local road to a
+  full MinGW lane: its binutils clear the 2.40 ceiling that stops CLion's bundled MinGW from
+  assembling `workshop.cpp`; a Loom built by it and a fresh Zengine tree are still owed.
