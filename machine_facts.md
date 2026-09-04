@@ -32,6 +32,7 @@
   client exits, so a long harness needs a detached `wsl.exe` client. The Bash tool has no
   `python3`: a `python3 - <<EOF` heredoc falls through to `python` and opens a REPL that never
   exits, so a script is written to a file and run, in WSL; its `grep -P` is not UTF-8 clean.
+  `bc` is not in Git Bash — timing arithmetic uses `$(( ))` over `date +%s%N`.
 - **SDL**: the WSL-fetched SDL3 has only the `dummy`/`offscreen` video drivers (no X11/Wayland
   dev headers at configure), so WSLg is irrelevant and a live SDL witness runs on a Windows tree
   with `ZENGINE_SDL_SKIN=ON`.
