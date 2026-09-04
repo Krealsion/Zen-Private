@@ -15,10 +15,11 @@
 - **MSVC**: VS 2026 Community 18.1 at `C:\Program Files\Microsoft Visual Studio\18\Community`
   (cl 19.50). Zengine's MSVC lane needs `VsDevCmd.bat -arch=x64` loaded into the shell (its
   `INCLUDE`/`LIB`/`LIBPATH`/`PATH`); `Enter-VsDevShell` is not a substitute (it needs `vswhere` on
-  `PATH` and fails while appearing to continue). The Windows trees in Zengine are `build-win-jx`
-  (MinGW) and `build-msvc-p1` (MSVC); the working MSVC Loom prefix is Loom `build-msvc-p1/_install`
-  — Debug AND `LOOM_ENABLE_WINDOWS_KERNEL=ON` (a Release install links as `LNK2038` mismatches; a
-  kernel-less install makes configure silently skip every weave).
+  `PATH` and fails while appearing to continue). Zengine's MSVC tree is `build-msvc-p1` and its
+  MinGW tree is `build-win-msys` (below; `build-win-jx` is the broken predecessor); the working
+  MSVC Loom prefix is Loom `build-msvc-p1/_install` — Debug AND `LOOM_ENABLE_WINDOWS_KERNEL=ON`
+  (a Release install links as `LNK2038` mismatches; a kernel-less install makes configure
+  silently skip every weave).
 - **Git remote operations run from the Windows Bash tool, never WSL**: the SSH key exists only at
   Windows `~/.ssh/id_ed25519`. `gh` is not installed; the Actions API is readable unauthenticated
   for job conclusions, not for logs.
