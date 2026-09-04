@@ -58,7 +58,53 @@
   set it to the tree first, or every relative path after the call points at the VS install.
 - **The MSYS2 toolchain at `C:\msys64x\mingw64`** (g++ 15.2, binutils 2.45) is the local road to a
   full MinGW lane: its binutils clear the 2.40 ceiling that stops CLion's bundled MinGW from
-  assembling `workshop.cpp`; a Loom built by it and a fresh Zengine tree are still owed.
+  assembling `workshop.cpp`. Its `bin` must be on `PATH` in EVERY tool call for the same reason
+  CLion's `mingw\bin` must — the built `.exe`s load `libstdc++-6.dll`, `libgcc_s_seh-1.dll` and
+  `libwinpthread-1.dll` from there. Since 2026-09-03 the lane is built rather than owed:
+- **The MSYS2 Loom prefix is `Loom\build-win-msys\_install`** — durable, named after the tree that
+  made it, deliberately NOT `Zen\install\loom` (which CLion's `cmake-build-debug` consumes, and a
+  stale one there breaks that lane) and not a harness scratchpad (which is what left
+  `build-win-jx` unconfigurable). Debug, Ninja, `LOOM_ENABLE_WINDOWS_KERNEL=ON` (a kernel-less
+  install makes Zengine's configure skip every weave), tests and examples off:
+
+  ```text
+  cmake -S Loom -B Loom/build-win-msys -G Ninja -DCMAKE_BUILD_TYPE=Debug \
+        -DCMAKE_CXX_COMPILER=C:/msys64x/mingw64/bin/g++.exe \
+        -DLOOM_ENABLE_WINDOWS_KERNEL=ON -DZEN_BUILD_TESTS=OFF -DZEN_BUILD_EXAMPLES=OFF
+  cmake --build Loom/build-win-msys --parallel 24
+  cmake --install Loom/build-win-msys --prefix Loom/build-win-msys/_install
+  ```
+
+  Measured 2026-09-03 at Loom `2eb6827`: 34 objects, 7 s at `-j24`; the prefix is 33,597,878
+  bytes in 57 files and exports `loom::kernel`.
+- **The Zengine MinGW tree is `Zengine\build-win-msys`**, configured exactly as `ci.yml`'s
+  `Zengine / Windows / MinGW-w64 Loom stranger` job configures its own:
+
+  ```text
+  cmake -S Zengine -B Zengine/build-win-msys -G Ninja -DCMAKE_BUILD_TYPE=Debug \
+        -DCMAKE_CXX_COMPILER=C:/msys64x/mingw64/bin/g++.exe \
+        -DCMAKE_PREFIX_PATH=G:/programming/cpp/Zen/Loom/build-win-msys/_install \
+        -DZEN_LOOM_DEV=OFF -DBUILD_TESTING=ON -DZENGINE_SDL_SKIN=OFF
+  ```
+
+  `CMAKE_C_COMPILER` is accepted and unused by both projects — CMake warns; C is never enabled.
+- **The three commands that run the lane**, from the Zengine checkout, and it stays serial:
+
+  ```text
+  export PATH="/c/msys64x/mingw64/bin:$PATH"
+  cmake --build build-win-msys --parallel 24
+  cmake -DZEN_BUILD_DIR=build-win-msys -P tests/verify.cmake
+  ```
+
+  Measured 2026-09-03 at Zengine `8ceee9d`: 148 edges in 80 s; `workshop.cpp.obj` 47,226,532
+  bytes and `zengine-workshop.exe` 48,612,545 bytes — the object binutils 2.40 refuses; the lane
+  PASSED 30 of 30, `gates active: always`, 89.9 s; the tree is 2.0 GB.
+  `ctest --test-dir build-win-msys -R '^workshop_files$' -V` is where the junction witnesses
+  print, and on this machine all three say "made as a junction".
+- **The CLion tree `Zengine\cmake-build-debug`, now on the MSYS2 toolchain, builds the app.**
+  Rebuilt 2026-09-03: exit 0 in 52 s, `workshop.cpp` assembled and `zengine-workshop.exe` linked,
+  and a second build says `ninja: no work to do`. Its prefix `Zen\install\loom` was installed
+  from `Loom\build-clion`, whose cache names the same MSYS2 compiler and the Windows kernel on.
 - **The harness collapses `\\` to `\` in a command before the shell sees it**, so a `\b`
   written as `\\b` reaches Python or printf as a backspace (measured 2026-09-03: a
   single-quoted `'x\\b'` arrived in Python as one backslash). Text that must carry a
