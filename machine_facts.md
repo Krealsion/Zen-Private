@@ -7,7 +7,9 @@
 - **Build trees on ext4** under `~/zen-build/`: `loom`, `loom-install`, `zengine-p1`,
   `zengine-p1-san` (the Ninja-configured Zengine trees against the ext4 Loom install). A tree's
   generator is baked in, and Zengine's FetchContent cache `~/.cache/zen-fetch/zengine-<basename>`
-  is keyed by build-directory basename with no eviction (13 GB measured) — reuse names.
+  is keyed by build-directory basename with no eviction (13 GB measured) — reuse names. Both
+  Zengine trees carry the ccache launcher, so a timed clean build sets `CCACHE_DISABLE=1` or it
+  measures the cache.
 - **CLion 2025.2's bundled MinGW** at `C:\Program Files\JetBrains\CLion 2025.2\bin\mingw\bin`
   (g++ 13.1, binutils 2.40), ninja under `bin\ninja\win\x64`, cmake under `bin\cmake\win\x64\bin`.
   That `mingw\bin` must be on `PATH` in EVERY tool call: without it `cc1plus.exe` dies
@@ -16,18 +18,20 @@
   (cl 19.50). Zengine's MSVC lane needs `VsDevCmd.bat -arch=x64` loaded into the shell (its
   `INCLUDE`/`LIB`/`LIBPATH`/`PATH`); `Enter-VsDevShell` is not a substitute (it needs `vswhere` on
   `PATH` and fails while appearing to continue). Zengine's MSVC tree is `build-msvc-p1` and its
-  MinGW tree is `build-win-msys` (below; `build-win-jx` is the CLion-toolchain predecessor, which
-  cannot assemble `workshop.cpp`); the working MSVC Loom prefix is Loom `build-msvc-p1/_install`
-  — Debug AND `LOOM_ENABLE_WINDOWS_KERNEL=ON` (a Release install links as `LNK2038` mismatches;
-  a kernel-less install makes configure silently skip every weave).
+  MinGW tree is `build-win-msys` (below; `build-win-jx` is the CLion-toolchain predecessor,
+  unconfigurable since its prefix vanished); the working MSVC Loom prefix is Loom
+  `build-msvc-p1/_install` — Debug AND `LOOM_ENABLE_WINDOWS_KERNEL=ON` (a Release install links
+  as `LNK2038` mismatches; a kernel-less install makes configure silently skip every weave).
 - **Git remote operations run from the Windows Bash tool, never WSL**: the SSH key exists only at
-  Windows `~/.ssh/id_ed25519`. `gh` is not installed; the Actions API is readable unauthenticated
-  for job conclusions, not for logs.
+  Windows `~/.ssh/id_ed25519`. `gh` is installed and logged in (it opens the pull requests); the
+  Actions API is readable unauthenticated for job conclusions, not for logs.
 - **The Bash tool** is Git Bash: its `python` is Windows Python, its `/tmp` is not WSL's, and WSL's
   `/tmp` does not survive between tool calls; `perl -0pi` cannot rename its work file on `/mnt/g`;
   a heredoc of ~190 lines or more fails with `unexpected EOF`; `wsl -e bash <script>` has its
   `/mnt` paths mangled by MSYS — go through `bash -lc`. WSL kills `nohup`/`disown` when the last
-  client exits, so a long harness needs a detached `wsl.exe` client.
+  client exits, so a long harness needs a detached `wsl.exe` client. The Bash tool has no
+  `python3`: a `python3 - <<EOF` heredoc falls through to `python` and opens a REPL that never
+  exits, so a script is written to a file and run, in WSL; its `grep -P` is not UTF-8 clean.
 - **SDL**: the WSL-fetched SDL3 has only the `dummy`/`offscreen` video drivers (no X11/Wayland
   dev headers at configure), so WSLg is irrelevant and a live SDL witness runs on a Windows tree
   with `ZENGINE_SDL_SKIN=ON`.
@@ -57,9 +61,11 @@
   command in a batch file.
 - **`VsDevCmd.bat` changes the working directory** when it loads unless `VSCMD_START_DIR` is set;
   set it to the tree first, or every relative path after the call points at the VS install.
-- **The MSYS2 toolchain at `C:\msys64x\mingw64`** (g++ 15.2, binutils 2.45) is the local road to a
-  full MinGW lane: its binutils clear the 2.40 ceiling that stops CLion's bundled MinGW from
-  assembling `workshop.cpp`. Its `bin` must be on `PATH` in EVERY tool call for the same reason
+- **The MSYS2 toolchain at `C:\msys64x\mingw64`** (g++ 15.2, binutils 2.45) built the local MinGW
+  lane below. Its binutils clear the 2.40 ceiling that stopped CLion's bundled MinGW from
+  assembling `workshop.cpp` until the Workshop split (2026-09-03); since the split every Workshop
+  object assembles under binutils 2.40 too (`workshop-split-RB.md` §11), so no MinGW toolchain on
+  this machine is ruled out. Its `bin` must be on `PATH` in EVERY tool call for the same reason
   CLion's `mingw\bin` must — the built `.exe`s load `libstdc++-6.dll`, `libgcc_s_seh-1.dll` and
   `libwinpthread-1.dll` from there. Since 2026-09-03 the lane is built rather than owed:
 - **The MSYS2 Loom prefix is `Loom\build-win-msys\_install`** — durable, named after the tree that
@@ -98,8 +104,8 @@
   ```
 
   Measured 2026-09-03 at Zengine `8ceee9d`: 148 edges in 80 s; `workshop.cpp.obj` 47,226,532
-  bytes and `zengine-workshop.exe` 48,612,545 bytes — the object binutils 2.40 refuses; the lane
-  PASSED 30 of 30, `gates active: always`, 89.9 s; the tree is 2.0 GB.
+  bytes and `zengine-workshop.exe` 48,612,545 bytes — the object binutils 2.40 refused before the
+  split; the lane PASSED 30 of 30, `gates active: always`, 89.9 s; the tree is 2.0 GB.
   `ctest --test-dir build-win-msys -R '^workshop_files$' -V` is where the junction witnesses
   print, and on this machine all three say "made as a junction".
 - **The CLion tree `Zengine\cmake-build-debug`, now on the MSYS2 toolchain, builds the app.**
