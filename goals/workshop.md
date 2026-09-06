@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-08-29  
+**Refreshed:** 2026-09-06  
 **Strategic authority:** `private/zen-strategic-map.md`  
-**Current direction:** EDIT-1 — Choose What to Edit  
-**Current execution state:** EDIT-R1 complete; EDIT-1 implementation-ready but not authorized by this map  
+**Current direction:** the IDE loop — build, then load; the next join is chosen by pressure  
+**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); nothing is authorized by this map  
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -48,8 +48,24 @@ A maker can currently:
 - open the one source named by a selected single-source recipe, edit it normally across lines, save
   exact admitted bytes, build, realize, inspect, and return to editing.
 
-That is a real development environment, but source acquisition is still captive to Builder. EDIT-1
-is the next product boundary.
+Since 2026-09-05 (EDIT-1; build-then-load, Zengine PRs #11–#14) a maker can also:
+
+- open Project Files inside the captured project root and open any source through the one
+  Editor-owned `open(path)` door — Builder is no longer the only source referrer;
+- rebuild a live weave-only artifact and have it **reload in place**, state kept, on the same
+  `WeaveId`, through the realization owner's one conversation with the Manager (`zen.ReloadWeave`);
+  arm "load when built" before the build or press "load now" after it — one action, one button;
+- **promote** the reloaded image to the default the next launch loads (a same-bytes atomic write),
+  or **revert** to the previous image; until promoted the row says so — nothing is upgraded silently;
+- **pick a buildable** (an explicit gesture that enumerates once; a `.cpp`, or a configured CMake
+  tree) and, by choosing it, author a recipe row; **load it** authors the minimum plan row with a
+  role the maker types; a project catalog and a project plan at the project root are the truths
+  in force at the next launch, so the maker's rows survive a restart without flags;
+- read a realize refusal whole in the `--log` journal (it has no reader yet — see §8).
+
+Source acquisition is no longer captive to Builder. What remains captive is provenance: a maker
+cannot yet reach a source from the pane that draws it, and a changed-shape rebuild is still refused
+rather than replaced.
 
 ## 3. Current ownership model
 
@@ -219,7 +235,10 @@ viewport following and wheel scroll, exact tab geometry, atomic save, dirty refu
 paste sequencing. It edits one source document and intentionally does not imitate Vim, provide
 language tooling, or create a generic multiline widget hierarchy.
 
-## 6. EDIT-1 — Choose What to Edit
+## 6. EDIT-1 — Choose What to Edit — LANDED
+
+Landed 2026-09; the completion sentence below is now true. Kept as the record of what was chosen;
+the surviving law is `Zengine/agents/workshop/project.md` and `editor.md`.
 
 ### Product completion sentence
 
@@ -297,15 +316,23 @@ right-click pane
     -> realize or reload the owning artifact
 ```
 
-Its clean growth path is:
+Its clean growth path, with status as of 2026-09-06:
 
-1. contextual `Edit Code` resolves a path and calls the same `Editor.open(path)` door;
+1. contextual `Edit Code` resolves a path and calls the same `Editor.open(path)` door — **not built**;
 2. the host resolves pane/provider -> recipe/source from authored provenance, without teaching the
-   Editor build topology;
-3. Builder produces the artifact through its existing recipe route;
-4. the realization owner decides whether this is a waiting initial load or an already-live artifact;
-5. already-live replacement remains refused until provider/weave custody, state continuity,
-   authority, rollback, and failure semantics are explicitly earned.
+   Editor build topology — **not built** (P-WORK-06);
+3. Builder produces the artifact through its existing recipe route — **built**, and "pick buildable"
+   authors the recipe row when none exists;
+4. the realization owner decides whether this is a waiting initial load or an already-live artifact —
+   **built**: a live same-shape artifact reloads in place, state kept, promotion explicit, revert
+   available;
+5. changed-shape replacement remains refused until provider/weave custody, state continuity,
+   authority, rollback, and failure semantics are explicitly earned — **still the wall**; Loom's
+   prepared replacement and authored handoff are the mechanism, and Workshop does not drive them yet.
+
+Roads recorded, not built: a timed auto-revert once keep and revert are habitual; a modal that warns
+on closing without promoting — the pressure for a general popup/modal feature; a reader for the
+`--log` journal; `config` asked by the chooser only when the tree's generator is multi-config.
 
 Do not let Project Files store the future joins. It should remain an honest file navigator even if
 the build/reload architecture later changes.
@@ -365,25 +392,27 @@ PURPOSE
     let a person build with Zen and feel the ideas rather than study a private architecture course
 
 CURRENT CAPABILITY
-    authored project plan + build recipes
+    authored project plan + build recipes, both authorable from inside Workshop
     inspectable arrangement and power stack
     persistent, arrangeable desk in TUI and SDL
     one action/key/context truth
     standing Attention distinct from event notices
-    one competent source editor
-    maker-driven edit -> save -> build -> realize -> inspect loop
+    one competent source editor, reachable from Project Files and Builder
+    maker-driven edit -> save -> build -> reload in place (state kept) -> promote or revert
+    pick buildable -> author a recipe row -> load it -> author a plan row
 
 CURRENT LIMIT
-    Builder is still the only source referrer the Editor can use
+    a source is not yet reachable from the pane that draws it; a changed shape is refused, not replaced
 
 NEXT DIRECTION
-    EDIT-1: captured project root + Project Files + one normalized Editor open-by-path door
+    chosen by pressure among: pane -> source provenance (P-WORK-06); the changed-shape rung of live
+    replacement (P-WORK-07); the schema builder / instance authoring / generated boilerplate flow
 
 COMPLETION FALSIFIER
-    no useful Builder source selected; maker still navigates, opens, edits, and saves a source
+    none selected; the next prompt states its own
 
 NEXT LONG LOOP
-    pane -> source provenance -> edit -> build -> initial realize or explicit live replacement
+    pane -> source provenance -> edit -> build -> reload in place or explicit replacement
 
 DO NOT PROMOTE YET
     tabs, VFS, watcher, provider file protocol, language IDE, generic Flow UI, hot reload framework

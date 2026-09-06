@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-08-29  
+**Refreshed:** 2026-09-06  
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
-**Current product direction:** EDIT-1 — Choose What to Edit  
-**Current execution state:** EDIT-R1 is accepted research and implementation-ready; no production packet is selected by this map
+**Current product direction:** the IDE loop — build, then load (§6); the next join is chosen by pressure, not by this map  
+**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); `maker/` paused as a pressure point; no production packet is selected by this map
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -135,39 +135,17 @@ The latest accepted product arc includes:
 - EDIT-0: one ordinary multiline source document with exact byte/line-ending custody, atomic save,
   dirty refusal, deferred-paste sequencing, and the full save/build/realize/inspect loop.
 
-## 5. Current direction: EDIT-1
+## 5. EDIT-1 — landed
 
-The immediate product problem is architectural:
+The Editor can choose a source. The host captures the launch directory once as the project root;
+Project Files presents a bounded, refreshable view inside it; Builder and Project Files call one
+Editor-owned `open(path)` door with one normalized absolute spelling; dirty-document refusal and
+the Editor's representation law remain authoritative. Surviving law: `Zengine/agents/workshop/project.md`
+and `editor.md`; the compressed result belongs in `private/goals/workshop.md` §5.
 
-> **The Editor can edit a source, but it cannot choose a source.**
+## 6. The IDE loop — what follows
 
-EDIT-R1 established the implementation-ready shape:
-
-```text
-Builder -----------+
-Project Files -----+----> Editor.open(path)
-future Edit Code --+
-```
-
-The host captures the launch directory once as the project root. A fourth catalog pane presents a
-bounded, refreshable directory view inside that root. Builder keeps recipe discovery and calls the
-same Editor-owned open-by-path door. Every entrant receives one normalized absolute spelling;
-dirty-document refusal and the Editor's representation law remain authoritative.
-
-EDIT-1 succeeds when Workshop can launch with no useful Builder selection and a maker can open
-Project Files, navigate to a source, open it, edit it, save it, then use Builder independently.
-
-The production prompt still owns a few product choices exposed by research: ordering, hidden-file
-presentation, link-directory policy, pointer activation, whether the write-only recipe field is
-removed, and whether an explicit project-root override is earned now. Those are bounded choices,
-not a reason for another research phase.
-
-EDIT-1 deliberately does not include tabs, search, file mutation, a VFS, a watcher, a provider file
-protocol, language tooling, source-to-artifact inference, rebuild/reload, or hot replacement.
-
-## 6. What follows EDIT-1
-
-The next compelling maker loop is:
+The compelling maker loop is unchanged in shape:
 
 ```text
 point at a pane
@@ -176,24 +154,34 @@ point at a pane
     -> Editor.open(path)
     -> save
     -> build the owning artifact
-    -> realize or replace it under lifecycle law
+    -> realize it, or reload it in place, under lifecycle law
 ```
 
-Do not implement it as one guessed shortcut. It contains three separately owned joins:
+Its three separately owned joins, with status as of 2026-09-06:
 
-1. pane/provider identity -> source or recipe provenance;
-2. source/recipe -> build artifact;
-3. artifact -> eligibility for initial realization or live replacement.
+1. pane/provider identity -> source or recipe provenance — **not built** (P-WORK-06). A maker still
+   reaches a source through Builder or Project Files, not from the pane it draws.
+2. source/recipe -> build artifact — **built**. Builder builds authored recipes; "pick buildable"
+   enumerates candidates on an explicit gesture and choosing one AUTHORS a recipe row; a project
+   catalog and a project plan at the project root are the truths in force at launch.
+3. artifact -> the running Workshop — **built for same shapes**: a rebuilt artifact reloads in place
+   through the Manager's `zen.ReloadWeave`, state kept, and is NOT the default load until the maker
+   promotes it; revert to the previous image exists. **Still the wall for changed shapes**: prepared
+   replacement with an authored migration is Loom's, and Workshop does not drive it yet (P-WORK-07,
+   second rung).
 
-The first two can reuse existing authored project truth. The third is intentionally still a wall:
-already-live artifacts are refused and tell the maker to restart. Live replacement becomes work only
-when the loop reaches that wall with a real artifact and can preserve provider, weave, authority,
-state, and failure ownership honestly.
+The founder's statement of what Zengine is for governs the loop: essentially an IDE for real C++
+on Loom — reload the code in place with a seamless handoff, partial compilation of the specific
+part, swapped in; quick and easy, not instant and braindead. The flow being built toward: a schema
+builder, instance authoring (initial or test data), generated boilerplate, Builder, messages from
+Workshop to the weave just made, reload in place. Interpreted execution (`maker/`) is PAUSED as a
+pressure point — useful only where code must run with no compilation.
 
-Nearer follow-ons that remain pressure-driven include pane Inspect, source search/Unicode/multiple
-documents, provider-contributed contextual actions, better default pane height/coarse arrangement,
-and a graphical Flow projection over facts, values, operators, actions, and authority. None is
-automatically next merely because its seam is visible.
+Nearer follow-ons that remain pressure-driven include pane Inspect (the Terminal overlay's reach),
+a reader for the `--log` journal, the timed auto-revert and the closing-without-promoting modal
+(the pressure for a general modal feature), source search/Unicode/multiple documents,
+provider-contributed contextual actions, and a graphical Flow projection. None is automatically
+next merely because its seam is visible.
 
 ## 7. Goal registry
 
@@ -240,7 +228,8 @@ representations of meaningful things.
 
 A horizon defines a completeness test. It does not authorize a demo-driven implementation. If a
 horizon starts specifying framework details, move those details back behind current consumer
-pressure or discard them.
+pressure or discard them. `private/goals/two-forms.md` — a live interpreted form and a generated
+durable form bridged by Flow — is a horizon in exactly this sense; it authorizes nothing.
 
 ## 9. Process doctrine
 

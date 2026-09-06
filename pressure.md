@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-08-30  
+**Refreshed:** 2026-09-06  
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -25,11 +25,11 @@ but deferred work belongs in `private/backlog.md`.
 
 ### P-ACT-01 — The Editor cannot choose a source
 
-**State:** ACT — EDIT-R1 COMPLETE; EDIT-1 IMPLEMENTATION-READY  
-**Evidence:** `reportbacks/EDIT-R1-RB.md`, current `Zengine/docs/workshop/editor.md`
+**State:** CLOSED — EDIT-1 LANDED (2026-09)  
+**Evidence:** `Zengine/agents/workshop/project.md`, `editor.md`; tests `"EDIT-1: …"`; `private/goals/workshop.md` §6
 
-Builder is still the only source-acquisition path. A maker can edit one recipe-named source but
-cannot independently navigate the project and open another admitted file.
+Project Files exists inside the captured project root; Builder and Project Files call one
+Editor-owned `open(path)` door. The completion witness below is met. Kept for the record.
 
 **Bounded answer:** capture the launch directory once as project root; add Project Files as an
 ordinary pane; factor one normalized Editor-owned open-by-path door; make Builder another caller;
@@ -139,16 +139,20 @@ the topology.
 **Trigger:** EDIT-1 is accepted and a real pane can be traced to one source/recipe without guessing.
 The host should answer; browser rows and Editor must remain topology-free.
 
-### P-WORK-07 — Live replacement is still a deliberate wall
+### P-WORK-07 — Live replacement: the same-shape rung is built; the changed-shape rung is the wall
 
-**State:** PARKED  
-**Evidence:** Builder/realization law and `Zengine/docs/workshop/limitations.md`
+**State:** FIRST RUNG CLOSED (2026-09-05, Zengine PRs #11–#14); SECOND RUNG PARKED  
+**Evidence:** `reportbacks/build-then-load-research-RB.md`, `build-then-load-RB.md`; `Zengine/agents/realization.md`; `docs/workshop/builder.md`
 
-An already-live artifact refuses realization and tells the maker to restart. Provider overlays are
-reversible contributions, not artifact hot reload.
+A rebuilt weave-only artifact with the same shapes reloads in place through the Manager's
+`zen.ReloadWeave`, state kept, on the same `WeaveId`; the rebuilt file lands off the loaded path;
+the new image is not the default load until the maker promotes it, and revert exists. A rebuilt
+artifact whose shapes changed is still refused in a maker's words — THAT the shape changed and
+WHAT changed — and is not replaced. Loom's prepared replacement and authored handoff are the
+mechanism; Workshop does not drive them.
 
-**Trigger:** the pane-to-code loop reaches an already-live artifact and can state provider/weave
-custody, continuity, authority, rollback, and failure semantics for that concrete case.
+**Trigger (second rung):** a maker's concrete changed-shape rebuild, with the migration the maker
+authors, the coordinator's home inside Workshop, and how a refused handoff reads at the row.
 
 ### P-WORK-08 — A hidden pane loses the position it was hidden at
 
@@ -228,6 +232,53 @@ a timed marquee would need a repaint with nothing behind it.
 **Trigger:** terminal makers meet the cut text as a real obstacle, or something else already
 justifies a repaint pump Workshop can honestly spend.
 
+### P-WORK-14 — Refusals are kept but not readable
+
+**State:** OPEN  
+**Evidence:** `reportbacks/three-small-things-RB.md` Doc gaps and Pressure; `pick-and-load-repairs-RB.md`
+
+A realize refusal is cut on the realize row and on the notice; `--log <path>` now keeps it whole,
+but the journal has no reader a maker can run (`loom::Logger::read` is the only door, and a
+Zengine page may not name it). The boot walk's own refusals ride no selected shape and are
+journaled nowhere. Every fact added to the journal widens the gap between kept and readable.
+
+**Trigger:** the first maker who needs the whole sentence; the answer is a reader (a tool), then a
+place to read a refusal whole — the same seam as the Terminal overlay's reach.
+
+### P-WORK-15 — Promotion is explicit; two roads wait on it
+
+**State:** PARKED (roads, by the founder's word)  
+**Evidence:** `reportbacks/build-then-load-RB.md` Choices; `prompts/build-then-load.md` STEP 2 approval
+
+A reloaded image is not the default until promoted, and revert exists. Two roads: a timed
+auto-revert ("reverting in 10") once keep and revert are habitual — an explicit keep, a rule for a
+second reload during the window; and a modal that warns on closing without promoting, which the
+founder wants as the pressure for a general popup/modal feature.
+
+**Trigger:** a reload that breaks input or UI in practice; or the first maker who quits with an
+unpromoted image and did not know.
+
+### P-WORK-16 — `config` is named, not asked
+
+**State:** HOOKED  
+**Evidence:** `Zengine/docs/workshop/builder.md`; `reportbacks/pick-and-load-repairs-RB.md` Pressure 1
+
+A `cmake_target` row's `config` is empty and right under single-config generators and must be
+authored under multi-config ones; the chooser does not ask it. `load_cache()` already reads the
+generator, so the chooser could ask exactly when it matters.
+
+**Trigger:** a maker on MSVC pressing `a` on a Visual Studio tree.
+
+### P-WORK-17 — The weave you just loaded is a late row behind `... N more`
+
+**State:** OPEN (a sharper case of P-WORK-11)  
+**Evidence:** `reportbacks/build-then-load-RB.md` stage b witness
+
+The Project pane cannot scroll; a row authored by "load it" is a late row and hides behind the
+ellipsis. The pane protocol has keys and a wheel; the introspection pane spends neither.
+
+**Trigger:** the pane protocol work that gives the Project pane a viewport.
+
 ## 4. Build and verification pressure
 
 ### P-BUILD-01 — Windows parallel CTest has a separate Timer failure
@@ -272,6 +323,38 @@ reading phase archaeology. See `BL-VER-01` in the backlog.
 
 Do not widen the continuous-support claim from local/native evidence alone. Read authenticated
 hosted failure evidence before changing diagnostics or claiming the advisory lane is stable.
+
+### P-BUILD-05 — Three more spin-bound loops in the builder suite
+
+**State:** OPEN — a one-line quick repair each  
+**Evidence:** `reportbacks/three-small-things-RB.md` Pressure 1; `Zengine/tests/test_builder.cpp` 519, 587, 985
+
+`drain` was bounded by two million looks and reddened CI three times in two days on a fast runner
+before it got a wall clock. `beat_until_idle`, `carry_until_over` and an inline guard are the same
+defect under three names. They have not reddened; the drain had not either, until it did.
+
+**Trigger:** the next red on this suite — or sooner, at the founder's word.
+
+### P-BUILD-06 — Quoted refusals are pinned nowhere
+
+**State:** OPEN  
+**Evidence:** `reportbacks/three-small-things-RB.md` Doc gaps 2, Pressure 5
+
+Loom's guide and a Zengine case both quote `conflict_what`'s sentence from `src/registry.cpp`;
+`doc_links` checks links, not quotations. A reword leaves both stale silently. A
+`law_register`-style rule for quoted refusals is the shape, if wanted.
+
+### P-BUILD-07 — Two ownership gaps the repairs exposed
+
+**State:** OPEN  
+**Evidence:** `reportbacks/three-small-things-RB.md` Doc gaps 3, Pressure 2; `pick-and-load-repairs-RB.md` Doc gaps
+
+VM-MUT-09 ("hash the artifact the mutation lands in") has no clause for a case that reads a source
+file at run time. And nothing under `agents/` states which shapes the Workshop host keeps durably —
+the host's journal selection lives inside `main()` and is pinned by reading `workshop.cpp` as text,
+now from two suites; a named seam (a function returning the selection) would let cases assert the
+object. Also owed from the documentation arc: the four routed documents over budget (`operators`,
+`panes`, `realization`, `surface`) each want a register phase in the family-table shape.
 
 ## 5. Loom and architecture pressure
 
@@ -332,6 +415,17 @@ WeaveId is not a durable human identity.
 
 **Trigger:** external terminal/executor, public hosting, remote control, or multi-author trust.
 
+### P-LOOM-06 — Two sentences Loom's documentation owes, and one witness
+
+**State:** OPEN — documentation, a later Loom phase  
+**Evidence:** `reportbacks/build-then-load-RB.md` stage a Pressure 8′; `three-small-things-RB.md` Pressure 6
+
+`Kernel::load_from` uses a bare `LoadLibraryA` and inherits the host's error mode; on the CI
+runner's Windows a staged non-image raised a modal hard error inside the call and hung a suite until
+the job timed out, where a desktop Windows 11 turned it into error 193. Zengine's hosts now set the
+error mode; `dynamic-weaves.md` should say a host decides it. The copier's shape-name collision is
+now documented in the weave guide and demonstrated by no Loom case at the guide's altitude.
+
 ## 6. Adoption pressure
 
 ### P-ADOPT-01 — Package truth is ahead of product distribution
@@ -366,6 +460,12 @@ teach concepts that are real.
   snapshot and History/Logger answer different questions.
 - **Generated ceremony:** provider/schema/ABI/build glue may be generated while authored primitive
   code carries meaning. Let the C++ compiler parse C++; do not build an arbitrary-C++ parser.
+
+- **Two forms bridged by Flow** (`private/goals/two-forms.md`, 2026-09-05): a live interpreted form
+  (the paused `maker/` package is its runtime) and a generated durable C++ form, with Flow reading
+  code into its world through the Loom ABI's handles and drawing raw nodes for what it does not
+  understand — under the constraint above: let the C++ compiler parse C++. "A raw node is an
+  operator iff it has no bus access, transitively" is the founder's hypothesis, not law.
 
 These candidates influence completeness tests only. They require their own current consumers and
 authorized phases before they become architecture.

@@ -1,7 +1,7 @@
 # Zen Vision Delta Index
 
 **Status:** PRIVATE LIVE PROVENANCE INDEX  
-**Refreshed:** 2026-08-29  
+**Refreshed:** 2026-09-06  
 **Role:** compact routing of strategic decisions and unincorporated candidates  
 **Raw source:** `private/raw-vision-deltas.md`  
 **Current authority:** consequences live in the Strategic Map, Goal Maps, pressure, backlog, or
@@ -153,6 +153,43 @@ uses compact QR lanes for bounded work, preflights large unresearched production
 substantial decision reports from exhaustive evidence. `REPOSITORIES.md` is a stable registry, not a
 moving accepted-HEAD board. Current law is rewritten by subject; chronicles stay in reports/history.
 
+### VD-15 — Hand-offs carry state and lessons, never direction
+
+**Status:** INCORPORATED (2026-09-05)  
+**Destinations:** `private/handoffs/Zen-FCO-v2.md` §2, §7 (the first read for any Vision); Strategic Map process doctrine
+
+Two September Vision sessions proposed and drove an interpreted maker-authored weave as "Phase 2"
+through their hand-offs; no live authority had selected it, and the next Vision inherited the frame.
+Direction lives in the maps. A hand-off that proposes a direction is a candidate for this index, not
+a phase. Every architectural claim a Vision makes carries `file:line` at a named head; "I have not
+read X" is the only honest form of not knowing.
+
+### VD-16 — Zengine is an IDE for real C++ on Loom; interpreted execution is a pressure point
+
+**Status:** INCORPORATED (2026-09-05)  
+**Destinations:** Strategic Map §6; Workshop Goal Map §2, §7; `private/goals/two-forms.md` (horizon)
+
+The founder's statement of what Zengine is for: essentially an IDE that reloads code in place with
+a seamless handoff, partial compilation of the specific part, swapped in — quick and easy, not
+instant and braindead. Interpreted execution is useful only where code must run with no
+compilation; the `maker/` package (Zengine PR #10, zero Loom changes, first-class state schema,
+MIG-0 reused) is PAUSED as a pressure point, not removed. Its lasting value may be its definition
+format as the schema builder's document before a `ZEN_SHAPE` is generated.
+
+### VD-17 — Nothing is upgraded silently; the same-shape rung comes first
+
+**Status:** INCORPORATED (2026-09-05–06)  
+**Destinations:** Workshop Goal Map §2, §7; pressure P-WORK-07, P-WORK-15; Zengine `agents/realization.md`, `authoring.md`
+
+A rebuilt same-shape artifact reloads in place through Loom's own door, state kept; the new image is
+not the default load until the maker promotes it, with revert to the previous image. Load-after-build
+is one action with one button in two states; no confirmation dialog — the press is the action. A
+changed shape is refused in a maker's words and is the next rung, through Loom's prepared
+replacement and authored handoff. Detection never becomes authority: picking a buildable authors a
+recipe row; "load it" authors a plan row with a role the maker types; a project catalog and plan at
+the project root are project truth found at launch, and the shipped defaults beside the executable
+are installation truth no maker gesture writes.
+
 ## 3. Seeded candidates — deliberately not promoted
 
 ### VS-01 — Flow may be a projection of earned semantic powers
@@ -207,8 +244,24 @@ Potential irreducible insight: a maker may identify a missing primitive, author 
 power, let generated ceremony/building produce it, load it into the running catalog, and retain the
 source/build/load intent so a fresh checkout can reproduce it.
 
-**Why not incorporated as current work:** Workshop currently refuses already-live replacement. The
-pane/source/build provenance chain and a concrete lifecycle/rollback case must arrive first.
+**Why not incorporated as current work:** the same-shape rung is now built (VD-17): a rebuilt live
+artifact reloads in place and the maker promotes it. The rest — authoring a missing primitive from
+Workshop, generated ceremony producing it, and loading a NEW power into the running catalog — still
+waits on the schema-builder / generated-boilerplate flow and on a concrete case.
+
+### VS-05 — Two forms, one bridge
+
+**Status:** SEEDED / HORIZON  
+**Raw source:** `private/goals/two-forms.md`; the 2026-09-05 review of Zengine PR #10
+
+A live interpreted form and a generated durable C++ form of one definition, bridged by Flow in both
+directions: generation total and carrying its definition; deconstruction partial and improving,
+using the Loom ABI's handles and drawing raw nodes for what it does not understand. "A raw node is
+an operator iff it has no bus access, transitively" is the founder's hypothesis, not law.
+
+**Why not incorporated as current work:** the founder chose the IDE road (VD-16). It is a
+completeness test for seams the IDE loop touches, and the constraint of VS-01's neighbour holds:
+let the C++ compiler parse C++.
 
 ## 4. Superseded or closed routing
 
