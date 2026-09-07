@@ -91,17 +91,21 @@ participation through the existing doors. What remains is narrower:
 **Trigger:** a maker reaches for a pane fact the rows cannot say, wants to seed the subject from
 a pointed pane without walking the list, or the document editor's retirement is decided.
 
-### P-WORK-03 — Provider participation is deliberately read-only and host-bounded
+### P-WORK-03 — The pane protocol is what a provider can say, and the built-ins need more
 
-**State:** WATCH  
-**Evidence:** current pane protocol and Workshop limitations
+**State:** ACT — THE ARC (VD-19, 2026-09-06)  
+**Evidence:** `Zengine/agents/panes.md` (SEL-0, MSG-0, QR-18, INTR-0/1, SOURCE-1); `workshop/keymap.hpp`; `workshop/screen.hpp` (151 KB)
 
-External panes publish bounded prose and receive no input, contextual rows, arbitrary drawing,
-focus, lifecycle, or installation/discovery support. One PaneRef mounts once.
+A provider pane publishes bounded prose regions and receives a press as a place, keys, text and
+the wheel (`PanePressed`, `PaneKey`, `PaneTextInput`, `PaneWheel`); it has no keymap
+participation (legend, remap, contextual rows), no drawing beyond the prose vocabulary, no
+lifecycle or installation story. The built-in panes have all of that because they are C++ inside
+the host. The arc migrates them onto the protocol one at a time; each migration is the second
+provider this entry waited for, demonstrating one precise missing contract.
 
-**Trigger:** a second independent provider or a real tool demonstrates one precise missing contract.
-Do not infer a plugin framework, generic input protocol, or same-PaneRef multiplicity from the fact
-that a provider pane exists.
+**Trigger (fired on purpose):** the first migration. The protocol grows one demonstrated contract
+per migration and never becomes a plugin framework, a generic input protocol or same-PaneRef
+multiplicity.
 
 ### P-WORK-04 — Conventional editor expansion should come from use
 
@@ -153,6 +157,8 @@ mechanism; Workshop does not drive them.
 
 **Trigger (second rung):** a maker's concrete changed-shape rebuild, with the migration the maker
 authors, the coordinator's home inside Workshop, and how a refused handoff reads at the row.
+**The case now exists in direction (VD-19):** a migrated pane weave replaced by a differently-shaped
+one — a vim Editor for the Editor — with the pane's state shape as the migration's currency.
 
 ### P-WORK-08 — A hidden pane loses the position it was hidden at
 
@@ -234,7 +240,7 @@ justifies a repaint pump Workshop can honestly spend.
 
 ### P-WORK-14 — Refusals are kept but not readable
 
-**State:** OPEN  
+**State:** ACT (VD-20 — before the arc's first shape collision, so it arrives as a sentence)  
 **Evidence:** `reportbacks/three-small-things-RB.md` Doc gaps and Pressure; `pick-and-load-repairs-RB.md`
 
 A realize refusal is cut on the realize row and on the notice; `--log <path>` now keeps it whole,
@@ -247,7 +253,7 @@ place to read a refusal whole — the same seam as the Terminal overlay's reach.
 
 ### P-WORK-15 — Promotion is explicit; two roads wait on it
 
-**State:** PARKED (roads, by the founder's word)  
+**State:** ACT for the modal (VD-21 — the approval modal is the general modal's second consumer); the timed auto-revert stays a road  
 **Evidence:** `reportbacks/build-then-load-RB.md` Choices; `prompts/build-then-load.md` STEP 2 approval
 
 A reloaded image is not the default until promoted, and revert exists. Two roads: a timed
@@ -278,6 +284,36 @@ The Project pane cannot scroll; a row authored by "load it" is a late row and hi
 ellipsis. The pane protocol has keys and a wheel; the introspection pane spends neither.
 
 **Trigger:** the pane protocol work that gives the Project pane a viewport.
+
+### P-WORK-18 — Every loaded artifact may say anything
+
+**State:** ACT AFTER FATE (VD-21)  
+**Evidence:** `Loom/src/kernel/kernel.cpp:992-998` (the default `allow_any()`; a four-argument
+overload takes a grant); `Zengine/agents/panes.md` INTR-0 ("a declaration proves nothing on its
+own"); `agents/realization.md` LOAD-0 ("nothing signs or restricts one")
+
+The loaded tier's baseline is `allow_any()`, so `Emit<>` is decorative there and there is nothing
+for a Weaver to approve (GATE-05: a baseline never changes). Direction: the plan row carries a
+request; the host's policy — a Weaver seat in Workshop, auto-approving what the maker set — mints
+the baseline and may refuse; the refused weave is told (VD-20). In-process this governs what a pane
+may say, not what it may touch.
+
+**Trigger:** send fate landed (VD-20); then the row grammar, the seat, the modal — in that order.
+
+### P-WORK-19 — The keymap is a closed catalog in one header
+
+**State:** ACT WITH THE FIRST MIGRATION (VD-19)  
+**Evidence:** `Zengine/workshop/keymap.hpp` — 144 rows, 125 `Act` values, 20 contexts, 391
+comment lines; `agents/workshop.md` rule 3; BL-DEF-03
+
+`Act` and `KeyContext` are closed enums and every gesture is spelled in one `constexpr` array, so a
+pane arriving through the protocol cannot declare an action, and every new row recompiles the
+host. Direction: a pane weave declares its actions; the host assembles the catalog at load and
+runs the collision law then. A constexpr split by owner was considered and superseded — do not do
+it. The prose moves to `agents/decisions/`. BL-DEF-03 (`posix_gap` and ctrl+shift+letter) rides
+the first keymap touch.
+
+**Trigger:** the first pane migration needs its keys in the legend.
 
 ## 4. Build and verification pressure
 
@@ -372,7 +408,7 @@ to keep the abstraction warm.
 
 ### P-LOOM-02 — Sender-visible fate and unresolved obligations are still separate questions
 
-**State:** WATCH / SEED  
+**State:** ACT (VD-20 — fate first, then the obligation conversation; Loom-tier, read whole)  
 **Evidence:** Loom messaging/answer law, recent raw architecture synthesis
 
 Ordinary senders are not told whether a send was delivered. AskBook records authenticated answer
@@ -381,6 +417,8 @@ must eventually settle as answered/refused/abandoned/expired/cancelled.
 
 **Trigger:** two real async domains need the same outstanding-work truth and cannot express it with
 their own protocol. Do not build a generic obligation framework from vocabulary alone.
+**Fired 2026-09-06:** the Builder's progress, the Weaver's pending approval, the realization owner's
+waiting row (VD-20).
 
 ### P-LOOM-03 — A policy delegate can die while its installed authority survives
 

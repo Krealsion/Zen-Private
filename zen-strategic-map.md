@@ -4,8 +4,8 @@
 **Refreshed:** 2026-09-06  
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
-**Current product direction:** the IDE loop — build, then load (§6); the next join is chosen by pressure, not by this map  
-**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); `maker/` paused as a pressure point; no production packet is selected by this map
+**Current product direction:** the IDE loop (§6), entered through the pane-weave arc — Workshop's built-in panes become participating weaves, with send fate and row-requested authority as preconditions (VD-19..21)  
+**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); `maker/` paused as a pressure point; new-weave research landed 2026-09-06, its production waiting behind the arc; the arc's research phase is next; no production packet is selected by this map
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -82,6 +82,12 @@ would change future decisions.
 - **Evidence is proportional to the claim.** A green is not proof of everything; package,
   sanitizer, native-platform, live-interaction, and mutation evidence are used when their distinct
   failure classes matter.
+- **Workshop's panes are weaves.** Every pane a maker sees inside Workshop is a participating
+  weave from the plan; the host keeps room, focus, realization and roots. A built-in written as
+  C++ inside the host is debt, not a shortcut (VD-19).
+- **A plan row asks for authority; it never confers it.** Editing a file gives no power. The
+  host's policy — the Weaver, set by the maker — decides what a loaded artifact may say, may
+  refuse, and the refused weave is told (VD-21, VD-20).
 
 ## 4. Current system position
 
@@ -90,7 +96,8 @@ would change future decisions.
 Loom is a credible installed substrate for schema-governed values, messaging, senses, history,
 capabilities, isolation, dynamic weaves, lifecycle, replacement, and host-owned authority policy.
 Message acceptance discovery reads the same registered shape truth delivery enforcement reads.
-Ask provenance and bounded host turns are explicit. SDL has been removed from Loom: the portable
+Ask provenance and bounded host turns are explicit. An ordinary sender is not told its send's fate
+and an ask has no progress answer; both are selected Loom changes (VD-20). SDL has been removed from Loom: the portable
 pixel-layout brain remains, while Zengine owns the active graphical product medium.
 
 Loom's current live HEAD is discoverable from Git. `REPOSITORIES.md` records repository location,
@@ -175,13 +182,22 @@ on Loom — reload the code in place with a seamless handoff, partial compilatio
 part, swapped in; quick and easy, not instant and braindead. The flow being built toward: a schema
 builder, instance authoring (initial or test data), generated boilerplate, Builder, messages from
 Workshop to the weave just made, reload in place. Interpreted execution (`maker/`) is PAUSED as a
-pressure point — useful only where code must run with no compilation.
+pressure point — useful only where code must run with no compilation. The schema builder authors
+C++, not a definition document: generated code is the default form a maker holds (VD-18).
 
 Nearer follow-ons that remain pressure-driven include pane Inspect (the Terminal overlay's reach),
-a reader for the `--log` journal, the timed auto-revert and the closing-without-promoting modal
-(the pressure for a general modal feature), source search/Unicode/multiple documents,
-provider-contributed contextual actions, and a graphical Flow projection. None is automatically
-next merely because its seam is visible.
+the timed auto-revert, source search/Unicode/multiple documents, and a graphical Flow projection.
+None is automatically next merely because its seam is visible.
+
+**The arc that enters the loop (2026-09-06).** The loop's material is the problem: the built-in
+panes are C++ inside the host — `screen.hpp` at 151 KB, one 144-row keymap catalog — while three
+tools already live entirely across the pane protocol. So before the remaining joins, the built-in
+panes become participating weaves, migrated one at a time by smallest protocol delta, the protocol
+growing one demonstrated contract at a time (VD-19). Its preconditions are Loom's: send fate, then
+the obligation conversation (VD-20); and the plan row as an authority request decided by the
+host's policy through a Weaver seat and its approval modal, retiring `allow_any()` as the loaded
+tier's default (VD-21). The `--log` reader and the general modal are therefore direction, not
+follow-ons. New-weave production follows the first migrations; its research stands.
 
 ## 7. Goal registry
 
@@ -224,7 +240,9 @@ substituting for either.
 Committed horizons remain live debugging, a scalable kernel, replaceable weaves, and the north star
 that modders are players. Possible synthesis remains a semantic computing environment in which
 project declaration, visual presentation, live runtime, source, terminal, and failure are navigable
-representations of meaningful things.
+representations of meaningful things. One-shot authority — a weave asking to do a thing once and
+being granted it once — is a horizon Loom has not earned (known-seams: "allow once is not
+claimed"); VD-21 notes it and builds nothing.
 
 A horizon defines a completeness test. It does not authorize a demo-driven implementation. If a
 horizon starts specifying framework details, move those details back behind current consumer
@@ -242,6 +260,10 @@ durable form bridged by Flow — is a horizon in exactly this sense; it authoriz
   predecessor whose END is its baseline. `REPOSITORIES.md` is not a moving HEAD board.
 - Private consolidation rewrites the smallest correct authority after acceptance; executors do not
   self-accept or edit private strategy.
+- **The executor has final say on architecture, from the code in motion** (2026-09-06). A prompt
+  states the outcome, the fence and what not to do; its HOW is a guess the executor may override,
+  recording the divergence. A STOP on a false premise ends the phase there; nobody theorizes a way
+  around it.
 
 ### Prompt Contract v1
 
@@ -252,6 +274,8 @@ durable form bridged by Flow — is a horizon in exactly this sense; it authoriz
 4. Local understood repairs use compact QR prompts. Ownership, authority, lifecycle, public
    architecture, cross-subsystem contracts, and new maker capability use the production lane. A
    large production prompt without fresh research receives a source preflight before final authorship.
+   The binding part of any prompt is its list of what not to do; the fewer conditions forced on
+   the how, the fewer of the authors' misconceptions reach the tree.
 5. Substantial reports arrive as `<PHASE>-RB.md` plus `<PHASE>-evidence.md`. Review the decision
    layer first; open evidence when a claim needs audit. Small QRs use one compact report.
 
@@ -276,7 +300,7 @@ private/vision-deltas.md              compact routed decision/candidate index
 private/raw-vision-deltas.md          raw source archive/inbox; not current authority
 private/handoffs/current-executor-addendum.md
                                       current execution card
-private/handoffs/Zen-FCO-v1.md        first-contact route
+private/handoffs/Zen-FCO-v2.md        first-contact route — the first read for a Vision
 
 repository laws/references            exact current semantics
 phase reports/evidence + Git history  proof and chronology

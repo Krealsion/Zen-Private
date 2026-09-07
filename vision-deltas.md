@@ -136,8 +136,8 @@ presentation only and is scoped to the exact statement hidden.
 
 ### VD-13 — The editor owns source opening
 
-**Status:** INCORPORATED AS CURRENT DIRECTION  
-**Destinations:** Strategic Map current direction; Workshop Goal Map EDIT-1
+**Status:** INCORPORATED (landed as EDIT-1, 2026-09)  
+**Destinations:** Workshop Goal Map §6; `Zengine/agents/workshop/project.md`, `editor.md`
 
 Builder is one source referrer, not source authority. The host captures project-root truth; Project
 Files and Builder resolve paths; every path enters one normalized Editor-owned door that preserves
@@ -189,6 +189,78 @@ replacement and authored handoff. Detection never becomes authority: picking a b
 recipe row; "load it" authors a plan row with a role the maker types; a project catalog and plan at
 the project root are project truth found at launch, and the shipped defaults beside the executable
 are installation truth no maker gesture writes.
+
+### VD-18 — Generated C++ is the default form; the definition is for live concept-testing
+
+**Status:** INCORPORATED (2026-09-06, the founder's word)  
+**Destinations:** `Zen-FCO-v2.md` §4, §6; Strategic Map §6; Workshop Goal Map §11; `private/goals/two-forms.md` (horizon)
+
+The schema builder authors source — the `ZEN_SHAPE` and the weave's boilerplate, written into
+C++ the maker holds — not a definition document. `maker/`'s definition is for live, fast testing
+of a concept and, later, the blueprint durable code is generated from (two-forms); saved as the
+default it is one more layer between a maker, their intent and the machine, and a person who can
+code should not meet it by default. `maker/` stays paused. The emitter that turns (name, version,
+fields) into a `ZEN_SHAPE` is one function whether a form feeds it now or a definition feeds it
+later — a seam to name, not to build. The phase chosen from FCO §6's candidates is the head of
+the §4 flow: a new weave authored from Workshop, research first (`prompts/new-weave-research.md`).
+
+### VD-19 — Workshop's panes are participating weaves; the host is room, focus, realization, roots
+
+**Status:** INCORPORATED (2026-09-06, the founder's word)  
+**Destinations:** Strategic Map §3, §6; Workshop Goal Map §1, §4, §7, §11; `Zen-FCO-v2.md` §1, §4, §6, §8; pressure P-WORK-03, P-WORK-07, P-WORK-19
+
+The founder, on reading `keymap.hpp` (144 rows in one catalog) and `screen.hpp` (151 KB): Loom
+supports healthy development only if used correctly, and the built-in panes were written as C++
+inside the host instead of as weaves — that is the debt. Direction: every pane a maker sees inside
+Workshop is a participating weave, loaded from the plan, interacting only by messages; the host
+keeps room, clipping, front order and the setup file, focus routing, the keymap's assembly and
+collision law, the realization owner, the Kernel/Manager/control door and the user roots. Split
+until a piece is too small to be useful; then it is an operator, and operators compose. The pane
+protocol extends only where a migrating built-in demonstrates one missing contract — P-WORK-03's
+trigger, fired on purpose — never into a plugin framework. Consequences: the keymap becomes
+registration from a pane's declared actions, assembled at load under the collision law (a
+constexpr split of `kActionCatalog` is superseded — do not do it); `Session`/`screen.hpp` dissolve
+as panes leave; a pane replaced by a differently-shaped one (a vim Editor) is prepared replacement
+with an authored migration, the document as the migration's currency — P-WORK-07's second rung
+with a case. Migration order is by smallest protocol delta, measured by a research phase before
+any migration; the first pane weaves are hand-written C++ as Introspection was; the new-weave
+production phase waits behind them, its research standing.
+
+### VD-20 — Send fate, then obligation — two Loom changes, in that order
+
+**Status:** INCORPORATED (2026-09-06, the founder's word; Loom-tier)  
+**Destinations:** Strategic Map §4, §6; pressure P-LOOM-02, P-WORK-14; Loom (a later phase, read whole)
+
+Fate: a sender hears, as a later delivery, that its send was refused at dispatch
+(`CapabilityDenied`, `NotAccepted`, `GateRefused`, `NoSuchTarget`) — keeping PR-01's rule that a
+sealed candidate stays indistinguishable from nothing. Obligation: an ask may be answered
+incompletely, with progress, before a closing answer; the founder's handle is that an answer is
+authorized by the ask, not by the answerer's send rules, so progress rides it. Consumers that fire
+the board's trigger: the Builder's progress, the Weaver's pending approval, the realization
+owner's waiting row. Retires "author it per domain" for these consumers. Fate first: VD-21's
+approval flow cannot start from a denial the sender never hears. The `--log` reader (P-WORK-14)
+lands before the first shape collision, so it arrives as a sentence.
+
+### VD-21 — Authority: the plan row asks; the host's policy decides; the Weaver is the hand
+
+**Status:** INCORPORATED (2026-09-06, the founder's word)  
+**Destinations:** Strategic Map §3, §6, §8; Workshop Goal Map §4, §11; `Zen-FCO-v2.md` §4; pressure P-WORK-15, P-WORK-18
+
+Today every artifact the Kernel loads gets `allow_any()` (`Loom/src/kernel/kernel.cpp:992-998`;
+the four-argument overload takes a grant). The founder: the plan row is a request at best —
+editing a text file gives no power. The host's policy mints the loaded tier's baseline from the
+request (GATE-05: a baseline never changes; delegated authority moves); the Weaver is the
+middleman, set to auto-approve what the maker allows, free to refuse. A refused weave must know
+(VD-20) and may declare itself broken or request its own unload; none of the requests need be
+granted; a snake game may ask for load or unload authority as a one-time request. One-shot
+authority is not claimed by Loom today (known-seams: "allow once is not claimed"; a policy that
+needs it brokers the action) — a horizon the substrate earns, noted here, not built. The approval
+modal is the lever (P-WORK-15's general modal gains its second consumer); the Weaver's seat in
+Workshop — an ordinary participant with approve/refuse/revoke/describe, TERM-0's shape — is the
+hand. `allow_any()` retires as the loaded-tier default when the row carries a request and the seat
+exists. Dependency order: fate (VD-20) → the row carries a request → seat and modal → migrations
+under real grants. In-process, what this governs is what a pane may say — legibility of
+composition, not defense against a hostile image.
 
 ## 3. Seeded candidates — deliberately not promoted
 
@@ -278,16 +350,20 @@ let the C++ compiler parse C++.
 
 ```text
 INCORPORATED CURRENT DECISIONS
-    VD-01 .. VD-14
+    VD-01 .. VD-21
 
 SEEDED, NOT AUTHORIZED
     VS-01 Flow projection
     VS-02 obligations / outstanding work
     VS-03 metadata / final snapshot
     VS-04 hot loading as maker feature
+    VS-05 two forms, one bridge (horizon)
 
 CURRENT PRODUCT DIRECTION
-    EDIT-1 from VD-13
+    the pane-weave arc (VD-19) on the IDE-loop road (VD-16), with send fate and
+    row-requested authority as its preconditions (VD-20, VD-21)
+    new-weave research landed 2026-09-06; its production waits behind the first migrations
+    next: the arc's research phase -- each built-in pane's protocol delta, measured
 
 RAW SOURCE
     preserved in private/raw-vision-deltas.md

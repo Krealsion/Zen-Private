@@ -3,8 +3,8 @@
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
 **Refreshed:** 2026-09-06  
 **Strategic authority:** `private/zen-strategic-map.md`  
-**Current direction:** the IDE loop — build, then load; the next join is chosen by pressure  
-**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); nothing is authorized by this map  
+**Current direction:** the pane-weave arc on the IDE-loop road — the built-in panes become participating weaves (VD-19); send fate and row-requested authority precede it (VD-20, VD-21)  
+**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); new-weave research landed 2026-09-06, its production waiting behind the arc; the arc's research phase is next; nothing else is authorized by this map  
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -22,6 +22,11 @@ ambient authority and should be built from the same materials it offers makers.
 
 The beginner and the expert should perform the same underlying act. Convenience may remove
 ceremony; it must not hide a different privileged mechanism.
+
+Since 2026-09-06 the peer sentence above is direction, not aspiration (VD-19): every pane a maker
+sees inside Workshop is a participating weave loaded from the plan, and Workshop itself keeps
+room, focus, realization and roots. A built-in pane written as C++ inside the host is the debt
+this arc pays, one pane at a time.
 
 ## 2. Current maker capability
 
@@ -159,6 +164,14 @@ source refuses replacement and orderly quit until the maker saves or explicitly 
   directory scan, or implicit hot reload.
 - **Refuse unknown or unsupported values whole.** Preserve authored intent through current inability
   to project it.
+- **A pane declares its actions; the host assembles the keymap.** One action truth is one
+  identity, not one file: rows arrive with the pane weave, the host joins them at load and runs
+  the collision law then.
+- **A plan row asks for authority.** It confers none; the host's policy decides, may refuse, and a
+  refused weave is told.
+- **The pane protocol grows one demonstrated contract at a time.** A migrating built-in that needs
+  what a provider cannot say is the only reason a shape is added; it never becomes a plugin
+  framework.
 
 ## 5. Completed capability arcs, compressed to their surviving results
 
@@ -337,6 +350,14 @@ on closing without promoting — the pressure for a general popup/modal feature;
 Do not let Project Files store the future joins. It should remain an honest file navigator even if
 the build/reload architecture later changes.
 
+**The arc before the remaining joins (2026-09-06, VD-19).** The built-in panes migrate onto the
+pane protocol as participating weaves, in the order a research phase measures by smallest protocol
+delta — the guess before measuring: Attention or Files first (the Powers pane is the proof a
+browser crosses the seam), the Builder panel next, Info and the Editor last. Each migration is the
+consumer that pulls one protocol contract: the first pulls a pane's declared actions into the
+keymap (P-WORK-19). Replacing a migrated pane with a differently-shaped one is item 5 above with a
+case. New-weave production follows the first migrations.
+
 ## 8. Live pressure and deliberate restraint
 
 The nearest product pressures are:
@@ -405,8 +426,12 @@ CURRENT LIMIT
     a source is not yet reachable from the pane that draws it; a changed shape is refused, not replaced
 
 NEXT DIRECTION
-    chosen by pressure among: pane -> source provenance (P-WORK-06); the changed-shape rung of live
-    replacement (P-WORK-07); the schema builder / instance authoring / generated boilerplate flow
+    the pane-weave arc (VD-19): a research phase measures each built-in pane's protocol delta,
+    then migrations by smallest delta, the first pulling declared actions into the keymap.
+    Preconditions: send fate then obligation (Loom, VD-20); the plan row as authority request,
+    the Weaver seat and its approval modal (VD-21). New-weave production (VD-18, research
+    landed) follows the first migrations. Still on the board: pane -> source provenance
+    (P-WORK-06); the changed-shape rung (P-WORK-07), now with a case -- a differently-shaped pane
 
 COMPLETION FALSIFIER
     none selected; the next prompt states its own

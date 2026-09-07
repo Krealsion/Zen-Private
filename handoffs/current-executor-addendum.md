@@ -2,6 +2,10 @@
 
 **Status:** PRIVATE LIVE EXECUTION CARD  
 **Refreshed:** 2026-08-29  
+**STALE (marked 2026-09-06):** this card predates EDIT-1's landing and the build-then-load arc. Its
+§1 heads, §2 route, §3–§5 state and §9 report focus describe 08-29. Current state is
+`Zen-FCO-v2.md` §6 and `handoff-2026-09-06.md`; current direction is the maps. §6–§8 (laws, Prompt
+Contract v1, the acceptance boundary) remain true. A rewrite is owed at the next consolidation.  
 **Current product direction:** EDIT-1 — Choose What to Edit  
 **Current execution state:** EDIT-R1 research complete; no EDIT-1 production prompt is selected by this handoff  
 **Scope authority:** the current phase prompt always wins

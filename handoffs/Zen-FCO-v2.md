@@ -1,7 +1,7 @@
 # Zen — First-Contact Orientation, v2
 
 **Status:** PRIVATE ORIENTATION ROUTER — the first read for a Vision  
-**Refreshed:** 2026-09-05 (v1: 2026-08-29)  
+**Refreshed:** 2026-09-06 (v2 written 2026-09-05; v1: 2026-08-29)  
 **Why v2 exists:** two Vision sessions in September proposed and drove a direction — an interpreted,
 maker-authored weave — that no live authority had selected, and their hand-offs carried it forward
 as "Phase 2." A third Vision inherited it and made two architecture errors before the founder
@@ -53,6 +53,12 @@ Two operational corollaries the September errors violated:
   offers the artifact to the realization owner; `f` builds-and-realizes the waiting frontier. A
   maker at the Workshop has a compiler in the loop whenever they point at a header or a
   CMakeLists. (`Zengine/builder/`, `Zengine/docs/reference/builder.md`, `Zengine/agents/realization.md`.)
+- **The panes are weaves (2026-09-06, VD-19).** Every pane a maker sees inside Workshop is a
+  participating weave from the plan; the host keeps room, focus, realization and roots. Three
+  tools already live across the pane protocol (`Zengine/introspection/`, `composer/`, the Pane
+  Creator); the built-ins written as C++ inside the host (`workshop/screen.hpp`, `keymap.hpp`)
+  are the debt the current arc pays. A prompt that adds host-side C++ where a weave could be is
+  the mistake to refuse.
 
 ## 2. Read in this order
 
@@ -62,8 +68,8 @@ zen-vision.md                               why Zen exists; its human promise
 zen-orientation.md                          vocabulary, spine invariants, honesty doctrine, rhythm
 REPOSITORIES.md                             repository registry: path, role, branch, remote — never a HEAD board
 
-private/zen-strategic-map.md                global direction and laws  (STALE: refreshed 08-29 — see §6)
-private/goals/workshop.md                   Workshop product authority (STALE: refreshed 08-29 — see §6)
+private/zen-strategic-map.md                global direction and laws  (refreshed 09-06)
+private/goals/workshop.md                   Workshop product authority (refreshed 09-06)
 private/pressure.md                         open pressure and wake conditions
 private/backlog.md                          work knowingly owed, not now
 private/vision-deltas.md                    incorporated decisions; seeded candidates NOT promoted
@@ -71,6 +77,7 @@ private/goals/identity-phase.md             the settled design for author identi
 private/goals/two-forms.md                  live form / durable form / Flow as bridge — a HORIZON, not direction
 private/handoffs/handoff-2026-09-06.md      repository state after the build-then-load arc; working with the founder; debts
 private/handoffs/current-executor-addendum.md
+                                            (STALE: an 08-29 card naming EDIT-1 as current — read §6–§8 for its laws, not its state)
 private/machine_facts.md                    the founder's machine (read, never edit)
 
 Zengine/AGENTS.md                           the one mandatory read; then its router
@@ -158,6 +165,17 @@ and the Message Composer exist.
 completeness test that helps judge a seam, never an authorization to build one. The orientation's
 rule stands — "do not use the destination to authorize work ahead of a real consumer."
 
+**2026-09-06, evening — the arc that enters the loop.** Reading `keymap.hpp` and `screen.hpp`
+whole, the founder named the material as the problem: an AI wrote C++ inside the host where Loom
+asked for weaves. Direction, in his words: split, split, split, until splitting would make a thing
+too small to be useful — and even then those become operators, and compose into the thing. Every
+pane a maker sees is a participating weave; make new, previously-unspeakable panes, load them and
+see them work without closing Workshop. Preconditions he set: send fate, then an ask that can be
+answered with progress before it closes (Loom); the plan row as a request for authority that the
+Weaver, set by the maker, grants or refuses — a refused weave is told and may declare itself
+broken or ask to be unloaded. Shape collisions wait for their first instance. VD-19..21 hold it;
+the maps carry it.
+
 ## 5. Ideas to carry (from v1, still true)
 
 - Loom holds grammar, not answers. No privilege by default is the keystone.
@@ -213,6 +231,15 @@ instance authoring, generated boilerplate — of which the Message Composer, the
 place and promotion already exist; and, cheap and owed, the three remaining spin-bound loops
 (P-BUILD-05).
 
+**Selected 2026-09-06, by the founder,** from those candidates: the head of §4 — a new weave
+authored from Workshop (generated boilerplate carrying the smallest schema builder it needs),
+research first: `prompts/new-weave-research.md`. Generated C++ is the default form; the definition
+document stays a horizon and `maker/` stays paused (VD-18). Second consolidation pass the same
+day, by the Vision that inherited: VD-18 and the delta ledger, this file's §2 flags, the strategic
+map's §10 route to this file, the executor addendum marked stale. The addendum still owes a rewrite.
+The same evening the founder selected the pane-weave arc ahead of new-weave production (VD-19..21);
+§1's third corollary and §4 carry his words, and `pressure.md` gained P-WORK-18 and P-WORK-19.
+
 ## 7. How a Vision fooled the founder — and how to tell
 
 What it looked like, so it is recognizable:
@@ -239,6 +266,18 @@ The standing rules for a Vision, the way the executor constitution is for Ceecee
    measured. The Builder was invisible to three sessions for exactly this reason.
 5. **Before proposing anything, answer §8 in your own words with anchors**, and let the founder
    spot-check two. One wrong anchor ends the benefit of the doubt.
+6. **Ceecee has final say on architecture, from the actual code in motion** (the founder,
+   2026-09-06). A prompt states the outcome, the fence and what not to do; where it says HOW, that
+   is a guess made before the code was read at the heads, and the executor overrides it and records
+   the divergence. Nearly every failure so far had a Vision's or the founder's condition at its
+   root; the fewer conditions forced, the fewer of our misconceptions reach the tree. **A STOP is
+   honored, never routed around**: when the executor stops on a false premise, the phase ends there
+   and the premise is fixed — time lost now, much more saved later.
+7. **The review gate is the whole architecture, not decision-by-decision** (the founder,
+   2026-09-06): the proposed architecture as a whole if every recommendation is applied, sample
+   code where technical specificity is warranted, what the decisions are trying to accomplish,
+   where there is room to diverge, and which choices would be mistakes. Verified on the branch,
+   not the report's account of it.
 
 ## 8. First-contact response — answer these before you propose anything
 
@@ -252,6 +291,8 @@ The standing rules for a Vision, the way the executor constitution is for Ceecee
 6. What is explicitly *not* claimed — containment tier, bridge identity, grant scope?
 7. Which source answers a disputed fact — and in which order do prose, law, source, and tests rank?
 8. Name two things a previous Vision got wrong, and the file that would have prevented each.
+9. When every pane is a weave, what does the host keep — and where does a loaded pane's authority
+   come from? Cite the plan row's grammar, `Kernel::load`'s two overloads, GATE-05 and the Weaver.
 
 Do not propose implementation until those answers agree with current source and the live
 strategy documents. If they do, propose one phase, in the founder's direction (§4), at the smallest
