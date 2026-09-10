@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** the IDE loop (§6), entered through the pane-weave arc — Workshop's built-in panes become participating weaves, with send fate and row-requested authority as preconditions (VD-19..21)  
-**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); `maker/` paused as a pressure point; new-weave research landed 2026-09-06, its production waiting behind the arc; the arc's research phase is next; no production packet is selected by this map
+**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); `maker/` paused as a pressure point; `PaneActions` (PR #15) and Files as a weave (PR #16) landed 2026-09-07 — the pane-weave arc's first migration; the Builder migration is next; new-weave research landed, its production waiting behind the arc; no production packet is selected by this map
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -278,6 +278,9 @@ durable form bridged by Flow — is a horizon in exactly this sense; it authoriz
    the how, the fewer of the authors' misconceptions reach the tree.
 5. Substantial reports arrive as `<PHASE>-RB.md` plus `<PHASE>-evidence.md`. Review the decision
    layer first; open evidence when a claim needs audit. Small QRs use one compact report.
+6. Every prompt and every continuation is handed to the maker with its temperature named — hot,
+   warm or cold, as `Zen-FCO-v2.md` §7 rule 8 defines them — in the hand-over, not in the prompt:
+   it tells the maker which Ceecee the prompt was written for; the executor already knows what it is.
 
 ### Carrying-cost law
 

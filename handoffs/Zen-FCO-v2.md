@@ -239,6 +239,11 @@ day, by the Vision that inherited: VD-18 and the delta ledger, this file's §2 f
 map's §10 route to this file, the executor addendum marked stale. The addendum still owes a rewrite.
 The same evening the founder selected the pane-weave arc ahead of new-weave production (VD-19..21);
 §1's third corollary and §4 carry his words, and `pressure.md` gained P-WORK-18 and P-WORK-19.
+**2026-09-07:** Zengine PR #15 (`PaneActions`, Powers the consumer, BL-DEF-03 closed) and PR #16
+(Files as a weave: three doors, per-mode rows, the conversion, the built-in gone) merged — the
+arc's first migration. Heads: Zengine `main` past `d4815cc`'s merge; Loom `b296032`. Next: the
+Builder migration with `RecipeCatalog` v2 (P-WORK-20); the Composer is the next `PaneActions`
+consumer (P-WORK-21). `Zen/private` committed at `d36cf7f` and again after this pass.
 
 ## 7. How a Vision fooled the founder — and how to tell
 
@@ -278,6 +283,21 @@ The standing rules for a Vision, the way the executor constitution is for Ceecee
    code where technical specificity is warranted, what the decisions are trying to accomplish,
    where there is room to diverge, and which choices would be mistakes. Verified on the branch,
    not the report's account of it.
+8. **Every prompt and every CONTINUE is handed to the founder with its temperature named** — in
+   the Vision's message beside the path, never as a line inside the prompt: the executor already
+   knows what it is, and a label it cannot act on is noise at best and wrong at worst. The
+   temperature is a fact about how the prompt was WRITTEN — what it assumes of the mind that reads
+   it — so the founder runs it on the right Ceecee (the founder's vocabulary, 2026-09-07). **Hot**:
+   written for a Ceecee that has already run prompts in this thread; carries only what changed and
+   dies in a fresh session. **Warm**: written for a fresh Ceecee session with its memory store
+   intact — the standard phase prompt: heads, routes, the fence, the not-to-do list. **Cold**:
+   written for a Ceecee with no memory of any kind, acting only on the prompt,
+   `Zen/executor-constitution.md` and the repositories' `AGENTS.md`; it needs everything a warm
+   prompt has plus where to begin and how to find its way, and it is what a cold audit is thrown
+   at. The label existed as `warm executor` / `cold executor` on the surrounding prose in
+   `private/history/Vision-Handoff-8-3-26.md` and was never defined in a live authority;
+   `zen-orientation.md` §8's "cold start" is, in this vocabulary, a warm one — the founder's
+   public sentence to fix.
 
 ## 8. First-contact response — answer these before you propose anything
 

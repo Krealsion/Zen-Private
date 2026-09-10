@@ -262,6 +262,51 @@ exists. Dependency order: fate (VD-20) → the row carries a request → seat an
 under real grants. In-process, what this governs is what a pane may say — legibility of
 composition, not defense against a hostile image.
 
+### VD-22 — A pane's keys act only after the maker has pointed at the pane
+
+**Status:** INCORPORATED (2026-09-07, the founder's word)  
+**Destinations:** Workshop Goal Map §4; pressure P-WORK-03; `prompts/builder-pane-weave.md`
+
+Command-mode keys that act on a pane's subject retire with the pane: `b` builds only after the
+maker has pressed into the Builder. Nothing does something "by default" from anywhere. Richer
+routes — buttons, hovering a pane to hand it the keys, Workshop mapping a key to a weave's action
+itself ("weaves relying on other weaves is not a bad thing") — are later UX with many options,
+none of them a default now. The migration order is unchanged; the Builder is next.
+
+### VD-23 — The reserved side column retires; Info is an ordinary pane
+
+**Status:** INCORPORATED (2026-09-08, the founder's word)  
+**Destinations:** Workshop Goal Map §7; pressure P-WORK-03; `prompts/pane-weaves-remaining.md` (CONTINUE)
+
+The Info migration stopped on a fact: a loaded pane is an overlay-stack pane, and the side
+column is reserved by geometry (`room_w = w - kPanelCols - kPanelGap`, unconditionally), so
+retiring the built-in leaves a dead 30-column strip nothing may occupy. The founder chose the
+end state VD-19 argues for: the reservation goes, room is the whole screen, Info is an arranged
+pane like the browser and the Builder, and a shipped default setup opens it at the right edge so
+a fresh session looks as it did while the strip beneath is ordinary room a maker can take back.
+Refused: a placement field on `PaneOffered` (the first sentence in which a pane says where it
+goes — the "wants keys" crack by another name) and keeping the column for one office by rule.
+A long-standing wish of the founder's — Info as a pane — that the arc reached on its own. Order:
+the geometry PR first, its own witness; then Info's second stage; then the Editor.
+
+### VD-24 — The Terminal is a pane too; the founder's theory of the arc
+
+**Status:** INCORPORATED (2026-09-08, the founder's word)  
+**Destinations:** Workshop Goal Map §7; pressure P-WORK-03; `prompts/pane-weaves-remaining.md` (CONTINUE)
+
+The geometry PR (Zengine PR #21) retired the reservation and exposed that the terminal overlay had
+been doing a second job — it could not erase what stood at the right column — and that no mechanism
+for that job survives without the screen knowing a pane is furniture. Offered chrome, paint order
+or a ceiling, the founder chose none: the Terminal becomes its own pane weave, and wears a pane's
+boundary by construction. The stays-host list shrinks to Layouts, the Pane Manager and the maker
+pane. His theory, stated: "Panes becoming individual participants via a weave will result in more
+extensible and modular architecture that will reveal more ideal code patterns" — and the arc is
+already the evidence. The Terminal's delta was never measured (research E5 left it host); the
+migration measures first and stops if the participant it reads by pointer today needs a Loom door
+(the Loom fence; VD-20's neighbourhood). Its cursor is a caret — whichever of the Terminal and the
+Editor migrates first pulls the caret-and-selection shape, and the other reuses it. Until it
+migrates, the measured overlap stands as pinned; no interim patch.
+
 ## 3. Seeded candidates — deliberately not promoted
 
 ### VS-01 — Flow may be a projection of earned semantic powers
@@ -350,7 +395,7 @@ let the C++ compiler parse C++.
 
 ```text
 INCORPORATED CURRENT DECISIONS
-    VD-01 .. VD-21
+    VD-01 .. VD-24
 
 SEEDED, NOT AUTHORIZED
     VS-01 Flow projection

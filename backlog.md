@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-08-29  
+**Refreshed:** 2026-09-07  
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -19,9 +19,10 @@ pressure stays outside until that decision exists. Every item names its wake con
 
 **State:** GOAL-COUPLED  
 **Owed:** Repeated maker friction must either improve the interaction or produce an available,
-truthful explanation of the real concept. Keep the two current tool-authoring paths legible:
-compiled-in panels and bounded office-authored read-only panes. Grow the human contributor front
-door from tested public explanations rather than from private phase vocabulary.
+truthful explanation of the real concept. Keep the one tool-authoring path legible: a pane is a weave
+across the pane protocol, and the compiled-in path is debt being retired one pane at a time (VD-19;
+Files left in Zengine PR #16). Grow the human contributor front door from tested public explanations
+rather than from private phase vocabulary.
 
 **Wake:** every Workshop phase with repeated human-facing friction; mandatory before actively
 inviting outside contributors.
@@ -39,7 +40,7 @@ tutorial implementation.
 **Wake:** installed external-pane distribution, project templates, or a Workshop-native “open this
 tool's source” path.
 
-**Boundary:** this does not itself authorize a plugin SDK, provider input, or installation system.
+**Boundary:** this does not itself authorize a plugin SDK or an installation system.
 
 ## 3. Bounded defects and quick repairs
 
@@ -61,18 +62,6 @@ says `characters`. Change the refusal to `bytes` and pin the exact multibyte bou
 the bound or introduce code-point/grapheme/display-width policy.
 
 **Wake:** next document/name-validation touch or an explicitly selected cleanup QR.
-
-### BL-DEF-03 — POSIX gap classification misses Ctrl+Shift+letter collapse
-
-**State:** SMALL QR CANDIDATE  
-**Owed:** `posix_gap()` accepts and does not warn on `Ctrl+Shift+letter`, although the POSIX terminal
-wire collapses that combination to the same control byte as `Ctrl+letter`. Correct the reachability
-classification and pin that no authored binding is presented as distinct when the backend cannot
-deliver it.
-
-**Wake:** next keymap touch or a compact QR.
-
-**Evidence:** EDIT-0 closeout and current `workshop/keymap.hpp`.
 
 ### BL-DEF-04 — Remove the dead Loom SDL dev override from Zengine
 
@@ -169,8 +158,9 @@ growth materially slows every task touching that surface.
 
 The following remain trigger-governed horizons or pressure, not owed cleanup:
 
-- tabs, Vim emulation, syntax highlighting, a VFS, file watcher, or Flow editor;
-- provider input, arbitrary pane drawing, same-PaneRef multiplicity, or plugin discovery;
+- tabs, Vim emulation inside the built-in Editor, syntax highlighting, a VFS, file watcher, or Flow
+  editor (a differently-shaped Editor arriving as a pane weave is P-WORK-07's case, not this);
+- arbitrary pane drawing, same-PaneRef multiplicity, or plugin discovery;
 - live artifact replacement before a concrete owner/continuity case;
 - general obligations, group/consensus, metadata, or persistence frameworks;
 - multithreaded dispatch;

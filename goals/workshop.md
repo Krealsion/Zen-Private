@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-06  
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** the pane-weave arc on the IDE-loop road — the built-in panes become participating weaves (VD-19); send fate and row-requested authority precede it (VD-20, VD-21)  
-**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); new-weave research landed 2026-09-06, its production waiting behind the arc; the arc's research phase is next; nothing else is authorized by this map  
+**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); `PaneActions` (PR #15) and Files as a weave (PR #16) landed 2026-09-07 — the first migration of the pane-weave arc; the Builder migration is next; new-weave research landed, its production waiting behind the arc; nothing else is authorized by this map  
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -166,7 +166,9 @@ source refuses replacement and orderly quit until the maker saves or explicitly 
   to project it.
 - **A pane declares its actions; the host assembles the keymap.** One action truth is one
   identity, not one file: rows arrive with the pane weave, the host joins them at load and runs
-  the collision law then.
+  the collision law then. A pane's rows act only while the pane has the keyboard; no command-mode
+  key acts on a migrated pane's subject from anywhere — the maker points at the pane first
+  (VD-22). Buttons, hover, or the host mapping a key to a weave's action are later UX, not defaults.
 - **A plan row asks for authority.** It confers none; the host's policy decides, may refuse, and a
   refused weave is told.
 - **The pane protocol grows one demonstrated contract at a time.** A migrating built-in that needs
@@ -351,12 +353,23 @@ Do not let Project Files store the future joins. It should remain an honest file
 the build/reload architecture later changes.
 
 **The arc before the remaining joins (2026-09-06, VD-19).** The built-in panes migrate onto the
-pane protocol as participating weaves, in the order a research phase measures by smallest protocol
-delta — the guess before measuring: Attention or Files first (the Powers pane is the proof a
-browser crosses the seam), the Builder panel next, Info and the Editor last. Each migration is the
-consumer that pulls one protocol contract: the first pulls a pane's declared actions into the
-keymap (P-WORK-19). Replacing a migrated pane with a differently-shaped one is item 5 above with a
-case. New-weave production follows the first migrations.
+pane protocol as participating weaves, in the order the research measured by smallest protocol
+delta. Landed 2026-09-07: `PaneActions`/`PaneActionRequested` (Zengine PR #15, Powers the first
+consumer) and Files as a weave (PR #16 — three host doors, rows re-declared per mode, saved
+references converted at read, the built-in gone, −80 KB of host). Next the Builder, carrying
+`RecipeCatalog` v2 for the catalog-source row it lost (P-WORK-20); then Attention, Info, the
+Editor last (caret and selection are the contract it pulls). Layouts, the Pane Manager, the Terminal
+and the maker pane stay host this arc. Replacing a migrated pane with a differently-shaped one is
+item 5 above with a case. New-weave production follows the first migrations. Attention landed
+(PR #19, one new sentence: `StandingConditions`). Info's first stage landed (PR #20: the host
+owns the document, `DocumentShown` is the picture, four acts are asks) and stopped on the
+reserved side column; the founder retired the reservation (VD-23): room is the whole screen, a
+shipped default setup opens Info at the right edge, and the geometry PR precedes Info's second
+stage. The geometry landed (PR #21): the room is the screen, the right column is a place a desk
+row may name, the one-time resize of %-shares accepted by the founder. The Terminal migrates too
+(VD-24) — it pulls the caret shape ahead of the Editor and wears a boundary by construction; the
+stays-host list is now Layouts, the Pane Manager and the maker pane. Order: Info stage 2, the
+Terminal, the Editor.
 
 ## 8. Live pressure and deliberate restraint
 
@@ -426,10 +439,10 @@ CURRENT LIMIT
     a source is not yet reachable from the pane that draws it; a changed shape is refused, not replaced
 
 NEXT DIRECTION
-    the pane-weave arc (VD-19): a research phase measures each built-in pane's protocol delta,
-    then migrations by smallest delta, the first pulling declared actions into the keymap.
-    Preconditions: send fate then obligation (Loom, VD-20); the plan row as authority request,
-    the Weaver seat and its approval modal (VD-21). New-weave production (VD-18, research
+    the pane-weave arc (VD-19): PaneActions (#15) and Files (#16) landed 2026-09-07. Next the
+    Builder migration, carrying RecipeCatalog v2 (P-WORK-20); then Attention, Info, the Editor.
+    Preconditions in parallel: send fate then obligation (Loom, VD-20); the plan row as authority
+    request, the Weaver seat and its approval modal (VD-21). New-weave production (VD-18, research
     landed) follows the first migrations. Still on the board: pane -> source provenance
     (P-WORK-06); the changed-shape rung (P-WORK-07), now with a case -- a differently-shaped pane
 

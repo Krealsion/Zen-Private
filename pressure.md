@@ -93,19 +93,37 @@ a pointed pane without walking the list, or the document editor's retirement is 
 
 ### P-WORK-03 — The pane protocol is what a provider can say, and the built-ins need more
 
-**State:** ACT — THE ARC (VD-19, 2026-09-06)  
-**Evidence:** `Zengine/agents/panes.md` (SEL-0, MSG-0, QR-18, INTR-0/1, SOURCE-1); `workshop/keymap.hpp`; `workshop/screen.hpp` (151 KB)
+**State:** IN PROGRESS — Files (PR #16), the Builder (#17), Attention (#19), Info (#20, on the geometry of #21), the Terminal (#22, with its review corrections) landed; the Editor is the last migration; it inherits `PaneCaret`, `pane_text.hpp`, VM-FIX-23/24 (a seam is crossed operation by operation; late answers are staged by batching without draining)  
+**Evidence:** `Zengine/agents/panes.md`; `agents/workshop/files.md` (WL-FILES-16/17); `reportbacks/pane-actions-and-files-RB2.md`; `reportbacks/pane-weave-research-RB.md` E5
 
-A provider pane publishes bounded prose regions and receives a press as a place, keys, text and
-the wheel (`PanePressed`, `PaneKey`, `PaneTextInput`, `PaneWheel`); it has no keymap
-participation (legend, remap, contextual rows), no drawing beyond the prose vocabulary, no
-lifecycle or installation story. The built-in panes have all of that because they are C++ inside
-the host. The arc migrates them onto the protocol one at a time; each migration is the second
-provider this entry waited for, demonstrating one precise missing contract.
+A provider pane publishes bounded prose regions, receives a press as a place, keys, text and the
+wheel, and — since PR #15 — declares its actions (`PaneActions`) and hears the resolved id
+(`PaneActionRequested`). Files crossed with no new shape: three host doors (`zengine.project`
+reads; `zengine.recipes` acts through the one writer; `OpenSourceRequested` at the office holding
+the Editor), rows re-declared per mode, saved references converted at read. Still host-only:
+drawing beyond prose rows (a caret is a region fact — the Editor's migration pulls it), a
+contextual row, lifecycle and installation. Order by measured delta: Builder, Attention, Info,
+Editor; Layouts, Pane Manager, Terminal and the maker pane stay host this arc.
 
-**Trigger (fired on purpose):** the first migration. The protocol grows one demonstrated contract
-per migration and never becomes a plugin framework, a generic input protocol or same-PaneRef
-multiplicity.
+**Trigger (each migration):** one demonstrated contract at most, never a framework. Follow-on
+hooked: `marks_persist.hpp` drags `persist.hpp` into the weave image (a write helper plus `Written`
+would free it).
+
+### P-WORK-22 — An authored load plan is all-or-nothing, and four panes now ride it
+
+**State:** OPEN — named by the witness, 2026-09-08  
+**Evidence:** `reportbacks/pane-weaves-remaining-RB6.md` ("What the work found", 2); `agents/realization.md` LOAD-0/BOOT-0 (the boot walk stops at a refused row and the host exits, code 4)
+
+A tree without `zengine-info-pane.so` does not open a Workshop with a row saying so: the boot
+walk refuses the row, says "the authored plan was not completed; 10 artifact(s) participated
+before it stopped. Exiting." and exits — as it does for any of the rows ahead of it. Before this
+arc that list held tools; it now holds the pane a maker meets first. The shape this wants is a
+plan whose rows can say whether the host can run without them — realization law and plan
+grammar, Zengine's (`agents/realization.md`), not Loom's; the Loom loads one weave at a time and
+has no plan. Plan grammar is also where P-WORK-18's request lands; the two should be read
+together before either moves.
+
+**Trigger:** the first maker whose pane image fails to build; or the founder's word.
 
 ### P-WORK-04 — Conventional editor expansion should come from use
 
@@ -289,8 +307,11 @@ ellipsis. The pane protocol has keys and a wheel; the introspection pane spends 
 
 **State:** ACT AFTER FATE (VD-21)  
 **Evidence:** `Loom/src/kernel/kernel.cpp:992-998` (the default `allow_any()`; a four-argument
-overload takes a grant); `Zengine/agents/panes.md` INTR-0 ("a declaration proves nothing on its
-own"); `agents/realization.md` LOAD-0 ("nothing signs or restricts one")
+overload takes a grant); `Loom/include/zen/kernel/control.hpp:209` (the control door spends the
+three-argument one); `Zengine/agents/panes.md` INTR-0 ("a declaration proves nothing on its
+own"); `agents/realization.md` LOAD-0 ("nothing signs or restricts one");
+`reportbacks/pane-actions-and-files-RB2.md` (the Files weave's sends, as the request its row
+would carry — the grammar's first real data)
 
 The loaded tier's baseline is `allow_any()`, so `Emit<>` is decorative there and there is nothing
 for a Weaver to approve (GATE-05: a baseline never changes). Direction: the plan row carries a
@@ -302,18 +323,39 @@ may say, not what it may touch.
 
 ### P-WORK-19 — The keymap is a closed catalog in one header
 
-**State:** ACT WITH THE FIRST MIGRATION (VD-19)  
-**Evidence:** `Zengine/workshop/keymap.hpp` — 144 rows, 125 `Act` values, 20 contexts, 391
-comment lines; `agents/workshop.md` rule 3; BL-DEF-03
+**State:** LANDED for pane rows (Zengine PR #15, 2026-09-06): `PaneActions` joins under the collision law at admission, the file wins in both load orders, a Workshop id is refused, dispatch sends the resolved id; BL-DEF-03 rode along  
+**Evidence:** `workshop/keymap.hpp` (`join_pane_rows`), `agents/workshop/keyboard.md`, `agents/decisions/a-pane-declares-its-actions.md`
 
-`Act` and `KeyContext` are closed enums and every gesture is spelled in one `constexpr` array, so a
-pane arriving through the protocol cannot declare an action, and every new row recompiles the
-host. Direction: a pane weave declares its actions; the host assembles the catalog at load and
-runs the collision law then. A constexpr split by owner was considered and superseded — do not do
-it. The prose moves to `agents/decisions/`. BL-DEF-03 (`posix_gap` and ctrl+shift+letter) rides
-the first keymap touch.
+What stands: `Act` and `KeyContext` are still closed for the host's own rows, and shrink as panes
+leave (`kFiles`, `kRecipeChooser`, `kAuthoring` left with Files). The prose still argues in the
+header; it moves to `agents/decisions/` when the file is next touched for a reason of its own.
 
-**Trigger:** the first pane migration needs its keys in the legend.
+### P-WORK-20 — The Builder pane no longer says which recipe catalog is in force
+
+**State:** ACT WITH THE BUILDER MIGRATION  
+**Evidence:** `reportbacks/pane-actions-and-files-RB2.md` divergence 4; `agents/workshop/project.md` WL-PROJ-09; `Zengine/builder/vocabulary.hpp` (`RecipeCatalog` v1 is `{recipes}`, no source)
+
+The row that named the catalog file read `Session::recipes_moved_to`, which left with the
+built-in browser; `RecipeCatalog` carries no source path, so nothing in the host could keep the
+row honest and it was retired with the loss written down. Restoring it is `RecipeCatalog` v2 with
+a `source` field — one producer (the builder tool), one consumer (the Builder pane) — an exported
+shape, so it takes the packaging witness with it. The Builder pane weave is its natural consumer.
+
+**Trigger:** the Builder migration; or sooner at the founder's word.
+
+### P-WORK-21 — The Composer still matches raw keys
+
+**State:** OPEN — QR-sized  
+**Evidence:** `Zengine/composer/composer.cpp`; `reportbacks/pane-actions-and-files-RB.md` Pressure 3 and 4
+
+The Composer answers Up/Down/Return/Escape/Tab from raw `PaneKey`, so its keys are in no legend
+and no maker's file moves them — the state Powers was in before PR #15. Declaring them is the
+same change Powers took. Companion of the same size: a pane row's authored gesture gets no
+`posix_gap` note at admission (a maker who moves `powers.view` onto `shift+1` is not told a
+terminal cannot press it) — one sentence in `join_pane_rows`.
+
+**Trigger:** a maker reaches for the Composer's keys in the band or in a keymap file; or the next
+touch of `composer.cpp`.
 
 ## 4. Build and verification pressure
 
