@@ -4,8 +4,8 @@
 **Refreshed:** 2026-09-10  
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
-**Current product direction:** finish the Editor extraction, then sender fate immediately next (VD-25); continue the IDE-loop road (§6)
-**Current execution state:** [Workshop Goal Map](goals/workshop.md) owns capability and migration status; this consolidation issues no implementation prompt
+**Current product direction:** park Editor PR #23 unmerged; sender fate in Loom next, then resume Editor integration and acceptance (VD-27); continue the IDE-loop road (§6)
+**Current execution state:** [Workshop Goal Map](goals/workshop.md) owns the parked extraction; [sender-fate research](../reportbacks/sender-fate-research-RB.md) scopes the next packet; implementation awaits its own prompt
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -189,14 +189,16 @@ Nearer follow-ons that remain pressure-driven include pane Inspect (the Terminal
 the timed auto-revert, source search/Unicode/multiple documents, and a graphical Flow projection.
 None is automatically next merely because its seam is visible.
 
-**Sequence selected 2026-09-10 (VD-25): finish the Editor extraction, then sender fate
-immediately next.** Large host files made individual panes difficult to reason about, which is
-why the founder brought separation forward. The remaining pane should leave before Loom's fate
-work so each consumer can then be considered at its own owner.
+**Sequence selected 2026-09-10 (VD-27): park Editor PR #23 unmerged, do sender fate in
+Loom, then return to Editor integration and acceptance.** The extraction remains useful work,
+but another full correction cycle is no longer the selected next step. This revises VD-25's
+requirement to finish the last extraction before fate; it accepts neither the PR nor weaker
+document/presentation/input guarantees.
 
-VD-20 still orders fate before the progress/closing-answer conversation. VD-21's row-requested
-authority, Weaver seat, and approval surface remain selected work downstream of fate; this
-consolidation does not insert them before the Editor or declare them implemented. The
+VD-20 still separates dispatch-refusal notification from progress/closing answers. The first
+phase does not supply timeout, cancellation, or notice of a delivered request abandoned later.
+Its research is [sender-fate scope and sequencing](../reportbacks/sender-fate-research-RB.md).
+VD-21's authority workflow remains downstream selected work with its own scope. The
 [Workshop Goal Map](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns migration status.
 New-weave production and Flow remain behind this sequence, with no production packet selected.
 

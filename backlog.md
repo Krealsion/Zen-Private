@@ -42,6 +42,20 @@ tool's source” path.
 
 **Boundary:** this does not itself authorize a plugin SDK or an installation system.
 
+### BL-WORK-03 — Resume the Editor extraction after sender fate
+
+**State:** PARKED BY FOUNDER (VD-27)
+
+**Owed:** Resume PR #23 from its preserved branch for bounded integration and acceptance.
+The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the remaining
+transaction/input obligations. The PR is unmerged and unaccepted; parked does not mean waived.
+
+**Wake:** the scoped sender-fate phase is ready for consumer integration. Start with a concrete
+transaction argument using the capabilities actually delivered; name further missing capability
+before implementation rather than assuming dispatch fate supplies conversation settlement.
+
+**Evidence:** founder's 2026-09-10 sequence decision; [research](../reportbacks/sender-fate-research-RB.md).
+
 ## 3. Bounded defects and quick repairs
 
 ### BL-DEF-01 — Sandbox view-root cleanup after refusal

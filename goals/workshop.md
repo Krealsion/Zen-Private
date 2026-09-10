@@ -3,8 +3,8 @@
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
 **Refreshed:** 2026-09-10  
 **Strategic authority:** `private/zen-strategic-map.md`  
-**Current direction:** finish Editor extraction, then sender fate immediately next (VD-25); the IDE loop remains the product road
-**Current execution state:** pane status and sequence are in §7; this consolidation issues no implementation prompt
+**Current direction:** park Editor PR #23 unmerged; sender fate in Loom next, then resume Editor integration and acceptance (VD-27); the IDE loop remains the product road
+**Current execution state:** pane status and the resume boundary are in §7; sender-fate research is complete, and implementation awaits its own prompt
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -300,10 +300,20 @@ corrections are accepted with PR #22; it supplies `PaneCaret` ahead of the Edito
 the final extraction in this arc.** Layouts, Pane Manager, and the maker pane remain host-owned
 under the arc's current boundary, not as exceptions to the long-term peer-tool direction.
 
-**Founder decision, 2026-09-10 (VD-25): finish Editor, then sender fate immediately next.**
-Splitting the large host first makes each pane's use of fate understandable at its own owner.
-Fate precedes the progress/closing-answer work in VD-20 and the authority workflow in VD-21;
-those earlier ambitions remain selected, but are not prerequisites for finishing the Editor.
+**Founder decision, 2026-09-10 (VD-27): park Editor PR #23 unmerged, do sender fate in
+Loom, then return for bounded integration and acceptance.** The extraction is not accepted.
+Preserve its work and the reproduced failures: the intended source is absent at the claimed
+commitment, the held-paste outcome changed, and the new hold queue can lose input. A green
+lane does not waive those guarantees.
+
+[Sender-fate research](../../reportbacks/sender-fate-research-RB.md) scopes the first phase to
+sender-visible dispatch refusal. It will not itself repair the opening transaction or report
+every conversation abandoned after delivery. Resume Editor by stating when document and
+presentation agree, how intervening input retains its subject, and what replacement does to
+pending work; name any further missing capability before another implementation pass.
+The parked obligation is [BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate).
+Progress/closing answers (VD-20) and the authority workflow (VD-21) remain separate selected
+work; the first fate phase does not silently acquire them.
 
 The extraction must preserve the current document's ownership/lifetime guarantees and the
 component behaviors previously supplied by the host. Route through `Zengine/agents/workshop.md`,

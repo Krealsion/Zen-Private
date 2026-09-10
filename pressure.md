@@ -23,8 +23,9 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-Finish the Editor extraction (P-WORK-03), then sender fate immediately next (P-LOOM-02), as
-selected by the founder on 2026-09-10 (VD-25). Entry status is pressure, not a production prompt.
+Park Editor PR #23 unmerged (P-WORK-03), do sender fate in Loom next (P-LOOM-02), then
+resume Editor integration and acceptance, as selected on 2026-09-10 (VD-27). Entry status is
+pressure, not a production prompt.
 
 ## 3. Workshop product pressure
 
@@ -65,7 +66,8 @@ a pointed pane without walking the list, or the document editor's retirement is 
 
 ### P-WORK-03 — The pane protocol is what a provider can say, and the built-ins need more
 
-**State:** IN PROGRESS — Files (PR #16), the Builder (#17), Attention (#19), Info (#20, on the geometry of #21), the Terminal (#22, with its review corrections) landed; the Editor is the last migration; it inherits `PaneCaret`, `pane_text.hpp`, VM-FIX-23/24 (a seam is crossed operation by operation; late answers are staged by batching without draining)  
+**State:** PARKED FOR SELECTED SUBSTRATE WORK (VD-27) — Files (PR #16), Builder (#17), Attention (#19), Info (#20), and Terminal (#22) landed; Editor PR #23 remains unmerged and unaccepted. [The Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns its resume boundary.
+
 **Evidence:** `Zengine/agents/panes.md`; `agents/workshop/files.md` (WL-FILES-16/17); `reportbacks/pane-actions-and-files-RB2.md`; `reportbacks/pane-weave-research-RB.md` E5
 
 The shared protocol now carries prose, actions, pointer/key/text/wheel input, and `PaneCaret`.
@@ -389,7 +391,8 @@ to keep the abstraction warm.
 
 ### P-LOOM-02 — Sender-visible fate and unresolved obligations are still separate questions
 
-**State:** NEXT AFTER EDITOR (VD-25); fate first, then the obligation conversation (VD-20; Loom-tier)  
+**State:** SELECTED NEXT (VD-27); research complete, implementation not started. Dispatch fate first; further obligation semantics remain separate (VD-20; Loom-tier).
+
 **Evidence:** Loom messaging/answer law, recent raw architecture synthesis
 
 Ordinary senders are not told their send's dispatch fate. `AskBook` records an asker's pending
@@ -402,13 +405,15 @@ and made TerminalSession a consumer. It did not implement sender fate or progres
 `Loom/docs/reference/messaging.md` (the asker's book), `docs/reference/known-seams.md`
 (sender fate), and `tests/test_terminal.cpp` (a dispatch denial remains invisible to the sender).
 
-The founder selected sender fate immediately after the Editor on 2026-09-10. Scope the first
-implementation from VD-20's dispatch-refusal outcomes; do not silently turn it into guarantees of
-delivery, semantic success, timeout, cancellation, or eventual settlement.
+The founder now parks the unmerged Editor extraction and selects sender fate first (VD-27).
+[The research](../reportbacks/sender-fate-research-RB.md) distinguishes dispatch refusal from
+later conversation abandonment and recommends TerminalSession as the first consumer. Scope
+implementation from VD-20's dispatch-refusal outcomes; do not silently turn it into guarantees
+of delivery, semantic success, timeout, cancellation, or eventual settlement.
 
 **Selection basis:** the former consumer trigger fired on 2026-09-06: Builder progress, the
 Weaver's pending approval, and realization's waiting row (VD-20). It is not an unmet gate.
-VD-25 now places fate immediately after Editor; further obligation semantics still need a scoped
+VD-27 places fate before resuming Editor. Further obligation semantics still need a scoped
 task grounded in those consumers, not a framework derived from vocabulary alone.
 
 ### P-LOOM-03 — A policy delegate can die while its installed authority survives

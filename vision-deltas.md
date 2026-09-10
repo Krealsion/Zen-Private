@@ -261,7 +261,7 @@ Workshop — an ordinary participant with approve/refuse/revoke/describe, TERM-0
 hand. `allow_any()` retires as the loaded-tier default when the row carries a request and the seat
 exists. Authority dependency order: fate (VD-20) → the row carries a request → seat and modal →
 migrations under real grants. The founder later advanced separation ahead of this authority work;
-VD-25 is the current sequencing decision. In-process, what this governs is what a pane may say — legibility of
+VD-27 is the current sequencing decision. In-process, what this governs is what a pane may say — legibility of
 composition, not defense against a hostile image.
 
 ### VD-22 — A pane's keys act only after the maker has pointed at the pane
@@ -291,7 +291,7 @@ Refused: a placement field on `PaneOffered` (the first sentence in which a pane 
 goes — the "wants keys" crack by another name) and keeping the column for one office by rule.
 A long-standing wish of the founder's — Info as a pane — that the arc reached on its own. The
 order at this decision was geometry, then Info's second stage, then Editor. VD-24 subsequently
-added Terminal; the Workshop Goal Map owns current status and VD-25 owns the revised sequence.
+added Terminal; the Workshop Goal Map owns current status and VD-27 owns the current sequence.
 
 ### VD-24 — The Terminal is a pane too; the founder's theory of the arc
 
@@ -310,11 +310,12 @@ migration measures first and stops if the participant it reads by pointer today 
 (the Loom fence; VD-20's neighbourhood). Its cursor is a caret — whichever of the Terminal and the
 Editor migrates first pulls the caret-and-selection shape, and the other reuses it. This decision
 kept the measured overlap in place until migration, with no interim patch. Terminal has since
-landed; current status belongs to the Workshop Goal Map, and the next-work order to VD-25.
+landed; current status belongs to the Workshop Goal Map, and the next-work order to VD-27.
 
 ### VD-25 — Finish the Editor extraction, then sender fate immediately next
 
-**Status:** INCORPORATED (2026-09-10, founder in the Vision consolidation conversation)  
+**Status:** SEQUENCING SUPERSEDED BY VD-27 (2026-09-10); retained for the decision's rationale
+
 **Destinations:** Strategic Map §6; Workshop Goal Map §7; pressure P-WORK-03 and P-LOOM-02
 
 The size of the host files made further additions difficult to reason about. The founder brought
@@ -337,6 +338,20 @@ An architectural-fit review comes before implementation and again before accepta
 the whole arrangement and known next consumers. A conflict can require correcting code, tests,
 or prose; no rule orders an automatic downward repair. Necessary future costs are explicit
 decisions. This does not authorize speculative frameworks or ignoring required verification.
+
+### VD-27 — Park Editor, do sender fate, then resume acceptance
+
+**Status:** INCORPORATED (2026-09-10, founder in the Vision conversation)
+
+**Destinations:** Strategic Map §6; Workshop Goal Map §7; pressure P-WORK-03/P-LOOM-02; backlog BL-WORK-03
+
+After reviewing Editor Corrections Part 3, the founder accepts parking PR #23 unmerged,
+preserving its work and failure cases, doing sender fate in Loom next, then returning for a
+bounded integration/acceptance pass. This changes the sequence, not the Editor's guarantees
+or the PR's acceptance status. Vision's [research](../reportbacks/sender-fate-research-RB.md)
+distinguishes VD-20's dispatch-refusal phase from later conversation abandonment; the first
+does not promise to repair the remaining application transaction. Its proposed API remains
+research until an implementation task selects it.
 
 ## 3. Seeded candidates — deliberately not promoted
 
@@ -424,7 +439,7 @@ let the C++ compiler parse C++.
 
 ## 5. Current ledger state
 
-VD-01 through VD-26 are incorporated decisions. Seeded candidates above remain unpromoted except
+VD-01 through VD-27 record founder decisions; VD-25's sequence is superseded by VD-27. Seeded candidates above remain unpromoted except
 where an individual entry explicitly names a later incorporated decision. The
 [Workshop Goal Map](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns the current
 sequence; this index does not maintain a second work queue. Raw source stays in
