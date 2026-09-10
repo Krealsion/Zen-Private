@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-06  
+**Refreshed:** 2026-09-10  
 **Strategic authority:** `private/zen-strategic-map.md`  
-**Current direction:** the pane-weave arc on the IDE-loop road — the built-in panes become participating weaves (VD-19); send fate and row-requested authority precede it (VD-20, VD-21)  
-**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); `PaneActions` (PR #15) and Files as a weave (PR #16) landed 2026-09-07 — the first migration of the pane-weave arc; the Builder migration is next; new-weave research landed, its production waiting behind the arc; nothing else is authorized by this map  
+**Current direction:** finish Editor extraction, then sender fate immediately next (VD-25); the IDE loop remains the product road
+**Current execution state:** pane status and sequence are in §7; this consolidation issues no implementation prompt
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -24,7 +24,7 @@ The beginner and the expert should perform the same underlying act. Convenience 
 ceremony; it must not hide a different privileged mechanism.
 
 Since 2026-09-06 the peer sentence above is direction, not aspiration (VD-19): every pane a maker
-sees inside Workshop is a participating weave loaded from the plan, and Workshop itself keeps
+sees inside Workshop should become a participating weave loaded from the plan. Workshop keeps
 room, focus, realization and roots. A built-in pane written as C++ inside the host is the debt
 this arc pays, one pane at a time.
 
@@ -95,10 +95,10 @@ installation truth
     executable and shipped default plans/recipes/artifacts
 ```
 
-Project means the launch directory unless an explicit path for a particular project file says
-otherwise. WUX-3 removed accidental CWD ownership from user config/state; it did not abolish CWD as
-the current project identity. EDIT-R1 found that this project root exists only as documented prose,
-not as one captured production value.
+The host captures the launch directory once as `HostContext::project_dir`; a failed capture is
+explicit absence. User config/state have their own roots. Relative recipe sources resolve against
+that captured project before either Editor or Builder uses them. Current law and witnesses:
+`Zengine/agents/workshop/project.md` (WL-PROJ-01, WL-PROJ-02).
 
 ### Authored, resolved, and presented
 
@@ -227,9 +227,8 @@ WUX left five product truths:
 
 Compile-judged tests no longer configure or regenerate the main Zengine build tree. They use an
 isolated fixture tree and serialize only that writer. Two concurrent build operations use two build
-trees. Workshop's former 30k-line test translation unit is six semantic suites plus shared support,
-so Linux parallel verification is about 9 seconds rather than about a minute without losing the
-population contract.
+trees. Workshop's tests are split by semantic ownership with shared support. The repository
+verification routes own the current population and lane measurements.
 
 Loom removed its unused SDL executor, demo, tests, FetchContent graph, and licensing edges only
 after proportional type metrics and the medium-agnostic outline law moved into portable coverage.
@@ -252,71 +251,13 @@ language tooling, or create a generic multiline widget hierarchy.
 
 ## 6. EDIT-1 — Choose What to Edit — LANDED
 
-Landed 2026-09; the completion sentence below is now true. Kept as the record of what was chosen;
-the surviving law is `Zengine/agents/workshop/project.md` and `editor.md`.
+With no useful Builder source selected, a maker can navigate Project Files within the captured
+project root, open a source through the Editor's one path door, edit and save it, then use Builder
+independently. Editor and build share the resolved source path; dirty refusal and byte custody
+remain the Editor's responsibility.
 
-### Product completion sentence
-
-With no useful Builder source selected, a maker can open Project Files, navigate inside the project
-root, open a source through the Editor's one path door, edit it, save it, and then use Builder
-independently.
-
-### Implementation-ready architecture from EDIT-R1
-
-1. **Capture project truth once.** The host reads the launch directory in error-code form into
-   `HostContext::project_dir`. Failure becomes an explicit absence; no fallback guess.
-2. **Factor one open door.** The Builder-agnostic tail of `edit_source` becomes a private
-   `open_source(path, mail)` seam. It retains reveal, dirty refusal, bounded read, byte admission,
-   trial seating, epoch, viewport, focus, and notices.
-3. **Normalize identity at entry.** Every caller supplies one resolved absolute,
-   lexically-normal spelling with one separator convention. Display is a projection; it never
-   becomes identity. Windows case-folding remains an explicit residual until platform evidence
-   earns more.
-4. **Add Project Files as an ordinary fourth pane.** It gets picker participation, arrangement,
-   setup persistence, and context rows through the catalog rather than special casing.
-5. **Keep rows small.** A row is `{exact name, file|directory}`. Current directory is a stack of
-   entered names below the root. Path meaning derives at activation; rows hold no build facts,
-   editor state, handles, or ownership guesses.
-6. **Refresh at explicit truth points.** Recompute on pane open/seat, navigation, explicit Refresh,
-   and a finished `BuildStatus`. Never enumerate on every paint; no watcher or polling.
-7. **Use existing interaction patterns.** Files becomes the second catalog-declared keyboard-taking
-   built-in, which earns a catalog `takes_keyboard` fact. Up/Down, Return, parent, Refresh, wheel,
-   press-select plus Return/second-press all fit existing routes. Double-click is not representable
-   and must not be promised.
-8. **Builder becomes one caller.** Its recipe discovery and its current recipe-kind refusals remain;
-   the resolved path enters the same door Project Files uses. Project Files never learns recipes.
-9. **Persist nothing new.** The pane row already persists. Browser directory, cursor, scroll, and
-   Editor source path remain session/presentation state until use earns otherwise.
-
-One pre-existing path defect must be handled face-up: relative `single_source` spellings resolve
-against CWD in Editor/preflight but against the generated workspace in the build. Normalizing the
-Editor entrant fixes duplicate document spellings, not generated-CMake meaning. EDIT-1 must either
-resolve both against project truth or state/refuse the relative case; it may not keep claiming the
-edited and built files are necessarily identical for that spelling.
-
-### Decisions to settle in the production prompt
-
-These are bounded product choices, not architecture research:
-
-- directories-first versus one bytewise ordering;
-- whether hidden names are shown, filtered, or made toggleable;
-- refuse entry into link-directories versus allow it and state that the physical target may be
-  outside the root; if refusal is chosen, witness NTFS junction behavior;
-- pointer activation rule: select-then-Return/second-press versus immediate picker-style open;
-- remove the write-only `EditorState::recipe` or give it one truthful presentation use;
-- add `--project` now or keep the launch directory as the only project-root authority for this
-  phase.
-
-Non-ASCII names should remain visible as marked, sanitized rows but refuse activation while path
-custody is narrow-string and the Editor is byte-column based. Unsupported file contents are the
-Editor's refusal, not the browser's.
-
-### Explicit exclusions
-
-No tabs, recent files, recursive index, fuzzy search, file create/delete/rename, file watching,
-whole-filesystem browsing, VFS, generic tree widget, language registry, syntax highlighting,
-provider-declared file list, source ownership inference, build ownership in Editor, hot reload, or
-live replacement.
+Current owners: `Zengine/agents/workshop/project.md`, `editor.md`, and `files.md`.
+The old production checklist and its decisions are history in the EDIT-1 reports and Git.
 
 ## 7. The next maker loop after EDIT-1
 
@@ -352,31 +293,35 @@ on closing without promoting — the pressure for a general popup/modal feature;
 Do not let Project Files store the future joins. It should remain an honest file navigator even if
 the build/reload architecture later changes.
 
-**The arc before the remaining joins (2026-09-06, VD-19).** The built-in panes migrate onto the
-pane protocol as participating weaves, in the order the research measured by smallest protocol
-delta. Landed 2026-09-07: `PaneActions`/`PaneActionRequested` (Zengine PR #15, Powers the first
-consumer) and Files as a weave (PR #16 — three host doors, rows re-declared per mode, saved
-references converted at read, the built-in gone, −80 KB of host). Next the Builder, carrying
-`RecipeCatalog` v2 for the catalog-source row it lost (P-WORK-20); then Attention, Info, the
-Editor last (caret and selection are the contract it pulls). Layouts, the Pane Manager, the Terminal
-and the maker pane stay host this arc. Replacing a migrated pane with a differently-shaped one is
-item 5 above with a case. New-weave production follows the first migrations. Attention landed
-(PR #19, one new sentence: `StandingConditions`). Info's first stage landed (PR #20: the host
-owns the document, `DocumentShown` is the picture, four acts are asks) and stopped on the
-reserved side column; the founder retired the reservation (VD-23): room is the whole screen, a
-shipped default setup opens Info at the right edge, and the geometry PR precedes Info's second
-stage. The geometry landed (PR #21): the room is the screen, the right column is a place a desk
-row may name, the one-time resize of %-shares accepted by the founder. The Terminal migrates too
-(VD-24) — it pulls the caret shape ahead of the Editor and wears a boundary by construction; the
-stays-host list is now Layouts, the Pane Manager and the maker pane. Order: Info stage 2, the
-Terminal, the Editor.
+### Pane extraction: current status and next work
+
+Files, Builder, Attention, Info, and Terminal have landed as pane weaves. Terminal's review
+corrections are accepted with PR #22; it supplies `PaneCaret` ahead of the Editor. **Editor is
+the final extraction in this arc.** Layouts, Pane Manager, and the maker pane remain host-owned
+under the arc's current boundary, not as exceptions to the long-term peer-tool direction.
+
+**Founder decision, 2026-09-10 (VD-25): finish Editor, then sender fate immediately next.**
+Splitting the large host first makes each pane's use of fate understandable at its own owner.
+Fate precedes the progress/closing-answer work in VD-20 and the authority workflow in VD-21;
+those earlier ambitions remain selected, but are not prerequisites for finishing the Editor.
+
+The extraction must preserve the current document's ownership/lifetime guarantees and the
+component behaviors previously supplied by the host. Route through `Zengine/agents/workshop.md`,
+`agents/panes.md`, and `agents/verification/fixtures.md` rather than copying their checklists here.
+The Terminal findings specifically earned request-context checks, staged late answers, and
+preservation of undo/normalization behavior across the move.
+
+The founder's ceremony audit belongs alongside the development: assess the number and complexity
+of actions needed for a concrete intent, including what the maker must know to choose them.
+This is product pressure, not authorization for a new interaction framework. New-weave production
+and Flow are not selected by this consolidation; a future task supplies its own scope and evidence.
 
 ## 8. Live pressure and deliberate restraint
 
 The nearest product pressures are:
 
 - pane default height and one-cell keyboard resizing are still tedious;
-- pane Inspect needs a general inspectable subject rather than the current object-only selection;
+- pane editing needs a contextual acquisition door and richer spatial facts (P-WORK-02);
 - search is the first likely conventional editor demand after real use;
 - Unicode source editing needs a representation/geometry answer, not merely a UTF-8 decoder;
 - provider-contributed context rows require a deliberate protocol extension;
@@ -421,40 +366,12 @@ or verification volume standing in for a claim-specific witness.
 
 ## 11. Current one-page view
 
-```text
-PURPOSE
-    let a person build with Zen and feel the ideas rather than study a private architecture course
+- **Purpose:** let a person build with Zen without first studying a private architecture course.
+- **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
+  inspect it, and explicitly promote or revert. See §2 for the complete current capability.
+- **Remaining IDE joins:** pane-to-source provenance and changed-shape replacement (§7).
+- **Selected sequence:** the pane status and founder's current order have one home in §7.
+- **Success:** a maker understands what acted, what failed, and what to do next without losing
+  their authored work. Each production task states its own completion evidence.
 
-CURRENT CAPABILITY
-    authored project plan + build recipes, both authorable from inside Workshop
-    inspectable arrangement and power stack
-    persistent, arrangeable desk in TUI and SDL
-    one action/key/context truth
-    standing Attention distinct from event notices
-    one competent source editor, reachable from Project Files and Builder
-    maker-driven edit -> save -> build -> reload in place (state kept) -> promote or revert
-    pick buildable -> author a recipe row -> load it -> author a plan row
-
-CURRENT LIMIT
-    a source is not yet reachable from the pane that draws it; a changed shape is refused, not replaced
-
-NEXT DIRECTION
-    the pane-weave arc (VD-19): PaneActions (#15) and Files (#16) landed 2026-09-07. Next the
-    Builder migration, carrying RecipeCatalog v2 (P-WORK-20); then Attention, Info, the Editor.
-    Preconditions in parallel: send fate then obligation (Loom, VD-20); the plan row as authority
-    request, the Weaver seat and its approval modal (VD-21). New-weave production (VD-18, research
-    landed) follows the first migrations. Still on the board: pane -> source provenance
-    (P-WORK-06); the changed-shape rung (P-WORK-07), now with a case -- a differently-shaped pane
-
-COMPLETION FALSIFIER
-    none selected; the next prompt states its own
-
-NEXT LONG LOOP
-    pane -> source provenance -> edit -> build -> reload in place or explicit replacement
-
-DO NOT PROMOTE YET
-    tabs, VFS, watcher, provider file protocol, language IDE, generic Flow UI, hot reload framework
-
-CORE EXPERIENCE
-    boundaries remain; they stop being cliffs
-```
+No horizon or old implementation checklist on this page selects a production task.

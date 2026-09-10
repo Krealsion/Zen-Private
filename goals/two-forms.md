@@ -1,7 +1,12 @@
-Design answer (Joshua, with Vision), 2026-09-05, reached while reviewing Zengine PR #10 — the
-`maker/` package, the live form's runtime. The direction of the maker arc from here. Only the live
-form is built; everything else below is a road, named so the next Vision inherits a decision and
-not a re-derivation.
+# Two forms and Flow
+
+**Status:** HORIZON — a design exploration, not the current work sequence  
+**Current direction:** [Strategic Map](../zen-strategic-map.md) and [Workshop Goal Map](workshop.md)
+
+Design answer (Joshua, with Vision), 2026-09-05, reached while reviewing Zengine PR #10.
+`maker/` supplies the live interpreted form and is paused pending its consumer. The remaining
+ideas below describe the horizon; they do not authorize implementation or override generated C++
+as the selected default. Preserve hypotheses as hypotheses when researching a future consumer.
 
 **The decision: both forms, one bridge.**
 - **The live form** is the definition, interpreted by `maker/`: rapid, inspectable to the last
@@ -62,9 +67,9 @@ like a beloved mod, and become the default (the vision's "same stuff", "find wha
   and runs a compiler is the most powerful thing a recipient is asked to trust — provenance
   first (the vision's seventh line; the identity phase).
 
-**What it changes for the panel phase.** The operator ladder is a requirement, not a footnote:
+**Implications for a future Flow phase, when selected.** The operator ladder is a requirement, not a footnote:
 writing and mounting a raw node must be as smooth as snapping one, or the wall returns through
 the side door. A visible indicator of the form being edited. The definition kept as the artifact
 after completion, so the live view is never lost.
 
-See [[identity-phase]] for the author-identity and re-consent rules both forms will meet.
+See [identity design](identity-phase.md) for the author-identity and re-consent rules both forms will meet.

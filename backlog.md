@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-07  
+**Refreshed:** 2026-09-10  
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -76,16 +76,7 @@ not alter Zengine's own SDL3 skin or the sibling-Loom dev path.
 
 ## 4. Verification and process
 
-### BL-VER-01 — Publish the mutation-evidence discipline once
 
-**State:** OWED / HIGH VALUE  
-**Owed:** Add one short routed verification law covering canary first, exact mutation application,
-rebuild before judgment, predicted blast radius, meaningful RED rather than any crash, artifact
-separation, checksum restore, and a final green. Include known harness traps only where they remain
-current; do not build a generic mutation framework.
-
-**Wake:** next substantial mutation campaign or a new executor expected to run one without report
-archaeology.
 
 ### BL-VER-02 — Resolve the hosted/advisory Zengine MSVC result
 
@@ -95,7 +86,7 @@ MSVC stranger/full lanes. Repair the mechanism or claim; do not merely broaden a
 
 **Wake:** authenticated CI access or before upgrading the Windows support promise.
 
-## 4. ABI, adoption, and release
+## 5. ABI, adoption, and release
 
 ### BL-ABI-01 — Positional aggregate ABI hazard
 
@@ -133,7 +124,7 @@ latency claims without claim-specific measurements.
 **Wake:** first material performance promise, observed bottleneck, or adoption decision that
 depends on performance.
 
-## 5. Architectural debt that waits for pressure
+## 6. Architectural debt that waits for pressure
 
 ### BL-ARCH-01 — Cross-layer public include debt
 
@@ -154,7 +145,7 @@ consolidate it without deleting the enforceable law or proof history.
 **Wake:** a cold reader cannot find the owner without phase names, or a routed current-law file's
 growth materially slows every task touching that surface.
 
-## 6. Explicitly not backlog
+## 7. Explicitly not backlog
 
 The following remain trigger-governed horizons or pressure, not owed cleanup:
 

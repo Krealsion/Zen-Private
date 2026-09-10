@@ -1,7 +1,7 @@
 # Zen Vision Delta Index
 
 **Status:** PRIVATE LIVE PROVENANCE INDEX  
-**Refreshed:** 2026-09-06  
+**Refreshed:** 2026-09-10  
 **Role:** compact routing of strategic decisions and unincorporated candidates  
 **Raw source:** `private/raw-vision-deltas.md`  
 **Current authority:** consequences live in the Strategic Map, Goal Maps, pressure, backlog, or
@@ -103,8 +103,8 @@ existence, realization eligibility, and live replacement are separate facts.
 **Status:** INCORPORATED  
 **Destinations:** Workshop Goal Map and routed pane law
 
-A pane is not a weave. Provider route, pane kind, PaneRef, mounted instance, and presentation are
-different identities. Workshop owns catalog resolution, room, bounds, clipping, ordering, paint/hit,
+A pane identity is not a weave identity. Provider route, pane kind, PaneRef, mounted instance,
+and presentation are different identities, including when a participating weave presents the pane (VD-19). Workshop owns catalog resolution, room, bounds, clipping, ordering, paint/hit,
 recovery, and retained bounded content. A provider owns the meaning it publishes inside the grant.
 
 ### VD-10 — A project desk is durable without becoming the document
@@ -156,7 +156,7 @@ moving accepted-HEAD board. Current law is rewritten by subject; chronicles stay
 ### VD-15 — Hand-offs carry state and lessons, never direction
 
 **Status:** INCORPORATED (2026-09-05)  
-**Destinations:** `private/handoffs/Zen-FCO-v2.md` §2, §7 (the first read for any Vision); Strategic Map process doctrine
+**Destinations:** `private/handoffs/Zen-FCO-v2.md` (first read); `zen-orientation.md` §8
 
 Two September Vision sessions proposed and drove an interpreted maker-authored weave as "Phase 2"
 through their hand-offs; no live authority had selected it, and the next Vision inherited the frame.
@@ -193,7 +193,7 @@ are installation truth no maker gesture writes.
 ### VD-18 — Generated C++ is the default form; the definition is for live concept-testing
 
 **Status:** INCORPORATED (2026-09-06, the founder's word)  
-**Destinations:** `Zen-FCO-v2.md` §4, §6; Strategic Map §6; Workshop Goal Map §11; `private/goals/two-forms.md` (horizon)
+**Destinations:** Strategic Map §6; Workshop Goal Map §7; `private/goals/two-forms.md` (horizon)
 
 The schema builder authors source — the `ZEN_SHAPE` and the weave's boilerplate, written into
 C++ the maker holds — not a definition document. `maker/`'s definition is for live, fast testing
@@ -201,13 +201,14 @@ of a concept and, later, the blueprint durable code is generated from (two-forms
 default it is one more layer between a maker, their intent and the machine, and a person who can
 code should not meet it by default. `maker/` stays paused. The emitter that turns (name, version,
 fields) into a `ZEN_SHAPE` is one function whether a form feeds it now or a definition feeds it
-later — a seam to name, not to build. The phase chosen from FCO §6's candidates is the head of
-the §4 flow: a new weave authored from Workshop, research first (`prompts/new-weave-research.md`).
+later — a seam to name, not to build. At this decision the founder chose research into a new
+weave authored from Workshop (`prompts/new-weave-research.md`). Later sequencing lives in the
+Workshop Goal Map; the research choice is not a standing production authorization.
 
 ### VD-19 — Workshop's panes are participating weaves; the host is room, focus, realization, roots
 
 **Status:** INCORPORATED (2026-09-06, the founder's word)  
-**Destinations:** Strategic Map §3, §6; Workshop Goal Map §1, §4, §7, §11; `Zen-FCO-v2.md` §1, §4, §6, §8; pressure P-WORK-03, P-WORK-07, P-WORK-19
+**Destinations:** Strategic Map §3, §6; Workshop Goal Map §1, §4, §7, §11; `private/handoffs/Zen-FCO-v2.md`; pressure P-WORK-03, P-WORK-07, P-WORK-19
 
 The founder, on reading `keymap.hpp` (144 rows in one catalog) and `screen.hpp` (151 KB): Loom
 supports healthy development only if used correctly, and the built-in panes were written as C++
@@ -244,7 +245,7 @@ lands before the first shape collision, so it arrives as a sentence.
 ### VD-21 — Authority: the plan row asks; the host's policy decides; the Weaver is the hand
 
 **Status:** INCORPORATED (2026-09-06, the founder's word)  
-**Destinations:** Strategic Map §3, §6, §8; Workshop Goal Map §4, §11; `Zen-FCO-v2.md` §4; pressure P-WORK-15, P-WORK-18
+**Destinations:** Strategic Map §3, §6, §8; Workshop Goal Map §4, §11; `private/handoffs/Zen-FCO-v2.md`; pressure P-WORK-15, P-WORK-18
 
 Today every artifact the Kernel loads gets `allow_any()` (`Loom/src/kernel/kernel.cpp:992-998`;
 the four-argument overload takes a grant). The founder: the plan row is a request at best —
@@ -258,8 +259,9 @@ needs it brokers the action) — a horizon the substrate earns, noted here, not 
 modal is the lever (P-WORK-15's general modal gains its second consumer); the Weaver's seat in
 Workshop — an ordinary participant with approve/refuse/revoke/describe, TERM-0's shape — is the
 hand. `allow_any()` retires as the loaded-tier default when the row carries a request and the seat
-exists. Dependency order: fate (VD-20) → the row carries a request → seat and modal → migrations
-under real grants. In-process, what this governs is what a pane may say — legibility of
+exists. Authority dependency order: fate (VD-20) → the row carries a request → seat and modal →
+migrations under real grants. The founder later advanced separation ahead of this authority work;
+VD-25 is the current sequencing decision. In-process, what this governs is what a pane may say — legibility of
 composition, not defense against a hostile image.
 
 ### VD-22 — A pane's keys act only after the maker has pointed at the pane
@@ -271,7 +273,8 @@ Command-mode keys that act on a pane's subject retire with the pane: `b` builds 
 maker has pressed into the Builder. Nothing does something "by default" from anywhere. Richer
 routes — buttons, hovering a pane to hand it the keys, Workshop mapping a key to a weave's action
 itself ("weaves relying on other weaves is not a bad thing") — are later UX with many options,
-none of them a default now. The migration order is unchanged; the Builder is next.
+none of them a default at that decision. Builder was next then; the Workshop Goal Map owns
+the current migration status and sequence.
 
 ### VD-23 — The reserved side column retires; Info is an ordinary pane
 
@@ -286,8 +289,9 @@ pane like the browser and the Builder, and a shipped default setup opens it at t
 a fresh session looks as it did while the strip beneath is ordinary room a maker can take back.
 Refused: a placement field on `PaneOffered` (the first sentence in which a pane says where it
 goes — the "wants keys" crack by another name) and keeping the column for one office by rule.
-A long-standing wish of the founder's — Info as a pane — that the arc reached on its own. Order:
-the geometry PR first, its own witness; then Info's second stage; then the Editor.
+A long-standing wish of the founder's — Info as a pane — that the arc reached on its own. The
+order at this decision was geometry, then Info's second stage, then Editor. VD-24 subsequently
+added Terminal; the Workshop Goal Map owns current status and VD-25 owns the revised sequence.
 
 ### VD-24 — The Terminal is a pane too; the founder's theory of the arc
 
@@ -304,8 +308,21 @@ extensible and modular architecture that will reveal more ideal code patterns" �
 already the evidence. The Terminal's delta was never measured (research E5 left it host); the
 migration measures first and stops if the participant it reads by pointer today needs a Loom door
 (the Loom fence; VD-20's neighbourhood). Its cursor is a caret — whichever of the Terminal and the
-Editor migrates first pulls the caret-and-selection shape, and the other reuses it. Until it
-migrates, the measured overlap stands as pinned; no interim patch.
+Editor migrates first pulls the caret-and-selection shape, and the other reuses it. This decision
+kept the measured overlap in place until migration, with no interim patch. Terminal has since
+landed; current status belongs to the Workshop Goal Map, and the next-work order to VD-25.
+
+### VD-25 — Finish the Editor extraction, then sender fate immediately next
+
+**Status:** INCORPORATED (2026-09-10, founder in the Vision consolidation conversation)  
+**Destinations:** Strategic Map §6; Workshop Goal Map §7; pressure P-WORK-03 and P-LOOM-02
+
+The size of the host files made further additions difficult to reason about. The founder brought
+pane separation forward so subsequent work could be considered at each pane's owner. He confirms
+that sender fate should originally have come first, and now selects finishing the last extraction
+(Editor) and doing sender fate immediately next. This supersedes migration prerequisites in older
+summaries without cancelling VD-20 or VD-21. Progress/closing answers follow fate; the authority
+workflow remains downstream work, not a blocker for finishing Editor.
 
 ## 3. Seeded candidates — deliberately not promoted
 
@@ -393,27 +410,11 @@ let the C++ compiler parse C++.
 
 ## 5. Current ledger state
 
-```text
-INCORPORATED CURRENT DECISIONS
-    VD-01 .. VD-24
+VD-01 through VD-25 are incorporated decisions. Seeded candidates above remain unpromoted except
+where an individual entry explicitly names a later incorporated decision. The
+[Workshop Goal Map](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns the current
+sequence; this index does not maintain a second work queue. Raw source stays in
+`private/raw-vision-deltas.md` and is not required first-contact reading.
 
-SEEDED, NOT AUTHORIZED
-    VS-01 Flow projection
-    VS-02 obligations / outstanding work
-    VS-03 metadata / final snapshot
-    VS-04 hot loading as maker feature
-    VS-05 two forms, one bridge (horizon)
-
-CURRENT PRODUCT DIRECTION
-    the pane-weave arc (VD-19) on the IDE-loop road (VD-16), with send fate and
-    row-requested authority as its preconditions (VD-20, VD-21)
-    new-weave research landed 2026-09-06; its production waits behind the first migrations
-    next: the arc's research phase -- each built-in pane's protocol delta, measured
-
-RAW SOURCE
-    preserved in private/raw-vision-deltas.md
-    not required first-contact reading
-```
-
-Refresh this index only when a new strategic idea is routed, accepted, rejected, or superseded.
+Refresh this index when a strategic idea is routed, accepted, rejected, or superseded.
 Routine phase completion belongs in the relevant Goal Map and report.

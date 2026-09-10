@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-06  
+**Refreshed:** 2026-09-10  
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
-**Current product direction:** the IDE loop (§6), entered through the pane-weave arc — Workshop's built-in panes become participating weaves, with send fate and row-requested authority as preconditions (VD-19..21)  
-**Current execution state:** EDIT-1 landed; build-then-load landed (Zengine PRs #11–#14); `maker/` paused as a pressure point; `PaneActions` (PR #15) and Files as a weave (PR #16) landed 2026-09-07 — the pane-weave arc's first migration; the Builder migration is next; new-weave research landed, its production waiting behind the arc; no production packet is selected by this map
+**Current product direction:** finish the Editor extraction, then sender fate immediately next (VD-25); continue the IDE-loop road (§6)
+**Current execution state:** [Workshop Goal Map](goals/workshop.md) owns capability and migration status; this consolidation issues no implementation prompt
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -82,9 +82,9 @@ would change future decisions.
 - **Evidence is proportional to the claim.** A green is not proof of everything; package,
   sanitizer, native-platform, live-interaction, and mutation evidence are used when their distinct
   failure classes matter.
-- **Workshop's panes are weaves.** Every pane a maker sees inside Workshop is a participating
-  weave from the plan; the host keeps room, focus, realization and roots. A built-in written as
-  C++ inside the host is debt, not a shortcut (VD-19).
+- **Workshop's panes become weaves.** Participating pane weaves are the selected direction;
+  remaining built-ins are migration debt. The host keeps room, focus, realization and roots
+  (VD-19); the Goal Map names the current exceptions.
 - **A plan row asks for authority; it never confers it.** Editing a file gives no power. The
   host's policy — the Weaver, set by the maker — decides what a loaded artifact may say, may
   refuse, and the refused weave is told (VD-21, VD-20).
@@ -133,8 +133,8 @@ The latest accepted product arc includes:
   config/state roots and isolation, restored desktop placement, and an attention surface for
   standing conditions;
 - the build/test optimization sequence: compile proofs no longer mutate the main build tree,
-  concurrent builds use distinct trees, and Workshop's monolithic test entry became six semantic
-  suites;
+  concurrent builds use distinct trees, and Workshop's tests are grouped by semantic
+  ownership;
 - Loom SDL removal after portable proportional-layout and medium-agnostic outline coverage landed;
 - CTX: contextual actions reference the one action truth and spend explicit subjects without
   turning pointing into selection;
@@ -164,7 +164,7 @@ point at a pane
     -> realize it, or reload it in place, under lifecycle law
 ```
 
-Its three separately owned joins, with status as of 2026-09-06:
+Its three separately owned joins (current capability is maintained in the Goal Map):
 
 1. pane/provider identity -> source or recipe provenance — **not built** (P-WORK-06). A maker still
    reaches a source through Builder or Project Files, not from the pane it draws.
@@ -189,15 +189,16 @@ Nearer follow-ons that remain pressure-driven include pane Inspect (the Terminal
 the timed auto-revert, source search/Unicode/multiple documents, and a graphical Flow projection.
 None is automatically next merely because its seam is visible.
 
-**The arc that enters the loop (2026-09-06).** The loop's material is the problem: the built-in
-panes are C++ inside the host — `screen.hpp` at 151 KB, one 144-row keymap catalog — while three
-tools already live entirely across the pane protocol. So before the remaining joins, the built-in
-panes become participating weaves, migrated one at a time by smallest protocol delta, the protocol
-growing one demonstrated contract at a time (VD-19). Its preconditions are Loom's: send fate, then
-the obligation conversation (VD-20); and the plan row as an authority request decided by the
-host's policy through a Weaver seat and its approval modal, retiring `allow_any()` as the loaded
-tier's default (VD-21). The `--log` reader and the general modal are therefore direction, not
-follow-ons. New-weave production follows the first migrations; its research stands.
+**Sequence selected 2026-09-10 (VD-25): finish the Editor extraction, then sender fate
+immediately next.** Large host files made individual panes difficult to reason about, which is
+why the founder brought separation forward. The remaining pane should leave before Loom's fate
+work so each consumer can then be considered at its own owner.
+
+VD-20 still orders fate before the progress/closing-answer conversation. VD-21's row-requested
+authority, Weaver seat, and approval surface remain selected work downstream of fate; this
+consolidation does not insert them before the Editor or declare them implemented. The
+[Workshop Goal Map](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns migration status.
+New-weave production and Flow remain behind this sequence, with no production packet selected.
 
 ## 7. Goal registry
 
@@ -251,42 +252,13 @@ durable form bridged by Flow — is a horizon in exactly this sense; it authoriz
 
 ## 9. Process doctrine
 
-### Source and acceptance
+[Orientation §8](../zen-orientation.md#8-working-rhythm) owns prompt construction, temperature,
+review, acceptance, and consolidation. The [executor constitution](../executor-constitution.md)
+owns execution. Reference those owners rather than maintaining a second Prompt Contract here.
 
-- The phase prompt is scope authority.
-- Current source and load-bearing tests decide what exists; reports are evidence and navigation.
-- A report landing begins review. Founder acceptance decides disposition.
-- Live Git answers current identity. A prompt states expected heads or names the accepted
-  predecessor whose END is its baseline. `REPOSITORIES.md` is not a moving HEAD board.
-- Private consolidation rewrites the smallest correct authority after acceptance; executors do not
-  self-accept or edit private strategy.
-- **The executor has final say on architecture, from the code in motion** (2026-09-06). A prompt
-  states the outcome, the fence and what not to do; its HOW is a guess the executor may override,
-  recording the divergence. A STOP on a false premise ends the phase there; nobody theorizes a way
-  around it.
-
-### Prompt Contract v1
-
-1. A substantial prompt has one authoritative stop-condition list. Body, verification, and report
-   sections reference it rather than re-enumerating requirements.
-2. Standing execution rules are referenced; only phase exceptions are repeated.
-3. The baseline is stated in the prompt or inherited explicitly from the accepted predecessor.
-4. Local understood repairs use compact QR prompts. Ownership, authority, lifecycle, public
-   architecture, cross-subsystem contracts, and new maker capability use the production lane. A
-   large production prompt without fresh research receives a source preflight before final authorship.
-   The binding part of any prompt is its list of what not to do; the fewer conditions forced on
-   the how, the fewer of the authors' misconceptions reach the tree.
-5. Substantial reports arrive as `<PHASE>-RB.md` plus `<PHASE>-evidence.md`. Review the decision
-   layer first; open evidence when a claim needs audit. Small QRs use one compact report.
-6. Every prompt and every continuation is handed to the maker with its temperature named — hot,
-   warm or cold, as `Zen-FCO-v2.md` §7 rule 8 defines them — in the hand-over, not in the prompt:
-   it tells the maker which Ceecee the prompt was written for; the executor already knows what it is.
-
-### Carrying-cost law
-
-Current-facing law is rewritten in place and organized by subject, not phase. Phase codes and full
-proof belong in reports and Git history. Raw capture is an inbox, not default reading. Closed pressure
-does not stay in the live board merely to preserve a chronicle.
+The founder chooses direction and acceptance. Vision updates the smallest current authority
+after acceptance; a report does not accept itself. This map changes when strategy changes,
+not to record every phase. Raw capture is an inbox; proof and chronology stay in reports and Git.
 
 ## 10. Private authority map
 
@@ -302,7 +274,7 @@ private/backlog.md                    work knowingly owed but not current
 private/vision-deltas.md              compact routed decision/candidate index
 private/raw-vision-deltas.md          raw source archive/inbox; not current authority
 private/handoffs/current-executor-addendum.md
-                                      current execution card
+                                      executor entry route; no phase selected here
 private/handoffs/Zen-FCO-v2.md        first-contact route — the first read for a Vision
 
 repository laws/references            exact current semantics

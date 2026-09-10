@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-06  
+**Refreshed:** 2026-09-10
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -23,36 +23,8 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-### P-ACT-01 — The Editor cannot choose a source
-
-**State:** CLOSED — EDIT-1 LANDED (2026-09)  
-**Evidence:** `Zengine/agents/workshop/project.md`, `editor.md`; tests `"EDIT-1: …"`; `private/goals/workshop.md` §6
-
-Project Files exists inside the captured project root; Builder and Project Files call one
-Editor-owned `open(path)` door. The completion witness below is met. Kept for the record.
-
-**Bounded answer:** capture the launch directory once as project root; add Project Files as an
-ordinary pane; factor one normalized Editor-owned open-by-path door; make Builder another caller;
-refresh on open/navigation/explicit gesture/finished build. Preserve one document, dirty refusal,
-and the Editor's byte law.
-
-**Completion witness:** launch with no useful Builder source, navigate and edit/save a source, then
-use Builder independently.
-
-### P-ACT-02 — Relative single-source recipes already split edit and build meaning
-
-**State:** ACT WITH EDIT-1 REVIEW  
-**Evidence:** EDIT-R1 path trace
-
-The Editor and Builder preflight currently resolve a relative source spelling against the process
-CWD, while the generated single-source CMake project resolves it against the generated workspace.
-This is pre-existing and means the public sentence “the file you edit is the file the recipe builds”
-is only reliable for an absolute authored source today.
-
-**Required disposition:** EDIT-1 must not inherit or restate the false parity quietly. Its production
-prompt/review must either give both paths one project-root resolution or retain/refuse the relative
-case in explicit current truth. Path normalization at the Editor door alone fixes document identity;
-it does not by itself change what generated CMake builds.
+Finish the Editor extraction (P-WORK-03), then sender fate immediately next (P-LOOM-02), as
+selected by the founder on 2026-09-10 (VD-25). Entry status is pressure, not a production prompt.
 
 ## 3. Workshop product pressure
 
@@ -96,20 +68,17 @@ a pointed pane without walking the list, or the document editor's retirement is 
 **State:** IN PROGRESS — Files (PR #16), the Builder (#17), Attention (#19), Info (#20, on the geometry of #21), the Terminal (#22, with its review corrections) landed; the Editor is the last migration; it inherits `PaneCaret`, `pane_text.hpp`, VM-FIX-23/24 (a seam is crossed operation by operation; late answers are staged by batching without draining)  
 **Evidence:** `Zengine/agents/panes.md`; `agents/workshop/files.md` (WL-FILES-16/17); `reportbacks/pane-actions-and-files-RB2.md`; `reportbacks/pane-weave-research-RB.md` E5
 
-A provider pane publishes bounded prose regions, receives a press as a place, keys, text and the
-wheel, and — since PR #15 — declares its actions (`PaneActions`) and hears the resolved id
-(`PaneActionRequested`). Files crossed with no new shape: three host doors (`zengine.project`
-reads; `zengine.recipes` acts through the one writer; `OpenSourceRequested` at the office holding
-the Editor), rows re-declared per mode, saved references converted at read. Still host-only:
-drawing beyond prose rows (a caret is a region fact — the Editor's migration pulls it), a
-contextual row, lifecycle and installation. Order by measured delta: Builder, Attention, Info,
-Editor; Layouts, Pane Manager, Terminal and the maker pane stay host this arc.
+The shared protocol now carries prose, actions, pointer/key/text/wheel input, and `PaneCaret`.
+The remaining Editor migration inherits those contracts and must establish how its document,
+selection, and pending operations retain their meaning across the new owner. Layouts, Pane
+Manager, and the maker pane remain host-owned under this arc's boundary.
 
-**Trigger (each migration):** one demonstrated contract at most, never a framework. Follow-on
-hooked: `marks_persist.hpp` drags `persist.hpp` into the weave image (a write helper plus `Written`
-would free it).
+**Trigger (each migration):** one demonstrated contract at most, never a framework.
+Use `agents/verification/fixtures.md` for the operation-by-operation method; a component call's
+undo, normalization, selection, and fallback behavior must travel with its owner too.
+`marks_persist.hpp` pulling `persist.hpp` into the weave image remains a separate follow-on hook.
 
-### P-WORK-22 — An authored load plan is all-or-nothing, and four panes now ride it
+### P-WORK-22 — An authored load plan is all-or-nothing, and core panes now ride it
 
 **State:** OPEN — named by the witness, 2026-09-08  
 **Evidence:** `reportbacks/pane-weaves-remaining-RB6.md` ("What the work found", 2); `agents/realization.md` LOAD-0/BOOT-0 (the boot walk stops at a refused row and the host exits, code 4)
@@ -209,17 +178,7 @@ remaining three still have to find.
 **Trigger:** arrangement is measured as a repeated cost in real use AND one of the three can be
 stated without a layout solver or a second geometry owner.
 
-### P-WORK-12 — Renaming a layout rides the setup save
 
-**State:** CLOSED by WUX-11 (`reportbacks/WUX-11-RB.md`)
-
-Renaming is a layout operation and saving is a file operation, and they are two gestures now:
-`layout.rename` (double-click a tab, or its contextual menu) writes no file at all, and `s`
-writes the active layout's desk and names nothing. The second half of the entry — *a maker with
-several layouts has one setup file for all of them* — is also gone: every layout owns its own
-optional association, and the top row says which artifact the live one is related to and whether
-it still matches it. What survives of the entry is P-WORK-13 below, which is the part WUX-11
-deliberately did not build.
 
 ### P-WORK-13 — A layout can only ever acquire the one Setup file the command line named
 
@@ -330,18 +289,7 @@ What stands: `Act` and `KeyContext` are still closed for the host's own rows, an
 leave (`kFiles`, `kRecipeChooser`, `kAuthoring` left with Files). The prose still argues in the
 header; it moves to `agents/decisions/` when the file is next touched for a reason of its own.
 
-### P-WORK-20 — The Builder pane no longer says which recipe catalog is in force
 
-**State:** ACT WITH THE BUILDER MIGRATION  
-**Evidence:** `reportbacks/pane-actions-and-files-RB2.md` divergence 4; `agents/workshop/project.md` WL-PROJ-09; `Zengine/builder/vocabulary.hpp` (`RecipeCatalog` v1 is `{recipes}`, no source)
-
-The row that named the catalog file read `Session::recipes_moved_to`, which left with the
-built-in browser; `RecipeCatalog` carries no source path, so nothing in the host could keep the
-row honest and it was retired with the loss written down. Restoring it is `RecipeCatalog` v2 with
-a `source` field — one producer (the builder tool), one consumer (the Builder pane) — an exported
-shape, so it takes the packaging witness with it. The Builder pane weave is its natural consumer.
-
-**Trigger:** the Builder migration; or sooner at the founder's word.
 
 ### P-WORK-21 — The Composer still matches raw keys
 
@@ -383,16 +331,7 @@ removal; the pressure is Zengine-only.
 **Trigger:** another stale-cache failure, material disk growth, or a build-system touch that can name
 the cache's owner without introducing a general package manager.
 
-### P-BUILD-03 — Mutation practice is stronger than its durable documentation
 
-**State:** WATCH / OWED ROUTE IN BACKLOG  
-**Evidence:** repeated recent mutation campaigns
-
-Canary-first, exact mutation application, rebuild, blast-radius prediction, checksum restore, and
-artifact separation remain report knowledge rather than one short routed law.
-
-**Trigger:** next substantial mutation campaign or a new executor expected to run one without
-reading phase archaeology. See `BL-VER-01` in the backlog.
 
 ### P-BUILD-04 — The hosted/advisory MSVC result remains weaker than local evidence
 
@@ -450,17 +389,27 @@ to keep the abstraction warm.
 
 ### P-LOOM-02 — Sender-visible fate and unresolved obligations are still separate questions
 
-**State:** ACT (VD-20 — fate first, then the obligation conversation; Loom-tier, read whole)  
+**State:** NEXT AFTER EDITOR (VD-25); fate first, then the obligation conversation (VD-20; Loom-tier)  
 **Evidence:** Loom messaging/answer law, recent raw architecture synthesis
 
-Ordinary senders are not told whether a send was delivered. AskBook records authenticated answer
-conversations, but Loom has no general promise that an accepted request creates an obligation that
-must eventually settle as answered/refused/abandoned/expired/cancelled.
+Ordinary senders are not told their send's dispatch fate. `AskBook` records an asker's pending
+conversations; it does not authenticate every answer, report dispatch refusal, or promise a reply.
+For exact targets it checks correlation and bus-stamped sender; an office-targeted record cannot
+name the future role holder. Answer provenance remains the consumer's separate check.
 
-**Trigger:** two real async domains need the same outstanding-work truth and cannot express it with
-their own protocol. Do not build a generic obligation framework from vocabulary alone.
-**Fired 2026-09-06:** the Builder's progress, the Weaver's pending approval, the realization owner's
-waiting row (VD-20).
+Loom commit `d1a757811d57cd66bc42a2a4d5e41c6ba05409c1` introduced that reusable bookkeeping
+and made TerminalSession a consumer. It did not implement sender fate or progress. Current owners:
+`Loom/docs/reference/messaging.md` (the asker's book), `docs/reference/known-seams.md`
+(sender fate), and `tests/test_terminal.cpp` (a dispatch denial remains invisible to the sender).
+
+The founder selected sender fate immediately after the Editor on 2026-09-10. Scope the first
+implementation from VD-20's dispatch-refusal outcomes; do not silently turn it into guarantees of
+delivery, semantic success, timeout, cancellation, or eventual settlement.
+
+**Selection basis:** the former consumer trigger fired on 2026-09-06: Builder progress, the
+Weaver's pending approval, and realization's waiting row (VD-20). It is not an unmet gate.
+VD-25 now places fate immediately after Editor; further obligation semantics still need a scoped
+task grounded in those consumers, not a framework derived from vocabulary alone.
 
 ### P-LOOM-03 — A policy delegate can die while its installed authority survives
 
