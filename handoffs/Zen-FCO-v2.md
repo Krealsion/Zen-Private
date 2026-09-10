@@ -81,9 +81,12 @@ and route other documents there. Preserve founder wording and intent; Git and re
 history. A documentation task may edit the authorized documents during orientation: this router
 does not add a separate approval gate to the founder's task.
 
-## 4. Source check before a technical proposal
+## 4. Check the whole result, then its premises
 
-Be able to answer the relevant questions in your own words, with a named revision and precise
+Begin with the [architectural-fit review](../../zen-orientation.md#architectural-fit-comes-first):
+does the complete result serve the founder's vision and preserve the path for selected next work?
+Passing local tests cannot answer that by themselves. Then answer the relevant source questions
+in your own words, with a named revision and precise
 source/law/test anchors. Ask the founder to spot-check consequential premises; do not require a
 ceremonial questionnaire for an unrelated editorial task.
 

@@ -351,14 +351,16 @@ or verification volume standing in for a claim-specific witness.
 
 ## 10. Phase generation
 
-1. Start from current source, routed law, the accepted predecessor, and the smallest relevant
-   pressure—not from this map's old phase names.
+1. Start with the [architectural-fit review](../../zen-orientation.md#architectural-fit-comes-first):
+   the maker outcome, the complete ownership model, and the effect on selected next work. Trace
+   its premises through current source, routed law, the accepted predecessor, and real pressure.
 2. Use Prompt Contract v1: one stop-condition list, standing rules by reference, explicit baseline,
    proportional lane, split substantial report/evidence.
 3. Use research or source preflight before a production prompt that changes ownership, authority,
    lifecycle, public architecture, cross-subsystem contracts, or a new maker capability.
 4. Keep executor context bounded to the current capability and the laws it could violate.
-5. Review the decision-layer report against current source and load-bearing tests. Founder
+5. Review the implemented whole against the vision and that design argument, then its behavioral
+   evidence. Local passing cases cannot excuse making later work needlessly harder. Founder
    acceptance precedes private-strategy movement.
 6. Update this map only for product direction or durable product law. Put proof and chronology in
    reports; put open observations in `private/pressure.md`; put knowingly owed deferred work in

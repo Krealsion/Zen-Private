@@ -324,6 +324,20 @@ that sender fate should originally have come first, and now selects finishing th
 summaries without cancelling VD-20 or VD-21. Progress/closing answers follow fate; the authority
 workflow remains downstream work, not a blocker for finishing Editor.
 
+### VD-26 — Intended outcomes and architectural fitness outrank local test agreement
+
+**Status:** INCORPORATED (2026-09-10, founder in the Vision consolidation conversation)  
+**Destinations:** `zen-orientation.md` §1 and §8; `executor-constitution.md` §a and rule 1;
+repository AGENTS and affected routers; Workshop Goal Map §10
+
+The founder distinguishes what code does from whether its cumulative result serves Zen. A phase
+whose individual results pass but whose design makes later phases harder is not a good result.
+The vision and selected direction govern that judgment; tests supply evidence of behavior.
+An architectural-fit review comes before implementation and again before acceptance, considering
+the whole arrangement and known next consumers. A conflict can require correcting code, tests,
+or prose; no rule orders an automatic downward repair. Necessary future costs are explicit
+decisions. This does not authorize speculative frameworks or ignoring required verification.
+
 ## 3. Seeded candidates — deliberately not promoted
 
 ### VS-01 — Flow may be a projection of earned semantic powers
@@ -410,7 +424,7 @@ let the C++ compiler parse C++.
 
 ## 5. Current ledger state
 
-VD-01 through VD-25 are incorporated decisions. Seeded candidates above remain unpromoted except
+VD-01 through VD-26 are incorporated decisions. Seeded candidates above remain unpromoted except
 where an individual entry explicitly names a later incorporated decision. The
 [Workshop Goal Map](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns the current
 sequence; this index does not maintain a second work queue. Raw source stays in
