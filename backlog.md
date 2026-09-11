@@ -44,7 +44,7 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** DESIGN INVESTIGATION SELECTED — IMPLEMENTATION PAUSED; NOT ACCEPTED
+**State:** DESIGN INVESTIGATION REPORTED — FOUNDER REVIEW; IMPLEMENTATION PAUSED; NOT ACCEPTED
 
 **Owed:** PR #23 remains at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh integration
 preflight against installed merged Loom reproduced all three outstanding failures: A is still
@@ -53,25 +53,31 @@ text event is dropped. A real Editor reload also leaves its old queued reveal ab
 without settling the original B request. The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work)
 continues to own the fixed guarantees.
 
-The founder accepted the preflight stop and selected the
-[commitment investigation](../prompts/editor-commit-investigation.md). Compare application-owned
-coordination with the smallest earned Loom mechanism, preserving the fixed opening outcome,
-weave-owned source and movable presentation ownership. The Goal Map owns those constraints;
-the investigation's recommendation requires review before production implementation.
+The [commitment investigation](../reportbacks/editor-commit-investigation-RB.md) now reports
+an isolated protected-value-publication design and its strongest current-Loom alternative:
+durable provisional installation with application coordination. The research control passed
+13 cases / 203 assertions; partial publication, stale incarnation and missing input-admission
+invalidation each made the witness red, followed by the restored control. The alternative's
+provisional source visibility is measured, not dismissed by a general impossibility claim.
+The recommendation is joint observable publication, with document ownership in the Editor,
+presentation ownership movable, and Workshop retaining application authority. Its proposed
+root/SDK/ABI and lifecycle contract still require founder review; no production feature or
+weaker opening meaning was selected. The Goal Map continues to own the fixed guarantees.
 Exact-attempt dispatch-refusal integration in Files/Builder/Editor and its full acceptance
 matrix remain owed after that design is established. Sender-visible dispatch refusal does
 not itself make application facts atomic or settle delivered silence.
 
 **Wake satisfied:** Loom PR #5 is merged at `f20f32df01e36ae672cef8013ea4499b76e3954c`, and the
-founder selected the Zengine side. The immediate task is now a bounded investigation with an
-executable witness; this does not select a production Loom feature or waive extraction
-acceptance.
+founder selected the Zengine side. The bounded investigation has reached founder review with an
+executable witness; it does not select a production Loom feature or waive extraction
+acceptance. Production checkouts and PR #23 are unchanged.
 
 **Evidence:** founder's parking and resumption decisions;
 [research](../reportbacks/sender-fate-research-RB.md),
 [accepted ABI reassessment](../reportbacks/abi-v7-wiring-reassessment-RB.md),
 [integration preflight](../reportbacks/editor-sender-refusal-integration-RB.md),
-[integration evidence](../reportbacks/editor-sender-refusal-integration-evidence.md).
+[integration evidence](../reportbacks/editor-sender-refusal-integration-evidence.md),
+[commitment investigation evidence](../reportbacks/editor-commit-investigation-evidence.md).
 
 ## 3. Bounded defects and quick repairs
 
