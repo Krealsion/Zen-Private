@@ -44,21 +44,33 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** SELECTED FOR RESUMPTION — NOT ACCEPTED
+**State:** PREFLIGHT STOP — TRANSACTION DECISION REQUIRED; NOT ACCEPTED
 
-**Owed:** Resume PR #23 from its preserved branch for bounded integration and acceptance.
-The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the remaining
-transaction/input obligations. The PR is unmerged and unaccepted; resuming does not waive them.
+**Owed:** PR #23 remains at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh integration
+preflight against installed merged Loom reproduced all three outstanding failures: A is still
+the source at the claimed B commitment; A's legitimate held paste is lost; and the 257th valid
+text event is dropped. A real Editor reload also leaves its old queued reveal able to seat A
+without settling the original B request. The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work)
+continues to own the fixed guarantees.
+
+Before another implementation pass, resolve the protected document/presentation commitment
+and participant-lifetime boundary: current room and the source/input subject must agree at
+commitment, with lossless input and refusal/rollback that cannot leave stale setup/focus changes.
+The preflight names concrete coordination, ownership and product-contract alternatives; none
+is implemented or accepted. Exact-attempt dispatch-refusal integration in Files/Builder/Editor
+and its full acceptance matrix remain owed after that design is established. Sender-visible
+dispatch refusal does not itself make these application facts atomic or settle delivered silence.
 
 **Wake satisfied:** Loom PR #5 is merged at `f20f32df01e36ae672cef8013ea4499b76e3954c`, and the
-founder has selected the Zengine side. Start with a concrete transaction argument using the
-capabilities actually delivered; name further missing capability before implementation rather
-than assuming dispatch fate supplies conversation settlement.
+founder selected the Zengine side. The integration prompt's stop condition 2 now requires a
+transaction decision; this disposition does not select a new Loom feature or waive extraction
+acceptance.
 
-**Evidence:** founder's parking and subsequent resumption decisions;
+**Evidence:** founder's parking and resumption decisions;
 [research](../reportbacks/sender-fate-research-RB.md),
 [accepted ABI reassessment](../reportbacks/abi-v7-wiring-reassessment-RB.md),
-[integration prompt](../prompts/editor-sender-refusal-integration.md).
+[integration preflight](../reportbacks/editor-sender-refusal-integration-RB.md),
+[integration evidence](../reportbacks/editor-sender-refusal-integration-evidence.md).
 
 ## 3. Bounded defects and quick repairs
 
