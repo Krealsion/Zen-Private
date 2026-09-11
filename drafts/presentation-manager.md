@@ -4,6 +4,8 @@
 authored continuity and inspect/repair/continue. Concrete transitions and experiments remain
 proposals; no implementation, protocol version, new Loom facility or extraction scope is selected.
 The [source research](presentation-manager-research.md) separates current mechanisms from proposals.
+The [current roadmap disposition](../goals/workshop.md#roadmap-disposition-of-service-retirement)
+parks overlapping service retirement and returns the main work to Editor commitment.
 
 The working bet: give presentation one understandable owner, built from the same material as
 the tools it presents. Workshop supplies application policy and connects the participants.
@@ -269,30 +271,30 @@ residual need, rather than using presentation extraction to force all weaves int
 state. A permanently pending preparation is allowed; it must not hold unrelated admitted input
 hostage or silently change the input's subject. [E7](presentation-manager-research.md#e7-editor-commitment-and-the-research-limit)
 
-## 7. A small next exploration
+## 7. How this informs the current road
 
-Start with an owner model and a diagnostic slice, before a new SDK/ABI. Use an existing Skin
-path to distinguish artifact refusal, medium preparation failure, selection and unanswered
-preparation, with an operation record reachable outside the renderer. Make one stuck operation
-understandable when revisited later, showing retained evidence and declared gaps. Exercise one
-authored intervention, including what the original attempt means afterwards. Then examine
-candidate resource coexistence, obsolete reports, and input associated with an old output
-binding. These are proposed experiments, not authorization to implement the manager or extract
-another subsystem. A later review should test a second continuity policy before claiming the
-design supports several; the first experiment need not implement the whole repertoire.
+Use these owners to settle the bounded Editor document/presentation commitment design, then
+complete its extraction and the outstanding dispatch-refusal integration. The immediate test
+remains the fixed outcome in §6, including ordinary input preservation. Actual presentation
+extraction, live output switching, a general retirement manager and a broad debugging system
+are not prerequisites merely because this draft describes their seams.
 
-The first ordinary pane author should still supply content and handle its gestures. An output
-provider author should learn a small preparation/output/reporting contract. Only authors who
-need coordinated commitment should encounter that additional machinery. The ceremony check is
-whether a novice can get from “my switch is stuck” to the relevant operation and participant
-without understanding the entire architecture.
+The founder considers the service-retirement research sufficient for now. Prefer waiting for
+incumbent work to finish in Zengine where its completion condition is known, and keep richer
+continuity policies available for a consumer that needs them. The
+[Goal Map](../goals/workshop.md#roadmap-disposition-of-service-retirement) owns that disposition
+and its wake condition. The research's loaded-worker/coexistence experiments are future options.
 
-The founder has settled the initial service boundary and the need for authored continuity and
-multiple repair paths. The remaining concrete choices are Zengine's own defaults: what output
-selection promises (including whether a defined first-picture acknowledgment is required),
-which intervention may run automatically under host policy, and what evidence a retained
-incident keeps. These remain design questions; no one answer becomes a universal weave rule.
+When managed output becomes selected work, define its own output-selection promise, automatic
+recovery authority and retained evidence. A diagnostic slice can then follow one stuck
+operation from available evidence to an authored intervention. Those questions need not be
+resolved to finish the current Editor boundary.
 
-Judge the first implementation both by that useful maker loop and by the ability to change its
-manager, continuity policy and diagnostic tools without surrendering ownership or hiding the
-changes required of cooperating participants.
+The first ordinary pane author should still supply content and handle its gestures. Introduce
+additional preparation or coordination contracts only when the selected consumer needs them.
+Audit the number and complexity of actions needed for the current maker loop, and whether a
+novice can connect a refusal or pending operation to the relevant intent and participant.
+
+Judge the next implementation by the useful Editor outcome and by its effect on these known
+future options. Keep ownership and dependencies clear enough for a later manager, policy or
+diagnostic tool to replace today's choice without hiding the changes required elsewhere.

@@ -5,9 +5,15 @@ work while a Zengine manager supervises the old weave until it can retire. This 
 of the [authored continuity choices](../goals/workshop.md#authored-continuity-and-repair);
 it selects no production implementation or new Loom API.
 
-## Recommendation
+**Disposition: preserved seam; further implementation and experiments parked.** The founder
+considers the feasibility evidence sufficient for the main road to continue. No current
+requirement depends on overlapping service generations. The
+[Goal Map](../goals/workshop.md#roadmap-disposition-of-service-retirement) owns the current
+priority and wake condition; this note retains the mechanisms and limits for a future consumer.
 
-Pursue this as a **Zengine-owned service policy using existing Loom mechanisms first**. Keep
+## Direction when a consumer needs it
+
+Prefer a **Zengine-owned service policy using existing Loom mechanisms first**. Keep
 the incumbent's instance, identity and required authority alive; change where newly admitted
 work goes; retire the old instance only under a domain-defined completion or abandonment policy.
 The manager takes responsibility for that process. Kernel and Switchboard retain their actual
@@ -27,8 +33,8 @@ There are two useful implementations to distinguish:
 | Keep an application-facing owner and bind each operation to a concrete worker | Existing and new work share message shapes, require follow-ups, or already have an application manager | Transparent forwarding of arbitrary identities, or knowledge of work outside its protocol |
 | Use prepared admission and authored handoff | The domain requires a final boundary, state transfer and the incumbent's withdrawal from ordinary service | Continued ordinary service by the admitted successor's sealed predecessor |
 
-For the presentation direction, start with the second approach. Use a role-only switch where
-the simpler contract actually fits; do not widen prepared admission to cover every continuity
+For a future presentation consumer that needs overlapping service, start with the second
+approach. Use a role-only switch where the simpler contract actually fits; do not widen prepared admission to cover every continuity
 policy. A concrete capability gap in the first loaded experiment would justify revisiting Loom.
 
 ## What the current substrate permits
@@ -212,10 +218,14 @@ Five of five review areas completed: traffic/continuation, authority, instance/r
 current Zengine ownership/dependencies, and fit/ceremony. A bounded independent source review
 checked routing and the existing maker succession path. No Loom or Zengine source was changed.
 
-## Next bounded investigation
+## Possible investigation after the seam wakes
 
-Extend the presentation experiment with two real loaded output-like workers and one owner of
-new work. A has a delayed operation; B becomes selected for later work; A then completes under
+This experiment is parked; it is not the next development task. Revisit it when a concrete
+consumer needs successor service before the incumbent finishes, or a change threatens to
+close that possibility.
+
+Extend a selected presentation experiment with two real loaded output-like workers and one
+owner of new work. A has a delayed operation; B becomes selected for later work; A then completes under
 its original identity. Show all three facts independently: **B selected, A still working,
 A retired when permitted**. Keep the actual host actions behind the proposed scoped bridge,
 including explicit grants and cleanup by concrete instance.

@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** resolve Editor's document/presentation commitment, then resume PR #23 integration; continue the IDE-loop road (§6)
-**Current execution state:** the presentation-manager draft incorporates founder direction; concrete mechanisms remain under discussion, and the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the fixed Editor outcome
+**Current execution state:** return to the bounded Editor commitment design; service retirement is parked at its demonstrated seam, and the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the fixed outcome
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -195,13 +195,14 @@ Nearer follow-ons that remain pressure-driven include pane Inspect (the Terminal
 the timed auto-revert, source search/Unicode/multiple documents, and a graphical Flow projection.
 None is automatically next merely because its seam is visible.
 
-**Current exploration: presentation ownership and management before a substrate decision.**
-The commitment investigation has reported a protected-publication candidate. The founder
-has chosen initial composition/output ownership together, domain-authored continuity and an
-open repertoire of inspection and repair. The [Goal Map's ownership model](goals/workshop.md#3-current-ownership-model)
-owns that direction. The source-grounded [discussion draft](drafts/presentation-manager.md)
-explores concrete transitions and the remaining coordination need; those mechanisms and
-Zengine's exact defaults remain open.
+**Current focus: the bounded Editor commitment design, informed by clarified ownership.**
+The commitment investigation has reported a protected-publication candidate. The founder's
+direction on composition/output ownership, authored continuity and inspection/repair lives in
+the [Goal Map's ownership model](goals/workshop.md#3-current-ownership-model). Use it to decide
+the remaining Editor/presentation boundary. The service-retirement research has established a
+useful future option; its more elaborate experiments are parked under the
+[roadmap disposition](goals/workshop.md#roadmap-disposition-of-service-retirement). Live output
+switching and a retirement manager are not prerequisites for the current product road.
 PR #23 remains unaccepted. The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work)
 owns the fixed outcome and continuation boundary. No root-backed state facility, production
 ABI change or presentation extraction is selected by this draft.

@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-11  
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** resolve Editor's document/presentation commitment before resuming PR #23 implementation; the IDE loop remains the product road
-**Current execution state:** the presentation-manager draft incorporates founder direction on ownership, authored continuity and repair; concrete mechanisms remain under discussion (§7)
+**Current execution state:** return to the bounded Editor commitment design using the clarified owners; overlapping service retirement is a preserved seam, not prerequisite work (§7)
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -366,11 +366,11 @@ failed operation. Later independent maker actions may change presentation.
 The [commitment investigation](../../reportbacks/editor-commit-investigation-RB.md) proposes
 protected publication of owner-prepared values and compares it with provisional application
 coordination. The founder has not selected a production root/SDK/ABI contract. The current
-exploration starts with presentation-manager ownership, provider lifecycle and attributable
-failure. Vision's [discussion draft](../drafts/presentation-manager.md) incorporates the founder's
-direction in §3; its concrete transitions and experiments remain proposals, not an execution
-prompt. Preserve weave-owned source and movable presentation ownership while evaluating the remaining need for
-joint commitment. [BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate)
+design should use the presentation ownership and failure principles clarified in §3 and
+Vision's [discussion draft](../drafts/presentation-manager.md). Preserve weave-owned source and
+movable presentation ownership while deciding the bounded mechanism for joint commitment.
+The service-management explorations do not make another subsystem extraction or a general
+recovery framework prerequisites. [BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate)
 tracks the still-owed extraction and dispatch-refusal integration. Implementation follows a
 reviewed design and its own scope.
 
@@ -396,6 +396,25 @@ The founder's ceremony audit belongs alongside the development: assess the numbe
 of actions needed for a concrete intent, including what the maker must know to choose them.
 This is product pressure, not authorization for a new interaction framework. New-weave production
 and Flow are not selected by this consolidation; a future task supplies its own scope and evidence.
+
+### Roadmap disposition of service retirement
+
+The founder considers the [retirement research](../drafts/service-retirement-research.md)
+sufficient to preserve the option of letting old work finish while a successor serves new work.
+No current development requirement depends on implementing that policy. Further loaded-worker
+experiments, live output-provider coexistence and dependency-version retention are parked.
+
+For Zengine lifecycle cases, waiting for incumbent work to finish is the preferred starting
+option where the domain has a meaningful completion condition; explicit refusal may also fit.
+Neither an empty queue nor elapsed time proves completion. This preference does not weaken
+Editor's current input-preservation or document/presentation commitment requirements.
+
+Return to the bounded Editor commitment design, then complete the extraction and outstanding
+dispatch-refusal integration before continuing the IDE loop and its ceremony audit. Carry the
+manager's clear ownership, attributable pending/failure and replaceability into that work.
+Keep the more elaborate continuity options possible without requiring their implementation now.
+Revisit overlapping retirement when a concrete consumer needs to admit successor work before
+the incumbent can finish, or a proposed change would close that option unnecessarily.
 
 ## 8. Live pressure and deliberate restraint
 
