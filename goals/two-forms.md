@@ -36,9 +36,11 @@ liveness, the laid-bare interior, and sharing with a stranger who has no compile
   state. The floor is total: the handler-level graph — inputs, emits, state fields — is derivable
   from declarations alone and, for a running weave, from the bus (`accepted_schemas`, the grant,
   `PokeStructure`). A raw node is only ever an interior.
-- *State change is a Flow node* — snapshot before and after a handler — for any weave, since
-  Loom's inspection is at the bus. Flow serves the durable side too: a bug invisible in source
-  (a compiler-optimization issue) shows as a delta Flow can draw.
+- *State change is a Flow node* — a before/after comparison where the weave exposes suitable
+  state and observation captures both boundaries. This can serve the durable side too, but a
+  bus event alone does not expose arbitrary native internals, preserve a continuation, or
+  guarantee that the cause of a compiler-related failure appears in the captured state.
+  Missing snapshots remain visible gaps.
 
 **Raw nodes — a hypothesis, recorded as one, not law.** A raw section may be treated as an
 operator iff it has no bus access, directly or through anything it calls. Two confidences:
@@ -56,6 +58,12 @@ keeps that hesitation.
 deconstructors consume and produce definitions. As deconstruction's ceiling rises, so do the
 tools against degradation; a better deconstructor may arrive as someone's shared tool, be adopted
 like a beloved mod, and become the default (the vision's "same stuff", "find what others made").
+
+Flow should also be able to participate in the founder's
+[inspect/repair/continue direction](workshop.md#authored-continuity-and-repair): help a maker
+reach an operation, inspect the evidence available in either form, and choose an authored repair.
+It is one possible tool for that loop; neither Flow nor the interpreted form is a prerequisite
+for message-based diagnosis, native debugging or rebuilding with an authored handoff.
 
 **Roads, not this arc.**
 - The generator: definition → `ZEN_SHAPE` class, handlers, a C++ conversion edge, a CMake target,

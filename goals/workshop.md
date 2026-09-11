@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-11  
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** resolve Editor's document/presentation commitment before resuming PR #23 implementation; the IDE loop remains the product road
-**Current execution state:** the commitment investigation is reported; Vision is developing a presentation-manager discussion draft before selecting a lower-level mechanism (§7)
+**Current execution state:** the presentation-manager draft incorporates founder direction on ownership, authored continuity and repair; concrete mechanisms remain under discussion (§7)
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -82,7 +82,12 @@ ownership constraint. The founder favors keeping presentation movable into its o
 with Workshop connecting the participating subsystems and applying application policy.
 Name the application authority, presentation owner and document owner separately when a
 design crosses them. Moving presentation must not require surrendering the Editor weave's
-document custody. Actual presentation extraction is an option, not selected production work.
+document custody. For the first manager design, keep composition and output selection together
+with a clear potential separation. Replaceability does not promise that every future change is
+local: expose the affected contracts so cooperating changes can propagate through authored
+migrations, adapters, tools or maker intervention, including honest partial results. Avoid
+requiring all those tools or service splits in the first implementation. Actual presentation
+extraction is an option, not selected production work.
 
 ### Failure and supervision
 
@@ -95,6 +100,28 @@ Managers supply external observation and recovery policy within their authority.
 the application continue without solving the original operation; they too remain authored
 participants that can fail. Establish the high-level owner and what it can actually know
 before treating a missing interaction as evidence for a new substrate primitive.
+
+### Authored continuity and repair
+
+The application chooses what replacement does to current work: refuse or wait, transfer it,
+update a running instance, let old instances finish while new instances use new code, or discard
+state the domain does not need. A handoff may occur within that authored transition. New-work
+routing, running-instance lifetime, state transfer and retirement are separate decisions;
+Zengine's default is not the only valid policy. Supported mechanisms must earn the particular
+policy's promises rather than assume that loading a successor provides them.
+
+The founder's recovery direction is inspect, repair and continue useful work, even when a maker
+returns to the failure much later. Retain attributable evidence by deliberate policy, show its
+gaps, and keep the relevant operation and participant reachable. Repair may use a diagnostic
+conversation, a rebuilt artifact with an authored handoff, an attached debugging weave, or an
+isolated specimen for investigation. These are options to enable as needed, not mandatory
+features for every weave. Inspection and intervention receive only their granted authority;
+preserved data does not by itself restore a native continuation, resource or answer right.
+
+Zengine is a place to start, not a place to end. Its useful defaults should leave makers room
+to author different managers, continuity policies and debugging tools. The
+[presentation-manager draft](../drafts/presentation-manager.md) explores these principles;
+its source research distinguishes current support from capabilities still to be built.
 
 ### Project and user files
 
@@ -340,9 +367,9 @@ The [commitment investigation](../../reportbacks/editor-commit-investigation-RB.
 protected publication of owner-prepared values and compares it with provisional application
 coordination. The founder has not selected a production root/SDK/ABI contract. The current
 exploration starts with presentation-manager ownership, provider lifecycle and attributable
-failure; Vision's [discussion draft](../drafts/presentation-manager.md) and its source research
-are proposals for brainstorming, not accepted product law or an execution prompt. Preserve
-weave-owned source and movable presentation ownership while evaluating the remaining need for
+failure. Vision's [discussion draft](../drafts/presentation-manager.md) incorporates the founder's
+direction in §3; its concrete transitions and experiments remain proposals, not an execution
+prompt. Preserve weave-owned source and movable presentation ownership while evaluating the remaining need for
 joint commitment. [BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate)
 tracks the still-owed extraction and dispatch-refusal integration. Implementation follows a
 reviewed design and its own scope.

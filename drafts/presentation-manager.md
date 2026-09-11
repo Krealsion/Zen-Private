@@ -1,7 +1,8 @@
 # Presentation as a managed service
 
-**First draft for discussion — 2026-09-11.** This proposes ownership and observable behavior;
-it selects no implementation, protocol version, new Loom facility or extraction scope.
+**Discussion draft — 2026-09-11.** Incorporates the founder's direction on initial ownership,
+authored continuity and inspect/repair/continue. Concrete transitions and experiments remain
+proposals; no implementation, protocol version, new Loom facility or extraction scope is selected.
 The [source research](presentation-manager-research.md) separates current mechanisms from proposals.
 
 The working bet: give presentation one understandable owner, built from the same material as
@@ -27,9 +28,19 @@ while the first provider's unfinished operation remains honestly unresolved.
 ## 2. Put these responsibilities together
 
 “Presentation manager” names a responsibility, not a new mandatory base class, Kernel manager,
-or the existing Pane Manager tool. My starting proposal is one application-facing service
-owning composition and output selection, with separately testable layout, input and provider
-lifecycle parts. Splitting source files and splitting authoritative owners are separate choices.
+or the existing Pane Manager tool. The founder's initial direction is one application-facing
+service owning composition and output selection, with clear internal ownership of layout,
+input and provider lifecycle. Splitting source files and splitting authoritative owners are
+separate choices; neither must turn this first step into several services.
+
+Replaceability is the design test. A successor manager should be able to take over through
+named contracts and authored handoffs. Composition and output selection should have an
+identifiable future separation, without requiring a separate protocol for every internal part
+today. If a later change needs cooperating consumers to change, that is permitted: make the
+affected contracts and dependencies discoverable so migration, adapters, regeneration or maker
+intervention can follow them. Intelligent propagation may be partial and require correction;
+it must expose unsupported joins instead of claiming that every dependent was repaired.
+This is a criterion for design review, not a proposal to build an automatic dependency updater.
 
 ```mermaid
 flowchart TD
@@ -96,7 +107,34 @@ This needs an explicit manager-facing conversation if we want managed output tra
 
 ## 4. Walk through changing output
 
-Suppose a maker chooses output provider B while A is active.
+### Continuity belongs to the application
+
+Choosing the implementation for new work, changing a running instance, transferring its state,
+and retiring its predecessor are distinct decisions. A handoff may be authored into the middle
+of replacement; it need not be a universal prelude performed before any replacement work starts.
+The founder's spell example illustrates legitimate choices:
+
+| Authored policy | What the application must account for |
+|---|---|
+| Refuse replacement while in use, or wait for current work | Who determines that use has ended, what happens to new requests, and how waiting is shown |
+| Transfer remaining work to the successor | Which state and obligations transfer, their boundary, and what a refused transfer leaves behind |
+| Update an effect already in progress | Which running instances change and how their current meaning is transformed |
+| Let old effects finish; use new code for new effects | Separate routing for existing and new instances, plus retention of the old code and resources until their work ends |
+| Discard state that does not matter to this application | The domain's explicit discard meaning and what affected participants are told |
+
+These are alternatives and may be combined. Zengine should choose a small, understandable
+policy for its own tools without elevating it into the one permitted weave lifecycle.
+Loom's authored-handoff pattern already leaves continuity and post-boundary behavior to the
+domain. Today's prepared replacement nevertheless seals the incumbent when the successor is
+admitted: keeping that old service running afterwards is not an automatic property of that
+ceremony. Switching a factory/default while retaining old instances needs an explicit routing
+and lifetime arrangement. Transferring data alone also does not keep an old message protocol
+usable or transfer its answer rights. [E5](presentation-manager-research.md#e5-lifecycle-boundaries-and-continuity)
+
+### One candidate policy for output
+
+Suppose a maker chooses output provider B while A is active. This example aims to preserve
+viable output during preparation; other applications may choose a different transition.
 
 1. The manager records the request and starts one identifiable transition. A continues serving
    if it remains viable. The existing lifecycle owner loads or prepares B under the host's
@@ -149,10 +187,19 @@ only a handler failure is known, name that observation without inventing its cau
 navigation should use actual artifact/source provenance where available; missing provenance
 is an explicit gap, not a guessed file path.
 
-This record is the manager's knowledge, not a transcript of everything in the system. Keep
-bounded current state and route detailed history to existing facilities; distinguish expired
-evidence from a known still-pending operation. Authenticated reports identify who said something,
-not whether their internal implementation was correct.
+The founder's Genera-inspired target is to return to an interrupted activity later, inspect
+what happened and what is waiting, repair what needs repair, and continue useful work. That
+requires deliberate evidence retention: attributable messages, artifact/source identity,
+operation context, and the state actually exposed or captured. A current inspection and a
+snapshot from the failure must carry their different times and provenance.
+
+The operation record is the manager's knowledge, not a transcript of everything in the system.
+Keep bounded working state and use recorder/logger policy for the history worth retaining;
+consider an explicit retained incident when a maker needs evidence beyond those ordinary
+windows. Current facilities can forget metadata or payloads, and the durable logger records
+only selected facts. Distinguish expired evidence from known pending work, and missing history
+from a history in which nothing happened. Authentication identifies who said something, not
+whether their internal implementation was correct. [E8](presentation-manager-research.md#e8-inspection-retention-and-repair-limits)
 
 A loaded manager cannot automatically read host-only observations. The host can expose a
 scoped, authorized observation path using facts it already knows; the exact door remains to
@@ -166,9 +213,39 @@ about participants and current output; a saved selection or pending flag cannot 
 provider is still active or revive an expired answer right. The precise recovery contract
 remains open, alongside recovery of the output provider.
 
-A silent handler that returns leaves the system able to run its manager. A native handler
-that never returns can stall the shared thread, including that manager. External supervision
-or process isolation is a different architectural choice; this draft promises neither.
+### Several routes back to useful work
+
+The recovery repertoire should remain open to authored tools:
+
+- **Repair through a conversation.** A weave can expose diagnostic questions and deliberate
+  repair messages, allowing its own logic to resume pending work. Discovering that surface
+  does not grant authority to use it; ordinary authors need not implement every repair option.
+- **Build and replace.** Inspect the available state and messages, edit the source, produce a
+  new artifact, and use an authored continuity policy. The successor continues the domain work
+  represented by that handoff; this does not imply resuming the predecessor's native stack.
+- **Attach a debugging weave.** Give it the scoped observations and diagnostic conversations
+  relevant to this participant. A debugger is another authored participant, not a title that
+  confers unrestricted bus or memory access.
+- **Examine a separate specimen.** Capture supported state and inputs for an isolated experiment
+  while leaving the original running. The specimen must distinguish captured evidence from
+  live connections. Its resource bindings, authority and external effects need an explicit
+  plan; serializing state does not clone a device, a queued conversation or an execution stack.
+
+These are directions for capability, not four facilities this phase must implement. A repair
+tool should state what it will preserve, replace or discard. Late effects and observations
+from the original attempt keep their identity; a successful repair does not make an unanswered
+original request retroactively successful.
+
+Some investigations can use declared state and messages; deeper ones need weave-authored
+instrumentation or an appropriate native debugger. Loom's message surfaces are not a universal
+view of arbitrary C++ internals. A silent handler that returns leaves the system able to run
+its manager. A native handler that never returns can stall the shared thread, including an
+attached debugging weave. External supervision or process isolation is a separate capability;
+no in-process message protocol alone earns that recovery claim.
+[E8](presentation-manager-research.md#e8-inspection-retention-and-repair-limits)
+
+**Zengine is a place to start, not a place to end.** Ship a coherent default repair path and
+leave room for makers to author better or domain-specific ones.
 
 ## 6. What this changes about Editor opening
 
@@ -192,9 +269,13 @@ hostage or silently change the input's subject. [E7](presentation-manager-resear
 
 Start with an owner model and a diagnostic slice, before a new SDK/ABI. Use an existing Skin
 path to distinguish artifact refusal, medium preparation failure, selection and unanswered
-preparation, with an operation record reachable outside the renderer. Then exercise candidate
-resource coexistence, obsolete reports, and input associated with an old output binding. These are
-proposed experiments, not authorization to implement the manager or extract another subsystem.
+preparation, with an operation record reachable outside the renderer. Make one stuck operation
+understandable when revisited later, showing retained evidence and declared gaps. Exercise one
+authored intervention, including what the original attempt means afterwards. Then examine
+candidate resource coexistence, obsolete reports, and input associated with an old output
+binding. These are proposed experiments, not authorization to implement the manager or extract
+another subsystem. A later review should test a second continuity policy before claiming the
+design supports several; the first experiment need not implement the whole repertoire.
 
 The first ordinary pane author should still supply content and handle its gestures. An output
 provider author should learn a small preparation/output/reporting contract. Only authors who
@@ -202,18 +283,12 @@ need coordinated commitment should encounter that additional machinery. The cere
 whether a novice can get from “my switch is stuck” to the relevant operation and participant
 without understanding the entire architecture.
 
-Three questions to brainstorm:
+The founder has settled the initial service boundary and the need for authored continuity and
+multiple repair paths. The remaining concrete choices are Zengine's own defaults: what output
+selection promises (including whether a defined first-picture acknowledgment is required),
+which intervention may run automatically under host policy, and what evidence a retained
+incident keeps. These remain design questions; no one answer becomes a universal weave rule.
 
-1. **The service boundary.** Is composition plus output selection the right initial manager,
-   or should an output controller be independently replaceable from the start? My starting
-   preference is one service with clear internal boundaries, split when a concrete consumer
-   earns another owner. Avoid rebuilding the god-file under a new name.
-2. **What selection promises.** Is a prepared compatible surface enough, with output progress
-   separately reported, or should Zengine require a defined first-picture acknowledgment
-   before declaring the switch complete? Either choice must describe an unconfirmed medium.
-3. **Recovery authority.** Which recovery actions belong to Workshop's default policy, and which
-   need a maker's explicit choice? My starting preference is to preserve viable current output,
-   make interruption explicit, and keep an unresolved candidate from silently taking over later.
-
-The stable principle is clear ownership and inspectable consequences. The mechanism and the
-exact division of services are what this draft invites us to change.
+Judge the first implementation both by that useful maker loop and by the ability to change its
+manager, continuity policy and diagnostic tools without surrendering ownership or hiding the
+changes required of cooperating participants.

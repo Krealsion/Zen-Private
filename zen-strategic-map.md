@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** resolve Editor's document/presentation commitment, then resume PR #23 integration; continue the IDE-loop road (§6)
-**Current execution state:** Vision is drafting the presentation-manager architecture after the commitment investigation; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns its fixed outcome
+**Current execution state:** the presentation-manager draft incorporates founder direction; concrete mechanisms remain under discussion, and the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the fixed Editor outcome
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -76,6 +76,9 @@ would change future decisions.
   movable into a weave is the favored option, not a selected extraction. See the
   [ownership distinction](goals/workshop.md#application-authority-and-presentation-ownership).
   Paint, hit-testing, ordering, clipping, and granted pane room spend the same resolved geometry.
+- **Continuity and repair are authored choices.** Zengine supplies useful starting policies;
+  makers may replace them. The [Workshop ownership model](goals/workshop.md#authored-continuity-and-repair)
+  owns the direction on pending work, evidence, replacement and alternative repair paths.
 - **Pointing names a subject for one request; selection is a state the maker entered.** Context
   remembers identity and re-asks the owner when the action is spent.
 - **Refuse rather than pretend.** Unsupported bytes, units, authority, lifecycle, or platform
@@ -194,10 +197,11 @@ None is automatically next merely because its seam is visible.
 
 **Current exploration: presentation ownership and management before a substrate decision.**
 The commitment investigation has reported a protected-publication candidate. The founder
-emphasizes attributable failure and authored managers as external recovery architecture;
-indefinitely pending work is valid behavior. Vision is preparing a source-grounded
-[discussion draft](drafts/presentation-manager.md) to establish that high-level ownership and
-the remaining coordination need. Its proposed service boundaries are not accepted law.
+has chosen initial composition/output ownership together, domain-authored continuity and an
+open repertoire of inspection and repair. The [Goal Map's ownership model](goals/workshop.md#3-current-ownership-model)
+owns that direction. The source-grounded [discussion draft](drafts/presentation-manager.md)
+explores concrete transitions and the remaining coordination need; those mechanisms and
+Zengine's exact defaults remain open.
 PR #23 remains unaccepted. The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work)
 owns the fixed outcome and continuation boundary. No root-backed state facility, production
 ABI change or presentation extraction is selected by this draft.

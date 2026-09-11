@@ -9,7 +9,7 @@ Inspected identities: Zengine `9cbf5a5ac8d4751472dc891371401d93a25e03cc`;
 Loom local `eee04550dfbae61638ff84f1c9da1c32ad90f9b0`, whose source tree matches accepted
 `f20f32df01e36ae672cef8013ea4499b76e3954c`; Zen report baseline
 `d134017b5c11a22239d6de8eedb68b5efce8496a`; private baseline
-`c1e7fda5129376b2e4928db425b59b2cde47473b`. No remote state refresh is claimed.
+`d4a720406c33eb5fd4c08b316b40a2c48b6d5df0`. No remote state refresh is claimed.
 
 ## E1 Unanswered work and existing management
 
@@ -94,6 +94,18 @@ greeting as a promised renderer health check.
   exact-participant preparation/admission is available. The coordinator interprets the domain
   answer; Loom authenticates the conversation. It does not supply incumbent state continuity,
   infallible application handlers, or a transaction over device effects.
+- [Authored handoff](../../Loom/docs/reference/handoff.md), lines 57–80 and 100–140:
+  separate migrators and candidate-owned migration are both legitimate. A domain-authored
+  boundary can quiesce state; subsequent traffic may be refused, deferred, buffered, adapted
+  or degraded. State migration and continuing to accept old protocols are separate obligations.
+- [Admission and sealing](../../Loom/src/switchboard/switchboard.cpp), lines 2235–2245 and
+  1613–1637: prepared admission seals the incumbent for retirement; only private conversation
+  with its coordinator remains. In contrast, lower-level `commit_candidate` moves the role and
+  unseals the candidate without sealing the incumbent (lines 1965–1991; the distinction is
+  public in [Switchboard](../../Loom/include/zen/switchboard/switchboard.hpp), lines 883–913).
+  Separate running instances and authored routing are building blocks for old/new coexistence;
+  this lower-level path supplies neither automatic work draining nor prepared admission's
+  combined activation guarantee.
 - [Kernel reload](../../Loom/src/kernel/kernel.cpp), lines 1176–1240:
   early shape/manifest refusal precedes replacement, but late revive refusal occurs after the
   incumbent instance was destroyed and can leave the weave unavailable. Blanket rollback
@@ -109,6 +121,8 @@ greeting as a promised renderer health check.
 and cleanup authority. Candidate preparation must respect the incumbent's native resources.
 The presentation manager's own failure/replacement also needs reconstruction of current
 knowledge; restoring an id or a pending flag does not restore an expired authority/right.
+The founder's continuity alternatives fit the existing domain-owned pattern. This does not
+mean every alternative is already implemented by one current replacement ceremony.
 
 ## E6 Evidence and attribution
 
@@ -149,15 +163,57 @@ by itself synchronize Editor-owned current source with the admitted view. The pu
 candidate should be assessed against that remaining boundary, with no unspoken weakening of
 the selected outcome and no universal progress guarantee.
 
+## E8 Inspection, retention and repair limits
+
+- [Weave contract](../../Loom/include/zen/switchboard/weave_contract.hpp), lines 79–103:
+  `snapshot()` exposes authored persistable state; `revive()` restores through the state gate.
+  [Poke](../../Loom/docs/reference/messaging.md), lines 374–377, inspects or changes declared
+  live fields. These are useful surfaces, not a promise to expose arbitrary native internals
+  or capture before/after state for every handler automatically.
+- [History](../../Loom/docs/reference/history.md), lines 112–161 and 220–305:
+  Recorder keeps bounded metadata and payload windows with explicit forgetting information.
+  Logger independently appends selected facts; per-shape caps may be uncapped. Application and
+  handoff messages are absent from the default selection and need host policy. Neither owner
+  supplies replay, a causal graph, stack walking or crash bundles. A future forensic capture
+  is an explicitly open seam. [Logger implementation](../../Loom/src/history/logger.cpp),
+  lines 384–429 and 490–493, marks failed payload capture as not retained, counts unwritable
+  records, and buffers ordinary observations. Retention selection alone cannot promise that
+  every event survives a crash.
+- [Answer authority](../../Loom/docs/laws/answer-authority-laws.md), lines 27–59, and
+  [lifecycle](../../Loom/docs/reference/lifecycle.md), lines 8–30: queued speech and deferred
+  answer rights have different lifetime bindings. Restoring a serialized waiting flag or
+  correlation does not recreate the exact invocation's private answer authority. An authored
+  repair can instead reopen a conversation or reconstruct work under a new attempt.
+- [Capabilities and containment](../../Loom/docs/reference/capabilities.md), lines 83–99 and
+  144–180: loaded native code shares the host's address space. Speech grants are not native
+  resource isolation. A separate contained process has its own platform/enforcement contract;
+  copying an artifact and its declared state does not automatically clone or isolate external
+  effects, handles, input sources or pending conversations.
+
+**Design inference:** delayed investigation needs deliberately retained evidence, explicit gaps,
+and an available observation route. Repair messages, authored replacement, debugging weaves and
+isolated specimens can serve different needs. Each must state the state, rights and resources
+it can actually preserve. Resuming represented domain work is distinct from resuming a native
+execution continuation. The draft's Genera reference records the founder's inspiration, not a
+researched historical comparison or a claim of equivalent present capability.
+
 ## Review and backlog disposition
 
 Six of six planned review areas completed: owner mapping; actual output/readiness paths;
 lifecycle/authority and resource limits; failure attribution; input/Editor interaction;
 reader scope and architectural fit. A bounded independent source trace supplemented this review.
+The founder revision additionally checked authored continuity, old/new instance coexistence,
+evidence retention, and repair/inspection limits: four of four areas traced, with a bounded
+independent source review. Accepted direction is recorded in the Workshop Goal Map; mechanisms
+remain proposals. The linked Flow horizon was corrected where it promised universal state
+snapshots from bus inspection alone.
 No runtime test result, current remote status, final API or seamless-switch guarantee is claimed.
 
 BL-WORK-01 applies to tracing a concrete failed/stuck intent; BL-WORK-02 favors keeping ordinary
 pane authoring simple; BL-WORK-03 remains unresolved implementation/acceptance work.
+The diagnostic slice also touches [P-WORK-14](../pressure.md#p-work-14--refusals-are-kept-but-not-readable):
+existing retained refusals need a usable reader. Use that pressure when scoping the first maker
+inspection route; this draft does not mark it implemented or expand it into a universal debugger.
 BL-ADOPT-03 requires measurement when performance claims or actual bottlenecks arise; this draft
 makes none. BL-ARCH-01's public include debt is not triggered by source changes, and BL-ARCH-02
 supports keeping this proposal outside mandatory current law. No closed ABI item is reopened,
