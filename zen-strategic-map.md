@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** resolve Editor's document/presentation commitment, then resume PR #23 integration; continue the IDE-loop road (§6)
-**Current execution state:** the founder selected a focused design investigation after the integration preflight stop; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns its fixed outcome
+**Current execution state:** Vision is drafting the presentation-manager architecture after the commitment investigation; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns its fixed outcome
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -192,14 +192,15 @@ Nearer follow-ons that remain pressure-driven include pane Inspect (the Terminal
 the timed auto-revert, source search/Unicode/multiple documents, and a graphical Flow projection.
 None is automatically next merely because its seam is visible.
 
-**Current selection: investigate Editor's commitment boundary before further implementation.**
-Loom's scoped dispatch refusal is merged; the Zengine integration preflight reproduced the
-document, presentation and input failures and stopped. The founder selected a focused
-[design investigation](../prompts/editor-commit-investigation.md) comparing application-owned
-coordination with the smallest earned Loom mechanism, using an executable witness. PR #23
-remains unaccepted. The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work)
-owns the fixed outcome, input/performance distinction and continuation boundary. This selection
-does not authorize a general transaction system or a presentation extraction.
+**Current exploration: presentation ownership and management before a substrate decision.**
+The commitment investigation has reported a protected-publication candidate. The founder
+emphasizes attributable failure and authored managers as external recovery architecture;
+indefinitely pending work is valid behavior. Vision is preparing a source-grounded
+[discussion draft](drafts/presentation-manager.md) to establish that high-level ownership and
+the remaining coordination need. Its proposed service boundaries are not accepted law.
+PR #23 remains unaccepted. The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work)
+owns the fixed outcome and continuation boundary. No root-backed state facility, production
+ABI change or presentation extraction is selected by this draft.
 
 VD-20 still separates dispatch-refusal notification from progress/closing answers. The first
 phase does not supply timeout, cancellation, or notice of a delivered request abandoned later.

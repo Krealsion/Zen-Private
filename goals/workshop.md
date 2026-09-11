@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-11  
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** resolve Editor's document/presentation commitment before resuming PR #23 implementation; the IDE loop remains the product road
-**Current execution state:** the integration preflight stopped; the founder selected a focused design investigation with an executable witness (§7)
+**Current execution state:** the commitment investigation is reported; Vision is developing a presentation-manager discussion draft before selecting a lower-level mechanism (§7)
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -83,6 +83,18 @@ with Workshop connecting the participating subsystems and applying application p
 Name the application authority, presentation owner and document owner separately when a
 design crosses them. Moving presentation must not require surrendering the Editor weave's
 document custody. Actual presentation extraction is an option, not selected production work.
+
+### Failure and supervision
+
+Authored weaves may fail, remain silent or stay pending indefinitely. Those are valid program
+behaviors; the architecture does not owe universal successful completion. Zengine's shipped
+components should preserve work and make failures or unfinished operations attributable to the
+relevant intent, participant and observed stage. Absence of an answer is not a diagnosis.
+
+Managers supply external observation and recovery policy within their authority. They may help
+the application continue without solving the original operation; they too remain authored
+participants that can fail. Establish the high-level owner and what it can actually know
+before treating a missing interaction as evidence for a new substrate primitive.
 
 ### Project and user files
 
@@ -324,16 +336,19 @@ at a defensible commitment boundary. Failure preserves the prior document, inclu
 legitimate intervening work for it, and leaves no setup/focus change attributable to the
 failed operation. Later independent maker actions may change presentation.
 
-Compare application-owned coordination using current Loom with the smallest substrate
-mechanism actually earned by a missing guarantee. Preserve weave-owned source custody and
-the movable presentation ownership in §3; do not assume a general Loom transaction facility
-is required. The [investigation prompt](../../prompts/editor-commit-investigation.md) owns
-research and isolated experiments. Production integration follows a reviewed design and its
-own authorization. [BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate)
-tracks the remaining extraction and dispatch-refusal integration obligations.
+The [commitment investigation](../../reportbacks/editor-commit-investigation-RB.md) proposes
+protected publication of owner-prepared values and compares it with provisional application
+coordination. The founder has not selected a production root/SDK/ABI contract. The current
+exploration starts with presentation-manager ownership, provider lifecycle and attributable
+failure; Vision's [discussion draft](../drafts/presentation-manager.md) and its source research
+are proposals for brainstorming, not accepted product law or an execution prompt. Preserve
+weave-owned source and movable presentation ownership while evaluating the remaining need for
+joint commitment. [BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate)
+tracks the still-owed extraction and dispatch-refusal integration. Implementation follows a
+reviewed design and its own scope.
 
-Input preservation is a correctness requirement. The observed 257-event loss uses ordinary
-one-character text events, not huge loading payloads. Trace the actual pending interval;
+Input preservation remains a Zengine correctness requirement. The observed 257-event loss
+uses ordinary one-character text events, not huge loading payloads. Trace the actual pending interval;
 rapid traffic from multiple participants may extend it across dispatch/frame boundaries.
 Bound resources while preserving admitted input, its order and subject, and unrelated pane
 usability. An arbitrary larger cap or indefinite retention is not a repair. Large loading
