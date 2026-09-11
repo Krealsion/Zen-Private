@@ -372,7 +372,10 @@ movable presentation ownership while deciding the bounded mechanism for joint co
 The service-management explorations do not make another subsystem extraction or a general
 recovery framework prerequisites. [BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate)
 tracks the still-owed extraction and dispatch-refusal integration. Implementation follows a
-reviewed design and its own scope.
+reviewed design and its own scope. Vision's proposed
+[PR #23 roadmap](../drafts/editor-pr23-roadmap.md) sets out a real Editor/presentation
+implementation slice, any justified Loom dependency, and the remaining extraction
+acceptance work. It does not select the production API or authorize execution.
 
 Input preservation remains a Zengine correctness requirement. The observed 257-event loss
 uses ordinary one-character text events, not huge loading payloads. Trace the actual pending interval;

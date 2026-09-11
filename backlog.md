@@ -67,6 +67,10 @@ Exact-attempt dispatch-refusal integration in Files/Builder/Editor and its full 
 matrix remain owed after that design is established. Sender-visible dispatch refusal does
 not itself make application facts atomic or settle delivered silence.
 
+Vision's proposed [PR #23 roadmap](drafts/editor-pr23-roadmap.md) details the next
+implementation slice and the dependency/integration sequence, using a focused open-operation
+manager. Production API selection and execution remain subject to their own reviewed scope.
+
 **Wake satisfied:** Loom PR #5 is merged at `f20f32df01e36ae672cef8013ea4499b76e3954c`, and the
 founder selected the Zengine side. The bounded investigation has reached founder review with an
 executable witness; it does not select a production Loom feature or waive extraction
