@@ -104,11 +104,25 @@ MSVC stranger/full lanes. Repair the mechanism or claim; do not merely broaden a
 
 ### BL-ABI-01 — Positional aggregate ABI hazard
 
-**State:** PARKED  
-**Owed:** Revisit the COLD-1 F-23 positional aggregate/layout ambiguity before the next ABI version
-or descriptor evolution makes adjacent identical signatures difficult to review.
+**State:** VERIFIED — PENDING FOUNDER ACCEPTANCE
 
-**Wake:** ABI v7 or equivalent public descriptor/layout change.
+**Disposition:** The source hardening already landed in Loom
+`2cf7e0565c810f61375fca4c31f5088b7e3b6c6c`: all descriptor/host constructions name their fields.
+ABI v7 fired the promised reassessment. At `eee04550dfbae61638ff84f1c9da1c32ad90f9b0`, the exhaustive callback-type inventory,
+real-host cross-wire canary, loaded semantic red/restored-green witness, strict C99/C11/C17
+producer and C++20 export checks, official Linux lane and all eight new-head CI jobs passed
+their intended verdicts. The new send_to_role/office_publish equality is distinguished by
+destination, personal/office provenance and attempt/count meaning; descriptor safeguards remain.
+
+**Acceptance:** Recommend removing this item from the live backlog when the founder accepts
+the reassessment; retain its history in reports and Git. No work remains parked on ABI v7.
+Future appended fields or changed signatures follow the current ABI evolution checklist.
+Standing C-producer/binding infrastructure remains triggered by an actual such producer/binding,
+not by this bounded compatibility witness.
+
+**Evidence:** [reassessment report](../reportbacks/abi-v7-wiring-reassessment-RB.md),
+[full inventory and mutation proof](../reportbacks/abi-v7-wiring-reassessment-evidence.md),
+[original BL-4 record](../reportbacks/BL-4-RB.md), and Loom PR #5 CI run `34557565217`.
 
 ### BL-ADOPT-01 — Human contributor front door
 
