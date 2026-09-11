@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-10  
+**Refreshed:** 2026-09-11  
 **Strategic authority:** `private/zen-strategic-map.md`  
-**Current direction:** Loom's scoped dispatch-refusal phase is merged; resume Editor PR #23 for integration and acceptance (VD-27); the IDE loop remains the product road
-**Current execution state:** pane status and the resume boundary are in §7; sender-fate research is complete, and implementation awaits its own prompt
+**Current direction:** resolve Editor's document/presentation commitment before resuming PR #23 implementation; the IDE loop remains the product road
+**Current execution state:** the integration preflight stopped; the founder selected a focused design investigation with an executable witness (§7)
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -24,9 +24,9 @@ The beginner and the expert should perform the same underlying act. Convenience 
 ceremony; it must not hide a different privileged mechanism.
 
 Since 2026-09-06 the peer sentence above is direction, not aspiration (VD-19): every pane a maker
-sees inside Workshop should become a participating weave loaded from the plan. Workshop keeps
-room, focus, realization and roots. A built-in pane written as C++ inside the host is the debt
-this arc pays, one pane at a time.
+sees inside Workshop should become a participating weave loaded from the plan. Workshop
+currently implements room and focus alongside realization and roots. A built-in pane written
+as C++ inside the host is the debt this arc pays, one pane at a time.
 
 ## 2. Current maker capability
 
@@ -73,6 +73,16 @@ cannot yet reach a source from the pane that draws it, and a changed-shape rebui
 rather than replaced.
 
 ## 3. Current ownership model
+
+### Application authority and presentation ownership
+
+Workshop is the host and authority for its application. It currently implements presentation
+ownership: room, pane arrangement and focus. That implementation location is not a permanent
+ownership constraint. The founder favors keeping presentation movable into its own weave,
+with Workshop connecting the participating subsystems and applying application policy.
+Name the application authority, presentation owner and document owner separately when a
+design crosses them. Moving presentation must not require surrendering the Editor weave's
+document custody. Actual presentation extraction is an option, not selected production work.
 
 ### Project and user files
 
@@ -300,22 +310,39 @@ corrections are accepted with PR #22; it supplies `PaneCaret` ahead of the Edito
 the final extraction in this arc.** Layouts, Pane Manager, and the maker pane remain host-owned
 under the arc's current boundary, not as exceptions to the long-term peer-tool direction.
 
-**Current selection: resume Editor PR #23 for bounded integration and acceptance.** The
-founder has merged Loom PR #5 at `f20f32df01e36ae672cef8013ea4499b76e3954c` and selected the
-Zengine side. This completes the prerequisite in VD-27's 2026-09-10 parking decision; it does
-not accept the extraction. Preserve its work and the reproduced failures: the intended source
-is absent at the claimed commitment, the held-paste outcome changed, and the new hold queue
-can lose input. A green lane does not waive those guarantees.
+**Current selection: investigate Editor's document/presentation commitment.** The founder
+accepted the [integration preflight stop](../../reportbacks/editor-sender-refusal-integration-RB.md)
+and selected a focused design study with a small executable witness. Loom PR #5 is merged at
+`f20f32df01e36ae672cef8013ea4499b76e3954c`; Editor PR #23 remains unaccepted at
+`9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh merged-Loom preflight reproduced the
+wrong source at the claimed commitment, loss of A's legitimate paste, and the 257th valid
+text event being dropped. A queued reveal also survives Editor reload after its pending
+operation is lost. Passing official tests did not establish the required outcome.
 
-[Sender-fate research](../../reportbacks/sender-fate-research-RB.md) scopes the first phase to
-sender-visible dispatch refusal. It will not itself repair the opening transaction or report
-every conversation abandoned after delivery. Resume Editor by stating when document and
-presentation agree, how intervening input retains its subject, and what replacement does to
-pending work; name any further missing capability before another implementation pass.
-The selected obligation is [BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate);
-the task is [Editor integration](../../prompts/editor-sender-refusal-integration.md).
-Progress/closing answers (VD-20) and the authority workflow (VD-21) remain separate selected
-work; the first fate phase does not silently acquire them.
+**Fixed opening outcome:** success has the intended source installed, presented and focused
+at a defensible commitment boundary. Failure preserves the prior document, including
+legitimate intervening work for it, and leaves no setup/focus change attributable to the
+failed operation. Later independent maker actions may change presentation.
+
+Compare application-owned coordination using current Loom with the smallest substrate
+mechanism actually earned by a missing guarantee. Preserve weave-owned source custody and
+the movable presentation ownership in §3; do not assume a general Loom transaction facility
+is required. The [investigation prompt](../../prompts/editor-commit-investigation.md) owns
+research and isolated experiments. Production integration follows a reviewed design and its
+own authorization. [BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate)
+tracks the remaining extraction and dispatch-refusal integration obligations.
+
+Input preservation is a correctness requirement. The observed 257-event loss uses ordinary
+one-character text events, not huge loading payloads. Trace the actual pending interval;
+rapid traffic from multiple participants may extend it across dispatch/frame boundaries.
+Bound resources while preserving admitted input, its order and subject, and unrelated pane
+usability. An arbitrary larger cap or indefinite retention is not a repair. Large loading
+operations may reasonably take time; optimize against actual interaction needs and measured
+bottlenecks, without turning this investigation into a bulk-data performance campaign.
+
+Merged dispatch refusal reports selected pre-handler failures; it does not establish this
+application commitment or settle every conversation abandoned after delivery. Progress/closing
+answers (VD-20) and the authority workflow (VD-21) remain separate selected work.
 
 The extraction must preserve the current document's ownership/lifetime guarantees and the
 component behaviors previously supplied by the host. Route through `Zengine/agents/workshop.md`,

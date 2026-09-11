@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-10  
+**Refreshed:** 2026-09-11  
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
-**Current product direction:** Loom's scoped dispatch-refusal phase is merged; resume Editor PR #23 for integration and acceptance (VD-27); continue the IDE-loop road (§6)
-**Current execution state:** [Workshop Goal Map](goals/workshop.md) owns the parked extraction; [sender-fate research](../reportbacks/sender-fate-research-RB.md) scopes the next packet; implementation awaits its own prompt
+**Current product direction:** resolve Editor's document/presentation commitment, then resume PR #23 integration; continue the IDE-loop road (§6)
+**Current execution state:** the founder selected a focused design investigation after the integration preflight stop; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns its fixed outcome
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -71,8 +71,11 @@ would change future decisions.
   referrer, not the Editor's source authority.
 - **Build intent and load intent are separate authored truths.** They join by artifact identity;
   neither silently absorbs the other's policy.
-- **A presentation owns meaning inside its grant; the host owns room and spatial conflict.** Paint,
-  hit-testing, ordering, clipping, and granted pane room spend the same resolved geometry.
+- **A presentation owns meaning inside its grant; application authority governs room and
+  spatial conflict.** Workshop currently implements the presentation owner; keeping that owner
+  movable into a weave is the favored option, not a selected extraction. See the
+  [ownership distinction](goals/workshop.md#application-authority-and-presentation-ownership).
+  Paint, hit-testing, ordering, clipping, and granted pane room spend the same resolved geometry.
 - **Pointing names a subject for one request; selection is a state the maker entered.** Context
   remembers identity and re-asks the owner when the action is spent.
 - **Refuse rather than pretend.** Unsupported bytes, units, authority, lifecycle, or platform
@@ -189,12 +192,14 @@ Nearer follow-ons that remain pressure-driven include pane Inspect (the Terminal
 the timed auto-revert, source search/Unicode/multiple documents, and a graphical Flow projection.
 None is automatically next merely because its seam is visible.
 
-**Current selection: Editor integration and acceptance on PR #23.** The founder has merged
-Loom PR #5 at `f20f32df01e36ae672cef8013ea4499b76e3954c` and selected the Zengine side. This
-advances VD-27's 2026-09-10 sequence (park Editor, land scoped sender fate, resume Editor),
-which revised VD-25's extraction-first order. Editor remains unaccepted; its document,
-presentation and input guarantees stand. The [integration prompt](../prompts/editor-sender-refusal-integration.md)
-owns this bounded task, beginning with a concrete transaction argument.
+**Current selection: investigate Editor's commitment boundary before further implementation.**
+Loom's scoped dispatch refusal is merged; the Zengine integration preflight reproduced the
+document, presentation and input failures and stopped. The founder selected a focused
+[design investigation](../prompts/editor-commit-investigation.md) comparing application-owned
+coordination with the smallest earned Loom mechanism, using an executable witness. PR #23
+remains unaccepted. The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work)
+owns the fixed outcome, input/performance distinction and continuation boundary. This selection
+does not authorize a general transaction system or a presentation extraction.
 
 VD-20 still separates dispatch-refusal notification from progress/closing answers. The first
 phase does not supply timeout, cancellation, or notice of a delivered request abandoned later.

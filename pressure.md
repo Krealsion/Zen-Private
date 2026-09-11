@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-10
+**Refreshed:** 2026-09-11
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -23,9 +23,10 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-Park Editor PR #23 unmerged (P-WORK-03), do sender fate in Loom next (P-LOOM-02), then
-resume Editor integration and acceptance, as selected on 2026-09-10 (VD-27). Entry status is
-pressure, not a production prompt.
+The founder selected a focused investigation of Editor's document/presentation commitment
+after the merged-Loom integration preflight stopped. The
+[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the current
+outcome and research boundary. Entry status is pressure, not a production prompt.
 
 ## 3. Workshop product pressure
 
@@ -66,7 +67,7 @@ a pointed pane without walking the list, or the document editor's retirement is 
 
 ### P-WORK-03 — The pane protocol is what a provider can say, and the built-ins need more
 
-**State:** PARKED FOR SELECTED SUBSTRATE WORK (VD-27) — Files (PR #16), Builder (#17), Attention (#19), Info (#20), and Terminal (#22) landed; Editor PR #23 remains unmerged and unaccepted. [The Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns its resume boundary.
+**State:** COMMITMENT INVESTIGATION SELECTED; IMPLEMENTATION PAUSED — Files (PR #16), Builder (#17), Attention (#19), Info (#20), and Terminal (#22) landed; Editor PR #23 remains unmerged and unaccepted. [The Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns its resume boundary.
 
 **Evidence:** `Zengine/agents/panes.md`; `agents/workshop/files.md` (WL-FILES-16/17); `reportbacks/pane-actions-and-files-RB2.md`; `reportbacks/pane-weave-research-RB.md` E5
 
@@ -397,30 +398,28 @@ to keep the abstraction warm.
 
 ### P-LOOM-02 — Sender-visible fate and unresolved obligations are still separate questions
 
-**State:** SELECTED NEXT (VD-27); research complete, implementation not started. Dispatch fate first; further obligation semantics remain separate (VD-20; Loom-tier).
+**State:** PARTLY SUPPLIED — scoped dispatch refusal merged; unresolved obligations remain
+separate selected work (VD-20), requiring their own consumer-grounded scope.
 
-**Evidence:** Loom messaging/answer law, recent raw architecture synthesis
+**Evidence:** [merged dispatch-refusal contract](../Loom/docs/reference/messaging.md#sender-visible-dispatch-refusal),
+[remaining seams](../Loom/docs/reference/known-seams.md),
+[Editor integration preflight](../reportbacks/editor-sender-refusal-integration-RB.md).
 
-Ordinary senders are not told their send's dispatch fate. `AskBook` records an asker's pending
-conversations; it does not authenticate every answer, report dispatch refusal, or promise a reply.
-For exact targets it checks correlation and bus-stamped sender; an office-targeted record cannot
-name the future role holder. Answer provenance remains the consumer's separate check.
+Loom now offers explicit acceptors authenticated notice of selected pre-handler dispatch
+refusals, returned to the exact sending life and incarnation. TerminalSession consumes it;
+the Zengine operation owners' integration remains in BL-WORK-03. The notice is best effort,
+not proof of delivery, semantic success or eventual settlement. It cannot make separate
+application facts commit together.
 
-Loom commit `d1a757811d57cd66bc42a2a4d5e41c6ba05409c1` introduced that reusable bookkeeping
-and made TerminalSession a consumer. It did not implement sender fate or progress. Current owners:
-`Loom/docs/reference/messaging.md` (the asker's book), `docs/reference/known-seams.md`
-(sender fate), and `tests/test_terminal.cpp` (a dispatch denial remains invisible to the sender).
+`AskBook` remains conversation bookkeeping. Its attempt matching supports the notice consumer;
+it does not itself supply provenance, terminal answers or progress. Exact mechanics belong
+in the Loom messaging and answer-authority contracts, not a second pressure-board specification.
 
-The founder now parks the unmerged Editor extraction and selects sender fate first (VD-27).
-[The research](../reportbacks/sender-fate-research-RB.md) distinguishes dispatch refusal from
-later conversation abandonment and recommends TerminalSession as the first consumer. Scope
-implementation from VD-20's dispatch-refusal outcomes; do not silently turn it into guarantees
-of delivery, semantic success, timeout, cancellation, or eventual settlement.
-
-**Selection basis:** the former consumer trigger fired on 2026-09-06: Builder progress, the
-Weaver's pending approval, and realization's waiting row (VD-20). It is not an unmet gate.
-VD-27 places fate before resuming Editor. Further obligation semantics still need a scoped
-task grounded in those consumers, not a framework derived from vocabulary alone.
+Delivered-but-unanswered work, handler failure and invalidated answer rights remain distinct
+progress questions. Builder progress, the Weaver's pending approval and realization's waiting
+row supply the consumer pressure (VD-20). Scope further obligation work from those needs;
+do not infer timeout, cancellation, retry or a general transaction system from vocabulary.
+The Editor commitment study has its own application-safety question and current Goal Map route.
 
 ### P-LOOM-03 — A policy delegate can die while its installed authority survives
 

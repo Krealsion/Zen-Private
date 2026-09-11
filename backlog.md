@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-10  
+**Refreshed:** 2026-09-11  
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -44,7 +44,7 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** PREFLIGHT STOP — TRANSACTION DECISION REQUIRED; NOT ACCEPTED
+**State:** DESIGN INVESTIGATION SELECTED — IMPLEMENTATION PAUSED; NOT ACCEPTED
 
 **Owed:** PR #23 remains at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh integration
 preflight against installed merged Loom reproduced all three outstanding failures: A is still
@@ -53,17 +53,18 @@ text event is dropped. A real Editor reload also leaves its old queued reveal ab
 without settling the original B request. The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work)
 continues to own the fixed guarantees.
 
-Before another implementation pass, resolve the protected document/presentation commitment
-and participant-lifetime boundary: current room and the source/input subject must agree at
-commitment, with lossless input and refusal/rollback that cannot leave stale setup/focus changes.
-The preflight names concrete coordination, ownership and product-contract alternatives; none
-is implemented or accepted. Exact-attempt dispatch-refusal integration in Files/Builder/Editor
-and its full acceptance matrix remain owed after that design is established. Sender-visible
-dispatch refusal does not itself make these application facts atomic or settle delivered silence.
+The founder accepted the preflight stop and selected the
+[commitment investigation](../prompts/editor-commit-investigation.md). Compare application-owned
+coordination with the smallest earned Loom mechanism, preserving the fixed opening outcome,
+weave-owned source and movable presentation ownership. The Goal Map owns those constraints;
+the investigation's recommendation requires review before production implementation.
+Exact-attempt dispatch-refusal integration in Files/Builder/Editor and its full acceptance
+matrix remain owed after that design is established. Sender-visible dispatch refusal does
+not itself make application facts atomic or settle delivered silence.
 
 **Wake satisfied:** Loom PR #5 is merged at `f20f32df01e36ae672cef8013ea4499b76e3954c`, and the
-founder selected the Zengine side. The integration prompt's stop condition 2 now requires a
-transaction decision; this disposition does not select a new Loom feature or waive extraction
+founder selected the Zengine side. The immediate task is now a bounded investigation with an
+executable witness; this does not select a production Loom feature or waive extraction
 acceptance.
 
 **Evidence:** founder's parking and resumption decisions;
