@@ -335,13 +335,19 @@ the cache's owner without introducing a general package manager.
 
 
 
-### P-BUILD-04 — The hosted/advisory MSVC result remains weaker than local evidence
+### P-BUILD-04 — MSVC support claims follow hosted evidence
 
 **State:** WATCH  
-**Evidence:** current CI is advisory; local MSVC lanes pass
+**Evidence:** the hosted lane remains advisory; the historical unexplained failure is resolved
 
-Do not widen the continuous-support claim from local/native evidence alone. Read authenticated
-hosted failure evidence before changing diagnostics or claiming the advisory lane is stable.
+Vision read the original [failed run](https://github.com/Krealsion/Zengine/actions/runs/31271991320):
+test-time compilations lacked the Visual Studio environment and could not find `cstdint`.
+[Commit 24a4fdd](https://github.com/Krealsion/Zengine/commit/24a4fdd2a618d53810eb2093cc713b2f0a2fb530)
+repaired that step and is in accepted main. The MSVC jobs passed on
+[main e593894](https://github.com/Krealsion/Zengine/actions/runs/34445632720) and
+[Editor 9cbf5a5](https://github.com/Krealsion/Zengine/actions/runs/34535147227), checked individually.
+BL-VER-02's reconciliation is complete. Keep future support-policy decisions separate: local
+success or these particular hosted successes do not by themselves change the advisory policy.
 
 ### P-BUILD-05 — Three more spin-bound loops in the builder suite
 

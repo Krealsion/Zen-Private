@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-10  
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
-**Current product direction:** park Editor PR #23 unmerged; sender fate in Loom next, then resume Editor integration and acceptance (VD-27); continue the IDE-loop road (§6)
+**Current product direction:** Loom's scoped dispatch-refusal phase is merged; resume Editor PR #23 for integration and acceptance (VD-27); continue the IDE-loop road (§6)
 **Current execution state:** [Workshop Goal Map](goals/workshop.md) owns the parked extraction; [sender-fate research](../reportbacks/sender-fate-research-RB.md) scopes the next packet; implementation awaits its own prompt
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
@@ -189,11 +189,12 @@ Nearer follow-ons that remain pressure-driven include pane Inspect (the Terminal
 the timed auto-revert, source search/Unicode/multiple documents, and a graphical Flow projection.
 None is automatically next merely because its seam is visible.
 
-**Sequence selected 2026-09-10 (VD-27): park Editor PR #23 unmerged, do sender fate in
-Loom, then return to Editor integration and acceptance.** The extraction remains useful work,
-but another full correction cycle is no longer the selected next step. This revises VD-25's
-requirement to finish the last extraction before fate; it accepts neither the PR nor weaker
-document/presentation/input guarantees.
+**Current selection: Editor integration and acceptance on PR #23.** The founder has merged
+Loom PR #5 at `f20f32df01e36ae672cef8013ea4499b76e3954c` and selected the Zengine side. This
+advances VD-27's 2026-09-10 sequence (park Editor, land scoped sender fate, resume Editor),
+which revised VD-25's extraction-first order. Editor remains unaccepted; its document,
+presentation and input guarantees stand. The [integration prompt](../prompts/editor-sender-refusal-integration.md)
+owns this bounded task, beginning with a concrete transaction argument.
 
 VD-20 still separates dispatch-refusal notification from progress/closing answers. The first
 phase does not supply timeout, cancellation, or notice of a delivered request abandoned later.
