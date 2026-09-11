@@ -127,9 +127,13 @@ policy for its own tools without elevating it into the one permitted weave lifec
 Loom's authored-handoff pattern already leaves continuity and post-boundary behavior to the
 domain. Today's prepared replacement nevertheless seals the incumbent when the successor is
 admitted: keeping that old service running afterwards is not an automatic property of that
-ceremony. Switching a factory/default while retaining old instances needs an explicit routing
-and lifetime arrangement. Transferring data alone also does not keep an old message protocol
-usable or transfer its answer rights. [E5](presentation-manager-research.md#e5-lifecycle-boundaries-and-continuity)
+ceremony. The [service-retirement research](service-retirement-research.md) confirms that Loom's
+lower-level role-only commit can leave both instances serving, and recommends application-owned
+routing of new work with existing operations bound to their original worker. This remains a
+proposed Zengine policy: direct/broadcast ingress, completion, authority and resource lifetime
+need explicit treatment. Keeping an old instance also does not freeze its operator dependencies.
+Transferring data alone does not keep an old message protocol usable or transfer its answer
+rights. [E5](presentation-manager-research.md#e5-lifecycle-boundaries-and-continuity)
 
 ### One candidate policy for output
 

@@ -123,6 +123,10 @@ The presentation manager's own failure/replacement also needs reconstruction of 
 knowledge; restoring an id or a pending flag does not restore an expired authority/right.
 The founder's continuity alternatives fit the existing domain-owned pattern. This does not
 mean every alternative is already implemented by one current replacement ceremony.
+The [service-retirement follow-up](service-retirement-research.md) traces role-only movement,
+live authority and Zengine integration, with a native probe of surviving old conversations.
+It recommends a Zengine-owned work-routing/retirement policy before changing Loom; that is a
+research recommendation, not a selected implementation.
 
 ## E6 Evidence and attribution
 
