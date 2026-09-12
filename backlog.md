@@ -44,22 +44,32 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** STEP 1 MECHANISM ACCEPTED AS THE BASIS FOR STEP 2 (2026-09-12) — LOOM PRODUCTION LANDING AUTHORIZED; PR #23 NOT ACCEPTED
+**State:** STEP 2 LOOM LANDING PUBLISHED FOR REVIEW (2026-09-12) — Loom PR #6, NOT MERGED, NOT ACCEPTED; PR #23 NOT ACCEPTED
 
-**Current disposition:** The founder selected Step 2 after Vision's source and independent runtime
-review closed the outcome-retention and false-repair blockers. The
-[Loom landing prompt](../prompts/loom-joint-publication-landing.md) owns this execution scope:
-generic joint publication with explicit release and Applied/Declined/Failed answers, native
-coordination, ABI v8 with exact-version rejection and rebuilt images, and production documentation.
-Loom's production change still requires review and acceptance before Step 3's final dependency.
+**Current disposition:** Step 1's mechanism was accepted as the basis for Step 2; the
+[landing phase](../reportbacks/loom-joint-publication-landing-RB.md) ported the generic
+dependency to production Loom on branch `feat/joint-publication` (PR #6 against main, tip
+`e80e2b30916f330009441a876f1d5f40934aad31`): the native operator and loaded claimant surfaces,
+the three-answer showing with the SDK's permissive fallback closed at compile time, records kept
+until released, ABI v8 with exact-version rejection at load and at reload, SENSE-06/07 and
+`docs/reference/joint-publication.md`. An isolated candidate install and its identity are in the
+report. Production Loom review and acceptance remain distinct from this publication, and PR #23
+acceptance remains distinct from both.
 
-Step 3 remains owed: Zengine integration, Files/Builder exact-attempt refusal consumption, the
-opening/input/lifecycle acceptance matrix, and PR #23 acceptance. Include the bounded manager
-bookkeeping repair identified in review: an immediate begin refusal must retire an older retained
-repair record under the same policy as normal settlement, so a later old repair cannot overwrite
-the newer public outcome. Also handle recorded native participant failures at Workshop's pump
-boundary and give managed opening its own routed register. These belong to Zengine integration;
-they do not require another Loom research arc. The prompt carries the reproduction and handoff.
+Step 3 remains owed, against the ACCEPTED installed Loom: Zengine integration of the real owners
+and native opening manager, the old Editor-address relay and answer provenance kept, Files/Builder
+exact-attempt refusal consumption, the fixed opening/input/lifecycle acceptance matrix (no opening
+success before the promised document/presentation/focus outcome), and PR #23 acceptance. Include
+the bounded manager bookkeeping repair identified in review: every immediate terminal exit
+(an `Exhausted` begin refusal included) must retire an older retained repair record under the same
+policy as normal settlement, so a later old repair cannot overwrite the newer public outcome --
+pin that schedule; no new Loom mechanism is required. Handle recorded native participant failures
+at Workshop's pump boundary, distinguished from arbitrary host errors. Give managed opening its
+own routed register (`agents/workshop/opening.md`), Editor custody retained in its owner; preserve
+ordinary pane ceremony and the simple external pane example (BL-WORK-01/02). One measured
+consumer fact for the integration: `Switchboard::snapshot_bytes` is non-const since v8 (a snapshot
+may perform a showing), and PR #23's `test_workshop_load.cpp` calls it from a `const` helper --
+one line adapts. These belong to Zengine integration; they do not require another Loom research arc.
 
 **Owed:** PR #23 remains at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh integration
 preflight against installed merged Loom reproduced all three outstanding failures: A is still
@@ -225,10 +235,21 @@ depends on performance.
 
 ### BL-ARCH-01 — Cross-layer public include debt
 
-**State:** PARKED  
+**State:** PARKED (reassessed 2026-09-12 at the ABI v8 landing; not made material)  
 **Owed:** A few portable/public surfaces depend on headers whose current contents happen to remain
 platform-neutral. Repair ownership only when a package/platform break or public-header evolution
 makes the debt material.
+
+**Measured disposition (loom-joint-publication-landing):** the touched public boundary was traced
+header by header. Every new type lives in the layer that owns its concept -- the operation and
+its authority beside the Sense types in `switchboard/sense.hpp`, the hook's answer beside the weave
+contract, the notices beside `DispatchRefused` in `weave/`, the two statuses and slots in the C
+`abi.h` -- and every new include points downward or sideways (switchboard → core; weave → switchboard;
+kernel → switchboard, as before). The three-way answer has one truth on each side of the C seam,
+joined by two mapping functions (`do_claim_published` library-side, `HostAdapter::claim_published`
+host-side), and the package witness and the MinGW/MSVC lanes passed on the installed headers. No
+upward include, no platform-conditional content entered a portable header; the debt is unchanged
+and left parked with this argument in the report.
 
 **Wake:** relevant package failure, platform break, or touched ownership boundary.
 
