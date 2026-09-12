@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-11  
+**Refreshed:** 2026-09-12  
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -44,152 +44,40 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** STEP 2 AUTHORITY CORRECTIONS PUBLISHED FOR REVIEW (2026-09-12) — Loom PR #6 at `1dcf42b`, NOT MERGED, NOT ACCEPTED; PR #23 NOT ACCEPTED
+**State:** STEP 3 AUTHORIZED (2026-09-12) — Loom PR #6 accepted and merged; Zengine PR #23 remains unaccepted.
 
-**Current disposition:** Step 1's mechanism was accepted as the basis for Step 2; the
-[landing phase](../reportbacks/loom-joint-publication-landing-RB.md) ported the generic
-dependency to production Loom on branch `feat/joint-publication` (PR #6 against main, tip
-`e80e2b30916f330009441a876f1d5f40934aad31`): the native operator and loaded claimant surfaces,
-the three-answer showing with the SDK's permissive fallback closed at compile time, records kept
-until released, ABI v8 with exact-version rejection at load and at reload, SENSE-06/07 and
-`docs/reference/joint-publication.md`. An isolated candidate install and its identity are in the
-report. Production Loom review and acceptance remain distinct from this publication, and PR #23
-acceptance remains distinct from both.
+**Current disposition:** the corrected managed-opening experiment earned production Loom's joint
+publication contract. PR #6 merged as `a08499f4e445b578b2c4ffcaac6265aa7094b88f`, with the same
+tree as reviewed `1dcf42b81351e1518adade98f69b048eda5742f7`. The founder selected the Zengine side.
+The [Step 3 prompt](../prompts/zengine-managed-open-integration.md) authorizes integration on
+PR #23 from `9cbf5a5ac8d4751472dc891371401d93a25e03cc`, using the corrected experimental Zengine
+`76be71f406678b4ea8786f3f823f6924bd274a12` and the accepted installed Loom.
 
-Vision's review reproduced two authority defects against the installed landing: a different
-operator's commit can abort a preparation it does not own, and an old `JointAuthority` remains
-usable after its operator's incarnation changes. The founder authorized the bounded
-[authority corrections](../prompts/loom-joint-publication-authority-corrections.md). Preserve
-the selected contract; prove foreign requests have no effects on the owner's operation and that
-successors need fresh host authorization. These corrections precede Loom acceptance and Step 3.
+**Still owed:** integrate the real loaded Editor, focused native opening manager and current
+Workshop presentation owner; preserve the old Editor-address relay and answer provenance; finish
+Files/Builder exact-attempt refusal consumption; establish the fixed opening/input/lifecycle
+acceptance matrix and submit PR #23 for founder review. The
+[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the outcome; the
+[roadmap](drafts/editor-pr23-roadmap.md) explains the current sequence.
 
-Measured disposition of the
-[authority corrections](../reportbacks/loom-joint-publication-authority-corrections-RB.md)
-(2026-09-12): both defects reproduced on `e80e2b3` through ordinary `Mail` calls, corrected in
-one commit `1dcf42b81351e1518adade98f69b048eda5742f7` on the same branch — `JointAuthority`
-names the operator's exact life and incarnation (minted by the host, refused `NotOperator` once
-either moves, minted again for a successor; nothing valid for an absent or dead operator), and
-`commit_joint_as` asks ownership before any effect, so a foreign operator's request changes
-nothing of the record it names. J23/J24 pin it, three mutations made them red, the official
-lane is 46/46 Debug and ASan+UBSan, the package witness passed, and the experimental Zengine
-`76be71f` built unmodified against the isolated candidate install
-(`~/zen-build/loom-joint-corrections/install`) with every focused population equal to the
-landing's. Still owed before Step 3: the founder's review of PR #6 at `1dcf42b`. Step 3 gains
-one obligation from this phase: a host that reloads its opening manager must mint its
-`JointAuthority` again at the reload (the register `agents/workshop/opening.md` states it).
+The known bounded integration repairs are part of that scope: every newer terminal outcome,
+including an immediate Exhausted begin refusal, retires the manager's older retained repair record
+under the same policy as normal settlement; an old repair cannot overwrite the newer result.
+Handle recorded native participant failures at Workshop's real pump boundary without swallowing
+arbitrary host exceptions. Adapt the const snapshot test helper to Loom v8. A host replacing its
+manager must mint JointAuthority for the successor; supporting manager hot reload is not required.
+Give managed opening its own routed register; preserve Editor custody, ordinary pane ceremony and
+the simple external pane example (BL-WORK-01/02). None of these requires another Loom research arc.
 
-Step 3 remains owed, against the ACCEPTED installed Loom: Zengine integration of the real owners
-and native opening manager, the old Editor-address relay and answer provenance kept, Files/Builder
-exact-attempt refusal consumption, the fixed opening/input/lifecycle acceptance matrix (no opening
-success before the promised document/presentation/focus outcome), and PR #23 acceptance. Include
-the bounded manager bookkeeping repair identified in review: every immediate terminal exit
-(an `Exhausted` begin refusal included) must retire an older retained repair record under the same
-policy as normal settlement, so a later old repair cannot overwrite the newer public outcome --
-pin that schedule; no new Loom mechanism is required. Handle recorded native participant failures
-at Workshop's pump boundary, distinguished from arbitrary host errors. Give managed opening its
-own routed register (`agents/workshop/opening.md`), Editor custody retained in its owner; preserve
-ordinary pane ceremony and the simple external pane example (BL-WORK-01/02). One measured
-consumer fact for the integration: `Switchboard::snapshot_bytes` is non-const since v8 (a snapshot
-may perform a showing), and PR #23's `test_workshop_load.cpp` calls it from a `const` helper --
-one line adapts. These belong to Zengine integration; they do not require another Loom research arc.
+**Wake satisfied:** the dependency is merged and the founder authorized Step 3. Closure still
+requires the production Zengine result and founder acceptance; a prompt or passing experiment
+does not close the extraction.
 
-**Owed:** PR #23 remains at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh integration
-preflight against installed merged Loom reproduced all three outstanding failures: A is still
-the source at the claimed B commitment; A's legitimate held paste is lost; and the 257th valid
-text event is dropped. A real Editor reload also leaves its old queued reveal able to seat A
-without settling the original B request. The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work)
-continues to own the fixed guarantees.
-
-The [commitment investigation](../reportbacks/editor-commit-investigation-RB.md) now reports
-an isolated protected-value-publication design and its strongest current-Loom alternative:
-durable provisional installation with application coordination. The research control passed
-13 cases / 203 assertions; partial publication, stale incarnation and missing input-admission
-invalidation each made the witness red, followed by the restored control. The alternative's
-provisional source visibility is measured, not dismissed by a general impossibility claim.
-The recommendation is joint observable publication, with document ownership in the Editor,
-presentation ownership movable, and Workshop retaining application authority. Its proposed
-root/SDK/ABI and lifecycle contract still require founder review; no production feature or
-weaker opening meaning was selected. The Goal Map continues to own the fixed guarantees.
-Exact-attempt dispatch-refusal integration in Files/Builder/Editor and its full acceptance
-matrix remain owed after that design is established. Sender-visible dispatch refusal does
-not itself make application facts atomic or settle delivered silence.
-
-Vision's proposed [PR #23 roadmap](drafts/editor-pr23-roadmap.md) details the next
-implementation slice and the dependency/integration sequence, using a focused open-operation
-manager. Production API selection and execution remain subject to their own reviewed scope.
-
-**Historical Step 1 evidence (the current disposition above supersedes its pending decisions):**
-
-The [managed-open slice](../reportbacks/editor-managed-open-slice-RB.md) (2026-09-11) implemented
-Step 1 in isolated trees on the real loaded Editor and real Workshop: a focused opening manager,
-joint publication of the Editor's and the desk's latest claims as the one commitment, no held
-input. Measured: Loom `joint` J1–J10 and the full lane 45/45 (also 45/45 under ASan+UBSan), package
-witness PASSED; Zengine official lane 32/32, focused editor population 77 cases / 4137 assertions,
-`workshop_panes` and `workshop_load` whole under sanitizers; three semantic mutations red on their
-deciding cases and restored green; one live tmux interaction; open cost +3 ms small / within noise
-at 4 MiB, keystroke unchanged. The [contract](../reportbacks/editor-managed-open-slice/CONTRACT.md)
-itemizes the Loom support Step 2 must land with an ABI version bump and six ordinary choices the
-founder can overrule (a paste still arriving refuses an open; a newer request supersedes; a quit
-while a candidate is held is refused; caret keys abort a pending open; lifecycle-only operator
-notice; the no-Editor case refused in words). Still owed after that decision: Step 2 (Loom
-landing), Step 3 (Files/Builder exact-attempt refusal consumption), the acceptance matrix, and
-PR #23 acceptance.
-
-The [corrections](../reportbacks/editor-managed-open-slice-corrections-RB.md) (2026-09-11)
-reproduced two counterexamples on that slice and corrected them in the same isolated trees
-before any production API selection. Publication is not application: an owner whose showing
-of a published claim fails is recorded (Pending / Applied / Failed / Lost, attributed to the
-exact participant, operation and revision), held by the bus (deliveries refused
-`ApplicationFailed` by exact attempt, the ordinary snapshot refused, the hook never re-run)
-until it is reloaded or removed, and the manager is told (`zen.JointApplied`) and answers the
-requester only from that record. A performed `zen.PokeWrite`/`zen.PokeResetState` now reaches
-a participant's claim through `after_delivery`. The old door at `zengine.editor` keeps its
-full promise by relaying to the manager with the requester's own answer right; no
-document-only door remains. Measured: Loom `joint` J1–J16 (608 assertions), full lane 45/45
-and 45/45 under ASan+UBSan, package witness PASSED; Zengine official lane 32/32, editor
-population 79 cases / 4397 assertions, `workshop_panes` and `workshop_load` whole under
-sanitizers with no report; three mutations (the swallowed loaded status, the skipped
-mutation invalidation, the document-only old door) red on their deciding cases and restored
-green; the live tmux witness repeated. The open takes four turns from the desk's admission to
-the answer (two before), and the bus retains 180–185 bytes of offer storage, labeled as such.
-The [corrected contract](../reportbacks/editor-managed-open-slice-corrections/CONTRACT.md)
-reconciles the choice lists into nine, and states that loaded coordination is unsupported
-and that no compatibility policy is implemented by an ABI bump. Still owed: the founder's
-selection of Step 2's production Loom support, then Step 2, Step 3, the acceptance matrix,
-and PR #23 acceptance.
-
-The [second corrections](../reportbacks/editor-managed-open-slice-corrections-2-RB.md)
-(2026-09-12) reproduced three more counterexamples on the corrected slice and corrected them in
-the same isolated trees, still before any production API selection. Publication is not the end
-of an outcome's lifetime, and a queued notification is not consumption: the bus keeps an
-operation's record until its operator releases it (`release_joint`) or is itself replaced,
-removed or dead, reuses only a released slot, and says `Exhausted` in words at eight records
-live or unreleased; the claimants' facts stay on their claim records. A repaired owner is not
-proof its old operation applied: the showing hook has three answers (Applied, Declined, Failed;
-`ZEN_CLAIM_DECLINED` across the seam), the real Editor's successor declines a publication it
-did not prepare, and the manager records "committed, not applied after repair" from the one
-record it retains for that word. Measured: Loom `joint` J1–J21 (816 assertions), full lane
-45/45 and 45/45 under ASan+UBSan, package witness PASSED; Zengine official lane 32/32, editor
-population 82 cases / 4576 assertions, `workshop_panes` (454) and `workshop_load` (136) whole
-under sanitizers with no report; the real desk's declined branch and the real manager past an
-unrelated coordinator witnessed; two mutations (any terminal slot reused again; the Editor
-answering applied again) red on their deciding cases and restored byte-for-byte. The
-[corrected contract](../reportbacks/editor-managed-open-slice-corrections-2/CONTRACT.md)
-carries the one canonical list of fifteen choices, the enumerated minimal SDK/ABI delta and
-the exact proposed production homes. Still owed: the founder's selection of Step 2's
-production Loom support, then Step 2, Step 3, the acceptance matrix, and PR #23 acceptance.
-
-**Wake satisfied:** Loom PR #5 is merged at `f20f32df01e36ae672cef8013ea4499b76e3954c`, and the
-founder selected the Zengine side. The corrected executable witness has now earned the scoped
-production Loom landing above; extraction acceptance is still owed. Production checkouts and
-PR #23 were unchanged when Step 2 was authorized.
-
-**Evidence:** founder's parking and resumption decisions;
-[research](../reportbacks/sender-fate-research-RB.md),
-[accepted ABI reassessment](../reportbacks/abi-v7-wiring-reassessment-RB.md),
-[integration preflight](../reportbacks/editor-sender-refusal-integration-RB.md),
-[integration evidence](../reportbacks/editor-sender-refusal-integration-evidence.md),
-[commitment investigation evidence](../reportbacks/editor-commit-investigation-evidence.md).
+**Evidence:** [corrected runnable slice](../reportbacks/editor-managed-open-slice-corrections-2-RB.md),
+[Loom landing](../reportbacks/loom-joint-publication-landing-RB.md),
+[authority corrections](../reportbacks/loom-joint-publication-authority-corrections-RB.md),
+[merged PR #6](https://github.com/Krealsion/Loom/pull/6). Earlier investigations and correction
+rounds remain in those reports and Git rather than in this current disposition.
 
 ## 3. Bounded defects and quick repairs
 
@@ -214,7 +102,7 @@ the bound or introduce code-point/grapheme/display-width policy.
 
 ### BL-DEF-04 — Remove the dead Loom SDL dev override from Zengine
 
-**State:** SMALL QR CANDIDATE  
+**State:** SCOPED IN STEP 3 — [managed-opening integration](../prompts/zengine-managed-open-integration.md); not yet implemented or accepted  
 **Owed:** Zengine's dev-mode CMake branch still describes Loom's retired `zen-ui-sdl` as a future port
 and writes the now-undeclared `ZEN_SDL` cache option. Remove the stale comment and dead `set()`; do
 not alter Zengine's own SDL3 skin or the sibling-Loom dev path.

@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-11  
+**Refreshed:** 2026-09-12  
 **Strategic authority:** `private/zen-strategic-map.md`  
-**Current direction:** resolve Editor's document/presentation commitment before resuming PR #23 implementation; the IDE loop remains the product road
-**Current execution state:** return to the bounded Editor commitment design using the clarified owners; overlapping service retirement is a preserved seam, not prerequisite work (§7)
+**Current direction:** land managed opening and finish Editor PR #23 against accepted Loom; the IDE loop remains the product road
+**Current execution state:** Step 3 production integration selected after Loom PR #6 merged; overlapping service retirement remains a preserved seam (§7)
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -349,33 +349,32 @@ corrections are accepted with PR #22; it supplies `PaneCaret` ahead of the Edito
 the final extraction in this arc.** Layouts, Pane Manager, and the maker pane remain host-owned
 under the arc's current boundary, not as exceptions to the long-term peer-tool direction.
 
-**Current selection: investigate Editor's document/presentation commitment.** The founder
-accepted the [integration preflight stop](../../reportbacks/editor-sender-refusal-integration-RB.md)
-and selected a focused design study with a small executable witness. Loom PR #5 is merged at
-`f20f32df01e36ae672cef8013ea4499b76e3954c`; Editor PR #23 remains unaccepted at
-`9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh merged-Loom preflight reproduced the
-wrong source at the claimed commitment, loss of A's legitimate paste, and the 257th valid
-text event being dropped. A queued reveal also survives Editor reload after its pending
-operation is lost. Passing official tests did not establish the required outcome.
+**Current selection: Step 3, production managed opening and PR #23 completion.** The founder
+accepted the corrected runnable slice and Loom dependency, then selected the Zengine side after
+Loom PR #6 merged as `a08499f4e445b578b2c4ffcaac6265aa7094b88f` (ABI v8). Editor PR #23 remains
+unaccepted at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The
+[execution prompt](../../prompts/zengine-managed-open-integration.md) carries the bounded task;
+[BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate) tracks its
+remaining work, and the [roadmap](../drafts/editor-pr23-roadmap.md) explains the sequence.
 
-**Fixed opening outcome:** success has the intended source installed, presented and focused
-at a defensible commitment boundary. Failure preserves the prior document, including
-legitimate intervening work for it, and leaves no setup/focus change attributable to the
-failed operation. Later independent maker actions may change presentation.
+**Fixed opening outcome:** before joint publication, A remains the current readable and editable
+document and B is only prepared state. Publication changes the Editor's and presentation owner's
+claims together. Success requires both owners to apply that publication, with the intended source,
+admitted presentation, room and focus agreeing. Physical rendering follows the admitted state.
+A refusal before publication preserves A, including legitimate intervening work, and leaves no
+setup/focus change attributable to the refused operation. Later independent maker actions stand.
 
-The [commitment investigation](../../reportbacks/editor-commit-investigation-RB.md) proposes
-protected publication of owner-prepared values and compares it with provisional application
-coordination. The founder has not selected a production root/SDK/ABI contract. The current
-design should use the presentation ownership and failure principles clarified in §3 and
-Vision's [discussion draft](../drafts/presentation-manager.md). Preserve weave-owned source and
-movable presentation ownership while deciding the bounded mechanism for joint commitment.
-The service-management explorations do not make another subsystem extraction or a general
-recovery framework prerequisites. [BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate)
-tracks the still-owed extraction and dispatch-refusal integration. Implementation follows a
-reviewed design and its own scope. Vision's proposed
-[PR #23 roadmap](../drafts/editor-pr23-roadmap.md) sets out a real Editor/presentation
-implementation slice, any justified Loom dependency, and the remaining extraction
-acceptance work. It does not select the production API or authorize execution.
+**Publication is not application.** After publication, Pending remains pending; Declined, Failed
+and Lost are attributed to the actual participant. An application failure does not undo publication
+or promise the prior document was preserved. The terminal answer reports what happened; a repaired
+owner that declines its predecessor's publication is not a successful open. Loom records these
+facts; Zengine owns the focused manager, its bounded policy and the maker's explanation.
+
+Document custody remains in the Editor weave. Workshop currently implements presentation and
+retains application authority; the presentation owner stays movable. The native opening manager
+coordinates through ordinary conversations and explicit host-minted authority. Preserve the old
+Editor-address door's full promise and answer provenance. Another subsystem extraction, loaded
+manager, service-retirement policy or general recovery framework is not a prerequisite.
 
 Input preservation remains a Zengine correctness requirement. The observed 257-event loss
 uses ordinary one-character text events, not huge loading payloads. Trace the actual pending interval;
@@ -383,7 +382,7 @@ rapid traffic from multiple participants may extend it across dispatch/frame bou
 Bound resources while preserving admitted input, its order and subject, and unrelated pane
 usability. An arbitrary larger cap or indefinite retention is not a repair. Large loading
 operations may reasonably take time; optimize against actual interaction needs and measured
-bottlenecks, without turning this investigation into a bulk-data performance campaign.
+bottlenecks, without turning this integration into a bulk-data performance campaign.
 
 Merged dispatch refusal reports selected pre-handler failures; it does not establish this
 application commitment or settle every conversation abandoned after delivery. Progress/closing
@@ -412,8 +411,8 @@ option where the domain has a meaningful completion condition; explicit refusal 
 Neither an empty queue nor elapsed time proves completion. This preference does not weaken
 Editor's current input-preservation or document/presentation commitment requirements.
 
-Return to the bounded Editor commitment design, then complete the extraction and outstanding
-dispatch-refusal integration before continuing the IDE loop and its ceremony audit. Carry the
+Complete the selected managed-opening integration and outstanding dispatch-refusal consumption
+before continuing the IDE loop and its ceremony audit. Carry the
 manager's clear ownership, attributable pending/failure and replaceability into that work.
 Keep the more elaborate continuity options possible without requiring their implementation now.
 Revisit overlapping retirement when a concrete consumer needs to admit successor work before

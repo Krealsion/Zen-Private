@@ -1,26 +1,28 @@
 # PR #23 — managed opening and Editor extraction
 
-**Vision's proposed implementation roadmap — 2026-09-11.** The
+**Step 3 selected — 2026-09-12.** The
 [Workshop Goal Map](../goals/workshop.md#pane-extraction-current-status-and-next-work) owns the
-fixed outcome. This roadmap makes the next work concrete; it is not an executor prompt,
-approval of a production Loom facility, or acceptance of the PR.
+fixed outcome. The [execution prompt](../../prompts/zengine-managed-open-integration.md) is the
+self-contained Ceecee handoff. This roadmap explains ownership, sequence and acceptance; it does
+not self-accept the implementation.
 
-[PR #23](https://github.com/Krealsion/Zengine/pull/23) was checked on GitHub for this roadmap:
-open, head `9cbf5a5ac8d4751472dc891371401d93a25e03cc`, targeting `main`; the local Zengine
-checkout matches and is clean. Loom's clean local `eee04550dfbae61638ff84f1c9da1c32ad90f9b0`
-has the accepted `f20f32df01e36ae672cef8013ea4499b76e3954c` source tree. Private START is
-`699682ddddc0fc4dd1ac06c07e28bf696769f593`, clean. Refresh identities when execution begins.
+Loom PR #6 is merged at `a08499f4e445b578b2c4ffcaac6265aa7094b88f`, with the same tree as the
+reviewed `1dcf42b` authority correction. Zengine PR #23 remains open and unaccepted at
+`9cbf5a5ac8d4751472dc891371401d93a25e03cc`. Refresh live identities at execution.
 
 ## The result we are building
 
 Opening B while A is current has one defensible commitment boundary. Before it, A remains the
 current readable/editable document and B is only a candidate. At it, B becomes the current
 document, its admitted presentation and room agree, and its pane receives the keyboard. The
-terminal answer follows that fact. Physical rendering follows the selected presentation state;
+terminal success answer follows both owners applying the published values. Physical rendering
+follows the selected presentation state;
 this PR does not need a new renderer acknowledgment protocol.
 
-If opening refuses, A and its legitimate intervening work remain, with no setup/focus change
-attributable to that failed operation. A later independent action remains independent. Silence
+If opening refuses before publication, A and its legitimate intervening work remain, with no
+setup/focus change
+attributable to that refused operation. After publication, application failure is an attributed
+outcome, not a rollback or a claim that A was preserved. A later independent action stands. Silence
 may leave an operation pending; it cannot justify dropping admitted input, falsely reporting
 success, or letting an obsolete queued permission change the current desk.
 
@@ -39,7 +41,7 @@ and carries the maker's intent through preparation, commitment and the reported 
 | Open-operation manager | The particular request, exact participants, preparation stage, pending attempts, supersession and the outcome it can establish |
 | Editor weave | Source admission and document state, including identity, bytes, saved/dirty comparison, editing state and eligibility to replace |
 | Current presentation owner | Trial and admitted content/caret, room/setup change, focus and input routing |
-| Protected publication mechanism, if adopted | Conditional publication of prepared values under explicit authority; no Editor or layout policy |
+| Accepted Loom publication mechanism | Conditional publication of prepared values under explicit authority; no Editor or layout policy |
 
 Keep management in a focused Zengine module with an ordinary participant-facing conversation.
 Any required host-only operation gets explicit host wiring. Packaging the manager as a separate
@@ -52,83 +54,20 @@ pointer. It should be possible to inspect which open is pending, who it is waiti
 which failure was actually observed. Use existing status/diagnostic surfaces for the selected
 path; a general inspector or repair framework is not required.
 
-## Packet A — close the real managed-open design
+## Completed prerequisites
 
-**First implementation slice:** carry the protected-publication candidate into a witness using
-the actual Editor state and Workshop presentation/input paths. Reuse the existing investigation
-and failing controls. The preferred candidate remains owner-prepared values published together
-after final validation; adding a manager does not by itself make separate writes atomic.
+Step 1 established the real loaded Editor/Workshop slice and corrected publication/application,
+record retention, repair answers and old-door provenance. Its reusable Zengine source is
+`76be71f406678b4ea8786f3f823f6924bd274a12`, also preserved as a complete patch in the
+[second correction pack](../../reportbacks/editor-managed-open-slice-corrections-2/README.md).
 
-The design should implement this sequence:
+Step 2 landed the generic Loom dependency with ABI v8 and exact-version rejection, loaded
+claimants, native coordination, three showing answers and explicit record release. The subsequent
+authority correction binds capabilities to exact operator lives/incarnations and refuses foreign
+operations without effects. Both were reviewed; PR #6 is merged. Production integration consumes
+the accepted installed dependency, not the historical experimental Loom patch.
 
-1. Establish an identifiable open intent and bounded preparation resources. Bind the exact
-   participating instances and relevant revisions. Editor judges source/dirty/paste eligibility.
-2. Prepare B and a trial presentation without making either current. Editor authors document
-   values; presentation authors its own values. Retain the current owners' truth throughout.
-3. Keep admitted A input working on A. Relevant document, presentation or input-admission changes
-   invalidate the candidate operation before it can publish. Avoid an open-owned gesture queue.
-4. Revalidate and publish the participating facts at one observable boundary. The protected
-   exchange invokes no participant handler, renderer or file operation between state changes.
-5. Report the established outcome. Losing the terminal answer cannot undo commitment; a stale
-   answer or old queued command cannot commit a different operation.
-
-Resolve four concrete adoption questions in this slice:
-
-- **One truthful state view.** Normal reads, editing, snapshot/revive and Poke must read the same
-  committed document. Full caret, selection, viewport, saved comparison and undo/redo behavior
-  must survive. Refreshing a cached mirror after Poke has already read it is too late.
-- **The real presentation/input boundary.** Use actual room/focus decisions and actual routing,
-  not a supplied target or a string standing in for focus. Account for A input already routed
-  but awaiting delivery. Prevent old content/caret messages from repainting A over committed B.
-- **Lifecycle and resources.** Define current-value ownership, operation invalidation, candidate
-  release, owner removal, compatible reload and bounded retained state. Recover actual committed
-  facts without pretending that restored bookkeeping recreates an expired answer right.
-- **Editing cost and authoring cost.** Preserve supported source bounds and ordinary edit behavior.
-  The prototype's full serialized root copies are not a production cost model. Demonstrate a
-  sensible representation and measure relevant changed paths; keep ordinary panes free of this
-  coordination machinery.
-
-The [Vision review](C:/Users/Joshua/Documents/Codex/2026-09-08/https-github-com-krealsion-loom-https/work/editor-commit-review/review.md)
-already identifies two necessary corrections to the next witness: consuming a valid but stale
-clipboard answer must clear the outstanding-operation bookkeeping, and reload must not leave
-an orphan pending-paste flag blocking fresh opens. Use a fresh, correct evidence inventory;
-the old report's stale `baseline-identity.py` hash is not a mechanism defect to rediscover.
-
-**Exit:** a working slice demonstrates the fixed boundary with real state/routing, and a short
-contract identifies the minimal production support it needs, its lifetime/access rules and its
-costs. Review the whole result before fixing the public API. This packet should not reopen the
-broad search for managers, continuity policies or general transaction frameworks.
-
-The existing provisional-install alternative exposes B before presentation agrees and relies
-on additional fencing/recovery. It is not the current recommendation under the fixed contract.
-If this slice reveals a material obstacle, return that specific obstacle and the smallest
-choice needed; do not quietly weaken opening or add another speculative subsystem.
-
-## Packet B — land only the justified Loom dependency
-
-If Packet A confirms the need for production protected publication, give that work its own
-bounded Loom change and review. Its contract stays generic: owned prepared values, exact
-participants/revisions, scoped publication authority, truthful outcomes and explicit resource
-lifetime. Document opening, pane geometry, retry policy and UX stay in Zengine.
-
-Participation must be optional. Define how a participating weave accesses its authoritative
-state through its normal SDK, including Poke and snapshot; do not make every existing weave
-adopt a new state model. Decide the ABI extension/version and supported compatibility policy
-explicitly after the contract is sound. Unchanged pane protocols and binary ABI compatibility
-are different promises; preserve the former and state exactly what is earned for the latter.
-
-Exercise the actual loaded boundary, failure sensitivity and relevant package/lifecycle lanes.
-If public-header changes make BL-ARCH-01's ownership debt material, scope that related repair
-there. Check the live backlog again before an ABI change; the previous ABI reassessment item
-is closed and is not automatically owed again.
-
-**Exit:** accepted, installed Loom support at an exact published commit, with the shipped images'
-build/compatibility route clear. PR #23 may be developed against an explicit experimental prefix
-while preparing the dependency, but final acceptance must use the accepted installed dependency.
-If Packet A earns the fixed contract with existing public Loom, omit this packet and explain
-the actual mechanism. No new Loom capability is authorized solely by this roadmap.
-
-## Packet C — finish PR #23 against that contract
+## Step 3 — finish PR #23 against that contract
 
 Preserve the extraction's useful work and existing semantic repairs. Replace its opening path
 as one coherent change across the Editor, operation manager and current presentation owner:
@@ -144,12 +83,20 @@ as one coherent change across the Editor, operation manager and current presenta
 - represent committed, refused and still-pending operations truthfully, including loss of a
   terminal answer. Do not infer standalone mode from a failed enqueue.
 
-Integrate ABI-v7 dispatch refusal in the relevant Files/Builder → Editor → presentation chain
+Integrate sender-visible dispatch refusal carried by accepted Loom v8 in the relevant
+Files/Builder → Editor → presentation chain
 and its directly supporting asks. Each operation owner opts in, stores the real send attempt,
 authenticates the notice and matches its current request/stage. A forged, duplicate, mismatched
 or late notice must not settle another operation. Refusal of dispatch, a failed handler and
 delivered silence remain distinct. This is a bounded consumer conversion, not an all-Zengine
 settlement campaign.
+
+Include the two bounded integration repairs: retire an older retained repair record whenever
+a newer terminal outcome becomes current, including immediate begin refusal; handle recorded
+native participant failures at the actual host pump without swallowing unrelated exceptions.
+Document fresh host authorization if the manager is replaced. Adapt the non-const snapshot helper
+and remove the dead Loom SDL dev override (BL-DEF-04) alongside integration wiring. The execution
+prompt carries the reproduction and acceptance details.
 
 **Exit:** PR #23 implements the fixed behavior with the real loaded Editor and installed Loom,
 and all remaining acceptance obligations below are supported by evidence.
@@ -188,14 +135,10 @@ Finally refresh PR #23's title/body around the implemented result, reconcile BL-
 the evidence, and review for founder acceptance before merge. This roadmap does not self-accept
 either dependency or extraction.
 
-## Next handoff
+## Current handoff and next boundary
 
-The next Ceecee prompt should cover **Packet A only**, with the fixed outcome and concrete
-adoption questions above. It should authorize a bounded implementation slice and return a
-working artifact plus the proposed production contract. Packet B, if needed, and Packet C get
-their own execution scopes after that review. This keeps the public API choice reviewable
-while concentrating effort on the already demonstrated Editor blocker.
-
-Roadmap review: four of four areas checked — current PR/dependency identity; fixed guarantees
-and investigation limits; manager/custody fit; backlog and acceptance sequence. No new runtime
-test was needed or run for this planning update; previous results are linked as prior evidence.
+Send the [Step 3 prompt](../../prompts/zengine-managed-open-integration.md). It carries all selected
+guarantees, source inputs, remaining repairs and workflow without requiring this private roadmap
+as an attachment. Ceecee returns the production PR and evidence for founder review. Only acceptance
+of that result closes the Editor extraction; the IDE loop, Flow and service-retirement work are
+not automatically authorized by this handoff.
