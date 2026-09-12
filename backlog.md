@@ -44,7 +44,7 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** STEP 1 SLICE CORRECTED IN ISOLATION (2026-09-11) — FOUNDER REVIEW BEFORE STEP 2 API SELECTION; NOT ACCEPTED; PR #23 UNCHANGED
+**State:** STEP 1 SLICE CORRECTED TWICE IN ISOLATION (2026-09-12) — FOUNDER REVIEW BEFORE STEP 2 API SELECTION; NOT ACCEPTED; PR #23 UNCHANGED
 
 **Owed:** PR #23 remains at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh integration
 preflight against installed merged Loom reproduced all three outstanding failures: A is still
@@ -108,6 +108,27 @@ reconciles the choice lists into nine, and states that loaded coordination is un
 and that no compatibility policy is implemented by an ABI bump. Still owed: the founder's
 selection of Step 2's production Loom support, then Step 2, Step 3, the acceptance matrix,
 and PR #23 acceptance.
+
+The [second corrections](../reportbacks/editor-managed-open-slice-corrections-2-RB.md)
+(2026-09-12) reproduced three more counterexamples on the corrected slice and corrected them in
+the same isolated trees, still before any production API selection. Publication is not the end
+of an outcome's lifetime, and a queued notification is not consumption: the bus keeps an
+operation's record until its operator releases it (`release_joint`) or is itself replaced,
+removed or dead, reuses only a released slot, and says `Exhausted` in words at eight records
+live or unreleased; the claimants' facts stay on their claim records. A repaired owner is not
+proof its old operation applied: the showing hook has three answers (Applied, Declined, Failed;
+`ZEN_CLAIM_DECLINED` across the seam), the real Editor's successor declines a publication it
+did not prepare, and the manager records "committed, not applied after repair" from the one
+record it retains for that word. Measured: Loom `joint` J1–J21 (816 assertions), full lane
+45/45 and 45/45 under ASan+UBSan, package witness PASSED; Zengine official lane 32/32, editor
+population 82 cases / 4576 assertions, `workshop_panes` (454) and `workshop_load` (136) whole
+under sanitizers with no report; the real desk's declined branch and the real manager past an
+unrelated coordinator witnessed; two mutations (any terminal slot reused again; the Editor
+answering applied again) red on their deciding cases and restored byte-for-byte. The
+[corrected contract](../reportbacks/editor-managed-open-slice-corrections-2/CONTRACT.md)
+carries the one canonical list of fifteen choices, the enumerated minimal SDK/ABI delta and
+the exact proposed production homes. Still owed: the founder's selection of Step 2's
+production Loom support, then Step 2, Step 3, the acceptance matrix, and PR #23 acceptance.
 
 **Wake satisfied:** Loom PR #5 is merged at `f20f32df01e36ae672cef8013ea4499b76e3954c`, and the
 founder selected the Zengine side. The bounded investigation has reached founder review with an
