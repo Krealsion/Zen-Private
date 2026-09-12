@@ -44,7 +44,7 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** STEP 2 LOOM LANDING PUBLISHED FOR REVIEW (2026-09-12) — Loom PR #6, NOT MERGED, NOT ACCEPTED; PR #23 NOT ACCEPTED
+**State:** STEP 2 AUTHORITY CORRECTIONS AUTHORIZED (2026-09-12) — Loom PR #6, NOT MERGED, NOT ACCEPTED; PR #23 NOT ACCEPTED
 
 **Current disposition:** Step 1's mechanism was accepted as the basis for Step 2; the
 [landing phase](../reportbacks/loom-joint-publication-landing-RB.md) ported the generic
@@ -55,6 +55,13 @@ until released, ABI v8 with exact-version rejection at load and at reload, SENSE
 `docs/reference/joint-publication.md`. An isolated candidate install and its identity are in the
 report. Production Loom review and acceptance remain distinct from this publication, and PR #23
 acceptance remains distinct from both.
+
+Vision's review reproduced two authority defects against the installed landing: a different
+operator's commit can abort a preparation it does not own, and an old `JointAuthority` remains
+usable after its operator's incarnation changes. The founder authorized the bounded
+[authority corrections](../prompts/loom-joint-publication-authority-corrections.md). Preserve
+the selected contract; prove foreign requests have no effects on the owner's operation and that
+successors need fresh host authorization. These corrections precede Loom acceptance and Step 3.
 
 Step 3 remains owed, against the ACCEPTED installed Loom: Zengine integration of the real owners
 and native opening manager, the old Editor-address relay and answer provenance kept, Files/Builder
