@@ -44,7 +44,7 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** DESIGN INVESTIGATION REPORTED — FOUNDER REVIEW; IMPLEMENTATION PAUSED; NOT ACCEPTED
+**State:** STEP 1 SLICE IMPLEMENTED IN ISOLATION — FOUNDER REVIEW; NOT ACCEPTED; PR #23 UNCHANGED
 
 **Owed:** PR #23 remains at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh integration
 preflight against installed merged Loom reproduced all three outstanding failures: A is still
@@ -70,6 +70,21 @@ not itself make application facts atomic or settle delivered silence.
 Vision's proposed [PR #23 roadmap](drafts/editor-pr23-roadmap.md) details the next
 implementation slice and the dependency/integration sequence, using a focused open-operation
 manager. Production API selection and execution remain subject to their own reviewed scope.
+
+The [managed-open slice](../reportbacks/editor-managed-open-slice-RB.md) (2026-09-11) implemented
+Step 1 in isolated trees on the real loaded Editor and real Workshop: a focused opening manager,
+joint publication of the Editor's and the desk's latest claims as the one commitment, no held
+input. Measured: Loom `joint` J1–J10 and the full lane 45/45 (also 45/45 under ASan+UBSan), package
+witness PASSED; Zengine official lane 32/32, focused editor population 77 cases / 4137 assertions,
+`workshop_panes` and `workshop_load` whole under sanitizers; three semantic mutations red on their
+deciding cases and restored green; one live tmux interaction; open cost +3 ms small / within noise
+at 4 MiB, keystroke unchanged. The [contract](../reportbacks/editor-managed-open-slice/CONTRACT.md)
+itemizes the Loom support Step 2 must land with an ABI version bump and six ordinary choices the
+founder can overrule (a paste still arriving refuses an open; a newer request supersedes; a quit
+while a candidate is held is refused; caret keys abort a pending open; lifecycle-only operator
+notice; the no-Editor case refused in words). Still owed after that decision: Step 2 (Loom
+landing), Step 3 (Files/Builder exact-attempt refusal consumption), the acceptance matrix, and
+PR #23 acceptance.
 
 **Wake satisfied:** Loom PR #5 is merged at `f20f32df01e36ae672cef8013ea4499b76e3954c`, and the
 founder selected the Zengine side. The bounded investigation has reached founder review with an
