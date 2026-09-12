@@ -44,7 +44,7 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** STEP 1 SLICE IMPLEMENTED IN ISOLATION — FOUNDER REVIEW; NOT ACCEPTED; PR #23 UNCHANGED
+**State:** STEP 1 SLICE CORRECTED IN ISOLATION (2026-09-11) — FOUNDER REVIEW BEFORE STEP 2 API SELECTION; NOT ACCEPTED; PR #23 UNCHANGED
 
 **Owed:** PR #23 remains at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh integration
 preflight against installed merged Loom reproduced all three outstanding failures: A is still
@@ -85,6 +85,29 @@ while a candidate is held is refused; caret keys abort a pending open; lifecycle
 notice; the no-Editor case refused in words). Still owed after that decision: Step 2 (Loom
 landing), Step 3 (Files/Builder exact-attempt refusal consumption), the acceptance matrix, and
 PR #23 acceptance.
+
+The [corrections](../reportbacks/editor-managed-open-slice-corrections-RB.md) (2026-09-11)
+reproduced two counterexamples on that slice and corrected them in the same isolated trees
+before any production API selection. Publication is not application: an owner whose showing
+of a published claim fails is recorded (Pending / Applied / Failed / Lost, attributed to the
+exact participant, operation and revision), held by the bus (deliveries refused
+`ApplicationFailed` by exact attempt, the ordinary snapshot refused, the hook never re-run)
+until it is reloaded or removed, and the manager is told (`zen.JointApplied`) and answers the
+requester only from that record. A performed `zen.PokeWrite`/`zen.PokeResetState` now reaches
+a participant's claim through `after_delivery`. The old door at `zengine.editor` keeps its
+full promise by relaying to the manager with the requester's own answer right; no
+document-only door remains. Measured: Loom `joint` J1–J16 (608 assertions), full lane 45/45
+and 45/45 under ASan+UBSan, package witness PASSED; Zengine official lane 32/32, editor
+population 79 cases / 4397 assertions, `workshop_panes` and `workshop_load` whole under
+sanitizers with no report; three mutations (the swallowed loaded status, the skipped
+mutation invalidation, the document-only old door) red on their deciding cases and restored
+green; the live tmux witness repeated. The open takes four turns from the desk's admission to
+the answer (two before), and the bus retains 180–185 bytes of offer storage, labeled as such.
+The [corrected contract](../reportbacks/editor-managed-open-slice-corrections/CONTRACT.md)
+reconciles the choice lists into nine, and states that loaded coordination is unsupported
+and that no compatibility policy is implemented by an ABI bump. Still owed: the founder's
+selection of Step 2's production Loom support, then Step 2, Step 3, the acceptance matrix,
+and PR #23 acceptance.
 
 **Wake satisfied:** Loom PR #5 is merged at `f20f32df01e36ae672cef8013ea4499b76e3954c`, and the
 founder selected the Zengine side. The bounded investigation has reached founder review with an
