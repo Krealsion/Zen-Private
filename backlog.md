@@ -44,36 +44,32 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** STEP 3 AUTHORIZED (2026-09-12) — Loom PR #6 accepted and merged; Zengine PR #23 remains unaccepted.
+**State:** STEP 3 IMPLEMENTED (2026-09-12) — PR #23 updated at `26c44b4e1d159adf5c1a8e9fefdf1d660cad8255`, awaiting founder review; not accepted.
 
-**Current disposition:** the corrected managed-opening experiment earned production Loom's joint
-publication contract. PR #6 merged as `a08499f4e445b578b2c4ffcaac6265aa7094b88f`, with the same
-tree as reviewed `1dcf42b81351e1518adade98f69b048eda5742f7`. The founder selected the Zengine side.
-The [Step 3 prompt](../prompts/zengine-managed-open-integration.md) authorizes integration on
-PR #23 from `9cbf5a5ac8d4751472dc891371401d93a25e03cc`, using the corrected experimental Zengine
-`76be71f406678b4ea8786f3f823f6924bd274a12` and the accepted installed Loom.
+**Current disposition:** the managed opening is integrated on PR #23 (`panes/editor-weave`,
+two commits over `9cbf5a5`: the reviewed experimental slice `76be71f` imported verbatim, then the
+integration) against the accepted installed Loom `a08499f4e445b578b2c4ffcaac6265aa7094b88f`
+(ABI v8). The native opening manager, the real loaded Editor and Workshop as the presentation
+owner publish the document and the presentation jointly; the old Editor-address relay keeps the
+requester's right; Files and the Builder consume exact-attempt refusals and handle an enqueue that
+queued nothing at once; every newer terminal outcome retires the manager's retained repair record
+(pinned red on the imported slice first); the host loop attributes a native showing failure from
+Loom's record at the pump seam and lets everything else propagate; a replaced manager's retained
+authority is refused and the host re-mints. Law: `Zengine/agents/workshop/opening.md`
+(WL-OPEN-01..09) and the decision record beside it. Verified on the official WSL lane, under
+ASan+UBSan, by the package witness, on MinGW-w64, by four red-then-green mutations and by live
+terminal and window witnesses; CI at that head is read job by job in the report.
+Report: [zengine-managed-open-integration](../reportbacks/zengine-managed-open-integration-RB.md).
 
-**Still owed:** integrate the real loaded Editor, focused native opening manager and current
-Workshop presentation owner; preserve the old Editor-address relay and answer provenance; finish
-Files/Builder exact-attempt refusal consumption; establish the fixed opening/input/lifecycle
-acceptance matrix and submit PR #23 for founder review. The
+**Still owed:** founder review and acceptance of PR #23; nothing self-accepts. The
 [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the outcome; the
-[roadmap](drafts/editor-pr23-roadmap.md) explains the current sequence.
+[roadmap](drafts/editor-pr23-roadmap.md) explains the sequence that led here.
 
-The known bounded integration repairs are part of that scope: every newer terminal outcome,
-including an immediate Exhausted begin refusal, retires the manager's older retained repair record
-under the same policy as normal settlement; an old repair cannot overwrite the newer result.
-Handle recorded native participant failures at Workshop's real pump boundary without swallowing
-arbitrary host exceptions. Adapt the const snapshot test helper to Loom v8. A host replacing its
-manager must mint JointAuthority for the successor; supporting manager hot reload is not required.
-Give managed opening its own routed register; preserve Editor custody, ordinary pane ceremony and
-the simple external pane example (BL-WORK-01/02). None of these requires another Loom research arc.
+**Wake satisfied:** the dependency is merged, Step 3 is implemented and evidenced. Closure still
+requires founder acceptance of the production result.
 
-**Wake satisfied:** the dependency is merged and the founder authorized Step 3. Closure still
-requires the production Zengine result and founder acceptance; a prompt or passing experiment
-does not close the extraction.
-
-**Evidence:** [corrected runnable slice](../reportbacks/editor-managed-open-slice-corrections-2-RB.md),
+**Evidence:** [Step 3 report](../reportbacks/zengine-managed-open-integration-RB.md),
+[corrected runnable slice](../reportbacks/editor-managed-open-slice-corrections-2-RB.md),
 [Loom landing](../reportbacks/loom-joint-publication-landing-RB.md),
 [authority corrections](../reportbacks/loom-joint-publication-authority-corrections-RB.md),
 [merged PR #6](https://github.com/Krealsion/Loom/pull/6). Earlier investigations and correction
@@ -102,14 +98,16 @@ the bound or introduce code-point/grapheme/display-width policy.
 
 ### BL-DEF-04 — Remove the dead Loom SDL dev override from Zengine
 
-**State:** SCOPED IN STEP 3 — [managed-opening integration](../prompts/zengine-managed-open-integration.md); not yet implemented or accepted  
-**Owed:** Zengine's dev-mode CMake branch still describes Loom's retired `zen-ui-sdl` as a future port
-and writes the now-undeclared `ZEN_SDL` cache option. Remove the stale comment and dead `set()`; do
-not alter Zengine's own SDL3 skin or the sibling-Loom dev path.
+**State:** IMPLEMENTED IN STEP 3 (2026-09-12), awaiting PR #23's acceptance  
+**Owed:** nothing further once PR #23 is accepted. The stale `zen-ui-sdl` comment and the dead
+`set(ZEN_SDL …)` are gone from the dev-mode branch of `Zengine/CMakeLists.txt` (PR #23 at
+`26c44b4e1d159adf5c1a8e9fefdf1d660cad8255`); `ZEN_LOOM_DEV`, the Loom test/example suppression,
+the Windows kernel selection and Zengine's own SDL3 skin are untouched. Checked by source grep
+(no `ZEN_SDL` or `zen-ui-sdl` remains) and by the stranger configure of every lane.
 
-**Wake:** next CMake/dev-mode touch or a compact QR.
+**Wake:** closes with PR #23's acceptance.
 
-**Evidence:** LSDL-0 §9 and current `Zengine/CMakeLists.txt`.
+**Evidence:** LSDL-0 §9; [Step 3 report](../reportbacks/zengine-managed-open-integration-RB.md).
 
 ## 4. Adoption and release
 
