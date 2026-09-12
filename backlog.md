@@ -44,7 +44,22 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** STEP 1 SLICE CORRECTED TWICE IN ISOLATION (2026-09-12) — FOUNDER REVIEW BEFORE STEP 2 API SELECTION; NOT ACCEPTED; PR #23 UNCHANGED
+**State:** STEP 1 MECHANISM ACCEPTED AS THE BASIS FOR STEP 2 (2026-09-12) — LOOM PRODUCTION LANDING AUTHORIZED; PR #23 NOT ACCEPTED
+
+**Current disposition:** The founder selected Step 2 after Vision's source and independent runtime
+review closed the outcome-retention and false-repair blockers. The
+[Loom landing prompt](../prompts/loom-joint-publication-landing.md) owns this execution scope:
+generic joint publication with explicit release and Applied/Declined/Failed answers, native
+coordination, ABI v8 with exact-version rejection and rebuilt images, and production documentation.
+Loom's production change still requires review and acceptance before Step 3's final dependency.
+
+Step 3 remains owed: Zengine integration, Files/Builder exact-attempt refusal consumption, the
+opening/input/lifecycle acceptance matrix, and PR #23 acceptance. Include the bounded manager
+bookkeeping repair identified in review: an immediate begin refusal must retire an older retained
+repair record under the same policy as normal settlement, so a later old repair cannot overwrite
+the newer public outcome. Also handle recorded native participant failures at Workshop's pump
+boundary and give managed opening its own routed register. These belong to Zengine integration;
+they do not require another Loom research arc. The prompt carries the reproduction and handoff.
 
 **Owed:** PR #23 remains at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The fresh integration
 preflight against installed merged Loom reproduced all three outstanding failures: A is still
@@ -70,6 +85,8 @@ not itself make application facts atomic or settle delivered silence.
 Vision's proposed [PR #23 roadmap](drafts/editor-pr23-roadmap.md) details the next
 implementation slice and the dependency/integration sequence, using a focused open-operation
 manager. Production API selection and execution remain subject to their own reviewed scope.
+
+**Historical Step 1 evidence (the current disposition above supersedes its pending decisions):**
 
 The [managed-open slice](../reportbacks/editor-managed-open-slice-RB.md) (2026-09-11) implemented
 Step 1 in isolated trees on the real loaded Editor and real Workshop: a focused opening manager,
@@ -131,9 +148,9 @@ the exact proposed production homes. Still owed: the founder's selection of Step
 production Loom support, then Step 2, Step 3, the acceptance matrix, and PR #23 acceptance.
 
 **Wake satisfied:** Loom PR #5 is merged at `f20f32df01e36ae672cef8013ea4499b76e3954c`, and the
-founder selected the Zengine side. The bounded investigation has reached founder review with an
-executable witness; it does not select a production Loom feature or waive extraction
-acceptance. Production checkouts and PR #23 are unchanged.
+founder selected the Zengine side. The corrected executable witness has now earned the scoped
+production Loom landing above; extraction acceptance is still owed. Production checkouts and
+PR #23 were unchanged when Step 2 was authorized.
 
 **Evidence:** founder's parking and resumption decisions;
 [research](../reportbacks/sender-fate-research-RB.md),
