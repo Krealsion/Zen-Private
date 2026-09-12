@@ -44,7 +44,7 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** STEP 2 AUTHORITY CORRECTIONS AUTHORIZED (2026-09-12) — Loom PR #6, NOT MERGED, NOT ACCEPTED; PR #23 NOT ACCEPTED
+**State:** STEP 2 AUTHORITY CORRECTIONS PUBLISHED FOR REVIEW (2026-09-12) — Loom PR #6 at `1dcf42b`, NOT MERGED, NOT ACCEPTED; PR #23 NOT ACCEPTED
 
 **Current disposition:** Step 1's mechanism was accepted as the basis for Step 2; the
 [landing phase](../reportbacks/loom-joint-publication-landing-RB.md) ported the generic
@@ -62,6 +62,21 @@ usable after its operator's incarnation changes. The founder authorized the boun
 [authority corrections](../prompts/loom-joint-publication-authority-corrections.md). Preserve
 the selected contract; prove foreign requests have no effects on the owner's operation and that
 successors need fresh host authorization. These corrections precede Loom acceptance and Step 3.
+
+Measured disposition of the
+[authority corrections](../reportbacks/loom-joint-publication-authority-corrections-RB.md)
+(2026-09-12): both defects reproduced on `e80e2b3` through ordinary `Mail` calls, corrected in
+one commit `1dcf42b81351e1518adade98f69b048eda5742f7` on the same branch — `JointAuthority`
+names the operator's exact life and incarnation (minted by the host, refused `NotOperator` once
+either moves, minted again for a successor; nothing valid for an absent or dead operator), and
+`commit_joint_as` asks ownership before any effect, so a foreign operator's request changes
+nothing of the record it names. J23/J24 pin it, three mutations made them red, the official
+lane is 46/46 Debug and ASan+UBSan, the package witness passed, and the experimental Zengine
+`76be71f` built unmodified against the isolated candidate install
+(`~/zen-build/loom-joint-corrections/install`) with every focused population equal to the
+landing's. Still owed before Step 3: the founder's review of PR #6 at `1dcf42b`. Step 3 gains
+one obligation from this phase: a host that reloads its opening manager must mint its
+`JointAuthority` again at the reload (the register `agents/workshop/opening.md` states it).
 
 Step 3 remains owed, against the ACCEPTED installed Loom: Zengine integration of the real owners
 and native opening manager, the old Editor-address relay and answer provenance kept, Files/Builder
