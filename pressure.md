@@ -25,7 +25,8 @@ but deferred work belongs in `private/backlog.md`.
 
 Editor PR #23 and the Files click-mapping repair (PR #24) are accepted and merged. The
 [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns their closure.
-The current bounded investigation is Files' prior-focus/activation context (P-WORK-24).
+The selected repair is Files' prior-focus/activation context, hidden-title selection and
+truthful keyboard legend (P-WORK-24). P-WORK-25 keeps queued-picture provenance separate.
 P-WORK-23 retains the unmeasured notice paths. P-LOOM-02 and P-WORK-18 retain the deferred
 progress/authority work; P-WORK-06 holds the pane-to-source IDE join.
 
@@ -100,25 +101,47 @@ Decisions asked; Vision's acceptance review on 2026-09-13;
 
 ### P-WORK-24 — Files cannot infer whether it already held the keyboard
 
-**State:** BOUNDED INVESTIGATION SELECTED (2026-09-13); implementation not selected
+**State:** IMPLEMENTATION SELECTED (2026-09-13); research accepted, production acceptance pending
 
-After Files opens a source and the keyboard moves to Editor, one press on Files' selected row can
-open it again and return the keys to Editor. Vision reproduced this at `1525dd9`; the relevant
-activation, key/action and host routing code is unchanged from accepted main `26ae2dd`.
-Conversely, resolved arrow actions do not set Files' `had_keyboard_`, so a press can fail to
-activate even when the pane already holds the keys. Ceecee measured that direction on START.
+The founder accepted the investigation and Vision's scope adjustments. Workshop reports whether
+ordinary keyboard input would have reached the pressed pane immediately before the press, including
+mode interception. Files owns selection and activation: a cold press selects without opening;
+an already-focused press on the selected entry may activate. The fact crosses on `PanePressed v2`;
+v1 stays immutable and newer Files treats its missing context conservatively, with Return available.
 
-Preserve WL-FOCUS-04's intended two-press policy. Workshop owns actual keyboard routing; Files
-owns activation. The investigation must establish the smallest truthful conversation, including
-when prior focus is captured and how existing PanePressed v1 providers coexist. Press-scoped
-context is a candidate, not an accepted wire design. Merely setting the local flag on actions
-cannot report focus leaving. The focus decision record's removed witness also needs a repair route.
+The host selects a version from the bus's current holder/accepted-schema facts and sends one
+role-addressed attempt. This is not a delivery guarantee: holder turnover can refuse that version.
+Pin and attribute that outcome without duplicate retries or a new Loom mechanism. Adding Files'
+acceptance door requires restart under the current reload contract.
 
-**Execution:** [Files focus investigation](../prompts/zengine-files-focus-investigation.md), a
-self-contained research prompt; no production repair or general focus framework selected.
-**Evidence:** [Files repair report](../reportbacks/zengine-files-click-mapping-RB.md), Decisions
-asked; Vision's review and independent focus reproduction on 2026-09-13.
-**Exit:** a supported mechanism and compatibility recommendation for founder disposition.
+The same packet repairs hidden-title hit-testing before focus changes geometry and preserves the
+clicked selection through the resulting room re-grant. It also corrects the band when a mode receives
+keys instead of the remembered pane. Update the obsolete focus witnesses and protocol documentation
+at their owners. Queued-picture provenance stays in P-WORK-25; other-pane notice paths stay P-WORK-23.
+
+**Execution:** [Files focus implementation](../prompts/zengine-files-focus-implementation.md).
+**Evidence:** [investigation](../reportbacks/zengine-files-focus-investigation-RB.md), its adjacent
+evidence pack, Vision's independent replay and founder disposition on 2026-09-13.
+**Exit:** reviewed implementation demonstrating truthful prior routing, correct final clicked-entry
+selection, v1 compatibility, attributed turnover refusal and a truthful legend. No broader focus,
+presentation or replacement framework is selected.
+
+### P-WORK-25 — Queued presses do not identify the picture they targeted
+
+**State:** WATCH / REPRODUCED; deliberately separate from the selected Files focus repair
+
+Two queued presses on the row painted as `entry-03` can end with `entry-04` selected after the first
+press moves Files' listing window. This reproduced on accepted main `3c8d6bc` and the focus prototype.
+The press names a row but no published-picture identity. Correct prior-focus context and the
+hidden-title repair do not establish correctness across arbitrary intervening pictures.
+
+Preserve a route to solve this later without selecting a general revision/history protocol now.
+Terminal's second-press memory is only an analogy, not a reproduced instance of this defect.
+
+**Evidence:** [Files focus investigation](../reportbacks/zengine-files-focus-investigation-RB.md),
+P10 and its adjacent probe/evidence pack; Vision independently reproduced the same result.
+**Trigger:** the next selected pointer/presentation provenance investigation, or ordinary use showing
+repeated queued clicks selecting or activating a subject the maker did not aim at.
 
 ### P-WORK-22 — An authored load plan is all-or-nothing, and core panes now ride it
 

@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-13\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** continue the IDE-loop road after the accepted pane extraction; progress/closing answers and the authority workflow remain selected downstream work
-**Current execution state:** Editor extraction and Files click mapping accepted; bounded Files focus investigation selected (§7); overlapping service retirement remains a preserved seam
+**Current execution state:** Editor extraction and Files click mapping accepted; Files focus, hidden-title selection and keyboard-legend repair selected (§7); overlapping service retirement remains a preserved seam
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -360,10 +360,15 @@ a participant, naming the participant and reason while preserving work and resto
 A delivered unanswered question can remain pending. Builder and Files publish the clearing of a
 spent notice. Files' independent click-mapping repair is accepted in PR #24 at merge `3c8d6bc`;
 its [pressure entry](../pressure.md#p-work-23--pane-notices-must-agree-with-actions-and-hit-testing)
-retains the other panes' unmeasured notice paths. The selected next packet is the bounded
-[Files focus investigation](../../prompts/zengine-files-focus-investigation.md): preserve the
-two-press policy and determine how the pane can learn the host's relevant prior-focus fact.
-That conversation and its compatibility policy are not yet selected for production.
+retains the other panes' unmeasured notice paths. The founder accepted the focus investigation
+and selected the [Files focus implementation](../../prompts/zengine-files-focus-implementation.md).
+Workshop supplies actual prior ordinary-key routing on v2 presses; Files retains activation policy,
+and v1 compatibility is conservative. Include correct hidden-title selection through room updates
+and a truthful keyboard legend. Host version inspection does not guarantee delivery through holder
+turnover; an attributable refusal is valid, without duplicate retries or new Loom work.
+[P-WORK-24](../pressure.md#p-work-24--files-cannot-infer-whether-it-already-held-the-keyboard)
+owns the acceptance boundary. [Queued-picture provenance](../pressure.md#p-work-25--queued-presses-do-not-identify-the-picture-they-targeted)
+remains a separate observed issue, not a general presentation protocol selected by this repair.
 
 **Accepted opening outcome:** before joint publication, A remains the current readable and editable
 document and B is only prepared state. Publication changes the Editor's and presentation owner's
