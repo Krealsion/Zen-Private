@@ -81,14 +81,16 @@ Preserve the component's undo, normalization, selection and fallback behavior wi
 
 ### P-WORK-23 — Pane notices must agree with actions and hit-testing
 
-**State:** ACT candidate for Files geometry; WATCH / REPRODUCTION NEEDED for other panes' notices
+**State:** Files geometry REPAIRED, AWAITING ACCEPTANCE (Zengine PR #24 at `1525dd9`, not
+merged); WATCH / REPRODUCTION NEEDED for other panes' notices
 
-With a Files notice visible, clicking painted `alpha.cpp` selects `beta.cpp`; clicking the painted
-header can change selection. Vision reproduced both at the accepted PR #23 head using the real
-loaded pane and verified the delivered `PanePressed` row. The hit-test omits the inserted notice
-row. The relevant hit-test and notice insertion also existed on PR #23's base `e593894`; this is
-a preexisting defect, carried separately from the accepted quit/notice correction. A bounded
-repair should reconcile painted rows and hit-testing, including headers and window markers.
+With a Files notice visible, clicking painted `alpha.cpp` selected `beta.cpp` and clicking the
+painted header changed the selection; Vision reproduced both at the accepted PR #23 head. The cause
+was wider than the notice row: the hit-test recomputed a window without the notice, the
+`... N earlier` / `... N more` markers or the room's cut, so a marker press selected an unpainted
+entry even with no notice. Reproduced on accepted `main` `26ae2dd`; the repair on
+`repairs/files-click-mapping` reads each press against the entries the painted rows were composed
+with. Close this half at acceptance.
 
 Ceecee also identified possible spent-notice paths in Info, Terminal and Attention by source read.
 Those suspicions are not reproduced failures. Keep the existing notice contract; audit each path
@@ -96,8 +98,10 @@ against an actual consumed action before deciding which repairs are owed. Do not
 unconsumed key or stale action into a notice-spending gesture to satisfy a test.
 
 **Evidence:** [final correction report](../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md),
-Decisions asked; Vision's acceptance review on 2026-09-13.
-**Trigger:** the next bounded pane repair, subject to founder selection.
+Decisions asked; Vision's acceptance review on 2026-09-13;
+[Files click-mapping report](../reportbacks/zengine-files-click-mapping-RB.md).
+**Trigger:** Files half: founder acceptance of PR #24. Other panes: the next bounded pane repair,
+subject to founder selection.
 
 ### P-WORK-22 — An authored load plan is all-or-nothing, and core panes now ride it
 
