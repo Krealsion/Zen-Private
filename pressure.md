@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-11
+**Refreshed:** 2026-09-13
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -23,10 +23,11 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-The founder selected a focused investigation of Editor's document/presentation commitment
-after the merged-Loom integration preflight stopped. The
-[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the current
-outcome and research boundary. Entry status is pressure, not a production prompt.
+Editor PR #23 is accepted and merged. The
+[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the completed arc.
+P-WORK-23 holds the remaining Files defect and unmeasured notice paths. P-LOOM-02 and P-WORK-18
+retain the deferred progress/authority work; P-WORK-06 holds the pane-to-source IDE join.
+These entries inform the next choice; this closure selects no execution packet.
 
 ## 3. Workshop product pressure
 
@@ -67,19 +68,36 @@ a pointed pane without walking the list, or the document editor's retirement is 
 
 ### P-WORK-03 — The pane protocol is what a provider can say, and the built-ins need more
 
-**State:** COMMITMENT INVESTIGATION SELECTED; IMPLEMENTATION PAUSED — Files (PR #16), Builder (#17), Attention (#19), Info (#20), and Terminal (#22) landed; Editor PR #23 remains unmerged and unaccepted. [The Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns its resume boundary.
+**State:** SELECTED EXTRACTION ARC CLOSED (2026-09-13); remaining surfaces parked pending a consumer
 
-**Evidence:** `Zengine/agents/panes.md`; `agents/workshop/files.md` (WL-FILES-16/17); `reportbacks/pane-actions-and-files-RB2.md`; `reportbacks/pane-weave-research-RB.md` E5
+Files, Builder, Attention, Info, Terminal and Editor are pane weaves. The accepted
+[PR #23 result](goals/workshop.md#pane-extraction-current-status-and-next-work) closes the Editor
+migration. Layouts, Pane Manager and the maker pane remain host-owned under the selected boundary.
+The pane protocol's current contract belongs in `Zengine/agents/panes.md`.
 
-The shared protocol now carries prose, actions, pointer/key/text/wheel input, and `PaneCaret`.
-The remaining Editor migration inherits those contracts and must establish how its document,
-selection, and pending operations retain their meaning across the new owner. Layouts, Pane
-Manager, and the maker pane remain host-owned under this arc's boundary.
-
-**Trigger (each migration):** one demonstrated contract at most, never a framework.
-Use `agents/verification/fixtures.md` for the operation-by-operation method; a component call's
-undo, normalization, selection, and fallback behavior must travel with its owner too.
+**Trigger:** a selected remaining migration or a real provider demonstrates a missing contract.
+Preserve the component's undo, normalization, selection and fallback behavior with its owner.
 `marks_persist.hpp` pulling `persist.hpp` into the weave image remains a separate follow-on hook.
+
+### P-WORK-23 — Pane notices must agree with actions and hit-testing
+
+**State:** ACT candidate for Files geometry; WATCH / REPRODUCTION NEEDED for other panes' notices
+
+With a Files notice visible, clicking painted `alpha.cpp` selects `beta.cpp`; clicking the painted
+header can change selection. Vision reproduced both at the accepted PR #23 head using the real
+loaded pane and verified the delivered `PanePressed` row. The hit-test omits the inserted notice
+row. The relevant hit-test and notice insertion also existed on PR #23's base `e593894`; this is
+a preexisting defect, carried separately from the accepted quit/notice correction. A bounded
+repair should reconcile painted rows and hit-testing, including headers and window markers.
+
+Ceecee also identified possible spent-notice paths in Info, Terminal and Attention by source read.
+Those suspicions are not reproduced failures. Keep the existing notice contract; audit each path
+against an actual consumed action before deciding which repairs are owed. Do not turn an
+unconsumed key or stale action into a notice-spending gesture to satisfy a test.
+
+**Evidence:** [final correction report](../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md),
+Decisions asked; Vision's acceptance review on 2026-09-13.
+**Trigger:** the next bounded pane repair, subject to founder selection.
 
 ### P-WORK-22 — An authored load plan is all-or-nothing, and core panes now ride it
 
@@ -407,7 +425,7 @@ separate selected work (VD-20), requiring their own consumer-grounded scope.
 
 Loom now offers explicit acceptors authenticated notice of selected pre-handler dispatch
 refusals, returned to the exact sending life and incarnation. TerminalSession consumes it;
-the Zengine operation owners' integration remains in BL-WORK-03. The notice is best effort,
+the scoped Zengine opening-chain integration is accepted with PR #23. The notice is best effort,
 not proof of delivery, semantic success or eventual settlement. It cannot make separate
 application facts commit together.
 
@@ -419,7 +437,8 @@ Delivered-but-unanswered work, handler failure and invalidated answer rights rem
 progress questions. Builder progress, the Weaver's pending approval and realization's waiting
 row supply the consumer pressure (VD-20). Scope further obligation work from those needs;
 do not infer timeout, cancellation, retry or a general transaction system from vocabulary.
-The Editor commitment study has its own application-safety question and current Goal Map route.
+The accepted Editor manager demonstrates application-specific commitment and attributable pending
+state; it does not by itself supply the remaining progress/closing-answer contract.
 
 ### P-LOOM-03 — A policy delegate can die while its installed authority survives
 

@@ -1,14 +1,16 @@
 # PR #23 — managed opening and Editor extraction
 
-**Step 3 selected — 2026-09-12.** The
-[Workshop Goal Map](../goals/workshop.md#pane-extraction-current-status-and-next-work) owns the
-fixed outcome. The [execution prompt](../../prompts/zengine-managed-open-integration.md) is the
-self-contained Ceecee handoff. This roadmap explains ownership, sequence and acceptance; it does
-not self-accept the implementation.
+**Completed and accepted — 2026-09-13.** Zengine
+[PR #23](https://github.com/Krealsion/Zengine/pull/23) merged as
+`26ae2dd9a63a8cf5feac2eebb0fd9eddff4066cd`, with the same tree as reviewed `50c279b`.
+The [Workshop Goal Map](../goals/workshop.md#pane-extraction-current-status-and-next-work) owns
+current capability and follow-up boundaries. The remainder of this document preserves the
+completed plan and its acceptance rationale; its execution instructions are historical.
 
-Loom PR #6 is merged at `a08499f4e445b578b2c4ffcaac6265aa7094b88f`, with the same tree as the
-reviewed `1dcf42b` authority correction. Zengine PR #23 remains open and unaccepted at
-`9cbf5a5ac8d4751472dc891371401d93a25e03cc`. Refresh live identities at execution.
+Loom PR #6 supplied the accepted ABI v8 dependency at
+`a08499f4e445b578b2c4ffcaac6265aa7094b88f`. The
+[final corrections report](../../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md)
+routes the production evidence. No old handoff below authorizes another integration pass.
 
 ## The result we are building
 

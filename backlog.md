@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-12  
+**Refreshed:** 2026-09-13\
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -19,10 +19,11 @@ pressure stays outside until that decision exists. Every item names its wake con
 
 **State:** GOAL-COUPLED  
 **Owed:** Repeated maker friction must either improve the interaction or produce an available,
-truthful explanation of the real concept. Keep the one tool-authoring path legible: a pane is a weave
-across the pane protocol, and the compiled-in path is debt being retired one pane at a time (VD-19;
-Files left in Zengine PR #16). Grow the human contributor front door from tested public explanations
-rather than from private phase vocabulary.
+truthful explanation of the real concept. Keep the one tool-authoring path legible: a pane provider
+is a weave communicating across the pane protocol. Files, Builder, Attention, Info, Terminal and
+Editor have completed the selected extraction arc; the Goal Map names the remaining host-owned
+surfaces (VD-19). Grow the human contributor front door from tested public explanations rather
+than from private phase vocabulary.
 
 **Wake:** every Workshop phase with repeated human-facing friction; mandatory before actively
 inviting outside contributors.
@@ -41,47 +42,6 @@ tutorial implementation.
 tool's source” path.
 
 **Boundary:** this does not itself authorize a plugin SDK or an installation system.
-
-### BL-WORK-03 — Resume the Editor extraction after sender fate
-
-**State:** STEP 3 CORRECTED TWICE (2026-09-13) — PR #23 at `50c279b5621a079a652fe4cb797a5b5c5dab7ff3`, awaiting founder review; not accepted.
-
-**Current disposition:** the managed opening is integrated on PR #23 (`panes/editor-weave`)
-against the accepted installed Loom `a08499f4e445b578b2c4ffcaac6265aa7094b88f` (ABI v8). The two
-findings the previous corrections left for founder disposition are repaired in one commit over
-`9dcf54f`, each reproduced on that head first. **A quit Loom could not deliver to a participant is
-refused at once** (WL-SESSION-19): the quit question is a publication, which Loom's
-`zen.DispatchRefused` does not reach, so the host mounts a `QuitDeliveryWatch` on its own tap; it
-writes each refused delivery of the question into a book Workshop reads and wakes Workshop, which
-refuses the quit in flight naming the office, weave and reason, replays held gestures and saves
-nothing. A quit after the repair asks afresh; a delivered question nobody answers still holds the
-quit open. **A spent notice leaves the published rows**: the Builder — and Files, which showed the
-same stale row — publish their rows when the act that spent a notice published none, and a key a
-line does not take spends nothing. Law: `Zengine/agents/workshop/session.md` (WL-SESSION-19) with
-its decision record, WL-EDIT-14 rewritten, `agents/panes.md`. Verified on the official WSL lane and
-under ASan+UBSan (478 panes cases), by a thirteen-row mutation matrix, and in CI (6 of 6 jobs) at
-that head.
-Report: [zengine-managed-open-quit-notice-corrections](../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md).
-
-**Still owed:** founder review and acceptance of PR #23; nothing self-accepts. Two decisions from
-this round wait for the founder (report, Decisions asked): whether the notice obligation owes a
-bounded sweep of Info, Terminal and Attention, where a source read finds clearing paths that may
-leave a spent notice painted (unmeasured, unchanged), or the contract sentence is narrowed; and
-whether Files' press geometry, which ignores a standing notice row, is owed. The
-[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the outcome; the
-[roadmap](drafts/editor-pr23-roadmap.md) explains the sequence that led here.
-
-**Wake satisfied:** the dependency is merged, Step 3 is implemented and corrected. Closure still
-requires founder acceptance of the production result.
-
-**Evidence:** [quit and notice corrections report](../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md),
-[corrections report](../reportbacks/zengine-managed-open-integration-corrections-RB.md),
-[Step 3 report](../reportbacks/zengine-managed-open-integration-RB.md),
-[corrected runnable slice](../reportbacks/editor-managed-open-slice-corrections-2-RB.md),
-[Loom landing](../reportbacks/loom-joint-publication-landing-RB.md),
-[authority corrections](../reportbacks/loom-joint-publication-authority-corrections-RB.md),
-[merged PR #6](https://github.com/Krealsion/Loom/pull/6). Earlier investigations and correction
-rounds remain in those reports and Git rather than in this current disposition.
 
 ## 3. Bounded defects and quick repairs
 
@@ -103,19 +63,6 @@ says `characters`. Change the refusal to `bytes` and pin the exact multibyte bou
 the bound or introduce code-point/grapheme/display-width policy.
 
 **Wake:** next document/name-validation touch or an explicitly selected cleanup QR.
-
-### BL-DEF-04 — Remove the dead Loom SDL dev override from Zengine
-
-**State:** IMPLEMENTED IN STEP 3 (2026-09-12), awaiting PR #23's acceptance  
-**Owed:** nothing further once PR #23 is accepted. The stale `zen-ui-sdl` comment and the dead
-`set(ZEN_SDL …)` are gone from the dev-mode branch of `Zengine/CMakeLists.txt` (PR #23 at
-`26c44b4e1d159adf5c1a8e9fefdf1d660cad8255`); `ZEN_LOOM_DEV`, the Loom test/example suppression,
-the Windows kernel selection and Zengine's own SDL3 skin are untouched. Checked by source grep
-(no `ZEN_SDL` or `zen-ui-sdl` remains) and by the stranger configure of every lane.
-
-**Wake:** closes with PR #23's acceptance.
-
-**Evidence:** LSDL-0 §9; [Step 3 report](../reportbacks/zengine-managed-open-integration-RB.md).
 
 ## 4. Adoption and release
 

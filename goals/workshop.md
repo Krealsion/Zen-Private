@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-12  
+**Refreshed:** 2026-09-13\
 **Strategic authority:** `private/zen-strategic-map.md`  
-**Current direction:** land managed opening and finish Editor PR #23 against accepted Loom; the IDE loop remains the product road
-**Current execution state:** Step 3 production integration selected after Loom PR #6 merged; overlapping service retirement remains a preserved seam (§7)
+**Current direction:** continue the IDE-loop road after the accepted pane extraction; progress/closing answers and the authority workflow remain selected downstream work
+**Current execution state:** Editor PR #23 accepted and merged; no follow-up execution packet selected; overlapping service retirement remains a preserved seam (§7)
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -321,7 +321,7 @@ right-click pane
     -> realize or reload the owning artifact
 ```
 
-Its clean growth path, with status as of 2026-09-06:
+Its growth path after the accepted pane extraction (2026-09-13):
 
 1. contextual `Edit Code` resolves a path and calls the same `Editor.open(path)` door — **not built**;
 2. the host resolves pane/provider -> recipe/source from authored provenance, without teaching the
@@ -344,20 +344,25 @@ the build/reload architecture later changes.
 
 ### Pane extraction: current status and next work
 
-Files, Builder, Attention, Info, and Terminal have landed as pane weaves. Terminal's review
-corrections are accepted with PR #22; it supplies `PaneCaret` ahead of the Editor. **Editor is
-the final extraction in this arc.** Layouts, Pane Manager, and the maker pane remain host-owned
-under the arc's current boundary, not as exceptions to the long-term peer-tool direction.
+Files, Builder, Attention, Info, Terminal and Editor have landed as pane weaves. **The selected
+extraction arc is complete.** Layouts, Pane Manager and the maker pane remain host-owned under
+this arc's boundary; that does not change the long-term peer-tool direction.
 
-**Current selection: Step 3, production managed opening and PR #23 completion.** The founder
-accepted the corrected runnable slice and Loom dependency, then selected the Zengine side after
-Loom PR #6 merged as `a08499f4e445b578b2c4ffcaac6265aa7094b88f` (ABI v8). Editor PR #23 remains
-unaccepted at `9cbf5a5ac8d4751472dc891371401d93a25e03cc`. The
-[execution prompt](../../prompts/zengine-managed-open-integration.md) carries the bounded task;
-[BL-WORK-03](../backlog.md#bl-work-03--resume-the-editor-extraction-after-sender-fate) tracks its
-remaining work, and the [roadmap](../drafts/editor-pr23-roadmap.md) explains the sequence.
+The founder confirmed [PR #23](https://github.com/Krealsion/Zengine/pull/23) merged on 2026-09-13
+as `26ae2dd9a63a8cf5feac2eebb0fd9eddff4066cd`. Its tree matches the reviewed `50c279b` exactly.
+It consumes accepted Loom `a08499f` (ABI v8). BL-WORK-03 and BL-DEF-04 are closed: Editor extraction,
+managed opening and removal of the dead Loom SDL dev override are accepted. The
+[final corrections report](../../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md)
+and [completed roadmap](../drafts/editor-pr23-roadmap.md) retain the evidence and sequence.
 
-**Fixed opening outcome:** before joint publication, A remains the current readable and editable
+The accepted result also refuses a quit when the host observes that its question could not reach
+a participant, naming the participant and reason while preserving work and restoring interaction.
+A delivered unanswered question can remain pending. Builder and Files publish the clearing of a
+spent notice. The independent Files click-geometry defect and suspected notice paths in other
+panes remain [follow-up pressure](../pressure.md#p-work-23--pane-notices-must-agree-with-actions-and-hit-testing),
+not an open condition on PR #23. No new execution packet is selected by this closure.
+
+**Accepted opening outcome:** before joint publication, A remains the current readable and editable
 document and B is only prepared state. Publication changes the Editor's and presentation owner's
 claims together. Success requires both owners to apply that publication, with the intended source,
 admitted presentation, room and focus agreeing. Physical rendering follows the admitted state.
@@ -376,20 +381,21 @@ coordinates through ordinary conversations and explicit host-minted authority. P
 Editor-address door's full promise and answer provenance. Another subsystem extraction, loaded
 manager, service-retirement policy or general recovery framework is not a prerequisite.
 
-Input preservation remains a Zengine correctness requirement. The observed 257-event loss
-uses ordinary one-character text events, not huge loading payloads. Trace the actual pending interval;
+Input preservation remains a Zengine correctness requirement. The repaired 257-event loss
+used ordinary one-character text events, not huge loading payloads. In future work, trace the actual
+pending interval;
 rapid traffic from multiple participants may extend it across dispatch/frame boundaries.
 Bound resources while preserving admitted input, its order and subject, and unrelated pane
 usability. An arbitrary larger cap or indefinite retention is not a repair. Large loading
 operations may reasonably take time; optimize against actual interaction needs and measured
-bottlenecks, without turning this integration into a bulk-data performance campaign.
+bottlenecks, without turning ordinary interaction work into a bulk-data performance campaign.
 
 Merged dispatch refusal reports selected pre-handler failures; it does not establish this
 application commitment or settle every conversation abandoned after delivery. Progress/closing
 answers (VD-20) and the authority workflow (VD-21) remain separate selected work.
 
-The extraction must preserve the current document's ownership/lifetime guarantees and the
-component behaviors previously supplied by the host. Route through `Zengine/agents/workshop.md`,
+Future changes must preserve the extracted document owner's lifetime guarantees and the
+component behaviors that moved with it. Route through `Zengine/agents/workshop.md`,
 `agents/panes.md`, and `agents/verification/fixtures.md` rather than copying their checklists here.
 The Terminal findings specifically earned request-context checks, staged late answers, and
 preservation of undo/normalization behavior across the move.
@@ -411,9 +417,10 @@ option where the domain has a meaningful completion condition; explicit refusal 
 Neither an empty queue nor elapsed time proves completion. This preference does not weaken
 Editor's current input-preservation or document/presentation commitment requirements.
 
-Complete the selected managed-opening integration and outstanding dispatch-refusal consumption
-before continuing the IDE loop and its ceremony audit. Carry the
-manager's clear ownership, attributable pending/failure and replaceability into that work.
+Managed opening and its scoped dispatch-refusal consumption are accepted. Continue to judge
+IDE-loop and ceremony work against the manager's clear ownership, attributable pending/failure
+and replaceability. VD-20's progress/closing answers and VD-21's authority workflow retain their
+selected direction and each require a consumer-grounded execution scope.
 Keep the more elaborate continuity options possible without requiring their implementation now.
 Revisit overlapping retirement when a concrete consumer needs to admit successor work before
 the incumbent can finish, or a proposed change would close that option unnecessarily.

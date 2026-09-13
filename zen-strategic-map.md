@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-12  
+**Refreshed:** 2026-09-13\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
-**Current product direction:** finish Editor PR #23 through managed-opening integration; continue the IDE-loop road (§6)
-**Current execution state:** Step 3 selected after Loom PR #6 merged; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the fixed outcome and current execution route; service retirement remains parked
+**Current product direction:** continue the IDE-loop road after the accepted pane extraction; preserve the selected progress/authority continuation (§6)
+**Current execution state:** Editor PR #23 accepted and merged; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns closure and follow-up boundaries; no next execution packet selected; service retirement remains parked
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -197,12 +197,12 @@ Nearer follow-ons that remain pressure-driven include pane Inspect (the Terminal
 the timed auto-revert, source search/Unicode/multiple documents, and a graphical Flow projection.
 None is automatically next merely because its seam is visible.
 
-**Current focus: land the reviewed managed-opening design in Zengine PR #23.** The corrected
-real-owner slice established the mechanism; the required Loom dependency and its authority
-corrections are accepted and merged. Step 3 integrates the production owners, finishes the
-opening chain's dispatch-refusal handling and earns the fixed acceptance matrix. The
-[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns that outcome and
-execution route. PR #23 remains unaccepted.
+**The selected pane extraction is accepted and complete.** PR #23 landed managed opening with
+separate document, presentation and operation owners, plus its scoped dispatch-refusal handling.
+The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns acceptance and
+the remaining host-owned surfaces. The next execution packet has not been selected. The IDE loop
+remains the product road; the deferred progress/closing-answer and authority work below is still
+owed in direction, with scope grounded in its real consumers.
 
 The [ownership model](goals/workshop.md#3-current-ownership-model) continues to guide composition,
 continuity and repair. Service retirement remains parked under its
