@@ -23,11 +23,11 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-Editor PR #23 is accepted and merged. The
-[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the completed arc.
-P-WORK-23 holds the remaining Files defect and unmeasured notice paths. P-LOOM-02 and P-WORK-18
-retain the deferred progress/authority work; P-WORK-06 holds the pane-to-source IDE join.
-These entries inform the next choice; this closure selects no execution packet.
+Editor PR #23 and the Files click-mapping repair (PR #24) are accepted and merged. The
+[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns their closure.
+The current bounded investigation is Files' prior-focus/activation context (P-WORK-24).
+P-WORK-23 retains the unmeasured notice paths. P-LOOM-02 and P-WORK-18 retain the deferred
+progress/authority work; P-WORK-06 holds the pane-to-source IDE join.
 
 ## 3. Workshop product pressure
 
@@ -81,16 +81,12 @@ Preserve the component's undo, normalization, selection and fallback behavior wi
 
 ### P-WORK-23 — Pane notices must agree with actions and hit-testing
 
-**State:** Files geometry REPAIRED, AWAITING ACCEPTANCE (Zengine PR #24 at `1525dd9`, not
-merged); WATCH / REPRODUCTION NEEDED for other panes' notices
+**State:** Files geometry CLOSED (2026-09-13); WATCH / REPRODUCTION NEEDED for other panes' notices
 
-With a Files notice visible, clicking painted `alpha.cpp` selected `beta.cpp` and clicking the
-painted header changed the selection; Vision reproduced both at the accepted PR #23 head. The cause
-was wider than the notice row: the hit-test recomputed a window without the notice, the
-`... N earlier` / `... N more` markers or the room's cut, so a marker press selected an unpainted
-entry even with no notice. Reproduced on accepted `main` `26ae2dd`; the repair on
-`repairs/files-click-mapping` reads each press against the entries the painted rows were composed
-with. Close this half at acceptance.
+The founder confirmed [PR #24](https://github.com/Krealsion/Zengine/pull/24) merged as
+`3c8d6bcfdfb3d53ccf53178a5f53318212e13f05`, with the same tree as reviewed `1525dd9`.
+Files now maps each press through the entries composed with its published rows, including notices,
+window markers and clipping. The geometry repair is accepted; its evidence remains in the report.
 
 Ceecee also identified possible spent-notice paths in Info, Terminal and Attention by source read.
 Those suspicions are not reproduced failures. Keep the existing notice contract; audit each path
@@ -100,8 +96,29 @@ unconsumed key or stale action into a notice-spending gesture to satisfy a test.
 **Evidence:** [final correction report](../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md),
 Decisions asked; Vision's acceptance review on 2026-09-13;
 [Files click-mapping report](../reportbacks/zengine-files-click-mapping-RB.md).
-**Trigger:** Files half: founder acceptance of PR #24. Other panes: the next bounded pane repair,
-subject to founder selection.
+**Trigger:** other panes' notice paths: the next bounded pane audit, subject to founder selection.
+
+### P-WORK-24 — Files cannot infer whether it already held the keyboard
+
+**State:** BOUNDED INVESTIGATION SELECTED (2026-09-13); implementation not selected
+
+After Files opens a source and the keyboard moves to Editor, one press on Files' selected row can
+open it again and return the keys to Editor. Vision reproduced this at `1525dd9`; the relevant
+activation, key/action and host routing code is unchanged from accepted main `26ae2dd`.
+Conversely, resolved arrow actions do not set Files' `had_keyboard_`, so a press can fail to
+activate even when the pane already holds the keys. Ceecee measured that direction on START.
+
+Preserve WL-FOCUS-04's intended two-press policy. Workshop owns actual keyboard routing; Files
+owns activation. The investigation must establish the smallest truthful conversation, including
+when prior focus is captured and how existing PanePressed v1 providers coexist. Press-scoped
+context is a candidate, not an accepted wire design. Merely setting the local flag on actions
+cannot report focus leaving. The focus decision record's removed witness also needs a repair route.
+
+**Execution:** [Files focus investigation](../prompts/zengine-files-focus-investigation.md), a
+self-contained research prompt; no production repair or general focus framework selected.
+**Evidence:** [Files repair report](../reportbacks/zengine-files-click-mapping-RB.md), Decisions
+asked; Vision's review and independent focus reproduction on 2026-09-13.
+**Exit:** a supported mechanism and compatibility recommendation for founder disposition.
 
 ### P-WORK-22 — An authored load plan is all-or-nothing, and core panes now ride it
 

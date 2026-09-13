@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-13\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** continue the IDE-loop road after the accepted pane extraction; progress/closing answers and the authority workflow remain selected downstream work
-**Current execution state:** Editor PR #23 accepted and merged; no follow-up execution packet selected; overlapping service retirement remains a preserved seam (§7)
+**Current execution state:** Editor extraction and Files click mapping accepted; bounded Files focus investigation selected (§7); overlapping service retirement remains a preserved seam
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -358,9 +358,12 @@ and [completed roadmap](../drafts/editor-pr23-roadmap.md) retain the evidence an
 The accepted result also refuses a quit when the host observes that its question could not reach
 a participant, naming the participant and reason while preserving work and restoring interaction.
 A delivered unanswered question can remain pending. Builder and Files publish the clearing of a
-spent notice. The independent Files click-geometry defect and suspected notice paths in other
-panes remain [follow-up pressure](../pressure.md#p-work-23--pane-notices-must-agree-with-actions-and-hit-testing),
-not an open condition on PR #23. No new execution packet is selected by this closure.
+spent notice. Files' independent click-mapping repair is accepted in PR #24 at merge `3c8d6bc`;
+its [pressure entry](../pressure.md#p-work-23--pane-notices-must-agree-with-actions-and-hit-testing)
+retains the other panes' unmeasured notice paths. The selected next packet is the bounded
+[Files focus investigation](../../prompts/zengine-files-focus-investigation.md): preserve the
+two-press policy and determine how the pane can learn the host's relevant prior-focus fact.
+That conversation and its compatibility policy are not yet selected for production.
 
 **Accepted opening outcome:** before joint publication, A remains the current readable and editable
 document and B is only prepared state. Publication changes the Editor's and presentation owner's

@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** continue the IDE-loop road after the accepted pane extraction; preserve the selected progress/authority continuation (§6)
-**Current execution state:** Editor PR #23 accepted and merged; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns closure and follow-up boundaries; no next execution packet selected; service retirement remains parked
+**Current execution state:** Editor extraction and Files click mapping accepted; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the bounded Files focus investigation and follow-up boundaries; service retirement remains parked
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -200,8 +200,8 @@ None is automatically next merely because its seam is visible.
 **The selected pane extraction is accepted and complete.** PR #23 landed managed opening with
 separate document, presentation and operation owners, plus its scoped dispatch-refusal handling.
 The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns acceptance and
-the remaining host-owned surfaces. The next execution packet has not been selected. The IDE loop
-remains the product road; the deferred progress/closing-answer and authority work below is still
+the remaining host-owned surfaces and the current bounded Files focus investigation. The IDE
+loop remains the product road; the deferred progress/closing-answer and authority work below is still
 owed in direction, with scope grounded in its real consumers.
 
 The [ownership model](goals/workshop.md#3-current-ownership-model) continues to guide composition,
