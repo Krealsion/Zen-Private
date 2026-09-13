@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-13\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** continue the IDE-loop road after the accepted pane extraction; progress/closing answers and the authority workflow remain selected downstream work
-**Current execution state:** Editor extraction and Files click mapping accepted; Files focus, hidden-title selection and keyboard-legend repair selected (§7); overlapping service retirement remains a preserved seam
+**Current execution state:** Editor and Files follow-ups through PR #25 accepted; remaining pane-notice audit selected (§7); overlapping service retirement remains a preserved seam
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -360,15 +360,23 @@ a participant, naming the participant and reason while preserving work and resto
 A delivered unanswered question can remain pending. Builder and Files publish the clearing of a
 spent notice. Files' independent click-mapping repair is accepted in PR #24 at merge `3c8d6bc`;
 its [pressure entry](../pressure.md#p-work-23--pane-notices-must-agree-with-actions-and-hit-testing)
-retains the other panes' unmeasured notice paths. The founder accepted the focus investigation
-and selected the [Files focus implementation](../../prompts/zengine-files-focus-implementation.md).
-Workshop supplies actual prior ordinary-key routing on v2 presses; Files retains activation policy,
-and v1 compatibility is conservative. Include correct hidden-title selection through room updates
-and a truthful keyboard legend. Host version inspection does not guarantee delivery through holder
-turnover; an attributable refusal is valid, without duplicate retries or new Loom work.
-[P-WORK-24](../pressure.md#p-work-24--files-cannot-infer-whether-it-already-held-the-keyboard)
-owns the acceptance boundary. [Queued-picture provenance](../pressure.md#p-work-25--queued-presses-do-not-identify-the-picture-they-targeted)
-remains a separate observed issue, not a general presentation protocol selected by this repair.
+retains the other panes' notice follow-up. The founder confirmed [PR #25](https://github.com/Krealsion/Zengine/pull/25)
+merged as `968a2578476d3876dc6b0026271b00b373aefaa7`; its tree matches reviewed `9c4242c`.
+Workshop now supplies actual prior ordinary-key routing on v2 presses, Files retains activation
+policy, and v1 compatibility is conservative. Hidden-title selection survives the room update,
+and the keyboard legend reflects actual routing. Host version inspection does not guarantee
+delivery through holder turnover; an attributable refusal is valid, without duplicate retries.
+The [implementation report](../../reportbacks/zengine-files-focus-implementation-RB.md) retains
+the evidence. P-WORK-24 is closed; its small documentation residue is
+[BL-DOC-01](../backlog.md#bl-doc-01--finish-the-panefocus-documentation-cleanup-after-pr-25).
+
+The selected next packet is the [Info/Terminal/Attention notice audit](../../prompts/zengine-pane-notice-audit.md)
+under [P-WORK-23](../pressure.md#p-work-23--pane-notices-must-agree-with-actions-and-hit-testing):
+reproduce the identified paths, repair confirmed failures under the existing notice contract,
+and preserve ignored-action and still-true-condition behavior. This is a bounded consistency
+follow-up on the IDE-loop road, not a general notice architecture.
+[Queued-picture provenance](../pressure.md#p-work-25--queued-presses-do-not-identify-the-picture-they-targeted)
+remains separate, as do the progress/authority continuation and pane-to-source join.
 
 **Accepted opening outcome:** before joint publication, A remains the current readable and editable
 document and B is only prepared state. Publication changes the Editor's and presentation owner's

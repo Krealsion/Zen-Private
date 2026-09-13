@@ -23,11 +23,12 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-Editor PR #23 and the Files click-mapping repair (PR #24) are accepted and merged. The
+The Editor and Files follow-ups through PR #25 are accepted and merged. The
 [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns their closure.
-The selected repair is Files' prior-focus/activation context, hidden-title selection and
-truthful keyboard legend (P-WORK-24). P-WORK-25 keeps queued-picture provenance separate.
-P-WORK-23 retains the unmeasured notice paths. P-LOOM-02 and P-WORK-18 retain the deferred
+The next selected packet is the bounded Info/Terminal/Attention notice audit and repairs of
+reproduced failures (P-WORK-23). P-WORK-24 is closed; the small documentation residue is
+[BL-DOC-01](backlog.md#bl-doc-01--finish-the-panefocus-documentation-cleanup-after-pr-25).
+P-WORK-25 keeps queued-picture provenance separate. P-LOOM-02 and P-WORK-18 retain deferred
 progress/authority work; P-WORK-06 holds the pane-to-source IDE join.
 
 ## 3. Workshop product pressure
@@ -82,49 +83,41 @@ Preserve the component's undo, normalization, selection and fallback behavior wi
 
 ### P-WORK-23 — Pane notices must agree with actions and hit-testing
 
-**State:** Files geometry CLOSED (2026-09-13); WATCH / REPRODUCTION NEEDED for other panes' notices
+**State:** INFO/TERMINAL/ATTENTION AUDIT AND BOUNDED REPAIRS SELECTED (2026-09-13); Files geometry closed
 
-The founder confirmed [PR #24](https://github.com/Krealsion/Zengine/pull/24) merged as
-`3c8d6bcfdfb3d53ccf53178a5f53318212e13f05`, with the same tree as reviewed `1525dd9`.
-Files now maps each press through the entries composed with its published rows, including notices,
-window markers and clipping. The geometry repair is accepted; its evidence remains in the report.
+Files' published-row mapping is accepted in PR #24; the Goal Map retains the accepted result.
+The remaining suspects are Info's accepted act with no new document picture, an unconsumed Info
+draft key, and stale/unknown resolved action ids in Info, Terminal and Attention. These remain
+source-supported suspects, not assumed runtime defects. The selected packet reproduces each and
+repairs only failures established under the existing contract.
 
-Ceecee also identified possible spent-notice paths in Info, Terminal and Attention by source read.
-Those suspicions are not reproduced failures. Keep the existing notice contract; audit each path
-against an actual consumed action before deciding which repairs are owed. Do not turn an
-unconsumed key or stale action into a notice-spending gesture to satisfy a test.
+A consumed action spends the previous notice, and a spent notice must leave published rows.
+An ignored key/id spends nothing, including through a later repaint that could expose a private
+clear. A new refusal must survive; an utterance and a standing condition remain different facts.
+Preserve request/subject guards, row interpretation and each pane's own action semantics.
 
-**Evidence:** [final correction report](../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md),
-Decisions asked; Vision's acceptance review on 2026-09-13;
-[Files click-mapping report](../reportbacks/zengine-files-click-mapping-RB.md).
-**Trigger:** other panes' notice paths: the next bounded pane audit, subject to founder selection.
+**Execution:** [pane notice audit](../prompts/zengine-pane-notice-audit.md).
+**Evidence:** [quit/notice corrections report](../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md),
+Decisions asked 1; current pane handlers re-read at `9c4242c`, whose tree matches merged PR #25.
+**Exit:** every named candidate has a reproducible failure/repair or a supported no-change
+disposition, with publication and ignored-action controls. No shared notice manager or broader
+failure/recovery protocol is selected.
 
 ### P-WORK-24 — Files cannot infer whether it already held the keyboard
 
-**State:** IMPLEMENTATION SELECTED (2026-09-13); research accepted, production acceptance pending
+**State:** CLOSED / ACCEPTED (2026-09-13), PR #25 merged as `968a257`
 
-The founder accepted the investigation and Vision's scope adjustments. Workshop reports whether
-ordinary keyboard input would have reached the pressed pane immediately before the press, including
-mode interception. Files owns selection and activation: a cold press selects without opening;
-an already-focused press on the selected entry may activate. The fact crosses on `PanePressed v2`;
-v1 stays immutable and newer Files treats its missing context conservatively, with Return available.
+The merge tree equals reviewed `9c4242c`. Workshop supplies prior ordinary-key routing on a v2
+press; Files owns activation, and v1 remains conservative. Hidden-title hit-testing and selection
+through the resulting room grant are repaired, and the keyboard band follows actual routing.
+Version inspection remains an observation: a later incompatible holder can refuse the press,
+attributed on the tap, without a retry. No new Loom mechanism was needed.
 
-The host selects a version from the bus's current holder/accepted-schema facts and sends one
-role-addressed attempt. This is not a delivery guarantee: holder turnover can refuse that version.
-Pin and attribute that outcome without duplicate retries or a new Loom mechanism. Adding Files'
-acceptance door requires restart under the current reload contract.
-
-The same packet repairs hidden-title hit-testing before focus changes geometry and preserves the
-clicked selection through the resulting room re-grant. It also corrects the band when a mode receives
-keys instead of the remembered pane. Update the obsolete focus witnesses and protocol documentation
-at their owners. Queued-picture provenance stays in P-WORK-25; other-pane notice paths stay P-WORK-23.
-
-**Execution:** [Files focus implementation](../prompts/zengine-files-focus-implementation.md).
-**Evidence:** [investigation](../reportbacks/zengine-files-focus-investigation-RB.md), its adjacent
-evidence pack, Vision's independent replay and founder disposition on 2026-09-13.
-**Exit:** reviewed implementation demonstrating truthful prior routing, correct final clicked-entry
-selection, v1 compatibility, attributed turnover refusal and a truthful legend. No broader focus,
-presentation or replacement framework is selected.
+**Evidence:** [implementation report](../reportbacks/zengine-files-focus-implementation-RB.md),
+Vision's independent official run and settled hidden-title Editor drag probe, and founder merge
+confirmation. The remaining wording/count corrections are owed under
+[BL-DOC-01](backlog.md#bl-doc-01--finish-the-panefocus-documentation-cleanup-after-pr-25).
+Queued-picture provenance remains P-WORK-25; it does not reopen this accepted repair.
 
 ### P-WORK-25 — Queued presses do not identify the picture they targeted
 

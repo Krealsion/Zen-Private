@@ -64,6 +64,34 @@ the bound or introduce code-point/grapheme/display-width policy.
 
 **Wake:** next document/name-validation touch or an explicitly selected cleanup QR.
 
+### BL-DOC-01 — Finish the pane/focus documentation cleanup after PR #25
+
+**State:** BOUNDED DOCS CLEANUP / DEFERRED (2026-09-13); not a blocker for accepted PR #25
+
+**Owed:** Correct these identified reader-facing inaccuracies without changing product policy:
+
+- Remove stale total-shape claims: the B1 "Five shapes, and there is no sixth" heading in
+  `Zengine/docs/guides/make-a-workshop-tool.md`, and the "eleven shapes" summaries in
+  `docs/README.md`, `docs/architecture/README.md` and `docs/workshop/panes.md`. Prefer a description
+  and route to `workshop/pane_vocabulary.hpp` over another copied total; reconcile nearby counts
+  in directly edited owner prose as needed.
+- In `Zengine/agents/decisions/the-keys-go-where-last-pressed.md` and
+  `agents/workshop/focus.md`, qualify the claim that holder turnover refuses a queued press.
+  A compatible successor may receive it; an incompatible successor can refuse it, without retry.
+  Align the decision record's "two places" summary with the title/band distinction: the mark
+  identifies the resolved return pane, while the band reports where ordinary keys currently go.
+- In `Zengine/agents/panes.md`, remove the obsolete claim that forwarding a press changes no
+  Workshop picture and causes no repaint. Workshop does not interpret provider rows, but a focus
+  press can restore a title, change the granted room and repaint its own presentation.
+
+**Wake:** the next focused pane/focus documentation pass, or an edit to one of these affected
+paragraphs. A local correction may narrow this entry; it need not trigger a broad documentation arc.
+Run the relevant documentation/link/register checks and keep policy and runtime behavior unchanged.
+
+**Evidence:** [PR #25 report](../reportbacks/zengine-files-focus-implementation-RB.md), Decisions
+asked and Documentation/gaps; Vision's review of `9c4242c` on 2026-09-13 and the source homes above.
+The founder explicitly requested this backlog entry after confirming the merge.
+
 ## 4. Adoption and release
 
 ### BL-ADOPT-01 — Human contributor front door
