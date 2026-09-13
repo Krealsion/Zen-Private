@@ -44,31 +44,36 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** STEP 3 IMPLEMENTED (2026-09-12) — PR #23 updated at `26c44b4e1d159adf5c1a8e9fefdf1d660cad8255`, awaiting founder review; not accepted.
+**State:** STEP 3 CORRECTED (2026-09-12) — PR #23 at `9dcf54fbb2ccf499e9c49d6cfe9fa15e943be700`, awaiting founder review; not accepted.
 
-**Current disposition:** the managed opening is integrated on PR #23 (`panes/editor-weave`,
-two commits over `9cbf5a5`: the reviewed experimental slice `76be71f` imported verbatim, then the
-integration) against the accepted installed Loom `a08499f4e445b578b2c4ffcaac6265aa7094b88f`
-(ABI v8). The native opening manager, the real loaded Editor and Workshop as the presentation
-owner publish the document and the presentation jointly; the old Editor-address relay keeps the
-requester's right; Files and the Builder consume exact-attempt refusals and handle an enqueue that
-queued nothing at once; every newer terminal outcome retires the manager's retained repair record
-(pinned red on the imported slice first); the host loop attributes a native showing failure from
-Loom's record at the pump seam and lets everything else propagate; a replaced manager's retained
-authority is refused and the host re-mints. Law: `Zengine/agents/workshop/opening.md`
-(WL-OPEN-01..09) and the decision record beside it. Verified on the official WSL lane, under
-ASan+UBSan, by the package witness, on MinGW-w64, by four red-then-green mutations and by live
-terminal and window witnesses; CI at that head is read job by job in the report.
-Report: [zengine-managed-open-integration](../reportbacks/zengine-managed-open-integration-RB.md).
+**Current disposition:** the managed opening is integrated on PR #23 (`panes/editor-weave`)
+against the accepted installed Loom `a08499f4e445b578b2c4ffcaac6265aa7094b88f` (ABI v8), with
+the review's four corrections in one commit over the Step 3 head `26c44b4`. The Step 3 pump did
+not attribute a native showing failure reliably: it inferred an escaped exception from the turn's
+last bus fact and told host observers' throws in the held Editor's words (both reproduced). A
+native owner's showing now runs inside a Zengine-owned boundary that answers Loom's Failed with
+the owner's own words, and the host's turn tells those words and explains no exception
+(WL-OPEN-09). The manager's state names the latest terminal request apart from the live
+operation; the Editor's refusals lead with the reason; the Editor page states the real repair
+path for a held owner; the Builder's queued-lookup dispatch refusal is witnessed apart from its
+enqueue refusal and its forgery. Law: `Zengine/agents/workshop/opening.md` (WL-OPEN-01..09) and
+the decision record beside it. Verified on the official WSL lane and under ASan+UBSan, by an
+eleven-row mutation matrix, and in CI (6 of 6 jobs) at that head.
+Report: [zengine-managed-open-integration-corrections](../reportbacks/zengine-managed-open-integration-corrections-RB.md).
 
-**Still owed:** founder review and acceptance of PR #23; nothing self-accepts. The
+**Still owed:** founder review and acceptance of PR #23; nothing self-accepts. Two findings of
+the corrections wait for a founder disposition (report, Decisions asked): an orderly quit asked
+while a quit-answering pane is held waits and holds later gestures even after the pane is
+reloaded (measured with the real Editor image; documented, not repaired), and the Builder's
+refusal notice stays painted after a later `e` succeeds. The
 [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the outcome; the
 [roadmap](drafts/editor-pr23-roadmap.md) explains the sequence that led here.
 
-**Wake satisfied:** the dependency is merged, Step 3 is implemented and evidenced. Closure still
+**Wake satisfied:** the dependency is merged, Step 3 is implemented and corrected. Closure still
 requires founder acceptance of the production result.
 
-**Evidence:** [Step 3 report](../reportbacks/zengine-managed-open-integration-RB.md),
+**Evidence:** [corrections report](../reportbacks/zengine-managed-open-integration-corrections-RB.md),
+[Step 3 report](../reportbacks/zengine-managed-open-integration-RB.md),
 [corrected runnable slice](../reportbacks/editor-managed-open-slice-corrections-2-RB.md),
 [Loom landing](../reportbacks/loom-joint-publication-landing-RB.md),
 [authority corrections](../reportbacks/loom-joint-publication-authority-corrections-RB.md),
