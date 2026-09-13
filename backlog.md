@@ -44,35 +44,38 @@ tool's source” path.
 
 ### BL-WORK-03 — Resume the Editor extraction after sender fate
 
-**State:** STEP 3 CORRECTED (2026-09-12) — PR #23 at `9dcf54fbb2ccf499e9c49d6cfe9fa15e943be700`, awaiting founder review; not accepted.
+**State:** STEP 3 CORRECTED TWICE (2026-09-13) — PR #23 at `50c279b5621a079a652fe4cb797a5b5c5dab7ff3`, awaiting founder review; not accepted.
 
 **Current disposition:** the managed opening is integrated on PR #23 (`panes/editor-weave`)
-against the accepted installed Loom `a08499f4e445b578b2c4ffcaac6265aa7094b88f` (ABI v8), with
-the review's four corrections in one commit over the Step 3 head `26c44b4`. The Step 3 pump did
-not attribute a native showing failure reliably: it inferred an escaped exception from the turn's
-last bus fact and told host observers' throws in the held Editor's words (both reproduced). A
-native owner's showing now runs inside a Zengine-owned boundary that answers Loom's Failed with
-the owner's own words, and the host's turn tells those words and explains no exception
-(WL-OPEN-09). The manager's state names the latest terminal request apart from the live
-operation; the Editor's refusals lead with the reason; the Editor page states the real repair
-path for a held owner; the Builder's queued-lookup dispatch refusal is witnessed apart from its
-enqueue refusal and its forgery. Law: `Zengine/agents/workshop/opening.md` (WL-OPEN-01..09) and
-the decision record beside it. Verified on the official WSL lane and under ASan+UBSan, by an
-eleven-row mutation matrix, and in CI (6 of 6 jobs) at that head.
-Report: [zengine-managed-open-integration-corrections](../reportbacks/zengine-managed-open-integration-corrections-RB.md).
+against the accepted installed Loom `a08499f4e445b578b2c4ffcaac6265aa7094b88f` (ABI v8). The two
+findings the previous corrections left for founder disposition are repaired in one commit over
+`9dcf54f`, each reproduced on that head first. **A quit Loom could not deliver to a participant is
+refused at once** (WL-SESSION-19): the quit question is a publication, which Loom's
+`zen.DispatchRefused` does not reach, so the host mounts a `QuitDeliveryWatch` on its own tap; it
+writes each refused delivery of the question into a book Workshop reads and wakes Workshop, which
+refuses the quit in flight naming the office, weave and reason, replays held gestures and saves
+nothing. A quit after the repair asks afresh; a delivered question nobody answers still holds the
+quit open. **A spent notice leaves the published rows**: the Builder — and Files, which showed the
+same stale row — publish their rows when the act that spent a notice published none, and a key a
+line does not take spends nothing. Law: `Zengine/agents/workshop/session.md` (WL-SESSION-19) with
+its decision record, WL-EDIT-14 rewritten, `agents/panes.md`. Verified on the official WSL lane and
+under ASan+UBSan (478 panes cases), by a thirteen-row mutation matrix, and in CI (6 of 6 jobs) at
+that head.
+Report: [zengine-managed-open-quit-notice-corrections](../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md).
 
-**Still owed:** founder review and acceptance of PR #23; nothing self-accepts. Two findings of
-the corrections wait for a founder disposition (report, Decisions asked): an orderly quit asked
-while a quit-answering pane is held waits and holds later gestures even after the pane is
-reloaded (measured with the real Editor image; documented, not repaired), and the Builder's
-refusal notice stays painted after a later `e` succeeds. The
+**Still owed:** founder review and acceptance of PR #23; nothing self-accepts. Two decisions from
+this round wait for the founder (report, Decisions asked): whether the notice obligation owes a
+bounded sweep of Info, Terminal and Attention, where a source read finds clearing paths that may
+leave a spent notice painted (unmeasured, unchanged), or the contract sentence is narrowed; and
+whether Files' press geometry, which ignores a standing notice row, is owed. The
 [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the outcome; the
 [roadmap](drafts/editor-pr23-roadmap.md) explains the sequence that led here.
 
 **Wake satisfied:** the dependency is merged, Step 3 is implemented and corrected. Closure still
 requires founder acceptance of the production result.
 
-**Evidence:** [corrections report](../reportbacks/zengine-managed-open-integration-corrections-RB.md),
+**Evidence:** [quit and notice corrections report](../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md),
+[corrections report](../reportbacks/zengine-managed-open-integration-corrections-RB.md),
 [Step 3 report](../reportbacks/zengine-managed-open-integration-RB.md),
 [corrected runnable slice](../reportbacks/editor-managed-open-slice-corrections-2-RB.md),
 [Loom landing](../reportbacks/loom-joint-publication-landing-RB.md),
