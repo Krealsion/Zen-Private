@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-13\
+**Refreshed:** 2026-09-14\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** continue the IDE-loop road after the accepted pane extraction; preserve the selected progress/authority continuation (§6)
-**Current execution state:** Follow-ups through PR #26 accepted; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the selected pane interaction cleanup and matching backlog work; service retirement remains parked
+**Current execution state:** PR #27 accepted; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the bounded intent repairs, then pane-to-source with a ceremony audit; service retirement remains parked
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -200,9 +200,12 @@ None is automatically next merely because its seam is visible.
 **The selected pane extraction is accepted and complete.** PR #23 landed managed opening with
 separate document, presentation and operation owners, plus its scoped dispatch-refusal handling.
 The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns acceptance and
-the remaining host-owned surfaces and the selected pane interaction cleanup. The IDE
-loop remains the product road; the deferred progress/closing-answer and authority work below is still
-owed in direction, with scope grounded in its real consumers.
+the remaining host-owned surfaces and the bounded intent repairs. After those repairs, the
+pane-to-source join is the next substantial capability, with ceremony measured through an actual
+edit/build/reload task. Progress/closing answers and authority remain the next supporting
+architecture arc, scoped from their real consumers. The concrete milestone is reaching a running
+tool's implementation, changing it, seeing the change running, and keeping or reverting it through
+the ordinary Workshop tools.
 
 The [ownership model](goals/workshop.md#3-current-ownership-model) continues to guide composition,
 continuity and repair. Service retirement remains parked under its

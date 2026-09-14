@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-13\
+**Refreshed:** 2026-09-14\
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -55,47 +55,33 @@ Remove it without weakening the refusal path or the evidence that containment wa
 
 **Evidence:** `COLD-2-REPORT.md` C-6.
 
-### BL-DEF-02 — Object-name byte limit reports the wrong unit
+### BL-DEF-05 — Files action identity changes meaning across modes
 
-**State:** SELECTED — pane interaction cleanup (2026-09-13)
+**State:** OWED — next separate interaction repair after targeted Info commits
 
-**Owed:** `Zengine/workshop/document.hpp::check_name` measures `std::string::size()` against 64 but
-says `characters`. Change the refusal to `bytes` and pin the exact multibyte boundary. Do not change
-the bound or introduce code-point/grapheme/display-width policy.
+**Owed:** Distinguish the authoring and browsing intents currently sharing `files.open`.
+Escape and Return queued in one poll over the authoring line can cancel it and then open the
+file under the browsing cursor. The ignored-id repair in PR #27 is accepted; an id declared
+in both modes is a distinct remaining problem. Preserve Files' own mode/activation policy
+without selecting general picture history or a new host command framework.
 
-**Wake:** next document/name-validation touch or an explicitly selected cleanup QR.
-The founder selected the [pane interaction cleanup](../prompts/zengine-pane-interaction-cleanup.md);
-this byte-unit correction is included. Closure awaits implementation review and acceptance.
+**Wake:** the next bounded Files intent-identity prompt, after the selected Info repair.
+**Evidence:** [PR #27 corrections report](../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
+Decision 2 and the `files-stale-open` probe; founder accepted the repair sequence on 2026-09-14.
 
-### BL-DOC-01 — Finish the pane/focus documentation cleanup after PR #25
+### BL-DOC-02 — Reconcile the Workshop limitations page with current pane behavior
 
-**State:** SELECTED — pane interaction cleanup (2026-09-13); PR #25 remains accepted
+**State:** SELECTED — [targeted Info commits](../prompts/zengine-info-targeted-commits.md)
 
-**Owed:** Correct these identified reader-facing inaccuracies without changing product policy:
+**Owed:** In `Zengine/docs/workshop/limitations.md`, replace the stale total of eleven protocol
+shapes with the canonical reference; qualify the blanket claim that Enter ends a draft; and
+explain or route Info's late outcomes alongside Terminal's. Fold this into the selected document
+conversation repair and update the affected editing guidance. No broad documentation pass.
 
-- Remove stale total-shape claims: the B1 "Five shapes, and there is no sixth" heading in
-  `Zengine/docs/guides/make-a-workshop-tool.md`, and the "eleven shapes" summaries in
-  `docs/README.md`, `docs/architecture/README.md` and `docs/workshop/panes.md`. Prefer a description
-  and route to `workshop/pane_vocabulary.hpp` over another copied total; reconcile nearby counts
-  in directly edited owner prose as needed.
-- In `Zengine/agents/decisions/the-keys-go-where-last-pressed.md` and
-  `agents/workshop/focus.md`, qualify the claim that holder turnover refuses a queued press.
-  A compatible successor may receive it; an incompatible successor can refuse it, without retry.
-  Align the decision record's "two places" summary with the title/band distinction: the mark
-  identifies the resolved return pane, while the band reports where ordinary keys currently go.
-- In `Zengine/agents/panes.md`, remove the obsolete claim that forwarding a press changes no
-  Workshop picture and causes no repaint. Workshop does not interpret provider rows, but a focus
-  press can restore a title, change the granted room and repaint its own presentation.
-
-**Wake:** the next focused pane/focus documentation pass, or an edit to one of these affected
-paragraphs. A local correction may narrow this entry; it need not trigger a broad documentation arc.
-The founder selected the [pane interaction cleanup](../prompts/zengine-pane-interaction-cleanup.md),
-including this complete documentation correction. Run the relevant documentation/link/register
-checks and keep this item's policy and runtime behavior unchanged. Closure awaits acceptance.
-
-**Evidence:** [PR #25 report](../reportbacks/zengine-files-focus-implementation-RB.md), Decisions
-asked and Documentation/gaps; Vision's review of `9c4242c` on 2026-09-13 and the source homes above.
-The founder explicitly requested this backlog entry after confirming the merge.
+**Wake:** this selected document-seam touch.
+**Evidence:** [PR #27 corrections report](../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
+Doc gaps. The previously enumerated BL-DOC-01 work is accepted and closed; these are its separate
+remaining reader-facing inaccuracies.
 
 ## 4. Adoption and release
 

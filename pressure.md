@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-13
+**Refreshed:** 2026-09-14
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -23,13 +23,15 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-The Editor, Files and pane-notice follow-ups through PR #26 are accepted and merged. The
-[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns acceptance.
-The selected next packet is [pane interaction cleanup](../prompts/zengine-pane-interaction-cleanup.md):
-Info draft/answer ownership, Builder/Files ignored ids, Attention's hidden-state wording, and the
-matching BL-DEF-02/BL-DOC-01 backlog work. P-WORK-23 retains only this bounded residue; P-WORK-24 is
-closed. P-WORK-25's queued-picture provenance stays separate. P-LOOM-02 and P-WORK-18 retain
-deferred progress/authority work; P-WORK-06 holds the pane-to-source IDE join.
+The pane interaction cleanup is accepted in merged PR #27. The
+[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns that acceptance.
+The selected packet is [targeted Info commits](../prompts/zengine-info-targeted-commits.md): bind
+the document/object/property context and settle known send refusals (P-WORK-26), including
+BL-DOC-02's small limitations-page correction. Files intent identity is the next separate repair
+(BL-DEF-05). P-WORK-23 and P-WORK-24 are closed. P-WORK-25 picture provenance remains separate.
+P-WORK-06 is the next larger product arc; ceremony is audited along that loop. Progress/closing
+answers and the authority workflow retain their consumer-grounded continuation (P-LOOM-02,
+P-WORK-18). These repairs have bounded exits; they do not select general stabilization.
 
 ## 3. Workshop product pressure
 
@@ -83,33 +85,41 @@ Preserve the component's undo, normalization, selection and fallback behavior wi
 
 ### P-WORK-23 — Pane notices must agree with actions and hit-testing
 
-**State:** PR #26 AUDIT ACCEPTED; BOUNDED INTERACTION CLEANUP SELECTED (2026-09-13)
+**State:** CLOSED / ACCEPTED (2026-09-14), through PR #27
 
-Files geometry is accepted in PR #24. The Info/Terminal/Attention audit is accepted in PR #26,
-merged as `3bf888c`, with the same tree as reviewed `a22dced`. Ignored input preserves notices;
-Info publishes a spent notice without waiting for a document picture and its click map includes
-the notice row. The audit's named candidates are resolved. The remaining selected work is:
+The selected audit and interaction cleanup are accepted. Ignored input preserves notices,
+consumed actions publish their removal, Info maps its notice-bearing rows, commit answers
+preserve later edits and newer drafts, and cancellation claims no prior write away. Builder/Files
+ignored ids and Attention's hidden-condition wording are repaired. BL-DEF-02 and the enumerated
+BL-DOC-01 work are closed. The remaining document binding/refusal work is P-WORK-26; Files'
+cross-mode intent identity is BL-DEF-05, and general queued-picture provenance remains P-WORK-25.
 
-- Info's live draft can be discarded by an accepted select; late commit answers lack act/draft
-  applicability. A successful commit followed by cancel in one poll can write the value while
-  saying nothing was written. Refuse object selection during drafting, associate replies with
-  their act/draft/subject, and distinguish closing a draft from cancelling an operation.
-- Builder and Files still spend notices on unrecognized ids; align them with ignored-input
-  preservation without changing consumed no-op actions.
-- Attention says nothing needs attention when every condition is hidden; distinguish that state
-  from no current conditions and correct its indicator explanation.
+**Evidence:** [corrections report](../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
+Vision's independent ordinary lane and loaded-pane reproductions at `407ca15`, the same-tree
+merge `b42fe35`, and founder acceptance. Current sequence belongs in the Goal Map.
 
-**Execution:** [pane interaction cleanup](../prompts/zengine-pane-interaction-cleanup.md), including
-BL-DEF-02's byte-unit refusal and BL-DOC-01's deferred pane/focus prose. No shared notice manager,
-general cancellation or picture-history protocol is selected. Preserve request/subject guards,
-published-row agreement, valid pending work, and the later pane-to-source join.
-**Evidence:** [notice audit](../reportbacks/zengine-pane-notice-audit-RB.md), its adjacent evidence,
-and Vision's independent loaded-pane probes at `a22dced`: select drops the draft; refused commit
-then cancel leaves the refusal; successful commit then cancel changes X from 3 to 77 while the
-pane says `edit cancelled -- nothing was written`. The founder accepted the review and merge.
-**Exit:** the selected residue and explicitly included backlog work have supported dispositions,
-appropriate regression/preservation evidence, and founder acceptance. Queued-picture provenance
-remains P-WORK-25 rather than an implicit part of this cleanup.
+### P-WORK-26 — Info commits lack document subject binding and known-refusal settlement
+
+**State:** ACT / SELECTED — [targeted Info commits](../prompts/zengine-info-targeted-commits.md)
+
+A row-only commit can reach another object's property after selection changes. A successful
+object-document load can also reuse object IDs, so adding an ID without document applicability
+does not close the boundary. Bind the intended document/object/property context at the host's
+write door; refuse a stale context without writing or changing selection. Preserve versioned
+contracts and explicitly refuse legacy commits lacking the required context.
+
+Info also ignores document-send tickets and does not accept dispatch refusal. A known undelivered
+commit can therefore hold its one-outstanding gate indefinitely. Consume existing Loom evidence
+for the exact attempt, preserve the draft and release that record on known refusal. Delivered
+silence remains valid pending work; no timeout, retry or general obligation mechanism is implied.
+
+**Evidence:** [PR #27 corrections report](../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
+Decisions 1 and 3; `info-race` at tree `1c28031`; current `workshop/weave_save.cpp::load_document`
+documents ID reuse on replacement. Enqueue/dispatch refusal remains source-traced until the
+selected phase supplies controlled loaded-conversation witnesses.
+**Exit:** the targeted request, compatibility boundary, draft preservation and known-refusal
+accounting have supported evidence and founder acceptance. This is the last selected Info
+correctness packet before the separate Files repair and pane-to-source work.
 
 ### P-WORK-24 — Files cannot infer whether it already held the keyboard
 
@@ -123,8 +133,8 @@ attributed on the tap, without a retry. No new Loom mechanism was needed.
 
 **Evidence:** [implementation report](../reportbacks/zengine-files-focus-implementation-RB.md),
 Vision's independent official run and settled hidden-title Editor drag probe, and founder merge
-confirmation. The remaining wording/count corrections are owed under
-[BL-DOC-01](backlog.md#bl-doc-01--finish-the-panefocus-documentation-cleanup-after-pr-25).
+confirmation. Its enumerated wording/count corrections (BL-DOC-01) were accepted in PR #27.
+The limitations-page residue is separately scoped as BL-DOC-02.
 Queued-picture provenance remains P-WORK-25; it does not reopen this accepted repair.
 
 ### P-WORK-25 — Queued presses do not identify the picture they targeted
@@ -186,7 +196,7 @@ condition that materially misleads a maker.
 
 ### P-WORK-06 — Source provenance is the next self-hosting join
 
-**State:** WATCH — AFTER EDIT-1  
+**State:** NEXT LARGER PRODUCT ARC — after the selected bounded interaction repairs
 **Evidence:** EDIT-R1 provenance trace, authored load-plan/build-recipe seams
 
 The project can already relate provider/office, load-plan row, artifact stem, recipe, and source by

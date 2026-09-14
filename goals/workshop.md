@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-13\
+**Refreshed:** 2026-09-14\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** continue the IDE-loop road after the accepted pane extraction; progress/closing answers and the authority workflow remain selected downstream work
-**Current execution state:** Editor and Files follow-ups through PR #25 accepted; remaining pane-notice audit selected (§7); overlapping service retirement remains a preserved seam
+**Current execution state:** PR #27 cleanup accepted; targeted Info commits selected, then the separate Files intent repair and pane-to-source loop (§7); service retirement remains parked
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -367,8 +367,8 @@ policy, and v1 compatibility is conservative. Hidden-title selection survives th
 and the keyboard legend reflects actual routing. Host version inspection does not guarantee
 delivery through holder turnover; an attributable refusal is valid, without duplicate retries.
 The [implementation report](../../reportbacks/zengine-files-focus-implementation-RB.md) retains
-the evidence. P-WORK-24 is closed; its small documentation residue is
-[BL-DOC-01](../backlog.md#bl-doc-01--finish-the-panefocus-documentation-cleanup-after-pr-25).
+the evidence. P-WORK-24 and its enumerated documentation residue (BL-DOC-01, landed in PR #27)
+are closed.
 
 The founder confirmed [PR #26](https://github.com/Krealsion/Zengine/pull/26) merged as
 `3bf888c378655933ba2aa403faf776dfb99a0876`, tree `297a532c9d860054627cccd85c2b066af787d1e5`,
@@ -377,16 +377,34 @@ closes the named Info/Terminal/Attention candidates: ignored input preserves a n
 actions publish its removal without requiring a new document picture, and Info maps clicks against
 the notice-bearing rows it shows. Ownership remains in each pane.
 
-The selected next packet is [pane interaction cleanup](../../prompts/zengine-pane-interaction-cleanup.md)
-under [P-WORK-23](../pressure.md#p-work-23--pane-notices-must-agree-with-actions-and-hit-testing):
-protect Info drafts and attribute replies to the original act/draft/subject; align Builder/Files
-ignored ids; distinguish hidden Attention conditions from none. A closed draft is not proof a
-dispatched commit was cancelled: successful and refused late answers must leave truthful,
-attributable outcomes. This packet also selects BL-DEF-02's name-byte explanation and BL-DOC-01's
-pane/focus documentation correction; neither backlog item is closed before acceptance.
-[Queued-picture provenance](../pressure.md#p-work-25--queued-presses-do-not-identify-the-picture-they-targeted)
-remains separate, as do progress/authority work. The pane-to-source join is the next larger product
-arc; this bounded consistency work is not a general notice or cancellation architecture.
+PR #27 is accepted and merged as `b42fe353467994f762d3470121eccadf3acdceae`, tree
+`1c280311e8380b33d1d8a95a08bc8019cb39e134`, identical to reviewed `407ca15`. Its
+[corrections report](../../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md) retains
+the evidence. Info preserves drafts and later edits, sends one commit at a time, and accounts for
+answers without claiming writes away. Builder/Files ignored ids and Attention's hidden-state
+wording are repaired. P-WORK-23, BL-DEF-02 and the enumerated BL-DOC-01 work are closed.
+
+The founder accepted this next sequence on 2026-09-14:
+
+1. **Bounded intent repairs:** [targeted Info commits](../../prompts/zengine-info-targeted-commits.md)
+   bind the original document/object/property context at the host and settle known send refusals
+   (P-WORK-26), with the small limitations-page correction (BL-DOC-02). Files' reused action
+   identity is a separate next repair (BL-DEF-05). Delivered silence remains valid pending work.
+2. **Pane-to-source:** contextual `Edit Code` joins a running pane to its authored source/recipe
+   through the host, then reuses Editor, Builder and realization. This is the next substantial
+   maker capability, not another general stabilization pass.
+3. **Ceremony throughout that loop:** measure actions, decisions, required knowledge and recovery
+   for a real visible modification. Keep the small example pane useful for dissection. Success is
+   a maker reaching a running change they understand and choosing to make another.
+4. **Progress and authority:** scope progress/closing answers and the Weaver workflow from Builder,
+   realization and permission needs. These remain the next supporting architecture arc; their
+   precise execution packets are not implied by this sequence.
+
+New-weave authoring, changed-shape handoffs and Flow remain later capability expansions. General
+[queued-picture provenance](../pressure.md#p-work-25--queued-presses-do-not-identify-the-picture-they-targeted),
+presentation extraction and service retirement remain separate. Necessary repairs protect the
+maker loop and have explicit exits; they do not make exhaustive correctness a prerequisite for
+the next product capability.
 
 **Accepted opening outcome:** before joint publication, A remains the current readable and editable
 document and B is only prepared state. Publication changes the Editor's and presentation owner's
