@@ -23,13 +23,13 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-The Editor and Files follow-ups through PR #25 are accepted and merged. The
-[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns their closure.
-The next selected packet is the bounded Info/Terminal/Attention notice audit and repairs of
-reproduced failures (P-WORK-23). P-WORK-24 is closed; the small documentation residue is
-[BL-DOC-01](backlog.md#bl-doc-01--finish-the-panefocus-documentation-cleanup-after-pr-25).
-P-WORK-25 keeps queued-picture provenance separate. P-LOOM-02 and P-WORK-18 retain deferred
-progress/authority work; P-WORK-06 holds the pane-to-source IDE join.
+The Editor, Files and pane-notice follow-ups through PR #26 are accepted and merged. The
+[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns acceptance.
+The selected next packet is [pane interaction cleanup](../prompts/zengine-pane-interaction-cleanup.md):
+Info draft/answer ownership, Builder/Files ignored ids, Attention's hidden-state wording, and the
+matching BL-DEF-02/BL-DOC-01 backlog work. P-WORK-23 retains only this bounded residue; P-WORK-24 is
+closed. P-WORK-25's queued-picture provenance stays separate. P-LOOM-02 and P-WORK-18 retain
+deferred progress/authority work; P-WORK-06 holds the pane-to-source IDE join.
 
 ## 3. Workshop product pressure
 
@@ -83,25 +83,33 @@ Preserve the component's undo, normalization, selection and fallback behavior wi
 
 ### P-WORK-23 — Pane notices must agree with actions and hit-testing
 
-**State:** INFO/TERMINAL/ATTENTION AUDIT AND BOUNDED REPAIRS SELECTED (2026-09-13); Files geometry closed
+**State:** PR #26 AUDIT ACCEPTED; BOUNDED INTERACTION CLEANUP SELECTED (2026-09-13)
 
-Files' published-row mapping is accepted in PR #24; the Goal Map retains the accepted result.
-The remaining suspects are Info's accepted act with no new document picture, an unconsumed Info
-draft key, and stale/unknown resolved action ids in Info, Terminal and Attention. These remain
-source-supported suspects, not assumed runtime defects. The selected packet reproduces each and
-repairs only failures established under the existing contract.
+Files geometry is accepted in PR #24. The Info/Terminal/Attention audit is accepted in PR #26,
+merged as `3bf888c`, with the same tree as reviewed `a22dced`. Ignored input preserves notices;
+Info publishes a spent notice without waiting for a document picture and its click map includes
+the notice row. The audit's named candidates are resolved. The remaining selected work is:
 
-A consumed action spends the previous notice, and a spent notice must leave published rows.
-An ignored key/id spends nothing, including through a later repaint that could expose a private
-clear. A new refusal must survive; an utterance and a standing condition remain different facts.
-Preserve request/subject guards, row interpretation and each pane's own action semantics.
+- Info's live draft can be discarded by an accepted select; late commit answers lack act/draft
+  applicability. A successful commit followed by cancel in one poll can write the value while
+  saying nothing was written. Refuse object selection during drafting, associate replies with
+  their act/draft/subject, and distinguish closing a draft from cancelling an operation.
+- Builder and Files still spend notices on unrecognized ids; align them with ignored-input
+  preservation without changing consumed no-op actions.
+- Attention says nothing needs attention when every condition is hidden; distinguish that state
+  from no current conditions and correct its indicator explanation.
 
-**Execution:** [pane notice audit](../prompts/zengine-pane-notice-audit.md).
-**Evidence:** [quit/notice corrections report](../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md),
-Decisions asked 1; current pane handlers re-read at `9c4242c`, whose tree matches merged PR #25.
-**Exit:** every named candidate has a reproducible failure/repair or a supported no-change
-disposition, with publication and ignored-action controls. No shared notice manager or broader
-failure/recovery protocol is selected.
+**Execution:** [pane interaction cleanup](../prompts/zengine-pane-interaction-cleanup.md), including
+BL-DEF-02's byte-unit refusal and BL-DOC-01's deferred pane/focus prose. No shared notice manager,
+general cancellation or picture-history protocol is selected. Preserve request/subject guards,
+published-row agreement, valid pending work, and the later pane-to-source join.
+**Evidence:** [notice audit](../reportbacks/zengine-pane-notice-audit-RB.md), its adjacent evidence,
+and Vision's independent loaded-pane probes at `a22dced`: select drops the draft; refused commit
+then cancel leaves the refusal; successful commit then cancel changes X from 3 to 77 while the
+pane says `edit cancelled -- nothing was written`. The founder accepted the review and merge.
+**Exit:** the selected residue and explicitly included backlog work have supported dispositions,
+appropriate regression/preservation evidence, and founder acceptance. Queued-picture provenance
+remains P-WORK-25 rather than an implicit part of this cleanup.
 
 ### P-WORK-24 — Files cannot infer whether it already held the keyboard
 

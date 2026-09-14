@@ -57,16 +57,19 @@ Remove it without weakening the refusal path or the evidence that containment wa
 
 ### BL-DEF-02 — Object-name byte limit reports the wrong unit
 
-**State:** SMALL QR CANDIDATE  
+**State:** SELECTED — pane interaction cleanup (2026-09-13)
+
 **Owed:** `Zengine/workshop/document.hpp::check_name` measures `std::string::size()` against 64 but
 says `characters`. Change the refusal to `bytes` and pin the exact multibyte boundary. Do not change
 the bound or introduce code-point/grapheme/display-width policy.
 
 **Wake:** next document/name-validation touch or an explicitly selected cleanup QR.
+The founder selected the [pane interaction cleanup](../prompts/zengine-pane-interaction-cleanup.md);
+this byte-unit correction is included. Closure awaits implementation review and acceptance.
 
 ### BL-DOC-01 — Finish the pane/focus documentation cleanup after PR #25
 
-**State:** BOUNDED DOCS CLEANUP / DEFERRED (2026-09-13); not a blocker for accepted PR #25
+**State:** SELECTED — pane interaction cleanup (2026-09-13); PR #25 remains accepted
 
 **Owed:** Correct these identified reader-facing inaccuracies without changing product policy:
 
@@ -86,7 +89,9 @@ the bound or introduce code-point/grapheme/display-width policy.
 
 **Wake:** the next focused pane/focus documentation pass, or an edit to one of these affected
 paragraphs. A local correction may narrow this entry; it need not trigger a broad documentation arc.
-Run the relevant documentation/link/register checks and keep policy and runtime behavior unchanged.
+The founder selected the [pane interaction cleanup](../prompts/zengine-pane-interaction-cleanup.md),
+including this complete documentation correction. Run the relevant documentation/link/register
+checks and keep this item's policy and runtime behavior unchanged. Closure awaits acceptance.
 
 **Evidence:** [PR #25 report](../reportbacks/zengine-files-focus-implementation-RB.md), Decisions
 asked and Documentation/gaps; Vision's review of `9c4242c` on 2026-09-13 and the source homes above.

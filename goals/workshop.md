@@ -360,7 +360,7 @@ a participant, naming the participant and reason while preserving work and resto
 A delivered unanswered question can remain pending. Builder and Files publish the clearing of a
 spent notice. Files' independent click-mapping repair is accepted in PR #24 at merge `3c8d6bc`;
 its [pressure entry](../pressure.md#p-work-23--pane-notices-must-agree-with-actions-and-hit-testing)
-retains the other panes' notice follow-up. The founder confirmed [PR #25](https://github.com/Krealsion/Zengine/pull/25)
+tracks the bounded notice/interaction follow-ups. The founder confirmed [PR #25](https://github.com/Krealsion/Zengine/pull/25)
 merged as `968a2578476d3876dc6b0026271b00b373aefaa7`; its tree matches reviewed `9c4242c`.
 Workshop now supplies actual prior ordinary-key routing on v2 presses, Files retains activation
 policy, and v1 compatibility is conservative. Hidden-title selection survives the room update,
@@ -370,13 +370,23 @@ The [implementation report](../../reportbacks/zengine-files-focus-implementation
 the evidence. P-WORK-24 is closed; its small documentation residue is
 [BL-DOC-01](../backlog.md#bl-doc-01--finish-the-panefocus-documentation-cleanup-after-pr-25).
 
-The selected next packet is the [Info/Terminal/Attention notice audit](../../prompts/zengine-pane-notice-audit.md)
+The founder confirmed [PR #26](https://github.com/Krealsion/Zengine/pull/26) merged as
+`3bf888c378655933ba2aa403faf776dfb99a0876`, tree `297a532c9d860054627cccd85c2b066af787d1e5`,
+identical to reviewed `a22dced`. Its [notice audit](../../reportbacks/zengine-pane-notice-audit-RB.md)
+closes the named Info/Terminal/Attention candidates: ignored input preserves a notice, consumed
+actions publish its removal without requiring a new document picture, and Info maps clicks against
+the notice-bearing rows it shows. Ownership remains in each pane.
+
+The selected next packet is [pane interaction cleanup](../../prompts/zengine-pane-interaction-cleanup.md)
 under [P-WORK-23](../pressure.md#p-work-23--pane-notices-must-agree-with-actions-and-hit-testing):
-reproduce the identified paths, repair confirmed failures under the existing notice contract,
-and preserve ignored-action and still-true-condition behavior. This is a bounded consistency
-follow-up on the IDE-loop road, not a general notice architecture.
+protect Info drafts and attribute replies to the original act/draft/subject; align Builder/Files
+ignored ids; distinguish hidden Attention conditions from none. A closed draft is not proof a
+dispatched commit was cancelled: successful and refused late answers must leave truthful,
+attributable outcomes. This packet also selects BL-DEF-02's name-byte explanation and BL-DOC-01's
+pane/focus documentation correction; neither backlog item is closed before acceptance.
 [Queued-picture provenance](../pressure.md#p-work-25--queued-presses-do-not-identify-the-picture-they-targeted)
-remains separate, as do the progress/authority continuation and pane-to-source join.
+remains separate, as do progress/authority work. The pane-to-source join is the next larger product
+arc; this bounded consistency work is not a general notice or cancellation architecture.
 
 **Accepted opening outcome:** before joint publication, A remains the current readable and editable
 document and B is only prepared state. Publication changes the Editor's and presentation owner's
