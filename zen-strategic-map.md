@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** continue the IDE-loop road after the accepted pane extraction; preserve the selected progress/authority continuation (§6)
-**Current execution state:** PR #27 accepted; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the bounded intent repairs, then pane-to-source with a ceremony audit; service retirement remains parked
+**Current execution state:** PR #28 accepted; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the selected Files action-identity repair, then pane-to-source with a ceremony audit; service retirement remains parked
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.

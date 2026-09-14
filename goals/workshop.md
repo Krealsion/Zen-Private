@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-14\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** continue the IDE-loop road after the accepted pane extraction; progress/closing answers and the authority workflow remain selected downstream work
-**Current execution state:** PR #27 cleanup accepted; targeted Info commits selected, then the separate Files intent repair and pane-to-source loop (§7); service retirement remains parked
+**Current execution state:** PR #28 Info repair accepted; Files action identity selected, then the pane-to-source loop (§7); service retirement remains parked
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -384,12 +384,21 @@ the evidence. Info preserves drafts and later edits, sends one commit at a time,
 answers without claiming writes away. Builder/Files ignored ids and Attention's hidden-state
 wording are repaired. P-WORK-23, BL-DEF-02 and the enumerated BL-DOC-01 work are closed.
 
-The founder accepted this next sequence on 2026-09-14:
+PR #28 is accepted and merged as `afdc2423d76ba9eb49a0c916b20c665bb9408376`, tree
+`7cf781e7c135a48f2ddc0b9d8b7af1cd03790dc3`, identical to reviewed `c012085`. Its
+[implementation report](../../reportbacks/zengine-info-targeted-commits-RB.md) and
+[documentation follow-up](../../reportbacks/zengine-info-targeted-commits-doc-followup-RB.md)
+retain the evidence. Workshop binds the commit's applicable subject; Info settles known send
+refusals and preserves legitimate drafts. P-WORK-26 and BL-DOC-02 are closed. The disclosed
+host state-swap limitation waits for a real Workshop replacement consumer; mixed-version
+diagnostics remain deferred. Neither selects further Info repairs now.
 
-1. **Bounded intent repairs:** [targeted Info commits](../../prompts/zengine-info-targeted-commits.md)
-   bind the original document/object/property context at the host and settle known send refusals
-   (P-WORK-26), with the small limitations-page correction (BL-DOC-02). Files' reused action
-   identity is a separate next repair (BL-DEF-05). Delivered silence remains valid pending work.
+The current sequence, following the founder's accepted direction on 2026-09-14:
+
+1. **Files action identity:** [the selected repair](../../prompts/zengine-files-action-identity.md)
+   closes BL-DEF-05: browsing, chooser selection and authoring submission keep distinct operation
+   meanings when queued input crosses a mode change. Files owns the modes; Workshop keeps its
+   existing declaration/keymap join. This is the remaining selected interaction repair.
 2. **Pane-to-source:** contextual `Edit Code` joins a running pane to its authored source/recipe
    through the host, then reuses Editor, Builder and realization. This is the next substantial
    maker capability, not another general stabilization pass.

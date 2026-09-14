@@ -23,15 +23,14 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-The pane interaction cleanup is accepted in merged PR #27. The
+The Info repair and its documentation are accepted in merged PR #28. The
 [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns that acceptance.
-The selected packet is [targeted Info commits](../prompts/zengine-info-targeted-commits.md): bind
-the document/object/property context and settle known send refusals (P-WORK-26), including
-BL-DOC-02's small limitations-page correction. Files intent identity is the next separate repair
-(BL-DEF-05). P-WORK-23 and P-WORK-24 are closed. P-WORK-25 picture provenance remains separate.
-P-WORK-06 is the next larger product arc; ceremony is audited along that loop. Progress/closing
-answers and the authority workflow retain their consumer-grounded continuation (P-LOOM-02,
-P-WORK-18). These repairs have bounded exits; they do not select general stabilization.
+The selected packet is [Files action identity](../prompts/zengine-files-action-identity.md),
+BL-DEF-05: keep browsing, chooser selection and authoring submission distinct across a mode change.
+P-WORK-23, P-WORK-24, P-WORK-26 and BL-DOC-02 are closed. P-WORK-25 picture provenance remains
+separate. P-WORK-06 is the next larger product arc; ceremony is audited along that loop.
+Progress/closing answers and the authority workflow retain their consumer-grounded continuation
+(P-LOOM-02, P-WORK-18). These repairs have bounded exits; they do not select general stabilization.
 
 ## 3. Workshop product pressure
 
@@ -91,7 +90,7 @@ The selected audit and interaction cleanup are accepted. Ignored input preserves
 consumed actions publish their removal, Info maps its notice-bearing rows, commit answers
 preserve later edits and newer drafts, and cancellation claims no prior write away. Builder/Files
 ignored ids and Attention's hidden-condition wording are repaired. BL-DEF-02 and the enumerated
-BL-DOC-01 work are closed. The remaining document binding/refusal work is P-WORK-26; Files'
+BL-DOC-01 work are closed. Document binding/refusal work is now accepted under P-WORK-26; Files'
 cross-mode intent identity is BL-DEF-05, and general queued-picture provenance remains P-WORK-25.
 
 **Evidence:** [corrections report](../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
@@ -100,26 +99,23 @@ merge `b42fe35`, and founder acceptance. Current sequence belongs in the Goal Ma
 
 ### P-WORK-26 — Info commits lack document subject binding and known-refusal settlement
 
-**State:** ACT / SELECTED — [targeted Info commits](../prompts/zengine-info-targeted-commits.md)
+**State:** CLOSED / ACCEPTED (2026-09-14), through merged PR #28
 
-A row-only commit can reach another object's property after selection changes. A successful
-object-document load can also reuse object IDs, so adding an ID without document applicability
-does not close the boundary. Bind the intended document/object/property context at the host's
-write door; refuse a stale context without writing or changing selection. Preserve versioned
-contracts and explicitly refuse legacy commits lacking the required context.
+Workshop judges a host-issued subject before applying a commit. Selection changes, successful
+file loads (identical bytes included) and detected identity re-minting invalidate applicability;
+legacy unbound commits are refused. Info releases an invalid-ticket or authenticated exact-attempt
+dispatch refusal while preserving the draft. Delivered silence remains valid pending work.
+BL-DOC-02 and the follow-up sender-fate paragraph are corrected.
 
-Info also ignores document-send tickets and does not accept dispatch refusal. A known undelivered
-commit can therefore hold its one-outstanding gate indefinitely. Consume existing Loom evidence
-for the exact attempt, preserve the draft and release that record on known refusal. Delivered
-silence remains valid pending work; no timeout, retry or general obligation mechanism is implied.
+Arbitrary host revival to another document's bytes can still retain the subject. This disclosed
+limitation remains deferred until a real Workshop state-replacement consumer is selected; it
+does not extend the current repair sequence. The new Info image on a v1-only host remains an
+explicitly unsupported pairing. The current boundaries live in the document law and decision record.
 
-**Evidence:** [PR #27 corrections report](../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
-Decisions 1 and 3; `info-race` at tree `1c28031`; current `workshop/weave_save.cpp::load_document`
-documents ID reuse on replacement. Enqueue/dispatch refusal remains source-traced until the
-selected phase supplies controlled loaded-conversation witnesses.
-**Exit:** the targeted request, compatibility boundary, draft preservation and known-refusal
-accounting have supported evidence and founder acceptance. This is the last selected Info
-correctness packet before the separate Files repair and pane-to-source work.
+**Evidence:** [implementation report](../reportbacks/zengine-info-targeted-commits-RB.md),
+[documentation follow-up](../reportbacks/zengine-info-targeted-commits-doc-followup-RB.md),
+Vision's independent official lane and state-swap probe, reviewed `c012085`, and same-tree merge
+`afdc242`. Current sequence belongs in the Goal Map.
 
 ### P-WORK-24 — Files cannot infer whether it already held the keyboard
 
@@ -134,7 +130,7 @@ attributed on the tap, without a retry. No new Loom mechanism was needed.
 **Evidence:** [implementation report](../reportbacks/zengine-files-focus-implementation-RB.md),
 Vision's independent official run and settled hidden-title Editor drag probe, and founder merge
 confirmation. Its enumerated wording/count corrections (BL-DOC-01) were accepted in PR #27.
-The limitations-page residue is separately scoped as BL-DOC-02.
+The limitations-page residue (BL-DOC-02) is accepted and closed in PR #28.
 Queued-picture provenance remains P-WORK-25; it does not reopen this accepted repair.
 
 ### P-WORK-25 — Queued presses do not identify the picture they targeted

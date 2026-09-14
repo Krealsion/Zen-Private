@@ -57,7 +57,7 @@ Remove it without weakening the refusal path or the evidence that containment wa
 
 ### BL-DEF-05 — Files action identity changes meaning across modes
 
-**State:** OWED — next separate interaction repair after targeted Info commits
+**State:** SELECTED — [Files action identity](../prompts/zengine-files-action-identity.md)
 
 **Owed:** Distinguish the authoring and browsing intents currently sharing `files.open`.
 Escape and Return queued in one poll over the authoring line can cancel it and then open the
@@ -65,23 +65,9 @@ file under the browsing cursor. The ignored-id repair in PR #27 is accepted; an 
 in both modes is a distinct remaining problem. Preserve Files' own mode/activation policy
 without selecting general picture history or a new host command framework.
 
-**Wake:** the next bounded Files intent-identity prompt, after the selected Info repair.
+**Wake:** selected now, after the accepted Info repair in merged PR #28.
 **Evidence:** [PR #27 corrections report](../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
 Decision 2 and the `files-stale-open` probe; founder accepted the repair sequence on 2026-09-14.
-
-### BL-DOC-02 — Reconcile the Workshop limitations page with current pane behavior
-
-**State:** SELECTED — [targeted Info commits](../prompts/zengine-info-targeted-commits.md)
-
-**Owed:** In `Zengine/docs/workshop/limitations.md`, replace the stale total of eleven protocol
-shapes with the canonical reference; qualify the blanket claim that Enter ends a draft; and
-explain or route Info's late outcomes alongside Terminal's. Fold this into the selected document
-conversation repair and update the affected editing guidance. No broad documentation pass.
-
-**Wake:** this selected document-seam touch.
-**Evidence:** [PR #27 corrections report](../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
-Doc gaps. The previously enumerated BL-DOC-01 work is accepted and closed; these are its separate
-remaining reader-facing inaccuracies.
 
 ## 4. Adoption and release
 
