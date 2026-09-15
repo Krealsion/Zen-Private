@@ -25,8 +25,10 @@ but deferred work belongs in `private/backlog.md`.
 
 The Info repair and its documentation are accepted in merged PR #28. The
 [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns that acceptance.
-The selected packet is [Files action identity](../prompts/zengine-files-action-identity.md),
-BL-DEF-05: keep browsing, chooser selection and authoring submission distinct across a mode change.
+The Files action-identity implementation is accepted; [documentation housekeeping](../prompts/zengine-files-action-identity-doc-housekeeping.md)
+is selected before PR #29 merges and BL-DEF-05 closes. Declaration-rejection feedback is agreed
+follow-up work ([BL-WORK-04](backlog.md#bl-work-04--a-pane-can-learn-that-its-action-declaration-was-rejected)),
+with recovery policy owned by the provider; it does not extend this repair.
 P-WORK-23, P-WORK-24, P-WORK-26 and BL-DOC-02 are closed. P-WORK-25 picture provenance remains
 separate. P-WORK-06 is the next larger product arc; ceremony is audited along that loop.
 Progress/closing answers and the authority workflow retain their consumer-grounded continuation
@@ -360,6 +362,10 @@ may say, not what it may touch.
 What stands: `Act` and `KeyContext` are still closed for the host's own rows, and shrink as panes
 leave (`kFiles`, `kRecipeChooser`, `kAuthoring` left with Files). The prose still argues in the
 header; it moves to `agents/decisions/` when the file is next touched for a reason of its own.
+
+The founder now requires a provider to be able to learn when Workshop rejects its action
+declaration, so that it can recover under its own policy. The bounded follow-up, current gap
+and wake condition belong to [BL-WORK-04](backlog.md#bl-work-04--a-pane-can-learn-that-its-action-declaration-was-rejected).
 
 
 

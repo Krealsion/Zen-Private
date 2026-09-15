@@ -43,6 +43,28 @@ tool's source” path.
 
 **Boundary:** this does not itself authorize a plugin SDK or an installation system.
 
+### BL-WORK-04 — A pane can learn that its action declaration was rejected
+
+**State:** OWED / DEFERRED — founder agreed 2026-09-14
+
+**Owed:** Workshop must give a provider a way to learn that its action declaration was rejected,
+with the reason attributable to the declaration and pane concerned. Workshop owns that fact;
+the provider owns its recovery policy. A provider can preserve unfinished work and explain or
+repair the problem gracefully. Reporting rejection must not mandate abandoning its mode,
+discarding a draft or silently choosing different bindings. The mechanism remains to be designed.
+
+**Current gap:** `PaneActions` can reach Workshop and be refused by its keymap join. Workshop
+names the pane and collision on the band and retains the last accepted rows, but tells the
+provider nothing. This is application rejection after delivery, not Loom dispatch refusal.
+
+**Wake:** the selected progress/recovery work, or a change to declaration admission or a provider
+workflow that needs to recover from rejection. This does not delay PR #29 or select protocol
+implementation in its documentation follow-up.
+
+**Evidence:** [Files action-identity report](../reportbacks/zengine-files-action-identity-RB.md),
+Decision 1 and E7; Vision independently reproduced the refusal and explicit keymap migration;
+founder: “It should be able to know, so it can do so gracefully.”
+
 ## 3. Bounded defects and quick repairs
 
 ### BL-DEF-01 — Sandbox view-root cleanup after refusal
@@ -57,7 +79,7 @@ Remove it without weakening the refusal path or the evidence that containment wa
 
 ### BL-DEF-05 — Files action identity changes meaning across modes
 
-**State:** SELECTED — [Files action identity](../prompts/zengine-files-action-identity.md)
+**State:** IMPLEMENTATION ACCEPTED — [documentation housekeeping](../prompts/zengine-files-action-identity-doc-housekeeping.md) selected; PR #29 awaits merge
 
 **Owed:** Distinguish the authoring and browsing intents currently sharing `files.open`.
 Escape and Return queued in one poll over the authoring line can cancel it and then open the
