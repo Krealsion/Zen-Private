@@ -4,8 +4,8 @@
 **Refreshed:** 2026-09-17\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
-**Current product direction:** make the working development environment comfortable, expressive, inspectable and recoverable, with replaceable application behavior (§6)
-**Current execution state:** founder has exercised the Neovim live switch and merged PR #33. The [Workshop Goal Map](goals/workshop.md#part-1--everyday-interaction-selected-for-execution) selects everyday interaction as Part 1; service retirement remains parked.
+**Current product direction:** make the running Workshop comfortable to use and reshape through replaceable desktop tools, inspection, expressive editors and deliberate publication (§6)
+**Current execution state:** Neovim PR #33 is merged; everyday interaction PR #34 is in correction and awaits review/acceptance. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) selects a bounded desktop/launcher foundation next; service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -138,9 +138,10 @@ Neovim/standard-editor live handoff successfully. Its report also records baseli
 PR #33 is merged. The Goal Map records founder acceptance, the merge identity and its match
 to the report head, and routes the accepted predecessors' evidence.
 
-The next pressure comes from inhabiting that environment: interaction, richer editor display,
-discoverability, protected drafts and useful control. The [Goal Map](goals/workshop.md) is the
-owner of that product sequence, not a repeated list here.
+The next pressure comes from inhabiting and reshaping the real environment. The founder selected
+retirement of the prototype object canvas, retaining Info and useful property mechanisms for
+inspection of actual panes. The replaceable desktop and later UI-editing overlay are selected
+work, not implemented capabilities. The [Goal Map](goals/workshop.md) owns the sequence and limits.
 
 ## 5. EDIT-1 — landed
 
@@ -159,18 +160,22 @@ development remains a separate capability.
 
 The founder selected the next direction on 2026-09-17:
 
-1. Everyday interaction: Terminal transcript navigation, command-history/completion behavior,
-   real destination discovery, pane deselection and existing configuration guidance.
-2. Expressive editor presentation, with local introspection, screenshots and authorized control
-   brought forward to support development and testing.
-3. Protected experimentation and deliberate publication of drafts; deeper configuration/setup,
-   reusable GUI behavior, Python participation, GPU and multi-host capabilities follow consumers.
+1. Finish everyday interaction and review its Escape correction.
+2. Give shell behavior a replaceable desktop/launcher home, configurable defaults and narrow
+   real-pane inspection; retire the prototype canvas as its responsibilities are removed or
+   rehomed. Bring local introspection, screenshots and authorized control alongside that foundation.
+3. Improve expressive editor presentation without waiting for complete UI authoring. Follow with
+   the real-UI editing overlay and protected experimentation according to their actual dependencies.
+   General schema/composite authoring, deeper configuration/setup, reusable GUI behavior, Python,
+   GPU and multi-host capabilities follow concrete consumers.
 
 The [Workshop roadmap](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns exact items,
 the founder's Terminal key semantics, and phase boundaries. "Gut the shell" means make fixed
 application behavior replaceable while retaining a minimal hosting/authority root outside
-application-controlled replacement. It is a design direction across the work, not a mandate to
-extract every subsystem before improving the next tool.
+application-controlled replacement. The desktop is an application participant; it is not that
+fixed root. It can explain failed tools while running, and host/console recovery must cover its
+own failure. The first desktop arc is bounded; it is not a mandate to extract every subsystem or
+build the complete overlay before improving the next tool.
 
 Ceremony is audited throughout: actions, decisions, discovery, recovery and the documents/code a
 maker must read. Editors should have distinct strengths for different audiences. Live editor

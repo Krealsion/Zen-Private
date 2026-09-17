@@ -23,15 +23,18 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-The founder's hands-on Neovim use has supplied concrete interaction and presentation pressure.
-The [Workshop Goal Map](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns the newly selected
-roadmap and exact Terminal history-key behavior. Part 1 is everyday interaction; expressive
-editor presentation follows, with local inspectability/control brought forward. PR #33 is
-merged; the next prompt starts from main containing that editor implementation.
+The founder's hands-on use and follow-up desktop notes supply concrete interaction, inspection
+and presentation pressure. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose)
+owns the sequence: finish PR #34's everyday-interaction correction, then a bounded replaceable
+desktop/launcher foundation with real-pane inspection. Local capture/control supports that work;
+expressive editors follow without waiting for the full UI-editing overlay. PR #33 is merged;
+PR #34 has not yet been accepted. Refresh Git at execution, not from this board.
 
 The accepted Files action-identity, pane-to-source, Workshop development-launch and standalone
-host/admission arcs are predecessors, not still-selected tasks. BL-WORK-04 remains owed and
-conditional on its stated wake. New notes are roadmap direction, not a blanket backlog expansion.
+host/admission arcs are predecessors, not still-selected tasks. BL-WORK-04 remains owed; the
+desktop arc must scope it when launch/default registration changes admission or needs rejection
+feedback. It does not expand the current Escape correction. New notes are roadmap direction,
+not a blanket backlog expansion.
 Progress/closing answers, general picture provenance and service retirement keep their own bounds.
 
 ## 3. Workshop product pressure
@@ -49,9 +52,9 @@ surface-aware default can be stated without becoming a layout solver.
 
 ### P-WORK-02 — The Pane Editor edits the spatial grammar only, and has no contextual door
 
-**State:** WATCH  
+**State:** ACT — real-pane inspection and old-canvas retirement selected by the founder
 **Evidence:** WUX-13 (`Zen/reportbacks/WUX-13-RB.md`), `Zengine/agents/workshop.md` §"The Pane
-Editor has a subject"
+Editor has a subject"; founder's 2026-09-17 desktop/overlay direction
 
 The original pressure — Pane Inspect lacked a subject model; Info understood the selected
 document object — is answered: the Pane Editor holds an identity-held `PaneRef` subject
@@ -63,22 +66,26 @@ participation through the existing doors. What remains is narrower:
   hold them;
 - there is no contextual "edit this pane" row seeding the subject from the right-click menu;
   the editor's own list is the acquisition door;
-- Info still inspects document objects and is deliberately retained beside it (the document
-  editor owns the product's first five minutes and the only typed doors for `Context` and `%`
-  shares) — retiring it is a product decision, not an editor decision;
+- Info still inspects document objects. The founder has now selected retirement of that prototype
+  canvas while retaining Info for real-pane and later component/composite/schema subjects;
+  the new presentation must use each subject owner's facts and write operations;
 - the default nine-row stack height shows three panes and three rows (P-WORK-01).
 
-**Trigger:** a maker reaches for a pane fact the rows cannot say, wants to seed the subject from
-a pointed pane without walking the list, or the document editor's retirement is decided.
+**Disposition:** the [desktop foundation](goals/workshop.md#part-2--replaceable-desktop-and-pane-launching-next-execution-arc)
+is the immediate consumer. The later editing overlay broadens subject acquisition and source
+mapping. Preserve the identity-held subject independently of selection; do not require every
+future property before making one actual pane inspectable.
 
 ### P-WORK-03 — The pane protocol is what a provider can say, and the built-ins need more
 
-**State:** SELECTED EXTRACTION ARC CLOSED (2026-09-13); remaining surfaces parked pending a consumer
+**State:** ORIGINAL PANE EXTRACTION ARC CLOSED; desktop/launcher consumer now selected for remaining shell behavior
 
 Files, Builder, Attention, Info, Terminal and Editor are pane weaves. The accepted
 [PR #23 result](goals/workshop.md#pane-extraction-current-status-and-next-work) closes the Editor
 migration. Layouts, Pane Manager and the maker pane remain host-owned under the selected boundary.
-The pane protocol's current contract belongs in `Zengine/agents/panes.md`.
+The pane protocol's current contract belongs in `Zengine/agents/panes.md`. The new desktop arc
+selects a consumer for Pane Manager/launcher, hotkey presentation and default behavior; it does
+not reopen the completed pane migrations or require all remaining extractions at once.
 
 **Trigger:** a selected remaining migration or a real provider demonstrates a missing contract.
 Preserve the component's undo, normalization, selection and fallback behavior with its owner.
@@ -154,19 +161,24 @@ repeated queued clicks selecting or activating a subject the maker did not aim a
 
 ### P-WORK-22 — An authored load plan is all-or-nothing, and core panes now ride it
 
-**State:** OPEN — named by the witness, 2026-09-08  
+**State:** ACT — the selected desktop recovery outcome reaches this startup boundary
 **Evidence:** `reportbacks/pane-weaves-remaining-RB6.md` ("What the work found", 2); `agents/realization.md` LOAD-0/BOOT-0 (the boot walk stops at a refused row and the host exits, code 4)
 
 A tree without `zengine-info-pane.so` does not open a Workshop with a row saying so: the boot
 walk refuses the row, says "the authored plan was not completed; 10 artifact(s) participated
 before it stopped. Exiting." and exits — as it does for any of the rows ahead of it. Before this
-arc that list held tools; it now holds the pane a maker meets first. The shape this wants is a
-plan whose rows can say whether the host can run without them — realization law and plan
-grammar, Zengine's (`agents/realization.md`), not Loom's; the Loom loads one weave at a time and
-has no plan. Plan grammar is also where P-WORK-18's request lands; the two should be read
-together before either moves.
+arc that list held tools; it now holds the pane a maker meets first.
 
-**Trigger:** the first maker whose pane image fails to build; or the founder's word.
+The new desktop cannot explain an unavailable tool if execution ends before the recovery surface
+exists. Current `workshop/workshop.cpp` still marks the project refused and requests host stop
+on this path. The desktop preflight must trace both launch paths, distinguish essential startup
+from tool availability and choose the smallest explicit recovery policy. Optional plan rows are
+one possible mechanism, not a decision already made. Preserve authority, authored order and
+dependency meaning; do not silently skip every failure. Read P-WORK-18 alongside this boundary.
+
+**Disposition:** include the necessary recovery boundary in the desktop/launcher packet. A running
+desktop reports tool failures; failure of the desktop/display itself needs a proven host/console
+route. This does not select a general dependency solver or a new Loom boot framework.
 
 ### P-WORK-04 — Conventional editor expansion should come from use
 
@@ -355,6 +367,12 @@ Do not infer a universal grant store, modal system or remote identity from the c
 What stands: `Act` and `KeyContext` are still closed for the host's own rows, and shrink as panes
 leave (`kFiles`, `kRecipeChooser`, `kAuthoring` left with Files). The prose still argues in the
 header; it moves to `agents/decisions/` when the file is next touched for a reason of its own.
+
+The selected desktop/launcher supplies the next consumer: tool launch shortcuts must be usable
+without the tool already holding focus, while global precedence, user overrides and conflicts
+stay explicit. Restore the Terminal shortcut through that shared mechanism and make hotkey
+presentation replaceable without creating another binding catalog. Default Escape, selection,
+keyboard focus and click-through need distinct declared meanings, scoped by the Goal Map.
 
 The founder now requires a provider to be able to learn when Workshop rejects its action
 declaration, so that it can recover under its own policy. The bounded follow-up, current gap
