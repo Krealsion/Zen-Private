@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-17\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** everyday use, expressive presentation, inspectable control, and protected experimentation; replace fixed application behavior with participating weaves
-**Current execution state:** founder has exercised the Neovim live switch successfully; PR #33 remains open at this refresh. Part 1, everyday interaction, is selected in §7; its prompt owns execution scope.
+**Current execution state:** founder has exercised the Neovim live switch successfully and merged PR #33. Part 1, everyday interaction, is selected in §7; its prompt owns execution scope.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -79,8 +79,10 @@ The founder reports the live standard/Neovim switch working as envisioned. Its
 [report](../../reportbacks/zengine-neovim-live-switch-RB.md) describes active-document handoff,
 unsaved edits, caret/representable selection, and baseline Loom use through a second terminal.
 This is an implemented editor-specific replacement consumer. It does not establish a generic
-changed-schema development workflow. PR #33 is still open; successful founder use and execution
-continuation do not assert an independent review or merge. Read live Git for current disposition.
+changed-schema development workflow. The founder merged PR #33 on 2026-09-17 as
+`7f553c3858083da37bb64a7de73e3a6680810fca`; its tree matches the report head `9046fdd`
+exactly. This records founder acceptance and merge, without claiming an independent full review.
+Read live Git for current disposition.
 
 ## 3. Current ownership model
 
@@ -349,9 +351,9 @@ and Git retain the acceptance history; the live source and routed laws own exact
 Layouts, Pane Manager and other remaining host-owned behavior are candidates for the shell work
 below, not permanent exceptions to the peer-tool direction.
 
-The current baseline for the next phase includes Neovim PR #33 even while it remains unmerged.
-The phase prompt names the observed heads and branch treatment. Never substitute an older main
-tree that drops the demonstrated editor capability.
+The next phase starts from merged main containing Neovim PR #33. The phase prompt names
+the observed heads and branch treatment. Preserve the demonstrated editor capability when
+reconciling newer work.
 
 ### Part 1 — Everyday interaction (selected for execution)
 

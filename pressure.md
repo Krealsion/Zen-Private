@@ -26,8 +26,8 @@ but deferred work belongs in `private/backlog.md`.
 The founder's hands-on Neovim use has supplied concrete interaction and presentation pressure.
 The [Workshop Goal Map](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns the newly selected
 roadmap and exact Terminal history-key behavior. Part 1 is everyday interaction; expressive
-editor presentation follows, with local inspectability/control brought forward. PR #33 remains
-open at this refresh; the next prompt explicitly includes its implementation baseline.
+editor presentation follows, with local inspectability/control brought forward. PR #33 is
+merged; the next prompt starts from main containing that editor implementation.
 
 The accepted Files action-identity, pane-to-source, Workshop development-launch and standalone
 host/admission arcs are predecessors, not still-selected tasks. BL-WORK-04 remains owed and
@@ -209,7 +209,7 @@ and opening owners. Further provenance needs should name their new consumer.
 
 Same-shape build/reload, explicit promotion and revert remain available. Neovim PR #33 now uses
 Loom prepared replacement and an authored editor handoff; the founder has exercised it successfully.
-That PR is still open at this refresh. It does not make arbitrary changed-shape builds migratable.
+The founder has merged that PR. It does not make arbitrary changed-shape builds migratable.
 
 **Trigger:** a concrete changed-shape development task beyond the editor-specific handoff, with
 authored migration, custody, refusal and activation behavior. Preserve the seam without requiring

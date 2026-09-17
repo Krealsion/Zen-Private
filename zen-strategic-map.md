@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** make the working development environment comfortable, expressive, inspectable and recoverable, with replaceable application behavior (§6)
-**Current execution state:** founder has exercised the Neovim live switch; PR #33 remains open. The [Workshop Goal Map](goals/workshop.md#part-1--everyday-interaction-selected-for-execution) selects everyday interaction as Part 1; service retirement remains parked.
+**Current execution state:** founder has exercised the Neovim live switch and merged PR #33. The [Workshop Goal Map](goals/workshop.md#part-1--everyday-interaction-selected-for-execution) selects everyday interaction as Part 1; service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -135,8 +135,8 @@ Builder custody and graphical artifacts are not an installed product contract.
 Workshop supports the source/edit/build/realize loop, pane-to-source acquisition and development
 of its own participating application behind a separate host. The founder has now exercised the
 Neovim/standard-editor live handoff successfully. Its report also records baseline Loom use;
-PR #33 remains open at this refresh. The Goal Map distinguishes these observations from a merge
-or an independent full review and routes the accepted predecessors' evidence.
+PR #33 is merged. The Goal Map records founder acceptance, the merge identity and its match
+to the report head, and routes the accepted predecessors' evidence.
 
 The next pressure comes from inhabiting that environment: interaction, richer editor display,
 discoverability, protected drafts and useful control. The [Goal Map](goals/workshop.md) is the
