@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-17\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** everyday use and a replaceable desktop with useful inspection, then expressive presentation and protected experimentation
-**Current execution state:** Neovim PR #33 is merged. Everyday interaction, PR #34, is in correction and awaits review/acceptance. The bounded desktop/launcher foundation is selected next in §7; each prompt owns its execution scope.
+**Current execution state:** Neovim PR #33 and everyday interaction PR #34 are accepted and merged. The bounded desktop/launcher foundation is selected for execution in §7; its prompt owns the execution scope.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -361,11 +361,11 @@ and Git retain the acceptance history; the live source and routed laws own exact
 Layouts, Pane Manager and other remaining host-owned behavior are candidates for the shell work
 below, not permanent exceptions to the peer-tool direction.
 
-Everyday interaction is on PR #34, following merged Neovim PR #33. Its Escape correction is
-in progress; implementation or green checks alone do not establish acceptance. The
-[correction prompt](../../prompts/zengine-everyday-interaction-corrections.md) owns that work.
-Later execution starts from the accepted result, refreshing live Git rather than copying a
-development head into this roadmap. Preserve the demonstrated editor capability.
+Everyday interaction PR #34 is accepted and merged on 2026-09-17 as
+`be1231112c20a3bbcb13f0012ec1042f85c99744`, with the same tree as reviewed head `633f778`.
+The [correction report](../../reportbacks/zengine-everyday-interaction-corrections-RB.md)
+routes the Escape correlation repair and its evidence. Refresh live Git before execution;
+preserve this interaction behavior and the demonstrated editor capability.
 
 ### Near-term order and purpose
 
@@ -375,8 +375,7 @@ making a complete UI authoring system a prerequisite for useful editor improveme
 
 | Order | Outcome | Purpose and boundary |
 |---|---|---|
-| Now | Finish and review everyday interaction, including the Escape correction | Close the current usable-interaction packet before treating it as the foundation. |
-| Next | Replaceable desktop, pane launching, default interaction policy and a narrow real-pane inspector | Give remaining shell behavior a useful owner; retire the old canvas/picker paths as their responsibilities are deliberately removed or rehomed. |
+| Now | Replaceable desktop, pane launching, default interaction policy and a narrow real-pane inspector | Build on accepted everyday interaction; give remaining shell behavior a useful owner and retire the old canvas/picker paths as their responsibilities are deliberately removed or rehomed. |
 | Alongside that foundation / immediately after | Local inspection, screenshots and authorized input/control | Make the visible result and failed operations observable; supply the smallest useful path before another large UI pass. |
 | Then | Expressive Neovim/shared presentation and bounded standard-editor improvements | Make everyday editing comfortable; do not wait for a general source-editing overlay. |
 | Following those foundations | UI-editing overlay and broader Info subjects; protected draft/publication work | Connect a visible subject to configuration or source. Stage draft protection before promising safe experimentation or publication to originals. |
@@ -388,9 +387,9 @@ proof. Independent editor fixes can proceed when they do not depend on an unsett
 contract. Full overlay authoring, all standard-editor features and protected storage need not
 land together. Service retirement and generic changed-schema migration remain separate work.
 
-### Part 1 — Everyday interaction (selected for execution)
+### Part 1 — Everyday interaction (accepted foundation)
 
-Make Terminal and returning to Workshop comfortable enough for repeated use:
+The accepted behavior to preserve as ownership changes:
 
 - Scroll the transcript, including wrapped content, while keeping the command line usable.
   Indicate retained content above at the top and below at the bottom; distinguish offscreen
@@ -411,12 +410,14 @@ Make Terminal and returning to Workshop comfortable enough for repeated use:
 - Make the already-supported Neovim user/init-file selection easy to find and diagnose. A new
   configuration framework is not required for that existing capability.
 
-The [Part 1 prompt](../../prompts/zengine-everyday-interaction.md) owns implementation and proof.
-This packet does not absorb every editor enhancement below. One executor should research, plan,
-implement and demonstrate the full bounded outcome in one session, recording ceremony and
-important discoveries throughout, including any context compaction.
+The [Part 1 prompt](../../prompts/zengine-everyday-interaction.md) records the original scope;
+current mechanics belong to the repository's routed laws. Richer editor presentation remains
+the separate work below.
 
-### Part 2 — Replaceable desktop and pane launching (next execution arc)
+### Part 2 — Replaceable desktop and pane launching (selected for execution)
+
+The [desktop foundation prompt](../../prompts/zengine-desktop-foundation.md) carries this bounded
+outcome through preflight, implementation and proof in one continuous executor session.
 
 Replace the prototype object's role as Workshop's default workspace with an application desktop
 whose behavior can participate and be replaced. The target is the old rectangle/object-document
@@ -466,7 +467,7 @@ or a configuration framework in the first packet.
 Check P-WORK-02, P-WORK-03, P-WORK-19 and P-WORK-22 at preflight. Declaration admission and
 provider-visible rejection have a concrete upcoming consumer in launch/default registration:
 scope the relevant BL-WORK-04 work when that surface changes. Preserve BL-WORK-02's small example.
-These dependencies belong to this arc, not to the current Escape correction.
+These dependencies belong to this arc; the preceding Escape correction is accepted.
 
 ### Part 3 — Expressive editors and presentation
 
@@ -708,7 +709,7 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** finish everyday interaction, then the replaceable desktop/launcher and narrow
+- **Next outcome:** the replaceable desktop/launcher and narrow
   real-pane inspection, with local capture/control close beside it; expressive editors, the
   UI-editing overlay and protected drafts follow the dependencies in §7.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.

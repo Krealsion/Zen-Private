@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** make the running Workshop comfortable to use and reshape through replaceable desktop tools, inspection, expressive editors and deliberate publication (§6)
-**Current execution state:** Neovim PR #33 is merged; everyday interaction PR #34 is in correction and awaits review/acceptance. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) selects a bounded desktop/launcher foundation next; service retirement remains parked.
+**Current execution state:** Neovim PR #33 and everyday interaction PR #34 are accepted and merged. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) selects the bounded desktop/launcher foundation for execution; service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -160,11 +160,11 @@ development remains a separate capability.
 
 The founder selected the next direction on 2026-09-17:
 
-1. Finish everyday interaction and review its Escape correction.
-2. Give shell behavior a replaceable desktop/launcher home, configurable defaults and narrow
-   real-pane inspection; retire the prototype canvas as its responsibilities are removed or
-   rehomed. Bring local introspection, screenshots and authorized control alongside that foundation.
-3. Improve expressive editor presentation without waiting for complete UI authoring. Follow with
+1. Build on accepted everyday interaction: give shell behavior a replaceable desktop/launcher
+   home, configurable defaults and narrow real-pane inspection; retire the prototype canvas as
+   its responsibilities are removed or rehomed. Bring local introspection, screenshots and
+   authorized control alongside that foundation.
+2. Improve expressive editor presentation without waiting for complete UI authoring. Follow with
    the real-UI editing overlay and protected experimentation according to their actual dependencies.
    General schema/composite authoring, deeper configuration/setup, reusable GUI behavior, Python,
    GPU and multi-host capabilities follow concrete consumers.

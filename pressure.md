@@ -25,16 +25,16 @@ but deferred work belongs in `private/backlog.md`.
 
 The founder's hands-on use and follow-up desktop notes supply concrete interaction, inspection
 and presentation pressure. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose)
-owns the sequence: finish PR #34's everyday-interaction correction, then a bounded replaceable
-desktop/launcher foundation with real-pane inspection. Local capture/control supports that work;
-expressive editors follow without waiting for the full UI-editing overlay. PR #33 is merged;
-PR #34 has not yet been accepted. Refresh Git at execution, not from this board.
+owns the sequence: build on accepted everyday interaction with a bounded replaceable
+desktop/launcher foundation and real-pane inspection. Local capture/control supports that work;
+expressive editors follow without waiting for the full UI-editing overlay. PRs #33 and #34 are
+accepted and merged. Refresh Git at execution, not from this board.
 
 The accepted Files action-identity, pane-to-source, Workshop development-launch and standalone
 host/admission arcs are predecessors, not still-selected tasks. BL-WORK-04 remains owed; the
 desktop arc must scope it when launch/default registration changes admission or needs rejection
-feedback. It does not expand the current Escape correction. New notes are roadmap direction,
-not a blanket backlog expansion.
+feedback. The preceding Escape correction is accepted; new work remains scoped by the desktop
+prompt, not a blanket backlog expansion.
 Progress/closing answers, general picture provenance and service retirement keep their own bounds.
 
 ## 3. Workshop product pressure
@@ -71,7 +71,7 @@ participation through the existing doors. What remains is narrower:
   the new presentation must use each subject owner's facts and write operations;
 - the default nine-row stack height shows three panes and three rows (P-WORK-01).
 
-**Disposition:** the [desktop foundation](goals/workshop.md#part-2--replaceable-desktop-and-pane-launching-next-execution-arc)
+**Disposition:** the [desktop foundation](goals/workshop.md#part-2--replaceable-desktop-and-pane-launching-selected-for-execution)
 is the immediate consumer. The later editing overlay broadens subject acquisition and source
 mapping. Preserve the identity-held subject independently of selection; do not require every
 future property before making one actual pane inspectable.
