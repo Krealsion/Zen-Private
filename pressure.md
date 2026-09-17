@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-14
+**Refreshed:** 2026-09-17
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -23,16 +23,16 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-The Info repair and its documentation are accepted in merged PR #28. The
-[Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns that acceptance.
-The Files action-identity implementation is accepted; [documentation housekeeping](../prompts/zengine-files-action-identity-doc-housekeeping.md)
-is selected before PR #29 merges and BL-DEF-05 closes. Declaration-rejection feedback is agreed
-follow-up work ([BL-WORK-04](backlog.md#bl-work-04--a-pane-can-learn-that-its-action-declaration-was-rejected)),
-with recovery policy owned by the provider; it does not extend this repair.
-P-WORK-23, P-WORK-24, P-WORK-26 and BL-DOC-02 are closed. P-WORK-25 picture provenance remains
-separate. P-WORK-06 is the next larger product arc; ceremony is audited along that loop.
-Progress/closing answers and the authority workflow retain their consumer-grounded continuation
-(P-LOOM-02, P-WORK-18). These repairs have bounded exits; they do not select general stabilization.
+The founder's hands-on Neovim use has supplied concrete interaction and presentation pressure.
+The [Workshop Goal Map](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns the newly selected
+roadmap and exact Terminal history-key behavior. Part 1 is everyday interaction; expressive
+editor presentation follows, with local inspectability/control brought forward. PR #33 remains
+open at this refresh; the next prompt explicitly includes its implementation baseline.
+
+The accepted Files action-identity, pane-to-source, Workshop development-launch and standalone
+host/admission arcs are predecessors, not still-selected tasks. BL-WORK-04 remains owed and
+conditional on its stated wake. New notes are roadmap direction, not a blanket backlog expansion.
+Progress/closing answers, general picture provenance and service retirement keep their own bounds.
 
 ## 3. Workshop product pressure
 
@@ -170,15 +170,14 @@ together before either moves.
 
 ### P-WORK-04 — Conventional editor expansion should come from use
 
-**State:** WATCH  
-**Evidence:** EDIT-0 closeout and editor limitations
+**State:** TRIGGERED BY FOUNDER USE — staged in the Goal Map, not all in Part 1
+**Evidence:** founder's 2026-09-17 notes after live Neovim switching
 
-Search is the first likely missing ordinary affordance. Unicode, multiple documents, language
-tooling, splits, and Vim behavior each have different representation and ownership costs.
-
-**Trigger:** after EDIT-1, actual editing repeatedly hits one of these walls. Unicode requires a
-truthful caret/column/glyph model; multiple documents require independent lifecycle pressure; Vim
-requires a real backend rather than incremental imitation.
+Terminal interaction, Neovim profile discoverability, editor highlighting/caret presentation,
+standard-editor tabs/navigation/Git marks and reversible hidden comments now have a real consumer.
+The [roadmap](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns their sequence and limits.
+Editors may serve different audiences. Unicode/column geometry, document lifecycle and native
+write authority remain distinct questions; this entry does not collapse them into visual polish.
 
 ### P-WORK-05 — Attention's compact graphical channel has limited voice and owns no room
 
@@ -194,32 +193,27 @@ condition that materially misleads a maker.
 
 ### P-WORK-06 — Source provenance is the next self-hosting join
 
-**State:** NEXT LARGER PRODUCT ARC — after the selected bounded interaction repairs
-**Evidence:** EDIT-R1 provenance trace, authored load-plan/build-recipe seams
+**State:** CLOSED — founder accepted and merged the pane-to-source loop
+**Evidence:** [final correction report](../reportbacks/zengine-pane-to-source-loop-corrections-RB.md)
 
-The project can already relate provider/office, load-plan row, artifact stem, recipe, and source by
-authored joins. Workshop does not yet expose `pane -> Edit Code`, and Editor correctly knows none of
-the topology.
+The authored pane/office-to-source/recipe join is now a starting capability. Editor retains
+document custody and Files remains a navigator; current law belongs to Zengine's Workshop code
+and opening owners. Further provenance needs should name their new consumer.
 
-**Trigger:** EDIT-1 is accepted and a real pane can be traced to one source/recipe without guessing.
-The host should answer; browser rows and Editor must remain topology-free.
+<a id="p-work-07--live-replacement-the-same-shape-rung-is-built-the-changed-shape-rung-is-the-wall"></a>
 
-### P-WORK-07 — Live replacement: the same-shape rung is built; the changed-shape rung is the wall
+### P-WORK-07 — Live replacement: generic migration remains beyond the editor proof
 
-**State:** FIRST RUNG CLOSED (2026-09-05, Zengine PRs #11–#14); SECOND RUNG PARKED  
-**Evidence:** `reportbacks/build-then-load-research-RB.md`, `build-then-load-RB.md`; `Zengine/agents/realization.md`; `docs/workshop/builder.md`
+**State:** SAME-SHAPE RUNG LANDED; EDITOR HANDOFF IMPLEMENTED; GENERAL DEVELOPMENT MIGRATION PARKED
+**Evidence:** Zengine realization laws and [Neovim live-switch report](../reportbacks/zengine-neovim-live-switch-RB.md)
 
-A rebuilt weave-only artifact with the same shapes reloads in place through the Manager's
-`zen.ReloadWeave`, state kept, on the same `WeaveId`; the rebuilt file lands off the loaded path;
-the new image is not the default load until the maker promotes it, and revert exists. A rebuilt
-artifact whose shapes changed is still refused in a maker's words — THAT the shape changed and
-WHAT changed — and is not replaced. Loom's prepared replacement and authored handoff are the
-mechanism; Workshop does not drive them.
+Same-shape build/reload, explicit promotion and revert remain available. Neovim PR #33 now uses
+Loom prepared replacement and an authored editor handoff; the founder has exercised it successfully.
+That PR is still open at this refresh. It does not make arbitrary changed-shape builds migratable.
 
-**Trigger (second rung):** a maker's concrete changed-shape rebuild, with the migration the maker
-authors, the coordinator's home inside Workshop, and how a refused handoff reads at the row.
-**The case now exists in direction (VD-19):** a migrated pane weave replaced by a differently-shaped
-one — a vim Editor for the Editor — with the pane's state shape as the migration's currency.
+**Trigger:** a concrete changed-shape development task beyond the editor-specific handoff, with
+authored migration, custody, refusal and activation behavior. Preserve the seam without requiring
+a general migration framework or overlapping incumbent retirement in the interaction phase.
 
 ### P-WORK-08 — A hidden pane loses the position it was hidden at
 
@@ -336,23 +330,22 @@ ellipsis. The pane protocol has keys and a wheel; the introspection pane spends 
 
 **Trigger:** the pane protocol work that gives the Project pane a viewport.
 
-### P-WORK-18 — Every loaded artifact may say anything
+<a id="p-work-18--every-loaded-artifact-may-say-anything"></a>
 
-**State:** ACT AFTER FATE (VD-21)  
-**Evidence:** `Loom/src/kernel/kernel.cpp:992-998` (the default `allow_any()`; a four-argument
-overload takes a grant); `Loom/include/zen/kernel/control.hpp:209` (the control door spends the
-three-argument one); `Zengine/agents/panes.md` INTR-0 ("a declaration proves nothing on its
-own"); `agents/realization.md` LOAD-0 ("nothing signs or restricts one");
-`reportbacks/pane-actions-and-files-RB2.md` (the Files weave's sends, as the request its row
-would carry — the grammar's first real data)
+### P-WORK-18 — Loaded participation needs explicit authority
 
-The loaded tier's baseline is `allow_any()`, so `Emit<>` is decorative there and there is nothing
-for a Weaver to approve (GATE-05: a baseline never changes). Direction: the plan row carries a
-request; the host's policy — a Weaver seat in Workshop, auto-approving what the maker set — mints
-the baseline and may refuse; the refused weave is told (VD-20). In-process this governs what a pane
-may say, not what it may touch.
+**State:** INITIAL HOST/ADMISSION CONSUMER LANDED; FURTHER UX FOLLOWS CONSUMERS
+**Evidence:** founder confirmed Loom/Zengine standalone/admission work merged;
+[final host correction report](../reportbacks/loom-standalone-usability-corrections-3-RB.md)
 
-**Trigger:** send fate landed (VD-20); then the row grammar, the seat, the modal — in that order.
+The earlier application allow-any baseline is not the current execution starting point. Further
+authority work should inspect the supplied host and Zengine admission policy, keeping native
+execution trust, message grants, human identity and OS file access distinct. Protected drafts,
+dependency installation and micro-console control are concrete future consumers; their phases
+must specify what boundary actually enforces each promise.
+
+**Trigger:** one of those consumers needs a missing authority decision or operator explanation.
+Do not infer a universal grant store, modal system or remote identity from the completed host arc.
 
 ### P-WORK-19 — The keymap is a closed catalog in one header
 

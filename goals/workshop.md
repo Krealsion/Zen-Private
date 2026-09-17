@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-14\
+**Refreshed:** 2026-09-17\
 **Strategic authority:** `private/zen-strategic-map.md`  
-**Current direction:** continue the IDE-loop road after the accepted pane extraction; progress/closing answers and the authority workflow remain selected downstream work
-**Current execution state:** PR #28 Info repair accepted; Files action identity selected, then the pane-to-source loop (§7); service retirement remains parked
+**Current direction:** everyday use, expressive presentation, inspectable control, and protected experimentation; replace fixed application behavior with participating weaves
+**Current execution state:** founder has exercised the Neovim live switch successfully; PR #33 remains open at this refresh. Part 1, everyday interaction, is selected in §7; its prompt owns execution scope.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -66,18 +66,28 @@ Since 2026-09-05 (EDIT-1; build-then-load, Zengine PRs #11–#14) a maker can al
   tree) and, by choosing it, author a recipe row; **load it** authors the minimum plan row with a
   role the maker types; a project catalog and a project plan at the project root are the truths
   in force at the next launch, so the maker's rows survive a restart without flags;
-- read a realize refusal whole in the `--log` journal (it has no reader yet — see §8).
+- read a realize refusal whole in the `--log` journal (it has no reader yet — see the pressure board, P-WORK-14).
 
-Source acquisition is no longer captive to Builder. What remains captive is provenance: a maker
-cannot yet reach a source from the pane that draws it, and a changed-shape rebuild is still refused
-rather than replaced.
+The subsequent accepted work closes pane-to-source acquisition and the Workshop development
+launch: a maker can reach a pane's code, build its owning artifact, and develop the participating
+Workshop behind a separate host. The standalone Loom/admission-policy arc is also merged.
+Evidence and boundaries are in the [pane-to-source correction report](../../reportbacks/zengine-pane-to-source-loop-corrections-RB.md),
+[development-launch correction report](../../reportbacks/zengine-workshop-development-launch-corrections-RB.md),
+and [standalone-host correction report](../../reportbacks/loom-standalone-usability-corrections-3-RB.md).
+
+The founder reports the live standard/Neovim switch working as envisioned. Its
+[report](../../reportbacks/zengine-neovim-live-switch-RB.md) describes active-document handoff,
+unsaved edits, caret/representable selection, and baseline Loom use through a second terminal.
+This is an implemented editor-specific replacement consumer. It does not establish a generic
+changed-schema development workflow. PR #33 is still open; successful founder use and execution
+continuation do not assert an independent review or merge. Read live Git for current disposition.
 
 ## 3. Current ownership model
 
 ### Application authority and presentation ownership
 
-Workshop is the host and authority for its application. It currently implements presentation
-ownership: room, pane arrangement and focus. That implementation location is not a permanent
+Workshop coordinates its application within the authority supplied by the hosting process.
+It currently implements presentation ownership: room, pane arrangement and focus. That implementation location is not a permanent
 ownership constraint. The founder favors keeping presentation movable into its own weave,
 with Workshop connecting the participating subsystems and applying application policy.
 Name the application authority, presentation owner and document owner separately when a
@@ -87,7 +97,11 @@ with a clear potential separation. Replaceability does not promise that every fu
 local: expose the affected contracts so cooperating changes can propagate through authored
 migrations, adapters, tools or maker intervention, including honest partial results. Avoid
 requiring all those tools or service splits in the first implementation. Actual presentation
-extraction is an option, not selected production work.
+extraction is now part of the selected architectural direction: "gut the shell" means make
+remaining fixed application behavior replaceable. Each production phase still names the owner it
+moves and the consumer that needs the seam. The minimal host/authority root remains outside
+application-controlled replacement or relaunch; application behavior should not gain that
+immovability merely by being implemented there today.
 
 ### Failure and supervision
 
@@ -183,19 +197,24 @@ artifact exists, and a produced artifact is not permission to load or replace it
 
 ### Editor
 
-`EditorState` owns one current document: path identity, admitted representation, saved state, dirty
-comparison, viewport, epoch, and lifecycle. `EditorBuffer` owns reusable editing mechanics. The
-pane is presentation only.
+The current holder of the Editor office owns its document state. The standard editor has one
+document and reusable buffer mechanics; Neovim owns its buffers and editor-specific behavior.
+Workshop coordinates opening, presentation commitments and supported office replacement without
+becoming a second document owner. Current contracts live in Zengine's routed `editor`, `opening`,
+`editor-switch` and `neovim` owners and the public editor-switch reference.
 
-Source admission is intentionally bijective: LF/CRLF convention, final newline, tabs, and ordinary
-ASCII round-trip exactly. Mixed endings, bare CR, control bytes, and non-ASCII are refused whole
-until Workshop can place and edit them truthfully. Atomic save protects the last good file. Dirty
-source refuses replacement and orderly quit until the maker saves or explicitly discards.
+The standard editor's exact admitted-byte model remains narrower than Neovim's. Switching carries
+the active document's edits, caret and representable selection; unrepresentable transfer is said
+or refused as documented. Other state may reset under the explicit loss/consent policy. Frequent
+editor swapping is a demonstration/experimentation use, not the assumed normal workflow.
+Ordinary dirty-work and quit protection remains separate. The editors serve different audiences
+and should grow distinct strengths; cooperation does not require feature parity.
 
 ## 4. Laws the next phase must preserve
 
 - **A source may suggest a document; the Editor owns opening and editing it.**
-- **One current document remains enough.** A file browser does not imply tabs or a document service.
+- **Each editor owns its document lifecycle.** Standard-editor tabs are a selected follow-on,
+  not permission for the host to mirror documents or require identical editor features.
 - **Presentation never owns document lifetime.** Removing, hiding, or arranging the Editor pane
   cannot discard the buffer.
 - **The same geometry draws and hits.** This applies to panes, menus, text, selections, and file rows.
@@ -220,9 +239,9 @@ source refuses replacement and orderly quit until the maker saves or explicitly 
   (VD-22). Buttons, hover, or the host mapping a key to a weave's action are later UX, not defaults.
 - **A plan row asks for authority.** It confers none; the host's policy decides, may refuse, and a
   refused weave is told.
-- **The pane protocol grows one demonstrated contract at a time.** A migrating built-in that needs
-  what a provider cannot say is the only reason a shape is added; it never becomes a plugin
-  framework.
+- **The pane protocol grows from demonstrated consumers.** A pane needing something it cannot
+  truthfully express can justify a shared contract; migration is no longer its only consumer.
+  Preserve replaceability without erecting a speculative plugin framework.
 
 ## 5. Completed capability arcs, compressed to their surviving results
 
@@ -310,110 +329,149 @@ The old production checklist and its decisions are history in the EDIT-1 reports
 
 ## 7. The next maker loop after EDIT-1
 
-The target loop is worth preserving:
+The development loop remains the product spine:
 
 ```text
-right-click pane
-    -> Edit Code
-    -> choose/open source
-    -> edit and save
-    -> build
-    -> realize or reload the owning artifact
+point at a running tool -> Edit Code -> edit -> save/build -> realize or replace -> inspect
 ```
 
-Its growth path after the accepted pane extraction (2026-09-13):
-
-1. contextual `Edit Code` resolves a path and calls the same `Editor.open(path)` door — **not built**;
-2. the host resolves pane/provider -> recipe/source from authored provenance, without teaching the
-   Editor build topology — **not built** (P-WORK-06);
-3. Builder produces the artifact through its existing recipe route — **built**, and "pick buildable"
-   authors the recipe row when none exists;
-4. the realization owner decides whether this is a waiting initial load or an already-live artifact —
-   **built**: a live same-shape artifact reloads in place, state kept, promotion explicit, revert
-   available;
-5. changed-shape replacement remains refused until provider/weave custody, state continuity,
-   authority, rollback, and failure semantics are explicitly earned — **still the wall**; Loom's
-   prepared replacement and authored handoff are the mechanism, and Workshop does not drive them yet.
-
-Roads recorded, not built: a timed auto-revert once keep and revert are habitual; a modal that warns
-on closing without promoting — the pressure for a general popup/modal feature; a reader for the
-`--log` journal; `config` asked by the chooser only when the tree's generator is multi-config.
-
-Do not let Project Files store the future joins. It should remain an honest file navigator even if
-the build/reload architecture later changes.
+Pane-to-source acquisition and Workshop development launch have landed. The Neovim integration
+demonstrates an editor-specific authored replacement; a generic changed-shape rebuild/handoff
+workflow remains later work. Build recipes, load plans, document custody and realization keep
+their separate owners. The next goal is to make this environment comfortable to inhabit,
+understand and reshape. The founder selected this roadmap on 2026-09-17 after hands-on use.
 
 ### Pane extraction: current status and next work
 
-Files, Builder, Attention, Info, Terminal and Editor have landed as pane weaves. **The selected
-extraction arc is complete.** Layouts, Pane Manager and the maker pane remain host-owned under
-this arc's boundary; that does not change the long-term peer-tool direction.
+Files, Builder, Attention, Info, Terminal and Editor are pane weaves. The selected extraction and
+bounded interaction repairs through Files action identity are accepted and merged. Their reports
+and Git retain the acceptance history; the live source and routed laws own exact mechanics.
+Layouts, Pane Manager and other remaining host-owned behavior are candidates for the shell work
+below, not permanent exceptions to the peer-tool direction.
 
-The founder confirmed [PR #23](https://github.com/Krealsion/Zengine/pull/23) merged on 2026-09-13
-as `26ae2dd9a63a8cf5feac2eebb0fd9eddff4066cd`. Its tree matches the reviewed `50c279b` exactly.
-It consumes accepted Loom `a08499f` (ABI v8). BL-WORK-03 and BL-DEF-04 are closed: Editor extraction,
-managed opening and removal of the dead Loom SDL dev override are accepted. The
-[final corrections report](../../reportbacks/zengine-managed-open-quit-notice-corrections-RB.md)
-and [completed roadmap](../drafts/editor-pr23-roadmap.md) retain the evidence and sequence.
+The current baseline for the next phase includes Neovim PR #33 even while it remains unmerged.
+The phase prompt names the observed heads and branch treatment. Never substitute an older main
+tree that drops the demonstrated editor capability.
 
-The accepted result also refuses a quit when the host observes that its question could not reach
-a participant, naming the participant and reason while preserving work and restoring interaction.
-A delivered unanswered question can remain pending. Builder and Files publish the clearing of a
-spent notice. Files' independent click-mapping repair is accepted in PR #24 at merge `3c8d6bc`;
-its [pressure entry](../pressure.md#p-work-23--pane-notices-must-agree-with-actions-and-hit-testing)
-tracks the bounded notice/interaction follow-ups. The founder confirmed [PR #25](https://github.com/Krealsion/Zengine/pull/25)
-merged as `968a2578476d3876dc6b0026271b00b373aefaa7`; its tree matches reviewed `9c4242c`.
-Workshop now supplies actual prior ordinary-key routing on v2 presses, Files retains activation
-policy, and v1 compatibility is conservative. Hidden-title selection survives the room update,
-and the keyboard legend reflects actual routing. Host version inspection does not guarantee
-delivery through holder turnover; an attributable refusal is valid, without duplicate retries.
-The [implementation report](../../reportbacks/zengine-files-focus-implementation-RB.md) retains
-the evidence. P-WORK-24 and its enumerated documentation residue (BL-DOC-01, landed in PR #27)
-are closed.
+### Part 1 — Everyday interaction (selected for execution)
 
-The founder confirmed [PR #26](https://github.com/Krealsion/Zengine/pull/26) merged as
-`3bf888c378655933ba2aa403faf776dfb99a0876`, tree `297a532c9d860054627cccd85c2b066af787d1e5`,
-identical to reviewed `a22dced`. Its [notice audit](../../reportbacks/zengine-pane-notice-audit-RB.md)
-closes the named Info/Terminal/Attention candidates: ignored input preserves a notice, consumed
-actions publish its removal without requiring a new document picture, and Info maps clicks against
-the notice-bearing rows it shows. Ownership remains in each pane.
+Make Terminal and returning to Workshop comfortable enough for repeated use:
 
-PR #27 is accepted and merged as `b42fe353467994f762d3470121eccadf3acdceae`, tree
-`1c280311e8380b33d1d8a95a08bc8019cb39e134`, identical to reviewed `407ca15`. Its
-[corrections report](../../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md) retains
-the evidence. Info preserves drafts and later edits, sends one commit at a time, and accounts for
-answers without claiming writes away. Builder/Files ignored ids and Attention's hidden-state
-wording are repaired. P-WORK-23, BL-DEF-02 and the enumerated BL-DOC-01 work are closed.
+- Scroll the transcript, including wrapped content, while keeping the command line usable.
+  Indicate retained content above at the top and below at the bottom; distinguish offscreen
+  content from entries evicted from the record. Preserve a reading position when new output
+  arrives and give the maker a clear return to the live tail.
+- Up/Down browse command history when no command is actively being composed. Browsing remains
+  browsing while Up/Down are pressed, even though a recalled command is visible. Any different
+  command key leaves history navigation and returns arrows to completion behavior. Enter and
+  Tab are special: they lock the recalled command in for editing and do nothing else on that
+  press, with no submission or completion. Other editing keys do their ordinary work once.
+  Later Enter/Tab presses have the normal editing-mode meaning. The mode must be legible.
+- Complete real currently discoverable addresses and IDs, through their actual owner; retain
+  existing shape/field completion. Discovery neither grants authority nor promises later delivery.
+- Make Escape-to-deselect usable in Workshop while respecting a more specific pane operation,
+  especially Neovim's Escape. Do not infer an external pane's non-consumption from silence or
+  implement editor-specific mode knowledge in the host. Explain a reachable way back from panes
+  that retain Escape.
+- Make the already-supported Neovim user/init-file selection easy to find and diagnose. A new
+  configuration framework is not required for that existing capability.
 
-PR #28 is accepted and merged as `afdc2423d76ba9eb49a0c916b20c665bb9408376`, tree
-`7cf781e7c135a48f2ddc0b9d8b7af1cd03790dc3`, identical to reviewed `c012085`. Its
-[implementation report](../../reportbacks/zengine-info-targeted-commits-RB.md) and
-[documentation follow-up](../../reportbacks/zengine-info-targeted-commits-doc-followup-RB.md)
-retain the evidence. Workshop binds the commit's applicable subject; Info settles known send
-refusals and preserves legitimate drafts. P-WORK-26 and BL-DOC-02 are closed. The disclosed
-host state-swap limitation waits for a real Workshop replacement consumer; mixed-version
-diagnostics remain deferred. Neither selects further Info repairs now.
+The [Part 1 prompt](../../prompts/zengine-everyday-interaction.md) owns implementation and proof.
+This packet does not absorb every editor enhancement below. One executor should research, plan,
+implement and demonstrate the full bounded outcome in one session, recording ceremony and
+important discoveries throughout, including any context compaction.
 
-The current sequence, following the founder's accepted direction on 2026-09-14:
+### Part 2 — Expressive editors and presentation (next product arc)
 
-1. **Files action identity:** [the selected repair](../../prompts/zengine-files-action-identity.md)
-   closes BL-DEF-05: browsing, chooser selection and authoring submission keep distinct operation
-   meanings when queued input crosses a mode change. Files owns the modes; Workshop keeps its
-   existing declaration/keymap join. This is the remaining selected interaction repair.
-2. **Pane-to-source:** contextual `Edit Code` joins a running pane to its authored source/recipe
-   through the host, then reuses Editor, Builder and realization. This is the next substantial
-   maker capability, not another general stabilization pass.
-3. **Ceremony throughout that loop:** measure actions, decisions, required knowledge and recovery
-   for a real visible modification. Keep the small example pane useful for dissection. Success is
-   a maker reaching a running change they understand and choosing to make another.
-4. **Progress and authority:** scope progress/closing answers and the Weaver workflow from Builder,
-   realization and permission needs. These remain the next supporting architecture arc; their
-   precise execution packets are not implied by this sequence.
+- Faithfully display Neovim search, syntax and matching-brace highlighting, selections and
+  mode-appropriate caret shape/blinking. The founder accepted the minimal initial GUI; these
+  are desired capabilities, not retroactive defects in that proof. Neovim supplies its meaning;
+  shared presentation carries it without rebuilding editor semantics in Workshop.
+- Improve the standard editor for its own audience: open-file tabs, middle-button scrolling,
+  line numbers and Git changed-line indications. Tabs need explicit document lifecycle; changed
+  lines need a named comparison base. Gutter actions for rollback and publishing edits connect
+  to protected drafts below and must state what they change.
+- Offer a reversible hidden-comments view with visible concealment and correct source positions.
+  Keep file bytes unchanged and use language-aware information; support code readability and
+  identification of opportunities for self-documenting code.
+- Rework the application bar, potentially replacing the platform bar with an authored one.
+  Preserve the window behavior a maker relies on. This is a scoped follow-on, not a requirement
+  to redesign the entire desktop before Neovim gets useful highlighting.
 
-New-weave authoring, changed-shape handoffs and Flow remain later capability expansions. General
-[queued-picture provenance](../pressure.md#p-work-25--queued-presses-do-not-identify-the-picture-they-targeted),
-presentation extraction and service retirement remain separate. Necessary repairs protect the
-maker loop and have explicit exits; they do not make exhaustive correctness a prerequisite for
-the next product capability.
+### Inspectable control — bring local capability forward
+
+A substantial introspection/metadata pass should make concrete questions answerable: identity,
+current owner, accepted messages, configuration, authority, source, pending work and attributable
+outcomes. Metadata describes and routes to the relevant truth; it cannot confer behavioral
+authority or turn a declaration into an observed fact. Terminal completion is an early consumer.
+
+Bring a local micro-console and screenshots forward to support development and testing. Agents
+need both authorized input injection for interaction tests and direct requests to owning weaves
+for semantic operations. The agent remains the actor, rather than silently becoming the user.
+Screenshots must reflect the presented result, not substitute for evidence of command success.
+Both control paths should work through ordinary contracts. Networking need not precede a useful
+local tool; its exact place beside Part 2 follows implementation pressure.
+
+The multi-host continuation adds discoverable hosts and requests to connect. Discovery,
+authentication, session admission and permission to perform actions remain separate. The baseline
+Loom console/harness is the starting consumer. Cross-host communication is selected direction,
+not an already implemented remote desktop or an automatic unrestricted grant.
+
+### Protected experimentation — a substantial separate arc
+
+Preserve live edits durably in a working copy, with permission to write originals granted at
+explicit save/publication. Dynamic Git worktrees are the founder's proposed mechanism; research
+the smallest appropriate worktree, overlay or draft-store solution before committing its form.
+Keep a base identity, detect competing changes to originals, make changes reviewable, and let
+builds/experiments name the version they actually consume. Draft preservation, publication to
+original files, Git commit and runtime activation have distinct meanings even if a tool offers
+a combined workflow.
+
+Storage separation alone is not write-authority enforcement. Native editors/plugins must be
+behind a boundary that actually prevents bypass if the product promises originals are protected.
+Standard-editor rollback and "confirm changes into main code location" should use this owner,
+without introducing another source of document truth. Any persistent draft custody must be
+explicitly reconciled with the active editor's live ownership.
+
+### Replaceable shell, reusable effects and playful consumers
+
+"Gut the shell" means move anything currently static and immovable in application behavior into
+replaceable participating weaves. Keep the minimal hosting/authority root fixed. Pursue concrete
+extractions alongside their consumers, with explicit ownership and authored composition; avoid
+rebuilding a god-file or demanding every extraction before the next useful feature.
+
+Build a reusable library of GUI transformations and animations from real examples. The first
+target is configurable accordion expansion/contraction attachable to a pane. It preserves anchor
+paths so dependent placement follows correctly; painting, hit-testing, clipping and granted room
+agree, and hiding is not silently unloading or discarding state.
+
+Keep a simple Python mascot pane as a small creative consumer: a character in its own box reacts
+to mouse position and knows nothing else. Let that bounded purpose determine the Python and
+presentation seams it needs. GPU integration remains a direction whose concrete scope (rendering,
+compute, resource custody) should be chosen from an actual consumer.
+
+### Configuration and independent setup
+
+Programs designed for configuration should be configurable without replacing their code. Explore
+discoverable configuration and generation with explicit owners, formats, validation, application
+and recovery behavior. Neovim profile selection is an immediate example, not a mandate for a
+universal configuration service in Part 1.
+
+Make dependencies and setup obtainable from a baseline Loom: detect missing tools, explain what
+is needed, and support authorized acquisition/configuration, with CMake a concrete example.
+Keep manual build/setup guides sufficient for a maker starting without helper weaves. Installation
+scope, provenance, versions, progress and failure belong in the eventual consumer's contract;
+this roadmap does not preselect a package manager or dependency solver.
+
+### Supporting architecture and boundaries
+
+Progress/closing answers, attributable refusal and recovery remain relevant where these consumers
+need them. The merged standalone/admission work is the authority starting point, not evidence
+that all human trust or filesystem containment is solved. Check relevant backlog wake conditions
+per phase; do not convert every horizon into immediately owed work. General queued-picture
+provenance, service retirement and Flow remain distinct work.
+
+### Managed opening and continued work
 
 **Accepted opening outcome:** before joint publication, A remains the current readable and editable
 document and B is only prepared state. Publication changes the Editor's and presentation owner's
@@ -445,7 +503,8 @@ bottlenecks, without turning ordinary interaction work into a bulk-data performa
 
 Merged dispatch refusal reports selected pre-handler failures; it does not establish this
 application commitment or settle every conversation abandoned after delivery. Progress/closing
-answers (VD-20) and the authority workflow (VD-21) remain separate selected work.
+answers (VD-20) remain separate work; VD-21 continues from the merged standalone/admission
+policy rather than the former allow-any application baseline.
 
 Future changes must preserve the extracted document owner's lifetime guarantees and the
 component behaviors that moved with it. Route through `Zengine/agents/workshop.md`,
@@ -472,27 +531,23 @@ Editor's current input-preservation or document/presentation commitment requirem
 
 Managed opening and its scoped dispatch-refusal consumption are accepted. Continue to judge
 IDE-loop and ceremony work against the manager's clear ownership, attributable pending/failure
-and replaceability. VD-20's progress/closing answers and VD-21's authority workflow retain their
-selected direction and each require a consumer-grounded execution scope.
+and replaceability. Further progress and authority work must start from the merged contracts
+and receive a consumer-grounded execution scope.
 Keep the more elaborate continuity options possible without requiring their implementation now.
 Revisit overlapping retirement when a concrete consumer needs to admit successor work before
 the incumbent can finish, or a proposed change would close that option unnecessarily.
 
 ## 8. Live pressure and deliberate restraint
 
-The nearest product pressures are:
+The founder's actual use now supplies the editor and Terminal pressure previously waiting on
+adoption. Section 7 owns its disposition and order. The [pressure board](../pressure.md) carries
+observations and triggers; the [backlog](../backlog.md) carries knowingly owed deferred work.
+No standalone "stabilize everything" prerequisite precedes the next maker capability.
 
-- pane default height and one-cell keyboard resizing are still tedious;
-- pane editing needs a contextual acquisition door and richer spatial facts (P-WORK-02);
-- search is the first likely conventional editor demand after real use;
-- Unicode source editing needs a representation/geometry answer, not merely a UTF-8 decoder;
-- provider-contributed context rows require a deliberate protocol extension;
-- source-to-artifact provenance and live replacement are the gates on the self-hosting loop;
-- a second independent read-only provider remains useful evidence for generality, not permission to
-  add input, arbitrary drawing, unloading, or multiplicity.
-
-Do not build a widget set, generic document service, plugin framework, notification system, layout
-solver, shell, dependency solver, or Flow editor merely because Workshop now resembles an IDE.
+Scope each phase by its outcome. Shared rendering, draft storage, configuration, automation and
+remote control have concrete consumers on the roadmap, but that does not authorize building all
+their possible frameworks. Keep independent editors, baseline Loom use and replaceable application
+owners viable as these contracts grow.
 
 ## 9. Success signals
 
@@ -533,7 +588,8 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Remaining IDE joins:** pane-to-source provenance and changed-shape replacement (§7).
+- **Next outcome:** everyday interaction, then expressive presentation, with local
+  inspection/control brought forward; protected drafts and broader composition follow (§7).
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.

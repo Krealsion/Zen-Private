@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-14\
+**Refreshed:** 2026-09-17\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
-**Current product direction:** continue the IDE-loop road after the accepted pane extraction; preserve the selected progress/authority continuation (§6)
-**Current execution state:** PR #28 accepted; the [Workshop Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns the selected Files action-identity repair, then pane-to-source with a ceremony audit; service retirement remains parked
+**Current product direction:** make the working development environment comfortable, expressive, inspectable and recoverable, with replaceable application behavior (§6)
+**Current execution state:** founder has exercised the Neovim live switch; PR #33 remains open. The [Workshop Goal Map](goals/workshop.md#part-1--everyday-interaction-selected-for-execution) selects everyday interaction as Part 1; service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -73,7 +73,8 @@ would change future decisions.
   neither silently absorbs the other's policy.
 - **A presentation owns meaning inside its grant; application authority governs room and
   spatial conflict.** Workshop currently implements the presentation owner; keeping that owner
-  movable into a weave is the favored option, not a selected extraction. See the
+  movable into a weave is part of the selected replaceable-shell direction; each extraction
+  still needs a concrete consumer and execution scope. See the
   [ownership distinction](goals/workshop.md#application-authority-and-presentation-ownership).
   Paint, hit-testing, ordering, clipping, and granted pane room spend the same resolved geometry.
 - **Continuity and repair are authored choices.** Zengine supplies useful starting policies;
@@ -105,7 +106,8 @@ Message acceptance discovery reads the same registered shape truth delivery enfo
 Ask provenance and bounded host turns are explicit. Opted-in senders receive authenticated
 dispatch refusals for exact attempts; delivered silence is not settled by that facility. Joint
 publication and attributed application facts are shipped in ABI v8. Progress/closing answers
-remain separate selected work (VD-20). SDL has been removed from Loom: the portable pixel-layout
+remain separate selected work (VD-20). The standalone host and explicit admission-policy
+consumer are merged; further authority UX starts there. SDL has been removed from Loom: the portable pixel-layout
 brain remains, while Zengine owns the active graphical product medium.
 
 Loom's current live HEAD is discoverable from Git. `REPOSITORIES.md` records repository location,
@@ -130,25 +132,15 @@ Builder custody and graphical artifacts are not an installed product contract.
 
 ### Workshop
 
-Workshop has crossed from application scaffolding into a place where ordinary development can
-happen. A maker can load an authored project arrangement, inspect powers and realization state,
-arrange a persistent desk, ask pointed things what can be done, edit one real source file, save,
-build, realize a waiting artifact, inspect the result, and return to editing.
+Workshop supports the source/edit/build/realize loop, pane-to-source acquisition and development
+of its own participating application behind a separate host. The founder has now exercised the
+Neovim/standard-editor live handoff successfully. Its report also records baseline Loom use;
+PR #33 remains open at this refresh. The Goal Map distinguishes these observations from a merge
+or an independent full review and routes the accepted predecessors' evidence.
 
-The latest accepted product arc includes:
-
-- WUX: graphical voice, fine-grained pane geometry, independent-axis settlement, per-user
-  config/state roots and isolation, restored desktop placement, and an attention surface for
-  standing conditions;
-- the build/test optimization sequence: compile proofs no longer mutate the main build tree,
-  concurrent builds use distinct trees, and Workshop's tests are grouped by semantic
-  ownership;
-- Loom SDL removal after portable proportional-layout and medium-agnostic outline coverage landed;
-- CTX: contextual actions reference the one action truth and spend explicit subjects without
-  turning pointing into selection;
-- ARR: pane and whole-desk arrangement became two scopes over one vocabulary;
-- EDIT-0: one ordinary multiline source document with exact byte/line-ending custody, atomic save,
-  dirty refusal, deferred-paste sequencing, and the full save/build/realize/inspect loop.
+The next pressure comes from inhabiting that environment: interaction, richer editor display,
+discoverability, protected drafts and useful control. The [Goal Map](goals/workshop.md) is the
+owner of that product sequence, not a repeated list here.
 
 ## 5. EDIT-1 — landed
 
@@ -160,64 +152,38 @@ and `editor.md`; the compressed result belongs in `private/goals/workshop.md` §
 
 ## 6. The IDE loop — what follows
 
-The compelling maker loop is unchanged in shape:
+The maker should be able to reach a running tool's implementation, change it, see the result and
+keep or revert it through ordinary Workshop tools. Pane-to-source and Workshop self-development
+are now the starting point. Neovim is a concrete editor-replacement consumer; generic changed-shape
+development remains a separate capability.
 
-```text
-point at a pane
-    -> Edit Code
-    -> resolve its source through the host's authored provenance
-    -> Editor.open(path)
-    -> save
-    -> build the owning artifact
-    -> realize it, or reload it in place, under lifecycle law
-```
+The founder selected the next direction on 2026-09-17:
 
-Its three separately owned joins (current capability is maintained in the Goal Map):
+1. Everyday interaction: Terminal transcript navigation, command-history/completion behavior,
+   real destination discovery, pane deselection and existing configuration guidance.
+2. Expressive editor presentation, with local introspection, screenshots and authorized control
+   brought forward to support development and testing.
+3. Protected experimentation and deliberate publication of drafts; deeper configuration/setup,
+   reusable GUI behavior, Python participation, GPU and multi-host capabilities follow consumers.
 
-1. pane/provider identity -> source or recipe provenance — **not built** (P-WORK-06). A maker still
-   reaches a source through Builder or Project Files, not from the pane it draws.
-2. source/recipe -> build artifact — **built**. Builder builds authored recipes; "pick buildable"
-   enumerates candidates on an explicit gesture and choosing one AUTHORS a recipe row; a project
-   catalog and a project plan at the project root are the truths in force at launch.
-3. artifact -> the running Workshop — **built for same shapes**: a rebuilt artifact reloads in place
-   through the Manager's `zen.ReloadWeave`, state kept, and is NOT the default load until the maker
-   promotes it; revert to the previous image exists. **Still the wall for changed shapes**: prepared
-   replacement with an authored migration is Loom's, and Workshop does not drive it yet (P-WORK-07,
-   second rung).
+The [Workshop roadmap](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns exact items,
+the founder's Terminal key semantics, and phase boundaries. "Gut the shell" means make fixed
+application behavior replaceable while retaining a minimal hosting/authority root outside
+application-controlled replacement. It is a design direction across the work, not a mandate to
+extract every subsystem before improving the next tool.
 
-The founder's statement of what Zengine is for governs the loop: essentially an IDE for real C++
-on Loom — reload the code in place with a seamless handoff, partial compilation of the specific
-part, swapped in; quick and easy, not instant and braindead. The flow being built toward: a schema
-builder, instance authoring (initial or test data), generated boilerplate, Builder, messages from
-Workshop to the weave just made, reload in place. Interpreted execution (`maker/`) is PAUSED as a
-pressure point — useful only where code must run with no compilation. The schema builder authors
-C++, not a definition document: generated code is the default form a maker holds (VD-18).
+Ceremony is audited throughout: actions, decisions, discovery, recovery and the documents/code a
+maker must read. Editors should have distinct strengths for different audiences. Live editor
+switching proves interchangeability; frequent swapping is not the assumed workflow.
 
-Nearer follow-ons that remain pressure-driven include pane Inspect (the Terminal overlay's reach),
-the timed auto-revert, source search/Unicode/multiple documents, and a graphical Flow projection.
-None is automatically next merely because its seam is visible.
+Progress/closing answers remain separate from dispatch refusal. Authority work continues from
+the merged standalone/admission consumer; no roadmap item implies universal filesystem protection
+or authenticated multi-host identity. Service retirement stays parked under its
+[disposition](goals/workshop.md#roadmap-disposition-of-service-retirement).
 
-**The selected pane extraction is accepted and complete.** PR #23 landed managed opening with
-separate document, presentation and operation owners, plus its scoped dispatch-refusal handling.
-The [Goal Map](goals/workshop.md#pane-extraction-current-status-and-next-work) owns acceptance and
-the remaining host-owned surfaces and the bounded intent repairs. After those repairs, the
-pane-to-source join is the next substantial capability, with ceremony measured through an actual
-edit/build/reload task. Progress/closing answers and authority remain the next supporting
-architecture arc, scoped from their real consumers. The concrete milestone is reaching a running
-tool's implementation, changing it, seeing the change running, and keeping or reverting it through
-the ordinary Workshop tools.
-
-The [ownership model](goals/workshop.md#3-current-ownership-model) continues to guide composition,
-continuity and repair. Service retirement remains parked under its
-[roadmap disposition](goals/workshop.md#roadmap-disposition-of-service-retirement): live output
-switching, a retirement manager and presentation extraction are not prerequisites.
-
-VD-20 still separates dispatch-refusal notification from progress/closing answers. The first
-phase does not supply timeout, cancellation, or notice of a delivered request abandoned later.
-Its research is [sender-fate scope and sequencing](../reportbacks/sender-fate-research-RB.md).
-VD-21's authority workflow remains downstream selected work with its own scope. The
-[Workshop Goal Map](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns migration status.
-New-weave production and Flow remain behind this sequence, with no production packet selected.
+New-weave production and Flow remain larger capability directions without a new production packet.
+The schema-builder direction still authors C++; interpreted execution is pressure-driven. Local
+success must keep these future consumers reachable without forcing their implementation now.
 
 ## 7. Goal registry
 

@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-14\
+**Refreshed:** 2026-09-17\
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -79,17 +79,11 @@ Remove it without weakening the refusal path or the evidence that containment wa
 
 ### BL-DEF-05 — Files action identity changes meaning across modes
 
-**State:** IMPLEMENTATION ACCEPTED — [documentation housekeeping](../prompts/zengine-files-action-identity-doc-housekeeping.md) selected; PR #29 awaits merge
-
-**Owed:** Distinguish the authoring and browsing intents currently sharing `files.open`.
-Escape and Return queued in one poll over the authoring line can cancel it and then open the
-file under the browsing cursor. The ignored-id repair in PR #27 is accepted; an id declared
-in both modes is a distinct remaining problem. Preserve Files' own mode/activation policy
-without selecting general picture history or a new host command framework.
-
-**Wake:** selected now, after the accepted Info repair in merged PR #28.
-**Evidence:** [PR #27 corrections report](../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
-Decision 2 and the `files-stale-open` probe; founder accepted the repair sequence on 2026-09-14.
+**State:** CLOSED — founder confirmed PR #29 merged after the accepted documentation housekeeping.
+Browsing, chooser selection and authoring submission now have separate operation meanings.
+The [housekeeping report](../reportbacks/zengine-files-action-identity-doc-housekeeping-RB.md)
+and Git retain the evidence; do not reopen this repair from the older pending status.
+General queued-picture provenance remains a distinct pressure.
 
 ## 4. Adoption and release
 
