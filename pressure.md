@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-17
+**Refreshed:** 2026-09-18
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -23,18 +23,15 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-The founder's hands-on use and follow-up desktop notes supply concrete interaction, inspection
-and presentation pressure. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose)
-owns the sequence: build on accepted everyday interaction with a bounded replaceable
-desktop/launcher foundation and real-pane inspection. Local capture/control supports that work;
-expressive editors follow without waiting for the full UI-editing overlay. PRs #33 and #34 are
-accepted and merged. Refresh Git at execution, not from this board.
+The desktop foundation, Zengine PR #35, is accepted and merged after review and founder use.
+The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the product sequence:
+local inspection/capture/control, then expressive editors, followed by the UI-editing overlay
+and protected experimentation. BL-WORK-04's declaration-feedback mechanism is accepted and its
+backlog item closed; the original startup blocker in P-WORK-22 is resolved with explicit limits.
 
-The accepted Files action-identity, pane-to-source, Workshop development-launch and standalone
-host/admission arcs are predecessors, not still-selected tasks. BL-WORK-04 remains owed; the
-desktop arc must scope it when launch/default registration changes admission or needs rejection
-feedback. The preceding Escape correction is accepted; new work remains scoped by the desktop
-prompt, not a blanket backlog expansion.
+The immediate selected priority is **P-LOOM-07**, the mixed nested-schema admission discrepancy.
+Research must establish the intended rejection boundary and the owning defect before a repair is
+selected. This is a substrate priority, not a reopening of the accepted desktop architecture.
 Progress/closing answers, general picture provenance and service retirement keep their own bounds.
 
 ## 3. Workshop product pressure
@@ -50,45 +47,34 @@ but keyboard resize moves one cell per press and offers no coarse/fill operation
 **Trigger:** repeated real use treats this as the dominant arrangement cost after EDIT-1, or a
 surface-aware default can be stated without becoming a layout solver.
 
-### P-WORK-02 — The Pane Editor edits the spatial grammar only, and has no contextual door
+### P-WORK-02 — Broader pane inspection and contextual acquisition remain future work
 
-**State:** ACT — real-pane inspection and old-canvas retirement selected by the founder
-**Evidence:** WUX-13 (`Zen/reportbacks/WUX-13-RB.md`), `Zengine/agents/workshop.md` §"The Pane
-Editor has a subject"; founder's 2026-09-17 desktop/overlay direction
+**State:** WATCH — narrow real-pane inspection accepted in PR #35
+**Evidence:** [desktop continuation](../reportbacks/zengine-desktop-foundation-continuation-RB.md),
+Info's current laws and [the accepted foundation](goals/workshop.md#part-2--replaceable-desktop-and-pane-launching-accepted-foundation).
 
-The original pressure — Pane Inspect lacked a subject model; Info understood the selected
-document object — is answered: the Pane Editor holds an identity-held `PaneRef` subject
-independent of `Panels::selected`, lists the picker's inventory, and edits place/size/front/
-participation through the existing doors. What remains is narrower:
+Info now holds a real pane as its subject independently of selection and keyboard focus, and
+edits supported properties through their owners. The old object-document subject and canvas are
+retired. Remaining pressure concerns richer properties, contextual subject acquisition and the
+later editing overlay's source mapping; it does not require another narrow inspector.
+Keep the earlier anchors, fill, docking, locks and relative-placement questions available to that
+future consumer; the cramped default stack remains P-WORK-01 rather than a new inspector task.
 
-- it edits only what a `SetupPane` can say today (absolute place, per-axis size, front rank,
-  participation) — no anchors, fill, docking, locks or relative placement, because no pane can
-  hold them;
-- there is no contextual "edit this pane" row seeding the subject from the right-click menu;
-  the editor's own list is the acquisition door;
-- Info still inspects document objects. The founder has now selected retirement of that prototype
-  canvas while retaining Info for real-pane and later component/composite/schema subjects;
-  the new presentation must use each subject owner's facts and write operations;
-- the default nine-row stack height shows three panes and three rows (P-WORK-01).
+**Trigger:** a selected property or overlay workflow needs a missing owner or acquisition door.
+Keep selection, focus, click-through and the inspected subject distinct.
 
-**Disposition:** the [desktop foundation](goals/workshop.md#part-2--replaceable-desktop-and-pane-launching-selected-for-execution)
-is the immediate consumer. The later editing overlay broadens subject acquisition and source
-mapping. Preserve the identity-held subject independently of selection; do not require every
-future property before making one actual pane inspectable.
+### P-WORK-03 — Remaining shell ownership follows concrete consumers
 
-### P-WORK-03 — The pane protocol is what a provider can say, and the built-ins need more
+**State:** WATCH — pane extraction and the first desktop foundation accepted
 
-**State:** ORIGINAL PANE EXTRACTION ARC CLOSED; desktop/launcher consumer now selected for remaining shell behavior
+Files, Builder, Attention, Info, Terminal and Editor are pane weaves. The desktop now owns Pane
+Manager, Hotkeys, application defaults and backdrop. Layouts and remaining room/arrangement/focus
+implementation are still host-owned; they are not permanent exceptions to the peer-tool direction.
 
-Files, Builder, Attention, Info, Terminal and Editor are pane weaves. The accepted
-[PR #23 result](goals/workshop.md#pane-extraction-current-status-and-next-work) closes the Editor
-migration. Layouts, Pane Manager and the maker pane remain host-owned under the selected boundary.
-The pane protocol's current contract belongs in `Zengine/agents/panes.md`. The new desktop arc
-selects a consumer for Pane Manager/launcher, hotkey presentation and default behavior; it does
-not reopen the completed pane migrations or require all remaining extractions at once.
-
-**Trigger:** a selected remaining migration or a real provider demonstrates a missing contract.
-Preserve the component's undo, normalization, selection and fallback behavior with its owner.
+**Trigger:** a selected consumer needs to reshape one of those remaining fixed owners. The
+[Workshop Goal Map](goals/workshop.md#further-shell-extraction-reusable-effects-and-playful-consumers)
+owns that direction; no further extraction is selected by this pressure item alone.
+Preserve undo, normalization, selection and fallback behavior with the component's owner.
 `marks_persist.hpp` pulling `persist.hpp` into the weave image remains a separate follow-on hook.
 
 ### P-WORK-23 — Pane notices must agree with actions and hit-testing
@@ -159,26 +145,19 @@ P10 and its adjacent probe/evidence pack; Vision independently reproduced the sa
 **Trigger:** the next selected pointer/presentation provenance investigation, or ordinary use showing
 repeated queued clicks selecting or activating a subject the maker did not aim at.
 
-### P-WORK-22 — An authored load plan is all-or-nothing, and core panes now ride it
+### P-WORK-22 — Optional-load recovery has explicit limits
 
-**State:** ACT — the selected desktop recovery outcome reaches this startup boundary
-**Evidence:** `reportbacks/pane-weaves-remaining-RB6.md` ("What the work found", 2); `agents/realization.md` LOAD-0/BOOT-0 (the boot walk stops at a refused row and the host exits, code 4)
+**State:** WATCH — the original startup blocker is resolved by accepted PR #35
+**Evidence:** [desktop continuation](../reportbacks/zengine-desktop-foundation-continuation-RB.md),
+its recovery table and the current realization/desktop contracts.
 
-A tree without `zengine-info-pane.so` does not open a Workshop with a row saying so: the boot
-walk refuses the row, says "the authored plan was not completed; 10 artifact(s) participated
-before it stopped. Exiting." and exits — as it does for any of the rows ahead of it. Before this
-arc that list held tools; it now holds the pane a maker meets first.
+Optional rows, explicit unavailable/pending state and attributable failure presentation let the
+desktop remain useful when an optional tool fails. Essential startup is still distinct: failure
+of the desktop/display uses the host/console diagnosis and relaunch route. There is no live return
+to a stepped-over plan row, and a missing desktop does not acquire a launcher without relaunch.
 
-The new desktop cannot explain an unavailable tool if execution ends before the recovery surface
-exists. Current `workshop/workshop.cpp` still marks the project refused and requests host stop
-on this path. The desktop preflight must trace both launch paths, distinguish essential startup
-from tool availability and choose the smallest explicit recovery policy. Optional plan rows are
-one possible mechanism, not a decision already made. Preserve authority, authored order and
-dependency meaning; do not silently skip every failure. Read P-WORK-18 alongside this boundary.
-
-**Disposition:** include the necessary recovery boundary in the desktop/launcher packet. A running
-desktop reports tool failures; failure of the desktop/display itself needs a proven host/console
-route. This does not select a general dependency solver or a new Loom boot framework.
+**Trigger:** actual use needs live recovery across one of those stated boundaries. Do not infer
+a dependency solver, automatic retries or a new boot framework from the accepted optional-row policy.
 
 ### P-WORK-04 — Conventional editor expansion should come from use
 
@@ -359,26 +338,22 @@ must specify what boundary actually enforces each promise.
 **Trigger:** one of those consumers needs a missing authority decision or operator explanation.
 Do not infer a universal grant store, modal system or remote identity from the completed host arc.
 
-### P-WORK-19 — The keymap is a closed catalog in one header
+### P-WORK-19 — Remaining host input policy follows its owner
 
-**State:** LANDED for pane rows (Zengine PR #15, 2026-09-06): `PaneActions` joins under the collision law at admission, the file wins in both load orders, a Workshop id is refused, dispatch sends the resolved id; BL-DEF-03 rode along  
-**Evidence:** `workshop/keymap.hpp` (`join_pane_rows`), `agents/workshop/keyboard.md`, `agents/decisions/a-pane-declares-its-actions.md`
+**State:** WATCH — pane declarations and application defaults have participating owners
+**Evidence:** [desktop continuation](../reportbacks/zengine-desktop-foundation-continuation-RB.md),
+current keyboard and desktop contracts.
 
-What stands: `Act` and `KeyContext` are still closed for the host's own rows, and shrink as panes
-leave (`kFiles`, `kRecipeChooser`, `kAuthoring` left with Files). The prose still argues in the
-header; it moves to `agents/decisions/` when the file is next touched for a reason of its own.
+The desktop supplies configurable launch actions and default Escape with declared precedence;
+Hotkeys presents the same binding truth. Workshop answers declarations with `ActionsJudged` and
+later displacement with `ActionsWithdrawn`; the provider owns its response. This completes the
+accepted BL-WORK-04 outcome without promising dispatch success.
 
-The selected desktop/launcher supplies the next consumer: tool launch shortcuts must be usable
-without the tool already holding focus, while global precedence, user overrides and conflicts
-stay explicit. Restore the Terminal shortcut through that shared mechanism and make hotkey
-presentation replaceable without creating another binding catalog. Default Escape, selection,
-keyboard focus and click-through need distinct declared meanings, scoped by the Goal Map.
+The remaining host `Act`/`KeyContext` vocabulary and rationale still living in the keymap header
+remain candidates for the next relevant ownership change, not new work in the Loom investigation.
 
-The founder now requires a provider to be able to learn when Workshop rejects its action
-declaration, so that it can recover under its own policy. The bounded follow-up, current gap
-and wake condition belong to [BL-WORK-04](backlog.md#bl-work-04--a-pane-can-learn-that-its-action-declaration-was-rejected).
-
-
+**Trigger:** a remaining host-owned input operation or a new configuration needs another declared
+owner. Keep selection, keyboard focus and click-through separate; do not create a second keymap.
 
 ### P-WORK-21 — The Composer still matches raw keys
 
@@ -551,6 +526,27 @@ runner's Windows a staged non-image raised a modal hard error inside the call an
 the job timed out, where a desktop Windows 11 turned it into error 193. Zengine's hosts now set the
 error mode; `dynamic-weaves.md` should say a host decides it. The copier's shape-name collision is
 now documented in the weave guide and demonstrated by no Loom case at the guide's altitude.
+That witness/contract question is selected with P-LOOM-07; the Windows error-mode documentation
+remains separate and unselected.
+
+### P-LOOM-07 — A nested schema conflict may load before delivery refuses it
+
+**State:** ACT — research selected by the founder on 2026-09-18; substrate issues take priority
+**Evidence:** [compatibility probe and captures](../reportbacks/zengine-desktop-foundation-corrections/probe-compatibility.txt),
+[research prompt](../prompts/loom-schema-admission-research.md).
+
+An older Zengine desktop with a differing nested `InventoryPane` shape loaded into a newer native
+Workshop, then received a `PaneInventory` schema mismatch at delivery and remained waiting.
+Loom's guide promises mount-time conflict detection; GATE-04 and manifest reconstruction require
+content-derived agreement with specific registry/claim scope. Their exact relationship to this
+native/loaded case is unestablished. A gate refusal is evidence of that boundary working, not proof
+that admission kept its promise.
+
+**Selected outcome:** reproduce on verified current artifacts, reduce to a Loom-only witness,
+trace publication/registry/claim ownership, distinguish implementation and documentation errors,
+and recommend the smallest repair with lifecycle and compatibility consequences. No root cause
+or normative weakening is assumed. P-LOOM-06's copied-weave witness is directly related; a broad
+ABI, schema-migration or registry redesign is not selected.
 
 ## 6. Adoption pressure
 

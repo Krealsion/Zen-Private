@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-17\
+**Refreshed:** 2026-09-18\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** make the running Workshop comfortable to use and reshape through replaceable desktop tools, inspection, expressive editors and deliberate publication (§6)
-**Current execution state:** Neovim PR #33 and everyday interaction PR #34 are accepted and merged. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) selects the bounded desktop/launcher foundation for execution; service retirement remains parked.
+**Current execution state:** Desktop foundation PR #35 is accepted and merged. Loom schema-admission research (P-LOOM-07) is the immediate priority; the [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) retains the next product capabilities. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -158,12 +158,14 @@ keep or revert it through ordinary Workshop tools. Pane-to-source and Workshop s
 are now the starting point. Neovim is a concrete editor-replacement consumer; generic changed-shape
 development remains a separate capability.
 
-The founder selected the next direction on 2026-09-17:
+The desktop/launcher, configurable defaults and narrow real-pane inspection are accepted in
+PR #35; the prototype canvas and picker are retired. On 2026-09-18 the founder selected Loom
+schema-admission research as the immediate priority, before the next product work. Establish the
+contract, root cause and bounded repair; do not infer a general migration system from the finding.
 
-1. Build on accepted everyday interaction: give shell behavior a replaceable desktop/launcher
-   home, configurable defaults and narrow real-pane inspection; retire the prototype canvas as
-   its responsibilities are removed or rehomed. Bring local introspection, screenshots and
-   authorized control alongside that foundation.
+The remaining product direction is:
+
+1. Bring local introspection, screenshots and authorized control to the accepted desktop foundation.
 2. Improve expressive editor presentation without waiting for complete UI authoring. Follow with
    the real-UI editing overlay and protected experimentation according to their actual dependencies.
    General schema/composite authoring, deeper configuration/setup, reusable GUI behavior, Python,

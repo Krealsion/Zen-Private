@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-17\
+**Refreshed:** 2026-09-18\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** everyday use and a replaceable desktop with useful inspection, then expressive presentation and protected experimentation
-**Current execution state:** Neovim PR #33 and everyday interaction PR #34 are accepted and merged. The bounded desktop/launcher foundation is selected for execution in §7; its prompt owns the execution scope.
+**Current execution state:** Desktop foundation PR #35 is accepted and merged. Loom schema-admission research is the immediate priority; local inspection/control and expressive editors remain the next product capabilities in §7.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -36,7 +36,7 @@ A maker can currently:
   state follow the maker rather than the CWD;
 - use `--isolated` for a run that reads and writes no per-user Workshop state;
 - restore the previous desk, normal window size, desktop position, and maximized state;
-- open/save an authored object document and name/save/restore a separate pane setup;
+- name/save/restore pane layouts and inspect a real pane independently of selection or focus;
 - load an explicit authored project plan and inspect both the resolved arrangement and the live
   power stack;
 - keep unresolved pane intent without silently rewriting it;
@@ -44,7 +44,7 @@ A maker can currently:
   front order, and independent-axis settlement;
 - use the same application meaning through TUI and SDL media;
 - discover and remap one keyboard action truth used by dispatch, help, and contextual presentation;
-- right-click a room, pane, or object (or use the keyboard door) to see actions meaningful to that
+- right-click a room or pane (or use the keyboard door) to see actions meaningful to that
   subject, without pointing becoming selection;
 - see standing conditions in Attention while transient event reports remain on the notice row;
 - choose an authored build recipe, build it, and offer its artifact to the live realization owner;
@@ -84,9 +84,9 @@ changed-schema development workflow. The founder merged PR #33 on 2026-09-17 as
 exactly. This records founder acceptance and merge, without claiming an independent full review.
 Read live Git for current disposition.
 
-The object-document canvas remains implemented, but its retirement is now selected direction.
-Section 7 separates that removal from the pane desktop and from the later UI-editing overlay;
-none of those planned capabilities is claimed as present here.
+The prototype object-document canvas and old picker are retired by accepted PR #35. The
+desktop weave owns application defaults, Pane Manager and Hotkeys; Info inspects real panes.
+The broader UI-editing overlay remains future work (§7).
 
 ## 3. Current ownership model
 
@@ -109,11 +109,11 @@ moves and the consumer that needs the seam. The minimal host/authority root rema
 application-controlled replacement or relaunch; application behavior should not gain that
 immovability merely by being implemented there today.
 
-The selected consumer is a replaceable desktop/root presentation with a pane launcher, default
-interaction policy and useful failure explanations. This application root is distinct from the
-fixed hosting/authority root. The desktop can explain unavailable tools while it is running;
-failure of the desktop or its display needs recovery through the baseline Loom host/console.
-The earlier opening manager establishes coordination boundaries, not an already extracted desktop.
+The desktop is now a replaceable participant with a pane launcher, declared application
+defaults and attributable unavailable-tool feedback. It remains distinct from the fixed
+hosting/authority root. Workshop still owns application coordination, room, arrangement and
+focus. Optional tool failures leave the desktop available; essential desktop/display failures
+retain the host/console diagnosis and relaunch boundary documented by the accepted phase.
 
 ### Failure and supervision
 
@@ -358,8 +358,9 @@ understand and reshape. The founder selected this roadmap on 2026-09-17 after ha
 Files, Builder, Attention, Info, Terminal and Editor are pane weaves. The selected extraction and
 bounded interaction repairs through Files action identity are accepted and merged. Their reports
 and Git retain the acceptance history; the live source and routed laws own exact mechanics.
-Layouts, Pane Manager and other remaining host-owned behavior are candidates for the shell work
-below, not permanent exceptions to the peer-tool direction.
+Pane Manager, Hotkeys and application defaults now belong to the desktop weave. Layouts and
+remaining host-owned presentation remain candidates for later shell work, not permanent exceptions
+to the peer-tool direction.
 
 Everyday interaction PR #34 is accepted and merged on 2026-09-17 as
 `be1231112c20a3bbcb13f0012ec1042f85c99744`, with the same tree as reviewed head `633f778`.
@@ -375,8 +376,9 @@ making a complete UI authoring system a prerequisite for useful editor improveme
 
 | Order | Outcome | Purpose and boundary |
 |---|---|---|
-| Now | Replaceable desktop, pane launching, default interaction policy and a narrow real-pane inspector | Build on accepted everyday interaction; give remaining shell behavior a useful owner and retire the old canvas/picker paths as their responsibilities are deliberately removed or rehomed. |
-| Alongside that foundation / immediately after | Local inspection, screenshots and authorized input/control | Make the visible result and failed operations observable; supply the smallest useful path before another large UI pass. |
+| Accepted foundation | Replaceable desktop, pane launching, default interaction policy and real-pane inspection | PR #35 retired the old canvas/picker and gives application behavior a replaceable owner. |
+| Immediate priority | Loom schema-admission research | Explain why a conflicting nested schema loaded before delivery refused it; establish the owning contract and repair before selecting implementation. |
+| Next product capability | Local inspection, screenshots and authorized input/control | Make the visible result and failed operations observable; supply the smallest useful path before another large UI pass. |
 | Then | Expressive Neovim/shared presentation and bounded standard-editor improvements | Make everyday editing comfortable; do not wait for a general source-editing overlay. |
 | Following those foundations | UI-editing overlay and broader Info subjects; protected draft/publication work | Connect a visible subject to configuration or source. Stage draft protection before promising safe experimentation or publication to originals. |
 | Later, through concrete consumers | General schema/composite authoring, deeper configuration/setup, reusable effects, Python, GPU and multi-host work | Extend demonstrated owners rather than prebuilding their possible frameworks. |
@@ -414,60 +416,41 @@ The [Part 1 prompt](../../prompts/zengine-everyday-interaction.md) records the o
 current mechanics belong to the repository's routed laws. Richer editor presentation remains
 the separate work below.
 
-### Part 2 — Replaceable desktop and pane launching (selected for execution)
+### Part 2 — Replaceable desktop and pane launching (accepted foundation)
 
-The [desktop foundation prompt](../../prompts/zengine-desktop-foundation.md) carries this bounded
-outcome through preflight, implementation and proof in one continuous executor session.
+PR #35 is accepted and merged on 2026-09-18 as
+`90d709f65aa510520bdc5a1a2e20b9824f4662f5`, following review of `ce61deb` and the founder's
+hands-on use. The [continuation report](../../reportbacks/zengine-desktop-foundation-continuation-RB.md)
+and [cleanup report](../../reportbacks/zengine-desktop-foundation-cleanup-RB.md) retain evidence;
+current behavior belongs to Zengine's routed laws and public Workshop guides.
 
-Replace the prototype object's role as Workshop's default workspace with an application desktop
-whose behavior can participate and be replaced. The target is the old rectangle/object-document
-canvas and its shell commands, not the useful concept of a desk, pane arrangement or saved layout.
-The fixed host retains its authority and recovery responsibilities; a participating desktop does
-not inherit immovability merely because it is the parent of the other panes.
+Preserve these accepted boundaries:
 
-The first packet should demonstrate a coherent, bounded end-to-end result:
+- The desktop weave owns the Pane Manager, Hotkeys, declared launch/default actions and room
+  backdrop. Workshop judges application operations and publishes the pane inventory; the
+  minimal hosting/authority root stays outside application-controlled replacement.
+- Info holds a real pane as its subject independently of focus/selection, including itself,
+  and edits supported properties through their owners. The old object canvas and picker are
+  retired; broader component/composite/schema subjects remain future work.
+- Declarations receive attributed verdicts and later withdrawal notices, with recovery owned
+  by the declaring participant. This completes BL-WORK-04; dispatch refusal remains a different fact.
+- Optional tool-load failure is attributable without ending the running desktop. A failed
+  desktop/display retains host/console diagnosis and relaunch limits; automatic live return to
+  skipped plan rows is not supplied. P-WORK-22 now tracks only the remaining recovery pressure.
+- Lost pane choices remain lost across replacement. Creator operations distinguish known
+  non-delivery from delivered silence; no timer invents an answer or retry.
+- Same-contract reload is supported. Changes to accepted messages and the unreleased inventory
+  shape used a matched rebuild and fresh runtime, preserving the old runtime and authored data.
 
-- Open or focus Terminal and Pane Manager through declared, configurable launch actions. Restore
-  Ctrl-T as the proposed Terminal default; give Pane Manager its own discoverable default. Keep
-  launch intent distinct from toggling a tool away or unloading its provider.
-- Move the picker/launcher and hotkey presentation toward ordinary participating tools. Read one
-  authoritative action/binding truth for dispatch, help and remapping. A tool's in-pane actions and
-  its launch action have different lifetimes: launching cannot depend on already focusing it.
-  Explain missing/unavailable targets without silently loading an unauthored artifact.
-- Let the desktop handle input available to it and own its application defaults. Explicit global
-  bindings have declared precedence and collision rules; neither an unanswered message nor an
-  ignored key is automatic permission to act. A default can be replaced or disabled while the
-  pane's more specific operation remains its own.
-- Inspect one real pane and change a supported property through its actual owner. Keep the
-  inspection subject independent of selection/focus, so entering the inspector does not retarget
-  it and self-inspection remains possible. This proves a useful seam without requiring a general
-  component tree, schema editor or arbitrary source-rewriting engine.
-- Demonstrate an unavailable tool with an attributable explanation and a reachable recovery path.
-  P-WORK-22 matters here: the current boot refusal can end the host before a desktop is available.
-  Preflight must trace both launch paths and distinguish essential startup from recoverable tool
-  failure before choosing policy. Continuing blindly after every failed row is not the outcome.
-  If the desktop/display fails, prove what the baseline console can actually diagnose or repair;
-  do not claim a fallback that depends on the failed component itself.
+The mixed-schema observation exposed a Loom agreement question, now selected ahead of the next
+UI phase: [research prompt](../../prompts/loom-schema-admission-research.md), P-LOOM-07. This is
+not authorization for a generic migration framework. Local capture/control and expressive
+editors keep their roadmap positions after the substrate investigation and its disposition.
 
-Audit and retire the old canvas, its object-specific shell commands and redundant picker UI as
-part of this arc. Retain any useful property/document primitives under their owners. Account for
-existing authored files explicitly; do not delete the maker's files or silently reinterpret old
-documents as pane setups. Removal need not wait for the complete future overlay. Info is retained,
-with a useful real-pane subject as its old default document consumer goes away. Pane Manager's
-inspection responsibilities can move into Info; launching/participation and placement remain
-operations judged by their respective owners. Do not preserve two authoritative pane inventories.
-
-Keep an initial configuration inventory beside the eventual owning contracts: default Escape
-behavior and its disabling/replacement; launch bindings; selection eligibility; keyboard-focus
-eligibility; pointer interception/click-through; and default placement/presentation preferences.
-Selection, focus and click-through are distinct choices, not one interactive/noninteractive bit.
-This inventory guides the first necessary properties; it does not require every configuration
-or a configuration framework in the first packet.
-
-Check P-WORK-02, P-WORK-03, P-WORK-19 and P-WORK-22 at preflight. Declaration admission and
-provider-visible rejection have a concrete upcoming consumer in launch/default registration:
-scope the relevant BL-WORK-04 work when that surface changes. Preserve BL-WORK-02's small example.
-These dependencies belong to this arc; the preceding Escape correction is accepted.
+Keep future configuration choices separate: selection eligibility, keyboard focus,
+pointer interception/click-through, placement and presentation preferences. The accepted desktop
+does not promise every such configuration or the complete UI-editing overlay. Preserve the
+simple external-pane learning artifact (BL-WORK-02).
 
 ### Part 3 — Expressive editors and presentation
 
@@ -709,9 +692,9 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** the replaceable desktop/launcher and narrow
-  real-pane inspection, with local capture/control close beside it; expressive editors, the
-  UI-editing overlay and protected drafts follow the dependencies in §7.
+- **Next outcome:** resolve the Loom schema-admission question through research and a reviewed
+  repair disposition. Local capture/control, expressive editors, the UI-editing overlay and
+  protected drafts follow the product dependencies in §7.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.
