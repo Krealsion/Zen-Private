@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** make the running Workshop comfortable to use and reshape through replaceable desktop tools, inspection, expressive editors and deliberate publication (§6)
-**Current execution state:** Desktop foundation PR #35 is accepted and merged. Loom schema-admission research (P-LOOM-07) is the immediate priority; the [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) retains the next product capabilities. Service retirement remains parked.
+**Current execution state:** Desktop foundation PR #35 is accepted and merged. The Loom schema-admission research is accepted; one implementation phase for native/loaded declarations and nested consistency (P-LOOM-07) is the immediate priority. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) retains the next product capabilities. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -159,9 +159,11 @@ are now the starting point. Neovim is a concrete editor-replacement consumer; ge
 development remains a separate capability.
 
 The desktop/launcher, configurable defaults and narrow real-pane inspection are accepted in
-PR #35; the prototype canvas and picker are retired. On 2026-09-18 the founder selected Loom
-schema-admission research as the immediate priority, before the next product work. Establish the
-contract, root cause and bounded repair; do not infer a general migration system from the finding.
+PR #35; the prototype canvas and picker are retired. The founder accepted the Loom schema-admission
+findings and selected one implementation phase before the next product work: native and loaded
+emitted declarations, consistent nested agreement and lossless valid manifests, with vocabulary
+separate from authority. [P-LOOM-07](pressure.md#p-loom-07--declared-schema-agreement-is-incomplete)
+owns the selected boundary and evidence. This does not select a general migration system.
 
 The remaining product direction is:
 

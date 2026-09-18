@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-18\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** everyday use and a replaceable desktop with useful inspection, then expressive presentation and protected experimentation
-**Current execution state:** Desktop foundation PR #35 is accepted and merged. Loom schema-admission research is the immediate priority; local inspection/control and expressive editors remain the next product capabilities in §7.
+**Current execution state:** Desktop foundation PR #35 is accepted and merged. The accepted Loom schema-admission research now leads to one implementation phase for native/loaded declarations and nested consistency; local inspection/control and expressive editors remain the next product capabilities in §7.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -377,7 +377,7 @@ making a complete UI authoring system a prerequisite for useful editor improveme
 | Order | Outcome | Purpose and boundary |
 |---|---|---|
 | Accepted foundation | Replaceable desktop, pane launching, default interaction policy and real-pane inspection | PR #35 retired the old canvas/picker and gives application behavior a replaceable owner. |
-| Immediate priority | Loom schema-admission research | Explain why a conflicting nested schema loaded before delivery refused it; establish the owning contract and repair before selecting implementation. |
+| Immediate priority | Loom schema-admission implementation | Make native and loaded declared vocabulary, including emitted and nested definitions, agree at admission; preserve valid manifest identity, authority separation and live claim lifetimes. |
 | Next product capability | Local inspection, screenshots and authorized input/control | Make the visible result and failed operations observable; supply the smallest useful path before another large UI pass. |
 | Then | Expressive Neovim/shared presentation and bounded standard-editor improvements | Make everyday editing comfortable; do not wait for a general source-editing overlay. |
 | Following those foundations | UI-editing overlay and broader Info subjects; protected draft/publication work | Connect a visible subject to configuration or source. Stage draft protection before promising safe experimentation or publication to originals. |
@@ -442,10 +442,12 @@ Preserve these accepted boundaries:
 - Same-contract reload is supported. Changes to accepted messages and the unreleased inventory
   shape used a matched rebuild and fresh runtime, preserving the old runtime and authored data.
 
-The mixed-schema observation exposed a Loom agreement question, now selected ahead of the next
-UI phase: [research prompt](../../prompts/loom-schema-admission-research.md), P-LOOM-07. This is
-not authorization for a generic migration framework. Local capture/control and expressive
-editors keep their roadmap positions after the substrate investigation and its disposition.
+The mixed-schema research is accepted, with native and loaded declaration repair, nested consistency
+and the compatibility boundary selected together in the
+[implementation prompt](../../prompts/loom-schema-admission-implementation.md).
+[P-LOOM-07](../pressure.md#p-loom-07--declared-schema-agreement-is-incomplete) owns the accepted
+decisions and evidence. Local capture/control and expressive editors retain their roadmap positions
+after this substrate repair; generic migration remains separate.
 
 Keep future configuration choices separate: selection eligibility, keyboard focus,
 pointer interception/click-through, placement and presentation preferences. The accepted desktop
@@ -692,8 +694,8 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** resolve the Loom schema-admission question through research and a reviewed
-  repair disposition. Local capture/control, expressive editors, the UI-editing overlay and
+- **Next outcome:** land and review the selected Loom schema-admission repair as one complete
+  native/loaded contract. Local capture/control, expressive editors, the UI-editing overlay and
   protected drafts follow the product dependencies in §7.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing

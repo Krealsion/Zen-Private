@@ -29,9 +29,10 @@ local inspection/capture/control, then expressive editors, followed by the UI-ed
 and protected experimentation. BL-WORK-04's declaration-feedback mechanism is accepted and its
 backlog item closed; the original startup blocker in P-WORK-22 is resolved with explicit limits.
 
-The immediate selected priority is **P-LOOM-07**, the mixed nested-schema admission discrepancy.
-Research must establish the intended rejection boundary and the owning defect before a repair is
-selected. This is a substrate priority, not a reopening of the accepted desktop architecture.
+The immediate selected priority is **P-LOOM-07**, now one implementation phase after accepted
+research: native/loaded declared vocabulary, nested consistency and valid manifest identity.
+Authority and live claim ownership retain their separate contracts. This is a substrate priority;
+the accepted desktop architecture remains the product foundation.
 Progress/closing answers, general picture provenance and service retirement keep their own bounds.
 
 ## 3. Workshop product pressure
@@ -526,27 +527,34 @@ runner's Windows a staged non-image raised a modal hard error inside the call an
 the job timed out, where a desktop Windows 11 turned it into error 193. Zengine's hosts now set the
 error mode; `dynamic-weaves.md` should say a host decides it. The copier's shape-name collision is
 now documented in the weave guide and demonstrated by no Loom case at the guide's altitude.
-That witness/contract question is selected with P-LOOM-07; the Windows error-mode documentation
-remains separate and unselected.
+That copied-weave regression witness is selected in P-LOOM-07's implementation; the Windows
+error-mode documentation remains separate and unselected.
 
-### P-LOOM-07 — A nested schema conflict may load before delivery refuses it
+### P-LOOM-07 — Declared schema agreement is incomplete
 
-**State:** ACT — research selected by the founder on 2026-09-18; substrate issues take priority
-**Evidence:** [compatibility probe and captures](../reportbacks/zengine-desktop-foundation-corrections/probe-compatibility.txt),
-[research prompt](../prompts/loom-schema-admission-research.md).
+**State:** ACT — research accepted; one implementation phase selected by the founder on 2026-09-18
+**Evidence:** [research report](../reportbacks/loom-schema-admission-research-RB.md),
+[independent review and reproduction](../reportbacks/loom-schema-admission-research-review/review.md),
+[implementation prompt](../prompts/loom-schema-admission-implementation.md).
 
-An older Zengine desktop with a differing nested `InventoryPane` shape loaded into a newer native
-Workshop, then received a `PaneInventory` schema mismatch at delivery and remained waiting.
-Loom's guide promises mount-time conflict detection; GATE-04 and manifest reconstruction require
-content-derived agreement with specific registry/claim scope. Their exact relationship to this
-native/loaded case is unestablished. A gate refusal is evidence of that boundary working, not proof
-that admission kept its promise.
+Native emit definitions never enter the agreement transaction; loaded emits never cross the
+manifest. Native nested definitions also fail to meet the loaded dependency registry. This explains
+the stale desktop admitted against Workshop's newer `PaneInventory` declaration. Independently,
+manifest collection can discard conflicting nested definitions by name/version, allowing one loaded
+weave to advertise a different contract from the one it declared. These are registration and
+representation gaps; existing comparison works when the actual definitions meet.
 
-**Selected outcome:** reproduce on verified current artifacts, reduce to a Loom-only witness,
-trace publication/registry/claim ownership, distinguish implementation and documentation errors,
-and recommend the smallest repair with lifecycle and compatibility consequences. No root cause
-or normative weakening is assumed. P-LOOM-06's copied-weave witness is directly related; a broad
-ABI, schema-migration or registry redesign is not selected.
+**Selected outcome:** native and loaded emitted declarations join one consistent transitive
+agreement policy, including conflicts within a single manifest, with valid identities preserved.
+Version the ABI/manifest boundary deliberately, preserve transactional refusal and live reclamation,
+and write an owning decision record. Vocabulary grants no authority; Emit remains non-exhaustive
+for dynamic forwarding. Internal stages may help, but native-only completion and deferring the
+nested gap are not the accepted scope. Implementation and acceptance are still outstanding.
+
+P-LOOM-06's copied-weave witness fits. Reassess BL-ARCH-01 at the shared traversal/public-header
+boundary without importing kernel machinery into switchboard. The known manifest send-description
+seam needs a precise disposition: emitted vocabulary is descriptive, not destination-specific
+authority or an approval interface. General migration and a process-lifetime registry are not selected.
 
 ## 6. Adoption pressure
 
