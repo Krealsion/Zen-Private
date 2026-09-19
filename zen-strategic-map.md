@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** make the running Workshop comfortable to use and reshape through replaceable desktop tools, inspection, expressive editors and deliberate publication (§6)
-**Current execution state:** Desktop foundation PR #35 is accepted and merged. The Loom schema-admission research is accepted; one implementation phase for native/loaded declarations and nested consistency (P-LOOM-07) is the immediate priority. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) retains the next product capabilities. Service retirement remains parked.
+**Current execution state:** Desktop foundation PR #35 and the paired schema-admission arc (Loom #8 / Zengine #36) are accepted and merged. Next is an external Loom host for authorized Workshop input, screenshots and inspection, with existing Loom history and one reusable test package. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns this scope alongside the parallel pane-UX work. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -105,7 +105,9 @@ capabilities, isolation, dynamic weaves, lifecycle, replacement, and host-owned 
 Message acceptance discovery reads the same registered shape truth delivery enforcement reads.
 Ask provenance and bounded host turns are explicit. Opted-in senders receive authenticated
 dispatch refusals for exact attempts; delivered silence is not settled by that facility. Joint
-publication and attributed application facts are shipped in ABI v8. Progress/closing answers
+publication and attributed application facts shipped in ABI v8. Declared schema agreement now
+includes emitted vocabulary and nested definitions across native and loaded participants, with
+lossless valid manifests and the ABI v9 / manifest v5 boundary. Progress/closing answers
 remain separate selected work (VD-20). The standalone host and explicit admission-policy
 consumer are merged; further authority UX starts there. SDL has been removed from Loom: the portable pixel-layout
 brain remains, while Zengine owns the active graphical product medium.
@@ -138,10 +140,10 @@ Neovim/standard-editor live handoff successfully. Its report also records baseli
 PR #33 is merged. The Goal Map records founder acceptance, the merge identity and its match
 to the report head, and routes the accepted predecessors' evidence.
 
-The next pressure comes from inhabiting and reshaping the real environment. The founder selected
-retirement of the prototype object canvas, retaining Info and useful property mechanisms for
-inspection of actual panes. The replaceable desktop and later UI-editing overlay are selected
-work, not implemented capabilities. The [Goal Map](goals/workshop.md) owns the sequence and limits.
+The next pressure comes from inhabiting and reshaping the real environment. The replaceable
+desktop has retired the prototype object canvas; Info inspects actual panes. External control
+and evidence, richer tool presentation and the later UI-editing overlay build on that accepted
+foundation. The [Goal Map](goals/workshop.md) owns the sequence and limits.
 
 ## 5. EDIT-1 — landed
 
@@ -159,19 +161,23 @@ are now the starting point. Neovim is a concrete editor-replacement consumer; ge
 development remains a separate capability.
 
 The desktop/launcher, configurable defaults and narrow real-pane inspection are accepted in
-PR #35; the prototype canvas and picker are retired. The founder accepted the Loom schema-admission
-findings and selected one implementation phase before the next product work: native and loaded
-emitted declarations, consistent nested agreement and lossless valid manifests, with vocabulary
-separate from authority. [P-LOOM-07](pressure.md#p-loom-07--declared-schema-agreement-is-incomplete)
-owns the selected boundary and evidence. This does not select a general migration system.
+PR #35; the prototype canvas and picker are retired. Loom #8 and Zengine #36 completed the
+schema-admission repair: native and loaded emitted declarations, nested agreement and valid
+manifest identity, with vocabulary separate from authority.
+[P-LOOM-07](pressure.md#p-loom-07--declared-schema-agreement-is-incomplete) retains the disposition
+and evidence. This does not supply or select a general migration system.
 
 The remaining product direction is:
 
-1. Bring local introspection, screenshots and authorized control to the accepted desktop foundation.
+1. Connect a separate Loom host to Workshop for authorized input, screenshots and inspection.
+   Reuse Loom's Recorder and Logger with deliberate per-message retention; demonstrate one
+   reusable test package running through Loom. Workshop displays connected hosts and exposes
+   the admission seam for a future per-connection approve/refuse popup. The Goal Map owns the
+   boundary; the parallel pane-UX implementation remains independent work to integrate with.
 2. Improve expressive editor presentation without waiting for complete UI authoring. Follow with
    the real-UI editing overlay and protected experimentation according to their actual dependencies.
    General schema/composite authoring, deeper configuration/setup, reusable GUI behavior, Python,
-   GPU and multi-host capabilities follow concrete consumers.
+   GPU and broader multi-host capabilities follow concrete consumers.
 
 The [Workshop roadmap](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns exact items,
 the founder's Terminal key semantics, and phase boundaries. "Gut the shell" means make fixed

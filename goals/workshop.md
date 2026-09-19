@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-18\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** everyday use and a replaceable desktop with useful inspection, then expressive presentation and protected experimentation
-**Current execution state:** Desktop foundation PR #35 is accepted and merged. The accepted Loom schema-admission research now leads to one implementation phase for native/loaded declarations and nested consistency; local inspection/control and expressive editors remain the next product capabilities in §7.
+**Current execution state:** Desktop foundation PR #35 and the schema-admission pair (Loom #8 / Zengine #36) are accepted and merged. The next arc connects an external Loom host to Workshop for authorized input, screenshots, inspection and a reusable test package (§7), alongside the independent pane-UX work.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -377,11 +377,11 @@ making a complete UI authoring system a prerequisite for useful editor improveme
 | Order | Outcome | Purpose and boundary |
 |---|---|---|
 | Accepted foundation | Replaceable desktop, pane launching, default interaction policy and real-pane inspection | PR #35 retired the old canvas/picker and gives application behavior a replaceable owner. |
-| Immediate priority | Loom schema-admission implementation | Make native and loaded declared vocabulary, including emitted and nested definitions, agree at admission; preserve valid manifest identity, authority separation and live claim lifetimes. |
-| Next product capability | Local inspection, screenshots and authorized input/control | Make the visible result and failed operations observable; supply the smallest useful path before another large UI pass. |
+| Accepted foundation | Loom schema admission, paired with its Zengine consumer | Loom #8 / Zengine #36 make emitted and nested definitions agree at admission while preserving valid identities, authority separation and live claim lifetimes. |
+| Immediate priority | External Loom host for authorized input, screenshots, inspection and reusable tests | Prove communication between two hosts, visible connections and inspectable results using Loom's existing Recorder/Logger; keep application operations with their owners. |
 | Then | Expressive Neovim/shared presentation and bounded standard-editor improvements | Make everyday editing comfortable; do not wait for a general source-editing overlay. |
 | Following those foundations | UI-editing overlay and broader Info subjects; protected draft/publication work | Connect a visible subject to configuration or source. Stage draft protection before promising safe experimentation or publication to originals. |
-| Later, through concrete consumers | General schema/composite authoring, deeper configuration/setup, reusable effects, Python, GPU and multi-host work | Extend demonstrated owners rather than prebuilding their possible frameworks. |
+| Later, through concrete consumers | General schema/composite authoring, deeper configuration/setup, reusable effects, Python, GPU and broader multi-host work | Extend demonstrated owners rather than prebuilding their possible frameworks. |
 
 These are capability boundaries, not mandatory research/implementation handoffs or arbitrary PR
 counts. Each executor packet should carry its bounded goal through preflight, implementation and
@@ -442,12 +442,12 @@ Preserve these accepted boundaries:
 - Same-contract reload is supported. Changes to accepted messages and the unreleased inventory
   shape used a matched rebuild and fresh runtime, preserving the old runtime and authored data.
 
-The mixed-schema research is accepted, with native and loaded declaration repair, nested consistency
-and the compatibility boundary selected together in the
-[implementation prompt](../../prompts/loom-schema-admission-implementation.md).
-[P-LOOM-07](../pressure.md#p-loom-07--declared-schema-agreement-is-incomplete) owns the accepted
-decisions and evidence. Local capture/control and expressive editors retain their roadmap positions
-after this substrate repair; generic migration remains separate.
+The mixed-schema repair is accepted and merged as Loom #8 and Zengine #36. Emitted and nested
+definitions now join admission agreement natively and across ABI v9 / manifest v5; valid schema
+identity survives the manifest boundary. The shared-graph traversal and its timeout witness were
+also corrected. [P-LOOM-07](../pressure.md#p-loom-07--declared-schema-agreement-is-incomplete)
+routes the evidence. External capture/control and expressive editors can build on this result;
+generic migration remains separate.
 
 Keep future configuration choices separate: selection eligibility, keyboard focus,
 pointer interception/click-through, placement and presentation preferences. The accepted desktop
@@ -471,28 +471,57 @@ simple external-pane learning artifact (BL-WORK-02).
   Preserve the window behavior a maker relies on. This is a scoped follow-on, not a requirement
   to finish every desktop extraction or the UI-editing overlay before Neovim gets useful highlighting.
 
-### Inspectable control — bring local capability forward
+### Inspectable control — an external Loom host
 
-A substantial introspection/metadata pass should make concrete questions answerable: identity,
-current owner, accepted messages, configuration, authority, source, pending work and attributable
-outcomes. Metadata describes and routes to the relevant truth; it cannot confer behavioral
-authority or turn a declaration into an observed fact. Terminal completion, the launcher and
-real-pane inspection are early consumers. Use their questions to bound the first metadata work;
-general reflection and schema mutation are not prerequisites.
+The founder selected communication between two Loom hosts as the next concrete consumer. An agent
+uses a separate host to connect to Workshop, request authorized input access and screenshots,
+receive attributable outcomes, and examine the conversation through that host's own tools. Each
+host retains its own participants, authority and history. The initial proof may use two processes
+on one machine; automatic discovery and a general federation are not prerequisites.
 
-Bring a local micro-console and screenshots forward to support development and testing. Agents
-need both authorized input injection for interaction tests and direct requests to owning weaves
-for semantic operations. The agent remains the actor, rather than silently becoming the user.
-Screenshots must reflect the presented result, not substitute for evidence of command success.
-Both control paths should work through ordinary contracts. Networking need not precede a useful
-local tool. Bring the smallest useful capture/control path alongside the desktop foundation or
-immediately after it, before a large visual pass; do not require an agent-control platform before
-testing one pane. Distinguish physical/backend input, semantic requests and displayed evidence.
+**Completion is one reusable test package, Loom end to end.** Load the package into the external
+host, connect to Workshop, exercise an input queue/session and an inspection or application door,
+capture the presented result, and inspect successful, refused and interrupted attempts. Package
+orchestration and assertions live in ordinary participants consuming supported installed surfaces,
+not hard-coded host routines or a separate automation engine. Platform-specific helpers and later
+GitHub watchers can be further packages; neither a watcher service nor package distribution is
+required for this first consumer.
 
-The multi-host continuation adds discoverable hosts and requests to connect. Discovery,
-authentication, session admission and permission to perform actions remain separate. The baseline
-Loom console/harness is the starting consumer. Cross-host communication is selected direction,
-not an already implemented remote desktop or an automatic unrestricted grant.
+**Use Loom's Recorder and Logger.** The external host configures their existing selection and
+retention policies, including keeping more instances or payloads for particular test messages when
+needed. Recorder supplies bounded working history; Logger preserves selected durable records.
+Do not create a parallel logging/recording subsystem. A useful reader and owner-supplied observation
+requests may be needed, but they consume those owners. Remote evidence retains its source host,
+session and operation identity; receiving evidence locally is not observing its remote execution.
+Retained, omitted and forgotten evidence remain distinguishable. See
+[Loom's history contract](../../Loom/docs/reference/history.md) for the mechanisms and limits.
+
+**Workshop displays connected hosts.** Supply a participating view of current connections with
+enough attributable identity and connection state to tell which external host is present. Keep a
+clear admission decision seam on the default inbound path so a later Workshop surface can approve
+or refuse a new connection. A popup for each new connection is the founder's likely interface,
+not a required popup implementation in this arc. The decision belongs to the host's policy; the
+popup would present it. Appearing in the list, knowing a schema, and being able to connect grant
+no application authority. Admission, capability grants, observation and disconnection are distinct.
+
+Input admission, processing, application completion and presentation are separate facts. Preserve
+the agent as actor, distinguish injected input from direct semantic requests, and expose the
+ordering needed to request a screenshot after relevant input and a subsequent presentation. A
+picture is evidence of presentation, not proof that asynchronous work finished. A disconnect after
+submission can leave the outcome unknown; silence does not prove failure or authorize blind replay.
+Requests for richer Workshop history remain subject to its own observation policy.
+
+Inspect concrete facts: identity, current owner, accepted messages, configuration, authority,
+source, pending work and attributable outcomes. Metadata routes to truth; it does not confer
+authority. Reuse existing discovery and owner contracts before introducing new reflection. Loom
+owns general communication and authority mechanics; Zengine owns its input, capture and application
+meaning. The external host owns test policy, package composition and local retention choices.
+
+Preflight the existing Bridge against these requirements: it is currently an unexported operator
+surface with reachability-based broad grants and whole-bus observation, not an already suitable
+installed connection contract. P-LOOM-05 is now active for this consumer. Choose the narrow useful
+connection/admission mechanism without presupposing keys or a universal human identity system.
+Coordinate with the parallel pane-UX work at input/presentation boundaries and preserve its custody.
 
 ### UI-editing overlay and a broader Info pane
 
@@ -694,9 +723,9 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** land and review the selected Loom schema-admission repair as one complete
-  native/loaded contract. Local capture/control, expressive editors, the UI-editing overlay and
-  protected drafts follow the product dependencies in §7.
+- **Next outcome:** connect an external Loom host to Workshop and complete a reusable test journey
+  through authorized input, capture, visible connections and existing Loom history. Expressive
+  editors, the UI-editing overlay and protected drafts follow the product dependencies in §7.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.

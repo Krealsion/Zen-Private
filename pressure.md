@@ -509,13 +509,18 @@ terminal a host-wide tap.
 
 ### P-LOOM-05 — Bridge reachability is not authenticated human identity
 
-**State:** PARKED UNTIL HOSTING/REMOTE CONTROL  
-**Evidence:** Bridge reference and current threat tier
+**State:** ACT — the founder selected an external Loom host for Workshop control and testing\
+**Evidence:** Bridge reference and the
+[external-host goal](goals/workshop.md#inspectable-control--an-external-loom-host).
 
 Bridge authenticates no person; reachability and socket policy are the current boundary. A trusted
 WeaveId is not a durable human identity.
 
-**Trigger:** external terminal/executor, public hosting, remote control, or multi-author trust.
+**Selected boundary:** explicit connection admission, attributable remote participation and scoped
+input/capture/observation access for the reusable test consumer. Workshop shows connected hosts;
+its default inbound path exposes a decision seam for a later per-connection approve/refuse popup.
+The popup itself, a universal human identity system and general public hosting are not selected.
+Do not carry Bridge's current broad grant and whole-bus tap into the new consumer by default.
 
 ### P-LOOM-06 — Two sentences Loom's documentation owes, and one witness
 
@@ -526,35 +531,27 @@ WeaveId is not a durable human identity.
 runner's Windows a staged non-image raised a modal hard error inside the call and hung a suite until
 the job timed out, where a desktop Windows 11 turned it into error 193. Zengine's hosts now set the
 error mode; `dynamic-weaves.md` should say a host decides it. The copier's shape-name collision is
-now documented in the weave guide and demonstrated by no Loom case at the guide's altitude.
-That copied-weave regression witness is selected in P-LOOM-07's implementation; the Windows
-error-mode documentation remains separate and unselected.
+now documented in the weave guide and demonstrated by the copied-weave regression shipped in
+Loom #8 (P-LOOM-07). The Windows error-mode documentation is the remaining open item and stays
+separate and unselected.
 
 ### P-LOOM-07 — Declared schema agreement is incomplete
 
-**State:** ACT — research accepted; one implementation phase selected by the founder on 2026-09-18
-**Evidence:** [research report](../reportbacks/loom-schema-admission-research-RB.md),
-[independent review and reproduction](../reportbacks/loom-schema-admission-research-review/review.md),
-[implementation prompt](../prompts/loom-schema-admission-implementation.md).
+**State:** CLOSED — founder accepted and merged Loom #8 and Zengine #36 on 2026-09-18 (local date)
+**Evidence:** [implementation report](../reportbacks/loom-schema-admission-implementation-RB.md),
+[corrections and real-consumer witness](../reportbacks/loom-schema-admission-implementation-corrections-RB.md),
+[final timeout repair](../reportbacks/loom-schema-admission-implementation-corrections-2-RB.md).
 
-Native emit definitions never enter the agreement transaction; loaded emits never cross the
-manifest. Native nested definitions also fail to meet the loaded dependency registry. This explains
-the stale desktop admitted against Workshop's newer `PaneInventory` declaration. Independently,
-manifest collection can discard conflicting nested definitions by name/version, allowing one loaded
-weave to advertise a different contract from the one it declared. These are registration and
-representation gaps; existing comparison works when the actual definitions meet.
+Native and loaded emitted declarations now join transitive admission agreement, including nested
+and within-manifest conflicts. Valid identities survive export/reconstruction across the deliberate
+ABI v9 / manifest v5 boundary. Refused candidates leave no partial registration; live claims reclaim
+with their participants. Shared-schema graphs no longer expand exponentially. The real stale
+desktop rebuilt for ABI v9 refuses on shape while matched panes remain viable; ABI v8 images refuse
+on version separately.
 
-**Selected outcome:** native and loaded emitted declarations join one consistent transitive
-agreement policy, including conflicts within a single manifest, with valid identities preserved.
-Version the ABI/manifest boundary deliberately, preserve transactional refusal and live reclamation,
-and write an owning decision record. Vocabulary grants no authority; Emit remains non-exhaustive
-for dynamic forwarding. Internal stages may help, but native-only completion and deferring the
-nested gap are not the accepted scope. Implementation and acceptance are still outstanding.
-
-P-LOOM-06's copied-weave witness fits. Reassess BL-ARCH-01 at the shared traversal/public-header
-boundary without importing kernel machinery into switchboard. The known manifest send-description
-seam needs a precise disposition: emitted vocabulary is descriptive, not destination-specific
-authority or an approval interface. General migration and a process-lifetime registry are not selected.
+Vocabulary grants no authority; Emit remains non-exhaustive for dynamic forwarding. The copied-weave
+witness is shipped. BL-ARCH-01 remains parked: the traversal stays in core without importing kernel
+machinery into switchboard. General migration and process-lifetime schema retention remain separate.
 
 ## 6. Adoption pressure
 
