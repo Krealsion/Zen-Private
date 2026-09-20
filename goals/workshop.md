@@ -409,7 +409,12 @@ reusable operations with inspectable interiors. The founder asks for a folder-li
 input/output previews, drag-out creation and connection, movable nodes, and navigation into
 composites. [The Flow UX plan](../drafts/flow-ux-research.md) owns the detailed task journeys,
 candidate layout, capability gaps, milestones and unresolved decisions. It is a research/design
-plan, not an approved implementation of every proposal.
+plan, not an approved implementation of every proposal. The
+[initial research](../../reportbacks/zengine-flow-ux-research/research-result.md) now includes an
+isolated live journey, source/terminal audit and interactive study. It recommends independent
+operation composition alongside message-driven authoring, with one shared semantic command
+model. Terminal participation is an explicit completion requirement; the present FlowEdit
+schema alone does not establish it. Human validation and consequential semantic decisions remain.
 
 Distinguish palette organization, visual grouping, callable composite definitions and their
 occurrences. A folder changes discovery; a group changes presentation; a composite changes

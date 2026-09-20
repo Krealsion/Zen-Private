@@ -1,9 +1,15 @@
 # Flow UX: discover, compose, inspect, and reuse
 
-**Status:** selected research direction; interaction and delivery details below are proposals.\
+**Status:** initial source/live/prototype research complete; human validation and production decisions remain. Interaction and delivery details below are proposals.\
 **Updated:** 2026-09-19\
 **Authority:** [Workshop roadmap](../goals/workshop.md#flow-ux-research-and-hierarchical-authoring).\
 **Companion:** [UI update research](ui-update-research.md).
+**Research result:** [recommendation and evidence](../../reportbacks/zengine-flow-ux-research/research-result.md),
+with separate [agent contract](../../reportbacks/zengine-flow-ux-research/agent-interface.md),
+[semantic options](../../reportbacks/zengine-flow-ux-research/semantic-options.md) and
+[human task protocol](../../reportbacks/zengine-flow-ux-research/human-patterns.md).
+The isolated walkthrough completed a running high-water example; the interactive study remains
+a local simulation. No novice-human study or production redesign has been completed.
 
 ## 1. Outcome and scope
 
@@ -26,8 +32,10 @@ milestones rather than a mandatory prompt or PR per feature.
 
 Source baseline: Zengine main `e561418fc031065c51ab362c3d6f40e34651fbf0` (PR #42), inspected
 2026-09-19. PR #40 added standalone authoring/generation; #41 added the graphical pane and
-reusable typed drafts. The founder's confusion is hands-on evidence; this planning pass did
-source/document inspection, not a fresh independent live usability trial.
+reusable typed drafts. The founder's confusion is hands-on evidence. The initial research subsequently
+completed a source/guide-informed isolated live walkthrough and a local interaction study;
+these are agent evidence, not unassisted human usability validation. The report owns its exact
+build provenance and limits.
 
 | Present capability | Research pressure |
 |---|---|
@@ -73,11 +81,13 @@ can collapse into drawers; a small pane still needs reachable navigation and rec
 integration with Workshop's Info/value tools, but do not force every edit to depend on another
 pane being open. Keep Flow's graph internal hierarchy distinct from Workshop pane hierarchy.
 
-The first empty state should offer a small working example and an obvious "start from a message"
-path. A candidate starter is the existing high-water tracker: incoming reading, comparison with
-current state, new state, test message. Explain each concept at the point it becomes necessary.
-Avoid making the user create meaningless state merely to unlock the screen; research whether
-that restriction belongs to current UI, graph grammar, or runtime admission.
+The recommended entry offers examples and two intents: **Compose an operation** and
+**React to a message**. The existing high-water tracker remains a useful stateful starter:
+incoming reading, comparison with current state, new state, test message. A reusable calculation
+should not require invented state/trigger ceremony. Source research established that current
+maker triggers require a state output, while independent operation composition can use the
+existing catalog/evaluator. The new operation draft and managed publication still need explicit
+contracts; this is a design recommendation, not a shipped capability.
 
 ## 4. Discovery and direct manipulation
 
@@ -219,7 +229,13 @@ Version any changed durable format with an honest migration/refusal path. Saving
 does not save pending queues or process continuations. Provider/pane replacement ends or explicitly
 transfers active gestures; it must not commit the wrong node from stale hit maps.
 
-GUI, keyboard and `FlowEdit` should use the same semantic edit model. Coordinate with the
+GUI, keyboard and messages should use the same semantic edit model. Research found that
+FlowEdit exists but default Terminal/ELH direct semantic authoring is not end-to-end usable:
+vocabulary/grants and structured payload composition are missing; reads can cancel a drag and
+commands depend on active UI context. The [agent audit](../../reportbacks/zengine-flow-ux-research/agent-interface.md)
+owns the proposed harmless queries, explicit object/version targets, later runtime results and
+shared terminal payload route. Prove both Workshop TerminalSession and loom-host ConsoleEngine,
+including actual ELH transport; input injection is useful evidence but is not semantic parity. Coordinate with the
 parallel pane-UX work around menu, pointer, focus and form ownership. Research composition-level
 transactions and undo at the semantic owner rather than building a GUI-only command history.
 
@@ -261,6 +277,14 @@ new human's first encounter is distinct evidence. Set performance targets from m
 and the desired interaction, not an arbitrary benchmark score.
 
 ## 10. Proposed defaults and decisions research must settle
+
+Initial research recommends first-class operation authoring, a typed return binding for direct
+input/constant results, conservative extraction of contiguous single-result intervals, and local
+shared drafts activated through explicit project-scoped application. The
+[decision table](../../reportbacks/zengine-flow-ux-research/research-result.md#decisions-recommended-before-production-contracts-freeze)
+explains the owner-level changes. These are not yet founder-approved semantics. Keep arbitrary
+visual grouping distinct; no lazy evaluation, general multi-output model or global replacement
+policy is implied. Actual human task observation remains outstanding.
 
 - **Proposed:** folders organize; groups simplify a drawing; composites define reusable behavior.
   Select-to-inspect and Open-to-enter avoid making every click navigate away.

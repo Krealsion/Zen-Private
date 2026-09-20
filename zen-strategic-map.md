@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** make the running Workshop comfortable to use and reshape through replaceable desktop tools, inspection, expressive editors and deliberate publication (§6)
-**Current execution state:** External-host control (#38), pane UX (#37), standalone Flow (#40), graphical Flow (#41) and native Flow presentation (#42) are merged. Hands-on Flow use has selected a serious UX research arc, with UI update optimization as parallel research. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the sequence and boundaries; independent pane UX continues and service retirement remains parked.
+**Current execution state:** External-host control (#38), pane UX (#37), standalone Flow (#40), graphical Flow (#41) and native Flow presentation (#42) are merged. Hands-on Flow use has selected a serious UX research arc, with UI update optimization as parallel research. [Initial Flow research](../reportbacks/zengine-flow-ux-research/research-result.md) now records the source/live baseline and interaction study; human validation and production decisions remain. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the sequence and boundaries; independent pane UX continues and service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
