@@ -1,9 +1,11 @@
 # Flow UX: discover, compose, inspect, and reuse
 
 **Status:** initial source/live/prototype research complete; human validation and production decisions remain. Interaction and delivery details below are proposals.\
-**Updated:** 2026-09-19\
+**Updated:** 2026-09-20\
 **Authority:** [Workshop roadmap](../goals/workshop.md#flow-ux-research-and-hierarchical-authoring).\
-**Companion:** [UI update research](ui-update-research.md).
+**Companions:** [UI update research](ui-update-research.md) and
+[building blocks, presenter/view pairs and cross-pane authoring](flow-building-blocks.md).
+**Founder refinement:** [2026-09-20 evidence](../../reportbacks/zengine-flow-ux-refinement-RB.md).
 **Research result:** [recommendation and evidence](../../reportbacks/zengine-flow-ux-research/research-result.md),
 with separate [agent contract](../../reportbacks/zengine-flow-ux-research/agent-interface.md),
 [semantic options](../../reportbacks/zengine-flow-ux-research/semantic-options.md) and
@@ -61,29 +63,35 @@ execution; these routes identify owners, not permission to copy their contracts 
 
 ## 3. One workspace with discoverable supporting surfaces
 
-Candidate arrangement to test, not a fixed pixel design:
+Design for a landscape 1920×1080 Workshop first, while keeping a smaller Flow pane usable
+beside other panes. The composition adapts to available room; it does not shrink every label
+to fit a miniature desktop. Candidate arrangement:
 
 ```text
-Project / Trigger / Composite / Nested composite     Draft r7 | Running r5
-+------------------+--------------------------------+---------------------+
-| Search / folders | Graph                          | Selection inspector |
-| Sources          | event -> operations -> result  | Purpose and ports   |
-| Operations       |                                | Constants / config  |
-| This project     | named inputs/outputs at edges  | Definition / uses   |
-| Saved examples   |                                | Observed values     |
-+------------------+--------------------------------+---------------------+
-| Try an input / Examples / Diagnostics / Events (expand when needed)    |
-+---------------------------------------------------------------------+
+Project / Trigger / Composite / Nested composite       Draft r7 | Running r5
++------------------+------------------------------------------------------+
+| Search / folders | Graph                                                |
+| Operations       | message + read state -> operations -> explicit Store |
+| Project / tags   |                                                      |
+| Saved examples   | hover/focus details; Open enters                     |
++------------------+------------------------------------------------------+
+| Try an input / Diagnostics / Events (expand when needed)                 |
++-------------------------------------------------------------------------+
 ```
 
-The canvas should have useful space at normal pane sizes. Palette, inspector and observations
-can collapse into drawers; a small pane still needs reachable navigation and recovery. Evaluate
-integration with Workshop's Info/value tools, but do not force every edit to depend on another
-pane being open. Keep Flow's graph internal hierarchy distinct from Workshop pane hierarchy.
+Supplementary operator information belongs in hover/focus tooltips, not a permanent inspector.
+Keep editable constants, required bindings, errors and navigation reachable without hover.
+Contextual editing and optional companion Info/Editor panes can expose deeper tasks. Collapse
+the palette/observations when room is limited; keep Flow's internal hierarchy distinct from
+Workshop's pane hierarchy. No essential action requires keeping another pane open.
 
 The recommended entry offers examples and two intents: **Compose an operation** and
 **React to a message**. The existing high-water tracker remains a useful stateful starter:
-incoming reading, comparison with current state, new state, test message. A reusable calculation
+incoming reading, Read highest, comparison, explicit Store highest into the same owned state
+slot, and a test message. Storage commits after the complete handler body succeeds and before
+emissions are constructed; it is not a same-evaluation feedback wire. The
+[storage contract](flow-building-blocks.md#1-make-storing-a-value-visible) distinguishes current
+in-memory behavior from future durable/shared storage. A reusable calculation
 should not require invented state/trigger ceremony. Source research established that current
 maker triggers require a state output, while independent operation composition can use the
 existing catalog/evaluator. The new operation draft and managed publication still need explicit
@@ -93,12 +101,13 @@ contracts; this is a design recommendation, not a shipped capability.
 
 ### Palette
 
-- Default tree categories, with search across names, descriptions and input/output signatures.
+- Default tree categories, with search across names, descriptions, tags and input/output signatures.
   Candidate sections are sources, operations, project composites and examples; validate terms
   with use. User folders/tags organize references and do not rename operators or change authority.
 - Hover or keyboard focus shows a small port map, purpose, types, defaults/required values,
-  provider, availability and a short example. Allow pinning it in the inspector; essential
-  information must remain available without hover or colour discrimination.
+  provider, availability and a short example. Make the tooltip dismissible and reachable while
+  inspecting it, with a focus/touch route; essential information and actions remain available
+  without hover or colour discrimination. Selection alone does not open a permanent side panel.
 - Drag a result onto the canvas with a placement preview; commit on drop. Escape cancels.
   Add by click/keyboard is an equivalent semantic operation. Filtering retains the user's place.
 - Opening a port's picker or dragging its wire into empty space filters compatible candidates.
@@ -132,8 +141,8 @@ Candidate gesture map to test in graph context (text fields keep their editing b
 
 | Intent | Proposed gesture and discoverable alternative |
 |---|---|
-| Select / inspect | Click node; keyboard traversal reaches the same inspector. |
-| Move selected nodes | Drag header after a small threshold; keyboard nudge is available. |
+| Select / inspect | Click selects; hover/focus reveals supplementary operator details. |
+| Move selected nodes | Drag header after a small threshold; no Move left/right buttons. Semantic movement leaves room for later user-defined keyboard/vim bindings. |
 | Select a region | Left-drag empty canvas for marquee; modifiers extend selection. |
 | Pan | Middle-drag or Space + left-drag; visible pan tool for devices lacking a middle button. |
 | Navigate / zoom | Wheel pans; explicit zoom controls, with a modifier-wheel candidate centred at pointer. |
@@ -185,12 +194,16 @@ Keep composite evaluation separate from stateful weave/message boundaries. State
 initialization, reset, message emission, asynchronous pending work and authority need explicit
 owners. An ordinary operation group must not acquire those semantics just because it is boxed.
 The first reusable-composite proof should use existing operation semantics; any richer boundary
-is separately declared and explained in the graph.
+is separately declared and explained in the graph. A reusable presenter/view pair is an assembly
+of participants and connections, not a value operator with hidden state/authority. The
+[building-block plan](flow-building-blocks.md) owns that inventory and its rule profile.
 
 **Traversable means all available meaning is reachable.** Authored composites open to their
-graphs. A native leaf exposes its signature, provider, documentation, observations and source
-route when available. Missing bodies, sources or permission are named boundaries, not fabricated
-subgraphs or an implied native decompiler. Unavailable providers leave inspectable authored intent.
+graphs. Entering a native leaf opens its actual available implementation through the source/Editor
+owners, including registration and resolved-provider provenance. Distinguish loaded-artifact
+source from the editable checkout; the [source contract](flow-building-blocks.md#4-tags-descriptions-and-native-source)
+names the missing metadata and historical evidence requirements. Missing bodies, sources or
+permission are named boundaries, not fabricated subgraphs or an implied native decompiler. Unavailable providers leave inspectable authored intent.
 
 ## 6. Make behavior understandable while it runs
 
@@ -235,7 +248,10 @@ vocabulary/grants and structured payload composition are missing; reads can canc
 commands depend on active UI context. The [agent audit](../../reportbacks/zengine-flow-ux-research/agent-interface.md)
 owns the proposed harmless queries, explicit object/version targets, later runtime results and
 shared terminal payload route. Prove both Workshop TerminalSession and loom-host ConsoleEngine,
-including actual ELH transport; input injection is useful evidence but is not semantic parity. Coordinate with the
+including actual ELH transport; input injection is useful evidence but is not semantic parity.
+Cross-pane drag/drop uses Workshop's shared offer/preview/commit/cancel ownership with typed
+references; Flow consumes it through the same semantic add/import/bind commands agents use.
+See [the transfer contract](flow-building-blocks.md#5-cross-pane-drag-and-drop). Coordinate with the
 parallel pane-UX work around menu, pointer, focus and form ownership. Research composition-level
 transactions and undo at the semantic owner rather than building a GUI-only command history.
 
@@ -244,7 +260,7 @@ transactions and undo at the semantic owner rather than building a GUI-only comm
 | Milestone | Work and evidence | Boundary |
 |---|---|---|
 | A. Observe and design | Run real newcomer/returning-maker tasks, log assumptions, compare low-fidelity layouts and gesture maps, trace missing semantics. | Select the screen vocabulary and resolve high-consequence forks before production contracts change. |
-| B. Direct authoring loop | Palette/search/previews, placement and connection gestures, navigation, inspector, errors and undo; finish a useful graph and exercise it. | Keep current operator/runtime meaning; a graphical demonstration alone does not prove learnability. |
+| B. Direct authoring loop | Palette/search/previews, placement and connection gestures, navigation, hover/focus details, contextual edits, errors and undo; finish a useful graph and exercise it. | Keep current operator/runtime meaning; a graphical demonstration alone does not prove learnability. |
 | C. Hierarchy and reuse | Visual groups, inspect existing composite bodies, extract/name/reuse supported compositions, traverse occurrences and show edit impact. | Description transport, outputs, identity and ordering changes require explicit design and evidence. |
 | D. Live understanding | Connect diagnostics/examples/available observations to the graph, including nested failures and draft/applied divergence. | Richer per-node observation is earned here if the existing host cannot supply it. |
 | Parallel research | Retained descriptions, live bindings and invalidation using actual Flow workloads. | [UI update research](ui-update-research.md); no global rendering rewrite as prerequisite for B. |
@@ -288,7 +304,11 @@ policy is implied. Actual human task observation remains outstanding.
 
 - **Proposed:** folders organize; groups simplify a drawing; composites define reusable behavior.
   Select-to-inspect and Open-to-enter avoid making every click navigate away.
-- **Proposed:** a contextual palette and side inspector replace much routine modal/index entry;
+- **Founder selected:** landscape-first composition, default dragging without Move buttons,
+  supplementary operator details on hover, explicit storage, tags, native-source traversal,
+  non-primitive building blocks and cross-pane composition. The companion plan separates
+  selected outcomes from proposed protocols and enforcement limits.
+- **Proposed:** contextual palette and editing replace much routine modal/index entry;
   modal decisions remain for genuine destructive or authority-bearing transitions.
 - **Proposed:** visible execution order first; changing ordering semantics is an explicit language
   decision. Multiple outputs need a deliberate owner-level capability choice.

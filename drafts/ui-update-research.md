@@ -1,13 +1,13 @@
 # UI update research: retained descriptions and observable dependencies
 
 **Status:** selected side research; no production renderer architecture selected.\
-**Updated:** 2026-09-19\
+**Updated:** 2026-09-20\
 **Authority:** [Workshop roadmap](../goals/workshop.md#ui-update-optimization-research).\
 **First consumer:** [Flow UX](flow-ux-research.md), alongside ordinary pane movement/resizing.
 
 ## 1. Question and useful result
 
-Can a pane publish how its view is represented once, then let a replaceable presenter respond
+Can a pane publish how its view is represented once, then let a replaceable view renderer respond
 to changing dimensions and subscribed data without repeatedly asking the pane to rebuild the
 same description? Measure the benefit while keeping failures, dependency ownership and the
 relationship between displayed geometry and input understandable.
@@ -49,18 +49,28 @@ not create a general benchmark campaign or justify an unmeasured speed claim.
 
 ## 3. Candidate ownership model
 
+Use **presenter** for application/data projection and **view renderer** for resolving and
+drawing presentation. This corrects the earlier draft's use of presenter for the renderer role,
+and agrees with the [reusable presenter/view plan](flow-building-blocks.md#3-presenterview-pair).
+Loom's existing `UiPresenter` vocabulary has its own declared scope; this terminology does not
+claim it already implements the proposed application role.
+
 ```text
-pane / view author -- description and binding intent --> presenter
-data owners       -- authorized updates -------------> presenter-held values
-viewport / metrics / input context ------------------> dependency evaluation
-dependency evaluation --> resolved scene --> draw + hit map for that presented revision
+data owners --> application presenter --> typed view-model updates --> view renderer
+view renderer --> typed input intents --> application presenter
+view author --> description and bindings --> view renderer
+viewport / device metrics --> view renderer's dependency/layout evaluation
+view renderer --> resolved scene --> draw + hit map for that presented revision
 ```
 
-The pane owns authored meaning; data providers own their values; the presenter owns evaluation
-and resolved geometry within its grant; the medium owns font/device facts and physical drawing.
-Application policy still owns room, focus and authority. Exact extraction/package boundaries are
-a research result. Do not make Workshop's current ownership location permanent or require a new
-Loom primitive without showing why an ordinary participant contract is insufficient.
+The pane owns authored meaning; data providers own their values; the application presenter
+processes/projects data without graphical calls. The view renderer holds observed view data,
+resolves geometry and produces presentation within its grant. The medium owns font/device
+facts and physical drawing. Application policy still owns room, focus and authority.
+Roles can begin colocated with clear interfaces; distinct grant restrictions require distinct
+participants. Exact extraction/package boundaries are a research result. Do not make Workshop's
+current ownership location permanent or require a new Loom primitive without showing why an
+ordinary participant contract is insufficient.
 
 The retained description should be inspectable and reloadable. Treat caches and native callables
 as disposable implementation state, not durable authored identity. A future presentation weave,
@@ -78,14 +88,14 @@ the old renderer's private objects.
 | Colour/status changes | Paint invalidation if no size/ordering dependency changes. |
 | Node/port added | Update description and relevant dependency structure. |
 | Data provider replaced/revoked | Reconsider dependent bindings and expose stale/unresolved state; input changes only where the affected interaction policy requires it. |
-| View/presenter owner or room grant lost | Revoke its input authority and end or explicitly transfer gestures. |
+| View/rendering owner or room grant lost | Revoke its input authority and end or explicitly transfer gestures. |
 
 Track dependencies explicitly or through observable reads; compare those approaches for
 introspection, dynamic/conditional dependencies, cycle handling and authoring ceremony. A getter
 over arbitrary mutable state does not announce when it changes. Non-observable sources need an
 explicit polling/sampling policy, never an assumption of permanent validity.
 
-Cross-weave updates remain asynchronous. Reads during layout/drawing use presenter-held values;
+Cross-weave updates remain asynchronous. Reads during layout/drawing use view-renderer-held values;
 they do not secretly block on messages or invoke an unloaded provider. Each frame evaluates a
 defined snapshot of source revisions. Related values need an explicit publication boundary when
 their consistency matters; do not imply a global atomic snapshot across independent hosts.
@@ -115,7 +125,10 @@ not reasons to continuously rebuild every unrelated subtree.
 Use one pane with fixed text, percentage geometry, wrapped text, a colour/status binding and
 one subscribed changing value. Compare the current picture route with a retained-description
 prototype under movement, resize, text updates, rapid mixed input and provider replacement.
-Include a denser Flow graph after the simple cases distinguish the costs.
+Include a denser Flow graph after the simple cases distinguish the costs. The proposed
+[recycling operator list](flow-building-blocks.md#recycling-list-as-the-first-complex-pair)
+is a later consumer for stable-key reuse, stale input and offscreen resource bounds; none of
+those performance benefits has yet been measured in Zengine.
 
 Record description publications, room grants, source updates, dependency/layout evaluations,
 text measurement, canvas submissions, actual presents, queue high-water and input-to-present
@@ -124,7 +137,7 @@ success to fewer messages if retained dependencies or renderer work cost more ov
 
 Prove equivalent visible result and hit targets, ordered input, attributable failure, and capture
 after settlement. Inspect the reason each part became dirty. Measure static and changing cases;
-a colour-only update, wrapped resize, provider loss and replaced presenter should differ for
+a colour-only update, wrapped resize, provider loss and replaced view renderer should differ for
 reasons the tool can explain.
 
 Compare retaining whole descriptions first with finer patches; add patch identity and recovery

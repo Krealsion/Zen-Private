@@ -1,7 +1,7 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-19\
+**Refreshed:** 2026-09-20\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** make Workshop and Flow understandable through direct manipulation, traversable composition and attributable live behavior; keep presentation replaceable
 **Current execution state:** External-host control (#38), pane UX (#37), standalone Flow (#40), graphical Flow (#41) and native Flow presentation (#42) are merged. The founder has tried Flow and selected a serious UX research arc, with UI update optimization as parallel research (§7). Continue independent pane-UX work; no general renderer rewrite is a prerequisite.
@@ -391,7 +391,7 @@ research track, without waiting for complete UI authoring or a replacement rende
 | Accepted foundation | Loom schema admission, paired with its Zengine consumer | Loom #8 / Zengine #36 make emitted and nested definitions agree at admission while preserving valid identities, authority separation and live claim lifetimes. |
 | Merged foundation | External-host control (#38), pane UX (#37), standalone/graphical Flow (#40/#41) and native Flow presentation (#42) | Reuse authorized input/capture, typed drafts, the existing runtime and semantic edit owners; these landings are not proof of intuitive UX. |
 | Immediate research priority | Flow UX: discover, drag, connect, group, inspect and reuse | Test the complete maker journey; expose ordering, instance/definition scope and the actual input/output model before authorizing semantic changes. |
-| Parallel research | UI update optimization through retained descriptions and observable dependencies | Measure the current drag path, prototype a replaceable presenter and preserve displayed-frame input and external-capture ordering. This is not a prerequisite for all Flow UX work. |
+| Parallel research | UI update optimization through retained descriptions and observable dependencies | Measure the current drag path, prototype a replaceable view renderer and preserve displayed-frame input and external-capture ordering. This is not a prerequisite for all Flow UX work. |
 | Continuing independent product work | Pane UX, expressive Neovim/shared presentation and bounded standard-editor improvements | Make everyday editing comfortable; coordinate shared input/presentation contracts without serializing unrelated work. |
 | Following those foundations | UI-editing overlay and broader Info subjects; protected draft/publication work | Connect a visible subject to configuration or source. Stage draft protection before promising safe experimentation or publication to originals. |
 | Later, through concrete consumers | Broader schema/migration capabilities, deeper configuration/setup, reusable effects, Python, GPU and broader multi-host work | Flow now earns a bounded composite-authoring investigation; the wider capabilities still need their own consumers. |
@@ -416,6 +416,16 @@ operation composition alongside message-driven authoring, with one shared semant
 model. Terminal participation is an explicit completion requirement; the present FlowEdit
 schema alone does not establish it. Human validation and consequential semantic decisions remain.
 
+The founder's refinement selects a 1920×1080 landscape ideal, drag-first placement without Move
+left/right buttons, hover details, explicit Store boundaries, operator tags and native-source
+traversal. [Building blocks and reusable UI pairs](../drafts/flow-building-blocks.md) owns the
+non-primitive inventory, presenter/view rule profile, recycling-list consumer and shared cross-pane
+transfer direction. Flow consumes Workshop-wide typed transfers; agents use the equivalent
+semantic edits. Presenters process data without drawing; views own rendering/local display state
+and report typed intents. Enforcement claims distinguish participant grants from trusted native
+code and logical helper boundaries. These are selected outcomes with proposed contracts, not
+capabilities already implemented by the study.
+
 Distinguish palette organization, visual grouping, callable composite definitions and their
 occurrences. A folder changes discovery; a group changes presentation; a composite changes
 reusable behavior. Enter/leave a composite with a stable occurrence path and restored viewport.
@@ -438,7 +448,7 @@ Reuse the old workspace's successful interaction grammar only where it fits curr
 ### UI update optimization research
 
 **Selected side research:** let a pane describe its view independently of particular dimensions,
-then let a replaceable presenter resolve it against geometry and observable data changes.
+then let a replaceable view renderer resolve it against geometry and observable data changes.
 [The UI update research plan](../drafts/ui-update-research.md) owns source routes, the VarStorage
 connection, experiment matrix and decision criteria. Distinguish description, layout, paint and
 presentation costs; fixed content and percentage geometry have different invalidation needs.
