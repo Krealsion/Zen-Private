@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-18\
+**Refreshed:** 2026-09-19\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** make the running Workshop comfortable to use and reshape through replaceable desktop tools, inspection, expressive editors and deliberate publication (§6)
-**Current execution state:** Desktop foundation PR #35 and the paired schema-admission arc (Loom #8 / Zengine #36) are accepted and merged. Next is an external Loom host for authorized Workshop input, screenshots and inspection, with existing Loom history and one reusable test package. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns this scope alongside the parallel pane-UX work. Service retirement remains parked.
+**Current execution state:** External-host control (#38), pane UX (#37), standalone Flow (#40), graphical Flow (#41) and native Flow presentation (#42) are merged. Hands-on Flow use has selected a serious UX research arc, with UI update optimization as parallel research. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the sequence and boundaries; independent pane UX continues and service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -140,10 +140,12 @@ Neovim/standard-editor live handoff successfully. Its report also records baseli
 PR #33 is merged. The Goal Map records founder acceptance, the merge identity and its match
 to the report head, and routes the accepted predecessors' evidence.
 
-The next pressure comes from inhabiting and reshaping the real environment. The replaceable
-desktop has retired the prototype object canvas; Info inspects actual panes. External control
-and evidence, richer tool presentation and the later UI-editing overlay build on that accepted
-foundation. The [Goal Map](goals/workshop.md) owns the sequence and limits.
+The replaceable desktop has retired the prototype object canvas; Info inspects actual panes.
+An admitted external Loom host can now drive and capture Workshop. Flow now supplies standalone
+authoring/generation and a graphical pane with reusable typed drafts. The founder's first use
+exposes confusing authoring and drag responsiveness as current product pressure. The
+[Goal Map](goals/workshop.md) owns the research sequence and limits; merged capability does
+not establish intuitive interaction or complete retained presentation.
 
 ## 5. EDIT-1 — landed
 
@@ -169,15 +171,17 @@ and evidence. This does not supply or select a general migration system.
 
 The remaining product direction is:
 
-1. Connect a separate Loom host to Workshop for authorized input, screenshots and inspection.
-   Reuse Loom's Recorder and Logger with deliberate per-message retention; demonstrate one
-   reusable test package running through Loom. Workshop displays connected hosts and exposes
-   the admission seam for a future per-connection approve/refuse popup. The Goal Map owns the
-   boundary; the parallel pane-UX implementation remains independent work to integrate with.
-2. Improve expressive editor presentation without waiting for complete UI authoring. Follow with
-   the real-UI editing overlay and protected experimentation according to their actual dependencies.
-   General schema/composite authoring, deeper configuration/setup, reusable GUI behavior, Python,
-   GPU and broader multi-host capabilities follow concrete consumers.
+1. Research Flow's complete maker journey: find an operation, drag/place/connect it, understand
+   execution, simplify a graph through groups, and reuse composites whose available interiors can
+   be traversed. The Goal Map routes the detailed plan and unresolved semantic decisions.
+2. Research UI update optimization alongside Flow: retained descriptions, observable data and
+   selective invalidation under a replaceable presenter. Measure actual interaction costs and
+   preserve input, hit-testing and settled-capture guarantees. This is not a universal renderer
+   implementation mandate or a prerequisite for every UX repair.
+3. Continue independent pane/editor UX and expressive presentation. Use the merged external-host
+   path for reproducible journeys and Loom's existing history. The UI-editing overlay, protected
+   experimentation, broader schema/migration work, configuration, reusable effects, Python, GPU
+   and multi-host growth follow their actual consumer dependencies.
 
 The [Workshop roadmap](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns exact items,
 the founder's Terminal key semantics, and phase boundaries. "Gut the shell" means make fixed
@@ -196,9 +200,10 @@ the merged standalone/admission consumer; no roadmap item implies universal file
 or authenticated multi-host identity. Service retirement stays parked under its
 [disposition](goals/workshop.md#roadmap-disposition-of-service-retirement).
 
-New-weave production and Flow remain larger capability directions without a new production packet.
-The schema-builder direction still authors C++; interpreted execution is pressure-driven. Local
-success must keep these future consumers reachable without forcing their implementation now.
+Flow now has both a live interpreted consumer and native generation; the current research
+improves how makers discover, compose and understand that capability. General deconstruction,
+schema migration and arbitrary stateful component extraction remain separate directions.
+Research selection does not approve every proposal as a production contract.
 
 ## 7. Goal registry
 
@@ -247,8 +252,9 @@ claimed"); VD-21 notes it and builds nothing.
 
 A horizon defines a completeness test. It does not authorize a demo-driven implementation. If a
 horizon starts specifying framework details, move those details back behind current consumer
-pressure or discard them. `private/goals/two-forms.md` — a live interpreted form and a generated
-durable form bridged by Flow — is a horizon in exactly this sense; it authorizes nothing.
+pressure or discard them. [Two forms](goals/two-forms.md) preserves the broader Flow horizon
+and distinguishes its now-landed interpreted/generated foundation from unselected general
+deconstruction. The Workshop map owns the currently selected UX research.
 
 ## 9. Process doctrine
 

@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-18\
+**Refreshed:** 2026-09-19\
 **Strategic authority:** `private/zen-strategic-map.md`  
-**Current direction:** everyday use and a replaceable desktop with useful inspection, then expressive presentation and protected experimentation
-**Current execution state:** Desktop foundation PR #35 and the schema-admission pair (Loom #8 / Zengine #36) are accepted and merged. The next arc connects an external Loom host to Workshop for authorized input, screenshots, inspection and a reusable test package (§7), alongside the independent pane-UX work.
+**Current direction:** make Workshop and Flow understandable through direct manipulation, traversable composition and attributable live behavior; keep presentation replaceable
+**Current execution state:** External-host control (#38), pane UX (#37), standalone Flow (#40), graphical Flow (#41) and native Flow presentation (#42) are merged. The founder has tried Flow and selected a serious UX research arc, with UI update optimization as parallel research (§7). Continue independent pane-UX work; no general renderer rewrite is a prerequisite.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -87,6 +87,15 @@ Read live Git for current disposition.
 The prototype object-document canvas and old picker are retired by accepted PR #35. The
 desktop weave owns application defaults, Pane Manager and Hotkeys; Info inspects real panes.
 The broader UI-editing overlay remains future work (§7).
+
+External-host input/capture/inspection is available through the admitted loopback connection
+and reusable probe from PR #38. Flow now supports standalone authoring/native generation (#40),
+a graphical Workshop pane with reusable typed drafts (#41), and measured native text, a black
+ground and safe resize previews (#42). Node dragging and pan/zoom already exist. The founder
+reports that the overall authoring experience is confusing; merged functionality does not
+establish learnability or resolve changed-motion rendering cost. The current
+[Flow guide](../../Zengine/docs/workshop/flow.md) and
+[external-host guide](../../Zengine/docs/workshop/external-host.md) own the working interfaces.
 
 ## 3. Current ownership model
 
@@ -370,24 +379,75 @@ preserve this interaction behavior and the demonstrated editor capability.
 
 ### Near-term order and purpose
 
-The founder's follow-up selects the old object canvas for retirement and gives shell replacement
-a concrete consumer: inspect and reshape the real running Workshop. This revises the order without
-making a complete UI authoring system a prerequisite for useful editor improvements.
+The retired object canvas supplied useful interaction ideas; its former document and host
+ownership stay retired. The founder's 2026-09-19 hands-on Flow feedback selects a new concrete
+priority: understand and author a running composition through direct manipulation and
+traversable interfaces. This proceeds alongside independent pane UX and a bounded UI update
+research track, without waiting for complete UI authoring or a replacement renderer.
 
 | Order | Outcome | Purpose and boundary |
 |---|---|---|
 | Accepted foundation | Replaceable desktop, pane launching, default interaction policy and real-pane inspection | PR #35 retired the old canvas/picker and gives application behavior a replaceable owner. |
 | Accepted foundation | Loom schema admission, paired with its Zengine consumer | Loom #8 / Zengine #36 make emitted and nested definitions agree at admission while preserving valid identities, authority separation and live claim lifetimes. |
-| Immediate priority | External Loom host for authorized input, screenshots, inspection and reusable tests | Prove communication between two hosts, visible connections and inspectable results using Loom's existing Recorder/Logger; keep application operations with their owners. |
-| Then | Expressive Neovim/shared presentation and bounded standard-editor improvements | Make everyday editing comfortable; do not wait for a general source-editing overlay. |
+| Merged foundation | External-host control (#38), pane UX (#37), standalone/graphical Flow (#40/#41) and native Flow presentation (#42) | Reuse authorized input/capture, typed drafts, the existing runtime and semantic edit owners; these landings are not proof of intuitive UX. |
+| Immediate research priority | Flow UX: discover, drag, connect, group, inspect and reuse | Test the complete maker journey; expose ordering, instance/definition scope and the actual input/output model before authorizing semantic changes. |
+| Parallel research | UI update optimization through retained descriptions and observable dependencies | Measure the current drag path, prototype a replaceable presenter and preserve displayed-frame input and external-capture ordering. This is not a prerequisite for all Flow UX work. |
+| Continuing independent product work | Pane UX, expressive Neovim/shared presentation and bounded standard-editor improvements | Make everyday editing comfortable; coordinate shared input/presentation contracts without serializing unrelated work. |
 | Following those foundations | UI-editing overlay and broader Info subjects; protected draft/publication work | Connect a visible subject to configuration or source. Stage draft protection before promising safe experimentation or publication to originals. |
-| Later, through concrete consumers | General schema/composite authoring, deeper configuration/setup, reusable effects, Python, GPU and broader multi-host work | Extend demonstrated owners rather than prebuilding their possible frameworks. |
+| Later, through concrete consumers | Broader schema/migration capabilities, deeper configuration/setup, reusable effects, Python, GPU and broader multi-host work | Flow now earns a bounded composite-authoring investigation; the wider capabilities still need their own consumers. |
 
 These are capability boundaries, not mandatory research/implementation handoffs or arbitrary PR
 counts. Each executor packet should carry its bounded goal through preflight, implementation and
 proof. Independent editor fixes can proceed when they do not depend on an unsettled presentation
 contract. Full overlay authoring, all standard-editor features and protected storage need not
 land together. Service retirement and generic changed-schema migration remain separate work.
+
+### Flow UX research and hierarchical authoring
+
+**Selected:** make the first useful Flow understandable and directly manipulable, then support
+reusable operations with inspectable interiors. The founder asks for a folder-like palette with
+input/output previews, drag-out creation and connection, movable nodes, and navigation into
+composites. [The Flow UX plan](../drafts/flow-ux-research.md) owns the detailed task journeys,
+candidate layout, capability gaps, milestones and unresolved decisions. It is a research/design
+plan, not an approved implementation of every proposal.
+
+Distinguish palette organization, visual grouping, callable composite definitions and their
+occurrences. A folder changes discovery; a group changes presentation; a composite changes
+reusable behavior. Enter/leave a composite with a stable occurrence path and restored viewport.
+Expose shared-edit impact and an independent-copy path. Native leaves route to available contracts,
+provenance and source instead of pretending every implementation can be decompiled into nodes.
+
+The current graph executes in authored order, including unused nodes, and has a single result.
+Arbitrary extraction, multiple outputs, reordered execution, shared-definition updates and deeper
+runtime observation are explicit capability decisions. Existing node dragging should become
+discoverable; saving incomplete drafts and deliberate Run/Apply must remain intact. Research
+input/schema, state and emission authoring as well as the graph canvas. Preserve one semantic edit
+owner for GUI, keyboard and messages, and keep effects and authority with their existing owners.
+
+Research starts with real tasks and low-fidelity prototypes, then selects a coherent delivery
+packet: direct authoring, hierarchy/reuse and live understanding. Keep the exploration/ceremony
+log, including wrong assumptions, backtracking and important discoveries. ELH replay helps
+reproduce interactions; human first-use evidence judges whether those interactions make sense.
+Reuse the old workspace's successful interaction grammar only where it fits current contracts.
+
+### UI update optimization research
+
+**Selected side research:** let a pane describe its view independently of particular dimensions,
+then let a replaceable presenter resolve it against geometry and observable data changes.
+[The UI update research plan](../drafts/ui-update-research.md) owns source routes, the VarStorage
+connection, experiment matrix and decision criteria. Distinguish description, layout, paint and
+presentation costs; fixed content and percentage geometry have different invalidation needs.
+
+Investigate explicit or read-tracked dependencies, asynchronous data bindings, coherent evaluation
+snapshots, cache lifetime and provider replacement. Paint and hit testing must spend the same
+resolved presentation. Dirty scheduling must preserve input order, timely gesture invalidation
+and the existing settlement/capture promise. Failure or stale data stays attributable.
+
+This is an opportunity to make presentation more replaceable and inspectable, not permission to
+embed application policy or arbitrary cross-weave calls in a getter. The observed drag pressure
+wakes claim-specific measurement under BL-ADOPT-03; no general benchmark campaign is selected.
+Run this research alongside Flow UX; let measured results guide substantial presentation changes
+without blocking independent usability repairs.
 
 ### Part 1 — Everyday interaction (accepted foundation)
 
@@ -473,13 +533,14 @@ simple external-pane learning artifact (BL-WORK-02).
 
 ### Inspectable control — an external Loom host
 
-The founder selected communication between two Loom hosts as the next concrete consumer. An agent
-uses a separate host to connect to Workshop, request authorized input access and screenshots,
-receive attributable outcomes, and examine the conversation through that host's own tools. Each
-host retains its own participants, authority and history. The initial proof may use two processes
-on one machine; automatic discovery and a general federation are not prerequisites.
+The initial external-host consumer is merged in Zengine PR #38. The
+[working guide](../../Zengine/docs/workshop/external-host.md) owns the admitted loopback
+connection, input sessions, screenshots, inspection, connection inventory and reusable probe.
+An agent can retain its own host-side tools and history while interacting with Workshop. Each
+host keeps its own authority. The following boundaries govern reuse and further development;
+automatic discovery, remote-machine transport and a general federation are not implied.
 
-**Completion is one reusable test package, Loom end to end.** Load the package into the external
+**The reusable test package is the first consumer, Loom end to end.** Load the package into the external
 host, connect to Workshop, exercise an input queue/session and an inspection or application door,
 capture the presented result, and inspect successful, refused and interrupted attempts. Package
 orchestration and assertions live in ordinary participants consuming supported installed surfaces,
@@ -517,11 +578,10 @@ authority. Reuse existing discovery and owner contracts before introducing new r
 owns general communication and authority mechanics; Zengine owns its input, capture and application
 meaning. The external host owns test policy, package composition and local retention choices.
 
-Preflight the existing Bridge against these requirements: it is currently an unexported operator
-surface with reachability-based broad grants and whole-bus observation, not an already suitable
-installed connection contract. P-LOOM-05 is now active for this consumer. Choose the narrow useful
-connection/admission mechanism without presupposing keys or a universal human identity system.
-Coordinate with the parallel pane-UX work at input/presentation boundaries and preserve its custody.
+Reuse the implemented admitted-connection path rather than reopening the former Bridge
+selection as unfinished work. Additional transport, discovery or human identity requirements
+need their own consumer and policy. Coordinate with parallel pane UX at input/presentation
+boundaries and preserve its custody.
 
 ### UI-editing overlay and a broader Info pane
 
@@ -541,7 +601,8 @@ Source availability is required for source editing, but it does not require plac
 inside the host. A replaceable tool can route to the existing source/build owners. A rendered row
 or schema declaration alone does not identify an editable source location; richer source mappings
 must be supplied and diagnosed when absent. Begin with a concrete pane/component, then composites;
-general schema editing belongs with the later schema-builder/Flow and changed-shape work.
+general schema editing connects to the selected Flow investigation; changed-shape migration
+still needs its own owner and scope.
 
 This arc follows a working desktop/inspection foundation and useful editor presentation. Protected
 drafts may land before or alongside it when its experiments need durable isolation. Opening source
@@ -604,7 +665,8 @@ Progress/closing answers, attributable refusal and recovery remain relevant wher
 need them. The merged standalone/admission work is the authority starting point, not evidence
 that all human trust or filesystem containment is solved. Check relevant backlog wake conditions
 per phase; do not convert every horizon into immediately owed work. General queued-picture
-provenance, service retirement and Flow remain distinct work.
+provenance and service retirement remain distinct work; the selected Flow and UI update
+investigations above must preserve the relevant input/presentation guarantees.
 
 ### Managed opening and continued work
 
@@ -649,8 +711,9 @@ preservation of undo/normalization behavior across the move.
 
 The founder's ceremony audit belongs alongside the development: assess the number and complexity
 of actions needed for a concrete intent, including what the maker must know to choose them.
-This is product pressure, not authorization for a new interaction framework. New-weave production
-and Flow are not selected by this consolidation; a future task supplies its own scope and evidence.
+This is product pressure, not authorization for a new interaction framework. The Flow
+authoring consumer has since landed; its UX research now applies the same audit to discovery,
+composition and runtime understanding. Each execution packet still supplies its scope and evidence.
 
 ### Roadmap disposition of service retirement
 
@@ -723,9 +786,10 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** connect an external Loom host to Workshop and complete a reusable test journey
-  through authorized input, capture, visible connections and existing Loom history. Expressive
-  editors, the UI-editing overlay and protected drafts follow the product dependencies in §7.
+- **Next outcome:** research a discoverable Flow authoring loop with direct manipulation,
+  traversable composites and understandable live results. Investigate retained UI updates
+  alongside it; continue independent pane/editor UX. ELH supplies reproducible input/capture
+  evidence. The UI-editing overlay and protected drafts retain their dependencies in §7.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.

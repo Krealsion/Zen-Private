@@ -1,12 +1,16 @@
 # Two forms and Flow
 
-**Status:** HORIZON — a design exploration, not the current work sequence  
+**Status:** broader design horizon; the interpreted/generated Flow foundation has landed\
 **Current direction:** [Strategic Map](../zen-strategic-map.md) and [Workshop Goal Map](workshop.md)
 
 Design answer (Joshua, with Vision), 2026-09-05, reached while reviewing Zengine PR #10.
-`maker/` supplies the live interpreted form and is paused pending its consumer. The remaining
-ideas below describe the horizon; they do not authorize implementation or override generated C++
-as the selected default. Preserve hypotheses as hypotheses when researching a future consumer.
+Current baseline refreshed 2026-09-19: Flow now consumes `maker/` for live interpreted execution
+and supports native generation in the standalone workbench (PR #40); Workshop has a graphical
+authoring consumer (PR #41). [Current Flow contracts](../../Zengine/docs/reference/flow.md)
+own those mechanisms and the limited generated-code recovery claim. The
+[Workshop roadmap](workshop.md#flow-ux-research-and-hierarchical-authoring) selects the next UX
+research. The broader ideas below remain horizon, particularly arbitrary-code deconstruction
+and generic changed-shape development. They do not authorize implementation by themselves.
 
 **The decision: both forms, one bridge.**
 - **The live form** is the definition, interpreted by `maker/`: rapid, inspectable to the last
@@ -65,12 +69,12 @@ reach an operation, inspect the evidence available in either form, and choose an
 It is one possible tool for that loop; neither Flow nor the interpreted form is a prerequisite
 for message-based diagnosis, native debugging or rebuilding with an authored handoff.
 
-**Roads, not this arc.**
-- The generator: definition → `ZEN_SHAPE` class, handlers, a C++ conversion edge, a CMake target,
-  a Builder recipe. Its proof: High-water interpreted and High-water generated exchange the same
-  messages on the same bus.
-- The deconstructor's first rung: generated code with its embedded definition; then the
-  handler-level graph from declarations and from the running bus.
+**Landed foundation and remaining roads.**
+- Standalone generation and generated-source recovery now exist under the current Flow
+  contracts. Broader Builder integration follows its own consumer; the earlier sketch of a
+  generator is not an outstanding instruction to rebuild it.
+- General deconstruction beyond verified generated source, including a handler-level graph
+  from arbitrary native declarations or a running bus, remains a separate capability.
 - `DownloadAndConfigureCMakeWeave` for a recipient without a toolchain: a recipe that fetches
   and runs a compiler is the most powerful thing a recipient is asked to trust — provenance
   first (the vision's seventh line; the identity phase).
