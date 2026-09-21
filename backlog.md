@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-18\
+**Refreshed:** 2026-09-21\
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -44,6 +44,41 @@ tool's source” path.
 **Boundary:** this does not itself authorize a plugin SDK or an installation system.
 
 ## 3. Bounded defects and quick repairs
+
+### BL-VERIFY-01 — Reconcile Builder field clicks locally
+
+**State:** PARKED / LOCAL FOLLOW-UP; explicitly not a blocker to merging Zengine PR #43.
+**Owed:** Resolve the retained Builder role-field evidence: the terminal capture shows
+`abcdKef...` while its report claimed `abcKdef...`; the native capture shows `Kabcdef...`
+after Home, which cannot distinguish a missed click from a caret-placement defect. Retain the
+actual coordinate space, x/y, expected insertion point and before/after value on a local rerun.
+Repair product behavior only if the diagnosis establishes a defect.
+
+The native `witness/gui/host/step.ps1` must retain its sent command and fail on an unsettled or
+failed probe, missing fresh capture, child failure or mismatched expectation. Exercise a negative
+control through that driver. The existing Files checks and maker journey remain usable; no full
+workflow replay or new input architecture is owed here.
+
+**Wake:** the next local Builder role-field check or reuse of this native witness driver.
+
+**Source:** founder's 2026-09-21 decision to merge with local evidence follow-up;
+[verification review](../reportbacks/zengine-files-builder-mouse-verification-review/review.md).
+
+### BL-DEF-06 — Finish minor Files/Builder documentation cleanup
+
+**State:** PARKED / DOCUMENTATION ONLY; not a blocker to Zengine PR #43.
+**Owed:** Narrow the positive promotion test's title (currently saying "promote and revert")
+to the promotion it actually exercises, and update `WL-HAND-04`'s reference. Reconcile
+`WL-HAND-03`'s zero-picture wording with `RowMap::current` and `WL-HAND-04`'s explicit refusal
+clause. State menu label admission versus available display width in the owning presenter
+documentation: the 64-byte admission bound and display clipping are different mechanisms.
+No new behavior or tests are required merely to justify inaccurate wording.
+
+**Wake:** the next edit to these tests or the pane-controls/pane-menu documentation; verify the
+affected law references then.
+
+**Source:** founder's 2026-09-21 decision; the verification review, report's Doc gaps, and source
+at PR #43 head `e9e0085fcbdeac5a505bff682622b0d0d86c90f9`.
 
 ### BL-DEF-01 — Sandbox view-root cleanup after refusal
 
