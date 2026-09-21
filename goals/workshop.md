@@ -598,6 +598,22 @@ selection as unfinished work. Additional transport, discovery or human identity 
 need their own consumer and policy. Coordinate with parallel pane UX at input/presentation
 boundaries and preserve its custody.
 
+### ELH usability and extension documentation
+
+The founder selected an explicit ELH-improvement strand on 2026-09-21. Treat the external
+harness as a tool that makers can learn and extend: give each relevant phase's report its own
+ELH improvements/ceremony section, and maintain a compact capability and extension map with
+links to deeper owners. The [experiment arc's documentation direction](../../reportbacks/elh-workshop-improvement-arc.md#elh-improvements-and-a-compact-reader-entry)
+defines the reader journey and the present continuation's scope.
+
+Generic session, run, history and tool-authoring guidance belongs in Loom. Workshop-specific
+setup, control and reusable tools belong in a separately organized Zengine external-host guide
+group. Package manifests own individual tool help; the entry routes to those descriptions and
+states availability, required authority and important limits. Keep it small and discoverable
+through normal docs/package routes, useful to humans and agents without private phase history.
+Update affected documentation with capability changes. The current hand-built ELH setup gap is
+part of completing the selected experiment; broader harness changes still need a concrete use.
+
 ### UI-editing overlay and a broader Info pane
 
 The replacement for the prototype authoring canvas is an explicit editing overlay on the actual
