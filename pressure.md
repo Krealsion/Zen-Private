@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-18
+**Refreshed:** 2026-09-21
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -23,17 +23,17 @@ but deferred work belongs in `private/backlog.md`.
 
 ## 2. Current action pressure
 
-The desktop foundation, Zengine PR #35, is accepted and merged after review and founder use.
-The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the product sequence:
-local inspection/capture/control, then expressive editors, followed by the UI-editing overlay
-and protected experimentation. BL-WORK-04's declaration-feedback mechanism is accepted and its
-backlog item closed; the original startup blocker in P-WORK-22 is resolved with explicit limits.
+The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the sequence.
+Desktop, declared-schema admission (P-LOOM-07), external control and reusable-session foundations
+are merged. Complete the current ELH Workshop-improvement correction and review; the newly
+selected [maker-story arc](drafts/maker-story-development.md) then investigates typed inspection,
+contract metadata and maker/ELH authority through a complete inspect-to-reuse story. Flow UX,
+UI-update research and independent pane/editor work continue alongside it.
 
-The immediate selected priority is **P-LOOM-07**, now one implementation phase after accepted
-research: native/loaded declared vocabulary, nested consistency and valid manifest identity.
-Authority and live claim ownership retain their separate contracts. This is a substrate priority;
-the accepted desktop architecture remains the product foundation.
-Progress/closing answers, general picture provenance and service retirement keep their own bounds.
+P-WORK-02 and P-WORK-18 now have concrete selected consumers. The metadata question is bounded
+by those consumers, while universal metadata, full overlay authoring and protected publication
+retain their separate scopes. Progress/closing answers, general picture provenance and service
+retirement are not silently selected by this consolidation.
 
 ## 3. Workshop product pressure
 
@@ -50,7 +50,7 @@ surface-aware default can be stated without becoming a layout solver.
 
 ### P-WORK-02 — Broader pane inspection and contextual acquisition remain future work
 
-**State:** WATCH — narrow real-pane inspection accepted in PR #35
+**State:** ACT — contextual typed-inspection research selected; narrow pane inspection already accepted
 **Evidence:** [desktop continuation](../reportbacks/zengine-desktop-foundation-continuation-RB.md),
 Info's current laws and [the accepted foundation](goals/workshop.md#part-2--replaceable-desktop-and-pane-launching-accepted-foundation).
 
@@ -61,8 +61,11 @@ later editing overlay's source mapping; it does not require another narrow inspe
 Keep the earlier anchors, fill, docking, locks and relative-placement questions available to that
 future consumer; the cramped default stack remains P-WORK-01 rather than a new inspector task.
 
-**Trigger:** a selected property or overlay workflow needs a missing owner or acquisition door.
-Keep selection, focus, click-through and the inspected subject distinct.
+**Selected consumer:** inspect a represented subject, retain/copy/save typed information and
+reuse it elsewhere under explicit authority. The [maker-story arc](drafts/maker-story-development.md)
+owns acquisition, schema/value reuse and contract-metadata research. Full overlay editing and
+layout properties keep their own scope. Keep selection, focus, click-through and the inspected
+subject distinct.
 
 ### P-WORK-03 — Remaining shell ownership follows concrete consumers
 
@@ -326,18 +329,23 @@ ellipsis. The pane protocol has keys and a wheel; the introspection pane spends 
 
 ### P-WORK-18 — Loaded participation needs explicit authority
 
-**State:** INITIAL HOST/ADMISSION CONSUMER LANDED; FURTHER UX FOLLOWS CONSUMERS
-**Evidence:** founder confirmed Loom/Zengine standalone/admission work merged;
-[final host correction report](../reportbacks/loom-standalone-usability-corrections-3-RB.md)
+**State:** ACT — maker/ELH inspection and reuse select the next authority consumer
+**Evidence:** the standalone/admission work is merged; source review on 2026-09-21 at Zengine
+`da5b53445b62753883749814ef6f29d037c8f7f1` found Workshop still installing
+`trust_every_artifact` (`workshop/workshop.cpp`) and Input republishing injected and platform
+events without downstream origin (`input/input_weave.hpp`, `docs/reference/input.md`).
 
-The earlier application allow-any baseline is not the current execution starting point. Further
-authority work should inspect the supplied host and Zengine admission policy, keeping native
-execution trust, message grants, human identity and OS file access distinct. Protected drafts,
-dependency installation and micro-console control are concrete future consumers; their phases
-must specify what boundary actually enforces each promise.
+The supplied Loom host's policy and Workshop's current artifact policy are different consumers.
+Receiving-side guest admission grants bounded external operations; it does not settle local
+artifact trust or preserve the initiator through every privileged UI action. Research both
+under the [maker-story authority boundary](drafts/maker-story-development.md#maker-actions-and-external-authority).
+An ELH must not approve or enlarge its authority through the ordinary path, including a popup.
+Selected rule: any ELH development bypass must be compiled out of default builds.
 
-**Trigger:** one of those consumers needs a missing authority decision or operator explanation.
-Do not infer a universal grant store, modal system or remote identity from the completed host arc.
+Keep message grants, native execution trust, human identity and OS file access distinct.
+Refresh the source at execution; this observation is not an assertion about a later corrected
+head. Protected drafts and dependency installation still need their own enforcement arguments.
+Do not infer a universal grant store, modal system or remote identity from the host arc.
 
 ### P-WORK-19 — Remaining host input policy follows its owner
 

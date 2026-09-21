@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-19\
+**Refreshed:** 2026-09-21\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
-**Current product direction:** make the running Workshop comfortable to use and reshape through replaceable desktop tools, inspection, expressive editors and deliberate publication (§6)
-**Current execution state:** External-host control (#38), pane UX (#37), standalone Flow (#40), graphical Flow (#41) and native Flow presentation (#42) are merged. Hands-on Flow use has selected a serious UX research arc, with UI update optimization as parallel research. [Initial Flow research](../reportbacks/zengine-flow-ux-research/research-result.md) now records the source/live baseline and interaction study; human validation and production decisions remain. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the sequence and boundaries; independent pane UX continues and service retirement remains parked.
+**Current product direction:** accelerate complete maker stories through reusable ELH tools, typed inspection and maker-authorized reuse; keep Workshop and Flow understandable and replaceable
+**Current execution state:** The reusable-session foundation (Loom #10 / Zengine #39) is merged by founder confirmation; the later ELH Workshop-improvement correction remains in progress/review. Flow UX and UI-update research, alongside independent pane/editor UX, continue. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the new inspection, metadata and authority research. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -52,7 +52,12 @@ would change future decisions.
 - **Loom holds grammar, not answers.** Domain policy stays with the host or participant that owns
   the fact.
 - **The actor remains the actor.** A policy delegate may change a Session's authority; it does not
-  perform the Session's work or launder authorship through itself.
+  perform the Session's work or launder authorship through itself. Maker gestures and ELH input
+  retain their initiating authority through privileged presentation; ordinary policy prevents
+  an ELH from approving itself. Any ELH permission bypass must be compiled out of default builds.
+- **Information can become maker material.** Inspect, follow, copy and save typed information
+  with its schema and source relationship explicit. Reusing a value grants no authority.
+  Author-declared metadata and host-attested load facts keep their separate owners.
 - **One fact, one owner.** Discovery and enforcement should read the same store; presentation must
   not become a duplicate policy engine.
 - **Different questions keep different owners, lifetimes, and authorities.** Composable,
@@ -171,17 +176,21 @@ and evidence. This does not supply or select a general migration system.
 
 The remaining product direction is:
 
-1. Research Flow's complete maker journey: find an operation, drag/place/connect it, understand
-   execution, simplify a graph through groups, and reuse composites whose available interiors can
-   be traversed. The Goal Map routes the detailed plan and unresolved semantic decisions.
-2. Research UI update optimization alongside Flow: retained descriptions, observable data and
-   selective invalidation under a replaceable presenter. Measure actual interaction costs and
-   preserve input, hit-testing and settled-capture guarantees. This is not a universal renderer
-   implementation mandate or a prerequisite for every UX repair.
-3. Continue independent pane/editor UX and expressive presentation. Use the merged external-host
-   path for reproducible journeys and Loom's existing history. The UI-editing overlay, protected
-   experimentation, broader schema/migration work, configuration, reusable effects, Python, GPU
-   and multi-host growth follow their actual consumer dependencies.
+1. Complete the current ELH improvement correction and review, then use complete 0-to-demo
+   stories as the unit of bounded improvement: stated setup, useful creation, reusable route
+   and verifiable evidence. Existing fixes do not wait for a new automation framework.
+2. Research and deliver one typed inspect-to-reuse story, with contract metadata and preserved
+   maker/ELH authority at the relevant boundaries. Reuse schema discovery, value drafts and
+   saved libraries. Confirm the shared pattern with a second subject and presentation before
+   spreading it. The [arc](drafts/maker-story-development.md) distinguishes selected direction,
+   existing mechanisms, unanswered design questions and the proposed delivery order.
+3. Continue Flow UX research: discover, place/connect, understand, group and reuse operations
+   with traversable interiors. Flow becomes an early consumer of shared typed transfers.
+   UI-update research measures retained descriptions and selective invalidation in parallel;
+   a universal renderer rewrite is not a prerequisite for useful interactions.
+4. Continue independent pane/editor UX and package demonstrated setup and test journeys in the
+   ELH. Broader UI authoring, protected publication, migration, configuration, effects, Python,
+   GPU and multi-host growth follow real consumers and explicit architectural decisions.
 
 The [Workshop roadmap](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns exact items,
 the founder's Terminal key semantics, and phase boundaries. "Gut the shell" means make fixed
@@ -192,7 +201,9 @@ own failure. The first desktop arc is bounded; it is not a mandate to extract ev
 build the complete overlay before improving the next tool.
 
 Ceremony is audited throughout: actions, decisions, discovery, recovery and the documents/code a
-maker must read. Editors should have distinct strengths for different audiences. Live editor
+maker must read. Complete stories record important discoveries and context compaction, then put
+reusable answers in public owner documentation and working ELH packages. Editors should have
+distinct strengths for different audiences. Live editor
 switching proves interchangeability; frequent swapping is not the assumed workflow.
 
 Progress/closing answers remain separate from dispatch refusal. Authority work continues from

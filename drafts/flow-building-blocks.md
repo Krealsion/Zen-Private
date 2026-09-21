@@ -169,7 +169,9 @@ Separate:
 Tags are many-to-many and may cross folders. Neither `pure` nor `view-safe` becomes proof merely
 because it was attached as a label. Keep metadata versioned and optional so older/missing
 descriptions remain honest. This small common descriptor is a consumer of a wider metadata pass,
-not an excuse to build a universal ontology first.
+not an excuse to build a universal ontology first. The selected
+[contract-metadata research](maker-story-development.md#metadata-in-the-weave-contract-selected-research)
+owns the distinction between author declarations and host-attested file, actor and load-time facts.
 
 Entering an authored composite opens its graph. Entering a native primitive opens actual source
 when available, including the function and registration that give it its catalog identity.
@@ -191,7 +193,12 @@ in-place reload path; opening/editing source does not imply that the running imp
 Flow should be an early consumer of a Workshop-wide transfer protocol. The host/input owner
 tracks the gesture across pane boundaries and resolves the current target using current grants
 and displayed geometry. The source offers a bounded typed payload or resolvable reference; the
-destination owns validation and the eventual semantic edit.
+destination owns validation and the eventual semantic edit. The
+[maker-story arc](maker-story-development.md) owns typed inspection and authority across these
+routes: acquisition and use are separate actions by the maker or an ELH with granted authority.
+Handling the actor's data does not grant a pane that actor's authority. A privileged intermediary
+must not turn an ELH gesture into a maker approval. Any ELH permission bypass must be compiled
+out of ordinary builds.
 
 Useful first transfers:
 
@@ -203,28 +210,32 @@ Useful first transfers:
 | Assembly library | Presenter/view or list template reference | Instantiate an inspectable draft of the assembly and its requirements. |
 | Another Flow graph | Authored selection/definition reference | Copy/import/link with explicit scope and supported boundaries; never silently move running state. |
 
-The protocol should carry a gesture/offer identity, source incarnation, available representations,
+A candidate protocol could carry a gesture/offer identity, source incarnation, available representations,
 copy/link/move intent, payload bounds and expiry. The target previews compatibility without executing
 content. On drop it revalidates the target document/version and commits one semantic edit or an
 attributable refusal. Source/target replacement, Escape and lost grants cancel appropriately.
 Repeated delivery cannot commit twice. A move needs source deletion only after a verified target
-commit; begin with copy/reference transfers rather than a distributed move transaction.
+commit; begin with copy/reference transfers rather than a distributed move transaction. These mechanics
+are research proposals to test against the story, not a frozen wire contract.
 
 A reference is not authority. No drag payload contains borrowed drawing grants, reload powers or
 an implicit permission to compile/run. Native-artifact activation and file writes remain separate
 authorized actions. Source-provided labels and type claims are checked at the destination owner.
 
-Terminal agents spend the same add/import/bind commands with explicit references and versions.
+Terminal agents spend the same add/import/bind commands with explicit references, versions
+and their own granted authority.
 They do not have to synthesize a pointer drag. The corresponding accepted/refused receipt names
 the same object the GUI shows. This keeps cross-pane UX and agent participation one capability.
 
 ## 6. Dependency order and useful witnesses
 
 1. Correct the interaction study and visible state boundary; collect founder/human feedback.
-2. Add the shared metadata/inspection and explicit semantic targets already needed for agents,
-   including native source provenance. Use them for tags and hover details.
-3. Deliver Workshop's small cross-pane offer/drop contract with an operator or typed-value
-   transfer into Flow. Prove the equivalent terminal action against the same model.
+2. Coordinate with the maker-story preflight on typed information, contract metadata, actor
+   provenance and approval authority. Reuse schema/value tools and source owners for tags,
+   hover details and explicit semantic targets; do not open a competing reflection project.
+3. Deliver an operator or typed-value transfer into Flow through that shared boundary. Prove
+   the equivalent terminal/ELH action against the same model, including missing authority.
+   Confirm reuse with another subject rather than treating a Flow-specific adapter as general.
 4. Extend reusable authoring from value operations to explicit assembly templates. Use one
    presenter/view pair, then a recycling operator list, as the proving consumer.
 5. Let that list provide concrete retained-view/update measurements. It shares dependencies with

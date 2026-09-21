@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-20\
+**Refreshed:** 2026-09-21\
 **Strategic authority:** `private/zen-strategic-map.md`  
-**Current direction:** make Workshop and Flow understandable through direct manipulation, traversable composition and attributable live behavior; keep presentation replaceable
-**Current execution state:** External-host control (#38), pane UX (#37), standalone Flow (#40), graphical Flow (#41) and native Flow presentation (#42) are merged. The founder has tried Flow and selected a serious UX research arc, with UI update optimization as parallel research (§7). Continue independent pane-UX work; no general renderer rewrite is a prerequisite.
+**Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
+**Current execution state:** The reusable-session foundation (Loom #10 / Zengine #39) is merged by founder confirmation. The ELH Workshop-improvement correction is still in progress/review. Flow UX and UI-update research continue with independent pane/editor UX; the new story/inspection/metadata arc is selected direction, not a claim of implemented capability.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -380,27 +380,48 @@ preserve this interaction behavior and the demonstrated editor capability.
 ### Near-term order and purpose
 
 The retired object canvas supplied useful interaction ideas; its former document and host
-ownership stay retired. The founder's 2026-09-19 hands-on Flow feedback selects a new concrete
-priority: understand and author a running composition through direct manipulation and
-traversable interfaces. This proceeds alongside independent pane UX and a bounded UI update
-research track, without waiting for complete UI authoring or a replacement renderer.
+ownership stay retired. Hands-on Flow use and the founder's 2026-09-21 discussion now join around
+complete maker stories: start from a stated setup, create something, inspect it and improve the
+route. Shared inspection and authority work supports Flow and agent participation without
+serializing unrelated pane/editor or UI-update work.
 
 | Order | Outcome | Purpose and boundary |
 |---|---|---|
-| Accepted foundation | Replaceable desktop, pane launching, default interaction policy and real-pane inspection | PR #35 retired the old canvas/picker and gives application behavior a replaceable owner. |
-| Accepted foundation | Loom schema admission, paired with its Zengine consumer | Loom #8 / Zengine #36 make emitted and nested definitions agree at admission while preserving valid identities, authority separation and live claim lifetimes. |
-| Merged foundation | External-host control (#38), pane UX (#37), standalone/graphical Flow (#40/#41) and native Flow presentation (#42) | Reuse authorized input/capture, typed drafts, the existing runtime and semantic edit owners; these landings are not proof of intuitive UX. |
-| Immediate research priority | Flow UX: discover, drag, connect, group, inspect and reuse | Test the complete maker journey; expose ordering, instance/definition scope and the actual input/output model before authorizing semantic changes. |
-| Parallel research | UI update optimization through retained descriptions and observable dependencies | Measure the current drag path, prototype a replaceable view renderer and preserve displayed-frame input and external-capture ordering. This is not a prerequisite for all Flow UX work. |
-| Continuing independent product work | Pane UX, expressive Neovim/shared presentation and bounded standard-editor improvements | Make everyday editing comfortable; coordinate shared input/presentation contracts without serializing unrelated work. |
-| Following those foundations | UI-editing overlay and broader Info subjects; protected draft/publication work | Connect a visible subject to configuration or source. Stage draft protection before promising safe experimentation or publication to originals. |
-| Later, through concrete consumers | Broader schema/migration capabilities, deeper configuration/setup, reusable effects, Python, GPU and broader multi-host work | Flow now earns a bounded composite-authoring investigation; the wider capabilities still need their own consumers. |
+| Accepted foundations | Desktop #35, schema admission Loom #8 / Zengine #36, external control #38, pane UX #37, Flow #40/#41/#42 and reusable sessions Loom #10 / Zengine #39 | Reuse existing ownership, schemas, drafts, authorized connections and sessions. A merged mechanism does not establish intuitive UX or every downstream authority promise. |
+| Current completion | ELH Workshop-improvement correction and review | Finish its actual interaction evidence, reusable route and concise ELH docs. This consolidation does not enlarge that executor's scope or accept its pending report. |
+| Next shared foundation | One complete inspect-to-reuse story, with metadata and authority preflight | Resolve selected subjects to typed information; follow/pin/copy/save it; reuse it under maker or granted ELH authority. Research load metadata in the public contract and prevent approval through an unprivileged injected click. |
+| Confirm and reuse | A second subject/presentation and reusable ELH story packages | Establish a repeatable pattern with actual consumers, then remove repeated setup, discovery and evidence work. |
+| Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
+| Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
+| Later consumers | Deeper setup/configuration, reusable effects, Python, GPU and broader multi-host work | Demonstrated stories earn scope; no universal framework or complete renderer is a prerequisite. |
 
 These are capability boundaries, not mandatory research/implementation handoffs or arbitrary PR
 counts. Each executor packet should carry its bounded goal through preflight, implementation and
 proof. Independent editor fixes can proceed when they do not depend on an unsettled presentation
 contract. Full overlay authoring, all standard-editor features and protected storage need not
 land together. Service retirement and generic changed-schema migration remain separate work.
+
+### Complete maker stories and reusable information
+
+The founder selected complete 0-to-demo stories as a unit of development: stated setup,
+useful creation, a reusable route and evidence another maker can check. A session can research,
+implement and prove its bounded goal; preserve the exploration timeline, important discoveries,
+ceremony and context-compaction findings. GUI, TUI and structured ELH routes reach the same
+semantic owners. Scope and proof can support autonomous story work; shared meaning, authority,
+persistence and replacement decisions remain founder-directed.
+
+The [maker-story arc](../drafts/maker-story-development.md) owns the detailed direction and
+research questions. Resolve a selected pane subject to its actual data owner and supported
+schema/value retrieval. A temporary info box can follow the source, become a pinned view,
+yield an independent copy or save typed content for later. Reuse message-draft traversal and
+schema-bearing libraries; distinguish live replies, observations and recovery snapshots.
+
+Research metadata in the weave contract: author descriptions and host-observed loaded file,
+requesting/loading actor, load time and incarnation. Name each fact's owner and lifetime;
+do not infer human identity or mutate schema identity with per-load observations. Inspection
+and cross-pane use are maker actions, with separately granted ELH equivalents. Preserve the
+originating actor through privileged UI; approval requires its own Weaver/operator authority.
+Any development bypass is compiled out of default builds. Exact mechanisms remain research.
 
 ### Flow UX research and hierarchical authoring
 
@@ -420,8 +441,9 @@ The founder's refinement selects a 1920×1080 landscape ideal, drag-first placem
 left/right buttons, hover details, explicit Store boundaries, operator tags and native-source
 traversal. [Building blocks and reusable UI pairs](../drafts/flow-building-blocks.md) owns the
 non-primitive inventory, presenter/view rule profile, recycling-list consumer and shared cross-pane
-transfer direction. Flow consumes Workshop-wide typed transfers; agents use the equivalent
-semantic edits. Presenters process data without drawing; views own rendering/local display state
+transfer direction. The [maker-story arc](../drafts/maker-story-development.md) owns shared
+inspection, metadata and actor-authority requirements. Flow consumes those typed transfers;
+agents use the equivalent semantic edits under their own grants. Presenters process data without drawing; views own rendering/local display state
 and report typed intents. Enforcement claims distinguish participant grants from trusted native
 code and logical helper boundaries. These are selected outcomes with proposed contracts, not
 capabilities already implemented by the study.
@@ -580,9 +602,13 @@ not a required popup implementation in this arc. The decision belongs to the hos
 popup would present it. Appearing in the list, knowing a schema, and being able to connect grant
 no application authority. Admission, capability grants, observation and disconnection are distinct.
 
-Input admission, processing, application completion and presentation are separate facts. Preserve
-the agent as actor, distinguish injected input from direct semantic requests, and expose the
-ordering needed to request a screenshot after relevant input and a subsequent presentation. A
+Input admission, processing, application completion and presentation are separate facts. The
+selected rule is to preserve the agent as actor through injected input and direct requests,
+including privileged approval UI. Current Input republishes injected and platform events without
+downstream origin distinction; receiving-side guest admission alone does not enforce that rule.
+The [maker-story arc](../drafts/maker-story-development.md#maker-actions-and-external-authority)
+owns the research and default-off compile-time bypass requirement. Preserve the ordering needed
+to request a screenshot after relevant input and a subsequent presentation. A
 picture is evidence of presentation, not proof that asynchronous work finished. A disconnect after
 submission can leave the outcome unknown; silence does not prove failure or authorize blind replay.
 Requests for richer Workshop history remain subject to its own observation policy.
@@ -604,7 +630,9 @@ The founder selected an explicit ELH-improvement strand on 2026-09-21. Treat the
 harness as a tool that makers can learn and extend: give each relevant phase's report its own
 ELH improvements/ceremony section, and maintain a compact capability and extension map with
 links to deeper owners. The [experiment arc's documentation direction](../../reportbacks/elh-workshop-improvement-arc.md#elh-improvements-and-a-compact-reader-entry)
-defines the reader journey and the present continuation's scope.
+defines the reader journey and that bounded continuation's scope. The
+[maker-story arc](../drafts/maker-story-development.md#delivery-arc-and-acceleration) owns the
+subsequent story, inspection and reusable-package direction.
 
 Generic session, run, history and tool-authoring guidance belongs in Loom. Workshop-specific
 setup, control and reusable tools belong in a separately organized Zengine external-host guide
@@ -623,8 +651,10 @@ Editing mode must make clear whether a gesture inspects the UI or activates the 
 Keep target identity and applicable revision/provenance explicit across changes; consult P-WORK-25
 when defining that selection, without requiring a universal history protocol in the desktop packet.
 
-Info can present pane, component, composite and eventually schema subjects through owner-supplied
-descriptions and operations. The presentation does not acquire universal write authority. Each
+The selected [typed-inspection arc](../drafts/maker-story-development.md#typed-information-as-reusable-material)
+first makes owner-supplied information reusable through linked views, copies and saved values.
+It can serve pane, component, composite and schema subjects before the complete editing overlay.
+Info presents their descriptions and operations. The presentation does not acquire universal write authority. Each
 owner validates its own edits and reports their fate; looking does not author. Preserve subject
 binding and draft behavior already earned by Info's extraction and targeted-commit repairs.
 
@@ -635,7 +665,8 @@ must be supplied and diagnosed when absent. Begin with a concrete pane/component
 general schema editing connects to the selected Flow investigation; changed-shape migration
 still needs its own owner and scope.
 
-This arc follows a working desktop/inspection foundation and useful editor presentation. Protected
+The full editing overlay follows the inspection foundation and useful editor presentation.
+Typed information acquisition and reuse need not wait for the complete overlay. Protected
 drafts may land before or alongside it when its experiments need durable isolation. Opening source
 and ordinary explicit edits do not require that whole storage arc. An overlay-generated edit must
 name the version it addresses and pass through the document owner; claims that experiments cannot
@@ -817,10 +848,10 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** research a discoverable Flow authoring loop with direct manipulation,
-  traversable composites and understandable live results. Investigate retained UI updates
-  alongside it; continue independent pane/editor UX. ELH supplies reproducible input/capture
-  evidence. The UI-editing overlay and protected drafts retain their dependencies in §7.
+- **Next outcome:** complete the current ELH correction, then preflight and deliver a complete
+  inspect-to-reuse maker story with contract metadata and explicit actor authority. Confirm the
+  pattern with another consumer and package the route. Flow UX, retained UI research and
+  independent pane/editor work continue; full overlay and protected drafts retain their bounds.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.
