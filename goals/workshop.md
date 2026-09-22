@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-22\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** The reusable-session foundation and ELH Workshop-improvement story (Loom #10/#11, Zengine #39/#44) are merged. The next phase is drafted around one complete inspect-to-reuse story, with subject identity and actor authority established before its UI can confer meaning. Flow UX, UI-update research and independent pane/editor UX continue; typed inspection is proposed work, not an implemented capability claim.
+**Current execution state:** The reusable-session foundation and ELH Workshop-improvement story (Loom #10/#11, Zengine #39/#44) are merged. The founder selected a one-slot inventory weave: capture pure typed data with separate auto-generated typed metadata, store the pair, then retrieve and interpret both. Flow UX, UI-update research and independent pane/editor UX continue; inventory is selected work, not an implemented capability claim.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -389,8 +389,8 @@ serializing unrelated pane/editor or UI-update work.
 |---|---|---|
 | Accepted foundations | Desktop #35, schema admission Loom #8 / Zengine #36, external control #38, pane UX #37, Flow #40/#41/#42 and reusable sessions Loom #10 / Zengine #39 | Reuse existing ownership, schemas, drafts, authorized connections and sessions. A merged mechanism does not establish intuitive UX or every downstream authority promise. |
 | Accepted maker story | ELH Workshop improvement, Loom #11 / Zengine #44 | Reusable recipe-authoring route, maintained tool checks, native interaction evidence, loaded-module identity and continued session context. Multi-config recipe authoring resolves P-WORK-16. See the [completion report](../../reportbacks/zengine-elh-workshop-improvement-completion-RB.md). |
-| Next shared foundation | [Inspect, keep and reuse a live subject](../drafts/inspect-to-reuse-plan.md) | Resolve a Loaded subject through its owner; inspect/copy/save typed information; fill a real request and perform an authorized read. Establish trusted actor continuity and research metadata at its owners. Full drag/drop and richer follow/pin views are subsequent consumers. |
-| Confirm and reuse | A second subject/presentation and reusable ELH story packages | Establish a repeatable pattern with actual consumers, then remove repeated setup, discovery and evidence work. |
+| Next shared foundation | [One-slot inventory capture](../drafts/inventory-capture-plan.md) | Capture pure typed data and a separate auto-generated list of typed metadata; store/retrieve the associated pair with independent ownership and schema-driven decoding. A message-only weave suffices. |
+| Acquire and reuse | Contextual acquisition, drag-out and reusable ELH story packages | Give the stored pair real pane sources and destinations through shared transfer semantics and preserved actor authority. Bags, richer inspection and dependency resolution follow concrete use. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
 | Later consumers | Deeper setup/configuration, reusable effects, Python, GPU and broader multi-host work | Demonstrated stories earn scope; no universal framework or complete renderer is a prerequisite. |
@@ -411,7 +411,7 @@ semantic owners. Scope and proof can support autonomous story work; shared meani
 persistence and replacement decisions remain founder-directed.
 
 The [maker-story arc](../drafts/maker-story-development.md) owns the detailed direction and
-research questions; the [next-phase plan](../drafts/inspect-to-reuse-plan.md) bounds the first story.
+research questions; the [inventory capture plan](../drafts/inventory-capture-plan.md) bounds the first story.
 Resolve a selected pane subject to its actual data owner and supported
 schema/value retrieval. A temporary info box can follow the source, become a pinned view,
 yield an independent copy or save typed content for later. Reuse message-draft traversal and
@@ -423,6 +423,16 @@ do not infer human identity or mutate schema identity with per-load observations
 and cross-pane use are maker actions, with separately granted ELH equivalents. Preserve the
 originating actor through privileged UI; approval requires its own Weaver/operator authority.
 Any development bypass is compiled out of default builds. Exact mechanisms remain research.
+
+The founder selected inventory as the concrete home for captured material on 2026-09-22. First,
+one weave slot stores a pure typed item paired with a separate automatically collected list of
+typed metadata, including nested structured observations. Item and metadata retain their own
+decoding schemas; unavailable optional facts stay absent. Set replaces the pair together, and
+Get yields independent data without executing actions or reviving the source's authority.
+The first phase requires current-instance storage only, not disk/restart durability or a pane.
+The longer-term inventory can organize code/data/schemas into bags, represent unavailable sources
+and saved actions, and support dependency discovery/build/load. Drag-out follows the same transfer
+meaning as dragging from a pane. Those are later consumers, not hidden first-phase requirements.
 
 ### Flow UX research and hierarchical authoring
 
@@ -850,9 +860,9 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** preflight and deliver the [inspect-to-reuse story](../drafts/inspect-to-reuse-plan.md)
-  with owner-supplied information and explicit actor authority. Confirm the
-  pattern with another consumer and package the route. Flow UX, retained UI research and
+- **Next outcome:** deliver [one-slot inventory capture](../drafts/inventory-capture-plan.md),
+  pairing pure typed data with auto-generated typed metadata. Contextual acquisition and drag-out
+  follow through shared transfer and authority rules. Flow UX, retained UI research and
   independent pane/editor work continue; full overlay and protected drafts retain their bounds.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing

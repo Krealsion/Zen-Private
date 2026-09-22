@@ -25,14 +25,15 @@ but deferred work belongs in `private/backlog.md`.
 
 The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the sequence.
 Desktop, declared-schema admission (P-LOOM-07), external control, reusable sessions and the ELH
-Workshop-improvement story are merged. The proposed [next phase](drafts/inspect-to-reuse-plan.md)
-investigates typed inspection, contract metadata and maker/ELH authority through a complete
-inspect-to-reuse story. Flow UX, UI-update research and independent pane/editor work continue
-alongside it.
+Workshop-improvement story are merged. The selected [next phase](drafts/inventory-capture-plan.md)
+captures pure typed data with separate auto-generated typed metadata in a one-slot inventory.
+Contextual acquisition and drag-out follow. Flow UX, UI-update research and independent pane/editor
+work continue alongside it.
 
-P-WORK-02 and P-WORK-18 now have concrete selected consumers. The metadata question is bounded
-by those consumers, while universal metadata, full overlay authoring and protected publication
-retain their separate scopes. Progress/closing answers, general picture provenance and service
+P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
+slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
+The metadata question is bounded by actual captures, while universal metadata, full overlay
+authoring and protected publication retain their separate scopes. Progress/closing answers, general picture provenance and service
 retirement are not silently selected by this consolidation.
 
 ## 3. Workshop product pressure
@@ -66,6 +67,8 @@ reuse it elsewhere under explicit authority. The [maker-story arc](drafts/maker-
 owns acquisition, schema/value reuse and contract-metadata research. Full overlay editing and
 layout properties keep their own scope. Keep selection, focus, click-through and the inspected
 subject distinct.
+The [first inventory slot](drafts/inventory-capture-plan.md) establishes the destination and typed
+capture pair before broad contextual acquisition; it needs no new graphical inspector.
 
 ### P-WORK-03 — Remaining shell ownership follows concrete consumers
 
@@ -328,8 +331,9 @@ The supplied Loom host's policy and Workshop's current artifact policy are diffe
 Receiving-side guest admission grants bounded external operations; it does not settle local
 artifact trust or preserve the initiator through every privileged UI action. Research both
 under the [maker-story authority boundary](drafts/maker-story-development.md#maker-actions-and-external-authority).
-The [first-story plan](drafts/inspect-to-reuse-plan.md) requires enforcement along its touched
-interaction path without claiming whole-Workshop artifact-policy hardening.
+The [inventory plan](drafts/inventory-capture-plan.md) requires ordinary bounded acquisition and
+storage grants. Broader input-origin enforcement becomes required as contextual UI paths are
+touched; a direct message-only first slot does not claim whole-Workshop artifact-policy hardening.
 An ELH must not approve or enlarge its authority through the ordinary path, including a popup.
 Selected rule: any ELH development bypass must be compiled out of default builds.
 

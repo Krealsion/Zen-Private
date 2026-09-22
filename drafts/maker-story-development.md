@@ -33,9 +33,10 @@ cross-pane operation, reduced pane or simpler workflow. It need not result in mo
 ## Typed information as reusable material
 
 The central object is owned, schema-described information with an optional relationship to its
-source. A temporary info box is its first view. A selected visual subject must resolve to the
-participant or host-owned service that actually knows its data, and an authorized retrieval
-method. A painted label, row index or menu callback does not establish that relationship alone.
+source. The first selected storage home is inventory; a temporary info box is a future view.
+A selected visual subject must resolve to the participant or host-owned service that actually
+knows its data, and an authorized retrieval method. A painted label, row index or menu callback
+does not establish that relationship alone.
 
 Keep presentation subjects (button, effective background color) and domain subjects (the row's
 represented item, its location or participant reference) connected without assuming one tree
@@ -63,12 +64,36 @@ Research the missing subject-to-data connection before inventing another schema 
 engine or persistence format. Sharing this model with Info, Flow and terminal/ELH consumers
 should remove duplicate work, not make the inspector depend on a particular pane.
 
+## Inventory as the first home for captured material
+
+The founder selected inventory on 2026-09-22 and narrowed its first phase to one storage slot.
+Capture the pure typed data a maker wants together with a separate auto-generated list of typed
+metadata. Metadata entries may contain nested structures, such as actual start-command data
+when available. Each part retains the schema definitions it needs; the item must remain decodable
+without optional provenance. Capture code collects observations from their owners and labels
+unknowns, claims and inference honestly. Inventory stores the pair together without certifying
+every recorded claim or inheriting the original actor's authority.
+
+The [inventory capture plan](inventory-capture-plan.md) bounds the immediate Set/Get proof:
+independent nested ownership, generic decoding, truthful replacement/refusal and current-instance
+storage. A message-only weave suffices. The earlier Loaded-to-state-read demonstration is no
+longer the first acceptance story. General inspection, UI actor propagation and drag-out follow
+when those paths are touched.
+
+The longer-term inventory can organize data, schemas, code and action descriptions into bags;
+show unavailable sources; and help resolve/build/load dependencies. Saved buttons can represent
+opening a workstation or playing music. Retrieving a description does not execute it. Dragging
+from inventory should use the same value-transfer meaning as dragging from a pane, with explicit
+authority at the operation boundary. These are consumers of the first slot, not required now.
+
 ## Metadata in the weave contract: selected research
 
 The founder selected research into discoverable metadata associated with a weave's contract:
 the file it was loaded from, who loaded it, when it was loaded, and other useful context.
 Research both the public description and the owning record behind it. This is a selected
 consumer for metadata work, not authorization for a universal metadata framework.
+The first [inventory phase](inventory-capture-plan.md) collects available capture facts; it does
+not require completing this wider metadata inventory or adding missing load history.
 
 Separate the facts before choosing their storage:
 
@@ -157,22 +182,20 @@ the selected authority rule above is not a claim that Workshop already enforces 
    confirmation. Its reusable setup/journey, maintained tool checks, native interaction proof and
    retained session context form the starting point; the [completion report](../../reportbacks/zengine-elh-workshop-improvement-completion-RB.md)
    owns the evidence.
-2. **Preflight one complete inspect-to-reuse story.** Trace a real pane subject to its schema,
-   values and provenance. Research contract metadata and the maker/ELH authority boundary
-   together where they affect the story. Reserve changes to shared meaning, authority,
-   persistence and replacement for founder direction; ordinary implementation choices stay
-   with the executor. Findings may reveal a Loom change before its Zengine consumer.
-   The [next-phase plan](inspect-to-reuse-plan.md) bounds this first story using current source.
-3. **Carry the selected story through implementation and proof.** An example is to inspect a
-   Loaded entry, retain/copy supported typed information, fill a command or Flow argument and
-   perform a permitted operation. Current Loaded selection does not supply a WeaveId; obtain
-   any desired participant reference from an actual owner. Include stale/missing subjects,
-   grant loss/refusal, cancellation, source disappearance and attempted ELH self-approval.
-   This is one goal-sized phase unless a real architectural decision requires a pause.
-4. **Repeat with a different subject and presentation.** A button property or document location
-   should reuse the same inspection/value tools. Prove a cross-pane transfer and its structured
-   counterpart against the same destination owner. A second use reveals special-case glue
-   before it becomes the standard pattern. This can fit the same session when practical.
+2. **Deliver one-slot inventory capture.** Preflight, implement and prove a real typed item paired
+   with automatically captured typed metadata, through a generic Set/Get contract. The
+   [selected plan](inventory-capture-plan.md) and [executor prompt](../../prompts/zengine-inventory-capture.md)
+   bound the phase. Preserve independent data/schema custody and ordinary message authority;
+   this is one complete session, not a mandatory research/implementation handoff.
+3. **Acquire from pane subjects and drag out for use.** Trace the subject to its actual owner,
+   preserve actor authority and reuse the inventory pair/transfer contract. Research richer
+   metadata only where the consumer needs it. Current Loaded selection does not supply a
+   trustworthy current WeaveId. A copied reference confers no authority, and source disappearance
+   cannot silently select a replacement. Full approval UI or global metadata remains unselected.
+4. **Repeat with another subject and presentation.** A button property or document location
+   should reuse the same tools. Prove cross-pane/Flow reuse and its structured counterpart
+   against the same owner, exposing special-case glue before it spreads. Bags, richer views,
+   dependency resolution and persistence follow their actual consumers.
 5. **Package the demonstrated routes and broaden bounded stories.** Turn setup, fixtures,
    journeys and semantic assertions into reusable ELH packages. Each next story can then spend
    its effort creating and improving something, instead of rebuilding its harness.
