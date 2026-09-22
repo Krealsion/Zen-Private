@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-21\
+**Refreshed:** 2026-09-22\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** The reusable-session foundation (Loom #10 / Zengine #39) is merged by founder confirmation. The ELH Workshop-improvement correction is still in progress/review. Flow UX and UI-update research continue with independent pane/editor UX; the new story/inspection/metadata arc is selected direction, not a claim of implemented capability.
+**Current execution state:** The reusable-session foundation and ELH Workshop-improvement story (Loom #10/#11, Zengine #39/#44) are merged. The next phase is drafted around one complete inspect-to-reuse story, with subject identity and actor authority established before its UI can confer meaning. Flow UX, UI-update research and independent pane/editor UX continue; typed inspection is proposed work, not an implemented capability claim.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -388,8 +388,8 @@ serializing unrelated pane/editor or UI-update work.
 | Order | Outcome | Purpose and boundary |
 |---|---|---|
 | Accepted foundations | Desktop #35, schema admission Loom #8 / Zengine #36, external control #38, pane UX #37, Flow #40/#41/#42 and reusable sessions Loom #10 / Zengine #39 | Reuse existing ownership, schemas, drafts, authorized connections and sessions. A merged mechanism does not establish intuitive UX or every downstream authority promise. |
-| Current completion | ELH Workshop-improvement correction and review | Finish its actual interaction evidence, reusable route and concise ELH docs. This consolidation does not enlarge that executor's scope or accept its pending report. |
-| Next shared foundation | One complete inspect-to-reuse story, with metadata and authority preflight | Resolve selected subjects to typed information; follow/pin/copy/save it; reuse it under maker or granted ELH authority. Research load metadata in the public contract and prevent approval through an unprivileged injected click. |
+| Accepted maker story | ELH Workshop improvement, Loom #11 / Zengine #44 | Reusable recipe-authoring route, maintained tool checks, native interaction evidence, loaded-module identity and continued session context. Multi-config recipe authoring resolves P-WORK-16. See the [completion report](../../reportbacks/zengine-elh-workshop-improvement-completion-RB.md). |
+| Next shared foundation | [Inspect, keep and reuse a live subject](../drafts/inspect-to-reuse-plan.md) | Resolve a Loaded subject through its owner; inspect/copy/save typed information; fill a real request and perform an authorized read. Establish trusted actor continuity and research metadata at its owners. Full drag/drop and richer follow/pin views are subsequent consumers. |
 | Confirm and reuse | A second subject/presentation and reusable ELH story packages | Establish a repeatable pattern with actual consumers, then remove repeated setup, discovery and evidence work. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
@@ -411,7 +411,8 @@ semantic owners. Scope and proof can support autonomous story work; shared meani
 persistence and replacement decisions remain founder-directed.
 
 The [maker-story arc](../drafts/maker-story-development.md) owns the detailed direction and
-research questions. Resolve a selected pane subject to its actual data owner and supported
+research questions; the [next-phase plan](../drafts/inspect-to-reuse-plan.md) bounds the first story.
+Resolve a selected pane subject to its actual data owner and supported
 schema/value retrieval. A temporary info box can follow the source, become a pinned view,
 yield an independent copy or save typed content for later. Reuse message-draft traversal and
 schema-bearing libraries; distinguish live replies, observations and recovery snapshots.
@@ -639,8 +640,9 @@ setup, control and reusable tools belong in a separately organized Zengine exter
 group. Package manifests own individual tool help; the entry routes to those descriptions and
 states availability, required authority and important limits. Keep it small and discoverable
 through normal docs/package routes, useful to humans and agents without private phase history.
-Update affected documentation with capability changes. The current hand-built ELH setup gap is
-part of completing the selected experiment; broader harness changes still need a concrete use.
+Update affected documentation with capability changes. The merged experiment supplies a public
+setup/journey guide, a small build fixture and maintained tool checks. Reuse that route; further
+harness changes need concrete ceremony or capability pressure from the next story.
 
 ### UI-editing overlay and a broader Info pane
 
@@ -848,8 +850,8 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** complete the current ELH correction, then preflight and deliver a complete
-  inspect-to-reuse maker story with contract metadata and explicit actor authority. Confirm the
+- **Next outcome:** preflight and deliver the [inspect-to-reuse story](../drafts/inspect-to-reuse-plan.md)
+  with owner-supplied information and explicit actor authority. Confirm the
   pattern with another consumer and package the route. Flow UX, retained UI research and
   independent pane/editor work continue; full overlay and protected drafts retain their bounds.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.

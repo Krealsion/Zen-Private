@@ -139,26 +139,30 @@ popup or holding the `loom.weaver` role. Research both injected events and local
 build may include it; no runtime flag, configuration or message can enable an absent bypass.
 Governed ELH control remains supported in ordinary builds. Many unattended tests can use bounded,
 explicitly pre-approved authority and exercise normal enforcement; bypass evidence alone cannot
-prove the normal boundary. Test self-approval refusal through the actual interactive path too.
+prove the normal boundary. Test self-approval refusal through actual authority-decision paths;
+if an interactive approval path is introduced, exercise it with injected input too.
 These are message-authority promises; they do not sandbox arbitrary trusted in-process code.
 
-Source observations from 2026-09-21: Zengine `da5b53445b62753883749814ef6f29d037c8f7f1`
-has receiving-side guest grants, but Input republishes platform and injected events without
+Source observations refreshed 2026-09-22 against the tree merged as
+Zengine `8048c058ca6b2f245017921b3a3f78e3de8308c4`: it has receiving-side guest grants,
+but Input republishes platform and injected events without
 downstream origin distinction, and Workshop calls `trust_every_artifact` for plan artifacts.
-Loom `2becb6c01fdfdd0b32caf0503559ed8dad2ea657` supplies Weaver's separate operator and
+Loom's tree merged as `4b4667904888c26cda862fcce6725549c97d7141` supplies Weaver's separate operator and
 bounded delegation. Refresh actual execution heads and these paths before implementation;
 the selected authority rule above is not a claim that Workshop already enforces it.
 
 ## Delivery arc and acceleration
 
-1. **Complete the current ELH experiment corrections and review.** Preserve its bounded scope
-   and evidence requirements. The founder's merged Loom #10 / Zengine #39 are the reusable-session
-   foundation; this new arc does not declare the later Workshop-improvement corrections accepted.
+1. **Reuse the accepted ELH experiment.** Loom #10/#11 and Zengine #39/#44 are merged by founder
+   confirmation. Its reusable setup/journey, maintained tool checks, native interaction proof and
+   retained session context form the starting point; the [completion report](../../reportbacks/zengine-elh-workshop-improvement-completion-RB.md)
+   owns the evidence.
 2. **Preflight one complete inspect-to-reuse story.** Trace a real pane subject to its schema,
    values and provenance. Research contract metadata and the maker/ELH authority boundary
    together where they affect the story. Reserve changes to shared meaning, authority,
    persistence and replacement for founder direction; ordinary implementation choices stay
    with the executor. Findings may reveal a Loom change before its Zengine consumer.
+   The [next-phase plan](inspect-to-reuse-plan.md) bounds this first story using current source.
 3. **Carry the selected story through implementation and proof.** An example is to inspect a
    Loaded entry, retain/copy supported typed information, fill a command or Flow argument and
    perform a permitted operation. Current Loaded selection does not supply a WeaveId; obtain

@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-21\
+**Refreshed:** 2026-09-22\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** accelerate complete maker stories through reusable ELH tools, typed inspection and maker-authorized reuse; keep Workshop and Flow understandable and replaceable
-**Current execution state:** The reusable-session foundation (Loom #10 / Zengine #39) is merged by founder confirmation; the later ELH Workshop-improvement correction remains in progress/review. Flow UX and UI-update research, alongside independent pane/editor UX, continue. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the new inspection, metadata and authority research. Service retirement remains parked.
+**Current execution state:** The reusable-session foundation and ELH Workshop-improvement story (Loom #10/#11, Zengine #39/#44) are merged. The proposed next phase is [inspect, keep and reuse a live subject](drafts/inspect-to-reuse-plan.md), carrying owner-supplied information through a typed draft to an authorized operation. Flow UX, UI-update research and independent pane/editor UX continue. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the broader direction. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.

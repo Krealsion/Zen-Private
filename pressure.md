@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-21
+**Refreshed:** 2026-09-22
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -24,11 +24,11 @@ but deferred work belongs in `private/backlog.md`.
 ## 2. Current action pressure
 
 The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the sequence.
-Desktop, declared-schema admission (P-LOOM-07), external control and reusable-session foundations
-are merged. Complete the current ELH Workshop-improvement correction and review; the newly
-selected [maker-story arc](drafts/maker-story-development.md) then investigates typed inspection,
-contract metadata and maker/ELH authority through a complete inspect-to-reuse story. Flow UX,
-UI-update research and independent pane/editor work continue alongside it.
+Desktop, declared-schema admission (P-LOOM-07), external control, reusable sessions and the ELH
+Workshop-improvement story are merged. The proposed [next phase](drafts/inspect-to-reuse-plan.md)
+investigates typed inspection, contract metadata and maker/ELH authority through a complete
+inspect-to-reuse story. Flow UX, UI-update research and independent pane/editor work continue
+alongside it.
 
 P-WORK-02 and P-WORK-18 now have concrete selected consumers. The metadata question is bounded
 by those consumers, while universal metadata, full overlay authoring and protected publication
@@ -304,17 +304,6 @@ founder wants as the pressure for a general popup/modal feature.
 **Trigger:** a reload that breaks input or UI in practice; or the first maker who quits with an
 unpromoted image and did not know.
 
-### P-WORK-16 — `config` is named, not asked
-
-**State:** HOOKED  
-**Evidence:** `Zengine/docs/workshop/builder.md`; `reportbacks/pick-and-load-repairs-RB.md` Pressure 1
-
-A `cmake_target` row's `config` is empty and right under single-config generators and must be
-authored under multi-config ones; the chooser does not ask it. `load_cache()` already reads the
-generator, so the chooser could ask exactly when it matters.
-
-**Trigger:** a maker on MSVC pressing `a` on a Visual Studio tree.
-
 ### P-WORK-17 — The weave you just loaded is a late row behind `... N more`
 
 **State:** OPEN (a sharper case of P-WORK-11)  
@@ -330,8 +319,8 @@ ellipsis. The pane protocol has keys and a wheel; the introspection pane spends 
 ### P-WORK-18 — Loaded participation needs explicit authority
 
 **State:** ACT — maker/ELH inspection and reuse select the next authority consumer
-**Evidence:** the standalone/admission work is merged; source review on 2026-09-21 at Zengine
-`da5b53445b62753883749814ef6f29d037c8f7f1` found Workshop still installing
+**Evidence:** source review on 2026-09-22 of the tree merged as Zengine
+`8048c058ca6b2f245017921b3a3f78e3de8308c4` found Workshop still installing
 `trust_every_artifact` (`workshop/workshop.cpp`) and Input republishing injected and platform
 events without downstream origin (`input/input_weave.hpp`, `docs/reference/input.md`).
 
@@ -339,6 +328,8 @@ The supplied Loom host's policy and Workshop's current artifact policy are diffe
 Receiving-side guest admission grants bounded external operations; it does not settle local
 artifact trust or preserve the initiator through every privileged UI action. Research both
 under the [maker-story authority boundary](drafts/maker-story-development.md#maker-actions-and-external-authority).
+The [first-story plan](drafts/inspect-to-reuse-plan.md) requires enforcement along its touched
+interaction path without claiming whole-Workshop artifact-policy hardening.
 An ELH must not approve or enlarge its authority through the ordinary path, including a popup.
 Selected rule: any ELH development bypass must be compiled out of default builds.
 
