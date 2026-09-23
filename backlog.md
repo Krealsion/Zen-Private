@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-21\
+**Refreshed:** 2026-09-23\
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -66,7 +66,10 @@ workflow replay or new input architecture is owed here.
 
 ### BL-DEF-06 — Finish minor Files/Builder documentation cleanup
 
-**State:** PARKED / DOCUMENTATION ONLY; not a blocker to Zengine PR #43.
+**State:** IMPLEMENTED / AWAITING FOUNDER ACCEPTANCE in [Zengine PR #49](https://github.com/Krealsion/Zengine/pull/49).
+The promotion title, zero-picture qualification and menu admission/clipping distinction were
+corrected, with law references checked. Keep this item until acceptance;
+[phase evidence](../reportbacks/zengine-comfortable-demo-setups-evidence.md) records verification.
 **Owed:** Narrow the positive promotion test's title (currently saying "promote and revert")
 to the promotion it actually exercises, and update `WL-HAND-04`'s reference. Reconcile
 `WL-HAND-03`'s zero-picture wording with `RowMap::current` and `WL-HAND-04`'s explicit refusal

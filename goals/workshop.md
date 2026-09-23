@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-22\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** Inventory capture, Info copy/live editing and the sorted collection with primary dragging are merged through Zengine #47. [Inventory-to-Compose reuse and timed motion](../drafts/inventory-compose-motion-plan.md) is implemented in open PR #48 with all reported checks green at the 2026-09-22 review. The selected next phase is [comfortable pane sizes and reusable test setups](../drafts/workshop-comfort-and-test-setups-plan.md), after the founder's merge and a fresh current-main baseline. Flow and independent pane/editor UX remain parallel work.
+**Current execution state:** Inventory and Info paths, the sorted collection, Inventory-to-Compose reuse and timed motion are merged through Zengine #48. [Comfortable pane sizes and reusable test setups](../drafts/workshop-comfort-and-test-setups-plan.md) are implemented and locally verified in [Zengine PR #49](https://github.com/Krealsion/Zengine/pull/49). After founder acceptance, return to named/incomplete command presets and field acquisition using the maintained command setup. Flow and independent pane/editor UX remain parallel work.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -390,8 +390,8 @@ serializing unrelated pane/editor or UI-update work.
 | Accepted foundations | Desktop #35, schema admission Loom #8 / Zengine #36, external control #38, pane UX #37, Flow #40/#41/#42 and reusable sessions Loom #10 / Zengine #39 | Reuse existing ownership, schemas, drafts, authorized connections and sessions. A merged mechanism does not establish intuitive UX or every downstream authority promise. |
 | Accepted maker story | ELH Workshop improvement, Loom #11 / Zengine #44 | Reusable recipe-authoring route, maintained tool checks, native interaction evidence, loaded-module identity and continued session context. Multi-config recipe authoring resolves P-WORK-16. See the [completion report](../../reportbacks/zengine-elh-workshop-improvement-completion-RB.md). |
 | Accepted inventory foundation | Capture, collection and Info editing through #47 | Owned typed data and separate metadata, stable process-local identities, copy dragging and secondary live-reference editing. |
-| Implemented, awaiting founder merge | [Inventory to Compose and timed motion](../drafts/inventory-compose-motion-plan.md), PR #48 | Fill compatible forms, store complete commands and explicitly submit with actor authority; demonstrate through state-reactive ELH orchestration. |
-| Selected next detour | [Comfortable panes and reusable test setups](../drafts/workshop-comfort-and-test-setups-plan.md) | Per-pane initial comfort, one-command demo setup, visible warm reset and measured agent/ELH/host ceremony; reuse existing Inventory/Info and Compose stories. |
+| Accepted maker story | [Inventory to Compose and timed motion](../drafts/inventory-compose-motion-plan.md), PR #48 | Fill compatible forms, store complete commands and explicitly submit with actor authority; demonstrate through state-reactive ELH orchestration. |
+| Implemented, awaiting founder acceptance | [Comfortable panes and reusable test setups](../drafts/workshop-comfort-and-test-setups-plan.md), PR #49 | Per-pane initial comfort, one-command demo setup, visible warm reset and measured agent/ELH/host ceremony; reuse existing Inventory/Info and Compose stories. |
 | After the detour | Named/incomplete command presets and field acquisition | Complete missing arguments from inventory and review/run a useful command; choose persistence explicitly rather than implying durable inventory. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
@@ -873,10 +873,10 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** after the founder merges PR #48, deliver [comfortable panes and reusable test
-  setups](../drafts/workshop-comfort-and-test-setups-plan.md): useful initial space, quick load,
-  repeatable reset and measured ceremony. Then return to named/incomplete command presets and
-  field-level acquisition through a real command story. Bags and durable storage retain their bounds.
+- **Next outcome:** accept the [comfortable-pane/demo setup phase](../drafts/workshop-comfort-and-test-setups-plan.md),
+  then use its maintained command desk for named/incomplete presets and field-level acquisition.
+  Preserve explicit execution and distinguish drafts from admissible stored messages. Bags and
+  durable storage retain their bounds.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.

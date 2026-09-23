@@ -1,6 +1,6 @@
 # Comfortable panes and reusable test setups
 
-**Status:** selected next phase; planning only, no product changes yet.\
+**Status:** implemented and locally verified in [Zengine PR #49](https://github.com/Krealsion/Zengine/pull/49), commit `e8fddf072d1791e7544392b0c437a65f220bb1a1`. Founder acceptance remains pending.\
 **Selected:** 2026-09-22, founder request.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
 **Predecessor:** [Inventory/Compose and timed motion](inventory-compose-motion-plan.md).
@@ -18,13 +18,12 @@ or a request to replace the maker's normal startup desk.
 
 ## Starting evidence and implementation gate
 
-At planning time Zengine [PR #48](https://github.com/Krealsion/Zengine/pull/48) is open at
-`2f39c3c97ff637d171e7b17aacd34ffa124fe076`; all six reported checks, including advisory MSVC,
-passed. Its [report](../../reportbacks/zengine-inventory-compose-motion-RB.md) owns the behavioral
-evidence. Wait for the founder's merge, then fetch and verify current main and branch from it.
-Refresh the paths below against that baseline; do not silently stack onto the unmerged branch.
+The founder merged Zengine PR #48 and authorized implementation. The branch was created from
+freshly fetched `origin/main` at `13e29602f6cddbf345d1773866325ba43fdbb227`; a delivery-time fetch
+still resolves there. The [phase report](../../reportbacks/zengine-comfortable-demo-setups-RB.md)
+and [evidence](../../reportbacks/zengine-comfortable-demo-setups-evidence.md) own the result.
 
-Source observations at that head:
+The following source observations record the planning baseline, before implementation:
 
 - `workshop/pane_vocabulary.hpp`: `PaneOffered v1` carries pane/name/summary, with no size request.
   `PaneRoom` reports actual body rows/columns resolved with the current medium's text metric.
@@ -181,3 +180,30 @@ BL-WORK-02 remains preservation work; inspect the small provider witness when ch
 without turning demo recipes into a plugin SDK/project-template phase. BL-DEF-06 wakes if the
 implementation edits pane-controls/pane-menu docs or the named tests; include that bounded wording
 cleanup then. BL-VERIFY-01 remains parked unless its specific Builder field check/driver is reused.
+
+## Implemented outcome and next use
+
+Providers now offer version-2 body row/column preferences. Workshop resolves them through the
+medium's text metrics and seats defaults by the same height it draws. Explicit sizes win; v1
+providers retain the fallback. The two recipes use authored layouts in dedicated instances.
+`external-host/demo.py` is the maintained list/start/status/reset/stop route. Python owns recipe
+policy; an optional Demo weave exposes Reset and its attributed state. Workshop and providers
+own setup application and transient reset. Reset preserves non-fixture inventory entries and
+refuses pending owner work; it is intentionally not transactional or an undo system.
+
+Windows SDL and terminal stories passed, including the visible reset and another edit/save.
+The command story passed twice in the same SDL session. Five warm samples measured roughly
+0.6 seconds to ensure readiness and 1.1–1.2 seconds to reset. Direct preparation is 7/8 owner
+requests (values/commands), with service and requester coordination counted separately. Full
+numbers and retention limits belong to the phase evidence, not the live roadmap.
+
+After founder acceptance, use the `commands` setup for the selected named/incomplete-preset
+story. Extend this existing recipe to expose missing fields, acquire a compatible value and
+review/submit. Capture one before/after ceremony baseline without cloning process-launch code.
+Choose persistence in that preflight; no cross-process inventory guarantee is implied here.
+
+Pressure kept outside this detour: screenshots are expensive evidence transfers; complete-command
+story run records can exceed their retained ask window. Broader supervision, arbitrary maker-desk
+isolation, undo, collision-free tiling and packaged installers need their own concrete story.
+These are observed limits, not newly authorized backlog work. BL-DEF-06 was awakened and its
+bounded wording cleanup is implemented, awaiting founder acceptance at the backlog owner.

@@ -1,6 +1,6 @@
 # Inventory reuse and timed movement
 
-**Status:** implementation, real SDL demo and local verification complete; PR #48 open with all six reported checks green at the 2026-09-22 planning review. Founder merge remains pending.\
+**Status:** PR #48 merged by the founder. Comfortable panes and reusable setups are implemented next; the continuation below follows their acceptance.\
 **Owner:** [Workshop goal map](../goals/workshop.md).  
 **Phase:** [scope](../../prompts/zengine-inventory-compose-motion.md).
 
