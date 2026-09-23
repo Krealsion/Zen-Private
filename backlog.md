@@ -30,6 +30,10 @@ inviting outside contributors.
 
 **Evidence:** Workshop Goal Map, WG/DOC external-reader work, current public guides.
 
+**Current review:** interaction authoring repairs the existing loaded-pane guide around Tally,
+request handling and missing-reply diagnosis. Warm installed-package exercise is useful evidence,
+not second-maintainer validation. The goal-coupled obligation remains open.
+
 ### BL-WORK-02 — Keep the simple external pane useful as a learning artifact
 
 **State:** PARKED / PRESERVATION  
@@ -94,6 +98,10 @@ do not make humans read the executor constitution.
 
 **Wake:** before actively soliciting outside contributors or claiming second-maintainer onboarding.
 
+**Current review:** the interaction-authoring phase supplies an exercised loaded-pane authoring
+route and explicit diagnostic commands. Persistent setup, IDE discovery and independent human
+onboarding remain broader work; this bounded repair does not close the item.
+
 ### BL-ADOPT-02 — Release identity and compatibility promise
 
 **State:** PARKED  
@@ -111,6 +119,11 @@ latency claims without claim-specific measurements.
 
 **Wake:** first material performance promise, observed bottleneck, or adoption decision that
 depends on performance.
+
+**Current review:** interaction authoring measures local implementation and shared-fixture header
+invalidation on one Windows/MinGW Debug configuration. Native grant edits move to a compiled
+owner; the large shared fixture remains a measured pressure, not a claimed general speedup.
+The phase evidence owns exact counts/times and the limits of mtime-only probes.
 
 ## 5. Architectural debt that waits for pressure
 

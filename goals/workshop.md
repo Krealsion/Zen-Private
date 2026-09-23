@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-23\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** Foundations, reusable command presets, portable inventory views and contextual hotkeys are merged through Zengine #51. Terminal command/result capture into Inventory is implemented for review in Zengine #52, with Loom #13 merged, carrying the story through Info, Compose and explicit hotbar reuse. After #52 merges, the selected interaction-authoring phase reduces repeated request bookkeeping, makes missing reply grants diagnosable, repairs the public contributor path and measures incremental build cost. Retention and authority keep their existing owners. Flow and independent pane/editor UX remain parallel work.
+**Current execution state:** Terminal command/result capture into Inventory is merged through Zengine #52, with Loom #13 merged, carrying the story through Info, Compose and explicit hotbar reuse. Interaction authoring is implemented for review: caller-numbered request bookkeeping, one explicit native grant owner, missing-reply diagnostics, a repaired loaded-pane contributor route and measured incremental build cost. Retention and authority keep their existing owners. After acceptance, return to task-driven independent Info views or inventory organization. Flow and independent pane/editor UX remain parallel work.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -394,8 +394,8 @@ serializing unrelated pane/editor or UI-update work.
 | Accepted maker story | [Comfortable panes and reusable test setups](../drafts/workshop-comfort-and-test-setups-plan.md), PR #49 | Per-pane initial comfort, one-command demo setup, visible warm reset and measured agent/ELH/host ceremony; reuse existing Inventory/Info and Compose stories. |
 | Accepted; #50 merged | [Reusable command presets and field acquisition](../drafts/inventory-command-presets-plan.md) | Start blank or work backward from a complete command, unset values, retain incomplete drafts, fill gaps from saved typed records and explicitly run with current authority. |
 | Accepted; #51 merged | [Portable inventory views and contextual hotkeys](../drafts/inventory-command-presets-plan.md#selected-portable-view-phase) | Single boxes and row/column strips over owned entries; move/reorder/displace without data loss; duplicate independently; retain copied bindings disabled; explicit activation and per-invocation authority. |
-| Implemented for review; Loom #13 merged / Zengine #52 open | [Terminal acquisition](../drafts/inventory-command-presets-plan.md#terminal-and-answer-acquisition) | Retrieve real typed command/results at their retention and authority owner. Independent Info views, folders and durability follow demonstrated tasks. |
-| Selected next, after #52 merges | [Easier interaction authoring](../drafts/interaction-authoring-plan.md) | Simplify repeated mechanics in real authorized interactions, diagnose a missing reply grant, exercise a current loaded-pane authoring guide, and measure rebuild cost. Preserve policy ownership and attributable pending; no universal framework or automatic grants. |
+| Merged; Loom #13 / Zengine #52 | [Terminal acquisition](../drafts/inventory-command-presets-plan.md#terminal-and-answer-acquisition) | Retrieve real typed command/results at their retention and authority owner. Independent Info views, folders and durability follow demonstrated tasks. |
+| Implemented for review; Loom #14 / Zengine #53 | [Easier interaction authoring](../drafts/interaction-authoring-plan.md) | Shared request mechanics in real authorized interactions, attributable missing reply grants, an exercised loaded-pane guide and measured rebuild cost. Policy and pending remain explicit; no universal framework or automatic grants. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
 | Later consumers | Deeper setup/configuration, reusable effects, Python, GPU and broader multi-host work | Demonstrated stories earn scope; no universal framework or complete renderer is a prerequisite. |
@@ -881,8 +881,7 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** finish review of [Terminal acquisition](../drafts/inventory-command-presets-plan.md#terminal-and-answer-acquisition),
-  then complete [interaction authoring](../drafts/interaction-authoring-plan.md): fewer independently
+- **Next outcome:** review [interaction authoring](../drafts/interaction-authoring-plan.md): fewer independently
   maintained request facts, attributable failures and an exercised contributor route. Return to
   task-driven independent Info views or inventory organization with that foundation; bags and durable
   storage retain their bounds.

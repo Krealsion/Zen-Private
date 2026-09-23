@@ -447,6 +447,21 @@ now from two suites; a named seam (a function returning the selection) would let
 object. Also owed from the documentation arc: the four routed documents over budget (`operators`,
 `panes`, `realization`, `surface`) each want a register phase in the family-table shape.
 
+### P-BUILD-08 — Shared Workshop fixtures amplify routine recompilation
+
+**State:** WATCH / MEASURED BOUNDARY
+
+**Evidence:** `reportbacks/zen-interaction-authoring-evidence.md`
+
+The interaction-authoring probe invalidates a local pane implementation and the broad Workshop
+fixture header on the same Windows/MinGW Debug build. The latter rebuilds many suites. Moving
+native grant policy to one compiled owner removes duplicate maintenance and avoids invalidating
+that header for a grant edit; it does not solve the fixture's other dependencies.
+
+**Trigger:** a selected change repeatedly touches this shared header. Move stable implementations
+or suite-specific facilities out based on the measured consumers. Preserve installed boundaries
+and independent denial evidence; do not select a general build-system rewrite from one probe.
+
 ## 5. Loom and architecture pressure
 
 ### P-LOOM-01 — The portable pixel layout brain has no executor consumer

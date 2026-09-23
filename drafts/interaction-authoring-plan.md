@@ -1,6 +1,7 @@
 # Easier interaction authoring
 
-**Status:** selected 2026-09-23; implementation follows the merge of Zengine #52.\
+**Status:** implemented for review after Zengine #52 merged; Loom #14 and the dependent
+Zengine #53 carry the result. Founder acceptance remains pending.\
 **Purpose:** reduce the work and opportunities for error involved in adding an ordinary,
 correctly authorized interaction, while preserving the ownership that makes tools composable.\
 **Execution packet:** [zen-interaction-authoring.md](../../prompts/zen-interaction-authoring.md).\
@@ -20,7 +21,7 @@ This is one bounded phase with research, implementation and proof in the same ex
 Its stages are working checkpoints, not mandatory separate prompts or PRs. Flow and unrelated UX
 work continue independently; shared contracts need coordination.
 
-## Source-grounded starting points
+## Preflight findings that selected the work
 
 - Loom already owns `include/zen/weave/ask_book.hpp`, authenticated answer provenance and
   sender-visible dispatch refusal. `AskBook` tracks conversations; it does not authenticate
@@ -41,8 +42,10 @@ work continue independently; shared contracts need coordination.
   actual dependencies before choosing a build change; the observed cost does not establish a
   particular fix.
 
-These locations refer to the reviewed product trees, not permanent paths that an executor may
-assume still own the behavior. Rebaseline on current main after the predecessor lands.
+These are preflight findings, not current API instructions. The implemented request API is
+Loom's optional `weave/role_request.hpp`; native Workshop grant policy now has one compiled
+owner in `workshop/grant.cpp`. The existing public tool-authoring guide is the current loaded-pane
+route. The phase report owns measured outcomes and limitations; product docs own usage.
 
 ## Work and completion target
 
