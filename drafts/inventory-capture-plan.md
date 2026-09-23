@@ -1,6 +1,7 @@
 # Inventory capture: data paired with typed metadata
 
-**Status:** founder-selected next phase; implementation pending\
+**Status:** initial capture implemented; collection and Info reuse merged through Zengine #47.
+Current work: [Compose and motion](inventory-compose-motion-plan.md)\
 **Selected:** 2026-09-22\
 **Owner:** [Workshop Goal Map](../goals/workshop.md#near-term-order-and-purpose)\
 **Executor packet:** [one-slot inventory capture](../../prompts/zengine-inventory-capture.md)

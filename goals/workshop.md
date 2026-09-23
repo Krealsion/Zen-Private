@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-22\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** The reusable-session foundation and ELH Workshop-improvement story (Loom #10/#11, Zengine #39/#44) are merged. The founder selected a one-slot inventory weave: capture pure typed data with separate auto-generated typed metadata, store the pair, then retrieve and interpret both. Flow UX, UI-update research and independent pane/editor UX continue; inventory is selected work, not an implemented capability claim.
+**Current execution state:** Inventory capture, Info copy/live editing and the sorted collection with primary dragging are merged through Zengine #47. [Inventory-to-Compose reuse and timed motion](../drafts/inventory-compose-motion-plan.md) is the active implementation: Zengine owns typed transfer, authority, view geometry and movement; ELH orchestrates and verifies the story. Flow and independent pane/editor UX remain parallel work.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -389,8 +389,8 @@ serializing unrelated pane/editor or UI-update work.
 |---|---|---|
 | Accepted foundations | Desktop #35, schema admission Loom #8 / Zengine #36, external control #38, pane UX #37, Flow #40/#41/#42 and reusable sessions Loom #10 / Zengine #39 | Reuse existing ownership, schemas, drafts, authorized connections and sessions. A merged mechanism does not establish intuitive UX or every downstream authority promise. |
 | Accepted maker story | ELH Workshop improvement, Loom #11 / Zengine #44 | Reusable recipe-authoring route, maintained tool checks, native interaction evidence, loaded-module identity and continued session context. Multi-config recipe authoring resolves P-WORK-16. See the [completion report](../../reportbacks/zengine-elh-workshop-improvement-completion-RB.md). |
-| Next shared foundation | [One-slot inventory capture](../drafts/inventory-capture-plan.md) | Capture pure typed data and a separate auto-generated list of typed metadata; store/retrieve the associated pair with independent ownership and schema-driven decoding. A message-only weave suffices. |
-| Acquire and reuse | Contextual acquisition, drag-out and reusable ELH story packages | Give the stored pair real pane sources and destinations through shared transfer semantics and preserved actor authority. Bags, richer inspection and dependency resolution follow concrete use. |
+| Accepted inventory foundation | Capture, collection and Info editing through #47 | Owned typed data and separate metadata, stable process-local identities, copy dragging and secondary live-reference editing. |
+| Active acquire and reuse | [Inventory to Compose and timed motion](../drafts/inventory-compose-motion-plan.md) | Fill compatible forms, store complete commands and explicitly submit with actor authority; demonstrate through state-reactive ELH orchestration. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
 | Later consumers | Deeper setup/configuration, reusable effects, Python, GPU and broader multi-host work | Demonstrated stories earn scope; no universal framework or complete renderer is a prerequisite. |
@@ -429,7 +429,9 @@ one weave slot stores a pure typed item paired with a separate automatically col
 typed metadata, including nested structured observations. Item and metadata retain their own
 decoding schemas; unavailable optional facts stay absent. Set replaces the pair together, and
 Get yields independent data without executing actions or reviving the source's authority.
-The first phase requires current-instance storage only, not disk/restart durability or a pane.
+Capture, collection and Info editing are now implemented with process-local storage. Disk/restart
+durability is not promised. The [active Compose phase](../drafts/inventory-compose-motion-plan.md)
+extends reuse without changing the pair/authority boundary.
 The longer-term inventory can organize code/data/schemas into bags, represent unavailable sources
 and saved actions, and support dependency discovery/build/load. Drag-out follows the same transfer
 meaning as dragging from a pane. Those are later consumers, not hidden first-phase requirements.
@@ -860,10 +862,9 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** deliver [one-slot inventory capture](../drafts/inventory-capture-plan.md),
-  pairing pure typed data with auto-generated typed metadata. Contextual acquisition and drag-out
-  follow through shared transfer and authority rules. Flow UX, retained UI research and
-  independent pane/editor work continue; full overlay and protected drafts retain their bounds.
+- **Next outcome:** complete [Inventory-to-Compose reuse](../drafts/inventory-compose-motion-plan.md)
+  and its timed drag demo. Then investigate named/incomplete command presets and field-level
+  acquisition through a real command story. Bags and durable storage retain their separate bounds.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.
