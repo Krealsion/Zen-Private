@@ -1,6 +1,6 @@
 # Inventory command presets and reusable views
 
-**Status:** selected next phase; prompt prepared, implementation not started.\
+**Status:** implemented and locally verified; PR review and founder acceptance pending.\
 **Selected:** 2026-09-23, founder refinement after Zengine #49 merged.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
 **Executor packet:** [Reusable command presets](../../prompts/zengine-inventory-command-presets.md).\
@@ -27,32 +27,33 @@ scalar where useful, and compose through shared meaning rather than command-spec
 
 ## Source preflight and decisions delegated
 
-Verified merged main: `a7f4648933d71f3941c2ab4ed95ef84cdeb23dc5` (PR #49), tree-equal to its reviewed
-product tip. Refresh again at execution. `message-draft::Draft` already supports unset and partial
-state; `Library` preserves original schema closures with a private presence projection. Inventory
-pairs correctly require complete admission. Compose saves only complete messages, and its local
-presence toggle is not yet a stored-preset editing route. Info has scalar editing but no unset UI.
+The implementation started from fetched main `a7f4648933d71f3941c2ab4ed95ef84cdeb23dc5`
+(PR #49). A complete `StoredDraft` envelope carries one existing Library entry, preserving its
+original schema closure and missing values. Inventory admission remains strict. `FieldValue`
+carries a selected typed branch and structural path using that same codec, without sibling values.
+Info requests current actor acquisition permission; Compose checks the complete current type
+agreement and requires separate permission at explicit submission.
 
-The executor chooses a representation and bounded shared edits after tracing these owners. Prefer
-existing draft/library support; the stored preset must itself be valid typed data. Ordinary item
-admission stays strict, and projected optional shapes never become runtime message contracts.
-Scope the first lifetime to current process-local Inventory. Durable bags are not silently promised
-because the lower draft library can serialize data. Store target observations separately from
-current routing and authorization. A reused command is always the current actor's new act.
+Compose Ctrl+B stores blank or incomplete presets; Ctrl+S stores complete commands. Info Ctrl+B
+forks a preset copy, Ctrl+U unsets a value, Ctrl+S saves, and Ctrl+G picks up a typed field to place
+in Compose. Copy and conditional live-save paths retain their prior custody. The maintained
+`presets` demo layout shows Inventory, Info, Loaded and Compose together and resets both editors.
+SDL repetition across visible Reset preserved saved entries; the shared TUI story also passed.
+The [report](../../reportbacks/zengine-inventory-command-presets-RB.md) owns verification details.
 
-Keep destination/schema agreement, required-field checks, stale-revision refusal and authentic
-owner answers visible. A drop never executes. Missing data, changed schemas or expired source
-references produce an attributable outcome, not a default value or an automatic effect retry.
+Inventory remains process-local. Serialization does not promise durable bags. Stored role context
+is an observation, never routing or authority. Required gaps, incompatible types and retained stale
+revision arguments refuse rather than defaulting, silently refreshing or retrying an effect.
 
 ## Terminal and answer acquisition
 
 The founder's fuller story starts with a completed Terminal command, removes values, and fills it
-using saved command results, potentially inspected beside it. This is the preferred follow-on
-source and may land in the same session if the owner contract is already sufficient.
+using saved command results, potentially inspected beside it. This is the recommended next source story after acceptance of the preset path.
 
-At the checked baseline, Terminal's `TranscriptShown`/`ShownEntry` seam supplies rendered facts
-rather than typed payloads/stable acquisition handles. Preflight must inspect the actual retained
-record and its retrieval authority before promising drag-out. Display text is not a serialization
+Preflight confirmed Terminal's `TranscriptShown`/`ShownEntry` seam supplies rendered facts
+rather than typed payloads/stable acquisition handles. Loom TerminalSession retains bounded incoming data, but its Submitted records carry no original
+command payload. Completing outbound acquisition therefore needs an explicit retained-payload,
+retrieval-authority and eviction contract at that owner. Display text is not a serialization
 format. A copied historical message carries content and optional observational metadata, not an
 old sender, grant, reply relationship or pending operation. Evicted/unavailable records remain
 unavailable; do not re-execute them to reconstruct their data.
@@ -88,9 +89,9 @@ Multiple Info windows should preserve independent draft state and conditional sa
 
 ## Order and proof
 
-1. Deliver the reversible preset story in existing Inventory/Info/Compose, using the maintained
-   `commands` setup, visible Reset and a small reactive ELH proof. Pin incomplete roundtrip,
-   typed acquisition, copy/live custody and explicit execution.
+1. Review and accept the implemented reversible preset story in existing Inventory/Info/Compose,
+   using the maintained `presets` setup, visible Reset and reactive ELH proof. Its data/authority
+   boundaries are ready for the next source to reuse.
 2. Close any remaining typed Terminal command/result acquisition gap, grounded in retained data
    and authority. Include independent Info views when simultaneous inspection demonstrably helps.
 3. Try one alternate inventory view, likely a single slot or small hotbar, against an actual task.

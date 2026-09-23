@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-22\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** The Inventory/Info/Compose stories, timed motion, comfortable pane sizes and reusable demo setups are merged through Zengine #49. The selected next phase is [reusable command presets built forward and backward](../drafts/inventory-command-presets-plan.md): unset saved argument values, retain an incomplete preset, fill it from saved typed data, then review and explicitly run it. Typed Terminal acquisition and alternate Inventory/Info views extend that story as their dependencies are earned. Flow and independent pane/editor UX remain parallel work.
+**Current execution state:** Foundations are merged through Zengine #49. [Reusable command presets](../drafts/inventory-command-presets-plan.md) are implemented and locally verified, awaiting PR review and founder acceptance: unset saved values, retain incomplete drafts, refill from typed records and explicitly run. Recommended next is typed Terminal command/result acquisition at its real retention/authority boundary; alternate Inventory/Info views follow concrete simultaneous-use pressure. Flow and independent pane/editor UX remain parallel work.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -392,7 +392,7 @@ serializing unrelated pane/editor or UI-update work.
 | Accepted inventory foundation | Capture, collection and Info editing through #47 | Owned typed data and separate metadata, stable process-local identities, copy dragging and secondary live-reference editing. |
 | Accepted maker story | [Inventory to Compose and timed motion](../drafts/inventory-compose-motion-plan.md), PR #48 | Fill compatible forms, store complete commands and explicitly submit with actor authority; demonstrate through state-reactive ELH orchestration. |
 | Accepted maker story | [Comfortable panes and reusable test setups](../drafts/workshop-comfort-and-test-setups-plan.md), PR #49 | Per-pane initial comfort, one-command demo setup, visible warm reset and measured agent/ELH/host ceremony; reuse existing Inventory/Info and Compose stories. |
-| Selected next | [Reusable command presets and field acquisition](../drafts/inventory-command-presets-plan.md) | Start blank or work backward from a complete command, unset values, retain incomplete drafts, fill gaps from saved typed results and explicitly run with current authority. |
+| Implemented; review pending | [Reusable command presets and field acquisition](../drafts/inventory-command-presets-plan.md) | Start blank or work backward from a complete command, unset values, retain incomplete drafts, fill gaps from saved typed records and explicitly run with current authority. |
 | Following concrete reuse pressure | [Terminal acquisition and multiple inventory views](../drafts/inventory-command-presets-plan.md#terminal-and-answer-acquisition) | Retrieve real typed command/results; then try independent Info views, single-entry boxes or hotbars over shared entries. Slot locks, folders and hotkeys follow demonstrated tasks and explicit binding semantics. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
@@ -435,8 +435,8 @@ Get yields independent data without executing actions or reviving the source's a
 Capture, collection and Info editing are now implemented with process-local storage. Disk/restart
 durability is not promised. The [implemented Compose phase](../drafts/inventory-compose-motion-plan.md)
 extends reuse without changing the pair/authority boundary.
-The [command preset/view plan](../drafts/inventory-command-presets-plan.md) now owns the next reuse
-story and the founder's single-slot/hotbar direction. Several views should refer to the same owned
+The [command preset/view plan](../drafts/inventory-command-presets-plan.md) owns the implemented preset
+story and next acquisition boundary and the founder's single-slot/hotbar direction. Several views should refer to the same owned
 entries while keeping their own arrangement and editing state. Slot placement, collection identity
 and execution remain distinct; sorting must not silently redirect a pinned hotkey. Typed Terminal
 command/result acquisition and additional Info instances need their real owner/lifetime seams.
@@ -879,10 +879,10 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** use the maintained command desk for [reversible preset authoring](../drafts/inventory-command-presets-plan.md):
-  remove argument values from a completed command, retain the unfinished preset, refill from saved
-  data and explicitly run. Expand sources/views after generic slot use proves their purpose.
-  Distinguish drafts from admissible messages; bags and durable storage retain their bounds.
+- **Next outcome:** accept the implemented [reversible preset story](../drafts/inventory-command-presets-plan.md),
+  then add typed Terminal acquisition so used commands and retained answers can enter that same
+  path. Resolve real retention/eviction and authority first. Expand simultaneous Info and inventory
+  views against observed work; bags and durable storage retain their bounds.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.
