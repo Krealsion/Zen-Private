@@ -1,6 +1,6 @@
 # Inventory command presets and reusable views
 
-**Status:** command presets accepted and merged in Zengine #50; portable inventory views and contextual hotkeys accepted and merged in [PR #51](https://github.com/Krealsion/Zengine/pull/51). Terminal command/result acquisition is implemented for review in [Zengine #52](https://github.com/Krealsion/Zengine/pull/52); its Loom #13 dependency is merged.\
+**Status:** accepted through Zengine #53: command presets (#50), portable views/hotkeys (#51), Terminal acquisition (#52), and the interaction-authoring foundation (Loom #14 / Zengine #53).\
 **Selected:** 2026-09-23, founder refinement after Zengine #49 merged.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
 **Executor packet:** [Reusable command presets](../../prompts/zengine-inventory-command-presets.md).\
@@ -47,7 +47,7 @@ revision arguments refuse rather than defaulting, silently refreshing or retryin
 
 ## Terminal and answer acquisition
 
-The current review story starts with actual Terminal command/reply data, stores named copies,
+The accepted story starts with actual Terminal command/reply data, stores named copies,
 then removes a command field in Info and fills it from a saved reply through Compose. Ordinary
 primary dragging acquires a copy; the secondary menu offers pick-and-place. This completes the
 selected source connection without widening Terminal's vocabulary or guest execution authority.
@@ -61,7 +61,7 @@ recreates a pending conversation. Evicted/unavailable and oversized payloads ref
 The [phase report](../../reportbacks/zengine-terminal-inventory-capture-RB.md) owns verification.
 SDL, TUI and a warm SDL rerun proved capture/preset reuse and refusal without invocation authority.
 The loaded-pane witness separately proves explicit maker-authorized hotkey delivery exactly once.
-Review and founder acceptance remain distinct from these results; #52 is open.
+The founder merged #52; the subsequent authoring phase replayed the same story in SDL and TUI.
 
 Independent Info windows, durable bags/folders and view retirement remain later selections. A
 second Info instance could let the maker keep a command and its result visible together; current
@@ -69,10 +69,9 @@ reuse works with one. Preserve these seams instead of building a second retained
 
 ## Several views over the same inventory
 
-The founder proposes single-entry boxes behaving as draggable buttons; rows or columns of slots
-like a game hotbar; and hotkeys mapped to slots, with locking, sorting and folders. These are
-valuable later arrangements of the same toolbox. Use generic inventory behavior first to discover
-which layouts remove actual work.
+Single-entry boxes, rows/columns, contextual hotkeys, naming and added/name/type sorting are
+accepted capabilities. Search/filtering, named bags, placement locks and durable storage remain
+possible extensions. They should solve actual collection or workspace tasks.
 
 The direction is multiple views over shared owned entries, with independent selection/layout and
 Info drafts. A view is not another authoritative copy of every stored item. A single view may
@@ -82,40 +81,88 @@ binding visible. Removing or changing an entry must not redirect a stale view to
 Keep three meanings distinct when these stories are selected:
 
 - Collection identity and content: owned by Inventory; names/folders help organization.
-- Slot placement and locks: view configuration; sorting a collection should not silently rebind a
-  pinned hotbar item. Decide whether each hotkey binds a slot or an entry and display that policy.
+- Slot placement and future locks: view configuration; bindings already follow entry identity.
+  Sorting a collection must not silently rebind a pinned hotbar item.
 - Invocation: command-specific explicit action using current authority; plain data and unfinished
   drafts remain inspectable/draggable, and are not secretly runnable buttons.
 
-The selected portable-view phase below now authorizes boxes, strips and explicit contextual
-hotkeys. Folders, durable storage and a general multi-pane framework remain future stories.
+The accepted portable-view contract below owns boxes, strips and explicit contextual hotkeys.
+Folders, durable storage and a general multi-pane framework remain future stories.
 Multiple Info windows should preserve independent draft state and conditional saves when earned.
 
-## Order and proof
+## Next maker stories
 
-1. Command presets and portable views are accepted through #51, including compact shared-border
-   tiles, naming on arrival and contextual hotkeys.
-2. Review and land the implemented typed Terminal command/result acquisition in #52, grounded in
-   retained data and current actor authority.
-3. Complete the selected [interaction-authoring phase](interaction-authoring-plan.md) before the
-   next dependent maker story: reduce repeated request bookkeeping, diagnose missing reply grants,
-   repair the contributor route and measure build friction.
-4. Add independent Info views when simultaneous inspection demonstrably helps. Expand organization
-   or durable bags only against an actual task. Folder and locking policy
-   should simplify the existing identity model rather than replace it.
+The authoring prerequisite is accepted. These are recommended choices pending founder selection;
+their order is a product judgment, not a dependency chain that forces separate PRs.
 
-This order is dependency-led, not a mandatory PR count. Each selected packet owns its scope;
-unrelated Flow and pane UX work can continue. Compare maker actions, agent calls, remote asks
-and attributed host work. Keep large screenshot transfers and truncated recording separate.
+### First recommendation: work with independent Info views
+
+Keep a saved result in one Info view and a command draft in another. Inspect them side by side,
+drag a compatible field into the draft, and save or reuse the filled command through Compose.
+Changing focus or another pane's selection must not replace a pinned subject or erase its edits.
+
+Current Info has one InventoryEditor, room and fixed pane id; Inventory's boxes/strips already
+demonstrate multiple pane ids from one provider. Use that existing seam as a starting point,
+not a commitment to clone whole weaves or build a universal window framework. Current Info drops
+open a subject; targeted field insertion into an existing draft needs implementation/preflight,
+not an assumption that a second visible window provides it automatically.
+
+Each view owns its selection, draft, pending operation and reply destination. Two live drafts of
+the same entry are independent drafts, not independent owners: saving one must leave the other
+intact, and a stale revision must refuse without discarding local edits. Copying a view must not
+silently duplicate Inventory data. Copy/live-reference mode and unsaved work must remain visible.
+
+Include a bounded create/close/reopen story and deliberate handling of dirty or pending views.
+Closing a view must not delete its stored item; a late reply must not modify a reused view.
+Clarify visibility versus retirement so creating views does not quietly exhaust permanent offers.
+Use distinct PaneRefs if appropriate; this does not select duplicate windows for one PaneRef.
+The existing general Info inspector must retain its pane-property behavior.
+
+Carry the complete story through implementation and SDL/TUI proof in one execution packet.
+Reuse typed transfer/schema agreement, conditional Inventory writes and the new request helper.
+Keep behavior in Zengine and the ELH story short and state-reactive. Compare the maker's source
+switching and agent/host message counts against the existing single-Info story.
+
+### Alternative: organize a growing toolbox
+
+Find a useful saved command/result among many entries, collect related items into a named bag or
+filtered view, and arrange a hotbar without rebinding its keys. Search and grouping add something
+beyond existing sorting. Keep entry identity independent of names, ordering and membership;
+removing a placement or collection must not accidentally delete its data.
+
+Select this first if finding material has become more costly than combining it. The exact
+membership/folder model needs a concrete collection story; arbitrary hierarchy is not required.
+
+### Alternative: keep a toolbox across restarts
+
+Save useful typed entries and their configuration, stop Workshop, restart, and explicitly restore
+them. This makes sessions accumulate work instead of ending as demonstrations. Disk persistence
+is absent today; same-shape reload continuity is not restart durability.
+
+Persist schema-bearing data and deliberate configuration, never old grants, pending operations
+or a claim that an old live reference is valid again. Source absence, schema/version changes,
+damaged storage, destination re-resolution and shortcut activation need explicit behavior.
+Choose this earlier if makers are losing useful presets; bags are not a prerequisite.
+
+### Enabling work and boundaries
+
+Discoverable menu action identities would remove current ELH dependence on known action order.
+Consider that bounded improvement when the selected story needs new context actions. Cross-pane
+carry completion should let a source clear obsolete status without making it own the receiver.
+View retirement/configuration cleanup is related to adding views; the broader fixture split stays
+trigger-driven under P-BUILD-08. Flow UX and presentation research continue independently.
+
+Each selected packet owns its complete story and proof. Compare maker actions, agent calls,
+remote asks and attributed host work. Screenshot transport optimization is a separate question.
 
 BL-WORK-01 remains active through legible UI and public tools/guides. BL-WORK-02 remains preserved.
 BL-DEF-06 was accepted with #49 and removed from the live backlog; its evidence remains in Git and
 the prior report. BL-VERIFY-01 stays parked unless its specific Builder witness is touched.
 
-## Selected portable-view phase
+## Accepted portable-view contract
 
-The founder selected single boxes and row/column strips next. One Inventory-owned entry has one
-portable placement; default dragging moves that placement between these views or returns it to
+One Inventory-owned entry has one portable placement; default dragging moves that placement
+between these views or returns it to
 main Inventory. A filled single box returns its displaced entry without deleting data. Other
 receiving panes still get a copied value. Explicit duplication creates independent data, with an
 immediate name editor or the next available numbered name.
@@ -129,8 +176,8 @@ Data, observational metadata and stored configuration never contain an execution
 [Portable-slot packet](../../prompts/zengine-inventory-portable-slots.md) owns this phase's scope.
 The [phase report](../../reportbacks/zengine-inventory-portable-slots-RB.md) owns verification;
 the [exploration log](../../reportbacks/zengine-inventory-portable-slots-exploration.md) records the
-investigation. Durable folders/bags, focus-dependent scopes, user-designed box
-faces and Terminal payload acquisition remain later work; this phase does not require them.
+investigation. Durable folders/bags, focus-dependent scopes and user-designed box
+faces remain later work. Terminal payload acquisition is now accepted separately.
 
 ### Pressure for the next selection
 
@@ -146,18 +193,5 @@ faces and Terminal payload acquisition remain later work; this phase does not re
 - Configured bindings for unavailable entries consume the bounded configuration list. Explicit
   retirement should remove configuration only, never silently retarget it to a new occupant.
 
-### Terminal-story pressure for a following phase
-
-- Two simultaneous Info views would reduce source swapping while composing from saved replies.
-  Choose this if the next story involves comparing or combining several stored values.
-- The maintained story uses 80 hand requests before cleanup on its first run. SDL's two screenshots
-  raise the total to 261 link asks (TUI: 85); a warm SDL run uses 282 because locating older rows
-  adds scrolling. These are observations, not a request to optimize transport in this phase.
-- General menus still require a known action order in the ELH story. Discoverable action identities
-  and screenshot transport efficiency belong to the ELH improvement seam already identified.
-- Info's source-side field-carry notice can remain after another pane receives the copy. A later
-  carrier-completion signal could make cross-pane status clearer without making Info own Compose.
-- Broad seam/test-fixture headers make Windows iteration costly. The selected
-  [interaction-authoring phase](interaction-authoring-plan.md) measures this friction alongside
-  repeated request mechanics and the missed native reply grant. Bounded dependency improvements
-  need evidence; a build-system rewrite is not selected.
+The acquisition and interaction-authoring reports own their run-specific request counts. They
+vary with scrolling and screenshot transport; they are evidence routes, not a fixed cost contract.
