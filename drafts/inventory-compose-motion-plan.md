@@ -1,6 +1,6 @@
 # Inventory reuse and timed movement
 
-**Status:** PR #48 merged by the founder. Comfortable panes and reusable setups are implemented next; the continuation below follows their acceptance.\
+**Status:** PR #48 and the subsequent comfortable-pane/demo setup PR #49 are merged. Reversible command presets are selected next.\
 **Owner:** [Workshop goal map](../goals/workshop.md).  
 **Phase:** [scope](../../prompts/zengine-inventory-compose-motion.md).
 
@@ -16,26 +16,19 @@ logic; it does not decode product geometry or implement transfer semantics.
 
 ## Recommended next phase
 
-The founder selected a short [pane comfort and reusable test setup detour](workshop-comfort-and-test-setups-plan.md)
-before expanding commands: sensible initial sizes, one-command starting setups, a visible reset
-and measurements of agent commands, remote requests and internal messages. This turns the
-demonstrated story into a quick repeatable starting point. Implement from verified current main
-after PR #48 merges. The plan owns this scope; the continuation below remains next afterward.
+The [comfort/setup detour](workshop-comfort-and-test-setups-plan.md) is accepted with #49.
+Its maintained command desk is the starting point for
+[reusable presets built forward and backward](inventory-command-presets-plan.md).
 
 ## After the setup detour
 
-Make command reuse a convenient toolbox: named command presets and incomplete forms.
-Choose persistence explicitly in that preflight; the current Inventory remains process-local.
-Start with one command that needs values supplied by inventory slots, show each missing field,
-and require an explicit run gesture after completion. Preserve the distinction between a
-complete admissible stored value and an unfinished draft (the existing draft library already
-has a projection for the latter). Keep target-role observations separate from authority.
+The [preset/view plan](inventory-command-presets-plan.md) owns the selected scope: start from a
+complete command, remove values without changing its schema, save the unfinished draft, refill
+it from saved typed data and explicitly run. It also records Terminal command/result acquisition,
+independent Info views and later single-slot/hotbar presentations. The current collection gets
+more general use first. This completed motion phase owns no competing continuation checklist.
 
-Preflight the real ceremony first: choosing the receiver via Loaded, finding a compatible field,
-and recovering from a stale entry revision. Use that evidence to choose the smallest field-level
-acquisition addition and drop affordances. Do not promise automatic rebinding or retries.
-
-## Deliberately outside this phase
+## Outside the completed motion phase
 
 - Undo of external effects: owners need explicit inverse/conditional operations or checkpoints;
   pointer replay and a saved form cannot undo an already executed command.
@@ -54,7 +47,8 @@ acquisition addition and drop affordances. Do not promise automatic rebinding or
 ## Process and backlog
 
 BL-WORK-01 is addressed through a maintained public story and discoverable tool entry.
-BL-WORK-02 remains preserved; BL-VERIFY-01 and BL-DEF-06 are not awakened by this scope.
+BL-WORK-02 remains preserved; BL-VERIFY-01 was not awakened by this scope. The subsequent #49
+setup phase completed BL-DEF-06, now accepted and removed from the live backlog.
 The constitution now requires a verified current-main branch, screenshots on visual PRs,
 and a complete branch/build handoff. Keep compaction and exploration friction in the report,
 not in growing agent memory. No automatic merging.

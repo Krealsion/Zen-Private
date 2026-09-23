@@ -64,25 +64,6 @@ workflow replay or new input architecture is owed here.
 **Source:** founder's 2026-09-21 decision to merge with local evidence follow-up;
 [verification review](../reportbacks/zengine-files-builder-mouse-verification-review/review.md).
 
-### BL-DEF-06 — Finish minor Files/Builder documentation cleanup
-
-**State:** IMPLEMENTED / AWAITING FOUNDER ACCEPTANCE in [Zengine PR #49](https://github.com/Krealsion/Zengine/pull/49).
-The promotion title, zero-picture qualification and menu admission/clipping distinction were
-corrected, with law references checked. Keep this item until acceptance;
-[phase evidence](../reportbacks/zengine-comfortable-demo-setups-evidence.md) records verification.
-**Owed:** Narrow the positive promotion test's title (currently saying "promote and revert")
-to the promotion it actually exercises, and update `WL-HAND-04`'s reference. Reconcile
-`WL-HAND-03`'s zero-picture wording with `RowMap::current` and `WL-HAND-04`'s explicit refusal
-clause. State menu label admission versus available display width in the owning presenter
-documentation: the 64-byte admission bound and display clipping are different mechanisms.
-No new behavior or tests are required merely to justify inaccurate wording.
-
-**Wake:** the next edit to these tests or the pane-controls/pane-menu documentation; verify the
-affected law references then.
-
-**Source:** founder's 2026-09-21 decision; the verification review, report's Doc gaps, and source
-at PR #43 head `e9e0085fcbdeac5a505bff682622b0d0d86c90f9`.
-
 ### BL-DEF-01 — Sandbox view-root cleanup after refusal
 
 **State:** PARKED  

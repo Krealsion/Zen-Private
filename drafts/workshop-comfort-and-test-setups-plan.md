@@ -1,6 +1,6 @@
 # Comfortable panes and reusable test setups
 
-**Status:** implemented and locally verified in [Zengine PR #49](https://github.com/Krealsion/Zengine/pull/49), commit `e8fddf072d1791e7544392b0c437a65f220bb1a1`. Founder acceptance remains pending.\
+**Status:** accepted; founder merged [Zengine PR #49](https://github.com/Krealsion/Zengine/pull/49) at `a7f4648933d71f3941c2ab4ed95ef84cdeb23dc5` on 2026-09-23.\
 **Selected:** 2026-09-22, founder request.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
 **Predecessor:** [Inventory/Compose and timed motion](inventory-compose-motion-plan.md).
@@ -170,16 +170,16 @@ hint contract, reset action route and numbers from live checks; these are not se
 
 ## Roadmap and backlog disposition
 
-This detour precedes named/incomplete command presets. Its purpose is to remove repeated setup
-and cramped presentation from every later experiment. Return to the [Compose continuation](inventory-compose-motion-plan.md#after-the-setup-detour)
-afterward: presets, missing-field completion and field acquisition through a real command story.
+This completed detour removes repeated setup and cramped presentation from later experiments.
+The selected continuation is [reversible command presets](inventory-command-presets-plan.md):
+unset completed commands into reusable partial drafts and refill from saved typed data.
 General workspaces, durable bags, persistence, undo and an animation framework remain outside.
 
 BL-WORK-01 is active here: the public setup route must make the behavior understandable.
 BL-WORK-02 remains preservation work; inspect the small provider witness when changing offers,
-without turning demo recipes into a plugin SDK/project-template phase. BL-DEF-06 wakes if the
-implementation edits pane-controls/pane-menu docs or the named tests; include that bounded wording
-cleanup then. BL-VERIFY-01 remains parked unless its specific Builder field check/driver is reused.
+without turning demo recipes into a plugin SDK/project-template phase. BL-DEF-06 woke, was fixed
+and is now accepted with #49; removed from the live backlog. BL-VERIFY-01 remains parked unless
+its specific Builder field check/driver is reused.
 
 ## Implemented outcome and next use
 
@@ -197,13 +197,12 @@ The command story passed twice in the same SDL session. Five warm samples measur
 requests (values/commands), with service and requester coordination counted separately. Full
 numbers and retention limits belong to the phase evidence, not the live roadmap.
 
-After founder acceptance, use the `commands` setup for the selected named/incomplete-preset
-story. Extend this existing recipe to expose missing fields, acquire a compatible value and
+Use the `commands` setup for the selected [reversible preset story](inventory-command-presets-plan.md). Extend this existing recipe to expose missing fields, acquire a compatible value and
 review/submit. Capture one before/after ceremony baseline without cloning process-launch code.
 Choose persistence in that preflight; no cross-process inventory guarantee is implied here.
 
 Pressure kept outside this detour: screenshots are expensive evidence transfers; complete-command
 story run records can exceed their retained ask window. Broader supervision, arbitrary maker-desk
 isolation, undo, collision-free tiling and packaged installers need their own concrete story.
-These are observed limits, not newly authorized backlog work. BL-DEF-06 was awakened and its
-bounded wording cleanup is implemented, awaiting founder acceptance at the backlog owner.
+These are observed limits, not newly authorized backlog work. BL-DEF-06 was accepted with the
+founder merge; its completed evidence remains in the phase report and Git.
