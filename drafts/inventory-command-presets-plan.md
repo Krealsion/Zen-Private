@@ -1,6 +1,6 @@
 # Inventory command presets and reusable views
 
-**Status:** command presets accepted and merged in Zengine #50; portable inventory views and contextual hotkeys implemented in [PR #51](https://github.com/Krealsion/Zengine/pull/51), awaiting founder review.\
+**Status:** command presets accepted and merged in Zengine #50; portable inventory views and contextual hotkeys accepted and merged in [PR #51](https://github.com/Krealsion/Zengine/pull/51). Terminal command/result acquisition is implemented for review in [Zengine #52](https://github.com/Krealsion/Zengine/pull/52); its Loom #13 dependency is merged.\
 **Selected:** 2026-09-23, founder refinement after Zengine #49 merged.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
 **Executor packet:** [Reusable command presets](../../prompts/zengine-inventory-command-presets.md).\
@@ -47,21 +47,25 @@ revision arguments refuse rather than defaulting, silently refreshing or retryin
 
 ## Terminal and answer acquisition
 
-The founder's fuller story starts with a completed Terminal command, removes values, and fills it
-using saved command results, potentially inspected beside it. This is the recommended next source story after acceptance of the preset path.
+The current review story starts with actual Terminal command/reply data, stores named copies,
+then removes a command field in Info and fills it from a saved reply through Compose. Ordinary
+primary dragging acquires a copy; the secondary menu offers pick-and-place. This completes the
+selected source connection without widening Terminal's vocabulary or guest execution authority.
 
-Preflight confirmed Terminal's `TranscriptShown`/`ShownEntry` seam supplies rendered facts
-rather than typed payloads/stable acquisition handles. Loom TerminalSession retains bounded incoming data, but its Submitted records carry no original
-command payload. Completing outbound acquisition therefore needs an explicit retained-payload,
-retrieval-authority and eviction contract at that owner. Display text is not a serialization
-format. A copied historical message carries content and optional observational metadata, not an
-old sender, grant, reply relationship or pending operation. Evicted/unavailable records remain
-unavailable; do not re-execute them to reconstruct their data.
+Loom #13 now owns exact observation retrieval with separate 64-item authored and received windows.
+Zengine #52 maps numbered wrapped rows to terminal instance/observation identities and authorizes
+retrieval at Workshop's current actor boundary. Metadata records historical source facts separately
+from the pure item. Capturing never reparses text, reruns a command, restores old authority or
+recreates a pending conversation. Evicted/unavailable and oversized payloads refuse.
 
-If this requires independent Loom retention/retrieval work, complete the generic preset story
-first and report the exact seam. A second Info instance is a presentation/lifetime question,
-not a prerequisite for using saved values as inputs. No compulsory phase split when a clean,
-bounded extension can finish in the current implementation session.
+The [phase report](../../reportbacks/zengine-terminal-inventory-capture-RB.md) owns verification.
+SDL, TUI and a warm SDL rerun proved capture/preset reuse and refusal without invocation authority.
+The loaded-pane witness separately proves explicit maker-authorized hotkey delivery exactly once.
+Review and founder acceptance remain distinct from these results; #52 is open.
+
+Independent Info windows, durable bags/folders and view retirement remain later selections. A
+second Info instance could let the maker keep a command and its result visible together; current
+reuse works with one. Preserve these seams instead of building a second retained-payload cache.
 
 ## Several views over the same inventory
 
@@ -89,8 +93,8 @@ Multiple Info windows should preserve independent draft state and conditional sa
 
 ## Order and proof
 
-1. Command presets are accepted in #50. Complete and review the selected portable-view story
-   below against explicit duplication, placement, current actor authority and contextual activation.
+1. Command presets and portable views are accepted through #51, including compact shared-border
+   tiles, naming on arrival and contextual hotkeys.
 2. Close the typed Terminal command/result acquisition gap, grounded in retained data and
    authority. Include independent Info views when simultaneous inspection demonstrably helps.
 3. Expand organization or durable bags only against an actual task. Folder and locking policy
@@ -137,3 +141,17 @@ faces and Terminal payload acquisition remain later work; this phase does not re
   completion remains the receiving weave's contract; a queued message is never reported as done.
 - Configured bindings for unavailable entries consume the bounded configuration list. Explicit
   retirement should remove configuration only, never silently retarget it to a new occupant.
+
+### Terminal-story pressure for a following phase
+
+- Two simultaneous Info views would reduce source swapping while composing from saved replies.
+  Choose this if the next story involves comparing or combining several stored values.
+- The maintained story uses 80 hand requests before cleanup on its first run. SDL's two screenshots
+  raise the total to 261 link asks (TUI: 85); a warm SDL run uses 282 because locating older rows
+  adds scrolling. These are observations, not a request to optimize transport in this phase.
+- General menus still require a known action order in the ELH story. Discoverable action identities
+  and screenshot transport efficiency belong to the ELH improvement seam already identified.
+- Info's source-side field-carry notice can remain after another pane receives the copy. A later
+  carrier-completion signal could make cross-pane status clearer without making Info own Compose.
+- Broad seam/test-fixture headers make Windows iteration costly. Batch coherent header changes
+  before builds; a separate build-structure study should be driven by measured developer friction.
