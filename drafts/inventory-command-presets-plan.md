@@ -95,13 +95,17 @@ Multiple Info windows should preserve independent draft state and conditional sa
 
 1. Command presets and portable views are accepted through #51, including compact shared-border
    tiles, naming on arrival and contextual hotkeys.
-2. Close the typed Terminal command/result acquisition gap, grounded in retained data and
-   authority. Include independent Info views when simultaneous inspection demonstrably helps.
-3. Expand organization or durable bags only against an actual task. Folder and locking policy
+2. Review and land the implemented typed Terminal command/result acquisition in #52, grounded in
+   retained data and current actor authority.
+3. Complete the selected [interaction-authoring phase](interaction-authoring-plan.md) before the
+   next dependent maker story: reduce repeated request bookkeeping, diagnose missing reply grants,
+   repair the contributor route and measure build friction.
+4. Add independent Info views when simultaneous inspection demonstrably helps. Expand organization
+   or durable bags only against an actual task. Folder and locking policy
    should simplify the existing identity model rather than replace it.
 
-This order is dependency-led, not a mandatory PR count. The executor may finish a bounded adjacent
-source path while implementing the first story. Compare maker actions, agent calls, remote asks
+This order is dependency-led, not a mandatory PR count. Each selected packet owns its scope;
+unrelated Flow and pane UX work can continue. Compare maker actions, agent calls, remote asks
 and attributed host work. Keep large screenshot transfers and truncated recording separate.
 
 BL-WORK-01 remains active through legible UI and public tools/guides. BL-WORK-02 remains preserved.
@@ -153,5 +157,7 @@ faces and Terminal payload acquisition remain later work; this phase does not re
   and screenshot transport efficiency belong to the ELH improvement seam already identified.
 - Info's source-side field-carry notice can remain after another pane receives the copy. A later
   carrier-completion signal could make cross-pane status clearer without making Info own Compose.
-- Broad seam/test-fixture headers make Windows iteration costly. Batch coherent header changes
-  before builds; a separate build-structure study should be driven by measured developer friction.
+- Broad seam/test-fixture headers make Windows iteration costly. The selected
+  [interaction-authoring phase](interaction-authoring-plan.md) measures this friction alongside
+  repeated request mechanics and the missed native reply grant. Bounded dependency improvements
+  need evidence; a build-system rewrite is not selected.
