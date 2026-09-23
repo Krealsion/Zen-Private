@@ -1,6 +1,6 @@
 # Inventory reuse and timed movement
 
-**Status:** implementation and real SDL demo complete; verification and PR handoff in progress.  
+**Status:** implementation, real SDL demo and local verification complete; PR #48 open with all six reported checks green at the 2026-09-22 planning review. Founder merge remains pending.\
 **Owner:** [Workshop goal map](../goals/workshop.md).  
 **Phase:** [scope](../../prompts/zengine-inventory-compose-motion.md).
 
@@ -15,6 +15,14 @@ reads current visible pane rows, requests motion, and verifies owner state. It s
 logic; it does not decode product geometry or implement transfer semantics.
 
 ## Recommended next phase
+
+The founder selected a short [pane comfort and reusable test setup detour](workshop-comfort-and-test-setups-plan.md)
+before expanding commands: sensible initial sizes, one-command starting setups, a visible reset
+and measurements of agent commands, remote requests and internal messages. This turns the
+demonstrated story into a quick repeatable starting point. Implement from verified current main
+after PR #48 merges. The plan owns this scope; the continuation below remains next afterward.
+
+## After the setup detour
 
 Make command reuse a convenient toolbox: named command presets and incomplete forms.
 Choose persistence explicitly in that preflight; the current Inventory remains process-local.

@@ -178,6 +178,14 @@ the selected authority rule above is not a claim that Workshop already enforces 
 
 ## Delivery arc and acceleration
 
+**Current sequence (2026-09-22):** capture, collection and Info editing are merged through #47;
+Compose reuse and timed dragging are implemented in open #48. The founder selected a short
+[pane comfort and reusable setup phase](workshop-comfort-and-test-setups-plan.md) next, before
+incomplete command presets. Bring the packaging outcome below forward for these existing
+stories: one-command preparation, visible reset, and counts/latency at agent, remote and internal
+message boundaries. Use that maintained starting point in subsequent work. The numbered arc
+below describes the broader progression, not an instruction to redo completed capture work.
+
 1. **Reuse the accepted ELH experiment.** Loom #10/#11 and Zengine #39/#44 are merged by founder
    confirmation. Its reusable setup/journey, maintained tool checks, native interaction proof and
    retained session context form the starting point; the [completion report](../../reportbacks/zengine-elh-workshop-improvement-completion-RB.md)
