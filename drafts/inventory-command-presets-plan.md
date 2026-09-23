@@ -1,6 +1,6 @@
 # Inventory command presets and reusable views
 
-**Status:** implemented and locally verified; PR review and founder acceptance pending.\
+**Status:** command presets accepted and merged in Zengine #50; portable inventory views and contextual hotkeys implemented in [PR #51](https://github.com/Krealsion/Zengine/pull/51), awaiting founder review.\
 **Selected:** 2026-09-23, founder refinement after Zengine #49 merged.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
 **Executor packet:** [Reusable command presets](../../prompts/zengine-inventory-command-presets.md).\
@@ -83,19 +83,18 @@ Keep three meanings distinct when these stories are selected:
 - Invocation: command-specific explicit action using current authority; plain data and unfinished
   drafts remain inspectable/draggable, and are not secretly runnable buttons.
 
-These are design constraints and future stories, not approval for a hotbar, folder system,
-multi-pane framework, hidden automation, hotkey grammar or persistence mechanism in this phase.
+The selected portable-view phase below now authorizes boxes, strips and explicit contextual
+hotkeys. Folders, durable storage and a general multi-pane framework remain future stories.
 Multiple Info windows should preserve independent draft state and conditional saves when earned.
 
 ## Order and proof
 
-1. Review and accept the implemented reversible preset story in existing Inventory/Info/Compose,
-   using the maintained `presets` setup, visible Reset and reactive ELH proof. Its data/authority
-   boundaries are ready for the next source to reuse.
-2. Close any remaining typed Terminal command/result acquisition gap, grounded in retained data
-   and authority. Include independent Info views when simultaneous inspection demonstrably helps.
-3. Try one alternate inventory view, likely a single slot or small hotbar, against an actual task.
-   Earn locking/binding semantics there; add folders, sorting and hotkeys when they simplify it.
+1. Command presets are accepted in #50. Complete and review the selected portable-view story
+   below against explicit duplication, placement, current actor authority and contextual activation.
+2. Close the typed Terminal command/result acquisition gap, grounded in retained data and
+   authority. Include independent Info views when simultaneous inspection demonstrably helps.
+3. Expand organization or durable bags only against an actual task. Folder and locking policy
+   should simplify the existing identity model rather than replace it.
 
 This order is dependency-led, not a mandatory PR count. The executor may finish a bounded adjacent
 source path while implementing the first story. Compare maker actions, agent calls, remote asks
@@ -104,3 +103,37 @@ and attributed host work. Keep large screenshot transfers and truncated recordin
 BL-WORK-01 remains active through legible UI and public tools/guides. BL-WORK-02 remains preserved.
 BL-DEF-06 was accepted with #49 and removed from the live backlog; its evidence remains in Git and
 the prior report. BL-VERIFY-01 stays parked unless its specific Builder witness is touched.
+
+## Selected portable-view phase
+
+The founder selected single boxes and row/column strips next. One Inventory-owned entry has one
+portable placement; default dragging moves that placement between these views or returns it to
+main Inventory. A filled single box returns its displaced entry without deleting data. Other
+receiving panes still get a copied value. Explicit duplication creates independent data, with an
+immediate name editor or the next available numbered name.
+
+Bindings travel with entry identity. A duplicate retains the source key and explicit target, but
+starts disabled. Main Inventory and newly created view contexts start OFF. Both the item and its
+context must be enabled; activating conflicting contexts refuses without replacing the incumbent
+binding. Execution always needs the current input actor's exact destination/shape authority.
+Data, observational metadata and stored configuration never contain an execution grant.
+
+[Portable-slot packet](../../prompts/zengine-inventory-portable-slots.md) owns this phase's scope.
+The [phase report](../../reportbacks/zengine-inventory-portable-slots-RB.md) owns verification;
+the [exploration log](../../reportbacks/zengine-inventory-portable-slots-exploration.md) records the
+investigation. Durable folders/bags, focus-dependent scopes, user-designed box
+faces and Terminal payload acquisition remain later work; this phase does not require them.
+
+### Pressure for the next selection
+
+- Extra view identities currently remain offered after closing a window. Empty views can be
+  reused, but retiring offers and reclaiming the twelve-view bound need an explicit lifecycle
+  story before unrestricted workspace editing.
+- Explicit activation persists when a window closes. Focus-dependent contexts and readable
+  user-authored context names can build on the two existing switches without redefining data.
+- ELH can inspect pane rows and current view state, but menus still require known action order.
+  Discoverable menu action identities would remove that remaining script ceremony.
+- Generic commands report queueing and recognized acknowledgements/refusals. Domain-specific
+  completion remains the receiving weave's contract; a queued message is never reported as done.
+- Configured bindings for unavailable entries consume the bounded configuration list. Explicit
+  retirement should remove configuration only, never silently retarget it to a new occupant.

@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-22\
+**Refreshed:** 2026-09-23\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** Foundations are merged through Zengine #49. [Reusable command presets](../drafts/inventory-command-presets-plan.md) are implemented and locally verified, awaiting PR review and founder acceptance: unset saved values, retain incomplete drafts, refill from typed records and explicitly run. Recommended next is typed Terminal command/result acquisition at its real retention/authority boundary; alternate Inventory/Info views follow concrete simultaneous-use pressure. Flow and independent pane/editor UX remain parallel work.
+**Current execution state:** Foundations and reusable command presets are merged through Zengine #50. The founder selected portable single-box and row/column inventory views next: default dragging moves entries, explicit duplication copies independently, and contextual command hotkeys follow stable entry identities. Copies retain binding configuration but start OFF; current actor authority is checked at execution. Implemented in Zengine #51; local verification and SDL/TUI proof passed, with founder review and hosted checks pending. Typed Terminal acquisition remains a later source story. Flow and independent pane/editor UX remain parallel work.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -392,8 +392,9 @@ serializing unrelated pane/editor or UI-update work.
 | Accepted inventory foundation | Capture, collection and Info editing through #47 | Owned typed data and separate metadata, stable process-local identities, copy dragging and secondary live-reference editing. |
 | Accepted maker story | [Inventory to Compose and timed motion](../drafts/inventory-compose-motion-plan.md), PR #48 | Fill compatible forms, store complete commands and explicitly submit with actor authority; demonstrate through state-reactive ELH orchestration. |
 | Accepted maker story | [Comfortable panes and reusable test setups](../drafts/workshop-comfort-and-test-setups-plan.md), PR #49 | Per-pane initial comfort, one-command demo setup, visible warm reset and measured agent/ELH/host ceremony; reuse existing Inventory/Info and Compose stories. |
-| Implemented; review pending | [Reusable command presets and field acquisition](../drafts/inventory-command-presets-plan.md) | Start blank or work backward from a complete command, unset values, retain incomplete drafts, fill gaps from saved typed records and explicitly run with current authority. |
-| Following concrete reuse pressure | [Terminal acquisition and multiple inventory views](../drafts/inventory-command-presets-plan.md#terminal-and-answer-acquisition) | Retrieve real typed command/results; then try independent Info views, single-entry boxes or hotbars over shared entries. Slot locks, folders and hotkeys follow demonstrated tasks and explicit binding semantics. |
+| Accepted; #50 merged | [Reusable command presets and field acquisition](../drafts/inventory-command-presets-plan.md) | Start blank or work backward from a complete command, unset values, retain incomplete drafts, fill gaps from saved typed records and explicitly run with current authority. |
+| Implemented; #51 awaiting review | [Portable inventory views and contextual hotkeys](../drafts/inventory-command-presets-plan.md#selected-portable-view-phase) | Single boxes and row/column strips over owned entries; move/reorder/displace without data loss; duplicate independently; retain copied bindings disabled; explicit activation and per-invocation authority. |
+| Later source story | [Terminal acquisition](../drafts/inventory-command-presets-plan.md#terminal-and-answer-acquisition) | Retrieve real typed command/results at their retention and authority owner. Independent Info views, folders and durability follow demonstrated tasks. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
 | Later consumers | Deeper setup/configuration, reusable effects, Python, GPU and broader multi-host work | Demonstrated stories earn scope; no universal framework or complete renderer is a prerequisite. |
@@ -442,7 +443,7 @@ and execution remain distinct; sorting must not silently redirect a pinned hotke
 command/result acquisition and additional Info instances need their real owner/lifetime seams.
 The longer-term inventory can organize code/data/schemas into bags, represent unavailable sources
 and saved actions, and support dependency discovery/build/load. Drag-out follows the same transfer
-meaning as dragging from a pane. Generic use of the existing collection comes before new views.
+meaning as dragging from a pane. The accepted generic preset path now supplies the first portable-view story.
 
 ### Flow UX research and hierarchical authoring
 
@@ -879,10 +880,10 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next outcome:** accept the implemented [reversible preset story](../drafts/inventory-command-presets-plan.md),
-  then add typed Terminal acquisition so used commands and retained answers can enter that same
-  path. Resolve real retention/eviction and authority first. Expand simultaneous Info and inventory
-  views against observed work; bags and durable storage retain their bounds.
+- **Next outcome:** review the implemented [portable-view story](../drafts/inventory-command-presets-plan.md#selected-portable-view-phase)
+  over accepted command presets. Its proof covers data custody, contextual activation and current
+  actor authority together. Typed Terminal acquisition then adds a source at its real retention/eviction
+  boundary; independent Info views, bags and durable storage retain their bounds.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.
