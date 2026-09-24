@@ -32,7 +32,9 @@ inviting outside contributors.
 
 **Delivered foundation:** merged interaction authoring repairs the existing loaded-pane guide around
 Tally, request handling and missing-reply diagnosis. Warm installed-package exercise is useful evidence,
-not second-maintainer validation. The goal-coupled obligation remains open.
+not second-maintainer validation. The goal-coupled obligation remains open. The tower-defense example
+(Zengine #60, under review) adds a public 0-to-game route whose every step is a documented ELH tool
+and whose replay was proven from an empty directory; it is a maker's route, not onboarding proof.
 
 ### BL-WORK-02 — Keep the simple external pane useful as a learning artifact
 
@@ -100,6 +102,32 @@ Browsing, chooser selection and authoring submission now have separate operation
 The [housekeeping report](../reportbacks/zengine-files-action-identity-doc-housekeeping-RB.md)
 and Git retain the evidence; do not reopen this repair from the older pending status.
 General queued-picture provenance remains a distinct pressure.
+
+### BL-VERIFY-02 — Run a stored tower-defense command by a maker's own hand
+
+**State:** PARKED / LOCAL FOLLOW-UP
+**Owed:** The example's README says a stored command runs with the pressing actor's own authority:
+a maker's hand, or a guest only where its grant allows `TdCommand` to `td.game`. The story shows
+only the guest's refusal. With the example's toolbox restored and the game loaded, enable the row
+and its context, press Alt+1 by hand and confirm the game starts a wave; record it where the
+README's claim can point.
+
+**Wake:** the founder's review of Zengine #60, or the next use of `tower-defense.toolbox`.
+
+**Source:** [tower defense report](../reportbacks/zengine-tower-defense-creation-story-RB.md).
+
+### BL-DOC-02 — A redirected terminal run's room follows the session file
+
+**State:** PARKED / DOC
+**Owed:** `docs/workshop/getting-started.md` says a redirected or captured terminal run gets the
+78x22 minimum. With a session file naming 180x80, a redirected terminal Workshop painted its first
+frame at the minimum and every later frame at 180x80. Source-trace which owner applies the session
+viewport to the terminal medium and state the rule where the table stands.
+
+**Wake:** the next edit of that table or of terminal sizing.
+
+**Source:** tower defense evidence, `again/again-1-terminal-without-game-process.head.log` and the
+terminal cells picture.
 
 ## 4. Adoption and release
 

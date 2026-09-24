@@ -2,7 +2,10 @@
 
 **Selected:** founder discussion, 2026-09-24.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
-**Executor packet:** [Tower defense creation story](../../prompts/zengine-tower-defense-creation-story.md).
+**Executor packet:** [Tower defense creation story](../../prompts/zengine-tower-defense-creation-story.md).\
+**Delivered for review:** 2026-09-24, Zengine [#60](https://github.com/Krealsion/Zengine/pull/60);
+[report](../../reportbacks/zengine-tower-defense-creation-story-RB.md). Not accepted until the
+founder says so.
 
 ## Outcome and priority
 

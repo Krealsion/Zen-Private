@@ -28,7 +28,8 @@ Typed Inventory capture, collection, inspection, Compose, portable slots, Termin
 and the interaction-authoring foundation are merged. Durable toolboxes (#54), independent Info
 views (#55) and named folders (#58) are accepted. The founder selected a
 [tower-defense creation story through ELH](drafts/tower-defense-creation-story-plan.md) to test
-these foundations against a complete goal. Reusable tools, live Workshop development and a
+these foundations against a complete goal. It is delivered for review as Zengine #60; its measured
+pressure is P-WORK-29 to P-WORK-32. Reusable tools, live Workshop development and a
 repeatable creation demo take priority over game polish. New product scope follows actual story
 pressure; the immutable host and unsupported reload boundaries remain explicit. The parallel
 [Editor transfer packet](drafts/editor-typed-transfers-plan.md) connects selected text, saved
@@ -206,6 +207,68 @@ every Inventory view, so a folder notice appears in a row view too.
 **Trigger:** the next change that adds an Inventory operation, view kind or pending-request kind to
 that file. Split the way BL-WORK-03 describes for Info: keep one act entry point per control and
 every record per operation; behavior and law unchanged.
+
+### P-WORK-29 — A recipe authored in Files cannot name a toolchain
+
+**State:** WATCH / MEASURED
+**Evidence:** [tower defense report](../reportbacks/zengine-tower-defense-creation-story-RB.md),
+evidence §9
+
+`RecipeAuthorRequested` v2 has no toolchain field and the host composes the row, so a recipe Files
+authors carries `toolchain_from: ""` and builds with CMake's machine default. Where that default is
+NMake without an MSVC environment, the first build fails (`CMAKE_CXX_COMPILER not set`); the failed
+configure then binds the workspace to that generator, so the next build fails again, and the
+Builder has no clean action. The tower-defense example repairs both in every replay by typing
+`toolchain_from` (the build tree Workshop came from) and a fresh `workspace` into the recipe.
+
+**Trigger:** the next change to Files authoring or the Builder's single-source path, or a second
+maker who hits it. Options: an authoring message that carries a toolchain (defaulting to the running
+Workshop's own build tree where there is one), a Builder default for recipes that name none, and a
+clean-workspace action. The message version and the default are founder decisions.
+
+### P-WORK-30 — Desk operations are keyboard-shaped for a guest
+
+**State:** WATCH / MEASURED
+**Evidence:** tower defense evidence §6 and exploration E37–E64, R1–R4
+
+A guest arranges a desk through Info one field at a time: `workshop/place` sends one key per
+injection and waits for each value's unit (a draft opens after a round trip; a batched Return and
+text lost the commit), about 100 asks and 7–12 s per pane, 120 s of a 370-s replay. PaneView does
+not describe a covered or off-room pane, so tools must keep panes apart. A guest cannot size the
+window (the session file does), so the example's layouts fit one room. Quitting depends on Escape
+custody: Info, Files, the Builder and the Pane Manager keep Escape, so the desk's `q` is reached
+through the Terminal or a pane that binds none.
+
+**Trigger:** the next ELH story that arranges panes or switches layouts, or replay time mattering.
+The seam is `workshop/place`: a guest placement operation at the arrangement owner (and a guest
+quit request) would replace the key walk; relative placement stays P-WORK-10.
+
+### P-WORK-31 — A project's load plan freezes its skin
+
+**State:** SEED / MEASURED
+**Evidence:** tower defense evidence §5 (`story.py again --tui`)
+
+`o` writes the plan in force plus the new row to the project's `workshop-plan.json`, so a project
+made in the window names the SDL skin and input. With no `--skin` flag, the same project cannot be
+launched in the terminal medium without a plan of its own; the example's terminal check runs the
+runtime's terminal plan in a separate project and loads the kept game with `o` there, which would
+otherwise have rewritten the story's plan.
+
+**Trigger:** a maker who wants one project in both media, or the next change to how `o` writes the
+plan. A medium choice beside the project's plan is the seam.
+
+### P-WORK-32 — A loaded weave's own commands reach only Compose
+
+**State:** WATCH
+**Evidence:** tower defense exploration M4 and W12–W20
+
+Workshop's Terminal speaks the vocabulary its host gave it (`ask @td.game TdCommand 1 verb=status`
+answers "no such registered shape: TdCommand v1"), and Loaded lists kernel-loaded weaves only
+("in-process weaves are not in the kernel's map"). A game's commands are therefore stored through
+Compose, and an in-process service such as the Builder's cannot be a Compose target.
+
+**Trigger:** the next Terminal vocabulary change, or a stored command that needs an in-process
+service as its target.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
