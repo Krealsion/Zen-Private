@@ -1,10 +1,9 @@
 # Inventory command presets and reusable views
 
-**Status:** accepted through Zengine #55: command presets (#50), portable views/hotkeys (#51), Terminal acquisition (#52), interaction authoring (Loom #14 / Zengine #53), toolbox persistence (#54) and independent Info views (#55).\
-**Selected:** named nested Inventory folders, after the founder merged #55; implemented for review in
-[Zengine #58](https://github.com/Krealsion/Zengine/pull/58) ([report](../../reportbacks/zengine-inventory-named-folders-RB.md)).\
+**Status:** accepted through Zengine #58: command presets (#50), portable views/hotkeys (#51), Terminal acquisition (#52), interaction authoring (Loom #14 / Zengine #53), toolbox persistence (#54), independent Info views (#55) and named nested folders (#58).\
+**Next consumer:** [the ELH tower-defense creation story](tower-defense-creation-story-plan.md); further Inventory features follow demonstrated need.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
-**Current executor packet:** [Named Inventory folders](../../prompts/zengine-inventory-named-folders.md).\
+**Accepted folder packet:** [Named Inventory folders](../../prompts/zengine-inventory-named-folders.md); the owner below selects current work.\
 **Foundation:** [Reusable demo setups](workshop-comfort-and-test-setups-plan.md).
 
 ## Purpose and first complete story
@@ -65,13 +64,13 @@ The loaded-pane witness separately proves explicit maker-authorized hotkey deliv
 The founder merged #52; the subsequent authoring phase replayed the same story in SDL and TUI.
 
 Independent Info views now keep a command and its result visible together. Named nested folders
-are selected next; general view retirement remains a separate seam. No second retained-payload
+are now accepted; general view retirement remains a separate seam. No second retained-payload
 cache is needed for organization.
 
 ## Several views over the same inventory
 
 Single-entry boxes, rows/columns, contextual hotkeys, naming and added/name/type sorting are
-accepted capabilities, along with explicit toolbox persistence. Named folders are selected next;
+accepted capabilities, along with explicit toolbox persistence and named folders;
 search/filtering and placement locks remain possible extensions for demonstrated tasks.
 
 The direction is multiple views over shared owned entries, with independent selection/layout and
@@ -93,11 +92,14 @@ Multiple Info views already preserve independent draft state and conditional sav
 
 ## Next maker stories
 
-The founder accepted independent Info views by merging #55 and selected named Inventory folders
-next. The [folder packet](../../prompts/zengine-inventory-named-folders.md) carries implementation
-and proof together, with a cheap owner/compatibility preflight in the same session.
+The founder accepted Info views (#55) and named folders (#58). The selected next consumer is
+the [tower-defense creation story](tower-defense-creation-story-plan.md), using durable tools
+and retaining a repeatable creation route. Additional Inventory scope follows real friction.
+The [folder packet](../../prompts/zengine-inventory-named-folders.md) remains its historical scope.
 
-### Selected next: named Inventory folders
+<a id="selected-next-named-inventory-folders"></a>
+
+### Accepted: named Inventory folders
 
 Make a growing toolbox navigable through named nested folders: open a folder to see its immediate
 children, climb to its parent, and return to root or an ancestor with a visible location. This is
@@ -121,7 +123,7 @@ behavior and integrity; a short ELH story demonstrates it in SDL and TUI. Record
 agent commands, remote asks and attributable host work separately. Search, tags, Back/Forward
 history, multiselect, recursive deletion and folder-specific hotkey contexts remain unselected.
 
-**Implemented for review ([Zengine #58](https://github.com/Krealsion/Zengine/pull/58)).**
+**Accepted ([Zengine #58](https://github.com/Krealsion/Zengine/pull/58), merged 2026-09-24).**
 `zengine.inventory` owns folders and membership beside entry names; folder identity is `{owner,
 folder}` and membership never changes an entry's revision, so linked drafts still save. The pane
 browses one folder with a location row, crumbs and `[Up]`; a second press or Enter opens a folder;
@@ -151,7 +153,9 @@ and [corrections report](../../reportbacks/zengine-independent-info-workbench-co
 own validation, measurements and remaining seams. The legacy section anchor above preserves
 existing navigation into this plan.
 
-### Selected: keep a toolbox across restarts
+<a id="selected-keep-a-toolbox-across-restarts"></a>
+
+### Accepted: keep a toolbox across restarts
 
 Save useful typed entries and their configuration, stop Workshop, restart, and explicitly restore
 them. This makes sessions accumulate work instead of ending as demonstrations. The founder merged
@@ -208,7 +212,7 @@ Data, observational metadata and stored configuration never contain an execution
 [Portable-slot packet](../../prompts/zengine-inventory-portable-slots.md) owns this phase's scope.
 The [phase report](../../reportbacks/zengine-inventory-portable-slots-RB.md) owns verification;
 the [exploration log](../../reportbacks/zengine-inventory-portable-slots-exploration.md) records the
-investigation. Named folders are selected next; focus-dependent scopes and user-designed box
+investigation. Named folders are accepted; focus-dependent scopes and user-designed box
 faces remain later work. Terminal payload acquisition is now accepted separately.
 
 ### Pressure for the next selection
@@ -227,7 +231,7 @@ faces remain later work. Terminal payload acquisition is now accepted separately
   completion remains the receiving weave's contract; a queued message is never reported as done.
 - Configured bindings for unavailable entries consume the bounded configuration list. Explicit
   retirement should remove configuration only, never silently retarget it to a new occupant.
-- Folders (#58, for review) are organization only: a folder is not a hotkey context, and a
+- Folders (#58, merged) are organization only: a folder is not a hotkey context, and a
   per-folder context would be view configuration keyed by folder identity. The same retrieval took
   1 maker action flat and 7 through two folder levels in the four-entry workbench; organization
   pays only as collections grow, so search or a flat "all entries" view are the next candidates

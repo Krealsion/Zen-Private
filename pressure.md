@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-23
+**Refreshed:** 2026-09-24
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -25,11 +25,13 @@ but deferred work belongs in `private/backlog.md`.
 
 The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the sequence.
 Typed Inventory capture, collection, inspection, Compose, portable slots, Terminal acquisition
-and the interaction-authoring foundation are merged. The founder selected
-[toolbox persistence](drafts/inventory-command-presets-plan.md#selected-keep-a-toolbox-across-restarts)
-to reduce repeated fixture construction and let useful sessions accumulate work; Zengine #54
-merged the bounded save/restore story. Independent Info views are implemented in #55 for founder
-review; organization follows concrete tasks. Flow and independent pane/editor work continue alongside.
+and the interaction-authoring foundation are merged. Durable toolboxes (#54), independent Info
+views (#55) and named folders (#58) are accepted. The founder selected a
+[tower-defense creation story through ELH](drafts/tower-defense-creation-story-plan.md) to test
+these foundations against a complete goal. Reusable tools, live Workshop development and a
+repeatable creation demo take priority over game polish. New product scope follows actual story
+pressure; the immutable host and unsupported reload boundaries remain explicit. Flow and
+independent pane/editor work continue alongside.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.

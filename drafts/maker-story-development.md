@@ -178,13 +178,14 @@ the selected authority rule above is not a claim that Workshop already enforces 
 
 ## Delivery arc and acceleration
 
-**Current sequence (2026-09-22):** capture, collection and Info editing are merged through #47;
-Compose reuse and timed dragging are implemented in open #48. The founder selected a short
-[pane comfort and reusable setup phase](workshop-comfort-and-test-setups-plan.md) next, before
-incomplete command presets. Bring the packaging outcome below forward for these existing
-stories: one-command preparation, visible reset, and counts/latency at agent, remote and internal
-message boundaries. Use that maintained starting point in subsequent work. The numbered arc
-below describes the broader progression, not an instruction to redo completed capture work.
+**Current sequence (2026-09-24):** capture, Compose reuse, timed dragging, comfortable setups,
+command presets, portable views, Terminal acquisition, interaction authoring, persistence and
+independent Info are accepted; named folders merged as #58. The founder selected a
+[complete tower-defense creation story through ELH](tower-defense-creation-story-plan.md): use
+Workshop to author the game, preserve useful tools and reconstruct the creation in a paced demo.
+Eligible Zengine changes reload into the running Workshop; foundational changes need a separate
+decision. Tools, durable learning and repeatability govern success. The numbered arc below
+describes the broader progression, not an instruction to redo completed capture work.
 
 1. **Reuse the accepted ELH experiment.** Loom #10/#11 and Zengine #39/#44 are merged by founder
    confirmation. Its reusable setup/journey, maintained tool checks, native interaction proof and
