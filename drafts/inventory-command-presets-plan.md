@@ -1,7 +1,8 @@
 # Inventory command presets and reusable views
 
 **Status:** accepted through Zengine #55: command presets (#50), portable views/hotkeys (#51), Terminal acquisition (#52), interaction authoring (Loom #14 / Zengine #53), toolbox persistence (#54) and independent Info views (#55).\
-**Selected:** named nested Inventory folders, after the founder merged #55.\
+**Selected:** named nested Inventory folders, after the founder merged #55; implemented for review in
+[Zengine #58](https://github.com/Krealsion/Zengine/pull/58) ([report](../../reportbacks/zengine-inventory-named-folders-RB.md)).\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
 **Current executor packet:** [Named Inventory folders](../../prompts/zengine-inventory-named-folders.md).\
 **Foundation:** [Reusable demo setups](workshop-comfort-and-test-setups-plan.md).
@@ -120,6 +121,16 @@ behavior and integrity; a short ELH story demonstrates it in SDL and TUI. Record
 agent commands, remote asks and attributable host work separately. Search, tags, Back/Forward
 history, multiselect, recursive deletion and folder-specific hotkey contexts remain unselected.
 
+**Implemented for review ([Zengine #58](https://github.com/Krealsion/Zengine/pull/58)).**
+`zengine.inventory` owns folders and membership beside entry names; folder identity is `{owner,
+folder}` and membership never changes an entry's revision, so linked drafts still save. The pane
+browses one folder with a location row, crumbs and `[Up]`; a second press or Enter opens a folder;
+drops on folders file entries while placement stays a separate fact; toolbox files are version 2 and
+version 1 files restore at Root. The organized workbench (`phase=organize`, `phase=folders`) repeats
+in fresh SDL and TUI processes. The
+[report](../../reportbacks/zengine-inventory-named-folders-RB.md) lists twelve overridable choices;
+notably the second-press rule differs from Files.
+
 <a id="selected-next-independent-info-workbench"></a>
 
 ### Accepted: independent Info workbench
@@ -216,6 +227,11 @@ faces remain later work. Terminal payload acquisition is now accepted separately
   completion remains the receiving weave's contract; a queued message is never reported as done.
 - Configured bindings for unavailable entries consume the bounded configuration list. Explicit
   retirement should remove configuration only, never silently retarget it to a new occupant.
+- Folders (#58, for review) are organization only: a folder is not a hotkey context, and a
+  per-folder context would be view configuration keyed by folder identity. The same retrieval took
+  1 maker action flat and 7 through two folder levels in the four-entry workbench; organization
+  pays only as collections grow, so search or a flat "all entries" view are the next candidates
+  if use shows that cost.
 
 The acquisition and interaction-authoring reports own their run-specific request counts. They
 vary with scrolling and screenshot transport; they are evidence routes, not a fixed cost contract.

@@ -156,7 +156,9 @@ repeated queued clicks selecting or activating a subject the maker did not aim a
 **Partial, accepted in merged #55:** Info's value views number their pictures (`v3::PaneContent`), and a
 press, drag, drop or control aimed at an earlier picture refuses without acting. The fence is local
 to those views. Info's pane-property list, Files and other panes remain unfenced, and no general
-revision protocol was selected.
+revision protocol was selected. Inventory's lists were already fenced (`component::RowMap`); named
+folders (#58, for review) extend the fence to folder rows, crumbs and controls, whose meanings
+carry the collection owner so a restore that keeps folder keys still changes the picture.
 
 ### P-WORK-27 — Independent Info views leave three measured seams
 
@@ -185,6 +187,20 @@ revision protocol was selected.
 invalidation delivery becomes a measured cost as views and collections grow. Options include a
 Loom-attested incarnation nonce, subscription-scoped invalidation, or a source-side watch
 contract. The choice is the architect's, not an executor default.
+
+### P-WORK-28 — The Inventory pane controller keeps growing in one file
+
+**State:** WATCH / MEASURED
+**Evidence:** [named folders report](../reportbacks/zengine-inventory-named-folders-RB.md)
+
+`inventory-pane/pane.cpp` grew from 564 to 848 dense lines with named folders, after navigation
+moved to `browser.hpp` and drawing to `presentation.hpp`. The folder acts, the press/drop routing
+and the pick state are the next extraction candidates; the pane's one notice is also shared by
+every Inventory view, so a folder notice appears in a row view too.
+
+**Trigger:** the next change that adds an Inventory operation, view kind or pending-request kind to
+that file. Split the way BL-WORK-03 describes for Info: keep one act entry point per control and
+every record per operation; behavior and law unchanged.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
