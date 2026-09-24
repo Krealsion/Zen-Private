@@ -3,7 +3,7 @@
 **Status:** accepted through Zengine #53: command presets (#50), portable views/hotkeys (#51), Terminal acquisition (#52), and the interaction-authoring foundation (Loom #14 / Zengine #53).\
 **Selected:** 2026-09-23, founder refinement after Zengine #49 merged.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
-**Executor packet:** [Reusable command presets](../../prompts/zengine-inventory-command-presets.md).\
+**Current executor packet:** [Independent Info workbench](../../prompts/zengine-independent-info-workbench.md).\
 **Foundation:** [Reusable demo setups](workshop-comfort-and-test-setups-plan.md).
 
 ## Purpose and first complete story
@@ -92,11 +92,13 @@ Multiple Info windows should preserve independent draft state and conditional sa
 
 ## Next maker stories
 
-The founder selected restart persistence first, to make executor retesting cheaper and let useful
-toolboxes accumulate. The [execution packet](../../prompts/zengine-inventory-persistence.md) owns
-this phase. Independent Info views and organization remain following choices, not prerequisites.
+The founder reviewed persistence favorably and selected independent Info views next, with useful
+visible controls, observation and extra correctness work for a new executor. Persistence #54 is
+still open at preparation; its merge precedes development from fetched current main. The
+[Info packet](../../prompts/zengine-independent-info-workbench.md) carries the full next story.
+Organization remains a following choice.
 
-### Following recommendation: work with independent Info views
+### Selected next: independent Info workbench
 
 Keep a saved result in one Info view and a command draft in another. Inspect them side by side,
 drag a compatible field into the draft, and save or reuse the filled command through Compose.
@@ -117,12 +119,31 @@ Include a bounded create/close/reopen story and deliberate handling of dirty or 
 Closing a view must not delete its stored item; a late reply must not modify a reused view.
 Clarify visibility versus retirement so creating views does not quietly exhaust permanent offers.
 Use distinct PaneRefs if appropriate; this does not select duplicate windows for one PaneRef.
-The existing general Info inspector must retain its pane-property behavior.
+The existing general Info inspector must retain its pane-property behavior; multiple typed-value
+views do not imply multiple independent instances of Workshop's current property-inspection owner.
+
+Expose useful controls for Save, Save Copy, Refresh, Watch/Pause and creating a view. Fork, Sample
+Source and Close can use compact secondary controls. Give views useful names, visible copy/link
+and dirty/pending status, stable structural field selection and an understandable last observation.
+Buttons and keyboard actions share behavior and authority; small rooms remain usable in SDL/TUI.
+
+Watch a linked Inventory value with bounded, explicitly authorized observation. Dirty drafts never
+silently adopt new content or revisions. Keep the last good value on failure, isolate a slow view,
+and stop scheduling on pause/close. A timer is not a fresh user gesture: scoped observation custody
+must be established in preflight, with no borrowed pane grants or stale gesture replay.
+
+Separately, Sample Source obtains a new observation through at least one supported read-only
+provider contract. Historical capture metadata helps explain a source; it neither authorizes
+sampling nor makes arbitrary stored commands safe to replay. New observations keep fresh metadata;
+the saved original remains unchanged until an explicit store action. Source disappearance and role
+replacement must be legible. Automatic original-provider watching is not required.
 
 Carry the complete story through implementation and SDL/TUI proof in one execution packet.
 Reuse typed transfer/schema agreement, conditional Inventory writes and the new request helper.
 Keep behavior in Zengine and the ELH story short and state-reactive. Compare the maker's source
-switching and agent/host message counts against the existing single-Info story.
+switching and agent/host message counts against the existing single-Info story. Leave a named,
+filled, documented toolbox and setup that another executor can restore in a fresh session. The
+constitution now makes useful toolbox upkeep a regular development habit, without an entry quota.
 
 ### Alternative: organize a growing toolbox
 
