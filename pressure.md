@@ -30,7 +30,10 @@ views (#55) and named folders (#58) are accepted. The founder selected a
 [tower-defense creation story through ELH](drafts/tower-defense-creation-story-plan.md) to test
 these foundations against a complete goal. Reusable tools, live Workshop development and a
 repeatable creation demo take priority over game polish. New product scope follows actual story
-pressure; the immutable host and unsupported reload boundaries remain explicit. Flow and
+pressure; the immutable host and unsupported reload boundaries remain explicit. The parallel
+[Editor transfer packet](drafts/editor-typed-transfers-plan.md) connects selected text, saved
+commands and file locators to Inventory in isolated worktrees, with optional explicit C++
+generation. It preserves conventional coding and supplies evidence for Flow. Flow and other
 independent pane/editor work continue alongside.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
@@ -159,7 +162,7 @@ repeated queued clicks selecting or activating a subject the maker did not aim a
 press, drag, drop or control aimed at an earlier picture refuses without acting. The fence is local
 to those views. Info's pane-property list, Files and other panes remain unfenced, and no general
 revision protocol was selected. Inventory's lists were already fenced (`component::RowMap`); named
-folders (#58, for review) extend the fence to folder rows, crumbs and controls, whose meanings
+folders (#58, merged) extend the fence to folder rows, crumbs and controls, whose meanings
 carry the collection owner so a restore that keeps folder keys still changes the picture.
 
 ### P-WORK-27 — Independent Info views leave three measured seams
@@ -226,8 +229,11 @@ a dependency solver, automatic retries or a new boot framework from the accepted
 Terminal interaction, Neovim profile discoverability, editor highlighting/caret presentation,
 standard-editor tabs/navigation/Git marks and reversible hidden comments now have a real consumer.
 The [roadmap](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns their sequence and limits.
-Editors may serve different audiences. Unicode/column geometry, document lifecycle and native
-write authority remain distinct questions; this entry does not collapse them into visual polish.
+Editors may serve different audiences. The selected [typed transfer packet](drafts/editor-typed-transfers-plan.md)
+now adds existing-selection extraction, text/command insertion and saved file locators across
+both editors. Optional C++ generation is a separate explicit action, with actual header/type
+requirements. Unicode/column geometry, document lifecycle and native write authority remain
+distinct questions; this packet does not select all visual polish or a scripting language.
 
 ### P-WORK-05 — Attention's compact graphical channel has limited voice and owns no room
 

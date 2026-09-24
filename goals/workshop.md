@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-24 UTC\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** Command presets, portable inventory views/hotkeys, Terminal acquisition and interaction authoring are accepted through Zengine #53 / Loom #14, and toolbox persistence merged as #54. Independent Info views, including visible controls, bounded linked-value watching, explicit source sampling and a reusable filled workbench toolbox, are accepted in merged #55. Named nested Inventory folders, with Explorer-style down/up navigation and toolbox persistence, are accepted in merged Zengine #58. The founder selected a complete tower-defense creation story through ELH: live Workshop authoring, eligible in-place weave reloads, durable tools and a repeatable speed-controlled creation demo. Tools and repeatability take priority over game polish. Flow and independent pane/editor UX remain parallel work.
+**Current execution state:** Command presets, portable inventory views/hotkeys, Terminal acquisition and interaction authoring are accepted through Zengine #53 / Loom #14, and toolbox persistence merged as #54. Independent Info views, including visible controls, bounded linked-value watching, explicit source sampling and a reusable filled workbench toolbox, are accepted in merged #55. Named nested Inventory folders, with Explorer-style down/up navigation and toolbox persistence, are accepted in merged Zengine #58. The founder selected a complete tower-defense creation story through ELH: live Workshop authoring, eligible in-place weave reloads, durable tools and a repeatable speed-controlled creation demo. Tools and repeatability take priority over game polish. A parallel worktree-based Editor transfer packet adds selected-text extraction, command/text insertion and saved file locators across standard Editor and Neovim, with optional explicit C++ generation. Conventional coding remains first-class; Flow is a consumer, not a prerequisite. Flow and other independent pane/editor UX remain parallel work.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -400,8 +400,10 @@ serializing unrelated pane/editor or UI-update work.
 | Accepted; #55 merged | [Independent Info workbench](../drafts/inventory-command-presets-plan.md#selected-next-independent-info-workbench) | Keep sample and draft views side by side, transfer typed fields, watch linked entries without losing edits, sample supported sources explicitly and reuse a filled toolbox. Visible controls and bounded view lifetime make the story usable. |
 | Accepted; #58 merged | [Named Inventory folders](../drafts/inventory-command-presets-plan.md#selected-next-named-inventory-folders) | Organize growing toolboxes through nested names, immediate-child views, parent/root navigation and identity-preserving moves; retain hierarchy across save/restore and reuse entries through Info, Compose and portable slots. |
 | Selected next | [Tower defense creation story through ELH](../drafts/tower-defense-creation-story-plan.md) | Create a playable game through the live Workshop, retain useful workspace/toolbox/tools, and reconstruct its creation with adjustable pacing. Improvements to Zengine use eligible weave reloads in the same host; fixed-host changes need a separate decision. Durable tools, learning and repeatability govern the result. |
+| Selected parallel implementation | [Editor typed transfers](../drafts/editor-typed-transfers-plan.md) | Bring text/commands into either editor, extract an existing selection into Inventory, and reopen saved file locators. Separate optional C++ generation from text insertion. Isolated worktrees and runtimes preserve the running creation experiment; no Flow dependency. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
+| Future candidate; not implemented or selected | [Terminal command scripts (`.zenscript` idea)](../drafts/editor-typed-transfers-plan.md#later-idea-terminal-command-scripts) | Repeat commands as if sent through Terminal, with explicit authority and completion/failure behavior. The name is a proposed convenience, not an existing language or part of the Editor packet. |
 | Later consumers | Deeper setup/configuration, reusable effects, Python, GPU and broader multi-host work | Demonstrated stories earn scope; no universal framework or complete renderer is a prerequisite. |
 
 These are capability boundaries, not mandatory research/implementation handoffs or arbitrary PR
@@ -583,6 +585,15 @@ does not promise every such configuration or the complete UI-editing overlay. Pr
 simple external-pane learning artifact (BL-WORK-02).
 
 ### Part 3 — Expressive editors and presentation
+
+**Selected parallel packet:** [Editor typed transfers](../drafts/editor-typed-transfers-plan.md).
+Extract only an established selection, through right-click > Extract or a drag beginning
+inside its highlight; ordinary selection drags keep their meaning. Copy text to Inventory,
+insert saved text/commands, and retain file locations that reopen through the active editor.
+Optional C++ generation is a separate explicit action for C++ documents and must account for
+real type/header/API requirements. Coding remains useful on its own, while these interactions
+supply concrete evidence for what Flow should simplify. Worktree/runtime isolation keeps this
+packet independent of the ELH creation story; it does not impose that story's tool restrictions.
 
 - Faithfully display Neovim search, syntax and matching-brace highlighting, selections and
   mode-appropriate caret shape/blinking. The founder accepted the minimal initial GUI; these
@@ -893,6 +904,9 @@ or verification volume standing in for a claim-specific witness.
   live Workshop editing, eligible in-place product reloads, durable workspace/toolbox/tools, and
   a repeatable creation demo with speed/pause/step controls. Tools and repeatability outrank game
   polish. Folders (#58), independent Info (#55) and persistence (#54) are accepted foundations.
+- **Selected parallel outcome:** [Editor transfers](../drafts/editor-typed-transfers-plan.md)
+  connect ordinary coding to typed reuse in independent worktrees, with selected-text capture,
+  command insertion and file locators. Optional C++ generation is explicit; Flow is not required.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.

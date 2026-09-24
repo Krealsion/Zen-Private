@@ -190,8 +190,15 @@ in-place reload path; opening/editing source does not imply that the running imp
 
 ## 5. Cross-pane drag-and-drop
 
-Flow should be an early consumer of a Workshop-wide transfer protocol. The host/input owner
-tracks the gesture across pane boundaries and resolves the current target using current grants
+Flow remains an intended consumer of the Workshop-wide transfer protocol. The selected
+[Editor transfer packet](editor-typed-transfers-plan.md) exercises selected text, command
+insertion and file locators first, with separate optional C++ generation. Conventional code
+editing must remain independently useful: no Flow document or compiler is required to reuse
+material across these panes. Let the observed friction inform Flow's conveniences without
+turning its representation into a mandatory path for source authors.
+
+The host/input owner tracks the gesture across pane boundaries and resolves the current target
+using current grants
 and displayed geometry. The source offers a bounded typed payload or resolvable reference; the
 destination owns validation and the eventual semantic edit. The
 [maker-story arc](maker-story-development.md) owns typed inspection and authority across these
