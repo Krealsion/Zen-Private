@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-23\
+**Refreshed:** 2026-09-24 UTC\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** Command presets, portable inventory views/hotkeys, Terminal acquisition and interaction authoring are accepted through Zengine #53 / Loom #14, and toolbox persistence merged as #54. Independent Info views, including visible controls, bounded linked-value watching, explicit source sampling and a reusable filled workbench toolbox, are implemented in #55 for founder review. Detailed scope and the evidence route belong to the inventory plan below. Organization follows; Flow and independent pane/editor UX remain parallel work.
+**Current execution state:** Command presets, portable inventory views/hotkeys, Terminal acquisition and interaction authoring are accepted through Zengine #53 / Loom #14, and toolbox persistence merged as #54. Independent Info views, including visible controls, bounded linked-value watching, explicit source sampling and a reusable filled workbench toolbox, are accepted in merged #55. Named nested Inventory folders are selected next, with Explorer-style down/up navigation and toolbox persistence. Detailed scope and evidence routes belong to the inventory plan below; Flow and independent pane/editor UX remain parallel work.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -397,7 +397,8 @@ serializing unrelated pane/editor or UI-update work.
 | Merged; Loom #13 / Zengine #52 | [Terminal acquisition](../drafts/inventory-command-presets-plan.md#terminal-and-answer-acquisition) | Retrieve real typed command/results at their retention and authority owner. Independent Info views, folders and durability follow demonstrated tasks. |
 | Accepted; Loom #14 / Zengine #53 merged, CI green | [Easier interaction authoring](../drafts/interaction-authoring-plan.md) | Shared request mechanics, one explicit native grant owner, attributable missing replies and an exercised loaded-pane guide. Application policy and pending remain explicit. |
 | Merged; #54 | [Durable toolboxes](../drafts/inventory-command-presets-plan.md#selected-keep-a-toolbox-across-restarts) | Explicitly save and restore typed data and portable configuration across restarts; reduce executor fixture setup to one owner operation. Fresh live references and inactive restored hotkeys preserve authority boundaries. |
-| Implemented; #55 open for founder review | [Independent Info workbench](../drafts/inventory-command-presets-plan.md#selected-next-independent-info-workbench) | Keep sample and draft views side by side, transfer typed fields, watch linked entries without losing edits, sample supported sources explicitly and reuse a filled toolbox. Visible controls and bounded view lifetime make the story usable. |
+| Accepted; #55 merged | [Independent Info workbench](../drafts/inventory-command-presets-plan.md#selected-next-independent-info-workbench) | Keep sample and draft views side by side, transfer typed fields, watch linked entries without losing edits, sample supported sources explicitly and reuse a filled toolbox. Visible controls and bounded view lifetime make the story usable. |
+| Selected next | [Named Inventory folders](../drafts/inventory-command-presets-plan.md#selected-next-named-inventory-folders) | Organize growing toolboxes through nested names, immediate-child views, parent/root navigation and identity-preserving moves; retain hierarchy across save/restore and reuse entries through Info, Compose and portable slots. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
 | Later consumers | Deeper setup/configuration, reusable effects, Python, GPU and broader multi-host work | Demonstrated stories earn scope; no universal framework or complete renderer is a prerequisite. |
@@ -444,8 +445,8 @@ The [command preset/view plan](../drafts/inventory-command-presets-plan.md) owns
 acquisition and portable-view behavior plus the next maker-story options. Several views should refer to the same owned
 entries while keeping their own arrangement and editing state. Slot placement, collection identity
 and execution remain distinct; sorting must not silently redirect a pinned hotkey. Typed Terminal
-acquisition now uses its actual retention/authority owner. Additional Info views still need
-independent editing state, routed replies and a bounded lifetime.
+acquisition now uses its actual retention/authority owner. Independent Info views now provide
+separate editing state, routed replies and bounded lifetime; named nested folders are selected next.
 The longer-term inventory can organize code/data/schemas into bags, represent unavailable sources
 and saved actions, and support dependency discovery/build/load. Drag-out follows the same transfer
 meaning as dragging from a pane. The accepted generic preset path now supplies the first portable-view story.
@@ -885,11 +886,10 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Selected outcome:** the [independent Info workbench](../drafts/inventory-command-presets-plan.md#selected-next-independent-info-workbench)
-  keeps several typed values and drafts side by side for field reuse. It is implemented in #55
-  for founder review and builds on the merged [durable toolboxes](../drafts/inventory-command-presets-plan.md#selected-keep-a-toolbox-across-restarts) (#54).
-  Organization for a growing collection remains a following choice, with the accepted
-  interaction-authoring foundation available to all.
+- **Selected outcome:** [named Inventory folders](../drafts/inventory-command-presets-plan.md#selected-next-named-inventory-folders)
+  make growing toolboxes navigable: open nested folders, climb to parents, reuse the same entries
+  and preserve organization across restarts. The merged Info workbench (#55) and durable toolboxes
+  (#54) supply the inspection and persistence foundations.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.

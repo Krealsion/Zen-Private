@@ -1,9 +1,9 @@
 # Inventory command presets and reusable views
 
-**Status:** accepted through Zengine #54: command presets (#50), portable views/hotkeys (#51), Terminal acquisition (#52), the interaction-authoring foundation (Loom #14 / Zengine #53) and toolbox persistence (#54).\
-**Selected:** 2026-09-23, founder refinement after Zengine #49 merged.\
+**Status:** accepted through Zengine #55: command presets (#50), portable views/hotkeys (#51), Terminal acquisition (#52), interaction authoring (Loom #14 / Zengine #53), toolbox persistence (#54) and independent Info views (#55).\
+**Selected:** named nested Inventory folders, after the founder merged #55.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
-**Current executor packet:** [Independent Info workbench](../../prompts/zengine-independent-info-workbench.md), implemented in [Zengine #55](https://github.com/Krealsion/Zengine/pull/55) for founder review.\
+**Current executor packet:** [Named Inventory folders](../../prompts/zengine-inventory-named-folders.md).\
 **Foundation:** [Reusable demo setups](workshop-comfort-and-test-setups-plan.md).
 
 ## Purpose and first complete story
@@ -41,8 +41,8 @@ in Compose. Copy and conditional live-save paths retain their prior custody. The
 SDL repetition across visible Reset preserved saved entries; the shared TUI story also passed.
 The [report](../../reportbacks/zengine-inventory-command-presets-RB.md) owns verification details.
 
-Inventory remains process-local. Serialization does not promise durable bags. Stored role context
-is an observation, never routing or authority. Required gaps, incompatible types and retained stale
+Live Inventory identity remains process-local; toolbox save/restore supplies explicit durability.
+Stored role context is an observation, never routing or authority. Required gaps, incompatible types and retained stale
 revision arguments refuse rather than defaulting, silently refreshing or retrying an effect.
 
 ## Terminal and answer acquisition
@@ -63,15 +63,15 @@ SDL, TUI and a warm SDL rerun proved capture/preset reuse and refusal without in
 The loaded-pane witness separately proves explicit maker-authorized hotkey delivery exactly once.
 The founder merged #52; the subsequent authoring phase replayed the same story in SDL and TUI.
 
-Independent Info windows, durable bags/folders and view retirement remain later selections. A
-second Info instance could let the maker keep a command and its result visible together; current
-reuse works with one. Preserve these seams instead of building a second retained-payload cache.
+Independent Info views now keep a command and its result visible together. Named nested folders
+are selected next; general view retirement remains a separate seam. No second retained-payload
+cache is needed for organization.
 
 ## Several views over the same inventory
 
 Single-entry boxes, rows/columns, contextual hotkeys, naming and added/name/type sorting are
-accepted capabilities. Search/filtering, named bags, placement locks and durable storage remain
-possible extensions. They should solve actual collection or workspace tasks.
+accepted capabilities, along with explicit toolbox persistence. Named folders are selected next;
+search/filtering and placement locks remain possible extensions for demonstrated tasks.
 
 The direction is multiple views over shared owned entries, with independent selection/layout and
 Info drafts. A view is not another authoritative copy of every stored item. A single view may
@@ -87,80 +87,58 @@ Keep three meanings distinct when these stories are selected:
   drafts remain inspectable/draggable, and are not secretly runnable buttons.
 
 The accepted portable-view contract below owns boxes, strips and explicit contextual hotkeys.
-Folders, durable storage and a general multi-pane framework remain future stories.
-Multiple Info windows should preserve independent draft state and conditional saves when earned.
+Folders now have a selected collection story; a general multi-pane framework remains unselected.
+Multiple Info views already preserve independent draft state and conditional saves.
 
 ## Next maker stories
 
-The founder reviewed persistence favorably and selected independent Info views next, with useful
-visible controls, observation and extra correctness work for a new executor. Persistence #54
-merged before development started from fetched current main. The
-[Info packet](../../prompts/zengine-independent-info-workbench.md) carries the full next story.
-Organization remains a following choice.
+The founder accepted independent Info views by merging #55 and selected named Inventory folders
+next. The [folder packet](../../prompts/zengine-inventory-named-folders.md) carries implementation
+and proof together, with a cheap owner/compatibility preflight in the same session.
 
-### Selected next: independent Info workbench
+### Selected next: named Inventory folders
 
-Keep a saved result in one Info view and a command draft in another. Inspect them side by side,
-drag a compatible field into the draft, and save or reuse the filled command through Compose.
-Changing focus or another pane's selection must not replace a pinned subject or erase its edits.
+Make a growing toolbox navigable through named nested folders: open a folder to see its immediate
+children, climb to its parent, and return to root or an ancestor with a visible location. This is
+Explorer-like traversal, not a filesystem or a requirement for a complete Explorer clone.
 
-Current Info has one InventoryEditor, room and fixed pane id; Inventory's boxes/strips already
-demonstrate multiple pane ids from one provider. Use that existing seam as a starting point,
-not a commitment to clone whole weaves or build a universal window framework. Current Info drops
-open a subject; targeted field insertion into an existing draft needs implementation/preflight,
-not an assumption that a second visible window provides it automatically.
+Create and rename folders, move entries and subfolders without changing entry identity, and
+preserve nesting in saved toolboxes. Previously shipped flat files load at root. Empty-folder
+deletion is enough; nonempty removal may refuse rather than delete stored material. Tree cycles,
+invalid destinations, stale gestures and malformed restore candidates refuse without losing the
+existing usable state. Pending work binds to the destination it began with, not the folder now
+being viewed.
 
-Each view owns its selection, draft, pending operation and reply destination. Two live drafts of
-the same entry are independent drafts, not independent owners: saving one must leave the other
-intact, and a stale revision must refuse without discarding local edits. Copying a view must not
-silently duplicate Inventory data. Copy/live-reference mode and unsaved work must remain visible.
+Folder membership and portable placement remain distinct. A box/strip does not become a second
+owner, and moving or displacing its entry has a defined reachable home. Bindings continue to follow
+entry identity; folder navigation grants no authority, changes no activation context and executes
+nothing. Info links/drafts remain attached to their entries as folders are renamed or rearranged.
 
-Include a bounded create/close/reopen story and deliberate handling of dirty or pending views.
-Closing a view must not delete its stored item; a late reply must not modify a reused view.
-Clarify visibility versus retirement so creating views does not quietly exhaust permanent offers.
-Use distinct PaneRefs if appropriate; this does not select duplicate windows for one PaneRef.
-The existing general Info inspector must retain its pane-property behavior; multiple typed-value
-views do not imply multiple independent instances of Workshop's current property-inspection owner.
+Reuse the filled inspection workbench: organize samples and command drafts, retrieve them through
+nesting, combine fields in independent Info views, save, restart and restore. Zengine owns folder
+behavior and integrity; a short ELH story demonstrates it in SDL and TUI. Record maker actions,
+agent commands, remote asks and attributable host work separately. Search, tags, Back/Forward
+history, multiselect, recursive deletion and folder-specific hotkey contexts remain unselected.
 
-Expose useful controls for Save, Save Copy, Refresh, Watch/Pause and creating a view. Fork, Sample
-Source and Close can use compact secondary controls. Give views useful names, visible copy/link
-and dirty/pending status, stable structural field selection and an understandable last observation.
-Buttons and keyboard actions share behavior and authority; small rooms remain usable in SDL/TUI.
+<a id="selected-next-independent-info-workbench"></a>
 
-Watch a linked Inventory value with bounded, explicitly authorized observation. Dirty drafts never
-silently adopt new content or revisions. Keep the last good value on failure, isolate a slow view,
-and stop scheduling on pause/close. A timer is not a fresh user gesture: scoped observation custody
-must be established in preflight, with no borrowed pane grants or stale gesture replay.
+### Accepted: independent Info workbench
 
-Separately, Sample Source obtains a new observation through at least one supported read-only
-provider contract. Historical capture metadata helps explain a source; it neither authorizes
-sampling nor makes arbitrary stored commands safe to replay. New observations keep fresh metadata;
-the saved original remains unchanged until an explicit store action. Source disappearance and role
-replacement must be legible. Automatic original-provider watching is not required.
+[Zengine #55](https://github.com/Krealsion/Zengine/pull/55) is merged. Four Info views (the default
+pane plus three reusable value-view slots) retain independent subjects, structural selection,
+drafts and requests. Visible controls support saving, copying, refreshing, linked-value watching
+and explicit source sampling. Typed fields can move between views and into a command draft.
 
-Carry the complete story through implementation and SDL/TUI proof in one execution packet.
-Reuse typed transfer/schema agreement, conditional Inventory writes and the new request helper.
-Keep behavior in Zengine and the ELH story short and state-reactive. Compare the maker's source
-switching and agent/host message counts against the existing single-Info story. Leave a named,
-filled, documented toolbox and setup that another executor can restore in a fresh session. The
-constitution now makes useful toolbox upkeep a regular development habit, without an entry quota.
+The corrected adoption policy freezes conflicting edits during replacing reads, provides Stop
+without declaring remote failure, preserves edits made during saves, and releases watch custody
+including late approvals and reused slots. Broader incarnation identity, invalidation fanout and
+Info's class split remain P-WORK-27/BL-WORK-03 work, not hidden prerequisites for folders.
 
-[Zengine #55](https://github.com/Krealsion/Zengine/pull/55) implements this story for founder
-review; it is not accepted until merged. It adds four Info views (the default pane plus three
-reusable value-view slots), a Workshop observation lease for watching and a point query for
-external tools. It also ships the `inspection-workbench` toolbox with its `workshop/workbench`
-tool and `workbench` setup. The [report](../../reportbacks/zengine-independent-info-workbench-RB.md)
-owns validation, measurements and the seams left open.
-
-### Alternative: organize a growing toolbox
-
-Find a useful saved command/result among many entries, collect related items into a named bag or
-filtered view, and arrange a hotbar without rebinding its keys. Search and grouping add something
-beyond existing sorting. Keep entry identity independent of names, ordering and membership;
-removing a placement or collection must not accidentally delete its data.
-
-Select this first if finding material has become more costly than combining it. The exact
-membership/folder model needs a concrete collection story; arbitrary hierarchy is not required.
+The maintained `inspection-workbench` toolbox, `workshop/workbench` tool and `workbench` setup
+are the reusable starting point. The [original report](../../reportbacks/zengine-independent-info-workbench-RB.md)
+and [corrections report](../../reportbacks/zengine-independent-info-workbench-corrections-RB.md)
+own validation, measurements and remaining seams. The legacy section anchor above preserves
+existing navigation into this plan.
 
 ### Selected: keep a toolbox across restarts
 
@@ -219,7 +197,7 @@ Data, observational metadata and stored configuration never contain an execution
 [Portable-slot packet](../../prompts/zengine-inventory-portable-slots.md) owns this phase's scope.
 The [phase report](../../reportbacks/zengine-inventory-portable-slots-RB.md) owns verification;
 the [exploration log](../../reportbacks/zengine-inventory-portable-slots-exploration.md) records the
-investigation. Durable folders/bags, focus-dependent scopes and user-designed box
+investigation. Named folders are selected next; focus-dependent scopes and user-designed box
 faces remain later work. Terminal payload acquisition is now accepted separately.
 
 ### Pressure for the next selection

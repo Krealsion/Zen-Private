@@ -153,14 +153,14 @@ P10 and its adjacent probe/evidence pack; Vision independently reproduced the sa
 **Trigger:** the next selected pointer/presentation provenance investigation, or ordinary use showing
 repeated queued clicks selecting or activating a subject the maker did not aim at.
 
-**Partial, in #55 for review:** Info's value views number their pictures (`v3::PaneContent`), and a
+**Partial, accepted in merged #55:** Info's value views number their pictures (`v3::PaneContent`), and a
 press, drag, drop or control aimed at an earlier picture refuses without acting. The fence is local
 to those views. Info's pane-property list, Files and other panes remain unfenced, and no general
 revision protocol was selected.
 
 ### P-WORK-27 — Independent Info views leave three measured seams
 
-**State:** WATCH; seams named by #55 and its corrections, which await founder review
+**State:** WATCH; seams retained after founder acceptance and merge of #55 and its corrections
 **Evidence:** [phase report](../reportbacks/zengine-independent-info-workbench-RB.md) and its evidence;
 [corrections report](../reportbacks/zengine-independent-info-workbench-corrections-RB.md)
 
@@ -587,12 +587,12 @@ now documented in the weave guide and demonstrated by the copied-weave regressio
 Loom #8 (P-LOOM-07). The Windows error-mode documentation is the remaining open item and stays
 separate and unselected.
 
-A second sentence, verified 2026-09-23 at the consumed Loom `1413086`: `loom-session run --wait`
-defaults to 0, so a run returns when it starts, and neither the CLI help ("wait this many seconds
-for the end", `python/loom_session/cli.py`) nor `docs/guides/sessions.md` says so. Zengine's
-recipes now carry `--wait` where runs depend on each other and link one explanation
-([corrections report](../reportbacks/zengine-independent-info-workbench-corrections-RB.md)).
-The Loom wording stays for the same later documentation phase; no CLI change is selected.
+The `loom-session run --wait` wording subitem is CLOSED by the founder-merged
+[Loom #15](https://github.com/Krealsion/Loom/pull/15). Its CLI help and sessions guide explain
+the default of 0, waiting for a verdict, and that a timeout does not cancel execution. Zengine's
+dependent recipes now wait explicitly. The
+[guidance report](../reportbacks/developer-guidance-pass-RB.md) owns that change's evidence;
+the Windows error-mode documentation item above remains open.
 
 ### P-LOOM-07 — Declared schema agreement is incomplete
 
