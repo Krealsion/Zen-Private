@@ -160,13 +160,19 @@ revision protocol was selected.
 
 ### P-WORK-27 — Independent Info views leave three measured seams
 
-**State:** WATCH; seams named by #55, which is awaiting founder review
-**Evidence:** [phase report](../reportbacks/zengine-independent-info-workbench-RB.md) and its evidence
+**State:** WATCH; seams named by #55 and its corrections, which await founder review
+**Evidence:** [phase report](../reportbacks/zengine-independent-info-workbench-RB.md) and its evidence;
+[corrections report](../reportbacks/zengine-independent-info-workbench-corrections-RB.md)
 
 - **Responder identity is process-local.** A sample records the WeaveId Loom attests, which
   distinguishes a replacement only within one process. In the fresh-process run, the new
   `zengine.input` received the same id (#19) as the stored capture's earlier process. The notice
   therefore says an equal id may be an earlier process. It proves neither continuity nor change.
+  The corrections met the same limit inside one process: a reload keeps the WeaveId and `Mail`
+  exposes no sender incarnation, so Workshop's lease book cannot tell a reloaded Info from its
+  predecessor. Info now ends its predecessor's leases when it activates (`PaneObservationEnded`
+  with lease 0); another lease-holding provider would owe the same courtesy. A lease gates no
+  send, so a leftover one is bookkeeping, not authority.
 - **Invalidation reaches every accepting weave.** `InventoryChanged` is published to any weave
   that accepts it. Info now receives every change even while nothing is watched (eight per
   workbench story), and ignores the ones no watch needs. The cost grows with accepting weaves
@@ -580,6 +586,13 @@ error mode; `dynamic-weaves.md` should say a host decides it. The copier's shape
 now documented in the weave guide and demonstrated by the copied-weave regression shipped in
 Loom #8 (P-LOOM-07). The Windows error-mode documentation is the remaining open item and stays
 separate and unselected.
+
+A second sentence, verified 2026-09-23 at the consumed Loom `1413086`: `loom-session run --wait`
+defaults to 0, so a run returns when it starts, and neither the CLI help ("wait this many seconds
+for the end", `python/loom_session/cli.py`) nor `docs/guides/sessions.md` says so. Zengine's
+recipes now carry `--wait` where runs depend on each other and link one explanation
+([corrections report](../reportbacks/zengine-independent-info-workbench-corrections-RB.md)).
+The Loom wording stays for the same later documentation phase; no CLI change is selected.
 
 ### P-LOOM-07 — Declared schema agreement is incomplete
 

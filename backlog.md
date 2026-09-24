@@ -47,6 +47,21 @@ tool's source” path.
 
 **Boundary:** this does not itself authorize a plugin SDK or an installation system.
 
+### BL-WORK-03 — Split the Info value view before it grows again
+
+**State:** PARKED / MAINTAINABILITY  
+**Owed:** `info-pane/value_view.hpp` is one class of about 1,340 lines holding the draft, the
+owner-operation record and its adoption rules, the watch custody, sampling, field pickup, and the
+picture with its controls. The corrections kept it whole because a split was not needed to make the
+repairs clear. Extract the picture/controls composition and the watch custody (`Watch`, `ending_`,
+start, stop, cycle and the lease answers) into their own image-local headers, keeping every record
+per view and the one act entry point. Behaviour and law stay as they are.
+
+**Wake:** the next change that adds an operation, a pending-request kind or a control to that file,
+or the file passing 1,500 lines.
+
+**Source:** [corrections report](../reportbacks/zengine-independent-info-workbench-corrections-RB.md).
+
 ## 3. Bounded defects and quick repairs
 
 ### BL-VERIFY-01 — Reconcile Builder field clicks locally
