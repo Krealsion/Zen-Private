@@ -1,9 +1,9 @@
 # Inventory command presets and reusable views
 
-**Status:** accepted through Zengine #53: command presets (#50), portable views/hotkeys (#51), Terminal acquisition (#52), and the interaction-authoring foundation (Loom #14 / Zengine #53).\
+**Status:** accepted through Zengine #54: command presets (#50), portable views/hotkeys (#51), Terminal acquisition (#52), the interaction-authoring foundation (Loom #14 / Zengine #53) and toolbox persistence (#54).\
 **Selected:** 2026-09-23, founder refinement after Zengine #49 merged.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
-**Current executor packet:** [Independent Info workbench](../../prompts/zengine-independent-info-workbench.md).\
+**Current executor packet:** [Independent Info workbench](../../prompts/zengine-independent-info-workbench.md), implemented in [Zengine #55](https://github.com/Krealsion/Zengine/pull/55) for founder review.\
 **Foundation:** [Reusable demo setups](workshop-comfort-and-test-setups-plan.md).
 
 ## Purpose and first complete story
@@ -93,8 +93,8 @@ Multiple Info windows should preserve independent draft state and conditional sa
 ## Next maker stories
 
 The founder reviewed persistence favorably and selected independent Info views next, with useful
-visible controls, observation and extra correctness work for a new executor. Persistence #54 is
-still open at preparation; its merge precedes development from fetched current main. The
+visible controls, observation and extra correctness work for a new executor. Persistence #54
+merged before development started from fetched current main. The
 [Info packet](../../prompts/zengine-independent-info-workbench.md) carries the full next story.
 Organization remains a following choice.
 
@@ -145,6 +145,13 @@ switching and agent/host message counts against the existing single-Info story. 
 filled, documented toolbox and setup that another executor can restore in a fresh session. The
 constitution now makes useful toolbox upkeep a regular development habit, without an entry quota.
 
+[Zengine #55](https://github.com/Krealsion/Zengine/pull/55) implements this story for founder
+review; it is not accepted until merged. It adds four Info views (the default pane plus three
+reusable value-view slots), a Workshop observation lease for watching and a point query for
+external tools. It also ships the `inspection-workbench` toolbox with its `workshop/workbench`
+tool and `workbench` setup. The [report](../../reportbacks/zengine-independent-info-workbench-RB.md)
+owns validation, measurements and the seams left open.
+
 ### Alternative: organize a growing toolbox
 
 Find a useful saved command/result among many entries, collect related items into a named bag or
@@ -158,8 +165,8 @@ membership/folder model needs a concrete collection story; arbitrary hierarchy i
 ### Selected: keep a toolbox across restarts
 
 Save useful typed entries and their configuration, stop Workshop, restart, and explicitly restore
-them. This makes sessions accumulate work instead of ending as demonstrations. The implementation
-is ready for founder review in [Zengine #54](https://github.com/Krealsion/Zengine/pull/54), with
+them. This makes sessions accumulate work instead of ending as demonstrations. The founder merged
+[Zengine #54](https://github.com/Krealsion/Zengine/pull/54), with
 explicit named snapshots, distinct from same-shape reload continuity. The
 [report](../../reportbacks/zengine-inventory-persistence-RB.md) owns validation and measurements.
 
@@ -219,11 +226,14 @@ faces remain later work. Terminal payload acquisition is now accepted separately
 
 - Extra view identities currently remain offered after closing a window. Empty views can be
   reused, but retiring offers and reclaiming the twelve-view bound need an explicit lifecycle
-  story before unrestricted workspace editing.
+  story before unrestricted workspace editing. Info's views in #55 stay bounded by reusing four
+  fixed slots rather than by retiring offers; general offer withdrawal remains open.
 - Explicit activation persists when a window closes. Focus-dependent contexts and readable
   user-authored context names can build on the two existing switches without redefining data.
 - ELH can inspect pane rows and current view state, but menus still require known action order.
-  Discoverable menu action identities would remove that remaining script ceremony.
+  Discoverable menu action identities would remove that remaining script ceremony. #55's
+  `PanePointRequested` lets a tool press a painted control by its label, so the workbench tool
+  avoids menus. Menus themselves are unchanged.
 - Generic commands report queueing and recognized acknowledgements/refusals. Domain-specific
   completion remains the receiving weave's contract; a queued message is never reported as done.
 - Configured bindings for unavailable entries consume the bounded configuration list. Explicit

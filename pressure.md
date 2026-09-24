@@ -27,9 +27,9 @@ The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the 
 Typed Inventory capture, collection, inspection, Compose, portable slots, Terminal acquisition
 and the interaction-authoring foundation are merged. The founder selected
 [toolbox persistence](drafts/inventory-command-presets-plan.md#selected-keep-a-toolbox-across-restarts)
-to reduce repeated fixture construction and let useful sessions accumulate work; Zengine #54 now
-provides the bounded save/restore story for founder review. Independent Info
-views and organization follow concrete tasks. Flow and independent pane/editor work continue alongside.
+to reduce repeated fixture construction and let useful sessions accumulate work; Zengine #54
+merged the bounded save/restore story. Independent Info views are implemented in #55 for founder
+review; organization follows concrete tasks. Flow and independent pane/editor work continue alongside.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -152,6 +152,33 @@ Terminal's second-press memory is only an analogy, not a reproduced instance of 
 P10 and its adjacent probe/evidence pack; Vision independently reproduced the same result.
 **Trigger:** the next selected pointer/presentation provenance investigation, or ordinary use showing
 repeated queued clicks selecting or activating a subject the maker did not aim at.
+
+**Partial, in #55 for review:** Info's value views number their pictures (`v3::PaneContent`), and a
+press, drag, drop or control aimed at an earlier picture refuses without acting. The fence is local
+to those views. Info's pane-property list, Files and other panes remain unfenced, and no general
+revision protocol was selected.
+
+### P-WORK-27 — Independent Info views leave three measured seams
+
+**State:** WATCH; seams named by #55, which is awaiting founder review
+**Evidence:** [phase report](../reportbacks/zengine-independent-info-workbench-RB.md) and its evidence
+
+- **Responder identity is process-local.** A sample records the WeaveId Loom attests, which
+  distinguishes a replacement only within one process. In the fresh-process run, the new
+  `zengine.input` received the same id (#19) as the stored capture's earlier process. The notice
+  therefore says an equal id may be an earlier process. It proves neither continuity nor change.
+- **Invalidation reaches every accepting weave.** `InventoryChanged` is published to any weave
+  that accepts it. Info now receives every change even while nothing is watched (eight per
+  workbench story), and ignores the ones no watch needs. The cost grows with accepting weaves
+  and change volume, not with watches.
+- **Observation is Workshop-local and entry-only.** Leases live in Workshop's running image and
+  cover linked Inventory entries only. Nothing watches a capture's original provider
+  automatically; Sample is manual.
+
+**Trigger:** a story needs cross-process source identity or automatic source watching, or
+invalidation delivery becomes a measured cost as views and collections grow. Options include a
+Loom-attested incarnation nonce, subscription-scoped invalidation, or a source-side watch
+contract. The choice is the architect's, not an executor default.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
