@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-23\
+**Refreshed:** 2026-09-24\
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -105,7 +105,7 @@ General queued-picture provenance remains a distinct pressure.
 
 ### BL-VERIFY-02 — Run a stored tower-defense command by a maker's own hand
 
-**State:** PARKED / LOCAL FOLLOW-UP
+**State:** WOKEN / SELECTED IN #60 CORRECTIONS
 **Owed:** The example's README says a stored command runs with the pressing actor's own authority:
 a maker's hand, or a guest only where its grant allows `TdCommand` to `td.game`. The story shows
 only the guest's refusal. With the example's toolbox restored and the game loaded, enable the row
@@ -113,6 +113,11 @@ and its context, press Alt+1 by hand and confirm the game starts a wave; record 
 README's claim can point.
 
 **Wake:** the founder's review of Zengine #60, or the next use of `tower-defense.toolbox`.
+Triggered at review on 2026-09-24; included in the
+[correction packet](../prompts/zengine-tower-defense-creation-story-corrections.md).
+Keep this item open until the actor-correct positive witness is accepted. If the executor lacks
+actual maker input, its report must leave a precise founder check rather than claim guest input
+proved maker behavior.
 
 **Source:** [tower defense report](../reportbacks/zengine-tower-defense-creation-story-RB.md).
 

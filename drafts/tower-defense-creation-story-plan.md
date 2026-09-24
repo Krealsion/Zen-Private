@@ -5,7 +5,8 @@
 **Executor packet:** [Tower defense creation story](../../prompts/zengine-tower-defense-creation-story.md).\
 **Delivered for review:** 2026-09-24, Zengine [#60](https://github.com/Krealsion/Zengine/pull/60);
 [report](../../reportbacks/zengine-tower-defense-creation-story-RB.md). Not accepted until the
-founder says so.
+founder says so. The [selected correction packet](../../prompts/zengine-tower-defense-creation-story-corrections.md)
+repairs reusable-tool and replay reliability before the next phase.
 
 ## Outcome and priority
 
@@ -76,3 +77,24 @@ durable toolboxes (#54). Use these foundations rather than adding Inventory feat
 The controller growth triggers (P-WORK-28, BL-WORK-03), Builder witness BL-VERIFY-01 and authority
 pressure are checked only as their surfaces become relevant. Flow/presentation work remains
 parallel. Follow-on scope should come from this story's measured obstructions and useful outputs.
+
+## Review disposition and selected follow-on
+
+Independent review reproduced unsafe handling of an unsaved new buffer, false Builder completion,
+position-dependent catalog selection, loss of cancellation reach after a wait timeout, and false
+forced-shutdown claims. A clean replay failed on a preceding `.nvimlog`; after an explicit ELH
+selection correction, the remaining milestones and five-wave game completed. Fresh graphical
+and terminal launches, including inactive toolbox restoration, also passed. The correction
+packet owns the detailed reproductions and acceptance evidence still required.
+
+Preserve the original report's disclosed direct-shell reads after compaction. Those qualify the
+original ELH-only experiment; successful later replay does not rewrite that history. The repair
+packet is a separately identified ordinary development pass, with acceptance creation replay
+still going through the editor and build/load owners. BL-VERIFY-02's positive maker invocation
+is part of acceptance; guest refusal alone does not establish it.
+
+After #60 acceptance, the selected [event-driven ELH observation arc](elh-event-driven-observation-plan.md)
+follows Builder outcomes directly and then adds an autonomous gameplay monitor. Reduce routine
+polling, captures and agent turns while keeping events, latest claims and history distinct.
+The game remains a useful consumer; a generic automation or subscription framework is not a
+prerequisite for fixing this story's current defects.

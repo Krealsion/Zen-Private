@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-22\
+**Refreshed:** 2026-09-24\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** accelerate complete maker stories through reusable ELH tools, typed inspection and maker-authorized reuse; keep Workshop and Flow understandable and replaceable
-**Current execution state:** The reusable-session foundation and ELH Workshop-improvement story (Loom #10/#11, Zengine #39/#44) are merged. The founder selected [one-slot inventory capture](drafts/inventory-capture-plan.md): pure typed data paired with automatically collected typed metadata, stored and retrieved through ordinary messages. Flow UX, UI-update research and independent pane/editor UX continue. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the broader direction. Service retirement remains parked.
+**Current execution state:** Typed Inventory reuse, independent Info views, persistence and named folders are accepted foundations. The tower-defense creation story (#60) is undergoing its selected corrections; next is [event-driven ELH observation](drafts/elh-event-driven-observation-plan.md), proven with Builder and then a reusable gameplay monitor. Editor transfers, Flow UX and independent pane/editor work remain parallel. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the broader direction. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -176,14 +176,15 @@ and evidence. This does not supply or select a general migration system.
 
 The remaining product direction is:
 
-1. Reuse the merged ELH improvement and use complete 0-to-demo stories as the unit of bounded
-   improvement: stated setup, useful creation, reusable route
-   and verifiable evidence. Existing fixes do not wait for a new automation framework.
-2. Deliver one-slot inventory capture: an owned typed item paired with automatically collected
-   typed metadata, through a generic Set/Get contract. Contextual acquisition and drag-out are
-   following consumers with their own actor/authority requirements. Reuse schema discovery,
-   value drafts and codec facilities. The [arc](drafts/maker-story-development.md) distinguishes
-   selected direction, existing mechanisms, unanswered design questions and the delivery order.
+1. Complete the [tower-defense creation story's repairs](../prompts/zengine-tower-defense-creation-story-corrections.md)
+   and acceptance. Preserve its usable game, live build/reload route and durable toolbox; make the
+   reusable helpers protect work and report actual outcomes. Existing fixes do not wait for new
+   infrastructure, and the original experimental boundary deviations remain disclosed.
+2. Deliver [event-driven ELH observation](drafts/elh-event-driven-observation-plan.md): scoped
+   subscriptions, Builder as the first consumer, then Python gameplay monitors. Let reusable
+   packages handle expected progression and return completion/deviations to the agent, using
+   existing history owners and selective visual evidence. Reuse the accepted Inventory/Info
+   foundations rather than reopening capture or storage as unfinished prerequisites.
 3. Continue Flow UX research: discover, place/connect, understand, group and reuse operations
    with traversable interiors. Flow becomes an early consumer of shared typed transfers.
    UI-update research measures retained descriptions and selective invalidation in parallel;

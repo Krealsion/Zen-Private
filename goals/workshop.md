@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-24 UTC\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** Command presets, portable inventory views/hotkeys, Terminal acquisition and interaction authoring are accepted through Zengine #53 / Loom #14, and toolbox persistence merged as #54. Independent Info views, including visible controls, bounded linked-value watching, explicit source sampling and a reusable filled workbench toolbox, are accepted in merged #55. Named nested Inventory folders, with Explorer-style down/up navigation and toolbox persistence, are accepted in merged Zengine #58. The founder selected a complete tower-defense creation story through ELH: live Workshop authoring, eligible in-place weave reloads, durable tools and a repeatable speed-controlled creation demo. Tools and repeatability take priority over game polish. A parallel worktree-based Editor transfer packet adds selected-text extraction, command/text insertion and saved file locators across standard Editor and Neovim, with optional explicit C++ generation. Conventional coding remains first-class; Flow is a consumer, not a prerequisite. Flow and other independent pane/editor UX remain parallel work.
+**Current execution state:** Inventory foundations through named folders (#58), independent Info (#55) and toolbox persistence (#54) are accepted. The tower-defense creation story is delivered in open Zengine #60 and requires its selected reliability corrections before acceptance. Next is [event-driven ELH observation](../drafts/elh-event-driven-observation-plan.md): Builder first, then reusable Python gameplay monitors that return meaningful outcomes to the supervising agent. Tools, retained learning and repeatability outrank game polish. Editor typed transfers (#59), Flow and independent pane/editor UX remain parallel work. Conventional coding stays first-class; Flow is a consumer, not a prerequisite.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -399,7 +399,8 @@ serializing unrelated pane/editor or UI-update work.
 | Merged; #54 | [Durable toolboxes](../drafts/inventory-command-presets-plan.md#selected-keep-a-toolbox-across-restarts) | Explicitly save and restore typed data and portable configuration across restarts; reduce executor fixture setup to one owner operation. Fresh live references and inactive restored hotkeys preserve authority boundaries. |
 | Accepted; #55 merged | [Independent Info workbench](../drafts/inventory-command-presets-plan.md#selected-next-independent-info-workbench) | Keep sample and draft views side by side, transfer typed fields, watch linked entries without losing edits, sample supported sources explicitly and reuse a filled toolbox. Visible controls and bounded view lifetime make the story usable. |
 | Accepted; #58 merged | [Named Inventory folders](../drafts/inventory-command-presets-plan.md#selected-next-named-inventory-folders) | Organize growing toolboxes through nested names, immediate-child views, parent/root navigation and identity-preserving moves; retain hierarchy across save/restore and reuse entries through Info, Compose and portable slots. |
-| Delivered for review; Zengine #60 open | [Tower defense creation story through ELH](../drafts/tower-defense-creation-story-plan.md) | Create a playable game through the live Workshop, retain useful workspace/toolbox/tools, and reconstruct its creation with adjustable pacing. Improvements to Zengine use eligible weave reloads in the same host; fixed-host changes need a separate decision. Durable tools, learning and repeatability govern the result. Delivered: nine ELH tools, the example and its replay, and a Builder realize-row change made in place; see the [report](../../reportbacks/zengine-tower-defense-creation-story-RB.md). |
+| Repairing; Zengine #60 open | [Tower defense creation story through ELH](../drafts/tower-defense-creation-story-plan.md) | Preserve the working creation/play/reload route and durable tools; repair unsaved-buffer protection, completion reporting, file selection, cancellation and process cleanup. The [correction prompt](../../prompts/zengine-tower-defense-creation-story-corrections.md) includes the outstanding maker-authorized toolbox witness. Keep the original experiment boundary deviations explicit. |
+| Selected next, after #60 acceptance | [Event-driven ELH observation and monitors](../drafts/elh-event-driven-observation-plan.md) | Authorized subscriptions through Loom/ELH, consumed first by Builder and then by a reusable gameplay monitor. Distinguish latest claims, occurrences and history; reduce polling and captures without losing authority, operation identity, cancellation or evidence. Python owns test policy; the agent handles meaningful outcomes. |
 | Selected parallel implementation | [Editor typed transfers](../drafts/editor-typed-transfers-plan.md) | Bring text/commands into either editor, extract an existing selection into Inventory, and reopen saved file locators. Separate optional C++ generation from text insertion. Isolated worktrees and runtimes preserve the running creation experiment; no Flow dependency. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
@@ -666,6 +667,17 @@ selection as unfinished work. Additional transport, discovery or human identity 
 need their own consumer and policy. Coordinate with parallel pane UX at input/presentation
 boundaries and preserve its custody.
 
+### Selected next: event-driven ELH observation
+
+After #60's repairs and acceptance, deliver the [event-driven observation arc](../drafts/elh-event-driven-observation-plan.md).
+Its first proof follows Builder's existing structured outcomes; the second lets a Python package
+monitor gameplay events in an explicit play state and report a deviation or completion with
+retained evidence. Latest claims, occurrence-sensitive events and history have distinct semantics.
+Subscribe with explicit authority before acting, retain identity across waits, and expose gaps,
+reconnects and cancellation. Generic mechanism belongs in Loom; application meaning stays with
+its owner and test policy with the ELH package. Structured text/TUI reads and selective graphical
+captures complement subscriptions. This direction does not postpone #60's existing repairs.
+
 ### ELH usability and extension documentation
 
 The founder selected an explicit ELH-improvement strand on 2026-09-21. Treat the external
@@ -904,7 +916,10 @@ or verification volume standing in for a claim-specific witness.
   live Workshop editing, eligible in-place product reloads, durable workspace/toolbox/tools, and
   a repeatable creation demo with speed/pause/step controls. Tools and repeatability outrank game
   polish. Folders (#58), independent Info (#55) and persistence (#54) are accepted foundations.
-  Delivered for founder review as Zengine #60; its measured pressure is P-WORK-29 to P-WORK-32.
+  Zengine #60 is in its selected correction pass; its measured pressure is P-WORK-29 to P-WORK-32.
+- **Selected next:** [event-driven ELH observation](../drafts/elh-event-driven-observation-plan.md),
+  after #60 acceptance: Builder outcomes first, then a reusable gameplay monitor; fewer routine
+  agent turns and captures, with explicit authority, lifecycle and retained evidence.
 - **Selected parallel outcome:** [Editor transfers](../drafts/editor-typed-transfers-plan.md)
   connect ordinary coding to typed reuse in independent worktrees, with selected-text capture,
   command insertion and file locators. Optional C++ generation is explicit; Flow is not required.
