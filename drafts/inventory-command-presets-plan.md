@@ -92,10 +92,11 @@ Multiple Info windows should preserve independent draft state and conditional sa
 
 ## Next maker stories
 
-The authoring prerequisite is accepted. These are recommended choices pending founder selection;
-their order is a product judgment, not a dependency chain that forces separate PRs.
+The founder selected restart persistence first, to make executor retesting cheaper and let useful
+toolboxes accumulate. The [execution packet](../../prompts/zengine-inventory-persistence.md) owns
+this phase. Independent Info views and organization remain following choices, not prerequisites.
 
-### First recommendation: work with independent Info views
+### Following recommendation: work with independent Info views
 
 Keep a saved result in one Info view and a command draft in another. Inspect them side by side,
 drag a compatible field into the draft, and save or reuse the filled command through Compose.
@@ -133,16 +134,30 @@ removing a placement or collection must not accidentally delete its data.
 Select this first if finding material has become more costly than combining it. The exact
 membership/folder model needs a concrete collection story; arbitrary hierarchy is not required.
 
-### Alternative: keep a toolbox across restarts
+### Selected: keep a toolbox across restarts
 
 Save useful typed entries and their configuration, stop Workshop, restart, and explicitly restore
-them. This makes sessions accumulate work instead of ending as demonstrations. Disk persistence
-is absent today; same-shape reload continuity is not restart durability.
+them. This makes sessions accumulate work instead of ending as demonstrations. The implementation
+is ready for founder review in [Zengine #54](https://github.com/Krealsion/Zengine/pull/54), with
+explicit named snapshots, distinct from same-shape reload continuity. The
+[report](../../reportbacks/zengine-inventory-persistence-RB.md) owns validation and measurements.
 
 Persist schema-bearing data and deliberate configuration, never old grants, pending operations
 or a claim that an old live reference is valid again. Source absence, schema/version changes,
 damaged storage, destination re-resolution and shortcut activation need explicit behavior.
-Choose this earlier if makers are losing useful presets; bags are not a prerequisite.
+The chosen boundary is one save/restore operation over collection data and portable slot/binding
+configuration. Screen geometry retains its existing setup owner. File access needs a separate
+guest toolbox power. Restore validates the complete candidate, fences concurrent writers and
+starts hotkeys OFF. Old references embedded in user data remain historical; only toolbox-owned
+placements reconnect through saved entry keys. Automatic boot/quit writes, schema migration and
+multi-writer synchronization are not selected. Bags are not a prerequisite.
+
+The real restart proof saved eleven entries and reused a saved command in fresh SDL and TUI
+processes. Each restore is one ELH ask with no input session. Recorder attribution still exposes
+publication, offers and redraws behind it; a one-request interface is not a one-message host.
+Saved view identities reconnect existing setup files. Without offer retirement, restoring a
+different collection of views can exhaust the twelve-id union: refuse before committing and
+use a fresh Workshop. Retiring offers belongs with the future view-lifetime story.
 
 ### Enabling work and boundaries
 

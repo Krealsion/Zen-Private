@@ -4,7 +4,7 @@
 **Refreshed:** 2026-09-23\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** Command presets, portable inventory views/hotkeys, Terminal acquisition and interaction authoring are accepted through Zengine #53 / Loom #14. The dependency CI is green. The recommended next maker story is independent Info views for comparing and combining saved values; inventory organization and restart durability are alternative selections. Detailed scope belongs to the inventory plan below. Flow and independent pane/editor UX remain parallel work.
+**Current execution state:** Command presets, portable inventory views/hotkeys, Terminal acquisition and interaction authoring are accepted through Zengine #53 / Loom #14. Toolbox persistence is implemented for founder review in Zengine #54, with save/restore and real SDL/TUI restart evidence. Independent Info views and organization remain following choices. Detailed scope and the evidence route belong to the inventory plan below. Flow and independent pane/editor UX remain parallel work.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -396,7 +396,8 @@ serializing unrelated pane/editor or UI-update work.
 | Accepted; #51 merged | [Portable inventory views and contextual hotkeys](../drafts/inventory-command-presets-plan.md#accepted-portable-view-contract) | Single boxes and row/column strips over owned entries; move/reorder/displace without data loss; duplicate independently; retain copied bindings disabled; explicit activation and per-invocation authority. |
 | Merged; Loom #13 / Zengine #52 | [Terminal acquisition](../drafts/inventory-command-presets-plan.md#terminal-and-answer-acquisition) | Retrieve real typed command/results at their retention and authority owner. Independent Info views, folders and durability follow demonstrated tasks. |
 | Accepted; Loom #14 / Zengine #53 merged, CI green | [Easier interaction authoring](../drafts/interaction-authoring-plan.md) | Shared request mechanics, one explicit native grant owner, attributable missing replies and an exercised loaded-pane guide. Application policy and pending remain explicit. |
-| Recommended next; awaiting founder selection | [Independent Info views](../drafts/inventory-command-presets-plan.md#next-maker-stories) | Keep saved source data and a command draft visible together; transfer compatible fields, preserve independent edits and conditional saves, and handle view lifetime deliberately. Organization and restart durability are alternative maker stories. |
+| Selected; #54 ready for founder review | [Durable toolboxes](../drafts/inventory-command-presets-plan.md#selected-keep-a-toolbox-across-restarts) | Explicitly save and restore typed data and portable configuration across restarts; reduce executor fixture setup to one owner operation. Fresh live references and inactive restored hotkeys preserve authority boundaries. |
+| Following recommendation | [Independent Info views](../drafts/inventory-command-presets-plan.md#next-maker-stories) | Keep saved source data and a command draft visible together; transfer compatible fields, preserve independent edits and conditional saves, and handle view lifetime deliberately. Organization remains another maker story. |
 | Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
 | Later consumers | Deeper setup/configuration, reusable effects, Python, GPU and broader multi-host work | Demonstrated stories earn scope; no universal framework or complete renderer is a prerequisite. |
@@ -435,8 +436,9 @@ one weave slot stores a pure typed item paired with a separate automatically col
 typed metadata, including nested structured observations. Item and metadata retain their own
 decoding schemas; unavailable optional facts stay absent. Set replaces the pair together, and
 Get yields independent data without executing actions or reviving the source's authority.
-Capture, collection and Info editing are now implemented with process-local storage. Disk/restart
-durability is not promised. The [implemented Compose phase](../drafts/inventory-compose-motion-plan.md)
+Capture, collection and Info editing own process-local live state. The selected toolbox phase
+adds explicit disk save/restore for founder review; automatic recovery remains unselected.
+The [implemented Compose phase](../drafts/inventory-compose-motion-plan.md)
 extends reuse without changing the pair/authority boundary.
 The [command preset/view plan](../drafts/inventory-command-presets-plan.md) owns accepted preset,
 acquisition and portable-view behavior plus the next maker-story options. Several views should refer to the same owned
@@ -883,10 +885,10 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Next recommendation:** [independent Info views](../drafts/inventory-command-presets-plan.md#next-maker-stories)
-  for side-by-side inspection and field reuse. Organization makes a growing toolbox navigable;
-  durability makes it survive a restart. These are choices pending founder selection, with the
-  accepted interaction-authoring foundation available to all three.
+- **Selected outcome:** [durable toolboxes](../drafts/inventory-command-presets-plan.md#selected-keep-a-toolbox-across-restarts)
+  make useful data/configuration survive a restart and provide a cheap repeatable test baseline.
+  Independent Info views for side-by-side field reuse and organization for a growing collection
+  remain following choices, with the accepted interaction-authoring foundation available to all.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.

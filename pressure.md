@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-22
+**Refreshed:** 2026-09-23
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -24,11 +24,12 @@ but deferred work belongs in `private/backlog.md`.
 ## 2. Current action pressure
 
 The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the sequence.
-Desktop, declared-schema admission (P-LOOM-07), external control, reusable sessions and the ELH
-Workshop-improvement story are merged. The selected [next phase](drafts/inventory-capture-plan.md)
-captures pure typed data with separate auto-generated typed metadata in a one-slot inventory.
-Contextual acquisition and drag-out follow. Flow UX, UI-update research and independent pane/editor
-work continue alongside it.
+Typed Inventory capture, collection, inspection, Compose, portable slots, Terminal acquisition
+and the interaction-authoring foundation are merged. The founder selected
+[toolbox persistence](drafts/inventory-command-presets-plan.md#selected-keep-a-toolbox-across-restarts)
+to reduce repeated fixture construction and let useful sessions accumulate work; Zengine #54 now
+provides the bounded save/restore story for founder review. Independent Info
+views and organization follow concrete tasks. Flow and independent pane/editor work continue alongside.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
