@@ -205,6 +205,19 @@ consolidate it without deleting the enforceable law or proof history.
 **Wake:** a cold reader cannot find the owner without phase names, or a routed current-law file's
 growth materially slows every task touching that surface.
 
+### BL-ARCH-03 — The comment arc's remaining phases
+
+**State:** OWED, sequenced by the founder (phase one, `workshop/`, landed for review 2026-09-24)  
+**Owed:** Read the rest of the tree against the source comment standard
+(`docs/contributing/repository-conventions.md`, "Source comment conventions") and widen
+`source_comments`' `ZEN_COMMENT_ROOTS` behind each phase: the other Zengine packages (3.24 MB,
+1.42 MB of it comments), `tests/` (6.43 MB, 2.03 MB comments, 340 star notes), then Loom under
+its own conventions -- each by its own prompt, each with `tools/comment-pass/`'s edit tool,
+census, map, applier and proof.
+
+**Wake:** the founder's prompt for the next phase. **Source:**
+`reportbacks/zengine-workshop-comment-compression-RB.md`.
+
 ## 6. Explicitly not backlog
 
 The following remain trigger-governed horizons or pressure, not owed cleanup:
