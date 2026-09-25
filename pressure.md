@@ -270,6 +270,23 @@ Compose, and an in-process service such as the Builder's cannot be a Compose tar
 **Trigger:** the next Terminal vocabulary change, or a stored command that needs an in-process
 service as its target.
 
+### P-WORK-33 — Stored commands can lose their domain reply
+
+**State:** WATCH / MEASURED
+**Evidence:** [tower-defense second corrections](../reportbacks/zengine-tower-defense-creation-story-corrections-2-evidence.md), §8b and §10
+
+The maker's enabled Inventory shortcut delivered `TdCommand` to `td.game` and started the wave.
+The game's `zen.Result` answer was refused as `NotAccepted`: Inventory's runner accepts `Ack`
+and `Refused`, so its queued notice cannot report this owner's outcome and is soon replaced by
+a shortcut-registration notice. The effect is visible in the game and Recorder history.
+
+**Trigger:** the next stored-command outcome/answer handling change. The selected ELH observation
+phase should consider this following consumer without treating events as authenticated answers.
+Investigate how a command runner can retain and present the actual owner's typed answer under
+the original actor and conversation, including unknown answer shapes and honest pending state.
+Do not create an Inventory-only history store or infer completion from delivery. A broader
+universal command manager is not selected by this pressure.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35

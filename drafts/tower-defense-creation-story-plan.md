@@ -3,10 +3,13 @@
 **Selected:** founder discussion, 2026-09-24.\
 **Owner:** [Workshop goal map](../goals/workshop.md#near-term-order-and-purpose).\
 **Executor packet:** [Tower defense creation story](../../prompts/zengine-tower-defense-creation-story.md).\
-**Delivered for review:** 2026-09-24, Zengine [#60](https://github.com/Krealsion/Zengine/pull/60);
-[report](../../reportbacks/zengine-tower-defense-creation-story-RB.md). Not accepted until the
-founder says so. The [selected correction packet](../../prompts/zengine-tower-defense-creation-story-corrections.md)
-repairs reusable-tool and replay reliability before the next phase.
+**Accepted:** founder merged Zengine [#60](https://github.com/Krealsion/Zengine/pull/60)
+on 2026-09-25 as `c02b88a463e6c937e0a1416a989149742aeaedf1`. The
+[second correction report](../../reportbacks/zengine-tower-defense-creation-story-corrections-2-RB.md)
+retains the repaired replay and the positive maker-authorized stored-command witness. The
+[original report](../../reportbacks/zengine-tower-defense-creation-story-RB.md) retains the
+experiment's boundary deviations; acceptance does not rewrite that history. The next phase is
+[event-driven ELH observation](elh-event-driven-observation-plan.md).
 
 ## Outcome and priority
 
