@@ -1,7 +1,7 @@
 # Stranger-Legible Zen Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-25\
+**Refreshed:** 2026-09-26\
 **Strategic authority:** `private/zen-strategic-map.md`, Goal 2  
 **Role:** Goal 2's selected tasks: what a stranger must be able to read, and how it stays true
 
@@ -57,8 +57,13 @@ repository.
 excluded):** Zengine's current-facing Markdown carries 952 phase-shaped ids, 912 of them under
 `agents/` and 34 in `docs/reference/`. Loom's carries 183, most in `docs/reference/` (75) and
 its top-level `docs/` pages (42). Zengine's `workshop/` and package comments are held by the
-check; its tests phase is prepared (`prompts/zengine-test-comment-compression.md`); Loom's
-comments come last in the arc.
+check; its tests phase is under way in four stages
+(`prompts/zengine-test-comment-compression.md`); Loom's comments come last in the arc.  
+**Queued (founder, 2026-09-26), after the comment arc's tests phase:** test case names that open
+with a development plan's label (`MSG-0:`, `WUX-4:`, `QR-5:`; about 720 by the stage reports'
+count) are renamed in a pass of their own, together with the register citations that name them
+exactly, which `law_register` verifies. A label that is a public law id (`WL-KEY-15:`) resolves
+and may stay; two names that differ only by their label must not collide.
 
 ### Task 3 — An audit of executor habits and process
 
