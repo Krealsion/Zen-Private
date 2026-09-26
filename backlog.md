@@ -176,20 +176,22 @@ growth materially slows every task touching that surface.
 
 ### BL-ARCH-03 — The comment arc's remaining phases
 
-**State:** OWED, sequenced by the founder (phase one, `workshop/`, landed for review 2026-09-24;
-phase two, the 33 packages, landed for review 2026-09-25 as Zengine #63)  
-**Owed:** Read the rest of the tree against the source comment standard
-(`docs/contributing/repository-conventions.md`, "Source comment conventions") and widen
-`source_comments`' `ZEN_COMMENT_ROOTS` behind each phase: `tests/` (6.46 MB, 2.04 MB of it
-comments, all 342 star notes), with `examples/`, `reference/` and the top-level build files (the
-root `CMakeLists.txt` and `cmake/`: 88 KB, 63 KB of it comments), then Loom under its own
-conventions -- each by its own prompt, each with `tools/comment-pass/`'s edit tool, census, map,
-applier and proof.
+**State:** OWED, sequenced by the founder (phase one, `workshop/`, merged as Zengine #61; phase
+two, the 33 packages, merged as #63; phase three's stage 1, the build and its checks -- the root
+`CMakeLists.txt`, `cmake/`, `tests/`' CMake files and subdirectories, the population manifest and
+`examples/` -- landed for review 2026-09-26 as #64)  
+**Owed:** Phase three's stages 2 to 4: the 86 suites directly in `tests/`, which
+`source_comments` holds pending (`ZEN_COMMENT_PENDING` in `tests/check_source_comments.cmake`;
+5.56 MB, 1.74 MB of it comments, 340 star notes) -- stage 2 the fixtures and package suites (51
+files), stage 3 the pane suites (18), stage 4 the Workshop suites (17), each striking its files
+from that list. Then Loom under its own conventions, whose scope stage 4's report asks.
+`reference/`, the imported V1 engine, is outside the arc.
 
-**Wake:** the founder's prompt for the next phase. **Source:**
+**Wake:** the founder's prompt for the next stage. **Source:**
 `reportbacks/zengine-workshop-comment-compression-RB.md`;
-`reportbacks/zengine-package-comment-compression-RB.md`, whose Decisions asked 1 proposes the
-next phase's scope.
+`reportbacks/zengine-package-comment-compression-RB.md`;
+`reportbacks/zengine-test-comment-compression-stage-1-RB.md`, whose "What remains of the phase"
+measures each stage.
 
 ## 6. Explicitly not backlog
 
