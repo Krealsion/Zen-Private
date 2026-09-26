@@ -177,23 +177,16 @@ growth materially slows every task touching that surface.
 ### BL-ARCH-03 — The comment arc's remaining phases
 
 **State:** OWED, sequenced by the founder (phase one, `workshop/`, merged as Zengine #61; phase
-two, the 33 packages, merged as #63; phase three's stage 1, the build and its checks, merged as
-#64; stage 2, the fixtures and package suites, merged as #65; stage 3, the 18 pane suites, landed
-for review 2026-09-26 as #66)  
-**Owed:** Phase three's stage 4: the 17 Workshop suites (`test_workshop_*` not named
-`test_workshop_panes_*`), which `source_comments` holds pending (`ZEN_COMMENT_PENDING` in
-`tests/check_source_comments.cmake`; 1.84 MB, 572 KB of it comments, 159 star notes), with
-`.github/workflows/ci.yml`'s comments by the founder's answer; stage 4 empties that list. Then
-Loom under its own conventions, whose scope stage 4's report asks. `reference/`, the imported V1
-engine, is outside the arc.
+two, the 33 packages, merged as #63; phase three's stages 1 to 3 merged as #64, #65 and #66; stage
+4, the 17 Workshop suites and `.github/workflows/ci.yml`'s comments, landed for review 2026-09-26
+as #67, which retires `source_comments`' pending list)  
+**Owed:** Loom under its own conventions, whose scope stage 4's report asks the founder for.
+`reference/`, the imported V1 engine, is outside the arc.
 
-**Wake:** the founder's prompt for the next stage. **Source:**
+**Wake:** the founder's prompt for the Loom phase. **Source:**
 `reportbacks/zengine-workshop-comment-compression-RB.md`;
 `reportbacks/zengine-package-comment-compression-RB.md`;
-`reportbacks/zengine-test-comment-compression-stage-1-RB.md`;
-`reportbacks/zengine-test-comment-compression-stage-2-RB.md`;
-`reportbacks/zengine-test-comment-compression-stage-3-RB.md`, whose "What remains of the phase"
-measures stage 4.
+`reportbacks/zengine-test-comment-compression-stage-1-RB.md` to `-stage-4-RB.md`.
 
 ### BL-ARCH-04 — A separate comment pass on `ui/`
 
