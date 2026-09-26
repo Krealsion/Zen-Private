@@ -178,20 +178,22 @@ growth materially slows every task touching that surface.
 
 **State:** OWED, sequenced by the founder (phase one, `workshop/`, merged as Zengine #61; phase
 two, the 33 packages, merged as #63; phase three's stage 1, the build and its checks, merged as
-#64; stage 2, the fixtures and package suites -- the 51 files directly in `tests/` not named
-`test_workshop_*` -- landed for review 2026-09-26 as #65)  
-**Owed:** Phase three's stages 3 and 4: the 35 `test_workshop_*` suites, which `source_comments`
-holds pending (`ZEN_COMMENT_PENDING` in `tests/check_source_comments.cmake`; 3.67 MB, 1.14 MB of
-it comments, 313 star notes) -- stage 3 the pane suites (18), stage 4 the Workshop suites (17),
-each striking its files from that list. Then Loom under its own conventions, whose scope stage
-4's report asks. `reference/`, the imported V1 engine, is outside the arc.
+#64; stage 2, the fixtures and package suites, merged as #65; stage 3, the 18 pane suites, landed
+for review 2026-09-26 as #66)  
+**Owed:** Phase three's stage 4: the 17 Workshop suites (`test_workshop_*` not named
+`test_workshop_panes_*`), which `source_comments` holds pending (`ZEN_COMMENT_PENDING` in
+`tests/check_source_comments.cmake`; 1.84 MB, 572 KB of it comments, 159 star notes), with
+`.github/workflows/ci.yml`'s comments by the founder's answer; stage 4 empties that list. Then
+Loom under its own conventions, whose scope stage 4's report asks. `reference/`, the imported V1
+engine, is outside the arc.
 
 **Wake:** the founder's prompt for the next stage. **Source:**
 `reportbacks/zengine-workshop-comment-compression-RB.md`;
 `reportbacks/zengine-package-comment-compression-RB.md`;
 `reportbacks/zengine-test-comment-compression-stage-1-RB.md`;
-`reportbacks/zengine-test-comment-compression-stage-2-RB.md`, whose "What remains of the phase"
-measures each stage.
+`reportbacks/zengine-test-comment-compression-stage-2-RB.md`;
+`reportbacks/zengine-test-comment-compression-stage-3-RB.md`, whose "What remains of the phase"
+measures stage 4.
 
 ### BL-ARCH-04 — A separate comment pass on `ui/`
 
