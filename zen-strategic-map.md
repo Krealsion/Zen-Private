@@ -1,7 +1,7 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-24\
+**Refreshed:** 2026-09-25\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** accelerate complete maker stories through reusable ELH tools, typed inspection and maker-authorized reuse; keep Workshop and Flow understandable and replaceable
@@ -235,6 +235,9 @@ environment unexplained privilege. Detailed current authority: `private/goals/wo
 **Partially underway, not the current primary goal.** Zengine now has an installed package and
 external-reader documentation. A real stranger build, human contributor front door, release
 identity, and stability promise remain evidence-triggered work rather than maturity theater.
+The founder selected two standing tasks on 2026-09-25, a plain first-read path and no private
+information in documents or comments. Detailed current authority:
+`private/goals/stranger-legible.md`.
 
 ### Goal 3 — Hosted Weaves
 
@@ -287,6 +290,7 @@ REPOSITORIES.md                       stable repository registry; no HEAD custod
 
 private/zen-strategic-map.md          global current direction (this file)
 private/goals/workshop.md             current Workshop product authority
+private/goals/stranger-legible.md     Goal 2's tasks: a plain first-read path, no private info
 private/pressure.md                   open observed pressure and triggers
 private/backlog.md                    work knowingly owed but not current
 private/vision-deltas.md              compact routed decision/candidate index
