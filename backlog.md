@@ -197,18 +197,19 @@ growth materially slows every task touching that surface.
 
 ### BL-ARCH-03 — The comment arc's remaining phases
 
-**State:** NARROWED 2026-09-27 by stages 1 to 4 of `prompts/loom-comments-and-documents.md`
+**State:** NARROWED 2026-09-27 by stages 1 to 5 of `prompts/loom-comments-and-documents.md`
 (Loom PR #17, merged as `f1c0d1c`; PR #18, merged as `b92f987`; PR #19, merged as `f84cd57`;
-PR #20, open, not merged): Loom's standard in `CONTRIBUTING.md`, the `source_comments`,
-`doc_standard` and `doc_links` checks, the front door, every CMake file, manifest and example,
-every current-facing document, the CI workflow's comments, and all 72 headers of `include/` are
-done; `docs/audits/` is left to Git (`reportbacks/loom-comments-and-documents-stage-4-RB.md`)  
-**Owed:** stages 5 to 7 of that prompt: `src/` with the Python and shell comments under
-`python/` and `tools/`, and `tests/`'s C/C++ with its case names in two parts.
-`source_comments`' pending list names what is left. `reference/`, Zengine's imported V1 engine,
-is outside the arc.
+PR #20, merged as `827b95b`; PR #21, open, not merged): Loom's standard in `CONTRIBUTING.md`, the
+`source_comments`, `doc_standard` and `doc_links` checks, the front door, every CMake file,
+manifest and example, every current-facing document, the CI workflow's comments, all 72 headers
+of `include/`, all 74 files of `src/`, and the session tooling's Python and launchers (now read by
+`source_comments`) are done; `docs/audits/` is left to Git
+(`reportbacks/loom-comments-and-documents-stage-5-RB.md`)  
+**Owed:** stages 6 and 7 of that prompt: `tests/`'s C/C++ and Python, with its case names, in two
+parts. `source_comments`' pending list names what is left. `reference/`, Zengine's imported V1
+engine, is outside the arc.
 
-**Wake:** each stage's merge wakes the next; PR #20's merge wakes stage 5. **Source:**
+**Wake:** each stage's merge wakes the next; PR #21's merge wakes stage 6. **Source:**
 `reportbacks/loom-comments-and-documents-stage-1-RB.md` to `-stage-4-RB.md`;
 `reportbacks/zengine-workshop-comment-compression-RB.md`;
 `reportbacks/zengine-package-comment-compression-RB.md`;
