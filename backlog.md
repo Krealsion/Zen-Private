@@ -196,8 +196,9 @@ proposal, unaccepted until the founder says so
 **Owed:** A pass like the `ui/` one on `activation/activation.hpp` (79.1% comments, a 46-line
 opening essay in change-language, naming four consumers). Then a read, lower in priority, of
 `component/text_box.hpp` (20.3 KB of comments, the most of any installed header),
-`workshop/pane_menu.hpp`, `maker/vocabulary.hpp` and `maker/weave.hpp` (openings of 18 to 36
-lines) against their reference pages, for restatement. The C ABI headers and the per-declaration
+`workshop/pane_menu.hpp` (a 21-line opening) and the five `maker/` headers whose openings run 18
+to 36 lines (`weave`, `succession`, `definition`, `write`, `vocabulary`), against their reference
+pages, for restatement. The C ABI headers and the per-declaration
 contract headers (`timer/`, `surface/`, `input/`, the pane protocol) are proposed as earning their
 density, on a sample rather than a whole read. Behaviour and law stay as they are.
 
