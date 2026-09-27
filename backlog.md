@@ -188,28 +188,21 @@ as #67, which retires `source_comments`' pending list)
 `reportbacks/zengine-package-comment-compression-RB.md`;
 `reportbacks/zengine-test-comment-compression-stage-1-RB.md` to `-stage-4-RB.md`.
 
-### BL-ARCH-04 — A separate comment pass on `ui/`
+### BL-ARCH-04 — The installed headers the `ui/` pass proposes
 
-**State:** OWED, asked by the founder 2026-09-25 as its own pass, apart from the arc's phases
-(BL-ARCH-03)  
-**Owed:** Read `ui/`'s two installed headers against the source comment standard as a stranger
-reads a public API: keep the usage, the contracts and the "is not"; send what restates
-`docs/reference/ui.md` to that page, and what is Workshop's policy to Workshop. Phase two moved
-`ui/` from 71.5% to 70.6% comments (30,507 to 29,166 bytes) while the packages as a whole went
-from 1.42 MB to 0.83 MB; it kept them as API documentation (its report, "What stays heavy, and
-why"). `ui/layout.hpp` opens with a 24-line essay (the "three structural facts", hit testing) that
-`docs/reference/ui.md` already carries; `ui/vocabulary.hpp` opens with 42 lines and documents
-`Element` in 50, among them a delete policy Workshop authors for its own document. Installed
-headers are exempt from `source_comments`' block rule, so the check cannot see this: the pass
-needs a reader, not the check. Behaviour and law stay as they are.
+**State:** NARROWED 2026-09-26 by the `ui/` pass, which did its own two headers and measured the
+other 69 (`reportbacks/zengine-ui-headers-RB.md`, "The installed headers"); what is left is its
+proposal, unaccepted until the founder says so  
+**Owed:** A pass like the `ui/` one on `activation/activation.hpp` (79.1% comments, a 46-line
+opening essay in change-language, naming four consumers). Then a read, lower in priority, of
+`component/text_box.hpp` (20.3 KB of comments, the most of any installed header),
+`workshop/pane_menu.hpp`, `maker/vocabulary.hpp` and `maker/weave.hpp` (openings of 18 to 36
+lines) against their reference pages, for restatement. The C ABI headers and the per-declaration
+contract headers (`timer/`, `surface/`, `input/`, the pane protocol) are proposed as earning their
+density, on a sample rather than a whole read. Behaviour and law stay as they are.
 
-The same exemption shelters the other installed headers (71 in all, 279 KB of comments, 39.3%):
-`activation/activation.hpp` 79.1%, `timer/vocabulary.hpp` 68.7%, `surface/vocabulary.hpp` 65.7%,
-and the C ABI headers `operator/host_abi.h` and `operator/provider_abi.h` at 80% and 76%, where a
-C contract may earn its density. The pass measures them and proposes; it does not widen itself.
-
-**Wake:** the founder's prompt for it. **Source:** the founder's request after merging Zengine
-#63; `reportbacks/zengine-package-comment-compression-RB.md`.
+**Wake:** the founder's prompt for it. **Source:** `reportbacks/zengine-ui-headers-RB.md`;
+`reportbacks/zengine-package-comment-compression-RB.md`.
 
 ## 6. Explicitly not backlog
 
