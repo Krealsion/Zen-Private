@@ -33,6 +33,8 @@
   `python3`: a `python3 - <<EOF` heredoc falls through to `python` and opens a REPL that never
   exits, so a script is written to a file and run, in WSL; its `grep -P` is not UTF-8 clean.
   `bc` is not in Git Bash — timing arithmetic uses `$(( ))` over `date +%s%N`.
+  `wsl.exe bash -lc '…'` expands `$?` and `$(…)` before the inner bash runs, so an exit captured
+  in a chained command there is a launch-time value (2026-09-27): put the chain in a script.
 - **SDL**: the WSL-fetched SDL3 has only the `dummy`/`offscreen` video drivers (no X11/Wayland
   dev headers at configure), so WSLg is irrelevant and a live SDL witness runs on a Windows tree
   with `ZENGINE_SDL_SKIN=ON`.
@@ -84,7 +86,8 @@
   ```
 
   Measured 2026-09-03 at Loom `2eb6827`: 34 objects, 7 s at `-j24`; the prefix is 33,597,878
-  bytes in 57 files and exports `loom::kernel`.
+  bytes in 57 files and exports `loom::kernel`. It was not rebuilt since: on 2026-09-27 it was
+  behind Loom `0839bfc`, so rebuild it before a MinGW lane or mutant that must match Loom main.
 - **The Zengine MinGW tree is `Zengine\build-win-msys`**, configured exactly as `ci.yml`'s
   `Zengine / Windows / MinGW-w64 Loom stranger` job configures its own:
 
@@ -107,8 +110,11 @@
   Measured 2026-09-03 at Zengine `8ceee9d`: 148 edges in 80 s; `workshop.cpp.obj` 47,226,532
   bytes and `zengine-workshop.exe` 48,612,545 bytes — the object binutils 2.40 refused before the
   split; the lane PASSED 30 of 30, `gates active: always`, 89.9 s; the tree is 2.0 GB.
-  `ctest --test-dir build-win-msys -R '^workshop_files$' -V` is where the junction witnesses
-  print, and on this machine all three say "made as a junction".
+  Beside heavy compiles, MinGW's `ar` ran out of memory at `--parallel 24` (2026-09-27);
+  `--parallel 8` passed.
+  `ctest --test-dir build-win-msys -R '^(workshop_files|workshop_panes)$' -V` is where the
+  junction witnesses print: the sweep case in `workshop_files` and, since #70, the
+  linked-directory case in `workshop_panes`. On this machine both say "made as a junction".
 - **The CLion tree `Zengine\cmake-build-debug`, now on the MSYS2 toolchain, builds the app.**
   Rebuilt 2026-09-03: exit 0 in 52 s, `workshop.cpp` assembled and `zengine-workshop.exe` linked,
   and a second build says `ninja: no work to do`. Its prefix `Zen\install\loom` was installed

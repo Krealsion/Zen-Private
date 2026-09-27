@@ -43,27 +43,37 @@ order of learning. BL-ADOPT-01's contributor front door builds on this path.
 
 ### Task 2 — No private information; history in its place
 
-**State:** SELECTED 2026-09-25; underway for Zengine's comments through the comment arc
-(BL-ARCH-03)  
+**State:** SELECTED 2026-09-25. Zengine's comments meet it (the comment arc, through #67), and
+#68 retired the phase codes from its case names, their citations, its messages and its documents
+(merged 2026-09-26). Loom's comments are next (BL-ARCH-03).  
 **Owed:** No current-facing document or comment in either repository carries private
 information: a development-phase name or private id used as explanation; a reference to the
 private repository, the reports, the workspace or a maintainer's machine; or the development
 process's own roles. History lives in Git's version history and in the documents designated as
 history (each repository's `docs/history/`), never in comments or in current-facing text.  
-**Done when:** both repositories hold this on their official lanes, so a regression is red, as
-`source_comments` already makes it for Zengine's comments and `doc_links` for paths outside a
-repository.  
-**Position (2026-09-25, counted with the source-comment check's id rule, public law families
-excluded):** Zengine's current-facing Markdown carries 952 phase-shaped ids, 912 of them under
-`agents/` and 34 in `docs/reference/`. Loom's carries 183, most in `docs/reference/` (75) and
-its top-level `docs/` pages (42). Zengine's `workshop/` and package comments are held by the
-check; its tests phase is under way in four stages
-(`prompts/zengine-test-comment-compression.md`); Loom's comments come last in the arc.  
-**Queued (founder, 2026-09-26), after the comment arc's tests phase:** test case names that open
-with a development plan's label (`MSG-0:`, `WUX-4:`, `QR-5:`; about 720 by the stage reports'
-count) are renamed in a pass of their own, together with the register citations that name them
-exactly, which `law_register` verifies. A label that is a public law id (`WL-KEY-15:`) resolves
-and may stay; two names that differ only by their label must not collide.
+**Done when:** both repositories hold this on their official lanes, so a regression is red:
+`source_comments` does for Zengine's comments, `doc_links` for paths outside a repository, and
+with #68 `law_register` for a plan code in a case name or a phase id in a current-facing
+Markdown file.  
+**Position (2026-09-26, Zengine main at #68's merge):** no case name carries a plan code, a law
+id a case name opens with is declared, and no current-facing Markdown file names a phase id.
+#69 (`prompts/zengine-phase-code-repairs.md`, merged 2026-09-26) closed what #68's
+review found: every case a document cites resolves, no case name opens with a bare letter or
+number, "this phase" is gone (MW-DEF-07 reworded with the founder's approval), and every law id a
+C/C++ comment names is declared. `law_register` holds all but "this phase", which is words.
+
+What remains:
+- "Phase" as the development process's clock stands in about 45 places, most in the method
+  registers and decision records ("a phase that adds cases raises the floor"); several point at
+  "the phase records, kept outside this repository", and one law does (VM-WIT-24).
+- The finished mass-edit tools under `tools/` quote codes in strings and comments; no check
+  reads `tools/`.
+- History put in words ("the new rows", "re-homed") passes any id check (Task 3).
+
+Loom, measured 2026-09-27 at `0839bfc` with Zengine's grammar: 168 phase or private ids in 27
+current-facing Markdown files, 224 in comments, and 364 of 1,316 case names carrying a plan code;
+several documents describe the maintainers' workspace and process. Loom's phase takes all of it
+(`prompts/loom-comments-and-documents.md`).
 
 ### Task 3 — An audit of executor habits and process
 
@@ -75,6 +85,47 @@ comments over 54 entries), essays atop headers. If the habits stay, keeping thes
 means cleaning up forever.  
 **Scope:** the founder's to set when it is selected; this map records only its link to Goal 2.
 
+### Task 4 — The weaver rename and a panel audit
+
+**State:** SELECTED 2026-09-26, last in the order below; no prompt yet  
+**Owed:**
+- `maker` becomes `weaver` wherever it names the person; `maker` keeps one meaning, the maker
+  library (`maker/`, `zengine::maker`, the MW registers under `agents/maker/`). The founder
+  expects mostly comments and prose: where code names the person, it names that same entity.
+  Zengine is built on Loom and inherits its terminology. A true conflict is brought up, not
+  resolved in passing.
+- The `panel` references are audited for fit. `pane` stays the public word: the founder dropped
+  `pane` to `panel` on 2026-09-26, since 86 schema names and the published pane protocol would
+  have moved with it. Internals still say `panel` (`PanelKind`, `panels.selected`,
+  `panel::kLayouts`); each use that no longer names what it means is reported with a proposed
+  name.
+- The five installed `maker/` headers whose openings run 18 to 36 lines (`weave`, `succession`,
+  `definition`, `write`, `vocabulary`) are read for restatement against their reference pages
+  while the rename rewrites them (BL-ARCH-04; the founder, 2026-09-27).
+
+**Scale (2026-09-26, current-facing text and identifiers):** Zengine says `maker(s)` 3,670 times
+in 441 files and `panel(s)` 2,748 times, with 544 identifiers built on `panel`; Loom says
+`maker(s)` 94 times in 43 files and `panel(s)` 8 times.  
+**Loom's Weaver, as the founder states it (2026-09-26):** the person's representation inside a
+system, an authority key (`zen/weaver/weaver.hpp`, `docs/reference/weaver.md`). A host holds one
+weaver, for the person who started or owns it, to give programs authority; other weavers can be
+reached by message. Calling the person `weaver` names that same entity, so the rename inherits
+Loom's meaning.
+
+**Relation:** one noun per concept is part of reading plainly (Task 1).
+
 ## 3. Order
 
-Only the comment arc is running. The founder selects the next prompt for each task.
+The founder's order (2026-09-26):
+
+1. Phase codes retired from Zengine (Task 2): `prompts/zengine-phase-code-retirement.md`, merged
+   as #68, then its repairs: `prompts/zengine-phase-code-repairs.md`, merged as #69. Before
+   step 2, off this goal: `prompts/zengine-witness-restoration.md` gives the four law clauses
+   #69's trace found unwitnessed a case each again, merged as #70.
+2. `ui/`'s two installed headers read as public documentation (`private/backlog.md`,
+   BL-ARCH-04): `prompts/zengine-ui-headers.md`, #71.
+3. Loom's comment phase, with its documents (`private/backlog.md`, BL-ARCH-03):
+   `prompts/loom-comments-and-documents.md`, in seven stages.
+4. The weaver rename and the panel audit (Task 4).
+
+Task 1's first-read path and Task 3's audit are not yet placed.

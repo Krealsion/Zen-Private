@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-25\
+**Refreshed:** 2026-09-27\
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -103,6 +103,27 @@ The [housekeeping report](../reportbacks/zengine-files-action-identity-doc-house
 and Git retain the evidence; do not reopen this repair from the older pending status.
 General queued-picture provenance remains a distinct pressure.
 
+### BL-DEF-06 — Zengine cleanup notes the `ui/` pass left
+
+**State:** OWED, asked by the founder 2026-09-27; small, batched with the next pass that touches
+these files  
+**Owed:**
+- `docs/architecture/README.md:111` says `ui`'s hit testing is one "Workshop no longer asks":
+  true, but history in a public page. Say the current fact.
+- `tests/test_ui.cpp:88–92` tells the `Element` version bump's story ("Version 2, because
+  `context` joined it"): history in a test comment.
+- `agents/decisions/the-document-model.md` still states the retired object document's rules
+  (line 55: "a source with dependents is not deletable"), and nothing marks the record retired.
+- `zengine::ui`'s authored half (`Element`, `resolve`, `hit` and the rest) has had no consumer
+  outside its own tests since the object canvas retired (`6c5754a`). It stays public API and is
+  revisited at the first release identity (BL-ADOPT-02): retired then if nothing uses it.
+- `ui::frame_in` and `ui::resolve` can disagree on a repeated identity; #71 documents it. A fix
+  changes `Scene`'s shape, so it waits for a first consumer.
+
+**Wake:** the next pass that touches `docs/architecture/`, `tests/test_ui.cpp` or the decision
+records; the `ui` question at BL-ADOPT-02. **Source:** `reportbacks/zengine-ui-headers-RB.md`
+(Doc gaps, Decisions asked) and the review of #71.
+
 ## 4. Adoption and release
 
 ### BL-ADOPT-01 — Human contributor front door
@@ -176,14 +197,13 @@ growth materially slows every task touching that surface.
 
 ### BL-ARCH-03 — The comment arc's remaining phases
 
-**State:** OWED, sequenced by the founder (phase one, `workshop/`, merged as Zengine #61; phase
-two, the 33 packages, merged as #63; phase three's stages 1 to 3 merged as #64, #65 and #66; stage
-4, the 17 Workshop suites and `.github/workflows/ci.yml`'s comments, landed for review 2026-09-26
-as #67, which retires `source_comments`' pending list)  
-**Owed:** Loom under its own conventions, whose scope stage 4's report asks the founder for.
-`reference/`, the imported V1 engine, is outside the arc.
+**State:** PROMPTED 2026-09-27. Zengine's phases are merged (#61, #63, #64 to #67). Loom's phase
+is `prompts/loom-comments-and-documents.md`, in seven stages, each one PR  
+**Owed:** Loom's comments and its current-facing documents, under a source comment standard of
+Loom's own and checks on Loom's lane, as that prompt sets out. `reference/`, Zengine's imported V1
+engine, is outside the arc.
 
-**Wake:** the founder's prompt for the Loom phase. **Source:**
+**Wake:** each stage's merge wakes the next. **Source:**
 `reportbacks/zengine-workshop-comment-compression-RB.md`;
 `reportbacks/zengine-package-comment-compression-RB.md`;
 `reportbacks/zengine-test-comment-compression-stage-1-RB.md` to `-stage-4-RB.md`.
@@ -195,10 +215,12 @@ other 69 (`reportbacks/zengine-ui-headers-RB.md`, "The installed headers"); what
 proposal, unaccepted until the founder says so  
 **Owed:** A pass like the `ui/` one on `activation/activation.hpp` (79.1% comments, a 46-line
 opening essay in change-language, naming four consumers). Then a read, lower in priority, of
-`component/text_box.hpp` (20.3 KB of comments, the most of any installed header),
-`workshop/pane_menu.hpp` (a 21-line opening) and the five `maker/` headers whose openings run 18
-to 36 lines (`weave`, `succession`, `definition`, `write`, `vocabulary`), against their reference
-pages, for restatement. The C ABI headers and the per-declaration
+`component/text_box.hpp` (20.3 KB of comments, the most of any installed header) and
+`workshop/pane_menu.hpp` (a 21-line opening), against their reference pages, for restatement.
+The five `maker/` headers whose openings run 18 to 36 lines (`weave`, `succession`,
+`definition`, `write`, `vocabulary`) are read the same way inside Task 4 of
+`goals/stranger-legible.md`, the weaver rename, which rewrites their wording anyway (the founder,
+2026-09-27). The C ABI headers and the per-declaration
 contract headers (`timer/`, `surface/`, `input/`, the pane protocol) are proposed as earning their
 density, on a sample rather than a whole read. Behaviour and law stay as they are.
 
