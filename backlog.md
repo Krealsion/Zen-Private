@@ -221,21 +221,16 @@ growth materially slows every task touching that surface.
 
 ### BL-ARCH-03 — The comment arc's remaining phases
 
-**State:** NARROWED 2026-09-28 by stages 1 to 6 of `prompts/loom-comments-and-documents.md`
-(Loom PRs #17 to #21 merged; `main` holds them as one commit per stage, `13b9300`, `0ea8913`,
-`db09820`, `50841d6`, `373151b`; PR #22, stage 6, open, not merged): Loom's standard in
-`CONTRIBUTING.md`, the `source_comments`, `doc_standard` and `doc_links` checks, the front door,
-every CMake file, manifest and example, every current-facing document, the CI workflow's
-comments, all of `include/` and `src/`, the session tooling's Python and launchers, and in
-`tests/` the fixtures, `weavelib/`, every subdirectory, `run-under-scope.sh` and the five heaviest
-suites (with their case names, through a case map) are done; `docs/audits/` is left to Git
-(`reportbacks/loom-comments-and-documents-stage-6-RB.md`)  
-**Owed:** stage 7 of that prompt: the remaining 40 suites of `tests/` and their case names (178
-still carry a plan label), and the case-name rule joining the checks. `source_comments`' pending
-list names what is left. `reference/`, Zengine's imported V1 engine, is outside the arc.
+**State:** CLOSED on delivery 2026-09-28 by stage 7 of `prompts/loom-comments-and-documents.md`
+(Loom PR #23, open, not merged; stages 1 to 6 are on `main` as one commit per stage, #17 to #22):
+every first-party file of Loom is held by `source_comments`, which now reads every test case name
+and has no pending list; the case-name rule has joined it. Remove this entry when the founder
+merges #23; reopen it if the review of #23 sends work back
+(`reportbacks/loom-comments-and-documents-stage-7-RB.md`)  
+**Owed:** nothing of the arc. `reference/`, Zengine's imported V1 engine, was outside it.
 
-**Wake:** each stage's merge wakes the next; PR #22's merge wakes stage 7. **Source:**
-`reportbacks/loom-comments-and-documents-stage-1-RB.md` to `-stage-6-RB.md`;
+**Wake:** #23's merge, to remove this entry; its end wakes BL-DEF-07. **Source:**
+`reportbacks/loom-comments-and-documents-stage-1-RB.md` to `-stage-7-RB.md`;
 `reportbacks/zengine-workshop-comment-compression-RB.md`;
 `reportbacks/zengine-package-comment-compression-RB.md`;
 `reportbacks/zengine-test-comment-compression-stage-1-RB.md` to `-stage-4-RB.md`.
