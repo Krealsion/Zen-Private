@@ -221,20 +221,21 @@ growth materially slows every task touching that surface.
 
 ### BL-ARCH-03 — The comment arc's remaining phases
 
-**State:** NARROWED 2026-09-27 by stages 1 to 5 of `prompts/loom-comments-and-documents.md`
-(Loom PR #17, merged as `f1c0d1c`; PR #18, merged as `b92f987`; PR #19, merged as `f84cd57`;
-PR #20, merged as `827b95b`; PR #21, open, not merged): Loom's standard in `CONTRIBUTING.md`, the
-`source_comments`, `doc_standard` and `doc_links` checks, the front door, every CMake file,
-manifest and example, every current-facing document, the CI workflow's comments, all 72 headers
-of `include/`, all 74 files of `src/`, and the session tooling's Python and launchers (now read by
-`source_comments`) are done; `docs/audits/` is left to Git
-(`reportbacks/loom-comments-and-documents-stage-5-RB.md`)  
-**Owed:** stages 6 and 7 of that prompt: `tests/`'s C/C++ and Python, with its case names, in two
-parts. `source_comments`' pending list names what is left. `reference/`, Zengine's imported V1
-engine, is outside the arc.
+**State:** NARROWED 2026-09-28 by stages 1 to 6 of `prompts/loom-comments-and-documents.md`
+(Loom PRs #17 to #21 merged; `main` holds them as one commit per stage, `13b9300`, `0ea8913`,
+`db09820`, `50841d6`, `373151b`; PR #22, stage 6, open, not merged): Loom's standard in
+`CONTRIBUTING.md`, the `source_comments`, `doc_standard` and `doc_links` checks, the front door,
+every CMake file, manifest and example, every current-facing document, the CI workflow's
+comments, all of `include/` and `src/`, the session tooling's Python and launchers, and in
+`tests/` the fixtures, `weavelib/`, every subdirectory, `run-under-scope.sh` and the five heaviest
+suites (with their case names, through a case map) are done; `docs/audits/` is left to Git
+(`reportbacks/loom-comments-and-documents-stage-6-RB.md`)  
+**Owed:** stage 7 of that prompt: the remaining 40 suites of `tests/` and their case names (178
+still carry a plan label), and the case-name rule joining the checks. `source_comments`' pending
+list names what is left. `reference/`, Zengine's imported V1 engine, is outside the arc.
 
-**Wake:** each stage's merge wakes the next; PR #21's merge wakes stage 6. **Source:**
-`reportbacks/loom-comments-and-documents-stage-1-RB.md` to `-stage-4-RB.md`;
+**Wake:** each stage's merge wakes the next; PR #22's merge wakes stage 7. **Source:**
+`reportbacks/loom-comments-and-documents-stage-1-RB.md` to `-stage-6-RB.md`;
 `reportbacks/zengine-workshop-comment-compression-RB.md`;
 `reportbacks/zengine-package-comment-compression-RB.md`;
 `reportbacks/zengine-test-comment-compression-stage-1-RB.md` to `-stage-4-RB.md`.
