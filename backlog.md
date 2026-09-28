@@ -124,6 +124,30 @@ these files
 records; the `ui` question at BL-ADOPT-02. **Source:** `reportbacks/zengine-ui-headers-RB.md`
 (Doc gaps, Decisions asked) and the review of #71.
 
+### BL-DEF-07 — Loom confirms a cgroup leaf by substring
+
+**State:** OWED, asked by the founder 2026-09-27; latent, fixed after the comment arc (BL-ARCH-03)  
+**Owed:** Before an out-of-process weave is reported resource-contained, `cgroup_confirm`
+(`src/isolation/sandbox.cpp`) checks that the child's `/proc/<pid>/cgroup` contains `/<leaf>`
+anywhere, so `zen-weave-1` also matches a child sitting in `zen-weave-10`. Compare the whole last
+path component instead, and pin it with a case that a prefix-named leaf does not confirm. It is
+the check behind Loom's promise to claim only what it confirmed. Today the host numbers every
+leaf and moves the child itself before asking, so no known path reaches the false match.
+
+**Wake:** the end of BL-ARCH-03, or sooner if a change lets a child reach a leaf the host did not
+just move it into. **Source:** Loom `docs/reference/known-seams.md` ("A cgroup leaf is confirmed
+by substring"), `docs/evidence/audits.md`; `reportbacks/loom-comments-and-documents-stage-2-RB.md`.
+
+### BL-DEF-08 — Loom's history index links a removed folder
+
+**State:** OWED, asked by the founder 2026-09-27; one line  
+**Owed:** Loom PR #18 left `docs/audits/` to Git, and `docs/history/README.md` still links
+`../audits/2026-07-20/`, now a dead link. `docs/history/` is frozen and fenced from the comment
+arc, so the line waits for the founder's leave: point it to Git (`git log -- docs/audits`).
+
+**Wake:** the next Loom pass the founder lets touch `docs/history/`. **Source:** the review of
+Loom #18.
+
 ## 4. Adoption and release
 
 ### BL-ADOPT-01 — Human contributor front door
