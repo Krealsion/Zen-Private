@@ -126,17 +126,17 @@ records; the `ui` question at BL-ADOPT-02. **Source:** `reportbacks/zengine-ui-h
 
 ### BL-DEF-07 — Loom confirms a cgroup leaf by substring
 
-**State:** OWED, asked by the founder 2026-09-27; latent, fixed after the comment arc (BL-ARCH-03)  
-**Owed:** Before an out-of-process weave is reported resource-contained, `cgroup_confirm`
-(`src/isolation/sandbox.cpp`) checks that the child's `/proc/<pid>/cgroup` contains `/<leaf>`
-anywhere, so `zen-weave-1` also matches a child sitting in `zen-weave-10`. Compare the whole last
-path component instead, and pin it with a case that a prefix-named leaf does not confirm. It is
-the check behind Loom's promise to claim only what it confirmed. Today the host numbers every
-leaf and moves the child itself before asking, so no known path reaches the false match.
+**State:** CLOSED on delivery 2026-09-28 by `prompts/loom-cgroup-leaf-exact-match.md` (Loom PR
+#24, open, not merged): `cgroup_confirm` compares the whole path on the child's cgroup-v2 line with
+the leaf's own, through the pure `cgroup_v2_path_is`; suite `isolation` pins it without a live
+cgroup and on a live child in `zen-leaf-exact-10` that is not confirmed as `zen-leaf-exact-1`.
+Remove this entry when the founder merges #24; reopen it if the review of #24 sends work back
+(`reportbacks/loom-cgroup-leaf-exact-match-RB.md`)  
+**Owed:** nothing.
 
-**Wake:** the end of BL-ARCH-03, or sooner if a change lets a child reach a leaf the host did not
-just move it into. **Source:** Loom `docs/reference/known-seams.md` ("A cgroup leaf is confirmed
-by substring"), `docs/evidence/audits.md`; `reportbacks/loom-comments-and-documents-stage-2-RB.md`.
+**Wake:** #24's merge, to remove this entry. **Source:** Loom `docs/reference/known-seams.md` ("A
+cgroup leaf is confirmed by its whole path"), `docs/evidence/audits.md`;
+`reportbacks/loom-comments-and-documents-stage-2-RB.md`.
 
 ### BL-DEF-08 — Loom's history index links a removed folder
 
