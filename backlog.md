@@ -124,20 +124,6 @@ these files
 records; the `ui` question at BL-ADOPT-02. **Source:** `reportbacks/zengine-ui-headers-RB.md`
 (Doc gaps, Decisions asked) and the review of #71.
 
-### BL-DEF-07 — Loom confirms a cgroup leaf by substring
-
-**State:** CLOSED on delivery 2026-09-28 by `prompts/loom-cgroup-leaf-exact-match.md` (Loom PR
-#24, open, not merged): `cgroup_confirm` compares the whole path on the child's cgroup-v2 line with
-the leaf's own, through the pure `cgroup_v2_path_is`; suite `isolation` pins it without a live
-cgroup and on a live child in `zen-leaf-exact-10` that is not confirmed as `zen-leaf-exact-1`.
-Remove this entry when the founder merges #24; reopen it if the review of #24 sends work back
-(`reportbacks/loom-cgroup-leaf-exact-match-RB.md`)  
-**Owed:** nothing.
-
-**Wake:** #24's merge, to remove this entry. **Source:** Loom `docs/reference/known-seams.md` ("A
-cgroup leaf is confirmed by its whole path"), `docs/evidence/audits.md`;
-`reportbacks/loom-comments-and-documents-stage-2-RB.md`.
-
 ### BL-DEF-08 — Loom's history index links a removed folder
 
 **State:** OWED, asked by the founder 2026-09-27; one line  
@@ -218,22 +204,6 @@ consolidate it without deleting the enforceable law or proof history.
 
 **Wake:** a cold reader cannot find the owner without phase names, or a routed current-law file's
 growth materially slows every task touching that surface.
-
-### BL-ARCH-03 — The comment arc's remaining phases
-
-**State:** CLOSED on delivery 2026-09-28 by stage 7 of `prompts/loom-comments-and-documents.md`
-(Loom PR #23, open, not merged; stages 1 to 6 are on `main` as one commit per stage, #17 to #22):
-every first-party file of Loom is held by `source_comments`, which now reads every test case name
-and has no pending list; the case-name rule has joined it. Remove this entry when the founder
-merges #23; reopen it if the review of #23 sends work back
-(`reportbacks/loom-comments-and-documents-stage-7-RB.md`)  
-**Owed:** nothing of the arc. `reference/`, Zengine's imported V1 engine, was outside it.
-
-**Wake:** #23's merge, to remove this entry; its end wakes BL-DEF-07. **Source:**
-`reportbacks/loom-comments-and-documents-stage-1-RB.md` to `-stage-7-RB.md`;
-`reportbacks/zengine-workshop-comment-compression-RB.md`;
-`reportbacks/zengine-package-comment-compression-RB.md`;
-`reportbacks/zengine-test-comment-compression-stage-1-RB.md` to `-stage-4-RB.md`.
 
 ### BL-ARCH-04 — The installed headers the `ui/` pass proposes
 

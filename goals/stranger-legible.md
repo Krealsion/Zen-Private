@@ -45,7 +45,7 @@ order of learning. BL-ADOPT-01's contributor front door builds on this path.
 
 **State:** SELECTED 2026-09-25. Zengine's comments meet it (the comment arc, through #67), and
 #68 retired the phase codes from its case names, their citations, its messages and its documents
-(merged 2026-09-26). Loom's comments are next (BL-ARCH-03).  
+(merged 2026-09-26). Loom's comments and documents followed, as #17 to #23.  
 **Owed:** No current-facing document or comment in either repository carries private
 information: a development-phase name or private id used as explanation; a reference to the
 private repository, the reports, the workspace or a maintainer's machine; or the development
@@ -124,8 +124,8 @@ The founder's order (2026-09-26):
    #69's trace found unwitnessed a case each again, merged as #70.
 2. `ui/`'s two installed headers read as public documentation (`private/backlog.md`,
    BL-ARCH-04): `prompts/zengine-ui-headers.md`, #71.
-3. Loom's comment phase, with its documents (`private/backlog.md`, BL-ARCH-03):
-   `prompts/loom-comments-and-documents.md`, in seven stages.
+3. Loom's comment phase, with its documents: `prompts/loom-comments-and-documents.md`, in seven
+   stages, merged as #17 to #23.
 4. The weaver rename and the panel audit (Task 4).
 
 Task 1's first-read path and Task 3's audit are not yet placed.
