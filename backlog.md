@@ -126,13 +126,14 @@ records; the `ui` question at BL-ADOPT-02. **Source:** `reportbacks/zengine-ui-h
 
 ### BL-DEF-08 — Loom's history index links a removed folder
 
-**State:** OWED, asked by the founder 2026-09-27; one line  
-**Owed:** Loom PR #18 left `docs/audits/` to Git, and `docs/history/README.md` still links
-`../audits/2026-07-20/`, now a dead link. `docs/history/` is frozen and fenced from the comment
-arc, so the line waits for the founder's leave: point it to Git (`git log -- docs/audits`).
+**State:** CLOSED on delivery 2026-09-28 by `prompts/loom-history-audit-pointer.md` (Loom PR
+#25, open, not merged): the entry names the 2026-07-20 audit and reaches its files through Git
+(`git log -- docs/audits`, `git show 0ea8913^:docs/audits/2026-07-20/`), and the trust-gate
+entry beside it names no private path. Remove this entry when the founder merges #25; reopen it
+if the review of #25 sends work back (`reportbacks/loom-history-audit-pointer-RB.md`)  
+**Owed:** nothing.
 
-**Wake:** the next Loom pass the founder lets touch `docs/history/`. **Source:** the review of
-Loom #18.
+**Wake:** #25's merge, to remove this entry. **Source:** the review of Loom #18.
 
 ## 4. Adoption and release
 
