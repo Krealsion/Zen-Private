@@ -101,7 +101,7 @@ means cleaning up forever.
   name.
 - The five installed `maker/` headers whose openings run 18 to 36 lines (`weave`, `succession`,
   `definition`, `write`, `vocabulary`) are read for restatement against their reference pages
-  while the rename rewrites them (BL-ARCH-04; the founder, 2026-09-27).
+  while the rename rewrites them (the founder, 2026-09-27).
 
 **Scale (2026-09-26, current-facing text and identifiers):** Zengine says `maker(s)` 3,670 times
 in 441 files and `panel(s)` 2,748 times, with 544 identifiers built on `panel`; Loom says
@@ -122,8 +122,8 @@ The founder's order (2026-09-26):
    as #68, then its repairs: `prompts/zengine-phase-code-repairs.md`, merged as #69. Before
    step 2, off this goal: `prompts/zengine-witness-restoration.md` gives the four law clauses
    #69's trace found unwitnessed a case each again, merged as #70.
-2. `ui/`'s two installed headers read as public documentation (`private/backlog.md`,
-   BL-ARCH-04): `prompts/zengine-ui-headers.md`, #71.
+2. `ui/`'s two installed headers read as public documentation: `prompts/zengine-ui-headers.md`,
+   #71.
 3. Loom's comment phase, with its documents: `prompts/loom-comments-and-documents.md`, in seven
    stages, merged as #17 to #23.
 4. The weaver rename and the panel audit (Task 4).

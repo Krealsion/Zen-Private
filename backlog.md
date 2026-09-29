@@ -85,18 +85,6 @@ workflow replay or new input architecture is owed here.
 **Source:** founder's 2026-09-21 decision to merge with local evidence follow-up;
 [verification review](../reportbacks/zengine-files-builder-mouse-verification-review/review.md).
 
-### BL-DEF-01 — Sandbox view-root cleanup after refusal
-
-**State:** CLOSED on delivery 2026-09-28 by `prompts/backlog-must-have-repairs.md` (Loom PR #26,
-open, not merged): the Resources block's fail-safe refusal removes the view root the Filesystem
-block made before it, and suite `isolation`'s subcase `a resource refusal leaves no filesystem
-view root behind` pins it (red on `35a4e1c`, green on `7c5a01b`). Remove this entry when the
-founder merges #26; reopen it if the review of #26 sends work back
-(`reportbacks/backlog-must-have-repairs-RB.md`)  
-**Owed:** nothing.
-
-**Wake:** #26's merge, to remove this entry. **Evidence:** `COLD-2-REPORT.md` C-6.
-
 ### BL-DEF-06 — Zengine cleanup notes the `ui/` pass left
 
 **State:** NARROWED on delivery 2026-09-28 by `prompts/backlog-must-have-repairs.md` (Zengine PR
@@ -182,19 +170,6 @@ consolidate it without deleting the enforceable law or proof history.
 
 **Wake:** a cold reader cannot find the owner without phase names, or a routed current-law file's
 growth materially slows every task touching that surface.
-
-### BL-ARCH-04 — The installed headers the `ui/` pass proposes
-
-**State:** CLOSED on delivery 2026-09-28 by `prompts/backlog-must-have-repairs.md` (Zengine PR
-#73, open, not merged): `activation/activation.hpp` reads as API documentation and its reasoning
-is on `docs/reference/activation.md`; `component/text_box.hpp` and `workshop/pane_menu.hpp` were
-read against their pages (two false claims and a clause of history left the first, a page route
-joined the second). The five `maker/` headers stay with Task 4 of `goals/stranger-legible.md`.
-Remove this entry when the founder merges #73; reopen it if the review of #73 sends work back
-(`reportbacks/backlog-must-have-repairs-RB.md`)  
-**Owed:** nothing.
-
-**Wake:** #73's merge, to remove this entry. **Source:** `reportbacks/zengine-ui-headers-RB.md`.
 
 ## 6. Explicitly not backlog
 
