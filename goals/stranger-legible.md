@@ -66,8 +66,6 @@ What remains:
 - "Phase" as the development process's clock stands in about 45 places, most in the method
   registers and decision records ("a phase that adds cases raises the floor"); several point at
   "the phase records, kept outside this repository", and one law does (VM-WIT-24).
-- The finished mass-edit tools under `tools/` quote codes in strings and comments; no check
-  reads `tools/`.
 - History put in words ("the new rows", "re-homed") passes any id check (Task 3).
 
 Loom, measured 2026-09-27 at `0839bfc` with Zengine's grammar: 168 phase or private ids in 27
@@ -87,30 +85,24 @@ means cleaning up forever.
 
 ### Task 4 — The weaver rename and a panel audit
 
-**State:** SELECTED 2026-09-26, last in the order below; no prompt yet  
+**State:** SELECTED 2026-09-26. The rename merged as Loom #27 and Zengine #75 (2026-09-29,
+`prompts/weaver-rename.md`); the panel audit is `prompts/panel-audit.md`: a report first, and
+its renames wait for the founder's answer.  
 **Owed:**
-- `maker` becomes `weaver` wherever it names the person; `maker` keeps one meaning, the maker
-  library (`maker/`, `zengine::maker`, the MW registers under `agents/maker/`). The founder
-  expects mostly comments and prose: where code names the person, it names that same entity.
-  Zengine is built on Loom and inherits its terminology. A true conflict is brought up, not
-  resolved in passing.
 - The `panel` references are audited for fit. `pane` stays the public word: the founder dropped
   `pane` to `panel` on 2026-09-26, since 86 schema names and the published pane protocol would
   have moved with it. Internals still say `panel` (`PanelKind`, `panels.selected`,
   `panel::kLayouts`); each use that no longer names what it means is reported with a proposed
   name.
-- The five installed `maker/` headers whose openings run 18 to 36 lines (`weave`, `succession`,
-  `definition`, `write`, `vocabulary`) are read for restatement against their reference pages
-  while the rename rewrites them (the founder, 2026-09-27).
 
-**Scale (2026-09-26, current-facing text and identifiers):** Zengine says `maker(s)` 3,670 times
-in 441 files and `panel(s)` 2,748 times, with 544 identifiers built on `panel`; Loom says
-`maker(s)` 94 times in 43 files and `panel(s)` 8 times.  
+**Scale (2026-09-26, current-facing text and identifiers):** Zengine says `panel(s)` 2,748 times,
+with 544 identifiers built on `panel`; Loom says `panel(s)` 8 times.  
 **Loom's Weaver, as the founder states it (2026-09-26):** the person's representation inside a
 system, an authority key (`zen/weaver/weaver.hpp`, `docs/reference/weaver.md`). A host holds one
 weaver, for the person who started or owns it, to give programs authority; other weavers can be
 reached by message. Calling the person `weaver` names that same entity, so the rename inherits
-Loom's meaning.
+Loom's meaning. The person and `loom::Weaver` share the word, as a user and a `User` record do;
+only a sentence about authority or trust says which it means (the founder, 2026-09-29).
 
 **Relation:** one noun per concept is part of reading plainly (Task 1).
 
@@ -126,6 +118,9 @@ The founder's order (2026-09-26):
    #71.
 3. Loom's comment phase, with its documents: `prompts/loom-comments-and-documents.md`, in seven
    stages, merged as #17 to #23.
-4. The weaver rename and the panel audit (Task 4).
+4. The weaver rename and the panel audit (Task 4): the rename is `prompts/weaver-rename.md`,
+   merged as Loom #27 and Zengine #75; the panel audit is `prompts/panel-audit.md`. Before it,
+   off this goal, `prompts/tool-audit.md` took finished passes' tools out of both repositories,
+   merged as Loom #28 and Zengine #76.
 
 Task 1's first-read path and Task 3's audit are not yet placed.

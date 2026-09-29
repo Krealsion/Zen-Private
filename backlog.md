@@ -88,7 +88,7 @@ workflow replay or new input architecture is owed here.
 ### BL-DEF-06 — Zengine cleanup notes the `ui/` pass left
 
 **State:** NARROWED on delivery 2026-09-28 by `prompts/backlog-must-have-repairs.md` (Zengine PR
-#73, open, not merged), which stated the first three notes' current facts; the two below wait
+#73, merged), which stated the first three notes' current facts; the two below wait
 for their wake  
 **Owed:**
 - `zengine::ui`'s authored half (`Element`, `resolve`, `hit` and the rest) has had no consumer
