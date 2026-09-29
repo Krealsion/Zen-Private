@@ -128,9 +128,9 @@ records; the `ui` question at BL-ADOPT-02. **Source:** `reportbacks/zengine-ui-h
 
 **State:** CLOSED on delivery 2026-09-28 by `prompts/loom-history-audit-pointer.md` (Loom PR
 #25, open, not merged): the entry names the 2026-07-20 audit and reaches its files through Git
-(`git log -- docs/audits`, `git show 0ea8913^:docs/audits/2026-07-20/`), and the trust-gate
-entry beside it names no private path. Remove this entry when the founder merges #25; reopen it
-if the review of #25 sends work back (`reportbacks/loom-history-audit-pointer-RB.md`)  
+(`git log -- docs/audits`, `git ls-tree -r --name-only 0ea8913^ docs/audits/2026-07-20/`), and
+the trust-gate entry beside it names no private path. Remove this entry when the founder merges
+#25; reopen it if the review of #25 sends work back (`reportbacks/loom-history-audit-pointer-RB.md`)  
 **Owed:** nothing.
 
 **Wake:** #25's merge, to remove this entry. **Source:** the review of Loom #18.
