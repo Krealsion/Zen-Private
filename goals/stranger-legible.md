@@ -66,7 +66,9 @@ What remains:
 - "Phase" as the development process's clock stands in about 45 places, most in the method
   registers and decision records ("a phase that adds cases raises the floor"); several point at
   "the phase records, kept outside this repository", and one law does (VM-WIT-24).
-- History put in words ("the new rows", "re-homed") passes any id check (Task 3).
+- History put in words ("the new rows", "re-homed") passes any id check (Task 3). Zengine's
+  `docs/reference/workshop-panes.md` § The pane system still argues with what retired (the
+  built-in Builder and Info, the terminal overlay, the `p` picker, the object canvas).
 
 Loom, measured 2026-09-27 at `0839bfc` with Zengine's grammar: 168 phase or private ids in 27
 current-facing Markdown files, 224 in comments, and 364 of 1,316 case names carrying a plan code;
@@ -86,8 +88,9 @@ means cleaning up forever.
 ### Task 4 — The weaver rename and a panel audit
 
 **State:** SELECTED 2026-09-26. The rename merged as Loom #27 and Zengine #75 (2026-09-29,
-`prompts/weaver-rename.md`); the panel audit is `prompts/panel-audit.md`: a report first, and
-its renames wait for the founder's answer.  
+`prompts/weaver-rename.md`). The panel audit (`prompts/panel-audit.md`) found that `panel`
+names nothing `pane` does not; the founder took every proposal on 2026-09-29, applied as one
+Zengine PR by `prompts/panel-audit-continued.md`.  
 **Owed:**
 - The `panel` references are audited for fit. `pane` stays the public word: the founder dropped
   `pane` to `panel` on 2026-09-26, since 86 schema names and the published pane protocol would
