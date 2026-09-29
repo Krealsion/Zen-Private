@@ -87,13 +87,15 @@ workflow replay or new input architecture is owed here.
 
 ### BL-DEF-01 — Sandbox view-root cleanup after refusal
 
-**State:** PARKED  
-**Owed:** One empty `/tmp/zen-sb-*` view root may survive a sandbox refusal after root creation.
-Remove it without weakening the refusal path or the evidence that containment was not established.
+**State:** CLOSED on delivery 2026-09-28 by `prompts/backlog-must-have-repairs.md` (Loom PR #26,
+open, not merged): the Resources block's fail-safe refusal removes the view root the Filesystem
+block made before it, and suite `isolation`'s subcase `a resource refusal leaves no filesystem
+view root behind` pins it (red on `35a4e1c`, green on `7c5a01b`). Remove this entry when the
+founder merges #26; reopen it if the review of #26 sends work back
+(`reportbacks/backlog-must-have-repairs-RB.md`)  
+**Owed:** nothing.
 
-**Wake:** long-running sandbox-host pressure, visible accumulation, or the next isolation cleanup.
-
-**Evidence:** `COLD-2-REPORT.md` C-6.
+**Wake:** #26's merge, to remove this entry. **Evidence:** `COLD-2-REPORT.md` C-6.
 
 ### BL-DEF-05 — Files action identity changes meaning across modes
 
@@ -105,24 +107,18 @@ General queued-picture provenance remains a distinct pressure.
 
 ### BL-DEF-06 — Zengine cleanup notes the `ui/` pass left
 
-**State:** OWED, asked by the founder 2026-09-27; small, batched with the next pass that touches
-these files  
+**State:** NARROWED on delivery 2026-09-28 by `prompts/backlog-must-have-repairs.md` (Zengine PR
+#73, open, not merged), which stated the first three notes' current facts; the two below wait
+for their wake  
 **Owed:**
-- `docs/architecture/README.md:111` says `ui`'s hit testing is one "Workshop no longer asks":
-  true, but history in a public page. Say the current fact.
-- `tests/test_ui.cpp:88–92` tells the `Element` version bump's story ("Version 2, because
-  `context` joined it"): history in a test comment.
-- `agents/decisions/the-document-model.md` still states the retired object document's rules
-  (line 55: "a source with dependents is not deletable"), and nothing marks the record retired.
 - `zengine::ui`'s authored half (`Element`, `resolve`, `hit` and the rest) has had no consumer
   outside its own tests since the object canvas retired (`6c5754a`). It stays public API and is
   revisited at the first release identity (BL-ADOPT-02): retired then if nothing uses it.
 - `ui::frame_in` and `ui::resolve` can disagree on a repeated identity; #71 documents it. A fix
   changes `Scene`'s shape, so it waits for a first consumer.
 
-**Wake:** the next pass that touches `docs/architecture/`, `tests/test_ui.cpp` or the decision
-records; the `ui` question at BL-ADOPT-02. **Source:** `reportbacks/zengine-ui-headers-RB.md`
-(Doc gaps, Decisions asked) and the review of #71.
+**Wake:** the `ui` question at BL-ADOPT-02; a first consumer of `Scene` for `frame_in`.
+**Source:** `reportbacks/zengine-ui-headers-RB.md` (Decisions asked) and the review of #71.
 
 ### BL-DEF-08 — Loom's history index links a removed folder
 
@@ -208,22 +204,16 @@ growth materially slows every task touching that surface.
 
 ### BL-ARCH-04 — The installed headers the `ui/` pass proposes
 
-**State:** NARROWED 2026-09-26 by the `ui/` pass, which did its own two headers and measured the
-other 69 (`reportbacks/zengine-ui-headers-RB.md`, "The installed headers"); what is left is its
-proposal, unaccepted until the founder says so  
-**Owed:** A pass like the `ui/` one on `activation/activation.hpp` (79.1% comments, a 46-line
-opening essay in change-language, naming four consumers). Then a read, lower in priority, of
-`component/text_box.hpp` (20.3 KB of comments, the most of any installed header) and
-`workshop/pane_menu.hpp` (a 21-line opening), against their reference pages, for restatement.
-The five `maker/` headers whose openings run 18 to 36 lines (`weave`, `succession`,
-`definition`, `write`, `vocabulary`) are read the same way inside Task 4 of
-`goals/stranger-legible.md`, the weaver rename, which rewrites their wording anyway (the founder,
-2026-09-27). The C ABI headers and the per-declaration
-contract headers (`timer/`, `surface/`, `input/`, the pane protocol) are proposed as earning their
-density, on a sample rather than a whole read. Behaviour and law stay as they are.
+**State:** CLOSED on delivery 2026-09-28 by `prompts/backlog-must-have-repairs.md` (Zengine PR
+#73, open, not merged): `activation/activation.hpp` reads as API documentation and its reasoning
+is on `docs/reference/activation.md`; `component/text_box.hpp` and `workshop/pane_menu.hpp` were
+read against their pages (two false claims and a clause of history left the first, a page route
+joined the second). The five `maker/` headers stay with Task 4 of `goals/stranger-legible.md`.
+Remove this entry when the founder merges #73; reopen it if the review of #73 sends work back
+(`reportbacks/backlog-must-have-repairs-RB.md`)  
+**Owed:** nothing.
 
-**Wake:** the founder's prompt for it. **Source:** `reportbacks/zengine-ui-headers-RB.md`;
-`reportbacks/zengine-package-comment-compression-RB.md`.
+**Wake:** #73's merge, to remove this entry. **Source:** `reportbacks/zengine-ui-headers-RB.md`.
 
 ## 6. Explicitly not backlog
 
