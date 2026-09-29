@@ -97,14 +97,6 @@ founder merges #26; reopen it if the review of #26 sends work back
 
 **Wake:** #26's merge, to remove this entry. **Evidence:** `COLD-2-REPORT.md` C-6.
 
-### BL-DEF-05 — Files action identity changes meaning across modes
-
-**State:** CLOSED — founder confirmed PR #29 merged after the accepted documentation housekeeping.
-Browsing, chooser selection and authoring submission now have separate operation meanings.
-The [housekeeping report](../reportbacks/zengine-files-action-identity-doc-housekeeping-RB.md)
-and Git retain the evidence; do not reopen this repair from the older pending status.
-General queued-picture provenance remains a distinct pressure.
-
 ### BL-DEF-06 — Zengine cleanup notes the `ui/` pass left
 
 **State:** NARROWED on delivery 2026-09-28 by `prompts/backlog-must-have-repairs.md` (Zengine PR
@@ -119,17 +111,6 @@ for their wake
 
 **Wake:** the `ui` question at BL-ADOPT-02; a first consumer of `Scene` for `frame_in`.
 **Source:** `reportbacks/zengine-ui-headers-RB.md` (Decisions asked) and the review of #71.
-
-### BL-DEF-08 — Loom's history index links a removed folder
-
-**State:** CLOSED on delivery 2026-09-28 by `prompts/loom-history-audit-pointer.md` (Loom PR
-#25, open, not merged): the entry names the 2026-07-20 audit and reaches its files through Git
-(`git log -- docs/audits`, `git ls-tree -r --name-only 0ea8913^ docs/audits/2026-07-20/`), and
-the trust-gate entry beside it names no private path. Remove this entry when the founder merges
-#25; reopen it if the review of #25 sends work back (`reportbacks/loom-history-audit-pointer-RB.md`)  
-**Owed:** nothing.
-
-**Wake:** #25's merge, to remove this entry. **Source:** the review of Loom #18.
 
 ## 4. Adoption and release
 

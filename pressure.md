@@ -100,7 +100,7 @@ consumed actions publish their removal, Info maps its notice-bearing rows, commi
 preserve later edits and newer drafts, and cancellation claims no prior write away. Builder/Files
 ignored ids and Attention's hidden-condition wording are repaired. BL-DEF-02 and the enumerated
 BL-DOC-01 work are closed. Document binding/refusal work is now accepted under P-WORK-26; Files'
-cross-mode intent identity is BL-DEF-05, and general queued-picture provenance remains P-WORK-25.
+cross-mode intent identity was fixed by PR #29; general queued-picture provenance remains P-WORK-25.
 
 **Evidence:** [corrections report](../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
 Vision's independent ordinary lane and loaded-pane reproductions at `407ca15`, the same-tree
