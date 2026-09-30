@@ -63,12 +63,13 @@ number, "this phase" is gone (MW-DEF-07 reworded with the founder's approval), a
 C/C++ comment names is declared. `law_register` holds all but "this phase", which is words.
 
 What remains:
-- "Phase" as the development process's clock stands in about 45 places, most in the method
-  registers and decision records ("a phase that adds cases raises the floor"); several point at
-  "the phase records, kept outside this repository", and one law does (VM-WIT-24).
-- History put in words ("the new rows", "re-homed") passes any id check (Task 3). Zengine's
-  `docs/reference/workshop-panes.md` § The pane system still argues with what retired (the
-  built-in Builder and Info, the terminal overlay, the `p` picker, the object canvas).
+- The process as a clock: both repositories' checks refuse its common forms (Zengine #78, Loom
+  #29). About ten uses in other words remain in Zengine's records, registers and reference ("after
+  the reload phase", "sit green for a phase", "one of the phase's mutations").
+- History put in words: the checks refuse its narrow told forms ("used to be", "**Retired
+  with**"); the rest is review's. Zengine's `docs/reference/workshop-panes.md` § The pane system
+  still argues with what retired (the built-in Builder and Info, the terminal overlay, the `p`
+  picker, the object canvas).
 
 Loom, measured 2026-09-27 at `0839bfc` with Zengine's grammar: 168 phase or private ids in 27
 current-facing Markdown files, 224 in comments, and 364 of 1,316 case names carrying a plan code;
@@ -77,10 +78,10 @@ several documents describe the maintainers' workspace and process. Loom's phase 
 
 ### Task 3 — An audit of executor habits and process
 
-**State:** SELECTED 2026-09-29, as executor optimization. The audit
-(`prompts/executor-optimization.md`) was answered on 2026-09-30 and applied, with values that
-move with the code and a documentation-only lane, as Loom #29 and #30 and Zengine #78 and #79
-(merged 2026-09-30). It closes with `prompts/executor-optimization-cleanup.md`.  
+**State:** DONE 2026-09-30, as executor optimization. The audit
+(`prompts/executor-optimization.md`) was answered and applied, with values that move with the
+code and a documentation-only lane, as Loom #29 and #30 and Zengine #78 and #79, and closed by its
+clean-up, Zengine #80 (`prompts/executor-optimization-cleanup.md`); all merged 2026-09-30.  
 **Why it touches this goal:** much of what Tasks 1 and 2 remove was written by habit: phase ids
 cited as explanation, a paragraph per phase appended to `tests/test_population.txt` (157 KB
 before the comment arc, 6 KB now), essays atop headers. If the habits stay, keeping these tasks
@@ -120,6 +121,6 @@ The founder's order (2026-09-26):
    Zengine #77. Before it, off this goal, `prompts/tool-audit.md` took finished passes' tools out
    of both repositories, merged as Loom #28 and Zengine #76.
 5. The executor audit (Task 3): `prompts/executor-optimization.md`, applied by its continuation
-   and closed by its clean-up.
+   and closed by its clean-up (Zengine #80).
 
 Task 1's first-read path is not yet placed.
