@@ -1,7 +1,7 @@
 # Stranger-Legible Zen Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-26\
+**Refreshed:** 2026-09-29\
 **Strategic authority:** `private/zen-strategic-map.md`, Goal 2  
 **Role:** Goal 2's selected tasks: what a stranger must be able to read, and how it stays true
 
@@ -87,19 +87,10 @@ means cleaning up forever.
 
 ### Task 4 — The weaver rename and a panel audit
 
-**State:** SELECTED 2026-09-26. The rename merged as Loom #27 and Zengine #75 (2026-09-29,
-`prompts/weaver-rename.md`). The panel audit (`prompts/panel-audit.md`) found that `panel`
-names nothing `pane` does not; the founder took every proposal on 2026-09-29, applied as one
-Zengine PR by `prompts/panel-audit-continued.md`.  
-**Owed:**
-- The `panel` references are audited for fit. `pane` stays the public word: the founder dropped
-  `pane` to `panel` on 2026-09-26, since 86 schema names and the published pane protocol would
-  have moved with it. Internals still say `panel` (`PanelKind`, `panels.selected`,
-  `panel::kLayouts`); each use that no longer names what it means is reported with a proposed
-  name.
-
-**Scale (2026-09-26, current-facing text and identifiers):** Zengine says `panel(s)` 2,748 times,
-with 544 identifiers built on `panel`; Loom says `panel(s)` 8 times.  
+**State:** DONE 2026-09-29. The person is a weaver in both repositories (Loom #27, Zengine #75,
+`prompts/weaver-rename.md`). Workshop's internals say `pane` where they said `panel` (Zengine #77,
+`prompts/panel-audit.md` and its continuation): `panel` named nothing `pane` does not, and it is
+left only as plain English and in retired spellings a case forbids. `pane` stays the public word.  
 **Loom's Weaver, as the founder states it (2026-09-26):** the person's representation inside a
 system, an authority key (`zen/weaver/weaver.hpp`, `docs/reference/weaver.md`). A host holds one
 weaver, for the person who started or owns it, to give programs authority; other weavers can be
@@ -122,8 +113,8 @@ The founder's order (2026-09-26):
 3. Loom's comment phase, with its documents: `prompts/loom-comments-and-documents.md`, in seven
    stages, merged as #17 to #23.
 4. The weaver rename and the panel audit (Task 4): the rename is `prompts/weaver-rename.md`,
-   merged as Loom #27 and Zengine #75; the panel audit is `prompts/panel-audit.md`. Before it,
-   off this goal, `prompts/tool-audit.md` took finished passes' tools out of both repositories,
-   merged as Loom #28 and Zengine #76.
+   merged as Loom #27 and Zengine #75; the panel audit is `prompts/panel-audit.md`, applied as
+   Zengine #77. Before it, off this goal, `prompts/tool-audit.md` took finished passes' tools out
+   of both repositories, merged as Loom #28 and Zengine #76.
 
 Task 1's first-read path and Task 3's audit are not yet placed.
