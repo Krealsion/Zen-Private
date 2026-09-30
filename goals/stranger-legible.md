@@ -35,8 +35,9 @@ walk at thresholds: before outside contributors are invited (BL-ADOPT-01), at a 
 identity (BL-ADOPT-02), and after a large change to the path.  
 **Position (2026-09-25):** neither repository names its path. Zengine's README explains a weave
 in its first paragraph and sends library users and makers through separate doors. Loom's README
-uses "weave", "content-id" and "grants" before explaining them, and states the kernel's C ABI as
-v6 where the code is at v9.  
+uses "weave", "content-id" and "grants" before explaining them (its C ABI version, once v6 where
+the code was at v9, is a checked value since Loom #30). Zengine's maker register and a decision
+record say "re-floored" without defining it (#81's report, 2026-09-30).  
 **Relation:** the public external-reader rule (`docs/contributing/repository-conventions.md`)
 already keeps maintainer knowledge out of public documents; this task adds the reader's own
 order of learning. BL-ADOPT-01's contributor front door builds on this path.
@@ -64,12 +65,12 @@ C/C++ comment names is declared. `law_register` holds all but "this phase", whic
 
 What remains:
 - The process as a clock: both repositories' checks refuse its common forms (Zengine #78, Loom
-  #29). About ten uses in other words remain in Zengine's records, registers and reference ("after
-  the reload phase", "sit green for a phase", "one of the phase's mutations").
+  #29), and Zengine #81 rewords the 19 it found in other words; review catches any further ones.
 - History put in words: the checks refuse its narrow told forms ("used to be", "**Retired
   with**"); the rest is review's. Zengine's `docs/reference/workshop-panes.md` § The pane system
   still argues with what retired (the built-in Builder and Info, the terminal overlay, the `p`
-  picker, the object canvas).
+  picker, the object canvas), and tells history in three more sentences ("originally", "until it
+  became a pane", a change note).
 
 Loom, measured 2026-09-27 at `0839bfc` with Zengine's grammar: 168 phase or private ids in 27
 current-facing Markdown files, 224 in comments, and 364 of 1,316 case names carrying a plan code;
