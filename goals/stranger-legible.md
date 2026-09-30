@@ -122,5 +122,7 @@ The founder's order (2026-09-26):
    of both repositories, merged as Loom #28 and Zengine #76.
 5. The executor audit (Task 3): `prompts/executor-optimization.md`, applied by its continuation
    and closed by its clean-up (Zengine #80).
+6. Zengine's last process words (Task 2), the documentation lane's first live run:
+   `prompts/zengine-process-words.md`.
 
 Task 1's first-read path is not yet placed.
