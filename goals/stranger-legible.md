@@ -77,13 +77,14 @@ several documents describe the maintainers' workspace and process. Loom's phase 
 
 ### Task 3 — An audit of executor habits and process
 
-**State:** CANDIDATE, soon. The founder, 2026-09-25: an audit pass on overall executor habits
-and process "may be in order soon".  
+**State:** SELECTED 2026-09-29, as executor optimization: `prompts/executor-optimization.md`, a
+report first; nothing it proposes changes until the founder answers.  
 **Why it touches this goal:** much of what Tasks 1 and 2 remove was written by habit: phase ids
-cited as explanation, a paragraph per phase appended to `tests/test_population.txt` (157 KB of
-comments over 54 entries), essays atop headers. If the habits stay, keeping these tasks true
-means cleaning up forever.  
-**Scope:** the founder's to set when it is selected; this map records only its link to Goal 2.
+cited as explanation, a paragraph per phase appended to `tests/test_population.txt` (157 KB
+before the comment arc, 6 KB now), essays atop headers. If the habits stay, keeping these tasks
+true means cleaning up forever.  
+**Scope (the founder, 2026-09-29):** both habits, what the executor writes into the
+repositories, and process, how a phase runs from the prompt to the merge.
 
 ### Task 4 — The weaver rename and a panel audit
 
@@ -116,5 +117,6 @@ The founder's order (2026-09-26):
    merged as Loom #27 and Zengine #75; the panel audit is `prompts/panel-audit.md`, applied as
    Zengine #77. Before it, off this goal, `prompts/tool-audit.md` took finished passes' tools out
    of both repositories, merged as Loom #28 and Zengine #76.
+5. The executor audit (Task 3): `prompts/executor-optimization.md`.
 
-Task 1's first-read path and Task 3's audit are not yet placed.
+Task 1's first-read path is not yet placed.
