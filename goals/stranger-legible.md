@@ -78,9 +78,9 @@ several documents describe the maintainers' workspace and process. Loom's phase 
 ### Task 3 — An audit of executor habits and process
 
 **State:** SELECTED 2026-09-29, as executor optimization. The audit
-(`prompts/executor-optimization.md`) was answered on 2026-09-30, and it is applied, with values
-that move with the code and a documentation-only lane, by
-`prompts/executor-optimization-continued.md`.  
+(`prompts/executor-optimization.md`) was answered on 2026-09-30 and applied, with values that
+move with the code and a documentation-only lane, as Loom #29 and #30 and Zengine #78 and #79
+(merged 2026-09-30). It closes with `prompts/executor-optimization-cleanup.md`.  
 **Why it touches this goal:** much of what Tasks 1 and 2 remove was written by habit: phase ids
 cited as explanation, a paragraph per phase appended to `tests/test_population.txt` (157 KB
 before the comment arc, 6 KB now), essays atop headers. If the habits stay, keeping these tasks
@@ -119,6 +119,7 @@ The founder's order (2026-09-26):
    merged as Loom #27 and Zengine #75; the panel audit is `prompts/panel-audit.md`, applied as
    Zengine #77. Before it, off this goal, `prompts/tool-audit.md` took finished passes' tools out
    of both repositories, merged as Loom #28 and Zengine #76.
-5. The executor audit (Task 3): `prompts/executor-optimization.md`, applied by its continuation.
+5. The executor audit (Task 3): `prompts/executor-optimization.md`, applied by its continuation
+   and closed by its clean-up.
 
 Task 1's first-read path is not yet placed.
