@@ -3,7 +3,8 @@
   `~/opt/zoom/bin-ninja` and `~/opt/zoom/bin-ccache` (the ccache wrapper needs `LD_LIBRARY_PATH`).
   `sudo` needs a password. WSL sees 30 GB of the host's 63.
 - **CPU**: Ryzen 9 7900X, 12 physical cores / 24 threads. `-j24` is the best measured build
-  parallelism; `-j32` is slower.
+  parallelism; `-j32` is slower. In WSL, which sees 30 GB, Zengine's official lane at `-j24`
+  had compilers killed for memory (2026-09-30); `-j8` built.
 - **Build trees on ext4** under `~/zen-build/`: `loom`, `loom-install`, `zengine-p1`,
   `zengine-p1-san` (the Ninja-configured Zengine trees against the ext4 Loom install). A tree's
   generator is baked in, and Zengine's FetchContent cache `~/.cache/zen-fetch/zengine-<basename>`
