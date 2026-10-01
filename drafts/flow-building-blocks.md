@@ -1,7 +1,9 @@
 # Flow building blocks, reusable UI pairs and cross-pane authoring
 
 **Status:** founder-selected research direction; contracts below remain design proposals.\
-**Updated:** 2026-09-20\
+**Updated:** 2026-09-30\
+**Accepted 2026-09-30:** [Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md)
+revises §2 to §5 below.\
 **Entry:** [Flow UX plan](flow-ux-research.md).\
 **Related:** [UI update research](ui-update-research.md).
 
@@ -75,7 +77,18 @@ library, but keep their kinds visible. This does not put every kind into the exi
 `op::Catalog`. Dragging a template creates an inspectable draft of its participants,
 wiring and declared requirements; it does not silently load artifacts or grant authority.
 
+**Accepted 2026-09-30:** the library splits by kind
+([power map](../../reportbacks/zengine-flow-powers/power-map.md)). Forms that run operators (loop,
+choose, map, fold) belong to the operator evaluator; owned state, messages and time belong to
+participants, so a Timer or a store is asked, never placed as a block; presentation values and
+reusable UI assemblies belong to the view package and the UI builder. Flow's graph holds operators
+and evaluator forms only.
+
 ## 3. Presenter/view pair
+
+**Accepted 2026-09-30:** the pair is an assembly of two participants made in two tools, a
+Flow-made presenter and a builder-made view, joined by shapes; it is not a Flow template. The
+recycling list is the view renderer's. The roles and guardrails below still hold for the pair.
 
 Proposed reusable assembly:
 
@@ -156,6 +169,12 @@ message and ownership contracts.
 
 ## 4. Tags, descriptions and native source
 
+**Accepted 2026-09-30:** prose rides inside each contribution, `zengine.OperatorContribution`
+version 2, authored where the operator is authored, so an overlay brings its own words; every
+asker reads it through the one [discovery door](../../reportbacks/zengine-flow-powers/discovery.md).
+The maker's own tags and folders are Inventory's. Source for a provider's native leaf needs
+operator → artifact → recipe, which does not exist yet.
+
 Use one owner-supplied metadata projection for GUI search, hover help and terminal discovery.
 Separate:
 
@@ -189,6 +208,10 @@ opener or pretend provider-only operators are pane offices. Native providers cur
 in-place reload path; opening/editing source does not imply that the running implementation changed.
 
 ## 5. Cross-pane drag-and-drop
+
+**Accepted 2026-09-30:** the typed carry exists (Editor transfers, #59). Flow joins it with
+receivers for values, shapes, operator references and operations; the tally panel's compose
+stage brings the first three.
 
 Flow remains an intended consumer of the Workshop-wide transfer protocol. The selected
 [Editor transfer packet](editor-typed-transfers-plan.md) exercises selected text, command

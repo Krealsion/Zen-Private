@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-25\
+**Refreshed:** 2026-09-30\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** accelerate complete maker stories through reusable ELH tools, typed inspection and maker-authorized reuse; keep Workshop and Flow understandable and replaceable
-**Current execution state:** Typed Inventory reuse, independent Info views, persistence and named folders are accepted foundations. The tower-defense creation story (#60) is undergoing its selected corrections; next is [event-driven ELH observation](drafts/elh-event-driven-observation-plan.md), proven with Builder and then a reusable gameplay monitor. Editor transfers, Flow UX and independent pane/editor work remain parallel. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the broader direction. Service retirement remains parked.
+**Current execution state:** Typed Inventory reuse, independent Info views, persistence and named folders are accepted foundations, with Editor transfers (#59), the tower-defense creation story (#60) and event-driven ELH observation (Loom #16, Zengine #62). Next is the tally panel, in three reviewed stages from [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md), accepted 2026-09-30: find, compose, show. Flow composes; a UI builder beside it builds views. UI update research and independent pane/editor work remain parallel. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the broader direction. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -174,22 +174,20 @@ manifest identity, with vocabulary separate from authority.
 [P-LOOM-07](pressure.md#p-loom-07--declared-schema-agreement-is-incomplete) retains the disposition
 and evidence. This does not supply or select a general migration system.
 
-The remaining product direction is:
+The tower-defense creation story (#60) and event-driven ELH observation (Loom #16, Zengine #62)
+are accepted; their tools are reused, not reopened. The remaining product direction is:
 
-1. Complete the [tower-defense creation story's repairs](../prompts/zengine-tower-defense-creation-story-corrections.md)
-   and acceptance. Preserve its usable game, live build/reload route and durable toolbox; make the
-   reusable helpers protect work and report actual outcomes. Existing fixes do not wait for new
-   infrastructure, and the original experimental boundary deviations remain disclosed.
-2. Deliver [event-driven ELH observation](drafts/elh-event-driven-observation-plan.md): scoped
-   subscriptions, Builder as the first consumer, then Python gameplay monitors. Let reusable
-   packages handle expected progression and return completion/deviations to the agent, using
-   existing history owners and selective visual evidence. Reuse the accepted Inventory/Info
-   foundations rather than reopening capture or storage as unfinished prerequisites.
-3. Continue Flow UX research: discover, place/connect, understand, group and reuse operations
-   with traversable interiors. Flow becomes an early consumer of shared typed transfers.
-   UI-update research measures retained descriptions and selective invalidation in parallel;
-   a universal renderer rewrite is not a prerequisite for useful interactions.
-4. Continue independent pane/editor UX and package demonstrated setup and test journeys in the
+1. Build [the tally panel](../reportbacks/zengine-flow-powers/proving-story.md) in three reviewed
+   stages, accepted 2026-09-30 from [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md).
+   **Find:** one read-only discovery door over the live catalog, asked alike by Flow, Powers and
+   the Terminal. **Compose:** the evaluation budget first, then a bounded loop over an operator
+   reference, Flow's carry receivers and emit authoring. **Show:** a UI builder beside Flow, with
+   a view host and renderer, joined to Flow by shapes. Flow composes; participants never become
+   nodes in its graph.
+2. UI-update research measures retained descriptions and selective invalidation, with the view
+   renderer as its first production consumer; a universal renderer rewrite is not a prerequisite
+   for useful interactions.
+3. Continue independent pane/editor UX and package demonstrated setup and test journeys in the
    ELH. Broader UI authoring, protected publication, migration, configuration, effects, Python,
    GPU and multi-host growth follow real consumers and explicit architectural decisions.
 
@@ -212,8 +210,8 @@ the merged standalone/admission consumer; no roadmap item implies universal file
 or authenticated multi-host identity. Service retirement stays parked under its
 [disposition](goals/workshop.md#roadmap-disposition-of-service-retirement).
 
-Flow now has both a live interpreted consumer and native generation; the current research
-improves how makers discover, compose and understand that capability. General deconstruction,
+Flow now has both a live interpreted consumer and native generation; the tally panel's stages
+improve how makers discover and compose with that capability. General deconstruction,
 schema migration and arbitrary stateful component extraction remain separate directions.
 Research selection does not approve every proposal as a production contract.
 

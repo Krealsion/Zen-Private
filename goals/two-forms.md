@@ -81,7 +81,11 @@ for message-based diagnosis, native debugging or rebuilding with an authored han
 
 **Implications for a future Flow phase, when selected.** The operator ladder is a requirement, not a footnote:
 writing and mounting a raw node must be as smooth as snapping one, or the wall returns through
-the side door. A visible indicator of the form being edited. The definition kept as the artifact
+the side door. Today that requirement fails at the provider: a C++ leaf written in the Editor is
+built by Builder and mounted by the plan, but a rebuilt provider is never remounted
+(`Zengine/agents/realization.md`), so a raw node is as smooth as a snapped one only once a provider
+can be remounted ([Flow's powers](../../reportbacks/zengine-flow-powers-RB.md), 2026-09-30). A
+visible indicator of the form being edited. The definition kept as the artifact
 after completion, so the live view is never lost.
 
 See [identity design](identity-phase.md) for the author-identity and re-consent rules both forms will meet.

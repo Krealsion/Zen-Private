@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-24
+**Refreshed:** 2026-09-30
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -36,6 +36,11 @@ pressure; the immutable host and unsupported reload boundaries remain explicit. 
 commands and file locators to Inventory in isolated worktrees, with optional explicit C++
 generation. It preserves conventional coding and supplies evidence for Flow. Flow and other
 independent pane/editor work continue alongside.
+
+The founder accepted the [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md)
+(2026-09-30): Flow composes and keeps the discovery experience, UI building moves to a builder
+beside it, and the tally panel is built in three stages, find, compose and show. P-WORK-34 to
+P-WORK-37 are the pressure that research measured.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -286,6 +291,53 @@ Investigate how a command runner can retain and present the actual owner's typed
 the original actor and conversation, including unknown answer shapes and honest pending state.
 Do not create an Inventory-only history store or infer completion from delivery. A broader
 universal command manager is not selected by this pressure.
+
+### P-WORK-34 — The operator evaluator has no spend bound
+
+**State:** ACT — first in the tally panel's compose stage
+**Evidence:** [pattern map](../reportbacks/zengine-flow-powers/pattern-map.md#the-bound-the-loop-needs-and-the-one-it-closes), anchors in the [evidence](../reportbacks/zengine-flow-powers-evidence.md#4-source-anchors)
+
+`Catalog::walk` spends each node by name, and nothing counts depth or spends. One graph cannot hold
+a cycle, but a call cycle through identities is expressible by data: admission and contribution
+decoding check node indices only, and an overlay can cover an identity. Nothing bounds the
+evaluation such a cycle starts. Source-traced, not exercised.
+
+**Trigger:** the compose stage lands a per-evaluation spend budget in the evaluator, refused in
+words, before the loop form. A check at mount cannot replace it: the catalog changes after.
+
+### P-WORK-35 — The Flow pane offers running trigger bodies as operators to insert
+
+**State:** ACT — the tally panel's find stage
+**Evidence:** [discovery](../reportbacks/zengine-flow-powers/discovery.md#flows-discovery-experience)
+
+After a Run, the pane's flat catalog lists the running session's own trigger body as an operator.
+It is revision-scoped and unmounts at the next behaviour edit, so a composition built on it
+breaks when its participant is edited.
+
+**Trigger:** the discovery door. A contributor's "not offered for reuse" mark, set by the maker
+package on trigger bodies, keeps them out of composing.
+
+### P-WORK-36 — A maker participant cannot address another participant or answer with a result
+
+**State:** PARKED
+**Evidence:** [pattern map](../reportbacks/zengine-flow-powers/pattern-map.md#messages-and-time)
+
+A maker weave's speech is unconditional publication of its own namespace (MW-DEF-08): it cannot
+ask the Timer or a store, answer with a result, or emit only when a condition holds.
+
+**Trigger:** the first Flow-made participant that needs the Timer, a store, an answer or a
+conditional emit. Each such capability states its authority; none is inferred from what a
+definition says.
+
+### P-WORK-37 — "Source" means two things in the Flow pane
+
+**State:** ACT — the tally panel's find stage
+**Evidence:** [discovery](../reportbacks/zengine-flow-powers/discovery.md#flows-discovery-experience)
+
+The pane's rail calls in-scope fields "Sources (click to wire)", while the operator package's
+Source is a zero-input operator (`op::is_source`). The find stage renames the rail "In scope".
+
+**Trigger:** the find stage.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 

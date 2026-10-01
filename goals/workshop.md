@@ -1,10 +1,10 @@
 # Zen Workshop Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-25 UTC\
+**Refreshed:** 2026-09-30 UTC\
 **Strategic authority:** `private/zen-strategic-map.md`  
 **Current direction:** improve complete maker stories through typed inspection, authorized reuse and reusable ELH tools, alongside understandable Flow composition and replaceable presentation
-**Current execution state:** Inventory foundations through named folders (#58), independent Info (#55), toolbox persistence (#54), Editor typed transfers (#59) and the tower-defense creation story (#60) are accepted. Next is [event-driven ELH observation](../drafts/elh-event-driven-observation-plan.md): follow an attributable Builder operation, then reuse the mechanism in a Python gameplay monitor that returns meaningful outcomes and evidence to the supervising agent. Tools, retained learning and repeatability outrank game polish. Flow, comment compression and independent pane/editor UX remain parallel work. Conventional coding stays first-class; Flow is a consumer, not a prerequisite.
+**Current execution state:** Inventory foundations through named folders (#58), independent Info (#55), toolbox persistence (#54), Editor typed transfers (#59), the tower-defense creation story (#60) and event-driven ELH observation (Loom #16, Zengine #62) are accepted. Next is [the tally panel](../../reportbacks/zengine-flow-powers/proving-story.md), accepted 2026-09-30 from [Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md), in three reviewed stages: find, compose, show. Flow composes; a UI builder beside it builds views; they meet at shapes. Tools, retained learning and repeatability outrank polish. UI update research and independent pane/editor UX remain parallel work. Conventional coding stays first-class; Flow is a consumer, not a prerequisite.
 **Role:** current Workshop product truth, next capability boundary, and goal-local design laws
 
 This map is forward-looking. Reports and Git retain phase history.
@@ -400,9 +400,10 @@ serializing unrelated pane/editor or UI-update work.
 | Accepted; #55 merged | [Independent Info workbench](../drafts/inventory-command-presets-plan.md#selected-next-independent-info-workbench) | Keep sample and draft views side by side, transfer typed fields, watch linked entries without losing edits, sample supported sources explicitly and reuse a filled toolbox. Visible controls and bounded view lifetime make the story usable. |
 | Accepted; #58 merged | [Named Inventory folders](../drafts/inventory-command-presets-plan.md#selected-next-named-inventory-folders) | Organize growing toolboxes through nested names, immediate-child views, parent/root navigation and identity-preserving moves; retain hierarchy across save/restore and reuse entries through Info, Compose and portable slots. |
 | Accepted maker story; #60 merged | [Tower defense creation story through ELH](../drafts/tower-defense-creation-story-plan.md) | Complete creation/play/reload route and durable tools, with the reviewed reliability repairs and positive maker-authorized toolbox witness. The [second correction report](../../reportbacks/zengine-tower-defense-creation-story-corrections-2-RB.md) retains evidence; preserve the original experiment's declared boundary deviations. |
-| Selected next; phase draft ready | [Event-driven ELH observation and monitors](../drafts/elh-event-driven-observation-plan.md) | A reusable ELH run subscribes with authority, follows its Builder operation, then monitors gameplay and returns completion/deviation with evidence. Reduce presentation-dependent polling; distinguish latest claims, occurrences and history, and retain operation identity across gaps, waits and cancellation. |
+| Accepted; Loom #16 / Zengine #62 merged | [Event-driven ELH observation and monitors](../drafts/elh-event-driven-observation-plan.md) | A reusable ELH run subscribes with authority, follows its Builder operation, then monitors gameplay and returns completion/deviation with evidence. Latest claims, occurrences and history stay distinct, and operation identity survives gaps, waits and cancellation. |
 | Accepted maker capability; #59 merged | [Editor typed transfers](../drafts/editor-typed-transfers-plan.md) | Both editors participate in typed reuse: incoming text/commands, selected-text capture, explicit C++ generation and saved file locators. Conventional coding remains first-class; no Flow dependency. |
-| Parallel product/research | Flow UX, UI update optimization, pane UX and expressive editors | Continue direct manipulation, traversable composition and measured rendering work. Shared input/authority contracts need coordination; unrelated improvements continue. |
+| Selected next; accepted 2026-09-30 | [The tally panel, in three stages](../../reportbacks/zengine-flow-powers/proving-story.md), from [Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md) | **Find:** one read-only discovery door over the live catalog, prose carried in each contribution, Flow's palette over the door, Powers browsing through it and the Terminal asking it. **Compose:** the evaluation budget first, then operator references, the bounded fold loop, Flow's carry receivers, emit authoring and integer addition. **Show:** a view description, view host, renderer and UI builder beside Flow, joined to it by shapes. Each stage is reviewed on its own. |
+| Parallel product/research | UI update optimization, pane UX and expressive editors | Measured rendering work, with the view renderer as UI update's first consumer, and independent pane/editor improvements. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
 | Future candidate; not implemented or selected | [Terminal command scripts (`.zenscript` idea)](../drafts/editor-typed-transfers-plan.md#later-idea-terminal-command-scripts) | Repeat commands as if sent through Terminal, with explicit authority and completion/failure behavior. The name is a proposed convenience, not an existing language or part of the Editor packet. |
 | Later consumers | Deeper setup/configuration, reusable effects, Python, GPU and broader multi-host work | Demonstrated stories earn scope; no universal framework or complete renderer is a prerequisite. |
@@ -459,6 +460,18 @@ meaning as dragging from a pane. The accepted generic preset path now supplies t
 
 ### Flow UX research and hierarchical authoring
 
+**Accepted 2026-09-30** ([Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md)): Flow composes, and only
+composes: operations, and a participant's reactions, with one semantic edit model and the
+discovery of what to compose. Discovery asks one read-only door over the live catalog; each
+operator's prose rides in its own contribution; the maker's folders are Inventory folders of kept
+references; Powers is repurposed to browse through the same door. Examples are Inventory's typed
+values, carried in and out. A presenter/view pair is an assembly of a Flow-made presenter and a
+builder-made view: UI building belongs to a UI builder beside Flow, and participants never become
+nodes in an operator graph. A loop is an evaluator-owned form that runs an operator reference,
+bounded per loop and by a per-evaluation spend budget that lands first. The
+[power map](../../reportbacks/zengine-flow-powers/power-map.md) and [pattern map](../../reportbacks/zengine-flow-powers/pattern-map.md) hold the
+reasons; the tally panel stages in the table above hold the order.
+
 **Selected:** make the first useful Flow understandable and directly manipulable, then support
 reusable operations with inspectable interiors. The founder asks for a folder-like palette with
 input/output previews, drag-out creation and connection, movable nodes, and navigation into
@@ -473,9 +486,9 @@ schema alone does not establish it. Human validation and consequential semantic 
 
 The founder's refinement selects a 1920×1080 landscape ideal, drag-first placement without Move
 left/right buttons, hover details, explicit Store boundaries, operator tags and native-source
-traversal. [Building blocks and reusable UI pairs](../drafts/flow-building-blocks.md) owns the
-non-primitive inventory, presenter/view rule profile, recycling-list consumer and shared cross-pane
-transfer direction. The [maker-story arc](../drafts/maker-story-development.md) owns shared
+traversal. [Building blocks and reusable UI pairs](../drafts/flow-building-blocks.md) keeps the
+presenter/view rule profile; the pair itself is now an assembly of a Flow-made presenter and a
+builder-made view, and the recycling list is the view renderer's. The [maker-story arc](../drafts/maker-story-development.md) owns shared
 inspection, metadata and actor-authority requirements. Flow consumes those typed transfers;
 agents use the equivalent semantic edits under their own grants. Presenters process data without drawing; views own rendering/local display state
 and report typed intents. Enforcement claims distinguish participant grants from trusted native
@@ -517,8 +530,9 @@ and the existing settlement/capture promise. Failure or stale data stays attribu
 This is an opportunity to make presentation more replaceable and inspectable, not permission to
 embed application policy or arbitrary cross-weave calls in a getter. The observed drag pressure
 wakes claim-specific measurement under BL-ADOPT-03; no general benchmark campaign is selected.
-Run this research alongside Flow UX; let measured results guide substantial presentation changes
-without blocking independent usability repairs.
+Its first production consumer is the view renderer of the tally panel's show stage: a view
+description is retained by construction and each binding names its dependency. Let measured
+results guide substantial presentation changes without blocking independent usability repairs.
 
 ### Part 1 — Everyday interaction (accepted foundation)
 
@@ -667,9 +681,10 @@ selection as unfinished work. Additional transport, discovery or human identity 
 need their own consumer and policy. Coordinate with parallel pane UX at input/presentation
 boundaries and preserve its custody.
 
-### Selected next: event-driven ELH observation
+### Event-driven ELH observation — accepted
 
-With #60 accepted, the next phase is the [event-driven observation arc](../drafts/elh-event-driven-observation-plan.md).
+Loom #16 and Zengine #62 merged the [event-driven observation arc](../drafts/elh-event-driven-observation-plan.md)
+(2026-09-25 and 26).
 Its first proof follows Builder's existing structured outcomes; the second lets a Python package
 monitor gameplay events in an explicit play state and report a deviation or completion with
 retained evidence. Latest claims, occurrence-sensitive events and history have distinct semantics.
@@ -737,6 +752,12 @@ drafts may land before or alongside it when its experiments need durable isolati
 and ordinary explicit edits do not require that whole storage arc. An overlay-generated edit must
 name the version it addresses and pass through the document owner; claims that experiments cannot
 modify originals require the promised custody/enforcement first.
+
+**Accepted 2026-09-30:** the overlay is the entry and the inspector for UI subjects. For a
+described view it opens the [UI builder](../../reportbacks/zengine-flow-powers/ui-builder.md) at the element pointed at;
+for a coded pane it routes to the Editor through the existing source loop. The builder and the
+overlay share element identity, the authored/resolved distinction, the inspect-or-activate mode
+and picture identity (P-WORK-25). Shape authoring is one model shared by Flow and the builder.
 
 ### Protected experimentation — a substantial separate arc
 
@@ -917,15 +938,15 @@ or verification volume standing in for a claim-specific witness.
 - **Accepted story:** [tower-defense creation through ELH](../drafts/tower-defense-creation-story-plan.md),
   merged #60: live editing, build/reload/play, durable workspace/toolbox/tools and a repeatable
   demo. Its repairs and maker hotkey witness are accepted; evidence preserves the original
-  experiment's limits. Folders (#58), Info (#55), persistence (#54) and Editor transfers (#59)
-  are accepted foundations.
-- **Selected next:** [event-driven ELH observation](../drafts/elh-event-driven-observation-plan.md):
-  an authorized, reusable run follows Builder and then gameplay, returning meaningful outcomes
-  and evidence while retaining identity and exposing gaps. Routine progress needs fewer agent
-  interventions; game policy stays in editable ELH packages.
-- **Parallel work:** Flow UX, comment compression and independent pane/editor improvements.
-  Conventional coding remains first-class; Flow is not required. P-WORK-29 to P-WORK-33 keep
-  the remaining measured story/tooling pressure visible without adding it all to this phase.
+  experiment's limits. Folders (#58), Info (#55), persistence (#54), Editor transfers (#59)
+  and event-driven ELH observation (Loom #16 / Zengine #62) are accepted foundations.
+- **Selected next:** [the tally panel](../../reportbacks/zengine-flow-powers/proving-story.md), in three stages: find (a
+  discovery door that Flow, Powers and the Terminal share), compose (the evaluation budget, then a
+  bounded loop over an operator reference) and show (a UI builder beside Flow). Flow composes;
+  the UI builder builds views; they meet only at shapes.
+- **Parallel work:** UI update research, with the view renderer as its first consumer, and
+  independent pane/editor improvements. Conventional coding remains first-class; Flow is not
+  required. P-WORK-29 to P-WORK-37 keep the measured story/tooling pressure visible.
 - **Selected sequence:** the pane status and founder's current order have one home in §7.
 - **Success:** a maker understands what acted, what failed, and what to do next without losing
   their authored work. Each production task states its own completion evidence.

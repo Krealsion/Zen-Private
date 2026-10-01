@@ -6,7 +6,9 @@
   parallelism; `-j32` is slower. In WSL, which sees 30 GB, Zengine's official lane at `-j24`
   had compilers killed for memory (2026-09-30); `-j8` built.
 - **Build trees on ext4** under `~/zen-build/`: `loom`, `loom-install`, `zengine-p1`,
-  `zengine-p1-san` (the Ninja-configured Zengine trees against the ext4 Loom install). A tree's
+  `zengine-p1-san` (the Ninja-configured Zengine trees) and `CS3-head`, whose `prefix` (Loom
+  `b47c7d6`) is the Loom both Zengine trees build against (`CMAKE_PREFIX_PATH` and `loom_DIR`,
+  measured 2026-09-30), so it stays with them. A tree's
   generator is baked in, and Zengine's FetchContent cache `~/.cache/zen-fetch/zengine-<basename>`
   is keyed by build-directory basename with no eviction (13 GB measured) — reuse names. Both
   Zengine trees carry the ccache launcher, so a timed clean build sets `CCACHE_DISABLE=1` or it

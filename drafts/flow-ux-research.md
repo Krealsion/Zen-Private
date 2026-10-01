@@ -1,7 +1,9 @@
 # Flow UX: discover, compose, inspect, and reuse
 
 **Status:** initial source/live/prototype research complete; human validation and production decisions remain. Interaction and delivery details below are proposals.\
-**Updated:** 2026-09-20\
+**Updated:** 2026-09-30\
+**Accepted 2026-09-30:** [Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md)
+revises §3, §4, §7 and §10 below; the 2026-09-20 selections stand.\
 **Authority:** [Workshop roadmap](../goals/workshop.md#flow-ux-research-and-hierarchical-authoring).\
 **Companions:** [UI update research](ui-update-research.md) and
 [building blocks, presenter/view pairs and cross-pane authoring](flow-building-blocks.md).
@@ -70,10 +72,11 @@ to fit a miniature desktop. Candidate arrangement:
 ```text
 Project / Trigger / Composite / Nested composite       Draft r7 | Running r5
 +------------------+------------------------------------------------------+
-| Search / folders | Graph                                                |
-| Operations       | message + read state -> operations -> explicit Store |
-| Project / tags   |                                                      |
-| Saved examples   | hover/focus details; Open enters                     |
+| Search           | Graph                                                |
+| In scope         | message + read state -> operations -> explicit Store |
+| For this port    |                                                      |
+| Kept (Inventory) | hover/focus details; Open enters                     |
+| All, by kind     |                                                      |
 +------------------+------------------------------------------------------+
 | Try an input / Diagnostics / Events (expand when needed)                 |
 +-------------------------------------------------------------------------+
@@ -84,6 +87,11 @@ Keep editable constants, required bindings, errors and navigation reachable with
 Contextual editing and optional companion Info/Editor panes can expose deeper tasks. Collapse
 the palette/observations when room is limited; keep Flow's internal hierarchy distinct from
 Workshop's pane hierarchy. No essential action requires keeping another pane open.
+
+**Accepted 2026-09-30:** the palette's sections are what is in scope (the message's fields and the
+state the body reads, which today's pane calls "Sources"), suggestions for the selected port, kept
+powers (an Inventory folder of references) and all powers by kind. Saved examples leave for
+Inventory (§7).
 
 The recommended entry offers examples and two intents: **Compose an operation** and
 **React to a message**. The existing high-water tracker remains a useful stateful starter:
@@ -101,9 +109,10 @@ contracts; this is a design recommendation, not a shipped capability.
 
 ### Palette
 
-- Default tree categories, with search across names, descriptions, tags and input/output signatures.
-  Candidate sections are sources, operations, project composites and examples; validate terms
-  with use. User folders/tags organize references and do not rename operators or change authority.
+- Search asks the [discovery door](../../reportbacks/zengine-flow-powers/discovery.md#the-door)
+  across names, prose, tags and input/output signatures; categories are provider-authored tags, and
+  the sections are §3's (accepted 2026-09-30). The maker's own folders are Inventory folders of kept
+  references; they organize, and never rename operators or change authority.
 - Hover or keyboard focus shows a small port map, purpose, types, defaults/required values,
   provider, availability and a short example. Make the tooltip dismissible and reachable while
   inspecting it, with a focus/touch route; essential information and actions remain available
@@ -237,6 +246,9 @@ and what remains an external dependency. Importing a Flow workspace/composition 
 data; any native-artifact load remains a separate host policy/execution action. Neither grants
 authority merely through its presence.
 
+**Accepted 2026-09-30:** examples are Inventory's typed values, carried in and out; a saved
+workspace stops carrying named examples, and its retained forms stay.
+
 Preserve workspace save/reopen, incomplete forms, historical schemas and explicit dirty handling.
 Version any changed durable format with an honest migration/refusal path. Saving authored work
 does not save pending queues or process continuations. Provider/pane replacement ends or explicitly
@@ -308,6 +320,14 @@ policy is implied. Actual human task observation remains outstanding.
   supplementary operator details on hover, explicit storage, tags, native-source traversal,
   non-primitive building blocks and cross-pane composition. The companion plan separates
   selected outcomes from proposed protocols and enforcement limits.
+- **Accepted 2026-09-30** ([Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md)):
+  a loop is an evaluator-owned fold over an operator reference resolved through the one catalog,
+  fold first and collect later. It counts first and runs by count, refuses a step of 0, takes its
+  direction from the step's sign and excludes the limit by default; Flow binds the default step of
+  1 at placement. Each loop has a count bound, and a per-evaluation spend budget in the catalog
+  lands first, bounding nested loops and call cycles too. UI building belongs to a UI builder
+  beside Flow, joined to it by shapes. The 2026-09-20 selections stand; the
+  [building blocks plan](flow-building-blocks.md) says where each block now lives.
 - **Proposed:** contextual palette and editing replace much routine modal/index entry;
   modal decisions remain for genuine destructive or authority-bearing transitions.
 - **Proposed:** visible execution order first; changing ordering semantics is an explicit language

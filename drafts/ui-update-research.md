@@ -1,9 +1,10 @@
 # UI update research: retained descriptions and observable dependencies
 
 **Status:** selected side research; no production renderer architecture selected.\
-**Updated:** 2026-09-20\
+**Updated:** 2026-09-30\
 **Authority:** [Workshop roadmap](../goals/workshop.md#ui-update-optimization-research).\
-**First consumer:** [Flow UX](flow-ux-research.md), alongside ordinary pane movement/resizing.
+**First consumer:** the view renderer ([accepted 2026-09-30](../../reportbacks/zengine-flow-powers/ui-builder.md)),
+alongside ordinary pane movement/resizing.
 
 ## 1. Question and useful result
 
@@ -16,6 +17,11 @@ The founder's proposal combines static/percentage-based geometry, stable drawing
 dirty updates and variable-like access to live data. Separate the costs it could avoid:
 description construction/publication, layout resolution, text measurement, drawing preparation,
 rasterization and composition/presentation. A stable tree does not imply every later stage is free.
+
+**Accepted 2026-09-30:** the first production consumer is the view renderer of the tally panel's
+show stage. Its view description is the retained description, its binding paths are the
+dependencies, and §6's "one subscribed changing value" is a published view-model field. Flow's
+canvas would be a weaker first consumer.
 
 ## 2. Existing pieces and evidence
 
@@ -150,10 +156,10 @@ Produce a reproducible baseline, prototype results, ownership/protocol sketch, f
 replacement analysis, and a recommended smallest production consumer (or a reason to defer).
 Name which existing vocabularies can be reused and which cannot. Research may reject an approach.
 
-Flow UX research proceeds alongside this work. A minimal gesture/affordance repair does not wait
-for a retained renderer; a large new graph presentation should use these findings before fixing
-a difficult-to-replace protocol. General constraint solving, GPU replacement and universal native
-reflection are not prerequisites.
+The founder accepted the view renderer as the first production consumer (2026-09-30). A minimal
+gesture/affordance repair does not wait for a retained renderer; a large new graph presentation
+should use these findings before fixing a difficult-to-replace protocol. General constraint
+solving, GPU replacement and universal native reflection are not prerequisites.
 
 ## 8. Primary references
 
