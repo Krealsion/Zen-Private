@@ -11,6 +11,9 @@
   is keyed by build-directory basename with no eviction (13 GB measured) — reuse names. Both
   Zengine trees carry the ccache launcher, so a timed clean build sets `CCACHE_DISABLE=1` or it
   measures the cache.
+- **G: is exFAT with 256 KB clusters**: a file takes at least 256 KB of disk, so many small files
+  cost far more than their bytes (104,259 run-package files of 0.9 GB held about 25 GB), and
+  junctions and symlinks cannot exist there.
 - **CLion 2025.2's bundled MinGW** at `C:\Program Files\JetBrains\CLion 2025.2\bin\mingw\bin`
   (g++ 13.1, binutils 2.40), ninja under `bin\ninja\win\x64`, cmake under `bin\cmake\win\x64\bin`.
   That `mingw\bin` must be on `PATH` in EVERY tool call: without it `cc1plus.exe` dies
