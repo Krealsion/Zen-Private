@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-30
+**Refreshed:** 2026-10-01
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -40,7 +40,8 @@ independent pane/editor work continue alongside.
 The founder accepted the [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md)
 (2026-09-30): Flow composes and keeps the discovery experience, UI building moves to a builder
 beside it, and the tally panel is built in three stages, find, compose and show. P-WORK-34 to
-P-WORK-37 are the pressure that research measured.
+P-WORK-37 are the pressure that research measured. The find stage merged as Zengine #82
+(2026-10-01), closing P-WORK-35 and P-WORK-37; P-WORK-38 is pressure it measured.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -307,7 +308,8 @@ words, before the loop form. A check at mount cannot replace it: the catalog cha
 
 ### P-WORK-35 — The Flow pane offers running trigger bodies as operators to insert
 
-**State:** ACT — the tally panel's find stage
+**State:** CLOSED — founder merged Zengine #82 (2026-10-01): the maker package mounts trigger
+bodies not offered, and Flow asks the discovery door only for offered powers
 **Evidence:** [discovery](../reportbacks/zengine-flow-powers/discovery.md#flows-discovery-experience)
 
 After a Run, the pane's flat catalog lists the running session's own trigger body as an operator.
@@ -331,13 +333,25 @@ definition says.
 
 ### P-WORK-37 — "Source" means two things in the Flow pane
 
-**State:** ACT — the tally panel's find stage
+**State:** CLOSED — founder merged Zengine #82 (2026-10-01): the rail is "In scope"
 **Evidence:** [discovery](../reportbacks/zengine-flow-powers/discovery.md#flows-discovery-experience)
 
 The pane's rail calls in-scope fields "Sources (click to wire)", while the operator package's
 Source is a zero-input operator (`op::is_source`). The find stage renames the rail "In scope".
 
 **Trigger:** the find stage.
+
+### P-WORK-38 — The Terminal shows an answer by its shape
+
+**State:** WATCH
+**Evidence:** [the find stage's report](../reportbacks/zengine-tally-find-RB.md#pressure-exposed)
+and its Terminal screenshot in Zengine #82
+
+The Terminal records `v PowersFound v1 from #12` and shows none of the rows; a person reads them
+by carrying the answer into Info. Every answer the Terminal hears is shown this way, so a person
+asking the discovery door there does not see the row they found.
+
+**Trigger:** a person or agent who needs an answer's rows on the Terminal itself.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
@@ -519,7 +533,9 @@ events without downstream origin (`input/input_weave.hpp`, `docs/reference/input
 
 The supplied Loom host's policy and Workshop's current artifact policy are different consumers.
 Receiving-side guest admission grants bounded external operations; it does not settle local
-artifact trust or preserve the initiator through every privileged UI action. Research both
+artifact trust or preserve the initiator through every privileged UI action. The discovery door
+(#82) answers any participant with a sender; it only describes, so it follows this item's answer
+rather than adding to it. Research both
 under the [maker-story authority boundary](drafts/maker-story-development.md#maker-actions-and-external-authority).
 The [inventory plan](drafts/inventory-capture-plan.md) requires ordinary bounded acquisition and
 storage grants. Broader input-origin enforcement becomes required as contextual UI paths are

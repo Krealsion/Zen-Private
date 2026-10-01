@@ -1,11 +1,11 @@
 # Zen Strategic Map
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-30\
+**Refreshed:** 2026-10-01\
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** accelerate complete maker stories through reusable ELH tools, typed inspection and maker-authorized reuse; keep Workshop and Flow understandable and replaceable
-**Current execution state:** Typed Inventory reuse, independent Info views, persistence and named folders are accepted foundations, with Editor transfers (#59), the tower-defense creation story (#60) and event-driven ELH observation (Loom #16, Zengine #62). Next is the tally panel, in three reviewed stages from [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md), accepted 2026-09-30: find, compose, show. Flow composes; a UI builder beside it builds views. UI update research and independent pane/editor work remain parallel. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the broader direction. Service retirement remains parked.
+**Current execution state:** Typed Inventory reuse, independent Info views, persistence and named folders are accepted foundations, with Editor transfers (#59), the tower-defense creation story (#60) and event-driven ELH observation (Loom #16, Zengine #62). Next is the tally panel, in three reviewed stages from [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md), accepted 2026-09-30: find (merged as Zengine #82), compose, show. Flow composes; a UI builder beside it builds views. UI update research and independent pane/editor work remain parallel. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the broader direction. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -179,7 +179,7 @@ are accepted; their tools are reused, not reopened. The remaining product direct
 
 1. Build [the tally panel](../reportbacks/zengine-flow-powers/proving-story.md) in three reviewed
    stages, accepted 2026-09-30 from [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md).
-   **Find:** one read-only discovery door over the live catalog, asked alike by Flow, Powers and
+   **Find** (merged, #82): one read-only discovery door over the live catalog, asked alike by Flow, Powers and
    the Terminal. **Compose:** the evaluation budget first, then a bounded loop over an operator
    reference, Flow's carry receivers and emit authoring. **Show:** a UI builder beside Flow, with
    a view host and renderer, joined to Flow by shapes. Flow composes; participants never become
