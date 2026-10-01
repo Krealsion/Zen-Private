@@ -16,6 +16,14 @@
 - **G: is exFAT with 256 KB clusters**: a file takes at least 256 KB of disk, so many small files
   cost far more than their bytes (104,259 run-package files of 0.9 GB held about 25 GB), and
   junctions and symlinks cannot exist there.
+- **G: shows WSL whole-second file times** (exFAT through drvfs): a source rewritten in the second
+  its object was compiled looks older than the object, so Ninja keeps the stale object. A tool that
+  rewrites sources under WSL and rebuilds at once (a mutation driver) waits past a second boundary
+  before each write (measured 2026-10-01).
+- **`Zengine/.git/worktrees` can stick delete-pending** when the last worktree is removed: Git,
+  `ls` and PowerShell then answer Access/Permission denied and `git worktree add` fails. Seen
+  2026-09-30 and 2026-10-01, both times with CLion open; a restart cleared it. A phase that meets
+  it works in a clone in its `trees/`.
 - **CLion 2025.2's bundled MinGW** at `C:\Program Files\JetBrains\CLion 2025.2\bin\mingw\bin`
   (g++ 13.1, binutils 2.40), ninja under `bin\ninja\win\x64`, cmake under `bin\cmake\win\x64\bin`.
   That `mingw\bin` must be on `PATH` in EVERY tool call: without it `cc1plus.exe` dies
