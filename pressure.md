@@ -43,7 +43,8 @@ beside it, and the tally panel is built in three stages, find, compose and show.
 P-WORK-37 are the pressure that research measured. The find stage merged as Zengine #82
 (2026-10-01), closing P-WORK-35 and P-WORK-37; P-WORK-38 is pressure it measured. The compose
 stage merged as Zengine #84 (2026-10-02), closing P-WORK-34; P-WORK-39 and P-WORK-40 are pressure
-it measured, and the show stage is next.
+it measured. The show stage merged as Zengine #85 (2026-10-02), closing P-WORK-40; P-WORK-41 to
+P-WORK-44 are pressure it measured, and the View Builder is rebuilt graphically next.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -371,7 +372,8 @@ witnessed against the interpreted answer.
 
 ### P-WORK-40 — Stage two left three seams in Flow's pane
 
-**State:** ACT — in the tally panel's show stage, whose walk passes Flow again
+**State:** CLOSED — founder merged Zengine #85 (2026-10-02): a row known by its kind and identity,
+a refused slot reference put down, the fold node fitting its box
 **Evidence:** [the compose stage's report](../reportbacks/zengine-tally-compose-RB.md#pressure-exposed)
 and [its fixes' report](../reportbacks/tally-compose-fixes-RB.md#pressure-exposed), each checked
 against Zengine `6492355`
@@ -385,6 +387,55 @@ against Zengine `6492355`
   sit under the preview band at the default zoom (seen live, `final-body-slot.png`).
 
 **Trigger:** the show stage.
+
+### P-WORK-41 — A canvas pane cannot drag a value out or hear the pointer hover
+
+**State:** ACT — the graphical View Builder
+**Evidence:** [the show stage's report](../reportbacks/zengine-tally-show-RB.md#choices-the-founder-can-overrule)
+(choice 7); `workshop/weave_pointer.cpp` and `workshop/weave_canvas.cpp` at Zengine `8796d90`
+
+A press on a canvas pane begins no value drag, so Flow and the View Builder carry out by a
+right-press menu and a click. Motion reaches a canvas only while a button is held: the pane-local
+canvas owns no idle hover (`agents/panes.md`), so a canvas cannot mark what the pointer rests on.
+
+**Trigger:** the graphical View Builder, which drags between Flow and itself and marks the
+element under the pointer. Info's selection mode (§7) needs the same hover.
+
+### P-WORK-42 — A refusal reads in the evaluator's words
+
+**State:** ACT — the graphical View Builder, for its prefix; WATCH, for its length
+**Evidence:** [the show stage's report](../reportbacks/zengine-tally-show-RB.md#decisions-asked)
+(decision 4); `operator/catalog.hpp`
+
+The evaluator prefixes a refusal with its composition's identity and node index:
+`'tally.r1.on.tally.panel.Count' step 0: ...`. "Step" names a node there, on a panel with a field
+named step. A view shows its owner's whole sentence; at the forty columns a view asks for, three
+notice rows hold about 117 characters, and this one is 150.
+
+**Trigger:** the prefix, at its source, in the next stage; the length, when a weaver must read a
+refusal whole in a narrow view.
+
+### P-WORK-43 — Flow marks an observed state unsaved
+
+**State:** WATCH
+**Evidence:** [the show stage's report](../reportbacks/zengine-tally-show-RB.md#pressure-exposed)
+
+Flow adopts a running definition's observed state into its workspace and marks it touched, so
+after the panel's first Count Flow shows `[Save*]` and refuses its quit until saved or discarded,
+though the weaver authored nothing.
+
+**Trigger:** a weaver's report.
+
+### P-WORK-44 — A stranger cannot drive the view host
+
+**State:** WATCH
+**Evidence:** [the show stage's report](../reportbacks/zengine-tally-show-RB.md#choices-the-founder-can-overrule)
+(choice 6)
+
+`view/` is internal, not installed: Workshop composes the view host and is the description
+format's one consumer.
+
+**Trigger:** a host other than Workshop running described views.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 

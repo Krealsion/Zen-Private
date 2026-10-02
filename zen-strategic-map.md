@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** accelerate complete maker stories through reusable ELH tools, typed inspection and maker-authorized reuse; keep Workshop and Flow understandable and replaceable
-**Current execution state:** Typed Inventory reuse, independent Info views, persistence and named folders are accepted foundations, with Editor transfers (#59), the tower-defense creation story (#60) and event-driven ELH observation (Loom #16, Zengine #62). Next is the tally panel, in three reviewed stages from [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md), accepted 2026-09-30: find (merged as Zengine #82), compose (merged as Zengine #84), show. Flow composes; a UI builder beside it builds views. UI update research and independent pane/editor work remain parallel. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the broader direction. Service retirement remains parked.
+**Current execution state:** Typed Inventory reuse, independent Info views, persistence and named folders are accepted foundations, with Editor transfers (#59), the tower-defense creation story (#60) and event-driven ELH observation (Loom #16, Zengine #62). Next is the tally panel, in three reviewed stages from [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md), accepted 2026-09-30: find (merged as Zengine #82), compose (merged as Zengine #84), show (merged as Zengine #85); the View Builder is rebuilt graphically next. Flow composes; a UI builder beside it builds views. UI update research and independent pane/editor work remain parallel. The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns coordinated sequencing; the [maker-story arc](drafts/maker-story-development.md) owns the broader direction. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -181,8 +181,8 @@ are accepted; their tools are reused, not reopened. The remaining product direct
    stages, accepted 2026-09-30 from [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md).
    **Find** (merged, #82): one read-only discovery door over the live catalog, asked alike by Flow, Powers and
    the Terminal. **Compose** (merged, #84): the evaluation budget first, then a bounded loop over
-   an operator reference, Flow's carry receivers and emit authoring. **Show:** a UI builder beside Flow, with
-   a view host and renderer, joined to Flow by shapes. Flow composes; participants never become
+   an operator reference, Flow's carry receivers and emit authoring. **Show** (merged, #85): a UI builder beside Flow, with
+   a view host and renderer, joined to Flow by shapes; the builder becomes graphical next. Flow composes; participants never become
    nodes in its graph.
 2. UI-update research measures retained descriptions and selective invalidation, with the view
    renderer as its first production consumer; a universal renderer rewrite is not a prerequisite

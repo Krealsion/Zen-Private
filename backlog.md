@@ -73,7 +73,7 @@ described views beside it: each runs as its own participant, with fields, button
 and draws on its pane's canvas in whole pixels. Then the Pane Creator retires into them, so a
 weaver has one way to make a pane from data and Workshop paints no authored pane of its own.
 
-**Wake:** the show stage merged.
+**Wake:** the graphical View Builder merged.
 **Source:** the founder's choice while the show stage's prompt was prepared
 (`prompts/zengine-tally-show.md`); the research that missed it,
 [the UI builder](../reportbacks/zengine-flow-powers/ui-builder.md).
@@ -94,8 +94,8 @@ cells, with text refitted to what the terminal measures.
 ### BL-WORK-06 — The text panes draw on the canvas
 
 **State:** PARKED / DECIDED (the founder, 2026-10-02)  
-**Owed:** Every pane except Flow (and, once the show stage lands, described views) writes rows and
-columns of text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
+**Owed:** Every pane except Flow, the View Builder and described views writes rows and columns of
+text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
 Builder, Powers and the rest. Each moves to the canvas, so every pane draws in pixels and a
 terminal shows the fallback derived from that picture.
 
