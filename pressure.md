@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-10-01
+**Refreshed:** 2026-10-02
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -41,7 +41,9 @@ The founder accepted the [Flow's powers research](../reportbacks/zengine-flow-po
 (2026-09-30): Flow composes and keeps the discovery experience, UI building moves to a builder
 beside it, and the tally panel is built in three stages, find, compose and show. P-WORK-34 to
 P-WORK-37 are the pressure that research measured. The find stage merged as Zengine #82
-(2026-10-01), closing P-WORK-35 and P-WORK-37; P-WORK-38 is pressure it measured.
+(2026-10-01), closing P-WORK-35 and P-WORK-37; P-WORK-38 is pressure it measured. The compose
+stage merged as Zengine #84 (2026-10-02), closing P-WORK-34; P-WORK-39 and P-WORK-40 are pressure
+it measured, and the show stage is next.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -295,7 +297,9 @@ universal command manager is not selected by this pressure.
 
 ### P-WORK-34 — The operator evaluator has no spend bound
 
-**State:** ACT — first in the tally panel's compose stage
+**State:** CLOSED — founder merged Zengine #84 (2026-10-02): one budget per evaluation in
+`op::Catalog`, charged at each spend and refused in words (100000 spends, depth 32); it refuses a
+nested fold past it and a call cycle through identities
 **Evidence:** [pattern map](../reportbacks/zengine-flow-powers/pattern-map.md#the-bound-the-loop-needs-and-the-one-it-closes), anchors in the [evidence](../reportbacks/zengine-flow-powers-evidence.md#4-source-anchors)
 
 `Catalog::walk` spends each node by name, and nothing counts depth or spends. One graph cannot hold
@@ -352,6 +356,35 @@ by carrying the answer into Info. Every answer the Terminal hears is shown this 
 asking the discovery door there does not see the row they found.
 
 **Trigger:** a person or agent who needs an answer's rows on the Terminal itself.
+
+### P-WORK-39 — A definition with a fold runs interpreted only
+
+**State:** WATCH
+**Evidence:** [the compose stage's report](../reportbacks/zengine-tally-compose-RB.md#choices-the-founder-can-overrule),
+choice 9 and decision 3
+
+Generate refuses a definition with a fold in words and writes nothing. The fold is the evaluator's
+form, so such a definition runs only on the interpreted path; nothing differs silently.
+
+**Trigger:** a weaver who needs a fold's definition native. Generating the loop is then a choice,
+witnessed against the interpreted answer.
+
+### P-WORK-40 — Stage two left three seams in Flow's pane
+
+**State:** ACT — in the tally panel's show stage, whose walk passes Flow again
+**Evidence:** [the compose stage's report](../reportbacks/zengine-tally-compose-RB.md#pressure-exposed)
+and [its fixes' report](../reportbacks/tally-compose-fixes-RB.md#pressure-exposed), each checked
+against Zengine `6492355`
+
+- **A row is known by its identity alone.** The door names the form's row `fold`, and an operator
+  may be named `fold` too. Flow's preview and Add (`add_found`) find a row by identity, so in one
+  answer the operator's row hides the form's; before #84's last fix the form hid the operator's.
+- **A body slot keeps a reference it refused.** Choosing the row the door found again is refused
+  again, until the slot is shut and reopened or a fresh reference is dropped on it.
+- **The fold node's picture overflows.** Its title overflows the node box, and its answer row can
+  sit under the preview band at the default zoom (seen live, `final-body-slot.png`).
+
+**Trigger:** the show stage.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
