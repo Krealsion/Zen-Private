@@ -1,7 +1,7 @@
 # Stranger-Legible Zen Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-10-01\
+**Refreshed:** 2026-10-02\
 **Strategic authority:** `private/zen-strategic-map.md`, Goal 2  
 **Role:** Goal 2's selected tasks: what a stranger must be able to read, and how it stays true
 
@@ -115,6 +115,16 @@ conditions, law WL-PANE and the setup guides. The state takes the act's word, so
 one word for one thing. Action and shape ids stay, as `manage.remove` did.
 **Evidence:** [the words report](../../reportbacks/pane-menu-words-RB.md#pressure-exposed).
 
+### Task 6 — The tool explains its own words
+
+**State:** OPEN — before a release (the founder, 2026-10-02).
+A developer tool can teach the jargon it uses. Wherever Workshop shows a term or a thing (a fold,
+a form, an accumulator, an office, a grant), a short description is one gesture away, where it
+appears, so a weaver learns the word from the tool rather than from a search engine. The fold
+(Zengine #84) raised it: its name is the functional-programming term, and today its description
+is reached only through discovery.
+**Relation:** Task 1 (a plain first-read path) and Task 4 (one noun per concept).
+
 ## 3. Order
 
 The founder's order (2026-09-26):
@@ -136,4 +146,4 @@ The founder's order (2026-09-26):
 6. Zengine's last process words (Task 2), the documentation lane's first live run:
    `prompts/zengine-process-words.md`.
 
-Task 1's first-read path is not yet placed. Task 5 lands before a release.
+Task 1's first-read path is not yet placed. Tasks 5 and 6 land before a release.
