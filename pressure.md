@@ -858,5 +858,15 @@ teach concepts that are real.
   understand — under the constraint above: let the C++ compiler parse C++. "A raw node is an
   operator iff it has no bus access, transitively" is the founder's hypothesis, not law.
 
+- **Info rebuilt as a one-slot inspector** (the founder, 2026-10-02): a multi-pane weave rebuilt
+  with today's Info as a quarry, rather than reshaped once more. Drop any element on it, or put it
+  in a selection mode that boxes everything it can inspect and scans them as the pointer hovers;
+  right-click any element to open an edit pane for it, as a context menu does. An edit pane is
+  its fields with boxes and the actions the value allows (reset, save to live data where the
+  value's owner supports it, save to Inventory), and drags out to whatever accepts it: a one-slot
+  Inventory with editing built in. No list of panes, and no limit on source or destination. The
+  selection mode is the UI-editing overlay's way in ([the goal map](goals/workshop.md)), so the
+  two are one design.
+
 These candidates influence completeness tests only. They require their own current consumers and
 authorized phases before they become architecture.
