@@ -69,14 +69,38 @@ or the file passing 1,500 lines.
 **State:** PARKED / DECIDED (the founder, 2026-10-02)  
 **Owed:** The Pane Creator (WL-MAKER) makes a pane of static text regions that Workshop owns and
 paints, edited in Info and saved as `workshop-pane.json`. The tally panel's show stage builds
-described views beside it: each runs as its own participant, with fields, buttons and bindings.
-Once described views place text as finely as the Pane Creator does, it retires into them, so a
+described views beside it: each runs as its own participant, with fields, buttons and bindings,
+and draws on its pane's canvas in whole pixels. Then the Pane Creator retires into them, so a
 weaver has one way to make a pane from data and Workshop paints no authored pane of its own.
 
-**Wake:** described views place text as finely as the Pane Creator, with the canvas renderer.
+**Wake:** the show stage merged.
 **Source:** the founder's choice while the show stage's prompt was prepared
 (`prompts/zengine-tally-show.md`); the research that missed it,
 [the UI builder](../reportbacks/zengine-flow-powers/ui-builder.md).
+
+### BL-WORK-05 — Workshop's unit becomes the whole pixel
+
+**State:** PARKED / DECIDED (the founder, 2026-10-02)  
+**Owed:** Workshop measures in 48ths of a cell, a quarter pixel in the window, and lays out the
+desk's fixed parts in cells before any font is measured. Reverse it: the whole pixel is the unit
+and a cell is 12 of them, so a pixel is a twelfth of a cell, and nothing authors a fraction of a
+pixel. The window's picture is complete in pixels; a terminal's is derived from it, floored to
+cells, with text refitted to what the terminal measures.
+
+**Wake:** after the tally panel's show stage, when the founder selects it.
+**Source:** the founder, while the show stage's prompt was prepared
+(`prompts/zengine-tally-show.md`).
+
+### BL-WORK-06 — The text panes draw on the canvas
+
+**State:** PARKED / DECIDED (the founder, 2026-10-02)  
+**Owed:** Every pane except Flow (and, once the show stage lands, described views) writes rows and
+columns of text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
+Builder, Powers and the rest. Each moves to the canvas, so every pane draws in pixels and a
+terminal shows the fallback derived from that picture.
+
+**Wake:** with or after BL-WORK-05.
+**Source:** as BL-WORK-05.
 
 ## 3. Bounded defects and quick repairs
 

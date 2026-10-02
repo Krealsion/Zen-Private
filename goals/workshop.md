@@ -474,8 +474,11 @@ bounded per loop and by a per-evaluation spend budget that lands first. The
 reasons; the tally panel stages in the table above hold the order.
 
 **Decided 2026-10-02:** the Pane Creator (WL-MAKER), a pane of static text regions that Workshop
-paints and the research missed, stays beside described views and retires into them once they can
-place text as finely, with the canvas renderer ([BL-WORK-04](../backlog.md#bl-work-04--the-pane-creator-retires-into-described-views)).
+paints and the research missed, stays beside described views and retires into them after the
+show stage, whose views draw on the canvas in whole pixels ([BL-WORK-04](../backlog.md#bl-work-04--the-pane-creator-retires-into-described-views)).
+A pixel-first Workshop, its terminal picture derived from the window's, is owed later
+([BL-WORK-05](../backlog.md#bl-work-05--workshops-unit-becomes-the-whole-pixel),
+[BL-WORK-06](../backlog.md#bl-work-06--the-text-panes-draw-on-the-canvas)).
 
 **Selected:** make the first useful Flow understandable and directly manipulable, then support
 reusable operations with inspectable interiors. The founder asks for a folder-like palette with
