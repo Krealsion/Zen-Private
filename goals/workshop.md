@@ -473,6 +473,10 @@ bounded per loop and by a per-evaluation spend budget that lands first. The
 [power map](../../reportbacks/zengine-flow-powers/power-map.md) and [pattern map](../../reportbacks/zengine-flow-powers/pattern-map.md) hold the
 reasons; the tally panel stages in the table above hold the order.
 
+**Decided 2026-10-02:** the Pane Creator (WL-MAKER), a pane of static text regions that Workshop
+paints and the research missed, stays beside described views and retires into them once they can
+place text as finely, with the canvas renderer ([BL-WORK-04](../backlog.md#bl-work-04--the-pane-creator-retires-into-described-views)).
+
 **Selected:** make the first useful Flow understandable and directly manipulable, then support
 reusable operations with inspectable interiors. The founder asks for a folder-like palette with
 input/output previews, drag-out creation and connection, movable nodes, and navigation into

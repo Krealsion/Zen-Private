@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-09-27\
+**Refreshed:** 2026-10-02\
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -63,6 +63,20 @@ per view and the one act entry point. Behaviour and law stay as they are.
 or the file passing 1,500 lines.
 
 **Source:** [corrections report](../reportbacks/zengine-independent-info-workbench-corrections-RB.md).
+
+### BL-WORK-04 — The Pane Creator retires into described views
+
+**State:** PARKED / DECIDED (the founder, 2026-10-02)  
+**Owed:** The Pane Creator (WL-MAKER) makes a pane of static text regions that Workshop owns and
+paints, edited in Info and saved as `workshop-pane.json`. The tally panel's show stage builds
+described views beside it: each runs as its own participant, with fields, buttons and bindings.
+Once described views place text as finely as the Pane Creator does, it retires into them, so a
+weaver has one way to make a pane from data and Workshop paints no authored pane of its own.
+
+**Wake:** described views place text as finely as the Pane Creator, with the canvas renderer.
+**Source:** the founder's choice while the show stage's prompt was prepared
+(`prompts/zengine-tally-show.md`); the research that missed it,
+[the UI builder](../reportbacks/zengine-flow-powers/ui-builder.md).
 
 ## 3. Bounded defects and quick repairs
 
