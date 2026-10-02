@@ -1,7 +1,7 @@
 # Stranger-Legible Zen Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-09-29\
+**Refreshed:** 2026-10-01\
 **Strategic authority:** `private/zen-strategic-map.md`, Goal 2  
 **Role:** Goal 2's selected tasks: what a stranger must be able to read, and how it stays true
 
@@ -105,6 +105,16 @@ only a sentence about authority or trust says which it means (the founder, 2026-
 
 **Relation:** one noun per concept is part of reading plainly (Task 1).
 
+### Task 5 — One word for a pane on or off the desk
+
+**State:** OPEN — before a release (the founder, 2026-10-01).
+Zengine #83 names the act: a weaver hides a pane ("hide pane", "hide X") and shows it ("show X").
+The state still says `closed` and `open`: the pane-state classifier's word, the Pane Manager's
+`[open]` mark, Info's subject rows ("closed -- show it from the Pane Manager"), Attention's
+conditions, law WL-PANE and the setup guides. The state takes the act's word, so a reader meets
+one word for one thing. Action and shape ids stay, as `manage.remove` did.
+**Evidence:** [the words report](../../reportbacks/pane-menu-words-RB.md#pressure-exposed).
+
 ## 3. Order
 
 The founder's order (2026-09-26):
@@ -126,4 +136,4 @@ The founder's order (2026-09-26):
 6. Zengine's last process words (Task 2), the documentation lane's first live run:
    `prompts/zengine-process-words.md`.
 
-Task 1's first-read path is not yet placed.
+Task 1's first-read path is not yet placed. Task 5 lands before a release.
