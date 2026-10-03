@@ -188,6 +188,19 @@ from outside, across the admitted link (`external-host/demo.py`).
 **Wake:** the founder selects it.
 **Source:** as BL-WORK-07.
 
+### BL-WORK-14 — A pane's minimum size
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** Find a good minimum size for a pane to display: the least room in which it shows every
+control it offers, and what it does when given less. A pane says only its initial comfort today
+(`v2::PaneOffered`, rows and columns), never its least. First met in the View Builder: with the
+five-element tally panel in an 800×400 canvas, a shape of three fields dropped on Total asks which
+field to show, but the list's reserved rows push the choice and its More below the room, so none
+can be chosen. With one row left under the question, More has no row of its own.
+
+**Wake:** the founder selects it.
+**Source:** the deep review of #86 (2026-10-03), parked by the founder.
+
 ## 3. Bounded defects and quick repairs
 
 ### BL-VERIFY-01 — Reconcile Builder field clicks locally
