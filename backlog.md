@@ -139,9 +139,6 @@ handles, so one side can move alone.
 **State:** ORDERED — fourth in the founder's order (2026-10-03), after BL-WORK-06  
 **Owed:** Once every pane draws on the canvas, every pane can have:
 - A hover cue on whatever a press would activate, from `PaneCanvasHover`.
-- A right press that focuses the pane it lands in. This reverses part of WL-CTX-01, under which
-  opening a context menu changes no selection, candidate or focus
-  (`agents/decisions/pointing-is-not-selection.md`).
 - A `?` at the pane's top right when the pane offers a summary or a tutorial. Workshop draws the
   mark; the pane supplies the guide.
 - Tutorial mode: shifting outlines walk through the pane's own parts in turn, and the places that
