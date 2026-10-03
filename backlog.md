@@ -116,7 +116,8 @@ terminal shows the fallback derived from that picture.
 element snaps to a grid and to the edges of the other elements. Edge handles join the corner
 handles, so one side can move alone.
 The founder added the view's size to it (2026-10-03): a size the weaver sets by hand, which the
-canvas draws the view in and the running view asks its pane for (`prompts/view-builder-size.md`).
+canvas draws the view in and the running view asks its pane for. The grid is off by default,
+its size the weaver's to set (`prompts/view-builder-size.md`).
 
 **Wake:** met: #86 merged (2026-10-03).
 **Source:** the founder's notes, ordered with Vision (2026-10-03).
