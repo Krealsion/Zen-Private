@@ -73,7 +73,8 @@ described views beside it: each runs as its own participant, with fields, button
 and draws on its pane's canvas in whole pixels. Then the Pane Creator retires into them, so a
 weaver has one way to make a pane from data and Workshop paints no authored pane of its own.
 
-**Wake:** the graphical View Builder merged, and then its turn in the order, with BL-WORK-05.
+**Wake:** met: the graphical View Builder merged (Zengine #86, 2026-10-03). Its turn in the order
+comes with BL-WORK-05.
 **Source:** the founder's choice while the show stage's prompt was prepared
 (`prompts/zengine-tally-show.md`); the research that missed it,
 [the UI builder](../reportbacks/zengine-flow-powers/ui-builder.md).
@@ -109,12 +110,13 @@ terminal shows the fallback derived from that picture.
 
 ### BL-WORK-07 — The View Builder's polish
 
-**State:** ORDERED — first in the founder's order (2026-10-03)  
+**State:** SELECTED — first in the founder's order; prompt `prompts/view-builder-polish.md`
+(2026-10-03)  
 **Owed:** A middle-button drag pans the design canvas, as it pans Flow's. A moved or resized
 element snaps to a grid and to the edges of the other elements. Edge handles join the corner
 handles, so one side can move alone.
 
-**Wake:** #86 merged: the graphical View Builder with its fixes.
+**Wake:** met: #86 merged (2026-10-03).
 **Source:** the founder's notes, ordered with Vision (2026-10-03).
 
 ### BL-WORK-08 — Quick desk fixes
@@ -130,9 +132,14 @@ handles, so one side can move alone.
   never says so keeps every Escape.
 - A file picker for import and export paths: a request for a path that any pane can make, and
   Files answers.
+- `external-host/demo.py`, the agents' demo launcher, says a start `failed` at the desk when the
+  setup seats a described view, and its `stop` says `readiness deadline expired: None` when a
+  pane refuses the quit.
 
 **Wake:** after BL-WORK-07.
-**Source:** as BL-WORK-07.
+**Source:** as BL-WORK-07; the two `demo.py` faults are from the View Builder's
+reports (`reportbacks/view-builder-canvas-RB.md`, `view-builder-fixes-RB.md`), added with the
+founder's OK (2026-10-03).
 
 ### BL-WORK-09 — What the canvas unlocks for every pane
 

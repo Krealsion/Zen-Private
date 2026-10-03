@@ -44,7 +44,10 @@ P-WORK-37 are the pressure that research measured. The find stage merged as Zeng
 (2026-10-01), closing P-WORK-35 and P-WORK-37; P-WORK-38 is pressure it measured. The compose
 stage merged as Zengine #84 (2026-10-02), closing P-WORK-34; P-WORK-39 and P-WORK-40 are pressure
 it measured. The show stage merged as Zengine #85 (2026-10-02), closing P-WORK-40; P-WORK-41 to
-P-WORK-44 are pressure it measured, and the View Builder is rebuilt graphically next.
+P-WORK-44 are pressure it measured. The graphical View Builder merged as Zengine #86
+(2026-10-03), closing P-WORK-41 and P-WORK-42's prefix; P-WORK-45 to P-WORK-49 are pressure it
+measured. The founder's order of 2026-10-03 ([the goal map](goals/workshop.md) §7) begins with
+the View Builder's polish (BL-WORK-07).
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -390,7 +393,8 @@ against Zengine `6492355`
 
 ### P-WORK-41 — A canvas pane cannot drag a value out or hear the pointer hover
 
-**State:** ACT — the graphical View Builder
+**State:** CLOSED — founder merged Zengine #86 (2026-10-03): a canvas press may carry a value out
+(WL-CANVAS-05), and a canvas hears where the pointer rests and when it leaves (WL-CANVAS-06)
 **Evidence:** [the show stage's report](../reportbacks/zengine-tally-show-RB.md#choices-the-founder-can-overrule)
 (choice 7); `workshop/weave_pointer.cpp` and `workshop/weave_canvas.cpp` at Zengine `8796d90`
 
@@ -403,17 +407,21 @@ element under the pointer. Info's selection mode (§7) needs the same hover.
 
 ### P-WORK-42 — A refusal reads in the evaluator's words
 
-**State:** ACT — the graphical View Builder, for its prefix; WATCH, for its length
+**State:** WATCH, for its length; its prefix closed by Zengine #86 (2026-10-03), which names where
+a refusal happened in a weaver's words
 **Evidence:** [the show stage's report](../reportbacks/zengine-tally-show-RB.md#decisions-asked)
 (decision 4); `operator/catalog.hpp`
 
 The evaluator prefixes a refusal with its composition's identity and node index:
 `'tally.r1.on.tally.panel.Count' step 0: ...`. "Step" names a node there, on a panel with a field
 named step. A view shows its owner's whole sentence; at the forty columns a view asks for, three
-notice rows hold about 117 characters, and this one is 150.
+notice rows hold about 117 characters, and this one is 150. Since #86 the sentence names its
+place in a weaver's words (`tally on tally.panel.Count at %0 fold math.add: ...`), eight
+characters longer. It was met live in a 22-row seat, which left the panel one notice row, and the
+sentence ended in `...` ([the graphical builder's report](../reportbacks/view-builder-canvas-RB.md#pressure-exposed);
+again in [its fixes' report](../reportbacks/view-builder-fixes-RB.md#pressure-exposed)).
 
-**Trigger:** the prefix, at its source, in the next stage; the length, when a weaver must read a
-refusal whole in a narrow view.
+**Trigger:** a weaver who must read a refusal whole in a narrow view.
 
 ### P-WORK-43 — Flow marks an observed state unsaved
 
@@ -436,6 +444,71 @@ though the weaver authored nothing.
 format's one consumer.
 
 **Trigger:** a host other than Workshop running described views.
+
+### P-WORK-45 — A running panel cannot change an intent's fields at the same version
+
+**State:** WATCH
+**Evidence:** [the View Builder fixes' report](../reportbacks/view-builder-fixes-RB.md#choices-the-founder-can-overrule)
+(choice 2, decision 2)
+
+Apply registers a successor while the running view still runs, so an intent whose fields change
+at the same name and version meets the running view's own claim, and Loom refuses it in its words
+(`'tally.panel.Count' v1 is already published with a different shape`); the panel goes on as it
+was. The weaver stops and runs it, or changes the intent's version. Make intent does not move the
+version itself: a moved version would leave a presenter listening at the old one.
+
+**Trigger:** a weaver changing a running panel's fields, or a decision that Make intent moves the
+version.
+
+### P-WORK-46 — A pointer that leaves the window leaves its hover mark
+
+**State:** WATCH
+**Evidence:** [the graphical View Builder's report](../reportbacks/view-builder-canvas-RB.md#pressure-exposed)
+
+No input event says the pointer left the window, so a mark over a canvas the pointer left through
+the window's edge stays until the pointer moves inside again (WL-CANVAS-06). A terminal reports
+no resting pointer at all.
+
+**Trigger:** a weaver's report, or Info's selection mode (BL-WORK-10), which scans by hover.
+
+### P-WORK-47 — The guest tool package is at Loom's 32-tool limit
+
+**State:** WATCH
+**Evidence:** [the graphical View Builder's report](../reportbacks/view-builder-canvas-RB.md#decisions-asked)
+(decision 4)
+
+Workshop's guest tools are one package at the 32 tools Loom allows. A manifest past the limit
+voids every tool in the package, said only by `loom-session tools` (`problem: ... more than 32
+tools`); the builder's `rest` became a step of `workshop/act` to stay inside it.
+
+**Trigger:** the next guest tool: split the package in two, or ask Loom to raise the limit.
+
+### P-WORK-48 — Inventory labels a kept carried shape by its message
+
+**State:** WATCH
+**Evidence:** [the third fixes' report](../reportbacks/view-builder-fixes-3-RB.md#choices-the-founder-can-overrule)
+(choice 3); `inventory-pane/pane.cpp`, which labels an item by its shape when no label is given
+
+A shape carried out of Flow or the View Builder and kept in Inventory is labelled
+`zengine.flow.CarriedShape`, the message it travels in, not the shape it holds, so several kept
+shapes look alike.
+
+**Trigger:** a weaver keeping more than one shape, or Info rebuilt (BL-WORK-10).
+
+### P-WORK-49 — The live-walk helpers are copied by hand from round to round
+
+**State:** WATCH
+**Evidence:** the View Builder fixes' three reports ([one](../reportbacks/view-builder-fixes-RB.md#doc-gaps),
+[two](../reportbacks/view-builder-fixes-2-RB.md#doc-gaps),
+[three](../reportbacks/view-builder-fixes-3-RB.md#doc-gaps))
+
+The scripts a phase uses to drive and picture a running Workshop (`ls.sh`, `walk.sh`, `shot.sh`,
+`crop.py`, a demo setup) live in phase scratch and are copied into the next by hand. Two of the
+three rounds paid for it: a directory name left from the round before started a Workshop in the
+wrong place, and a missed copy made a lane run nothing. Owner: `docs/workshop/external-host.md`
+§ 3.
+
+**Trigger:** the next slip, or a phase that keeps the helpers in a maintained place.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
