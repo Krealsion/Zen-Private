@@ -47,7 +47,8 @@ it measured. The show stage merged as Zengine #85 (2026-10-02), closing P-WORK-4
 P-WORK-44 are pressure it measured. The graphical View Builder merged as Zengine #86
 (2026-10-03), closing P-WORK-41 and P-WORK-42's prefix; P-WORK-45 to P-WORK-49 are pressure it
 measured. The founder's order of 2026-10-03 ([the goal map](goals/workshop.md) §7) begins with
-the View Builder's polish (BL-WORK-07).
+the View Builder's polish (BL-WORK-07), accepted as Zengine #87 (2026-10-03); the pane-size seam
+it found joins BL-WORK-05.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -505,8 +506,9 @@ shapes look alike.
 The scripts a phase uses to drive and picture a running Workshop (`ls.sh`, `walk.sh`, `shot.sh`,
 `crop.py`, a demo setup) live in phase scratch and are copied into the next by hand. Two of the
 three rounds paid for it: a directory name left from the round before started a Workshop in the
-wrong place, and a missed copy made a lane run nothing. Owner: `docs/workshop/external-host.md`
-§ 3.
+wrong place, and a missed copy made a lane run nothing. Met again in each of #87's rounds, where a
+terminal row spelled as the captured row plus two cost several presses. Owner:
+`docs/workshop/external-host.md` § 3.
 
 **Trigger:** the next slip, or a phase that keeps the helpers in a maintained place.
 

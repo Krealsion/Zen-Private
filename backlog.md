@@ -118,8 +118,8 @@ terminal shows the fallback derived from that picture.
 
 ### BL-WORK-07 — The View Builder's polish
 
-**State:** SELECTED — first in the founder's order; prompt `prompts/view-builder-polish.md`
-(2026-10-03)  
+**State:** CLOSED with Zengine #87 (accepted 2026-10-03; the founder merges on green CI), from
+`prompts/view-builder-polish.md` and `prompts/view-builder-size.md`  
 **Owed:** A middle-button drag pans the design canvas, as it pans Flow's. A moved or resized
 element snaps to a grid and to the edges of the other elements. Edge handles join the corner
 handles, so one side can move alone.
