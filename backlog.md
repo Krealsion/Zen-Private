@@ -93,9 +93,17 @@ in cells and belonging to no pane; Attention's compact indicator, the red box at
 right, which moves into the Attention pane; and the Pane Creator's panes, which retire into
 described views (BL-WORK-04). Arrangement mode snaps (P-WORK-10).
 
+A canvas pane asks for its room in pixels, not in Workshop's text rows and columns: the
+founder's choice (2026-10-03) of option (a) in the View Builder's size round
+([its report](../reportbacks/view-builder-size-RB.md#decisions-asked)). Today a view offers its
+size in 12-pixel canvas cells and Workshop reads them as its own text cells, so a 680 by 360
+view got a pane about 456 pixels wide, cut on the right. Then views and the View Builder
+measure in pixels end to end, nothing in a window forced onto cells: the window's picture is
+the authority, and a terminal's is derived from it.
+
 **Wake:** after BL-WORK-08.
 **Source:** the founder, while the show stage's prompt was prepared
-(`prompts/zengine-tally-show.md`).
+(`prompts/zengine-tally-show.md`), and again in the View Builder's size round (2026-10-03).
 
 ### BL-WORK-06 — The text panes draw on the canvas
 
