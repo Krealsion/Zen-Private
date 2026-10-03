@@ -115,6 +115,8 @@ terminal shows the fallback derived from that picture.
 **Owed:** A middle-button drag pans the design canvas, as it pans Flow's. A moved or resized
 element snaps to a grid and to the edges of the other elements. Edge handles join the corner
 handles, so one side can move alone.
+The founder added the view's size to it (2026-10-03): a size the weaver sets by hand, which the
+canvas draws the view in and the running view asks its pane for (`prompts/view-builder-size.md`).
 
 **Wake:** met: #86 merged (2026-10-03).
 **Source:** the founder's notes, ordered with Vision (2026-10-03).
@@ -207,6 +209,18 @@ can be chosen. With one row left under the question, More has no row of its own.
 
 **Wake:** the founder selects it.
 **Source:** the deep review of #86 (2026-10-03), parked by the founder.
+
+### BL-WORK-15 — The View Builder zooms
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** Zoom on the design canvas, working with the pan and the view's size, so a weaver places
+an element to the pixel by hand. A canvas draws text only at its room's one measured size
+(`PaneCanvasText` holds no size), so the builder alone could scale the boxes but not the words,
+and the canvas would stop showing the view as it runs. Workshop's canvas first learns to draw a
+picture at a scale; a terminal does not zoom.
+
+**Wake:** after BL-WORK-05, when the founder selects it.
+**Source:** the founder, while the View Builder's polish ran (2026-10-03).
 
 ## 3. Bounded defects and quick repairs
 
