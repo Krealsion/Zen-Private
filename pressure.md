@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-10-02
+**Refreshed:** 2026-10-03
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -516,7 +516,8 @@ setup a second population.
 
 ### P-WORK-10 — Arrangement has no snapping, locks or collision avoidance
 
-**State:** PARKED
+**State:** ACT for snapping, ordered by the founder with the whole-pixel desk (BL-WORK-05,
+2026-10-03); locks and collision avoidance stay PARKED
 **Evidence:** WUX-5/WUX-6/WUX-7 arrangement work; ARR-0
 
 Three separate wishes keep arriving together and are deliberately unbuilt: edge snapping,
@@ -531,6 +532,9 @@ remaining three still have to find.
 
 **Trigger:** arrangement is measured as a repeated cost in real use AND one of the three can be
 stated without a layout solver or a second geometry owner.
+
+Snapping goes ahead of this trigger by the founder's order, and still has to be stated without a
+layout solver or a second geometry owner.
 
 
 
@@ -917,7 +921,7 @@ teach concepts that are real.
   value's owner supports it, save to Inventory), and drags out to whatever accepts it: a one-slot
   Inventory with editing built in. No list of panes, and no limit on source or destination. The
   selection mode is the UI-editing overlay's way in ([the goal map](goals/workshop.md)), so the
-  two are one design.
+  two are one design. Ordered by the founder (2026-10-03) as BL-WORK-10 in `private/backlog.md`.
 
 These candidates influence completeness tests only. They require their own current consumers and
 authorized phases before they become architecture.

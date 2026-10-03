@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-10-02\
+**Refreshed:** 2026-10-03\
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -66,41 +66,130 @@ or the file passing 1,500 lines.
 
 ### BL-WORK-04 — The Pane Creator retires into described views
 
-**State:** PARKED / DECIDED (the founder, 2026-10-02)  
+**State:** DECIDED (the founder, 2026-10-02); ORDERED third, with BL-WORK-05 (2026-10-03)  
 **Owed:** The Pane Creator (WL-MAKER) makes a pane of static text regions that Workshop owns and
 paints, edited in Info and saved as `workshop-pane.json`. The tally panel's show stage builds
 described views beside it: each runs as its own participant, with fields, buttons and bindings,
 and draws on its pane's canvas in whole pixels. Then the Pane Creator retires into them, so a
 weaver has one way to make a pane from data and Workshop paints no authored pane of its own.
 
-**Wake:** the graphical View Builder merged.
+**Wake:** the graphical View Builder merged, and then its turn in the order, with BL-WORK-05.
 **Source:** the founder's choice while the show stage's prompt was prepared
 (`prompts/zengine-tally-show.md`); the research that missed it,
 [the UI builder](../reportbacks/zengine-flow-powers/ui-builder.md).
 
 ### BL-WORK-05 — Workshop's unit becomes the whole pixel
 
-**State:** PARKED / DECIDED (the founder, 2026-10-02)  
+**State:** DECIDED (the founder, 2026-10-02); ORDERED third (2026-10-03)  
 **Owed:** Workshop measures in 48ths of a cell, a quarter pixel in the window, and lays out the
 desk's fixed parts in cells before any font is measured. Reverse it: the whole pixel is the unit
 and a cell is 12 of them, so a pixel is a twelfth of a cell, and nothing authors a fraction of a
 pixel. The window's picture is complete in pixels; a terminal's is derived from it, floored to
 cells, with text refitted to what the terminal measures.
 
-**Wake:** after the tally panel's show stage, when the founder selects it.
+With it goes what Workshop still paints itself: the old grey workspace behind the panes, laid out
+in cells and belonging to no pane; Attention's compact indicator, the red box at the window's top
+right, which moves into the Attention pane; and the Pane Creator's panes, which retire into
+described views (BL-WORK-04). Arrangement mode snaps (P-WORK-10).
+
+**Wake:** after BL-WORK-08.
 **Source:** the founder, while the show stage's prompt was prepared
 (`prompts/zengine-tally-show.md`).
 
 ### BL-WORK-06 — The text panes draw on the canvas
 
-**State:** PARKED / DECIDED (the founder, 2026-10-02)  
+**State:** DECIDED (the founder, 2026-10-02); ORDERED fourth (2026-10-03)  
 **Owed:** Every pane except Flow, the View Builder and described views writes rows and columns of
 text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
 Builder, Powers and the rest. Each moves to the canvas, so every pane draws in pixels and a
 terminal shows the fallback derived from that picture.
 
-**Wake:** with or after BL-WORK-05.
+**Wake:** after BL-WORK-05; BL-WORK-09 follows it.
 **Source:** as BL-WORK-05.
+
+### BL-WORK-07 — The View Builder's polish
+
+**State:** ORDERED — first in the founder's order (2026-10-03)  
+**Owed:** A middle-button drag pans the design canvas, as it pans Flow's. A moved or resized
+element snaps to a grid and to the edges of the other elements. Edge handles join the corner
+handles, so one side can move alone.
+
+**Wake:** #86 merged: the graphical View Builder with its fixes.
+**Source:** the founder's notes, ordered with Vision (2026-10-03).
+
+### BL-WORK-08 — Quick desk fixes
+
+**State:** ORDERED — second in the founder's order (2026-10-03)  
+**Owed:**
+- The window opens whole on the screen, centred, and stays on the screen while it resizes during
+  load. Today it can open partly out of bounds.
+- Layouts, the tab row, is on every desk by default, agent-run setups included. Today a demo
+  setup can leave it out.
+- Escape deselects, as a default every pane has: first what the pane has selected, then the pane
+  itself, once the pane hands the Escape back unspent (`PaneEscapeUnspent`). Today a pane that
+  never says so keeps every Escape.
+- A file picker for import and export paths: a request for a path that any pane can make, and
+  Files answers.
+
+**Wake:** after BL-WORK-07.
+**Source:** as BL-WORK-07.
+
+### BL-WORK-09 — What the canvas unlocks for every pane
+
+**State:** ORDERED — fourth in the founder's order (2026-10-03), after BL-WORK-06  
+**Owed:** Once every pane draws on the canvas, every pane can have:
+- A hover cue on whatever a press would activate, from `PaneCanvasHover`.
+- A right press that focuses the pane it lands in. This reverses part of WL-CTX-01, under which
+  opening a context menu changes no selection, candidate or focus
+  (`agents/decisions/pointing-is-not-selection.md`).
+- A `?` at the pane's top right when the pane offers a summary or a tutorial. Workshop draws the
+  mark; the pane supplies the guide.
+- Tutorial mode: shifting outlines walk through the pane's own parts in turn, and the places that
+  take a drop are outlined in another colour. It never reaches into another pane.
+
+**Wake:** BL-WORK-06.
+**Source:** as BL-WORK-07. It also serves Task 6 of `private/goals/stranger-legible.md`.
+
+### BL-WORK-10 — Info rebuilt as a one-slot inspector
+
+**State:** ORDERED — fifth in the founder's order (2026-10-03)  
+**Owed:** The founder's picture of Info, seeded in `private/pressure.md` §7: a weave of many
+panes, rebuilt with today's Info as a quarry, that takes anything dropped on it or picked in its
+selection mode and edits it in fields with boxes. One piece serves it and BL-WORK-09: each pane's
+parts and their boxes, read from the pane's press map. Selection mode is how Info, and later the
+UI-editing overlay, reach those parts.
+
+**Wake:** after BL-WORK-09.
+**Source:** as BL-WORK-07; the seed in `private/pressure.md` §7.
+
+### BL-WORK-11 — Images
+
+**State:** ORDERED — sixth in the founder's order (2026-10-03)  
+**Owed:** The canvas draws an image, and a view description holds an image element. A terminal
+shows a fallback derived from the picture.
+
+**Wake:** after BL-WORK-10; it needs the whole pixel (BL-WORK-05).
+**Source:** as BL-WORK-07.
+
+### BL-WORK-12 — Multiple windows
+
+**State:** LATER — after its own research (the founder, 2026-10-03)  
+**Owed:** Workshop opens more than one window. A pane drags from one window into another, and
+each window has its own tab row.
+
+**Wake:** the founder selects it, after BL-WORK-11.
+**Source:** as BL-WORK-07; `Zengine/reference/todo.txt` asks for it too ("Allow for multi-window").
+
+### BL-WORK-13 — Python scripts as participants
+
+**State:** LATER — after its own research (the founder, 2026-10-03)  
+**Owed:** A demo script written in Python runs as a participant in the session: it speaks Zen
+shapes on the bus under its own grants, through Loom's ABI (`docs/reference/dynamic-abi.md` in
+Loom). Today the demo tools are Python workers of Loom's run manager, and they drive Workshop
+from outside, across the admitted link (`external-host/demo.py`).
+
+**Wake:** the founder selects it.
+**Source:** as BL-WORK-07.
 
 ## 3. Bounded defects and quick repairs
 
@@ -176,6 +265,18 @@ depends on performance.
 header invalidation on one Windows/MinGW Debug configuration. Native grant edits now have a compiled
 owner; the large shared fixture remains a measured pressure, not a claimed general speedup.
 The phase evidence owns exact counts/times and the limits of mtime-only probes.
+
+### BL-ADOPT-04 — GitHub from Workshop
+
+**State:** LATER — after its own research (the founder, 2026-10-03)  
+**Owed:** Sign in to GitHub from Workshop by GitHub's device sign-in, with the token kept in the
+operating system's credential store and never in a Zen file. Upload a weave into a directory of
+its own; mark a directory on the computer as linked to a GitHub repository; pull with one click.
+What a pull brings loads only under explicit authority (P-WORK-18), and this meets product
+distribution (P-ADOPT-01).
+
+**Wake:** the founder selects it.
+**Source:** the founder's notes, ordered with Vision (2026-10-03).
 
 ## 5. Architectural debt that waits for pressure
 

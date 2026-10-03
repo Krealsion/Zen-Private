@@ -1,7 +1,7 @@
 # Stranger-Legible Zen Goal Map
 
 **Status:** PRIVATE LIVE GOAL AUTHORITY  
-**Refreshed:** 2026-10-02\
+**Refreshed:** 2026-10-03\
 **Strategic authority:** `private/zen-strategic-map.md`, Goal 2  
 **Role:** Goal 2's selected tasks: what a stranger must be able to read, and how it stays true
 
@@ -123,7 +123,8 @@ a form, an accumulator, an office, a grant), a short description is one gesture 
 appears, so a weaver learns the word from the tool rather than from a search engine. The fold
 (Zengine #84) raised it: its name is the functional-programming term, and today its description
 is reached only through discovery.
-**Relation:** Task 1 (a plain first-read path) and Task 4 (one noun per concept).
+**Relation:** Task 1 (a plain first-read path) and Task 4 (one noun per concept). A pane's `?`
+guide and its tutorial mode serve it (`private/backlog.md`, BL-WORK-09).
 
 ## 3. Order
 
