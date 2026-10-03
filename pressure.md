@@ -47,7 +47,7 @@ it measured. The show stage merged as Zengine #85 (2026-10-02), closing P-WORK-4
 P-WORK-44 are pressure it measured. The graphical View Builder merged as Zengine #86
 (2026-10-03), closing P-WORK-41 and P-WORK-42's prefix; P-WORK-45 to P-WORK-49 are pressure it
 measured. The founder's order of 2026-10-03 ([the goal map](goals/workshop.md) §7) begins with
-the View Builder's polish (BL-WORK-07), accepted as Zengine #87 (2026-10-03); the pane-size seam
+the View Builder's polish (BL-WORK-07), merged as Zengine #87 (2026-10-03); the pane-size seam
 it found joins BL-WORK-05.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
@@ -604,6 +604,9 @@ authored is what is stored.
 (WUX-10) — and they cost neither a solver nor a second geometry owner, because a layout is an
 ordinary `Setup` and the session already owned machine-local state. That is the shape the
 remaining three still have to find.
+
+Anchoring a pane's place to another pane or an edge is researched with accordions (BL-WORK-16,
+the founder, 2026-10-03).
 
 **Trigger:** arrangement is measured as a repeated cost in real use AND one of the three can be
 stated without a layout solver or a second geometry owner.

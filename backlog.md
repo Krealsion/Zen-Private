@@ -118,7 +118,7 @@ terminal shows the fallback derived from that picture.
 
 ### BL-WORK-07 — The View Builder's polish
 
-**State:** CLOSED with Zengine #87 (accepted 2026-10-03; the founder merges on green CI), from
+**State:** CLOSED — merged as Zengine #87 (`80c1e95`, 2026-10-03), from
 `prompts/view-builder-polish.md` and `prompts/view-builder-size.md`  
 **Owed:** A middle-button drag pans the design canvas, as it pans Flow's. A moved or resized
 element snaps to a grid and to the edges of the other elements. Edge handles join the corner
@@ -141,11 +141,11 @@ its size the weaver's to set (`prompts/view-builder-size.md`).
 - Escape deselects, as a default every pane has: first what the pane has selected, then the pane
   itself, once the pane hands the Escape back unspent (`PaneEscapeUnspent`). Today a pane that
   never says so keeps every Escape.
-- A file picker for import and export paths: a request for a path that any pane can make, and
-  Files answers.
 - `external-host/demo.py`, the agents' demo launcher, says a start `failed` at the desk when the
   setup seats a described view, and its `stop` says `readiness deadline expired: None` when a
   pane refuses the quit.
+
+The file picker these notes also asked for is its own item now (BL-WORK-17, 2026-10-03).
 
 **Wake:** after BL-WORK-07.
 **Source:** as BL-WORK-07; the two `demo.py` faults are from the View Builder's
@@ -167,19 +167,19 @@ founder's OK (2026-10-03).
 
 ### BL-WORK-10 — Info rebuilt as a one-slot inspector
 
-**State:** ORDERED — fifth in the founder's order (2026-10-03)  
+**State:** ORDERED — seventh in the founder's order (2026-10-03), after BL-WORK-16 and BL-WORK-17  
 **Owed:** The founder's picture of Info, seeded in `private/pressure.md` §7: a weave of many
 panes, rebuilt with today's Info as a quarry, that takes anything dropped on it or picked in its
 selection mode and edits it in fields with boxes. One piece serves it and BL-WORK-09: each pane's
 parts and their boxes, read from the pane's press map. Selection mode is how Info, and later the
 UI-editing overlay, reach those parts.
 
-**Wake:** after BL-WORK-09.
+**Wake:** after BL-WORK-17.
 **Source:** as BL-WORK-07; the seed in `private/pressure.md` §7.
 
 ### BL-WORK-11 — Images
 
-**State:** ORDERED — sixth in the founder's order (2026-10-03)  
+**State:** ORDERED — eighth in the founder's order (2026-10-03)  
 **Owed:** The canvas draws an image, and a view description holds an image element. A terminal
 shows a fallback derived from the picture.
 
@@ -230,6 +230,44 @@ picture at a scale; a terminal does not zoom.
 
 **Wake:** after BL-WORK-05, when the founder selects it.
 **Source:** the founder, while the View Builder's polish ran (2026-10-03).
+
+### BL-WORK-16 — Accordions and anchors, researched first
+
+**State:** ORDERED — fifth in the founder's order (2026-10-03), after the text panes reach the
+canvas  
+**Owed:** A research phase, then the work it supports. The weaver shows and hides the parts of a
+pane with an accordion, and hides the pane itself the same way, and a pane's place can be
+anchored to another pane or to any edge, such as its parent's right side, so dependent placement
+follows when something opens, closes or moves. Some of this exists or was planned: the goal
+map's first target for a library of GUI transformations is an accordion attachable to a pane that
+preserves anchor paths ([the goal map](goals/workshop.md#further-shell-extraction-reusable-effects-and-playful-consumers));
+arrangement keeps each resize's opposite edge anchored and a default place reactive (Zengine
+`agents/workshop/arrangement.md`, WL-ARR-05 and WL-ARR-06, and
+`agents/decisions/anchors-and-axes.md`); the motion plan left the accordion layout story for
+later (`drafts/inventory-compose-motion-plan.md`); and relative placement waits with P-WORK-10.
+The research reads these and the code as it stands before anything is built. Files' path line
+and its marks, the quick places, are first consumers (BL-WORK-17).
+
+**Wake:** after BL-WORK-06 and BL-WORK-09.
+**Source:** the founder (2026-10-03).
+
+### BL-WORK-17 — Files answers a request for a path
+
+**State:** ORDERED — sixth in the founder's order (2026-10-03), after BL-WORK-16  
+**Owed:** A file picker that is Workshop's own work, not the operating system's dialog. A pane
+asks for a path, to open or to save, with the kinds it takes and a suggested name; Files answers
+later with the path the weaver chose, or says the choice was cancelled, and only the asker gets
+the answer. A request brings Files up with the keys if it is hidden, saying who asks and why;
+Escape cancels. In Files: a line to type a path into, absolute or from where the weaver is
+looking; the marks, which already survive restarts, as quick places in an accordion
+(BL-WORK-16); filters by kind; and a name line for saving. The View Builder's file box,
+Inventory's toolboxes, the Builder's recipe catalog and the editors' save-as take their paths
+through it. Open questions: a request whose asker goes away, two at once, the keys while
+choosing, overwriting on save, and whether Files may make a folder (its guide says it creates
+nothing).
+
+**Wake:** after BL-WORK-16, with Files on the canvas (BL-WORK-06), so its picture is built once.
+**Source:** the founder's notes, split from BL-WORK-08 with the founder's OK (2026-10-03).
 
 ## 3. Bounded defects and quick repairs
 
