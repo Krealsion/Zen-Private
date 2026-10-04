@@ -132,8 +132,8 @@ its size the weaver's to set (`prompts/view-builder-size.md`).
 
 ### BL-WORK-08 — Quick desk fixes
 
-**State:** ORDERED — second in the founder's order (2026-10-03); prompt
-`prompts/quick-desk-fixes.md` (2026-10-03)  
+**State:** CLOSED — merged as Zengine #88 (`dd5ebf9`, 2026-10-04), from
+`prompts/quick-desk-fixes.md`  
 **Owed:**
 - The window opens whole on the screen, centred, and stays on the screen while it resizes during
   load. Today it can open partly out of bounds.
@@ -163,7 +163,7 @@ its size the weaver's to set (`prompts/view-builder-size.md`).
 
 The file picker these notes also asked for is its own item now (BL-WORK-17, 2026-10-03).
 
-**Wake:** after BL-WORK-07.
+**Wake:** met: #87 merged (2026-10-03).
 **Source:** as BL-WORK-07; the two `demo.py` faults are from the View Builder's
 reports (`reportbacks/view-builder-canvas-RB.md`, `view-builder-fixes-RB.md`), added with the
 founder's OK (2026-10-03).
@@ -308,7 +308,9 @@ a closed one keeps its identity and counts against the bound until it is reused,
 toolbox with other views can refuse for that alone. A command binding to an entry that is gone
 keeps its place in the bounded list too. Retiring removes configuration only; it never moves a
 binding onto whatever holds the place next. Info bounds its own views by reusing four fixed ones,
-so the rebuilt Info (BL-WORK-10) meets the same question.
+so the rebuilt Info (BL-WORK-10) meets the same question. Since #88 a session makes up to 36
+views, so its catalog fills faster, and a toolbox restored into a Workshop that has already
+offered views refuses past 36 (`reportbacks/quick-desk-fixes-RB.md`).
 
 **Wake:** with BL-WORK-10, or when the founder selects it.
 **Source:** `reportbacks/zengine-inventory-portable-slots-RB.md` and

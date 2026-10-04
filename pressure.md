@@ -48,7 +48,9 @@ P-WORK-44 are pressure it measured. The graphical View Builder merged as Zengine
 (2026-10-03), closing P-WORK-41 and P-WORK-42's prefix; P-WORK-45 to P-WORK-49 are pressure it
 measured. The founder's order of 2026-10-03 ([the goal map](goals/workshop.md) §7) begins with
 the View Builder's polish (BL-WORK-07), merged as Zengine #87 (2026-10-03); the pane-size seam
-it found joins BL-WORK-05.
+it found joins BL-WORK-05. The quick desk fixes (BL-WORK-08) merged as Zengine #88 (2026-10-04);
+P-WORK-50 and P-WORK-51 are pressure it measured. An executor process phase comes next
+(`prompts/executor-process.md`, the founder, 2026-10-04), taking up P-WORK-49.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -511,7 +513,33 @@ wrong place, and a missed copy made a lane run nothing. Met again in each of #87
 terminal row spelled as the captured row plus two cost several presses. Owner:
 `docs/workshop/external-host.md` § 3.
 
-**Trigger:** the next slip, or a phase that keeps the helpers in a maintained place.
+**Trigger:** the next slip, or a phase that keeps the helpers in a maintained place. Met: #88
+copied them a third time and three broke; the executor process phase keeps them in a kit
+(`prompts/executor-process.md`, 2026-10-04).
+
+### P-WORK-50 — A desk of many panes pays for every change in full
+
+**State:** WATCH
+**Evidence:** [the quick desk fixes' report](../reportbacks/quick-desk-fixes-RB.md#pressure-exposed)
+
+Creating one Inventory view re-sends lists that grow with the catalog to Desktop and Workshop,
+so a desk's cost per change grows with its size: making 36 views took 30 s and applying their
+desk 18 to 31 s (Debug, MinGW-w64). #88 fixed the worst of it, a repaint whose cost grew with the
+fourth power of the desk, so that a 36-view desk never finished applying; what remains is the
+fan-out per change.
+
+**Trigger:** the next phase that grows a desk again measures it first.
+
+### P-WORK-51 — A desk made for a larger screen opens re-laid
+
+**State:** WATCH
+**Evidence:** [the quick desk fixes' report](../reportbacks/quick-desk-fixes-RB.md#pressure-exposed)
+
+Since #88 the window grows no larger than its display's usable area, and Workshop lays the desk
+out in the room it really has: a 200x60 desk opened at 158x54 on a 1920-wide monitor. Whether a
+desk should instead be fitted to the room is a policy no one has chosen.
+
+**Trigger:** a weaver or a setup needs a desk kept as authored on a smaller screen.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
