@@ -4,7 +4,9 @@
   `sudo` needs a password. WSL sees 30 GB of the host's 63.
 - **CPU**: Ryzen 9 7900X, 12 physical cores / 24 threads. `-j24` is the best measured build
   parallelism; `-j32` is slower. In WSL, which sees 30 GB, Zengine's official lane at `-j24`
-  had compilers killed for memory (2026-09-30); `-j8` built.
+  had compilers killed for memory (2026-09-30); `-j8` built. The founder's limits (2026-10-04):
+  a Windows build (MinGW-w64, MSVC, the SDL tree) runs at up to `-j16`; a WSL build stays at
+  `-j8`, since more can run the host out of memory.
 - **Build trees on ext4** under `~/zen-build/`: `loom`, `loom-install`, `zengine-p1`,
   `zengine-p1-san` (the Ninja-configured Zengine trees) and `CS3-head`, whose `prefix` (Loom
   `b47c7d6`) is the Loom both Zengine trees build against (`CMAKE_PREFIX_PATH` and `loom_DIR`,
