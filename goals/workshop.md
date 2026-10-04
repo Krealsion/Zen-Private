@@ -390,18 +390,18 @@ serializing unrelated pane/editor or UI-update work.
 | Accepted foundations | Desktop #35, schema admission Loom #8 / Zengine #36, external control #38, pane UX #37, Flow #40/#41/#42 and reusable sessions Loom #10 / Zengine #39 | Reuse existing ownership, schemas, drafts, authorized connections and sessions. A merged mechanism does not establish intuitive UX or every downstream authority promise. |
 | Accepted maker story | ELH Workshop improvement, Loom #11 / Zengine #44 | Reusable recipe-authoring route, maintained tool checks, native interaction evidence, loaded-module identity and continued session context. Multi-config recipe authoring resolves P-WORK-16. See the [completion report](../../reportbacks/zengine-elh-workshop-improvement-completion-RB.md). |
 | Accepted inventory foundation | Capture, collection and Info editing through #47 | Owned typed data and separate metadata, stable process-local identities, copy dragging and secondary live-reference editing. |
-| Accepted maker story | [Inventory to Compose and timed motion](../drafts/inventory-compose-motion-plan.md), PR #48 | Fill compatible forms, store complete commands and explicitly submit with actor authority; demonstrate through state-reactive ELH orchestration. |
-| Accepted maker story | [Comfortable panes and reusable test setups](../drafts/workshop-comfort-and-test-setups-plan.md), PR #49 | Per-pane initial comfort, one-command demo setup, visible warm reset and measured agent/ELH/host ceremony; reuse existing Inventory/Info and Compose stories. |
-| Accepted; #50 merged | [Reusable command presets and field acquisition](../drafts/inventory-command-presets-plan.md) | Start blank or work backward from a complete command, unset values, retain incomplete drafts, fill gaps from saved typed records and explicitly run with current authority. |
-| Accepted; #51 merged | [Portable inventory views and contextual hotkeys](../drafts/inventory-command-presets-plan.md#accepted-portable-view-contract) | Single boxes and row/column strips over owned entries; move/reorder/displace without data loss; duplicate independently; retain copied bindings disabled; explicit activation and per-invocation authority. |
-| Merged; Loom #13 / Zengine #52 | [Terminal acquisition](../drafts/inventory-command-presets-plan.md#terminal-and-answer-acquisition) | Retrieve real typed command/results at their retention and authority owner. Independent Info views, folders and durability follow demonstrated tasks. |
-| Accepted; Loom #14 / Zengine #53 merged, CI green | [Easier interaction authoring](../drafts/interaction-authoring-plan.md) | Shared request mechanics, one explicit native grant owner, attributable missing replies and an exercised loaded-pane guide. Application policy and pending remain explicit. |
-| Merged; #54 | [Durable toolboxes](../drafts/inventory-command-presets-plan.md#selected-keep-a-toolbox-across-restarts) | Explicitly save and restore typed data and portable configuration across restarts; reduce executor fixture setup to one owner operation. Fresh live references and inactive restored hotkeys preserve authority boundaries. |
-| Accepted; #55 merged | [Independent Info workbench](../drafts/inventory-command-presets-plan.md#selected-next-independent-info-workbench) | Keep sample and draft views side by side, transfer typed fields, watch linked entries without losing edits, sample supported sources explicitly and reuse a filled toolbox. Visible controls and bounded view lifetime make the story usable. |
-| Accepted; #58 merged | [Named Inventory folders](../drafts/inventory-command-presets-plan.md#selected-next-named-inventory-folders) | Organize growing toolboxes through nested names, immediate-child views, parent/root navigation and identity-preserving moves; retain hierarchy across save/restore and reuse entries through Info, Compose and portable slots. |
-| Accepted maker story; #60 merged | [Tower defense creation story through ELH](../drafts/tower-defense-creation-story-plan.md) | Complete creation/play/reload route and durable tools, with the reviewed reliability repairs and positive maker-authorized toolbox witness. The [second correction report](../../reportbacks/zengine-tower-defense-creation-story-corrections-2-RB.md) retains evidence; preserve the original experiment's declared boundary deviations. |
-| Accepted; Loom #16 / Zengine #62 merged | [Event-driven ELH observation and monitors](../drafts/elh-event-driven-observation-plan.md) | A reusable ELH run subscribes with authority, follows its Builder operation, then monitors gameplay and returns completion/deviation with evidence. Latest claims, occurrences and history stay distinct, and operation identity survives gaps, waits and cancellation. |
-| Accepted maker capability; #59 merged | [Editor typed transfers](../drafts/editor-typed-transfers-plan.md) | Both editors participate in typed reuse: incoming text/commands, selected-text capture, explicit C++ generation and saved file locators. Conventional coding remains first-class; no Flow dependency. |
+| Accepted maker story | [Inventory to Compose and timed motion](../../reportbacks/zengine-inventory-compose-motion-RB.md), PR #48 | Fill compatible forms, store complete commands and explicitly submit with actor authority; demonstrate through state-reactive ELH orchestration. |
+| Accepted maker story | [Comfortable panes and reusable test setups](../../reportbacks/zengine-comfortable-demo-setups-RB.md), PR #49 | Per-pane initial comfort, one-command demo setup, visible warm reset and measured agent/ELH/host ceremony; reuse existing Inventory/Info and Compose stories. |
+| Accepted; #50 merged | [Reusable command presets and field acquisition](../../reportbacks/zengine-inventory-command-presets-RB.md) | Start blank or work backward from a complete command, unset values, retain incomplete drafts, fill gaps from saved typed records and explicitly run with current authority. |
+| Accepted; #51 merged | [Portable inventory views and contextual hotkeys](../../reportbacks/zengine-inventory-portable-slots-RB.md) | Single boxes and row/column strips over owned entries; move/reorder/displace without data loss; duplicate independently; retain copied bindings disabled; explicit activation and per-invocation authority. |
+| Merged; Loom #13 / Zengine #52 | [Terminal acquisition](../../reportbacks/zengine-terminal-inventory-capture-RB.md) | Retrieve real typed command/results at their retention and authority owner. Independent Info views, folders and durability follow demonstrated tasks. |
+| Accepted; Loom #14 / Zengine #53 merged, CI green | [Easier interaction authoring](../../reportbacks/zen-interaction-authoring-RB.md) | Shared request mechanics, one explicit native grant owner, attributable missing replies and an exercised loaded-pane guide. Application policy and pending remain explicit. |
+| Merged; #54 | [Durable toolboxes](../../reportbacks/zengine-inventory-persistence-RB.md) | Explicitly save and restore typed data and portable configuration across restarts; reduce executor fixture setup to one owner operation. Fresh live references and inactive restored hotkeys preserve authority boundaries. |
+| Accepted; #55 merged | [Independent Info workbench](../../reportbacks/zengine-independent-info-workbench-RB.md) | Keep sample and draft views side by side, transfer typed fields, watch linked entries without losing edits, sample supported sources explicitly and reuse a filled toolbox. Visible controls and bounded view lifetime make the story usable. |
+| Accepted; #58 merged | [Named Inventory folders](../../reportbacks/zengine-inventory-named-folders-RB.md) | Organize growing toolboxes through nested names, immediate-child views, parent/root navigation and identity-preserving moves; retain hierarchy across save/restore and reuse entries through Info, Compose and portable slots. |
+| Accepted maker story; #60 merged | [Tower defense creation story through ELH](../../reportbacks/zengine-tower-defense-creation-story-RB.md) | Complete creation/play/reload route and durable tools, with the reviewed reliability repairs and positive maker-authorized toolbox witness. The [second correction report](../../reportbacks/zengine-tower-defense-creation-story-corrections-2-RB.md) retains evidence; preserve the original experiment's declared boundary deviations. |
+| Accepted; Loom #16 / Zengine #62 merged | [Event-driven ELH observation and monitors](../../reportbacks/elh-event-driven-observation-RB.md) | A reusable ELH run subscribes with authority, follows its Builder operation, then monitors gameplay and returns completion/deviation with evidence. Latest claims, occurrences and history stay distinct, and operation identity survives gaps, waits and cancellation. |
+| Accepted maker capability; #59 merged | [Editor typed transfers](../../reportbacks/zengine-editor-typed-transfers-RB.md) | Both editors participate in typed reuse: incoming text/commands, selected-text capture, explicit C++ generation and saved file locators. Conventional coding remains first-class; no Flow dependency. |
 | Find (#82), compose (#84) and show (#85) merged, 2026-10-02 | [The tally panel, in three stages](../../reportbacks/zengine-flow-powers/proving-story.md), from [Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md) | **Find:** one read-only discovery door over the live catalog, prose carried in each contribution, Flow's palette over the door, Powers browsing through it and the Terminal asking it. **Compose:** the evaluation budget first, then operator references, with Add able to place a node before the one selected, the bounded fold loop, Flow's carry receivers, emit authoring and integer addition. **Show:** a view description, view host, renderer and UI builder beside Flow, joined to it by shapes. Each stage is reviewed on its own. |
 | Merged; #86 (2026-10-03) | [The graphical View Builder](../../prompts/view-builder-canvas.md) | The View Builder becomes a tool worked by hand: a palette to drag element kinds from, an element list, and a design canvas drawn by the view's own renderer, with drag to create, move and resize, a hover highlight and click to select; values edit in fields with boxes. A canvas pane drags values out and hears the pointer hover. |
 | Merged; #83 (2026-10-02), between the tally stages | [Default pane menu](../../prompts/zengine-default-pane-menu.md) | A right press in a pane's body never vanishes: the pane acts or offers its rows where it has something there, and the standard pane menu opens everywhere else. A pane's own rows sit above the standard rows in one menu. Taking a pane off the desk is called hide, and a row that opens another menu ends in ` >`. |
@@ -413,10 +413,13 @@ serializing unrelated pane/editor or UI-update work.
 | Ordered 2026-10-03, sixth | [Files answers a request for a path](../backlog.md#bl-work-17--files-answers-a-request-for-a-path) | A file picker of Workshop's own: a pane asks and Files answers with the path the weaver chose, with a typed path line, the marks as quick places in an accordion, filters and a name line for saving. |
 | Ordered 2026-10-03, seventh | [Info rebuilt as a one-slot inspector](../backlog.md#bl-work-10--info-rebuilt-as-a-one-slot-inspector) | Info takes anything dropped on it or picked in its selection mode, and edits it in fields with boxes. It shares each pane's parts and boxes with the tutorial mode. |
 | Ordered 2026-10-03, eighth | [Images](../backlog.md#bl-work-11--images) | The canvas draws an image, and a view description holds one; a terminal shows a fallback. |
-| Ordered 2026-10-03, later | [Multiple windows](../backlog.md#bl-work-12--multiple-windows), [GitHub from Workshop](../backlog.md#bl-adopt-04--github-from-workshop) and [Python scripts as participants](../backlog.md#bl-work-13--python-scripts-as-participants) | Each after its own research, when the founder selects it. |
+| Ordered 2026-10-03, ninth | [Agents read the desk by messages](../backlog.md#bl-work-24--agents-read-the-desk-by-messages), with [agents acting by intent](../backlog.md#bl-work-25--agents-act-by-intent) beside it, ongoing | An agent works from messages alone: stable IDs, with places and sizes as numbers in pixels that tests prove match what is drawn. It states an intent in one dense message carrying the whole idea, and each story makes more intents solid. |
+| Ordered 2026-10-03, tenth | [Load metadata, researched](../backlog.md#bl-work-26--load-metadata-researched) | What a weave was loaded from, by whom and when, discoverable through its contract, each fact with its owner; metadata grants nothing. |
+| Ordered 2026-10-03, eleventh | [A dead weave's last state, inspectable](../backlog.md#bl-work-27--a-dead-weaves-last-state-inspectable) | The owner still holding a dead weave's last state offers it, typed, saying what kind of value it is; looking never restores. These two close the current arc. |
+| Ordered 2026-10-03, later | [Multiple windows](../backlog.md#bl-work-12--multiple-windows), [GitHub from Workshop](../backlog.md#bl-adopt-04--github-from-workshop), [Python scripts as participants](../backlog.md#bl-work-13--python-scripts-as-participants) and, at the very bottom, [undo and time travel](../backlog.md#bl-work-33--undo-and-time-travel) | Each after its own research, when the founder selects it. Undo and time travel come last of all: undo of real effects, then full undo and time travel for demos. |
 | Parallel product/research | UI update optimization, pane UX and expressive editors | Measured rendering work, with the view renderer as UI update's first consumer, and independent pane/editor improvements. Shared input/authority contracts need coordination; unrelated improvements continue. |
 | Following concrete dependencies | Full UI-editing overlay, protected experimentation/publication and broader schema/migration work | Typed inspection is useful before complete UI authoring. State custody and enforcement must exist before promising protected originals. |
-| Future candidate; not implemented or selected | [Terminal command scripts (`.zenscript` idea)](../drafts/editor-typed-transfers-plan.md#later-idea-terminal-command-scripts) | Repeat commands as if sent through Terminal, with explicit authority and completion/failure behavior. The name is a proposed convenience, not an existing language or part of the Editor packet. |
+| Backlog; not implemented or selected | [Terminal command scripts (`.zenscript` idea)](../backlog.md#bl-work-23--terminal-command-scripts) | Repeat commands as if sent through Terminal, with explicit authority and completion/failure behavior. The name is a proposed convenience, not an existing language or part of the Editor packet. |
 | Later consumers | Deeper setup/configuration, reusable effects, Python, GPU and broader multi-host work | Demonstrated stories earn scope; no universal framework or complete renderer is a prerequisite. |
 
 These are capability boundaries, not mandatory research/implementation handoffs or arbitrary PR
@@ -434,8 +437,10 @@ ceremony and context-compaction findings. GUI, TUI and structured ELH routes rea
 semantic owners. Scope and proof can support autonomous story work; shared meaning, authority,
 persistence and replacement decisions remain founder-directed.
 
-The [maker-story arc](../drafts/maker-story-development.md) owns the detailed direction and
-research questions; the [inventory capture plan](../drafts/inventory-capture-plan.md) bounds the first story.
+The maker-story arc's remaining research is in the backlog: load metadata
+([BL-WORK-26](../backlog.md#bl-work-26--load-metadata-researched)) and a dead weave's last state
+([BL-WORK-27](../backlog.md#bl-work-27--a-dead-weaves-last-state-inspectable)). The
+[inventory capture report](../../reportbacks/zengine-inventory-capture-RB.md) holds its first story.
 Resolve a selected pane subject to its actual data owner and supported
 schema/value retrieval. A temporary info box can follow the source, become a pinned view,
 yield an independent copy or save typed content for later. Reuse message-draft traversal and
@@ -455,16 +460,18 @@ decoding schemas; unavailable optional facts stay absent. Set replaces the pair 
 Get yields independent data without executing actions or reviving the source's authority.
 Capture, collection and Info editing own process-local live state. The merged toolbox phase
 (#54) adds explicit disk save/restore; automatic recovery remains unselected.
-The [implemented Compose phase](../drafts/inventory-compose-motion-plan.md)
+The [implemented Compose phase](../../reportbacks/zengine-inventory-compose-motion-RB.md)
 extends reuse without changing the pair/authority boundary.
-The [command preset/view plan](../drafts/inventory-command-presets-plan.md) owns accepted preset,
-acquisition and portable-view behavior plus the next maker-story options. Several views should refer to the same owned
+The [preset](../../reportbacks/zengine-inventory-command-presets-RB.md),
+[portable-view](../../reportbacks/zengine-inventory-portable-slots-RB.md) and
+[acquisition](../../reportbacks/zengine-terminal-inventory-capture-RB.md) reports hold the accepted
+behavior; Inventory's next options are backlog items BL-WORK-18 to BL-WORK-22. Several views should refer to the same owned
 entries while keeping their own arrangement and editing state. Slot placement, collection identity
 and execution remain distinct; sorting must not silently redirect a pinned hotkey. Typed Terminal
 acquisition now uses its actual retention/authority owner. Independent Info views now provide
 separate editing state, routed replies and bounded lifetime; named nested folders are accepted in #58.
-The selected [creation story](../drafts/tower-defense-creation-story-plan.md) now puts these tools
-to work on a playable tower defense game and a reusable demonstration of how it was made.
+The [creation story](../../reportbacks/zengine-tower-defense-creation-story-RB.md) (#60) put these
+tools to work on a playable tower defense game and a reusable demonstration of how it was made.
 The longer-term inventory can organize code/data/schemas into bags, represent unavailable sources
 and saved actions, and support dependency discovery/build/load. Drag-out follows the same transfer
 meaning as dragging from a pane. The accepted generic preset path now supplies the first portable-view story.
@@ -506,7 +513,7 @@ The founder's refinement selects a 1920×1080 landscape ideal, drag-first placem
 left/right buttons, hover details, explicit Store boundaries, operator tags and native-source
 traversal. [Building blocks and reusable UI pairs](../drafts/flow-building-blocks.md) keeps the
 presenter/view rule profile; the pair itself is now an assembly of a Flow-made presenter and a
-builder-made view, and the recycling list is the view renderer's. The [maker-story arc](../drafts/maker-story-development.md) owns shared
+builder-made view, and the recycling list is the view renderer's. The [maker-story section](#complete-maker-stories-and-reusable-information) states shared
 inspection, metadata and actor-authority requirements. Flow consumes those typed transfers;
 agents use the equivalent semantic edits under their own grants. Presenters process data without drawing; views own rendering/local display state
 and report typed intents. Enforcement claims distinguish participant grants from trusted native
@@ -619,7 +626,7 @@ simple external-pane learning artifact (BL-WORK-02).
 
 ### Part 3 — Expressive editors and presentation
 
-**Selected parallel packet:** [Editor typed transfers](../drafts/editor-typed-transfers-plan.md).
+**Accepted parallel packet (#59):** [Editor typed transfers](../../reportbacks/zengine-editor-typed-transfers-RB.md).
 Extract only an established selection, through right-click > Extract or a drag beginning
 inside its highlight; ordinary selection drags keep their meaning. Copy text to Inventory,
 insert saved text/commands, and retain file locations that reopen through the active editor.
@@ -681,8 +688,8 @@ Input admission, processing, application completion and presentation are separat
 selected rule is to preserve the agent as actor through injected input and direct requests,
 including privileged approval UI. Current Input republishes injected and platform events without
 downstream origin distinction; receiving-side guest admission alone does not enforce that rule.
-The [maker-story arc](../drafts/maker-story-development.md#maker-actions-and-external-authority)
-owns the research and default-off compile-time bypass requirement. Preserve the ordering needed
+The [maker-story section](#complete-maker-stories-and-reusable-information)
+states the research and default-off compile-time bypass requirement. Preserve the ordering needed
 to request a screenshot after relevant input and a subsequent presentation. A
 picture is evidence of presentation, not proof that asynchronous work finished. A disconnect after
 submission can leave the outcome unknown; silence does not prove failure or authorize blind replay.
@@ -701,7 +708,7 @@ boundaries and preserve its custody.
 
 ### Event-driven ELH observation — accepted
 
-Loom #16 and Zengine #62 merged the [event-driven observation arc](../drafts/elh-event-driven-observation-plan.md)
+Loom #16 and Zengine #62 merged the [event-driven observation arc](../../reportbacks/elh-event-driven-observation-RB.md)
 (2026-09-25 and 26).
 Its first proof follows Builder's existing structured outcomes; the second lets a Python package
 monitor gameplay events in an explicit play state and report a deviation or completion with
@@ -720,8 +727,8 @@ harness as a tool that makers can learn and extend: give each relevant phase's r
 ELH improvements/ceremony section, and maintain a compact capability and extension map with
 links to deeper owners. The [experiment arc's documentation direction](../../reportbacks/elh-workshop-improvement-arc.md#elh-improvements-and-a-compact-reader-entry)
 defines the reader journey and that bounded continuation's scope. The
-[maker-story arc](../drafts/maker-story-development.md#delivery-arc-and-acceleration) owns the
-subsequent story, inspection and reusable-package direction.
+maker-story arc's last step follows the next stories: turning demonstrated setups, fixtures,
+journeys and checks into reusable ELH packages.
 
 Generic session, run, history and tool-authoring guidance belongs in Loom. Workshop-specific
 setup, control and reusable tools belong in a separately organized Zengine external-host guide
@@ -732,7 +739,7 @@ Update affected documentation with capability changes. The merged experiment sup
 setup/journey guide, a small build fixture and maintained tool checks. Reuse that route; further
 harness changes need concrete ceremony or capability pressure from the next story.
 
-The founder's 2026-09-22 [setup detour](../drafts/workshop-comfort-and-test-setups-plan.md) supplies
+The founder's 2026-09-22 [setup detour](../../reportbacks/zengine-comfortable-demo-setups-RB.md) supplies
 that pressure: choose comfortable initial pane sizes and maintain one or two named demo setups,
 initially value inspection and command reuse. One agent command prepares a ready environment;
 a visible Reset action and matching command restore that demo's declared starting state. Reuse
@@ -750,8 +757,8 @@ Editing mode must make clear whether a gesture inspects the UI or activates the 
 Keep target identity and applicable revision/provenance explicit across changes; consult P-WORK-25
 when defining that selection, without requiring a universal history protocol in the desktop packet.
 
-The selected [typed-inspection arc](../drafts/maker-story-development.md#typed-information-as-reusable-material)
-first makes owner-supplied information reusable through linked views, copies and saved values.
+The [typed-inspection arc](#complete-maker-stories-and-reusable-information)
+made owner-supplied information reusable through linked views, copies and saved values.
 It can serve pane, component, composite and schema subjects before the complete editing overlay.
 Info presents their descriptions and operations. The presentation does not acquire universal write authority. Each
 owner validates its own edits and reports their fate; looking does not author. Preserve subject
@@ -953,7 +960,7 @@ or verification volume standing in for a claim-specific witness.
 - **Purpose:** let a person build with Zen without first studying a private architecture course.
 - **Capability:** choose a source, edit/save, build, realize or reload a same-shape weave,
   inspect it, and explicitly promote or revert. See §2 for the complete current capability.
-- **Accepted story:** [tower-defense creation through ELH](../drafts/tower-defense-creation-story-plan.md),
+- **Accepted story:** [tower-defense creation through ELH](../../reportbacks/zengine-tower-defense-creation-story-RB.md),
   merged #60: live editing, build/reload/play, durable workspace/toolbox/tools and a repeatable
   demo. Its repairs and maker hotkey witness are accepted; evidence preserves the original
   experiment's limits. Folders (#58), Info (#55), persistence (#54), Editor transfers (#59)

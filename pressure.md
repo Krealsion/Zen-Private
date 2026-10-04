@@ -27,12 +27,12 @@ The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) owns the 
 Typed Inventory capture, collection, inspection, Compose, portable slots, Terminal acquisition
 and the interaction-authoring foundation are merged. Durable toolboxes (#54), independent Info
 views (#55) and named folders (#58) are accepted. The founder selected a
-[tower-defense creation story through ELH](drafts/tower-defense-creation-story-plan.md) to test
-these foundations against a complete goal. It is delivered for review as Zengine #60; its measured
+[tower-defense creation story through ELH](../reportbacks/zengine-tower-defense-creation-story-RB.md) to test
+these foundations against a complete goal. It merged as Zengine #60; its measured
 pressure is P-WORK-29 to P-WORK-32. Reusable tools, live Workshop development and a
 repeatable creation demo take priority over game polish. New product scope follows actual story
 pressure; the immutable host and unsupported reload boundaries remain explicit. The parallel
-[Editor transfer packet](drafts/editor-typed-transfers-plan.md) connects selected text, saved
+[Editor transfer packet](../reportbacks/zengine-editor-typed-transfers-RB.md) connects selected text, saved
 commands and file locators to Inventory in isolated worktrees, with optional explicit C++
 generation. It preserves conventional coding and supplies evidence for Flow. Flow and other
 independent pane/editor work continue alongside.
@@ -83,11 +83,12 @@ Keep the earlier anchors, fill, docking, locks and relative-placement questions 
 future consumer; the cramped default stack remains P-WORK-01 rather than a new inspector task.
 
 **Selected consumer:** inspect a represented subject, retain/copy/save typed information and
-reuse it elsewhere under explicit authority. The [maker-story arc](drafts/maker-story-development.md)
-owns acquisition, schema/value reuse and contract-metadata research. Full overlay editing and
+reuse it elsewhere under explicit authority. The [goal map's maker-story section](goals/workshop.md#complete-maker-stories-and-reusable-information)
+owns acquisition and schema/value reuse; contract-metadata research is
+[BL-WORK-26](backlog.md#bl-work-26--load-metadata-researched). Full overlay editing and
 layout properties keep their own scope. Keep selection, focus, click-through and the inspected
 subject distinct.
-The [first inventory slot](drafts/inventory-capture-plan.md) establishes the destination and typed
+The [first inventory slot](../reportbacks/zengine-inventory-capture-RB.md) establishes the destination and typed
 capture pair before broad contextual acquisition; it needs no new graphical inspector.
 
 ### P-WORK-03 — Remaining shell ownership follows concrete consumers
@@ -534,7 +535,7 @@ a dependency solver, automatic retries or a new boot framework from the accepted
 Terminal interaction, Neovim profile discoverability, editor highlighting/caret presentation,
 standard-editor tabs/navigation/Git marks and reversible hidden comments now have a real consumer.
 The [roadmap](goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns their sequence and limits.
-Editors may serve different audiences. The selected [typed transfer packet](drafts/editor-typed-transfers-plan.md)
+Editors may serve different audiences. The accepted [typed transfer packet](../reportbacks/zengine-editor-typed-transfers-RB.md)
 now adds existing-selection extraction, text/command insertion and saved file locators across
 both editors. Optional C++ generation is a separate explicit action, with actual header/type
 requirements. Unicode/column geometry, document lifecycle and native write authority remain
@@ -702,8 +703,8 @@ Receiving-side guest admission grants bounded external operations; it does not s
 artifact trust or preserve the initiator through every privileged UI action. The discovery door
 (#82) answers any participant with a sender; it only describes, so it follows this item's answer
 rather than adding to it. Research both
-under the [maker-story authority boundary](drafts/maker-story-development.md#maker-actions-and-external-authority).
-The [inventory plan](drafts/inventory-capture-plan.md) requires ordinary bounded acquisition and
+under the [maker-story authority boundary](goals/workshop.md#complete-maker-stories-and-reusable-information).
+The [first inventory phase](../reportbacks/zengine-inventory-capture-RB.md) required ordinary bounded acquisition and
 storage grants. Broader input-origin enforcement becomes required as contextual UI paths are
 touched; a direct message-only first slot does not claim whole-Workshop artifact-policy hardening.
 An ELH must not approve or enlarge its authority through the ordinary path, including a popup.

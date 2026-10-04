@@ -189,7 +189,7 @@ Tags are many-to-many and may cross folders. Neither `pure` nor `view-safe` beco
 because it was attached as a label. Keep metadata versioned and optional so older/missing
 descriptions remain honest. This small common descriptor is a consumer of a wider metadata pass,
 not an excuse to build a universal ontology first. The selected
-[contract-metadata research](maker-story-development.md#metadata-in-the-weave-contract-selected-research)
+[contract-metadata research](../backlog.md#bl-work-26--load-metadata-researched)
 owns the distinction between author declarations and host-attested file, actor and load-time facts.
 
 Entering an authored composite opens its graph. Entering a native primitive opens actual source
@@ -213,8 +213,8 @@ in-place reload path; opening/editing source does not imply that the running imp
 receivers for values, shapes, operator references and operations; the tally panel's compose
 stage brings the first three.
 
-Flow remains an intended consumer of the Workshop-wide transfer protocol. The selected
-[Editor transfer packet](editor-typed-transfers-plan.md) exercises selected text, command
+Flow remains an intended consumer of the Workshop-wide transfer protocol. The accepted
+[Editor transfer packet](../../reportbacks/zengine-editor-typed-transfers-RB.md) exercises selected text, command
 insertion and file locators first, with separate optional C++ generation. Conventional code
 editing must remain independently useful: no Flow document or compiler is required to reuse
 material across these panes. Let the observed friction inform Flow's conveniences without
@@ -224,7 +224,7 @@ The host/input owner tracks the gesture across pane boundaries and resolves the 
 using current grants
 and displayed geometry. The source offers a bounded typed payload or resolvable reference; the
 destination owns validation and the eventual semantic edit. The
-[maker-story arc](maker-story-development.md) owns typed inspection and authority across these
+[maker-story section](../goals/workshop.md#complete-maker-stories-and-reusable-information) owns typed inspection and authority across these
 routes: acquisition and use are separate actions by the maker or an ELH with granted authority.
 Handling the actor's data does not grant a pane that actor's authority. A privileged intermediary
 must not turn an ELH gesture into a maker approval. Any ELH permission bypass must be compiled

@@ -144,6 +144,10 @@ its size the weaver's to set (`prompts/view-builder-size.md`).
 - `external-host/demo.py`, the agents' demo launcher, says a start `failed` at the desk when the
   setup seats a described view, and its `stop` says `readiness deadline expired: None` when a
   pane refuses the quit.
+- Inventory holds up to 36 portable views, not 12: single boxes of actions may be common enough
+  to flood twelve (the founder, 2026-10-03). Workshop's own ceilings rise with it, to a number the
+  founder sets: a session's catalog and one desk each hold at most 32 panes today, every pane
+  counted (`kMaxPaneCatalogEntries`, `kMaxSetupPanes`).
 
 The file picker these notes also asked for is its own item now (BL-WORK-17, 2026-10-03).
 
@@ -192,7 +196,7 @@ shows a fallback derived from the picture.
 **Owed:** Workshop opens more than one window. A pane drags from one window into another, and
 each window has its own tab row.
 
-**Wake:** the founder selects it, after BL-WORK-11.
+**Wake:** the founder selects it, after BL-WORK-27.
 **Source:** as BL-WORK-07; `Zengine/reference/todo.txt` asks for it too ("Allow for multi-window").
 
 ### BL-WORK-13 — Python scripts as participants
@@ -243,8 +247,9 @@ map's first target for a library of GUI transformations is an accordion attachab
 preserves anchor paths ([the goal map](goals/workshop.md#further-shell-extraction-reusable-effects-and-playful-consumers));
 arrangement keeps each resize's opposite edge anchored and a default place reactive (Zengine
 `agents/workshop/arrangement.md`, WL-ARR-05 and WL-ARR-06, and
-`agents/decisions/anchors-and-axes.md`); the motion plan left the accordion layout story for
-later (`drafts/inventory-compose-motion-plan.md`); and relative placement waits with P-WORK-10.
+`agents/decisions/anchors-and-axes.md`); the Compose motion phase (#48) left the accordion layout
+story for later (its plan, removed 2026-10-03, is in Git at `aa2fb18`); and relative placement
+waits with P-WORK-10.
 The research reads these and the code as it stands before anything is built. Files' path line
 and its marks, the quick places, are first consumers (BL-WORK-17); the founder sees Info's
 nested values as another (BL-WORK-10).
@@ -269,6 +274,202 @@ nothing).
 
 **Wake:** after BL-WORK-16, with Files on the canvas (BL-WORK-06), so its picture is built once.
 **Source:** the founder's notes, split from BL-WORK-08 with the founder's OK (2026-10-03).
+
+### BL-WORK-18 — Inventory finds an entry without walking folders
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** Search, or a flat view of every entry, so finding an entry costs about one action
+however deep its folders go. In #58's four-entry workbench the same retrieval took 1 maker action
+flat and 7 through two folder levels. The founder pictures Inventory as an empty folder in
+Windows: loose entries of any type, and folders only when the weaver wants them. The root already
+works that way (Zengine `docs/workshop/inventory-folders.md`).
+
+**Wake:** the founder selects it, or a growing collection shows the cost in use.
+**Source:** `reportbacks/zengine-inventory-named-folders-RB.md`; filed from the finished drafts
+with the founder's OK (2026-10-03).
+
+### BL-WORK-19 — Inventory views retire
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** A closed Inventory view gives its place back. Today an offered view is never withdrawn:
+a closed one keeps its identity and counts against the bound until it is reused, and restoring a
+toolbox with other views can refuse for that alone. A command binding to an entry that is gone
+keeps its place among the sixteen too. Retiring removes configuration only; it never moves a
+binding onto whatever holds the place next. Info bounds its own views by reusing four fixed ones,
+so the rebuilt Info (BL-WORK-10) meets the same question.
+
+**Wake:** with BL-WORK-10, or when the founder selects it.
+**Source:** `reportbacks/zengine-inventory-portable-slots-RB.md` and
+`zengine-inventory-persistence-RB.md`; filed from the finished drafts (2026-10-03).
+
+### BL-WORK-20 — Hotkey contexts beyond on and off
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** Today Inventory and each of its views have a context the weaver switches on or off, and
+each starts off. A context could also follow focus, carry a name the weaver gives it, or belong
+to a folder, as view configuration keyed by the folder's identity; a folder itself grants
+nothing. A single box could wear a face the weaver designs.
+
+**Wake:** the founder selects it.
+**Source:** `reportbacks/zengine-inventory-portable-slots-RB.md` and
+`zengine-inventory-named-folders-RB.md`; filed from the finished drafts (2026-10-03).
+
+### BL-WORK-21 — Inventory's smaller extras
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** Placement locks, which keep an entry where the weaver put it when the collection is
+sorted; tags; back and forward through folders; selecting several entries at once; and deleting
+a folder with what it holds, where today only an empty folder deletes.
+
+**Wake:** each when use asks for it.
+**Source:** `reportbacks/zengine-inventory-named-folders-RB.md`; filed from the finished drafts
+(2026-10-03).
+
+### BL-WORK-22 — Run a stored command from its menu
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** A right press on a stored complete command offers Run, with the current actor's
+authority, beside the hotkey and Compose routes that run it today. Commands reach Inventory only
+when the weaver puts them there, as by dragging a Terminal row in (#52); nothing stores them
+automatically (the founder, 2026-10-03).
+
+**Wake:** the founder selects it.
+**Source:** the Compose motion phase (#48, `reportbacks/zengine-inventory-compose-motion-RB.md`);
+filed from the finished drafts (2026-10-03).
+
+### BL-WORK-23 — Terminal command scripts
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** A file of commands that runs in order as if each were sent through the Terminal, much
+as a shell script does, for repeating real command sequences. The founder's name for it is
+`.zenscript`; none of it exists. Its packet chooses ordering and completion, failure and
+cancellation, addressing and current authority with the real Terminal and message owners.
+
+**Wake:** the founder selects it.
+**Source:** the founder, during the Editor transfers phase (#59), kept until now in that phase's
+plan (removed 2026-10-03; in Git at `aa2fb18`).
+
+### BL-WORK-24 — Agents read the desk by messages
+
+**State:** ORDERED — ninth in the founder's order (2026-10-03), after images  
+**Owed:** An agent gets all it needs from the message system. Each pane's controls, rows and
+elements answer to stable IDs, with their places and sizes in pixels as numbers, so an agent
+checks a size by the number returned instead of counting pixels in a screenshot, and picks a
+menu row by its ID instead of by where it falls. Tests prove each number matches what is really
+drawn. Screenshots stay evidence of presentation and are needed less: they are costly to move,
+and a long story's record can outrun the retained history.
+
+**Wake:** after BL-WORK-11, once drawing has grown.
+**Source:** the founder (2026-10-03), joining two pressures from the finished drafts: menu rows
+reached by position, and the cost of evidence (`reportbacks/zengine-comfortable-demo-setups-RB.md`,
+`zengine-inventory-command-presets-RB.md`).
+
+### BL-WORK-25 — Agents act by intent
+
+**State:** ONGOING — beside BL-WORK-24 (the founder, 2026-10-03)  
+**Owed:** An agent states an intent in one dense message that carries the whole idea, and Zen
+translates it into what it means in the live code, instead of many small commands that each
+restate the same context. Every intent made solid adds to it. Editing through Flow comes first:
+GUI, keyboard and messages share one semantic edit model, but authoring Flow from the Terminal or
+an ELH is not usable end to end yet (`drafts/flow-ux-research.md` §7;
+`reportbacks/zengine-flow-ux-research/agent-interface.md`).
+
+**Wake:** with BL-WORK-24; it continues after.
+**Source:** the founder (2026-10-03), widening the finished drafts' item on agents editing Flow.
+
+### BL-WORK-26 — Load metadata, researched
+
+**State:** ORDERED — tenth in the founder's order (2026-10-03), at the end of the current arc  
+**Owed:** Research, then the smallest useful answer: what a weave was loaded from, by whom and
+when, with other useful context, discoverable through its contract. Keep apart what the author
+declares (purpose, documents, source and build locators, tags), what the host observes (the path
+asked for and the one opened, content and build identity, incarnation, when loading or activation
+happened), who asked and who approved, and which clock a time comes from. Each fact names its
+owner, retention and reader. An actor the host cannot establish stays unknown, and no one load's
+time or actor enters a schema's identity. Metadata grants nothing. An unfamiliar reader proves
+the answer in an info box.
+
+**Wake:** after BL-WORK-24.
+**Source:** selected by the founder earlier and never run. The goal map keeps its summary
+([the maker-story section](goals/workshop.md#complete-maker-stories-and-reusable-information));
+the full questions are in the removed maker-story arc (in Git at `aa2fb18`,
+`drafts/maker-story-development.md`).
+
+### BL-WORK-27 — A dead weave's last state, inspectable
+
+**State:** ORDERED — eleventh in the founder's order (2026-10-03), at the end of the current arc  
+**Owed:** When a weave can no longer answer, the owner that still holds its last state offers it
+for inspection, typed. An isolation host keeps a child's admitted snapshots and their schemas,
+which outlive the child but not the host; native `last_known_good` is not a running journal. A
+saved value, a retained recovery snapshot, a current reply and a published observation each say
+which they are, and the schemas to read a value stay after its supplier is gone. Looking or
+copying neither restores nor runs it; recovery is its own explicit operation.
+
+**Wake:** after BL-WORK-26.
+**Source:** as BL-WORK-26 (the arc's section on recovery material).
+
+### BL-WORK-28 — Parallel work publishes without trampling (ELH Experiment 3)
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** Two work contexts produce compatible candidates, and a deliberate change of source,
+contract or destination shows a real adoption conflict instead of one overwriting the other.
+
+**Wake:** when stories need parallel publication.
+**Source:** `reportbacks/elh-workshop-improvement-arc.md` (Experiment 3); filed from the finished
+drafts (2026-10-03).
+
+### BL-WORK-29 — Stronger input control for agents
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** An agent can cancel a held gesture cleanly and keep the input to itself while it acts.
+Today closing a session releases a held button where it last was, which is not a rollback, and
+physical input can still cut in.
+
+**Wake:** when a story needs it.
+**Source:** the Compose motion phase (#48, `reportbacks/zengine-inventory-compose-motion-RB.md`);
+filed from the finished drafts (2026-10-03).
+
+### BL-WORK-30 — Flow opens a native operator's source
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** Entering a native operator in Flow opens its source, with the function and registration
+that give it its place in the catalog. It needs a link from the operator to its build artifact
+and that artifact's recipe, which does not exist yet.
+
+**Wake:** the founder selects it.
+**Source:** `drafts/flow-building-blocks.md` §4; filed from the finished drafts (2026-10-03).
+
+### BL-WORK-31 — A recycling list for views
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** A long list drawn through a bounded set of row views reused as it scrolls. A reused row
+drops hover, animation and gesture state; edits and selection stay with the item, never the row.
+The view renderer owns it; a list of operators to drag into Flow is its first consumer.
+
+**Wake:** the founder selects it, or a view needs a long list.
+**Source:** `drafts/flow-building-blocks.md` §3; filed from the finished drafts (2026-10-03).
+
+### BL-WORK-32 — Flow's UX milestones
+
+**State:** PARKED / DECIDED (the founder, 2026-10-03)  
+**Owed:** The milestones `drafts/flow-ux-research.md` §8 sets out: the direct authoring loop,
+hierarchy and reuse, and live understanding. This item points there so the roadmap reaches them.
+
+**Wake:** the founder selects one.
+**Source:** `drafts/flow-ux-research.md` §8; filed from the finished drafts (2026-10-03).
+
+### BL-WORK-33 — Undo and time travel
+
+**State:** LATER — at the very bottom of the later projects (the founder, 2026-10-03)  
+**Owed:** Undo of real effects, then full undo and time travel for demos. An effect already
+carried out needs its owner's explicit inverse, condition or checkpoint; replaying the pointer or
+a saved form cannot undo it. Undo in Flow belongs to the semantic owner, as transactions over a
+composition, not to a history of commands the GUI keeps. The tower defense story managed with
+pause, resume and single steps at safe boundaries.
+
+**Wake:** the founder selects it, after every other later project.
+**Source:** the Compose motion phase (#48), the tower defense story (#60) and
+`drafts/flow-ux-research.md` §7; filed from the finished drafts (2026-10-03).
 
 ## 3. Bounded defects and quick repairs
 
