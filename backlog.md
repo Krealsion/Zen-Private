@@ -145,9 +145,15 @@ its size the weaver's to set (`prompts/view-builder-size.md`).
   setup seats a described view, and its `stop` says `readiness deadline expired: None` when a
   pane refuses the quit.
 - Inventory holds up to 36 portable views, not 12: single boxes of actions may be common enough
-  to flood twelve (the founder, 2026-10-03). Workshop's own ceilings rise with it, to a number the
-  founder sets: a session's catalog and one desk each hold at most 32 panes today, every pane
-  counted (`kMaxPaneCatalogEntries`, `kMaxSetupPanes`).
+  to flood twelve (the founder, 2026-10-03). Workshop's own ceilings rise with it, to 96 (the
+  founder, 2026-10-03): a session's catalog and one desk each hold at most 32 panes today, every
+  pane counted (`kMaxPaneCatalogEntries`, `kMaxSetupPanes`), and the standard panes, Info's four
+  views and eight made views already come to about 30.
+- Inventory keeps up to 512 configured command hotkeys, not 16 (the founder, 2026-10-03). Nothing
+  gave sixteen a reason. A bound stays because items in different views can share a key, so the
+  keyboard alone does not bound them. How many are on at once is bounded further on: Desktop
+  admits at most 24 active shortcuts from one provider, and Workshop at most 32 application rows,
+  Desktop's own four included (`kMaxAppActionRows`).
 
 The file picker these notes also asked for is its own item now (BL-WORK-17, 2026-10-03).
 
@@ -294,7 +300,7 @@ with the founder's OK (2026-10-03).
 **Owed:** A closed Inventory view gives its place back. Today an offered view is never withdrawn:
 a closed one keeps its identity and counts against the bound until it is reused, and restoring a
 toolbox with other views can refuse for that alone. A command binding to an entry that is gone
-keeps its place among the sixteen too. Retiring removes configuration only; it never moves a
+keeps its place in the bounded list too. Retiring removes configuration only; it never moves a
 binding onto whatever holds the place next. Info bounds its own views by reusing four fixed ones,
 so the rebuilt Info (BL-WORK-10) meets the same question.
 
@@ -325,17 +331,19 @@ a folder with what it holds, where today only an empty folder deletes.
 **Source:** `reportbacks/zengine-inventory-named-folders-RB.md`; filed from the finished drafts
 (2026-10-03).
 
-### BL-WORK-22 — Run a stored command from its menu
+### BL-WORK-22 — Run a stored command without giving it a hotkey
 
 **State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** A right press on a stored complete command offers Run, with the current actor's
-authority, beside the hotkey and Compose routes that run it today. Commands reach Inventory only
-when the weaver puts them there, as by dragging a Terminal row in (#52); nothing stores them
-automatically (the founder, 2026-10-03).
+**Owed:** A stored command runs from its right-press menu without a hotkey set up first. The menu
+already offers "Run configured command now" (#51), but only once "Configure command hotkey..." has
+given the entry a target office and a key. Commands reach Inventory only when the weaver puts them
+there, as by dragging a Terminal row in (#52); nothing stores them automatically (the founder,
+2026-10-03).
 
 **Wake:** the founder selects it.
-**Source:** the Compose motion phase (#48, `reportbacks/zengine-inventory-compose-motion-RB.md`);
-filed from the finished drafts (2026-10-03).
+**Source:** the Compose motion phase (#48) left right-click Run for later, and #51 added Run behind
+a configured hotkey (`reportbacks/zengine-inventory-portable-slots-RB.md`); filed from the finished
+drafts (2026-10-03).
 
 ### BL-WORK-23 — Terminal command scripts
 
