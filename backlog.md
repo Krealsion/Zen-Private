@@ -149,11 +149,16 @@ its size the weaver's to set (`prompts/view-builder-size.md`).
   founder, 2026-10-03): a session's catalog and one desk each hold at most 32 panes today, every
   pane counted (`kMaxPaneCatalogEntries`, `kMaxSetupPanes`), and the standard panes, Info's four
   views and eight made views already come to about 30.
-- Inventory keeps up to 512 configured command hotkeys, not 16 (the founder, 2026-10-03). Nothing
-  gave sixteen a reason. A bound stays because items in different views can share a key, so the
-  keyboard alone does not bound them. How many are on at once is bounded further on: Desktop
-  admits at most 24 active shortcuts from one provider, and Workshop at most 32 application rows,
-  Desktop's own four included (`kMaxAppActionRows`).
+- Inventory keeps up to 512 configured command hotkeys, not 16, and up to 512 can be on at once,
+  each reaching its command (the founder, 2026-10-03). Nothing gave sixteen a reason. A bound on
+  configured hotkeys stays because items in different views can share a key; hotkeys that are on
+  never share one, so the keyboard itself bounds them, and they are the weaver's own choices.
+  Three limits stop them first today: Desktop admits 24 switched-on shortcuts from one provider;
+  Workshop takes 32 application rows, Desktop's own four included (`kMaxAppActionRows`, whose
+  comment calls more "claiming the keyboard"); and Workshop delivers a shortcut only to an action
+  its pane declared, while a pane declares at most 32 rows (`kMaxPaneActionRows`). The main
+  Inventory pane declares a row for every configured hotkey beside 17 of its own, so a sixteenth
+  hotkey already overflows it.
 
 The file picker these notes also asked for is its own item now (BL-WORK-17, 2026-10-03).
 
