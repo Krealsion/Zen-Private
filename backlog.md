@@ -246,7 +246,8 @@ arrangement keeps each resize's opposite edge anchored and a default place react
 `agents/decisions/anchors-and-axes.md`); the motion plan left the accordion layout story for
 later (`drafts/inventory-compose-motion-plan.md`); and relative placement waits with P-WORK-10.
 The research reads these and the code as it stands before anything is built. Files' path line
-and its marks, the quick places, are first consumers (BL-WORK-17).
+and its marks, the quick places, are first consumers (BL-WORK-17); the founder sees Info's
+nested values as another (BL-WORK-10).
 
 **Wake:** after BL-WORK-06 and BL-WORK-09.
 **Source:** the founder (2026-10-03).
