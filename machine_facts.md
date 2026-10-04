@@ -15,6 +15,14 @@
   `zengine-primary-san`, `loom`, `loom-install` and its own ccache store `ccache` (24 GB cap,
   launcher `bin/ccache`). About 15.7 GB on G: and 16 GB in WSL (2026-10-04). Its trees are the
   executor's, not the founder's below.
+- **ccache on Windows**: MSYS2's `mingw-w64-x86_64-ccache` 4.11.3-1 is installed in
+  `C:\msys64x\mingw64` with eight dependencies, from the existing sync database and with nothing
+  upgraded (2026-10-04; `g++` still 15.2.0). The kit's store is
+  `C:\Users\Joshua\zen-build\primary\ccache` (NTFS, 24 GB cap). A hit skips the compile but not
+  `ar` and `ld`, which write to G: and now dominate a rebuild: returning both Windows trees across
+  one PR's delta took 380 s with ccache against 604 s without.
+- **Fetch caches** in `~/.cache/zen-fetch/`: only `zengine-zengine-p1{,-san}` and
+  `zengine-zengine-primary{,-san}` remain (2026-10-04).
 - **Build trees on ext4** under `~/zen-build/`: `loom`, `loom-install`, `zengine-p1`,
   `zengine-p1-san` (the Ninja-configured Zengine trees) and `CS3-head`, whose `prefix` (Loom
   `b47c7d6`) is the Loom both Zengine trees build against (`CMAKE_PREFIX_PATH` and `loom_DIR`,
