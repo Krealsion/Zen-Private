@@ -132,7 +132,8 @@ its size the weaver's to set (`prompts/view-builder-size.md`).
 
 ### BL-WORK-08 — Quick desk fixes
 
-**State:** ORDERED — second in the founder's order (2026-10-03)  
+**State:** ORDERED — second in the founder's order (2026-10-03); prompt
+`prompts/quick-desk-fixes.md` (2026-10-03)  
 **Owed:**
 - The window opens whole on the screen, centred, and stays on the screen while it resizes during
   load. Today it can open partly out of bounds.
