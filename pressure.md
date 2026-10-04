@@ -49,8 +49,9 @@ P-WORK-44 are pressure it measured. The graphical View Builder merged as Zengine
 measured. The founder's order of 2026-10-03 ([the goal map](goals/workshop.md) §7) begins with
 the View Builder's polish (BL-WORK-07), merged as Zengine #87 (2026-10-03); the pane-size seam
 it found joins BL-WORK-05. The quick desk fixes (BL-WORK-08) merged as Zengine #88 (2026-10-04);
-P-WORK-50 and P-WORK-51 are pressure it measured. An executor process phase comes next
-(`prompts/executor-process.md`, the founder, 2026-10-04), taking up P-WORK-49.
+P-WORK-50 and P-WORK-51 are pressure it measured. The executor process phase merged as Zengine
+#89 (2026-10-04), with its kit in Zen, closing P-WORK-49; its follow-up gives the Windows trees
+a compile cache (`prompts/executor-process-ccache.md`).
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -501,7 +502,8 @@ shapes look alike.
 
 ### P-WORK-49 — The live-walk helpers are copied by hand from round to round
 
-**State:** WATCH
+**State:** CLOSED — founder merged Zengine #89 (2026-10-04); the helpers live in
+`pass-tools/executor-kit/`, and a setup carries its walks
 **Evidence:** the View Builder fixes' three reports ([one](../reportbacks/view-builder-fixes-RB.md#doc-gaps),
 [two](../reportbacks/view-builder-fixes-2-RB.md#doc-gaps),
 [three](../reportbacks/view-builder-fixes-3-RB.md#doc-gaps))

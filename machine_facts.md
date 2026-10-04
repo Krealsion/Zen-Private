@@ -6,7 +6,15 @@
   parallelism; `-j32` is slower. In WSL, which sees 30 GB, Zengine's official lane at `-j24`
   had compilers killed for memory (2026-09-30); `-j8` built. The founder's limits (2026-10-04):
   a Windows build (MinGW-w64, MSVC, the SDL tree) runs at up to `-j16`; a WSL build stays at
-  `-j8`, since more can run the host out of memory.
+  `-j8`, since more can run the host out of memory. Measured 2026-10-04: a clean MinGW-w64
+  build of 358 edges took 545 s at `-j8` and 326 s at `-j16`.
+- **The executor's primary folder** (constitution § c; `Zen/pass-tools/executor-kit/`, its
+  README), kept between phases: on G:, `Zen/primary/` holds the Zengine and Loom clones and, in
+  `win/`, `zengine-msys` (the MinGW-w64 lane), `zengine-sdl`, `loom-msys` and
+  `loom-msys-install`; in WSL, `~/zen-build/primary/` holds `zengine-primary`,
+  `zengine-primary-san`, `loom`, `loom-install` and its own ccache store `ccache` (24 GB cap,
+  launcher `bin/ccache`). About 15.7 GB on G: and 16 GB in WSL (2026-10-04). Its trees are the
+  executor's, not the founder's below.
 - **Build trees on ext4** under `~/zen-build/`: `loom`, `loom-install`, `zengine-p1`,
   `zengine-p1-san` (the Ninja-configured Zengine trees) and `CS3-head`, whose `prefix` (Loom
   `b47c7d6`) is the Loom both Zengine trees build against (`CMAKE_PREFIX_PATH` and `loom_DIR`,

@@ -373,7 +373,9 @@ elements answer to stable IDs, with their places and sizes in pixels as numbers,
 checks a size by the number returned instead of counting pixels in a screenshot, and picks a
 menu row by its ID instead of by where it falls. Tests prove each number matches what is really
 drawn. Screenshots stay evidence of presentation and are needed less: they are costly to move,
-and a long story's record can outrun the retained history.
+and a long story's record can outrun the retained history. Which pane holds the keys is one
+such number: Workshop's band says it ("typing goes to ..."), but no pane view does, so a setup's
+walk can check a selection by its rows and a put-down only by its picture (#89's report).
 
 **Wake:** after BL-WORK-11, once drawing has grown.
 **Source:** the founder (2026-10-03), joining two pressures from the finished drafts: menu rows
