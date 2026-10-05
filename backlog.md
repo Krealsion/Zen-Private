@@ -410,7 +410,10 @@ walk can check a selection by its rows and a put-down only by its picture (#89's
 A canvas pane answers too: its words, controls and elements, as a text pane's rows do. Today the
 inspection door describes text panes only, so #91's witnesses drove the View Builder by pixels
 read off pictures (its report's second recommendation); BL-WORK-06 then keeps every pane it moves
-readable.
+readable. The walk tool's ways of reaching a row and a point go with it (`workshop/act`,
+`external-host/tools/workshop/act.py`): `select` reads a two-column cursor marker that Info's
+one-column property rows defeat, and `x,yc` counts a terminal console's cells, two rows above its
+canvas (#91's report, recommendations 3 and 4).
 
 **Wake:** after BL-WORK-05's stage 3.
 **Source:** the founder (2026-10-03), joining two pressures from the finished drafts: menu rows
