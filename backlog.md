@@ -67,7 +67,9 @@ or the file passing 1,500 lines.
 ### BL-WORK-04 — The Pane Creator retires into described views
 
 **State:** DECIDED (the founder, 2026-10-02); ORDERED third, with BL-WORK-05 (2026-10-03); in
-stage 2's prompt (`prompts/whole-pixel-2.md`, 2026-10-04)  
+stage 2's prompt (`prompts/whole-pixel-2.md`, 2026-10-04), open as Zengine #91. Nothing is kept
+for the Creator's files, flag or keys: the founder never saved one (2026-10-05;
+`prompts/whole-pixel-2-no-creator.md`)  
 **Owed:** The Pane Creator (WL-MAKER) makes a pane of static text regions that Workshop owns and
 paints, edited in Info and saved as `workshop-pane.json`. The tally panel's show stage builds
 described views beside it: each runs as its own participant, with fields, buttons and bindings,
@@ -86,8 +88,10 @@ comes with BL-WORK-05.
 founder, 2026-10-04): 1, the unit and canvas panes in pixels (`prompts/whole-pixel-1.md`), with
 an authored place measured from the room's top-left, as a default place is
 (`prompts/whole-pixel-1-room.md`), merged as Zengine #90 (`2c06da5`, 2026-10-04); 2, what
-Workshop still paints itself (`prompts/whole-pixel-2.md`), with BL-DEF-09; 3, arrangement
-snapping  
+Workshop still paints itself (`prompts/whole-pixel-2.md`), with BL-DEF-09, open as Zengine #91;
+3, arrangement snapping, and a pane the weaver launches always lands where they can see it (the
+founder, 2026-10-05, on #91's report: a view run from the View Builder found "no room" beside an
+empty part of the room)  
 **Owed:** Workshop measures in 48ths of a cell, a quarter pixel in the window, and lays out the
 desk's fixed parts in cells before any font is measured. Reverse it: the whole pixel is the unit
 and a cell is 12 of them, so a pixel is a twelfth of a cell, and nothing authors a fraction of a
@@ -113,13 +117,15 @@ the authority, and a terminal's is derived from it.
 
 ### BL-WORK-06 — The text panes draw on the canvas
 
-**State:** DECIDED (the founder, 2026-10-02); ORDERED fourth (2026-10-03)  
+**State:** DECIDED (the founder, 2026-10-02); ORDERED fourth (2026-10-03), fifth since BL-WORK-24
+moved before it (2026-10-05)  
 **Owed:** Every pane except Flow, the View Builder and described views writes rows and columns of
 text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
 Builder, Powers and the rest. Each moves to the canvas, so every pane draws in pixels and a
-terminal shows the fallback derived from that picture.
+terminal shows the fallback derived from that picture. Each pane it moves stays readable by
+messages (BL-WORK-24): an agent reads its words on the canvas as it read its rows.
 
-**Wake:** after BL-WORK-05; BL-WORK-09 follows it.
+**Wake:** after BL-WORK-24; BL-WORK-09 follows it.
 **Source:** as BL-WORK-05.
 
 ### BL-WORK-07 — The View Builder's polish
@@ -176,7 +182,7 @@ founder's OK (2026-10-03).
 
 ### BL-WORK-09 — What the canvas unlocks for every pane
 
-**State:** ORDERED — fourth in the founder's order (2026-10-03), after BL-WORK-06  
+**State:** ORDERED — fifth in the founder's order (2026-10-03; renumbered 2026-10-05), after BL-WORK-06  
 **Owed:** Once every pane draws on the canvas, every pane can have:
 - A hover cue on whatever a press would activate, from `PaneCanvasHover`.
 - A `?` at the pane's top right when the pane offers a summary or a tutorial. Workshop draws the
@@ -189,7 +195,8 @@ founder's OK (2026-10-03).
 
 ### BL-WORK-10 — Info rebuilt as a one-slot inspector
 
-**State:** ORDERED — seventh in the founder's order (2026-10-03), after BL-WORK-16 and BL-WORK-17  
+**State:** ORDERED — eighth in the founder's order (2026-10-03; renumbered 2026-10-05), after
+BL-WORK-16 and BL-WORK-17  
 **Owed:** The founder's picture of Info, seeded in `private/pressure.md` §7: a weave of many
 panes, rebuilt with today's Info as a quarry, that takes anything dropped on it or picked in its
 selection mode and edits it in fields with boxes. One piece serves it and BL-WORK-09: each pane's
@@ -201,7 +208,7 @@ UI-editing overlay, reach those parts.
 
 ### BL-WORK-11 — Images
 
-**State:** ORDERED — eighth in the founder's order (2026-10-03)  
+**State:** ORDERED — ninth in the founder's order (2026-10-03; renumbered 2026-10-05)  
 **Owed:** The canvas draws an image, and a view description holds an image element. A terminal
 shows a fallback derived from the picture.
 
@@ -271,8 +278,8 @@ smaller text.
 
 ### BL-WORK-16 — Accordions and anchors, researched first
 
-**State:** ORDERED — fifth in the founder's order (2026-10-03), after the text panes reach the
-canvas  
+**State:** ORDERED — sixth in the founder's order (2026-10-03; renumbered 2026-10-05), after the text
+panes reach the canvas  
 **Owed:** A research phase, then the work it supports. The weaver shows and hides the parts of a
 pane with an accordion, and hides the pane itself the same way, and a pane's place can be
 anchored to another pane or to any edge, such as its parent's right side, so dependent placement
@@ -293,7 +300,8 @@ nested values as another (BL-WORK-10).
 
 ### BL-WORK-17 — Files answers a request for a path
 
-**State:** ORDERED — sixth in the founder's order (2026-10-03), after BL-WORK-16  
+**State:** ORDERED — seventh in the founder's order (2026-10-03; renumbered 2026-10-05), after
+BL-WORK-16  
 **Owed:** A file picker that is Workshop's own work, not the operating system's dialog. A pane
 asks for a path, to open or to save, with the kinds it takes and a suggested name; Files answers
 later with the path the weaver chose, or says the choice was cancelled, and only the asker gets
@@ -389,7 +397,8 @@ plan (removed 2026-10-03; in Git at `aa2fb18`).
 
 ### BL-WORK-24 — Agents read the desk by messages
 
-**State:** ORDERED — ninth in the founder's order (2026-10-03), after images  
+**State:** ORDERED — fourth in the founder's order: moved up from ninth (the founder, 2026-10-05)
+so the work after it proceeds smoother, right after the whole pixel  
 **Owed:** An agent gets all it needs from the message system. Each pane's controls, rows and
 elements answer to stable IDs, with their places and sizes in pixels as numbers, so an agent
 checks a size by the number returned instead of counting pixels in a screenshot, and picks a
@@ -398,8 +407,12 @@ drawn. Screenshots stay evidence of presentation and are needed less: they are c
 and a long story's record can outrun the retained history. Which pane holds the keys is one
 such number: Workshop's band says it ("typing goes to ..."), but no pane view does, so a setup's
 walk can check a selection by its rows and a put-down only by its picture (#89's report).
+A canvas pane answers too: its words, controls and elements, as a text pane's rows do. Today the
+inspection door describes text panes only, so #91's witnesses drove the View Builder by pixels
+read off pictures (its report's second recommendation); BL-WORK-06 then keeps every pane it moves
+readable.
 
-**Wake:** after BL-WORK-11, once drawing has grown.
+**Wake:** after BL-WORK-05's stage 3.
 **Source:** the founder (2026-10-03), joining two pressures from the finished drafts: menu rows
 reached by position, and the cost of evidence (`reportbacks/zengine-comfortable-demo-setups-RB.md`,
 `zengine-inventory-command-presets-RB.md`).
