@@ -91,7 +91,7 @@ an authored place measured from the room's top-left, as a default place is
 Workshop still paints itself (`prompts/whole-pixel-2.md`), with BL-DEF-09, open as Zengine #91;
 3, arrangement snapping, and a pane the weaver launches always lands where they can see it (the
 founder, 2026-10-05, on #91's report: a view run from the View Builder found "no room" beside an
-empty part of the room)  
+empty part of the room), with BL-DEF-10  
 **Owed:** Workshop measures in 48ths of a cell, a quarter pixel in the window, and lays out the
 desk's fixed parts in cells before any font is measured. Reverse it: the whole pixel is the unit
 and a cell is 12 of them, so a pixel is a twelfth of a cell, and nothing authors a fraction of a
@@ -595,6 +595,27 @@ for their wake
 **Wake:** stage 2's prompt.
 **Source:** the deep reviews of #90 and #88 (2026-10-04), each reproduced by Vision (`f3bde59`,
 `61c28e8`).
+
+### BL-DEF-10 — Two findings for stage 3
+
+**State:** DECIDED — rides with stage 3 of BL-WORK-05 (the founder, 2026-10-05), saving a hosted
+run; #91 merges without them  
+**Owed:**
+- **The View Builder's launch record survives a view file that is missing for a while** (the deep
+  review of #91 at `78928fb`). Saved and run, the view's file moved away, Workshop relaunched: the
+  builder cannot open it, and the next `remember` (a reload of the builder, or merely `describe`)
+  writes the record over with no file and not running, so the file's return no longer brings the
+  view back at a launch (`view-builder/pane.cpp`, `on(ProjectRoot)` taking `remembered_` from the
+  record, then `resume`). The record keeps the saved file and whether it ran until the view opens
+  again or the weaver names another.
+- **The hotkeys guide's keymap example is a file Workshop refuses** (#91's follow-up, its doc gap).
+  `docs/workshop/hotkeys.md` writes `{"zen":"1",...,"value":{...}}`; Loom's text codec reads
+  `"fields"`, with the envelope's numbers as numbers, so the example copied is refused (`keymap
+  refused -- default bindings stand`). The example says what Workshop reads.
+
+**Wake:** stage 3's prompt.
+**Source:** the founder's deep review of #91 (2026-10-05) and
+`reportbacks/whole-pixel-2-no-creator-RB.md` (Doc gaps).
 
 ## 4. Adoption and release
 
