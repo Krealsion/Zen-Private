@@ -251,6 +251,22 @@ picture at a scale; a terminal does not zoom.
 **Wake:** after BL-WORK-05, when the founder selects it.
 **Source:** the founder, while the View Builder's polish ran (2026-10-03).
 
+### BL-WORK-34 — Text that steps down to fit its room
+
+**State:** PARKED / DECIDED (the founder, 2026-10-04)  
+**Owed:** A window sets text in one face at one size. Where a region cannot hold a row of it, the
+window falls back to the terminal projection's 12-pixel bitmap glyphs: a second text system whose
+geometry has to be kept in step with the first (BL-DEF-09's fallback finding lives there). Text
+that steps down in size until a row fits would leave one system. The founder holds smaller text
+relevant to development beyond the fallback. Its choices: the smallest legible size; whether text
+resizes live while an edge is dragged; how it meets a pane's minimum size (BL-WORK-14) and zoom
+(BL-WORK-15, which notes `PaneCanvasText` holds no size). Below the smallest size a region shows
+nothing, as a region with no room for a row does now. A terminal's cells are its type: it has no
+smaller text.
+
+**Wake:** with BL-WORK-06 (the text panes move to the canvas), when the founder selects it.
+**Source:** the founder, on the deep review of #90 (2026-10-04).
+
 ### BL-WORK-16 — Accordions and anchors, researched first
 
 **State:** ORDERED — fifth in the founder's order (2026-10-03), after the text panes reach the
@@ -528,6 +544,38 @@ for their wake
 
 **Wake:** the `ui` question at BL-ADOPT-02; a first consumer of `Scene` for `frame_in`.
 **Source:** `reportbacks/zengine-ui-headers-RB.md` (Decisions asked) and the review of #71.
+
+### BL-DEF-09 — Three deep-review findings, for stage 2
+
+**State:** OWED — to ride with stage 2 of BL-WORK-05 (the founder's lean, 2026-10-04)  
+**Owed:**
+- **An old canvas picture refused for a sliver** (#90). A rect of an earlier
+  `PaneCanvasContent` (version 2, sub-units) narrower than a pixel can floor to zero width, and
+  `canvas_content_problem` then refuses the whole picture; the same sliver three sub-units over
+  floors to one pixel and passes, and #89 accepted both. Judge an old picture by its own rules,
+  then drop what floors to nothing, as #89's window painted it
+  (`workshop/pane_canvas_vocabulary.hpp`, `canvas_content_of_legacy`). In the tree only a test's
+  provider still speaks version 2.
+- **Fallback text drawn off the grid its presses use** (#90). Where a pane's body holds no row of
+  the window's face, the window draws its text in 12-pixel bitmap cells from the body's own pixel
+  origin, but presses (`prose_column_of_pixel`) read the canvas's cell grid, and the inspection
+  door aims (`cell_center`, `workshop/weave_inspection.cpp`) at the drawn glyphs. A body 6 pixels
+  past a grid line, the norm for a pane placed on whole cells since the window's room top is 42,
+  sends a press on the right half of each glyph to the next column, and `PaneViewRequested`
+  refuses the pane. Drawing, pressing and aiming take one origin (WL-GEO-01); aiming from the
+  grid alone leaves the press wrong. A terminal is unaffected; BL-WORK-34 would retire the
+  fallback.
+- **A setup's start depends on its panes' order** (#88). `seat_desk`
+  (`external-host/tools/workshop/demo_setup.py`) stops filtering at the first pane the setup
+  builds, so an unoffered optional pane after it stays on the temporary desk, and the start fails
+  before Builder runs; the reverse order starts. What the temporary desk leaves off must leave
+  the final desk too, or the start fails after building instead. Latent for every shipped
+  setup: only the tower defense example builds a pane, and nothing after it on that desk can be
+  missing.
+
+**Wake:** stage 2's prompt.
+**Source:** the deep reviews of #90 and #88 (2026-10-04), each reproduced by Vision (`f3bde59`,
+`61c28e8`).
 
 ## 4. Adoption and release
 
