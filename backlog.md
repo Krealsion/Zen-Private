@@ -82,7 +82,9 @@ comes with BL-WORK-05.
 ### BL-WORK-05 — Workshop's unit becomes the whole pixel
 
 **State:** DECIDED (the founder, 2026-10-02); ORDERED third (2026-10-03); staged in three (the
-founder, 2026-10-04): 1, the unit and canvas panes in pixels (`prompts/whole-pixel-1.md`); 2,
+founder, 2026-10-04): 1, the unit and canvas panes in pixels (`prompts/whole-pixel-1.md`), open
+as Zengine #90, with a follow-up before it merges: an authored place measured from the room's
+top-left, as a default place is (the founder, 2026-10-04; `prompts/whole-pixel-1-room.md`); 2,
 what Workshop still paints itself; 3, arrangement snapping  
 **Owed:** Workshop measures in 48ths of a cell, a quarter pixel in the window, and lays out the
 desk's fixed parts in cells before any font is measured. Reverse it: the whole pixel is the unit
