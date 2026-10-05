@@ -219,7 +219,7 @@ shows a fallback derived from the picture.
 
 **State:** LATER — after its own research (the founder, 2026-10-03)  
 **Owed:** Workshop opens more than one window. A pane drags from one window into another, and
-each window has its own tab row.
+each window has its own tab row. BL-WORK-35's window participant is its natural base.
 
 **Wake:** the founder selects it, after BL-WORK-27.
 **Source:** as BL-WORK-07; `Zengine/reference/todo.txt` asks for it too ("Allow for multi-window").
@@ -513,6 +513,36 @@ hierarchy and reuse, and live understanding. This item points there so the roadm
 
 **Wake:** the founder selects one.
 **Source:** `drafts/flow-ux-research.md` §8; filed from the finished drafts (2026-10-03).
+
+### BL-WORK-35 — An app of its own, edited live from Workshop
+
+**State:** LATER — after its own research (the founder, 2026-10-05); its first step is small  
+**Owed:** Something made through Workshop runs as its own program, built only from Zen's pieces
+(its weaves, Input, Timer, a Skin for its window), and keeps running when Workshop closes, even
+mid-run. Workshop joins it beside it to edit it live. The road, simplest first:
+1. A window participant: a weave that owns an OS window and gives a pane its room there through
+   the doors Workshop uses, so a game or a View Builder view runs in a Workshop pane or alone in
+   its own window, unchanged -- the window type of the founder's old engine, as a weave. It is
+   also the base for Workshop's own windows (BL-WORK-12).
+2. An app is its own host: a boot list like `zengine-snake`'s, built by the Builder into its own
+   executable and launched as a separate process.
+3. Workshop joins the app over Loom's host link, the other way round from today's (an agent's host
+   joins Workshop): the app admits Workshop as a guest, and Workshop's panes see its
+   participants, drive its input, take its picture and inspect it.
+4. Live edits across the link: Workshop rebuilds a weave and asks the app to reload it in place,
+   with the power the app grants it; a changed state shape needs a migration, as the snake's world
+   swap has (P-WORK-07).
+5. Closing Workshop drops the link and the app runs on; an edit worth keeping is promoted into the
+   app's boot list for its next launch.
+
+The question the research answers first: what a joined Workshop may do to a running app (Loom's
+admission policy).
+
+**Wake:** the founder selects it.
+**Source:** the founder (2026-10-05): the View Builder builds panes, and a project from scratch
+should build and compile alone, edited live beside Workshop and alive without it. Prior art:
+`zengine-snake` (a standalone host with live swaps), the tower defense example (built and reloaded
+from inside Workshop), `docs/workshop/external-host.md` (the link between hosts).
 
 ### BL-WORK-33 — Undo and time travel
 
