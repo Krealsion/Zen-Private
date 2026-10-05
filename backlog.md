@@ -66,7 +66,8 @@ or the file passing 1,500 lines.
 
 ### BL-WORK-04 — The Pane Creator retires into described views
 
-**State:** DECIDED (the founder, 2026-10-02); ORDERED third, with BL-WORK-05 (2026-10-03)  
+**State:** DECIDED (the founder, 2026-10-02); ORDERED third, with BL-WORK-05 (2026-10-03); in
+stage 2's prompt (`prompts/whole-pixel-2.md`, 2026-10-04)  
 **Owed:** The Pane Creator (WL-MAKER) makes a pane of static text regions that Workshop owns and
 paints, edited in Info and saved as `workshop-pane.json`. The tally panel's show stage builds
 described views beside it: each runs as its own participant, with fields, buttons and bindings,
@@ -82,10 +83,11 @@ comes with BL-WORK-05.
 ### BL-WORK-05 — Workshop's unit becomes the whole pixel
 
 **State:** DECIDED (the founder, 2026-10-02); ORDERED third (2026-10-03); staged in three (the
-founder, 2026-10-04): 1, the unit and canvas panes in pixels (`prompts/whole-pixel-1.md`), open
-as Zengine #90, with a follow-up before it merges: an authored place measured from the room's
-top-left, as a default place is (the founder, 2026-10-04; `prompts/whole-pixel-1-room.md`); 2,
-what Workshop still paints itself; 3, arrangement snapping  
+founder, 2026-10-04): 1, the unit and canvas panes in pixels (`prompts/whole-pixel-1.md`), with
+an authored place measured from the room's top-left, as a default place is
+(`prompts/whole-pixel-1-room.md`), merged as Zengine #90 (`2c06da5`, 2026-10-04); 2, what
+Workshop still paints itself (`prompts/whole-pixel-2.md`), with BL-DEF-09; 3, arrangement
+snapping  
 **Owed:** Workshop measures in 48ths of a cell, a quarter pixel in the window, and lays out the
 desk's fixed parts in cells before any font is measured. Reverse it: the whole pixel is the unit
 and a cell is 12 of them, so a pixel is a twelfth of a cell, and nothing authors a fraction of a
@@ -547,7 +549,8 @@ for their wake
 
 ### BL-DEF-09 — Three deep-review findings, for stage 2
 
-**State:** OWED — to ride with stage 2 of BL-WORK-05 (the founder's lean, 2026-10-04)  
+**State:** DECIDED — rides with stage 2 of BL-WORK-05 (the founder, 2026-10-04;
+`prompts/whole-pixel-2.md`), saving a hosted run  
 **Owed:**
 - **An old canvas picture refused for a sliver** (#90). A rect of an earlier
   `PaneCanvasContent` (version 2, sub-units) narrower than a pixel can floor to zero width, and

@@ -51,7 +51,8 @@ the View Builder's polish (BL-WORK-07), merged as Zengine #87 (2026-10-03); the 
 it found joins BL-WORK-05. The quick desk fixes (BL-WORK-08) merged as Zengine #88 (2026-10-04);
 P-WORK-50 and P-WORK-51 are pressure it measured. The executor process phase merged as Zengine
 #89 (2026-10-04), with its kit in Zen, closing P-WORK-49; its follow-up gives the Windows trees
-a compile cache (`prompts/executor-process-ccache.md`).
+a compile cache (`prompts/executor-process-ccache.md`). The whole pixel's first stage merged as
+Zengine #90 (2026-10-04); its second (`prompts/whole-pixel-2.md`) takes up P-WORK-05.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -573,7 +574,8 @@ distinct questions; this packet does not select all visual polish or a scripting
 
 ### P-WORK-05 — Attention's compact graphical channel has limited voice and owns no room
 
-**State:** WATCH  
+**State:** WATCH — stage 2 of BL-WORK-05 moves the glance into the Attention pane
+(`prompts/whole-pixel-2.md`)  
 **Evidence:** WUX-4 pressure
 
 The compact Surface text slot carries text but no semantic role, so the SDL chip has one visual
