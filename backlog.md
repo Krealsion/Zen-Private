@@ -66,10 +66,9 @@ or the file passing 1,500 lines.
 
 ### BL-WORK-04 — The Pane Creator retires into described views
 
-**State:** DECIDED (the founder, 2026-10-02); ORDERED third, with BL-WORK-05 (2026-10-03); in
-stage 2's prompt (`prompts/whole-pixel-2.md`, 2026-10-04), open as Zengine #91. Nothing is kept
-for the Creator's files, flag or keys: the founder never saved one (2026-10-05;
-`prompts/whole-pixel-2-no-creator.md`)  
+**State:** CLOSED — merged as Zengine #91 (`5901b39`, 2026-10-05), from `prompts/whole-pixel-2.md`
+and `prompts/whole-pixel-2-no-creator.md`. Nothing is kept for the Creator's files, flag or keys:
+the founder never saved one  
 **Owed:** The Pane Creator (WL-MAKER) makes a pane of static text regions that Workshop owns and
 paints, edited in Info and saved as `workshop-pane.json`. The tally panel's show stage builds
 described views beside it: each runs as its own participant, with fields, buttons and bindings,
@@ -88,8 +87,8 @@ comes with BL-WORK-05.
 founder, 2026-10-04): 1, the unit and canvas panes in pixels (`prompts/whole-pixel-1.md`), with
 an authored place measured from the room's top-left, as a default place is
 (`prompts/whole-pixel-1-room.md`), merged as Zengine #90 (`2c06da5`, 2026-10-04); 2, what
-Workshop still paints itself (`prompts/whole-pixel-2.md`), with BL-DEF-09, open as Zengine #91;
-3, arrangement snapping, and a pane the weaver launches always lands where they can see it (the
+Workshop still paints itself (`prompts/whole-pixel-2.md`), with BL-DEF-09, merged as Zengine #91
+(`5901b39`, 2026-10-05); 3 (`prompts/whole-pixel-3.md`), arrangement snapping, and a pane the weaver launches always lands where they can see it (the
 founder, 2026-10-05, on #91's report: a view run from the View Builder found "no room" beside an
 empty part of the room), with BL-DEF-10  
 **Owed:** Workshop measures in 48ths of a cell, a quarter pixel in the window, and lays out the
@@ -595,8 +594,7 @@ for their wake
 
 ### BL-DEF-09 — Three deep-review findings, for stage 2
 
-**State:** DECIDED — rides with stage 2 of BL-WORK-05 (the founder, 2026-10-04;
-`prompts/whole-pixel-2.md`), saving a hosted run  
+**State:** CLOSED — merged with stage 2 as Zengine #91 (`5901b39`, 2026-10-05)  
 **Owed:**
 - **An old canvas picture refused for a sliver** (#90). A rect of an earlier
   `PaneCanvasContent` (version 2, sub-units) narrower than a pixel can floor to zero width, and
@@ -628,8 +626,8 @@ for their wake
 
 ### BL-DEF-10 — Two findings for stage 3
 
-**State:** DECIDED — rides with stage 3 of BL-WORK-05 (the founder, 2026-10-05), saving a hosted
-run; #91 merges without them  
+**State:** DECIDED — rides with stage 3 of BL-WORK-05 (the founder, 2026-10-05;
+`prompts/whole-pixel-3.md`), saving a hosted run; #91 merged without them  
 **Owed:**
 - **The View Builder's launch record survives a view file that is missing for a while** (the deep
   review of #91 at `78928fb`). Saved and run, the view's file moved away, Workshop relaunched: the
