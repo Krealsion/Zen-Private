@@ -52,8 +52,10 @@ it found joins BL-WORK-05. The quick desk fixes (BL-WORK-08) merged as Zengine #
 P-WORK-50 and P-WORK-51 are pressure it measured. The executor process phase merged as Zengine
 #89 (2026-10-04), with its kit in Zen, closing P-WORK-49; its follow-up gives the Windows trees
 a compile cache (`prompts/executor-process-ccache.md`). The whole pixel's first stage merged as
-Zengine #90 (2026-10-04) and its second as #91 (2026-10-05), closing P-WORK-05; its third
-(`prompts/whole-pixel-3.md`) takes up P-WORK-10's snapping.
+Zengine #90 (2026-10-04), its second as #91 (2026-10-05), closing P-WORK-05, and its third as
+#92 (2026-10-05), delivering P-WORK-10's snapping; P-BUILD-09 is pressure it measured, and it
+measured P-WORK-50 again. Agents reading the desk by messages (BL-WORK-24) is next, in two
+stages (`prompts/desk-by-messages-1.md`).
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -532,6 +534,13 @@ desk 18 to 31 s (Debug, MinGW-w64). #88 fixed the worst of it, a repaint whose c
 fourth power of the desk, so that a 36-view desk never finished applying; what remains is the
 fan-out per change.
 
+#92 measured it again ([its report](../reportbacks/whole-pixel-3-RB.md#pressure-exposed)): with
+every launch seated, Inventory offered and drew every view again at any change, while Workshop
+repaints the whole desk for each content message and starts a re-offered pane's picture over, so
+the 36-view case took 201.6 s. Inventory now offers and draws only what changed (7.7 s). A repaint
+coalesced per turn stays Workshop's general remedy, unbuilt: another provider that sends an
+unchanged picture again will show as time, not as a red case.
+
 **Trigger:** the next phase that grows a desk again measures it first.
 
 ### P-WORK-51 — A desk made for a larger screen opens re-laid
@@ -625,8 +634,8 @@ setup a second population.
 
 ### P-WORK-10 — Arrangement has no snapping, locks or collision avoidance
 
-**State:** ACT for snapping, ordered by the founder with the whole-pixel desk (BL-WORK-05,
-2026-10-03); locks and collision avoidance stay PARKED
+**State:** snapping DELIVERED by Zengine #92 (2026-10-05), ordered by the founder with the
+whole-pixel desk (BL-WORK-05, 2026-10-03); locks and collision avoidance stay PARKED
 **Evidence:** WUX-5/WUX-6/WUX-7 arrangement work; ARR-0
 
 Three separate wishes keep arriving together and are deliberately unbuilt: edge snapping,
@@ -645,8 +654,10 @@ the founder, 2026-10-03).
 **Trigger:** arrangement is measured as a repeated cost in real use AND one of the three can be
 stated without a layout solver or a second geometry owner.
 
-Snapping goes ahead of this trigger by the founder's order, and still has to be stated without a
-layout solver or a second geometry owner.
+Snapping went ahead of this trigger by the founder's order and shipped in #92 with no layout
+solver and no second geometry owner: an edge the hand moves comes to the room's or another pane's
+within 8 pixels, measured on the desk as the write leaves it, Alt sets it aside, and nothing about
+it is saved (WL-ARR-17).
 
 
 
@@ -867,6 +878,22 @@ that header for a grant edit; it does not solve the fixture's other dependencies
 **Trigger:** a selected change repeatedly touches this shared header. Move stable implementations
 or suite-specific facilities out based on the measured consumers. Preserve installed boundaries
 and independent denial evidence; do not select a general build-system rewrite from one probe.
+
+### P-BUILD-09 — The hosted jobs' limits sit close to their times
+
+**State:** WATCH — the ASan job's limit rose from 45 to 60 minutes in #92; the Linux canonical
+job's, from 30 to 45, rides with BL-WORK-24's first stage  
+**Evidence:** [stage 3's report](../reportbacks/whole-pixel-3-RB.md#pressure-exposed) and
+[its follow-up's](../reportbacks/whole-pixel-3-fixes-RB.md#what-ran-and-what-did-not)
+
+A suite that grows shows first as a cancelled job, not a red case, and the local lanes have no
+limit to warn first. #92's first push had its Linux canonical job cancelled at 30 minutes when
+`workshop_panes` tripled; after the fix the same job took 25 m 48 s of its 30 on a slower runner,
+and ASan took 41 m 05 s of its 45 before its limit rose. A runner's speed alone moved one job by
+three minutes.
+
+**Trigger:** a job within a tenth of its limit, or a cancel: raise the limit or split the job, and
+set each suite's time beside main's before the push (#92's report, recommendation 6).
 
 ## 5. Loom and architecture pressure
 

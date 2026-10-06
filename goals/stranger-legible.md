@@ -126,6 +126,22 @@ is reached only through discovery.
 **Relation:** Task 1 (a plain first-read path) and Task 4 (one noun per concept). A pane's `?`
 guide and its tutorial mode serve it (`private/backlog.md`, BL-WORK-09).
 
+### Task 7 — A change path, for whoever makes or reviews a change
+
+**State:** OPEN — for the documentation rewrite the founder wants (2026-10-05); not placed  
+**Owed:** Beside the stranger's first read (Task 1), a path for a change: for each kind of change
+(a new pane, a new message, a shape change, a law), the smallest set of pages and files enough to
+make or review it. Its centre is one page of the patterns a change meets -- ask and answer, trial
+then commit, belt and take-back, guards against a stale answer, kept-until, judging after the
+write -- each with a short example and the timeline of its messages. The laws stay the reference
+behind it, not the way in.  
+**Source:** the founder's deep reviewer on reviewing Loom code (2026-10-05): Loom gives a review
+strong tools, and the cost is reconstructing a conversation across files and finding the smallest
+sufficient reading path; compact examples, reusable request-and-recovery patterns and readable
+message timelines would make a correct operation cheaper to recognize.  
+**Relation:** Task 1; BL-ARCH-02 (current law stays bounded); BL-WORK-24's message timelines, which
+can illustrate the patterns.
+
 ## 3. Order
 
 The founder's order (2026-09-26):
@@ -147,4 +163,5 @@ The founder's order (2026-09-26):
 6. Zengine's last process words (Task 2), the documentation lane's first live run:
    `prompts/zengine-process-words.md`.
 
-Task 1's first-read path is not yet placed. Tasks 5 and 6 land before a release.
+Task 1's first-read path and Task 7's change path are not yet placed; they meet in the
+documentation rewrite the founder wants. Tasks 5 and 6 land before a release.

@@ -83,14 +83,13 @@ comes with BL-WORK-05.
 
 ### BL-WORK-05 — Workshop's unit becomes the whole pixel
 
-**State:** DECIDED (the founder, 2026-10-02); ORDERED third (2026-10-03); staged in three (the
-founder, 2026-10-04): 1, the unit and canvas panes in pixels (`prompts/whole-pixel-1.md`), with
-an authored place measured from the room's top-left, as a default place is
-(`prompts/whole-pixel-1-room.md`), merged as Zengine #90 (`2c06da5`, 2026-10-04); 2, what
-Workshop still paints itself (`prompts/whole-pixel-2.md`), with BL-DEF-09, merged as Zengine #91
-(`5901b39`, 2026-10-05); 3 (`prompts/whole-pixel-3.md`), arrangement snapping, and a pane the weaver launches always lands where they can see it (the
-founder, 2026-10-05, on #91's report: a view run from the View Builder found "no room" beside an
-empty part of the room), with BL-DEF-10  
+**State:** CLOSED — merged in the founder's three stages (2026-10-04): 1, the unit and canvas
+panes in pixels (`prompts/whole-pixel-1.md`), with an authored place measured from the room's
+top-left (`prompts/whole-pixel-1-room.md`), as Zengine #90 (`2c06da5`, 2026-10-04); 2, what
+Workshop still paints itself (`prompts/whole-pixel-2.md`), with BL-DEF-09, as #91 (`5901b39`,
+2026-10-05); 3, arrangement snapping, and a pane the weaver launches always landing where they
+can see it (`prompts/whole-pixel-3.md`, the founder, 2026-10-05), with BL-DEF-10 and its review's
+fixes (`prompts/whole-pixel-3-fixes.md`), as #92 (`567f983`, 2026-10-05)  
 **Owed:** Workshop measures in 48ths of a cell, a quarter pixel in the window, and lays out the
 desk's fixed parts in cells before any font is measured. Reverse it: the whole pixel is the unit
 and a cell is 12 of them, so a pixel is a twelfth of a cell, and nothing authors a fraction of a
@@ -397,7 +396,12 @@ plan (removed 2026-10-03; in Git at `aa2fb18`).
 ### BL-WORK-24 — Agents read the desk by messages
 
 **State:** ORDERED — fourth in the founder's order: moved up from ninth (the founder, 2026-10-05)
-so the work after it proceeds smoother, right after the whole pixel  
+so the work after it proceeds smoother; next, in two stages (Vision, 2026-10-05): 1, what Workshop
+owns and holds, by message (`prompts/desk-by-messages-1.md`); 2, each pane names its own parts,
+and the walk presses them by id. Stage 1 also carries what #92's reviews asked for (the founder,
+2026-10-05): two checks in the constitution's attack pass, a census of shapes, a message timeline
+in the test rig, a rule for records' headers, #92's doc gaps, a shorter off-screen sentence, the
+Linux job's limit and the kit's exact replacements  
 **Owed:** An agent gets all it needs from the message system. Each pane's controls, rows and
 elements answer to stable IDs, with their places and sizes in pixels as numbers, so an agent
 checks a size by the number returned instead of counting pixels in a screenshot, and picks a
@@ -414,7 +418,7 @@ readable. The walk tool's ways of reaching a row and a point go with it (`worksh
 one-column property rows defeat, and `x,yc` counts a terminal console's cells, two rows above its
 canvas (#91's report, recommendations 3 and 4).
 
-**Wake:** after BL-WORK-05's stage 3.
+**Wake:** now: #92 merged (2026-10-05).
 **Source:** the founder (2026-10-03), joining two pressures from the finished drafts: menu rows
 reached by position, and the cost of evidence (`reportbacks/zengine-comfortable-demo-setups-RB.md`,
 `zengine-inventory-command-presets-RB.md`).
@@ -628,8 +632,7 @@ for their wake
 
 ### BL-DEF-10 — Two findings for stage 3
 
-**State:** DECIDED — rides with stage 3 of BL-WORK-05 (the founder, 2026-10-05;
-`prompts/whole-pixel-3.md`), saving a hosted run; #91 merged without them  
+**State:** CLOSED — merged with stage 3 as Zengine #92 (`567f983`, 2026-10-05)  
 **Owed:**
 - **The View Builder's launch record survives a view file that is missing for a while** (the deep
   review of #91 at `78928fb`). Saved and run, the view's file moved away, Workshop relaunched: the
