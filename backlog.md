@@ -121,10 +121,20 @@ moved before it (2026-10-05)
 text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
 Builder, Powers and the rest. Each moves to the canvas, so every pane draws in pixels and a
 terminal shows the fallback derived from that picture. Each pane it moves stays readable by
-messages (BL-WORK-24): an agent reads its words on the canvas as it read its rows.
+messages (BL-WORK-24): an agent reads its words on the canvas as it read its rows, by the names
+its parts were given.
+
+A caret in a cell medium is an inverted cell over its character (the founder, 2026-10-06, from
+#93's follow-up report). A terminal now draws a caret by inserting a `_` glyph into the row
+(`surface/region.hpp`), which stands every character after it a cell to the right and cuts a
+full row's last character; #93 maps every measured column through it (`drawn_column`,
+`shown_column`), and a press that moves a caret still moves text under a still hand, so a sweep
+aimed by the picture before it ends a character early or late. Drawn over its character instead,
+inserting nothing, a caret moves no text and the mapping goes. One convention for every cell
+medium; a caret past a full row's end still needs a cell to stand on.
 
 **Wake:** after BL-WORK-24; BL-WORK-09 follows it.
-**Source:** as BL-WORK-05.
+**Source:** as BL-WORK-05; the caret, the founder (2026-10-06).
 
 ### BL-WORK-07 — The View Builder's polish
 
@@ -397,8 +407,10 @@ plan (removed 2026-10-03; in Git at `aa2fb18`).
 
 **State:** ORDERED — fourth in the founder's order: moved up from ninth (the founder, 2026-10-05)
 so the work after it proceeds smoother; next, in two stages (Vision, 2026-10-05): 1, what Workshop
-owns and holds, by message (`prompts/desk-by-messages-1.md`); 2, each pane names its own parts,
-and the walk presses them by id. Stage 1 also carries what #92's reviews asked for (the founder,
+owns and holds, by message (`prompts/desk-by-messages-1.md`, with its review's fixes in
+`prompts/desk-by-messages-1-fixes.md`, as #93); 2, each pane names its own parts, and the walk
+presses them by name (`prompts/desk-by-messages-2.md`), with two deep-review findings on #93 and
+#93's doc gaps (the founder, 2026-10-06). Stage 1 also carries what #92's reviews asked for (the founder,
 2026-10-05): two checks in the constitution's attack pass, a census of shapes, a message timeline
 in the test rig, a rule for records' headers, #92's doc gaps, a shorter off-screen sentence, the
 Linux job's limit and the kit's exact replacements  

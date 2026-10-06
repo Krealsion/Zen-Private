@@ -1063,6 +1063,20 @@ new vocabularies, and for an old shape when it changes anyway.
 a host. [BL-WORK-35](backlog.md#bl-work-35--an-app-of-its-own-edited-live-from-workshop)'s link,
 where an app admits Workshop as a guest, is the likely first.
 
+### P-LOOM-09 — A library is described only by constructing its weave
+
+**State:** WATCH  
+**Evidence:** [#93's report](../reportbacks/desk-by-messages-1-RB.md#pressure-exposed)
+
+Zengine's census of shapes (#93) reads each weave library's manifest as the Kernel does at load,
+and the manifest is made by constructing the library's weave. A weave that cannot be created
+outside a host breaks the reader: #93's first hosted run crashed on generated flow weaves its
+build tree held, and the census now names such a library and goes on. Loom describing a library
+without constructing its weave would end it.
+
+**Trigger:** the next reader of manifests outside a host, or a shipped weave whose construction
+needs one.
+
 ## 6. Adoption pressure
 
 ### P-ADOPT-01 — Package truth is ahead of product distribution
