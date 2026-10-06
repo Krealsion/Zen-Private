@@ -984,6 +984,58 @@ Vocabulary grants no authority; Emit remains non-exhaustive for dynamic forwardi
 witness is shipped. BL-ARCH-01 remains parked: the traversal stays in core without importing kernel
 machinery into switchboard. General migration and process-lifetime schema retention remain separate.
 
+### P-LOOM-08 — A shape's name is first come on its host
+
+**State:** PARKED — a solid approach, not now (the founder, 2026-10-05: preparing for the future)  
+**Evidence:** #92's review, where the View Builder's and the Builder's states were both
+`BuilderState` ([its follow-up](../prompts/whole-pixel-3-fixes.md), item 3); Loom's `ZEN_SHAPE`
+(`include/zen/weave/shape.hpp`), [GATE-04](../Loom/docs/laws/admission-laws.md#gate-04--immutable-published-schemas)
+and [the copied weave](../Loom/docs/guides/writing-a-weave.md).
+
+`ZEN_SHAPE` names a shape by its bare C++ name, and a host's registry holds one definition per
+`(name, version)` for as long as a participant that declared it lives
+([LIFE-08](../Loom/docs/laws/lifecycle-laws.md#life-08--a-schema-is-retained-by-a-live-claim-never-by-having-been-registered)).
+For one author that is the rule working: a shape changed without a new version is refused at load
+when its old and new definitions meet, not at its first delivery
+([ABI v9](../Loom/docs/decisions/declared-vocabulary-is-agreed-at-admission.md)). Between authors
+it makes a coincidence a refusal, sometimes long after the fact: the two `BuilderState`s lived side
+by side at v3 and v4 and would have collided once one version caught up with the other (the View
+Builder's is `ViewBuilderState` from #92's follow-up).
+
+One host per application keeps apart apps that never meet. It does not help a participant that
+speaks two authors' vocabularies: an operator turning a music app's `Note` v1 into a notebook app's
+`Note` v1 declares two definitions of one `(name, version)` and is refused in any host, its own
+included -- and composing pieces is what Zen's operators are for.
+
+The candidate is owned names: `music.Note` v1 beside `notebook.Note` v1, with GATE-04 unchanged
+inside an owner. Loom already names its own shapes this way by hand (`zen.Activated`,
+`zen.DispatchRefused`); the gap is the macro. A namespace declares its owner once, and every
+`ZEN_SHAPE` inside it publishes under it:
+
+```cpp
+namespace music {
+ZEN_VOCABULARY("music");  // every shape in this namespace is named under it
+struct Note {
+    std::int64_t pitch = 0, length = 0;
+    ZEN_SHAPE(Note, 1, ZEN_FIELD(pitch), ZEN_FIELD(length)); // published as "music.Note" v1
+};
+}
+```
+
+An office-style owner (`zengine.workshop`) reuses a name already unique on a host. A later
+capability layer could let only that office's holder define shapes under it, so a library could no
+longer hold another author's name by claiming it first.
+
+Not the answer: identity by content id alone (an author's slip becomes a silent split at its first
+delivery, the failure ABI v9 removed); C++ namespaces (to Loom, `music::Note` and `notebook::Note`
+are both `Note`); renaming every shape at once (a name is part of the content id, and a file that
+names its shape, such as `"schema":"WorkshopKeymap"`, needs an authored migration). Adopt it for
+new vocabularies, and for an old shape when it changes anyway.
+
+**Trigger:** a participant must speak two authors' vocabularies, or two authors' libraries share
+a host. [BL-WORK-35](backlog.md#bl-work-35--an-app-of-its-own-edited-live-from-workshop)'s link,
+where an app admits Workshop as a guest, is the likely first.
+
 ## 6. Adoption pressure
 
 ### P-ADOPT-01 — Package truth is ahead of product distribution

@@ -535,7 +535,9 @@ mid-run. Workshop joins it beside it to edit it live. The road, simplest first:
    app's boot list for its next launch.
 
 The question the research answers first: what a joined Workshop may do to a running app (Loom's
-admission policy).
+admission policy). Where Workshop's vocabulary and the app's meet on one host, a shape name
+both use for different shapes is refused
+([P-LOOM-08](pressure.md#p-loom-08--a-shapes-name-is-first-come-on-its-host)).
 
 **Wake:** the founder selects it.
 **Source:** the founder (2026-10-05): the View Builder builds panes, and a project from scratch
