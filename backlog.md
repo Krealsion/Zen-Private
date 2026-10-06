@@ -116,7 +116,9 @@ the authority, and a terminal's is derived from it.
 ### BL-WORK-06 — The text panes draw on the canvas
 
 **State:** DECIDED (the founder, 2026-10-02); ORDERED fourth (2026-10-03), fifth since BL-WORK-24
-moved before it (2026-10-05)  
+moved before it (2026-10-05); next, in stages (Vision, 2026-10-06): 1, the cell caret and the
+panes that list and show (`prompts/text-panes-canvas-1.md`); the panes that work with values
+follow; the Editors move last, with the managed opening, whose conversation still carries rows  
 **Owed:** Every pane except Flow, the View Builder and described views writes rows and columns of
 text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
 Builder, Powers and the rest. Each moves to the canvas, so every pane draws in pixels and a
@@ -133,7 +135,13 @@ aimed by the picture before it ends a character early or late. Drawn over its ch
 inserting nothing, a caret moves no text and the mapping goes. One convention for every cell
 medium; a caret past a full row's end still needs a cell to stand on.
 
-**Wake:** after BL-WORK-24; BL-WORK-09 follows it.
+Stage 1 also carries what #94 left (its reports and deep review, 2026-10-06): a part whose only
+visible cell is its caret's at a terminal's right edge has no point, though a press there reaches
+it (the deep review's P3 on #94's fixes, which the inverted cell answers); no page lists the names
+each shipped pane gives its parts, or the places it leaves unnamed; and WL-HAND's register is at
+its byte budget, so a law it takes needs the file split first.
+
+**Wake:** met: #94 merged (2026-10-06); BL-WORK-09 follows it.
 **Source:** as BL-WORK-05; the caret, the founder (2026-10-06).
 
 ### BL-WORK-07 — The View Builder's polish
@@ -405,12 +413,12 @@ plan (removed 2026-10-03; in Git at `aa2fb18`).
 
 ### BL-WORK-24 — Agents read the desk by messages
 
-**State:** ORDERED — fourth in the founder's order: moved up from ninth (the founder, 2026-10-05)
-so the work after it proceeds smoother; next, in two stages (Vision, 2026-10-05): 1, what Workshop
-owns and holds, by message (`prompts/desk-by-messages-1.md`, with its review's fixes in
-`prompts/desk-by-messages-1-fixes.md`, as #93); 2, each pane names its own parts, and the walk
-presses them by name (`prompts/desk-by-messages-2.md`), with two deep-review findings on #93 and
-#93's doc gaps (the founder, 2026-10-06). Stage 1 also carries what #92's reviews asked for (the founder,
+**State:** CLOSED — merged in two stages (Vision, 2026-10-05): 1, what Workshop owns and holds,
+by message (`prompts/desk-by-messages-1.md`, with its review's fixes in
+`prompts/desk-by-messages-1-fixes.md`), as Zengine #93 (`2305850`, 2026-10-06); 2, each pane
+names its own parts, and the walk presses them by name (`prompts/desk-by-messages-2.md`), with
+two deep-review findings on #93 and #93's doc gaps (the founder, 2026-10-06), and its review's
+fixes (`prompts/desk-by-messages-2-fixes.md`), as #94 (`7b73239`, 2026-10-06). Stage 1 also carries what #92's reviews asked for (the founder,
 2026-10-05): two checks in the constitution's attack pass, a census of shapes, a message timeline
 in the test rig, a rule for records' headers, #92's doc gaps, a shorter off-screen sentence, the
 Linux job's limit and the kit's exact replacements  
@@ -430,7 +438,7 @@ readable. The walk tool's ways of reaching a row and a point go with it (`worksh
 one-column property rows defeat, and `x,yc` counts a terminal console's cells, two rows above its
 canvas (#91's report, recommendations 3 and 4).
 
-**Wake:** now: #92 merged (2026-10-05).
+**Wake:** met: #92 merged (2026-10-05).
 **Source:** the founder (2026-10-03), joining two pressures from the finished drafts: menu rows
 reached by position, and the cost of evidence (`reportbacks/zengine-comfortable-demo-setups-RB.md`,
 `zengine-inventory-command-presets-RB.md`).

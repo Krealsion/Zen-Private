@@ -54,8 +54,9 @@ P-WORK-50 and P-WORK-51 are pressure it measured. The executor process phase mer
 a compile cache (`prompts/executor-process-ccache.md`). The whole pixel's first stage merged as
 Zengine #90 (2026-10-04), its second as #91 (2026-10-05), closing P-WORK-05, and its third as
 #92 (2026-10-05), delivering P-WORK-10's snapping; P-BUILD-09 is pressure it measured, and it
-measured P-WORK-50 again. Agents reading the desk by messages (BL-WORK-24) is next, in two
-stages (`prompts/desk-by-messages-1.md`).
+measured P-WORK-50 again. Agents reading the desk by messages (BL-WORK-24) merged in two stages,
+as #93 and #94 (2026-10-06); P-WORK-52 and P-BUILD-10 are pressure they measured. The text panes
+on the canvas (BL-WORK-06) is next, in stages (`prompts/text-panes-canvas-1.md`).
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -554,6 +555,17 @@ desk should instead be fitted to the room is a policy no one has chosen.
 
 **Trigger:** a weaver or a setup needs a desk kept as authored on a smaller screen.
 
+### P-WORK-52 — Layouts is read by neither version of the pane view
+
+**State:** WATCH
+**Evidence:** [#94's report](../reportbacks/desk-by-messages-2-RB.md#doc-gaps)
+
+Layouts, the tab row, is the one pane Workshop presents itself (`kBuiltinPanes`,
+`workshop/panes.hpp`), and neither version of the pane view reads it, so an agent knows of it only
+what the desk says: no tab as a word or a named part.
+
+**Trigger:** a walk that needs a tab by name, or Layouts leaving the host.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
@@ -881,10 +893,11 @@ and independent denial evidence; do not select a general build-system rewrite fr
 
 ### P-BUILD-09 — The hosted jobs' limits sit close to their times
 
-**State:** WATCH — the ASan job's limit rose from 45 to 60 minutes in #92; the Linux canonical
-job's, from 30 to 45, rides with BL-WORK-24's first stage  
-**Evidence:** [stage 3's report](../reportbacks/whole-pixel-3-RB.md#pressure-exposed) and
-[its follow-up's](../reportbacks/whole-pixel-3-fixes-RB.md#what-ran-and-what-did-not)
+**State:** WATCH — the ASan job's limit rose from 45 to 60 minutes in #92, and the Linux
+canonical job's from 30 to 45 in #93  
+**Evidence:** [stage 3's report](../reportbacks/whole-pixel-3-RB.md#pressure-exposed),
+[its follow-up's](../reportbacks/whole-pixel-3-fixes-RB.md#what-ran-and-what-did-not) and
+[#94's](../reportbacks/desk-by-messages-2-RB.md#what-ran-and-what-did-not)
 
 A suite that grows shows first as a cancelled job, not a red case, and the local lanes have no
 limit to warn first. #92's first push had its Linux canonical job cancelled at 30 minutes when
@@ -892,8 +905,35 @@ limit to warn first. #92's first push had its Linux canonical job cancelled at 3
 and ASan took 41 m 05 s of its 45 before its limit rose. A runner's speed alone moved one job by
 three minutes.
 
+On #93 and #94 (2026-10-06) the ASan job took 40 m 10 s to 41 m 49 s of its 60, and Linux
+canonical at most 27 m 14 s of its 45.
+
 **Trigger:** a job within a tenth of its limit, or a cancel: raise the limit or split the job, and
 set each suite's time beside main's before the push (#92's report, recommendation 6).
+
+### P-BUILD-10 — The kit's open recommendations from #94's rounds
+
+**State:** WATCH
+**Evidence:** [stage 2's report](../reportbacks/desk-by-messages-2-RB.md#executor-optimization-recommendations)
+and [its follow-up's](../reportbacks/desk-by-messages-2-fixes-RB.md#executor-optimization-recommendations)
+
+Each was met once, and each cost time:
+- A floor behind a gate no local lane opens is checked only by the hosted run: #94's first push
+  spent one on the `neovim` gate's floor. A kit helper listing each gated suite's cases with its
+  gate forced would check it before the push.
+- A tip builds from the working tree, so an edit made while it runs can reach one of its halves;
+  a tip built from a worktree at the commit keeps its evidence one commit's.
+- `witness.sh run` copies from the run's record, which lists 32 artifacts at most; copying the
+  run's whole `out/` keeps what a long walk made.
+- The tip and the SDL build cannot share the machine (`Cannot allocate memory`): one build at a
+  time across WSL and Windows.
+- A register's headroom is learned from its refusal; `checks.sh` could print each register
+  file's bytes against its budget before the edit.
+- Each suite's stand-in for Workshop lists the content versions it accepts, and a new version is
+  added to each by hand (three were missed in #94); one stand-in accepting every published
+  version would end that.
+
+**Trigger:** the next executor process pass, or a phase that meets one again.
 
 ## 5. Loom and architecture pressure
 
