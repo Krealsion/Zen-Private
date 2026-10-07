@@ -57,7 +57,8 @@ Zengine #90 (2026-10-04), its second as #91 (2026-10-05), closing P-WORK-05, and
 measured P-WORK-50 again. Agents reading the desk by messages (BL-WORK-24) merged in two stages,
 as #93 and #94 (2026-10-06); P-WORK-52 and P-BUILD-10 are pressure they measured. The text panes
 on the canvas (BL-WORK-06) is under way: its first stage merged as #95 (2026-10-06), and
-P-BUILD-11 is pressure it measured; its second is next (`prompts/text-panes-canvas-2.md`).
+P-BUILD-11 is pressure it measured; its second as #96 (2026-10-07); its third is next
+(`prompts/text-panes-canvas-3.md`).
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -908,7 +909,8 @@ three minutes.
 
 On #93 and #94 (2026-10-06) the ASan job took 40 m 10 s to 41 m 49 s of its 60, and Linux
 canonical at most 27 m 14 s of its 45. On #95 (2026-10-06) MinGW-w64 took 37 m 17 s of its 45,
-Linux canonical 27 m 38 s and ASan 28 m 57 s.
+Linux canonical 27 m 38 s and ASan 28 m 57 s; on #96 (2026-10-07) MinGW-w64 36 m 01 s, Linux
+canonical 22 m 40 s and ASan 34 m 51 s.
 
 **Trigger:** a job within a tenth of its limit, or a cancel: raise the limit or split the job, and
 set each suite's time beside main's before the push (#92's report, recommendation 6).
@@ -938,6 +940,11 @@ Each was met once, and each cost time:
 - A list of filters for `case-wsl.sh`, refusing a filter holding a comma (doctest splits there);
   `mutate.sh` passing a `py:` run its arguments, so the tool checks join a matrix; and
   `witness.sh start --tui` sizing the console to Windows Terminal's window (#95).
+- `case-wsl.sh` taking a list of targets, and the kit's step routine running
+  `zengine-workshop-shapes-tests` whenever a weave's accept or emit set changes: only the census
+  saw a shape #96 left published by no one; `witness.sh` recording the commit and tree a witness
+  ran from; and a terminal picture taken in the console's own colours, without the screen's
+  night-light tint (#96). `mutate.sh` passing a `py:` run its arguments was asked a third time.
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 

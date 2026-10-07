@@ -119,8 +119,10 @@ the authority, and a terminal's is derived from it.
 moved before it (2026-10-05); under way, in four stages (Vision, 2026-10-06): 1, the cell caret
 and the panes that list and show (`prompts/text-panes-canvas-1.md`), as Zengine #95 (`47f0de1`,
 2026-10-06); 2, the medium's own ground for a moved pane (the founder, 2026-10-06), and Files, the
-Builder, the Terminal and the Composer (`prompts/text-panes-canvas-2.md`); 3, Info and Inventory
-with their views; 4, the Editors, with the managed opening, whose conversation still carries rows  
+Builder, the Terminal and the Composer (`prompts/text-panes-canvas-2.md`), as #96 (`859f9e9`,
+2026-10-07); 3, Info and Inventory with their views, and plain text in a terminal in the
+terminal's own text colour (the founder, 2026-10-07; `prompts/text-panes-canvas-3.md`); 4, the
+Editors, with the managed opening, whose conversation still carries rows  
 **Owed:** Every pane except Flow, the View Builder and described views writes rows and columns of
 text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
 Builder, Powers and the rest. Each moves to the canvas, so every pane draws in pixels and a
@@ -261,10 +263,40 @@ UI-editing overlay, reach those parts.
 
 **State:** ORDERED — ninth in the founder's order (2026-10-03; renumbered 2026-10-05)  
 **Owed:** The canvas draws an image, and a view description holds an image element. A terminal
-shows a fallback derived from the picture.
+shows a fallback derived from the picture. An image is one kind BL-WORK-37's drawing door would
+carry; its research decides whether Images waits for it (2026-10-07).
 
 **Wake:** after BL-WORK-10; it needs the whole pixel (BL-WORK-05).
 **Source:** as BL-WORK-07.
+
+### BL-WORK-37 — The skin's drawing door
+
+**State:** FILED — researched first; not yet ordered (the founder, 2026-10-07)  
+**Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
+`draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
+the skin, kept under the pane and its key and called every frame the skin draws until the pane
+changes or removes it -- reference Zengine's `game_graphics`
+(`Zengine/reference/src/zengine/graphics/`), whose draw list was cleared each frame, kept instead.
+A pane draws from its own 0,0 as far as it likes, and the skin shows what falls in its area. Roles
+stay a way to follow a theme; a pane may also give a colour itself, or take one from its settings
+(BL-WORK-36). The kinds grow one at a time, each drawn as well as a skin can: borders, filled
+rectangles, ovals, lines, polygons, images (BL-WORK-11), shaders on an area, and whole widgets --
+a colour picker from a skin built on ImGui, its value coming back as a message. Each skin says
+which kinds it draws, so a terminal can decline a shader and the pane choose another way: the skin
+decides how, or whether, it draws what is asked.
+
+The research settles: items sent together appearing together; an item's order, said as simply as
+it can be -- reference Zengine's layers are not taken on, and a layer control is added one at a
+time, only when pressure asks; a pane's budget; a skin replaced live keeping its items without
+breaking the draw cadence; input to a skin's own widget, and its value back to the pane; and what
+Workshop reads pictures for today -- agents reading words, parts and points (BL-WORK-24), and the
+fence a press is judged against -- moving to the skin, which knows where each keyed item landed,
+so a key may be the name an agent presses a part by. A move would then cost a pane nothing, and
+one pane's change redraw one pane (P-WORK-50).
+
+**Wake:** the founder orders it.
+**Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
+draw list the skin keeps.
 
 ### BL-WORK-12 — Multiple windows
 
