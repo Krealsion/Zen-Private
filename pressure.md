@@ -57,8 +57,9 @@ Zengine #90 (2026-10-04), its second as #91 (2026-10-05), closing P-WORK-05, and
 measured P-WORK-50 again. Agents reading the desk by messages (BL-WORK-24) merged in two stages,
 as #93 and #94 (2026-10-06); P-WORK-52 and P-BUILD-10 are pressure they measured. The text panes
 on the canvas (BL-WORK-06) is under way: its first stage merged as #95 (2026-10-06), and
-P-BUILD-11 is pressure it measured; its second as #96 (2026-10-07); its third is next
-(`prompts/text-panes-canvas-3.md`).
+P-BUILD-11 is pressure it measured; its second as #96 (2026-10-07); its third as #97
+(2026-10-07), and P-WORK-53 is pressure it measured; its fourth is next
+(`prompts/text-panes-canvas-4.md`).
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -568,6 +569,24 @@ what the desk says: no tab as a word or a named part.
 
 **Trigger:** a walk that needs a tab by name, or Layouts leaving the host.
 
+### P-WORK-53 — Small defects the moved panes still carry
+
+**State:** WATCH
+**Evidence:** [BL-WORK-06 stage 3's report](../reportbacks/text-panes-canvas-3-RB.md#doc-gaps)
+
+Each older than #97, seen there and not changed:
+- an alert's bold (SGR 31;1) is never closed in a terminal row, so plain text after an alert in
+  the same row is bold;
+- a menu a canvas pane opens from a primary press or a key is anchored by the prose fit, about
+  2 px above the drawn row in a window;
+- Inventory's "Click a receiving pane; Escape cancels" outlives the carry it names;
+- Info's subject band (`PANE <name>`) reads dim in a terminal, dark or light;
+- Info's slots after a reload stay without a room until they are offered again;
+- a drag pickup Info refuses at once is drawn only at the next redraw;
+- a field copy placed on Info's lists is told "drop again", which can never fill a field there.
+
+**Trigger:** a phase that touches the pane or the skin; Info's four are BL-WORK-10's quarry.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
@@ -910,7 +929,9 @@ three minutes.
 On #93 and #94 (2026-10-06) the ASan job took 40 m 10 s to 41 m 49 s of its 60, and Linux
 canonical at most 27 m 14 s of its 45. On #95 (2026-10-06) MinGW-w64 took 37 m 17 s of its 45,
 Linux canonical 27 m 38 s and ASan 28 m 57 s; on #96 (2026-10-07) MinGW-w64 36 m 01 s, Linux
-canonical 22 m 40 s and ASan 34 m 51 s.
+canonical 22 m 40 s and ASan 34 m 51 s; on #97 (2026-10-07), over its two runs, ASan 43 m 34 s to
+44 m 35 s, MinGW-w64 at most 30 m 19 s and Linux canonical at most 27 m 11 s. ASan has grown with
+each stage of BL-WORK-06.
 
 **Trigger:** a job within a tenth of its limit, or a cancel: raise the limit or split the job, and
 set each suite's time beside main's before the push (#92's report, recommendation 6).
@@ -919,8 +940,10 @@ set each suite's time beside main's before the push (#92's report, recommendatio
 
 **State:** WATCH
 **Evidence:** [BL-WORK-24 stage 2's report](../reportbacks/desk-by-messages-2-RB.md#executor-optimization-recommendations),
-[its follow-up's](../reportbacks/desk-by-messages-2-fixes-RB.md#executor-optimization-recommendations)
-and [BL-WORK-06 stage 1's](../reportbacks/text-panes-canvas-1-RB.md#executor-optimization-recommendations)
+[its follow-up's](../reportbacks/desk-by-messages-2-fixes-RB.md#executor-optimization-recommendations),
+[BL-WORK-06 stage 1's](../reportbacks/text-panes-canvas-1-RB.md#executor-optimization-recommendations),
+[stage 3's](../reportbacks/text-panes-canvas-3-RB.md#executor-optimization-recommendations) and
+[its fixes'](../reportbacks/text-panes-canvas-3-fixes-RB.md#executor-optimization-recommendations)
 
 Each was met once, and each cost time:
 - A floor behind a gate no local lane opens is checked only by the hosted run: #94's first push
@@ -945,6 +968,15 @@ Each was met once, and each cost time:
   saw a shape #96 left published by no one; `witness.sh` recording the commit and tree a witness
   ran from; and a terminal picture taken in the console's own colours, without the screen's
   night-light tint (#96). `mutate.sh` passing a `py:` run its arguments was asked a third time.
+- A second copy moved by the kit (`primary.sh second <name> <ref>`), refusing wherever the
+  repository it stands in is not the copy's own: a git command run beside a copy reached Zen's own
+  tree; a canary helper reversing exactly the edit it applied, so an uncommitted fix in the same
+  file survives; `act.py`'s readers reading again on "picture moved"; a lane lock the kit's other
+  runners refuse under, so no edit lands in a tree a lane is witnessing; a phase-start sweep of the
+  test processes an earlier phase left (one had slept 12 hours), the case runner's timeout killing
+  its child; a desk-rig helper for a held press; and `mutate.py` naming a run that cannot reach a
+  mutant (#97 and its fixes). `witness.sh` recording its commit and tree, and a terminal picture
+  without the night-light tint, were asked again.
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 

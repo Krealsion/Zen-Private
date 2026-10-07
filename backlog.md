@@ -121,8 +121,10 @@ and the panes that list and show (`prompts/text-panes-canvas-1.md`), as Zengine 
 2026-10-06); 2, the medium's own ground for a moved pane (the founder, 2026-10-06), and Files, the
 Builder, the Terminal and the Composer (`prompts/text-panes-canvas-2.md`), as #96 (`859f9e9`,
 2026-10-07); 3, Info and Inventory with their views, and plain text in a terminal in the
-terminal's own text colour (the founder, 2026-10-07; `prompts/text-panes-canvas-3.md`); 4, the
-Editors, with the managed opening, whose conversation still carries rows  
+terminal's own text colour (the founder, 2026-10-07; `prompts/text-panes-canvas-3.md`), as #97
+(`826b05c`, 2026-10-07), with its review's fix (`prompts/text-panes-canvas-3-fixes.md`); 4, the
+Editors, with the managed opening, whose conversation still carries rows, and the held press's
+room #97 left keyed by geometry alone (`prompts/text-panes-canvas-4.md`)  
 **Owed:** Every pane except Flow, the View Builder and described views writes rows and columns of
 text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
 Builder, Powers and the rest. Each moves to the canvas, so every pane draws in pixels and a
