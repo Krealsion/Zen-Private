@@ -143,8 +143,40 @@ it (the deep review's P3 on #94's fixes, which the inverted cell answers); no pa
 each shipped pane gives its parts, or the places it leaves unnamed; and WL-HAND's register is at
 its byte budget, so a law it takes needs the file split first.
 
-**Wake:** met: #94 merged (2026-10-06); BL-WORK-09 follows it.
+**Wake:** met: #94 merged (2026-10-06); BL-WORK-36 follows it, then BL-WORK-09.
 **Source:** as BL-WORK-05; the caret, the founder (2026-10-06).
+
+### BL-WORK-36 — Settings: what a pane can set, kept with each layout
+
+**State:** ORDERED — right after BL-WORK-06, before BL-WORK-09; researched first (the founder,
+2026-10-07)  
+**Owed:** Configuration for customization is one of Zen's pillars, and replaceable code alone does
+not give it: some things a weaver wants to switch between without a code change or a reload (the
+founder, 2026-10-07). A light mode is not special, and the magic numbers -- a ground, a text
+colour -- belong in settings. Each pane may publish what can be set on it as a settings shape of
+its own, with its defaults; the desk keeps a value per pane in each layout's setup row, beside its
+place and size, and hands the pane the active layout's value whenever it is seated, the layout
+switches or the value is edited, so a pane in two layouts keeps each layout's settings without
+knowing which is active. An editor -- Info's field editing, or a settings pane on it -- reads and
+writes them by message:
+
+```text
+PaneSettings          { provider, pane, value }  // value: the pane's own settings shape
+PaneSettingsRequested { provider, pane }         // the desk answers with PaneSettings
+```
+
+Workshop stores and forwards a value and never reads inside it. Settings go in as the work meets
+forks, so either path can be chosen. A pane's own settings may change its text size or show and
+hide its parts; the skin's -- the palette, the window's ground, the font size -- belong to no pane.
+
+The research settles: a settings shape's versions against values an older layout saved; where the
+skin's settings live, likely for every desk at once; per-pane text size against the canvas's law
+that a pane chooses no font; showing and hiding parts as one mechanism with BL-WORK-16's
+accordions; the setup file's format past version 4.
+
+**Wake:** BL-WORK-06 closes.
+**Source:** the founder (2026-10-07), after #96's light terminal, with the two messages and the
+setup file as the store his own.
 
 ### BL-WORK-07 — The View Builder's polish
 
@@ -200,7 +232,8 @@ founder's OK (2026-10-03).
 
 ### BL-WORK-09 — What the canvas unlocks for every pane
 
-**State:** ORDERED — fifth in the founder's order (2026-10-03; renumbered 2026-10-05), after BL-WORK-06  
+**State:** ORDERED — fifth in the founder's order (2026-10-03; renumbered 2026-10-05), after BL-WORK-06
+and the settings (BL-WORK-36, the founder, 2026-10-07)  
 **Owed:** Once every pane draws on the canvas, every pane can have:
 - A hover cue on whatever a press would activate, from `PaneCanvasHover`.
 - A `?` at the pane's top right when the pane offers a summary or a tutorial. Workshop draws the
@@ -208,7 +241,7 @@ founder's OK (2026-10-03).
 - Tutorial mode: shifting outlines walk through the pane's own parts in turn, and the places that
   take a drop are outlined in another colour. It never reaches into another pane.
 
-**Wake:** BL-WORK-06.
+**Wake:** BL-WORK-36.
 **Source:** as BL-WORK-07. It also serves Task 6 of `private/goals/stranger-legible.md`.
 
 ### BL-WORK-10 — Info rebuilt as a one-slot inspector
