@@ -116,9 +116,11 @@ the authority, and a terminal's is derived from it.
 ### BL-WORK-06 — The text panes draw on the canvas
 
 **State:** DECIDED (the founder, 2026-10-02); ORDERED fourth (2026-10-03), fifth since BL-WORK-24
-moved before it (2026-10-05); next, in stages (Vision, 2026-10-06): 1, the cell caret and the
-panes that list and show (`prompts/text-panes-canvas-1.md`); the panes that work with values
-follow; the Editors move last, with the managed opening, whose conversation still carries rows  
+moved before it (2026-10-05); under way, in four stages (Vision, 2026-10-06): 1, the cell caret
+and the panes that list and show (`prompts/text-panes-canvas-1.md`), as Zengine #95 (`47f0de1`,
+2026-10-06); 2, the medium's own ground for a moved pane (the founder, 2026-10-06), and Files, the
+Builder, the Terminal and the Composer (`prompts/text-panes-canvas-2.md`); 3, Info and Inventory
+with their views; 4, the Editors, with the managed opening, whose conversation still carries rows  
 **Owed:** Every pane except Flow, the View Builder and described views writes rows and columns of
 text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
 Builder, Powers and the rest. Each moves to the canvas, so every pane draws in pixels and a
@@ -135,7 +137,7 @@ aimed by the picture before it ends a character early or late. Drawn over its ch
 inserting nothing, a caret moves no text and the mapping goes. One convention for every cell
 medium; a caret past a full row's end still needs a cell to stand on.
 
-Stage 1 also carries what #94 left (its reports and deep review, 2026-10-06): a part whose only
+Stage 1 carried what #94 left (its reports and deep review, 2026-10-06): a part whose only
 visible cell is its caret's at a terminal's right edge has no point, though a press there reaches
 it (the deep review's P3 on #94's fixes, which the inverted cell answers); no page lists the names
 each shipped pane gives its parts, or the places it leaves unnamed; and WL-HAND's register is at

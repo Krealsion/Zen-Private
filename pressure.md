@@ -56,7 +56,8 @@ Zengine #90 (2026-10-04), its second as #91 (2026-10-05), closing P-WORK-05, and
 #92 (2026-10-05), delivering P-WORK-10's snapping; P-BUILD-09 is pressure it measured, and it
 measured P-WORK-50 again. Agents reading the desk by messages (BL-WORK-24) merged in two stages,
 as #93 and #94 (2026-10-06); P-WORK-52 and P-BUILD-10 are pressure they measured. The text panes
-on the canvas (BL-WORK-06) is next, in stages (`prompts/text-panes-canvas-1.md`).
+on the canvas (BL-WORK-06) is under way: its first stage merged as #95 (2026-10-06), and
+P-BUILD-11 is pressure it measured; its second is next (`prompts/text-panes-canvas-2.md`).
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -906,16 +907,18 @@ and ASan took 41 m 05 s of its 45 before its limit rose. A runner's speed alone 
 three minutes.
 
 On #93 and #94 (2026-10-06) the ASan job took 40 m 10 s to 41 m 49 s of its 60, and Linux
-canonical at most 27 m 14 s of its 45.
+canonical at most 27 m 14 s of its 45. On #95 (2026-10-06) MinGW-w64 took 37 m 17 s of its 45,
+Linux canonical 27 m 38 s and ASan 28 m 57 s.
 
 **Trigger:** a job within a tenth of its limit, or a cancel: raise the limit or split the job, and
 set each suite's time beside main's before the push (#92's report, recommendation 6).
 
-### P-BUILD-10 — The kit's open recommendations from #94's rounds
+### P-BUILD-10 — The kit's open recommendations
 
 **State:** WATCH
-**Evidence:** [stage 2's report](../reportbacks/desk-by-messages-2-RB.md#executor-optimization-recommendations)
-and [its follow-up's](../reportbacks/desk-by-messages-2-fixes-RB.md#executor-optimization-recommendations)
+**Evidence:** [BL-WORK-24 stage 2's report](../reportbacks/desk-by-messages-2-RB.md#executor-optimization-recommendations),
+[its follow-up's](../reportbacks/desk-by-messages-2-fixes-RB.md#executor-optimization-recommendations)
+and [BL-WORK-06 stage 1's](../reportbacks/text-panes-canvas-1-RB.md#executor-optimization-recommendations)
 
 Each was met once, and each cost time:
 - A floor behind a gate no local lane opens is checked only by the hosted run: #94's first push
@@ -926,14 +929,31 @@ Each was met once, and each cost time:
 - `witness.sh run` copies from the run's record, which lists 32 artifacts at most; copying the
   run's whole `out/` keeps what a long walk made.
 - The tip and the SDL build cannot share the machine (`Cannot allocate memory`): one build at a
-  time across WSL and Windows.
+  time across WSL and Windows. Met again in #95, where a journey's race showed under the load.
 - A register's headroom is learned from its refusal; `checks.sh` could print each register
   file's bytes against its budget before the edit.
 - Each suite's stand-in for Workshop lists the content versions it accepts, and a new version is
   added to each by hand (three were missed in #94); one stand-in accepting every published
   version would end that.
+- A list of filters for `case-wsl.sh`, refusing a filter holding a comma (doctest splits there);
+  `mutate.sh` passing a `py:` run its arguments, so the tool checks join a matrix; and
+  `witness.sh start --tui` sizing the console to Windows Terminal's window (#95).
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
+
+### P-BUILD-11 — A cancelled walk's input session races the next run's ask
+
+**State:** WATCH
+**Evidence:** [BL-WORK-06 stage 1's report](../reportbacks/text-panes-canvas-1-RB.md#pressure-exposed)
+
+`story_journey` failed in #95's tip, official and sanitizer lanes alike, while the Windows SDL
+build or a mutation matrix shared the machine: a run cancelled mid-walk had not yet given back
+Workshop's input session when the next run asked for one (`busy: input session 3 is held by
+you`). Alone it passed, and in every quiet lane and hosted job. The race is the cancel's cleanup
+against the next ask, in the act tool's session handling as `main` has it.
+
+**Trigger:** a hosted job or a quiet lane fails on it, or a phase that touches the tool's session
+handling.
 
 ## 5. Loom and architecture pressure
 
