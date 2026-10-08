@@ -610,7 +610,8 @@ a project under `C:/Users/Jane Doe/` cannot be edited through it (the same repor
 
 ### P-WORK-55 — Paths a weaver's machine holds still break two doors
 
-**State:** ACT — a quick repair, when the founder chooses its direction  
+**State:** ACT — written for the UTF-8 code page (`prompts/windows-utf8-paths.md`, 2026-10-08), with
+nvim-edit's paths beside it; the founder's last word follows the scope summary  
 **Evidence:** [#100's report](../reportbacks/refused-picture-said-RB.md#decisions-asked) and
 [#99's](../reportbacks/temp-path-cases-RB.md#found-not-changed)
 
@@ -1303,16 +1304,19 @@ needs one.
 
 ### P-LOOM-10 — A struct shape's optional fields left four edges
 
-**State:** WATCH; one founder decision asked  
+**State:** WATCH; its decision made (the founder, 2026-10-08) and written
+(`prompts/loom-required-fields-first.md`)  
 **Evidence:** [Loom #31's report](../reportbacks/loom-optional-shape-fields-RB.md#pressure-exposed)
 and [its decisions asked](../reportbacks/loom-optional-shape-fields-RB.md#decisions-asked)
 
 Loom #31 (`b664311`, 2026-10-08) made a `ZEN_SHAPE` member of type `std::optional<T>` an optional
 field of `T`'s type. Left open:
-- **Decision asked:** the composer's positional rung fills the first open field, optional or not.
-  With `{limit?: Int, n: Int}` and a bare `7`, 7 lands in `limit`, `n` stays open, and the
-  NeedsInput result does not say where 7 went (read from the code, not run). It never mis-sends, and
-  it predates #31 for hand-built schemas; changing it changes the documented ladder.
+- **Decided** (the founder, 2026-10-08): bare values fill the required fields first, then the
+  optional ones, as a C++ call fills the parameters without defaults before those with them. Until
+  then the positional rung fills the first open field, optional or not: with `{limit?: Int, n: Int}`
+  and a bare `7`, 7 lands in `limit` and `n` stays open. Zengine's half rides with settings stage 2,
+  where a Terminal line first carries a setting: its Terminal completer lists a shape's fields in
+  declaration order and still offers a field a bare value filled (`workshop/complete.hpp`).
 - `zen.PokeField` carries no requiredness: a tool that must know from the structure alone that a
   field may be absent needs `zen.PokeField` v2, and `zen.PokeStructure` v2 nesting it. Trigger: an
   inspector that must show optionality before reading.
@@ -1322,7 +1326,7 @@ field of `T`'s type. Left open:
 - The Python session client's `.get(name, default)` reads are where a vocabulary that gains an
   optional member meets absence. Trigger: the first Loom vocabulary with an optional member.
 
-**Trigger:** each line's own; the decision, the founder's word.
+**Trigger:** each line's own.
 
 ## 6. Adoption pressure
 
