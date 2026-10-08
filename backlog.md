@@ -203,6 +203,33 @@ choice.
 **Source:** the founder (2026-10-07), after #96's light terminal, with the two messages and the
 setup file as the store his own.
 
+### BL-WORK-38 — Agents and weavers on one desk
+
+**State:** ORDERED — researched first, beside settings stage 1 (`prompts/agent-desk-research.md`;
+the founder, 2026-10-08)  
+**Owed:** Agents and weavers do not work well together today, and Workshop is too technical for an
+average user. One desk, two presentations: the weaver's GUI, made for people, and an agent's desk, a
+text presentation made for agents.
+- The agent's desk is the weaver's screen as text, a grid of characters the size of the monitor, so
+  the agent sees the layout the weaver sees; a text area there holds far more text than the GUI can
+  show.
+- One capability, two hands: the agent's message activates the same control the weaver presses, and
+  neither has a capability the other lacks.
+- Documentation attached where it is used, for each pane, part and shape, and a guide to the running
+  desk, an AGENTS.md by purpose and best practice.
+- Regions and feeds: an agent takes one area, and follows an open pane's changes as they happen.
+- Experiments stay experiments: an agent compiles and runs on its own host, apart from the main
+  codebase until proven, pushed and merged; the weaver's host then pulls and upgrades in place, and
+  an agent can wait on a merge.
+- Then the GUI gets simpler, designed for people, an average user first.
+
+It meets BL-WORK-09, BL-WORK-25, BL-WORK-26, BL-WORK-28, BL-WORK-29, BL-WORK-35 and BL-ADOPT-04, and
+Goal 5 (Tutor, Builder, Steward).
+
+**Wake:** met (2026-10-08).
+**Source:** the founder with 30k (2026-10-08), from 30k's proposal "The Autonomous Foundry & The
+Living Schema" and Vision's review of it.
+
 ### BL-WORK-07 — The View Builder's polish
 
 **State:** CLOSED — merged as Zengine #87 (`80c1e95`, 2026-10-03), from
