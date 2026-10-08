@@ -230,6 +230,28 @@ Goal 5 (Tutor, Builder, Steward).
 **Source:** the founder with 30k (2026-10-08), from 30k's proposal "The Autonomous Foundry & The
 Living Schema" and Vision's review of it.
 
+### BL-WORK-39 — Text is UTF-8 everywhere, drawn as the industry draws it
+
+**State:** FILED — researched first; not yet ordered (the founder, 2026-10-08)  
+**Owed:** Text on Zen's screens follows the industry standard: UTF-8 end to end, every character a
+font holds drawn, the rest shown by a visible stand-in. Today:
+- a canvas run takes one cell per byte and printable ASCII alone (`SurfaceLabel`,
+  `canvas_content_problem`, WL-CANVAS-01), and panes spell outside text in ASCII
+  (`pane_text::drawable`, `ascii_spelling`);
+- the standard Editor refuses a document holding any byte beyond printable ASCII and tab, whole
+  (`agents/workshop/editor.md`);
+- Info and the Terminal take typed ASCII; the Files pane refused a name beyond it until #102's fixes
+  (WL-FILES-10).
+
+The research settles: what a cell holds (a character, not a byte); wide characters and combining
+marks in a terminal's columns; fonts and their fallback in the window; where a press lands by
+column; the Editor's byte law and documents beyond ASCII; typed text in Info and the Terminal; and
+the agent's desk text (BL-WORK-38).
+
+**Wake:** the founder orders it.
+**Source:** the founder (2026-10-08), on #102's report: text moves to whatever the industry standard
+is.
+
 ### BL-WORK-07 — The View Builder's polish
 
 **State:** CLOSED — merged as Zengine #87 (`80c1e95`, 2026-10-03), from
