@@ -115,16 +115,19 @@ the authority, and a terminal's is derived from it.
 
 ### BL-WORK-06 — The text panes draw on the canvas
 
-**State:** DECIDED (the founder, 2026-10-02); ORDERED fourth (2026-10-03), fifth since BL-WORK-24
-moved before it (2026-10-05); under way, in four stages (Vision, 2026-10-06): 1, the cell caret
-and the panes that list and show (`prompts/text-panes-canvas-1.md`), as Zengine #95 (`47f0de1`,
-2026-10-06); 2, the medium's own ground for a moved pane (the founder, 2026-10-06), and Files, the
-Builder, the Terminal and the Composer (`prompts/text-panes-canvas-2.md`), as #96 (`859f9e9`,
-2026-10-07); 3, Info and Inventory with their views, and plain text in a terminal in the
+**State:** CLOSED — merged in four stages (Vision, 2026-10-06), after it was DECIDED (the founder,
+2026-10-02) and ORDERED fourth (2026-10-03), fifth since BL-WORK-24 moved before it (2026-10-05): 1,
+the cell caret and the panes that list and show (`prompts/text-panes-canvas-1.md`), as Zengine #95
+(`47f0de1`, 2026-10-06); 2, the medium's own ground for a moved pane (the founder, 2026-10-06), and
+Files, the Builder, the Terminal and the Composer (`prompts/text-panes-canvas-2.md`), as #96
+(`859f9e9`, 2026-10-07); 3, Info and Inventory with their views, and plain text in a terminal in the
 terminal's own text colour (the founder, 2026-10-07; `prompts/text-panes-canvas-3.md`), as #97
 (`826b05c`, 2026-10-07), with its review's fix (`prompts/text-panes-canvas-3-fixes.md`); 4, the
-Editors, with the managed opening, whose conversation still carries rows, and the held press's
-room #97 left keyed by geometry alone (`prompts/text-panes-canvas-4.md`)  
+Editors, with the managed opening carrying a picture, and the held press's room #97 left keyed by
+geometry alone (`prompts/text-panes-canvas-4.md`), with the hosted Windows jobs' fix and its
+review's (`prompts/text-panes-canvas-4-fixes.md`, `prompts/text-panes-canvas-4-fixes-2.md`), as #98
+(`b51c0f4`, 2026-10-07); and two cases that read the temporary directory's path, a quick repair
+given in chat, as #99 (`bb0f851`, 2026-10-07)  
 **Owed:** Every pane except Flow, the View Builder and described views writes rows and columns of
 text through the prose door: Info, Inventory, Files, the Terminal, the Editors,
 Builder, Powers and the rest. Each moves to the canvas, so every pane draws in pixels and a
@@ -152,8 +155,8 @@ its byte budget, so a law it takes needs the file split first.
 
 ### BL-WORK-36 — Settings: what a pane can set, kept with each layout
 
-**State:** ORDERED — right after BL-WORK-06, before BL-WORK-09; researched first (the founder,
-2026-10-07)  
+**State:** ORDERED — next, BL-WORK-06 closed (2026-10-07); before BL-WORK-09; researched first
+(the founder, 2026-10-07)  
 **Owed:** Configuration for customization is one of Zen's pillars, and replaceable code alone does
 not give it: some things a weaver wants to switch between without a code change or a reload (the
 founder, 2026-10-07). A light mode is not special, and the magic numbers -- a ground, a text
@@ -178,7 +181,7 @@ skin's settings live, likely for every desk at once; per-pane text size against 
 that a pane chooses no font; showing and hiding parts as one mechanism with BL-WORK-16's
 accordions; the setup file's format past version 4.
 
-**Wake:** BL-WORK-06 closes.
+**Wake:** met: BL-WORK-06 closed with #98 and #99 (2026-10-07).
 **Source:** the founder (2026-10-07), after #96's light terminal, with the two messages and the
 setup file as the store his own.
 

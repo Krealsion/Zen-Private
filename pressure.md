@@ -56,10 +56,10 @@ Zengine #90 (2026-10-04), its second as #91 (2026-10-05), closing P-WORK-05, and
 #92 (2026-10-05), delivering P-WORK-10's snapping; P-BUILD-09 is pressure it measured, and it
 measured P-WORK-50 again. Agents reading the desk by messages (BL-WORK-24) merged in two stages,
 as #93 and #94 (2026-10-06); P-WORK-52 and P-BUILD-10 are pressure they measured. The text panes
-on the canvas (BL-WORK-06) is under way: its first stage merged as #95 (2026-10-06), and
-P-BUILD-11 is pressure it measured; its second as #96 (2026-10-07); its third as #97
-(2026-10-07), and P-WORK-53 is pressure it measured; its fourth is next
-(`prompts/text-panes-canvas-4.md`).
+on the canvas (BL-WORK-06) merged in four stages: its first as #95 (2026-10-06), and P-BUILD-11
+is pressure it measured; its second as #96 (2026-10-07); its third as #97 (2026-10-07), and
+P-WORK-53 is pressure it measured; its fourth as #98 (2026-10-07), with #99, and P-WORK-54 is
+pressure they measured. Settings (BL-WORK-36) is next, researched first.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -587,6 +587,23 @@ Each older than #97, seen there and not changed:
 
 **Trigger:** a phase that touches the pane or the skin; Info's four are BL-WORK-10's quarry.
 
+### P-WORK-54 — A refused canvas picture is said to its pane alone
+
+**State:** OPEN — a quick repair, when the founder selects it
+**Evidence:** [the temp-path repair's report](../reportbacks/temp-path-cases-RB.md#found-not-changed)
+(#99), and `workshop/weave_canvas.cpp` `admit_canvas_content`
+
+Workshop refuses a canvas picture whole and tells only its pane (`PaneCanvasRejected`); a refused
+text pane's words stand in the pane and reach Attention (WL-ATTN-04). Now that every shipped pane
+draws on its canvas, a picture refused for one bad byte leaves its pane blank and no one says why.
+Met first in the Hotkeys pane: under a non-ASCII temporary directory it held no rows and Workshop
+recorded no refusal; source-traced, not confirmed, `desktop-pane/pane.cpp` writes `"keymap file:
+" + keymap_.file` without `drawable()`, so a weaver whose profile path holds a letter such as `é`
+would see an empty Hotkeys pane. Beside it, `workshop/nvim-edit` refuses a path holding a space, so
+a project under `C:/Users/Jane Doe/` cannot be edited through it (the same report, left open).
+
+**Trigger:** the founder's selection, or a phase that touches canvas admission or Attention.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
@@ -931,7 +948,9 @@ canonical at most 27 m 14 s of its 45. On #95 (2026-10-06) MinGW-w64 took 37 m 1
 Linux canonical 27 m 38 s and ASan 28 m 57 s; on #96 (2026-10-07) MinGW-w64 36 m 01 s, Linux
 canonical 22 m 40 s and ASan 34 m 51 s; on #97 (2026-10-07), over its two runs, ASan 43 m 34 s to
 44 m 35 s, MinGW-w64 at most 30 m 19 s and Linux canonical at most 27 m 11 s. ASan has grown with
-each stage of BL-WORK-06.
+each stage of BL-WORK-06. On #98 (2026-10-07), over its three runs and its merge's, ASan took
+28 m 21 s to 44 m 57 s (45 m 30 s on #97's merge), MinGW-w64 at most 37 m 11 s of its 45 -- the
+nearest any job has come to its limit -- and Linux canonical at most 27 m 44 s.
 
 **Trigger:** a job within a tenth of its limit, or a cancel: raise the limit or split the job, and
 set each suite's time beside main's before the push (#92's report, recommendation 6).
@@ -977,6 +996,16 @@ Each was met once, and each cost time:
   its child; a desk-rig helper for a held press; and `mutate.py` naming a run that cannot reach a
   mutant (#97 and its fixes). `witness.sh` recording its commit and tree, and a terminal picture
   without the night-light tint, were asked again.
+- A lane under a hostile temporary directory -- long, spaced, non-ASCII -- so a case reading the
+  temporary path fails here before a runner or a weaver's machine shows it (#98's Windows red,
+  #99's two cases and the blank Hotkeys pane); `tip-wsl.sh` saying what else runs before it
+  starts; a stamp per primary tree naming the commit of its last whole build, read by the builds
+  of one target, and `primary.sh switch` naming the phase that left a clone where it is (#98 and
+  #99 shared one primary); `build-win.sh` with targets rebuilding the pane images a suite loads;
+  `mutate.py` running a Python check with arguments, and judging a mutant that only orphans a
+  variable by its cases; `witness.sh run` taking a `G:/...` path; a terminal witness's picture
+  cropped to Workshop's screen; and the kit's phase check naming an untracked prompt (#98, its
+  fixes and #99). The kit README naming `python -` among the Bash tool's traps was asked again.
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 
@@ -989,7 +1018,10 @@ Each was met once, and each cost time:
 build or a mutation matrix shared the machine: a run cancelled mid-walk had not yet given back
 Workshop's input session when the next run asked for one (`busy: input session 3 is held by
 you`). Alone it passed, and in every quiet lane and hosted job. The race is the cancel's cleanup
-against the next ask, in the act tool's session handling as `main` has it.
+against the next ask, in the act tool's session handling as `main` has it. #98's second fixes
+round met it in a quiet lane, nothing else running, in the lane's own parallel run; alone it
+passed three times ([its report](../reportbacks/text-panes-canvas-4-fixes-2-RB.md#pressure-exposed)):
+the trigger is met.
 
 **Trigger:** a hosted job or a quiet lane fails on it, or a phase that touches the tool's session
 handling.
