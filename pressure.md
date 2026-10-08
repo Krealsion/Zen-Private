@@ -1304,19 +1304,18 @@ needs one.
 
 ### P-LOOM-10 — A struct shape's optional fields left four edges
 
-**State:** WATCH; its decision made (the founder, 2026-10-08) and written
-(`prompts/loom-required-fields-first.md`)  
+**State:** WATCH; its decision made (the founder, 2026-10-08) and written for Zengine
+(`prompts/terminal-completion-required-first.md`)  
 **Evidence:** [Loom #31's report](../reportbacks/loom-optional-shape-fields-RB.md#pressure-exposed)
 and [its decisions asked](../reportbacks/loom-optional-shape-fields-RB.md#decisions-asked)
 
 Loom #31 (`b664311`, 2026-10-08) made a `ZEN_SHAPE` member of type `std::optional<T>` an optional
 field of `T`'s type. Left open:
-- **Decided** (the founder, 2026-10-08): bare values fill the required fields first, then the
-  optional ones, as a C++ call fills the parameters without defaults before those with them. Until
-  then the positional rung fills the first open field, optional or not: with `{limit?: Int, n: Int}`
-  and a bare `7`, 7 lands in `limit` and `n` stays open. Zengine's half rides with settings stage 2,
-  where a Terminal line first carries a setting: its Terminal completer lists a shape's fields in
-  declaration order and still offers a field a bare value filled (`workshop/complete.hpp`).
+- **Decided** (the founder, 2026-10-08): the composer keeps declaration order, and an optional field
+  may sit anywhere in a shape, so with `{limit?: Int, n: Int}` a bare `7` still lands in `limit`.
+  The Workshop Terminal's completion offers a shape's required fields first and its optional ones
+  after them (`workshop/complete.hpp`), so accepting its first offer fills what a message needs
+  before what it may carry.
 - `zen.PokeField` carries no requiredness: a tool that must know from the structure alone that a
   field may be absent needs `zen.PokeField` v2, and `zen.PokeStructure` v2 nesting it. Trigger: an
   inspector that must show optionality before reading.
