@@ -194,6 +194,11 @@ counts only while its declarer holds the office; the hand-off is gated on the ho
 carries one setting end to end, the Terminal's legend edited in Info. The order after it, stage 2 or
 the skin first, is the research's decision 9, still open.
 
+A setting the founder wants (2026-10-08): the Terminal's completion offering a shape's required
+fields first, then its optional ones, or in declaration order (P-LOOM-10). Workshop's terminal
+participant builds the completion, not the pane, so the setting must reach it; that is its stage's
+choice.
+
 **Wake:** met: BL-WORK-06 closed with #98 and #99 (2026-10-07).
 **Source:** the founder (2026-10-07), after #96's light terminal, with the two messages and the
 setup file as the store his own.

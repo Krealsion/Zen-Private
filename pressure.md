@@ -1304,8 +1304,8 @@ needs one.
 
 ### P-LOOM-10 — A struct shape's optional fields left four edges
 
-**State:** WATCH; its decision made (the founder, 2026-10-08) and written for Zengine
-(`prompts/terminal-completion-required-first.md`)  
+**State:** WATCH; its decision made (the founder, 2026-10-08): a Terminal setting, once settings can
+carry it (BL-WORK-36)  
 **Evidence:** [Loom #31's report](../reportbacks/loom-optional-shape-fields-RB.md#pressure-exposed)
 and [its decisions asked](../reportbacks/loom-optional-shape-fields-RB.md#decisions-asked)
 
@@ -1313,9 +1313,9 @@ Loom #31 (`b664311`, 2026-10-08) made a `ZEN_SHAPE` member of type `std::optiona
 field of `T`'s type. Left open:
 - **Decided** (the founder, 2026-10-08): the composer keeps declaration order, and an optional field
   may sit anywhere in a shape, so with `{limit?: Int, n: Int}` a bare `7` still lands in `limit`.
-  The Workshop Terminal's completion offers a shape's required fields first and its optional ones
-  after them (`workshop/complete.hpp`), so accepting its first offer fills what a message needs
-  before what it may carry.
+  Offering a shape's required fields first in the Workshop Terminal's completion
+  (`workshop/complete.hpp`) waits to be a Terminal setting (BL-WORK-36); its quick-repair prompt,
+  `prompts/terminal-completion-required-first.md`, is shelved.
 - `zen.PokeField` carries no requiredness: a tool that must know from the structure alone that a
   field may be absent needs `zen.PokeField` v2, and `zen.PokeStructure` v2 nesting it. Trigger: an
   inspector that must show optionality before reading.
