@@ -59,7 +59,9 @@ as #93 and #94 (2026-10-06); P-WORK-52 and P-BUILD-10 are pressure they measured
 on the canvas (BL-WORK-06) merged in four stages: its first as #95 (2026-10-06), and P-BUILD-11
 is pressure it measured; its second as #96 (2026-10-07); its third as #97 (2026-10-07), and
 P-WORK-53 is pressure it measured; its fourth as #98 (2026-10-07), with #99, and P-WORK-54 is
-pressure they measured. Settings (BL-WORK-36) is next, researched first.
+pressure they measured, closed by #100 (2026-10-08). Settings (BL-WORK-36) is researched, and its
+first stage is written on Loom #31 (2026-10-08), a struct shape's optional fields. P-WORK-55 to
+P-WORK-57, P-LOOM-10 and P-BUILD-12 are pressure #100, the settings research and #31 measured.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -589,7 +591,9 @@ Each older than #97, seen there and not changed:
 
 ### P-WORK-54 — A refused canvas picture is said to its pane alone
 
-**State:** OPEN — a quick repair, when the founder selects it
+**State:** CLOSED — founder merged Zengine #100 (`6205dc9`, 2026-10-08): a picture refused for what
+it holds is said in its pane and in Attention, and no shipped pane draws a byte that refuses it.
+`nvim-edit`'s spaced path moves to P-WORK-55.
 **Evidence:** [the temp-path repair's report](../reportbacks/temp-path-cases-RB.md#found-not-changed)
 (#99), and `workshop/weave_canvas.cpp` `admit_canvas_content`
 
@@ -603,6 +607,62 @@ would see an empty Hotkeys pane. Beside it, `workshop/nvim-edit` refuses a path 
 a project under `C:/Users/Jane Doe/` cannot be edited through it (the same report, left open).
 
 **Trigger:** the founder's selection, or a phase that touches canvas admission or Attention.
+
+### P-WORK-55 — Paths a weaver's machine holds still break two doors
+
+**State:** ACT — a quick repair, when the founder chooses its direction  
+**Evidence:** [#100's report](../reportbacks/refused-picture-said-RB.md#decisions-asked) and
+[#99's](../reportbacks/temp-path-cases-RB.md#found-not-changed)
+
+- The MinGW-w64 Workshop ends at launch on a narrow non-ASCII path. With `--keymap` it was run
+  twice; through `APPDATA` it is source-traced, not run. `load_keymap`'s `std::filesystem::exists`
+  throws `Illegal byte sequence`, uncaught: `argv` and `getenv` arrive in the ANSI code page
+  (CP1252), and libstdc++ reads a narrow path as UTF-8. `persist::read_file`'s `ifstream` fails the
+  same way. Two directions need the founder's word: a UTF-8 active code page in Workshop's manifest,
+  which makes every narrow string UTF-8 for both toolchains and Loom's `LoadLibraryA` with them
+  (Vision's recommendation), or wide `argv` and environment converted at the door with a wide-path
+  discipline for every open.
+- `workshop/nvim-edit` refuses a path holding a space, so a project under `C:/Users/Jane Doe/`
+  cannot be edited through it.
+
+**Trigger:** the founder's direction for the first; the second rides with it, or with any phase that
+touches the Neovim editor.
+
+### P-WORK-56 — The Pane Manager's "inspect in Info" likely does nothing
+
+**State:** WATCH — a quick repair, when the founder selects it  
+**Evidence:** [the settings research](../reportbacks/settings-research-RB.md#pressure-exposed),
+traced and confirmed by a reviewer, not run
+
+The row sends `InspectPaneRequested` to `zengine.info` (`desktop-pane/pane.cpp`), whose accept list
+lacks it: only Workshop answers it, and Info itself asks Workshop from its own list (`ask_inspect`,
+`info-pane/pane.cpp`). The launcher waits on no refusal for it, and the two tests that touch the row
+assert only its painted text.
+
+**Trigger:** the founder's selection, or a phase that touches the Pane Manager's menu or Info's
+inspect door.
+
+### P-WORK-57 — A refused picture's mark left its seams
+
+**State:** WATCH  
+**Evidence:** [#100's fixes report](../reportbacks/refused-picture-said-fixes-RB.md#pressure-exposed)
+and [#100's](../reportbacks/refused-picture-said-RB.md#pressure-exposed)
+
+#100 made the mark Workshop's own chrome: nothing under it is read, pressed or placed. Left open:
+- A hover, a wheel and a carried hover over the mark still reach the provider; a carried hover tells
+  it where an item would land, though the item would not be placed there.
+- The painter, `visible_body` and `on_refused_mark` each compute "title drawn" themselves; one
+  helper could own it.
+- `ExternalPane::refusal` is one slot for prose and canvas, unreachable today because prose is
+  ignored while a canvas grant stands.
+- WL-CANVAS-04's LAW still says a dropped item reaches its provider, and the mark's exception is a
+  DOES NOT MEAN line: the register owner's call. The pane view's refusals are listed in two
+  documents. "A refusal must not change a room" is worth a sentence in the canvas register when it
+  next changes.
+- A reviewer's, not reproduced: in a window, the strip between a canvas pane's prose row 0 and its
+  canvas can reach `external_button`.
+
+**Trigger:** a phase that touches the mark, canvas admission or the canvas register.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
@@ -950,7 +1010,9 @@ canonical 22 m 40 s and ASan 34 m 51 s; on #97 (2026-10-07), over its two runs, 
 44 m 35 s, MinGW-w64 at most 30 m 19 s and Linux canonical at most 27 m 11 s. ASan has grown with
 each stage of BL-WORK-06. On #98 (2026-10-07), over its three runs and its merge's, ASan took
 28 m 21 s to 44 m 57 s (45 m 30 s on #97's merge), MinGW-w64 at most 37 m 11 s of its 45 -- the
-nearest any job has come to its limit -- and Linux canonical at most 27 m 44 s.
+nearest any job has come to its limit -- and Linux canonical at most 27 m 44 s. On #100
+(2026-10-08), over its two runs, MinGW-w64 took 38 m 16 s and 38 m 05 s of its 45, and on the second
+ASan took 44 m 42 s of its 60 and Linux canonical 28 m 10 s.
 
 **Trigger:** a job within a tenth of its limit, or a cancel: raise the limit or split the job, and
 set each suite's time beside main's before the push (#92's report, recommendation 6).
@@ -961,8 +1023,12 @@ set each suite's time beside main's before the push (#92's report, recommendatio
 **Evidence:** [BL-WORK-24 stage 2's report](../reportbacks/desk-by-messages-2-RB.md#executor-optimization-recommendations),
 [its follow-up's](../reportbacks/desk-by-messages-2-fixes-RB.md#executor-optimization-recommendations),
 [BL-WORK-06 stage 1's](../reportbacks/text-panes-canvas-1-RB.md#executor-optimization-recommendations),
-[stage 3's](../reportbacks/text-panes-canvas-3-RB.md#executor-optimization-recommendations) and
-[its fixes'](../reportbacks/text-panes-canvas-3-fixes-RB.md#executor-optimization-recommendations)
+[stage 3's](../reportbacks/text-panes-canvas-3-RB.md#executor-optimization-recommendations),
+[its fixes'](../reportbacks/text-panes-canvas-3-fixes-RB.md#executor-optimization-recommendations),
+[#100's](../reportbacks/refused-picture-said-RB.md#executor-optimization-recommendations),
+[its fixes'](../reportbacks/refused-picture-said-fixes-RB.md#executor-optimization-recommendations),
+[the settings research's](../reportbacks/settings-research-RB.md#executor-optimization-recommendations) and
+[Loom #31's](../reportbacks/loom-optional-shape-fields-RB.md#executor-optimization-recommendations)
 
 Each was met once, and each cost time:
 - A floor behind a gate no local lane opens is checked only by the hosted run: #94's first push
@@ -1007,6 +1073,19 @@ Each was met once, and each cost time:
   cropped to Workshop's screen; and the kit's phase check naming an untracked prompt (#98, its
   fixes and #99). The kit README naming `python -` among the Bash tool's traps was asked again.
 
+- A findings ledger per phase, each confirmed finding and what became of it, checked before a push:
+  two confirmed findings were lost through two redesigns in #100's fixes, and only writing the
+  report found them again; `stop-lanes.sh`, ending a running tip in WSL; `case-wsl.sh before
+  <commit>`, a second copy built at a commit with named test files copied in; `witness.sh
+  --arg-utf8`, for the MinGW Workshop's CP1252 `argv`; `tip-wsl.sh` warning while a Windows build
+  runs; a pane sheet, one pane cropped from several roots (#100 and its fixes). From Loom #31: a
+  `loom-mutate` mode and a `ctest:<entry>` run kind for `mutate.py`, `KIT_TREE` for `loom-wsl.sh`,
+  and its road-map workflow, one reader per road a value travels, kept as a script for the next
+  substrate change. From the settings research: a probe template against Loom's core, and a findings
+  extractor. `mutate.sh` with an expected assertion per mutant was asked twice more, and the machine
+  file naming `python -` among the Bash tool's traps again: with a heredoc, or with stdin from
+  `/dev/null`, it waits forever.
+
 **Trigger:** the next executor process pass, or a phase that meets one again.
 
 ### P-BUILD-11 — A cancelled walk's input session races the next run's ask
@@ -1025,6 +1104,20 @@ the trigger is met.
 
 **Trigger:** a hosted job or a quiet lane fails on it, or a phase that touches the tool's session
 handling.
+
+### P-BUILD-12 — Loom's lane runs its entries one at a time
+
+**State:** WATCH; the owner is Loom's tests  
+**Evidence:** [Loom #31's report](../reportbacks/loom-optional-shape-fields-RB.md#doc-gaps)
+
+- `admission` and `all` both run the case that copies a weave to the fixed path `ZEN_SO_WEAVE +
+  ".admission-once.so"` (`tests/test_admission.cpp`). Under `ctest -j8` they overwrite each other's
+  copy, so the lane runs serially locally: 128 s of tests in #31.
+- `tests/hook_return/CMakeLists.txt` hands MSVC's `/Zc:preprocessor` to `try_compile`, which ignores
+  it, while its comment says the switch applies. The optional-member witness copied the pattern, and
+  the hosted MSVC job caught it there.
+
+**Trigger:** a Loom phase that touches its tests' layout, or a local lane whose time matters.
 
 ## 5. Loom and architecture pressure
 
@@ -1207,6 +1300,29 @@ without constructing its weave would end it.
 
 **Trigger:** the next reader of manifests outside a host, or a shipped weave whose construction
 needs one.
+
+### P-LOOM-10 — A struct shape's optional fields left four edges
+
+**State:** WATCH; one founder decision asked  
+**Evidence:** [Loom #31's report](../reportbacks/loom-optional-shape-fields-RB.md#pressure-exposed)
+and [its decisions asked](../reportbacks/loom-optional-shape-fields-RB.md#decisions-asked)
+
+Loom #31 (`b664311`, 2026-10-08) made a `ZEN_SHAPE` member of type `std::optional<T>` an optional
+field of `T`'s type. Left open:
+- **Decision asked:** the composer's positional rung fills the first open field, optional or not.
+  With `{limit?: Int, n: Int}` and a bare `7`, 7 lands in `limit`, `n` stays open, and the
+  NeedsInput result does not say where 7 went (read from the code, not run). It never mis-sends, and
+  it predates #31 for hand-built schemas; changing it changes the documented ladder.
+- `zen.PokeField` carries no requiredness: a tool that must know from the structure alone that a
+  field may be absent needs `zen.PokeField` v2, and `zen.PokeStructure` v2 nesting it. Trigger: an
+  inspector that must show optionality before reading.
+- No message makes an optional field absent again: `zen.PokeWrite` cannot spell absence, and
+  `zen.PokeResetState` restores the declared default. Trigger: a weaver who must clear one field
+  live.
+- The Python session client's `.get(name, default)` reads are where a vocabulary that gains an
+  optional member meets absence. Trigger: the first Loom vocabulary with an optional member.
+
+**Trigger:** each line's own; the decision, the founder's word.
 
 ## 6. Adoption pressure
 

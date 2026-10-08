@@ -155,8 +155,8 @@ its byte budget, so a law it takes needs the file split first.
 
 ### BL-WORK-36 — Settings: what a pane can set, kept with each layout
 
-**State:** ORDERED — next, BL-WORK-06 closed (2026-10-07); before BL-WORK-09; researched first
-(the founder, 2026-10-07)  
+**State:** ORDERED — in build: researched (2026-10-07); stage 1 written on Loom #31
+(`prompts/settings-stage-1.md`, 2026-10-08); before BL-WORK-09  
 **Owed:** Configuration for customization is one of Zen's pillars, and replaceable code alone does
 not give it: some things a weaver wants to switch between without a code change or a reload (the
 founder, 2026-10-07). A light mode is not special, and the magic numbers -- a ground, a text
@@ -180,6 +180,19 @@ The research settles: a settings shape's versions against values an older layout
 skin's settings live, likely for every desk at once; per-pane text size against the canvas's law
 that a pane chooses no font; showing and hiding parts as one mechanism with BL-WORK-16's
 accordions; the setup file's format past version 4.
+
+Researched ([its report](../reportbacks/settings-research-RB.md), 2026-10-07): a pane declares rows
+-- a key, a label, what the key takes and its default -- and the desk keeps the chosen values in
+each layout's setup row (setup v5, session v8), hands a seated pane its row's values before any
+room, and Info edits them as rows of the pane it inspects. Later stages add message doors, the
+skin's own settings in a configuration file, and the per-pane text step. The founder took its
+recommendations with four changes (2026-10-08): a value is typed -- a key and one optional field per
+kind, exactly one present -- which Loom #31 made possible (a `ZEN_SHAPE` member of type
+`std::optional<T>` is an optional field); the declaration stands alone on `PaneActions`' rules and
+counts only while its declarer holds the office; the hand-off is gated on the holder accepting
+`PaneSettings`, not on declared rows; and the shapes name the pane, never the provider. Stage 1
+carries one setting end to end, the Terminal's legend edited in Info. The order after it, stage 2 or
+the skin first, is the research's decision 9, still open.
 
 **Wake:** met: BL-WORK-06 closed with #98 and #99 (2026-10-07).
 **Source:** the founder (2026-10-07), after #96's light terminal, with the two messages and the
