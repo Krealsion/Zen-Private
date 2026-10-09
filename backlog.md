@@ -275,6 +275,24 @@ the agent's desk text (BL-WORK-38).
 **Source:** the founder (2026-10-08), on #102's report: text moves to whatever the industry standard
 is.
 
+### BL-WORK-40 — The simplest snake, played by its own AI
+
+**State:** FILED — the founder's idea (2026-10-09); not yet ordered  
+**Owed:**
+- The snake demo as simple as it can be. `zengine-snake` (`snake/play.cpp`) keeps only its boot
+  list; the demo's operator -- the skin swaps (classic, block, SDL), loading the score weave,
+  growing the world, reload in place, new game and the list -- moves out of the host, to the
+  external host's driver or into a weave of its own.
+- An AI plays snake through messages, with no agent in the loop; an unexpected occurrence calls the
+  agent in to review, so the agent improves the AI. The tower-defense example's monitor already
+  takes this route: its policy plays the game from the game's own typed events and says FINISHED,
+  NEEDS ATTENTION or INCONCLUSIVE, with evidence (`examples/tower-defense/monitor/td_policy.py`,
+  event-driven ELH observation, Loom #16 / Zengine #62).
+
+**Wake:** the founder selects it.
+**Source:** the founder (2026-10-09), after the tower-defense route: messages received and acted on
+with no agent's intervention, the agent reviewing what was unexpected.
+
 ### BL-WORK-07 — The View Builder's polish
 
 **State:** CLOSED — merged as Zengine #87 (`80c1e95`, 2026-10-03), from
