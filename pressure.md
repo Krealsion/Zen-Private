@@ -539,6 +539,14 @@ the 36-view case took 201.6 s. Inventory now offers and draws only what changed 
 coalesced per turn stays Workshop's general remedy, unbuilt: another provider that sends an
 unchanged picture again will show as time, not as a red case.
 
+The agent's desk stage 2 (#158) measured it with the notice
+([its report](../reportbacks/agent-desk-2-RB.md#decisions-asked)): the desk number taken at each
+repaint makes the 36-view case 11.1 s at START and 14.7 s after (WSL Debug, back to back), once
+`desk_view` stopped laying the desk out again for each pane (31.6 s before); with a watcher on the
+tower-defense desk the cost stays inside the measure's noise. Accepted as measured (the founder,
+2026-10-09). Its remedy when a real desk shows the cost: one notice for a burst, by a message
+Workshop sends itself, so a run of repaints pays one desk view.
+
 **Trigger:** the next phase that grows a desk again measures it first.
 
 ### P-WORK-51 — A desk made for a larger screen opens re-laid

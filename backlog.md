@@ -194,11 +194,11 @@ setup file as the store his own.
 
 ### BL-WORK-38 — Agents and weavers on one desk
 
-**State:** ORDERED — in build: stage 0 merged as #150 and stage 1 as #151 (2026-10-09); stage 2
-written ([prompt](../prompts/agent-desk-2.md)), beside #151's three review fixes in the issue lane
-(#152, #154, #153); researched ([its report](../reportbacks/agent-desk-research-RB.md): stages 0 to
-7, 24 decisions); decisions 7, 9, 11, 15 and 24, then 1, 2, 3, 5, 13, 14 and 19, and 4 and 18 in
-part, taken as recommended (the founder, 2026-10-09)  
+**State:** ORDERED — in build: stages 0, 1 and 2 merged as #150, #151 and #158 (2026-10-09),
+#151's three review fixes as #155, #157 and #156 in the issue lane; stage 3a next; researched
+([its report](../reportbacks/agent-desk-research-RB.md): stages 0 to 7, 24 decisions); decisions
+7, 9, 11, 15 and 24, then 1, 2, 3, 5, 13, 14 and 19, and 4 and 18 in part, taken as recommended
+(the founder, 2026-10-09)  
 **Owed:** Agents and weavers do not work well together today, and Workshop is too technical for an
 average user. One desk, two presentations: the weaver's GUI, made for people, and an agent's desk, a
 text presentation made for agents.
@@ -241,6 +241,15 @@ the founder's way: a stamp names a picture by a fingerprint Workshop takes of wh
 for every pane, so a pane does nothing for it and an unchanged picture keeps its stamp; its 3 kept.
 Decision 13 (what a notice carries), as recommended. Owed and not yet placed: decision 1's dense
 reading, a rectangle of the grid written row by row, which `desk/read` does not write (#151).
+
+Stage 2's (the founder, 2026-10-09,
+[its report](../reportbacks/agent-desk-2-RB.md#decisions-asked)): the notice's cost accepted as
+measured, P-WORK-50 kept open, and a burst coalesced into one notice by a message Workshop sends
+itself when a real desk shows the cost (1); a pane's holder leaving between deliveries is told at
+Workshop's next look, until stage 6a, which builds the better solution: Loom tells Workshop when an
+office's holder leaves (2, the founder's); a follower follows one version of a notice, since Loom's
+`latest` holds by shape name (3). Stage 2 took the v2s `stages.md` names for stage 5a, so 5a's
+become `PaneStamp` v3, `DeskRead` v3 and `PaneView` v6, its `DeskStamps` v2 nesting `PaneStamp` v3.
 
 Stage 4b takes the Codex's form (the founder, 2026-10-09, from the "Perspectives" proposals): a
 pane where a weaver reads what a weave accepts (`zen.DescribeAccepted`, live), each pane's and
