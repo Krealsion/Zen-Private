@@ -344,15 +344,7 @@ package on trigger bodies, keeps them out of composing.
 
 ### P-WORK-36 — A maker participant cannot address another participant or answer with a result
 
-**State:** PARKED
-**Evidence:** [pattern map](../reportbacks/zengine-flow-powers/pattern-map.md#messages-and-time)
-
-A maker weave's speech is unconditional publication of its own namespace (MW-DEF-08): it cannot
-ask the Timer or a store, answer with a result, or emit only when a condition holds.
-
-**Trigger:** the first Flow-made participant that needs the Timer, a store, an answer or a
-conditional emit. Each such capability states its authority; none is inferred from what a
-definition says.
+**State:** ISSUE — [Zengine#144](https://github.com/Krealsion/Zengine/issues/144) holds it now (filed by deep review, 2026-10-09).
 
 ### P-WORK-37 — "Source" means two things in the Flow pane
 
@@ -895,17 +887,7 @@ owner. Keep selection, keyboard focus and click-through separate; do not create 
 
 ### P-WORK-21 — The Composer still matches raw keys
 
-**State:** OPEN — QR-sized  
-**Evidence:** `Zengine/composer/composer.cpp`; `reportbacks/pane-actions-and-files-RB.md` Pressure 3 and 4
-
-The Composer answers Up/Down/Return/Escape/Tab from raw `PaneKey`, so its keys are in no legend
-and no maker's file moves them — the state Powers was in before PR #15. Declaring them is the
-same change Powers took. Companion of the same size: a pane row's authored gesture gets no
-`posix_gap` note at admission (a maker who moves `powers.view` onto `shift+1` is not told a
-terminal cannot press it) — one sentence in `join_pane_rows`.
-
-**Trigger:** a maker reaches for the Composer's keys in the band or in a keymap file; or the next
-touch of `composer.cpp`.
+**State:** ISSUE — [Zengine#106](https://github.com/Krealsion/Zengine/issues/106), [Zengine#107](https://github.com/Krealsion/Zengine/issues/107) hold it now (filed by deep review, 2026-10-09).
 
 ## 4. Build and verification pressure
 
@@ -951,35 +933,19 @@ success or these particular hosted successes do not by themselves change the adv
 
 ### P-BUILD-05 — Three more spin-bound loops in the builder suite
 
-**State:** OPEN — a one-line quick repair each  
-**Evidence:** `reportbacks/three-small-things-RB.md` Pressure 1; `Zengine/tests/test_builder.cpp` 519, 587, 985
-
-`drain` was bounded by two million looks and reddened CI three times in two days on a fast runner
-before it got a wall clock. `beat_until_idle`, `carry_until_over` and an inline guard are the same
-defect under three names. They have not reddened; the drain had not either, until it did.
-
-**Trigger:** the next red on this suite — or sooner, at the founder's word.
+**State:** ISSUE — [Zengine#103](https://github.com/Krealsion/Zengine/issues/103) holds it now (filed by deep review, 2026-10-09).
 
 ### P-BUILD-06 — Quoted refusals are pinned nowhere
 
-**State:** OPEN  
-**Evidence:** `reportbacks/three-small-things-RB.md` Doc gaps 2, Pressure 5
-
-Loom's guide and a Zengine case both quote `conflict_what`'s sentence from `src/registry.cpp`;
-`doc_links` checks links, not quotations. A reword leaves both stale silently. A
-`law_register`-style rule for quoted refusals is the shape, if wanted.
+**State:** ISSUE — [Loom#32](https://github.com/Krealsion/Loom/issues/32) holds it now (filed by deep review, 2026-10-09).
 
 ### P-BUILD-07 — Two ownership gaps the repairs exposed
 
-**State:** OPEN  
-**Evidence:** `reportbacks/three-small-things-RB.md` Doc gaps 3, Pressure 2; `pick-and-load-repairs-RB.md` Doc gaps
+**State:** ISSUE, in part — [Zengine#104](https://github.com/Krealsion/Zengine/issues/104), [Zengine#105](https://github.com/Krealsion/Zengine/issues/105) hold its two gaps now (filed by deep review, 2026-10-09).
 
-VM-MUT-09 ("hash the artifact the mutation lands in") has no clause for a case that reads a source
-file at run time. And nothing under `agents/` states which shapes the Workshop host keeps durably —
-the host's journal selection lives inside `main()` and is pinned by reading `workshop.cpp` as text,
-now from two suites; a named seam (a function returning the selection) would let cases assert the
-object. Also owed from the documentation arc: the four routed documents over budget (`operators`,
-`panes`, `realization`, `surface`) each want a register phase in the family-table shape.
+Still owed here, from the documentation arc: the four routed documents over budget
+(`operators`, `panes`, `realization`, `surface`) each want a register phase in the family-table
+shape.
 
 ### P-BUILD-08 — Shared Workshop fixtures amplify routine recompilation
 
@@ -1206,23 +1172,7 @@ Do not carry Bridge's current broad grant and whole-bus tap into the new consume
 
 ### P-LOOM-06 — Two sentences Loom's documentation owes, and one witness
 
-**State:** OPEN — documentation, a later Loom phase  
-**Evidence:** `reportbacks/build-then-load-RB.md` stage a Pressure 8′; `three-small-things-RB.md` Pressure 6
-
-`Kernel::load_from` uses a bare `LoadLibraryA` and inherits the host's error mode; on the CI
-runner's Windows a staged non-image raised a modal hard error inside the call and hung a suite until
-the job timed out, where a desktop Windows 11 turned it into error 193. Zengine's hosts now set the
-error mode; `dynamic-weaves.md` should say a host decides it. The copier's shape-name collision is
-now documented in the weave guide and demonstrated by the copied-weave regression shipped in
-Loom #8 (P-LOOM-07). The Windows error-mode documentation is the remaining open item and stays
-separate and unselected.
-
-The `loom-session run --wait` wording subitem is CLOSED by the founder-merged
-[Loom #15](https://github.com/Krealsion/Loom/pull/15). Its CLI help and sessions guide explain
-the default of 0, waiting for a verdict, and that a timeout does not cancel execution. Zengine's
-dependent recipes now wait explicitly. The
-[guidance report](../reportbacks/developer-guidance-pass-RB.md) owns that change's evidence;
-the Windows error-mode documentation item above remains open.
+**State:** ISSUE — [Loom#33](https://github.com/Krealsion/Loom/issues/33) holds it now (filed by deep review, 2026-10-09).
 
 ### P-LOOM-07 — Declared schema agreement is incomplete
 
@@ -1244,55 +1194,7 @@ machinery into switchboard. General migration and process-lifetime schema retent
 
 ### P-LOOM-08 — A shape's name is first come on its host
 
-**State:** PARKED — a solid approach, not now (the founder, 2026-10-05: preparing for the future)  
-**Evidence:** #92's review, where the View Builder's and the Builder's states were both
-`BuilderState` ([its follow-up](../prompts/whole-pixel-3-fixes.md), item 3); Loom's `ZEN_SHAPE`
-(`include/zen/weave/shape.hpp`), [GATE-04](../Loom/docs/laws/admission-laws.md#gate-04--immutable-published-schemas)
-and [the copied weave](../Loom/docs/guides/writing-a-weave.md).
-
-`ZEN_SHAPE` names a shape by its bare C++ name, and a host's registry holds one definition per
-`(name, version)` for as long as a participant that declared it lives
-([LIFE-08](../Loom/docs/laws/lifecycle-laws.md#life-08--a-schema-is-retained-by-a-live-claim-never-by-having-been-registered)).
-For one author that is the rule working: a shape changed without a new version is refused at load
-when its old and new definitions meet, not at its first delivery
-([ABI v9](../Loom/docs/decisions/declared-vocabulary-is-agreed-at-admission.md)). Between authors
-it makes a coincidence a refusal, sometimes long after the fact: the two `BuilderState`s lived side
-by side at v3 and v4 and would have collided once one version caught up with the other (the View
-Builder's is `ViewBuilderState` from #92's follow-up).
-
-One host per application keeps apart apps that never meet. It does not help a participant that
-speaks two authors' vocabularies: an operator turning a music app's `Note` v1 into a notebook app's
-`Note` v1 declares two definitions of one `(name, version)` and is refused in any host, its own
-included -- and composing pieces is what Zen's operators are for.
-
-The candidate is owned names: `music.Note` v1 beside `notebook.Note` v1, with GATE-04 unchanged
-inside an owner. Loom already names its own shapes this way by hand (`zen.Activated`,
-`zen.DispatchRefused`); the gap is the macro. A namespace declares its owner once, and every
-`ZEN_SHAPE` inside it publishes under it:
-
-```cpp
-namespace music {
-ZEN_VOCABULARY("music");  // every shape in this namespace is named under it
-struct Note {
-    std::int64_t pitch = 0, length = 0;
-    ZEN_SHAPE(Note, 1, ZEN_FIELD(pitch), ZEN_FIELD(length)); // published as "music.Note" v1
-};
-}
-```
-
-An office-style owner (`zengine.workshop`) reuses a name already unique on a host. A later
-capability layer could let only that office's holder define shapes under it, so a library could no
-longer hold another author's name by claiming it first.
-
-Not the answer: identity by content id alone (an author's slip becomes a silent split at its first
-delivery, the failure ABI v9 removed); C++ namespaces (to Loom, `music::Note` and `notebook::Note`
-are both `Note`); renaming every shape at once (a name is part of the content id, and a file that
-names its shape, such as `"schema":"WorkshopKeymap"`, needs an authored migration). Adopt it for
-new vocabularies, and for an old shape when it changes anyway.
-
-**Trigger:** a participant must speak two authors' vocabularies, or two authors' libraries share
-a host. [BL-WORK-35](backlog.md#bl-work-35--an-app-of-its-own-edited-live-from-workshop)'s link,
-where an app admits Workshop as a guest, is the likely first.
+**State:** ISSUE — [Loom#37](https://github.com/Krealsion/Loom/issues/37) holds it now (filed by deep review, 2026-10-09).
 
 ### P-LOOM-09 — A library is described only by constructing its weave
 

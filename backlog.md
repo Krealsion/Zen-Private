@@ -47,31 +47,11 @@ and whose replay was proven from an empty directory; it is a maker's route, not 
 
 ### BL-WORK-02 — Keep the simple external pane useful as a learning artifact
 
-**State:** PARKED / PRESERVATION  
-**Owed:** Do not let the small Hello/provider witness become incomprehensible or disappear before an
-ordinary maker can inspect how a pane arrives. If Workshop gains a real project-template or
-installed-pane story, convert the witness into a dissectible example rather than inventing a second
-tutorial implementation.
-
-**Wake:** installed external-pane distribution, project templates, or a Workshop-native “open this
-tool's source” path.
-
-**Boundary:** this does not itself authorize a plugin SDK or an installation system.
+**State:** ISSUE — [Zengine#124](https://github.com/Krealsion/Zengine/issues/124) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-03 — Split the Info value view before it grows again
 
-**State:** PARKED / MAINTAINABILITY  
-**Owed:** `info-pane/value_view.hpp` is one class of about 1,340 lines holding the draft, the
-owner-operation record and its adoption rules, the watch custody, sampling, field pickup, and the
-picture with its controls. The corrections kept it whole because a split was not needed to make the
-repairs clear. Extract the picture/controls composition and the watch custody (`Watch`, `ending_`,
-start, stop, cycle and the lease answers) into their own image-local headers, keeping every record
-per view and the one act entry point. Behaviour and law stay as they are.
-
-**Wake:** the next change that adds an operation, a pending-request kind or a control to that file,
-or the file passing 1,500 lines.
-
-**Source:** [corrections report](../reportbacks/zengine-independent-info-workbench-corrections-RB.md).
+**State:** ISSUE — [Zengine#125](https://github.com/Krealsion/Zengine/issues/125) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-04 — The Pane Creator retires into described views
 
@@ -415,64 +395,23 @@ draw list the skin keeps.
 
 ### BL-WORK-12 — Multiple windows
 
-**State:** LATER — after its own research (the founder, 2026-10-03)  
-**Owed:** Workshop opens more than one window. A pane drags from one window into another, and
-each window has its own tab row. BL-WORK-35's window participant is its natural base.
-
-**Wake:** the founder selects it, after BL-WORK-27.
-**Source:** as BL-WORK-07; `Zengine/reference/todo.txt` asks for it too ("Allow for multi-window").
+**State:** ISSUE — [Zengine#146](https://github.com/Krealsion/Zengine/issues/146) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-13 — Python scripts as participants
 
-**State:** LATER — after its own research (the founder, 2026-10-03)  
-**Owed:** A demo script written in Python runs as a participant in the session: it speaks Zen
-shapes on the bus under its own grants, through Loom's ABI (`docs/reference/dynamic-abi.md` in
-Loom). Today the demo tools are Python workers of Loom's run manager, and they drive Workshop
-from outside, across the admitted link (`external-host/demo.py`).
-
-**Wake:** the founder selects it.
-**Source:** as BL-WORK-07.
+**State:** ISSUE — [Zengine#147](https://github.com/Krealsion/Zengine/issues/147) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-14 — A pane's minimum size
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** Find a good minimum size for a pane to display: the least room in which it shows every
-control it offers, and what it does when given less. A pane says only its initial comfort today
-(`v2::PaneOffered`, rows and columns), never its least. First met in the View Builder: with the
-five-element tally panel in an 800×400 canvas, a shape of three fields dropped on Total asks which
-field to show, but the list's reserved rows push the choice and its More below the room, so none
-can be chosen. With one row left under the question, More has no row of its own.
-
-**Wake:** the founder selects it.
-**Source:** the deep review of #86 (2026-10-03), parked by the founder.
+**State:** ISSUE — [Zengine#126](https://github.com/Krealsion/Zengine/issues/126) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-15 — The View Builder zooms
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** Zoom on the design canvas, working with the pan and the view's size, so a weaver places
-an element to the pixel by hand. A canvas draws text only at its room's one measured size
-(`PaneCanvasText` holds no size), so the builder alone could scale the boxes but not the words,
-and the canvas would stop showing the view as it runs. Workshop's canvas first learns to draw a
-picture at a scale; a terminal does not zoom.
-
-**Wake:** after BL-WORK-05, when the founder selects it.
-**Source:** the founder, while the View Builder's polish ran (2026-10-03).
+**State:** ISSUE — [Zengine#127](https://github.com/Krealsion/Zengine/issues/127) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-34 — Text that steps down to fit its room
 
-**State:** PARKED / DECIDED (the founder, 2026-10-04)  
-**Owed:** A window sets text in one face at one size. Where a region cannot hold a row of it, the
-window falls back to the terminal projection's 12-pixel bitmap glyphs: a second text system whose
-geometry has to be kept in step with the first (BL-DEF-09's fallback finding lives there). Text
-that steps down in size until a row fits would leave one system. The founder holds smaller text
-relevant to development beyond the fallback. Its choices: the smallest legible size; whether text
-resizes live while an edge is dragged; how it meets a pane's minimum size (BL-WORK-14) and zoom
-(BL-WORK-15, which notes `PaneCanvasText` holds no size). Below the smallest size a region shows
-nothing, as a region with no room for a row does now. A terminal's cells are its type: it has no
-smaller text.
-
-**Wake:** with BL-WORK-06 (the text panes move to the canvas), when the founder selects it.
-**Source:** the founder, on the deep review of #90 (2026-10-04).
+**State:** ISSUE — [Zengine#143](https://github.com/Krealsion/Zengine/issues/143) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-16 — Accordions and anchors, researched first
 
@@ -517,81 +456,27 @@ nothing).
 
 ### BL-WORK-18 — Inventory finds an entry without walking folders
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** Search, or a flat view of every entry, so finding an entry costs about one action
-however deep its folders go. In #58's four-entry workbench the same retrieval took 1 maker action
-flat and 7 through two folder levels. The founder pictures Inventory as an empty folder in
-Windows: loose entries of any type, and folders only when the weaver wants them. The root already
-works that way (Zengine `docs/workshop/inventory-folders.md`).
-
-**Wake:** the founder selects it, or a growing collection shows the cost in use.
-**Source:** `reportbacks/zengine-inventory-named-folders-RB.md`; filed from the finished drafts
-with the founder's OK (2026-10-03).
+**State:** ISSUE — [Zengine#128](https://github.com/Krealsion/Zengine/issues/128) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-19 — Inventory views retire
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** A closed Inventory view gives its place back. Today an offered view is never withdrawn:
-a closed one keeps its identity and counts against the bound until it is reused, and restoring a
-toolbox with other views can refuse for that alone. A command binding to an entry that is gone
-keeps its place in the bounded list too. Retiring removes configuration only; it never moves a
-binding onto whatever holds the place next. Info bounds its own views by reusing four fixed ones,
-so the rebuilt Info (BL-WORK-10) meets the same question. Since #88 a session makes up to 36
-views, so its catalog fills faster, and a toolbox restored into a Workshop that has already
-offered views refuses past 36 (`reportbacks/quick-desk-fixes-RB.md`).
-
-**Wake:** with BL-WORK-10, or when the founder selects it.
-**Source:** `reportbacks/zengine-inventory-portable-slots-RB.md` and
-`zengine-inventory-persistence-RB.md`; filed from the finished drafts (2026-10-03).
+**State:** ISSUE — [Zengine#129](https://github.com/Krealsion/Zengine/issues/129) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-20 — Hotkey contexts beyond on and off
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** Today Inventory and each of its views have a context the weaver switches on or off, and
-each starts off. A context could also follow focus, carry a name the weaver gives it, or belong
-to a folder, as view configuration keyed by the folder's identity; a folder itself grants
-nothing. A single box could wear a face the weaver designs.
-
-**Wake:** the founder selects it.
-**Source:** `reportbacks/zengine-inventory-portable-slots-RB.md` and
-`zengine-inventory-named-folders-RB.md`; filed from the finished drafts (2026-10-03).
+**State:** ISSUE — [Zengine#130](https://github.com/Krealsion/Zengine/issues/130) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-21 — Inventory's smaller extras
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** Placement locks, which keep an entry where the weaver put it when the collection is
-sorted; tags; back and forward through folders; selecting several entries at once; and deleting
-a folder with what it holds, where today only an empty folder deletes.
-
-**Wake:** each when use asks for it.
-**Source:** `reportbacks/zengine-inventory-named-folders-RB.md`; filed from the finished drafts
-(2026-10-03).
+**State:** ISSUE — [Zengine#131](https://github.com/Krealsion/Zengine/issues/131), [Zengine#132](https://github.com/Krealsion/Zengine/issues/132), [Zengine#133](https://github.com/Krealsion/Zengine/issues/133), [Zengine#134](https://github.com/Krealsion/Zengine/issues/134), [Zengine#135](https://github.com/Krealsion/Zengine/issues/135) hold it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-22 — Run a stored command without giving it a hotkey
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** A stored command runs from its right-press menu without a hotkey set up first. The menu
-already offers "Run configured command now" (#51), but only once "Configure command hotkey..." has
-given the entry a target office and a key. Commands reach Inventory only when the weaver puts them
-there, as by dragging a Terminal row in (#52); nothing stores them automatically (the founder,
-2026-10-03).
-
-**Wake:** the founder selects it.
-**Source:** the Compose motion phase (#48) left right-click Run for later, and #51 added Run behind
-a configured hotkey (`reportbacks/zengine-inventory-portable-slots-RB.md`); filed from the finished
-drafts (2026-10-03).
+**State:** ISSUE — [Zengine#136](https://github.com/Krealsion/Zengine/issues/136) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-23 — Terminal command scripts
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** A file of commands that runs in order as if each were sent through the Terminal, much
-as a shell script does, for repeating real command sequences. The founder's name for it is
-`.zenscript`; none of it exists. Its packet chooses ordering and completion, failure and
-cancellation, addressing and current authority with the real Terminal and message owners.
-
-**Wake:** the founder selects it.
-**Source:** the founder, during the Editor transfers phase (#59), kept until now in that phase's
-plan (removed 2026-10-03; in Git at `aa2fb18`).
+**State:** ISSUE — [Zengine#137](https://github.com/Krealsion/Zengine/issues/137) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-24 — Agents read the desk by messages
 
@@ -671,134 +556,41 @@ copying neither restores nor runs it; recovery is its own explicit operation.
 
 ### BL-WORK-28 — Parallel work publishes without trampling (ELH Experiment 3)
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** Two work contexts produce compatible candidates, and a deliberate change of source,
-contract or destination shows a real adoption conflict instead of one overwriting the other.
-
-**Wake:** when stories need parallel publication.
-**Source:** `reportbacks/elh-workshop-improvement-arc.md` (Experiment 3); filed from the finished
-drafts (2026-10-03).
+**State:** ISSUE — [Zengine#138](https://github.com/Krealsion/Zengine/issues/138) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-29 — Stronger input control for agents
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** An agent can cancel a held gesture cleanly and keep the input to itself while it acts.
-Today closing a session releases a held button where it last was, which is not a rollback, and
-physical input can still cut in.
-
-**Wake:** when a story needs it.
-**Source:** the Compose motion phase (#48, `reportbacks/zengine-inventory-compose-motion-RB.md`);
-filed from the finished drafts (2026-10-03).
+**State:** ISSUE — [Zengine#139](https://github.com/Krealsion/Zengine/issues/139) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-30 — Flow opens a native operator's source
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** Entering a native operator in Flow opens its source, with the function and registration
-that give it its place in the catalog. It needs a link from the operator to its build artifact
-and that artifact's recipe, which does not exist yet.
-
-**Wake:** the founder selects it.
-**Source:** `drafts/flow-building-blocks.md` §4; filed from the finished drafts (2026-10-03).
+**State:** ISSUE — [Zengine#140](https://github.com/Krealsion/Zengine/issues/140) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-31 — A recycling list for views
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** A long list drawn through a bounded set of row views reused as it scrolls. A reused row
-drops hover, animation and gesture state; edits and selection stay with the item, never the row.
-The view renderer owns it; a list of operators to drag into Flow is its first consumer.
-
-**Wake:** the founder selects it, or a view needs a long list.
-**Source:** `drafts/flow-building-blocks.md` §3; filed from the finished drafts (2026-10-03).
+**State:** ISSUE — [Zengine#141](https://github.com/Krealsion/Zengine/issues/141) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-32 — Flow's UX milestones
 
-**State:** PARKED / DECIDED (the founder, 2026-10-03)  
-**Owed:** The milestones `drafts/flow-ux-research.md` §8 sets out: the direct authoring loop,
-hierarchy and reuse, and live understanding. This item points there so the roadmap reaches them.
-
-**Wake:** the founder selects one.
-**Source:** `drafts/flow-ux-research.md` §8; filed from the finished drafts (2026-10-03).
+**State:** ISSUE — [Zengine#142](https://github.com/Krealsion/Zengine/issues/142) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-35 — An app of its own, edited live from Workshop
 
-**State:** LATER — after its own research (the founder, 2026-10-05); its first step is small  
-**Owed:** Something made through Workshop runs as its own program, built only from Zen's pieces
-(its weaves, Input, Timer, a Skin for its window), and keeps running when Workshop closes, even
-mid-run. Workshop joins it beside it to edit it live. The road, simplest first:
-1. A window participant: a weave that owns an OS window and gives a pane its room there through
-   the doors Workshop uses, so a game or a View Builder view runs in a Workshop pane or alone in
-   its own window, unchanged -- the window type of the founder's old engine, as a weave. It is
-   also the base for Workshop's own windows (BL-WORK-12).
-2. An app is its own host: a boot list like `zengine-snake`'s, built by the Builder into its own
-   executable and launched as a separate process.
-3. Workshop joins the app over Loom's host link, the other way round from today's (an agent's host
-   joins Workshop): the app admits Workshop as a guest, and Workshop's panes see its
-   participants, drive its input, take its picture and inspect it.
-4. Live edits across the link: Workshop rebuilds a weave and asks the app to reload it in place,
-   with the power the app grants it; a changed state shape needs a migration, as the snake's world
-   swap has (P-WORK-07).
-5. Closing Workshop drops the link and the app runs on; an edit worth keeping is promoted into the
-   app's boot list for its next launch.
-
-The question the research answers first: what a joined Workshop may do to a running app (Loom's
-admission policy). Where Workshop's vocabulary and the app's meet on one host, a shape name
-both use for different shapes is refused
-([P-LOOM-08](pressure.md#p-loom-08--a-shapes-name-is-first-come-on-its-host)).
-
-**Wake:** the founder selects it.
-**Source:** the founder (2026-10-05): the View Builder builds panes, and a project from scratch
-should build and compile alone, edited live beside Workshop and alive without it. Prior art:
-`zengine-snake` (a standalone host with live swaps), the tower defense example (built and reloaded
-from inside Workshop), `docs/workshop/external-host.md` (the link between hosts).
+**State:** ISSUE — [Zengine#149](https://github.com/Krealsion/Zengine/issues/149) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-WORK-33 — Undo and time travel
 
-**State:** LATER — at the very bottom of the later projects (the founder, 2026-10-03)  
-**Owed:** Undo of real effects, then full undo and time travel for demos. An effect already
-carried out needs its owner's explicit inverse, condition or checkpoint; replaying the pointer or
-a saved form cannot undo it. Undo in Flow belongs to the semantic owner, as transactions over a
-composition, not to a history of commands the GUI keeps. The tower defense story managed with
-pause, resume and single steps at safe boundaries.
-
-**Wake:** the founder selects it, after every other later project.
-**Source:** the Compose motion phase (#48), the tower defense story (#60) and
-`drafts/flow-ux-research.md` §7; filed from the finished drafts (2026-10-03).
+**State:** ISSUE — [Zengine#148](https://github.com/Krealsion/Zengine/issues/148) holds it now (filed by deep review, 2026-10-09).
 
 ## 3. Bounded defects and quick repairs
 
 ### BL-VERIFY-01 — Reconcile Builder field clicks locally
 
-**State:** PARKED / LOCAL FOLLOW-UP; explicitly not a blocker to merging Zengine PR #43.
-**Owed:** Resolve the retained Builder role-field evidence: the terminal capture shows
-`abcdKef...` while its report claimed `abcKdef...`; the native capture shows `Kabcdef...`
-after Home, which cannot distinguish a missed click from a caret-placement defect. Retain the
-actual coordinate space, x/y, expected insertion point and before/after value on a local rerun.
-Repair product behavior only if the diagnosis establishes a defect.
-
-The native `witness/gui/host/step.ps1` must retain its sent command and fail on an unsettled or
-failed probe, missing fresh capture, child failure or mismatched expectation. Exercise a negative
-control through that driver. The existing Files checks and maker journey remain usable; no full
-workflow replay or new input architecture is owed here.
-
-**Wake:** the next local Builder role-field check or reuse of this native witness driver.
-
-**Source:** founder's 2026-09-21 decision to merge with local evidence follow-up;
-[verification review](../reportbacks/zengine-files-builder-mouse-verification-review/review.md).
+**State:** ISSUE — [Zengine#123](https://github.com/Krealsion/Zengine/issues/123) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-DEF-06 — Zengine cleanup notes the `ui/` pass left
 
-**State:** NARROWED on delivery 2026-09-28 by `prompts/backlog-must-have-repairs.md` (Zengine PR
-#73, merged), which stated the first three notes' current facts; the two below wait
-for their wake  
-**Owed:**
-- `zengine::ui`'s authored half (`Element`, `resolve`, `hit` and the rest) has had no consumer
-  outside its own tests since the object canvas retired (`6c5754a`). It stays public API and is
-  revisited at the first release identity (BL-ADOPT-02): retired then if nothing uses it.
-- `ui::frame_in` and `ui::resolve` can disagree on a repeated identity; #71 documents it. A fix
-  changes `Scene`'s shape, so it waits for a first consumer.
-
-**Wake:** the `ui` question at BL-ADOPT-02; a first consumer of `Scene` for `frame_in`.
-**Source:** `reportbacks/zengine-ui-headers-RB.md` (Decisions asked) and the review of #71.
+**State:** ISSUE — [Zengine#121](https://github.com/Krealsion/Zengine/issues/121), [Zengine#122](https://github.com/Krealsion/Zengine/issues/122) hold it now (filed by deep review, 2026-10-09).
 
 ### BL-DEF-09 — Three deep-review findings, for stage 2
 
@@ -870,60 +662,21 @@ onboarding remain broader work; this bounded repair does not close the item.
 
 ### BL-ADOPT-02 — Release identity and compatibility promise
 
-**State:** PARKED  
-**Owed:** Establish dependable tags/release identity and a public stability/deprecation posture
-before external consumers are asked to depend on a named Zen release rather than pinned `main`
-identities.
-
-**Wake:** first public release/support promise or multiple external consumers exposed to churn.
+**State:** ISSUE — [Zengine#119](https://github.com/Krealsion/Zengine/issues/119) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-ADOPT-03 — Performance evidence before performance claims
 
-**State:** PARKED  
-**Owed:** Do not manufacture a benchmark suite for maturity theater, but do not make throughput or
-latency claims without claim-specific measurements.
-
-**Wake:** first material performance promise, observed bottleneck, or adoption decision that
-depends on performance.
-
-**Measured foundation:** accepted interaction authoring measures local implementation and shared-fixture
-header invalidation on one Windows/MinGW Debug configuration. Native grant edits now have a compiled
-owner; the large shared fixture remains a measured pressure, not a claimed general speedup.
-The phase evidence owns exact counts/times and the limits of mtime-only probes.
+**State:** ISSUE — [Zengine#120](https://github.com/Krealsion/Zengine/issues/120) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-ADOPT-04 — GitHub from Workshop
 
-**State:** LATER — after its own research (the founder, 2026-10-03)  
-**Owed:** Sign in to GitHub from Workshop by GitHub's device sign-in, with the token kept in the
-operating system's credential store and never in a Zen file. Upload a weave into a directory of
-its own; mark a directory on the computer as linked to a GitHub repository; pull with one click.
-What a pull brings loads only under explicit authority (P-WORK-18), and this meets product
-distribution (P-ADOPT-01).
-
-**Wake:** the founder selects it.
-**Source:** the founder's notes, ordered with Vision (2026-10-03).
+**State:** ISSUE — [Zengine#145](https://github.com/Krealsion/Zengine/issues/145) holds it now (filed by deep review, 2026-10-09).
 
 ## 5. Architectural debt that waits for pressure
 
 ### BL-ARCH-01 — Cross-layer public include debt
 
-**State:** PARKED (reassessed 2026-09-12 at the ABI v8 landing; not made material)  
-**Owed:** A few portable/public surfaces depend on headers whose current contents happen to remain
-platform-neutral. Repair ownership only when a package/platform break or public-header evolution
-makes the debt material.
-
-**Measured disposition (loom-joint-publication-landing):** the touched public boundary was traced
-header by header. Every new type lives in the layer that owns its concept -- the operation and
-its authority beside the Sense types in `switchboard/sense.hpp`, the hook's answer beside the weave
-contract, the notices beside `DispatchRefused` in `weave/`, the two statuses and slots in the C
-`abi.h` -- and every new include points downward or sideways (switchboard → core; weave → switchboard;
-kernel → switchboard, as before). The three-way answer has one truth on each side of the C seam,
-joined by two mapping functions (`do_claim_published` library-side, `HostAdapter::claim_published`
-host-side), and the package witness and the MinGW/MSVC lanes passed on the installed headers. No
-upward include, no platform-conditional content entered a portable header; the debt is unchanged
-and left parked with this argument in the report.
-
-**Wake:** relevant package failure, platform break, or touched ownership boundary.
+**State:** ISSUE — [Loom#36](https://github.com/Krealsion/Loom/issues/36) holds it now (filed by deep review, 2026-10-09).
 
 ### BL-ARCH-02 — Current-law carrying cost must remain bounded
 
