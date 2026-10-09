@@ -736,6 +736,48 @@ onboarding remain broader work; this bounded repair does not close the item.
 
 **State:** ISSUE — [Zengine#145](https://github.com/Krealsion/Zengine/issues/145) holds it now (filed by deep review, 2026-10-09).
 
+### BL-ADOPT-05 — The documentation overhaul: a man page on each weave, a tutorial for each step
+
+**State:** FILED — the founder's direction (2026-10-09); proposed to move up with stage 4a's
+documents and the `?` (BL-WORK-38), researched first and piloted on one feature (Vision,
+2026-10-09), the founder's decision pending  
+**Owed:** Documentation a layman reads well, almost a full tutorial for each step (the founder).
+- Docs are attached to the specific weave and organized by command, and the `man` page equivalent
+  is the primary reference, whether the weave links its Markdown file or a new macro carries it.
+  Stage 4a's declaration and its Markdown beside the source are the seam
+  ([documentation.md](../reportbacks/agent-desk-research/documentation.md#authored-where-the-code-is));
+  the `?` (stage 4b) and the agent's guide read the same words.
+- Folders become part of the intuitive navigation: a feature's folder holds its docs and its
+  parts. The founder's sketch, which he says may not catch them all:
+
+  ```
+  Zengine
+    builder
+      docs
+      builder-pane
+    flow
+      docs
+      flow-host
+      flow-pane
+    inventory
+      docs
+      inventory-pane
+    editor
+      docs
+      editor-pane
+      neovim
+        neovim-pane
+  ```
+- The agent guide's doc gaps are its examples of errors to make impossible
+  ([the report](../reportbacks/agent-guide-RB.md#doc-gaps)): a wrong target name, stale counts,
+  missing routing rows, and three routing tables that already disagree with the registers.
+
+It meets Tasks 1 and 7 of [the stranger-legible goal](goals/stranger-legible.md), which the
+rewrite places; BL-WORK-38's stages 4a and 4b; BL-WORK-09; and the fast-builds research, since a
+feature's folder is the natural unit of a pane built alone.
+
+**Source:** the founder (2026-10-09), reviewing the agent guide.
+
 ## 5. Architectural debt that waits for pressure
 
 ### BL-ARCH-01 — Cross-layer public include debt

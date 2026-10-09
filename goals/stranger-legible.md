@@ -164,4 +164,7 @@ The founder's order (2026-09-26):
    `prompts/zengine-process-words.md`.
 
 Task 1's first-read path and Task 7's change path are not yet placed; they meet in the
-documentation rewrite the founder wants. Tasks 5 and 6 land before a release.
+documentation rewrite the founder wants, whose direction he gave on 2026-10-09: a man page on each
+weave, a tutorial for each step, and folders by feature
+([BL-ADOPT-05](../backlog.md#bl-adopt-05--the-documentation-overhaul-a-man-page-on-each-weave-a-tutorial-for-each-step)).
+Tasks 5 and 6 land before a release.
