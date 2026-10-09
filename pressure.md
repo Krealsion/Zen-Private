@@ -865,6 +865,12 @@ touched; a direct message-only first slot does not claim whole-Workshop artifact
 An ELH must not approve or enlarge its authority through the ordinary path, including a popup.
 Selected rule: any ELH development bypass must be compiled out of default builds.
 
+**The open path** (the agent-desk research, 2026-10-09, traced in source and not run): a guest with
+`input` loads an agent's bytes into the weaver's running Workshop -- `u` in Files makes its recipe
+file the catalog in force, and `b` with load after build reloads its product, admitted by
+`trust_every_artifact` -- and Neovim's keys reach a shell as the weaver. Until BL-WORK-38's stage 0
+lands, a guest row granting `input` is a row trusted with the weaver's running code and shell.
+
 Keep message grants, native execution trust, human identity and OS file access distinct.
 Refresh the source at execution; this observation is not an assertion about a later corrected
 head. Protected drafts and dependency installation still need their own enforcement arguments.

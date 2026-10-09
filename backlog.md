@@ -205,8 +205,9 @@ setup file as the store his own.
 
 ### BL-WORK-38 — Agents and weavers on one desk
 
-**State:** ORDERED — researched first, beside settings stage 1 (`prompts/agent-desk-research.md`;
-the founder, 2026-10-08)  
+**State:** ORDERED — researched ([its report](../reportbacks/agent-desk-research-RB.md), 2026-10-09:
+stages 0 to 7, 24 decisions); stage 0 next, once #101 and #102 merge; decisions 7, 9, 11, 15 and 24
+taken as recommended (the founder, 2026-10-09)  
 **Owed:** Agents and weavers do not work well together today, and Workshop is too technical for an
 average user. One desk, two presentations: the weaver's GUI, made for people, and an agent's desk, a
 text presentation made for agents.
@@ -225,6 +226,29 @@ text presentation made for agents.
 
 It meets BL-WORK-09, BL-WORK-25, BL-WORK-26, BL-WORK-28, BL-WORK-29, BL-WORK-35 and BL-ADOPT-04, and
 Goal 5 (Tutor, Builder, Steward).
+
+The founder's decisions (2026-10-09), the ones stage 0 needs: a guests file names its version, and
+each row the panes and actions its agent may use, nothing beyond (7); an agent's message moves
+neither the weaver's keys nor the selection, and on the weaver's host a guest's typed text rests in
+no pane (9); on the weaver's host the Terminal answers only the weaver (11); the weaver's host loads
+only bytes built from checkouts the weaver lists (15); the guests file says whose host it is, and on
+the weaver's every file write, the editor office and the Terminal answer only the weaver's hand
+(24). The other nineteen wait for their stages.
+
+The founder's direction for an agent's host (2026-10-09), beyond the research:
+- its writes kept inside its own working folder, and anything that must run outside it going through
+  the pull-request channel;
+- bounded probe doors: the weaver's host offers messages that run contained work against live data
+  and send back the result, each a power the weaver grants, run under Loom's isolation;
+- a guide power: an agent highlights a named part to walk the weaver through a process, changing
+  nothing (BL-WORK-09's tutorial outline).
+
+The walls, outside in (Vision, 2026-10-09): a separate OS user or a VM for the agent's host, the
+only wall that holds against an agent that does not keep to its doors (decision 17); its own GitHub
+identity without merge rights, and a protected default branch; its experiments as weaves under
+Loom's isolation host (Linux: a private file view with only its working folder writable, no network
+but a broker's, resource caps; abuse-tier); in time, an agent acting only through tools that run
+contained, since Loom's tools are processes of the session's user today.
 
 **Wake:** met (2026-10-08).
 **Source:** the founder with 30k (2026-10-08), from 30k's proposal "The Autonomous Foundry & The
