@@ -242,6 +242,11 @@ for every pane, so a pane does nothing for it and an unchanged picture keeps its
 Decision 13 (what a notice carries), as recommended. Owed and not yet placed: decision 1's dense
 reading, a rectangle of the grid written row by row, which `desk/read` does not write (#151).
 
+Stage 4b takes the Codex's form (the founder, 2026-10-09, from the "Perspectives" proposals): a
+pane where a weaver reads what a weave accepts (`zen.DescribeAccepted`, live), each pane's and
+shape's declared words (stage 4a) and the refusals (`Refused`), the weaver's face of the guide an
+agent reads in `guide.md`. Never prose in `zen.SchemaDesc` (decision 12's mistake).
+
 The founder's direction for an agent's host (2026-10-09), beyond the research:
 - its writes kept inside its own working folder, and anything that must run outside it going through
   the pull-request channel;
@@ -300,6 +305,30 @@ is.
 **Wake:** the founder selects it.
 **Source:** the founder (2026-10-09), after the tower-defense route: messages received and acted on
 with no agent's intervention, the agent reviewing what was unexpected.
+
+### BL-WORK-41 — The Data Conversion Mapper: a Flow view that authors a migration
+
+**State:** FILED — near roadmap; its order is the founder's to set (the founder, 2026-10-09)  
+**Owed:** a perspective where a weaver or an agent sets two versions of a shape side by side (`v1`
+and `v2` of a state, say), wires their fields, and gets the migration operator it authors. The
+mechanism exists: a migration is an ordinary provider-contributed operator whose signature is the
+edge it converts, named `zengine.migrate.<family>.v<from>-to-v<to>` (`operator/migration.hpp`), and
+Flow composes and generates operators. A wanted chain stays authored, as a composite: no route
+search. It pays off at every format change, as settings stage 1's setup and session versions did.
+
+**Wake:** the founder orders it.
+**Source:** the founder's idea, with the "Perspectives" proposals (2026-10-09).
+
+### BL-WORK-42 — The Black Box Reader: refusals read whole
+
+**State:** FILED — near roadmap; its order is the founder's to set (the founder, 2026-10-09)  
+**Owed:** P-WORK-14's answer: a reader a maker can run over the journal (`--log <path>` keeps a
+refusal whole, and nothing reads it but `loom::Logger::read`), then a place, a pane, to read a
+chain of refusals in order. The founder agreed it is near roadmap; it is small enough to be an
+issue once its first form is chosen.
+
+**Wake:** the founder orders it.
+**Source:** the "Perspectives" proposals (2026-10-09), meeting P-WORK-14.
 
 ### BL-WORK-07 — The View Builder's polish
 
@@ -732,6 +761,12 @@ and each pane or setup it makes is judged by what it costs an agent and what it 
   security findings never in the public repository; a promoted finding becomes an issue or a plan.
 - The era before it (`current/`, ZNL-R to ZNL-06, Loom only) ran dry: its last four runs opened no
   new friction entry.
+- Seeds from the "Perspectives" proposals (the founder, 2026-10-09): prototypes of the Codex and
+  the Data Conversion Mapper as panes and setups an agent makes; the Proving Grounds once the
+  desk's stage 7 lands (a crash is caught only out of process, under Loom's isolation host or a
+  session run); the Autopsy Table and the Conductor as lab ideas only. The Cartographer waits on a
+  Loom decision: Loom enumerates no participants, and `zen.QueryRole` cannot tell an unheld role
+  from one held where the kernel cannot see, so a map of the bus would invent facts.
 
 **Source:** the founder (2026-10-09).
 
