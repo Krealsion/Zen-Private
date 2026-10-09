@@ -714,6 +714,27 @@ consolidate it without deleting the enforceable law or proof history.
 **Wake:** a cold reader cannot find the owner without phase names, or a routed current-law file's
 growth materially slows every task touching that surface.
 
+## 5a. Night Lab
+
+### BL-LAB-01 — Night Lab, era 2: agents make panes and setups for both hands
+
+**State:** ORDERED — after the agent's desk (BL-WORK-38) and the documentation rewrite; its own
+thread prepares now ([the handoff](handoffs/night-lab-handoff.md)) (the founder, 2026-10-09)  
+**Owed:** the lab's new question, "Can agents create new panes and setups that are efficient for
+both them and the human user?" An agent on its own host drives a Workshop through the agent's desk,
+and each pane or setup it makes is judged by what it costs an agent and what it costs a person.
+- The wall, agreed: a dedicated WSL distribution, fresh, with drive automount, Windows interop and
+  the Windows `PATH` off; the executor inside it; Loom and Zengine pinned per run from GitHub and
+  recorded in `substrate.lock`; a GitHub token that reaches only `zen-night-lab`; its own Workshop a
+  development host.
+- Findings: raw in each run's folder of the lab repository; the best explained in its
+  `experiments/` folder, with what was left unfinished and suggestions for the next experiment;
+  security findings never in the public repository; a promoted finding becomes an issue or a plan.
+- The era before it (`current/`, ZNL-R to ZNL-06, Loom only) ran dry: its last four runs opened no
+  new friction entry.
+
+**Source:** the founder (2026-10-09).
+
 ## 6. Explicitly not backlog
 
 The following remain trigger-governed horizons or pressure, not owed cleanup:
