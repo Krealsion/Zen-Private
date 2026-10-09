@@ -194,11 +194,11 @@ setup file as the store his own.
 
 ### BL-WORK-38 — Agents and weavers on one desk
 
-**State:** ORDERED — researched ([its report](../reportbacks/agent-desk-research-RB.md), 2026-10-09:
-stages 0 to 7, 24 decisions); stage 0 then stage 1 next, written for one overnight run once #102
-merges ([stage 0](../prompts/agent-desk-0.md), [stage 1](../prompts/agent-desk-1.md)); decisions 7,
-9, 11, 15 and 24, then 1, 2, 3, 5, 14 and 19, and 4 and 18 in part, taken as recommended (the
-founder, 2026-10-09)  
+**State:** ORDERED — in build: stage 0 merged as #150 and stage 1 as #151 (2026-10-09); stage 2
+written ([prompt](../prompts/agent-desk-2.md)), beside #151's three review fixes in the issue lane
+(#152, #154, #153); researched ([its report](../reportbacks/agent-desk-research-RB.md): stages 0 to
+7, 24 decisions); decisions 7, 9, 11, 15 and 24, then 1, 2, 3, 5, 13, 14 and 19, and 4 and 18 in
+part, taken as recommended (the founder, 2026-10-09)  
 **Owed:** Agents and weavers do not work well together today, and Workshop is too technical for an
 average user. One desk, two presentations: the weaver's GUI, made for people, and an agent's desk, a
 text presentation made for agents.
@@ -232,7 +232,15 @@ carry meaning (1); the grid follows the canvas, not the monitor (2); the reader 
 (3); `capture` widened to stage 1's reads, said as a widening, its second room and `read` power left
 to stage 5a (4, in part); a covered pane's visible words (5); readings as files on the agent's host,
 never inside a source checkout (14); a tool package of its own, `desk` (19); and stages 1 to 3b
-ahead of BL-WORK-09 (18, in part). The other thirteen wait for their stages, 4 and 18 in part.
+ahead of BL-WORK-09 (18, in part). The other twelve wait for their stages, 4 and 18 in part.
+
+The stages' own decisions (the founder, 2026-10-09): stage 0's 1, a guest's carried value rests in
+no pane on a weaver's host (refused, as typed text is), and its 2 and 3 kept as they landed;
+stage 1's 1, the weaver's keystrokes to an observer become a power of their own at stage 3a; its 2,
+the founder's way: a stamp names a picture by a fingerprint Workshop takes of what the pane sent,
+for every pane, so a pane does nothing for it and an unchanged picture keeps its stamp; its 3 kept.
+Decision 13 (what a notice carries), as recommended. Owed and not yet placed: decision 1's dense
+reading, a rectangle of the grid written row by row, which `desk/read` does not write (#151).
 
 The founder's direction for an agent's host (2026-10-09), beyond the research:
 - its writes kept inside its own working folder, and anything that must run outside it going through
