@@ -279,6 +279,10 @@ The founder chooses direction and acceptance. Vision updates the smallest curren
 after acceptance; a report does not accept itself. This map changes when strategy changes,
 not to record every phase. Raw capture is an inbox; proof and chronology stay in reports and Git.
 
+Work runs in two lanes (the founder, 2026-10-09): phases carry the architectural arcs, prompted
+and reviewed stage by stage; bounded work lives as GitHub issues, filed by deep review and merged
+as it is ready, ahead of any phase, which rebases onto it ([backlog §1](backlog.md#1-rules)).
+
 ## 10. Private authority map
 
 ```text

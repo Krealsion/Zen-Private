@@ -13,6 +13,15 @@ the live file; their evidence remains in reports and Git history.
 An item belongs here only when Zen has decided work is owed. A possibility, known seam, or observed
 pressure stays outside until that decision exists. Every item names its wake condition and source.
 
+**Bounded work moves to GitHub issues** (the founder, 2026-10-09). Defects, review leftovers, doc
+fixes, and parked or later ideas are filed as issues on the public repositories, each written as a
+small prompt with its fences, so any executor can take one, ship it as its own pull request and
+merge it when it is ready. An issue's pull request merges first, and an open phase branch rebases
+onto it. A security defect is never a public issue: it goes into a draft private security advisory.
+Deep review files them, from [the handoff](handoffs/issues-handoff.md), and files its own findings
+outside the pull request under review the same way. A filed item leaves this file for its issue
+link. The ordered arcs, research items and direction stay here and move by phases.
+
 ## 2. Workshop and onboarding
 
 ### BL-WORK-01 — Workshop and onboarding grow together
