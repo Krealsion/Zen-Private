@@ -206,8 +206,10 @@ setup file as the store his own.
 ### BL-WORK-38 — Agents and weavers on one desk
 
 **State:** ORDERED — researched ([its report](../reportbacks/agent-desk-research-RB.md), 2026-10-09:
-stages 0 to 7, 24 decisions); stage 0 next, once #101 and #102 merge; decisions 7, 9, 11, 15 and 24
-taken as recommended (the founder, 2026-10-09)  
+stages 0 to 7, 24 decisions); stage 0 then stage 1 next, written for one overnight run once #102
+merges ([stage 0](../prompts/agent-desk-0.md), [stage 1](../prompts/agent-desk-1.md)); decisions 7,
+9, 11, 15 and 24, then 1, 2, 3, 5, 14 and 19, and 4 and 18 in part, taken as recommended (the
+founder, 2026-10-09)  
 **Owed:** Agents and weavers do not work well together today, and Workshop is too technical for an
 average user. One desk, two presentations: the weaver's GUI, made for people, and an agent's desk, a
 text presentation made for agents.
@@ -233,7 +235,15 @@ neither the weaver's keys nor the selection, and on the weaver's host a guest's 
 no pane (9); on the weaver's host the Terminal answers only the weaver (11); the weaver's host loads
 only bytes built from checkouts the weaver lists (15); the guests file says whose host it is, and on
 the weaver's every file write, the editor office and the Terminal answer only the weaver's hand
-(24). The other nineteen wait for their stages.
+(24).
+
+Stage 1's, taken as recommended the same day: the grid one character to each canvas pixel, read as
+the drawn runs with each part's press point, a glance, and a rectangle written out where blanks
+carry meaning (1); the grid follows the canvas, not the monitor (2); the reader on the agent's host
+(3); `capture` widened to stage 1's reads, said as a widening, its second room and `read` power left
+to stage 5a (4, in part); a covered pane's visible words (5); readings as files on the agent's host,
+never inside a source checkout (14); a tool package of its own, `desk` (19); and stages 1 to 3b
+ahead of BL-WORK-09 (18, in part). The other thirteen wait for their stages, 4 and 18 in part.
 
 The founder's direction for an agent's host (2026-10-09), beyond the research:
 - its writes kept inside its own working folder, and anything that must run outside it going through
