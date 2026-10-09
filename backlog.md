@@ -195,7 +195,8 @@ setup file as the store his own.
 ### BL-WORK-38 — Agents and weavers on one desk
 
 **State:** ORDERED — in build: stages 0, 1 and 2 merged as #150, #151 and #158 (2026-10-09),
-#151's three review fixes as #155, #157 and #156 in the issue lane; stage 3a next; researched
+#151's three review fixes as #155, #157 and #156 in the issue lane; stages 3a and 3b wait for the
+documentation overhaul's folder move and its stages 4a and 4b (BL-ADOPT-05); researched
 ([its report](../reportbacks/agent-desk-research-RB.md): stages 0 to 7, 24 decisions); decisions
 7, 9, 11, 15 and 24, then 1, 2, 3, 5, 13, 14 and 19, and 4 and 18 in part, taken as recommended
 (the founder, 2026-10-09)  
@@ -738,9 +739,9 @@ onboarding remain broader work; this bounded repair does not close the item.
 
 ### BL-ADOPT-05 — The documentation overhaul: a man page on each weave, a tutorial for each step
 
-**State:** FILED — the founder's direction (2026-10-09); proposed to move up with stage 4a's
-documents and the `?` (BL-WORK-38), researched first and piloted on one feature (Vision,
-2026-10-09), the founder's decision pending  
+**State:** ORDERED — ahead of BL-WORK-38's stages 3a and 3b, with its stage 4a's documents and
+the `?` (4b, with BL-WORK-09), researched first and proven on the Builder
+([prompt](../prompts/docs-overhaul-research.md)) (the founder, 2026-10-09)  
 **Owed:** Documentation a layman reads well, almost a full tutorial for each step (the founder).
 - Docs are attached to the specific weave and organized by command, and the `man` page equivalent
   is the primary reference, whether the weave links its Markdown file or a new macro carries it.
