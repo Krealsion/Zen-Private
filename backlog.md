@@ -349,6 +349,17 @@ issue once its first form is chosen.
 **Wake:** the founder orders it.
 **Source:** the "Perspectives" proposals (2026-10-09), meeting P-WORK-14.
 
+### BL-WORK-43 — Fast forward: a walk as fast as its messages go, and the bus measured
+
+**State:** ORDERED — researched first ([prompt](../prompts/fast-forward-research.md)), with the
+machine time the C: drive test was spending (the founder, 2026-10-10)  
+**Owed:** A fast-forward mode for the demo runs, as in a game: a walk goes as fast as its actions
+can go, where today it reaches four or five actions a second at most; faster runs let agents work
+faster. Beside it, a speed test of the message bus: math like 3D collision, on a massive scale,
+toward the founder's final test of Workshop, a small 3D third-person action game.
+
+**Source:** the founder (2026-10-10).
+
 ### BL-WORK-07 — The View Builder's polish
 
 **State:** CLOSED — merged as Zengine #87 (`80c1e95`, 2026-10-03), from
