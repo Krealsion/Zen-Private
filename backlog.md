@@ -364,8 +364,8 @@ toward the founder's final test of Workshop, a small 3D third-person action game
 
 **State:** ORDERED — ([prompt](../prompts/build-speed.md)), from the fast-builds research
 ([report](../reportbacks/fast-builds-research-RB.md)) and the C: drive test
-([report](../reportbacks/c-drive-builds-RB.md)): the Windows build trees on C:, the WSL lanes from an
-ext4 source copy, and CI's Q1 to Q3 (Loom without its tests, a compiler cache written only by
+([report](../reportbacks/c-drive-builds-RB.md)): the Windows build trees on C:, the WSL lanes from
+an ext4 source copy, and CI's Q1 to Q3 (Loom without its tests, a compiler cache written only by
 `main`'s runs, parallel CTest on the Linux jobs), the research's decision 1 as recommended (the
 founder, 2026-10-10). Zen itself stays on G:. A Dev Drive is the founder's to make; if he does, the
 trees' root is measured on it beside plain C:  
