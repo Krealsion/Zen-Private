@@ -1307,6 +1307,36 @@ field of `T`'s type. Left open:
 
 **Trigger:** each line's own.
 
+### P-LOOM-11 — A MinGW-w64 runtime instance takes a TLS index it never returns
+
+**State:** DECISION — the founder's (Loom #41, held on `weave/carry-runtime-on-windows`)  
+**Evidence:** [the release's L1 report](../reportbacks/release-l1-RB.md#decisions-asked) and its
+evidence, section 5 (`pass-tools/release-l1/reload/`)
+
+On MinGW-w64 GCC every C++ runtime instance a process loads takes one Windows TLS index the first
+time it throws (libstdc++'s exception globals are emulated thread-local storage) and none is
+returned at unload; after about 1,088 the runtime calls `abort()`. A runtime inside each weave, or
+runtime DLLs loaded with a weave into a host that does not hold them, is an instance per load: so
+Zengine's MinGW-w64 `workshop_panes` aborts against #41's branch, and a Workshop could hot-reload a
+pane about 1,000 times. Only a runtime the host holds for the whole process is free of it. MSVC's
+static CRT has no such cost (3,000 loads that throw). The release research's decision 2 (a static
+Workshop with static panes) meets the same ceiling.
+
+**Trigger:** the founder's decision on #41; the release's R1.
+
+### P-LOOM-12 — Host callbacks let an exception cross the seam
+
+**State:** WATCH — hooked to #41's MSVC half  
+**Evidence:** [the release's L1 report](../reportbacks/release-l1-RB.md#pressure-exposed)
+
+`zen_host_publish`, `answer_deferred`, `answer`, `office_publish` and the five `sense_*` callbacks in
+`src/kernel/kernel.cpp` catch nothing, and the send callbacks catch only `std::overflow_error`. The
+seam promises that no exception crosses it; once each image carries its own runtime (MSVC's static
+CRT) that promise is a requirement, since an exception thrown under one runtime and caught under
+another is undefined.
+
+**Trigger:** a weave that carries its own runtime, or any change to the callbacks.
+
 ## 6. Adoption pressure
 
 ### P-ADOPT-01 — Package truth is ahead of product distribution
