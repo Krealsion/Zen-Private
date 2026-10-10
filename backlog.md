@@ -741,10 +741,10 @@ onboarding remain broader work; this bounded repair does not close the item.
 
 **State:** ORDERED — researched ([its report](../reportbacks/docs-overhaul-research-RB.md)); its ten
 decisions taken as recommended but F2: no forwarding headers, since the move precedes the first
-release (the founder, 2026-10-10). Stage A, the move, opens 2026-10-12
-([prompt](../prompts/docs-overhaul-a.md)); then B1, the Builder's manuals; B2, the `?`, with B3,
-its tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D after the release.
-BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
+release (the founder, 2026-10-10). Stage A, the move, opens 2026-10-10, two days early (the
+founder; [prompt](../prompts/docs-overhaul-a.md)); then B1, the Builder's manuals; B2, the `?`,
+with B3, its tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D after
+the release. BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
 review's place ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken
 and merged as #169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the
 founder chose reading (b), with the build send keeping its ticket (2026-10-10); taken with the
@@ -804,7 +804,8 @@ pane author's compiler is theirs, and stages R0 to R5 with Loom's L1 and the Bui
 10-11 to 10-22, the build slot their constraint. The founder agreed with its direction and put
 it beside the architecture work, taken in the issue lane as the machine allows (2026-10-10),
 its fifteen decisions as Vision put them: as recommended, but the pane's runtime rule in Loom's
-weave build contract, and 0.1 a preview with Task 1's cold walk on a dry run  
+weave build contract, and 0.1 a preview with Task 1's cold walk on a dry run. L1 opens in Loom
+with the move ([prompt](../prompts/release-l1.md), 2026-10-10)  
 **Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
 starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A
 tutorial's replay on the extracted package can witness the package itself.
