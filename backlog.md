@@ -750,19 +750,24 @@ onboarding remain broader work; this bounded repair does not close the item.
 
 **State:** ORDERED — researched ([its report](../reportbacks/docs-overhaul-research-RB.md)); its ten
 decisions taken as recommended but F2: no forwarding headers, since the move precedes the first
-release (the founder, 2026-10-10). Stage A, the move, opens 2026-10-10, two days early (the founder;
-[prompt](../prompts/docs-overhaul-a.md)); then B1, the Builder's manuals; B2, the `?`, with B3, its
-tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D after the release.
-BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
-review's place ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and
-merged as #169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the founder chose
-reading (b), with the build send keeping its ticket (2026-10-10); taken with the follower's lost
-realization (#176) as #177 and #178, merged before the move (2026-10-10)
-([report](../reportbacks/realization-notice-RB.md)). Stage C's inputs from them: the told history in
-`agents/` that [the F6 record](../reportbacks/overhaul-findings/verify/F6-realization-history.md)
-lists; `docs/workshop/limitations.md`'s unload sentences and package count beside
+release (the founder, 2026-10-10). Stage A, the move, opened 2026-10-10, two days early (the
+founder; [prompt](../prompts/docs-overhaul-a.md)), as Zengine #179 with Loom #47
+([report](../reportbacks/docs-overhaul-a-RB.md)), reviewed ready to merge once its hosted run is
+green, #47 right after it; B1 starts from #179's branch ([prompt](../prompts/docs-overhaul-b1.md)),
+a full register or router split by subject, never its budget raised (Vision); then B1, the Builder's
+manuals; B2, the `?`, with B3, its tutorial replayed; C, feature by feature in the issue lane to
+2026-10-22; D after the release. BL-WORK-38's stages 3a and 3b follow B2. The research's findings
+are verified and filed in deep review's place ([report](../reportbacks/overhaul-findings-RB.md)):
+Zengine #162-#168, six taken and merged as #169-#174 (2026-10-10). #164, the Builder pane's
+build-and-load notice: the founder chose reading (b), with the build send keeping its ticket
+(2026-10-10); taken with the follower's lost realization (#176) as #177 and #178, merged before the
+move (2026-10-10) ([report](../reportbacks/realization-notice-RB.md)). Stage C's inputs from them:
+the told history in `agents/` that [the F6
+record](../reportbacks/overhaul-findings/verify/F6-realization-history.md) lists;
+`docs/workshop/limitations.md`'s unload sentences and package count beside
 `docs/getting-started.md`'s target list; and the `builder` tool's module note and its
-`loom-tool.json` description, which list `unknown recipe` among a taken ask's endings  
+`loom-tool.json` description, which list `unknown recipe` among a taken ask's endings; and the
+move's own doc gaps ([its report](../reportbacks/docs-overhaul-a-RB.md#doc-gaps))  
 **Owed:** Documentation a layman reads well, almost a full tutorial for each step (the founder).
 - Docs are attached to the specific weave and organized by command, and the `man` page equivalent
   is the primary reference, whether the weave links its Markdown file or a new macro carries it.
