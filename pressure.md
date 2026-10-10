@@ -1309,7 +1309,9 @@ field of `T`'s type. Left open:
 
 ### P-LOOM-11 — A MinGW-w64 runtime instance takes a TLS index it never returns
 
-**State:** DECISION — the founder's (Loom #41, held on `weave/carry-runtime-on-windows`)  
+**State:** EXPERIMENT — GCC 16's native TLS measured first, and a Loom patch only if it still
+leaks ([prompt](../prompts/runtime-gcc16.md)), so MinGW pane authors need not match Workshop's
+compiler (the founder, 2026-10-10); #41 held on `weave/carry-runtime-on-windows`  
 **Evidence:** [the release's L1 report](../reportbacks/release-l1-RB.md#decisions-asked) and its
 evidence, section 5 (`pass-tools/release-l1/reload/`)
 
