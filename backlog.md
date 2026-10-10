@@ -796,9 +796,10 @@ feature's folder is the natural unit of a pane built alone.
 
 ### BL-ADOPT-06 — A release ready to run, for Windows and Linux
 
-**State:** ORDERED — researched first, beside the documentation overhaul's stage B, since it
-touches packaging and CI rather than the features, to land before the freeze (2026-10-23)
-([prompt](../prompts/release-research.md)) (the founder, 2026-10-10)  
+**State:** ORDERED — researched first, to land before the freeze (2026-10-23), since it touches
+packaging and CI rather than the features (the founder, 2026-10-10); its prompt re-baselined on
+today's tree so it runs ahead of the overhaul's folder move and names what the move changes
+([prompt](../prompts/release-research.md), 2026-10-10)  
 **Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
 starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A
 tutorial's replay on the extracted package can witness the package itself.
@@ -859,8 +860,8 @@ and each pane or setup it makes is judged by what it costs an agent and what it 
 machine beside the models (2026-10-10). Researched
 ([its report](../reportbacks/local-lane-research-RB.md), its decisions in
 `local-lane/decisions.md`); L3 would become the Pi coding agent, the harness the
-friend runs, its switch written ([prompt](../prompts/local-lane-2.md)) and run (2026-10-10: its
-report and changes uncommitted, the kit's among them, unreviewed while shelved); the other nine,
+friend runs, its switch written ([prompt](../prompts/local-lane-2.md)) and run (2026-10-10, Zen
+`31120f9`, a kit-wide build slot among its changes; unreviewed while shelved); the other nine,
 and L7's room, await his word. The fast-builds research counts a kit-wide build lock beside stage
 7d's slot a mistake (its decision 6), which L7's room would need to answer  
 **Owed:** bounded work keeps moving beside the architecture work, now and past the founder's window
