@@ -196,7 +196,8 @@ setup file as the store his own.
 
 **State:** ORDERED — in build: stages 0, 1 and 2 merged as #150, #151 and #158 (2026-10-09),
 #151's three review fixes as #155, #157 and #156 in the issue lane; stages 3a and 3b wait for the
-documentation overhaul's folder move and its stages 4a and 4b (BL-ADOPT-05); researched
+documentation overhaul's folder move and its stages 4a and 4b (BL-ADOPT-05), and an agent's
+powers are researched ahead of them (2026-10-10, below); researched
 ([its report](../reportbacks/agent-desk-research-RB.md): stages 0 to 7, 24 decisions); decisions
 7, 9, 11, 15 and 24, then 1, 2, 3, 5, 13, 14 and 19, and 4 and 18 in part, taken as recommended
 (the founder, 2026-10-09)  
@@ -273,6 +274,24 @@ issue that touches only certain files; anything more asked for through the weave
 beforehand, or shared by a more trusted orchestrator from its own limited, higher power. With
 Vision's amendment, accepted: no single ladder, a role (Tutor, Builder, Steward) is a named
 bundle of separate powers, each enforced on its own.
+
+Researched ([its report](../reportbacks/agent-powers-research-RB.md), 2026-10-10; reviewed by Vision
+the same day, 26 decisions asked, the founder's answer pending): a role is a bundle of separate
+powers -- Tutor, Builder, Player, Orchestrator (a row with `share`) and Steward -- and every scope
+the weaver may widen live is a door, `<office>/<pane>[:<id>]` or `arrange:<id>`, held as Loom
+authority, matched by segment and judged by its owner at the act; the three routes on Loom's Weaver,
+its prompts numbered and decided by the weaver's local hand alone, the guests file the one place
+anything persists, an orchestrator's share inside a ceiling the weaver wrote; every grant lasts its
+session, never a time or once; an approval holds only against a contained agent, so a row that asks
+or shares says `"contained": true`; an agent's code written in a view built from Loom's isolation
+primitives, and a check at the pull request refusing a path outside its issue's `## Files` block.
+Its stages: `door` (Loom, beside the overhaul), `tutor` (after docs B2 and `door`), #139, 3a, 3b,
+`host` (before `ask`), `ask`, `check` beside, `probe` with the Steward's first consumer. The Tutor
+walked on a weaver's desk against a prototype guide mark. With #181's switch to a manual answered on
+ask, the guest's manual read at `tutor` asks the pane through Workshop under its `capture` doors
+(Vision), and the document declarations leave its list of host keepings. Its view probe's canary
+read the founder's SSH private key through `/mnt/c` into a log deleted within a minute (none of it
+found since); rotating it is the founder's call.
 
 The walls, outside in (Vision, 2026-10-09): a separate OS user or a VM for the agent's host, the
 only wall that holds against an agent that does not keep to its doors (decision 17); its own GitHub

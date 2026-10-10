@@ -170,3 +170,12 @@
 - **`C:/Zen` is a copy of Zen**, a snapshot of 2026-10-09 22:05; its primary trees were configured
   on G: and cannot be used where they are. The indexer excludes both Zens and includes
   `C:\Users\Joshua\zen-build\`.
+- **D: is a Dev Drive (ReFS)**, made for the build-speed phase (2026-10-10); `D:/zen-build/` holds
+  that phase's trees and caches. Tutorial and demo pictures are taken from a root under `D:/Zen`
+  from now on (the founder, 2026-10-10).
+- **WSL as the founder reaches every Windows file he can** (an agent's powers, researched,
+  2026-10-10): kernel 6.6.87.2, unprivileged user namespaces allowed, Yama `ptrace_scope` 1;
+  `/etc/wsl.conf` holds only `[boot] systemd=true`; no `bwrap`; drvfs mounts the Windows drives 777
+  with no `metadata`, so `C:\Users\Joshua\.ssh` reads through `/mnt/c`; G: and H: are exFAT, with no
+  ACLs; `memory` and `pids` are delegated to the user's slice; WSLg's X sockets are `/tmp/.X11-unix`
+  and `/mnt/wslg/.X11-unix`.

@@ -1359,6 +1359,20 @@ another is undefined.
 
 **Trigger:** a weave that carries its own runtime, or any change to the callbacks.
 
+### P-LOOM-13 — A denied answer is silent to its asker
+
+**State:** WATCH — Loom's call  
+**Evidence:** [an agent's powers,
+researched](../reportbacks/agent-powers-research-RB.md#pressure-exposed)
+
+Loom grant-checks even a legitimate answer, so an owner whose speech lacks the answer's shape
+answers nothing its asker hears: the prototype's `GuideAnswered` was missing from Workshop's speak
+grant (`workshop/grant.cpp`), and the Tutor's tool waited 30 s on a mark Workshop had drawn. The
+guide for a Workshop tool says replies need the host's send rules; the friction is that the asker is
+told nothing. A dispatch refusal to the requester when its answer is denied is the seam.
+
+**Trigger:** the next owner that answers a new shape, or Loom's dispatch refusals.
+
 ## 6. Adoption pressure
 
 ### P-ADOPT-01 — Package truth is ahead of product distribution
