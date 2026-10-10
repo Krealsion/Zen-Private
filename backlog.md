@@ -360,6 +360,21 @@ toward the founder's final test of Workshop, a small 3D third-person action game
 
 **Source:** the founder (2026-10-10).
 
+### BL-WORK-44 — Faster builds: the quick wins
+
+**State:** ORDERED — ([prompt](../prompts/build-speed.md)), from the fast-builds research
+([report](../reportbacks/fast-builds-research-RB.md)) and the C: drive test
+([report](../reportbacks/c-drive-builds-RB.md)): the Windows build trees on C:, the WSL lanes from an
+ext4 source copy, and CI's Q1 to Q3 (Loom without its tests, a compiler cache written only by
+`main`'s runs, parallel CTest on the Linux jobs), the research's decision 1 as recommended (the
+founder, 2026-10-10). Zen itself stays on G:. A Dev Drive is the founder's to make; if he does, the
+trees' root is measured on it beside plain C:  
+**Owed:** Every pull request waits on its hosted run since the local proof became the change's own
+cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
+times faster than on G: in the C: test.
+
+**Source:** the founder (2026-10-10).
+
 ### BL-WORK-07 — The View Builder's polish
 
 **State:** CLOSED — merged as Zengine #87 (`80c1e95`, 2026-10-03), from
