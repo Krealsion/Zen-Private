@@ -744,8 +744,8 @@ decisions taken as recommended but F2: no forwarding headers, since the move pre
 release (the founder, 2026-10-10). Stage A, the move, opens 2026-10-10, two days early (the
 founder; [prompt](../prompts/docs-overhaul-a.md)); then B1, the Builder's manuals; B2, the `?`,
 with B3, its tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D after
-the release. BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
-review's place ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken
+the release. BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and
+filed in deep review's place ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken
 and merged as #169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the
 founder chose reading (b), with the build send keeping its ticket (2026-10-10); taken with the
 follower's lost realization (#176) as #177 and #178, reviewed ready to merge before the move
