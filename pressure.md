@@ -63,7 +63,8 @@ pressure they measured, closed by #100 (2026-10-08). Settings (BL-WORK-36) is re
 first stage is written on Loom #31 (2026-10-08), a struct shape's optional fields. P-WORK-55 to
 P-WORK-57, P-LOOM-10 and P-BUILD-12 are pressure #100, the settings research and #31 measured.
 P-WORK-58 and P-WORK-59 are pressure the documentation overhaul's findings measured (Zengine
-#169-#174, 2026-10-10); P-WORK-60 is pressure #177 and #178 measured.
+#169-#174, 2026-10-10); P-WORK-60 is pressure #177 and #178 measured, P-WORK-61 pressure the
+overhaul's B1 traced (#181).
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -726,8 +727,23 @@ waits to UNRESOLVED (#178 reads the realization once the build's ending was seen
 already said in `BuildAsked` and `detail`; keeping it out of `outcome` always is a vocabulary
 change.
 
-**Trigger:** a phase that changes `BuildStatus`, or the Builder's manual (overhaul stage B1)
-describing `outcome`.
+**Trigger:** a phase that changes `BuildStatus`. The Builder's manual (overhaul stage B1, Zengine
+#181) says `outcome` as it is: `unknown recipe` is published with no build running.
+
+### P-WORK-61 — A reloaded pane keeps its predecessor's settings when it declares none
+
+**State:** WATCH — traced, not run  
+**Evidence:** [the overhaul's B1 report](../reportbacks/docs-overhaul-b1-RB.md#doc-gaps)
+
+A reload in place keeps the weave id (Loom `docs/reference/lifecycle.md`, `incarnation`), and
+WL-SETTING-03 counts a settings declaration by that id alone (`workshop/weave_seam.cpp`
+`counted_settings`). A re-offer, which is how a reloaded image arrives, clears the pane's shown
+rows and parts but not its settings, so an image that declares no settings is shown, and sent,
+its predecessor's. B1 drops a pane's held manual at a re-offer for this reason (#181); settings
+have no such drop.
+
+**Trigger:** a phase touching pane settings, or the issue lane taking it as a small fix: drop the
+settings at a re-offer, as #181 does the manual.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 

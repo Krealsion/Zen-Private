@@ -776,21 +776,37 @@ onboarding remain broader work; this bounded repair does not close the item.
 
 **State:** ORDERED — researched ([its report](../reportbacks/docs-overhaul-research-RB.md)); its ten
 decisions taken as recommended but F2: no forwarding headers, since the move precedes the first
-release (the founder, 2026-10-10). Stage A, the move, opened 2026-10-10, two days early (the
-founder; [prompt](../prompts/docs-overhaul-a.md)), as Zengine #179 with Loom #47
-([report](../reportbacks/docs-overhaul-a-RB.md)), reviewed ready to merge once its hosted run is
-green, #47 right after it; B1 starts from #179's branch ([prompt](../prompts/docs-overhaul-b1.md)),
-a full register or router split by subject, never its budget raised (Vision); then B1, the Builder's
-manuals; B2, the `?`, with B3, its tutorial replayed; C, feature by feature in the issue lane to
-2026-10-22; D after the release. BL-WORK-38's stages 3a and 3b follow B2. The research's findings
-are verified and filed in deep review's place ([report](../reportbacks/overhaul-findings-RB.md)):
-Zengine #162-#168, six taken and merged as #169-#174 (2026-10-10). #164, the Builder pane's
-build-and-load notice: the founder chose reading (b), with the build send keeping its ticket
-(2026-10-10); taken with the follower's lost realization (#176) as #177 and #178, merged before the
-move (2026-10-10) ([report](../reportbacks/realization-notice-RB.md)). Stage C's inputs from them:
-the told history in `agents/` that [the F6
-record](../reportbacks/overhaul-findings/verify/F6-realization-history.md) lists;
-`docs/workshop/limitations.md`'s unload sentences and package count beside
+release (the founder, 2026-10-10). Stage A, the move, merged as Zengine #179 with Loom #47
+(2026-10-10). B1, the Builder's manuals ([prompt](../prompts/docs-overhaul-b1.md),
+[report](../reportbacks/docs-overhaul-b1-RB.md)), is Zengine #181, reviewed ready to merge once its
+hosted run is green (Vision, 2026-10-10): a weave carries its manual compiled in (`MANUAL`,
+`cmake/ZengineManual.cmake`), a pane declares it beside its offer and Workshop holds it while the
+sender holds the office, dropping it at a re-offer, and the Builder office answers
+`ShapeDocumentRequested` from its page; the `manual` check, the action census `tests/actions.txt`
+and the key markers; the Builder's two manuals and its first tutorial; its ten choices accepted.
+Into B2: the manual's rule its own law, since WL-DESK-06 is a law of verdicts and two of its MEANS
+lines were merged to make room (the prompt carried the research's WL-DESK-06, Vision's miss); one
+spelling of a key wherever a weaver reads it, the founder's call (a page spells keys as the keymap
+file does, `shift+b`, `return`, `ctrl+p`, the band as the screen does, `B`, `enter`, `^p`); the `?`
+finding a section's keys from data the splitter writes, never a C++ reading of the page. Into B3:
+the tutorial's pictures taken from a neutral root (they show this machine's
+`G:/programming/cpp/Zen/scratch/` paths) and the Pane Manager put away before the last. Into C: the
+key markers checked on every page under a `docs/` (`workshop/docs/load-plans.md` names the Builder's
+`o`, `f`, `b` and `c` bare, `builder/docs/recipes.md` Files' `u` and `a`); one walker of a pane's
+modes for the census; the report's manual scaffold; nothing in a running Workshop is granted
+`ShapeDocumentRequested` yet, so its first asker brings the grant; a page near `kMaxManualBytes`
+makes a declaration past the history recorder's 64 KiB payload ceiling. Into D:
+`cmake/ZengineManual.cmake` needs policy CMP0054 NEW, which a stranger's old
+`cmake_minimum_required` would not give. Then B2, the `?`, with B3, its tutorial replayed; C,
+feature by feature in the issue lane to 2026-10-22; D after the release. BL-WORK-38's stages 3a and
+3b follow B2. The research's findings are verified and filed in deep review's place
+([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and merged as
+#169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the founder chose reading
+(b), with the build send keeping its ticket (2026-10-10); taken with the follower's lost realization
+(#176) as #177 and #178, merged before the move (2026-10-10)
+([report](../reportbacks/realization-notice-RB.md)). Stage C's inputs from them: the told history in
+`agents/` that [the F6 record](../reportbacks/overhaul-findings/verify/F6-realization-history.md)
+lists; `docs/workshop/limitations.md`'s unload sentences and package count beside
 `docs/getting-started.md`'s target list; and the `builder` tool's module note and its
 `loom-tool.json` description, which list `unknown recipe` among a taken ask's endings; and the
 move's own doc gaps ([its report](../reportbacks/docs-overhaul-a-RB.md#doc-gaps))  
@@ -845,9 +861,10 @@ architecture work, taken in the issue lane as the machine allows (2026-10-10), i
 as Vision put them: as recommended, but the pane's runtime rule in Loom's weave build contract, and
 0.1 a preview with Task 1's cold walk on a dry run. L1 ([prompt](../prompts/release-l1.md),
 [report](../reportbacks/release-l1-RB.md)): Loom #46 (no bytecode) and #48 (a weave opens from any
-folder, a refusal names what is missing, every Loom program in the UTF-8 code page) reviewed ready
-to merge; #41, a weave carrying its runtime, held for the founder: on MinGW-w64 a runtime instance
-per weave runs out of TLS indexes after about 1,088 loads (P-LOOM-11), so decision 2 is open again  
+folder, a refusal names what is missing, every Loom program in the UTF-8 code page) merged
+(2026-10-10); #41, a weave carrying its runtime, held for the founder: on MinGW-w64 a runtime
+instance per weave runs out of TLS indexes after about 1,088 loads (P-LOOM-11), so decision 2 is
+open again, the GCC 16 experiment first (P-LOOM-11)  
 **Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
 starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A
 tutorial's replay on the extracted package can witness the package itself.
