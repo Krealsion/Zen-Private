@@ -868,7 +868,9 @@ machine beside the models (2026-10-10). Researched
 friend runs, its switch written ([prompt](../prompts/local-lane-2.md)) and run (2026-10-10, Zen
 `31120f9`, a kit-wide build slot among its changes; unreviewed while shelved); the other nine,
 and L7's room, await his word. The fast-builds research counts a kit-wide build lock beside stage
-7d's slot a mistake (its decision 6), which L7's room would need to answer  
+7d's slot a mistake (its decision 6), which L7's room would need to answer. The friend offers his
+machine as a build machine (2026-10-10), which the founder sees as easier now than the whole
+pipeline for fixing issues  
 **Owed:** bounded work keeps moving beside the architecture work, now and past the founder's window
 (2026-10-26): three stations on the friend's AMD host (MiniMax-M2.5 for code; Qwen3.8-27B for docs,
 triage and review; Qwen3.5-9B for condensing), our agents in a wall on the founder's machine, a
