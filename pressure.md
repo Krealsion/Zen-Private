@@ -118,6 +118,14 @@ owns that direction; no further extraction is selected by this pressure item alo
 Preserve undo, normalization, selection and fallback behavior with the component's owner.
 `marks_persist.hpp` pulling `persist.hpp` into the weave image remains a separate follow-on hook.
 
+The documentation overhaul's research names more host-owned pieces that a feature's folder will
+route to rather than hold (2026-10-10,
+[folder-map.md](../reportbacks/docs-overhaul-research/folder-map.md#what-the-code-argues)): the
+Builder's mounting and grants, realization, the recipe file's reading, staging, the editor switch,
+the opening office and path admission. WL-DESK-01 keeps room, focus, realization and roots in the
+host; the others are candidates to become weaves, the founder's "write Loom, not host code"
+(Zengine `AGENTS.md`). Not scheduled; proposed after the release (Vision, 2026-10-10).
+
 ### P-WORK-23 — Pane notices must agree with actions and hit-testing
 
 **State:** CLOSED / ACCEPTED (2026-09-14), through PR #27

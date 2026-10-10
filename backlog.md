@@ -739,9 +739,13 @@ onboarding remain broader work; this bounded repair does not close the item.
 
 ### BL-ADOPT-05 — The documentation overhaul: a man page on each weave, a tutorial for each step
 
-**State:** ORDERED — ahead of BL-WORK-38's stages 3a and 3b, with its stage 4a's documents and
-the `?` (4b, with BL-WORK-09), researched first and proven on the Builder
-([prompt](../prompts/docs-overhaul-research.md)) (the founder, 2026-10-09)  
+**State:** ORDERED — researched ([its report](../reportbacks/docs-overhaul-research-RB.md)); its ten
+decisions taken as recommended but F2: no forwarding headers, since the move precedes the first
+release (the founder, 2026-10-10). Stage A, the move, opens 2026-10-12
+([prompt](../prompts/docs-overhaul-a.md)); then B1, the Builder's manuals; B2, the `?`, with B3,
+its tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D after the release.
+BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
+review's place ([prompt](../prompts/overhaul-findings.md))  
 **Owed:** Documentation a layman reads well, almost a full tutorial for each step (the founder).
 - Docs are attached to the specific weave and organized by command, and the `man` page equivalent
   is the primary reference, whether the weave links its Markdown file or a new macro carries it.
@@ -769,6 +773,10 @@ the `?` (4b, with BL-WORK-09), researched first and proven on the Builder
       neovim
         neovim-pane
   ```
+- The tutorials make one flow, read beside each other. A new pane is not a stranger's first
+  experience: the first tutorials start from a release extracted into an empty folder, with nothing
+  else installed, and the first is a Terminal hello world (the founder, 2026-10-10, finding the
+  Builder's tutorial pretty good). The release they start from is BL-ADOPT-06.
 - The agent guide's doc gaps are its examples of errors to make impossible
   ([the report](../reportbacks/agent-guide-RB.md#doc-gaps)): a wrong target name, stale counts,
   missing routing rows, and three routing tables that already disagree with the registers.
@@ -778,6 +786,20 @@ rewrite places; BL-WORK-38's stages 4a and 4b; BL-WORK-09; and the fast-builds r
 feature's folder is the natural unit of a pane built alone.
 
 **Source:** the founder (2026-10-09), reviewing the agent guide.
+
+### BL-ADOPT-06 — A release ready to run, for Windows and Linux
+
+**State:** FILED — the founder (2026-10-10), not yet placed. Proposed (Vision): researched beside
+the documentation overhaul's stage B, since it touches packaging and CI rather than the features,
+and landed before the freeze (2026-10-23)  
+**Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
+starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A
+tutorial's replay on the extracted package can witness the package itself.
+
+It meets [Zengine#119](https://github.com/Krealsion/Zengine/issues/119) (the release's identity and
+compatibility promise) and BL-ADOPT-01 (the contributor front door).
+
+**Source:** the founder (2026-10-10), on the overhaul research's first gap.
 
 ## 5. Architectural debt that waits for pressure
 
