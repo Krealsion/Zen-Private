@@ -167,6 +167,6 @@
 - **G: (exFAT on USB) gives Windows programs 2-second file times and WSL whole seconds**; C: gives
   both sub-microsecond ones. Twice a G: build rebuilt what the build before had just made; none with
   its tree on C: did. G:'s 256 KB clusters hold Zengine's primary `.git` in 1.3 GB against 63 MB.
-- **`C:/Zen` is a copy of Zen**, a snapshot of 2026-10-09 22:05; its primary trees were configured on
-  G: and cannot be used where they are. The indexer excludes both Zens and includes
+- **`C:/Zen` is a copy of Zen**, a snapshot of 2026-10-09 22:05; its primary trees were configured
+  on G: and cannot be used where they are. The indexer excludes both Zens and includes
   `C:\Users\Joshua\zen-build\`.
