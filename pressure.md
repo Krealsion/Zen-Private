@@ -63,7 +63,7 @@ pressure they measured, closed by #100 (2026-10-08). Settings (BL-WORK-36) is re
 first stage is written on Loom #31 (2026-10-08), a struct shape's optional fields. P-WORK-55 to
 P-WORK-57, P-LOOM-10 and P-BUILD-12 are pressure #100, the settings research and #31 measured.
 P-WORK-58 and P-WORK-59 are pressure the documentation overhaul's findings measured (Zengine
-#169-#174, 2026-10-10).
+#169-#174, 2026-10-10); P-WORK-60 is pressure #177 and #178 measured.
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -688,8 +688,11 @@ The tool publishes one `BuildAsked` for every `BuildRequested`, with no correlat
 `zen/observe/relay.hpp`); a weave cannot: its `Mail` carries no dispatch ancestry, and Loom says a
 correlation or the application's own id names an operation (`BusEvent::dispatch_parent`). So when
 the tool refuses the pane's ask, busy or for a stale name, the pane reads the running build's
-ending as its own ask's answer. #164's reading (b) leaves nothing armed in that case and adds no
-path to it. Closing it needs the tool to answer each asker: a change to the tool every asker hears.
+ending as its own ask's answer. #164's reading (b) (#177) leaves nothing armed after a plain
+build, but when the running build is another asker's build-and-load the pane now announces that
+load too: one notice wider ([its report](../reportbacks/realization-notice-RB.md#pressure-exposed)).
+Closing it needs the tool to answer each asker (a change to the tool every asker hears), or a
+`Mail` that carries dispatch ancestry.
 
 **Trigger:** a phase that changes the Builder tool's conversation, or a second in-process asker.
 
@@ -707,6 +710,24 @@ seat.
 
 **Trigger:** that policy seat, or a phase that touches the runner's grants or the tool's
 operations.
+
+### P-WORK-60 — An unknown recipe's refusal is said in the build's outcome field
+
+**State:** WATCH  
+**Evidence:** [the realization notice's
+report](../reportbacks/realization-notice-RB.md#pressure-exposed);
+[F3's correction 4](../reportbacks/overhaul-findings/verify/F3-realization-notice-latch.md)
+
+With no build running, the tool writes `unknown recipe` into `BuildStatus.outcome` over the ended
+build's picture, its realization fields left as they were (`builder/weave.hpp`). #173 kept the
+refusal out of a running build's picture; with none running it still overwrites. So the follower's
+`look`, whose baseline is already such a picture of op N, cannot read op N's own build outcome and
+waits to UNRESOLVED (#178 reads the realization once the build's ending was seen). The refusal is
+already said in `BuildAsked` and `detail`; keeping it out of `outcome` always is a vocabulary
+change.
+
+**Trigger:** a phase that changes `BuildStatus`, or the Builder's manual (overhaul stage B1)
+describing `outcome`.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 

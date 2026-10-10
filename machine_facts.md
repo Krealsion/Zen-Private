@@ -155,3 +155,6 @@
   written as `\\b` reaches Python or printf as a backspace (measured 2026-09-03: a
   single-quoted `'x\\b'` arrived in Python as one backslash). Text that must carry a
   backslash goes through a file written by a tool, never through the command line.
+- **DisplayFusion injects `AppHook64_....dll` into every windowed process** (the release
+  research, 2026-10-10): a loaded-module judgment of a graphical program on this machine names it,
+  and it is not the package's.

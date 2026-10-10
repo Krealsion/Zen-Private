@@ -747,12 +747,14 @@ its tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D 
 BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
 review's place ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken
 and merged as #169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the
-founder chose reading (b), with the build send keeping its ticket (2026-10-10), taken with the
-follower's lost realization ([prompt](../prompts/realization-notice.md)) to merge before the
-move and B1, whose manual describes that notice. Stage C's inputs from them: the told history
-in `agents/` that [the F6 record](../reportbacks/overhaul-findings/verify/F6-realization-history.md)
-lists, and `docs/workshop/limitations.md`'s unload sentences and package count beside
-`docs/getting-started.md`'s target list  
+founder chose reading (b), with the build send keeping its ticket (2026-10-10); taken with the
+follower's lost realization (#176) as #177 and #178, reviewed ready to merge before the move
+and B1 ([report](../reportbacks/realization-notice-RB.md)). Stage C's inputs from them: the told
+history in `agents/` that
+[the F6 record](../reportbacks/overhaul-findings/verify/F6-realization-history.md) lists;
+`docs/workshop/limitations.md`'s unload sentences and package count beside
+`docs/getting-started.md`'s target list; and the `builder` tool's module note and its
+`loom-tool.json` description, which list `unknown recipe` among a taken ask's endings  
 **Owed:** Documentation a layman reads well, almost a full tutorial for each step (the founder).
 - Docs are attached to the specific weave and organized by command, and the `man` page equivalent
   is the primary reference, whether the weave links its Markdown file or a new macro carries it.
@@ -796,10 +798,12 @@ feature's folder is the natural unit of a pane built alone.
 
 ### BL-ADOPT-06 — A release ready to run, for Windows and Linux
 
-**State:** ORDERED — researched first, to land before the freeze (2026-10-23), since it touches
-packaging and CI rather than the features (the founder, 2026-10-10); its prompt re-baselined on
-today's tree so it runs ahead of the overhaul's folder move and names what the move changes
-([prompt](../prompts/release-research.md), 2026-10-10)  
+**State:** ORDERED — researched ([its report](../reportbacks/release-research-RB.md), 2026-10-10):
+one package per platform made by the repositories' own install and judged clean, a C seam so a
+pane author's compiler is theirs, and stages R0 to R5 with Loom's L1 and the Builder's R1b,
+10-11 to 10-22, the build slot their constraint. Fifteen decisions, R0's by 10-11, await the
+founder; Vision's view: as recommended, but the pane's runtime rule in Loom's weave build
+contract, and 0.1 a preview with Task 1's cold walk on a dry run  
 **Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
 starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A
 tutorial's replay on the extracted package can witness the package itself.
