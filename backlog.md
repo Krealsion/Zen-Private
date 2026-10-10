@@ -778,26 +778,26 @@ onboarding remain broader work; this bounded repair does not close the item.
 decisions taken as recommended but F2: no forwarding headers, since the move precedes the first
 release (the founder, 2026-10-10). Stage A, the move, merged as Zengine #179 with Loom #47
 (2026-10-10). B1, the Builder's manuals ([prompt](../prompts/docs-overhaul-b1.md),
-[report](../reportbacks/docs-overhaul-b1-RB.md)), is Zengine #181, reviewed ready to merge once its
-hosted run is green (Vision, 2026-10-10): a weave carries its manual compiled in (`MANUAL`,
+[report](../reportbacks/docs-overhaul-b1-RB.md)), is Zengine #181, reviewed (Vision, 2026-10-10),
+its first hosted run green on all eight jobs: a weave carries its manual compiled in (`MANUAL`,
 `cmake/ZengineManual.cmake`), a pane declares it beside its offer and Workshop holds it while the
 sender holds the office, dropping it at a re-offer, and the Builder office answers
 `ShapeDocumentRequested` from its page; the `manual` check, the action census `tests/actions.txt`
-and the key markers; the Builder's two manuals and its first tutorial; its ten choices accepted.
-Open: a pane's manual answered on ask instead of held by Workshop (the founder's question,
-2026-10-10; Vision recommends it: the research's decision 12 held it, on the settings declaration's
-pattern, so the `?` could redraw from words in hand, which an answer kept while the `?` is open
-gives as well; the held copy, its drop at a re-offer and its law go). Into B2: the manual's rule its
-own law, since WL-DESK-06 is a law of verdicts and two of its MEANS lines were merged to make room
-(the prompt carried the research's WL-DESK-06, Vision's miss); a setting each for how the band and
-the Hotkeys view spell a key, chosen apart, the defaults as now (the band short, `B`, `^p`, `enter`;
-the Hotkeys view full, `shift+b`, `ctrl+p`, `return`), reached by a gear beside the `?` (the
-founder, 2026-10-10), the `?` spelling as the Hotkeys view does (Vision); the `?` finding a
-section's keys from data the splitter writes, never a C++ reading of the page. Into B3: the
-tutorial's pictures taken from a root under `D:/Zen`, the Dev Drive, as every tutorial's and demo's
-pictures are from now on (the founder, 2026-10-10; they show `G:/programming/cpp/Zen/scratch/`
-today), and the Pane Manager put away before the last. Into C: the key markers checked on every page
-under a `docs/` (`workshop/docs/load-plans.md` names the Builder's `o`, `f`, `b` and `c` bare,
+and the key markers; the Builder's two manuals and its first tutorial; its ten choices accepted,
+then 2 and 3 reversed: the founder chose a pane's manual answered on ask instead of held by
+Workshop, in #181 before it merges (2026-10-10; [prompt](../prompts/docs-overhaul-b1-ask.md)): the
+research's decision 12 held it, on the settings declaration's pattern, so the `?` could redraw from
+words in hand, which an answer kept while the `?` is open gives as well; the held copy, its drop at
+a re-offer and its lines in WL-DESK-06 go (a law of verdicts, the placement the B1 prompt carried
+from the research: Vision's miss). Into B2: a setting each for how the band and the Hotkeys view
+spell a key, chosen apart, the defaults as now (the band short, `B`, `^p`, `enter`; the Hotkeys view
+full, `shift+b`, `ctrl+p`, `return`), reached by a gear beside the `?` (the founder, 2026-10-10),
+the `?` spelling as the Hotkeys view does (Vision); the `?` finding a section's keys from data the
+splitter writes, never a C++ reading of the page. Into B3: the tutorial's pictures taken from a root
+under `D:/Zen`, the Dev Drive, as every tutorial's and demo's pictures are from now on (the founder,
+2026-10-10; they show `G:/programming/cpp/Zen/scratch/` today), and the Pane Manager put away before
+the last. Into C: the key markers checked on every page under a `docs/`
+(`workshop/docs/load-plans.md` names the Builder's `o`, `f`, `b` and `c` bare,
 `builder/docs/recipes.md` Files' `u` and `a`); one walker of a pane's modes for the census; the
 report's manual scaffold; nothing in a running Workshop is granted `ShapeDocumentRequested` yet, so
 its first asker brings the grant; a page near `kMaxManualBytes` makes a declaration past the history
