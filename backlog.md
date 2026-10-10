@@ -844,6 +844,23 @@ and each pane or setup it makes is judged by what it costs an agent and what it 
 
 **Source:** the founder (2026-10-09).
 
+## 5b. The local lane
+
+### BL-LANE-01 — Open-weight models on a friend's cards, and our agents on them
+
+**State:** ORDERED — researched ([its report](../reportbacks/local-lane-research-RB.md), its
+decisions in `local-lane/decisions.md`); L3 becomes the Pi coding agent, the harness the founder's
+friend runs on these cards (the founder, 2026-10-10), its switch written
+([prompt](../prompts/local-lane-2.md)); the other nine, and L7's room, await his word. The kit
+(`local-lane/kit/`) goes to the friend, and the trial runs before 2026-10-26  
+**Owed:** bounded work keeps moving beside the architecture work, now and past the founder's window
+(2026-10-26): three stations on the friend's AMD host (MiniMax-M2.5 for code; Qwen3.8-27B for docs,
+triage and review; Qwen3.5-9B for condensing), our agents in a wall on the founder's machine, a
+courier and a gate between them and GitHub, and a trial of three `local-ok` issues and one guide
+test.
+
+**Source:** the founder (2026-10-09 and 2026-10-10).
+
 ## 6. Explicitly not backlog
 
 The following remain trigger-governed horizons or pressure, not owed cleanup:
