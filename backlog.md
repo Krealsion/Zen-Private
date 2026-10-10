@@ -848,11 +848,13 @@ and each pane or setup it makes is judged by what it costs an agent and what it 
 
 ### BL-LANE-01 — Open-weight models on a friend's cards, and our agents on them
 
-**State:** ORDERED — researched ([its report](../reportbacks/local-lane-research-RB.md), its
-decisions in `local-lane/decisions.md`); L3 becomes the Pi coding agent, the harness the founder's
-friend runs on these cards (the founder, 2026-10-10), its switch written
-([prompt](../prompts/local-lane-2.md)); the other nine, and L7's room, await his word. The kit
-(`local-lane/kit/`) goes to the friend, and the trial runs before 2026-10-26  
+**State:** SHELVED — the founder is weighing where the agents run, on our side or on the friend's
+machine beside the models (2026-10-10). Researched
+([its report](../reportbacks/local-lane-research-RB.md), its decisions in
+`local-lane/decisions.md`); L3 would become the Pi coding agent, the harness the
+friend runs, its switch written and parked ([prompt](../prompts/local-lane-2.md)); the other nine,
+and L7's room, await his word. The fast-builds research counts a kit-wide build lock beside stage
+7d's slot a mistake (its decision 6), which L7's room would need to answer  
 **Owed:** bounded work keeps moving beside the architecture work, now and past the founder's window
 (2026-10-26): three stations on the friend's AMD host (MiniMax-M2.5 for code; Qwen3.8-27B for docs,
 triage and review; Qwen3.5-9B for condensing), our agents in a wall on the founder's machine, a
