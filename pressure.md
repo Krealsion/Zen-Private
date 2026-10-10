@@ -1321,6 +1321,10 @@ Zengine's MinGW-w64 `workshop_panes` aborts against #41's branch, and a Workshop
 pane about 1,000 times. Only a runtime the host holds for the whole process is free of it. MSVC's
 static CRT has no such cost (3,000 loads that throw). The release research's decision 2 (a static
 Workshop with static panes) meets the same ceiling.
+The leak is GCC's emulated TLS (emutls; MSYS2 g++ 15.2.0 measured). GCC 16 gained native TLS on
+Windows and MSYS2 enabled it on 2026-05-11 (msys2.org/news), where the Windows loader gives a
+module's TLS slot back at unload as it does for MSVC's: whether a GCC 16 weave still leaks is
+unmeasured (Vision, 2026-10-10).
 
 **Trigger:** the founder's decision on #41; the release's R1.
 
