@@ -62,6 +62,8 @@ P-WORK-53 is pressure it measured; its fourth as #98 (2026-10-07), with #99, and
 pressure they measured, closed by #100 (2026-10-08). Settings (BL-WORK-36) is researched, and its
 first stage is written on Loom #31 (2026-10-08), a struct shape's optional fields. P-WORK-55 to
 P-WORK-57, P-LOOM-10 and P-BUILD-12 are pressure #100, the settings research and #31 measured.
+P-WORK-58 and P-WORK-59 are pressure the documentation overhaul's findings measured (Zengine
+#169-#174, 2026-10-10).
 
 P-WORK-02 and P-WORK-18 have concrete consumers in the wider inventory/inspection arc. The first
 slot uses ordinary grants; it does not select general UI acquisition or whole-host authority work.
@@ -672,6 +674,39 @@ and [#100's](../reportbacks/refused-picture-said-RB.md#pressure-exposed)
   canvas can reach `external_button`.
 
 **Trigger:** a phase that touches the mark, canvas admission or the canvas register.
+
+### P-WORK-58 — The Builder pane cannot tell which `BuildAsked` is its own
+
+**State:** WATCH  
+**Evidence:** [the overhaul findings](../reportbacks/overhaul-findings-RB.md#pressure-exposed) and
+the F3 record's correction 6
+([F3](../reportbacks/overhaul-findings/verify/F3-realization-notice-latch.md)); Loom's `Mail` and
+`BusEvent`, read by Vision (2026-10-10)
+
+The tool publishes one `BuildAsked` for every `BuildRequested`, with no correlation
+(`builder/weave.hpp`, `heard`). A relay subscriber learns which one its own press caused (`cause`,
+`zen/observe/relay.hpp`); a weave cannot: its `Mail` carries no dispatch ancestry, and Loom says a
+correlation or the application's own id names an operation (`BusEvent::dispatch_parent`). So when
+the tool refuses the pane's ask, busy or for a stale name, the pane reads the running build's
+ending as its own ask's answer. #164's reading (b) leaves nothing armed in that case and adds no
+path to it. Closing it needs the tool to answer each asker: a change to the tool every asker hears.
+
+**Trigger:** a phase that changes the Builder tool's conversation, or a second in-process asker.
+
+### P-WORK-59 — The Builder tool adopts an operation it did not order
+
+**State:** WATCH — hooked to the admission policy's per-row authority seat  
+**Evidence:** [the overhaul findings](../reportbacks/overhaul-findings-RB.md#pressure-exposed),
+traced by its F4 tracer, not run
+
+The tool's `BuildStarted` handler checks only the recipe's name (`builder/weave.hpp`), so a
+`RunBuild` sent straight to the runner for the tool's current recipe joins the tool's picture as
+if it had been asked for. Workshop admits a plan's artifacts with `allow_any()`, so a plan-loaded
+weave can send one. The admission policy says per-row authority awaits a weaver-visible policy
+seat.
+
+**Trigger:** that policy seat, or a phase that touches the runner's grants or the tool's
+operations.
 
 ### P-WORK-22 — Optional-load recovery has explicit limits
 

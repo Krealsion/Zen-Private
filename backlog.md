@@ -746,10 +746,13 @@ release (the founder, 2026-10-10). Stage A, the move, opens 2026-10-12
 its tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D after the release.
 BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
 review's place ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken
-as #169-#174, reviewed and ready to merge (2026-10-10). #164, the Builder pane's build-and-load
-notice, waits on the founder (Vision recommends reading (b), with the pane hearing the
-`BuildAsked` its ask caused and the build send keeping its ticket); it lands after #174 and
-before B1, whose manual describes that notice  
+and merged as #169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the
+founder chose reading (b), with the build send keeping its ticket (2026-10-10), taken with the
+follower's lost realization ([prompt](../prompts/realization-notice.md)) to merge before the
+move and B1, whose manual describes that notice. Stage C's inputs from them: the told history
+in `agents/` that [the F6 record](../reportbacks/overhaul-findings/verify/F6-realization-history.md)
+lists, and `docs/workshop/limitations.md`'s unload sentences and package count beside
+`docs/getting-started.md`'s target list  
 **Owed:** Documentation a layman reads well, almost a full tutorial for each step (the founder).
 - Docs are attached to the specific weave and organized by command, and the `man` page equivalent
   is the primary reference, whether the weave links its Markdown file or a new macro carries it.
@@ -856,7 +859,8 @@ and each pane or setup it makes is judged by what it costs an agent and what it 
 machine beside the models (2026-10-10). Researched
 ([its report](../reportbacks/local-lane-research-RB.md), its decisions in
 `local-lane/decisions.md`); L3 would become the Pi coding agent, the harness the
-friend runs, its switch written and parked ([prompt](../prompts/local-lane-2.md)); the other nine,
+friend runs, its switch written ([prompt](../prompts/local-lane-2.md)) and run (2026-10-10: its
+report and changes uncommitted, the kit's among them, unreviewed while shelved); the other nine,
 and L7's room, await his word. The fast-builds research counts a kit-wide build lock beside stage
 7d's slot a mistake (its decision 6), which L7's room would need to answer  
 **Owed:** bounded work keeps moving beside the architecture work, now and past the founder's window
