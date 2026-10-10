@@ -789,9 +789,9 @@ feature's folder is the natural unit of a pane built alone.
 
 ### BL-ADOPT-06 — A release ready to run, for Windows and Linux
 
-**State:** FILED — the founder (2026-10-10), not yet placed. Proposed (Vision): researched beside
-the documentation overhaul's stage B, since it touches packaging and CI rather than the features,
-and landed before the freeze (2026-10-23)  
+**State:** ORDERED — researched first, beside the documentation overhaul's stage B, since it
+touches packaging and CI rather than the features, to land before the freeze (2026-10-23)
+([prompt](../prompts/release-research.md)) (the founder, 2026-10-10)  
 **Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
 starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A
 tutorial's replay on the extracted package can witness the package itself.
