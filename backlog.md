@@ -801,9 +801,10 @@ feature's folder is the natural unit of a pane built alone.
 **State:** ORDERED — researched ([its report](../reportbacks/release-research-RB.md), 2026-10-10):
 one package per platform made by the repositories' own install and judged clean, a C seam so a
 pane author's compiler is theirs, and stages R0 to R5 with Loom's L1 and the Builder's R1b,
-10-11 to 10-22, the build slot their constraint. Fifteen decisions, R0's by 10-11, await the
-founder; Vision's view: as recommended, but the pane's runtime rule in Loom's weave build
-contract, and 0.1 a preview with Task 1's cold walk on a dry run  
+10-11 to 10-22, the build slot their constraint. The founder agreed with its direction and put
+it beside the architecture work, taken in the issue lane as the machine allows (2026-10-10),
+its fifteen decisions as Vision put them: as recommended, but the pane's runtime rule in Loom's
+weave build contract, and 0.1 a preview with Task 1's cold walk on a dry run  
 **Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
 starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A
 tutorial's replay on the extracted package can witness the package itself.
