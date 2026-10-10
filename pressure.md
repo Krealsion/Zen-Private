@@ -1329,8 +1329,8 @@ Workshop with static panes) meets the same ceiling.
 **State:** WATCH — hooked to #41's MSVC half  
 **Evidence:** [the release's L1 report](../reportbacks/release-l1-RB.md#pressure-exposed)
 
-`zen_host_publish`, `answer_deferred`, `answer`, `office_publish` and the five `sense_*` callbacks in
-`src/kernel/kernel.cpp` catch nothing, and the send callbacks catch only `std::overflow_error`. The
+`zen_host_publish`, `answer_deferred`, `answer`, `office_publish` and the five `sense_*` callbacks
+in `src/kernel/kernel.cpp` catch nothing, and the send callbacks catch only `std::overflow_error`. The
 seam promises that no exception crosses it; once each image carries its own runtime (MSVC's static
 CRT) that promise is a requirement, since an exception thrown under one runtime and caught under
 another is undefined.
