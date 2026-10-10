@@ -745,7 +745,11 @@ release (the founder, 2026-10-10). Stage A, the move, opens 2026-10-12
 ([prompt](../prompts/docs-overhaul-a.md)); then B1, the Builder's manuals; B2, the `?`, with B3,
 its tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D after the release.
 BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
-review's place ([prompt](../prompts/overhaul-findings.md))  
+review's place ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken
+as #169-#174, reviewed and ready to merge (2026-10-10). #164, the Builder pane's build-and-load
+notice, waits on the founder (Vision recommends reading (b), with the pane hearing the
+`BuildAsked` its ask caused and the build send keeping its ticket); it lands after #174 and
+before B1, whose manual describes that notice  
 **Owed:** Documentation a layman reads well, almost a full tutorial for each step (the founder).
 - Docs are attached to the specific weave and organized by command, and the `man` page equivalent
   is the primary reference, whether the weave links its Markdown file or a new macro carries it.
