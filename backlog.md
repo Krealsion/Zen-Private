@@ -265,6 +265,15 @@ The founder's direction for an agent's host (2026-10-09), beyond the research:
 - a guide power: an agent highlights a named part to walk the weaver through a process, changing
   nothing (BL-WORK-09's tutorial outline).
 
+The founder's direction for agents' permissions (2026-10-10), researched before stage 3a
+([prompt](../prompts/agent-powers-research.md)): permissions as gates, by how much each can
+bypass; a Tutor's whole use case is reading the desk and highlighting its elements, the baseline;
+pressing some buttons, scoped by pane, locked setup or button; an agent building code for one
+issue that touches only certain files; anything more asked for through the weaver, set up
+beforehand, or shared by a more trusted orchestrator from its own limited, higher power. With
+Vision's amendment, accepted: no single ladder, a role (Tutor, Builder, Steward) is a named
+bundle of separate powers, each enforced on its own.
+
 The walls, outside in (Vision, 2026-10-09): a separate OS user or a VM for the agent's host, the
 only wall that holds against an agent that does not keep to its doors (decision 17); its own GitHub
 identity without merge rights, and a protected default branch; its experiments as weaves under
