@@ -158,3 +158,15 @@
 - **DisplayFusion injects `AppHook64_....dll` into every windowed process** (the release
   research, 2026-10-10): a loaded-module judgment of a graphical program on this machine names it,
   and it is not the package's.
+- **The build trees' disk decides Windows builds** (the C: drive test, 2026-10-10, one run each,
+  `reportbacks/c-drive-builds-RB.md`): with the tree on C: (internal NVMe, NTFS) a warm build took
+  23.9 s against 328.3 s on G:, a cold one 264.8 s against 532.0 s, a Loom source's rebuild 24 s
+  against 272 s; one pane's change costs the same on both. Sources on G: with the tree on C: matched
+  everything on C:. In WSL `/mnt/c` reads as `/mnt/g`; an ext4 source copy took the official lane
+  from 247.7 s to 208.8 s and its text checks from 110 s to 19 s.
+- **G: (exFAT on USB) gives Windows programs 2-second file times and WSL whole seconds**; C: gives
+  both sub-microsecond ones. Twice a G: build rebuilt what the build before had just made; none with
+  its tree on C: did. G:'s 256 KB clusters hold Zengine's primary `.git` in 1.3 GB against 63 MB.
+- **`C:/Zen` is a copy of Zen**, a snapshot of 2026-10-09 22:05; its primary trees were configured on
+  G: and cannot be used where they are. The indexer excludes both Zens and includes
+  `C:\Users\Joshua\zen-build\`.
