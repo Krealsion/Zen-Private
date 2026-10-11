@@ -1265,6 +1265,13 @@ Each was met once, and each cost time:
   too); a fair turn at the slot for a Windows build, whose early waits ran 5 to 17 minutes behind
   WSL helpers that take the lock as it frees; and a helper building and running one Zengine entry on
   an MSVC tree, for which the second round wrote three batch files.
+- From docs B3 (2026-10-11): `demo.sh start` ending what a failed start left running, or saying it
+  did not (two held `loom-host.exe` and the vocabulary DLL, failing a relink and an install); a
+  one-entry runner, one CTest entry in the WSL tree once its copy is level, its log and exit kept
+  (the phase wrote `one-entry.sh`); `mutate.sh` taking an absolute or Windows path to its mutation
+  file; and a pictures helper replaying a tutorial's walk under `C:/Zen-pictures` into its
+  `images/`. B3's report, like #197's and the MSVC stdio phase's, was written before its run ended
+  (at 22:28; the run ended green at 22:46), so `run-end.sh` is asked again (Vision).
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 
