@@ -56,15 +56,15 @@
   19.50.35720). It refuses `editor/neovim/lua.hpp`'s 20.6 KB `kModule` literal (C2026), which the
   hosted cl 19.51 accepts, so no local MSVC build of Zengine `main` completed until Visual Studio
   was updated (the founder updated it, 2026-10-11; the next local MSVC build says whether it now
-  compiles); the Windows lanes phase split the literal in its trees, uncommitted (2026-10-11). The kit
-  builds Zengine with MSVC (`build-win.sh msvc`, and `msvc-bare` with nothing added). Zengine's MSVC
-  lane needs `VsDevCmd.bat -arch=x64` loaded into the shell (its
+  compiles); the Windows lanes phase split the literal in its trees, uncommitted (2026-10-11). The
+  kit builds Zengine with MSVC (`build-win.sh msvc`, and `msvc-bare` with nothing added). Zengine's
+  MSVC lane needs `VsDevCmd.bat -arch=x64` loaded into the shell (its
   `INCLUDE`/`LIB`/`LIBPATH`/`PATH`); `Enter-VsDevShell` is not a substitute (it needs `vswhere` on
   `PATH` and fails while appearing to continue). Zengine's MSVC tree is `build-msvc-p1` and its
   MinGW tree is `build-win-msys` (below; `build-win-jx` is the CLion-toolchain predecessor,
   unconfigurable since its prefix vanished); the working MSVC Loom prefix is Loom
-  `build-msvc-p1/_install` — Debug AND `LOOM_ENABLE_WINDOWS_KERNEL=ON` (a Release install links
-  as `LNK2038` mismatches; a kernel-less install makes configure silently skip every weave).
+  `build-msvc-p1/_install` — Debug AND `LOOM_ENABLE_WINDOWS_KERNEL=ON` (a Release install links as
+  `LNK2038` mismatches; a kernel-less install makes configure silently skip every weave).
 - **Git remote operations run from the Windows Bash tool, never WSL**; the Actions API is readable
   unauthenticated for job conclusions, not for logs. Two GitHub logins live here (2026-10-10):
   - **the founder's, `Krealsion`**: `gh`'s default login (it opens the pull requests), and Git
