@@ -276,11 +276,11 @@ Vision's amendment, accepted: no single ladder, a role (Tutor, Builder, Steward)
 bundle of separate powers, each enforced on its own.
 
 Researched ([its report](../reportbacks/agent-powers-research-RB.md), 2026-10-10; reviewed by Vision
-the same day, 26 decisions asked, the founder's answer pending): a role is a bundle of separate
-powers -- Tutor, Builder, Player, Orchestrator (a row with `share`) and Steward -- and every scope
-the weaver may widen live is a door, `<office>/<pane>[:<id>]` or `arrange:<id>`, held as Loom
-authority, matched by segment and judged by its owner at the act; the three routes on Loom's Weaver,
-its prompts numbered and decided by the weaver's local hand alone, the guests file the one place
+the same day, 26 decisions asked, answered in part below): a role is a bundle of separate powers --
+Tutor, Builder, Player, Orchestrator (a row with `share`) and Steward -- and every scope the weaver
+may widen live is a door, `<office>/<pane>[:<id>]` or `arrange:<id>`, held as Loom authority,
+matched by segment and judged by its owner at the act; the three routes on Loom's Weaver, its
+prompts numbered and decided by the weaver's local hand alone, the guests file the one place
 anything persists, an orchestrator's share inside a ceiling the weaver wrote; every grant lasts its
 session, never a time or once; an approval holds only against a contained agent, so a row that asks
 or shares says `"contained": true`; an agent's code written in a view built from Loom's isolation
@@ -292,6 +292,22 @@ ask, the guest's manual read at `tutor` asks the pane through Workshop under its
 (Vision), and the document declarations leave its list of host keepings. Its view probe's canary
 read the founder's SSH private key through `/mnt/c` into a log deleted within a minute (none of it
 found since); rotating it is the founder's call.
+
+The founder's answers (2026-10-10): the agent the desk supports is one completely contained command
+structure, with access to great power when granted, and containing today's harness (Claude Code) is
+a later problem; the Weaver's decisions name their prompt now, ahead of `door`
+([prompt](../prompts/weaver-decisions.md)), no public issue; the highlight researched to match a
+press, a message resolved to the control that sends it on a view, and a message no control on the
+desk sends moving the weaver to a pane or setup that can, or improving the tool where the control
+belongs ([prompt](../prompts/tutor-highlight-research.md)); an issue names its bounded areas in a
+`## Folders` block, not files; and agents work under a GitHub machine account of their own,
+`UnknownWorkers`, that comments, makes branches, pull requests and issues, and never merges. On a
+personal account's repository a collaborator has one level, write, which merges and labels (Vision,
+from GitHub's own pages), so Vision recommends no collaborator access: its branches in its fork, its
+pull requests from there, `ready` the founder's alone to set, and a classic token with `public_repo`
+for its agents, since a fine-grained token cannot contribute to a repository its user is no member
+of. Vision's issues are written into `Zen/issues/` and filed by a Ceecee under that account; a
+security defect is never one of them. The other decisions wait on the founder.
 
 The walls, outside in (Vision, 2026-10-09): a separate OS user or a VM for the agent's host, the
 only wall that holds against an agent that does not keep to its doors (decision 17); its own GitHub
