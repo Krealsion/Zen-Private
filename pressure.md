@@ -1316,7 +1316,8 @@ window costs more than one run would: then a Zengine `main` run started when Loo
 
 ### P-BUILD-15 — A burst of merges leaves code unbuilt on `main`
 
-**State:** OPEN — found by Vision (2026-10-11)  
+**State:** OPEN — found by Vision (2026-10-11); its issue prompted
+([prompt](../prompts/main-push-builds-issue.md))  
 **Evidence:** Zengine's `main` runs from 15:33 on 2026-10-11 (Vision, from the API)
 
 `main`'s runs share one concurrency group, which keeps one run going and one waiting, and a push

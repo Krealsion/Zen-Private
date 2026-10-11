@@ -341,7 +341,8 @@ press witness, which found a cause the research missed (`authoring.commit` sends
 merge. Zengine's CI builds against Loom's `main` as it stands at run time, and neither run built the
 two together, so Loom #52 merged first and #186's run ran again against it, 8 of 8 green, so #186
 was ready to merge (Vision, 2026-10-11), and the founder merged it (2026-10-11); stage `tutor` is
-next, after the address law (#183). UnknownWorkers' `gh` login lives in
+next ([prompt](../prompts/agent-desk-tutor.md)), after the address law, #183, taken from the issue
+lane first ([prompt](../prompts/address-law.md)). UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
 it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
@@ -457,7 +458,8 @@ issue once its first form is chosen.
 **State:** ORDERED — researched ([prompt](../prompts/fast-forward-research.md),
 [report](../reportbacks/fast-forward-research-RB.md), 2026-10-10; reviewed by Vision 2026-10-11; its
 seven decisions taken as recommended, S1 and S3 queued after the Windows lanes phase (BL-WORK-44),
-S1 trying Windows' high-resolution waitable timer before a raised resolution (Vision) (the founder,
+now prompted together, each its own pull request ([prompt](../prompts/fast-forward-s1-s3.md)), S1
+trying Windows' high-resolution waitable timer before a raised resolution (Vision) (the founder,
 2026-10-11)): a walk's time is the Windows tick, not the bus or the bridge -- the Timer reads
 `GetTickCount64` and `loom-host --serve` naps through MinGW's `sleep_for`, each a 15.6 ms tick -- so
 three probe levers took the terminal walks from 6.5 to 32-39 steps a second (50-53 in Release),
