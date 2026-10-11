@@ -778,7 +778,12 @@ Docs B3 met it on Windows (2026-10-11): a setup started by `demo.py` loses it in
 on MinGW-w64, the demo's control row loading last. The founder took #185's repair now, B3 stacking
 on its branch ([prompt](../prompts/guest-door-readiness.md),
 [B3's](../prompts/docs-overhaul-b3-after-185.md)); a plan that waits on the weaver, or stops
-refused, keeps no guest out for good (Vision).
+refused, keeps no guest out for good (Vision). Its session stopped at the Folders (report:
+`guest-door-readiness-RB.md`): a guest asks Workshop where realization is, answered from the
+executor and held with `wait` until the plan rests, and a session host declares the ask only in
+`external-host/vocabulary_weave.hpp`; the founder widened the Folders by it and took the design,
+every row asking and only rows that read the desk or the inventory told the rows' names (2026-10-11;
+[continuation](../prompts/guest-door-readiness-scope.md)).
 
 **Trigger:** the founder's decision 1. The issue's first question: what can a guest read to know
 the plan is realized? If something, the journey waits for it; if nothing, Workshop's readiness is
