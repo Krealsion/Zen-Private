@@ -333,9 +333,9 @@ Both repositories already teach the issue's form (`docs/contributing/taking-an-i
 far its check went, no private plan id left; the form says so in Zengine #182 and Loom #50,
 documentation-only, reviewed (Vision) and merged by the founder (2026-10-11); the address law is
 Zengine #183, filed under `UnknownWorkers`, `ready` and `defect` set in the founder's name, taken
-once B2's pull request merges, since both change the Builder's action census; Loom #41, still
-`ready`, predates the GCC 16 experiment and holds no Folders block, so its label waits on the
-founder's decision. The check at the pull request reads an issue's Folders block as it stood when
+once B2's pull request merges, since both change the Builder's action census; Loom #41
+predates the GCC 16 experiment and holds no Folders block, so the founder took its `ready` off
+until his decision (2026-10-11). The check at the pull request reads an issue's Folders block as it stood when
 `ready` was set, since the account that filed an issue can edit it after (Vision).
 
 The Tutor's highlight, researched ([its report](../reportbacks/tutor-highlight-research-RB.md),
