@@ -957,7 +957,8 @@ Zengine #184, one commit, its hosted run green on all eight jobs, reviewed ready
 2026-10-11): a `?` and a gear (`=`) on a pane whose holder answers its manual, the desktop's Manual
 pane showing it with the keys in force (`Ctrl+f`, above every mode), and the two spellings in the
 preferences file (v2); its pictures' roots under `C:/Zen-pictures`, though the Builder's header
-still shows the build tree's `C:\Users\Joshua\zen-build\...`; B3 after it; its `?` and settings need
+still shows the build tree's `C:\Users\Joshua\zen-build\...`; B3 after it
+([prompt](../prompts/docs-overhaul-b3.md)); its `?` and settings need
 nothing new; its tutorial mode follows the highlight research
 ([report](../reportbacks/tutor-highlight-research-RB.md)): after the address law and B2, it reads a
 control part's section by its id with no ask, and asks the pane (`PanePartDocumentRequested`) only
