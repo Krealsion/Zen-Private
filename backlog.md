@@ -420,20 +420,22 @@ issue once its first form is chosen.
 ### BL-WORK-43 — Fast forward: a walk as fast as its messages go, and the bus measured
 
 **State:** ORDERED — researched ([prompt](../prompts/fast-forward-research.md),
-[report](../reportbacks/fast-forward-research-RB.md), 2026-10-10; reviewed by Vision 2026-10-11,
-seven decisions asked, the founder's answer pending): a walk's time is the Windows tick, not the bus
-or the bridge -- the Timer reads `GetTickCount64` and `loom-host --serve` naps through MinGW's
-`sleep_for`, each a 15.6 ms tick -- so three probe levers took the terminal walks from 6.5 to 32-39
-steps a second (50-53 in Release), every step judging as before; a window walk's pictures are 92-97
-% of it. The bus delivers 1.35 million messages a second in Release; a weave per body is 18x the
-math at 100,000 bodies, and a bridge frame carries about 16,000 bodies of four scalars
-(`kMaxDecodedCells`). Its stages: S1 the Timer's fine clock and nap, S2 the serving host waking on
-its sockets (Loom), S3 the hand on no clock (`DeskStamps` carrying the aimed picture), S4 pictures
-skipped at speed and said, S5 the door served on arrival if still beat-bound, S6 the virtual-clock
-Timer as a measurement's mode; its bus measurement to a `bench/` folder of Loom's; the game's bodies
-arrays in a simulation weave, batched at the bus's edges. Its incident: a cleanup's too-wide
-`taskkill` ended another session's test binary at 23:41 UTC, inside runtime-gcc16's lane, whose
-`workshop_load` death in that run is likely it (Vision)  
+[report](../reportbacks/fast-forward-research-RB.md), 2026-10-10; reviewed by Vision 2026-10-11; its
+seven decisions taken as recommended, S1 and S3 queued after the Windows lanes phase (BL-WORK-44),
+S1 trying Windows' high-resolution waitable timer before a raised resolution (Vision) (the founder,
+2026-10-11)): a walk's time is the Windows tick, not the bus or the bridge -- the Timer reads
+`GetTickCount64` and `loom-host --serve` naps through MinGW's `sleep_for`, each a 15.6 ms tick -- so
+three probe levers took the terminal walks from 6.5 to 32-39 steps a second (50-53 in Release),
+every step judging as before; a window walk's pictures are 92-97 % of it. The bus delivers 1.35
+million messages a second in Release; a weave per body is 18x the math at 100,000 bodies, and a
+bridge frame carries about 16,000 bodies of four scalars (`kMaxDecodedCells`). Its stages: S1 the
+Timer's fine clock and nap, S2 the serving host waking on its sockets (Loom), S3 the hand on no
+clock (`DeskStamps` carrying the aimed picture), S4 pictures skipped at speed and said, S5 the door
+served on arrival if still beat-bound, S6 the virtual-clock Timer as a measurement's mode; its bus
+measurement to a `bench/` folder of Loom's; the game's bodies arrays in a simulation weave, batched
+at the bus's edges. Its incident: a cleanup's too-wide `taskkill` ended another session's test
+binary at 23:41 UTC, inside runtime-gcc16's lane, whose `workshop_load` death in that run is likely
+it (Vision)  
 **Owed:** A fast-forward mode for the demo runs, as in a game: a walk goes as fast as its actions
 can go, where today it reaches four or five actions a second at most; faster runs let agents work
 faster. Beside it, a speed test of the message bus: math like 3D collision, on a massive scale,
