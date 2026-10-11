@@ -770,8 +770,9 @@ refusal as permanent.
 
 Met on MSVC too (2026-10-11): the Windows lanes' proof D, its MSVC job at `-j4`, I1 in the same
 words ([report](../reportbacks/windows-lanes-RB.md#decisions-asked)). #187 runs `workshop_journey`
-alone after the rest on both Windows jobs, which bounds the race and does not repair it; whether the
-Linux jobs do too until #185's fix merges is asked of the founder (Vision).
+alone after the rest on both Windows jobs, which bounds the race and does not repair it; the Linux
+jobs do too until #185's fix merges, replacing the rerun-once rule (the founder, 2026-10-11), and a
+follow-up after the fix takes it out of all four, so the fix's witness is the local parallel lane.
 
 **Trigger:** the founder's decision 1. The issue's first question: what can a guest read to know
 the plan is realized? If something, the journey waits for it; if nothing, Workshop's readiness is

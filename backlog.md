@@ -507,9 +507,9 @@ cold and 890 warm, MinGW-w64 856 to 464; `workshop_journey` runs alone on both W
 race met on MSVC too, and `timer` since #187's first run met it (P-BUILD-01); the report predates
 its run's end and its third commit, the run at `a86e349e` ended `cancelled`, its MSVC job at its
 limit on a slow runner (P-BUILD-09), and the proof's last ASan red is not yet named, so a
-continuation follows the run to its end ([prompt](../prompts/windows-lanes-run-end.md)). Asked of
-the founder: whether the Linux jobs keep `workshop_journey` apart too until #185's fix merges (its
-decision 1).  
+continuation follows the run to its end ([prompt](../prompts/windows-lanes-run-end.md)). The
+founder's decision 1 (2026-10-11): all four build jobs keep `workshop_journey` apart until #185's
+fix merges, replacing the rerun-once rule, and a follow-up after the fix takes it out of all four.  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
 times faster than on G: in the C: test.
