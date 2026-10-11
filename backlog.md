@@ -325,6 +325,21 @@ issue's folders and asks nothing of who wrote the issue. Both repositories alrea
 form (`docs/contributing/taking-an-issue.md`); their `ready` issues, checked before the folder move,
 are refreshed on current main with their folders ([prompt](../prompts/ready-issues-refresh.md)).
 
+The Tutor's highlight, researched ([its report](../reportbacks/tutor-highlight-research-RB.md),
+2026-10-11; reviewed by Vision the same day, 12 decisions asked, the founder's answer pending): a
+press and a highlight name one address, `<office>/<pane>:<id>`, drawn by the part `control:<id>`, so
+five panes' control parts are renamed to their ids (the address law, an issue for the issue lane
+now); what a press may cause is declared on the action row (`causes`, with the pane's `mode`, the
+row's `enters` and the other modes' causes, `elsewhere`), held where Workshop holds the rows and
+kept true by the census, a press witness and the manual check on `Answers`; the agent resolves
+(`desk/resolve`), Workshop resolving nothing; `GuideRequested { pane, control, words }` replaces the
+powers research's decision 4's address and keeps its form; a weaver is moved by the messages that
+show panes, never through a weaver-only surface; a case for a tool is filed under the agents'
+account after asking the weaver on their desk, under the founder's issue rule of 2026-10-10 rather
+than the report's founder-only `ready`; a described view joins the pane protocol; Loom adds nothing.
+Its stages: the address law; tutorial mode after it and docs B2; `declare` (the causes) after B2;
+`door` beside; `tutor` after `declare` and `door`; then #139 and 3a.
+
 The walls, outside in (Vision, 2026-10-09): a separate OS user or a VM for the agent's host, the
 only wall that holds against an agent that does not keep to its doors (decision 17); its own GitHub
 identity without merge rights, and a protected default branch; its experiments as weaves under
@@ -854,29 +869,32 @@ second commit ([prompt](../prompts/docs-overhaul-b1-ask.md),
 office directly and answered to the asker alone, the whole page or one section; a manual is public,
 the repository's own page, so reading one needs no scope. B2 opened 2026-10-11
 ([prompt](../prompts/docs-overhaul-b2.md)): the `?` and the two spelling settings, its pictures from
-`D:/Zen`, B3 after it; its `?` and settings need nothing new; its tutorial mode waits on the
-highlight research, which asks whether tutorial mode and the Tutor's highlight read one declaration
-(Vision). Into B2: a setting each for how the band and the Hotkeys view spell a key, chosen apart,
-the defaults as now (the band short, `B`, `^p`, `enter`; the Hotkeys view full, `shift+b`, `ctrl+p`,
-`return`), reached by a gear beside the `?` (the founder, 2026-10-10), the `?` spelling as the
-Hotkeys view does (Vision); the `?` finding a section's keys from data the splitter writes, never a
-C++ reading of the page. Into B3: the tutorial's pictures taken from a root under `D:/Zen`, the Dev
-Drive, as every tutorial's and demo's pictures are from now on (the founder, 2026-10-10; they show
-`G:/programming/cpp/Zen/scratch/` today), and the Pane Manager put away before the last. Into C: an
-office offering several panes (the desk, Introspection, Info, Inventory) under one page, which
-`pane_document`'s one pane does not yet fit; the key markers checked on every page under a `docs/`
-(`workshop/docs/load-plans.md` names the Builder's `o`, `f`, `b` and `c` bare,
-`builder/docs/recipes.md` Files' `u` and `a`); one walker of a pane's modes for the census; the
-report's manual scaffold; nothing in a running Workshop is granted `ShapeDocumentRequested` yet, so
-its first asker brings the grant; a page near `kMaxManualBytes` makes a declaration past the history
-recorder's 64 KiB payload ceiling. Into D: `cmake/ZengineManual.cmake` needs policy CMP0054 NEW,
-which a stranger's old `cmake_minimum_required` would not give. Then B2, the `?`, with B3, its
-tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D after the release.
-BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
-review's place ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and
-merged as #169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the founder chose
-reading (b), with the build send keeping its ticket (2026-10-10); taken with the follower's lost
-realization (#176) as #177 and #178, merged before the move (2026-10-10)
+`D:/Zen`, B3 after it; its `?` and settings need nothing new; its tutorial mode follows the
+highlight research ([report](../reportbacks/tutor-highlight-research-RB.md)): after the address law
+and B2, it reads a control part's section by its id with no ask, and asks the pane
+(`PanePartDocumentRequested`) only for a subject part's `Shows` key; the `?`, tutorial mode, the
+census and the Tutor's highlight read the one action row. Into B2: a setting each for how the band
+and the Hotkeys view spell a key, chosen apart, the defaults as now (the band short, `B`, `^p`,
+`enter`; the Hotkeys view full, `shift+b`, `ctrl+p`, `return`), reached by a gear beside the `?`
+(the founder, 2026-10-10), the `?` spelling as the Hotkeys view does (Vision); the `?` finding a
+section's keys from data the splitter writes, never a C++ reading of the page. Into B3: the
+tutorial's pictures taken from a root under `D:/Zen`, the Dev Drive, as every tutorial's and demo's
+pictures are from now on (the founder, 2026-10-10; they show `G:/programming/cpp/Zen/scratch/`
+today), and the Pane Manager put away before the last. Into C: an office offering several panes (the
+desk, Introspection, Info, Inventory) under one page, which `pane_document`'s one pane does not yet
+fit; the key markers checked on every page under a `docs/` (`workshop/docs/load-plans.md` names the
+Builder's `o`, `f`, `b` and `c` bare, `builder/docs/recipes.md` Files' `u` and `a`); one walker of a
+pane's modes for the census; the report's manual scaffold; nothing in a running Workshop is granted
+`ShapeDocumentRequested` yet, so its first asker brings the grant; a page near `kMaxManualBytes`
+makes a declaration past the history recorder's 64 KiB payload ceiling. Into D:
+`cmake/ZengineManual.cmake` needs policy CMP0054 NEW, which a stranger's old
+`cmake_minimum_required` would not give. Then B2, the `?`, with B3, its tutorial replayed; C,
+feature by feature in the issue lane to 2026-10-22; D after the release. BL-WORK-38's stages 3a and
+3b follow B2. The research's findings are verified and filed in deep review's place
+([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and merged as
+#169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the founder chose reading
+(b), with the build send keeping its ticket (2026-10-10); taken with the follower's lost realization
+(#176) as #177 and #178, merged before the move (2026-10-10)
 ([report](../reportbacks/realization-notice-RB.md)). Stage C's inputs from them: the told history in
 `agents/` that [the F6 record](../reportbacks/overhaul-findings/verify/F6-realization-history.md)
 lists; `docs/workshop/limitations.md`'s unload sentences and package count beside
