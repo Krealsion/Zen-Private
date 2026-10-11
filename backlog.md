@@ -525,7 +525,12 @@ comment corrected to leave its fix inside its folders
 ([prompt](../prompts/windows-lanes-after-merge.md)). The cold builds after Loom #52 were Loom's
 merge, not the stores (P-BUILD-14). After the merges, the `timer` and probe D issues are Zengine
 #191 and #192, `ready`, and `audit_probes` apart is #193, whose run is the first to build `main`'s
-merges together, since `main`'s own runs did not (P-BUILD-15).  
+merges together, since `main`'s own runs did not (P-BUILD-15). The kit's own quick wins, Q4 to Q6,
+Q7's issue and a slot given in turn, are prompted for a quiet window after docs B3, which goes first
+as its own optimization ([prompt](../prompts/executor-kit-speed.md)); the founder then tries the
+machine whole with several sessions, and what moves to an external host is judged from the slot's
+waits (the founder, 2026-10-11): evidence-only lanes, never bytes a weaver's Workshop loads
+(decision 7).  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
 times faster than on G: in the C: test.
