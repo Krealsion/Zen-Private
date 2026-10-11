@@ -302,13 +302,13 @@ public issue, as Loom #49, reviewed ready to merge, its hosted run green on all 
 to the office for the old one, and a follow-up makes a name unique among the host's Weavers
 ([prompt](../prompts/weaver-prompt-names.md), [report](../reportbacks/weaver-prompt-names-RB.md)),
 the WeaveId addressing #49 documents kept as the second guard: Loom #51, a name its Weaver's WeaveId
-times 10^9 plus its count, reviewed ready to merge, its hosted run green on all ten jobs (Vision,
-2026-10-10); stage `door`'s prompt makes `AuthorityPrompt` v3 and `RequestAuthority` v2, and binds a
-decision that crosses a link to the host's lifetime too, since a restarted host gives its WeaveIds,
-and so its names, again; a Weaver reloaded in place by `swap_state` (its policy refuses only crash
-revival) also counts again; the highlight researched to match a press, a message resolved to the
-control that sends it on a view, and a message no control on the desk sends moving the weaver to a
-pane or setup that can, or improving the tool where the control belongs
+times 10^9 plus its count, reviewed (Vision, 2026-10-10) and merged by the founder (2026-10-11);
+stage `door`'s prompt makes `AuthorityPrompt` v3 and `RequestAuthority` v2, and binds a decision
+that crosses a link to the host's lifetime too, since a restarted host gives its WeaveIds, and so
+its names, again; a Weaver reloaded in place by `swap_state` (its policy refuses only crash revival)
+also counts again; the highlight researched to match a press, a message resolved to the control that
+sends it on a view, and a message no control on the desk sends moving the weaver to a pane or setup
+that can, or improving the tool where the control belongs
 ([prompt](../prompts/tutor-highlight-research.md)); an issue names its bounded areas in a `##
 Folders` block, not files; and agents work under a GitHub machine account of their own,
 `UnknownWorkers`, that comments, makes branches, pull requests and issues, and never merges. On a
@@ -331,12 +331,12 @@ Both repositories already teach the issue's form (`docs/contributing/taking-an-i
 ([prompt](../prompts/ready-issues-refresh.md), [report](../reportbacks/ready-issues-refresh-RB.md)):
 16 of 16 still hold (Loom #33 in part), each with a Folders block and a Checked against saying how
 far its check went, no private plan id left; the form says so in Zengine #182 and Loom #50,
-documentation-only, green, reviewed ready to merge (Vision, 2026-10-10); the address law is Zengine
-#183, filed under `UnknownWorkers`, `ready` and `defect` set in the founder's name, taken once B2's
-pull request merges, since both change the Builder's action census; Loom #41, still `ready`,
-predates the GCC 16 experiment and holds no Folders block, so its label waits on the founder's
-decision. The check at the pull request reads an issue's Folders block as it stood when `ready` was
-set, since the account that filed an issue can edit it after (Vision).
+documentation-only, reviewed (Vision) and merged by the founder (2026-10-11); the address law is
+Zengine #183, filed under `UnknownWorkers`, `ready` and `defect` set in the founder's name, taken
+once B2's pull request merges, since both change the Builder's action census; Loom #41, still
+`ready`, predates the GCC 16 experiment and holds no Folders block, so its label waits on the
+founder's decision. The check at the pull request reads an issue's Folders block as it stood when
+`ready` was set, since the account that filed an issue can edit it after (Vision).
 
 The Tutor's highlight, researched ([its report](../reportbacks/tutor-highlight-research-RB.md),
 2026-10-11; reviewed by Vision the same day, 12 decisions asked; the address law taken for the issue
@@ -465,20 +465,20 @@ toward the founder's final test of Workshop, a small 3D third-person action game
 ([report](../reportbacks/c-drive-builds-RB.md)): the Windows build trees on C:, the WSL lanes from
 an ext4 source copy, and CI's Q1 to Q3 (Loom without its tests, a compiler cache written only by
 `main`'s runs, parallel CTest on the Linux jobs), the research's decision 1 as recommended (the
-founder, 2026-10-10). Zen itself stays on G:. CI's quick wins are Zengine #180, green on its three
-runs and ready to merge; by job median, before against warm over distinct runs, Linux 1,847 to 457
-s, ASan 2,692 to 798, MinGW-w64 2,464 to 822; a pull request's run reads only what `main` saves, so
-the first warm one follows #180's merge. The Dev Drive measured level with plain C:, so the founder
-chose C: and deleted D: (2026-10-10); the kit's Windows trees are under `C:/Users/Joshua/zen-build/`
-and the WSL lanes run from an ext4 copy (Zen `7ec2f1a6`). The parallel ASan lane met a race in
-`workshop_journey` I1, Workshop's guest door serving before its plan is realized (P-WORK-62): #180's
-decision 1, the founder's. The MSVC job now bounds a run (the founder asked, 2026-10-11): on #181's
-run it spent 1,080 s compiling and 1,034 s on a serial verify. The fast-builds research's decision
-10, open, kept it bare; a measured phase, on #180's branch once its session ends
-([prompt](../prompts/windows-lanes.md)), the founder's choice (2026-10-11): the cache on pull
-requests (embedded debug information and a launcher in CI's configure line, not Zengine's CMake),
-one bare MSVC run on `main` nightly as the stranger's proof, and both Windows jobs' tests in
-parallel where they do not clash.  
+founder, 2026-10-10). Zen itself stays on G:. CI's quick wins are Zengine #180, merged by the
+founder (2026-10-11), its first run on `main` seeding the stores; by job median, before against warm
+over distinct runs, Linux 1,847 to 457 s, ASan 2,692 to 798, MinGW-w64 2,464 to 822; a pull
+request's run reads only what `main` saves, so the first warm one follows #180's merge. The Dev
+Drive measured level with plain C:, so the founder chose C: and deleted D: (2026-10-10); the kit's
+Windows trees are under `C:/Users/Joshua/zen-build/` and the WSL lanes run from an ext4 copy (Zen
+`7ec2f1a6`). The parallel ASan lane met a race in `workshop_journey` I1, Workshop's guest door
+serving before its plan is realized (P-WORK-62): #180's decision 1, the founder's. The MSVC job now
+bounds a run (the founder asked, 2026-10-11): on #181's run it spent 1,080 s compiling and 1,034 s
+on a serial verify. The fast-builds research's decision 10, open, kept it bare; a measured phase, on
+#180's branch once its session ends ([prompt](../prompts/windows-lanes.md)), the founder's choice
+(2026-10-11): the cache on pull requests (embedded debug information and a launcher in CI's
+configure line, not Zengine's CMake), one bare MSVC run on `main` nightly as the stranger's proof,
+and both Windows jobs' tests in parallel where they do not clash.  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
 times faster than on G: in the C: test.
@@ -904,34 +904,40 @@ law of verdicts, the placement the B1 prompt carried from the research: Vision's
 second commit ([prompt](../prompts/docs-overhaul-b1-ask.md),
 [report](../reportbacks/docs-overhaul-b1-ask-RB.md)): `PaneDocumentRequested` asked of the pane's
 office directly and answered to the asker alone, the whole page or one section; a manual is public,
-the repository's own page, so reading one needs no scope. B2 opened 2026-10-11
-([prompt](../prompts/docs-overhaul-b2.md)): the `?` and the two spelling settings, its pictures from
-`C:/Zen-pictures` once D: went, B3 after it; its `?` and settings need nothing new; its tutorial
-mode follows the highlight research ([report](../reportbacks/tutor-highlight-research-RB.md)): after
-the address law and B2, it reads a control part's section by its id with no ask, and asks the pane
-(`PanePartDocumentRequested`) only for a subject part's `Shows` key; the `?`, tutorial mode, the
-census and the Tutor's highlight read the one action row. Into B2: a setting each for how the band
-and the Hotkeys view spell a key, chosen apart, the defaults as now (the band short, `B`, `^p`,
-`enter`; the Hotkeys view full, `shift+b`, `ctrl+p`, `return`), reached by a gear beside the `?`
-(the founder, 2026-10-10), the `?` spelling as the Hotkeys view does (Vision); the `?` finding a
-section's keys from data the splitter writes, never a C++ reading of the page. Into B3: the
-tutorial's pictures taken from a root under `C:/Zen-pictures`, as every tutorial's and demo's
-pictures are from now on (the founder, 2026-10-10: first `D:/Zen`, then this once D: went; they show
-`G:/programming/cpp/Zen/scratch/` today), and the Pane Manager put away before the last. Into C: an
-office offering several panes (the desk, Introspection, Info, Inventory) under one page, which
-`pane_document`'s one pane does not yet fit; the key markers checked on every page under a `docs/`
-(`workshop/docs/load-plans.md` names the Builder's `o`, `f`, `b` and `c` bare,
-`builder/docs/recipes.md` Files' `u` and `a`); one walker of a pane's modes for the census; the
-report's manual scaffold; nothing in a running Workshop is granted `ShapeDocumentRequested` yet, so
-its first asker brings the grant; a page near `kMaxManualBytes` makes a declaration past the history
-recorder's 64 KiB payload ceiling. Into D: `cmake/ZengineManual.cmake` needs policy CMP0054 NEW,
-which a stranger's old `cmake_minimum_required` would not give. Then B2, the `?`, with B3, its
-tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D after the release.
-BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
-review's place ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and
-merged as #169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the founder chose
-reading (b), with the build send keeping its ticket (2026-10-10); taken with the follower's lost
-realization (#176) as #177 and #178, merged before the move (2026-10-10)
+the repository's own page, so reading one needs no scope. B2
+([prompt](../prompts/docs-overhaul-b2.md), [report](../reportbacks/docs-overhaul-b2-RB.md)) is
+Zengine #184, one commit, its hosted run green on all eight jobs, reviewed ready to merge (Vision,
+2026-10-11): a `?` and a gear (`=`) on a pane whose holder answers its manual, the desktop's Manual
+pane showing it with the keys in force (`Ctrl+f`, above every mode), and the two spellings in the
+preferences file (v2); its pictures' roots under `C:/Zen-pictures`, though the Builder's header
+still shows the build tree's `C:\Users\Joshua\zen-build\...`; B3 after it; its `?` and settings need
+nothing new; its tutorial mode follows the highlight research
+([report](../reportbacks/tutor-highlight-research-RB.md)): after the address law and B2, it reads a
+control part's section by its id with no ask, and asks the pane (`PanePartDocumentRequested`) only
+for a subject part's `Shows` key; the `?`, tutorial mode, the census and the Tutor's highlight read
+the one action row. Into B2: a setting each for how the band and the Hotkeys view spell a key,
+chosen apart, the defaults as now (the band short, `B`, `^p`, `enter`; the Hotkeys view full,
+`shift+b`, `ctrl+p`, `return`), reached by a gear beside the `?` (the founder, 2026-10-10), the `?`
+spelling as the Hotkeys view does (Vision); the `?` finding a section's keys from data the splitter
+writes, never a C++ reading of the page. Into B3: the tutorial's pictures taken from a root under
+`C:/Zen-pictures`, with the tree the Builder names under it too, so no path of this machine shows,
+as every tutorial's and demo's pictures are from now on (the founder, 2026-10-10: first `D:/Zen`,
+then this once D: went; they show `G:/programming/cpp/Zen/scratch/` today), and the Pane Manager put
+away before the last. Into C: an office offering several panes (the desk, Introspection, Info,
+Inventory) under one page, which `pane_document`'s one pane does not yet fit; the key markers
+checked on every page under a `docs/` (`workshop/docs/load-plans.md` names the Builder's `o`, `f`,
+`b` and `c` bare, `builder/docs/recipes.md` Files' `u` and `a`); one walker of a pane's modes for
+the census; the report's manual scaffold; nothing in a running Workshop is granted
+`ShapeDocumentRequested` yet, so its first asker brings the grant; a page near `kMaxManualBytes`
+makes a declaration past the history recorder's 64 KiB payload ceiling. Into D:
+`cmake/ZengineManual.cmake` needs policy CMP0054 NEW, which a stranger's old
+`cmake_minimum_required` would not give. Then B2, the `?`, with B3, its tutorial replayed; C,
+feature by feature in the issue lane to 2026-10-22; D after the release. BL-WORK-38's stages 3a and
+3b follow B2. The research's findings are verified and filed in deep review's place
+([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and merged as
+#169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the founder chose reading
+(b), with the build send keeping its ticket (2026-10-10); taken with the follower's lost realization
+(#176) as #177 and #178, merged before the move (2026-10-10)
 ([report](../reportbacks/realization-notice-RB.md)). Stage C's inputs from them: the told history in
 `agents/` that [the F6 record](../reportbacks/overhaul-findings/verify/F6-realization-history.md)
 lists; `docs/workshop/limitations.md`'s unload sentences and package count beside

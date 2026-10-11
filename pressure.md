@@ -770,6 +770,35 @@ refusal as permanent.
 the plan is realized? If something, the journey waits for it; if nothing, Workshop's readiness is
 the fix.
 
+### P-WORK-63 — An application chord above every mode never reaches Neovim
+
+**State:** WATCH  
+**Evidence:** [B2's report](../reportbacks/docs-overhaul-b2-RB.md#choices-the-founder-can-overrule),
+choice 3; Vision's review (2026-10-11)
+
+B2's `desktop.manual` takes `Ctrl+f` above every mode, beside `Ctrl+t`, `Ctrl+p` and `Ctrl+k`. Above
+every mode means ahead of the keys crossing to a pane, unless the pane holding the keyboard declares
+that its row supersedes the application's (`PaneActionRow::supersedes`), and no product pane
+declares one. The Neovim pane sends Ctrl chords on to Neovim (`editor/neovim/keys.hpp`), so
+Neovim's page forward now opens the Manual, as `Ctrl+p`, `Ctrl+k` and `Ctrl+t` already never reach
+it. A weaver can move the key in a keymap file.
+
+**Trigger:** a weaver missing a chord in Neovim, or a phase touching the Neovim pane's keys: it
+declares the chords it owns as superseding the application's.
+
+### P-WORK-64 — The Manual shows code spans with their backticks
+
+**State:** WATCH  
+**Evidence:** [B2's report](../reportbacks/docs-overhaul-b2-RB.md#choices-the-founder-can-overrule),
+choice 8, and its pictures (`workshop/docs/images/pane-manual-*.png`); Vision's review (2026-10-11)
+
+The Manual makes links and emphasis plain but keeps code spans as written, so a page's
+double-backtick span reads with its doubled ticks (the Builder's `Answers`: "The notice says ``
+asked the Builder for `tally` ... ``"). Its spellings are reached from a pane that has a manual, the
+Builder alone today, or by binding `workshop.band-keys` / `workshop.hotkeys-keys`.
+
+**Trigger:** stage C's pages, or a weaver reading the Manual.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
