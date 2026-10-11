@@ -312,7 +312,13 @@ Vision's reaches GitHub, its issues are written into `Zen/issues/` and filed by 
 agreed; a security defect is never one of them. An issue carries a prompt's full information, read
 cold, so that once it is `ready` other agents can take it under the founder's final approval, among
 them a local frontier model a friend of the founder's runs (2026-10-10). The other decisions wait on
-the founder.
+the founder. UnknownWorkers' `gh` login lives in `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on
+the founder's machine (2026-10-10). An issue needs no approval of its own: the fix's approval is the
+gate, and each issue says honestly how far it was checked (the founder, 2026-10-10); so the check at
+the pull request bounds a change to its issue's folders and asks nothing of who wrote the issue.
+Both repositories already teach the issue's form (`docs/contributing/taking-an-issue.md`); their
+`ready` issues, checked before the folder move, are refreshed on current main with their folders
+([prompt](../prompts/ready-issues-refresh.md)).
 
 The walls, outside in (Vision, 2026-10-09): a separate OS user or a VM for the agent's host, the
 only wall that holds against an agent that does not keep to its doors (decision 17); its own GitHub
