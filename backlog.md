@@ -326,19 +326,21 @@ form (`docs/contributing/taking-an-issue.md`); their `ready` issues, checked bef
 are refreshed on current main with their folders ([prompt](../prompts/ready-issues-refresh.md)).
 
 The Tutor's highlight, researched ([its report](../reportbacks/tutor-highlight-research-RB.md),
-2026-10-11; reviewed by Vision the same day, 12 decisions asked, the founder's answer pending): a
-press and a highlight name one address, `<office>/<pane>:<id>`, drawn by the part `control:<id>`, so
-five panes' control parts are renamed to their ids (the address law, an issue for the issue lane
-now); what a press may cause is declared on the action row (`causes`, with the pane's `mode`, the
-row's `enters` and the other modes' causes, `elsewhere`), held where Workshop holds the rows and
-kept true by the census, a press witness and the manual check on `Answers`; the agent resolves
-(`desk/resolve`), Workshop resolving nothing; `GuideRequested { pane, control, words }` replaces the
-powers research's decision 4's address and keeps its form; a weaver is moved by the messages that
-show panes, never through a weaver-only surface; a case for a tool is filed under the agents'
-account after asking the weaver on their desk, under the founder's issue rule of 2026-10-10 rather
-than the report's founder-only `ready`; a described view joins the pane protocol; Loom adds nothing.
-Its stages: the address law; tutorial mode after it and docs B2; `declare` (the causes) after B2;
-`door` beside; `tutor` after `declare` and `door`; then #139 and 3a.
+2026-10-11; reviewed by Vision the same day, 12 decisions asked; the address law taken for the issue
+lane now (decisions 1 and 11, the founder, 2026-10-11;
+[continuation](../prompts/ready-issues-refresh-address-law.md)), the rest pending): a press and a
+highlight name one address, `<office>/<pane>:<id>`, drawn by the part `control:<id>`, so five panes'
+control parts are renamed to their ids (the address law, an issue for the issue lane now); what a
+press may cause is declared on the action row (`causes`, with the pane's `mode`, the row's `enters`
+and the other modes' causes, `elsewhere`), held where Workshop holds the rows and kept true by the
+census, a press witness and the manual check on `Answers`; the agent resolves (`desk/resolve`),
+Workshop resolving nothing; `GuideRequested { pane, control, words }` replaces the powers research's
+decision 4's address and keeps its form; a weaver is moved by the messages that show panes, never
+through a weaver-only surface; a case for a tool is filed under the agents' account after asking the
+weaver on their desk, under the founder's issue rule of 2026-10-10 rather than the report's
+founder-only `ready`; a described view joins the pane protocol; Loom adds nothing. Its stages: the
+address law; tutorial mode after it and docs B2; `declare` (the causes) after B2; `door` beside;
+`tutor` after `declare` and `door`; then #139 and 3a.
 
 The walls, outside in (Vision, 2026-10-09): a separate OS user or a VM for the agent's host, the
 only wall that holds against an agent that does not keep to its doors (decision 17); its own GitHub
