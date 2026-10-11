@@ -774,6 +774,12 @@ alone after the rest on both Windows jobs, which bounds the race and does not re
 jobs do too until #185's fix merges, replacing the rerun-once rule (the founder, 2026-10-11), and a
 follow-up after the fix takes it out of all four, so the fix's witness is the local parallel lane.
 
+Docs B3 met it on Windows (2026-10-11): a setup started by `demo.py` loses it in 5 of 6 local starts
+on MinGW-w64, the demo's control row loading last. The founder took #185's repair now, B3 stacking
+on its branch ([prompt](../prompts/guest-door-readiness.md),
+[B3's](../prompts/docs-overhaul-b3-after-185.md)); a plan that waits on the weaver, or stops
+refused, keeps no guest out for good (Vision).
+
 **Trigger:** the founder's decision 1. The issue's first question: what can a guest read to know
 the plan is realized? If something, the journey waits for it; if nothing, Workshop's readiness is
 the fix.
