@@ -747,9 +747,9 @@ settings at a re-offer, as #181 does the manual.
 
 ### P-WORK-62 — Workshop's guest door serves before its plan is realized
 
-**State:** OPEN — the founder's decision 1 (2026-10-11): `-j4` kept, the race Zengine #185, `ready`
-([report](../reportbacks/guest-door-readiness-issue-RB.md)): its first question, what a guest can
-read that says the plan is realized, found nothing so far  
+**State:** CLOSED — founder merged Zengine #197 as `9e289e2` (2026-10-11), closing #185: a guest
+asks Workshop where realization is (`GuestPlanRequested`, its `wait` held until the plan rests);
+residue: `workshop_journey` stays apart in CI's four lists until a follow-up after B3 (#198)  
 **Evidence:** [build-speed's report](../reportbacks/build-speed-RB.md#decisions-asked), its proof
 run B (`38094264655`, ASan, attempt 1); the far side named by Vision's review (2026-10-10)
 

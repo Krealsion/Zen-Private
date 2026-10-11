@@ -979,7 +979,18 @@ writes, never a C++ reading of the page. Into B3: the tutorial's pictures taken 
 `C:/Zen-pictures`, with the tree the Builder names under it too, so no path of this machine shows,
 as every tutorial's and demo's pictures are from now on (the founder, 2026-10-10: first `D:/Zen`,
 then this once D: went; they show `G:/programming/cpp/Zen/scratch/` today), and the Pane Manager put
-away before the last. Into C: an office offering several panes (the desk, Introspection, Info,
+away before the last. B3 is Zengine #198 ([report](../reportbacks/docs-overhaul-b3-RB.md)), two
+commits on `9e289e2`, its hosted run `38180509676` green on all eight jobs, reviewed ready to merge
+(Vision, 2026-10-11, 12 of 12 checks): `tutorial_walks`, in the session gate on every OS, installs
+the build into a prefix of its own, starts each `<feature>/docs/tutorials/<name>/` from the copy the
+install gathered into the tool package's `setups/`, and replays its `tutorial` walk; its six
+pictures show only `C:/Zen-pictures` and the standard CMake path. Its witness of the build tree
+re-reads `build/workshop`, where other session entries run their Workshops, none building there, so
+a later entry that builds there turns it red under the wrong name. Its gaps join C's: a start that
+fails after `demo.json` exists leaves Workshop and the host running, which
+`workshop/docs/demo-setups.md` does not say; the text check that every `## Step N` shows
+`images/step-N.png` is unbuilt; the entry grows by a start and a first build per tutorial (13-45 s
+each). Into C: an office offering several panes (the desk, Introspection, Info,
 Inventory) under one page, which `pane_document`'s one pane does not yet fit; the key markers
 checked on every page under a `docs/` (`workshop/docs/load-plans.md` names the Builder's `o`, `f`,
 `b` and `c` bare, `builder/docs/recipes.md` Files' `u` and `a`); one walker of a pane's modes for
@@ -1110,7 +1121,8 @@ out of the registers, rather than split registers one by one, each split adding 
 (Vision, 2026-10-11). The founder chose (2026-10-11): the budget raised by about half, the added
 bytes an appendix of the proofs, their lists compressed, searching and linking a later pass; after
 #185 and docs B3 merge, before the address law and `tutor` touch registers
-([prompt](../prompts/law-register-appendix.md)). #185 trims `guests.md` in place meanwhile.
+([prompt](../prompts/law-register-appendix.md)). #185's repair, Zengine #197, merged with
+`guests.md` trimmed to exactly its budget (2026-10-11); the appendix waits on B3 (#198).
 
 ## 5a. Night Lab
 
