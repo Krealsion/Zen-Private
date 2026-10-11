@@ -1100,6 +1100,15 @@ consolidate it without deleting the enforceable law or proof history.
 **Wake:** a cold reader cannot find the owner without phase names, or a routed current-law file's
 growth materially slows every task touching that surface.
 
+Woken (2026-10-11): #185's guest-door law needed about 1 KB in `agents/workshop/guests.md`, 98 bytes
+from its 16,384 budget. Twelve registers stand within 5% of the budget, four under 100 bytes from it
+(`geometry`, `project`, `code`, `files`), and the WL router `agents/workshop.md` has 53 bytes left
+of its 8,192, so a new register cannot be routed either; five more stand between 85 and 95%. Across
+the 53 WL registers PROVEN BY is 49% of the bytes, the laws themselves (LAW, MEANS, DOES NOT MEAN)
+37%, and the check already verifies every citation mechanically. Vision's proposal: peel the proofs
+out of the registers, rather than split registers one by one, each split adding a router row
+(Vision, 2026-10-11).
+
 ## 5a. Night Lab
 
 ### BL-LAB-01 — Night Lab, era 2: agents make panes and setups for both hands
