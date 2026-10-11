@@ -745,6 +745,31 @@ have no such drop.
 **Trigger:** a phase touching pane settings, or the issue lane taking it as a small fix: drop the
 settings at a re-offer, as #181 does the manual.
 
+### P-WORK-62 — Workshop's guest door serves before its plan is realized
+
+**State:** OPEN — #180's decision 1, the founder's  
+**Evidence:** [build-speed's report](../reportbacks/build-speed-RB.md#decisions-asked), its proof
+run B (`38094264655`, ASan, attempt 1); the far side named by Vision's review (2026-10-10)
+
+`workshop_journey` check I1 failed once in seven ASan runs at `-j4`: `link refused at
+InventoryCaptureDescribe: unknown schema: InventoryCaptureDescribe v1`. The report put it on the
+session host's guest vocabulary; the words are the far host's. A link reports a send the far
+bridge server refused in that server's own sentence (Loom `src/host/link.hpp`,
+`kCrossedSendRefused`; `src/bridge/server.cpp:518-524`), the far host is Workshop, whose guest door
+wraps Loom's `BridgeServer` (`workshop/guest_door.hpp:62`), and a session host lacking the shape
+refuses a Python tool's ask before anything crosses, in other words (`link.hpp`, "a shape nothing on
+this host declares"). Workshop mounts its guest door and writes its port before its plan runs
+(`workshop/workshop.cpp:722-756`), and `executor.begin` returns before the plan is realized
+(`:1100-1102`), so a guest admitted early meets "unknown schema" for a shape a plan row is about to
+declare (`zengine-inventory`, `workshop/default-load-plan.json:194`). The journey waits for the port
+(W0) and for both links admitted (S1, whose words also claim the session's vocabulary), never for
+the plan; serially it has not shown. An agent that connects when the port appears reads the same
+refusal as permanent.
+
+**Trigger:** the founder's decision 1. The issue's first question: what can a guest read to know
+the plan is realized? If something, the journey waits for it; if nothing, Workshop's readiness is
+the fix.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
@@ -1146,6 +1171,15 @@ Each was met once, and each cost time:
   extractor. `mutate.sh` with an expected assertion per mutant was asked twice more, and the machine
   file naming `python -` among the Bash tool's traps again: with a heredoc, or with stdin from
   `/dev/null`, it waits forever.
+- From build-speed (2026-10-10): a helper edited while another session runs it breaks that run,
+  since bash reads a script as it runs (the phase's first kit edit ended another session's sanitizer
+  build), so `kit.sh edit-safe`, true when no running process names `executor-kit`, or the README's
+  rule; Loom's clone on ext4 for `loom-wsl.sh`; `ext4.py check` hashing only what moved; the
+  measurement driver stopping whole on a kill; `jobtimes.py` with medians, a compare, and a rerun's
+  carried-over jobs counted once (#180's warm medians counted proof B's twice: Linux 461 for 457,
+  MinGW-w64 856 for 822; Vision). And a lane refusing a tree that owes work (`ninja -n` naming an
+  edge): the ext4 check proves the copy is the checkout, not that the tree was built from it, so
+  `case-wsl.sh` building one target and a lane after it runs the rest stale (Vision).
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 

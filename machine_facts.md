@@ -9,18 +9,24 @@
   `-j8`, since more can run the host out of memory. Measured 2026-10-04: a clean MinGW-w64
   build of 358 edges took 545 s at `-j8` and 326 s at `-j16`.
 - **The executor's primary folder** (constitution § c; `Zen/pass-tools/executor-kit/`, its
-  README), kept between phases: on G:, `Zen/primary/` holds the Zengine and Loom clones and, in
-  `win/`, `zengine-msys` (the MinGW-w64 lane), `zengine-sdl`, `loom-msys` and
-  `loom-msys-install`; in WSL, `~/zen-build/primary/` holds `zengine-primary`,
-  `zengine-primary-san`, `loom`, `loom-install` and its own ccache store `ccache` (24 GB cap,
-  launcher `bin/ccache`). About 15.7 GB on G: and 16 GB in WSL (2026-10-04). Its trees are the
-  executor's, not the founder's below.
+  README), kept between phases, as build-speed laid it out (2026-10-10): on G:, `Zen/primary/`
+  holds the Zengine and Loom clones; under the kit's Windows root `C:/Users/Joshua/zen-build/`,
+  `primary/` holds `zengine-msys` (the MinGW-w64 lane), `zengine-sdl`, `loom-msys`,
+  `loom-msys-install` and the Windows ccache store, and a phase's own Windows trees sit in
+  `<PHASE>/`; in WSL, `~/zen-build/primary/` holds `src/zengine` (an ext4 copy of the Zengine
+  clone, which a lane refuses to run from unless its files are the clone's byte for byte),
+  `zengine-primary-ext4` and `zengine-primary-ext4-san` built from it, `loom`, `loom-install` and
+  its own ccache store `ccache` (24 GB cap, launcher `bin/ccache`). Its trees are the executor's,
+  not the founder's below. The trees the move left unused are the founder's to delete:
+  `Zen/primary/win/` on G: and WSL's `~/zen-build/primary/zengine-primary{,-san}` with their fetch
+  caches `~/.cache/zen-fetch/zengine-zengine-primary{,-san}` (counted 2026-10-04 at 15.7 GB on G:
+  with the clones, and 16 GB in WSL).
 - **ccache on Windows**: MSYS2's `mingw-w64-x86_64-ccache` 4.11.3-1 is installed in
   `C:\msys64x\mingw64` with eight dependencies, from the existing sync database and with nothing
   upgraded (2026-10-04; `g++` still 15.2.0). The kit's store is
   `C:\Users\Joshua\zen-build\primary\ccache` (NTFS, 24 GB cap). A hit skips the compile but not
-  `ar` and `ld`, which write to G: and now dominate a rebuild: returning both Windows trees across
-  one PR's delta took 380 s with ccache against 604 s without.
+  `ar` and `ld`, which dominated a rebuild while the trees were on G:: returning both Windows trees
+  across one PR's delta took 380 s with ccache against 604 s without (2026-10-04).
 - **Fetch caches** in `~/.cache/zen-fetch/`: only `zengine-zengine-p1{,-san}` and
   `zengine-zengine-primary{,-san}` remain (2026-10-04).
 - **Build trees on ext4** under `~/zen-build/`: `loom`, `loom-install`, `zengine-p1`,
@@ -181,9 +187,11 @@
 - **`C:/Zen` is a copy of Zen**, a snapshot of 2026-10-09 22:05; its primary trees were configured
   on G: and cannot be used where they are. The indexer excludes both Zens and includes
   `C:\Users\Joshua\zen-build\`.
-- **D: is a Dev Drive (ReFS)**, made for the build-speed phase (2026-10-10); `D:/zen-build/` holds
-  that phase's trees and caches. Tutorial and demo pictures are taken from a root under `D:/Zen`
-  from now on (the founder, 2026-10-10).
+- **D: is gone**: the Dev Drive (ReFS, a VHDX) measured level with plain C: (a cold build 258 s
+  against 262, warm 25.4 against 26.0; build-speed, 2026-10-10), so the founder chose plain C: for
+  the Windows root and deleted the Dev Drive's partition and its file (2026-10-10). Tutorial and
+  demo pictures are taken from a root under `C:/Zen-pictures` (the founder's choice after D: went,
+  2026-10-10, as B2's picture script records it).
 - **WSL as the founder reaches every Windows file he can** (an agent's powers, researched,
   2026-10-10): kernel 6.6.87.2, unprivileged user namespaces allowed, Yama `ptrace_scope` 1;
   `/etc/wsl.conf` holds only `[boot] systemd=true`; no `bwrap`; drvfs mounts the Windows drives 777
