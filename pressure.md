@@ -1055,7 +1055,8 @@ Timer handing a schedule across a prepared replacement and the handover refused,
 entries building with cl (the session's reading of the log, in its commit `a86e349e`; Vision cannot
 read the logs). The phase had not met it in five proof runs nor locally at `-j16`. #187 runs it
 alone after the rest on both Windows jobs (`ZEN_CTEST_APART`, under ten seconds), which bounds it
-and does not repair it; once #187 merges, the repair is an issue's (Vision).
+and does not repair it; once #187 merges, the repair is an issue's (Vision), filed then
+([prompt](../prompts/windows-lanes-after-merge.md)).
 
 **Trigger:** select a focused Windows concurrency investigation before documenting or enabling
 parallel MSVC verification.
@@ -1243,6 +1244,11 @@ Each was met once, and each cost time:
   before their runs ended (B2's, door's, declare's and the Windows lanes'), door's three advisory
   reds unread: a `run-end.sh <repo> <run>` waiting for the end and printing each job's conclusion
   and time, the advisory ones and a cancel at a limit included, for the report's table (Vision).
+- From Loom #53's two rounds (2026-10-11): `mutate_win.py` into the kit beside `mutate.sh`, for
+  behaviour only Windows has; a kit setting for the MinGW-w64 toolchain (asked by runtime-gcc16
+  too); a fair turn at the slot for a Windows build, whose early waits ran 5 to 17 minutes behind
+  WSL helpers that take the lock as it frees; and a helper building and running one Zengine entry on
+  an MSVC tree, for which the second round wrote three batch files.
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 
@@ -1276,6 +1282,37 @@ handling.
   the hosted MSVC job caught it there.
 
 **Trigger:** a Loom phase that touches its tests' layout, or a local lane whose time matters.
+
+### P-BUILD-13 — A suite waits a fixed span of real time
+
+**State:** OPEN — kept apart on both Linux jobs until its repair (the founder, 2026-10-11); its
+issue filed after #187 merges ([prompt](../prompts/windows-lanes-after-merge.md))  
+**Evidence:** [the Windows lanes' report](../reportbacks/windows-lanes-RB.md), its last section;
+proof F's ASan log as the session saved it (`scratch/windows-lanes/runs/proofF-ASan.log`, read by
+Vision)
+
+`audit_probes` probe D loads a clock long after time started and pumps the real-clock Timer for
+400 ms, "~3 tick periods", for its first tick (`tests/test_audit_probes.cpp:540-563`); under ASan
+with four entries at a time no tick came (`ticks` 0, no visuals), once so far, on proof F. It is
+`timer`'s kind (P-BUILD-01), a real clock under load, not #185's race. A case that waits a fixed
+span of wall time proves the span, not the behavior: a bound counted in beats, or a wait for the
+event under a bound, proves the same claim under any load.
+
+**Trigger:** its issue; any other case found waiting a fixed span of real time.
+
+### P-BUILD-14 — A Loom merge turns Zengine's runs cold
+
+**State:** WATCH  
+**Evidence:** Zengine's runs of 2026-10-11, their build steps' seconds (Vision, from the API)
+
+Zengine's CI builds against Loom's `main` as it stands at run time, and only Zengine's `main` saves
+the compiler stores. Loom #52 merged at 11:06: the runs before it built warm (Linux 31 s, ASan 55,
+MinGW-w64 59, on `a86e349`), every run after it cold (#186's rerun 802, 1,416 and 1,506 s; #187 at
+`63edf86` 781, 1,376 and 1,581), until Zengine's `main` builds against the new Loom and saves. Each
+Loom merge costs every Zengine run in that window a cold build, ASan near 40 of its 60 minutes.
+
+**Trigger:** a Zengine run near a limit after a Loom merge, or Loom merging often enough that the
+window costs more than one run would: then a Zengine `main` run started when Loom merges.
 
 ## 5. Loom and architecture pressure
 
@@ -1485,6 +1522,21 @@ guide for a Workshop tool says replies need the host's send rules; the friction 
 told nothing. A dispatch refusal to the requester when its answer is denied is the seam.
 
 **Trigger:** the next owner that answers a new shape, or Loom's dispatch refusals.
+
+### P-LOOM-14 — Under MSVC a weave keeps the standard handles it loaded with
+
+**State:** WATCH — the founder's decision 1 (a) on Loom #53 (2026-10-11); KERN-05 says it  
+**Evidence:** [#53's continuation's report](../reportbacks/weave-runtime-windows-msvc-stdio-RB.md)
+
+A weave built for the static runtime takes the Windows standard handles as its C stdio when it
+loads, and keeps them: a host that repoints a handle while a weave loads hands that weave the
+redirect's handle, and one that closes it after leaves the weave writing nowhere, or into whatever
+reuses it. Zengine's `snake` and `surface` met it (#189). Loom's Windows terminal witness repoints
+stdin around a running host (`tests/host_terminal/witness.cpp`); whether a weave loads under it and
+reads its stdin is not traced. The method, a catcher made before the load and no hush around a
+load, belongs in Zengine's verification register (`agents/verification/platforms.md`).
+
+**Trigger:** a host or a test that repoints a standard handle while weaves load.
 
 ## 6. Adoption pressure
 
