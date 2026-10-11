@@ -749,7 +749,8 @@ settings at a re-offer, as #181 does the manual.
 
 **State:** CLOSED — founder merged Zengine #197 as `9e289e2` (2026-10-11), closing #185: a guest
 asks Workshop where realization is (`GuestPlanRequested`, its `wait` held until the plan rests);
-residue: `workshop_journey` stays apart in CI's four lists until a follow-up after B3 (#198)  
+residue: `workshop_journey` stays apart in CI's four lists until a follow-up after B3, #198
+([prompt](../prompts/workshop-journey-in-pool.md))  
 **Evidence:** [build-speed's report](../reportbacks/build-speed-RB.md#decisions-asked), its proof
 run B (`38094264655`, ASan, attempt 1); the far side named by Vision's review (2026-10-10)
 
