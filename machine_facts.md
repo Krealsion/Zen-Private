@@ -67,7 +67,9 @@
   `LNK2038` mismatches; a kernel-less install makes configure silently skip every weave).
 - **Git remote operations run from the Windows Bash tool, never WSL**; the Actions API is readable
   unauthenticated for job conclusions, not for logs. Two GitHub logins live here (2026-10-10):
-  - **the founder's, `Krealsion`**: `gh`'s default login (it opens the pull requests), and Git
+  - **the founder's, `Krealsion`**: `gh`'s default login (it opens the pull requests; on 2026-10-11
+    `gh`'s active login read `UnknownWorkers` instead, so a session pinned `GH_TOKEN` from `gh auth
+    token --user Krealsion` per command, and `issue-say.sh` posted as the machine account), and Git
     Credential Manager's for HTTPS remotes. His SSH key, `~/.ssh/id_ed25519` (rotated 2026-10-10),
     asks a passphrase: Git Bash's `ssh` cannot ask it (`read_passphrase: can't open /dev/tty`), and
     the Windows OpenSSH agent holds it, so a session reaches an SSH remote with

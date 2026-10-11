@@ -783,7 +783,12 @@ refused, keeps no guest out for good (Vision). Its session stopped at the Folder
 executor and held with `wait` until the plan rests, and a session host declares the ask only in
 `external-host/vocabulary_weave.hpp`; the founder widened the Folders by it and took the design,
 every row asking and only rows that read the desk or the inventory told the rows' names (2026-10-11;
-[continuation](../prompts/guest-door-readiness-scope.md)).
+[continuation](../prompts/guest-door-readiness-scope.md)). The repair is Zengine #197
+(`GuestPlanRequested` with `wait`, `GuestPlanSaid`, held asks bounded at 32, WL-GUEST-12), reviewed
+(Vision, 2026-10-11): run `38172393502` 8 of 8 green, `demo.py` started 10 times on Windows with no
+race; `guests.md` trimmed to exactly its budget, two lines a shade looser, restored when the
+appendix lands; `tests/shapes.txt` and `tests/test_population.txt` changed outside the Folders as
+registries every new shape and case moves. Then `workshop_journey` leaves CI's lists in a follow-up.
 
 **Trigger:** the founder's decision 1. The issue's first question: what can a guest read to know
 the plan is realized? If something, the journey waits for it; if nothing, Workshop's readiness is
