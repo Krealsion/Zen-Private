@@ -54,8 +54,9 @@
   `0xC0000135` and g++ prints nothing, and a built `.exe` dies `0xc0000139` before any test runs.
 - **MSVC**: VS 2026 Community 18.1 at `C:\Program Files\Microsoft Visual Studio\18\Community` (cl
   19.50.35720). It refuses `editor/neovim/lua.hpp`'s 20.6 KB `kModule` literal (C2026), which the
-  hosted cl 19.51 accepts, so no local MSVC build of Zengine `main` completes until Visual Studio is
-  updated; the Windows lanes phase split the literal in its trees, uncommitted (2026-10-11). The kit
+  hosted cl 19.51 accepts, so no local MSVC build of Zengine `main` completed until Visual Studio
+  was updated (the founder updated it, 2026-10-11; the next local MSVC build says whether it now
+  compiles); the Windows lanes phase split the literal in its trees, uncommitted (2026-10-11). The kit
   builds Zengine with MSVC (`build-win.sh msvc`, and `msvc-bare` with nothing added). Zengine's MSVC
   lane needs `VsDevCmd.bat -arch=x64` loaded into the shell (its
   `INCLUDE`/`LIB`/`LIBPATH`/`PATH`); `Enter-VsDevShell` is not a substitute (it needs `vswhere` on
