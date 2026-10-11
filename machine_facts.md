@@ -179,3 +179,6 @@
   with no `metadata`, so `C:\Users\Joshua\.ssh` reads through `/mnt/c`; G: and H: are exFAT, with no
   ACLs; `memory` and `pids` are delegated to the user's slice; WSLg's X sockets are `/tmp/.X11-unix`
   and `/mnt/wslg/.X11-unix`.
+- **The founder's SSH key asks a passphrase** (rotated 2026-10-10), so no session can push over SSH
+  unattended; sessions push over HTTPS, where Git Credential Manager already holds the founder's
+  login (the overhaul's B1 continuation, 2026-10-11).
