@@ -323,22 +323,27 @@ agreed; a security defect is never one of them. An issue carries a prompt's full
 cold, so that once it is `ready` other agents can take it under the founder's final approval, among
 them a local frontier model a friend of the founder's runs (2026-10-10). Every other decision of the
 powers research taken as recommended (the founder, 2026-10-11): stage `door`
-([prompt](../prompts/agent-desk-door.md)) first, beside `declare`. UnknownWorkers' `gh` login lives
-in `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
-needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
-it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
-issue's folders and asks nothing of who wrote the issue. Both repositories already teach the issue's
-form (`docs/contributing/taking-an-issue.md`); their `ready` issues, checked before the folder move,
-are refreshed on current main with their folders ([prompt](../prompts/ready-issues-refresh.md),
-[report](../reportbacks/ready-issues-refresh-RB.md)): 16 of 16 still hold (Loom #33 in part), each
-with a Folders block and a Checked against saying how far its check went, no private plan id left;
-the form says so in Zengine #182 and Loom #50, documentation-only, reviewed (Vision) and merged by
-the founder (2026-10-11); the address law is Zengine #183, filed under `UnknownWorkers`, `ready` and
-`defect` set in the founder's name, taken once B2's pull request merges, since both change the
-Builder's action census; Loom #41 predates the GCC 16 experiment and holds no Folders block, so the
-founder took its `ready` off until his decision (2026-10-11). The check at the pull request reads an
-issue's Folders block as it stood when `ready` was set, since the account that filed an issue can
-edit it after (Vision).
+([prompt](../prompts/agent-desk-door.md), [report](../reportbacks/agent-desk-door-RB.md)) is Loom
+#52, reviewed (Vision, 2026-10-11): the door's grammar, containment by segment, the disjoint axis,
+`RequestAuthority` v2 and `AuthorityPrompt` v3, a describe-only capability, as the research has
+them; its hosted run is `success` with its three Windows jobs, advisory, red, which the report did
+not read, so a continuation reads and repairs them
+([prompt](../prompts/agent-desk-door-windows.md)); `declare` runs beside it. UnknownWorkers' `gh`
+login lives in `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine
+(2026-10-10). An issue needs no approval of its own: the fix's approval is the gate, and each issue
+says honestly how far it was checked (the founder, 2026-10-10); so the check at the pull request
+bounds a change to its issue's folders and asks nothing of who wrote the issue. Both repositories
+already teach the issue's form (`docs/contributing/taking-an-issue.md`); their `ready` issues,
+checked before the folder move, are refreshed on current main with their folders
+([prompt](../prompts/ready-issues-refresh.md), [report](../reportbacks/ready-issues-refresh-RB.md)):
+16 of 16 still hold (Loom #33 in part), each with a Folders block and a Checked against saying how
+far its check went, no private plan id left; the form says so in Zengine #182 and Loom #50,
+documentation-only, reviewed (Vision) and merged by the founder (2026-10-11); the address law is
+Zengine #183, filed under `UnknownWorkers`, `ready` and `defect` set in the founder's name, taken
+once B2's pull request merges, since both change the Builder's action census; Loom #41 predates the
+GCC 16 experiment and holds no Folders block, so the founder took its `ready` off until his decision
+(2026-10-11). The check at the pull request reads an issue's Folders block as it stood when `ready`
+was set, since the account that filed an issue can edit it after (Vision).
 
 The Tutor's highlight, researched ([its report](../reportbacks/tutor-highlight-research-RB.md),
 2026-10-11; reviewed by Vision the same day, 12 decisions asked; the address law taken for the issue
@@ -477,11 +482,11 @@ Drive measured level with plain C:, so the founder chose C: and deleted D: (2026
 Windows trees are under `C:/Users/Joshua/zen-build/` and the WSL lanes run from an ext4 copy (Zen
 `7ec2f1a6`). The parallel ASan lane met a race in `workshop_journey` I1, Workshop's guest door
 serving before its plan is realized (P-WORK-62): the founder kept `-j4` on both Linux jobs and took
-the race to an issue (#180's decision 1, 2026-10-11;
-[prompt](../prompts/guest-door-readiness-issue.md)), a red with only that failure rerun once and
-named until its fix merges. The MSVC job now bounds a run (the founder asked, 2026-10-11): on #181's
-run it spent 1,080 s compiling and 1,034 s on a serial verify. The fast-builds research's decision
-10, open, kept it bare; a measured phase, on #180's branch once its session ends
+the race to an issue (#180's decision 1, 2026-10-11), Zengine #185, `ready`
+([report](../reportbacks/guest-door-readiness-issue-RB.md)), a red with only that failure rerun once
+and named until its fix merges. The MSVC job now bounds a run (the founder asked, 2026-10-11): on
+#181's run it spent 1,080 s compiling and 1,034 s on a serial verify. The fast-builds research's
+decision 10, open, kept it bare; a measured phase, on #180's branch once its session ends
 ([prompt](../prompts/windows-lanes.md)), the founder's choice (2026-10-11): the cache on pull
 requests (embedded debug information and a launcher in CI's configure line, not Zengine's CMake),
 one bare MSVC run on `main` nightly as the stranger's proof, and both Windows jobs' tests in

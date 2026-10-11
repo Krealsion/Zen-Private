@@ -747,8 +747,9 @@ settings at a re-offer, as #181 does the manual.
 
 ### P-WORK-62 — Workshop's guest door serves before its plan is realized
 
-**State:** OPEN — the founder's decision 1 (2026-10-11): `-j4` kept, the race an issue
-([prompt](../prompts/guest-door-readiness-issue.md))  
+**State:** OPEN — the founder's decision 1 (2026-10-11): `-j4` kept, the race Zengine #185, `ready`
+([report](../reportbacks/guest-door-readiness-issue-RB.md)): its first question, what a guest can
+read that says the plan is realized, found nothing so far  
 **Evidence:** [build-speed's report](../reportbacks/build-speed-RB.md#decisions-asked), its proof
 run B (`38094264655`, ASan, attempt 1); the far side named by Vision's review (2026-10-10)
 
