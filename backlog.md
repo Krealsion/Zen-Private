@@ -328,14 +328,22 @@ gate, and each issue says honestly how far it was checked (the founder, 2026-10-
 the pull request bounds a change to its issue's folders and asks nothing of who wrote the issue.
 Both repositories already teach the issue's form (`docs/contributing/taking-an-issue.md`); their
 `ready` issues, checked before the folder move, are refreshed on current main with their folders
-([prompt](../prompts/ready-issues-refresh.md)).
+([prompt](../prompts/ready-issues-refresh.md), [report](../reportbacks/ready-issues-refresh-RB.md)):
+16 of 16 still hold (Loom #33 in part), each with a Folders block and a Checked against saying how
+far its check went, no private plan id left; the form says so in Zengine #182 and Loom #50,
+documentation-only, green, reviewed ready to merge (Vision, 2026-10-10); the address law is Zengine
+#183, filed under `UnknownWorkers`, `ready` and `defect` set in the founder's name, taken once B2's
+pull request merges, since both change the Builder's action census; Loom #41, still `ready`,
+predates the GCC 16 experiment and holds no Folders block, so its label waits on the founder's
+decision. The check at the pull request reads an issue's Folders block as it stood when `ready` was
+set, since the account that filed an issue can edit it after (Vision).
 
 The Tutor's highlight, researched ([its report](../reportbacks/tutor-highlight-research-RB.md),
 2026-10-11; reviewed by Vision the same day, 12 decisions asked; the address law taken for the issue
 lane now (decisions 1 and 11, the founder, 2026-10-11;
 [continuation](../prompts/ready-issues-refresh-address-law.md)), the rest pending): a press and a
 highlight name one address, `<office>/<pane>:<id>`, drawn by the part `control:<id>`, so five panes'
-control parts are renamed to their ids (the address law, an issue for the issue lane now); what a
+control parts are renamed to their ids (the address law, Zengine #183 in the issue lane); what a
 press may cause is declared on the action row (`causes`, with the pane's `mode`, the row's `enters`
 and the other modes' causes, `elsewhere`), held where Workshop holds the rows and kept true by the
 census, a press witness and the manual check on `Answers`; the agent resolves (`desk/resolve`),
