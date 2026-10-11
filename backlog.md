@@ -288,8 +288,8 @@ primitives, and a check at the pull request refusing a path outside its issue's 
 Its stages: `door` (Loom, beside the overhaul), `tutor` (after docs B2 and `door`), #139, 3a, 3b,
 `host` (before `ask`), `ask`, `check` beside, `probe` with the Steward's first consumer. The Tutor
 walked on a weaver's desk against a prototype guide mark. With #181's switch to a manual answered on
-ask, the guest's manual read at `tutor` asks the pane through Workshop under its `capture` doors
-(Vision), and the document declarations leave its list of host keepings. Its view probe's canary
+ask, a guest asks a pane's office for its manual directly, needing no `capture` door since a manual
+is public, and the document declarations leave its list of host keepings. Its view probe's canary
 read the founder's SSH private key through `/mnt/c` into a log deleted within a minute (none of it
 found since); rotating it is the founder's call.
 
@@ -408,13 +408,14 @@ toward the founder's final test of Workshop, a small 3D third-person action game
 
 ### BL-WORK-44 — Faster builds: the quick wins
 
-**State:** ORDERED — ([prompt](../prompts/build-speed.md)), from the fast-builds research
-([report](../reportbacks/fast-builds-research-RB.md)) and the C: drive test
-([report](../reportbacks/c-drive-builds-RB.md)): the Windows build trees on C:, the WSL lanes from
-an ext4 source copy, and CI's Q1 to Q3 (Loom without its tests, a compiler cache written only by
-`main`'s runs, parallel CTest on the Linux jobs), the research's decision 1 as recommended (the
-founder, 2026-10-10). Zen itself stays on G:. A Dev Drive is the founder's to make; if he does, the
-trees' root is measured on it beside plain C:  
+**State:** ORDERED, first beside the documentation (the founder, 2026-10-11) —
+([prompt](../prompts/build-speed.md)), CI's quick wins open as Zengine #180, the report to come;
+from the fast-builds research ([report](../reportbacks/fast-builds-research-RB.md)) and the C: drive
+test ([report](../reportbacks/c-drive-builds-RB.md)): the Windows build trees on C:, the WSL lanes
+from an ext4 source copy, and CI's Q1 to Q3 (Loom without its tests, a compiler cache written only
+by `main`'s runs, parallel CTest on the Linux jobs), the research's decision 1 as recommended (the
+founder, 2026-10-10). Zen itself stays on G:. the founder made a Dev Drive, D:, and the trees' root
+is measured on it beside plain C:  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
 times faster than on G: in the C: test.
@@ -820,41 +821,50 @@ onboarding remain broader work; this bounded repair does not close the item.
 
 ### BL-ADOPT-05 — The documentation overhaul: a man page on each weave, a tutorial for each step
 
-**State:** ORDERED — researched ([its report](../reportbacks/docs-overhaul-research-RB.md)); its ten
-decisions taken as recommended but F2: no forwarding headers, since the move precedes the first
-release (the founder, 2026-10-10). Stage A, the move, merged as Zengine #179 with Loom #47
-(2026-10-10). B1, the Builder's manuals ([prompt](../prompts/docs-overhaul-b1.md),
-[report](../reportbacks/docs-overhaul-b1-RB.md)), is Zengine #181, reviewed (Vision, 2026-10-10),
-its first hosted run green on all eight jobs: a weave carries its manual compiled in (`MANUAL`,
-`cmake/ZengineManual.cmake`), a pane declares it beside its offer and Workshop holds it while the
-sender holds the office, dropping it at a re-offer, and the Builder office answers
-`ShapeDocumentRequested` from its page; the `manual` check, the action census `tests/actions.txt`
-and the key markers; the Builder's two manuals and its first tutorial; its ten choices accepted,
-then 2 and 3 reversed: the founder chose a pane's manual answered on ask instead of held by
-Workshop, in #181 before it merges (2026-10-10; [prompt](../prompts/docs-overhaul-b1-ask.md)): the
-research's decision 12 held it, on the settings declaration's pattern, so the `?` could redraw from
-words in hand, which an answer kept while the `?` is open gives as well; the held copy, its drop at
-a re-offer and its lines in WL-DESK-06 go (a law of verdicts, the placement the B1 prompt carried
-from the research: Vision's miss). Into B2: a setting each for how the band and the Hotkeys view
-spell a key, chosen apart, the defaults as now (the band short, `B`, `^p`, `enter`; the Hotkeys view
-full, `shift+b`, `ctrl+p`, `return`), reached by a gear beside the `?` (the founder, 2026-10-10),
-the `?` spelling as the Hotkeys view does (Vision); the `?` finding a section's keys from data the
-splitter writes, never a C++ reading of the page. Into B3: the tutorial's pictures taken from a root
-under `D:/Zen`, the Dev Drive, as every tutorial's and demo's pictures are from now on (the founder,
-2026-10-10; they show `G:/programming/cpp/Zen/scratch/` today), and the Pane Manager put away before
-the last. Into C: the key markers checked on every page under a `docs/`
-(`workshop/docs/load-plans.md` names the Builder's `o`, `f`, `b` and `c` bare,
-`builder/docs/recipes.md` Files' `u` and `a`); one walker of a pane's modes for the census; the
-report's manual scaffold; nothing in a running Workshop is granted `ShapeDocumentRequested` yet, so
-its first asker brings the grant; a page near `kMaxManualBytes` makes a declaration past the history
-recorder's 64 KiB payload ceiling. Into D: `cmake/ZengineManual.cmake` needs policy CMP0054 NEW,
-which a stranger's old `cmake_minimum_required` would not give. Then B2, the `?`, with B3, its
-tutorial replayed; C, feature by feature in the issue lane to 2026-10-22; D after the release.
-BL-WORK-38's stages 3a and 3b follow B2. The research's findings are verified and filed in deep
-review's place ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and
-merged as #169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the founder chose
-reading (b), with the build send keeping its ticket (2026-10-10); taken with the follower's lost
-realization (#176) as #177 and #178, merged before the move (2026-10-10)
+**State:** ORDERED, first beside the build-speed changes (the founder, 2026-10-11) — researched
+([its report](../reportbacks/docs-overhaul-research-RB.md)); its ten decisions taken as recommended
+but F2: no forwarding headers, since the move precedes the first release (the founder, 2026-10-10).
+Stage A, the move, merged as Zengine #179 with Loom #47 (2026-10-10). B1, the Builder's manuals
+([prompt](../prompts/docs-overhaul-b1.md), [report](../reportbacks/docs-overhaul-b1-RB.md)), is
+Zengine #181, its two commits reviewed ready to merge (Vision, 2026-10-11), each one's hosted run
+green on all eight jobs (the second's, on `3592c04`, 51 minutes): a weave carries its manual
+compiled in (`MANUAL`, `cmake/ZengineManual.cmake`), a pane declares it beside its offer and
+Workshop holds it while the sender holds the office, dropping it at a re-offer, and the Builder
+office answers `ShapeDocumentRequested` from its page; the `manual` check, the action census
+`tests/actions.txt` and the key markers; the Builder's two manuals and its first tutorial; its ten
+choices accepted, then 2 and 3 reversed: the founder chose a pane's manual answered on ask instead
+of held by Workshop, in #181 before it merges (2026-10-10;
+[prompt](../prompts/docs-overhaul-b1-ask.md)): the research's decision 12 held it, on the settings
+declaration's pattern, so the `?` could redraw from words in hand, which an answer kept while the
+`?` is open gives as well; the held copy, its drop at a re-offer and its lines in WL-DESK-06 went (a
+law of verdicts, the placement the B1 prompt carried from the research: Vision's miss), in #181's
+second commit ([prompt](../prompts/docs-overhaul-b1-ask.md),
+[report](../reportbacks/docs-overhaul-b1-ask-RB.md)): `PaneDocumentRequested` asked of the pane's
+office directly and answered to the asker alone, the whole page or one section; a manual is public,
+the repository's own page, so reading one needs no scope. B2's `?` and its settings need nothing
+new; its tutorial mode waits on the highlight research, which asks whether tutorial mode and the
+Tutor's highlight read one declaration (Vision). Into B2: a setting each for how the band and the
+Hotkeys view spell a key, chosen apart, the defaults as now (the band short, `B`, `^p`, `enter`; the
+Hotkeys view full, `shift+b`, `ctrl+p`, `return`), reached by a gear beside the `?` (the founder,
+2026-10-10), the `?` spelling as the Hotkeys view does (Vision); the `?` finding a section's keys
+from data the splitter writes, never a C++ reading of the page. Into B3: the tutorial's pictures
+taken from a root under `D:/Zen`, the Dev Drive, as every tutorial's and demo's pictures are from
+now on (the founder, 2026-10-10; they show `G:/programming/cpp/Zen/scratch/` today), and the Pane
+Manager put away before the last. Into C: an office offering several panes (the desk, Introspection,
+Info, Inventory) under one page, which `pane_document`'s one pane does not yet fit; the key markers
+checked on every page under a `docs/` (`workshop/docs/load-plans.md` names the Builder's `o`, `f`,
+`b` and `c` bare, `builder/docs/recipes.md` Files' `u` and `a`); one walker of a pane's modes for
+the census; the report's manual scaffold; nothing in a running Workshop is granted
+`ShapeDocumentRequested` yet, so its first asker brings the grant; a page near `kMaxManualBytes`
+makes a declaration past the history recorder's 64 KiB payload ceiling. Into D:
+`cmake/ZengineManual.cmake` needs policy CMP0054 NEW, which a stranger's old
+`cmake_minimum_required` would not give. Then B2, the `?`, with B3, its tutorial replayed; C,
+feature by feature in the issue lane to 2026-10-22; D after the release. BL-WORK-38's stages 3a and
+3b follow B2. The research's findings are verified and filed in deep review's place
+([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and merged as
+#169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the founder chose reading
+(b), with the build send keeping its ticket (2026-10-10); taken with the follower's lost realization
+(#176) as #177 and #178, merged before the move (2026-10-10)
 ([report](../reportbacks/realization-notice-RB.md)). Stage C's inputs from them: the told history in
 `agents/` that [the F6 record](../reportbacks/overhaul-findings/verify/F6-realization-history.md)
 lists; `docs/workshop/limitations.md`'s unload sentences and package count beside
