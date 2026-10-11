@@ -747,7 +747,8 @@ settings at a re-offer, as #181 does the manual.
 
 ### P-WORK-62 — Workshop's guest door serves before its plan is realized
 
-**State:** OPEN — #180's decision 1, the founder's  
+**State:** OPEN — the founder's decision 1 (2026-10-11): `-j4` kept, the race an issue
+([prompt](../prompts/guest-door-readiness-issue.md))  
 **Evidence:** [build-speed's report](../reportbacks/build-speed-RB.md#decisions-asked), its proof
 run B (`38094264655`, ASan, attempt 1); the far side named by Vision's review (2026-10-10)
 
@@ -1388,8 +1389,9 @@ field of `T`'s type. Left open:
 
 ### P-LOOM-11 — A MinGW-w64 runtime instance takes a TLS index it never returns
 
-**State:** DECISION — #41's MinGW-w64 half, the founder's; measured by the GCC 16 experiment
-([report](../reportbacks/runtime-gcc16-RB.md), reviewed by Vision 2026-10-10); #41 held on
+**State:** TAKEN — the stand-in for #41's MinGW-w64 half (the founder, 2026-10-11;
+[prompt](../prompts/weave-runtime-windows.md)); measured by the GCC 16 experiment
+([report](../reportbacks/runtime-gcc16-RB.md), reviewed by Vision 2026-10-10); #41 on
 `weave/carry-runtime-on-windows` (`be65832`)  
 **Evidence:** [the release's L1 report](../reportbacks/release-l1-RB.md#decisions-asked) and its
 evidence, section 5 (`pass-tools/release-l1/reload/`); the experiment's evidence, sections 4-11
@@ -1416,7 +1418,7 @@ too: an exception crossing a host callback meets another copy of libstdc++. The 
 `workshop_load` death (23:41 UTC) falls inside the minute another session's too-wide `taskkill`
 ended that test binary (the fast-forward research's incident), so it is likely not the leak's.
 
-**Trigger:** the founder's decision on #41; the release's R1.
+**Trigger:** the stand-in's phase; the release's R1.
 
 ### P-LOOM-12 — Host callbacks let an exception cross the seam
 
