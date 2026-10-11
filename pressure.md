@@ -1423,9 +1423,9 @@ field of `T`'s type. Left open:
 ### P-LOOM-11 — A MinGW-w64 runtime instance takes a TLS index it never returns
 
 **State:** TAKEN — the stand-in for #41's MinGW-w64 half (the founder, 2026-10-11;
-[prompt](../prompts/weave-runtime-windows.md)); measured by the GCC 16 experiment
-([report](../reportbacks/runtime-gcc16-RB.md), reviewed by Vision 2026-10-10); #41 on
-`weave/carry-runtime-on-windows` (`be65832`)  
+[prompt](../prompts/weave-runtime-windows.md)), as Loom #53, reviewed (Vision, 2026-10-11), closed
+when it merges; measured by the GCC 16 experiment ([report](../reportbacks/runtime-gcc16-RB.md),
+reviewed by Vision 2026-10-10); #41 on `weave/carry-runtime-on-windows` (`be65832`)  
 **Evidence:** [the release's L1 report](../reportbacks/release-l1-RB.md#decisions-asked) and its
 evidence, section 5 (`pass-tools/release-l1/reload/`); the experiment's evidence, sections 4-11
 (`pass-tools/runtime-gcc16/`)
@@ -1455,7 +1455,7 @@ ended that test binary (the fast-forward research's incident), so it is likely n
 
 ### P-LOOM-12 — Host callbacks let an exception cross the seam
 
-**State:** WATCH — hooked to #41's MSVC half  
+**State:** WATCH — answered in Loom #53, reviewed (Vision, 2026-10-11), closed when it merges  
 **Evidence:** [the release's L1 report](../reportbacks/release-l1-RB.md#pressure-exposed)
 
 `zen_host_publish`, `answer_deferred`, `answer`, `office_publish` and the five `sense_*` callbacks
@@ -1463,6 +1463,12 @@ in `src/kernel/kernel.cpp` catch nothing, and the send callbacks catch only `std
 seam promises that no exception crosses it; once each image carries its own runtime (MSVC's static
 CRT) that promise is a requirement, since an exception thrown under one runtime and caught under
 another is undefined.
+
+#53 runs every host door through one guard, answering `ZEN_ERR_REFUSED` for what stopped the host,
+with a witness for each path. Two residues: the guard keeps no record on the host's side when it
+turns an unexpected exception into a refusal, so a host bug reads to the weave as a plain refusal
+and leaves no trace (Vision's review, 2026-10-11); and a publication that meets the sequence's end
+part way answers refused although earlier recipients were queued (#53's report, Pressure 2).
 
 **Trigger:** a weave that carries its own runtime, or any change to the callbacks.
 

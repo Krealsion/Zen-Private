@@ -172,10 +172,16 @@
   Rebuilt 2026-09-03: exit 0 in 52 s, `workshop.cpp` assembled and `zengine-workshop.exe` linked,
   and a second build says `ninja: no work to do`. Its prefix `Zen\install\loom` was installed
   from `Loom\build-clion`, whose cache names the same MSYS2 compiler and the Windows kernel on.
+- **Seven more MinGW-w64 toolchains** (five MinGW-Builds GCC from 12.2, llvm-mingw Clang 18.1.8 and
+  23.1.2) sit under `C:/Users/Joshua/zen-build/weave-runtime-windows/toolchains/`, their archives in
+  that phase's `dl/` (2026-10-11). CLion 2025.2's GCC 13.1 builds Loom's libraries but, once Loom
+  #53 merges, no weave: its libstdc++ lacks `__cxa_thread_atexit`, which the contract refuses.
 - **The harness collapses `\\` to `\` in a command before the shell sees it**, so a `\b`
   written as `\\b` reaches Python or printf as a backspace (measured 2026-09-03: a
   single-quoted `'x\\b'` arrived in Python as one backslash). Text that must carry a
-  backslash goes through a file written by a tool, never through the command line.
+  backslash goes through a file written by a tool, never through the command line: a batch file
+  written through `printf` lost a backslash and a digit (`Visual Studio\18` became `Studio8`,
+  2026-10-11).
 - **DisplayFusion injects `AppHook64_....dll` into every windowed process** (the release
   research, 2026-10-10): a loaded-module judgment of a graphical program on this machine names it,
   and it is not the package's.

@@ -332,14 +332,15 @@ not read; a continuation ([prompt](../prompts/agent-desk-door-windows.md),
 reading block comments by a pattern CMake's regex engine recurses through past a Windows thread's
 stack, and the host's largest unit past a COFF object's section ceiling, and repaired each: run
 `38129706119` at `23f6ce3`, every job green, the advisory ones included, reviewed (Vision,
-2026-10-11), ready to merge. Stage `declare` ([prompt](../prompts/agent-desk-declare.md),
-[report](../reportbacks/agent-desk-declare-RB.md)) is Zengine #186: each action row says what a
-press of it may cause, with the pane's mode, the row's `enters` and the other modes' causes, kept
-true by the census (`tests/actions.txt`, 49 rows) and a press witness, which found a cause the
-research missed (`authoring.commit` sends `ProjectFrontierRequested`); reviewed (Vision,
-2026-10-11), run `38127055466` 8 of 8 green, ready to merge. Zengine's CI builds against Loom's
-`main` as it stands at run time, and neither run built the two together, so Loom #52 merges first
-and #186's run runs again before its merge (Vision). UnknownWorkers' `gh` login lives in
+2026-10-11) and merged by the founder (2026-10-11). Stage `declare`
+([prompt](../prompts/agent-desk-declare.md), [report](../reportbacks/agent-desk-declare-RB.md)) is
+Zengine #186: each action row says what a press of it may cause, with the pane's mode, the row's
+`enters` and the other modes' causes, kept true by the census (`tests/actions.txt`, 49 rows) and a
+press witness, which found a cause the research missed (`authoring.commit` sends
+`ProjectFrontierRequested`); reviewed (Vision, 2026-10-11), run `38127055466` 8 of 8 green, ready to
+merge. Zengine's CI builds against Loom's `main` as it stands at run time, and neither run built the
+two together, so Loom #52 merged first and #186's run runs again against it before its merge (the
+founder, 2026-10-11). UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
 it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
@@ -1035,10 +1036,18 @@ open again. The GCC 16 experiment ([report](../reportbacks/runtime-gcc16-RB.md),
 exception pool at unload makes Zengine's MinGW-w64 lane pass against #41 on GCC 16, 55 of 55, where
 #41 alone fails; the founder took the stand-in for #41's MinGW-w64 half (2026-10-11), with the
 reload witness in Loom's lanes and P-LOOM-12 closed beside it
-([prompt](../prompts/weave-runtime-windows.md))  
+([prompt](../prompts/weave-runtime-windows.md)); reported
+([report](../reportbacks/weave-runtime-windows-RB.md)) as Loom #53, reviewed (Vision, 2026-10-11):
+run `38133001920` every job green; the stand-in returns every TLS and FLS index and the pool at
+unload (1,200 loads clean, under 2.5 KB left a load), the contract accepts MinGW-w64 GCC from 12.2
+and Clang from 18.1 and refuses older in words, and no exception crosses a host door. Under the MSVC
+ABI a weave's C stdio is its own, so Zengine's `snake` reads nothing from a skin loaded before its
+catcher; the founder kept it so, a host redirecting the Windows handle before a weave loads
+(decision 1 (a), 2026-10-11): `snake`'s fix in Zengine merges first, then #53, then the Zengine
+documents #53 makes false ([continuation](../prompts/weave-runtime-windows-msvc-stdio.md))  
 **Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
-starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A
-tutorial's replay on the extracted package can witness the package itself.
+starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A tutorial's
+replay on the extracted package can witness the package itself.
 
 It meets [Zengine#119](https://github.com/Krealsion/Zengine/issues/119) (the release's identity and
 compatibility promise) and BL-ADOPT-01 (the contributor front door).
