@@ -1343,6 +1343,11 @@ The leak is GCC's emulated TLS (emutls; MSYS2 g++ 15.2.0 measured). GCC 16 gaine
 Windows and MSYS2 enabled it on 2026-05-11 (msys2.org/news), where the Windows loader gives a
 module's TLS slot back at unload as it does for MSVC's: whether a GCC 16 weave still leaks is
 unmeasured (Vision, 2026-10-10).
+Measured since ([report](../reportbacks/runtime-gcc16-RB.md), 2026-10-11, its review to come): GCC
+16 ends the throw's road to the index, not the leak, which winpthreads' thread record still takes on
+a guarded static, `std::call_once` and `std::thread`; `workshop_panes` still aborts against #41. Its
+one `workshop_load` death (23:41 UTC) falls inside the minute another session's too-wide `taskkill`
+ended that test binary (the fast-forward research's incident), so it is likely not the leak's.
 
 **Trigger:** the founder's decision on #41; the release's R1.
 
