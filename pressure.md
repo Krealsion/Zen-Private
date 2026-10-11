@@ -759,8 +759,8 @@ bridge server refused in that server's own sentence (Loom `src/host/link.hpp`,
 wraps Loom's `BridgeServer` (`workshop/guest_door.hpp:62`), and a session host lacking the shape
 refuses a Python tool's ask before anything crosses, in other words (`link.hpp`, "a shape nothing on
 this host declares"). Workshop mounts its guest door and writes its port before its plan runs
-(`workshop/workshop.cpp:722-756`), and `executor.begin` returns before the plan is realized
-(`:1100-1102`), so a guest admitted early meets "unknown schema" for a shape a plan row is about to
+(`workshop/workshop.cpp:721-756`), and `executor.begin` returns before the plan is realized
+(`:1099-1107`), so a guest admitted early meets "unknown schema" for a shape a plan row is about to
 declare (`zengine-inventory`, `workshop/default-load-plan.json:194`). The journey waits for the port
 (W0) and for both links admitted (S1, whose words also claim the session's vocabulary), never for
 the plan; serially it has not shown. An agent that connects when the port appears reads the same
