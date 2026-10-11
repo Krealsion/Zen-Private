@@ -1272,7 +1272,9 @@ Each was met once, and each cost time:
   (the phase wrote `one-entry.sh`); `mutate.sh` taking an absolute or Windows path to its mutation
   file; and a pictures helper replaying a tutorial's walk under `C:/Zen-pictures` into its
   `images/`. B3's report, like #197's and the MSVC stdio phase's, was written before its run ended
-  (at 22:28; the run ended green at 22:46), so `run-end.sh` is asked again (Vision).
+  (at 22:28; the run ended green at 22:46), so `run-end.sh` is asked again (Vision); the founder
+  added it to the running kit phase (2026-10-11;
+  [prompt](../prompts/executor-kit-speed-run-end.md)).
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 
