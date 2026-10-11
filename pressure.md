@@ -1275,6 +1275,12 @@ Each was met once, and each cost time:
   (at 22:28; the run ended green at 22:46), so `run-end.sh` is asked again (Vision); the founder
   added it to the running kit phase (2026-10-11;
   [prompt](../prompts/executor-kit-speed-run-end.md)).
+- From the law-register appendix (2026-10-11): a primary clone switched to another branch by a
+  second session while the first held uncommitted edits in it (the workshop_journey follow-up and
+  the appendix ran side by side on Vision's word, which also missed that both edit
+  `agents/verification/lanes.md`), so a clone of its own for each running phase, or `primary.sh
+  switch` refusing a clone with uncommitted changes; and a `census` subcommand kept beside a pass's
+  applier, its probes thrown away after use this time.
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 
