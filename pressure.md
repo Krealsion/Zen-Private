@@ -1055,8 +1055,8 @@ Timer handing a schedule across a prepared replacement and the handover refused,
 entries building with cl (the session's reading of the log, in its commit `a86e349e`; Vision cannot
 read the logs). The phase had not met it in five proof runs nor locally at `-j16`. #187 runs it
 alone after the rest on both Windows jobs (`ZEN_CTEST_APART`, under ten seconds), which bounds it
-and does not repair it; once #187 merges, the repair is an issue's (Vision), filed then
-([prompt](../prompts/windows-lanes-after-merge.md)).
+and does not repair it; once #187 merges, the repair is an issue's (Vision): Zengine #191, `ready`
+([prompt](../prompts/windows-lanes-after-merge.md), 2026-10-11).
 
 **Trigger:** select a focused Windows concurrency investigation before documenting or enabling
 parallel MSVC verification.
@@ -1285,8 +1285,8 @@ handling.
 
 ### P-BUILD-13 — A suite waits a fixed span of real time
 
-**State:** OPEN — kept apart on both Linux jobs until its repair (the founder, 2026-10-11); its
-issue filed after #187 merges ([prompt](../prompts/windows-lanes-after-merge.md))  
+**State:** OPEN — kept apart on both Linux jobs until its repair (the founder, 2026-10-11), by #193;
+its issue Zengine #192, `ready` ([prompt](../prompts/windows-lanes-after-merge.md))  
 **Evidence:** [the Windows lanes' report](../reportbacks/windows-lanes-RB.md), its last section;
 proof F's ASan log as the session saved it (`scratch/windows-lanes/runs/proofF-ASan.log`, read by
 Vision)
@@ -1313,6 +1313,22 @@ Loom merge costs every Zengine run in that window a cold build, ASan near 40 of 
 
 **Trigger:** a Zengine run near a limit after a Loom merge, or Loom merging often enough that the
 window costs more than one run would: then a Zengine `main` run started when Loom merges.
+
+### P-BUILD-15 — A burst of merges leaves code unbuilt on `main`
+
+**State:** OPEN — found by Vision (2026-10-11)  
+**Evidence:** Zengine's `main` runs from 15:33 on 2026-10-11 (Vision, from the API)
+
+`main`'s runs share one concurrency group, which keeps one run going and one waiting, and a push
+that arrives while one waits replaces it: of the four merges between 15:33 and 15:39, #187's and
+#189's runs were cancelled while they waited. The change kind on a push compares with the push's
+`before`, so the last run, #190's, saw documents only and builds nothing. #187's and #189's code,
+and Zengine against Loom #53, were built on `main` by no push run; #193's pull request run and the
+next nightly are the first to build them, and no MSVC store is saved meanwhile, since the nightly
+builds MSVC bare.
+
+**Trigger:** now, as an issue: a push run that builds whenever a commit since `main`'s last
+finished run changed compiled files, or every push to `main` building.
 
 ## 5. Loom and architecture pressure
 
@@ -1459,10 +1475,11 @@ field of `T`'s type. Left open:
 
 ### P-LOOM-11 — A MinGW-w64 runtime instance takes a TLS index it never returns
 
-**State:** TAKEN — the stand-in for #41's MinGW-w64 half (the founder, 2026-10-11;
-[prompt](../prompts/weave-runtime-windows.md)), as Loom #53, reviewed (Vision, 2026-10-11), closed
-when it merges; measured by the GCC 16 experiment ([report](../reportbacks/runtime-gcc16-RB.md),
-reviewed by Vision 2026-10-10); #41 on `weave/carry-runtime-on-windows` (`be65832`)  
+**State:** CLOSED — Loom #53 merged (the founder, 2026-10-11); the stand-in for #41's MinGW-w64 half
+(the founder, 2026-10-11; [prompt](../prompts/weave-runtime-windows.md)), as Loom #53, reviewed
+(Vision, 2026-10-11); measured by the GCC 16 experiment
+([report](../reportbacks/runtime-gcc16-RB.md), reviewed by Vision 2026-10-10); #41 on
+`weave/carry-runtime-on-windows` (`be65832`)  
 **Evidence:** [the release's L1 report](../reportbacks/release-l1-RB.md#decisions-asked) and its
 evidence, section 5 (`pass-tools/release-l1/reload/`); the experiment's evidence, sections 4-11
 (`pass-tools/runtime-gcc16/`)
@@ -1492,7 +1509,8 @@ ended that test binary (the fast-forward research's incident), so it is likely n
 
 ### P-LOOM-12 — Host callbacks let an exception cross the seam
 
-**State:** WATCH — answered in Loom #53, reviewed (Vision, 2026-10-11), closed when it merges  
+**State:** CLOSED — answered in Loom #53, reviewed (Vision, 2026-10-11), merged by the founder
+(2026-10-11); its two residues below stay open  
 **Evidence:** [the release's L1 report](../reportbacks/release-l1-RB.md#pressure-exposed)
 
 `zen_host_publish`, `answer_deferred`, `answer`, `office_publish` and the five `sense_*` callbacks

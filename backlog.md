@@ -339,8 +339,9 @@ Zengine #186: each action row says what a press of it may cause, with the pane's
 press witness, which found a cause the research missed (`authoring.commit` sends
 `ProjectFrontierRequested`); reviewed (Vision, 2026-10-11), run `38127055466` 8 of 8 green, ready to
 merge. Zengine's CI builds against Loom's `main` as it stands at run time, and neither run built the
-two together, so Loom #52 merged first and #186's run ran again against it, 8 of 8 green, so #186 is
-ready to merge (Vision, 2026-10-11). UnknownWorkers' `gh` login lives in
+two together, so Loom #52 merged first and #186's run ran again against it, 8 of 8 green, so #186
+was ready to merge (Vision, 2026-10-11), and the founder merged it (2026-10-11); stage `tutor` is
+next, after the address law (#183). UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
 it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
@@ -514,12 +515,15 @@ decision 1 (2026-10-11): all four build jobs keep `workshop_journey` apart until
 replacing the rerun-once rule, and a follow-up after the fix takes it out of all four. The
 continuation did so: proof F's red is `audit_probes` probe D, a fixed 400 ms real-clock window under
 ASan load (P-BUILD-13), not #185's race; the pull request's text is true; the `builder` case is
-Zengine #188, `ready`; #187's run at `63edf86` 8 of 8 green, reviewed (Vision, 2026-10-11), ready to
-merge, the proof branch and its caches deleted after. `audit_probes` kept apart on the Linux jobs
-too until its repair (the founder, 2026-10-11), `timer` and probe D to the issue lane, and #185's
+Zengine #188, `ready`; #187's run at `63edf86` 8 of 8 green, reviewed (Vision, 2026-10-11), merged
+by the founder (2026-10-11), the proof branch deleted; its 17 caches, about 7.8 GB of the
+repository's 10, remain until deleted or evicted. `audit_probes` kept apart on the Linux jobs too
+until its repair (the founder, 2026-10-11), `timer` and probe D to the issue lane, and #185's
 comment corrected to leave its fix inside its folders
 ([prompt](../prompts/windows-lanes-after-merge.md)). The cold builds after Loom #52 were Loom's
-merge, not the stores (P-BUILD-14).  
+merge, not the stores (P-BUILD-14). After the merges, the `timer` and probe D issues are Zengine
+#191 and #192, `ready`, and `audit_probes` apart is #193, whose run is the first to build `main`'s
+merges together, since `main`'s own runs did not (P-BUILD-15).  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
 times faster than on G: in the C: test.
@@ -1058,7 +1062,8 @@ Zengine documents #53 makes false ([continuation](../prompts/weave-runtime-windo
 [report](../reportbacks/weave-runtime-windows-msvc-stdio-RB.md)): KERN-05 says it, the reload weave
 writes through `std::cout` and stays clean, #41's done-when amended, Zengine #189 (`snake`'s
 catchers made before the load, a hush leaving no weave a closed handle) and #190 (the documents),
-every run green, reviewed (Vision, 2026-10-11): #189, then #53, then #190 (P-LOOM-14)  
+every run green, reviewed (Vision, 2026-10-11), and merged by the founder in that order, #189, #53,
+#190, closing #41 (2026-10-11) (P-LOOM-14)  
 **Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
 starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A tutorial's
 replay on the extracted package can witness the package itself.
