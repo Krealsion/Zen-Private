@@ -54,9 +54,20 @@
   unconfigurable since its prefix vanished); the working MSVC Loom prefix is Loom
   `build-msvc-p1/_install` — Debug AND `LOOM_ENABLE_WINDOWS_KERNEL=ON` (a Release install links
   as `LNK2038` mismatches; a kernel-less install makes configure silently skip every weave).
-- **Git remote operations run from the Windows Bash tool, never WSL**: the SSH key exists only at
-  Windows `~/.ssh/id_ed25519`. `gh` is installed and logged in (it opens the pull requests); the
-  Actions API is readable unauthenticated for job conclusions, not for logs.
+- **Git remote operations run from the Windows Bash tool, never WSL**; the Actions API is readable
+  unauthenticated for job conclusions, not for logs. Two GitHub logins live here (2026-10-10):
+  - **the founder's, `Krealsion`**: `gh`'s default login (it opens the pull requests), and Git
+    Credential Manager's for HTTPS remotes. His SSH key, `~/.ssh/id_ed25519` (rotated 2026-10-10),
+    asks a passphrase: Git Bash's `ssh` cannot ask it (`read_passphrase: can't open /dev/tty`), and
+    the Windows OpenSSH agent holds it, so a session reaches an SSH remote with
+    `GIT_SSH_COMMAND=C:/Windows/System32/OpenSSH/ssh.exe`, or uses HTTPS;
+  - **the restricted agents', `UnknownWorkers`** (a GitHub machine account): its own `gh` login,
+    `GH_CONFIG_DIR="$HOME/.config/gh-unknownworkers" gh ...`, a classic token with `repo` and
+    `read:org`. No collaborator access to Zengine or Loom: it files issues, comments, and opens pull
+    requests from its own fork, and never merges, pushes to the founder's repositories or sets
+    labels. Git's own credentials are untouched by it; pushing to its fork as it, through `gh auth
+    git-credential` under that `GH_CONFIG_DIR`, is untried. A restricted agent uses this login and
+    no other.
 - **The Bash tool** is Git Bash: its `python` is Windows Python, its `/tmp` is not WSL's, and WSL's
   `/tmp` does not survive between tool calls; `perl -0pi` cannot rename its work file on `/mnt/g`;
   a heredoc of ~190 lines or more fails with `unexpected EOF`; `wsl -e bash <script>` has its
@@ -179,6 +190,5 @@
   with no `metadata`, so `C:\Users\Joshua\.ssh` reads through `/mnt/c`; G: and H: are exFAT, with no
   ACLs; `memory` and `pids` are delegated to the user's slice; WSLg's X sockets are `/tmp/.X11-unix`
   and `/mnt/wslg/.X11-unix`.
-- **The founder's SSH key asks a passphrase** (rotated 2026-10-10), so no session can push over SSH
-  unattended; sessions push over HTTPS, where Git Credential Manager already holds the founder's
-  login (the overhaul's B1 continuation, 2026-10-11).
+- **Python's `write_text` on Windows writes CRLF**: a helper that edits a product file writes bytes,
+  as the kit's `replace.py` does (the Weaver's decisions, 2026-10-11).

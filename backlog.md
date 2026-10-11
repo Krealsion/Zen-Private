@@ -296,29 +296,34 @@ found since); rotating it is the founder's call.
 The founder's answers (2026-10-10): the agent the desk supports is one completely contained command
 structure, with access to great power when granted, and containing today's harness (Claude Code) is
 a later problem; the Weaver's decisions name their prompt now, ahead of `door`
-([prompt](../prompts/weaver-decisions.md)), no public issue; the highlight researched to match a
-press, a message resolved to the control that sends it on a view, and a message no control on the
-desk sends moving the weaver to a pane or setup that can, or improving the tool where the control
-belongs ([prompt](../prompts/tutor-highlight-research.md)); an issue names its bounded areas in a
-`## Folders` block, not files; and agents work under a GitHub machine account of their own,
-`UnknownWorkers`, that comments, makes branches, pull requests and issues, and never merges. On a
-personal account's repository a collaborator has one level, write, which merges and labels (Vision,
-from GitHub's own pages), so Vision recommends no collaborator access: its branches in its fork, its
-pull requests from there, `ready` the founder's alone to set, and a classic token with `public_repo`
-for its agents, since a fine-grained token cannot contribute to a repository its user is no member
-of. Vision may speak as the founder, with his login, once they agree, and says what went out in his
-name: he is the final gate for everything, and wants it open (2026-10-10). Until a session of
-Vision's reaches GitHub, its issues are written into `Zen/issues/` and filed by a Ceecee once
-agreed; a security defect is never one of them. An issue carries a prompt's full information, read
-cold, so that once it is `ready` other agents can take it under the founder's final approval, among
-them a local frontier model a friend of the founder's runs (2026-10-10). The other decisions wait on
-the founder. UnknownWorkers' `gh` login lives in `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on
-the founder's machine (2026-10-10). An issue needs no approval of its own: the fix's approval is the
-gate, and each issue says honestly how far it was checked (the founder, 2026-10-10); so the check at
-the pull request bounds a change to its issue's folders and asks nothing of who wrote the issue.
-Both repositories already teach the issue's form (`docs/contributing/taking-an-issue.md`); their
-`ready` issues, checked before the folder move, are refreshed on current main with their folders
-([prompt](../prompts/ready-issues-refresh.md)).
+([prompt](../prompts/weaver-decisions.md), [report](../reportbacks/weaver-decisions-RB.md)), no
+public issue, as Loom #49, reviewed ready to merge, its hosted run green on all ten jobs (Vision,
+2026-10-11); its names count per Weaver, so a replacing Weaver's prompt 1 could take a decision sent
+to the office for the old one, and a follow-up makes a name unique among the host's Weavers
+([prompt](../prompts/weaver-prompt-names.md)), the WeaveId addressing #49 documents kept as the
+second guard; stage `door`'s prompt makes `AuthorityPrompt` v3 and `RequestAuthority` v2; the
+highlight researched to match a press, a message resolved to the control that sends it on a view,
+and a message no control on the desk sends moving the weaver to a pane or setup that can, or
+improving the tool where the control belongs ([prompt](../prompts/tutor-highlight-research.md)); an
+issue names its bounded areas in a `## Folders` block, not files; and agents work under a GitHub
+machine account of their own, `UnknownWorkers`, that comments, makes branches, pull requests and
+issues, and never merges. On a personal account's repository a collaborator has one level, write,
+which merges and labels (Vision, from GitHub's own pages), so Vision recommends no collaborator
+access: its branches in its fork, its pull requests from there, `ready` the founder's alone to set,
+and a classic token with `public_repo` for its agents, since a fine-grained token cannot contribute
+to a repository its user is no member of. Vision may speak as the founder, with his login, once they
+agree, and says what went out in his name: he is the final gate for everything, and wants it open
+(2026-10-10). Until a session of Vision's reaches GitHub, its issues are written into `Zen/issues/`
+and filed by a Ceecee once agreed; a security defect is never one of them. An issue carries a
+prompt's full information, read cold, so that once it is `ready` other agents can take it under the
+founder's final approval, among them a local frontier model a friend of the founder's runs
+(2026-10-10). The other decisions wait on the founder. UnknownWorkers' `gh` login lives in
+`GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
+needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
+it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
+issue's folders and asks nothing of who wrote the issue. Both repositories already teach the issue's
+form (`docs/contributing/taking-an-issue.md`); their `ready` issues, checked before the folder move,
+are refreshed on current main with their folders ([prompt](../prompts/ready-issues-refresh.md)).
 
 The walls, outside in (Vision, 2026-10-09): a separate OS user or a VM for the agent's host, the
 only wall that holds against an agent that does not keep to its doors (decision 17); its own GitHub
