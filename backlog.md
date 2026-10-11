@@ -525,9 +525,11 @@ comment corrected to leave its fix inside its folders
 ([prompt](../prompts/windows-lanes-after-merge.md)). The cold builds after Loom #52 were Loom's
 merge, not the stores (P-BUILD-14). After the merges, the `timer` and probe D issues are Zengine
 #191 and #192, `ready`, and `audit_probes` apart is #193, whose run is the first to build `main`'s
-merges together, since `main`'s own runs did not (P-BUILD-15). The kit's own quick wins, Q4 to Q6,
-Q7's issue and a slot given in turn, are prompted for a quiet window after docs B3, which goes first
-as its own optimization ([prompt](../prompts/executor-kit-speed.md)); the founder then tries the
+merges together, since `main`'s own runs did not (P-BUILD-15): 8 of 8 green against Loom #53, MSVC
+and `snake` included, reviewed (Vision, 2026-10-11), ready to merge alone, so that `main`'s run for
+it saves every store against the new Loom, MSVC's first. The kit's own quick wins, Q4 to Q6, Q7's
+issue and a slot given in turn, are prompted for a quiet window after docs B3, which goes first as
+its own optimization ([prompt](../prompts/executor-kit-speed.md)); the founder then tries the
 machine whole with several sessions, and what moves to an external host is judged from the slot's
 waits (the founder, 2026-10-11): evidence-only lanes, never bytes a weaver's Workshop loads
 (decision 7).  
