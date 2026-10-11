@@ -1107,7 +1107,10 @@ of its 8,192, so a new register cannot be routed either; five more stand between
 the 53 WL registers PROVEN BY is 49% of the bytes, the laws themselves (LAW, MEANS, DOES NOT MEAN)
 37%, and the check already verifies every citation mechanically. Vision's proposal: peel the proofs
 out of the registers, rather than split registers one by one, each split adding a router row
-(Vision, 2026-10-11).
+(Vision, 2026-10-11). The founder chose (2026-10-11): the budget raised by about half, the added
+bytes an appendix of the proofs, their lists compressed, searching and linking a later pass; after
+#185 and docs B3 merge, before the address law and `tutor` touch registers
+([prompt](../prompts/law-register-appendix.md)). #185 trims `guests.md` in place meanwhile.
 
 ## 5a. Night Lab
 
