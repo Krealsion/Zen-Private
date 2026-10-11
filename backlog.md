@@ -505,12 +505,13 @@ one bare MSVC run on `main` nightly as the stranger's proof, and both Windows jo
 parallel where they do not clash. Zengine #187 ([report](../reportbacks/windows-lanes-RB.md)),
 reviewed (Vision, 2026-10-11), not yet ready: by its report's medians MSVC 2,227 s before, 1,554
 cold and 890 warm, MinGW-w64 856 to 464; `workshop_journey` runs alone on both Windows jobs, its
-race met on MSVC too, and `timer` since #187's first run met it (P-BUILD-01); the report predates
-its run's end and its third commit, the run at `a86e349e` ended `cancelled`, its MSVC job at its
-limit on a slow runner (P-BUILD-09), and the proof's last ASan red is not yet named, so a
-continuation follows the run to its end ([prompt](../prompts/windows-lanes-run-end.md)). The
-founder's decision 1 (2026-10-11): all four build jobs keep `workshop_journey` apart until #185's
-fix merges, replacing the rerun-once rule, and a follow-up after the fix takes it out of all four.  
+race met on MSVC too, and `timer` since #187's first run met it (P-BUILD-01); the run at `a86e349e`
+ended green, 8 of 8, on its MSVC job's second attempt, the first cancelled at its limit on a slow
+runner (P-BUILD-09), and the report records the end; its Counts and the pull request's Evidence miss
+proof F's ASan red, so a continuation names it, adds the Linux jobs' list to #187 and files the
+path-bound `builder` case as an issue ([prompt](../prompts/windows-lanes-run-end.md)). The founder's
+decision 1 (2026-10-11): all four build jobs keep `workshop_journey` apart until #185's fix merges,
+replacing the rerun-once rule, and a follow-up after the fix takes it out of all four.  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
 times faster than on G: in the C: test.
@@ -1043,8 +1044,9 @@ unload (1,200 loads clean, under 2.5 KB left a load), the contract accepts MinGW
 and Clang from 18.1 and refuses older in words, and no exception crosses a host door. Under the MSVC
 ABI a weave's C stdio is its own, so Zengine's `snake` reads nothing from a skin loaded before its
 catcher; the founder kept it so, a host redirecting the Windows handle before a weave loads
-(decision 1 (a), 2026-10-11): `snake`'s fix in Zengine merges first, then #53, then the Zengine
-documents #53 makes false ([continuation](../prompts/weave-runtime-windows-msvc-stdio.md))  
+(decision 1 (a), 2026-10-11, kept so it holds alike across platforms for now, compiler updates
+perhaps allowing a better option later): `snake`'s fix in Zengine merges first, then #53, then the
+Zengine documents #53 makes false ([continuation](../prompts/weave-runtime-windows-msvc-stdio.md))  
 **Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
 starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A tutorial's
 replay on the extracted package can witness the package itself.
