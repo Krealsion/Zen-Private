@@ -306,8 +306,13 @@ personal account's repository a collaborator has one level, write, which merges 
 from GitHub's own pages), so Vision recommends no collaborator access: its branches in its fork, its
 pull requests from there, `ready` the founder's alone to set, and a classic token with `public_repo`
 for its agents, since a fine-grained token cannot contribute to a repository its user is no member
-of. Vision's issues are written into `Zen/issues/` and filed by a Ceecee under that account; a
-security defect is never one of them. The other decisions wait on the founder.
+of. Vision may speak as the founder, with his login, once they agree, and says what went out in his
+name: he is the final gate for everything, and wants it open (2026-10-10). Until a session of
+Vision's reaches GitHub, its issues are written into `Zen/issues/` and filed by a Ceecee once
+agreed; a security defect is never one of them. An issue carries a prompt's full information, read
+cold, so that once it is `ready` other agents can take it under the founder's final approval, among
+them a local frontier model a friend of the founder's runs (2026-10-10). The other decisions wait on
+the founder.
 
 The walls, outside in (Vision, 2026-10-09): a separate OS user or a VM for the agent's host, the
 only wall that holds against an agent that does not keep to its doors (decision 17); its own GitHub
