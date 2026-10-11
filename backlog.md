@@ -415,7 +415,12 @@ test ([report](../reportbacks/c-drive-builds-RB.md)): the Windows build trees on
 from an ext4 source copy, and CI's Q1 to Q3 (Loom without its tests, a compiler cache written only
 by `main`'s runs, parallel CTest on the Linux jobs), the research's decision 1 as recommended (the
 founder, 2026-10-10). Zen itself stays on G:. the founder made a Dev Drive, D:, and the trees' root
-is measured on it beside plain C:  
+is measured on it beside plain C: The MSVC job now bounds a run (the founder asked, 2026-10-11): on
+#181's run it spent 1,080 s compiling and 1,034 s on a serial verify. The fast-builds research's
+decision 10, open, kept it bare; Vision proposes a measured phase on #180's branch once its session
+ends: the cache on pull requests (embedded debug information and a launcher in CI's configure line,
+not Zengine's CMake), one bare MSVC run on `main` nightly as the stranger's proof, and both Windows
+jobs' tests in parallel where they do not clash; the founder's answer pending.  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
 times faster than on G: in the C: test.
