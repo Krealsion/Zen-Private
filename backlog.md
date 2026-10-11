@@ -326,24 +326,35 @@ powers research taken as recommended (the founder, 2026-10-11): stage `door`
 ([prompt](../prompts/agent-desk-door.md), [report](../reportbacks/agent-desk-door-RB.md)) is Loom
 #52, reviewed (Vision, 2026-10-11): the door's grammar, containment by segment, the disjoint axis,
 `RequestAuthority` v2 and `AuthorityPrompt` v3, a describe-only capability, as the research has
-them; its hosted run is `success` with its three Windows jobs, advisory, red, which the report did
-not read, so a continuation reads and repairs them
-([prompt](../prompts/agent-desk-door-windows.md)); `declare` runs beside it. UnknownWorkers' `gh`
-login lives in `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine
-(2026-10-10). An issue needs no approval of its own: the fix's approval is the gate, and each issue
-says honestly how far it was checked (the founder, 2026-10-10); so the check at the pull request
-bounds a change to its issue's folders and asks nothing of who wrote the issue. Both repositories
-already teach the issue's form (`docs/contributing/taking-an-issue.md`); their `ready` issues,
-checked before the folder move, are refreshed on current main with their folders
-([prompt](../prompts/ready-issues-refresh.md), [report](../reportbacks/ready-issues-refresh-RB.md)):
-16 of 16 still hold (Loom #33 in part), each with a Folders block and a Checked against saying how
-far its check went, no private plan id left; the form says so in Zengine #182 and Loom #50,
-documentation-only, reviewed (Vision) and merged by the founder (2026-10-11); the address law is
-Zengine #183, filed under `UnknownWorkers`, `ready` and `defect` set in the founder's name, taken
-once B2's pull request merges, since both change the Builder's action census; Loom #41 predates the
-GCC 16 experiment and holds no Folders block, so the founder took its `ready` off until his decision
-(2026-10-11). The check at the pull request reads an issue's Folders block as it stood when `ready`
-was set, since the account that filed an issue can edit it after (Vision).
+them; its first run ended `success` with its three Windows jobs, advisory, red, which the report did
+not read; a continuation ([prompt](../prompts/agent-desk-door-windows.md),
+[report](../reportbacks/agent-desk-door-windows-RB.md)) found both causes the change's, `doc_links`
+reading block comments by a pattern CMake's regex engine recurses through past a Windows thread's
+stack, and the host's largest unit past a COFF object's section ceiling, and repaired each: run
+`38129706119` at `23f6ce3`, every job green, the advisory ones included, reviewed (Vision,
+2026-10-11), ready to merge. Stage `declare` ([prompt](../prompts/agent-desk-declare.md),
+[report](../reportbacks/agent-desk-declare-RB.md)) is Zengine #186: each action row says what a
+press of it may cause, with the pane's mode, the row's `enters` and the other modes' causes, kept
+true by the census (`tests/actions.txt`, 49 rows) and a press witness, which found a cause the
+research missed (`authoring.commit` sends `ProjectFrontierRequested`); reviewed (Vision,
+2026-10-11), run `38127055466` 8 of 8 green, ready to merge. Zengine's CI builds against Loom's
+`main` as it stands at run time, and neither run built the two together, so Loom #52 merges first
+and #186's run runs again before its merge (Vision). UnknownWorkers' `gh` login lives in
+`GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
+needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
+it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
+issue's folders and asks nothing of who wrote the issue. Both repositories already teach the issue's
+form (`docs/contributing/taking-an-issue.md`); their `ready` issues, checked before the folder move,
+are refreshed on current main with their folders ([prompt](../prompts/ready-issues-refresh.md),
+[report](../reportbacks/ready-issues-refresh-RB.md)): 16 of 16 still hold (Loom #33 in part), each
+with a Folders block and a Checked against saying how far its check went, no private plan id left;
+the form says so in Zengine #182 and Loom #50, documentation-only, reviewed (Vision) and merged by
+the founder (2026-10-11); the address law is Zengine #183, filed under `UnknownWorkers`, `ready` and
+`defect` set in the founder's name, taken once B2's pull request merges, since both change the
+Builder's action census; Loom #41 predates the GCC 16 experiment and holds no Folders block, so the
+founder took its `ready` off until his decision (2026-10-11). The check at the pull request reads an
+issue's Folders block as it stood when `ready` was set, since the account that filed an issue can
+edit it after (Vision).
 
 The Tutor's highlight, researched ([its report](../reportbacks/tutor-highlight-research-RB.md),
 2026-10-11; reviewed by Vision the same day, 12 decisions asked; the address law taken for the issue
@@ -490,7 +501,15 @@ decision 10, open, kept it bare; a measured phase, on #180's branch once its ses
 ([prompt](../prompts/windows-lanes.md)), the founder's choice (2026-10-11): the cache on pull
 requests (embedded debug information and a launcher in CI's configure line, not Zengine's CMake),
 one bare MSVC run on `main` nightly as the stranger's proof, and both Windows jobs' tests in
-parallel where they do not clash.  
+parallel where they do not clash. Zengine #187 ([report](../reportbacks/windows-lanes-RB.md)),
+reviewed (Vision, 2026-10-11), not yet ready: by its report's medians MSVC 2,227 s before, 1,554
+cold and 890 warm, MinGW-w64 856 to 464; `workshop_journey` runs alone on both Windows jobs, its
+race met on MSVC too, and `timer` since #187's first run met it (P-BUILD-01); the report predates
+its run's end and its third commit, the run at `a86e349e` ended `cancelled`, its MSVC job at its
+limit on a slow runner (P-BUILD-09), and the proof's last ASan red is not yet named, so a
+continuation follows the run to its end ([prompt](../prompts/windows-lanes-run-end.md)). Asked of
+the founder: whether the Linux jobs keep `workshop_journey` apart too until #185's fix merges (its
+decision 1).  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
 times faster than on G: in the C: test.

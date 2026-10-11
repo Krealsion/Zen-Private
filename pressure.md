@@ -768,6 +768,11 @@ declare (`zengine-inventory`, `workshop/default-load-plan.json:194`). The journe
 the plan; serially it has not shown. An agent that connects when the port appears reads the same
 refusal as permanent.
 
+Met on MSVC too (2026-10-11): the Windows lanes' proof D, its MSVC job at `-j4`, I1 in the same
+words ([report](../reportbacks/windows-lanes-RB.md#decisions-asked)). #187 runs `workshop_journey`
+alone after the rest on both Windows jobs, which bounds the race and does not repair it; whether the
+Linux jobs do too until #185's fix merges is asked of the founder (Vision).
+
 **Trigger:** the founder's decision 1. The issue's first question: what can a guest read to know
 the plan is realized? If something, the journey waits for it; if nothing, Workshop's readiness is
 the fix.
@@ -1037,12 +1042,19 @@ owner. Keep selection, keyboard focus and click-through separate; do not create 
 
 ### P-BUILD-01 — Windows parallel CTest has a separate Timer failure
 
-**State:** WATCH / BOUNDED DEFECT  
-**Evidence:** ZOOM-P1, current Zengine verification law
+**State:** WATCH / BOUNDED DEFECT -- kept apart on the Windows jobs by #187, open  
+**Evidence:** ZOOM-P1, current Zengine verification law, #187's first run (2026-10-11)
 
 Linux/GCC is safely parallel. Windows/MSVC remains serial because the Timer suite intermittently
 fails a weave-load assertion under concurrent CTest; this was measured before and after the compile
 fixture repair and is not the same defect.
+
+Met again four at a time (2026-10-11): #187's first run, its MSVC job red on `timer`, the real-clock
+Timer handing a schedule across a prepared replacement and the handover refused, beside the compile
+entries building with cl (the session's reading of the log, in its commit `a86e349e`; Vision cannot
+read the logs). The phase had not met it in five proof runs nor locally at `-j16`. #187 runs it
+alone after the rest on both Windows jobs (`ZEN_CTEST_APART`, under ten seconds), which bounds it
+and does not repair it; once #187 merges, the repair is an issue's (Vision).
 
 **Trigger:** select a focused Windows concurrency investigation before documenting or enabling
 parallel MSVC verification.
@@ -1131,6 +1143,14 @@ nearest any job has come to its limit -- and Linux canonical at most 27 m 44 s. 
 (2026-10-08), over its two runs, MinGW-w64 took 38 m 16 s and 38 m 05 s of its 45, and on the second
 ASan took 44 m 42 s of its 60 and Linux canonical 28 m 10 s.
 
+On #187 (2026-10-11) the MSVC job, advisory, was cancelled at its 60 minutes inside a cold build of
+Zengine (3,265 s; 1,080 s on the run before it), on a runner slower at each step compared: Loom's
+build 240 s against 40 to 55 s on three other runs, the configure 30 s against 5 to 6. A higher
+limit does not answer a runner that slow, so a rerun, said. A cancel at a limit is not a failure:
+`continue-on-error` does not cover it, and the run itself ends `cancelled`. Until #187 merges no
+MSVC store exists for a pull request to read, so each pull request's MSVC build is cold, and the
+nightly bare run always is (Vision).
+
 **Trigger:** a job within a tenth of its limit, or a cancel: raise the limit or split the job, and
 set each suite's time beside main's before the push (#92's report, recommendation 6).
 
@@ -1211,6 +1231,17 @@ Each was met once, and each cost time:
   MinGW-w64 856 for 822; Vision). And a lane refusing a tree that owes work (`ninja -n` naming an
   edge): the ext4 check proves the copy is the checkout, not that the tree was built from it, so
   `case-wsl.sh` building one target and a lane after it runs the rest stale (Vision).
+- From the agent desk's door and declare and the Windows lanes (2026-10-11): `mutate.py` cutting a
+  case filter at its first comma, and refusing a mutant that fails to compile on an unused parameter
+  with a `(void)` hint; `loom-wsl.sh case <suite>`; `wsl.sh` taking an inline script through a
+  temporary file; `KIT_KEEP_GOING=1` in `build-wsl.sh`, owed a README line; a `pr-body` tool
+  assembling "Verified locally" from the run records; a COFF section count beside a Windows build,
+  and `loom-win.sh` taking the CMake its text checks run under; `loom-win.sh` on `kit_msvc`,
+  `primary.sh second` fetching GitHub, `lane-win.sh` taking `KIT_CTEST_APART`, `jobtimes.py` naming
+  each run's floor entry, and a helper clearing a phase's clones. And four reports in a row written
+  before their runs ended (B2's, door's, declare's and the Windows lanes'), door's three advisory
+  reds unread: a `run-end.sh <repo> <run>` waiting for the end and printing each job's conclusion
+  and time, the advisory ones and a cancel at a limit included, for the report's table (Vision).
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 
