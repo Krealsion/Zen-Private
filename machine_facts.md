@@ -200,3 +200,10 @@
   and `/mnt/wslg/.X11-unix`.
 - **Python's `write_text` on Windows writes CRLF**: a helper that edits a product file writes bytes,
   as the kit's `replace.py` does (the Weaver's decisions, 2026-10-11).
+- **Under Git Bash's `PATH`, a MinGW-w64 program loads Git for Windows' `libstdc++-6.dll`**
+  (`C:\Program Files\Git\mingw64\bin`, ahead of MSYS2's) unless the toolchain's `bin` comes first,
+  as the kit puts it (runtime-gcc16, 2026-10-10).
+- **A second MinGW-w64 toolchain sits in scratch**: MSYS2's GCC 16.2.0 Rev5 with binutils 2.47 in
+  `Zen/scratch/runtime-gcc16/toolchains/msys2-gcc16/` (its `fetch-msys2.sh` remakes it from signed
+  packages), beside the verified archives in `dl/`; `C:\msys64x` stays at 15.2.0 Rev8, the kit's
+  (runtime-gcc16, 2026-10-10).

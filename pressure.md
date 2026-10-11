@@ -1359,28 +1359,32 @@ field of `T`'s type. Left open:
 
 ### P-LOOM-11 — A MinGW-w64 runtime instance takes a TLS index it never returns
 
-**State:** EXPERIMENT — GCC 16's native TLS measured first, and a Loom patch only if it still
-leaks ([prompt](../prompts/runtime-gcc16.md)), so MinGW pane authors need not match Workshop's
-compiler (the founder, 2026-10-10); #41 held on `weave/carry-runtime-on-windows`  
+**State:** DECISION — #41's MinGW-w64 half, the founder's; measured by the GCC 16 experiment
+([report](../reportbacks/runtime-gcc16-RB.md), reviewed by Vision 2026-10-10); #41 held on
+`weave/carry-runtime-on-windows` (`be65832`)  
 **Evidence:** [the release's L1 report](../reportbacks/release-l1-RB.md#decisions-asked) and its
-evidence, section 5 (`pass-tools/release-l1/reload/`)
+evidence, section 5 (`pass-tools/release-l1/reload/`); the experiment's evidence, sections 4-11
+(`pass-tools/runtime-gcc16/`)
 
-On MinGW-w64 GCC every C++ runtime instance a process loads takes one Windows TLS index the first
-time it throws (libstdc++'s exception globals are emulated thread-local storage) and none is
-returned at unload; after about 1,088 the runtime calls `abort()`. A runtime inside each weave, or
-runtime DLLs loaded with a weave into a host that does not hold them, is an instance per load: so
-Zengine's MinGW-w64 `workshop_panes` aborts against #41's branch, and a Workshop could hot-reload a
-pane about 1,000 times. Only a runtime the host holds for the whole process is free of it. MSVC's
-static CRT has no such cost (3,000 loads that throw). The release research's decision 2 (a static
-Workshop with static panes) meets the same ceiling.
-The leak is GCC's emulated TLS (emutls; MSYS2 g++ 15.2.0 measured). GCC 16 gained native TLS on
-Windows and MSYS2 enabled it on 2026-05-11 (msys2.org/news), where the Windows loader gives a
-module's TLS slot back at unload as it does for MSVC's: whether a GCC 16 weave still leaks is
-unmeasured (Vision, 2026-10-10).
-Measured since ([report](../reportbacks/runtime-gcc16-RB.md), 2026-10-11, its review to come): GCC
-16 ends the throw's road to the index, not the leak, which winpthreads' thread record still takes on
-a guarded static, `std::call_once` and `std::thread`; `workshop_panes` still aborts against #41. Its
-one `workshop_load` death (23:41 UTC) falls inside the minute another session's too-wide `taskkill`
+Every copy of the MinGW-w64 C++ runtime a process loads takes one Windows TLS index for
+winpthreads' thread record, and nothing returns it: `pthread_tls_init` calls `TlsAlloc` and
+`abort()`s when none is left, and winpthreads' `thread.c` holds no `TlsFree` (read on mingw-w64's
+master, 2026-10-09). A weave carrying its runtime is a copy per load, so after about 1,086 loads the
+process aborts (exit 3; 0xC0000409 on a ucrt build), or hangs when a destructor reaches winpthreads
+at the ceiling. GCC 15's emulated TLS reached the index on the first throw or `thread_local`; GCC 16
+built with native TLS still reaches it on a guarded static's first initialization, `std::call_once`
+and `std::thread`, which nearly every weave meets. Native TLS is a configure choice, not a version:
+MSYS2's and MinGW-Builds' GCC 16.2 have it, WinLibs' 16.2 does not, and the hosted runner pins
+MinGW `15.*`, ucrt. Each reload also leaves about 84 KB, the copy's emergency exception pool. MSVC's
+static CRT has neither cost. Zengine's MinGW-w64 `workshop_panes` aborts against #41 on GCC 15.2 and
+16.2. A stand-in linked into each weave (`tlsreturn.c`, `--wrap` on the `TlsAlloc` and `TlsFree`
+import slots) records the indexes its runtime takes and returns them, with the pool, from the
+image's last atexit handler: clean on six toolchains, and with it Zengine's MinGW-w64 lane passes
+against #41 on GCC 16, 55 of 55. It rests on GNU ld's `--wrap` reaching an import slot, on the CRT
+running that handler last, and, for the pool alone, on an undeclared `__gnu_cxx::__freeres`; a
+load-count witness in Loom's lanes is what would notice drift. Kept, it wakes P-LOOM-12 on MinGW-w64
+too: an exception crossing a host callback meets another copy of libstdc++. The experiment's one
+`workshop_load` death (23:41 UTC) falls inside the minute another session's too-wide `taskkill`
 ended that test binary (the fast-forward research's incident), so it is likely not the leak's.
 
 **Trigger:** the founder's decision on #41; the release's R1.

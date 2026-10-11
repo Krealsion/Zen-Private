@@ -979,7 +979,11 @@ as Vision put them: as recommended, but the pane's runtime rule in Loom's weave 
 folder, a refusal names what is missing, every Loom program in the UTF-8 code page) merged
 (2026-10-10); #41, a weave carrying its runtime, held for the founder: on MinGW-w64 a runtime
 instance per weave runs out of TLS indexes after about 1,088 loads (P-LOOM-11), so decision 2 is
-open again, the GCC 16 experiment first (P-LOOM-11)  
+open again. The GCC 16 experiment ([report](../reportbacks/runtime-gcc16-RB.md), reviewed by Vision
+2026-10-10): native TLS does not end the leak, which is winpthreads' index (a guarded static,
+`std::call_once`, `std::thread`), and a Loom stand-in that returns a weave's indexes and its
+exception pool at unload makes Zengine's MinGW-w64 lane pass against #41 on GCC 16, 55 of 55, where
+#41 alone fails; #41's MinGW-w64 half, with or without the stand-in, is the founder's decision  
 **Owed:** A full release for Windows and Linux, ready to run: extracted into a folder, Workshop
 starts with nothing else installed, and the first tutorials begin there (BL-ADOPT-05). A
 tutorial's replay on the extracted package can witness the package itself.
