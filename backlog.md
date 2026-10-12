@@ -349,7 +349,20 @@ the rows are declared rather than counting them, and took the session's plan (In
 unnamed while a name is edited, the View Builder's More as `control:choices`, the demo's id `reset`,
 Flow's names kept with a keyless row each, its Hotkeys list 6 to about 39, the check in the readers)
 ([prompt](../prompts/address-law-amended.md)); `tutor` waits for it, and fast forward's S3 too,
-since #183's folders hold the tools S3 rewrites. UnknownWorkers' `gh` login lives in
+since #183's folders hold the tools S3 rewrites. It stopped again (2026-10-12,
+[report](../reportbacks/address-law-amended-RB.md)): `tests/test_workshop_panes_actions.cpp` pins
+Powers at four rows; the founder amended #183 a second time with that file, its case naming the
+actions rather than counting them, one shared header for the judge of `control:` parts, and the
+address law a law of its own in `pane-parts.md` rather than a share of WL-HAND-06's bullet (rule 2);
+an Inventory case's one unexplained red is to be explained first
+([prompt](../prompts/address-law-amended-2.md)). Fast forward S1 is Zengine #203 and Loom #54
+([report](../reportbacks/fast-forward-s1-s3-RB.md)), each run green on every job (8 and 10),
+reviewed ready (Vision, 2026-10-12): the Timer and the serving host nap on a high-resolution
+waitable timer on Windows, falling back to `Sleep`, their witnesses reading what the clock reads and
+what a nap asked; Loom #54 merges first, then #203's run again against it, then #203. The kit's
+second copies sit on C: beside their trees, the quiet window 10 s (Zen `f20dd0c9`,
+[report](../reportbacks/executor-kit-speed-copies-RB.md)), reviewed (Vision, 2026-10-12).
+UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
 it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
