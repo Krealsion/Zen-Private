@@ -770,6 +770,22 @@ The stage `tutor` (#215) draws its guide mark in Workshop, in a surface role of 
 a row that reads every pane all their pixels (WL-GUIDE-03); both are the graphics weave's to settle:
 where a mark lives, and a picture withheld by region (Vision, 2026-10-12).
 
+Researched once ([report](../reportbacks/graphics-weave-research-RB.md)): a graphics weave that
+keeps named items and routes them, skins that paint and keep nothing, a window that stacks, three
+kinds, the helpers measured with 42 fresh writers, the snake moved in scratch; 16 decisions,
+reviewed (Vision, 2026-10-12). The founder did not take them (2026-10-12): `DrawnItem` is a glob of
+different concepts. Components instead: a suite of minimalist GUI elements -- text, text boxes, SVG
+icons, images, lists and so on -- all expressible through Workshop's own panes and views and in data
+form, each with its own ways to be initialized (an SVG from a file or raw vector data, an image from
+PNG bytes or a link), each a minimal, complete vertical slice that communicates by messages and acts
+however is best; a text editor weave using Python syntax for edits on files it has permission for,
+and helping with regex, as one to imagine. The minimal set is a lot: support one way, optimize it,
+leave each expansion as a specific seam note (an issue), and get a complete set -- a full set of
+graphical operators and a full suite of basic GUI elements from which everything else arises, then
+optimize the basics. Update only what changed: the board is not sent every frame, since the graphics
+weave already knows what and where it is. A simple, efficient snake game is the litmus test for a
+solved design.
+
 **Wake:** soon, research first (the founder, 2026-10-12).
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
