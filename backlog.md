@@ -405,6 +405,17 @@ rule forbids (`tests/weavelib/operator_ask.hpp`), forced by Vision's fence ("no 
 `DeskStamps` v2"); the founder amended S3 (2026-10-12): each pane's entry carries its stamp and its
 aimed number, one entry shape, `v2::PaneStamp` unchanged, F5 (a) dropped, the description's private
 pointers gone ([prompt](../prompts/fast-forward-s3-amended.md)); `tutor`'s scoping builds on that.
+The apart lists' follow-up is #214, and S3 amended is #213 (`DeskStamps` v2 `{desk, panes}` of
+`v2::StampedPane{stamp, aimed}`), each 8 of 8 green and reviewed ready (Vision, 2026-10-12, 6 of 6
+checks each). The stage `tutor` is #215 ([report](../reportbacks/agent-desk-tutor-RB.md)): the
+guests file's version 3 (a role, `guide`, `keystrokes`, and `capture` and `guide` doors compiled to
+Loom door rules Workshop asks at each read and mark), reading by pane, the weaver-only surfaces for
+every guest, the guide mark `GuideRequested{pane, control, words}`, `desk/guide` and `desk/resolve`;
+20 of 20 mutations, its run 38276039798 8 of 8 green; reviewed (Vision, 2026-10-12, 7 of 8 checks,
+its tests unread); it conflicts with #213 in three files. The founder took its two recommendations
+(2026-10-12): `DeskStamps` stays refused to a row that reads by pane, and the text checks' `/*`
+crash goes to an issue. Merge order: #214, #213, then #215 rebased onto them
+([prompt](../prompts/agent-desk-tutor-continued.md)).
 UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
@@ -749,6 +760,10 @@ LLM -- `drawRectangle("PlayerHitBox", x, y, h, w, Colors::Red);`, perhaps with o
 -- and the graphics system is the test for helper functions in general, later carrying rich text,
 images and more. No mega file: a distributed system of components with simple outputs, graphically
 Turing complete in a sense, and as close to ideal code to write as possible.
+
+The stage `tutor` (#215) draws its guide mark in Workshop, in a surface role of its own, and leaves
+a row that reads every pane all their pixels (WL-GUIDE-03); both are the graphics weave's to settle:
+where a mark lives, and a picture withheld by region (Vision, 2026-10-12).
 
 **Wake:** soon, research first (the founder, 2026-10-12).
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a

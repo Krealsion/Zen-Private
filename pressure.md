@@ -839,6 +839,20 @@ walk's `clock_waits` would then count them.
 
 **Trigger:** S3 on `main`; a walk whose record counts clock waits in one of these tools.
 
+### P-WORK-66 — A guest that reads a pane reads any credential it shows
+
+**State:** WATCH — seen in #215's review (Vision, 2026-10-12)  
+**Evidence:** `workshop/weave_guest_read.cpp` `read_withheld`; WL-GUIDE-03's DOES NOT MEAN
+
+The weaver-only rule (WL-GUIDE-03, #215) withholds the words of Connections, the Hotkeys pane and an
+editor showing the guests file from every guest. The guests file's credentials shown anywhere else
+-- a `cat` in the Terminal, a value in Info -- are words like any other to a row that reads that
+pane, and a row whose `capture` is `*` sees every pane's pixels through the Skin's picture. Low on
+loopback, where a guest is not an identity; it closes where a picture can be withheld by region, the
+graphics weave's (BL-WORK-37). A security matter: never in a public issue or pull request.
+
+**Trigger:** BL-WORK-37's design; a guest power that reaches past loopback.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
@@ -1314,6 +1328,14 @@ Each was met once, and each cost time:
   variable a script set before sourcing `common.sh` lost after a long slot wait, twice, unexplained;
   `demo.sh walk --clock` totalling a walk's `clock_waits`; and an evidence runner holding the slot
   once for a whole matrix, S3's rows having waited 20 to 40 minutes a step.
+- From the apart lists' follow-up, S3 amended and the stage `tutor` (2026-10-12): `lane-win.sh`'s
+  header example still naming CI's old Windows list; a public-text check before a push (the commit
+  messages, the description and the changed pages read for Zen paths and private words);
+  `witness.py` saying the guests file version it wrote, and a `--layout <setup>` with no session;
+  a pseudo-terminal witness in WSL (`tutor_walk.py`'s `Terminal`); `case-wsl.sh` taking a CTest
+  entry by name; the syntax-only check against a sibling's ninja command while the slot is held; a
+  helper that waits for a run's step lines, a `tail -f` Monitor on G: having delivered nothing;
+  and the tutor's report written before its run ended, again, with `run-end.sh` in the kit.
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 
