@@ -361,7 +361,16 @@ reviewed ready (Vision, 2026-10-12): the Timer and the serving host nap on a hig
 waitable timer on Windows, falling back to `Sleep`, their witnesses reading what the clock reads and
 what a nap asked; Loom #54 merges first, then #203's run again against it, then #203. The kit's
 second copies sit on C: beside their trees, the quiet window 10 s (Zen `f20dd0c9`,
-[report](../reportbacks/executor-kit-speed-copies-RB.md)), reviewed (Vision, 2026-10-12).
+[report](../reportbacks/executor-kit-speed-copies-RB.md)), reviewed (Vision, 2026-10-12). The
+address law stopped a third time (2026-10-12, [report](../reportbacks/address-law-amended-2-RB.md)):
+a law of its own, which Vision asked for, needs its record
+`agents/decisions/a-pane-names-its-parts.md` to list it, Vision's miss; the founder amended #183 a
+third time with that record's line, the session listing every file the change touches before it
+starts ([prompt](../prompts/address-law-amended-3.md)). The Inventory red was a stale object: the
+kit's ext4 copy kept a checkout's file time, so an edit made during a build looked older than its
+object; the copy now stamps the time it writes (Zen `c9011952`). S1 merged: Loom #54, then #203
+after its run again against it, 8 of 8 green (2026-10-12); `main`'s run for #202, the journey in the
+pool, green.
 UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
