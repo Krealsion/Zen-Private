@@ -32,12 +32,17 @@
   `C:/Users/Joshua/zen-build` on Windows, `hash_dir = false`; the first build through the landed kit
   writes both settings, gives a tree a C launcher and changes every compile's key once. A second
   copy's WSL trees read their own copy of the Loom prefix (`<copy>/loom-install`), and Loom installs
-  by content, so a same-bytes reinstall writes nothing. A Windows second clone's sources lie on G:,
-  outside `base_dir`, so it misses the store. SDL3's own C files compile with SDL's precompiled
-  header, which ccache 4.5.1 does not cache (218 calls a WSL build). A test-only edit runs its own
-  suites through `case-wsl.sh affected`; the slot queues builds in the order asked, a Windows build
-  holding it through a 20 s quiet window; the kit is edited in a staged copy and landed by `kit.sh
-  land` once nothing reads it; `run-end.sh` reads a hosted run's end for a report's table.
+  by content, so a same-bytes reinstall writes nothing. A second copy is cloned under the Windows
+  root beside its trees (`<root>/<PHASE>/<name>/zengine`, since Zen `f20dd0c9`, 2026-10-12), so the
+  store serves it: 231 of 291 hits against 98 when its clone lay on G:. SDL3's own C files compile
+  with SDL's precompiled header, which ccache 4.5.1 does not cache (218 calls a WSL build). A
+  test-only edit runs its own suites through `case-wsl.sh affected`; the slot queues builds in the
+  order asked, a Windows build holding it through a 10 s quiet window (20 s until `f20dd0c9`); the
+  kit is edited in a staged copy and landed by `kit.sh land` once nothing reads it; `run-end.sh`
+  reads a hosted run's end for a report's table.
+- **Windows' short sleeps last a scheduler tick**: `Sleep(1)` and a 1 ms `sleep_for` each took about
+  15.5 ms on this machine, a high-resolution waitable timer 1.5 ms for 1 and 10.2 for 10, and
+  `GetTickCount64` steps 15 or 16 ms (fast forward S1, 2026-10-12).
 - **Fetch caches** in `~/.cache/zen-fetch/`: only `zengine-zengine-p1{,-san}` and
   `zengine-zengine-primary{,-san}` remain (2026-10-04).
 - **Build trees on ext4** under `~/zen-build/`: `loom`, `loom-install`, `zengine-p1`,
