@@ -1147,7 +1147,15 @@ appendix's own cap, the self-test red a byte past each cap and green at both, an
 9.6 KB under the file cap green and a file at 25.2 KB red, the description free of Zen; one page
 left stating the old budgets, `agents/verification.md`'s `law_register` bullet (a router 8,192 since
 the first commit, missed by both reviews), its fix a continuation
-([prompt](../prompts/law-register-appendix-page.md)).
+([prompt](../prompts/law-register-appendix-page.md)). The page fixed in `b90b37d` (run `38189723777`
+green), each budget under its value marker, `code_values` red on a stale one (Vision, 2026-10-12):
+#201 ready, but it and #202 both rewrite VM-LANE-11 and conflict in either order, so #202 merges
+first and #201 is rebased by regenerating its registers from the new `main`
+([prompt](../prompts/law-register-appendix-rebase.md)), a docs-only run. #202 merged as `fb6d231`
+(2026-10-12); #201 rebased as `d78a2a6` on it, its registers regenerated from that `main` and proven
+again, VM-LANE-11 with #202's BECAUSE, run `38194233891` green, Vision's comparison against
+`fb6d231` the same as before ([report](../reportbacks/law-register-appendix-rebase-RB.md)): ready to
+merge (Vision, 2026-10-12).
 
 ## 5a. Night Lab
 
