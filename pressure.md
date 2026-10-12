@@ -871,6 +871,22 @@ is round 2's own named mistake. Low while every loaded weave is ours or the weav
 **Trigger:** the first stranger's weave that reads or writes files; the editor weave; an element
 loaded from a file.
 
+### P-WORK-68 — Every loaded row speaks with `allow_any`
+
+**State:** WATCH — seen in the participant census (BL-WORK-45; Vision, 2026-10-12)  
+**Evidence:** Zengine `workshop/admission.hpp` (`trust_every_artifact`: "general per-row authority
+awaits a weaver-visible policy seat"); Loom `src/kernel/admission.cpp` (`Grant{}.allow_any()`)
+
+Workshop admits every plan row but the Inventory office with `allow_any`: any shape to any target,
+wider than Workshop's own grant. Message authority, the one layer enforced in process (P-WORK-67),
+tells no loaded participant from another, so a permission cannot justify a split, and a row that
+replaces another may speak wherever any row may. Low while every row is ours or the weaver's own
+plan. The census asks that each row's grant be written from its declared emissions before it runs
+again.
+
+**Trigger:** a stranger's row in a plan; the terminal's or the desktop's re-cut; a criterion that
+counts permission.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35

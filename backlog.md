@@ -723,7 +723,7 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** RESEARCH, ROUND 3 PROMPTED — [round 1](../prompts/graphics-weave-research.md),
+**State:** RESEARCH, ROUND 3 REVIEWED — [round 1](../prompts/graphics-weave-research.md),
 [round 2](../prompts/graphics-weave-research-2.md),
 [round 3](../prompts/graphics-weave-research-3.md) (the founder, 2026-10-12; filed 2026-10-07)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
@@ -814,14 +814,34 @@ platform pump per process where the platform has one input queue (SDL). Round 2'
 group is a layer; room, an integer layer) and 10 (the eleven seams filed as issues once 1 to 9 are
 taken) wait for the founder. Whether Zen splits other jobs this way is BL-WORK-45.
 
-**Wake:** soon, research first (the founder, 2026-10-12).
+Round 3 reported ([report](../reportbacks/graphics-weave-research-3-RB.md)) and reviewed (Vision,
+2026-10-12, 11 of 12 checks): a window weave per OS window or terminal keeps the one retained copy,
+paints with skins loaded as code (one C symbol on the provider seam's conventions), composes, writes
+its device and judges presses; the directory introduces areas off the hot path; one pump a process.
+A snake tick 202.9 bytes in 2 messages (round 2 619.1 in 5, today 72 in 2); two copies of a picture
+against four; a fresh directory costs no picture byte; a pane moves between windows in 6 messages,
+1,293 bytes. Not less code: the showing job 1,663 lines in round 2, 2,423 here, 268 of them painting
+on demand and its index, forced by Vision's fence against a painted cache in the window, which
+Vision withdraws. Built for presses and keys only: pointer motion, drags, wheel, hover, carry and
+custody were neither built nor measured, and the census found them the reason Workshop keeps
+arrangement beside composition (BL-WORK-45), so where arrangement lives is settled before Workshop's
+panes move to windows; the snake's stage needs none of it. A skin as code loses only a skin out of
+process: in process a skin weave's crash and stall were already shared, since dispatch is
+single-threaded. Code shrinks where panes stop drawing by hand, through the elements and data-form
+views, not by moving Workshop's window job into windows (Vision). Loom gap: a loaded weave cannot
+read its own id, the Kernel setting only its adapter's (`src/kernel/kernel.cpp:1204`). Nine
+decisions; the report's next is the first stage, the snake in a window doing the whole job, its
+terminal built.
+
+**Wake:** now, the first stage once the founder takes the decisions (the founder, 2026-10-12:
+build the window system now).
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
 
 ### BL-WORK-45 — Forced participants: a census against the split rule
 
-**State:** RESEARCH PROMPTED — [prompt](../prompts/participant-census.md) (the founder,
-2026-10-12)  
+**State:** REPORTED, REVIEWED — [prompt](../prompts/participant-census.md),
+[report](../reportbacks/participant-census-RB.md); its decisions the founder's (2026-10-12)  
 **Owed:** The founder's question (2026-10-12), once the graphics design's third round gave the
 window the whole job: are there more places where Zen forces a participant where something
 functionally self-contained would complete the purpose? Less a GUI question than one for an
@@ -838,7 +858,27 @@ partner in and one out, translating, yet the seam an AI pilot (BL-WORK-40) or a 
 the menu presenter, one partner, with a second presenter beside it (`examples/numbered-presenter`);
 and the other way, Workshop. A probe re-cuts one forced participant, measured beside today's.
 
-**Wake:** now, beside BL-WORK-37's round 3 (the founder, 2026-10-12).
+Reported and reviewed (Vision, 2026-10-12, 10 of 12 checks): the bus tap over Zengine's whole CTest
+population (2.2 M deliveries, 60 of 60 entries) and the live Workshop; 48 rows, 28 earn, 7 mixed, 9
+forced, 1 a missing door. The criterion sharpened: a use exercised, not claimed; permission only
+where enforced, since every loaded row but Inventory is admitted `allow_any` (P-WORK-68); a pipe
+judged by deleting it. The only pipes are the snake's three adapters: folded into the world, 3.27 to
+2.14 messages a tick, the same game, the pilot, replay, faster clock and reload surviving. The
+mirrors (Attention, Connections, Info's properties view, Introspection) become data-form views once
+BL-WORK-37's elements land; the menu presenter takes the whole menu once the window shape is set.
+The terminal is the strongest case, Workshop relaying the session through a pointer at 4.81 messages
+an act: the census would put the session in the loaded pane; Vision recommends its room instead, a
+native terminal door holding the session, completer and transcript -- WL-TERM-02 keeps the weaver's
+speaking identity host-held, the move needs Loom (no message drives the session, and a loaded weave
+mounts nothing), and the door ends Workshop's relay without either. The census calls the pane
+forced though it earns by presence, so by its own rule it is mixed. The desktop's "inspect in
+Info" row sends to an office that does not accept it: an issue
+([prompt](../prompts/desktop-inspect-issue.md)). Eleven decisions. Outside the fence: the census
+fetched the two primary clones (refs moved, trees untouched); its two clones stay in scratch for the
+founder's review. Three research phases built the same probe host (load, tap, tally): a kit
+candidate.
+
+**Wake:** the founder's decisions; Vision recommends the snake's fold ride BL-WORK-37's first stage.
 **Source:** the founder (2026-10-12), after BL-WORK-37's round 2 review.
 
 ### BL-WORK-12 — Multiple windows
