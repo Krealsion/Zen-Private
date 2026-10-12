@@ -742,6 +742,13 @@ class: features like the manual, default keys and context-menu items are added o
 small message schemas with what each needs, perhaps with a weave answering only messages whose
 permissions it set up during that step.
 
+Then (the founder, 2026-10-12, before the research is written): what to research first. Helper
+functions after his old drawing library's pattern make the messages easy to write, for a human or an
+LLM -- `drawRectangle("PlayerHitBox", x, y, h, w, Colors::Red);`, perhaps with overloads for layers
+-- and the graphics system is the test for helper functions in general, later carrying rich text,
+images and more. No mega file: a distributed system of components with simple outputs, graphically
+Turing complete in a sense, and as close to ideal code to write as possible.
+
 **Wake:** soon, research first (the founder, 2026-10-12).
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
