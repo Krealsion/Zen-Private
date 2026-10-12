@@ -533,7 +533,15 @@ issue and a slot given in turn, were prompted for a quiet window after docs B3
 `run-end.sh` added to it as a continuation ([prompt](../prompts/executor-kit-speed-run-end.md)); the
 founder then tries the machine whole with several sessions, and what moves to an external host is
 judged from the slot's waits (the founder, 2026-10-11): evidence-only lanes, never bytes a weaver's
-Workshop loads (decision 7).  
+Workshop loads (decision 7). The phase landed as Zen `ee2d32fb`
+([report](../reportbacks/executor-kit-speed-RB.md)), reviewed (Vision, 2026-10-12, 8 of 8 checks, by
+reading: no measurement rerun while two sessions held the slot): a second WSL tree 392.8 to 267.9 s
+(243 of 303 hits), a Windows tree of one checkout 403.8 to 340.2 s, a test-only edit 239.9 to 179.0
+s (`timer` 12.7 s), a same-bytes Loom reinstall 34.2 s to nothing, a Windows build's turn in the
+order asked (waited 359.5 to 36.4 s); every lane whole under the settings; Zengine #199 (test
+definitions carry absolute paths) and #200 (the load suite's reload copies), read cold, `ready`.
+#200 quotes VM-LANE-11 as it stood before #198 narrowed it to what a tree builds. Decisions asked: a
+Windows second copy cloned on C:, and the slot's quiet window at 10 s.  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
 times faster than on G: in the C: test.
