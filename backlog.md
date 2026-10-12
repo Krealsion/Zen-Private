@@ -342,7 +342,14 @@ merge. Zengine's CI builds against Loom's `main` as it stands at run time, and n
 two together, so Loom #52 merged first and #186's run ran again against it, 8 of 8 green, so #186
 was ready to merge (Vision, 2026-10-11), and the founder merged it (2026-10-11); stage `tutor` is
 next ([prompt](../prompts/agent-desk-tutor.md)), after the address law, #183, taken from the issue
-lane first ([prompt](../prompts/address-law.md)). UnknownWorkers' `gh` login lives in
+lane first ([prompt](../prompts/address-law.md)). Its session stopped at the Folders (2026-10-12,
+[report](../reportbacks/address-law-RB.md)): the outcome makes `agents/panes.md`'s count of the
+Powers and Composer rows false; the founder amended #183 with that file, the sentence naming where
+the rows are declared rather than counting them, and took the session's plan (Inventory's bar
+unnamed while a name is edited, the View Builder's More as `control:choices`, the demo's id `reset`,
+Flow's names kept with a keyless row each, its Hotkeys list 6 to about 39, the check in the readers)
+([prompt](../prompts/address-law-amended.md)); `tutor` waits for it, and fast forward's S3 too,
+since #183's folders hold the tools S3 rewrites. UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
 it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
