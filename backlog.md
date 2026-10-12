@@ -378,7 +378,16 @@ lane, each issue its own pull request from `main` and a stop moving on to the ne
 ([prompt](../prompts/overnight-builder-tests.md)). Not tonight: #199 and #200 (every test file, one
 build file), #194 (needs merges to witness), #106, #107, #112 and #115 (#183's files). #114, the
 Info register's split, lost its premise to #201: `info-body.md` stands at 15,642 of the whole file's
-24,576, so Vision proposes closing it. UnknownWorkers' `gh` login lives in
+24,576, so Vision proposes closing it. The address law is Zengine #207
+([report](../reportbacks/address-law-amended-3-RB.md)), `3b8c778` on `7409847`, its run
+`38212810792` 8 of 8 green, reviewed ready (Vision, 2026-10-12, 10 of 10 checks): WL-HAND-07, one
+judge in `tests/control_parts.hpp` read on every `held_parts`, all 26 files inside the amended
+Folders; it found `tools/fill_laws.sh` not idempotent on `main` (an issue to file). Overnight,
+reviewed ready (Vision, 2026-10-12, 16 of 16 checks): #204, #205, #206 and #208 (#116, #110, #109,
+#105; documentation), Loom #55, #56 and #57 (#33, #32, #34; #56 routes the one page a compiled case
+reads to the official lane, kept), and #209 and #212 (#188, #103); #210 and #211 (#191, #192) await
+their session's report. Merge order: the documentation, then #207, #209 and #212, then Loom's after
+#57's run again against Zengine's `main`. UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
 it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
