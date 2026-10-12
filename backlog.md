@@ -1126,19 +1126,21 @@ bytes an appendix of the proofs, their lists compressed, searching and linking a
 `guests.md` trimmed to exactly its budget (2026-10-11); the appendix waits on B3 (#198). The
 appendix is Zengine #201 ([report](../reportbacks/law-register-appendix-RB.md)), one commit on
 `10241b3`, its run `38184693918` green (docs only, the five build jobs skipped), reviewed (Vision,
-2026-10-11, 12 of 12 checks): all 68 registers, WL, MW and VM, laws first and proofs under `###
-<id>` in an appendix at the end (`## Proven by`, `## Seen`), laws 16 KB, the appendix 8 KB, every
-router 12 KB, the proofs' syntax compressed by 6%; Vision's own comparison found every LAW, MEANS,
-DOES NOT MEAN and WHY line unchanged but the two restored guest lines, and every proof's 3,006
-identifiers and 1,420 cases under the same files; nine mutations, eight red, the ninth (a case cited
-under the wrong file) green as it was before. Found: the 8 KB appendix binds first -- `code`,
+2026-10-11, 12 of 12 checks): all 68 registers, WL, MW and VM, laws first and proofs under
+`### <id>` in an appendix at the end (`## Proven by`, `## Seen`), laws 16 KB, the appendix 8 KB,
+every router 12 KB, the proofs' syntax compressed by 6%; Vision's own comparison found every LAW,
+MEANS, DOES NOT MEAN and WHY line unchanged but the two restored guest lines, and every proof's
+3,006 identifiers and 1,420 cases under the same files; nine mutations, eight red, the ninth (a case
+cited under the wrong file) green as it was before. Found: the 8 KB appendix binds first -- `code`,
 `geometry`, `guests` and `opening` stand at 92 to 94% of it while their laws parts are half empty,
-so each takes about one more law, not half again; Vision proposes the laws' 16 KB kept and the whole
-file capped at 24 KB in place of the appendix's 8 KB. The pull request's text names Zen's tool path
-and commit. The report's two questions: the file legend (about 20 KB) left for the search-and-link
-pass, and one router budget, which `workshop/AGENTS.md` also needed (44 bytes from the old 8 KB),
-both its own leanings (Vision). A case is resolved against every test file, not the file cited
-before it (as before #201): binding it is the next pass's.
+so each takes about one more law, not half again; the founder chose the laws' 16 KB kept and the
+whole file capped at 24 KB in place of the appendix's 8 KB (2026-10-11;
+[prompt](../prompts/law-register-appendix-whole-file.md)). The pull request's text names Zen's tool
+path and commit. The report's two questions: the file legend (about 20 KB) left for the
+search-and-link pass, and one router budget, which `workshop/AGENTS.md` also needed (44 bytes from
+the old 8 KB), both as it leaned, not overruled (the founder, 2026-10-11). A case is resolved
+against every test file, not the file cited before it (as before #201): binding it is the next
+pass's.
 
 ## 5a. Night Lab
 
