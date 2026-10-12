@@ -416,6 +416,11 @@ its tests unread); it conflicts with #213 in three files. The founder took its t
 (2026-10-12): `DeskStamps` stays refused to a row that reads by pane, and the text checks' `/*`
 crash goes to an issue. Merge order: #214, #213, then #215 rebased onto them
 ([prompt](../prompts/agent-desk-tutor-continued.md)).
+The founder merged #214 and #213 (2026-10-12; `main` `a2f87c9`). #215 rebased onto them
+([report](../reportbacks/agent-desk-tutor-continued-RB.md)), the three conflicts resolved as both
+sides (the guest vocabulary declares 103), `DeskStamps` v2 refused to a row that reads by pane in
+the observation case; its run 38287005825 at `4d5f0da` 8 of 8 green; reviewed ready (Vision,
+2026-10-12, 7 of 7 checks). The text checks' `/*` crash is Zengine #216, `ready`, `defect`.
 UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
