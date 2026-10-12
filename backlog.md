@@ -723,8 +723,8 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** RESEARCH PROMPTED — [prompt](../prompts/graphics-weave-research.md), its scope the
-founder's (2026-10-12; filed 2026-10-07)  
+**State:** RESEARCH, ROUND 2 PROMPTED — [round 1](../prompts/graphics-weave-research.md),
+[round 2](../prompts/graphics-weave-research-2.md) (the founder, 2026-10-12; filed 2026-10-07)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
 `draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
 the skin, kept under the pane and its key and called every frame the skin draws until the pane
@@ -785,6 +785,17 @@ graphical operators and a full suite of basic GUI elements from which everything
 optimize the basics. Update only what changed: the board is not sent every frame, since the graphics
 weave already knows what and where it is. A simple, efficient snake game is the litmus test for a
 solved design.
+
+Then (the founder, 2026-10-12): build up, not down -- `DrawnItem`, or its successor, is the
+primitive all things reduce to in the end, with diverse things living on top of it, so someone else
+can later make a "RecyclerListView" that people use as easily as if Zen had built it. The default
+operators on all sides hold what someone new to a language would expect without asking, like a
+simplified calculator (a square root and logs; what is easily made on the spot may be left out);
+whether a repeat or a grid earns a primitive, he is not sure. Round 2 prompted
+([prompt](../prompts/graphics-weave-research-2.md)). The operator package's own default set is five
+Int primitives today (`math.add`, `math.max`, `compare.less_int`, `logic.select_bool`,
+`logic.select_int`): a calculator's set over Int and Float is bounded work, an issue to file
+(Vision, 2026-10-12).
 
 **Wake:** soon, research first (the founder, 2026-10-12).
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
