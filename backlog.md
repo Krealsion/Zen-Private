@@ -707,7 +707,7 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** FILED — researched first; not yet ordered (the founder, 2026-10-07)  
+**State:** WANTED SOON — researched first (the founder, 2026-10-12; filed 2026-10-07)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
 `draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
 the skin, kept under the pane and its key and called every frame the skin draws until the pane
@@ -730,7 +730,19 @@ fence a press is judged against -- moving to the skin, which knows where each ke
 so a key may be the name an agent presses a part by. A move would then cost a pane nothing, and
 one pane's change redraw one pane (P-WORK-50).
 
-**Wake:** the founder orders it.
+**Direction (the founder, 2026-10-12)**, after Vision measured why pane files grow (panes times
+Workshop-wide features, each wired by hand in every pane; the Builder pane 56 KB on 2026-09-07, 151
+KB on 2026-10-11): a graphics weave, a skin or theme manager, keeps what every participant has said
+it draws -- what, where and how -- instead of the skin, and gives each task to a registered skin; a
+pane may register its own skin, and another may be chosen at a whim; aspects of skins compose, as
+themes. A skin draws UI as data onto a window the graphics weave manages and offers (a window weave
+of its own once that process is codified), and the snake's skin swap runs through it. Panes stay
+isolated from each other, yet dynamic and reactive enough to work together, with no large base
+class: features like the manual, default keys and context-menu items are added on request, filling
+small message schemas with what each needs, perhaps with a weave answering only messages whose
+permissions it set up during that step.
+
+**Wake:** soon, research first (the founder, 2026-10-12).
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
 
