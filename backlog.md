@@ -370,8 +370,15 @@ starts ([prompt](../prompts/address-law-amended-3.md)). The Inventory red was a 
 kit's ext4 copy kept a checkout's file time, so an edit made during a build looked older than its
 object; the copy now stamps the time it writes (Zen `c9011952`). S1 merged: Loom #54, then #203
 after its run again against it, 8 of 8 green (2026-10-12); `main`'s run for #202, the journey in the
-pool, green.
-UnknownWorkers' `gh` login lives in
+pool, green. Overnight (the founder's choice, 2026-10-12), beside #183, three batches from the issue
+lane, each issue its own pull request from `main` and a stop moving on to the next: Zengine #116,
+#110, #109 and #105, documentation ([prompt](../prompts/overnight-docs-batch.md)); Loom #33, #32 and
+#34 ([prompt](../prompts/overnight-loom-batch.md)); Zengine #191 and #192, proved by loaded repeats
+([prompt](../prompts/overnight-load-flakes.md)); and #188 with #103 in the Builder suite
+([prompt](../prompts/overnight-builder-tests.md)). Not tonight: #199 and #200 (every test file, one
+build file), #194 (needs merges to witness), #106, #107, #112 and #115 (#183's files). #114, the
+Info register's split, lost its premise to #201: `info-body.md` stands at 15,642 of the whole file's
+24,576, so Vision proposes closing it. UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
 it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
