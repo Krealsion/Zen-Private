@@ -723,9 +723,11 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** RESEARCH, ROUND 3 REVIEWED — [round 1](../prompts/graphics-weave-research.md),
+**State:** ORDERED, STAGE 1 PROMPTED — [round 1](../prompts/graphics-weave-research.md),
 [round 2](../prompts/graphics-weave-research-2.md),
-[round 3](../prompts/graphics-weave-research-3.md) (the founder, 2026-10-12; filed 2026-10-07)  
+[round 3](../prompts/graphics-weave-research-3.md); stage 1, the snake
+([prompt](../prompts/graphics-stage-snake.md)), the decisions taken as Vision's review recommends,
+the founder deferring (2026-10-12; filed 2026-10-07)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
 `draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
 the skin, kept under the pane and its key and called every frame the skin draws until the pane
@@ -833,8 +835,8 @@ read its own id, the Kernel setting only its adapter's (`src/kernel/kernel.cpp:1
 decisions; the report's next is the first stage, the snake in a window doing the whole job, its
 terminal built.
 
-**Wake:** now, the first stage once the founder takes the decisions (the founder, 2026-10-12:
-build the window system now).
+**Wake:** now: stage 1 runs (the founder, 2026-10-12: build the window system now). Zengine #146
+(several Workshop windows, BL-WORK-12) builds on its window weave later.
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
 
@@ -878,7 +880,9 @@ fetched the two primary clones (refs moved, trees untouched); its two clones sta
 founder's review. Three research phases built the same probe host (load, tap, tally): a kit
 candidate.
 
-**Wake:** the founder's decisions; Vision recommends the snake's fold ride BL-WORK-37's first stage.
+**Wake:** the snake's fold, its criterion record and snake-score's label ride BL-WORK-37's stage 1
+([prompt](../prompts/graphics-stage-snake.md)); the other decisions as recommended, the terminal as
+Vision's native door, when the founder orders it (2026-10-12).
 **Source:** the founder (2026-10-12), after BL-WORK-37's round 2 review.
 
 ### BL-WORK-12 — Multiple windows
