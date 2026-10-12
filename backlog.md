@@ -387,7 +387,13 @@ reviewed ready (Vision, 2026-10-12, 16 of 16 checks): #204, #205, #206 and #208 
 #105; documentation), Loom #55, #56 and #57 (#33, #32, #34; #56 routes the one page a compiled case
 reads to the official lane, kept), and #209 and #212 (#188, #103); #210 and #211 (#191, #192) await
 their session's report. Merge order: the documentation, then #207, #209 and #212, then Loom's after
-#57's run again against Zengine's `main`. UnknownWorkers' `gh` login lives in
+#57's run again against Zengine's `main`. The founder merged #207 (`285ace3`), the documentation,
+#209 and #212 (2026-10-12; `main` `8e0e1bf`). `tutor` and S3 start together: S3 owns `DeskStamps`'
+shape (v2, each pane's aimed picture number), its producer and readers, and merges first; `tutor`
+scopes who hears it on top of v2 and does the rest meanwhile, since the two share the guests file,
+the grant, the guest vocabulary, the desk reads and `tests/shapes.txt`
+([tutor](../prompts/agent-desk-tutor.md), [S3](../prompts/fast-forward-s3.md)). UnknownWorkers' `gh`
+login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
 it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
