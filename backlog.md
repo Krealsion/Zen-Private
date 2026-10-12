@@ -707,7 +707,8 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** WANTED SOON — researched first (the founder, 2026-10-12; filed 2026-10-07)  
+**State:** RESEARCH PROMPTED — [prompt](../prompts/graphics-weave-research.md), its scope the
+founder's (2026-10-12; filed 2026-10-07)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
 `draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
 the skin, kept under the pane and its key and called every frame the skin draws until the pane
