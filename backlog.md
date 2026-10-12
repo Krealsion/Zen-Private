@@ -723,8 +723,9 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** RESEARCH, ROUND 2 PROMPTED — [round 1](../prompts/graphics-weave-research.md),
-[round 2](../prompts/graphics-weave-research-2.md) (the founder, 2026-10-12; filed 2026-10-07)  
+**State:** RESEARCH, ROUND 3 PROMPTED — [round 1](../prompts/graphics-weave-research.md),
+[round 2](../prompts/graphics-weave-research-2.md),
+[round 3](../prompts/graphics-weave-research-3.md) (the founder, 2026-10-12; filed 2026-10-07)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
 `draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
 the skin, kept under the pane and its key and called every frame the skin draws until the pane
@@ -797,9 +798,48 @@ Int primitives today (`math.add`, `math.max`, `compare.less_int`, `logic.select_
 `logic.select_int`): a calculator's set over Int and Float is bounded work, an issue to file
 (Vision, 2026-10-12).
 
+Researched again ([report](../reportbacks/graphics-weave-research-2-RB.md)): one primitive, a node
+(path, operator, operands), with meaning in element records above it; seven operators every medium
+draws; eleven elements as vertical slices, placed by the split rule; a stranger's recycler list
+loaded and used as easily as ours; the snake's tick 619 bytes in 5 messages, beside today's 72 in 2
+and round 1's 1,322 to 1,586 in 6; 13 decisions, reviewed (Vision, 2026-10-12). The founder took
+its direction with a correction (2026-10-12): splitting one job across the keeper, a skin weave,
+the window and the medium put a copy and a vocabulary at every hop and made the keeper the
+bottleneck. Build the window system now; windows handle their own inputs; the graphics weave is
+mostly a go-between; no one central code file. Vision's correction, taken: the graphics weave
+introduces a pane to its window, and again when it moves, and stays off the hot path, keeping no
+copy. Round 3 prompted: a window weave per OS window or terminal keeps the one retained copy, paints
+with the skins it loads and routes its own presses and keys; the graphics weave is a directory; one
+platform pump per process where the platform has one input queue (SDL). Round 2's decisions 2 (a
+group is a layer; room, an integer layer) and 10 (the eleven seams filed as issues once 1 to 9 are
+taken) wait for the founder. Whether Zen splits other jobs this way is BL-WORK-45.
+
 **Wake:** soon, research first (the founder, 2026-10-12).
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
+
+### BL-WORK-45 — Forced participants: a census against the split rule
+
+**State:** RESEARCH PROMPTED — [prompt](../prompts/participant-census.md) (the founder,
+2026-10-12)  
+**Owed:** The founder's question (2026-10-12), once the graphics design's third round gave the
+window the whole job: are there more places where Zen forces a participant where something
+functionally self-contained would complete the purpose? Less a GUI question than one for an
+experiment, perhaps a few. His split rule is the measure (Zengine's `AGENTS.md`: split a pane or
+tool until a piece is too small to be useful alone; that piece becomes an operator other weaves
+compose), tested both ways: participants that should be a library or an operator inside what they
+serve, and C++ inside a host or a pane that would be useful alone, Workshop first. Vision's first
+criterion, for the census to test rather than follow: a participant earns its place when it is
+useful alone -- more than one partner speaks to it, it is swapped or reloaded alone for a reason,
+it holds a permission its partner should not, or it must be isolated -- and is forced when it is a
+pipe, a mirror, or one half of a chatty pair. In process a permission is message authority only
+(P-WORK-67). Where to look first (Vision, 2026-10-12): the snake's controls and clock, each one
+partner in and one out, translating, yet the seam an AI pilot (BL-WORK-40) or a replay would take;
+the menu presenter, one partner, with a second presenter beside it (`examples/numbered-presenter`);
+and the other way, Workshop. A probe re-cuts one forced participant, measured beside today's.
+
+**Wake:** now, beside BL-WORK-37's round 3 (the founder, 2026-10-12).
+**Source:** the founder (2026-10-12), after BL-WORK-37's round 2 review.
 
 ### BL-WORK-12 — Multiple windows
 

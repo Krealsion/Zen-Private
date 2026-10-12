@@ -853,6 +853,24 @@ graphics weave's (BL-WORK-37). A security matter: never in a public issue or pul
 
 **Trigger:** BL-WORK-37's design; a guest power that reaches past loopback.
 
+### P-WORK-67 — A weave's file reach is its host's
+
+**State:** WATCH — seen in BL-WORK-37's round 2 review (Vision, 2026-10-12)  
+**Evidence:** Loom `docs/guides/dynamic-weaves.md` (what loading in process means) and
+`docs/reference/capabilities.md` (the hosting tiers); Zengine `files/README.md`; round 2's seams
+([report](../reportbacks/graphics-weave-research-2-RB.md))
+
+A loaded weave's native code reaches every file and byte its host can, and Workshop hosts every
+row in process. Loom's `FsAccess` is the only enforced file boundary, and it holds only for an
+out-of-process child on Linux or WSL; a Windows build has message authority alone. Files already
+goes anywhere the weaver may read. Round 2's editor weave and every element's "from a file" pull a
+files office with roots: a permission only for a weave that cannot open a file itself (out of
+process at `FsAccess::None`), and a convention in process -- "unconfined reach called permission"
+is round 2's own named mistake. Low while every loaded weave is ours or the weaver's own.
+
+**Trigger:** the first stranger's weave that reads or writes files; the editor weave; an element
+loaded from a file.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
