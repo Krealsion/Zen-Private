@@ -540,8 +540,11 @@ reading: no measurement rerun while two sessions held the slot): a second WSL tr
 s (`timer` 12.7 s), a same-bytes Loom reinstall 34.2 s to nothing, a Windows build's turn in the
 order asked (waited 359.5 to 36.4 s); every lane whole under the settings; Zengine #199 (test
 definitions carry absolute paths) and #200 (the load suite's reload copies), read cold, `ready`.
-#200 quotes VM-LANE-11 as it stood before #198 narrowed it to what a tree builds. Decisions asked: a
-Windows second copy cloned on C:, and the slot's quiet window at 10 s.  
+#200 quotes VM-LANE-11 as it stood before #198 narrowed it to what a tree builds. The founder took
+both as recommended (2026-10-12): a phase's second copy cloned on Windows under the kit's root,
+beside its trees, the primary and his checkouts unmoved, and the slot's quiet window at 10 s, landed
+once nothing reads the kit, with a comment on #200
+([prompt](../prompts/executor-kit-speed-copies.md)).  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
 times faster than on G: in the C: test.
