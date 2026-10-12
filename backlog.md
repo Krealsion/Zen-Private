@@ -1140,7 +1140,14 @@ path and commit. The report's two questions: the file legend (about 20 KB) left 
 search-and-link pass, and one router budget, which `workshop/AGENTS.md` also needed (44 bytes from
 the old 8 KB), both as it leaned, not overruled (the founder, 2026-10-11). A case is resolved
 against every test file, not the file cited before it (as before #201): binding it is the next
-pass's.
+pass's. The cap is #201's second commit, `7c8e6ee`
+([report](../reportbacks/law-register-appendix-whole-file-RB.md)), its run `38186766249` green (docs
+only), reviewed (Vision, 2026-10-12, 10 of 10 checks): `ZEN_LAW_FILE_BYTES` 24,576 in place of the
+appendix's own cap, the self-test red a byte past each cap and green at both, an appendix grown to
+9.6 KB under the file cap green and a file at 25.2 KB red, the description free of Zen; one page
+left stating the old budgets, `agents/verification.md`'s `law_register` bullet (a router 8,192 since
+the first commit, missed by both reviews), its fix a continuation
+([prompt](../prompts/law-register-appendix-page.md)).
 
 ## 5a. Night Lab
 
