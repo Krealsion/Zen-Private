@@ -392,8 +392,20 @@ their session's report. Merge order: the documentation, then #207, #209 and #212
 shape (v2, each pane's aimed picture number), its producer and readers, and merges first; `tutor`
 scopes who hears it on top of v2 and does the rest meanwhile, since the two share the guests file,
 the grant, the guest vocabulary, the desk reads and `tests/shapes.txt`
-([tutor](../prompts/agent-desk-tutor.md), [S3](../prompts/fast-forward-s3.md)). UnknownWorkers' `gh`
-login lives in
+([tutor](../prompts/agent-desk-tutor.md), [S3](../prompts/fast-forward-s3.md)).
+The load flakes are #210 and #211 ([report](../reportbacks/overnight-load-flakes-RB.md)), each red
+on START under load and green after, its mutations caught, 8 of 8 loaded lanes and every hosted job
+green, reviewed ready (Vision, 2026-10-12, 8 of 8 checks): the pilot's paid path is asserted, not
+exercised, its expectation read in the Timer's own code (`apply_ensure`, `fire_due`). Merge order:
+Loom #55, #56 and #57, then #210 and #211, `main`'s run after them the check of the two together;
+then the apart lists go ([prompt](../prompts/timer-probes-in-pool.md)). S3 is #213
+([report](../reportbacks/fast-forward-s3-RB.md)), 8 of 8 green, reviewed (Vision, 2026-10-12, 7 of 7
+checks): `DeskStamps` v2's `aimed` is a list that must line up with `panes`, which Zengine's own
+rule forbids (`tests/weavelib/operator_ask.hpp`), forced by Vision's fence ("no new shape beyond
+`DeskStamps` v2"); the founder amended S3 (2026-10-12): each pane's entry carries its stamp and its
+aimed number, one entry shape, `v2::PaneStamp` unchanged, F5 (a) dropped, the description's private
+pointers gone ([prompt](../prompts/fast-forward-s3-amended.md)); `tutor`'s scoping builds on that.
+UnknownWorkers' `gh` login lives in
 `GH_CONFIG_DIR=$HOME/.config/gh-unknownworkers` on the founder's machine (2026-10-10). An issue
 needs no approval of its own: the fix's approval is the gate, and each issue says honestly how far
 it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
@@ -523,7 +535,9 @@ served on arrival if still beat-bound, S6 the virtual-clock Timer as a measureme
 measurement to a `bench/` folder of Loom's; the game's bodies arrays in a simulation weave, batched
 at the bus's edges. Its incident: a cleanup's too-wide `taskkill` ended another session's test
 binary at 23:41 UTC, inside runtime-gcc16's lane, whose `workshop_load` death in that run is likely
-it (Vision)  
+it (Vision). S1 merged as Zengine #203 and Loom #54 (2026-10-12); S3 is Zengine #213, amended so
+each pane's entry carries its aimed number (the founder, 2026-10-12,
+[prompt](../prompts/fast-forward-s3-amended.md))  
 **Owed:** A fast-forward mode for the demo runs, as in a game: a walk goes as fast as its actions
 can go, where today it reaches four or five actions a second at most; faster runs let agents work
 faster. Beside it, a speed test of the message bus: math like 3D collision, on a massive scale,

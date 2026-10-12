@@ -827,6 +827,18 @@ Builder alone today, or by binding `workshop.band-keys` / `workshop.hotkeys-keys
 
 **Trigger:** stage C's pages, or a weaver reading the Manual.
 
+### P-WORK-65 — Three walk tools still wait on a clock for a settling picture
+
+**State:** OPEN — measured by S3 (Zengine #213, 2026-10-12)  
+**Evidence:** [S3's report](../reportbacks/fast-forward-s3-RB.md), Pressure exposed
+
+The walk hand waits on Workshop's notice for a picture to be aimed at since S3 (Zengine #213), but
+`builder.py`, `nvim_edit.py` and `place.py` each still sleep 0.1 s and read again for a settling
+picture. They were outside S3's files. The hand's notice wait is the seam they could take, and a
+walk's `clock_waits` would then count them.
+
+**Trigger:** S3 on `main`; a walk whose record counts clock waits in one of these tools.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
@@ -1063,7 +1075,8 @@ owner. Keep selection, keyboard focus and click-through separate; do not create 
 
 ### P-BUILD-01 — Windows parallel CTest has a separate Timer failure
 
-**State:** WATCH / BOUNDED DEFECT -- kept apart on the Windows jobs by #187, open  
+**State:** BOUNDED DEFECT -- kept apart on the Windows jobs by #187; its repair, Zengine #210,
+reviewed ready (Vision, 2026-10-12)  
 **Evidence:** ZOOM-P1, current Zengine verification law, #187's first run (2026-10-11)
 
 Linux/GCC is safely parallel. Windows/MSVC remains serial because the Timer suite intermittently
@@ -1077,6 +1090,14 @@ read the logs). The phase had not met it in five proof runs nor locally at `-j16
 alone after the rest on both Windows jobs (`ZEN_CTEST_APART`, under ten seconds), which bounds it
 and does not repair it; once #187 merges, the repair is an issue's (Vision): Zengine #191, `ready`
 ([prompt](../prompts/windows-lanes-after-merge.md), 2026-10-11).
+
+Its cause was the case's, not a Windows concurrency defect: under load the candidate's library load
+and the new service's first beat outlived the one-shot, which fired before the re-ask, and a
+preserving re-ask with nothing to preserve is refused, as the Timer's law says. The repair is
+Zengine #210 (`Fixes #191`): the candidate sealed before the one-shot exists, the re-ask ordered at
+the boundary, the case asserting owed or paid; red 16 of 80 under load at START, 0 of 80 after,
+reviewed ready (Vision, 2026-10-12). `timer` leaves the apart lists after it merges
+([prompt](../prompts/timer-probes-in-pool.md)).
 
 **Trigger:** select a focused Windows concurrency investigation before documenting or enabling
 parallel MSVC verification.
@@ -1284,6 +1305,15 @@ Each was met once, and each cost time:
   `agents/verification/lanes.md`), so a clone of its own for each running phase, or `primary.sh
   switch` refusing a clone with uncommitted changes; and a `census` subcommand kept beside a pass's
   applier, its probes thrown away after use this time.
+- From the load flakes and S3 (2026-10-12): a `loaded.sh <win|san|official> <runs> <busy>`
+  starting and stopping its load inside each slot turn, with a one-CPU pinned probe beside it (the
+  first version loaded other sessions' builds while it waited); a `kit.sh stop <label>` ending a
+  slot request and its tree; `clear-merged.ps1` knowing a phase's second copies under another name
+  (`loadbound`, taken because a phase name holding `-l` met #188's case); `primary.sh second`
+  fetching the copy's `origin`, met again by S3, whose first red START was a stale `origin/main`; a
+  variable a script set before sourcing `common.sh` lost after a long slot wait, twice, unexplained;
+  `demo.sh walk --clock` totalling a walk's `clock_waits`; and an evidence runner holding the slot
+  once for a whole matrix, S3's rows having waited 20 to 40 minutes a step.
 
 **Trigger:** the next executor process pass, or a phase that meets one again.
 
@@ -1321,7 +1351,10 @@ handling.
 ### P-BUILD-13 — A suite waits a fixed span of real time
 
 **State:** OPEN — kept apart on both Linux jobs until its repair (the founder, 2026-10-11), by #193;
-its issue Zengine #192, `ready` ([prompt](../prompts/windows-lanes-after-merge.md))  
+its issue Zengine #192, `ready` ([prompt](../prompts/windows-lanes-after-merge.md)); its repair,
+Zengine #211, waits for the first visual under a bound of 120 beats, reviewed ready (Vision,
+2026-10-12), and `audit_probes` leaves the apart lists after it merges
+([prompt](../prompts/timer-probes-in-pool.md))  
 **Evidence:** [the Windows lanes' report](../reportbacks/windows-lanes-RB.md), its last section;
 proof F's ASan log as the session saved it (`scratch/windows-lanes/runs/proofF-ASan.log`, read by
 Vision)
