@@ -852,22 +852,23 @@ round 2), behaviour staying the owner's. Round 4 first, stage 1 waiting (the fou
 
 Round 4 reported ([report](../reportbacks/graphics-weave-research-4-RB.md)) and reviewed (Vision,
 2026-10-12, 12 of 12 checks): the window presents elements from code it loads as it loads a skin
-(`ElementPut` once, then `ElementChange{ref, kind, change}`, the change's shape implied), keeps their
-state and its own painted cells; the snake's board as the game's own element (`SnakeStep{head,
+(`ElementPut` once, then `ElementChange{ref, kind, change}`, the change's shape implied), keeps
+their state and its own painted cells; the snake's board as the game's own element (`SnakeStep{head,
 freed, food, dead}`). A snake tick 67.0 bytes on the bus in 2 (today 72.0, round 3 196.4), 26 of
 them the probe's clock, which stage 1 folds into the world (about 80 in 2 against today's 111 in 3,
 summed from measured parts); the change 41, 30 of them Loom's envelope; the terminal 33.3 bytes a
 tick against today's 548.0, measured. Kept: the element in the window, its short reference, an
 operator implying its operands' shape, the painted cells; dropped: names said once, the operator as
 a number, a palette index. Costs: the element seam carrying state in and out (336.0 bytes a tick,
-1,151.4 for the generic grid), dearer first says and fresh windows, the window 1,660 lines, four gaps
-found by reading; CPU not timed apart from the instruments. Eight decisions, recommended as asked,
+1,151.4 for the generic grid), dearer first says and fresh windows, the window 1,660 lines, four
+gaps found by reading; CPU not timed apart from the instruments. Eight decisions, recommended as asked,
 the game's own board among them (the founder's idea); the founder ordered one more experiment first
 (2026-10-12): the shape stressed until each workload breaks, up to an OS window drawn through SDL's
 software and GPU renderers on the Windows tree, timed with the instruments off -- what Zengine #120
 (BL-ADOPT-03) waits for.
 
-**Wake:** now: round 5, then stage 1 amended from rounds 4 and 5 (the founder, 2026-10-12). Zengine #146
+**Wake:** now: round 5, then stage 1 amended from rounds 4 and 5 (the founder, 2026-10-12).
+Zengine #146
 (several Workshop windows, BL-WORK-12) builds on its window weave later.
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
