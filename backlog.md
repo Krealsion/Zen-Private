@@ -862,10 +862,10 @@ operator implying its operands' shape, the painted cells; dropped: names said on
 a number, a palette index. Costs: the element seam carrying state in and out (336.0 bytes a tick,
 1,151.4 for the generic grid), dearer first says and fresh windows, the window 1,660 lines, four
 gaps found by reading; CPU not timed apart from the instruments. Eight decisions, recommended as
-asked, the game's own board among them (the founder's idea); the founder ordered one more experiment first
-(2026-10-12): the shape stressed until each workload breaks, up to an OS window drawn through SDL's
-software and GPU renderers on the Windows tree, timed with the instruments off -- what Zengine #120
-(BL-ADOPT-03) waits for.
+asked, the game's own board among them (the founder's idea); the founder ordered one more experiment
+first (2026-10-12): the shape stressed until each workload breaks, up to an OS window drawn through
+SDL's software and GPU renderers on the Windows tree, timed with the instruments off -- what Zengine
+#120 (BL-ADOPT-03) waits for.
 
 **Wake:** now: round 5, then stage 1 amended from rounds 4 and 5 (the founder, 2026-10-12).
 Zengine #146 (several Workshop windows, BL-WORK-12) builds on its window weave later.
