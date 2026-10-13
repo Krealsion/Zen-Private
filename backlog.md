@@ -723,11 +723,12 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** ORDERED, STAGE 1 PROMPTED — [round 1](../prompts/graphics-weave-research.md),
+**State:** ORDERED, ROUND 4 FIRST — [round 1](../prompts/graphics-weave-research.md),
 [round 2](../prompts/graphics-weave-research-2.md),
-[round 3](../prompts/graphics-weave-research-3.md); stage 1, the snake
-([prompt](../prompts/graphics-stage-snake.md)), the decisions taken as Vision's review recommends,
-the founder deferring (2026-10-12; filed 2026-10-07)  
+[round 3](../prompts/graphics-weave-research-3.md),
+[round 4](../prompts/graphics-weave-research-4.md); stage 1, the snake
+([prompt](../prompts/graphics-stage-snake.md)), held for round 4 ([pause, if
+started](../prompts/graphics-stage-snake-pause.md)) (the founder, 2026-10-12; filed 2026-10-07)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
 `draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
 the skin, kept under the pane and its key and called every frame the skin draws until the pane
@@ -835,7 +836,20 @@ read its own id, the Kernel setting only its adapter's (`src/kernel/kernel.cpp:1
 decisions; the report's next is the first stage, the snake in a window doing the whole job, its
 terminal built.
 
-**Wake:** now: stage 1 runs (the founder, 2026-10-12: build the window system now). Zengine #146
+Then (the founder, 2026-10-12): why a snake tick costs 203 bytes on the bus in round 3 against 72
+today, when sending less was the aim. Vision: today's 46-byte `SnakeVisual` is small because every
+skin knows the snake; round 3 describes each change in full (name, operator as a word, operands
+wrapped with their type), about 50 bytes for about 3 of fact; at the terminal round 3 is at the
+minimum (32.5 bytes a tick against about 548 computed for today's classic skin). His principle:
+input and visual output are two sides of one coin, each needing only minimal information, every
+abstraction beyond it weighed on its own efficiency (ease of use, CPU, fewest calls), optimizing for
+all. His idea: a game teaches its language up front and sends only data. Vision's correction, taken:
+the translator pays only loaded into the window, as skins are -- inside the game the drawing still
+crosses, and as a participant between both cross (round 2: +1 message, +204 bytes a tick) -- the
+game choosing an element (the board a grid) and sending its changes (`UiGridSet`, 63 bytes a tick in
+round 2), behaviour staying the owner's. Round 4 first, stage 1 waiting (the founder, 2026-10-12).
+
+**Wake:** now: round 4, then stage 1 amended from it (the founder, 2026-10-12). Zengine #146
 (several Workshop windows, BL-WORK-12) builds on its window weave later.
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
