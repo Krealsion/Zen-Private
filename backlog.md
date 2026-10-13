@@ -723,7 +723,7 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** ORDERED, STAGE 1 PROMPTED — [round 1](../prompts/graphics-weave-research.md),
+**State:** ORDERED, STAGE 1 REVIEWED, READY — [round 1](../prompts/graphics-weave-research.md),
 [round 2](../prompts/graphics-weave-research-2.md),
 [round 3](../prompts/graphics-weave-research-3.md),
 [round 4](../prompts/graphics-weave-research-4.md),
@@ -887,7 +887,25 @@ Nine decisions, taken as recommended but the ninth: Zengine #120 stays parked un
 exists, this round's harness and figures its baseline (the founder, 2026-10-13). Stage 1 amended
 from rounds 4 and 5.
 
-**Wake:** now: stage 1 runs (the founder, 2026-10-13).
+Stage 1 reported ([report](../reportbacks/graphics-stage-snake-RB.md)) as Zengine #218, four
+commits, green on all eight hosted jobs at `d601d1f4`, 12 mutants caught, and reviewed (Vision,
+2026-10-13, 10 of 10 checks): `graphics/` (the vocabulary, the canvas, the seven operators, the
+terminal window in five files, 1,361 lines, the directory, the two seams, the classic and block
+skins as painter libraries); the world the whole game, its board the game's own element, the
+adapters gone; the Skins no longer know the snake. A tick 68.0 bytes on the bus (today 72.0), 27.5
+to the terminal (567.0), 98.5 us (38.7). Readability, the founder's focus: the drawing reads as he
+wanted, element code is a small pure struct, a skin is a look in 29 lines; but every drawer repeats
+the room's handshake (the score weave 77 lines, about 3 of them drawing), the world's state keeps
+where its board is shown, `show` must end every drawing handler, an element's changes are numbered
+by their place in a tuple, about twenty new terms, and the snake example grew from about 690 lines
+to 1,150. The report's five decisions taken (its fourth cites P-WORK-67 for per-row grants, which
+are P-WORK-68). The founder merges #218 as it stands and orders one readability pass before stage 2
+([prompt](../prompts/graphics-readability.md)): the handshake the library's, showing that cannot be
+forgotten, a room naming the elements its window holds, a change type checked at build time; stage 2
+takes the tick's time (the founder, 2026-10-13).
+
+**Wake:** now: #218 merged by the founder, then the readability pass, then stage 2 (the founder,
+2026-10-13).
 Zengine #146 (several Workshop windows, BL-WORK-12) builds on its window weave later.
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
