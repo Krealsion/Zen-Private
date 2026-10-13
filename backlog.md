@@ -723,13 +723,13 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** ORDERED, ROUND 5 FIRST — [round 1](../prompts/graphics-weave-research.md),
+**State:** ORDERED, STAGE 1 PROMPTED — [round 1](../prompts/graphics-weave-research.md),
 [round 2](../prompts/graphics-weave-research-2.md),
 [round 3](../prompts/graphics-weave-research-3.md),
 [round 4](../prompts/graphics-weave-research-4.md),
 [round 5](../prompts/graphics-weave-research-5.md); stage 1, the snake
-([prompt](../prompts/graphics-stage-snake.md)), held for rounds 4 and 5, never started (the
-founder, 2026-10-12; filed 2026-10-07)  
+([prompt](../prompts/graphics-stage-snake.md)), amended from rounds 4 and 5 (the founder,
+2026-10-13; filed 2026-10-07)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
 `draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
 the skin, kept under the pane and its key and called every frame the skin draws until the pane
@@ -867,7 +867,27 @@ first (2026-10-12): the shape stressed until each workload breaks, up to an OS w
 SDL's software and GPU renderers on the Windows tree, timed with the instruments off -- what Zengine
 #120 (BL-ADOPT-03) waits for.
 
-**Wake:** now: round 5, then stage 1 amended from rounds 4 and 5 (the founder, 2026-10-12).
+Round 5 reported ([report](../reportbacks/graphics-weave-research-5-RB.md)) and reviewed (Vision,
+2026-10-13, 12 of 12 checks): round 4's shape grown until each workload broke, timed in optimised
+builds with the probe's instruments compiled out, on the terminal (WSL) and on an OS window through
+SDL3 on Windows. It broke first in the probe's own code -- the window's structures cost the area,
+not the change (256 meters changing every frame 87.5 ms a frame, 4.75 remedied) -- and then in the
+shape: each drawing shown as it came (256 areas 111.6 ms on the OS window, 5.4 shown once a frame on
+a beat), an element's whole state through every call (one cell of a 100 x 40 grid 7.88 ms, 0.073
+with the code keeping its state), a node a cell (a 100 x 40 screen 34 ms, 0.83 as one node), data
+past Loom's 65,536 cells a value (paged instead), the OS window made again on a reload (56 ms, 3.1
+handed over). Remedied, a 60 Hz frame holds about 768 elements changing every frame, 256 areas, a
+400 x 160 screen as one node, a billion-row list paged; a change costs about 20 us, 13 of them the
+element and skin seams. SDL's renderer never broke: six GPU renderers draw the same picture to the
+bit, a lattice filling the window 1.16 to 1.44 ms a frame against 5.6 on the CPU, so SDL's GPU API
+stays out. A key waits where the Timer naps (25.7 ms on a beat of one phase, 11.2 in two, 0.2 with
+the nap woken by input; P-WORK-70). Where it loses: the snake's tick, 75 to 95 us against today's
+32.7, under 0.1% of a core; a whole screen every frame is two to four times faster than today's.
+Nine decisions, taken as recommended but the ninth: Zengine #120 stays parked until stage 1's window
+exists, this round's harness and figures its baseline (the founder, 2026-10-13). Stage 1 amended
+from rounds 4 and 5.
+
+**Wake:** now: stage 1 runs (the founder, 2026-10-13).
 Zengine #146 (several Workshop windows, BL-WORK-12) builds on its window weave later.
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
@@ -1192,6 +1212,9 @@ onboarding remain broader work; this bounded repair does not close the item.
 ### BL-ADOPT-03 — Performance evidence before performance claims
 
 **State:** ISSUE — [Zengine#120](https://github.com/Krealsion/Zengine/issues/120) holds it now (filed by deep review, 2026-10-09).
+Its wake has come: BL-WORK-37's window weave against today's drawing path. It stays parked until
+stage 1's window exists, BL-WORK-37 round 5's stress host, tables and canary its measurement and
+their figures its baseline (the founder, 2026-10-13).
 
 ### BL-ADOPT-04 — GitHub from Workshop
 

@@ -902,6 +902,35 @@ the wire. Loom's to weigh: the format is a frozen commitment, and the name serve
 **Trigger:** the bus's bytes mattering below one message a change; a reference reader asking what a
 message costs.
 
+### P-WORK-70 — Every message waits out the Timer's nap
+
+**State:** WATCH — measured in BL-WORK-37's round 5 (Vision, 2026-10-13)  
+**Evidence:** Zengine `timer/timer_weave.hpp` (each `Drive` naps to the soonest deadline, and a
+reply to a firing "waits out up to one nap"); `timer/docs/timer-protocol.md`, which does not say so;
+[round 5](../reportbacks/graphics-weave-research-5-RB.md), Decision 1 and break 7
+
+The Timer naps inside its handler on Loom's one dispatch thread, so a key, a press or any message
+waits out up to one nap before anything runs. Round 5 measured a key beside a lattice: 25.7 ms with
+the window reading and showing in one phase, 11.2 in two, 0.2 when the nap ends as input arrives (a
+nap that waits on the window's device as well as the clock, the host's stand-in in the probe). Low
+for the snake, whose keys act at its next tick.
+
+**Trigger:** the first window whose input should show at once; a key's latency measured in Workshop.
+
+### P-WORK-71 — A weave cannot hand a device to its next instance
+
+**State:** WATCH — met in BL-WORK-37's round 5 (Vision, 2026-10-13)  
+**Evidence:** Loom `src/kernel/kernel.cpp` (`reload_from` makes the candidate's instance before the
+incumbent's snapshot is taken); `docs/guides/dynamic-weaves.md`, Live evolution, which does not say
+so; [round 5](../reportbacks/graphics-weave-research-5-RB.md), break 11
+
+A reload constructs the next instance while the old one lives, so a weave holding a device (an OS
+window, a port, a file) meets two instances at once, and Loom has no way to hand a native handle
+across. The probe opened its window at activation and passed it through SDL's global properties (56
+ms a reload to 3.1). Loom's to weigh, and its guide's to say.
+
+**Trigger:** the SDL window stage; any weave that holds a device across a reload.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
