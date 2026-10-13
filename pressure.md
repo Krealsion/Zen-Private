@@ -887,6 +887,21 @@ again.
 **Trigger:** a stranger's row in a plan; the terminal's or the desktop's re-cut; a criterion that
 counts permission.
 
+### P-WORK-69 — Every message carries its shape's whole name
+
+**State:** WATCH — seen in BL-WORK-37's round 4 (Vision, 2026-10-12)  
+**Evidence:** Loom `src/serialize.cpp` (the envelope: magic, format, the name's length and the name,
+version, an 8-byte content id); `docs/reference/values-and-admission.md`, Serialization, which
+gives none of these sizes
+
+A message's envelope is 17 bytes and its shape's name: 30 of the 41 bytes of the snake's step as an
+`ElementChange`, beside a content id that already identifies the shape. Every byte figure the
+graphics research gave needed the source, since the reference does not say what a message costs on
+the wire. Loom's to weigh: the format is a frozen commitment, and the name serves the gate's words.
+
+**Trigger:** the bus's bytes mattering below one message a change; a reference reader asking what a
+message costs.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35

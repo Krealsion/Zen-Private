@@ -723,12 +723,13 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** ORDERED, ROUND 4 FIRST — [round 1](../prompts/graphics-weave-research.md),
+**State:** ORDERED, ROUND 5 FIRST — [round 1](../prompts/graphics-weave-research.md),
 [round 2](../prompts/graphics-weave-research-2.md),
 [round 3](../prompts/graphics-weave-research-3.md),
-[round 4](../prompts/graphics-weave-research-4.md); stage 1, the snake
-([prompt](../prompts/graphics-stage-snake.md)), held for round 4 ([pause, if
-started](../prompts/graphics-stage-snake-pause.md)) (the founder, 2026-10-12; filed 2026-10-07)  
+[round 4](../prompts/graphics-weave-research-4.md),
+[round 5](../prompts/graphics-weave-research-5.md); stage 1, the snake
+([prompt](../prompts/graphics-stage-snake.md)), held for rounds 4 and 5, never started (the
+founder, 2026-10-12; filed 2026-10-07)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
 `draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
 the skin, kept under the pane and its key and called every frame the skin draws until the pane
@@ -849,7 +850,24 @@ crosses, and as a participant between both cross (round 2: +1 message, +204 byte
 game choosing an element (the board a grid) and sending its changes (`UiGridSet`, 63 bytes a tick in
 round 2), behaviour staying the owner's. Round 4 first, stage 1 waiting (the founder, 2026-10-12).
 
-**Wake:** now: round 4, then stage 1 amended from it (the founder, 2026-10-12). Zengine #146
+Round 4 reported ([report](../reportbacks/graphics-weave-research-4-RB.md)) and reviewed (Vision,
+2026-10-12, 12 of 12 checks): the window presents elements from code it loads as it loads a skin
+(`ElementPut` once, then `ElementChange{ref, kind, change}`, the change's shape implied), keeps their
+state and its own painted cells; the snake's board as the game's own element (`SnakeStep{head,
+freed, food, dead}`). A snake tick 67.0 bytes on the bus in 2 (today 72.0, round 3 196.4), 26 of
+them the probe's clock, which stage 1 folds into the world (about 80 in 2 against today's 111 in 3,
+summed from measured parts); the change 41, 30 of them Loom's envelope; the terminal 33.3 bytes a
+tick against today's 548.0, measured. Kept: the element in the window, its short reference, an
+operator implying its operands' shape, the painted cells; dropped: names said once, the operator as
+a number, a palette index. Costs: the element seam carrying state in and out (336.0 bytes a tick,
+1,151.4 for the generic grid), dearer first says and fresh windows, the window 1,660 lines, four gaps
+found by reading; CPU not timed apart from the instruments. Eight decisions, recommended as asked,
+the game's own board among them (the founder's idea); the founder ordered one more experiment first
+(2026-10-12): the shape stressed until each workload breaks, up to an OS window drawn through SDL's
+software and GPU renderers on the Windows tree, timed with the instruments off -- what Zengine #120
+(BL-ADOPT-03) waits for.
+
+**Wake:** now: round 5, then stage 1 amended from rounds 4 and 5 (the founder, 2026-10-12). Zengine #146
 (several Workshop windows, BL-WORK-12) builds on its window weave later.
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
@@ -889,7 +907,8 @@ speaking identity host-held, the move needs Loom (no message drives the session,
 mounts nothing), and the door ends Workshop's relay without either. The census calls the pane
 forced though it earns by presence, so by its own rule it is mixed. The desktop's "inspect in
 Info" row sends to an office that does not accept it: an issue
-([prompt](../prompts/desktop-inspect-issue.md)). Eleven decisions. Outside the fence: the census
+([prompt](../prompts/desktop-inspect-issue.md)), filed as Zengine #217, `ready`, `defect` (2026-10-12).
+Eleven decisions. Outside the fence: the census
 fetched the two primary clones (refs moved, trees untouched); its two clones stay in scratch for the
 founder's review. Three research phases built the same probe host (load, tap, tally): a kit
 candidate.
