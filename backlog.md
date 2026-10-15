@@ -27,21 +27,39 @@ direction stay here and move by phases.
 ## 1a. The order now
 
 **Close what is open, then the roadmap** (the founder, 2026-10-14). First: #219, the readability
-pass, merged as it stands; Zengine's twelve `ready` issues and the grow frame found in #219's
-review, taken in one batch ([prompt](../prompts/ready-issues-batch.md)); these plans current; every
-arc resting where it is merged, its next step written in its item; Night Lab readied in the gaps
-(BL-LAB-01). Then the roadmap, from the founder's notes `zen-pause-and-rethink-2026-10-14.md`, asked
-into `private/` (2026-10-14): ownership mapped, owners extracted with outcomes attributable to them,
-subjects, actions and documents connected, one story proven across workspaces through a restricted
-human interface, then the daily workflow. Its first story: "A maker discovers a running participant,
-understands one editable setting, changes it safely, preserves a useful reference or command,
-carries it into another workspace, and uses it there." Vision's questions on it, asked the same day
-with defaults, wait for the roadmap: its finish line; rebuild or reshape
-(`private/rebuild-scaffold/`, three empty folders: graphics, manual, operators); Night Lab; the
-issue lane; the map run cold, as the notes' independent audit; the story's words; outcomes as keys;
-the Quarry out of Zengine's tree; what stays outside. Into it go what this step rests: graphics
-stage 2, settings stages 2 and 3, the desk's 3a and 3b, fast forward's S2 and S4 to S6, docs stage
-C, and the release.
+pass, merged as it stands (`aab5177`); Zengine's twelve `ready` issues and the grow frame found in
+#219's review, taken in one batch ([prompt](../prompts/ready-issues-batch.md)), started by the
+founder; these plans current; every arc resting where it is merged, its next step written in its
+item.
+
+**The two weeks' goal** (the founder, 2026-10-14): Zen legible, and good to use as a human weaver.
+Documentation first; then the split, which should simplify the documentation, not expand it; then
+the UX improvements, as one batch of `enhancement` issues; complete stories last, on a well-formed
+architecture. His notes (`zen-pause-and-rethink-2026-10-14.md`) are not kept as a file: each item
+goes where it belongs, the UX items drafted as issues for that batch (Vision holds only the notes'
+section headings, so the founder pastes them again). Their first story: "A maker discovers a running
+participant, understands one editable setting, changes it safely, preserves a useful reference or
+command, carries it into another workspace, and uses it there."
+
+**The architecture's needs, as Vision measured them** (Zengine `aab5177`, 2026-10-14). Today: one
+hub, Workshop's weave taking 68 kinds of message and sending 62, `workshop/` 44k of Zengine's 112k
+product lines; repeated plumbing, 12 pane weaves each writing their side of the pane protocol, 9
+messages every one handles and 21 that half or more do; two ways to draw, Workshop's screen and the
+surface beside the graphics library; and, by reading, a Timer that sleeps up to 10 ms at a time on
+the bus's one thread in Workshop. The needs, in order: a manual per owner in one outline (what it
+owns, hears, says, keeps, may do, and how it refuses), which is the ownership map; the hub split by
+the census's ranked list (the terminal first) and the notes' boundaries (the workspace, actions and
+subjects), the window's job kept whole; actions, subjects and outcomes described once, for people,
+agents, the manuals and translation alike; panes writing what they show and do through small opt-in
+libraries, as `DrawingWeave` does for drawing (P-WORK-72); one way to draw (BL-WORK-37's stages 2 to
+5); a key's latency measured in Workshop (P-WORK-70). Later: per-row powers (P-WORK-68), editing
+through owners, Python participants, threading.
+
+Still open from Vision's questions (2026-10-14): rebuild or reshape (`private/rebuild-scaffold/`,
+three empty folders: graphics, manual, operators); who holds Night Lab; the story's words; outcomes
+as keys with typed arguments; the Quarry out of Zengine's tree. Into the roadmap go what this step
+rests: docs stage C first, as the manuals; graphics stage 2, settings stages 2 and 3, the desk's 3a
+and 3b, fast forward's S2 and S4 to S6, and the release.
 
 ## 2. Workshop and onboarding
 
@@ -1283,9 +1301,10 @@ their figures its baseline (the founder, 2026-10-13).
 
 ### BL-ADOPT-05 — The documentation overhaul: a man page on each weave, a tutorial for each step
 
-**State:** ORDERED — resting at B3, B2 (#184) and B3 (#198) merged (2026-10-11); C after the
-roadmap's map, inside the founder's "close what is open" (Vision, 2026-10-14), D after the
-release. Before that: first beside the build-speed changes (the founder, 2026-10-11) — researched
+**State:** ORDERED — resting at B3, B2 (#184) and B3 (#198) merged (2026-10-11); C is the
+roadmap's first step, documentation first (the founder, 2026-10-14), its manuals the ownership
+map (Vision); D after the release. Before that: first beside the build-speed changes (the
+founder, 2026-10-11) — researched
 ([its report](../reportbacks/docs-overhaul-research-RB.md)); its ten decisions taken as recommended
 but F2: no forwarding headers, since the move precedes the first release (the founder, 2026-10-10).
 Stage A, the move, merged as Zengine #179 with Loom #47 (2026-10-10). B1, the Builder's manuals
@@ -1514,9 +1533,10 @@ merge (Vision, 2026-10-12).
 Night lab if we want to use it" (the founder, 2026-10-14). Vision proposes holding it: era 2's
 question becomes the roadmap's story, done by an agent through a person's eyes and hands on
 installed packages inside the wall; readied in the gaps, the wall first, then the standing prompt;
-runs on his word once the story's first slice exists; whether the wall was built is asked. Before
-that: after the agent's desk (BL-WORK-38) and the documentation rewrite; its own thread prepared
-([the handoff](handoffs/night-lab-handoff.md)) (the founder, 2026-10-09)  
+runs on his word once the story's first slice exists; the wall was never built, nothing of it having
+left a trace in Zen (the founder, 2026-10-14). Before that: after the agent's desk (BL-WORK-38) and
+the documentation rewrite; its own thread prepared ([the handoff](handoffs/night-lab-handoff.md))
+(the founder, 2026-10-09)  
 **Owed:** the lab's new question, "Can agents create new panes and setups that are efficient for
 both them and the human user?" An agent on its own host drives a Workshop through the agent's desk,
 and each pane or setup it makes is judged by what it costs an agent and what it costs a person.
