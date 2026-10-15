@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-10-03\
+**Refreshed:** 2026-10-14\
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -18,9 +18,30 @@ fixes, and parked or later ideas are filed as issues on the public repositories,
 small prompt with its fences, so any executor can take one, ship it as its own pull request and
 merge it when it is ready. An issue's pull request merges first, and an open phase branch rebases
 onto it. A security defect is never a public issue: it goes into a draft private security advisory.
-Deep review files them, from [the handoff](handoffs/issues-handoff.md), and files its own findings
-outside the pull request under review the same way. A filed item leaves this file for its issue
-link. The ordered arcs, research items and direction stay here and move by phases.
+Deep review filed them, from [the handoff](handoffs/issues-handoff.md), until it went (the founder,
+2026-10-14). Since then Vision prompts the filing, under `UnknownWorkers` with the labels set in the
+founder's name, and reviews the issues' pull requests, beside the deep-review lite the founder runs
+now and then. A filed item leaves this file for its issue link. The ordered arcs, research items and
+direction stay here and move by phases.
+
+## 1a. The order now
+
+**Close what is open, then the roadmap** (the founder, 2026-10-14). First: #219, the readability
+pass, merged as it stands; Zengine's twelve `ready` issues and the grow frame found in #219's
+review, taken in one batch ([prompt](../prompts/ready-issues-batch.md)); these plans current; every
+arc resting where it is merged, its next step written in its item; Night Lab readied in the gaps
+(BL-LAB-01). Then the roadmap, from the founder's notes `zen-pause-and-rethink-2026-10-14.md`, asked
+into `private/` (2026-10-14): ownership mapped, owners extracted with outcomes attributable to them,
+subjects, actions and documents connected, one story proven across workspaces through a restricted
+human interface, then the daily workflow. Its first story: "A maker discovers a running participant,
+understands one editable setting, changes it safely, preserves a useful reference or command,
+carries it into another workspace, and uses it there." Vision's questions on it, asked the same day
+with defaults, wait for the roadmap: its finish line; rebuild or reshape
+(`private/rebuild-scaffold/`, three empty folders: graphics, manual, operators); Night Lab; the
+issue lane; the map run cold, as the notes' independent audit; the story's words; outcomes as keys;
+the Quarry out of Zengine's tree; what stays outside. Into it go what this step rests: graphics
+stage 2, settings stages 2 and 3, the desk's 3a and 3b, fast forward's S2 and S4 to S6, docs stage
+C, and the release.
 
 ## 2. Workshop and onboarding
 
@@ -144,8 +165,9 @@ its byte budget, so a law it takes needs the file split first.
 
 ### BL-WORK-36 — Settings: what a pane can set, kept with each layout
 
-**State:** ORDERED — in build: researched (2026-10-07); stage 1 written on Loom #31
-(`prompts/settings-stage-1.md`, 2026-10-08); before BL-WORK-09  
+**State:** ORDERED — resting at stage 1: researched (2026-10-07); stage 1 merged as Zengine #101
+(2026-10-09), Loom #31 beside it (`prompts/settings-stage-1.md`, 2026-10-08); stages 2 and 3 wait
+for the roadmap (the founder, 2026-10-14); before BL-WORK-09  
 **Owed:** Configuration for customization is one of Zen's pillars, and replaceable code alone does
 not give it: some things a weaver wants to switch between without a code change or a reload (the
 founder, 2026-10-07). A light mode is not special, and the magic numbers -- a ground, a text
@@ -194,7 +216,9 @@ setup file as the store his own.
 
 ### BL-WORK-38 — Agents and weavers on one desk
 
-**State:** ORDERED — in build: stages 0, 1 and 2 merged as #150, #151 and #158 (2026-10-09),
+**State:** ORDERED — resting until the roadmap (the founder, 2026-10-14), the notice's aimed
+picture (#213) and the Tutor (#215) merged (2026-10-12); in build before that: stages 0, 1 and 2
+merged as #150, #151 and #158 (2026-10-09),
 #151's three review fixes as #155, #157 and #156 in the issue lane; stages 3a and 3b wait for the
 documentation overhaul's folder move and its stages 4a and 4b (BL-ADOPT-05), and an agent's
 powers are researched ahead of them (2026-10-10, below); researched
@@ -553,7 +577,8 @@ at the bus's edges. Its incident: a cleanup's too-wide `taskkill` ended another 
 binary at 23:41 UTC, inside runtime-gcc16's lane, whose `workshop_load` death in that run is likely
 it (Vision). S1 merged as Zengine #203 and Loom #54 (2026-10-12); S3 is Zengine #213, amended so
 each pane's entry carries its aimed number (the founder, 2026-10-12,
-[prompt](../prompts/fast-forward-s3-amended.md))  
+[prompt](../prompts/fast-forward-s3-amended.md)), merged as #213 (2026-10-12); S2 and S4 to S6
+wait for the roadmap (the founder, 2026-10-14)  
 **Owed:** A fast-forward mode for the demo runs, as in a game: a walk goes as fast as its actions
 can go, where today it reaches four or five actions a second at most; faster runs let agents work
 faster. Beside it, a speed test of the message bus: math like 3D collision, on a massive scale,
@@ -723,7 +748,8 @@ carry; its research decides whether Images waits for it (2026-10-07).
 
 ### BL-WORK-37 — The skin's drawing door
 
-**State:** ORDERED, STAGE 1 REVIEWED, READY — [round 1](../prompts/graphics-weave-research.md),
+**State:** ORDERED, STAGE 1 MERGED, ITS READABILITY PASS REVIEWED; STAGE 2 WAITS FOR THE ROADMAP
+— [round 1](../prompts/graphics-weave-research.md),
 [round 2](../prompts/graphics-weave-research-2.md),
 [round 3](../prompts/graphics-weave-research-3.md),
 [round 4](../prompts/graphics-weave-research-4.md),
@@ -904,8 +930,25 @@ are P-WORK-68). The founder merges #218 as it stands and orders one readability 
 forgotten, a room naming the elements its window holds, a change type checked at build time; stage 2
 takes the tick's time (the founder, 2026-10-13).
 
-**Wake:** now: #218 merged by the founder, then the readability pass, then stage 2 (the founder,
-2026-10-13).
+The readability pass reported ([report](../reportbacks/graphics-readability-RB.md)) as Zengine #219,
+two commits, green on all eight hosted jobs at `027d6e5a`, 14 mutants caught, and reviewed (Vision,
+2026-10-14, 13 checks run of 13, 12 passing; its builds, mutants and bench read from its evidence,
+not rerun): `graphics/drawing.hpp`'s `DrawingWeave` owns the room's handshake and shows at the end
+of every delivery (Loom's `after_delivery`), a drawer writing `picture` and an optional `on_room`;
+the window sends the room, naming the elements it holds (`AreaRoom` 2), so the world's state keeps
+no window; a change type outside its list does not compile. The score weave 77 lines to 49 (its
+class 15, 4 of them drawing), the world 362 to 325, the operator 411 to 402, no `show()` left in
+them; a tick 68.0 bytes on the bus and 27.52 to the terminal, as on `main`, 104.7 us against 99.4.
+Its finding, by reading: growing the world, the heir's first tick sends a seeded game to the old 24
+x 16 board in cells of the new 48-wide one, so the board likely blanks for a frame before the
+inherited board lands, unwitnessed, the live walk never pressing `3`; filed and taken in the
+ready-issues batch. Its two decisions as Vision put them: a room taken on the window's word, a
+window office being a load plan's grant (asked again once strangers bring windows); a refused
+presentation unmarking its element waits for the pane work. The founder merges it as it stands
+(2026-10-14). Two seams for the roadmap: P-WORK-72 (one end-of-delivery hook a weave) and P-WORK-73
+(a resize reaches no drawer).
+
+**Wake:** the roadmap, which stage 2 joins (the founder, 2026-10-14).
 Zengine #146 (several Workshop windows, BL-WORK-12) builds on its window weave later.
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
@@ -1240,7 +1283,9 @@ their figures its baseline (the founder, 2026-10-13).
 
 ### BL-ADOPT-05 — The documentation overhaul: a man page on each weave, a tutorial for each step
 
-**State:** ORDERED, first beside the build-speed changes (the founder, 2026-10-11) — researched
+**State:** ORDERED — resting at B3, B2 (#184) and B3 (#198) merged (2026-10-11); C after the
+roadmap's map, inside the founder's "close what is open" (Vision, 2026-10-14), D after the
+release. Before that: first beside the build-speed changes (the founder, 2026-10-11) — researched
 ([its report](../reportbacks/docs-overhaul-research-RB.md)); its ten decisions taken as recommended
 but F2: no forwarding headers, since the move precedes the first release (the founder, 2026-10-10).
 Stage A, the move, merged as Zengine #179 with Loom #47 (2026-10-10). B1, the Builder's manuals
@@ -1356,7 +1401,9 @@ feature's folder is the natural unit of a pane built alone.
 
 ### BL-ADOPT-06 — A release ready to run, for Windows and Linux
 
-**State:** ORDERED — researched ([its report](../reportbacks/release-research-RB.md), 2026-10-10):
+**State:** ORDERED — a roadmap item: R0 to R5 not started and their 10-22 date dropped, the
+founder closing what is open first (2026-10-14). Before that: researched
+([its report](../reportbacks/release-research-RB.md), 2026-10-10):
 one package per platform made by the repositories' own install and judged clean, a C seam so a pane
 author's compiler is theirs, and stages R0 to R5 with Loom's L1 and the Builder's R1b, 10-11 to
 10-22, the build slot their constraint. The founder agreed with its direction and put it beside the
@@ -1462,8 +1509,14 @@ merge (Vision, 2026-10-12).
 
 ### BL-LAB-01 — Night Lab, era 2: agents make panes and setups for both hands
 
-**State:** ORDERED — after the agent's desk (BL-WORK-38) and the documentation rewrite; its own
-thread prepares now ([the handoff](handoffs/night-lab-handoff.md)) (the founder, 2026-10-09)  
+**State:** ORDERED, ITS THREAD GONE — the lab's own thread went, with deep review, before any of era
+2 reached the lab's repository (its last commit 2026-08-07): "we are going to need to take hold of
+Night lab if we want to use it" (the founder, 2026-10-14). Vision proposes holding it: era 2's
+question becomes the roadmap's story, done by an agent through a person's eyes and hands on
+installed packages inside the wall; readied in the gaps, the wall first, then the standing prompt;
+runs on his word once the story's first slice exists; whether the wall was built is asked. Before
+that: after the agent's desk (BL-WORK-38) and the documentation rewrite; its own thread prepared
+([the handoff](handoffs/night-lab-handoff.md)) (the founder, 2026-10-09)  
 **Owed:** the lab's new question, "Can agents create new panes and setups that are efficient for
 both them and the human user?" An agent on its own host drives a Workshop through the agent's desk,
 and each pane or setup it makes is judged by what it costs an agent and what it costs a person.

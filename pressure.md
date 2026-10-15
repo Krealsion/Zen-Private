@@ -931,6 +931,33 @@ ms a reload to 3.1). Loom's to weigh, and its guide's to say.
 
 **Trigger:** the SDL window stage; any weave that holds a device across a reload.
 
+### P-WORK-72 — One end-of-delivery hook a weave
+
+**State:** WATCH — met in BL-WORK-37's readability pass (Vision, 2026-10-14)  
+**Evidence:** Loom `include/zen/weave/weave.hpp` (one `after_delivery`, called when the weave
+declares it); Zengine `graphics/drawing.hpp`, which takes it and refuses a drawer's own at build
+time; `workshop/weave_managed.cpp`, `editor/editor-pane/pane.cpp` and
+`editor/neovim-editor/pane.cpp`, which define their own
+
+A drawing weave draws and shows at Loom's end-of-delivery hook, the one a weave has. Workshop's
+weave and both editor panes already use it, so none can become a drawing weave as they stand: Loom
+composing the hook, or the drawing weave offering an end-of-delivery hook of its own, is Loom's and
+the graphics library's to weigh.
+
+**Trigger:** the first pane drawn through the drawing weave; a second library wanting the hook.
+
+### P-WORK-73 — A room that only resizes reaches no drawer
+
+**State:** WATCH — met in BL-WORK-37's readability pass (Vision, 2026-10-14)  
+**Evidence:** Zengine `graphics/canvas.hpp` (`Canvas::room` is true only when the window or its
+incarnation changed); `graphics/drawing.hpp` (`on_room` runs only then)
+
+The window answers every introduction of an area, a move or a resize among them, with its room, but
+a drawing weave hears a room only when the window or its incarnation changed, and keeps no size. The
+snake never resizes; a Workshop pane will.
+
+**Trigger:** the first drawing weave whose area changes size.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
