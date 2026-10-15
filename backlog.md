@@ -39,7 +39,9 @@ of them in meaning as well as text (Compose's census and manual after #231, the 
 pages after #232), with the floors the manuals' 35 new cases never raised and the manuals' defects
 filed: the merge train ([prompt](../prompts/merge-train.md)). The `workflow` scope the batch asked
 for UnknownWorkers' token is not needed and not taken; the fork it made, `UnknownWorkers/Zengine`,
-holds nothing, and is the founder's to keep or delete.
+holds nothing, and the founder deletes it (2026-10-15), from the UnknownWorkers account. Round one
+merged by the founder (2026-10-15), each merge with a run of its own on `main` and none replaced,
+#224's witness; the merge train running for round two.
 
 **The goal** (the founder, 2026-10-14): Zen legible, and good to use as a human weaver.
 Documentation first; then the split, which should simplify the documentation, not expand it; then
@@ -114,9 +116,15 @@ keys with typed arguments, which no consumer parses. Open: which descriptions ex
 pane's action row since #186), and how localization catalogs are owned, loaded and replaced. Two
 inputs from the manuals (2026-10-15): only the Builder pane and the desk declare what a press causes
 (`v3::PaneActionRow`), so the other panes' pages cannot link a press to what it sends -- declared
-with this step; and a naming rule, proposed by Vision: a request ends `Requested`, an answer
-`Answered` or `Refused`, a deed is said in the past tense, an observation as a noun, for every new
-shape now and for old ones as each owner is extracted, never as one rename across the wire.
+with this step; and a naming rule, agreed by the founder (2026-10-15): a request ends `Requested`,
+an answer `Answered` or `Refused`, a deed is said in the past tense, an observation as a noun, for
+every new shape now and for old ones as each owner is extracted, never as one rename across the
+wire. Graphics meets this step (Vision, 2026-10-15): a click on a drawn control already reaches its
+owner by action id (`ActionIssued`, from the window), as a key does through Workshop's keymap
+(`PaneActionRequested`), so one action can have every invoker and its causes declared once. Under
+the naming rule those two are one request, and the window routes keys straight to an area's owner
+with no keymap: one action path, owned with the action descriptions, comes before graphics stage 2
+puts a Workshop pane on the window, or that stage chooses between two.
 
 4. **Relationships and powers.** Explicit and inspectable: a window contains panes, a pane presents
 components, a value has an owner, a participant has a lifecycle and granted powers, with visual
@@ -1084,7 +1092,8 @@ weave, so drawing to a window needs a graphics weave and never a Workshop file. 
 composition, arrangement and routing move there whole over stages 2 to 5, which the census's lesson
 (a press crosses once) keeps in one window weave.
 
-**Wake:** the roadmap, which stage 2 joins (the founder, 2026-10-14).
+**Wake:** the roadmap, which stage 2 joins (the founder, 2026-10-14), after one action path
+(section 1b, theme 3).
 Zengine #146 (several Workshop windows, BL-WORK-12) builds on its window weave later.
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
