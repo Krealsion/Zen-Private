@@ -32,34 +32,117 @@ pass, merged as it stands (`aab5177`); Zengine's twelve `ready` issues and the g
 founder; these plans current; every arc resting where it is merged, its next step written in its
 item.
 
-**The two weeks' goal** (the founder, 2026-10-14): Zen legible, and good to use as a human weaver.
+**The goal** (the founder, 2026-10-14): Zen legible, and good to use as a human weaver.
 Documentation first; then the split, which should simplify the documentation, not expand it; then
 the UX improvements, as one batch of `enhancement` issues; complete stories last, on a well-formed
-architecture. His notes (`zen-pause-and-rethink-2026-10-14.md`) are not kept as a file: each item
-goes where it belongs, the UX items drafted as issues for that batch (Vision holds only the notes'
-section headings, so the founder pastes them again). Their first story: "A maker discovers a running
-participant, understands one editable setting, changes it safely, preserves a useful reference or
-command, carries it into another workspace, and uses it there."
+architecture. No timeline: a day or two for the manuals, he says, with minor work beside them. His
+notes are kept by item, not as a file: their themes in section 1b, their UX items as issue drafts in
+[ux-batch.md](ux-batch.md).
 
 **The architecture's needs, as Vision measured them** (Zengine `aab5177`, 2026-10-14). Today: one
 hub, Workshop's weave taking 68 kinds of message and sending 62, `workshop/` 44k of Zengine's 112k
 product lines; repeated plumbing, 12 pane weaves each writing their side of the pane protocol, 9
 messages every one handles and 21 that half or more do; two ways to draw, Workshop's screen and the
 surface beside the graphics library; and, by reading, a Timer that sleeps up to 10 ms at a time on
-the bus's one thread in Workshop. The needs, in order: a manual per owner in one outline (what it
-owns, hears, says, keeps, may do, and how it refuses), which is the ownership map; the hub split by
-the census's ranked list (the terminal first) and the notes' boundaries (the workspace, actions and
-subjects), the window's job kept whole; actions, subjects and outcomes described once, for people,
-agents, the manuals and translation alike; panes writing what they show and do through small opt-in
-libraries, as `DrawingWeave` does for drawing (P-WORK-72); one way to draw (BL-WORK-37's stages 2 to
-5); a key's latency measured in Workshop (P-WORK-70). Later: per-row powers (P-WORK-68), editing
-through owners, Python participants, threading.
+the bus's one thread in Workshop. The needs, in order: a manual per owner, which maps ownership; the
+hub split by the census's ranked list (the terminal first) and the notes' boundaries, the window's
+job kept whole and moved to graphics (the founder, 2026-10-14: storage and distribution are a
+graphics weave's, so drawing to a window never needs a Workshop file); actions, subjects and
+outcomes described once; panes writing what they show and do through small opt-in libraries, as
+`DrawingWeave` does for drawing (P-WORK-72); one way to draw (BL-WORK-37's stages 2 to 5); a key's
+latency measured in Workshop (P-WORK-70).
 
-Still open from Vision's questions (2026-10-14): rebuild or reshape (`private/rebuild-scaffold/`,
-three empty folders: graphics, manual, operators); who holds Night Lab; the story's words; outcomes
-as keys with typed arguments; the Quarry out of Zengine's tree. Into the roadmap go what this step
-rests: docs stage C first, as the manuals; graphics stage 2, settings stages 2 and 3, the desk's 3a
-and 3b, fast forward's S2 and S4 to S6, and the release.
+Vision's questions of 2026-10-14 are answered by the notes but one: who holds Night Lab. Into the
+roadmap go what this step rests: docs stage C first, as the manuals (their tutorials with the
+stories); graphics stage 2, settings stages 2 and 3, the desk's 3a and 3b, fast forward's S2 and S4
+to S6, and the release.
+
+## 1b. The roadmap's themes
+
+From the founder's notes of 2026-10-14, with what is decided. Their UX items are drafts in
+[ux-batch.md](ux-batch.md), filed together after the manuals and the split. Their principles: the
+most important thing is the ability to intuit and learn; systems compose gracefully; what is good
+for human makers is good for agents; source code stays a first-class way to create beside Flow,
+neither needed to get value from the other. These are directions and review points, not a session or
+pull request each; a useful slice lands when its evidence does.
+
+1. **Documentation first** (the founder, 2026-10-14): docs stage C's manuals for every weave a
+weaver meets, in the form the Builder's set; tutorials wait for the stories. Writing them maps
+ownership (each piece of state's authoritative owner, writers, readers, lifetime and persistence,
+kept apart from derived displays and caches) and sorts every message into request, performed action,
+observation or outcome: the split's input ([prompt](../prompts/manuals-first.md)).
+
+2. **One owner per job: the split.** The hub's responsibilities go to owners, guided by the manuals'
+map, the census's ranked list (the terminal, the menu, Info's properties view, the guest scope
+judge, the project's three doors) and the notes' candidate boundaries: input coordination, workspace
+navigation, carry handling, subject and action descriptions, feature owners, presentation --
+hypotheses to test, not six services. A rebuild thought experiment asks what responsibilities a
+rebuild would have and improves the current code with the answer (`rebuild-scaffold/`); moving
+methods between files is not a split, and a new weave earns its independence by use. **The window is
+graphics'** (the founder, 2026-10-14): its storage and distribution belong to a graphics weave, so
+drawing to a window never needs a Workshop file; its job stays whole there, a press crossing once.
+Open: the first extraction.
+
+3. **Describe once: actions, subjects, outcomes.** An owner describes an action's purpose, inputs,
+availability, documentation and outcomes once, and menus, controls, Compose, the desk and automation
+reuse it; mouse, keyboard and semantic invocation reach the same owner operation under their own
+authority checks; a readable schema is not a writable one, and an offered action is not a granted
+one. Outcomes are stable and attributable, with the subject's and the operation's identity, stale
+and superseded work told apart, pending never taken for failed; their words come from localization
+keys with typed arguments, which no consumer parses. Open: which descriptions exist to extend (a
+pane's action row since #186), and how localization catalogs are owned, loaded and replaced.
+
+4. **Relationships and powers.** Explicit and inspectable: a window contains panes, a pane presents
+components, a value has an owner, a participant has a lifecycle and granted powers, with visual
+containment, data ownership, lifecycle and authority kept distinct. Today every loaded row but
+Inventory is admitted `allow_any` (P-WORK-68); the agent-powers research is the start.
+
+5. **Subject continuity.** A subject keeps its identity through navigation, inspection, composition,
+editing and transfer, as a snapshot, a live reference, a draft with its source revision, or a saved
+command; disappearance, replacement and a changed schema are said, and an old reference is never
+silently redirected.
+
+6. **Workspaces, perspectives, navigation.** A workspace arranges tools and material; a perspective
+presents them for a task and may span workspaces; authority stays explicit. Moving between
+workspaces, returning, and carrying across them (UX-08 to UX-11) wait for the workspace's owner.
+
+7. **Two modes for agents** (with BL-WORK-38 and BL-LAB-01): human-interface, the visible output and
+normal input of an authorized perspective; and semantic, granted messages, operations and
+observations. A restricted run never falls back to hidden queries, and restriction is enforced at
+the interfaces, not by hiding buttons. Open: what visible projection each restricted profile may
+read.
+
+8. **Graphics and components** (BL-WORK-37): helpers written by hand first, a generator of helper
+functions later, with the data conversion research (BL-WORK-41); whole controls, shapes, lines and
+pixels; the View Builder's components are in the UX batch.
+
+9. **Connected tools.** Loaded, Project and Compose researched as one journey, with examples done by
+mouse alone, before deciding whether to combine them; Info's edit and save through owner-declared
+editing contracts (writable fields, validation, revision and conflict checks, authority, outcomes),
+with BL-WORK-10.
+
+10. **Configuration, persistence, personal work.** A source literal promoted to configuration in a
+few actions, the configuration in the state schema with explicit upgrade paths (with BL-WORK-36);
+each owner's persistence promises visible across navigation, shutdown, replacement and a crash,
+authored work first; personal changes kept apart from shared contributions, their storage open (with
+#145); operators marked in code by a small code-tool action.
+
+11. **Tools, demos, workers.** A reusable local worker environment (a cloned WSL or a kickstart
+file, its image kept apart from identity and credentials; workers open pull requests, the founder
+merges); tools and demos kept apart; the demo runner (UX-36); Python participants, a
+documentation-drift scanner first (with #147); the quarry out of Zengine (HK-01, fileable now).
+
+12. **Execution experiments, later.** Message cost measured first (redundant publications,
+forwarding-only participants, serialization, fan-out, queueing, real latency); then a compiled
+composition (direct endpoints, an event queue) with its equivalences defined first; speculative
+threading with in-order commitment. A hash identifies approved code; it does not prove that
+bypassing the message path keeps its meaning.
+
+13. **The first complete story, last**: "A maker discovers a running participant, understands one
+editable setting, changes it safely, preserves a useful reference or command, carries it into
+another workspace, and uses it there," with the notes' questions and evidence: files and contracts
+touched, steps, message chains, timings, failures and their recovery, and source-only, semantic and
+interface evidence labelled apart.
 
 ## 2. Workshop and onboarding
 
@@ -965,6 +1048,11 @@ window office being a load plan's grant (asked again once strangers bring window
 presentation unmarking its element waits for the pane work. The founder merges it as it stands
 (2026-10-14). Two seams for the roadmap: P-WORK-72 (one end-of-delivery hook a weave) and P-WORK-73
 (a resize reaches no drawer).
+
+**The window is graphics'** (the founder, 2026-10-14): storage and distribution belong to a graphics
+weave, so drawing to a window needs a graphics weave and never a Workshop file. Workshop's
+composition, arrangement and routing move there whole over stages 2 to 5, which the census's lesson
+(a press crosses once) keeps in one window weave.
 
 **Wake:** the roadmap, which stage 2 joins (the founder, 2026-10-14).
 Zengine #146 (several Workshop windows, BL-WORK-12) builds on its window weave later.
