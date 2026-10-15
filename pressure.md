@@ -958,6 +958,22 @@ snake never resizes; a Workshop pane will.
 
 **Trigger:** the first drawing weave whose area changes size.
 
+### P-WORK-74 — A document door changes the contract a reload in place compares
+
+**State:** WATCH — met by the manuals, Zengine #234 to #249 (Vision, 2026-10-15)  
+**Evidence:** [the manuals' report](../reportbacks/manuals-first-RB.md), Decisions asked 1; Loom's
+reload in place, which refuses images whose accepted shapes differ
+
+Every weave that gained `PaneDocumentRequested` or `ShapeDocumentRequested` accepts one shape more,
+so an image built before can no longer be reloaded in place into one after, a one-time break before
+the first release. The menu presenter keeps its page unanswered, since its numbered stand-in and any
+presenter built from the installed package, which carries no manual vocabulary, could no longer
+replace it in place. Options: every replacement accepting the door; Loom letting a reload ignore a
+document door; or the door left off.
+
+**Trigger:** a stranger's weave carrying its manual (the documentation's stage D); the presenter's
+split.
+
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35

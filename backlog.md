@@ -30,7 +30,16 @@ direction stay here and move by phases.
 pass, merged as it stands (`aab5177`); Zengine's twelve `ready` issues and the grow frame found in
 #219's review, taken in one batch ([prompt](../prompts/ready-issues-batch.md)), started by the
 founder; these plans current; every arc resting where it is merged, its next step written in its
-item.
+item. Both reported and reviewed (Vision, 2026-10-15): the batch as #220 to #233, thirteen pull
+requests green on their own heads and #228 the grow frame, filed; the manuals as #234 to #249,
+sixteen green, 33 pages in all. Never rehearsed together: by text, 21 merge cleanly in one order,
+which the founder merges first (#224 out of draft and first, so each later merge gets a run of its
+own, the witness its fork would have been); eight then need their branches brought onto `main`, two
+of them in meaning as well as text (Compose's census and manual after #231, the desk's and Info's
+pages after #232), with the floors the manuals' 35 new cases never raised and the manuals' defects
+filed: the merge train ([prompt](../prompts/merge-train.md)). The `workflow` scope the batch asked
+for UnknownWorkers' token is not needed and not taken; the fork it made, `UnknownWorkers/Zengine`,
+holds nothing, and is the founder's to keep or delete.
 
 **The goal** (the founder, 2026-10-14): Zen legible, and good to use as a human weaver.
 Documentation first; then the split, which should simplify the documentation, not expand it; then
@@ -70,7 +79,19 @@ pull request each; a useful slice lands when its evidence does.
 weaver meets, in the form the Builder's set; tutorials wait for the stories. Writing them maps
 ownership (each piece of state's authoritative owner, writers, readers, lifetime and persistence,
 kept apart from derived displays and caches) and sorts every message into request, performed action,
-observation or outcome: the split's input ([prompt](../prompts/manuals-first.md)).
+observation or outcome: the split's input ([prompt](../prompts/manuals-first.md)). Done as #234 to
+#249 (2026-10-15): every weave a weaver meets carries its manual, answered when asked, but the menu
+presenter's (carried, not answered: a document door changes its accepted contract, and its stand-ins
+could no longer reload in its place, P-WORK-74; it waits for the presenter's split, Vision's
+default); the documentation grew from 43.5k to 48.0k lines, 7.6k written and 3.1k retired,
+Workshop's own page the longest at 797 lines. The maps
+([ownership](../reportbacks/manuals-first/ownership.md),
+[messages](../reportbacks/manuals-first/messages.md)): the split's list, 179 places a page had to
+describe another weave's internals, in 69 ranks, its widest groups Workshop's grants and guest
+powers (11 weaves), Loom's bus (10), realization and the load plan (8) and the operation judge (7);
+state kept only in an image and lost on a reload in place across nine weaves; one state kept in two
+places four times (areas, element code, a pane's content, an Inventory entry); 306 shapes, of which
+166 have names that do not say whether they request, report a deed, observe or answer.
 
 2. **One owner per job: the split.** The hub's responsibilities go to owners, guided by the manuals'
 map, the census's ranked list (the terminal, the menu, Info's properties view, the guest scope
@@ -90,12 +111,21 @@ authority checks; a readable schema is not a writable one, and an offered action
 one. Outcomes are stable and attributable, with the subject's and the operation's identity, stale
 and superseded work told apart, pending never taken for failed; their words come from localization
 keys with typed arguments, which no consumer parses. Open: which descriptions exist to extend (a
-pane's action row since #186), and how localization catalogs are owned, loaded and replaced.
+pane's action row since #186), and how localization catalogs are owned, loaded and replaced. Two
+inputs from the manuals (2026-10-15): only the Builder pane and the desk declare what a press causes
+(`v3::PaneActionRow`), so the other panes' pages cannot link a press to what it sends -- declared
+with this step; and a naming rule, proposed by Vision: a request ends `Requested`, an answer
+`Answered` or `Refused`, a deed is said in the past tense, an observation as a noun, for every new
+shape now and for old ones as each owner is extracted, never as one rename across the wire.
 
 4. **Relationships and powers.** Explicit and inspectable: a window contains panes, a pane presents
 components, a value has an owner, a participant has a lifecycle and granted powers, with visual
 containment, data ownership, lifecycle and authority kept distinct. Today every loaded row but
 Inventory is admitted `allow_any` (P-WORK-68); the agent-powers research is the start.
+`SetupApplyRequested` judges no asker: any loaded weave, and a guest with the `demo` power, can put
+a desk live (Vision, 2026-10-15); `WorkshopQuitRequested` judges its asker, a guest's quit on the
+weaver's host refused. Not a security defect under today's trust, which admits loaded code
+in-process; a gap this theme closes.
 
 5. **Subject continuity.** A subject keeps its identity through navigation, inspection, composition,
 editing and transfer, as a snapshot, a live reference, a draft with its source revision, or a saved
