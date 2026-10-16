@@ -2,6 +2,20 @@
   bundled cmake is 4.0). Ninja and ccache are not installed system-wide; they sit under
   `~/opt/zoom/bin-ninja` and `~/opt/zoom/bin-ccache` (the ccache wrapper needs `LD_LIBRARY_PATH`).
   `sudo` needs a password. WSL sees 30 GB of the host's 63.
+- **Night Lab's distribution, `Zen-Night-Lab`** (the wall, built and checked 2026-10-16): Ubuntu
+  24.04 under WSL 2.6.2, with users of its own: `labagent`, the default, with no sudo and no
+  privileged group, and `labadmin`, with sudo, the founder's, its password never in the lab.
+  `/etc/wsl.conf`: systemd on; drive automount and fstab off; Windows interop and the Windows PATH
+  off; the GPU off. WSLg off for every distribution (`guiApplications=false` in the founder's
+  `.wslconfig`, 2026-10-16), since it shared the Windows clipboard. Networking mirrored, as every
+  distribution's: the said limit, it reaches Windows' localhost and the home network. Installed: g++
+  13.3, cmake 3.28.3, ninja 1.11.1, ccache, `gh` 2.45, bubblewrap and socat (Claude Code's sandbox),
+  and Claude Code 2.1.301 by its native installer in `~/.local` (auto-updating). Both logged in by
+  the founder: `gh` with a fine-grained token reaching only `zen-night-lab` (Contents read and
+  write), and Claude Code. Root is reached only from Windows, `wsl -d Zen-Night-Lab -u root`; a
+  script goes in on standard input, since the lab sees no Windows drive: `cmd /c "wsl -d
+  Zen-Night-Lab -- bash -s < <script> > <output> 2>&1"`. The scripts and the check:
+  `Zen/night-lab/wall/` (`verify.sh`, 23 checks passed, 0 failed, 2026-10-16).
 - **CPU**: Ryzen 9 7900X, 12 physical cores / 24 threads. `-j24` is the best measured build
   parallelism; `-j32` is slower. In WSL, which sees 30 GB, Zengine's official lane at `-j24`
   had compilers killed for memory (2026-09-30); `-j8` built. The founder's limits (2026-10-04):

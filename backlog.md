@@ -1661,15 +1661,19 @@ handoff](handoffs/night-lab-scaffolding-handoff.md)): the lab drafts, ahead of P
 panes and setups on the target, how a gesture or a request travels, and what each screen shows a
 person and offers an agent, in [`rebuild-scaffold/`](../rebuild-scaffold/README.md) until the wall
 is built; no pull request of its own while Path 1 cuts the spine; its findings go through the
-founder to Vision. A1, the panes, drafted (2026-10-15). Before that: ORDERED, ITS THREAD GONE — the
-lab's own thread went, with deep review, before any of era 2 reached the lab's repository (its last
-commit 2026-08-07): "we are going to need to take hold of Night lab if we want to use it" (the
-founder, 2026-10-14). Vision proposes holding it: era 2's question becomes the roadmap's story, done
-by an agent through a person's eyes and hands on installed packages inside the wall; readied in the
-gaps, the wall first, then the standing prompt; runs on his word once the story's first slice
-exists; the wall was never built, nothing of it having left a trace in Zen (the founder,
-2026-10-14). Before that: after the agent's desk (BL-WORK-38) and the documentation rewrite; its own
-thread prepared ([the handoff](handoffs/night-lab-handoff.md)) (the founder, 2026-10-09)  
+founder to Vision. A1, the panes, drafted (2026-10-15). The wall built and checked (2026-10-16): its
+own distribution, `Zen-Night-Lab`, with no Windows drive, program or PATH, no GPU, no root for its
+agent, WSLg off for every distribution, and a token reaching only `zen-night-lab`; 23 checks passed,
+the shared network the one limit ([machine facts](machine_facts.md)). Before that: ORDERED, ITS
+THREAD GONE — the lab's own thread went, with deep review, before any of era 2 reached the lab's
+repository (its last commit 2026-08-07): "we are going to need to take hold of Night lab if we want
+to use it" (the founder, 2026-10-14). Vision proposes holding it: era 2's question becomes the
+roadmap's story, done by an agent through a person's eyes and hands on installed packages inside the
+wall; readied in the gaps, the wall first, then the standing prompt; runs on his word once the
+story's first slice exists; the wall was never built, nothing of it having left a trace in Zen (the
+founder, 2026-10-14). Before that: after the agent's desk (BL-WORK-38) and the documentation
+rewrite; its own thread prepared ([the handoff](handoffs/night-lab-handoff.md)) (the founder,
+2026-10-09)  
 **Owed:** the lab's new question, "Can agents create new panes and setups that are efficient for
 both them and the human user?" An agent on its own host drives a Workshop through the agent's desk,
 and each pane or setup it makes is judged by what it costs an agent and what it costs a person.
