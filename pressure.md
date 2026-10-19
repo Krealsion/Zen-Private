@@ -619,8 +619,9 @@ a project under `C:/Users/Jane Doe/` cannot be edited through it (the same repor
 
 ### P-WORK-55 — Paths a weaver's machine holds still break two doors
 
-**State:** ACT — written for the UTF-8 code page (`prompts/windows-utf8-paths.md`, 2026-10-08), with
-nvim-edit's paths beside it; the founder's last word follows the scope summary  
+**State:** CLOSED — founder merged Zengine #102 (`cd444d38`, 2026-10-09): every Zengine program
+on Windows runs in the UTF-8 code page, and nvim-edit edits a file whatever its path holds. Found
+still marked ACT by the reports' sweep (2026-10-19).  
 **Evidence:** [#100's report](../reportbacks/refused-picture-said-RB.md#decisions-asked) and
 [#99's](../reportbacks/temp-path-cases-RB.md#found-not-changed)
 

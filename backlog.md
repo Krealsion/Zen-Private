@@ -110,7 +110,7 @@ Executed to enforce a ~1,000-line ceiling per translation unit and header across
 **Wave 12 — BL-WORK-37 Stage 7 Wrap-Up: Shipped Window Load Plan & SDK Install, Live Terminal Resize, and `builder.choose`/`Monitor.rows`/`act.aimed` Unification (CLOSED 2026-10-18 — `#309` `7ed868c`, `#310` `5918a4b`, `#311` `5926167`):**
 - **Stage 7A (`#311`, `5926167`, [prompt](../prompts/graphics-stage-7a-window-load-plan-and-sdk-install.md), [report](../reportbacks/graphics-stage-7a-window-load-plan-and-sdk-install-RB.md)):** Shipped `workshop/window-load-plan.json` (`zengine-graphics` + `zengine-window-terminal`, `kWindowLoadPlanName`, staged in `workshop/CMakeLists.txt`, documented in `workshop/README.md`, `workshop/docs/load-plans.md`, and `workshop/docs/load-plan.md`, and proven in `tests/test_workshop_load.cpp`), plus exporting `zengine::graphics` (`zengine-graphics-vocabulary` and the 20 public `graphics/` and `graphics/elements/` headers) in `graphics/CMakeLists.txt`, `cmake/ZengineInstall.cmake`, `agents/packaging.md`, `tests/package/CMakeLists.txt`, and `tests/package/public_surface.cpp`.
 - **Stage 7B (`#310`, `5918a4b`, [prompt](../prompts/graphics-stage-7b-window-terminal-resize.md), [report](../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md)):** Live terminal resize detection on `zengine.window.pump` in `zengine.window.terminal` (`graphics/window/window.hpp` and `graphics/docs/zengine.window.terminal.md`), marking the resized window dirty and re-publishing `WindowOffered` with the new `cols` and `rows` under the same `epoch`, proven in `tests/test_graphics.cpp`.
-- **Stage 7C (`#309`, `7ed868c`, [prompt](../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md), [report](../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md)):** Routing `builder.choose` (`external-host/tools/workshop/builder.py`) through `pressing(ctx, hand)` and `Monitor.rows` (`external-host/tools/workshop/monitor.py`) through `DeskStamps` settled-picture waiting (both with an open `Hand` and as a watching-only `_Asker`), plus deduplicating `act.aimed` (`external-host/tools/workshop/act.py`) onto `hand.aimed`, proven in `tests/session/workshop_tool_checks.py`.
+- **Stage 7C (`#309`, `7ed868c`, [prompt](../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md), [report](../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed-RB.md)):** Routing `builder.choose` (`external-host/tools/workshop/builder.py`) through `pressing(ctx, hand)` and `Monitor.rows` (`external-host/tools/workshop/monitor.py`) through `DeskStamps` settled-picture waiting (both with an open `Hand` and as a watching-only `_Asker`), plus deduplicating `act.aimed` (`external-host/tools/workshop/act.py`) onto `hand.aimed`, proven in `tests/session/workshop_tool_checks.py`.
 
 **Wave 13 — BL-WORK-37 Stage 7 Follow-Up Polish: Settled `stdout` Banner Suppression Over Terminal Media & Guest Input Sessions Under `window-load-plan.json` (CLOSED 2026-10-18 — `#312` `bd8e31c`, `#313` `5b180eb`):**
 - **Stage 7D (`#312`, `bd8e31c`, [prompt](../prompts/graphics-stage-7d-settled-banner-and-window-plan.md), [report](../reportbacks/graphics-stage-7d-settled-banner-and-window-plan-RB.md)):** Suppressing the settled `stdout` arrangement banner (`load::medium_holds_terminal` in `workshop/load_execute.hpp` and `workshop/workshop.cpp`) when a terminal medium holds a measured terminal so `loaded:` lines do not scroll or smear `zengine-window-terminal`, adding `zengine-input` (`zengine.input`) to `workshop/window-load-plan.json` for guest input sessions, and closing the doc gaps in `workshop/docs/load-plans.md`, `workshop/docs/load-plan.md`, `workshop/docs/getting-started.md`, and `cheat_sheet.md`.
@@ -165,7 +165,9 @@ owner at a time, and decisions before prompts.
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
    Researched first, read-only beside G1 ([prompt](../prompts/desk-split-research.md),
-   2026-10-19).
+   2026-10-19); reported the same day ([report](../reportbacks/desk-split-research-RB.md):
+   `zengine.layouts`, stages D1 to D3) and reviewed by Vision; its twelve decisions are the
+   founder's.
 3. Settings stages 4 to 6 wait for that owner.
 4. Every phase's fence: Workshop's weave takes fewer kinds of message after it, counted in its
    report.
@@ -175,7 +177,8 @@ owner at a time, and decisions before prompts.
    settled marked, the rest brought to the founder in small batches.
 7. One list of the seams the reports keep deferring, each with one owner and closed in one phase.
    Items 6 and 7 are swept read-only beside G1 ([prompt](../prompts/reports-open-items.md),
-   2026-10-19).
+   2026-10-19); reported the same day ([report](../reportbacks/reports-open-items-RB.md): 126
+   decisions, 186 seams) and reviewed by Vision.
 8. Night Lab's other model drafts top-down material for these phases, never their prompts.
 9. Then the founder's order: the UX batch, then the first complete maker story.
 
@@ -226,7 +229,7 @@ observation or outcome: the split's input ([prompt](../prompts/manuals-first.md)
 to #249 (2026-10-15), with `ManualFacet` across single- and multi-pane offices (#266, #268, #292) and the
 three host offices (`zengine.flow.host`, `zengine.view.host`, `zengine.builder.runner`) in #272 and #295
 (2026-10-16 to 2026-10-17), plus the ASCII manual byte check in #251 (`0ea9441`): every weave a weaver meets
-carries its manual, answered when asked (including the menu presenters via `presenter_manual_answer` in #295). The maps
+carries its manual, answered when asked (the menu presenters not yet: P-WORK-74). The maps
 ([ownership](../reportbacks/manuals-first/ownership.md),
 [messages](../reportbacks/manuals-first/messages.md)) supplied the split's list and the reload-in-place
 list (P-WORK-74, closed across Phases 1D, 1E, and 2B).
@@ -1148,7 +1151,7 @@ stage 7 wrap-up, three parallel lanes ([7A window load plan & SDK install](../pr
 [7B terminal resize re-offer](../prompts/graphics-stage-7b-window-terminal-resize.md) /
 [report](../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md) `#310` `5918a4b`,
 [7C builder.choose, Monitor.rows & act.aimed](../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md) /
-[report](../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md) `#309` `7ed868c`, 2026-10-18);
+[report](../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed-RB.md) `#309` `7ed868c`, 2026-10-18);
 stage 7 follow-up polish, two parallel lanes prompted ([7D settled banner & window plan input row](../prompts/graphics-stage-7d-settled-banner-and-window-plan.md),
 [7E terminal input yield & graphics resize doc](../prompts/graphics-stage-7e-window-terminal-input-yield.md), 2026-10-18)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
@@ -1530,7 +1533,7 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
    dirty and re-publish `WindowOffered` with the new `cols` and `rows` under the same `epoch`, proven in `tests/test_graphics.cpp`.
 3. **Lane 7C — Settled-Picture Discipline in `builder.choose` and `Monitor.rows`, and Deduplicating `act.aimed` onto `hand.aimed`**
    ([prompt](../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md),
-   [report](../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md), PR `#309` merged as `7ed868c`, 4 files,
+   [report](../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed-RB.md), PR `#309` merged as `7ed868c`, 4 files,
    8 of 8 CI jobs green on run `39122773961`, 28/28 mutants caught across `m1`–`m3`, reviewed ready by Vision 2026-10-18):
    routes `builder.choose` (`external-host/tools/workshop/builder.py`) through `pressing(ctx, hand)`, teaches
    `Monitor.rows` / `_Asker` (`external-host/tools/workshop/monitor.py`) to wait through `takes_no_press` and
