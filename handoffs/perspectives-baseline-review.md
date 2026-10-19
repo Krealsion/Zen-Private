@@ -134,3 +134,16 @@ names do not. Correct BASELINE.md from this list before drawing any perspective.
 - Workshop's 11 office settings and its four skins; the file names; the layout keys `.` and `,`;
   the eight demo setups; Info's four views; the View Builder's three elements; the eight element
   headers; `Panes::selected` and `Panes::keyboard`; `activate_layout`; Flow's dialog sentence.
+
+## 4. Second check, after the corrections (2026-10-19)
+
+BASELINE.md and README.md as corrected, checked again at Zengine `7cc0ec14`: 87 claims, 83 hold,
+and the name checker finds nothing the source lacks. The baseline can be drawn on. Four small
+fixes, to fold in with the first drawing:
+
+1. 6b: the guests file has no default name. It is passed with `--guests`, and the pages call it
+   `guests.json`; no `workshop-guests.json` exists.
+2. 1.3: "32 of 44" is not in G1's report. It is a count of `census.md`'s rows that are wrong in
+   both windows, and Vision's count agrees; say it is counted from the census, not by report.
+3. Task 3: "Handoff Rule 5" is the handoff's section 5 (what not to do), its credential line.
+4. 3.5: the desk's owner is the part `workshop/layouts/`, not `layouts/`.
