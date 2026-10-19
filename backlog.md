@@ -159,6 +159,8 @@ owner at a time, and decisions before prompts.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
+   Researched first, read-only beside G1 ([prompt](../prompts/desk-split-research.md),
+   2026-10-19).
 3. Settings stages 4 to 6 wait for that owner.
 4. Every phase's fence: Workshop's weave takes fewer kinds of message after it, counted in its
    report.
@@ -167,6 +169,8 @@ owner at a time, and decisions before prompts.
 6. The decisions asked in the reports since 2026-10-15 are swept into one list: those the code has
    settled marked, the rest brought to the founder in small batches.
 7. One list of the seams the reports keep deferring, each with one owner and closed in one phase.
+   Items 6 and 7 are swept read-only beside G1 ([prompt](../prompts/reports-open-items.md),
+   2026-10-19).
 8. Night Lab's other model drafts top-down material for these phases, never their prompts.
 9. Then the founder's order: the UX batch, then the first complete maker story.
 
