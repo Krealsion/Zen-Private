@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-10-14\
+**Refreshed:** 2026-10-16  
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -32,16 +32,112 @@ pass, merged as it stands (`aab5177`); Zengine's twelve `ready` issues and the g
 founder; these plans current; every arc resting where it is merged, its next step written in its
 item. Both reported and reviewed (Vision, 2026-10-15): the batch as #220 to #233, thirteen pull
 requests green on their own heads and #228 the grow frame, filed; the manuals as #234 to #249,
-sixteen green, 33 pages in all. Never rehearsed together: by text, 21 merge cleanly in one order,
-which the founder merges first (#224 out of draft and first, so each later merge gets a run of its
-own, the witness its fork would have been); eight then need their branches brought onto `main`, two
-of them in meaning as well as text (Compose's census and manual after #231, the desk's and Info's
-pages after #232), with the floors the manuals' 35 new cases never raised and the manuals' defects
-filed: the merge train ([prompt](../prompts/merge-train.md)). The `workflow` scope the batch asked
-for UnknownWorkers' token is not needed and not taken; the fork it made, `UnknownWorkers/Zengine`,
-holds nothing, and the founder deletes it (2026-10-15), from the UnknownWorkers account. Round one
-merged by the founder (2026-10-15), each merge with a run of its own on `main` and none replaced,
-#224's witness; the merge train running for round two.
+sixteen green, 33 pages in all. The merge train ([prompt](../prompts/merge-train.md)) brought the
+remaining branches onto `main` and raised the suite floors (`#250`, `d86ee70`): round one (#220,
+#221, #222, #223, #225, #227, #229, and #234–#249 except #238, #240, #243), round two (#226
+`65338a6`, #230 `bbe202e`, #231 `524d453`, #232 `98fd5c3`, #233 `a48edc7`, #238 `f9eba7d`, #240
+`aae4010`, #243 `09c2d1f`, and #250 `d86ee70`), and the final batch items (#251 `0ea9441` manual
+ASCII check, #257 `41336b2` plan booter realization asks, #258 `f06d64d` Flow node placed with no
+trigger refused in words, #259 `200f302` refused pane caret said on the notice band, and #224 / #270
+`8d5c5d0` `zengine.project`) all **CLOSED and merged** on `main` (2026-10-15 to 2026-10-16).
+
+**Path 1 — Spine-Cutting & Readability Arc (Phases 1A–3B, CLOSED 2026-10-16):**
+- **Phase 1A (`#265`, `8b26fd7`, [prompt](../prompts/phase-1a-facets.md), [MSVC follow-up](../prompts/phase-1a-facets-msvc.md)):** Composable weave facets (`zengine/weave_facets.hpp` — `WeaveWith<State, Facets...>`, `DrawingFacet`, `RoomFacet`, `PaneFacet`, `PaneRowsFacet`, `AskFacet`, `ManualFacet`), an end-of-delivery chain (closing P-WORK-72), room resizes reaching drawers (closing P-WORK-73), and `ProbeBase` retired in `activation/` in favor of facet `Activated` handlers over `TimedWeave`.
+- **Phase 1B (`#266`, `54d8cc0`, [prompt](../prompts/phase-1b-actions.md)):** Every shipped pane declares what its presses send (`v3::PaneActionRow` causes across all remaining panes, wrapping `Answers` lines at page width), and single-pane offices answer their manual through `ManualFacet`.
+- **Phase 1C (`#267`, `c2f2a5a`, [prompt](../prompts/phase-1c-window-clicks.md)):** A press nothing drawn takes is silent unless its area asks for the pointer (`wants_area_pointer`), a press given to an area's owner says it is in the area's pixels, and a facet weave's claim reaches the weave's own handler.
+- **Phase 1D (`#269`, `5575476`, [prompt](../prompts/phase-1d-pane-facets.md)):** Pane offices compose their offer, room, rows, and asks as facets (`PaneFacet`, `PaneRowsFacet`, `AskFacet`), and Files keeps the row a reload carried (P-WORK-74 in part).
+- **Phase 1E (`#268`, `60a41e5`, [prompt](../prompts/phase-1e-reload-and-manuals.md)):** Reload-in-place state preservation for four offices (P-WORK-74 in part) and the remaining multi-pane offices answer their manual through `ManualFacet`.
+- **Phase 2A (`#270`, `8d5c5d0`, [prompt](../prompts/phase-2a-hub-doors.md)):** One project office (`zengine.project`) for the project's readings, recipes, and plan rows (#139 / #224), merged alongside #251, #257, #258, and #259.
+- **Phase 2B (`#271`, `a09da96`, [prompt](../prompts/phase-2b-panes-and-reload.md)):** Remaining pane facets (`View Builder`, `Connections`, `Demo`), reload-in-place preservation (`Compose` target and form, `Editor` bounded undo history, `Info` value views, `View Builder` re-asking the view host — closing P-WORK-74), and three pane fixes (`Inventory` naming the removed entry, `Info` `info.value.*` action ids, `View Builder` `view.*` action ids).
+- **Phase 3A (`#272`, `b26630b`, [prompt](../prompts/phase-3a-host-manuals.md)):** The Flow host (`zengine.flow.host`), the view host (`zengine.view.host`), and the build runner (`zengine.builder.runner`) carry their manuals and answer what each shape they accept does (closing BL-ADOPT-05 B2 across host offices).
+- **Phase 3B (`#273`, `7e9183b`, [prompt](../prompts/phase-3b-surface-timer-and-act.md)):** `zengine-skin-tui-block` built as a second library and documented in `surface/`, timer suite skin swap and timed pokes bounded on their answers, and `workshop/act` boundedly re-reading a moved picture when a press aimed at a word meets a moved picture.
+
+**Godfile / Structural Health Split Arc (Waves 1–5, Phases 4A–8C, CLOSED 2026-10-16):**
+Executed to enforce a ~1,000-line ceiling per translation unit and header across Zengine so every subsystem has bite-sized, single-responsibility files before the next roadmap spine themes (every product `.hpp` and `.cpp` now stands under 1,900 lines, down from 6,541):
+- **Wave 1 (CLOSED — `#274` `af210e4`, `#275` `8189c0c`, `#276` `32f4e45`):**
+  - **Phase 4A (`#275`, [prompt](../prompts/phase-4a-workshop-weave-split.md)):** `workshop/weave.hpp` composes its terminal door and its page as facets.
+  - **Phase 4B (`#274`, [prompt](../prompts/phase-4b-info-value-view-split.md)):** `info/value_view.hpp` hands its watch (`info/value_view_watch.hpp` / `value_view_tree.hpp`) and its picture (`info/value_view_edit.hpp`) to headers of their own.
+  - **Phase 4C (`#276`, [prompt](../prompts/phase-4c-graphics-elements-split.md)):** `graphics/elements.hpp` split into focused part headers (`graphics/element_*.hpp` — button, checkbox, list, grid, icon, image, scroll view, text box).
+- **Wave 2 (CLOSED — `#277` `504ecf4`, `#278` `1b8462a`, `#279` `34c6dfd`):**
+  - **Phase 5A (`#278`, [prompt](../prompts/phase-5a-mirror-panes-and-introspection.md)):** Mirror panes (`Attention`, `Connections`) compose directly on `PaneRowsFacet`; `Powers` splits `powers_detail.hpp`; `Introspection` splits its three seats (`introspection/seats.hpp`) and detail helpers.
+  - **Phase 5B (`#279`, [prompt](../prompts/phase-5b-terminal-door-and-guest-judge.md)):** The Terminal's host side moves from `workshop/` to `terminal/` (`terminal/door.hpp`, completer, record picture); `GuestDoor` (`workshop/guest_judge.hpp`) answers `ActorScopeRequested` for Workshop's office.
+  - **Phase 5C (`#277`, [prompt](../prompts/phase-5c-examples-graphics.md)):** `examples/snake` draws new-game and operator buttons with `gfx::Button` and tracks operator asks with `AskBook`.
+- **Wave 3 (CLOSED — `#280` `cf0d85c`, `#281` `de3268d`, `#282` `ee126f9`):**
+  - **Phase 6A (`#282`, [prompt](../prompts/phase-6a-info-property-view.md)):** `info/pane.cpp` (2,422 → 995 lines) extracts `info/property_view.hpp` (showing one pane's properties in one list) and deletes the dead 1,291-line uncompiled `workshop/panes.cpp`.
+  - **Phase 6B (`#280`, [prompt](../prompts/phase-6b-workshop-desk-read-split.md)):** `workshop/weave.hpp` (2,718 → 1,872 lines) and `workshop/weave_inspection.cpp` (1,073 → 339 lines) extract `workshop/desk_read.hpp` and `workshop/weave_desk_read.cpp`.
+  - **Phase 6C (`#281`, [prompt](../prompts/phase-6c-desktop-pane-views-split.md)):** `workshop/desktop-pane/pane.cpp` (1,924 → 675 lines) extracts `panes_view.hpp`, `hotkeys_view.hpp`, and `manual_view.hpp`.
+- **Wave 4 (CLOSED — `#283` `968e8bb`, `#284` `5d75fef`, `#285` `289f50c`):**
+  - **Phase 7A (`#285`, [prompt](../prompts/phase-7a-neovim-editor-split.md)):** `editor/neovim-editor/pane.cpp` (2,340 → 1,038 lines) extracts `handoff.hpp` and `view.hpp`.
+  - **Phase 7B (`#283`, [prompt](../prompts/phase-7b-standard-editor-split.md)):** `editor/editor-pane/pane.cpp` (2,213 → 1,045 lines) extracts `common.hpp`, `opening_switch.hpp`, and `transfers.hpp`.
+  - **Phase 7C (`#284`, [prompt](../prompts/phase-7c-files-pane-split.md)):** `files/files.cpp` (2,211 → 996 lines) extracts `recipe_authoring.hpp` and `browser_view.hpp`.
+- **Wave 5 (CLOSED — `#286` `5491a0d`, `#287` `b6ba800`, `#288` `0c094ab`):**
+  - **Phase 8A (`#287`, `b6ba800`, [prompt](../prompts/phase-8a-builder-pane-split.md), [report](../reportbacks/phase-8a-builder-pane-split-RB.md)):** `builder/builder-pane/pane.cpp` (2,788 → 1,789 lines) extracts `output_reader.hpp` (255), `modes.hpp` (331), and `view.hpp` (582).
+  - **Phase 8B (`#288`, `0c094ab`, [prompt](../prompts/phase-8b-terminal-pane-split.md), [report](../reportbacks/phase-8b-terminal-pane-split-RB.md)):** `terminal/pane.cpp` (1,489 → 904 lines) extracts `view.hpp` (447) and `history_and_completion.hpp` (264).
+  - **Phase 8C (`#286`, `5491a0d`, [prompt](../prompts/phase-8c-workshop-keymap-and-setup-split.md), [report](../reportbacks/phase-8c-workshop-keymap-and-setup-split-RB.md)):** `workshop/keymap.hpp` (1,683 → 724 lines) extracts `gesture_grammar.hpp` (358) and `keymap_join.hpp` (664); `workshop/setup.hpp` (1,561 → 813 lines) extracts `setup_reconcile.hpp` (519) and `layout_shelf.hpp` (286).
+  - **CI Test Order (`#289`, `ab78b10`, [prompt](../prompts/test-order-longest-first.md), [report](../reportbacks/test-order-longest-first-RB.md)):** Explicit `COST` properties on the 37 longest CTest entries in `tests/CMakeLists.txt` (verified against `tests/test_population.txt`) so `workshop_panes`, `neovim_journey`, `workshop_desk`, and `story_journey` start immediately on fresh parallel runners.
+
+**Wave 6 — Meaningful Abstractions Arc, Part 1 (Phases 9A–9C, CLOSED 2026-10-17 — `#290` `7f32082`, `#291` `f0b7b34`, `#292` `8daa8af`):**
+- **Phase 9A (`#291`, `f0b7b34`, [prompt](../prompts/phase-9a-control-strip-and-list-rows.md), [report](../reportbacks/phase-9a-control-strip-and-list-rows-RB.md)):** `component/control_strip.hpp` (`kMaxStripRows`, `strip_budget`, typed `pack_controls`, `strip_rows_for`), `component/list_window.hpp` (`earlier_marker`, `more_marker`, `take_wheel_notches`), and `workshop/pane_facets.hpp` (`PaneRowsFacet::strip_rows`, `push_controls`, `push_window`) adopted across `files/` (−76 lines) and `builder/builder-pane/` (−59 lines).
+- **Phase 9B (`#292`, `8daa8af`, [prompt](../prompts/phase-9b-composer-and-powers-facets.md), [report](../reportbacks/phase-9b-composer-and-powers-facets-RB.md)):** Value-door bridge (`zengine::ValueDoor`, `zengine::RawValueDoor`, `ZENGINE_VALUE_DOOR`) in `activation/activation.hpp` letting hand-built schemas stand in `loom::Accept<...>` on `loom::WeaveBase` and `zengine::With`; `ComposerWeave` (`composer/composer.cpp` 1,088 → 905 lines, −183) and `PowersDoor` (`workshop/powers_door.hpp`, class body 67 → 38 lines) migrated off raw `loom::Weave` onto `zengine::With`.
+- **Phase 9C (`#290`, `7f32082`, [prompt](../prompts/phase-9c-editor-office-seam.md), [report](../reportbacks/phase-9c-editor-office-seam-RB.md)):** Shared header-only `editor/office_seam.hpp` (`namespace zengine::editor_office`, 518 lines) unifying the office seam shared by `editor/editor-pane/` and `editor/neovim-editor/` (`Relay`, `Holding`, `Take`, `Pickup`, `LocateOf<Snapshot>`, relayed open, hold counter, value-carry permission/settle, dropped-location open, and material insertion prose), shrinking the two Editor weave trees by 540 lines (7,930 → 7,390).
+
+**Wave 7 — Meaningful Abstractions Arc, Part 2 (Phases 10A–10C, CLOSED 2026-10-17 — `#293` `a4ff004`, `#294` `ebadfcf`, `#295` `3153b5d`):**
+- **Phase 10A (`#294`, `ebadfcf`, [prompt](../prompts/phase-10a-multi-pane-seats-and-windows.md)):** `workshop/pane_seat.hpp` (`PaneCanvasSeat` owning per-seat room, rows, canvas, and `show` / `strip_rows` / `push_controls` / `push_window`; `MultiPaneFacet` routing `PaneProviderReady`, `PaneRoomChanged`, and `PaneControlPressed` by `pane_id`) adopted across all four multi-pane weaves (`DesktopWeave`, `IntrospectionWeave`, `InfoWeave`, `EditorWeave`), plus `component::earlier_marker` / `more_marker` / `take_wheel_notches` adopted across `Desktop`, `Introspection`, `Info`, and `Inventory`.
+- **Phase 10B (`#295`, `3153b5d`, [prompt](../prompts/phase-10b-host-managers-and-presenters.md)):** `flow_host::Manager` (`flow/host_manager.cpp`) and `view::Manager` (`view/manager.hpp` / `view/manager.cpp`) migrated off raw `loom::Weave` onto `zengine::With<manual::ManualFacet<...>>::Weave` via `ZENGINE_VALUE_DOOR`; shared menu-presenter seam helpers (`menu_presenter_offer`, `presenter_manual_answer`, `claim_menu_room`, `release_menu_room`, `publish_menu_picture`, `choose_menu_row`) extracted in `workshop/presenter_vocabulary.hpp` and adopted across `MenuPresenter` and `NumberedPresenter`.
+- **Phase 10C (`#293`, `a4ff004`, [prompt](../prompts/phase-10c-one-action-path.md)):** `PaneActionFacet`, `PaneMenuFacet`, and `PaneRowsFacet::spend_notice` in `workshop/pane_facets.hpp` adopted across all eight action-bearing single-pane weaves (`Files`, `Terminal`, `Builder`, `Inventory`, `Powers`, `Flow`, `ViewBuilder`, `Demo`), and `graphics::ActionFacet` in `graphics/drawing.hpp` adopted across `SnakeWorld` and `OperatorWeave`, giving pane actions and graphics window actions one `on_action(id, mail)` owner signature.
+
+**Wave 8 — BL-WORK-37 Stages 2 & 3 (CLOSED 2026-10-17 — `#296` `bf3981e`, `#297` `7457af1`, `#298` `f75cc13`, `#299` `aad758c`):**
+- **Stage 2 (`#296`, `bf3981e`, [prompt](../prompts/graphics-stage-2-panes-and-actions.md), [report](../reportbacks/graphics-stage-2-panes-and-actions-RB.md)):** `PaneDrawingFacet` (`workshop/pane_facets.hpp`) and `drawn_rows` (`workshop/pane_drawing.hpp`), plus `Attention` (`attention/pane.cpp`) and `Connections` (`external-host/connections-pane/pane.cpp`) rebuilt on `graphics/`.
+- **Stage 3A (`#297`, `7457af1`, [prompt](../prompts/graphics-stage-3a-single-panes.md), [report](../reportbacks/graphics-stage-3a-single-panes-RB.md)):** Single-pane suite (`Demo Control`, `Terminal`, `Builder`, `Files`, `Composer`) on `graphics/` via `PaneDrawingFacet` and `PaneRowsFacet` (`rows_sketch` + `RowPress{.window = true}`).
+- **Stage 3B (`#298`, `f75cc13`, [prompt](../prompts/graphics-stage-3b-multi-panes.md), [report](../reportbacks/graphics-stage-3b-multi-panes-RB.md)):** Multi-pane seat suite (`Desktop` — `launcher`, `hotkeys`, `manual`; `Introspection` — `loaded`, `arrangement`, `powers`; `Info` — `info`..`info.4`; `Inventory` — `inventory`..`inventory.N`) on `graphics/` via `PaneCanvasSeat` and `MultiPaneFacet`.
+- **Stage 3C (`#299`, `aad758c`, [prompt](../prompts/graphics-stage-3c-data-ui-presenter.md), [report](../reportbacks/graphics-stage-3c-data-ui-presenter-RB.md)):** Data-as-UI (`view::View` + `view::Host` in `view/view.hpp` and `view/host.hpp`) on `graphics/` via `view::sketch`, plus `view::Presenter` (`Host::pair(name, presenter)`).
+
+**Wave 9 — BL-WORK-37 Stage 4: Remaining Authoring/Editor Panes & Seam Unification (CLOSED 2026-10-17 — `#300` `e43c45d`, `#301` `99a08ea`, `#302` `91b9b21`):**
+- **Stage 4A (`#302`, `91b9b21`, [prompt](../prompts/graphics-stage-4a-canvas-panes.md), [report](../reportbacks/graphics-stage-4a-canvas-panes-RB.md)):** Canvas-picture authoring panes (`FlowPane` in `flow/flow-pane/` and `ViewBuilderPane` in `view/view-builder/`) on `graphics/` via shared `workshop::canvas_sketch` (`workshop/pane_canvas_drawing.hpp`).
+- **Stage 4B (`#301`, `99a08ea`, [prompt](../prompts/graphics-stage-4b-editors.md), [report](../reportbacks/graphics-stage-4b-editors-RB.md)):** Both Editors (`EditorPaneWeave` in `editor/editor-pane/` and `NeovimEditorWeave` in `editor/neovim-editor/`) on `graphics/` via a shared `editor_office::EditorWindow` seam in `editor/office_seam.hpp` (drawing caret and selection over rows).
+- **Stage 4C (`#300`, `e43c45d`, [prompt](../prompts/graphics-stage-4c-projection-and-standin-unification.md), [report](../reportbacks/graphics-stage-4c-projection-and-standin-unification-RB.md)):** Unifying `rows_drawing` and `WindowDrawing` (two-state `DrawnRefused` recovery) in `workshop/pane_drawing.hpp` across `PaneCanvasSeat`, `PaneRowsFacet`, and `PaneDrawingFacet`, consolidating `tests/window_stand_in.hpp` into `tests/pane_window.hpp`, and teaching `external-host/tools/workshop/act.py` (`aimed`) to wait through `"no settled picture"`.
+
+**Wave 10 — BL-WORK-37 Stage 5: Workshop Window Arranger, Unified `WindowDrawing` + Caret, and `Hand` Unsettled Retry (CLOSED 2026-10-17 — `#303` `44a8bc2`, `#304` `a9d5c99`, `#305` `2ab3de0`):**
+- **Stage 5A (`#304`, `a9d5c99`, [prompt](../prompts/graphics-stage-5a-workshop-arranger.md), [report](../reportbacks/graphics-stage-5a-workshop-arranger-RB.md)):** Workshop as `zengine.graphics` arranger (`pane_window_area`, `AreaPlaced`, `SkinOffered`, `SkinChosen` with no-refusal bus guard when `zengine.graphics` is absent) and desk chrome drawer (`workshop_window_drawing` in `workshop/screen_compose.cpp` projecting the same planes `paint` composes — `Layouts`, external pane borders/headers with `*`/`?` actions and waiting/refused fallback, arrangement rings, menus, and bottom band — onto `"zengine.workshop"` via `WindowDrawing`).
+- **Stage 5B (`#303`, `44a8bc2`, [prompt](../prompts/graphics-stage-5b-window-drawing-and-caret.md), [report](../reportbacks/graphics-stage-5b-window-drawing-and-caret-RB.md)):** Moving caret bar (`"caret"`) and selection highlight runs (`"sel<r>.<run>"`) into `ws::rows_drawing` (`workshop/pane_drawing.hpp`), passing `caret_` from `PaneRowsFacet::send` so `Terminal` and `Composer` draw their caret and selection in a graphics window, and folding `EditorWindow` (`editor/office_seam.hpp`, 720 → 595 lines), `FlowPane` (`flow/flow-pane/pane.cpp`), and `ViewBuilderPane` (`view/view-builder/pane.cpp`) onto `ws::WindowDrawing`.
+- **Stage 5C (`#305`, `2ab3de0`, [prompt](../prompts/graphics-stage-5c-point-reader-unsettled-and-story-journey.md), [report](../reportbacks/graphics-stage-5c-point-reader-unsettled-and-story-journey-RB.md)):** Teaching `Hand.row`, `Hand.pointed`, and `Hand.lattice_point` (`external-host/tools/workshop/hand.py` via shared `Hand.aimed` and `no_settled_picture`, covering both canvas `"no settled picture"` and text `"no settled text picture"`) to wait through unsettled pictures alongside `"picture moved"`, and fixing the `tests/session/story_journey.py` U2 (`unresolved_runs`) startup status race on slow Windows runners.
+
+**Wave 11 — BL-WORK-37 Stage 6: Live Window Extent & Text Input, Seat Caret & `view::View` on `WindowDrawing`, and `builder`/`monitor` Aimed Retry (CLOSED 2026-10-18 — `#306` `1d11677`, `#307` `7b1ab14`, `#308` `238bb70`):**
+- **Stage 6A (`#308`, `238bb70`, [prompt](../prompts/graphics-stage-6a-window-extent-text-and-overlays.md), [report](../reportbacks/graphics-stage-6a-window-extent-text-and-overlays-RB.md)):** Staging `zengine-graphics`, `zengine-window-terminal`, `zengine-paint-classic`, and `zengine-paint-block` in `workshop/CMakeLists.txt` and `cmake/ZengineInstall.cmake` (verified by `tests/package/CMakeLists.txt`); emitting `TextEntered` from `graphics::window::WindowBase` (`graphics/window/window.hpp`), forwarding `TextEntered` in `WindowT::on_pump` via `to_keys` to areas with `keys == true`, and publishing `WindowOffered` as `office()` in `WindowT::offer`; teaching `WorkshopWeave` (`workshop/weave_handlers.cpp`) to accept `WindowOffered` for session startup and cell-grid resize when no skin is mounted, keeping `keys = true` on `kWorkshopProvider` and `keys = false` on pane areas in `arrange_graphics`, and projecting the `[value]` drag pill and guest `guide_layer` overlay in `workshop_window_drawing` (`workshop/screen_compose.cpp`) with `kWorkshopProvider` raised in front while an overlay stands.
+- **Stage 6B (`#307`, `7b1ab14`, [prompt](../prompts/graphics-stage-6b-seat-caret-and-view-window-drawing.md), [report](../reportbacks/graphics-stage-6b-seat-caret-and-view-window-drawing-RB.md)):** Teaching `PaneCanvasSeat` (`workshop/pane_seat.hpp`) to retain `said_caret_` in `say` and pass it to `ws::rows_drawing` in `redraw` so multi-pane seats draw their caret and selection in a graphics window; teaching `view::sketch` (`view/view.hpp`) to draw the `"caret"` line node for a focused number field; and replacing `view::View`'s hand-rolled `graphics::Canvas` + `whole_next_`/`last_whole_` state with `ws::WindowDrawing`.
+- **Stage 6C (`#306`, `1d11677`, [prompt](../prompts/graphics-stage-6c-builder-monitor-aimed.md), [report](../reportbacks/graphics-stage-6c-builder-monitor-aimed-RB.md)):** Routing `builder.calm`, `builder.keys_into` (`external-host/tools/workshop/builder.py`), and `Monitor.press_at` (`external-host/tools/workshop/monitor.py`) through `Hand.aimed` so `"no settled picture"` and `"no settled text picture"` are waited through alongside `"picture moved"`.
+
+**Wave 12 — BL-WORK-37 Stage 7 Wrap-Up: Shipped Window Load Plan & SDK Install, Live Terminal Resize, and `builder.choose`/`Monitor.rows`/`act.aimed` Unification (CLOSED 2026-10-18 — `#309` `7ed868c`, `#310` `5918a4b`, `#311` `5926167`):**
+- **Stage 7A (`#311`, `5926167`, [prompt](../prompts/graphics-stage-7a-window-load-plan-and-sdk-install.md), [report](../reportbacks/graphics-stage-7a-window-load-plan-and-sdk-install-RB.md)):** Shipped `workshop/window-load-plan.json` (`zengine-graphics` + `zengine-window-terminal`, `kWindowLoadPlanName`, staged in `workshop/CMakeLists.txt`, documented in `workshop/README.md`, `workshop/docs/load-plans.md`, and `workshop/docs/load-plan.md`, and proven in `tests/test_workshop_load.cpp`), plus exporting `zengine::graphics` (`zengine-graphics-vocabulary` and the 20 public `graphics/` and `graphics/elements/` headers) in `graphics/CMakeLists.txt`, `cmake/ZengineInstall.cmake`, `agents/packaging.md`, `tests/package/CMakeLists.txt`, and `tests/package/public_surface.cpp`.
+- **Stage 7B (`#310`, `5918a4b`, [prompt](../prompts/graphics-stage-7b-window-terminal-resize.md), [report](../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md)):** Live terminal resize detection on `zengine.window.pump` in `zengine.window.terminal` (`graphics/window/window.hpp` and `graphics/docs/zengine.window.terminal.md`), marking the resized window dirty and re-publishing `WindowOffered` with the new `cols` and `rows` under the same `epoch`, proven in `tests/test_graphics.cpp`.
+- **Stage 7C (`#309`, `7ed868c`, [prompt](../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md), [report](../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md)):** Routing `builder.choose` (`external-host/tools/workshop/builder.py`) through `pressing(ctx, hand)` and `Monitor.rows` (`external-host/tools/workshop/monitor.py`) through `DeskStamps` settled-picture waiting (both with an open `Hand` and as a watching-only `_Asker`), plus deduplicating `act.aimed` (`external-host/tools/workshop/act.py`) onto `hand.aimed`, proven in `tests/session/workshop_tool_checks.py`.
+
+**Wave 13 — BL-WORK-37 Stage 7 Follow-Up Polish: Settled `stdout` Banner Suppression Over Terminal Media & Guest Input Sessions Under `window-load-plan.json` (CLOSED 2026-10-18 — `#312` `bd8e31c`, `#313` `5b180eb`):**
+- **Stage 7D (`#312`, `bd8e31c`, [prompt](../prompts/graphics-stage-7d-settled-banner-and-window-plan.md), [report](../reportbacks/graphics-stage-7d-settled-banner-and-window-plan-RB.md)):** Suppressing the settled `stdout` arrangement banner (`load::medium_holds_terminal` in `workshop/load_execute.hpp` and `workshop/workshop.cpp`) when a terminal medium holds a measured terminal so `loaded:` lines do not scroll or smear `zengine-window-terminal`, adding `zengine-input` (`zengine.input`) to `workshop/window-load-plan.json` for guest input sessions, and closing the doc gaps in `workshop/docs/load-plans.md`, `workshop/docs/load-plan.md`, `workshop/docs/getting-started.md`, and `cheat_sheet.md`.
+- **Stage 7E (`#313`, `5b180eb`, [prompt](../prompts/graphics-stage-7e-window-terminal-input-yield.md), [report](../reportbacks/graphics-stage-7e-window-terminal-input-yield-RB.md)):** Process-scoped PID+refcount terminal-input claim (`claim_window_terminal_input`, `release_window_terminal_input`, `window_holds_terminal_input`, `terminal_reader_may_use_terminal` in `input/terminal_reader.hpp` and `ProcessTerminal` in `graphics/window/window.cpp`) so `zengine-input` yields `stdin` when `zengine-window-terminal` holds the terminal while still serving guest input sessions, plus closing the `WindowOffered` resize doc gap in `graphics/docs/zengine.graphics.md`.
+
+**Wave 14 — BL-WORK-36 Stage 2A, Keyboard Focus, & `surface/` Retirement Stage S1 (`zengine-window-sdl` + Severing `graphics/` from `surface/`) (CLOSED 2026-10-18 — `#314` `93376b1`, `#315` `ef07fb1`, `#316` `681abe6`):**
+- **Lane 14A (`#315`, `ef07fb1`, [prompt](../prompts/settings-stage-2-doors.md), [report](../reportbacks/settings-stage-2-doors-RB.md)):** `v2::PaneSettingRow` (`tags`, `pinned`, `summary`), `v2::PaneSettingsDeclared`, `v2::PaneSettings` (`revision`), `workshop/settings_seam_vocabulary.hpp` (`PaneSettingsRequested`, `PaneSettingsShown`, `PaneSettingCommitRequested`, `PaneSettingActed`, `PaneSettingUnused`, `SettingLockShown`), `P-WORK-61` incarnation-based reload settings reset in `accept_pane_offer`, `"settings"` guest power in `workshop-guests.json`, `act.py settings` CLI step, and `Terminal` upgraded to `v2::PaneSettingsDeclared` & `v2::PaneSettings` (`legend`, `wheel-rows`, `prompt`).
+- **Lane 14B (`#314`, `93376b1`, [prompt](../prompts/keyboard-focus.md), [report](../reportbacks/keyboard-focus-RB.md)):** Eight remappable `focus.*` actions in `workshop/keymap.hpp` (`focus.leave` `ctrl+q` in `KeyContext::kGlobal`, and `focus.next` `tab`, `focus.previous` `shift+tab`, `focus.left`/`right`/`up`/`down` arrows, and `focus.enter` `return` in `KeyContext::kCommand`), pure `selectable_panes`, `cycle_pane`, and `spatial_neighbour` helpers in `workshop/screen.hpp` / `workshop/screen_arrange.cpp`, medium-aware command-mode selection highlight in `workshop/screen_compose.cpp`, and keyboard-only pane entry (`WL-FOCUS-04`) and trap-free exit closing WCAG 2.1.1 G1 and 2.1.2 G2.
+- **Lane 14C (`#316`, `681abe6`, [prompt](../prompts/surface-retire-s1-window-sdl.md), [report](../reportbacks/surface-retire-s1-window-sdl-RB.md)):** Severs `graphics/` completely from `surface/` (moving canonical `role` constants into `graphics/role.hpp` and terminal I/O + size into `graphics/window/terminal_io.hpp`, removing `zengine-surface-vocabulary` from `zengine-graphics-vocabulary` with `VM-WALL-11` tripwire), unifies `Window<Medium>` over `TerminalMedium` and `LightMedium`, ships the pixel/light painter (`graphics/light_paint.hpp`) and light skins (`zengine-paint-day` and `zengine-paint-night`) over `ZenginePainterV1` with zero new `ZEN_SHAPE`s, and ships `zengine-window-sdl` (`zengine.window.sdl` in `graphics/window/window_sdl.hpp` and `graphics/window/window_sdl.cpp` with `graphics/docs/zengine.window.sdl.md`).
+
+**Wave 15 — BL-WORK-36 Stage 2B (Tags, Pins & Office Settings), Stage 2C (Pane Setting Promotions), & `surface/` Retirement Stages S2 & S3A (CLOSED 2026-10-18 — `#317` `8581d35`, `#318` `d1f6adf`, `#319` `6e5a130`, `#320` `4f96d69`):**
+- **Lane 15A (`#319`, `6e5a130`, [prompt](../prompts/settings-stage-2b-tags-and-pins.md), [follow-up](../prompts/settings-stage-2b-drop-info.md), [report](../reportbacks/settings-stage-2b-tags-and-pins-RB.md)):** `WorkshopPrefs` v3 (`offices`, `pins`, `locks` with corrupt-file and two-hands byte guard), `OfficeSettings*` and `PaneSettingPin*` doors in `workshop/settings_seam_vocabulary.hpp` / `workshop/weave_settings.cpp`, Workshop's 5 office settings (`workshop.pane-titles`, `workshop.band-keys`, `workshop.hotkeys-keys`, `workshop.pinned-scope`, `workshop.focus.ring`), and pure `component/tab_strip.hpp` (with `Info` untouched so settings editing lives in the Gear Overlay and Settings Studio).
+- **Lane 15B (`#318`, `d1f6adf`, [prompt](../prompts/settings-stage-2c-pane-promotions.md), [report](../reportbacks/settings-stage-2c-pane-promotions-RB.md)):** Promotes the scraped per-pane constants across seven pane weaves (`Desktop/Hotkeys` `help`; `Editor` `tab-width`, `status`, `wheel-lines`, `undo-depth`; `Neovim` `profile`, `status`; `Files` `wheel-rows`, `listed-entries`; `Attention` `detail`; `Introspection/Powers` `view-columns`, `composite-columns`, `gap`; `View Builder` `snap-reach`, `new-width`, `new-height`) onto `v2::PaneSettingsDeclared`, `v2::PaneSettings`, and `PaneSettingUnused` via shared `workshop/pane_settings_taken.hpp`.
+- **Lane 15C (`#317`, `8581d35`, [prompt](../prompts/surface-retire-s2-window-input-and-close.md), [report](../reportbacks/surface-retire-s2-window-input-and-close-RB.md)):** Completes `KeyReleased`, `PointerButton` (buttons 1/2/3 press and release), `PointerMoved`, `PointerWheel`, and close-request tracking across `Window<Medium>` (`graphics/window/window.hpp`), `zengine-window-sdl` (`graphics/window/window_sdl.cpp` via `input/translate_sdl_core.hpp`), and `zengine-window-terminal`, plus process-scoped `ZENGINE_WINDOW_SDL_INPUT_PID` queue yield in `input/window_claim.hpp` and `input/input_sdl.cpp` with zero new `ZEN_SHAPE`s.
+- **Stage S3A (`#320`, `4f96d69`, [prompt](../prompts/surface-retire-s3a-window-medium-parity.md), [report](../reportbacks/surface-retire-s3a-window-medium-parity-RB.md)):** Desktop window placement & display clamping (`WindowPlacementValue`, `DesktopSpan`, `DesktopPoint`, `placement_within`, `centred_within`, `grown_within`, `placement()`, `place()`), clipboard copy & paste (`terminal_base64`, `terminal_clipboard_sequence` OSC 52, `SDL_SetClipboardText`, `SDL_HasClipboardText`/`SDL_GetClipboardText`, `clipboard_copy()`, `clipboard_text()`), and presented picture capture (`CapturedWindowPicture`, `text/cells` on `TerminalMedium`, 24-bit bottom-up BMP `bmp_of_bgr24` via `SDL_RenderReadPixels` + `SDL_ConvertSurface` on `LightMedium` / `ProcessSdlBackend`).
+
+**Wave 16 — `surface/` Retirement Stage S3B (Window Bus Doors) & BL-WORK-36 Stage 2D (Workshop Setting Promotions) (CLOSED 2026-10-19 — `#321` `a7b7aa1`, `#322` `98672c4`):**
+- **Lane 16A (`#322`, `98672c4`, [prompt](../prompts/surface-retire-s3b-window-bus-doors.md), [report](../reportbacks/surface-retire-s3b-window-bus-doors-RB.md)):** Moves `ClipboardCopy`, `ClipboardTextRequested`, `ClipboardText`, `SurfaceCloseRequested`, `SurfacePlacement`, `SurfacePlacementRemembered`, `SurfaceCaptureRequested`, `SurfaceCaptured`, `SurfaceCaptureChunkRequested`, `SurfaceCaptureChunk`, `PumpSurface`, `kCaptureChunkBytes`, and `kMaxCaptureBytes` into `graphics/vocabulary.hpp` (`namespace zengine::graphics`) with `using` aliases in `surface/vocabulary.hpp` (zero `ZEN_SHAPE` changes in `tests/shapes.txt`), and wires all of those bus doors into `Window<Medium>` (`graphics/window/window.hpp`) for both `zengine.window.terminal` and `zengine.window.sdl`.
+- **Lane 16B (`#321`, `a7b7aa1`, [prompt](../prompts/settings-stage-2d-workshop-promotions.md), [report](../reportbacks/settings-stage-2d-workshop-promotions-RB.md)):** Promotes the 6 Workshop settings in `workshop_office_rows()` (`workshop/prefs_persist.hpp`): `workshop.skin` (`"classic"` or `"block"`, both Workshop-wide in `prefs_` and per-pane on `SetupPane::settings` for `arrange_graphics`, with `row_setting_absence` keeping `"classic"` explicitly on a pane row so a pane can wear `"classic"` under a Workshop-wide `"block"`), `workshop.completion-order` (`"declared"` or `"required-first"`, closing the Terminal completion line of `P-LOOM-10` in `terminal/complete.hpp` & `terminal/door.hpp`), `workshop.arrange-step` (`2..16` cells), `workshop.snap-reach` (`6..11` px), `workshop.side-columns` (`16..64` cells), and `workshop.stack-rows` (`5..40` rows, narrowing `P-WORK-01`).
+
+**Wave 17 — `surface/` Retirement Stage S4A (Window Routing & SDL Window Plan) & BL-WORK-36 Stage 3A (Theme Files, Composite DAG Resolution & Settings Vocabulary) (CLOSED 2026-10-19 — `#323` `5c06cfd`, `#324` `6ebc035`):**
+- **Lane 17A (`#324`, `6ebc035`, [prompt](../prompts/surface-retire-s4a-window-routing-and-sdl-plan.md), [report](../reportbacks/surface-retire-s4a-window-routing-and-sdl-plan-RB.md)):** Accepts `zengine.window.sdl` in `WorkshopWeave::on(const graphics::WindowOffered&)` and places areas on `window_name_`; offers all four painter skins (`"classic"`, `"block"`, `"day"`, `"night"`) and widens `workshop.skin` choices; ships `workshop/sdl-window-load-plan.json` (loading `zengine-window-sdl` + `zengine-input-sdl`); routes `ClipboardTextRequested` and `SurfacePlacementRemembered` in Workshop (`medium_office()`) and 5 pasting panes (`Editor`, `Neovim`, `Terminal`, `Composer`, `Info` via `WindowDrawing::clipboard_office()`) to the active window or Skin; and widens `kPowerCapture` and `external-host/tools/workshop/` (`workshop_steps.py`, `inspect_capture.py`) to capture from `zengine.window.sdl` and `zengine.window.terminal` as well as `zengine.skin`.
+- **Lane 17B (`#323`, `5c06cfd`, [prompt](../prompts/settings-stage-3a-theme-files-and-resolution.md), [report](../reportbacks/settings-stage-3a-theme-files-and-resolution-RB.md)):** Establishes `settings/` (`settings/theme_persist.hpp`, `settings/vocabulary.hpp`, `zengine-settings-vocabulary`): `zengine-theme` v1 durable format (`ThemeSetting`, `ThemeKey`, `ThemeFile`) with envelope-first admission, entry/target validation, canonical sorting, atomic `save_file` with two-hands `expected_bytes` + `replace` guard, `list_themes` (surfacing broken files by their refusal), deterministic 64-bit FNV-1a `theme_fingerprint`, composite DAG `resolve_theme` with cycle/depth/visited/entry bounds and `"later wins"` `from_theme` provenance, and all 20 `zengine.settings` v1 shapes (`settings_themes` suite, 18/18 cases, 26/26 mutants).
+
+**Wave 18 — `surface/` Retirement Stage S4B (Remaining Paste Panes & Workshop Probe Capture Fallback) & BL-WORK-36 Stage 3B (Setting Locks & Cross-Layout Doors) (PROMPTED 2026-10-19):**
+- **Lane 18A ([prompt](../prompts/surface-retire-s4b-remaining-paste-panes-and-probe.md)):** Routes the remaining 4 clipboard-pasting panes (`BuilderPaneWeave::begin_paste` in `builder/builder-pane/pane.cpp`, `FilesWeave::begin_paste` in `files/files.cpp`, `PowersSeat::begin_clipboard_paste` in `introspection/seats.hpp`, and `HotkeysView::begin_paste`/`ask_refused` in `workshop/desktop-pane/hotkeys_view.hpp`) through `room().clipboard_office()` / `keys_canvas_.clipboard_office()` instead of hardcoded `surface::kSkinRole`, and teaches `examples/workshop-probe/probe.hpp` (`Step::Capture`) to try `zengine.skin`, `zengine.window.sdl`, and `zengine.window.terminal` in order on `kOutcomeDispatchRefused` so the probe captures cleanly under both legacy Skin and window plans.
+- **Lane 18B ([prompt](../prompts/settings-stage-3b-locks-and-cross-layout-doors.md)):** Adds the 13 cross-layout and lock `ZEN_SHAPE`s in `workshop/settings_seam_vocabulary.hpp` (`PaneSettingLockRequested`, `PaneSettingLockActed`, `LayoutSettingsRequested`, `LayoutTheme`, `LayoutPaneSettings`, `LayoutSettings`, `DeclaredSettings`, `LayoutSettingsShown`, `SettingWrite`, `LayoutThemeWrite`, `SettingsWriteRequested`, `SettingWriteResult`, `SettingsWritten`); persists per-layout locks (`<office>/<pane>@<layout_name>` in `prefs_.locks`) and per-layout `LayoutTheme` baselines (`@<layout_name>` in `prefs_.offices`) in `WorkshopPrefs` v3 without bumping `WorkshopSetup` v5 or `WorkshopSession` v8; enforces layout and everywhere locks (and weaver-only unlock) across `PaneSettingCommitRequested`, `PaneCommitRequested`, `PaneSettingsShown`, and `SettingsWriteRequested`; implements `LayoutSettingsRequested` and whole-batch-validated `SettingsWriteRequested`; and widens Terminal + `"settings"` guest power.
 
 **The goal** (the founder, 2026-10-14): Zen legible, and good to use as a human weaver.
 Documentation first; then the split, which should simplify the documentation, not expand it; then
@@ -50,23 +146,34 @@ architecture. No timeline: a day or two for the manuals, he says, with minor wor
 notes are kept by item, not as a file: their themes in section 1b, their UX items as issue drafts in
 [ux-batch.md](ux-batch.md).
 
-**The architecture's needs, as Vision measured them** (Zengine `aab5177`, 2026-10-14). Today: one
-hub, Workshop's weave taking 68 kinds of message and sending 62, `workshop/` 44k of Zengine's 112k
-product lines; repeated plumbing, 12 pane weaves each writing their side of the pane protocol, 9
-messages every one handles and 21 that half or more do; two ways to draw, Workshop's screen and the
-surface beside the graphics library; and, by reading, a Timer that sleeps up to 10 ms at a time on
-the bus's one thread in Workshop. The needs, in order: a manual per owner, which maps ownership; the
-hub split by the census's ranked list (the terminal first) and the notes' boundaries, the window's
-job kept whole and moved to graphics (the founder, 2026-10-14: storage and distribution are a
-graphics weave's, so drawing to a window never needs a Workshop file); actions, subjects and
-outcomes described once; panes writing what they show and do through small opt-in libraries, as
-`DrawingWeave` does for drawing (P-WORK-72); one way to draw (BL-WORK-37's stages 2 to 5); a key's
-latency measured in Workshop (P-WORK-70).
-
-Vision's questions of 2026-10-14 are answered by the notes but one: who holds Night Lab. Into the
-roadmap go what this step rests: docs stage C first, as the manuals (their tutorials with the
-stories); graphics stage 2, settings stages 2 and 3, the desk's 3a and 3b, fast forward's S2 and S4
-to S6, and the release.
+**The architecture's needs, as Vision measured them** (Zengine `aab5177`, 2026-10-14; updated
+through `#323`/`#324`, 2026-10-19). At `aab5177`: one hub, Workshop's weave taking 68 kinds of
+message and sending 62, `workshop/` 44k of Zengine's 112k product lines; repeated plumbing, 12 pane
+weaves each writing their side of the pane protocol; two ways to draw, Workshop's screen and the
+surface beside the graphics library; and a Timer that slept up to 10 ms at a time on the bus's one
+thread in Workshop. Through Wave 17 (`#296`–`#324`): every weave a weaver or host meets carries and answers its
+manual via `ManualFacet` (`#234`–`#249`, `#266`, `#268`, `#272`, `#292`, `#295`); every single- and multi-pane weave,
+`PowersDoor`, `flow_host::Manager`, and `view::Manager` compose their protocol plumbing through `zengine/weave_facets.hpp`,
+`workshop/pane_facets.hpp`, `workshop/pane_seat.hpp`, and `ZENGINE_VALUE_DOOR` (`#265`, `#269`, `#271`, `#278`, `#291`–`#295`),
+closing P-WORK-72, P-WORK-73, and P-WORK-74; every pane declares what its presses cause (`#266`); the project's three
+doors are unified in `zengine.project` (`#270`); the Terminal's host door and completion moved to `terminal/` and the
+guest scope judge to `workshop/guest_judge.hpp` (`#275`, `#279`); Waves 1–5 (`#274`–`#288`) split every 2,000+ line file
+across `workshop/`, `info/`, `graphics/`, `editor/`, `files/`, `builder/`, and `terminal/`; Waves 6–7 (`#290`–`#295`)
+extracted shared control-strip / list-window facet drawing, multi-pane seats (`PaneCanvasSeat` + `MultiPaneFacet`),
+action/menu facets (`PaneActionFacet`, `PaneMenuFacet`, `graphics::ActionFacet`), presenter seam helpers, and the shared
+Editor office seam (`editor/office_seam.hpp`); Waves 8–13 (`#296`–`#313`) brought **every shipped pane, data-as-UI view,
+Workshop's window arrangement and desk chrome/overlays, live terminal window extent/text input/resize, `window-load-plan.json`
+with `zengine-input` session support and settled banner suppression, `zengine::graphics` SDK install, unified `WindowDrawing`,
+and external-host unsettled-picture retry** onto `graphics/`; and Waves 14–17 (`#314`–`#324`) shipped **Settings Stages 2A–2D
+& 3A (`WorkshopPrefs` v3, `OfficeSettings*` & `PaneSettingPin*` doors, 15 pane settings across 7 panes, 11 Workshop office settings
+including per-pane `workshop.skin` with `"classic"`/`"block"`/`"day"`/`"night"` and `workshop.completion-order`, `component/tab_strip.hpp`,
+and `settings/` theme files + composite DAG resolution + `zengine.settings` vocabulary), remappable keyboard focus
+navigation (`focus.*`, WCAG 2.1.1/2.1.2), and `surface/` retirement Stages S1–S4A (`graphics/` severed from `surface/`,
+`zengine-window-sdl`, full input/close parity, full medium + bus-door parity for clipboard, placement, pump, close, and
+BMP/cells capture across both windows, window clipboard/placement/capture routing, and `sdl-window-load-plan.json`)**.
+Remaining spine steps in order: **settings stages 3B–6 (`BL-WORK-36`) + `surface/` retirement stage S4B (`BL-WORK-37`)**,
+the desk's 3a and 3b (BL-WORK-38), fast forward's S2 and S4 to S6 (BL-WORK-43), the UX batch (`ux-batch.md`),
+and the first complete maker story (Theme 13).
 
 ## 1b. The roadmap's themes
 
@@ -81,30 +188,33 @@ pull request each; a useful slice lands when its evidence does.
 weaver meets, in the form the Builder's set; tutorials wait for the stories. Writing them maps
 ownership (each piece of state's authoritative owner, writers, readers, lifetime and persistence,
 kept apart from derived displays and caches) and sorts every message into request, performed action,
-observation or outcome: the split's input ([prompt](../prompts/manuals-first.md)). Done as #234 to
-#249 (2026-10-15): every weave a weaver meets carries its manual, answered when asked, but the menu
-presenter's (carried, not answered: a document door changes its accepted contract, and its stand-ins
-could no longer reload in its place, P-WORK-74; it waits for the presenter's split, Vision's
-default); the documentation grew from 43.5k to 48.0k lines, 7.6k written and 3.1k retired,
-Workshop's own page the longest at 797 lines. The maps
+observation or outcome: the split's input ([prompt](../prompts/manuals-first.md)). **Done** as #234
+to #249 (2026-10-15), with `ManualFacet` across single- and multi-pane offices (#266, #268, #292) and the
+three host offices (`zengine.flow.host`, `zengine.view.host`, `zengine.builder.runner`) in #272 and #295
+(2026-10-16 to 2026-10-17), plus the ASCII manual byte check in #251 (`0ea9441`): every weave a weaver meets
+carries its manual, answered when asked (including the menu presenters via `presenter_manual_answer` in #295). The maps
 ([ownership](../reportbacks/manuals-first/ownership.md),
-[messages](../reportbacks/manuals-first/messages.md)): the split's list, 179 places a page had to
-describe another weave's internals, in 69 ranks, its widest groups Workshop's grants and guest
-powers (11 weaves), Loom's bus (10), realization and the load plan (8) and the operation judge (7);
-state kept only in an image and lost on a reload in place across nine weaves; one state kept in two
-places four times (areas, element code, a pane's content, an Inventory entry); 306 shapes, of which
-166 have names that do not say whether they request, report a deed, observe or answer.
+[messages](../reportbacks/manuals-first/messages.md)) supplied the split's list and the reload-in-place
+list (P-WORK-74, closed across Phases 1D, 1E, and 2B).
 
 2. **One owner per job: the split.** The hub's responsibilities go to owners, guided by the manuals'
 map, the census's ranked list (the terminal, the menu, Info's properties view, the guest scope
 judge, the project's three doors) and the notes' candidate boundaries: input coordination, workspace
 navigation, carry handling, subject and action descriptions, feature owners, presentation --
-hypotheses to test, not six services. A rebuild thought experiment asks what responsibilities a
-rebuild would have and improves the current code with the answer (`rebuild-scaffold/`); moving
-methods between files is not a split, and a new weave earns its independence by use. **The window is
-graphics'** (the founder, 2026-10-14): its storage and distribution belong to a graphics weave, so
-drawing to a window never needs a Workshop file; its job stays whole there, a press crossing once.
-Open: the first extraction.
+hypotheses to test, not six services. **Progress through Wave 12 (2026-10-18):** `zengine/weave_facets.hpp`,
+`workshop/pane_facets.hpp`, and `workshop/pane_seat.hpp` (`#265`, `#269`, `#271`, `#278`, `#291`–`#295`) extracted
+repeated pane/room/row/action/menu/seat/ask/manual plumbing; the project's
+three doors joined into `zengine.project` (`#270`); the Terminal's host door, completer, and
+transcript projection moved from `workshop/` into `terminal/door.hpp`, and `GuestDoor` into
+`workshop/guest_judge.hpp` (`#275`, `#279`); `Info`'s property view moved to `info/property_view.hpp`
+and dead `workshop/panes.cpp` was deleted (`#282`); Workshop's desk read moved to
+`workshop/desk_read.hpp` and `workshop/weave_desk_read.cpp` (`#280`); Waves 1–5 broke up the
+remaining 2,000+ line files across `info/`, `graphics/`, `introspection/`, `workshop/desktop-pane/`,
+`editor/`, `files/`, `builder/`, `terminal/`, and `workshop/`; Waves 6–7 (`#290`–`#295`) unified the Editor
+office seam (`editor/office_seam.hpp`), control strip & list window helpers, multi-pane seats, and presenter vocabulary;
+and Waves 8–12 (`#296`–`#311`) brought every shipped pane weave, data-as-UI view, Workshop's own window arrangement,
+desk chrome, overlays, live terminal window extent/text input/resize, `window-load-plan.json`, and `zengine::graphics` SDK
+install onto `graphics/`.
 
 3. **Describe once: actions, subjects, outcomes.** An owner describes an action's purpose, inputs,
 availability, documentation and outcomes once, and menus, controls, Compose, the desk and automation
@@ -112,19 +222,14 @@ reuse it; mouse, keyboard and semantic invocation reach the same owner operation
 authority checks; a readable schema is not a writable one, and an offered action is not a granted
 one. Outcomes are stable and attributable, with the subject's and the operation's identity, stale
 and superseded work told apart, pending never taken for failed; their words come from localization
-keys with typed arguments, which no consumer parses. Open: which descriptions exist to extend (a
-pane's action row since #186), and how localization catalogs are owned, loaded and replaced. Two
-inputs from the manuals (2026-10-15): only the Builder pane and the desk declare what a press causes
-(`v3::PaneActionRow`), so the other panes' pages cannot link a press to what it sends -- declared
-with this step; and a naming rule, agreed by the founder (2026-10-15): a request ends `Requested`,
-an answer `Answered` or `Refused`, a deed is said in the past tense, an observation as a noun, for
-every new shape now and for old ones as each owner is extracted, never as one rename across the
-wire. Graphics meets this step (Vision, 2026-10-15): a click on a drawn control already reaches its
-owner by action id (`ActionIssued`, from the window), as a key does through Workshop's keymap
-(`PaneActionRequested`), so one action can have every invoker and its causes declared once. Under
-the naming rule those two are one request, and the window routes keys straight to an area's owner
-with no keymap: one action path, owned with the action descriptions, comes before graphics stage 2
-puts a Workshop pane on the window, or that stage chooses between two.
+keys with typed arguments, which no consumer parses. **Progress (2026-10-18):** Phase 1B (`#266`)
+and Phase 2B (`#271`) declared `v3::PaneActionRow` causes across every shipped pane (`Info`
+`info.value.*`, `View Builder` `view.*`, and all remaining panes), so every pane's manual links each
+press to what it sends; Phase 10C (`#293`) introduced `PaneActionFacet`, `PaneMenuFacet`, and
+`graphics::ActionFacet` so pane weaves and graphics drawers handle actions through one `on_action(id, mail)`
+contract; BL-WORK-37 Stages 2–7 (`#296`–`#311`) moved every shipped pane, data-as-UI view, and Workshop's window
+arranger + desk chrome/overlays + live terminal window extent/text input/resize + `window-load-plan.json` onto `graphics/`.
+**Next:** Land Wave 13 (`7D` & `7E` Stage 7 follow-up polish), then advance to BL-WORK-36 (Settings stages 2 and 3) and BL-WORK-38 (Desk 3a and 3b).
 
 4. **Relationships and powers.** Explicit and inspectable: a window contains panes, a pane presents
 components, a value has an owner, a participant has a lifecycle and granted powers, with visual
@@ -150,25 +255,34 @@ observations. A restricted run never falls back to hidden queries, and restricti
 the interfaces, not by hiding buttons. Open: what visible projection each restricted profile may
 read.
 
-8. **Graphics and components** (BL-WORK-37): helpers written by hand first, a generator of helper
-functions later, with the data conversion research (BL-WORK-41); whole controls, shapes, lines and
-pixels; the View Builder's components are in the UX batch.
+8. **Graphics, components, and data as UI + presenter** (BL-WORK-37; the founder, 2026-10-14 and
+solidified 2026-10-17): helpers written by hand first (`graphics/element_*.hpp` split into per-part
+headers in `#276`; `gfx::Button` and `AskBook` proved in `examples/snake` in `#277`), a generator of
+helper functions later, with the data conversion research (BL-WORK-41); whole controls, shapes,
+lines and pixels; the View Builder's components are in the UX batch. **Solidified end-state (the
+founder, 2026-10-17):** UI can be a relatively small JSON-like view file that hooks into its
+surroundings through an owner who has paired that view with a presenter, using hierarchical names
+(`path`s) and `action` ids to functionally link into the web of weaves — while keeping the manual,
+hard-coded C++ `Sketch` path accessible and enjoyable to write as a first-class peer.
 
 9. **Connected tools.** Loaded, Project and Compose researched as one journey, with examples done by
-mouse alone, before deciding whether to combine them; Info's edit and save through owner-declared
-editing contracts (writable fields, validation, revision and conflict checks, authority, outcomes),
-with BL-WORK-10.
+mouse alone, before deciding whether to combine them (`zengine.project` unified the project's three
+doors in `#270`); Info's edit and save through owner-declared editing contracts (writable fields,
+validation, revision and conflict checks, authority, outcomes), with BL-WORK-10.
 
 10. **Configuration, persistence, personal work.** A source literal promoted to configuration in a
 few actions, the configuration in the state schema with explicit upgrade paths (with BL-WORK-36);
 each owner's persistence promises visible across navigation, shutdown, replacement and a crash,
-authored work first; personal changes kept apart from shared contributions, their storage open (with
-#145); operators marked in code by a small code-tool action.
+authored work first (reload-in-place state preservation across the nine weaves from the manuals'
+ownership map completed in `#268`, `#269`, and `#271`); personal changes kept apart from shared
+contributions, their storage open (with #145); operators marked in code by a small code-tool action.
 
 11. **Tools, demos, workers.** A reusable local worker environment (a cloned WSL or a kickstart
 file, its image kept apart from identity and credentials; workers open pull requests, the founder
 merges); tools and demos kept apart; the demo runner (UX-36); Python participants, a
-documentation-drift scanner first (with #147); the quarry out of Zengine (HK-01, fileable now).
+documentation-drift scanner first (with #147), and the founder's candidate C++ ↔ Python live Snake
+owner handoff demo (2026-10-16, with BL-WORK-40 and BL-WORK-37); the quarry out of Zengine (HK-01,
+fileable now).
 
 12. **Execution experiments, later.** Message cost measured first (redundant publications,
 forwarding-only participants, serialization, fan-out, queueing, real latency); then a compiled
@@ -305,8 +419,8 @@ its byte budget, so a law it takes needs the file split first.
 ### BL-WORK-36 — Settings: what a pane can set, kept with each layout
 
 **State:** ORDERED — resting at stage 1: researched (2026-10-07); stage 1 merged as Zengine #101
-(2026-10-09), Loom #31 beside it (`prompts/settings-stage-1.md`, 2026-10-08); stages 2 and 3 wait
-for the roadmap (the founder, 2026-10-14); before BL-WORK-09  
+(2026-10-09), Loom #31 beside it (`prompts/settings-stage-1.md`, 2026-10-08); selected by the founder
+(2026-10-18) as the next phase after BL-WORK-37 Stage 7 (`7D` & `7E`); before BL-WORK-09  
 **Owed:** Configuration for customization is one of Zen's pillars, and replaceable code alone does
 not give it: some things a weaver wants to switch between without a code change or a reload (the
 founder, 2026-10-07). A light mode is not special, and the magic numbers -- a ground, a text
@@ -349,9 +463,78 @@ fields first, then its optional ones, or in declaration order (P-LOOM-10). Works
 participant builds the completion, not the pane, so the setting must reach it; that is its stage's
 choice.
 
-**Wake:** met: BL-WORK-06 closed with #98 and #99 (2026-10-07).
+**The founder's Stage 2+ direction and decisions (2026-10-18):**
+1. **Promote magic numbers and strings into settings while keeping the list useful:** Convert magic
+   numbers and strings across panes into declared settings, organized by two mechanisms so a long
+   settings list stays fast to use:
+   - **Tags (`tags`):** Every declared setting carries one or more tags (e.g., `chrome`, `input`,
+     `completion`, `limits`, `text`) in `v2::PaneSettingRow`.
+   - **Hand-curated `pinned` list (`pinned = true` by default on the most useful 1–3 settings per
+     pane):** A curated list at the top of the settings experience whose items can be **added
+     (pinned), removed (unpinned), and reordered (moved up / moved down)** by the weaver.
+2. **Compact tag-tab strip with horizontal `<` / `>` scrolling in `Info`:** In `Info`'s `SETTINGS`
+   section, tags sort like compact tabs (`[pinned]`, `[all]`, followed by declared tags in
+   alphabetical order, plus `[kept]` when undeclared stored keys exist), defaulting to `[pinned]`
+   so only the active tab's settings rows are shown at a time. When the tag tabs exceed the row
+   width, little `<` and `>` arrow indicators scroll horizontally through the tab strip.
+3. **Consistent Workshop-wide pin order by default, configurable as a Workshop setting:** By
+   default, a pane's custom pinned list (add, remove, reorder) is consistent across setups
+   (Workshop-wide per `<office>/<pane>`, stored in Workshop's settings file and falling back to the
+   pane's hand-curated `pinned = true` defaults), while whether pinned state is `workshop-wide` or
+   `per-layout` is itself a Workshop setting (`workshop.pinned-scope`) so a weaver can switch it off
+   the default.
+4. **Setting Locks (`locked` user preferences):**
+   - Individual settings can be **locked** so they cannot be changed (by manual edit, by applying a
+     theme, or by a script/agent) until explicitly **unlocked**.
+   - Locks protect a weaver's saved personal preferences (e.g., text step, high-contrast colors,
+     navigation gestures, or accessibility settings) when applying themes, and can be managed across
+     a single setup or across all setups at once.
+5. **Themes, Composite Themes, and Explicit Event-Driven Application (replacing continuous load-order re-evaluation):**
+   - **A Theme is a named, sparse group of settings:** It can apply to anything that accepts
+     settings (`<office>/<pane>`, `workshop`, or wildcard/tag-matched targets across panes) and is
+     saved from the Theme / Settings Manager.
+   - **Partial and orthogonal by nature:** A theme does not need to specify every setting on a pane
+     or desk. It can edit a single pane, every color-using pane it knows, functional/logic settings
+     (e.g., completion order, internal pane sub-layouts, grid/snap behavior, navigation gestures),
+     purely graphical settings (color, palette, decoration), or layout properties to the extent
+     layouts are exposed as settings.
+   - **Composite Themes (ordered dependencies + own customizations) & Explicit Application:**
+     Instead of a runtime load order that re-evaluates on every tick or re-applies on boot (which
+     would erase temporary settings from the last session), weavers can build **composite themes** —
+     still just a Theme, carrying an ordered list of dependency themes (`includes`) plus the
+     weaver's own customizations at the end — and **apply** them wholesale on demand.
+   - **Triggered by the weaver or an authorized actor:** Themes and settings are applied only when
+     requested by the weaver, or when a script, agent, or weave with the appropriate permission
+     applies one (for example, a script that shifts themes throughout the day), writing the
+     unlocked settings into the target setup(s) while leaving `locked` settings untouched and never
+     restricting the weaver from applying their own tweaks afterward.
+6. **Master Theme Files & Auto-Saving Loose Changes (`Option A` vs. `Option B` vs. Hybrid, researched in [prompt](../prompts/settings-themes-research.md), [report](../reportbacks/settings-themes-research-RB.md)):**
+   - Two models for how a setup saves its settings and themes, resolved by the **Hybrid** (`storage.md`):
+     - `SetupPane::settings` rows stay the one truth of what a pane is handed (`Option A`), so live tweaks ride the session on close and `s` on save without re-evaluating a theme stack on hand-off or boot, and without crossing Loom's 65,536-cell session decode ceiling (a maximal v8 session is already 64,116 cells; adding a field per stored setting overflows to 72,308, whereas the hybrid adds only 80 cells to reach 64,196).
+     - Each layout (`WorkshopSetup` v6) keeps a **baseline theme link** (`LayoutTheme{name, fingerprint}`, `Option B`'s Master Theme as a relation), and **loose changes are derived on demand** by comparing the layout's rows against the resolved baseline and shown at the tail of the Master View (`LOOSE`), where weavers can **snapshot** a stable backup (`S`), **promote** loose changes into a reusable theme (`P`), **reset loose changes** to the baseline (`R`, preserving locked keys), or edit/save the master's `includes` (`W`).
+7. **Two-Tier GUI-First Settings Experience on `graphics/` — Compact Pane Gear (`*`) Popover Overlay + Full-Screen Settings & Theme Studio with Live Pane Samples (the founder, 2026-10-18, overruling `manager.md`'s TUI-first ASCII table layout):**
+   - **Tier 1 — Compact Pane Gear (`*`) Settings Popover Overlay (anchored to a pane's `*` header button):** Focused, lightweight popover card (`~440–480 px` wide) for configuring one pane in place without leaving the active workspace:
+     - **Header & Scope Bar:** Shows `<Pane Name>` + `@<office>/<pane>`, `Rev #N`, handed status pill, and a compact scope toggle (`This Setup` vs `All Setups`) plus `Inspect` and `Studio ↗` buttons.
+     - **Filter Strip & Scrolling Tag Tabs:** Quick filter input paired with compact horizontally scrolling `<` / `>` tag tabs (`Pinned`, `All`, declared tags in alphabetical order, and `Kept` when undeclared stored keys exist, plus a `Modified` filter pill).
+     - **Pinned Section with Reorder & Unpin:** Hand-curated `pinned` rows at the top with `▲` / `▼` reorder arrows and a `★` pin toggle (`workshop-wide` by default, configurable via `workshop.pinned-scope`).
+     - **Inline Typed Controls, Lock Scope Badge, & Provenance:** Each setting row shows its key, source badge (`Master`, `Loose`, `Default`, or `Locked`), summary, inline control (toggle switch for `flag`, `−`/`+` stepper + numeric box for bounded `number`, segmented choice pills or text box for `text`), a per-key reset (`↺`) button, and a lock (`🔒`/`🔓`) button with a `Layout Lock` vs `Workshop Lock` scope popover.
+     - **Footer Actions:** Summary of modified/loose/locked counts with clean `Reset Loose` and `Open Theme Studio…` buttons.
+   - **Tier 2 — Full-Screen Settings & Theme Studio (`zengine.settings`):**
+     - **GUI-first priority & primary mouse navigation:** Built directly on `zengine::graphics` (`Sketch`, `Button`, `Checkbox`, `ScrollView`, bordered cards, colour swatches, and clickable pills) rather than flat 80-column ASCII text tables: click into tag tabs, sorting/grouping pills (`By Pane`, `By Tag`, `Shared Key`), setup targets, and visual theme cards.
+     - **Bordered containers & clean `gfx::Button` labels:** Represent a Master Theme's **Included Themes**, **Theme-Owned Settings**, and **Loose Changes** in distinct bordered containers (`Sketch::rect` / `outline_rect` / `group`) so they separate at a glance. Use real `gfx::Button` controls (`Apply Theme`, `Save Master`, `Snapshot Backup`, `Promote Selected`, `Reset Loose`) with **no `(R)` / `(P)` / `(S)` hotkey suffixes** in the button text (`Hotkeys` already owns keybinding discovery, and hover tooltips can show shortcuts later).
+     - **Live Interactive Pane Samples via Compile-Time Message Elimination (`SilentMail`):** Clicking a theme or adjusting a setting shows **live sample panes** (`Terminal`, `Editor`, `View/Flow`, mini desk) fed with sample input created by each pane's owner and instantiated with a compile-time `SilentMail` / `NullMail` policy that **compiles out all bus messages at zero runtime branch cost** (rather than checking a runtime debug/sample flag at every message point) while keeping local sample drawing and mouse interaction live inside the preview stage.
+8. **High-value functional settings, TUI movement gestures, and Accessibility:**
+   - 65 settings scraped across panes, Workshop, the medium (`zengine.skin` / `zengine.window.terminal`), and navigation (`scrape.md`).
+   - Keyboard focus actions (`focus.next`/`previous`/`left`/`right`/`up`/`down`/`enter` and global `focus.leave` closing WCAG 2.1.1 G1 and 2.1.2 G2 in Wave 14B) plus a replaceable navigation presenter (`zengine-navigation`, Wave 18) offering **jump hints** (Avy/Vimium style over `control:<id>`) and **switch scanning** (1-switch auto, 2-switch step, inverse, shared with `BL-WORK-09`'s tutorial walk) and `motion.*` action bindings (`navigation.md`).
+
+**Wake:** met: BL-WORK-06 closed with #98 and #99 (2026-10-07); Stage 2+ & Themes research completed
+([prompt](../prompts/settings-themes-research.md), [report](../reportbacks/settings-themes-research-RB.md), 2026-10-18), reviewed by Vision and amended with the founder's GUI-first & compile-time live sample design (2026-10-18).
 **Source:** the founder (2026-10-07), after #96's light terminal, with the two messages and the
-setup file as the store his own.
+setup file as the store his own; and (2026-10-18) for tags, pinned items, compact scrolling tag
+tabs, Workshop-wide pin scope setting, setting locks, composite themes with explicit application,
+Master Theme files & auto-saved loose changes, the GUI-first Settings / Theme Studio with bordered
+cards, clean buttons, and compile-time `SilentMail` live pane samples, and TUI navigation /
+accessibility settings.
 
 ### BL-WORK-38 — Agents and weavers on one desk
 
@@ -655,21 +838,27 @@ is.
 
 ### BL-WORK-40 — The simplest snake, played by its own AI
 
-**State:** FILED — the founder's idea (2026-10-09); not yet ordered  
+**State:** FILED — the founder's idea (2026-10-09; expanded 2026-10-16 with a C++ ↔ Python owner handoff candidate); not yet ordered  
 **Owed:**
 - The snake demo as simple as it can be. `zengine-snake` (`snake/play.cpp`) keeps only its boot
   list; the demo's operator -- the skin swaps (classic, block, SDL), loading the score weave,
   growing the world, reload in place, new game and the list -- moves out of the host, to the
-  external host's driver or into a weave of its own.
+  external host's driver or into a weave of its own (in #277, `examples/snake` moved its new-game
+  and operator buttons to `gfx::Button` and operator asks to `AskBook`).
 - An AI plays snake through messages, with no agent in the loop; an unexpected occurrence calls the
   agent in to review, so the agent improves the AI. The tower-defense example's monitor already
   takes this route: its policy plays the game from the game's own typed events and says FINISHED,
   NEEDS ATTENTION or INCONCLUSIVE, with evidence (`examples/tower-defense/monitor/td_policy.py`,
   event-driven ELH observation, Loom #16 / Zengine #62).
+- **Candidate expansion (the founder, 2026-10-16):** a live owner handoff of the running Snake game
+  between C++ and Python (`C++ -> Python -> C++`), proving language-neutral office/state contracts
+  over Loom shapes while the `graphics/` window keeps the retained `SnakeBoard` element intact across
+  both runtime transitions (joining BL-WORK-37, BL-WORK-40, and BL-WORK-13 / #147).
 
 **Wake:** the founder selects it.
 **Source:** the founder (2026-10-09), after the tower-defense route: messages received and acted on
-with no agent's intervention, the agent reviewing what was unexpected.
+with no agent's intervention, the agent reviewing what was unexpected; and (2026-10-16) for the
+C++ ↔ Python owner handoff.
 
 ### BL-WORK-41 — The Data Conversion Mapper: a Flow view that authors a migration
 
@@ -885,16 +1074,49 @@ carry; its research decides whether Images waits for it (2026-10-07).
 **Wake:** after BL-WORK-10; it needs the whole pixel (BL-WORK-05).
 **Source:** as BL-WORK-07.
 
-### BL-WORK-37 — The skin's drawing door
+#### BL-WORK-37 — The skin's drawing door
 
-**State:** ORDERED, STAGE 1 MERGED, ITS READABILITY PASS REVIEWED; STAGE 2 WAITS FOR THE ROADMAP
+**State:** ORDERED, STAGES 1–7 AND READABILITY PASS MERGED (`#218`, `#219`, `#296`–`#311`), STAGE 7 POLISH (`7D`, `7E`) PROMPTED
 — [round 1](../prompts/graphics-weave-research.md),
 [round 2](../prompts/graphics-weave-research-2.md),
 [round 3](../prompts/graphics-weave-research-3.md),
 [round 4](../prompts/graphics-weave-research-4.md),
 [round 5](../prompts/graphics-weave-research-5.md); stage 1, the snake
 ([prompt](../prompts/graphics-stage-snake.md)), amended from rounds 4 and 5 (the founder,
-2026-10-13; filed 2026-10-07)  
+2026-10-13; filed 2026-10-07); stage 2, one action path and `Attention` + `Connections` on `graphics/`
+([prompt](../prompts/graphics-stage-2-panes-and-actions.md), merged as `#296` / `bf3981e`, 2026-10-17);
+stage 3, three parallel lanes ([3A single panes](../prompts/graphics-stage-3a-single-panes.md) /
+[report](../reportbacks/graphics-stage-3a-single-panes-RB.md) `#297` `7457af1`,
+[3B multi-pane seats](../prompts/graphics-stage-3b-multi-panes.md) /
+[report](../reportbacks/graphics-stage-3b-multi-panes-RB.md) `#298` `f75cc13`,
+[3C data-as-UI presenter](../prompts/graphics-stage-3c-data-ui-presenter.md) /
+[report](../reportbacks/graphics-stage-3c-data-ui-presenter-RB.md) `#299` `aad758c`, 2026-10-17);
+stage 4, three parallel lanes ([4A canvas panes](../prompts/graphics-stage-4a-canvas-panes.md) /
+[report](../reportbacks/graphics-stage-4a-canvas-panes-RB.md) `#302` `91b9b21`,
+[4B editors](../prompts/graphics-stage-4b-editors.md) /
+[report](../reportbacks/graphics-stage-4b-editors-RB.md) `#301` `99a08ea`,
+[4C projection and stand-in unification](../prompts/graphics-stage-4c-projection-and-standin-unification.md) /
+[report](../reportbacks/graphics-stage-4c-projection-and-standin-unification-RB.md) `#300` `e43c45d`, 2026-10-17);
+stage 5, three parallel lanes ([5A Workshop arranger](../prompts/graphics-stage-5a-workshop-arranger.md) /
+[report](../reportbacks/graphics-stage-5a-workshop-arranger-RB.md) `#304` `a9d5c99`,
+[5B unified WindowDrawing and caret](../prompts/graphics-stage-5b-window-drawing-and-caret.md) /
+[report](../reportbacks/graphics-stage-5b-window-drawing-and-caret-RB.md) `#303` `44a8bc2`,
+[5C Hand unsettled retry and story_journey U2](../prompts/graphics-stage-5c-point-reader-unsettled-and-story-journey.md) /
+[report](../reportbacks/graphics-stage-5c-point-reader-unsettled-and-story-journey-RB.md) `#305` `2ab3de0`, 2026-10-17);
+stage 6, three parallel lanes ([6A window extent, text & overlays](../prompts/graphics-stage-6a-window-extent-text-and-overlays.md) /
+[report](../reportbacks/graphics-stage-6a-window-extent-text-and-overlays-RB.md) `#308` `238bb70`,
+[6B seat caret & View on WindowDrawing](../prompts/graphics-stage-6b-seat-caret-and-view-window-drawing.md) /
+[report](../reportbacks/graphics-stage-6b-seat-caret-and-view-window-drawing-RB.md) `#307` `7b1ab14`,
+[6C builder & monitor aimed retry](../prompts/graphics-stage-6c-builder-monitor-aimed.md) /
+[report](../reportbacks/graphics-stage-6c-builder-monitor-aimed-RB.md) `#306` `1d11677`, 2026-10-18);
+stage 7 wrap-up, three parallel lanes ([7A window load plan & SDK install](../prompts/graphics-stage-7a-window-load-plan-and-sdk-install.md) /
+[report](../reportbacks/graphics-stage-7a-window-load-plan-and-sdk-install-RB.md) `#311` `5926167`,
+[7B terminal resize re-offer](../prompts/graphics-stage-7b-window-terminal-resize.md) /
+[report](../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md) `#310` `5918a4b`,
+[7C builder.choose, Monitor.rows & act.aimed](../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md) /
+[report](../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md) `#309` `7ed868c`, 2026-10-18);
+stage 7 follow-up polish, two parallel lanes prompted ([7D settled banner & window plan input row](../prompts/graphics-stage-7d-settled-banner-and-window-plan.md),
+[7E terminal input yield & graphics resize doc](../prompts/graphics-stage-7e-window-terminal-input-yield.md), 2026-10-18)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
 `draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
 the skin, kept under the pane and its key and called every frame the skin draws until the pane
@@ -1081,27 +1303,234 @@ them; a tick 68.0 bytes on the bus and 27.52 to the terminal, as on `main`, 104.
 Its finding, by reading: growing the world, the heir's first tick sends a seeded game to the old 24
 x 16 board in cells of the new 48-wide one, so the board likely blanks for a frame before the
 inherited board lands, unwitnessed, the live walk never pressing `3`; filed and taken in the
-ready-issues batch. Its two decisions as Vision put them: a room taken on the window's word, a
-window office being a load plan's grant (asked again once strangers bring windows); a refused
-presentation unmarking its element waits for the pane work. The founder merges it as it stands
-(2026-10-14). Two seams for the roadmap: P-WORK-72 (one end-of-delivery hook a weave) and P-WORK-73
-(a resize reaches no drawer).
+ready-issues batch (merged as #233, `a48edc7`). Its two decisions as Vision put them: a room taken
+on the window's word, a window office being a load plan's grant (asked again once strangers bring
+windows); a refused presentation unmarking its element waits for the pane work. The founder merges
+it as it stands (2026-10-14). Its two roadmap seams — P-WORK-72 (one end-of-delivery hook a weave)
+and P-WORK-73 (a resize reaches no drawer) — were closed in Phase 1A (#265, `8b26fd7`, 2026-10-16);
+Phase 1C (#267, `c2f2a5a`) added `wants_area_pointer` and pixel-relative area pointer events; Phase
+4C (#276, `32f4e45`) split `graphics/elements.hpp` into per-part headers (`graphics/element_*.hpp`);
+and Phase 5C (#277, `504ecf4`) moved `examples/snake`'s buttons to `gfx::Button` and operator asks
+to `AskBook`.
 
 **The window is graphics'** (the founder, 2026-10-14): storage and distribution belong to a graphics
 weave, so drawing to a window needs a graphics weave and never a Workshop file. Workshop's
 composition, arrangement and routing move there whole over stages 2 to 5, which the census's lesson
 (a press crosses once) keeps in one window weave.
 
-**Wake:** the roadmap, which stage 2 joins (the founder, 2026-10-14), after one action path
-(section 1b, theme 3).
+**Stage 2 and the solidified data-as-UI + presenter end-state** (the founder, 2026-10-17;
+[prompt](../prompts/graphics-stage-2-panes-and-actions.md),
+[report](../reportbacks/graphics-stage-2-panes-and-actions-RB.md)): Stage 2 (`#296`, merged as
+`bf3981e`, 8 of 8 CI jobs green on run `39037359516`, 12/12 mutants caught, reviewed ready by
+Vision 2026-10-17) introduces `PaneDrawingFacet` (`workshop/pane_facets.hpp`) and `drawn_rows`
+(`workshop/pane_drawing.hpp`, reusing `graphics::term::spaces` and `Painter`) so a pane weave writes
+one `picture(gfx::Sketch&)` and one `on_action(id, mail)` serving both `zengine.window.*` and
+`zengine.workshop`, and rebuilds `Attention` (`attention/pane.cpp`, retiring its 48-line carried
+`ListWindow` in favor of `component::cursor_window`) and `Connections`
+(`external-host/connections-pane/pane.cpp`) on `graphics/`. Before starting Stage 2, the founder
+shared the solidified long-term vision so Stage 2 introduces no roadblocks: UI can be a relatively
+small JSON-like view file that hooks into its surroundings through an owner who has paired that view
+with a presenter, using hierarchical names (`path`s) and `action` ids to functionally link into the
+web of weaves, while keeping the manual C++ `Sketch` path accessible and enjoyable to use. Three
+guardrails govern Stage 2 and subsequent stages: (1) no coordinate hit-testing in owners (interactive
+items speak by `path` and `action` id via `ElementRecord`), (2) clean separation between owner domain
+state / `on_action(id, mail)` and `picture(gfx::Sketch&)` (the exact seam a JSON-view presenter
+fills), and (3) one drawing and action contract across standalone windows and Workshop panes.
+
+**Stage 3 (Wave 8 — three parallel lanes, CLOSED 2026-10-17 — `#297` `7457af1`, `#298` `f75cc13`, `#299` `aad758c`):**
+After `#296` merged as a tight 2-pane slice, the founder ordered scaling up Stage 3 across three
+non-overlapping parallel lanes, and added the standing multi-lane rule that executors may step
+outside their initial file list whenever needed provided they check with sibling lanes first and
+record every out-of-scope file and why in their report-back:
+1. **Lane 3A — Single-Pane Suite** ([prompt](../prompts/graphics-stage-3a-single-panes.md),
+   [report](../reportbacks/graphics-stage-3a-single-panes-RB.md), PR `#297` merged as `7457af1`, 13 files,
+   8 of 8 CI jobs green on run `39056554015`, 19/19 mutants caught, reviewed ready by Vision
+   2026-10-17): upgrades `workshop/pane_drawing.hpp` (`rows_sketch`, emitting disjoint
+   `parts/<row>.<run>` nodes in front of row text so overlapping parts resolve to `RowMap::at`'s
+   winner rather than paint-order rank) and `PaneRowsFacet` (`workshop/pane_facets.hpp`, mapping a
+   window's `ActionRequested` back to the pane's own
+   `RowPress{.row, .column, .keys_went_here = false, .window = true}` so all five rows offices —
+   `Terminal`, `Builder`, `Files`, `Composer`, plus `Demo` before moving — share one press path with
+   zero per-pane action encoding tables), moves `demo::Control`
+   (`external-host/demo-control/control.hpp`) to `PaneDrawingFacet`, and updates
+   `external-host/docs/zengine.demo.md`, `composer/docs/zengine.composer.md`, and
+   `workshop/docs/workshop-panes.md`.
+2. **Lane 3B — Multi-Pane Seat Suite** ([prompt](../prompts/graphics-stage-3b-multi-panes.md),
+   [report](../reportbacks/graphics-stage-3b-multi-panes-RB.md), PR `#298` merged as `f75cc13`, 14 files,
+   8 of 8 CI jobs green on run `39059883066`, 16 mutants / 18 of 18 runs caught, reviewed ready by
+   Vision 2026-10-17): upgrades `PaneCanvasSeat` and `MultiPaneFacet` (`workshop/pane_seat.hpp`) so
+   every seat owns a `graphics::Canvas` at `<office>.<pane>` (`rows_drawing`, disjoint runs, bounded
+   at `kMaxNodesPerArea` / `kMaxElementsPerArea`, whole resend once on a refused delta) and routes
+   `AreaRoom`, `DrawnRefused`, and `ActionRequested` through `each_seat`, `on_window_room`, and
+   `on_window_press`, bringing `Desktop` (`launcher`, `hotkeys`, `manual`), `Introspection`
+   (`loaded`, `arrangement`, `powers`), `Info` (`info`..`info.4`), and `Inventory`
+   (`inventory`..`inventory.N`) onto `graphics/` with zero file overlap with `#297`.
+3. **Lane 3C — Data-as-UI Graphics & `view::Presenter`**
+   ([prompt](../prompts/graphics-stage-3c-data-ui-presenter.md),
+   [report](../reportbacks/graphics-stage-3c-data-ui-presenter-RB.md), PR `#299` merged as `aad758c`, 6
+   files, 8 of 8 CI jobs green on run `39068582742`, 22/22 mutants caught across `m3` + `m4`,
+   reviewed ready by Vision 2026-10-17): adds `view::sketch` (projecting the single `view::picture`
+   via `rects_by` / `texts_by` so the one-renderer law in `agents/view.md` holds and Workshop's
+   terminal room and a window room match rectangle-for-rectangle and text-for-text) and `graphics/`
+   window support (`AreaRoom`, delta `Drawn`, two-step `DrawnRefused` handling, `ActionRequested`,
+   and `window_farewell`) to `view::View` (`view/view.hpp`) and `view::Host` (`view/host.hpp`),
+   links `zengine-graphics-vocabulary` in `view/CMakeLists.txt`, and introduces `view::Presenter`
+   (`tell`, `set`, `on_action`, `sketch`, `act`, `refresh`, and `Host::pair(name, presenter)` that
+   survives fresh re-registrations under the same view name).
+
+**Stage 4 (Wave 9 — three parallel lanes, CLOSED 2026-10-17 — `#300` `e43c45d`, `#301` `99a08ea`, `#302` `91b9b21`, 36 files with zero overlap):**
+Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up the Stage 3 cross-lane seams:
+1. **Lane 4A — Canvas-Picture Authoring Panes** ([prompt](../prompts/graphics-stage-4a-canvas-panes.md),
+   [report](../reportbacks/graphics-stage-4a-canvas-panes-RB.md), PR `#302` merged as `91b9b21`, 14 files,
+   26/26 mutants caught across `m1` + `m2`, reviewed ready by Vision 2026-10-17): introduces
+   `workshop::canvas_sketch` (`workshop/pane_canvas_drawing.hpp`, 126 lines — projecting a
+   `v4::PaneCanvasContent` into `picture/<n>` and `parts/<n>/<k>` groups so delta nodes stay in
+   their layer and painted part groups receive `graphics::window::land` clicks) and brings
+   `FlowPane` (`flow/flow-pane/pane.cpp`, `flow/flow-pane/view.hpp`, with `recovery_picture`
+   fallback when a dense graph exceeds `kMaxNodesPerArea` / `kMaxElementsPerArea`) and
+   `ViewBuilderPane` (`view/view-builder/pane.cpp`, unifying pointer and window presses in `choose`
+   and drawing from a presentation copy so a window room never clamps Workshop's pan) onto
+   `graphics/`.
+2. **Lane 4B — Both Editors on `graphics/`** ([prompt](../prompts/graphics-stage-4b-editors.md),
+   [report](../reportbacks/graphics-stage-4b-editors-RB.md), PR `#301` merged as `99a08ea`, 7 files, 8 of 8
+   CI jobs green on run `39077688883`, 17/17 mutants caught across `m1` + `m2`, reviewed ready by
+   Vision 2026-10-17): introduces `editor_office::EditorWindow` in `editor/office_seam.hpp` (drawing
+   rows via `ws::rows_drawing` plus `mark` for accent selection runs and the `caret` vertical bar
+   carrying the underlying part's action, with two-state refusal handling) and brings both
+   `EditorPaneWeave` (`editor/editor-pane/pane.cpp`) and `NeovimEditorWeave`
+   (`editor/neovim-editor/pane.cpp`) onto `graphics/`, respecting `ActivationCursor` so a sealed
+   replacement candidate emits no `RoomAsked` or `Drawn` before admission and clearing `drag_` /
+   `grab_` / `release_drag()` on discrete window presses.
+3. **Lane 4C — Projection, Refusal, Stand-In Unification & `act.py` Retry**
+   ([prompt](../prompts/graphics-stage-4c-projection-and-standin-unification.md),
+   [report](../reportbacks/graphics-stage-4c-projection-and-standin-unification-RB.md), PR `#300` merged as
+   `e43c45d`, 15 files, 8 of 8 CI jobs green on run `39075043364`, 7/7 mutant witness runs caught,
+   reviewed ready by Vision 2026-10-17): moves the single templated `ws::rows_drawing<Part>` and
+   `ws::WindowDrawing` (owning `graphics::Canvas`, `last_`, and the two-state `fresh_` /
+   `drew_whole_` refusal rule where `drew_whole_` starts `true` so a refusal before any drawing sends
+   nothing) into `workshop/pane_drawing.hpp` across `PaneCanvasSeat` (`workshop/pane_seat.hpp`, 500
+   → 373 lines), `PaneRowsFacet`, and `PaneDrawingFacet` (`workshop/pane_facets.hpp`), deletes
+   `tests/window_stand_in.hpp` in favor of `tests/pane_window.hpp`, and teaches `act.aimed`
+   (`external-host/tools/workshop/act.py`) to wait through `"no settled picture"` bounded by the
+   step's deadline.
+
+**Stage 5 (Wave 10 — three parallel lanes, CLOSED 2026-10-17 — `#303` `44a8bc2`, `#304` `a9d5c99`, `#305` `2ab3de0`, 29 files with zero overlap):**
+1. **Lane 5A — Workshop as `zengine.graphics` Arranger & Desk Chrome Drawer**
+   ([prompt](../prompts/graphics-stage-5a-workshop-arranger.md),
+   [report](../reportbacks/graphics-stage-5a-workshop-arranger-RB.md), PR `#304` merged as `a9d5c99`, 13 files,
+   8 of 8 CI jobs green on run `39093569054`, 44/44 mutants caught across `m1`–`m3`,
+   reviewed ready by Vision 2026-10-17): teaches Workshop (`WorkshopWeave` in `workshop/weave.hpp`,
+   `workshop/weave_run.cpp`, `workshop/weave_handlers.cpp`, `workshop/weave_pointer.cpp`, `workshop/grant.cpp`,
+   and `workshop_window_drawing` in `workshop/screen.hpp` / `workshop/screen_compose.cpp` / `workshop/screen_external.cpp`)
+   to place open pane areas (`pane_window_area`) whose offices accept `AreaRoom` and `"zengine.workshop"` on
+   `zengine.graphics` when mounted (producing zero `NoRoleHolder` refusals when `zengine.graphics` is absent)
+   and to project the same planes `paint` composes (`Layouts` band, external pane borders and headers with
+   `*`/`?` actions and waiting/refused/non-window fallback, arrangement rings, menus, and bottom band) onto
+   `"zengine.workshop"` via `WindowDrawing` with a hash-rooted path so structural additions/removals never
+   paint out of order.
+2. **Lane 5B — Unified `WindowDrawing` & Caret/Selection in `rows_drawing`**
+   ([prompt](../prompts/graphics-stage-5b-window-drawing-and-caret.md),
+   [report](../reportbacks/graphics-stage-5b-window-drawing-and-caret-RB.md), PR `#303` merged as `44a8bc2`, 12 files,
+   8 of 8 CI jobs green on run `39089254377`, 12 mutants / 16 of 16 witness runs caught, reviewed ready by
+   Vision 2026-10-17): moves the caret bar (`"caret"`) and selection highlight runs (`"sel<r>.<run>"`) from
+   `EditorWindow::mark` into `ws::rows_drawing` (`workshop/pane_drawing.hpp`, capped to drawn rows `max_rows`),
+   passes `caret_` from `PaneRowsFacet::send` (`workshop/pane_facets.hpp`) so `Terminal` and `Composer` draw
+   their caret and selection in a graphics window, adds `width()`, `height()`, `refused_whole()`, and the
+   unchanged-sketch refusal guard (`graphics::difference`) to `ws::WindowDrawing`, and folds `EditorWindow`
+   (`editor/office_seam.hpp`, 720 → 595 lines), `FlowPane` (`flow/flow-pane/pane.cpp`), and `ViewBuilderPane`
+   (`view/view-builder/pane.cpp`) onto `ws::WindowDrawing`.
+3. **Lane 5C — External-Host Point-Reader `"no settled picture"` Unification & `story_journey.py` U2 Startup Wait**
+   ([prompt](../prompts/graphics-stage-5c-point-reader-unsettled-and-story-journey.md),
+   [report](../reportbacks/graphics-stage-5c-point-reader-unsettled-and-story-journey-RB.md), PR `#305` merged as
+   `2ab3de0`, 4 files, 8 of 8 CI jobs green on run `39092555815`, 12 `hand` + 4 `story_journey` mutants caught,
+   reviewed ready by Vision 2026-10-17): introduces `Hand.aimed` and `no_settled_picture` (covering both canvas
+   `"no settled picture"` and text `"no settled text picture"`) in `external-host/tools/workshop/hand.py` across
+   `Hand.row`, `Hand.pointed`, `Hand.lattice_point`, and `act.aimed` (`external-host/tools/workshop/act.py`),
+   pinned in `tests/session/workshop_tool_checks.py` (60/60), and updates `tests/session/story_journey.py` U2
+   (`unresolved_runs`) to wait up to 10s for `01-held` to reach `running` at its first step.
+
+**Stage 6 (Wave 11 — three parallel lanes, CLOSED 2026-10-18 — `#306` `1d11677`, `#307` `7b1ab14`, `#308` `238bb70`, 29 files with zero overlap):**
+1. **Lane 6A — Live Window Extent, `TextEntered`, Staging & Desk Overlays**
+   ([prompt](../prompts/graphics-stage-6a-window-extent-text-and-overlays.md),
+   [report](../reportbacks/graphics-stage-6a-window-extent-text-and-overlays-RB.md), PR `#308` merged as `238bb70`, 20 files,
+   8 of 8 CI jobs green on run `39103907554`, 24/24 mutants caught across `m1` + `m2`, reviewed ready by Vision 2026-10-18):
+   stages `zengine-graphics`, `zengine-window-terminal`, `zengine-paint-classic`, and `zengine-paint-block` in
+   `workshop/CMakeLists.txt` and `cmake/ZengineInstall.cmake` (witnessed in `tests/package/CMakeLists.txt`); emits
+   `TextEntered` from `WindowBase` (`graphics/window/window.hpp`), forwards `TextEntered` via `to_keys` to areas with
+   `keys == true`, and publishes `WindowOffered` as `office()`; teaches `WorkshopWeave` (`workshop/weave_handlers.cpp`)
+   to accept `WindowOffered` for session startup and cell-grid resize when no skin is mounted, keeps `keys = true` on
+   `kWorkshopProvider` (`keys = false` on pane areas), and projects `[value]` drag pills and guest `guide_layer` marks
+   in `workshop_window_drawing` (`workshop/screen_compose.cpp`) with `kWorkshopProvider` raised in front while an overlay stands.
+2. **Lane 6B — Multi-Pane Seat Caret & `view::View` on `WindowDrawing`**
+   ([prompt](../prompts/graphics-stage-6b-seat-caret-and-view-window-drawing.md),
+   [report](../reportbacks/graphics-stage-6b-seat-caret-and-view-window-drawing-RB.md), PR `#307` merged as `7b1ab14`, 6 files,
+   8 of 8 CI jobs green on run `39102354851`, 13/13 mutants caught, reviewed ready by Vision 2026-10-18):
+   teaches `PaneCanvasSeat` (`workshop/pane_seat.hpp`) to retain `said_caret_` in `say` and pass it to `ws::rows_drawing`
+   in `redraw` so multi-pane seats draw their caret and selection in a graphics window; teaches `view::sketch` (`view/view.hpp`)
+   to draw the `"caret"` line node for a focused number field; and folds `view::View` onto `ws::WindowDrawing`.
+3. **Lane 6C — `builder.py` & `monitor.py` Aimed Unsettled-Picture Retry**
+   ([prompt](../prompts/graphics-stage-6c-builder-monitor-aimed.md),
+   [report](../reportbacks/graphics-stage-6c-builder-monitor-aimed-RB.md), PR `#306` merged as `1d11677`, 3 files,
+   8 of 8 CI jobs green on run `39100980822`, 19/19 mutants caught, reviewed ready by Vision 2026-10-18):
+   routes `builder.calm`, `builder.keys_into` (`external-host/tools/workshop/builder.py`), and `Monitor.press_at`
+   (`external-host/tools/workshop/monitor.py`) through `Hand.aimed` so `"no settled picture"` and `"no settled text picture"`
+   are waited through alongside `"picture moved"`.
+
+**Stage 7 Wrap-Up (Wave 12 — three parallel lanes, CLOSED 2026-10-18 — `#309` `7ed868c`, `#310` `5918a4b`, `#311` `5926167`, 23 files with zero overlap):**
+1. **Lane 7A — Shipped `workshop/window-load-plan.json` & `zengine::graphics` Public SDK Install Surface**
+   ([prompt](../prompts/graphics-stage-7a-window-load-plan-and-sdk-install.md),
+   [report](../reportbacks/graphics-stage-7a-window-load-plan-and-sdk-install-RB.md), PR `#311` merged as `5926167`, 16 files,
+   8 of 8 CI jobs green on run `39126892001`, 7/7 mutants + 1 install mutant caught, reviewed ready by Vision 2026-10-18):
+   authors and stages `workshop/window-load-plan.json` (`zengine-graphics` + `zengine-window-terminal` in rows 2 and 3,
+   `kWindowLoadPlanName` in `workshop/load_persist.hpp`, `workshop/CMakeLists.txt`, `workshop/workshop.cpp`,
+   `workshop/README.md`, `workshop/docs/load-plans.md`, `workshop/docs/load-plan.md`, and `PlanRig` proof in
+   `tests/test_workshop_load.cpp`), and exports `zengine::graphics` (`zengine-graphics-vocabulary` + the 20 public
+   `graphics/` and `graphics/elements/` headers) in `graphics/CMakeLists.txt`, `cmake/ZengineInstall.cmake`,
+   `agents/packaging.md`, `tests/package/CMakeLists.txt`, and `tests/package/public_surface.cpp`.
+2. **Lane 7B — Live Terminal Resize Detection & `WindowOffered` Re-Publication in `zengine.window.terminal`**
+   ([prompt](../prompts/graphics-stage-7b-window-terminal-resize.md),
+   [report](../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md), PR `#310` merged as `5918a4b`, 3 files,
+   8 of 8 CI jobs green on run `39121549940`, 9/9 mutants caught, reviewed ready by Vision 2026-10-18):
+   teaches `WindowT::on_pump` (`graphics/window/window.hpp` and `graphics/docs/zengine.window.terminal.md`) to measure
+   `terminal_.size()` on each `zengine.window.pump` beat and, when `(cols, rows)` changes, mark the resized cell grid
+   dirty and re-publish `WindowOffered` with the new `cols` and `rows` under the same `epoch`, proven in `tests/test_graphics.cpp`.
+3. **Lane 7C — Settled-Picture Discipline in `builder.choose` and `Monitor.rows`, and Deduplicating `act.aimed` onto `hand.aimed`**
+   ([prompt](../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md),
+   [report](../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md), PR `#309` merged as `7ed868c`, 4 files,
+   8 of 8 CI jobs green on run `39122773961`, 28/28 mutants caught across `m1`–`m3`, reviewed ready by Vision 2026-10-18):
+   routes `builder.choose` (`external-host/tools/workshop/builder.py`) through `pressing(ctx, hand)`, teaches
+   `Monitor.rows` / `_Asker` (`external-host/tools/workshop/monitor.py`) to wait through `takes_no_press` and
+   `no_settled_picture` via `DeskStamps` notices (both with an open `Hand` and as a watching-only monitor), and
+   deduplicates `act.aimed` (`external-host/tools/workshop/act.py`) onto `hand.aimed`, proven in
+   `tests/session/workshop_tool_checks.py`.
+
+**Stage 7 Follow-Up Polish (Wave 13 — two parallel lanes, PROMPTED 2026-10-18 — 14 files with zero overlap):**
+1. **Lane 7D — Settled `stdout` Banner Suppression Over Terminal Media & `zengine-input` in `window-load-plan.json`**
+   ([prompt](../prompts/graphics-stage-7d-settled-banner-and-window-plan.md)):
+   adds `load::medium_holds_terminal` (`workshop/load_execute.hpp` and `workshop/workshop.cpp`) so Workshop does not print
+   its settled arrangement banner over a measured terminal held by `zengine.window.terminal` or a terminal `zengine.skin`,
+   adds `zengine-input` (`zengine.input`) to `workshop/window-load-plan.json` so guest input sessions work under the window
+   plan, and closes the doc gaps in `workshop/docs/load-plans.md`, `workshop/docs/load-plan.md`,
+   `workshop/docs/getting-started.md`, and `cheat_sheet.md`, proven in `tests/test_workshop_load.cpp`.
+2. **Lane 7E — Process-Scoped Terminal Input Claim for `zengine-window-terminal` & Graphics Resize Doc**
+   ([prompt](../prompts/graphics-stage-7e-window-terminal-input-yield.md)):
+   adds a PID-stamped, refcounted process claim (`claim_window_terminal_input`, `release_window_terminal_input`,
+   `window_holds_terminal_input`, `terminal_reader_may_use_terminal` in `input/terminal_reader.hpp` and `ProcessTerminal`
+   in `graphics/window/window.cpp`) so `zengine-input` yields `stdin` when `zengine-window-terminal` holds the process's
+   terminal while still serving guest input sessions (`InputSessionRequested`, `InjectInput`, `PointerMotionRequested`,
+   `InputSessionClosed`), updates `input/docs/zengine.input.md` and `graphics/docs/zengine.window.terminal.md`, and fixes
+   the `WindowOffered` resize doc gap in `graphics/docs/zengine.graphics.md`, proven in `tests/test_input.cpp`.
+
+**Wake:** Stages 1–7 are merged (`#218`, `#219`, `#296`–`#311`); Stage 7 follow-up polish (`7D` & `7E`, Wave 13) is prompted.
 Zengine #146 (several Workshop windows, BL-WORK-12) builds on its window weave later.
 **Source:** the founder (2026-10-07), after #96, from reference Zengine's `game_graphics` and a
 draw list the skin keeps.
 
 ### BL-WORK-45 — Forced participants: a census against the split rule
 
-**State:** REPORTED, REVIEWED — [prompt](../prompts/participant-census.md),
-[report](../reportbacks/participant-census-RB.md); its decisions the founder's (2026-10-12)  
+**State:** REPORTED, REVIEWED, AND EXECUTING IN THE SPLIT ARC — [prompt](../prompts/participant-census.md),
+[report](../reportbacks/participant-census-RB.md); its decisions the founder's (2026-10-12);
+extractions merged in #232, #270, #275, #278, #279, and #282 (2026-10-15 to 2026-10-16)  
 **Owed:** The founder's question (2026-10-12), once the graphics design's third round gave the
 window the whole job: are there more places where Zen forces a participant where something
 functionally self-contained would complete the purpose? Less a GUI question than one for an
@@ -1125,23 +1554,19 @@ where enforced, since every loaded row but Inventory is admitted `allow_any` (P-
 judged by deleting it. The only pipes are the snake's three adapters: folded into the world, 3.27 to
 2.14 messages a tick, the same game, the pilot, replay, faster clock and reload surviving. The
 mirrors (Attention, Connections, Info's properties view, Introspection) become data-form views once
-BL-WORK-37's elements land; the menu presenter takes the whole menu once the window shape is set.
-The terminal is the strongest case, Workshop relaying the session through a pointer at 4.81 messages
-an act: the census would put the session in the loaded pane; Vision recommends its room instead, a
-native terminal door holding the session, completer and transcript -- WL-TERM-02 keeps the weaver's
-speaking identity host-held, the move needs Loom (no message drives the session, and a loaded weave
-mounts nothing), and the door ends Workshop's relay without either. The census calls the pane
-forced though it earns by presence, so by its own rule it is mixed. The desktop's "inspect in
-Info" row sends to an office that does not accept it: an issue
-([prompt](../prompts/desktop-inspect-issue.md)), filed as Zengine #217, `ready`, `defect` (2026-10-12).
-Eleven decisions. Outside the fence: the census
-fetched the two primary clones (refs moved, trees untouched); its two clones stay in scratch for the
-founder's review. Three research phases built the same probe host (load, tap, tally): a kit
-candidate.
+BL-WORK-37's elements land (in the meantime, #269, #271, and #278 moved Attention, Connections, and
+Introspection's seats onto `PaneRowsFacet` / `introspection/seats.hpp`, and #282 extracted Info's
+property view to `info/property_view.hpp` and retired the duplicate list); the menu presenter takes
+the whole menu once the window shape is set. The terminal was the strongest case, Workshop relaying
+the session through a pointer at 4.81 messages an act: Vision's native terminal door holding the
+session, completer, and transcript landed in #275 (`8189c0c`) and #279 (`34c6dfd`, `terminal/door.hpp`),
+alongside `GuestDoor` (`workshop/guest_judge.hpp`) and the unified project office `zengine.project`
+(#270, `8d5c5d0`). The desktop's "inspect in Info" row defect (#217) merged as #232 (`98fd5c3`).
 
-**Wake:** the snake's fold, its criterion record and snake-score's label ride BL-WORK-37's stage 1
-([prompt](../prompts/graphics-stage-snake.md)); the other decisions as recommended, the terminal as
-Vision's native door, when the founder orders it (2026-10-12).
+**Wake:** the snake's fold, its criterion record and snake-score's label landed in BL-WORK-37's
+stage 1 (#218); the terminal door, guest judge, project office, and mirror/Info cleanups landed in
+#270, #275, #278, #279, and #282; the menu presenter and full data-form views follow BL-WORK-37's
+window stages.
 **Source:** the founder (2026-10-12), after BL-WORK-37's round 2 review.
 
 ### BL-WORK-12 — Multiple windows
@@ -1150,7 +1575,7 @@ Vision's native door, when the founder orders it (2026-10-12).
 
 ### BL-WORK-13 — Python scripts as participants
 
-**State:** ISSUE — [Zengine#147](https://github.com/Krealsion/Zengine/issues/147) holds it now (filed by deep review, 2026-10-09).
+**State:** ISSUE — [Zengine#147](https://github.com/Krealsion/Zengine/issues/147) holds it now (filed by deep review, 2026-10-09); paired with the C++ ↔ Python live Snake owner handoff demo (`C++ -> Python -> C++`, the founder, 2026-10-16; see also [BL-WORK-40](#bl-work-40--the-simplest-snake-played-by-its-own-ai) and [BL-WORK-37](#bl-work-37--the-graphics-library-elements-a-window-keeps)).
 
 ### BL-WORK-14 — A pane's minimum size
 
@@ -1491,9 +1916,12 @@ the census; the report's manual scaffold; nothing in a running Workshop is grant
 `ShapeDocumentRequested` yet, so its first asker brings the grant; a page near `kMaxManualBytes`
 makes a declaration past the history recorder's 64 KiB payload ceiling. Into D:
 `cmake/ZengineManual.cmake` needs policy CMP0054 NEW, which a stranger's old
-`cmake_minimum_required` would not give. Then B2, the `?`, with B3, its tutorial replayed; C,
-feature by feature in the issue lane to 2026-10-22; D after the release. BL-WORK-38's stages 3a and
-3b follow B2. The research's findings are verified and filed in deep review's place
+`cmake_minimum_required` would not give. Then B2, the `?`, with B3, its tutorial replayed; C's manuals landed as #234 to #249
+(2026-10-15), with the manual ASCII check in #251 (`0ea9441`), `ManualFacet` across single- and
+multi-pane offices in #266 (`54d8cc0`) and #268 (`60a41e5`), and the three host offices
+(`zengine.flow.host`, `zengine.view.host`, `zengine.builder.runner`) in #272 (`b26630b`, 2026-10-16);
+C's remaining tutorials wait for the complete stories; D after the release. BL-WORK-38's stages 3a
+and 3b follow B2. The research's findings are verified and filed in deep review's place
 ([report](../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and merged as
 #169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the founder chose reading
 (b), with the build send keeping its ticket (2026-10-10); taken with the follower's lost realization

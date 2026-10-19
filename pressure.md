@@ -1,7 +1,7 @@
 # Zen Live Pressure Board
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-10-03
+**Refreshed:** 2026-10-16  
 **Role:** open observed pressure and the evidence/trigger that may justify action  
 **Strategy:** `private/zen-strategic-map.md`  
 **Known owed work:** `private/backlog.md`
@@ -76,14 +76,12 @@ retirement are not silently selected by this consolidation.
 
 ### P-WORK-01 — Default pane height and keyboard resizing are tedious
 
-**State:** WATCH  
-**Evidence:** `Zengine/docs/workshop/limitations.md`, ARR-0 recommendation
+**State:** WATCH — fallback height and coarse step configurable in #321 (`a7b7aa1`, 2026-10-19); self-sizing panes remain  
+**Evidence:** `Zengine/docs/workshop/limitations.md`, ARR-0 recommendation, [Stage 2D report](../reportbacks/settings-stage-2d-workshop-promotions-RB.md#decisions-asked)
 
-Pane width responds to the surface; default height remains nine rows. Pointer resize is efficient,
-but keyboard resize moves one cell per press and offers no coarse/fill operation.
+`workshop.stack-rows` (5–40 rows) and `workshop.arrange-step` (2–16 cells) landed in #321 (`a7b7aa1`), relieving the fallback stack height (`kStackRows`) and coarse keyboard step (`kCoarseStepCells`). Panes that report their own `preferred_extent` (such as Pane Manager and Info on a fresh desk) still size themselves rather than taking `workshop.stack-rows`.
 
-**Trigger:** repeated real use treats this as the dominant arrangement cost after EDIT-1, or a
-surface-aware default can be stated without becoming a layout solver.
+**Trigger:** repeated real use treats self-sizing panes' default height as an arrangement cost, or a per-pane floor against `preferred_extent` is selected.
 
 ### P-WORK-02 — Broader pane inspection and contextual acquisition remain future work
 
@@ -933,43 +931,42 @@ ms a reload to 3.1). Loom's to weigh, and its guide's to say.
 
 ### P-WORK-72 — One end-of-delivery hook a weave
 
-**State:** WATCH — met in BL-WORK-37's readability pass (Vision, 2026-10-14)  
+**State:** CLOSED — Zengine #265 (`8b26fd7`, 2026-10-16; [prompt](../prompts/phase-1a-facets.md))
+chains `after_delivery` across `WeaveWith<State, Facets...>` facets (`DrawingFacet`, `PaneFacet`,
+`PaneRowsFacet`) and the weave's own `after_delivery`  
 **Evidence:** Loom `include/zen/weave/weave.hpp` (one `after_delivery`, called when the weave
-declares it); Zengine `graphics/drawing.hpp`, which takes it and refuses a drawer's own at build
-time; `workshop/weave_managed.cpp`, `editor/editor-pane/pane.cpp` and
-`editor/neovim-editor/pane.cpp`, which define their own
+declares it); Zengine `zengine/weave_facets.hpp` and `graphics/drawing.hpp`
 
-A drawing weave draws and shows at Loom's end-of-delivery hook, the one a weave has. Workshop's
-weave and both editor panes already use it, so none can become a drawing weave as they stand: Loom
-composing the hook, or the drawing weave offering an end-of-delivery hook of its own, is Loom's and
-the graphics library's to weigh.
-
-**Trigger:** the first pane drawn through the drawing weave; a second library wanting the hook.
+A drawing weave draws and shows at Loom's end-of-delivery hook, the one a weave has. `WeaveWith`
+composes `after_delivery` across every attached facet and the derived weave in deterministic order,
+so a weave can compose `DrawingFacet` or `PaneRowsFacet` alongside its own end-of-delivery work.
 
 ### P-WORK-73 — A room that only resizes reaches no drawer
 
-**State:** WATCH — met in BL-WORK-37's readability pass (Vision, 2026-10-14)  
-**Evidence:** Zengine `graphics/canvas.hpp` (`Canvas::room` is true only when the window or its
-incarnation changed); `graphics/drawing.hpp` (`on_room` runs only then)
+**State:** CLOSED — Zengine #265 (`8b26fd7`, 2026-10-16; [prompt](../prompts/phase-1a-facets.md))
+fires `on_room` when the granted room's size changes as well as when the window or its incarnation
+changed  
+**Evidence:** Zengine `graphics/canvas.hpp` and `graphics/drawing.hpp`
 
-The window answers every introduction of an area, a move or a resize among them, with its room, but
-a drawing weave hears a room only when the window or its incarnation changed, and keeps no size. The
-snake never resizes; a Workshop pane will.
-
-**Trigger:** the first drawing weave whose area changes size.
+`Canvas::room` now tracks the area's dimensions and notifies `on_room` whenever the window, its
+incarnation, or the area's size changes.
 
 ### P-WORK-74 — A document door changes the contract a reload in place compares
 
-**State:** WATCH — met by the manuals, Zengine #234 to #249 (Vision, 2026-10-15)  
+**State:** WATCH (in-tree manuals and reload-in-place state preservation delivered in #266, #268,
+#269, #271, #272; stranger/presenter replacement contract remains open for Stage D / presenter split)  
 **Evidence:** [the manuals' report](../reportbacks/manuals-first-RB.md), Decisions asked 1; Loom's
 reload in place, which refuses images whose accepted shapes differ
 
 Every weave that gained `PaneDocumentRequested` or `ShapeDocumentRequested` accepts one shape more,
 so an image built before can no longer be reloaded in place into one after, a one-time break before
-the first release. The menu presenter keeps its page unanswered, since its numbered stand-in and any
-presenter built from the installed package, which carries no manual vocabulary, could no longer
-replace it in place. Options: every replacement accepting the door; Loom letting a reload ignore a
-document door; or the door left off.
+the first release. Single-pane offices (#266, `54d8cc0`), multi-pane offices (#268, `60a41e5`), and
+the three host offices (#272, `b26630b`) now answer their manuals through `ManualFacet`, and the
+nine weaves whose state lived only in an image now preserve their state across a reload in place
+(#268, #269 `5575476`, #271 `a09da96`). The menu presenter keeps its page unanswered, since its
+numbered stand-in and any presenter built from the installed package, which carries no manual
+vocabulary, could no longer replace it in place. Options: every replacement accepting the door; Loom
+letting a reload ignore a document door; or the door left off.
 
 **Trigger:** a stranger's weave carrying its manual (the documentation's stage D); the presenter's
 split.
@@ -1663,18 +1660,14 @@ needs one.
 
 ### P-LOOM-10 — A struct shape's optional fields left four edges
 
-**State:** WATCH; its decision made (the founder, 2026-10-08): a Terminal setting, once settings can
-carry it (BL-WORK-36)  
-**Evidence:** [Loom #31's report](../reportbacks/loom-optional-shape-fields-RB.md#pressure-exposed)
-and [its decisions asked](../reportbacks/loom-optional-shape-fields-RB.md#decisions-asked)
+**State:** WATCH; its Terminal completion-order setting landed in #321 (`a7b7aa1`, 2026-10-19); three Loom edges remain on their own triggers  
+**Evidence:** [Loom #31's report](../reportbacks/loom-optional-shape-fields-RB.md#pressure-exposed),
+[its decisions asked](../reportbacks/loom-optional-shape-fields-RB.md#decisions-asked), and
+[Stage 2D report](../reportbacks/settings-stage-2d-workshop-promotions-RB.md)
 
 Loom #31 (`b664311`, 2026-10-08) made a `ZEN_SHAPE` member of type `std::optional<T>` an optional
 field of `T`'s type. Left open:
-- **Decided** (the founder, 2026-10-08): the composer keeps declaration order, and an optional field
-  may sit anywhere in a shape, so with `{limit?: Int, n: Int}` a bare `7` still lands in `limit`.
-  Offering a shape's required fields first in the Workshop Terminal's completion
-  (`workshop/complete.hpp`) waits to be a Terminal setting (BL-WORK-36); its quick-repair prompt,
-  `prompts/terminal-completion-required-first.md`, is shelved.
+- **Closed in #321 (`a7b7aa1`, 2026-10-19):** the composer keeps declaration order, and `workshop.completion-order` (`declared` or `required-first`) offers a shape's required fields before its optional ones in the Workshop Terminal's completion (`terminal/complete.hpp` and `terminal/door.hpp`).
 - `zen.PokeField` carries no requiredness: a tool that must know from the structure alone that a
   field may be absent needs `zen.PokeField` v2, and `zen.PokeStructure` v2 nesting it. Trigger: an
   inspector that must show optionality before reading.
@@ -1684,7 +1677,7 @@ field of `T`'s type. Left open:
 - The Python session client's `.get(name, default)` reads are where a vocabulary that gains an
   optional member meets absence. Trigger: the first Loom vocabulary with an optional member.
 
-**Trigger:** each line's own.
+**Trigger:** each remaining line's own.
 
 ### P-LOOM-11 — A MinGW-w64 runtime instance takes a TLS index it never returns
 
