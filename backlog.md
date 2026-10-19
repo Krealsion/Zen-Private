@@ -1,7 +1,7 @@
 # Zen Standing Backlog
 
 **Status:** PRIVATE LIVE AUTHORITY  
-**Refreshed:** 2026-10-16  
+**Refreshed:** 2026-10-19  
 **Role:** work Zen knowingly owes but is deliberately not doing now  
 **Pressure:** `private/pressure.md`
 
@@ -138,6 +138,9 @@ Executed to enforce a ~1,000-line ceiling per translation unit and header across
 **Wave 18 — `surface/` Retirement Stage S4B (Remaining Paste Panes & Workshop Probe Capture Fallback) & BL-WORK-36 Stage 3B (Setting Locks & Cross-Layout Doors) (PROMPTED 2026-10-19):**
 - **Lane 18A ([prompt](../prompts/surface-retire-s4b-remaining-paste-panes-and-probe.md)):** Routes the remaining 4 clipboard-pasting panes (`BuilderPaneWeave::begin_paste` in `builder/builder-pane/pane.cpp`, `FilesWeave::begin_paste` in `files/files.cpp`, `PowersSeat::begin_clipboard_paste` in `introspection/seats.hpp`, and `HotkeysView::begin_paste`/`ask_refused` in `workshop/desktop-pane/hotkeys_view.hpp`) through `room().clipboard_office()` / `keys_canvas_.clipboard_office()` instead of hardcoded `surface::kSkinRole`, and teaches `examples/workshop-probe/probe.hpp` (`Step::Capture`) to try `zengine.skin`, `zengine.window.sdl`, and `zengine.window.terminal` in order on `kOutcomeDispatchRefused` so the probe captures cleanly under both legacy Skin and window plans.
 - **Lane 18B ([prompt](../prompts/settings-stage-3b-locks-and-cross-layout-doors.md)):** Adds the 13 cross-layout and lock `ZEN_SHAPE`s in `workshop/settings_seam_vocabulary.hpp` (`PaneSettingLockRequested`, `PaneSettingLockActed`, `LayoutSettingsRequested`, `LayoutTheme`, `LayoutPaneSettings`, `LayoutSettings`, `DeclaredSettings`, `LayoutSettingsShown`, `SettingWrite`, `LayoutThemeWrite`, `SettingsWriteRequested`, `SettingWriteResult`, `SettingsWritten`); persists per-layout locks (`<office>/<pane>@<layout_name>` in `prefs_.locks`) and per-layout `LayoutTheme` baselines (`@<layout_name>` in `prefs_.offices`) in `WorkshopPrefs` v3 without bumping `WorkshopSetup` v5 or `WorkshopSession` v8; enforces layout and everywhere locks (and weaver-only unlock) across `PaneSettingCommitRequested`, `PaneCommitRequested`, `PaneSettingsShown`, and `SettingsWriteRequested`; implements `LayoutSettingsRequested` and whole-batch-validated `SettingsWriteRequested`; and widens Terminal + `"settings"` guest power.
+- **Open, reviewed by Vision (2026-10-19):** `#325` (18A) and `#326` (18B). The founder took
+  18B's storage as a stopgap (2026-10-19): a layout's locks, pins and baseline stay in Workshop's
+  settings file under the layout's name until the desk split moves them into the layout.
 
 **The goal** (the founder, 2026-10-14): Zen legible, and good to use as a human weaver.
 Documentation first; then the split, which should simplify the documentation, not expand it; then
@@ -145,6 +148,25 @@ the UX improvements, as one batch of `enhancement` issues; complete stories last
 architecture. No timeline: a day or two for the manuals, he says, with minor work beside them. His
 notes are kept by item, not as a file: their themes in section 1b, their UX items as issue drafts in
 [ux-batch.md](ux-batch.md).
+
+**The direction** (the founder, 2026-10-19, on Vision's state report): subtract before adding, one
+owner at a time, and decisions before prompts.
+
+1. Finish the Skin. Workshop's own area takes the whole pointer in a window and the window plans
+   become the defaults (G1); then `surface/`, the Skins and Workshop's row projection go (G2).
+2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
+   (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
+   in setup v6 as the settings research drew it.
+3. Settings stages 4 to 6 wait for that owner.
+4. Every phase's fence: Workshop's weave takes fewer kinds of message after it, counted in its
+   report.
+5. One phase, and at most one issue lane beside it (constitution section f). Vision checks every
+   name a prompt gives against `main` before the prompt goes out.
+6. The decisions asked in the reports since 2026-10-15 are swept into one list: those the code has
+   settled marked, the rest brought to the founder in small batches.
+7. One list of the seams the reports keep deferring, each with one owner and closed in one phase.
+8. Night Lab's other model drafts top-down material for these phases, never their prompts.
+9. Then the founder's order: the UX batch, then the first complete maker story.
 
 **The architecture's needs, as Vision measured them** (Zengine `aab5177`, 2026-10-14; updated
 through `#323`/`#324`, 2026-10-19). At `aab5177`: one hub, Workshop's weave taking 68 kinds of
@@ -171,9 +193,10 @@ and `settings/` theme files + composite DAG resolution + `zengine.settings` voca
 navigation (`focus.*`, WCAG 2.1.1/2.1.2), and `surface/` retirement Stages S1–S4A (`graphics/` severed from `surface/`,
 `zengine-window-sdl`, full input/close parity, full medium + bus-door parity for clipboard, placement, pump, close, and
 BMP/cells capture across both windows, window clipboard/placement/capture routing, and `sdl-window-load-plan.json`)**.
-Remaining spine steps in order: **settings stages 3B–6 (`BL-WORK-36`) + `surface/` retirement stage S4B (`BL-WORK-37`)**,
-the desk's 3a and 3b (BL-WORK-38), fast forward's S2 and S4 to S6 (BL-WORK-43), the UX batch (`ux-batch.md`),
-and the first complete maker story (Theme 13).
+The spine that stood here (settings stages 3B to 6 and S4B, the desk's 3a and 3b, fast forward's
+S2 and S4 to S6, the UX batch, the first maker story) gives way to the direction above
+(2026-10-19). Where the desk's 3a and 3b (BL-WORK-38) and fast forward (BL-WORK-43) fall in it is
+not yet decided.
 
 ## 1b. The roadmap's themes
 
