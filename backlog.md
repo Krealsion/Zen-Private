@@ -166,19 +166,34 @@ owner at a time, and decisions before prompts.
    in setup v6 as the settings research drew it.
    Researched first, read-only beside G1 ([prompt](../prompts/desk-split-research.md),
    2026-10-19); reported the same day ([report](../reportbacks/desk-split-research-RB.md):
-   `zengine.layouts`, stages D1 to D3) and reviewed by Vision; its twelve decisions are the
-   founder's.
+   `zengine.layouts`, stages D1 to D3) and reviewed by Vision. The founder took its twelve
+   decisions as recommended (2026-10-19), with four of Vision's changes:
+   - the unlock (decision 9): none of it built in D1. WL-LOCK-02 says that on a development host
+     a guest's hand is the weaver's, unlocking included; locks that bind such a guest are theme
+     4's, the Terminal, the editor and the files together;
+   - 3b's fold-in kept, its notice naming in full each entry it drops (one may be another
+     session's);
+   - rows 86-87's (b) (private) runs in the issue lane by a private prompt once G1's build
+     merges; D1 then asks its gesture question in a shape of its own,
+     `WeaversActRequested{gesture, office}`, answered `WeaversActAnswered{current}`;
+   - D1 one phase, committed step by step, its report counting `LayoutEdit`'s operations and
+     the lines beside the kinds.
+   D1 is prompted once G1 and G2 merge, against that `main`. G2 carries the fence as a check.
 3. Settings stages 4 to 6 wait for that owner.
 4. Every phase's fence: Workshop's weave takes fewer kinds of message after it, counted in its
    report.
 5. One phase, and at most one issue lane beside it (constitution section f). Vision checks every
-   name a prompt gives against `main` before the prompt goes out.
+   name a prompt gives against `main` before the prompt goes out. The lane opened 2026-10-19
+   ([prompt](../prompts/issue-lane-first-three.md)): no Zengine issue was `ready`, so three
+   bounded seams clear of G1 are filed and taken.
 6. The decisions asked in the reports since 2026-10-15 are swept into one list: those the code has
    settled marked, the rest brought to the founder in small batches.
 7. One list of the seams the reports keep deferring, each with one owner and closed in one phase.
    Items 6 and 7 are swept read-only beside G1 ([prompt](../prompts/reports-open-items.md),
    2026-10-19); reported the same day ([report](../reportbacks/reports-open-items-RB.md): 126
-   decisions, 186 seams) and reviewed by Vision.
+   decisions, 186 seams) and reviewed by Vision. G1's open rows (15-17, 20-21) come with G2's
+   prompt, settings' (47, 48, 69-71) with stage 4's. The 28 seams with no owner get two:
+   authority (theme 4) for the three private, the later splits for the rest.
 8. Night Lab's other model drafts top-down material for these phases, never their prompts.
 9. Then the founder's order: the UX batch, then the first complete maker story.
 
