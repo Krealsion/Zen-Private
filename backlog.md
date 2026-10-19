@@ -156,6 +156,11 @@ owner at a time, and decisions before prompts.
    become the defaults (G1); then `surface/`, the Skins and Workshop's row projection go (G2).
    G1 is prompted ([prompt](../prompts/graphics-only-g1-window-pointer.md), 2026-10-19): a census
    of every pointer gesture against both windows and the routing first, then a stop.
+   The founder took its routing (2026-10-19): D1 to D10 as recommended; D11 with Workshop declining
+   `AreaHoldEnded` (G1 adds three kinds taken, one sent), and G2's fence set below Workshop's count
+   at `7cc0ec14` (81 taken, 72 sent), the bare pointer moments among what G2 drops. Built in one
+   pull request ([continuation](../prompts/graphics-only-g1-window-pointer-build.md)); the
+   defaults move after it merges.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
