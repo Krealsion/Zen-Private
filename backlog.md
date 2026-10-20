@@ -211,8 +211,12 @@ owner at a time, and decisions before prompts.
    14 to 51, all classified. The founder took all nine as recommended (2026-10-20), and every
    choice but one: `ZENGINE_SDL_SKIN` goes in stage 7, inverted (the founder): SDL is the
    default and the switch is the terminal-only build's, named for the medium, not a library
-   (`ZENGINE_TUI`; Vision suggests `ZENGINE_TUI_ONLY`); the old spelling refused at configure
-   by name, never kept as a synonym.
+   (`ZENGINE_TUI_ONLY`, taken 2026-10-20); the old spelling refused at configure by name, never
+   kept as a synonym. SDL in the OS window alone (the founder, 2026-10-20): stage 7 also retires
+   `zengine-input-sdl`, whose last queue is the SDL Skin's, and loads `zengine-input` beside both
+   windows; a weaver's plan row naming it is refused by name with the fix. And the launch tries
+   the OS window and falls back to the terminal window, `--tui` choosing the terminal; how a
+   project's own plan, which copies the medium rows, carries that is asked of the founder.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
