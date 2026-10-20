@@ -214,7 +214,15 @@ owner at a time, and decisions before prompts.
    pane holds, a fill, as the quarry's `CustomLayout` had, through a solver that turns them into
    the pixels each object needs. Researched read-only beside G1
    ([prompt](../prompts/layout-modes-research.md)); folded into D1's move where the design
-   allows, not forced.
+   allows, not forced. Reported and reviewed by Vision (2026-10-20,
+   [report](../reportbacks/layout-modes-research-RB.md)): the choices are words in today's
+   `{mode, amount}` and `{mode, x, y}` -- sizes `share`, `fit`, `fill`; places the nine points of
+   the frame -- no shape and no version (WL-SETUP-04), so nothing to fold; one solver, `ui/`
+   grown to the pixel, called in `bounds_of`; the right column divides; Webster's rule after one
+   step each. Follow: L1 (the solver, nothing drawn changing) in the issue lane beside D1 once G2
+   merges, L2 (the words) after D1, L3 (the views) after G1's window-pixels step. The session
+   stands at 64,197 of 65,536 decoded cells, so any per-row field (a minimum, a frame) overflows
+   it. Twelve decisions asked of the founder.
 3. Settings stages 4 to 6 wait for that owner.
 4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
    Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
