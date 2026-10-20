@@ -187,9 +187,11 @@ owner at a time, and decisions before prompts.
    where `SurfaceExtent` and `PaneCanvasRoom` carry `text_advance_px` and `text_line_px` -- and
    #339's mark fix drew that grid honestly rather than fixing the measure (Vision had called it
    the right trade; it was not). `cell_px` is the whole-pixel work's own field and moved the OS
-   window's layout to pixels. Vision's recommendation: merge #339, then one G1 step before G2:
-   the OS window says its font's measure and offers its room in pixels, each owner places text
-   by it, the terminal window's picture derived; and each owner paints its area's ground.
+   window's layout to pixels. #339 merged; the founder took Vision's next G1 step before G2
+   (2026-10-20): the OS window says its face's measure and offers its room in pixels, each
+   owner places text by it, the terminal window keeps the cell, each owner paints its area's
+   ground, and the SDL Skin's real face moves to the OS window if it serves it
+   ([continuation](../prompts/graphics-only-g1-window-pixels.md)).
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
