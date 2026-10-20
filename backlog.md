@@ -1758,8 +1758,11 @@ nothing).
 **Broadened** (the founder, 2026-10-20): Zenscript comes back as a language of Loom messages --
 run under the authority it was given, refused where that fails, ending in an answer either way;
 a pane as UI data whose events reach handlers; helpers for agents, run with parameters; native
-operators as its escape, made when a pattern repeats. Worth a research soon, perhaps as a side
-experiment; #137's fence against a broad shell language is his to lift.
+operators as its escape, made when a pattern repeats. No C++ inside a script for now; `maker/`
+its runtime, a small interpreter filling out a definition's fields from readable text (maker's
+authoring was set aside for a grammar written in C++). A side-experiment research
+([prompt](../prompts/zenscript-research.md)), to start once the layout research reports; it
+lifts #137's fence against a broad shell language.
 
 ### BL-WORK-24 — Agents read the desk by messages
 
