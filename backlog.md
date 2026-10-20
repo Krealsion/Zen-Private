@@ -193,7 +193,11 @@ owner at a time, and decisions before prompts.
    bounded seams clear of G1 are filed and taken (#330 to #332, merged). Next in the lane once
    #333 merges: `workshop_panes` broken up, the longest entry and the sanitizer job's limit,
    researched read-only on #333's branch first
-   ([prompt](../prompts/workshop-panes-split-research.md), 2026-10-19).
+   ([prompt](../prompts/workshop-panes-split-research.md), 2026-10-19). The founder took its
+   eight decisions as recommended: one program run as eight entries by subject, a whole-count
+   check, each part's floor at its count, the COST rows from its own run. S1 is the lane's
+   ([prompt](../prompts/issue-lane-panes-split.md)), started once #333 merges; S2, the kit's
+   part selection, waits.
 6. The decisions asked in the reports since 2026-10-15 are swept into one list: those the code has
    settled marked, the rest brought to the founder in small batches.
 7. One list of the seams the reports keep deferring, each with one owner and closed in one phase.
