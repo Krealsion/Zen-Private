@@ -192,6 +192,14 @@ owner at a time, and decisions before prompts.
    owner places text by it, the terminal window keeps the cell, each owner paints its area's
    ground, and the SDL Skin's real face moves to the OS window if it serves it
    ([continuation](../prompts/graphics-only-g1-window-pixels.md)).
+   Opened as #340, green, reviewed by Vision (2026-10-20)
+   ([report](../reportbacks/graphics-only-g1-window-pixels-RB.md)): `WindowOffered` 3 offers the
+   room in pixels and the face's measure, `AreaRoom` 4 and `PaintTask` 2 carry it, and the face
+   (JetBrains Mono, 8 by 18) is copied to `graphics/window/fonts/`; found live, each pane's frame
+   is an area of Workshop's at the pane's depth, and the OS window grows per axis. Two decisions
+   asked; Vision: take both. For G2: frames named by the one area rule; Workshop's overlay
+   labels placed by the face; a one-picture pane's second drawing, a row a cell, goes with the
+   row projection; `tests/census_headers.hpp:242` still says `PaintTask v1`.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
@@ -248,7 +256,9 @@ owner at a time, and decisions before prompts.
    took 676 s (1,209 before the split; 856 on `main`'s run after it). The cache fix is #336, taken
    as #337: green, each store named by its compiler's bytes, warm builds of 38 to 110 s, one
    across images ([report](../reportbacks/issue-lane-ci-cache-keys-RB.md)); merged before #338
-   (2026-10-20). The lane's next issue is not chosen.
+   (2026-10-20). The lane's next issue is not chosen. A defect found reviewing a perspective is
+   filed by a prompt (2026-10-20): three default keys never arrive from a POSIX terminal, and
+   `posix_gap` does not say so ([prompt](../prompts/posix-ctrl-gap-issue.md)).
 6. The decisions asked in the reports since 2026-10-15 are swept into one list: those the code has
    settled marked, the rest brought to the founder in small batches.
 7. One list of the seams the reports keep deferring, each with one owner and closed in one phase.
