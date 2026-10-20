@@ -158,7 +158,8 @@ owner at a time, and decisions before prompts.
    of every pointer gesture against both windows and the routing first, then a stop.
    The founder took its routing (2026-10-19): D1 to D10 as recommended; D11 with Workshop declining
    `AreaHoldEnded` (G1 adds three kinds taken, one sent), and G2's fence set below Workshop's count
-   at `7cc0ec14` (81 taken, 72 sent), the bare pointer moments among what G2 drops. Built in one
+   at `7cc0ec14` (81 taken, 72 sent; lifted 2026-10-20 with every phase's, item 4), the bare
+   pointer moments among what G2 drops. Built in one
    pull request ([continuation](../prompts/graphics-only-g1-window-pointer-build.md)); the
    defaults move after it merges. Opened as Zengine #333 (Workshop takes 84, sends 73; G2 would
    leave 78 and 70). The founder took the rename to #332's rule (`AreaButtonChanged`,
@@ -203,7 +204,11 @@ owner at a time, and decisions before prompts.
    G2 is prompted ([prompt](../prompts/graphics-only-g2.md), 2026-10-20): a census of every use
    of `surface/`, of the Skins' seam and of the second picture each pane sends Workshop, and its
    routing -- what the agent desk, a guide mark, a frame and the managed opening read once that
-   picture goes -- then a stop for the founder's word.
+   picture goes -- then a stop for the founder's word. Reported and reviewed by Vision
+   (2026-10-20, [report](../reportbacks/graphics-only-g2-RB.md)): seven stages, smallest first;
+   nine decisions asked, two of them private (an agent's hand in a window; a close is the
+   window's). The prompt's seam range (14 to 33) was Vision's misreading: G2's open seams are
+   14 to 51, all classified.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
