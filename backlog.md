@@ -1755,6 +1755,11 @@ nothing).
 ### BL-WORK-23 — Terminal command scripts
 
 **State:** ISSUE — [Zengine#137](https://github.com/Krealsion/Zengine/issues/137) holds it now (filed by deep review, 2026-10-09).
+**Broadened** (the founder, 2026-10-20): Zenscript comes back as a language of Loom messages --
+run under the authority it was given, refused where that fails, ending in an answer either way;
+a pane as UI data whose events reach handlers; helpers for agents, run with parameters; native
+operators as its escape, made when a pattern repeats. Worth a research soon, perhaps as a side
+experiment; #137's fence against a broad shell language is his to lift.
 
 ### BL-WORK-24 — Agents read the desk by messages
 
