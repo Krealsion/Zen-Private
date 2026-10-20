@@ -209,8 +209,10 @@ owner at a time, and decisions before prompts.
    nine decisions asked, two of them private (an agent's hand in a window; a close is the
    window's). The prompt's seam range (14 to 33) was Vision's misreading: G2's open seams are
    14 to 51, all classified. The founder took all nine as recommended (2026-10-20), and every
-   choice but one: `ZENGINE_SDL_SKIN` is renamed in stage 7 (Vision suggests `ZENGINE_SDL`),
-   the old spelling refused at configure by name, never kept as a synonym.
+   choice but one: `ZENGINE_SDL_SKIN` goes in stage 7, inverted (the founder): SDL is the
+   default and the switch is the terminal-only build's, named for the medium, not a library
+   (`ZENGINE_TUI`; Vision suggests `ZENGINE_TUI_ONLY`); the old spelling refused at configure
+   by name, never kept as a synonym.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
