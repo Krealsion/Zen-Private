@@ -222,7 +222,12 @@ owner at a time, and decisions before prompts.
    step each. Follow: L1 (the solver, nothing drawn changing) in the issue lane beside D1 once G2
    merges, L2 (the words) after D1, L3 (the views) after G1's window-pixels step. The session
    stands at 64,197 of 65,536 decoded cells, so any per-row field (a minimum, a frame) overflows
-   it. Twelve decisions asked of the founder.
+   it. Twelve decisions asked of the founder. His notes (2026-10-20), sent back to the research
+   ([continuation](../prompts/layout-modes-research-revised.md)): optional `x`, `y` and `amount`
+   (Loom's optional fields), not zeros; `right-column` removed, its uses moved to the other
+   words; a `fill` drags as a fill, its weight alone changing; `center`; and the cell limit a
+   priority -- the session decoded a layout at a time in D1's v9, never Loom's limit raised.
+   Fold or follow answered again, now that a format version is needed.
 3. Settings stages 4 to 6 wait for that owner.
 4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
    Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
