@@ -168,6 +168,13 @@ owner at a time, and decisions before prompts.
    with the Skin path. The defaults move next, with D11 reversed: Workshop takes `AreaHoldEnded`
    and `AreaPointerLeft`, which the window now tells it, and its own copy of the cover rule goes
    ([continuation](../prompts/graphics-only-g1-defaults.md), 2026-10-19).
+   Opened as #338, green: Workshop takes 86 kinds and sends 73
+   ([report](../reportbacks/graphics-only-g1-defaults-RB.md), 2026-10-20). Its live witness
+   found six window defects already on `main` that the switch makes the default. Vision's
+   recommendation: merge it, then one G1 continuation for defects 1-4 and 6 (a re-shown area by
+   the window's word, `AreaRoom` v3) with the two `SurfaceText` demo setups kept on the Skin's
+   plan; the status line and the Terminal's `SurfaceText` verb retire with the Skin in G2. The
+   founder's calls are asked.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
@@ -202,7 +209,11 @@ owner at a time, and decisions before prompts.
    ([prompt](../prompts/issue-lane-panes-split.md)), taken as #335; S2, the kit's part
    selection, waits. Next in the lane after #335: CI's compiler caches kept across runner images,
    the cold Linux builds of a rollout ([prompt](../prompts/issue-lane-ci-cache-keys.md),
-   2026-10-19).
+   2026-10-19). #335 merged (2026-10-20): with its measured COST rows the sanitizer job's verify
+   took 676 s (1,209 before the split; 856 on `main`'s run after it). The cache fix is #336, taken
+   as #337: green, each store named by its compiler's bytes, warm builds of 38 to 110 s, one
+   across images ([report](../reportbacks/issue-lane-ci-cache-keys-RB.md)). Vision recommends
+   merging it before #338. The lane's next issue is not chosen.
 6. The decisions asked in the reports since 2026-10-15 are swept into one list: those the code has
    settled marked, the rest brought to the founder in small batches.
 7. One list of the seams the reports keep deferring, each with one owner and closed in one phase.
