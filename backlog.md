@@ -210,6 +210,11 @@ owner at a time, and decisions before prompts.
    - D1 one phase, committed step by step, its report counting `LayoutEdit`'s operations and
      the lines beside the kinds.
    D1 is prompted once G1 and G2 merge, against that `main`.
+   Layout choices beyond pixels (the founder, 2026-10-20): a share of the parent, a fit to what a
+   pane holds, a fill, as the quarry's `CustomLayout` had, through a solver that turns them into
+   the pixels each object needs. Researched read-only beside G1
+   ([prompt](../prompts/layout-modes-research.md)); folded into D1's move where the design
+   allows, not forced.
 3. Settings stages 4 to 6 wait for that owner.
 4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
    Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
