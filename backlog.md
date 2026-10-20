@@ -199,7 +199,11 @@ owner at a time, and decisions before prompts.
    is an area of Workshop's at the pane's depth, and the OS window grows per axis. Two decisions
    asked; Vision: take both. For G2: frames named by the one area rule; Workshop's overlay
    labels placed by the face; a one-picture pane's second drawing, a row a cell, goes with the
-   row projection; `tests/census_headers.hpp:242` still says `PaintTask v1`.
+   row projection; `tests/census_headers.hpp:242` still says `PaintTask v1`. Merged (2026-10-20).
+   G2 is prompted ([prompt](../prompts/graphics-only-g2.md), 2026-10-20): a census of every use
+   of `surface/`, of the Skins' seam and of the second picture each pane sends Workshop, and its
+   routing -- what the agent desk, a guide mark, a frame and the managed opening read once that
+   picture goes -- then a stop for the founder's word.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
