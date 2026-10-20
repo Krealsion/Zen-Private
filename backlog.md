@@ -215,8 +215,11 @@ owner at a time, and decisions before prompts.
    kept as a synonym. SDL in the OS window alone (the founder, 2026-10-20): stage 7 also retires
    `zengine-input-sdl`, whose last queue is the SDL Skin's, and loads `zengine-input` beside both
    windows; a weaver's plan row naming it is refused by name with the fix. And the launch tries
-   the OS window and falls back to the terminal window, `--tui` choosing the terminal; how a
-   project's own plan, which copies the medium rows, carries that is asked of the founder.
+   the OS window and falls back to the terminal window, `--tui` choosing the terminal. A project's
+   own plan copies the medium rows, so the founder took the window as a choice in the plan (OS
+   window, else terminal), carried by the shipped default: G2's stage 8, after stage 7, a load
+   plan format version. Stage 1 is prompted
+   ([continuation](../prompts/graphics-only-g2-s1-stray-ends.md), 2026-10-20).
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
