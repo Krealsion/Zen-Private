@@ -160,7 +160,12 @@ owner at a time, and decisions before prompts.
    `AreaHoldEnded` (G1 adds three kinds taken, one sent), and G2's fence set below Workshop's count
    at `7cc0ec14` (81 taken, 72 sent), the bare pointer moments among what G2 drops. Built in one
    pull request ([continuation](../prompts/graphics-only-g1-window-pointer-build.md)); the
-   defaults move after it merges.
+   defaults move after it merges. Opened as Zengine #333 (Workshop takes 84, sends 73; G2 would
+   leave 78 and 70). The founder took the rename to #332's rule (`AreaButtonChanged`,
+   `AreaPointerMoved`, `AreaWheelTurned`) and three loose changes into one push, before merge
+   ([continuation](../prompts/graphics-only-g1-window-pointer-build-names.md), 2026-10-19).
+   For G2: Workshop's `window_moment_` flag, which keeps its old relays off placed panes, goes
+   with the Skin path.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
@@ -185,7 +190,10 @@ owner at a time, and decisions before prompts.
 5. One phase, and at most one issue lane beside it (constitution section f). Vision checks every
    name a prompt gives against `main` before the prompt goes out. The lane opened 2026-10-19
    ([prompt](../prompts/issue-lane-first-three.md)): no Zengine issue was `ready`, so three
-   bounded seams clear of G1 are filed and taken.
+   bounded seams clear of G1 are filed and taken (#330 to #332, merged). Next in the lane once
+   #333 merges: `workshop_panes` broken up, the longest entry and the sanitizer job's limit,
+   researched read-only on #333's branch first
+   ([prompt](../prompts/workshop-panes-split-research.md), 2026-10-19).
 6. The decisions asked in the reports since 2026-10-15 are swept into one list: those the code has
    settled marked, the rest brought to the founder in small batches.
 7. One list of the seams the reports keep deferring, each with one owner and closed in one phase.
