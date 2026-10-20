@@ -1123,10 +1123,21 @@ definitions carry absolute paths) and #200 (the load suite's reload copies), rea
 both as recommended (2026-10-12): a phase's second copy cloned on Windows under the kit's root,
 beside its trees, the primary and his checkouts unmoved, and the slot's quiet window at 10 s, landed
 once nothing reads the kit, with a comment on #200
-([prompt](../prompts/executor-kit-speed-copies.md)).  
-**Owed:** Every pull request waits on its hosted run since the local proof became the change's own
-cases (constitution section c), so CI's length is the wait; the Windows trees on C: were 2 to 17
-times faster than on G: in the C: test.
+([prompt](../prompts/executor-kit-speed-copies.md)). The kit still taught the delivery from
+before 2026-10-10 (`pass-tools/executor-kit/README.md:97-111`), so phases ran the full lanes before
+the push: #340's local runs took 227 minutes, 64 of them in 19 loops of 62 entries each, each loop
+measuring all the branch had changed (Vision, 2026-10-20). The founder's direction (2026-10-20): the
+change's own suite while working; the local proof and the diff read before the push; the official
+lane, the mutation matrices, the witnesses and any lane rule 6 asks for after it, while the hosted
+run runs; the witness's Windows tree without the suites; prompted for once G2 stage 1's session
+ends ([prompt](../prompts/kit-standard-delivery.md)). Vision set aside an issue to shorten
+`neovim_journey`, every full lane's floor at 212 s: run beside the hosted run, the lane holds no
+one up.  
+**Owed:** the kit taught as section c says, reordered (prompted). Every pull request waits on its
+hosted run since the local proof became the change's own cases (constitution section c), so CI's
+length is the wait: #340's ran 52 minutes, its builds 18 to 35 minutes a job against 1 to 2 on a
+run whose cache hit, and its ASan job took 51:52 of a 60-minute limit; the Windows trees on C: were
+2 to 17 times faster than on G: in the C: test.
 
 **Source:** the founder (2026-10-10).
 
