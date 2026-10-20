@@ -199,8 +199,10 @@ owner at a time, and decisions before prompts.
    ([prompt](../prompts/workshop-panes-split-research.md), 2026-10-19). The founder took its
    eight decisions as recommended: one program run as eight entries by subject, a whole-count
    check, each part's floor at its count, the COST rows from its own run. S1 is the lane's
-   ([prompt](../prompts/issue-lane-panes-split.md)), started once #333 merges; S2, the kit's
-   part selection, waits.
+   ([prompt](../prompts/issue-lane-panes-split.md)), taken as #335; S2, the kit's part
+   selection, waits. Next in the lane after #335: CI's compiler caches kept across runner images,
+   the cold Linux builds of a rollout ([prompt](../prompts/issue-lane-ci-cache-keys.md),
+   2026-10-19).
 6. The decisions asked in the reports since 2026-10-15 are swept into one list: those the code has
    settled marked, the rest brought to the founder in small batches.
 7. One list of the seams the reports keep deferring, each with one owner and closed in one phase.
