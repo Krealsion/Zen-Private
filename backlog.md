@@ -175,7 +175,14 @@ owner at a time, and decisions before prompts.
    window's word (`AreaRoom`, a new version), the two `SurfaceText` setups kept on the Skin's
    plan ([continuation](../prompts/graphics-only-g1-window-defects.md)); the status line and the
    Terminal's `SurfaceText` verb retire with the Skin in G2, which proposes the Terminal's
-   ordinary verb.
+   ordinary verb. Opened as #339, green, reviewed by Vision (2026-10-20)
+   ([report](../reportbacks/graphics-only-g1-window-defects-RB.md)): `AreaRoom` 3 says `empty`,
+   `WindowOffered` 2 says `cell_px` (the OS window's unit is the pixel), text a cell a character
+   in light; the setups on the Skin's plan are `presets` and `editor-materials` (the prompt's
+   `commands` was wrong). For G2, Vision's recommendations: each owner paints its area's ground
+   (`rows_drawing` fills its room), not a window per area; and Workshop's list of the offices that
+   seat each pane in an area of its own (`pane_window_area`) goes, an area named by one rule or
+   by its office. The OS window's text stands spaced until a real face.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
