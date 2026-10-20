@@ -165,7 +165,9 @@ owner at a time, and decisions before prompts.
    `AreaPointerMoved`, `AreaWheelTurned`) and three loose changes into one push, before merge
    ([continuation](../prompts/graphics-only-g1-window-pointer-build-names.md), 2026-10-19).
    For G2: Workshop's `window_moment_` flag, which keeps its old relays off placed panes, goes
-   with the Skin path.
+   with the Skin path. The defaults move next, with D11 reversed: Workshop takes `AreaHoldEnded`
+   and `AreaPointerLeft`, which the window now tells it, and its own copy of the cover rule goes
+   ([continuation](../prompts/graphics-only-g1-defaults.md), 2026-10-19).
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
@@ -183,10 +185,11 @@ owner at a time, and decisions before prompts.
      `WeaversActRequested{gesture, office}`, answered `WeaversActAnswered{current}`;
    - D1 one phase, committed step by step, its report counting `LayoutEdit`'s operations and
      the lines beside the kinds.
-   D1 is prompted once G1 and G2 merge, against that `main`. G2 carries the fence as a check.
+   D1 is prompted once G1 and G2 merge, against that `main`.
 3. Settings stages 4 to 6 wait for that owner.
-4. Every phase's fence: Workshop's weave takes fewer kinds of message after it, counted in its
-   report.
+4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
+   Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
+   counts above are a record, not a gate.
 5. One phase, and at most one issue lane beside it (constitution section f). Vision checks every
    name a prompt gives against `main` before the prompt goes out. The lane opened 2026-10-19
    ([prompt](../prompts/issue-lane-first-three.md)): no Zengine issue was `ready`, so three
