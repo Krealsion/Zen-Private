@@ -219,7 +219,11 @@ owner at a time, and decisions before prompts.
    own plan copies the medium rows, so the founder took the window as a choice in the plan (OS
    window, else terminal), carried by the shipped default: G2's stage 8, after stage 7, a load
    plan format version. Stage 1 is prompted
-   ([continuation](../prompts/graphics-only-g2-s1-stray-ends.md), 2026-10-20).
+   ([continuation](../prompts/graphics-only-g2-s1-stray-ends.md), 2026-10-20) and is Zengine #342
+   (`572771bb`), reviewed (Vision, 2026-10-20, 7 of 8 checks): its run's 8 jobs green, ready to
+   merge; the presets story through Info 2 recommended to stand, its authority refusal held by
+   `tests/test_workshop_inventory_info.cpp`. With stage 2: the session's held rewrap `0b9d7485`,
+   #342's run table, and the new case checking that no rule of the Terminal's names `Drawn`.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
@@ -1132,12 +1136,15 @@ lane, the mutation matrices, the witnesses and any lane rule 6 asks for after it
 run runs; the witness's Windows tree without the suites; prompted for once G2 stage 1's session
 ends ([prompt](../prompts/kit-standard-delivery.md)). Vision set aside an issue to shorten
 `neovim_journey`, every full lane's floor at 212 s: run beside the hosted run, the lane holds no
-one up.  
-**Owed:** the kit taught as section c says, reordered (prompted). Every pull request waits on its
-hosted run since the local proof became the change's own cases (constitution section c), so CI's
-length is the wait: #340's ran 52 minutes, its builds 18 to 35 minutes a job against 1 to 2 on a
-run whose cache hit, and its ASan job took 51:52 of a 60-minute limit; the Windows trees on C: were
-2 to 17 times faster than on G: in the C: test.
+one up. The phase landed as Zen `a4c3df04`
+([report](../reportbacks/kit-standard-delivery-RB.md)), reviewed and accepted (Vision, 2026-10-20,
+6 of 7 checks, one in part): a test-only loop 68 to 77 s against #340's 246 to 252, the change's
+own suite after a product edit 12.6 s, the SDL tree's first build 130 s against 468; `affected`'s
+rules kept, since the journeys are reached through Workshop's own program, not the blanket rule.  
+**Owed:** Every pull request waits on its hosted run since the local proof became the change's own
+cases (constitution section c), so CI's length is the wait: #340's ran 52 minutes, its builds 18
+to 35 minutes a job against 1 to 2 on a run whose cache hit, and its ASan job took 51:52 of a
+60-minute limit; the Windows trees on C: were 2 to 17 times faster than on G: in the C: test.
 
 **Source:** the founder (2026-10-10).
 
