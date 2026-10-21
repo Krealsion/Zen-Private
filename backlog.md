@@ -1153,7 +1153,15 @@ anything more is cached for it ([prompt](../prompts/lighter-builds.md)); splitti
 Skins and the seam that header carries. Then the founder's call (2026-10-21), measuring stopped:
 CI's GCC jobs and the kit's GCC trees without debug information (`-g0`), the sanitizer builds with
 line tables (`-g1`), a weaver's Debug build untouched
-([continuation](../prompts/lighter-builds-g0.md)).  
+([continuation](../prompts/lighter-builds-g0.md)). Reported
+([report](../reportbacks/lighter-builds-g0-RB.md)) and reviewed (Vision, 2026-10-21, 6 of 8
+checks): Zengine #343 green in every job at `2b3cbf38`, ready to merge, `main`'s first run after it
+cold in the GCC jobs; the kit's trees at `-g0`, the sanitizer's at `-g1`, `KIT_DEBUG=g` for a
+debugger (Zen `9044b88e`). Measured on one runner per job, `-g1` against `-g` builds 7 to 12 %
+faster with 16 to 33 % fewer object bytes; `-g0` unmeasured on the runners. The facet merge is not
+where the time is (0.14 s counted once), so no pull request. SDL is about 2 % of a cold Linux job
+and 5 % of a warm one: nothing cached. The MinGW-w64 assembler, about 40 s of a heavy object's
+71 s, is sections and symbols, four for each of some 24,000 functions, not debug information.  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait: #340's ran 52 minutes, its builds 18
 to 35 minutes a job against 1 to 2 on a run whose cache hit, and its ASan job took 51:52 of a
