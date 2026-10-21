@@ -1140,7 +1140,14 @@ one up. The phase landed as Zen `a4c3df04`
 ([report](../reportbacks/kit-standard-delivery-RB.md)), reviewed and accepted (Vision, 2026-10-20,
 6 of 7 checks, one in part): a test-only loop 68 to 77 s against #340's 246 to 252, the change's
 own suite after a product edit 12.6 s, the SDL tree's first build 130 s against 468; `affected`'s
-rules kept, since the journeys are reached through Workshop's own program, not the blanket rule.  
+rules kept, since the journeys are reached through Workshop's own program, not the blanket rule.
+What a build weighs, measured (Vision, 2026-10-20,
+[handoff](handoffs/dll-size-and-compile-time.md)): 90 % of a weave DLL is debug information and
+names, 74 % of the compile time is test objects. The founder's order (2026-10-20): the cheap cuts
+before G2's stage 2 -- line tables on CI's GCC jobs, a cheaper facet merge, SDL measured before
+anything more is cached for it ([prompt](../prompts/lighter-builds.md)); splitting
+`tests/workshop_support.hpp`, the largest lever, after G2, which rewrites the rigs and deletes the
+Skins and the seam that header carries.  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait: #340's ran 52 minutes, its builds 18
 to 35 minutes a job against 1 to 2 on a run whose cache hit, and its ASan job took 51:52 of a
