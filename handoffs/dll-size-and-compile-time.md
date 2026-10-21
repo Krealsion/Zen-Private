@@ -43,11 +43,14 @@ split would speed up. Nothing was changed.
 - Inside the panes suite's builder object (alone: GCC 59 s, clang 48 s): parsing 24 %, template
   instantiation 30 %, code generation 44 % (GCC's phases). Of clang's 17.7 s of parsing, 16.5 s
   comes through `tests/workshop_support.hpp`; Zengine's own headers are 14.3 s of it.
-- The costliest templates there (clang, inclusive, so a nested one counts inside its caller too):
-  the facet lists' merge, `zengine::detail::MergeLists` (`activation/activation.hpp:103-125`),
-  21.8 s over 263 instances; Loom's `WeaveBase<...>`, 9.0 s over 382; the shape schemas,
-  `schema_of` and `build_schema`, about 5 s each over 438 shapes; and under them the `std::tuple`
-  machinery a shape's fields are declared in (`std::make_tuple`, Loom `zen/weave/shape.hpp:398`).
+- Templates there by clang's summed time, which counts a template again at every level it nests
+  in itself: the facet lists' merge, `zengine::detail::MergeLists`
+  (`activation/activation.hpp:103-125`), summed 21.8 s over 263 instances, but costs 0.14 s counted
+  once (corrected by the lighter-builds phase, 2026-10-21): not where the time is. The time is code
+  generation, parsing what `tests/workshop_support.hpp` includes, Loom's shape templates and the
+  `std::tuple` machinery a shape's fields are declared in (`std::make_tuple`, Loom
+  `zen/weave/shape.hpp:398`), and on MinGW-w64 the GNU assembler: about 40 s of that object's 71 s,
+  on about 97,000 sections, four for each function, the debug level barely moving it.
 - Debug information in that object: `-g1` 12 % faster and 31 % smaller than `-g`; `-g0` 16 % faster
   and 57 % smaller.
 
@@ -58,7 +61,7 @@ split would speed up. Nothing was changed.
   heavy objects each read most of Zengine's headers and instantiate the same facets and shapes, so
   every pane, shape or facet added grows all of them at once.
 - The pieces tied together: `tests/workshop_support.hpp` (the rigs, in one header), Workshop's
-  `weave.hpp` and `screen.hpp`, the facet merge, and the shape schemas every object rebuilds.
+  `weave.hpp` and `screen.hpp`, and the shape schemas and functions every object rebuilds.
 
 ## Not measured
 
