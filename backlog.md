@@ -1150,7 +1150,10 @@ names, 74 % of the compile time is test objects. The founder's order (2026-10-20
 before G2's stage 2 -- line tables on CI's GCC jobs, a cheaper facet merge, SDL measured before
 anything more is cached for it ([prompt](../prompts/lighter-builds.md)); splitting
 `tests/workshop_support.hpp`, the largest lever, after G2, which rewrites the rigs and deletes the
-Skins and the seam that header carries.  
+Skins and the seam that header carries. Then the founder's call (2026-10-21), measuring stopped:
+CI's GCC jobs and the kit's GCC trees without debug information (`-g0`), the sanitizer builds with
+line tables (`-g1`), a weaver's Debug build untouched
+([continuation](../prompts/lighter-builds-g0.md)).  
 **Owed:** Every pull request waits on its hosted run since the local proof became the change's own
 cases (constitution section c), so CI's length is the wait: #340's ran 52 minutes, its builds 18
 to 35 minutes a job against 1 to 2 on a run whose cache hit, and its ASan job took 51:52 of a
