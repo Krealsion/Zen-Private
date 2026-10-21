@@ -118,6 +118,8 @@
   client exits, so a long harness needs a detached `wsl.exe` client. The Bash tool has no
   `python3`: a `python3 - <<EOF` heredoc falls through to `python` and opens a REPL that never
   exits, so a script is written to a file and run, in WSL; its `grep -P` is not UTF-8 clean.
+  A heredoc's backslashes do not survive it either (`\\` became `\` three times in G2's stage 2,
+  2026-10-20): a patch script holding one is written with the file tool.
   `bc` is not in Git Bash — timing arithmetic uses `$(( ))` over `date +%s%N`.
   `wsl.exe bash -lc '…'` expands `$?` and `$(…)` before the inner bash runs, so an exit captured
   in a chained command there is a launch-time value (2026-09-27): put the chain in a script.
