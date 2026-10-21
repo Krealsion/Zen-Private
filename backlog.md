@@ -224,6 +224,9 @@ owner at a time, and decisions before prompts.
    merge; the presets story through Info 2 recommended to stand, its authority refusal held by
    `tests/test_workshop_inventory_info.cpp`. With stage 2: the session's held rewrap `0b9d7485`,
    #342's run table, and the new case checking that no rule of the Terminal's names `Drawn`.
+   #342 merged (`15afcb4e`). Stage 2, the shares to their owners, prompted
+   ([continuation](../prompts/graphics-only-g2-s2-shares.md), 2026-10-20), its push after the
+   build's cheap cuts merge.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
