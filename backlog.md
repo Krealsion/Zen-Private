@@ -182,9 +182,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   its console on Loom's store, the app's own weave, a view that hears its window, the probe
   `examples/tally-app/`; it meets G2's stage 4 in `view/view.hpp`. A1 is Zengine #347
   (`a952914e`, fixes #346, [report](../reportbacks/issue-lane-app-host-RB.md)), reviewed by
-  Vision (2026-10-22, 12 of 12 checks): its run's 8 jobs green, ready to merge. A view takes its
-  window's keys and text, not its pointer, so a field is focused by Tab, not a click: a small
-  issue once stage 4's pointer shapes land. Loom, after the alpha: an installed `AuthorityDesk`
+  Vision (2026-10-22, 12 of 12 checks): its run's 8 jobs green; merged (`4dbffd3a`). A view takes
+  its window's keys and text, not its pointer, so a field is focused by Tab, not a click: the
+  founder wants it clicked into too (2026-10-22), a small issue once stage 4's pointer shapes
+  land. Overnight the lane takes A2, A4, then A3 on A2's branch
+  ([continuation](../prompts/issue-lane-app-export-and-start.md), 2026-10-22). Loom, after the alpha: an installed `AuthorityDesk`
   seat (a second host now writes one) and `authority trust`'s reply naming a host's baseline.
   For the package: the SDK install carries no OS window, so the release must ship SDL's window
   for this story; an app in the terminal window is unwitnessed. For A3: the build runner's
