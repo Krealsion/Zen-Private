@@ -149,6 +149,24 @@ architecture. No timeline: a day or two for the manuals, he says, with minor wor
 notes are kept by item, not as a file: their themes in section 1b, their UX items as issue drafts in
 [ux-batch.md](ux-batch.md).
 
+**The alpha release** (the founder, 2026-10-21): a soft release at the end of the week. In order:
+- the package on GitHub, one version held at a time: a nightly job packages when `main` has moved
+  and tags the next `v0.1.N`, `v0.1.0` first, the version read from the tag rather than written in
+  code (BL-ADOPT-06's stages cut to that);
+- code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
+  branch, the issue lane beside it, and G2 no gate for the rest;
+- the full story, satisfying within the first five minutes: a view made, its inputs wired, its
+  logic authored in Flow, its outputs wired back, the view detached into a window of its own,
+  Workshop closed and the view still running, Workshop opened and connected to the authored host's
+  window (merging it back as a pane a bonus); a first-run screen (control scheme, a Vim checkbox, a
+  way to the setups). Vision's proposal: walk it on `main` first, read-only;
+- the snake demo finalized; a way to the demos in place of a runner pane: Files at the demos, a
+  right-click to run one (its shape open, 2026-10-21);
+- the README's new preface, the founder's.
+
+Cut from it: the C++ installer suite, theme presets, plain-language passes beyond what the story
+touches, and fast forward's S2 and S4 to S6.
+
 **The direction** (the founder, 2026-10-19, on Vision's state report): subtract before adding, one
 owner at a time, and decisions before prompts.
 
