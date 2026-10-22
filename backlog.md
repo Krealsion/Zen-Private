@@ -188,7 +188,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   land. Overnight the lane takes A2, A4, then A3 on A2's branch
   ([continuation](../prompts/issue-lane-app-export-and-start.md), 2026-10-22). Loom, after the
   alpha: an installed `AuthorityDesk` seat (a second host now writes one) and `authority trust`'s
-  reply naming a host's baseline.
+  reply naming a host's baseline. Reviewed by Vision (2026-10-22): #350 (A2) ready; #353 (A4)
+  rebases over stage 4, ten graphics files shared; #354 (A3) needs a POSIX start that closes
+  Workshop's descriptors (the guest door's socket would outlive Workshop in the app) and the truth
+  that a POSIX start has no console (a first start decided from `run.sh`), then its rebase onto
+  `main`. Loom, later: the bridge's sockets close on exec. Asked in A2: the plan for a flow with
+  another provider's operators; the export and the start in the alpha's package.
   For the package: the SDK install carries no OS window, so the release must ship SDL's window
   for this story; an app in the terminal window is unwitnessed. For A3: the build runner's
   sentences count two process starters, which the launcher makes three. Zengine's
@@ -315,7 +320,14 @@ owner at a time, and decisions before prompts.
    first defect (stage 4). Stage 4, the agent desk and the agent's hand in the window, prompted
    ([continuation](../prompts/graphics-only-g2-s4-desk-and-hand.md), 2026-10-22), chained on
    #345's branch, with #345's ends: the typed send's text checked again, that default, the dirty
-   cells' cost.
+   cells' cost. Stage 4 is Zengine #351 (`6d62b007`,
+   [report](../reportbacks/graphics-only-g2-s4-desk-and-hand-RB.md)), reviewed by Vision
+   (2026-10-22, the morning's four PRs, 23 of 23 checks): its run green, ASan 58:59 of 60 on a
+   cold compile; #345's ends all taken; its body's "G2's fourth stage" taken out at the merge.
+   Not as routed: an agent's press still moves the keys and the selection (BL-WORK-38's rule, for
+   a weaver's host, waits for the agent desk); a wheel over a pane is swallowed while a value is
+   carried (stage 6). CI's ASan job is at its 60 minutes whenever a widely included header
+   changes: the founder's call.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
