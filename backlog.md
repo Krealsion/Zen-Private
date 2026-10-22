@@ -185,6 +185,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   rebase. W1's list draws its right edge just outside the graph's room near the pane's edge (a
   nit). `neovim_journey` failed the sanitizer job's first attempt on #358 and #362 and passed on
   the rerun: a flake that costs a rerun each time.
+  All four merged (`2878bd1d`, 2026-10-22). #368 (P1, `f645c9f9`) reviewed by Vision (14 of 14
+  checks): the door takes the palette's office alone, under the palette's own row's number,
+  spent once, run as that hand down the path its key or press takes; Neovim alone keeps
+  `ctrl+space`; ready, its body's "T1" out first. The Windows console's space typed with
+  Ctrl+Space is swallowed by `expected_text_of`, but no case types it (the surviving mutant): a
+  case for P2's pull request. `neovim_journey` failed `main`'s run after #353 too, the third time.
   Its "if the founder cuts them" read Vision's word "cut" below as dropped: G2 stays whole. The
   other researches Vision weighed, for the founder to choose among: the release package refreshed
   (once G2 reaches stage 7); G2's stages 6 and 7 split across both lanes; where the suites' time
