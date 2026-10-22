@@ -157,11 +157,18 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
   story as a checklist, a command palette, a wire let go on empty space
-  ([prompt](../prompts/first-five-minutes-research.md), 2026-10-22). The other researches Vision
-  weighed, for the founder to choose among: the release package refreshed (once G2 reaches stage
-  7); G2's stages 6 and 7 cut for both lanes; where the suites' time goes (ASan back at 60);
-  Zenscript; the snake demo finalized. Step 7 (C1, L2, C2) and Loom's three small follow-ups
-  need prompts, not research;
+  ([prompt](../prompts/first-five-minutes-research.md), 2026-10-22). Reported
+  ([report](../reportbacks/first-five-minutes-research-RB.md)) and reviewed by Vision
+  (2026-10-22, 6 of 6 checks): `zengine-palette` and `zengine-first-run`, each drawing in an area of
+  its own; Workshop's one new door, `PaletteRunRequested`, running an entry by its key's path for
+  the hand that chose it; Flow's wire let go asking `takes`; ten stages, W1, P1, P2, F0, F1, V1,
+  L1, P3, F2, T1. Two decisions for the founder: Shift+Space's precedence (Vision: never while a
+  pane holds the keys, with double Shift soon after), and what a control scheme is for the alpha.
+  Its "if the founder cuts them" read Vision's word "cut" below as dropped: G2 stays whole. The
+  other researches Vision weighed, for the founder to choose among: the release package refreshed
+  (once G2 reaches stage 7); G2's stages 6 and 7 split across both lanes; where the suites' time
+  goes (ASan back at 60); Zenscript; the snake demo finalized. Step 7 (C1, L2, C2) and Loom's three
+  small follow-ups need prompts, not research;
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
