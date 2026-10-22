@@ -160,7 +160,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
   window (merging it back as a pane a bonus); a first-run screen (control scheme, a Vim checkbox, a
   way to the setups). Walked on `main` by Vision ([handoff](handoffs/alpha-story-walk.md),
-  2026-10-21): steps 1 to 4 work today; the view in a window of its own is what is missing;
+  2026-10-21): steps 1 to 4 work today; the view in a window of its own is what is missing.
+  The export, its window and the way back researched beside G2, building nothing
+  ([prompt](../prompts/app-export-research.md), 2026-10-21);
 - the snake demo finalized; a way to the demos in place of a runner pane: Files at the demos, a
   right-click to run one (its shape open, 2026-10-21);
 - the README's new preface, the founder's.
