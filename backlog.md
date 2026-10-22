@@ -167,7 +167,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   checks): the app opened by a small Zengine host of its own, `zengine-app`, after Loom installs
   its consent half (L1); a view that hears its own window; steps 5 and 6 are L1, A1 and A2, about
   four days of a lane; step 7 (C1, L2, C2) after the release; the take-back an authored
-  hand-over, no Loom change for a view or a flow;
+  hand-over, no Loom change for a view or a flow. The founder took the 14 decisions as
+  recommended (2026-10-21): the app host owns the host's setup and its cycle, game-engine
+  states for that cycle much later; a closed second window puts its layout back on the shelf,
+  a way to restore the window later. L1 is the issue lane's
+  ([prompt](../prompts/issue-lane-loom-consent.md)); the package waits until G2 is done. For
+  A1: Zengine's two claims of one process starter (`builder/run.hpp`, the build runner's
+  manual) are stale since the Neovim editor's child (the research's doc gaps 2 and 3);
 - the snake demo finalized; a way to the demos in place of a runner pane: Files at the demos, a
   right-click to run one (its shape open, 2026-10-21);
 - the README's new preface, the founder's.
