@@ -172,6 +172,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   release (P2) and the editor remembered (F0). His idea: a small launcher, Loom or not, that
   opens the right Loom environment before Workshop -- for the package's research, not L1, which
   is A3's in-Workshop launcher answering what it can start.
+  Its stages are the issue lane's, beside G2's stage 6
+  ([continuation](../prompts/issue-lane-first-five-minutes.md), 2026-10-22), each an issue and a
+  pull request, a report section each as its run turns green: W1; T1, a POSIX terminal's byte 0
+  read as Ctrl+Space (no row binds it today; #341's unsaid gap); P1, its door `CommandRunRequested`
+  from the palette's office alone, on `ctrl+space`; P2 on P1's branch; the band in full; F0; F1
+  on F0's branch, with no scheme block. Not this round: L1, P3, V1, F2.
   Its "if the founder cuts them" read Vision's word "cut" below as dropped: G2 stays whole. The
   other researches Vision weighed, for the founder to choose among: the release package refreshed
   (once G2 reaches stage 7); G2's stages 6 and 7 split across both lanes; where the suites' time
@@ -226,6 +232,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   the app's pages): #359 and #354 first, then #353 and #358 rebased in turn, #353's body losing
   "stage 4's". The build runner's child inherits the bridge's sockets too (private, with Loom's
   close-on-exec).
+  #359 and #354 merged (`7d424790`, 2026-10-22). There #353 and #358 each conflict only in the
+  population, and with each other in the app's pages: #353 rebased and #358 rebased onto its
+  branch, chained one level, the lane's next continuation.
   For the package: the SDK install carries no OS window, so the release must ship SDL's window
   for this story; an app in the terminal window is unwitnessed. For A3: the build runner's
   sentences count two process starters, which the launcher makes three. Zengine's
@@ -372,6 +381,11 @@ owner at a time, and decisions before prompts.
    Vision (2026-10-22): its run green, ASan 39:38; MenuShown 3 names the presenter's area and
    carries no lines; seams row 18 closed; no window, no pane menu until stage 7. Its seam: no shape
    says which drawing a press hit.
+   #359 merged (`60eb5497`, a merge commit, its body clean). Stage 6, no second picture, prompted
+   ([continuation](../prompts/graphics-only-g2-s6-no-second-picture.md), 2026-10-22), with the
+   wheel swallowed during a carry, stage 3's waiting pane and two windows, the press seam hooked
+   unless a case shows it, D12 (in no stage's row: here or stage 7) and the suites' time; one
+   pull request, or two chained where the managed opening and the install stand apart.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
