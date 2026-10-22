@@ -162,8 +162,16 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   (2026-10-22, 6 of 6 checks): `zengine-palette` and `zengine-first-run`, each drawing in an area of
   its own; Workshop's one new door, `PaletteRunRequested`, running an entry by its key's path for
   the hand that chose it; Flow's wire let go asking `takes`; ten stages, W1, P1, P2, F0, F1, V1,
-  L1, P3, F2, T1. Two decisions for the founder: Shift+Space's precedence (Vision: never while a
-  pane holds the keys, with double Shift soon after), and what a control scheme is for the alpha.
+  L1, P3, F2, T1. The founder (2026-10-22): the palette grows toward JetBrains' search -- files,
+  message formats and the rest, each choice acted on or opened in the window that performs it --
+  this design a fine start; its shapes named for the command, never the palette
+  (`CommandRunRequested`, `OpenFileRequested`, more kinds later), so any presenter may send them;
+  no Shift+Space: double Shift in the OS window and Ctrl+Space where a terminal can say it (T1 for
+  POSIX), the same action; one written form, `ctrl+p`, the band's default, the quick setup asking
+  no scheme; a helper spelling keys for a global setting after the full story. Kept: Shift's
+  release (P2) and the editor remembered (F0). His idea: a small launcher, Loom or not, that
+  opens the right Loom environment before Workshop -- for the package's research, not L1, which
+  is A3's in-Workshop launcher answering what it can start.
   Its "if the founder cuts them" read Vision's word "cut" below as dropped: G2 stays whole. The
   other researches Vision weighed, for the founder to choose among: the release package refreshed
   (once G2 reaches stage 7); G2's stages 6 and 7 split across both lanes; where the suites' time
