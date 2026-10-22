@@ -49,8 +49,10 @@ terminal's.
   this definition is not generated as C++ and runs interpreted", `flow/docs/zengine.flow.md`), and
   the tally flow folds.
 
-**Starting it.** Zengine starts an operating-system process in one place, the Builder's runner,
-and it runs only the host's CMake (`builder/run.hpp`, `builder/runner.hpp`). The demos entry needs
+**Starting it.** Zengine starts operating-system processes in two places: the Builder's runner,
+only the host's CMake (`builder/run.hpp`, `builder/runner.hpp`), and the Neovim editor
+(`editor/neovim/child.hpp`, since 2026-09-16; corrected by the app export research, which found
+"one place" stale). The demos entry needs
 the same thing for `demo.py start --setup <name>`. One catalog-limited start serves both: the app
 host with an app folder, `demo.py` with a listed setup, nothing a message can widen. The plainer
 alternative: the export writes a launcher the weaver runs.

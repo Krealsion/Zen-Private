@@ -162,7 +162,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   way to the setups). Walked on `main` by Vision ([handoff](handoffs/alpha-story-walk.md),
   2026-10-21): steps 1 to 4 work today; the view in a window of its own is what is missing.
   The export, its window and the way back researched beside G2, building nothing
-  ([prompt](../prompts/app-export-research.md), 2026-10-21);
+  ([prompt](../prompts/app-export-research.md), 2026-10-21); reported
+  ([report](../reportbacks/app-export-research-RB.md)) and reviewed by Vision (2026-10-21, 8 of 8
+  checks): the app opened by a small Zengine host of its own, `zengine-app`, after Loom installs
+  its consent half (L1); a view that hears its own window; steps 5 and 6 are L1, A1 and A2, about
+  four days of a lane; step 7 (C1, L2, C2) after the release; the take-back an authored
+  hand-over, no Loom change for a view or a flow;
 - the snake demo finalized; a way to the demos in place of a runner pane: Files at the demos, a
   right-click to run one (its shape open, 2026-10-21);
 - the README's new preface, the founder's.
