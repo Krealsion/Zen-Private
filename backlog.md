@@ -152,7 +152,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
 **The alpha release** (the founder, 2026-10-21): a soft release at the end of the week. In order:
 - the package on GitHub, one version held at a time: a nightly job packages when `main` has moved
   and tags the next `v0.1.N`, `v0.1.0` first, the version read from the tag rather than written in
-  code (BL-ADOPT-06's stages cut to that);
+  code (BL-ADOPT-06's stages cut to that). The week's most important deliverable (the founder,
+  2026-10-22), so researched now rather than after G2, beside both lanes
+  ([prompt](../prompts/alpha-package-research.md)): what a stranger downloads per platform, the
+  nightly job, a probe package walked, and stages the issue lane builds after the quick setup;
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
