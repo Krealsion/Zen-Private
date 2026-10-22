@@ -192,8 +192,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   rebases over stage 4, ten graphics files shared; #354 (A3) needs a POSIX start that closes
   Workshop's descriptors (the guest door's socket would outlive Workshop in the app) and the truth
   that a POSIX start has no console (a first start decided from `run.sh`), then its rebase onto
-  `main`. Loom, later: the bridge's sockets close on exec. Asked in A2: the plan for a flow with
-  another provider's operators; the export and the start in the alpha's package.
+  `main`. Loom, later: the bridge's sockets close on exec (private: a child holds them). Asked in
+  A2, the founder (2026-10-22): the plan built from a flow's providers later; the export and the
+  start decided with the alpha's package. The morning's lane
+  ([continuation](../prompts/issue-lane-app-fixes-and-click.md), 2026-10-22): the ASan limit,
+  A3's POSIX fixes, A4's rebase, and a view hearing its window's pointer.
   For the package: the SDK install carries no OS window, so the release must ship SDL's window
   for this story; an app in the terminal window is unwitnessed. For A3: the build runner's
   sentences count two process starters, which the launcher makes three. Zengine's
@@ -327,7 +330,9 @@ owner at a time, and decisions before prompts.
    Not as routed: an agent's press still moves the keys and the selection (BL-WORK-38's rule, for
    a weaver's host, waits for the agent desk); a wheel over a pane is swallowed while a value is
    carried (stage 6). CI's ASan job is at its 60 minutes whenever a widely included header
-   changes: the founder's call.
+   changes: the founder raises it to 90 (2026-10-22, through the issue lane). #350 and #351
+   merged as merge commits (`364ee623`); stage 5, the menu presenter in its own area, prompted
+   ([continuation](../prompts/graphics-only-g2-s5-presenter.md), 2026-10-22).
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
