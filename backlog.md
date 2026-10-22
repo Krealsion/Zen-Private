@@ -159,10 +159,14 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
   window (merging it back as a pane a bonus); a first-run screen (control scheme, a Vim checkbox, a
-  way to the setups). Vision's proposal: walk it on `main` first, read-only;
+  way to the setups). Walked on `main` by Vision ([handoff](handoffs/alpha-story-walk.md),
+  2026-10-21): steps 1 to 4 work today; the view in a window of its own is what is missing;
 - the snake demo finalized; a way to the demos in place of a runner pane: Files at the demos, a
   right-click to run one (its shape open, 2026-10-21);
 - the README's new preface, the founder's.
+
+Other tools surveyed for layouts and small features, licenses checked
+([handoff](handoffs/ide-survey.md), 2026-10-21): a command palette first.
 
 Cut from it: the C++ installer suite, theme presets, plain-language passes beyond what the story
 touches, and fast forward's S2 and S4 to S6.
