@@ -180,7 +180,17 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   a grammar change only if the founder wants one. The package waits until G2 is done. A1 is the
   issue lane's next ([prompt](../prompts/issue-lane-app-host.md), 2026-10-22): `zengine-app`,
   its console on Loom's store, the app's own weave, a view that hears its window, the probe
-  `examples/tally-app/`; it meets G2's stage 4 in `view/view.hpp`. For
+  `examples/tally-app/`; it meets G2's stage 4 in `view/view.hpp`. A1 is Zengine #347
+  (`a952914e`, fixes #346, [report](../reportbacks/issue-lane-app-host-RB.md)), reviewed by
+  Vision (2026-10-22, 12 of 12 checks): its run's 8 jobs green, ready to merge. A view takes its
+  window's keys and text, not its pointer, so a field is focused by Tab, not a click: a small
+  issue once stage 4's pointer shapes land. Loom, after the alpha: an installed `AuthorityDesk`
+  seat (a second host now writes one) and `authority trust`'s reply naming a host's baseline.
+  For the package: the SDK install carries no OS window, so the release must ship SDL's window
+  for this story; an app in the terminal window is unwitnessed. For A3: the build runner's
+  sentences count two process starters, which the launcher makes three. Zengine's
+  `docs/contributing/taking-an-issue.md` should name `tests/census_headers.hpp` among the files a
+  change's rules force. For
   A1: Zengine's two claims of one process starter (`builder/run.hpp`, the build runner's
   manual) are stale since the Neovim editor's child (the research's doc gaps 2 and 3);
 - the snake demo finalized; a way to the demos in place of a runner pane: Files at the demos, a
@@ -516,7 +526,10 @@ fileable now).
 forwarding-only participants, serialization, fan-out, queueing, real latency); then a compiled
 composition (direct endpoints, an event queue) with its equivalences defined first; speculative
 threading with in-order commitment. A hash identifies approved code; it does not prove that
-bypassing the message path keeps its meaning.
+bypassing the message path keeps its meaning. Its far horizon (the founder, 2026-10-22): a
+compile-down system, Loom and Zengine code compiled into a true standalone app with no Loom in
+it: introspection, modularity and extensibility while developing, the overhead removed for a
+release or a more proprietary form.
 
 13. **The first complete story, last**: "A maker discovers a running participant, understands one
 editable setting, changes it safely, preserves a useful reference or command, carries it into
