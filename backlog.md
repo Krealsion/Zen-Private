@@ -168,6 +168,18 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
 Other tools surveyed for layouts and small features, licenses checked
 ([handoff](handoffs/ide-survey.md), 2026-10-21): a command palette first.
 
+The founder on the walk and the survey (2026-10-21):
+- step 5 is an export to an app: its load plan built and opened by a new Loom host; the hard part
+  is the window's side, Workshop's arranging done by something in the app;
+- step 7: the app's Loom console is asked to connect, then to load a weave that speaks Workshop's
+  debugging language, and the app's weaves are taken back into Workshop by a replacement across
+  hosts, over the link;
+- the palette on a double Shift, else Shift+Space; a hotbar of panes on a leader or a held
+  modifier, usable in the Editor with the least conflict; a wire let go on empty space opening its
+  search is high priority: the power a hand needs, appearing where it is;
+- a floating pane is a whole workspace in a window of its own; the exported app is code of its
+  own, not a Workshop pane, and a game edited in Workshop has its window cut off from it.
+
 Cut from it: the C++ installer suite, theme presets, plain-language passes beyond what the story
 touches, and fast forward's S2 and S4 to S6.
 
