@@ -218,7 +218,14 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   A2, the founder (2026-10-22): the plan built from a flow's providers later; the export and the
   start decided with the alpha's package. The morning's lane
   ([continuation](../prompts/issue-lane-app-fixes-and-click.md), 2026-10-22): the ASan limit,
-  A3's POSIX fixes, A4's rebase, and a view hearing its window's pointer.
+  A3's POSIX fixes, A4's rebase, and a view hearing its window's pointer. Reported
+  ([report](../reportbacks/issue-lane-app-fixes-and-click-RB.md)) and reviewed by Vision
+  (2026-10-22): #356 merged; #354 (A3, its POSIX start closing all but its three streams and saying
+  it has no console), #353 (A4 rebased) and #358 (a view clicked into, fixes #357) green, each
+  clean against `main` and after #359, but the three conflict among themselves (the population,
+  the app's pages): #359 and #354 first, then #353 and #358 rebased in turn, #353's body losing
+  "stage 4's". The build runner's child inherits the bridge's sockets too (private, with Loom's
+  close-on-exec).
   For the package: the SDK install carries no OS window, so the release must ship SDL's window
   for this story; an app in the terminal window is unwitnessed. For A3: the build runner's
   sentences count two process starters, which the launcher makes three. Zengine's
@@ -357,9 +364,14 @@ owner at a time, and decisions before prompts.
    need and stays as small as it can be -- another split of the Workshop panes suite the likely
    fix if it does not fall with the code's health, and fast forward's last stages if they come
    (BL-WORK-43). `main`'s push run after #350 and #351 took 39:16 in ASan, its cache warm; the 90
-   goes through anyway (Zengine #356, fixes #355), its times tracked through the week. #350 and #351
+   goes through anyway (Zengine #356, fixes #355), its times tracked through the week; #356's own
+   run took 61:52 in ASan, and #353's 58:20 under the old 60: the 90 was needed. #350 and #351
    merged as merge commits (`364ee623`); stage 5, the menu presenter in its own area, prompted
-   ([continuation](../prompts/graphics-only-g2-s5-presenter.md), 2026-10-22).
+   ([continuation](../prompts/graphics-only-g2-s5-presenter.md), 2026-10-22). Stage 5 is Zengine
+   #359 (`83280b71`, [report](../reportbacks/graphics-only-g2-s5-presenter-RB.md)), reviewed by
+   Vision (2026-10-22): its run green, ASan 39:38; MenuShown 3 names the presenter's area and
+   carries no lines; seams row 18 closed; no window, no pane menu until stage 7. Its seam: no shape
+   says which drawing a press hit.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
