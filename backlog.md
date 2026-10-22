@@ -171,7 +171,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   recommended (2026-10-21): the app host owns the host's setup and its cycle, game-engine
   states for that cycle much later; a closed second window puts its layout back on the shelf,
   a way to restore the window later. L1 is the issue lane's
-  ([prompt](../prompts/issue-lane-loom-consent.md)); the package waits until G2 is done. For
+  ([prompt](../prompts/issue-lane-loom-consent.md)): Loom #58, taken as #59 (`84151bf`),
+  reviewed by Vision (2026-10-22, 8 of 8 checks): `loom::host-policy` installed, the command
+  moved word for word behind `AuthorityDesk`, its run's 10 jobs green, ready to merge; the
+  package waits until G2 is done. For
   A1: Zengine's two claims of one process starter (`builder/run.hpp`, the build runner's
   manual) are stale since the Neovim editor's child (the research's doc gaps 2 and 3);
 - the snake demo finalized; a way to the demos in place of a runner pane: Files at the demos, a
