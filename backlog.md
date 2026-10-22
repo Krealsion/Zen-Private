@@ -157,7 +157,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
   story as a checklist, a command palette, a wire let go on empty space
-  ([prompt](../prompts/first-five-minutes-research.md), 2026-10-22);
+  ([prompt](../prompts/first-five-minutes-research.md), 2026-10-22). The other researches Vision
+  weighed, for the founder to choose among: the release package refreshed (once G2 reaches stage
+  7); G2's stages 6 and 7 cut for both lanes; where the suites' time goes (ASan back at 60);
+  Zenscript; the snake demo finalized. Step 7 (C1, L2, C2) and Loom's three small follow-ups
+  need prompts, not research;
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
@@ -337,7 +341,8 @@ owner at a time, and decisions before prompts.
    back at 60 by the week's end, not a hard requirement: test time grows only as far as the suites
    need and stays as small as it can be -- another split of the Workshop panes suite the likely
    fix if it does not fall with the code's health, and fast forward's last stages if they come
-   (BL-WORK-43). #350 and #351
+   (BL-WORK-43). `main`'s push run after #350 and #351 took 39:16 in ASan, its cache warm; the 90
+   goes through anyway (Zengine #356, fixes #355), its times tracked through the week. #350 and #351
    merged as merge commits (`364ee623`); stage 5, the menu presenter in its own area, prompted
    ([continuation](../prompts/graphics-only-g2-s5-presenter.md), 2026-10-22).
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
