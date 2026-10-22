@@ -178,6 +178,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   read as Ctrl+Space (no row binds it today; #341's unsaid gap); P1, its door `CommandRunRequested`
   from the palette's office alone, on `ctrl+space`; P2 on P1's branch; the band in full; F0; F1
   on F0's branch, with no scheme block. Not this round: L1, P3, V1, F2.
+  Reviewed mid-lane by Vision (2026-10-22, 12 of 13 checks; the failed attempts' logs need admin
+  rights): `main`'s runs after #359 and #354 green (ASan 60:09); #353 (`d20a51a1`, the population
+  alone changed), #358 (`52c131ce`, stacked, `app_host` 9) and #364 (T1, `df9004d7`) ready, clean
+  in that order; #362 (W1, `625ba999`) ready, one population line against #358 for the lane to
+  rebase. W1's list draws its right edge just outside the graph's room near the pane's edge (a
+  nit). `neovim_journey` failed the sanitizer job's first attempt on #358 and #362 and passed on
+  the rerun: a flake that costs a rerun each time.
   Its "if the founder cuts them" read Vision's word "cut" below as dropped: G2 stays whole. The
   other researches Vision weighed, for the founder to choose among: the release package refreshed
   (once G2 reaches stage 7); G2's stages 6 and 7 split across both lanes; where the suites' time
