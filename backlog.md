@@ -177,7 +177,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   2026-10-22). Its report leaves A1 the console's seat (about 60 lines over `AuthorityDesk`, as
   the witness's) and where adoption happens when Zengine's plan executor loads; `authority
   pending` lists a refused artifact without the command that answers it (the refusal names it),
-  a grammar change only if the founder wants one. The package waits until G2 is done. For
+  a grammar change only if the founder wants one. The package waits until G2 is done. A1 is the
+  issue lane's next ([prompt](../prompts/issue-lane-app-host.md), 2026-10-22): `zengine-app`,
+  its console on Loom's store, the app's own weave, a view that hears its window, the probe
+  `examples/tally-app/`; it meets G2's stage 4 in `view/view.hpp`. For
   A1: Zengine's two claims of one process starter (`builder/run.hpp`, the build runner's
   manual) are stale since the Neovim editor's child (the research's doc gaps 2 and 3);
 - the snake demo finalized; a way to the demos in place of a runner pane: Files at the demos, a
@@ -294,9 +297,12 @@ owner at a time, and decisions before prompts.
    window, two windows showing one area (stage 6); a revived Workshop not started again under a
    window, `classic` showing no guide role in a terminal window, the caret drawn over its
    character (stage 7); the restore notice replaced at once by Inventory's startup note (no
-   owner); the window's dirty cells an ordered set, 24% of the hottest case (an issue).
+   owner); the window's dirty cells an ordered set, 24% of the hottest case (stage 4).
    `GlyphGrid::rows_above` still defaults to `surface::kTuiCanvasTopRow`, the default behind the
-   first defect: it goes with Surface's constants.
+   first defect (stage 4). Stage 4, the agent desk and the agent's hand in the window, prompted
+   ([continuation](../prompts/graphics-only-g2-s4-desk-and-hand.md), 2026-10-22), chained on
+   #345's branch, with #345's ends: the typed send's text checked again, that default, the dirty
+   cells' cost.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
