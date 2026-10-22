@@ -173,8 +173,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   a way to restore the window later. L1 is the issue lane's
   ([prompt](../prompts/issue-lane-loom-consent.md)): Loom #58, taken as #59 (`84151bf`),
   reviewed by Vision (2026-10-22, 8 of 8 checks): `loom::host-policy` installed, the command
-  moved word for word behind `AuthorityDesk`, its run's 10 jobs green, ready to merge; the
-  package waits until G2 is done. For
+  moved word for word behind `AuthorityDesk`, its run's 10 jobs green; merged (`02779d7`,
+  2026-10-22). Its report leaves A1 the console's seat (about 60 lines over `AuthorityDesk`, as
+  the witness's) and where adoption happens when Zengine's plan executor loads; `authority
+  pending` lists a refused artifact without the command that answers it (the refusal names it),
+  a grammar change only if the founder wants one. The package waits until G2 is done. For
   A1: Zengine's two claims of one process starter (`builder/run.hpp`, the build runner's
   manual) are stale since the Neovim editor's child (the research's doc gaps 2 and 3);
 - the snake demo finalized; a way to the demos in place of a runner pane: Files at the demos, a
@@ -282,7 +285,18 @@ owner at a time, and decisions before prompts.
    #344 merged (`3fa139a1`). Stage 3, the rigs on a window, prompted
    ([continuation](../prompts/graphics-only-g2-s3-rigs.md), 2026-10-21), with the kit's three
    doc gaps from stage 2's report and stage 2's self-comparing `static_assert`
-   (`workshop/weave_handlers.cpp:242`), which Vision's review missed.
+   (`workshop/weave_handlers.cpp:242`), which Vision's review missed. Stage 3 is Zengine #345
+   (`9a5159bd`, [report](../reportbacks/graphics-only-g2-s3-rigs-RB.md)), reviewed (Vision,
+   2026-10-22, 12 of 12 checks): the desk read off the window's device, checked against
+   `WindowShowAsked` every 32nd idle read; the terminal window composing on a grid (product, the
+   same cells); two defects the rig found, each red before its fix; its run's 8 jobs green (MSVC,
+   advisory, 43:57 of 60), ready to merge. Pressure it named: a waiting pane's body blank in a
+   window, two windows showing one area (stage 6); a revived Workshop not started again under a
+   window, `classic` showing no guide role in a terminal window, the caret drawn over its
+   character (stage 7); the restore notice replaced at once by Inventory's startup note (no
+   owner); the window's dirty cells an ordered set, 24% of the hottest case (an issue).
+   `GlyphGrid::rows_above` still defaults to `surface::kTuiCanvasTopRow`, the default behind the
+   first defect: it goes with Surface's constants.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
