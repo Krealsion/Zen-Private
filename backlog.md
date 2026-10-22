@@ -186,8 +186,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   its window's keys and text, not its pointer, so a field is focused by Tab, not a click: the
   founder wants it clicked into too (2026-10-22), a small issue once stage 4's pointer shapes
   land. Overnight the lane takes A2, A4, then A3 on A2's branch
-  ([continuation](../prompts/issue-lane-app-export-and-start.md), 2026-10-22). Loom, after the alpha: an installed `AuthorityDesk`
-  seat (a second host now writes one) and `authority trust`'s reply naming a host's baseline.
+  ([continuation](../prompts/issue-lane-app-export-and-start.md), 2026-10-22). Loom, after the
+  alpha: an installed `AuthorityDesk` seat (a second host now writes one) and `authority trust`'s
+  reply naming a host's baseline.
   For the package: the SDK install carries no OS window, so the release must ship SDL's window
   for this story; an app in the terminal window is unwitnessed. For A3: the build runner's
   sentences count two process starters, which the launcher makes three. Zengine's
