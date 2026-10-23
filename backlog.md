@@ -191,7 +191,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   carries both, with BL-WORK-46's first step. N4, #386, reviewed by Vision (2026-10-23, 12 of
   12 checks) and ready, the founder's three settings on (the default token was already
   read-only); the first night after it merges publishes `v0.1.0`, the publish job's first run.
-  Then BL-WORK-46's second step in the issue lane once the package's share is in;
+  Then BL-WORK-46's second step in the issue lane once the package's share is in; Loom's own
+  release researched once Zengine's nightly has published clean nights (BL-ADOPT-07, not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
@@ -2470,6 +2471,25 @@ It meets [Zengine#119](https://github.com/Krealsion/Zengine/issues/119) (the rel
 compatibility promise) and BL-ADOPT-01 (the contributor front door).
 
 **Source:** the founder (2026-10-10), on the overhaul research's first gap.
+
+### BL-ADOPT-07 — Loom's own release: the substrate downloaded alone
+
+**State:** NOT RUN -- researched first ([prompt](../prompts/loom-release-research.md)), once
+Zengine's nightly has published a few clean nights (the founder and Vision, 2026-10-23)  
+**Owed:** The founder (2026-10-23): a Loom release cycle beside Zengine's package -- the libraries
+compiled for easy linking, and a raw Loom environment, a "Loom Console" -- so the substrate is seen
+to stand alone; Zengine stays the default download. Most of it exists: Loom's install is an SDK
+(`find_package(loom 0.1)`) and `loom-host`, whose console the host makes first, before any weave
+loads; what is missing is the download, made and published as Zengine's nightly is. Vision's
+reason beside his: the substrate stands alone ("replaceable is not an address"), and the release's
+witness is its own first five minutes, `docs/guides/running-loom.md` walked from the download. It
+reopens the package research's "Loom gets no tag for the alpha". His question with it: a host whose
+console did not open at the start -- how a person reaches it, and who else could. Today that is
+serve mode's door on loopback, the owner's key alone, a client given the session's vocabularies and
+not the console's authority; the research's `console.md` weighs the rest.
+
+**Wake:** Zengine's nightly published green for a few nights.
+**Source:** the founder (2026-10-23), once the alpha's first publication was merged.
 
 ## 5. Architectural debt that waits for pressure
 
