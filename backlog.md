@@ -191,7 +191,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   carries both, with BL-WORK-46's first step. N4, #386, reviewed by Vision (2026-10-23, 12 of
   12 checks) and ready, the founder's three settings on (the default token was already
   read-only); the first night after it merges publishes `v0.1.0`, the publish job's first run.
-  G2's follow-up opened as #387, green, its report to come. The first night is read by the last
+  G2's follow-up, #387, reviewed by Vision (2026-10-23, 13 of 13 checks) and ready: WL-PRESS-07
+  says the founder's rule, nothing waits, the eight expected failures pass and the guards are
+  back; `AreaSettled` goes to arrangers that refuse it (the app host's, snake's), owed a small
+  fix at the start of G2's next. The first night is read by the last
   round's session; the issue lane's round after the alpha is a new session's, written warm
   ([prompt](../prompts/issue-lane-after-the-alpha.md)): #341; the demo note's `KeyError` and a
   failed story run's folders kept by CI; N5 after the first publication (the founder's answer);
