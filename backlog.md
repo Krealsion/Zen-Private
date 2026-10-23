@@ -188,9 +188,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   decisions as (a), each with a condition: a press refused only where an entirely new element
   stands under the hand, never for a picture merely updated; the notice barring no threading
   later. G2's follow-up ([prompt](../prompts/graphics-only-g2-s6b-press-and-notice.md))
-  carries both, with BL-WORK-46's first step. N4, #386, open: the founder's three settings
-  before it merges. Then BL-WORK-46's second step in the issue lane once the package's share
-  is in;
+  carries both, with BL-WORK-46's first step. N4, #386, reviewed by Vision (2026-10-23, 12 of
+  12 checks) and ready, the founder's three settings on (the default token was already
+  read-only); the first night after it merges publishes `v0.1.0`, the publish job's first run.
+  Then BL-WORK-46's second step in the issue lane once the package's share is in;
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
