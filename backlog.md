@@ -191,8 +191,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   carries both, with BL-WORK-46's first step. N4, #386, reviewed by Vision (2026-10-23, 12 of
   12 checks) and ready, the founder's three settings on (the default token was already
   read-only); the first night after it merges publishes `v0.1.0`, the publish job's first run.
-  Then BL-WORK-46's second step in the issue lane once the package's share is in; Loom's own
-  release researched once Zengine's nightly has published clean nights (BL-ADOPT-07, not run);
+  G2's follow-up opened as #387, green, its report to come. The issue lane's round after the alpha
+  ([prompt](../prompts/issue-lane-after-the-alpha.md)): the first night read; #341; the demo
+  note's `KeyError` and a failed story run's folders kept by CI; N5 after the first publication
+  (the founder's answer); the tag made last; BL-WORK-46's second step once #387 is on `main`.
+  Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
+  not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
@@ -1987,8 +1991,8 @@ window stages.
 
 **State:** DECIDED AND ORDERED -- step 1 in G2's follow-up
 ([prompt](../prompts/graphics-only-g2-s6b-press-and-notice.md); Vision's fold, 2026-10-23, the
-same press path); step 2 the issue lane's, once the package's share is in (the founder,
-2026-10-23)  
+same press path), opened as #387; step 2 the issue lane's, once #387 is on `main`
+([prompt](../prompts/issue-lane-after-the-alpha.md), the founder, 2026-10-23)  
 **Owed:** The founder (2026-10-23), reading #380's rows: "ONLY full freedom, and then you have
 helper methods for placing text." The window takes any drawing from any pane; `PaneRowsFacet` is
 the limit, and most panes sit on it because rows are the paved path: before stage 6 every pane
