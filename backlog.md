@@ -155,7 +155,16 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   code (BL-ADOPT-06's stages cut to that). The week's most important deliverable (the founder,
   2026-10-22), so researched now rather than after G2, beside both lanes
   ([prompt](../prompts/alpha-package-research.md)): what a stranger downloads per platform, the
-  nightly job, a probe package walked, and stages the issue lane builds after the quick setup;
+  nightly job, a probe package walked, and stages the issue lane builds after the quick setup.
+  Reported ([report](../reportbacks/alpha-package-research-RB.md)) and reviewed by Vision
+  (2026-10-23, 11 of 11 checks): `main` makes the package today, about 160 lines of install rules;
+  Workshop started from the extracted folder with nothing installed, and an exported app ran from
+  it and outlived Workshop; stages N0 to N10, the alpha's share N0 to N4 and N6. Decisions A to F
+  asked, recommended as the report has them, with B's app finding its host through a line the
+  launcher writes in the project, and the images stripped (Vision's scan found MSYS2's own build
+  paths in the static runtime's debug sections, none of this machine's). Known for the alpha: an
+  exported app asks five consent lines at its first start; the Builder refuses from a package;
+  the demos stay out (N7);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
