@@ -184,8 +184,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   settled -- restoring the stale-press guards the stage dropped (the Builder's four, Info
   views' save copy) with the eight expected failures; its doc gap, the demo readiness note's
   `KeyError`, a line for the demo tools. N6, the front door, #384, green and ready (9 of 9
-  checks); N3, #382, building. Then BL-WORK-46, every pane a free picture, in the issue lane
-  once the package's share is in;
+  checks); N3, #382, building. The founder merged all three (`main` `ccd7f5d5`) and took both
+  decisions as (a), each with a condition: a press refused only where an entirely new element
+  stands under the hand, never for a picture merely updated; the notice barring no threading
+  later. G2's follow-up ([prompt](../prompts/graphics-only-g2-s6b-press-and-notice.md))
+  carries both, with BL-WORK-46's first step. N4, #386, open: the founder's three settings
+  before it merges. Then BL-WORK-46's second step in the issue lane once the package's share
+  is in;
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
@@ -1978,7 +1983,9 @@ window stages.
 
 ### BL-WORK-46 — Every pane a free picture, text a helper inside it
 
-**State:** DECIDED AND ORDERED -- the issue lane's, once the package's share is in (the founder,
+**State:** DECIDED AND ORDERED -- step 1 in G2's follow-up
+([prompt](../prompts/graphics-only-g2-s6b-press-and-notice.md); Vision's fold, 2026-10-23, the
+same press path); step 2 the issue lane's, once the package's share is in (the founder,
 2026-10-23)  
 **Owed:** The founder (2026-10-23), reading #380's rows: "ONLY full freedom, and then you have
 helper methods for placing text." The window takes any drawing from any pane; `PaneRowsFacet` is
