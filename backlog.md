@@ -206,7 +206,15 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   `ZENGINE_TUI_ONLY` with the old switch refused at configure, every pane's area
   `<office>.<pane>`, `surface/` gone, the package's build following with its dry run read on
   the pull request; the window as a choice in the plan and the launch's fallback stay stage
-  8's. The issue lane's round has #389, #391 and #392 open.
+  8's. The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
+  job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
+  #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical,
+  with two decisions asked on WL-KEY-08 (the check's rule as a MEANS line, at least one key that
+  arrives; `ctrl+return` back as a second key where it arrives); #394 (BL-WORK-46's second step:
+  `RowsBlock`, Tally and the palette each drawing a picture of its own) owes two small fixes,
+  Tally's button off the guest's role (`kGuide`) and the palette's lines named by their entry so
+  a re-listing refuses no press on the same one; its first fixed colours are the founder's to
+  take or send to the settings phase.
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
@@ -2003,7 +2011,7 @@ window stages.
 
 **State:** DECIDED AND ORDERED -- step 1 merged as #387 (`416ed1ca`), G2's follow-up
 ([prompt](../prompts/graphics-only-g2-s6b-press-and-notice.md); Vision's fold, 2026-10-23, the
-same press path); step 2 the issue lane's, #387 now on `main`
+same press path); step 2 the issue lane's, opened as #394, two small fixes owed
 ([prompt](../prompts/issue-lane-after-the-alpha.md), the founder, 2026-10-23)  
 **Owed:** The founder (2026-10-23), reading #380's rows: "ONLY full freedom, and then you have
 helper methods for placing text." The window takes any drawing from any pane; `PaneRowsFacet` is
