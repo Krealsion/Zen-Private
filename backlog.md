@@ -217,6 +217,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   setup becomes the weaver's hand's alone there, as the Terminal is; then its rebase over #368's
   appends in nine files. `neovim_journey`: the story's `ctrl+t` step waits 5 s; read what a failed
   run saw, then raise it, a pull request before N1. Both open the lane's package continuation.
+  #369, #370 and #371 merged (`96e08f53`). #373 closed out (`26d224eb`), reviewed by Vision
+  (2026-10-23, 8 of 8 checks): rebased with the palette's and the setup's rows side by side; the
+  setup the weaver's hand's alone on a weaver's host in `weaver_only_pane`, so its area is placed
+  so and a guest's key or press is refused in words, a case red before green on both hosts; its
+  run green at the first attempt (ASan 60:07); its body says the rule, not the hole. Ready.
   Its "if the founder cuts them" read Vision's word "cut" below as dropped: G2 stays whole. The
   other researches Vision weighed, for the founder to choose among: the release package refreshed
   (once G2 reaches stage 7); G2's stages 6 and 7 split across both lanes; where the suites' time
