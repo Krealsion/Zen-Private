@@ -207,6 +207,16 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   `ctrl+space`; ready, its body's "T1" out first. The Windows console's space typed with
   Ctrl+Space is swallowed by `expected_text_of`, but no case types it (the surviving mutant): a
   case for P2's pull request. `neovim_journey` failed `main`'s run after #353 too, the third time.
+  #368 merged (`5a32d858`). The lane's report whole
+  ([report](../reportbacks/issue-lane-first-five-minutes-RB.md)), reviewed by Vision (2026-10-23,
+  13 of 13 checks): #369 (P2 with the console's space case,
+  `78e3bbcc`), #370 (the band in full, `02b0087a`) and #371 (F0, `4bd07a83`) ready, clean in any
+  order. #373 (F1, `2de525c0`) waits on one change (private): on a weaver's host a guest reaches
+  none of the editor office, the Terminal and the Hotkeys pane, yet a guest's press or key on the
+  quick setup switched the weaver's editor, confirmed its losses and wrote the settings file; the
+  setup becomes the weaver's hand's alone there, as the Terminal is; then its rebase over #368's
+  appends in nine files. `neovim_journey`: the story's `ctrl+t` step waits 5 s; read what a failed
+  run saw, then raise it, a pull request before N1. Both open the lane's package continuation.
   Its "if the founder cuts them" read Vision's word "cut" below as dropped: G2 stays whole. The
   other researches Vision weighed, for the founder to choose among: the release package refreshed
   (once G2 reaches stage 7); G2's stages 6 and 7 split across both lanes; where the suites' time
