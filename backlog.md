@@ -198,7 +198,15 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   round's session; the issue lane's round after the alpha is a new session's, written warm
   ([prompt](../prompts/issue-lane-after-the-alpha.md)): #341; the demo note's `KeyError` and a
   failed story run's folders kept by CI; N5 after the first publication (the founder's answer);
-  the tag made last; BL-WORK-46's second step once #387 is on `main`.
+  the tag made last; BL-WORK-46's second step once #387 is on `main`. The founder merged #387
+  (`main` `416ed1ca`). G2's stage 7 ([prompt](../prompts/graphics-only-g2-s7-skins-and-surface.md))
+  opens with the settle notice reaching only the arrangers that hear it, a pull request of its
+  own, then the stage as routing section 11 has it: the Skins and `zengine-input-sdl` retired,
+  an old plan refused by name, the close the window's (D11), the status line gone,
+  `ZENGINE_TUI_ONLY` with the old switch refused at configure, every pane's area
+  `<office>.<pane>`, `surface/` gone, the package's build following with its dry run read on
+  the pull request; the window as a choice in the plan and the launch's fallback stay stage
+  8's. The issue lane's round has #389, #391 and #392 open.
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
@@ -1993,9 +2001,9 @@ window stages.
 
 ### BL-WORK-46 — Every pane a free picture, text a helper inside it
 
-**State:** DECIDED AND ORDERED -- step 1 in G2's follow-up
+**State:** DECIDED AND ORDERED -- step 1 merged as #387 (`416ed1ca`), G2's follow-up
 ([prompt](../prompts/graphics-only-g2-s6b-press-and-notice.md); Vision's fold, 2026-10-23, the
-same press path), opened as #387; step 2 the issue lane's, once #387 is on `main`
+same press path); step 2 the issue lane's, #387 now on `main`
 ([prompt](../prompts/issue-lane-after-the-alpha.md), the founder, 2026-10-23)  
 **Owed:** The founder (2026-10-23), reading #380's rows: "ONLY full freedom, and then you have
 helper methods for placing text." The window takes any drawing from any pane; `PaneRowsFacet` is
