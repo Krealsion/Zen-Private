@@ -168,7 +168,15 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   D overturns the 10-10 decision 8 (only he pushing `v*` tags), which he had taken with the other
   fourteen at once and does not stand by: his merge is now the package's gate. The issue lane's
   continuation ([prompt](../prompts/issue-lane-alpha-package.md)): N1 to N4, N6 beside N2, N5
-  if the week has room; his three settings before N4 merges;
+  if the week has room; his three settings before N4 merges. Overnight
+  ([report](../reportbacks/issue-lane-alpha-package-RB.md)), reviewed by Vision (2026-10-23,
+  14 of 14 checks), each green at its first attempt and clean in sequence: #375 (the flake: a
+  story root waits for Workshop's plan at rest before its first key, the race, not a longer
+  wait), #377 (N1: `ZENGINE_PACKAGE`, the project in `%USERPROFILE%\Zengine`, the app's host
+  line, `--version`, stripped and started so) and #379 (N2: the four judges, self-testing). A
+  delete waiting on permission held the lane for hours: the constitution's rule 12 (the
+  founder, 2026-10-23), deletes only at a session's end. G2's stage 6 opened as #380 (221
+  files), conflicting with `main` in two files after #373, so no run starts until it rebases;
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
