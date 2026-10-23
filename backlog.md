@@ -164,7 +164,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   launcher writes in the project, and the images stripped (Vision's scan found MSYS2's own build
   paths in the static runtime's debug sections, none of this machine's). Known for the alpha: an
   exported app asks five consent lines at its first start; the Builder refuses from a package;
-  the demos stay out (N7);
+  the demos stay out (N7). The founder (2026-10-23): A to F and Vision's two additions, taken;
+  D overturns the 10-10 decision 8 (only he pushing `v*` tags), which he had taken with the other
+  fourteen at once and does not stand by: his merge is now the package's gate. The issue lane's
+  continuation ([prompt](../prompts/issue-lane-alpha-package.md)): N1 to N4, N6 beside N2, N5
+  if the week has room; his three settings before N4 merges;
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
@@ -2354,7 +2358,9 @@ feature's folder is the natural unit of a pane built alone.
 
 ### BL-ADOPT-06 — A release ready to run, for Windows and Linux
 
-**State:** ORDERED — a roadmap item: R0 to R5 not started and their 10-22 date dropped, the
+**State:** ORDERED — cut to the alpha's nightly package (N0 to N10, the founder taking its six
+decisions and overturning decision 8 below, 2026-10-23). Before that: R0 to R5 not started and
+their 10-22 date dropped, the
 founder closing what is open first (2026-10-14). Before that: researched
 ([its report](../reportbacks/release-research-RB.md), 2026-10-10):
 one package per platform made by the repositories' own install and judged clean, a C seam so a pane
