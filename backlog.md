@@ -175,8 +175,17 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   wait), #377 (N1: `ZENGINE_PACKAGE`, the project in `%USERPROFILE%\Zengine`, the app's host
   line, `--version`, stripped and started so) and #379 (N2: the four judges, self-testing). A
   delete waiting on permission held the lane for hours: the constitution's rule 12 (the
-  founder, 2026-10-23), deletes only at a session's end. G2's stage 6 opened as #380 (221
-  files), conflicting with `main` in two files after #373, so no run starts until it rebases;
+  founder, 2026-10-23), deletes only at a session's end. The founder merged #375, #377 and #379
+  (`main` `75e56193`). G2's stage 6, #380 (221 files), rebased and green, ASan + UBSan 54:07
+  (`main`'s own ran 20.6 to 61.6 minutes that day), reviewed by Vision (2026-10-23, 12 of 12
+  checks, the press path read, not all 221 files): ready once its body's kind count says 86 and
+  90; two decisions asked, Vision recommending (a) for both as G2's next pull request before
+  stage 7 -- a drawing's number on each press, and the window telling the arranger a drawing
+  settled -- restoring the stale-press guards the stage dropped (the Builder's four, Info
+  views' save copy) with the eight expected failures; its doc gap, the demo readiness note's
+  `KeyError`, a line for the demo tools. N6, the front door, #384, green and ready (9 of 9
+  checks); N3, #382, building. Then BL-WORK-46, every pane a free picture, in the issue lane
+  once the package's share is in;
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
   branch, the issue lane beside it, and G2 no gate for the rest;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
@@ -1966,6 +1975,34 @@ stage 1 (#218); the terminal door, guest judge, project office, and mirror/Info 
 #270, #275, #278, #279, and #282; the menu presenter and full data-form views follow BL-WORK-37's
 window stages.
 **Source:** the founder (2026-10-12), after BL-WORK-37's round 2 review.
+
+### BL-WORK-46 — Every pane a free picture, text a helper inside it
+
+**State:** DECIDED AND ORDERED -- the issue lane's, once the package's share is in (the founder,
+2026-10-23)  
+**Owed:** The founder (2026-10-23), reading #380's rows: "ONLY full freedom, and then you have
+helper methods for placing text." The window takes any drawing from any pane; `PaneRowsFacet` is
+the limit, and most panes sit on it because rows are the paved path: before stage 6 every pane
+said rows to Workshop, the three shipped pane examples draw rows (tower defense its board as
+characters), and so do the palette and the quick setup. A button where the weaver puts it, a
+rainbow underline: possible on `PaneDrawingFacet` today, never on the rows facet. Two steps, the
+founder's (2026-10-23):
+1. `PaneDrawingFacet` reads a press against each named part's pixel box, as the View does
+   (`view::Picture::hit`), where today it reads the text cells of the picture last sent
+   (`drawn_rows`): a `graphics::Button` is pressed over its whole face, where it is drawn. Small.
+2. The row tools -- control strips, list windows, the caret and selection, what each row means,
+   a press read back to a row -- become helpers any picture calls; one shipped example is drawn
+   freely as the reference, so the next pane copies freedom; panes move one at a time, and
+   `PaneRowsFacet` retires with the last. No hook on the rows facet: it would grow what this
+   retires.
+- **Not scheduled, the founder's direction:** each window presents what a pane draws in its own
+  way. WL-GEO-07 (one quantization law) narrows to where panes sit, which its decision's reasons
+  are about (`agents/decisions/the-whole-pixel.md`: two authorities for one desk, a visit
+  authoring); an agent reads names, boxes and values (`PanePart`), never cells. No cell a pixel
+  (the founder, 2026-10-23).
+
+**Wake:** the issue lane's package share (N1 to N4, N6) merged, and #380.
+**Source:** the founder and Vision, 2026-10-23.
 
 ### BL-WORK-12 — Multiple windows
 
