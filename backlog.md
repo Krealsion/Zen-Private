@@ -239,8 +239,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   checked against the source, each wrong turn a finding Vision checks and files as an issue; and
   runs the Perspectives Lab again ([handoff](handoffs/perspectives-lab-handoff.md)), drafted in
   the terminal window first, drawings only, alternatives kept beside a provisional default,
-  every workflow done by mouse where it can be and a pane's piled controls grouped, action
-  dropdown bars one way (the founder);
+  every workflow done by mouse where it can be: the core workflow's frequent actions buttons,
+  an action on one thing in its right-press menu, a dropdown bar only for groups of like or
+  seldom-needed actions, never a default home; proposed keys the ideal ones, the POSIX
+  terminal's fitted later by its layer (the founder, 2026-10-23);
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
   story as a checklist, a command palette, a wire let go on empty space
   ([prompt](../prompts/first-five-minutes-research.md), 2026-10-22). Reported
