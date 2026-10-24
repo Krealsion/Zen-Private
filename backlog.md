@@ -252,7 +252,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   weaver's file, not two full key setups -- weaves declare their own defaults, so no shared file
   holds them, only the keys a weaver saved; so each weave declares its POSIX keys beside its
   defaults (Vision, from his reason). His hotkey pass, keys like `alt+end` among its cases, goes
-  into the story's walk (below).
+  into the story's walk (below). The round is #402 (issue #401), rebased onto `2b48d263`,
+  reviewed by Vision (2026-10-24, 13 of 13 checks): ready, to merge before G2's stage 8, which
+  rebases on it. Its decision asked: a weaver's own key cannot ask a send in either window
+  (`this operation needs a current attributed input gesture`); the mouse can. Since G1 the
+  windows hand keys over with no hand named (`f03622d3`, 2026-10-17), and a send needs one
+  (`2a81099f`). Vision: not intended, in the published alpha; an issue for the lane's next
+  round, with the manuals' pictures that still show #392's keys.
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
@@ -2090,7 +2096,7 @@ founder's (2026-10-23):
 ### BL-WORK-47 — Control schemes: a default, patches layered on it, and a loader
 
 **State:** DECIDED, NOT ORDERED -- its first slice, the POSIX terminal's keys, is #392's
-follow-up (section 1a)  
+follow-up (section 1a), #402, ready (2026-10-24)  
 **Owed:** The founder (2026-10-23), after #392 moved ten default keys to ones a POSIX terminal
 delivers (`alt+end` for Info's save a copy among them, hard to press and to remember): control
 schemes as a whole. A default scheme loads, and a POSIX compatibility patch on top of it where
