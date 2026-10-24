@@ -274,7 +274,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   for the weaver. And his, private, for theme 4's research: one-off grants (today's are
   standing), and the root console's consent forwarded to one trusted granter -- paired at the
   console by a key Loom checks, one-off acts only, each printed at the console, ended by any
-  console input and by its own expiry; a footgun, marked so.
+  console input and by its own expiry; a footgun, marked so. #411 merged (`7bda9f0b`). Decision 2
+  taken (the founder, 2026-10-24): the remembered choices in the session's header, written by the
+  layouts' owner from the host's reading handed at its mount; his switch weave after D1. D1
+  prompted to the main lane ([continuation](../prompts/desk-split-d1.md)): one phase, one pull
+  request, a commit a step; its two seams -- v11's lines read in the history, the window file's
+  one import -- formed inside Zengine, Loom unchanged.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -619,7 +624,8 @@ owner at a time, and decisions before prompts.
      `WeaversActRequested{gesture, office}`, answered `WeaversActAnswered{current}`;
    - D1 one phase, committed step by step, its report counting `LayoutEdit`'s operations and
      the lines beside the kinds.
-   D1 is prompted once G1 and G2 merge, against that `main`.
+   D1 is prompted once G1 and G2 merge, against that `main`: prompted 2026-10-24 against
+   `7bda9f0b` ([prompt](../prompts/desk-split-d1.md)), its check's three decisions taken.
    Layout choices beyond pixels (the founder, 2026-10-20): a share of the parent, a fit to what a
    pane holds, a fill, as the quarry's `CustomLayout` had, through a solver that turns them into
    the pixels each object needs. Researched read-only beside G1
