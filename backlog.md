@@ -281,7 +281,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   2026-10-24: a new phase is prompted warm): one phase, one pull request, a commit a step; its
   two seams -- v11's lines read in the history, the window file's one import -- formed inside
   Zengine, Loom unchanged. L1, the layout solver, prompted to the issue lane beside it, warm
-  ([prompt](../prompts/layout-modes-l1.md); item 2 below).
+  ([prompt](../prompts/layout-modes-l1.md); item 2 below); #413 reviewed by Vision, ready.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -663,6 +663,14 @@ owner at a time, and decisions before prompts.
    carrying the notes the revision never reported; with the right column no longer dividing
    (note 2), Vision's reading leaves the divide flow, Webster's rule and fill weights to their
    first consumer, a view's group.
+   L1 reported (2026-10-24, [report](../reportbacks/layout-modes-l1-RB.md)): #413 green at
+   `80d01836`, `ui/` solving in whole pixels (`Element` 3, `Place` 1, `Size` 1 in; `Element` 2
+   and `Extent` out) and `bounds_of` on it, nothing drawn changing (the shipped desk's pictures
+   byte-identical). Reviewed by Vision (2026-10-24, 17 of 17 checks): ready, merging before
+   D1, whose rebase is small. Asked before L2: a share under one step. `ui` keeps its edge
+   rule; Vision's lean, the desk's accepter refuses a word that leaves a pane under a cell at
+   the smallest screen, as `kPanePxMin` does for pixels, and a divided frame's one step each
+   stays with the divide flow. L1's doc gap rides the guides round.
 3. Settings stages 4 to 6 wait for that owner.
 4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
    Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
