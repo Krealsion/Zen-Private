@@ -346,7 +346,16 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   every workflow done by mouse where it can be: the core workflow's frequent actions buttons,
   an action on one thing in its right-press menu, a dropdown bar only for groups of like or
   seldom-needed actions, never a default home; proposed keys the ideal ones, the POSIX
-  terminal's fitted later by its layer (the founder, 2026-10-23);
+  terminal's fitted later by its layer (the founder, 2026-10-23). The stranger's rounds 1 to 8,
+  read again at `7bda9f0b` (`Zen/stranger/`), reviewed by Vision (2026-10-24): 27 findings hold,
+  20 of them in guides that repeat what a manual or the code owns; the manuals, inside the key
+  and value checks, held. The founder (2026-10-24): a guides round in the issue lane after L1 --
+  the findings fixed and filed, the cheat sheet cut to an index of links (a full reference
+  revisited, optionally, at the very end of the release line), the existing markers on every
+  key and number a guide repeats, repeated behaviour linked to its owner; Vision proposes
+  Loom's three beside it (two pages, and `loom::terminal` built without the contract a loadable
+  weave's statics need). The Perspectives Lab, rebaselined at `7bda9f0b`: flow, editor and
+  exploration settled (the founder's yes, 2026-10-24), triage and ui drafted;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
   story as a checklist, a command palette, a wire let go on empty space
   ([prompt](../prompts/first-five-minutes-research.md), 2026-10-22). Reported
