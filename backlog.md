@@ -239,7 +239,16 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   main thread as a second issue lane before D1 ([continuation](../prompts/main-lane-before-d1.md)):
   the guest door's one asker (rows 86-87 (b), private, no issue), D1's design checked against
   `main` read-only (stopping for his word), and the Loom words, Zengine's follow-up after
-  Loom's merge.
+  Loom's merge. Both lanes reported; reviewed by Vision (2026-10-24): #407 (the console, the
+  key moments, the release gate; issue #406) 9 of 10 checks, one body sentence wrong (a
+  Ctrl+C there closes Workshop orderly, SDL making it a close, its session written); #408 (the
+  door's one asker) 10 of 11, its body's evidence saying a guest's save was written over
+  `main` -- the rig's (no `guest_row` wired), not production's, but against its fence, to be
+  edited out; Loom #61 (ABI v10, issue #60) 8 of 8, the advisory Zengine stranger red as it
+  says (the census calls `create`). #407 and #408 merge clean either way. Order: #407 and
+  #408, then Loom #61, then Zengine's follow-up at once (census sink, three operator cases,
+  the fallback's words), `main` red between. D1's check: three decisions asked
+  ([check](../reportbacks/desk-split-research/check.md)).
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
