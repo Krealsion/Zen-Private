@@ -224,7 +224,16 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   choice in the plan (format version 4), the launch's fallback to the terminal window saying
   why once, Workshop's own `--tui`, one shipped plan, and the restore shaping the OS window, a
   terminal run leaving its room as it was; the terminal launchers share the window's project
-  (Vision's call); the exported app's plan is G2's to say.
+  (Vision's call); the exported app's plan is G2's to say. It is Zengine #403 (six commits,
+  the last `e7b1e93d`, [report](../reportbacks/graphics-only-g2-s8-window-choice-RB.md)),
+  reviewed by Vision (2026-10-24, 18 of 18 checks): ready. A row's `otherwise` (format 4)
+  loads the OS window, else the terminal window; the OS window refuses its own making where
+  it cannot open; session format 10 keeps the OS window's room. The exported app keeps the OS
+  window alone (its console holds its terminal). Behind #405 (`51f73994`): it merges clean,
+  the window's beat combining as both meant, so no rebase asked. Its decision asked: Loom's
+  `do_create` drops a constructor's words, so the fallback can only point at standard error,
+  which the terminal window covers (Vision: yes, a Loom issue, filed and taken by the issue
+  lane).
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
