@@ -226,7 +226,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
-  branch, the issue lane beside it, and G2 no gate for the rest;
+  branch, the issue lane beside it, and G2 no gate for the rest. Ponder, the founder's second
+  model on a budget of its own, reads as the stranger (the founder, 2026-10-23,
+  [handoff](handoffs/stranger-handoff.md)): only the public repositories, every term it learns
+  checked against the source, each wrong turn a finding Vision checks and files as an issue; and
+  runs the Perspectives Lab again ([handoff](handoffs/perspectives-lab-handoff.md)), drafted in
+  the terminal window first, drawings only, alternatives kept beside a provisional default;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
   story as a checklist, a command palette, a wire let go on empty space
   ([prompt](../prompts/first-five-minutes-research.md), 2026-10-22). Reported
