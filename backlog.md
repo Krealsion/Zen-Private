@@ -232,8 +232,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   window alone (its console holds its terminal). Behind #405 (`51f73994`): it merges clean,
   the window's beat combining as both meant, so no rebase asked. Its decision asked: Loom's
   `do_create` drops a constructor's words, so the fallback can only point at standard error,
-  which the terminal window covers (Vision: yes, a Loom issue, filed and taken by the issue
-  lane).
+  which the terminal window covers. The founder (2026-10-24): a Loom issue, filed and taken
+  in the issue lane's round after the console one -- a weave's refused making carries its
+  words into the load's refusal, and the fallback says them on the desk.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
