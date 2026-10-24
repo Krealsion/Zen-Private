@@ -214,7 +214,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   every pane's area `<office>.<pane>`; Workshop takes 82 kinds and sends 60; 28 files deleted),
   reviewed by Vision (2026-10-24, 9 of 10 checks): ready once rebased onto `main` and its
   package dry run walks #400's story green, two example comments D12 left stale fixed with it
-  ([continuation](../prompts/graphics-only-g2-s7b-rebase.md)). Its decision asked, for the
+  ([continuation](../prompts/graphics-only-g2-s7b-rebase.md)); rebased onto `5661e376` and
+  reviewed again (Vision, 2026-10-24, 8 of 8 checks): the four commits as they were, the fifth
+  the examples' comments, CI green (59:51) and the dry run's judges walking the story (0:28,
+  0:24) -- ready. Its decision asked, for the
   founder: a restored room smaller than the OS window (Vision: the restore shapes the window,
   in stage 8). Later: eight graphics shapes still named `Surface*`.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
