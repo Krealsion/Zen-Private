@@ -219,7 +219,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   its report says) so a re-listing refuses no press on the same one; held until the lane's report
   (the founder), then sent ([continuation](../prompts/issue-lane-after-the-alpha-394-fixes.md)),
   its run green (61:29, the sanitizer job 60:36) and the thirteen panes still on rows named in its
-  section; its first fixed colours are the founder's to
+  section; reviewed again at `ed337c7e` (Vision, 2026-10-24, 8 of 8 checks): both fixed, a relist
+  case red before green, ready. The round's last two, each 8 of 8 checks and ready: #398, the tag
+  made by publishing (the exact ref read, a failed night's draft taken down, the tag read back),
+  its witness the next night; #400, N5, the tally story walked by both judges on each package
+  (0:29 and 0:24 in its dry run). `v0.1.0` published by the first night (04:00 UTC 2026-10-24,
+  immutable, attested), read by the last round's session. Its first fixed colours are the
+  founder's to
   take or send to the settings phase. The founder merged #389, #391 and #392 (`main`
   `400009c`). #392's decisions, his (2026-10-23): the check's rule a MEANS line under
   WL-KEY-08, and the natural keys (`ctrl+return`, `ctrl+shift+s`) back where they arrive, the
