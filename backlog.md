@@ -248,7 +248,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   says (the census calls `create`). #407 and #408 merge clean either way. Order: #407 and
   #408, then Loom #61, then Zengine's follow-up at once (census sink, three operator cases,
   the fallback's words), `main` red between. D1's check: three decisions asked
-  ([check](../reportbacks/desk-split-research/check.md)).
+  ([check](../reportbacks/desk-split-research/check.md)). #407 (`20a96268`) and #408
+  (`20fb7e61`) merged, each body's sentence corrected at the merge; Zengine's follow-up
+  prompted for once Loom #61 merges
+  ([continuation](../prompts/main-lane-loom-words-follow-up.md)).
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
