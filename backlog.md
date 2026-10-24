@@ -277,9 +277,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   console input and by its own expiry; a footgun, marked so. #411 merged (`7bda9f0b`). Decision 2
   taken (the founder, 2026-10-24): the remembered choices in the session's header, written by the
   layouts' owner from the host's reading handed at its mount; his switch weave after D1. D1
-  prompted to the main lane ([continuation](../prompts/desk-split-d1.md)): one phase, one pull
-  request, a commit a step; its two seams -- v11's lines read in the history, the window file's
-  one import -- formed inside Zengine, Loom unchanged.
+  prompted, warm, for a fresh session ([prompt](../prompts/desk-split-d1.md); the founder,
+  2026-10-24: a new phase is prompted warm): one phase, one pull request, a commit a step; its
+  two seams -- v11's lines read in the history, the window file's one import -- formed inside
+  Zengine, Loom unchanged.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
