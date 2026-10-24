@@ -206,13 +206,20 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   `ZENGINE_TUI_ONLY` with the old switch refused at configure, every pane's area
   `<office>.<pane>`, `surface/` gone, the package's build following with its dry run read on
   the pull request; the window as a choice in the plan and the launch's fallback stay stage
-  8's. The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
+  8's. Its first pull request, #395: what a window says of an area unasked -- a press, a hold
+  ended, the pointer left, a settle -- told only to an arranger that follows the area
+  (`AreaPlaced` v6 `followed`), Workshop following its panes' areas and the menu's; reviewed by
+  Vision (2026-10-23, 9 of 9 checks) and ready, `app_host`'s floor left at 9 under 10 cases.
+  The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
   #394 (BL-WORK-46's second step: `RowsBlock`, Tally and the palette each drawing a picture of
   its own) owes two small fixes, Tally's button off the guest's role (`kGuide`) and the palette's
-  lines named by their entry so a re-listing refuses no press on the same one, held until the
-  lane's report (the founder: the lane still runs); its first fixed colours are the founder's to
+  lines named by a short name each entry keeps (an entry's address can pass the part-name bound,
+  its report says) so a re-listing refuses no press on the same one; held until the lane's report
+  (the founder), then sent ([continuation](../prompts/issue-lane-after-the-alpha-394-fixes.md)),
+  its run green (61:29, the sanitizer job 60:36) and the thirteen panes still on rows named in its
+  section; its first fixed colours are the founder's to
   take or send to the settings phase. The founder merged #389, #391 and #392 (`main`
   `400009c`). #392's decisions, his (2026-10-23): the check's rule a MEANS line under
   WL-KEY-08, and the natural keys (`ctrl+return`, `ctrl+shift+s`) back where they arrive, the
