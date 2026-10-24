@@ -262,6 +262,15 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   routed through the input office (one road keeps a press and its key in order) -- the issue
   lane's next round ([continuation](../prompts/issue-lane-window-keys-hand.md)). The manuals'
   pictures (2026-10-14 to 16) show the old desk, not #392's keys: a refresh of their own.
+  Done as #405 (issue #404), reviewed by Vision (2026-10-24, 15 of 15 checks): ready, the
+  window's keys its own moments (`AreaKeyPressed`, `AreaKeyReleased`, `AreaTextEntered`),
+  each naming area and hand; clean beside G2's #403 in either order. Its decision asked,
+  private: the input office's published `KeyReleased` is outside `keystrokes`
+  (`carries_the_keys`), so a row without it observes those releases -- the launching terminal
+  beside the OS window, a participant's injected keys; a window's keys are sent, never
+  published. Vision: not intended (a release is a key), the next round's first item, said as
+  the rule. Pre-existing, #395's class: a window's release and text refused on the bus by
+  owners that take neither (an app's views, snake).
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
