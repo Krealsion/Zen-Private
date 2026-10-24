@@ -232,9 +232,14 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   window alone (its console holds its terminal). Behind #405 (`51f73994`): it merges clean,
   the window's beat combining as both meant, so no rebase asked. Its decision asked: Loom's
   `do_create` drops a constructor's words, so the fallback can only point at standard error,
-  which the terminal window covers. The founder (2026-10-24): a Loom issue, filed and taken
-  in the issue lane's round after the console one -- a weave's refused making carries its
-  words into the load's refusal, and the fallback says them on the desk.
+  which the terminal window covers. The founder (2026-10-24): a Loom issue -- a weave's
+  refused making carries its words into the load's refusal (an ABI change: `create` has no
+  channel for them), and the fallback says them on the desk. #403 merged (`99cb054e`): G2
+  done. Then, the issue lane busy with its console round, the founder (2026-10-24) runs the
+  main thread as a second issue lane before D1 ([continuation](../prompts/main-lane-before-d1.md)):
+  the guest door's one asker (rows 86-87 (b), private, no issue), D1's design checked against
+  `main` read-only (stopping for his word), and the Loom words, Zengine's follow-up after
+  Loom's merge.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
