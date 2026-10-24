@@ -352,9 +352,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   and value checks, held. The founder (2026-10-24): a guides round in the issue lane after L1 --
   the findings fixed and filed, the cheat sheet cut to an index of links (a full reference
   revisited, optionally, at the very end of the release line), the existing markers on every
-  key and number a guide repeats, repeated behaviour linked to its owner; Vision proposes
-  Loom's three beside it (two pages, and `loom::terminal` built without the contract a loadable
-  weave's statics need). The Perspectives Lab, rebaselined at `7bda9f0b`: flow, editor and
+  key and number a guide repeats, repeated behaviour linked to its owner; Loom's three beside
+  it (two pages, and `loom::terminal` built without the contract a loadable weave's statics
+  need). Prompted, warm, to run when a lane is free
+  ([prompt](../prompts/stranger-guides-round.md)); the key check reads only the manuals today
+  and knows no Workshop key, so it learns both. The Perspectives Lab, rebaselined at `7bda9f0b`: flow, editor and
   exploration settled (the founder's yes, 2026-10-24), triage and ui drafted;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
   story as a checklist, a command palette, a wire let go on empty space
