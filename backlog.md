@@ -208,13 +208,16 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   the pull request; the window as a choice in the plan and the launch's fallback stay stage
   8's. The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
-  #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical,
-  with two decisions asked on WL-KEY-08 (the check's rule as a MEANS line, at least one key that
-  arrives; `ctrl+return` back as a second key where it arrives); #394 (BL-WORK-46's second step:
-  `RowsBlock`, Tally and the palette each drawing a picture of its own) owes two small fixes,
-  Tally's button off the guest's role (`kGuide`) and the palette's lines named by their entry so
-  a re-listing refuses no press on the same one; its first fixed colours are the founder's to
-  take or send to the settings phase.
+  #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
+  #394 (BL-WORK-46's second step: `RowsBlock`, Tally and the palette each drawing a picture of
+  its own) owes two small fixes, Tally's button off the guest's role (`kGuide`) and the palette's
+  lines named by their entry so a re-listing refuses no press on the same one, held until the
+  lane's report (the founder: the lane still runs); its first fixed colours are the founder's to
+  take or send to the settings phase. #392's two decisions, the founder's (2026-10-23): the
+  check's rule a MEANS line under WL-KEY-08; and an action keeps several keys, one named with a
+  `_posix` trailer of some kind for the POSIX terminal, so the natural keys (`ctrl+return`,
+  `ctrl+shift+s`) come back where they arrive -- one pull request after #392 merges. His hotkey
+  pass, keys like `alt+end` among its cases, goes into the story's walk (below).
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
@@ -281,6 +284,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   window (merging it back as a pane a bonus); a first-run screen (control scheme, a Vim checkbox, a
   way to the setups). Walked on `main` by Vision ([handoff](handoffs/alpha-story-walk.md),
   2026-10-21): steps 1 to 4 work today; the view in a window of its own is what is missing.
+  Once the story is ready for the founder to walk himself, a hotkey audit for human use goes
+  with it (the founder, 2026-10-23, the pass he had planned before release): every default key
+  judged by a hand and a memory, in each window.
   The export, its window and the way back researched beside G2, building nothing
   ([prompt](../prompts/app-export-research.md), 2026-10-21); reported
   ([report](../reportbacks/app-export-research-RB.md)) and reviewed by Vision (2026-10-21, 8 of 8
