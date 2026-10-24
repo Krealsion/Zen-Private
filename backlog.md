@@ -217,9 +217,14 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   ([continuation](../prompts/graphics-only-g2-s7b-rebase.md)); rebased onto `5661e376` and
   reviewed again (Vision, 2026-10-24, 8 of 8 checks): the four commits as they were, the fifth
   the examples' comments, CI green (59:51) and the dry run's judges walking the story (0:28,
-  0:24) -- ready. Its decision asked, for the
-  founder: a restored room smaller than the OS window (Vision: the restore shapes the window,
-  in stage 8). Later: eight graphics shapes still named `Surface*`.
+  0:24) -- ready; merged (`2b48d263`). Its decision asked, a restored room smaller than the OS
+  window, taken by the founder (2026-10-24): the restore shapes the window, in stage 8. Later:
+  eight graphics shapes still named `Surface*`. Stage 8 prompted
+  ([continuation](../prompts/graphics-only-g2-s8-window-choice.md), 2026-10-24): the window a
+  choice in the plan (format version 4), the launch's fallback to the terminal window saying
+  why once, Workshop's own `--tui`, one shipped plan, and the restore shaping the OS window, a
+  terminal run leaving its room as it was; the terminal launchers share the window's project
+  (Vision's call); the exported app's plan is G2's to say.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
