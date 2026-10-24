@@ -262,6 +262,19 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   [report](../reportbacks/main-lane-loom-words-follow-up-RB.md)), reviewed by Vision
   (2026-10-24, 11 of 11 checks): green against ABI 10, the desk saying SDL's own reason;
   ready, `main` red until it merges; the issue lane's session split then rebases and pushes.
+  #410 merged (`0e4e1100`). The session split is #411 (`89f7977c`, issue #409,
+  [report](../reportbacks/issue-lane-session-a-layout-at-a-time-RB.md)), reviewed by Vision
+  (2026-10-24, 11 of 11 checks): format 11 a header line and a line per layout (64 and 8,012
+  cells at every bound), the whole in memory alone as `WorkshopSession` v11, Loom's
+  conversion seam working within one shape's family; ready. Its seam for D1: the next format's
+  history reads v11's lines itself. The check's decision 3 taken (the founder, 2026-10-24):
+  the layout modes' optional fields ride D1's desk version. Decision 2 asked again: the
+  remembered choices in the session's header (Vision), his idea beside it -- a weave as small
+  as can be holding the four editor-switch asks the Terminal holds (WL-SWITCH-07), switching
+  for the weaver. And his, private, for theme 4's research: one-off grants (today's are
+  standing), and the root console's consent forwarded to one trusted granter -- paired at the
+  console by a key Loom checks, one-off acts only, each printed at the console, ended by any
+  console input and by its own expiry; a footgun, marked so.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
