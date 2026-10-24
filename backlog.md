@@ -210,6 +210,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   ended, the pointer left, a settle -- told only to an arranger that follows the area
   (`AreaPlaced` v6 `followed`), Workshop following its panes' areas and the menu's; reviewed by
   Vision (2026-10-23, 9 of 9 checks) and ready, `app_host`'s floor left at 9 under 10 cases.
+  The stage itself, #396 (the Skins, `surface/` and SDL's reader gone, the close the window's,
+  every pane's area `<office>.<pane>`; Workshop takes 82 kinds and sends 60; 28 files deleted),
+  reviewed by Vision (2026-10-24, 9 of 10 checks): ready once rebased onto `main` and its
+  package dry run walks #400's story green, two example comments D12 left stale fixed with it
+  ([continuation](../prompts/graphics-only-g2-s7b-rebase.md)). Its decision asked, for the
+  founder: a restored room smaller than the OS window (Vision: the restore shapes the window,
+  in stage 8). Later: eight graphics shapes still named `Surface*`.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
