@@ -253,12 +253,15 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   holds them, only the keys a weaver saved; so each weave declares its POSIX keys beside its
   defaults (Vision, from his reason). His hotkey pass, keys like `alt+end` among its cases, goes
   into the story's walk (below). The round is #402 (issue #401), rebased onto `2b48d263`,
-  reviewed by Vision (2026-10-24, 13 of 13 checks): ready, to merge before G2's stage 8, which
-  rebases on it. Its decision asked: a weaver's own key cannot ask a send in either window
-  (`this operation needs a current attributed input gesture`); the mouse can. Since G1 the
-  windows hand keys over with no hand named (`f03622d3`, 2026-10-17), and a send needs one
-  (`2a81099f`). Vision: not intended, in the published alpha; an issue for the lane's next
-  round, with the manuals' pictures that still show #392's keys.
+  reviewed by Vision (2026-10-24, 13 of 13 checks) and merged (`93921d9a`), before G2's
+  stage 8, which rebases on it. Its decision asked: a weaver's own key cannot ask a send in
+  either window (`this operation needs a current attributed input gesture`); the mouse can.
+  Since G1 the windows hand keys over with no hand named (`f03622d3`, 2026-10-17), and a send
+  needs one (`2a81099f`); the published alpha has it. The founder (2026-10-24), on Vision's
+  shape: not intended; a key the window gives names its hand, as its pointer moments do, not
+  routed through the input office (one road keeps a press and its key in order) -- the issue
+  lane's next round ([continuation](../prompts/issue-lane-window-keys-hand.md)). The manuals'
+  pictures (2026-10-14 to 16) show the old desk, not #392's keys: a refresh of their own.
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
