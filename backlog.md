@@ -224,7 +224,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   `400009c`). #392's decisions, his (2026-10-23): the check's rule a MEANS line under
   WL-KEY-08, and the natural keys (`ctrl+return`, `ctrl+shift+s`) back where they arrive, the
   POSIX terminal's own keys where the keys come from one -- one follow-up pull request, the first
-  slice of control schemes (BL-WORK-47), the issue lane's after its round's report. Its form, the
+  slice of control schemes (BL-WORK-47), the issue lane's once its open pull requests clear
+  ([prompt](../prompts/issue-lane-posix-keys.md), 2026-10-23: one id an action, a row naming
+  its POSIX key beside its default, Workshop putting the layer in force). Its form, the
   founder's (2026-10-23): a POSIX compatibility layer, a patch over the defaults under the
   weaver's file, not two full key setups -- weaves declare their own defaults, so no shared file
   holds them, only the keys a weaver saved; so each weave declares its POSIX keys beside its
