@@ -251,7 +251,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   ([check](../reportbacks/desk-split-research/check.md)). #407 (`20a96268`) and #408
   (`20fb7e61`) merged, each body's sentence corrected at the merge; Zengine's follow-up
   prompted for once Loom #61 merges
-  ([continuation](../prompts/main-lane-loom-words-follow-up.md)).
+  ([continuation](../prompts/main-lane-loom-words-follow-up.md)). The check's decision 1, taken
+  by the founder (2026-10-24) ahead of D1 and given to the issue lane: the session read a
+  layout at a time -- format 11, one file, a header value and one value per layout, each
+  its own decode, written whole by one replace; no field moved but the count, ids and the
+  window file D1's; pushed only after the follow-up to Loom #61 merges
+  ([continuation](../prompts/issue-lane-session-a-layout-at-a-time.md)). The check's
+  decisions 2 and 3 wait for his word.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
