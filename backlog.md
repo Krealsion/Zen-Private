@@ -213,11 +213,14 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   its own) owes two small fixes, Tally's button off the guest's role (`kGuide`) and the palette's
   lines named by their entry so a re-listing refuses no press on the same one, held until the
   lane's report (the founder: the lane still runs); its first fixed colours are the founder's to
-  take or send to the settings phase. #392's two decisions, the founder's (2026-10-23): the
-  check's rule a MEANS line under WL-KEY-08; and an action keeps several keys, one named with a
-  `_posix` trailer of some kind for the POSIX terminal, so the natural keys (`ctrl+return`,
-  `ctrl+shift+s`) come back where they arrive -- one pull request after #392 merges. His hotkey
-  pass, keys like `alt+end` among its cases, goes into the story's walk (below).
+  take or send to the settings phase. The founder merged #389, #391 and #392 (`main`
+  `400009c`). #392's decisions, his (2026-10-23): the check's rule a MEANS line under
+  WL-KEY-08, and the natural keys (`ctrl+return`, `ctrl+shift+s`) back where they arrive, the
+  POSIX terminal's own keys where the keys come from one -- one follow-up pull request, the first
+  slice of control schemes (BL-WORK-47). Its form open: two full key setups (the founder, for
+  now) or a POSIX patch under the weaver's file (Vision: the smaller build, the keymap file
+  already a patch over the program's defaults). His hotkey pass, keys like `alt+end` among its
+  cases, goes into the story's walk (below).
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
@@ -2042,6 +2045,25 @@ founder's (2026-10-23):
 
 **Wake:** the issue lane's package share (N1 to N4, N6) merged, and #380.
 **Source:** the founder and Vision, 2026-10-23.
+
+### BL-WORK-47 — Control schemes: a default, patches layered on it, and a loader
+
+**State:** DECIDED, NOT ORDERED -- its first slice, the POSIX terminal's keys, is #392's
+follow-up (section 1a)  
+**Owed:** The founder (2026-10-23), after #392 moved ten default keys to ones a POSIX terminal
+delivers (`alt+end` for Info's save a copy among them, hard to press and to remember): control
+schemes as a whole. A default scheme loads, and a POSIX compatibility patch on top of it where
+the keys come from a POSIX terminal; later a loader stacks schemes as composite themes stack
+(`includes`, the later winning), and Workshop gives the weaver a way to choose among them (the
+first-run screen's control scheme the first). The files' inheritance is small; Workshop's
+interface for it is the big ask. The ground today: the defaults live in the program, each pane
+declaring its keys, and the weaver's keymap file (`workshop-keymap.json`) carries only his
+differences over them, pane rows included (`join_pane_rows`); Workshop hears which window
+offered itself (`WindowOffered` names `terminal` or `sdl`), and a POSIX terminal is the
+terminal window on a build that is not Windows, its keys read by `input/terminal_reader.hpp`.
+
+**Wake:** #392's follow-up merged, or the first-run screen's control scheme.
+**Source:** the founder, 2026-10-23.
 
 ### BL-WORK-12 — Multiple windows
 
