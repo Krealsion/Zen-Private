@@ -217,10 +217,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   `400009c`). #392's decisions, his (2026-10-23): the check's rule a MEANS line under
   WL-KEY-08, and the natural keys (`ctrl+return`, `ctrl+shift+s`) back where they arrive, the
   POSIX terminal's own keys where the keys come from one -- one follow-up pull request, the first
-  slice of control schemes (BL-WORK-47). Its form open: two full key setups (the founder, for
-  now) or a POSIX patch under the weaver's file (Vision: the smaller build, the keymap file
-  already a patch over the program's defaults). His hotkey pass, keys like `alt+end` among its
-  cases, goes into the story's walk (below).
+  slice of control schemes (BL-WORK-47), the issue lane's after its round's report. Its form, the
+  founder's (2026-10-23): a POSIX compatibility layer, a patch over the defaults under the
+  weaver's file, not two full key setups -- weaves declare their own defaults, so no shared file
+  holds them, only the keys a weaver saved; so each weave declares its POSIX keys beside its
+  defaults (Vision, from his reason). His hotkey pass, keys like `alt+end` among its cases, goes
+  into the story's walk (below).
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
@@ -2056,7 +2058,9 @@ schemes as a whole. A default scheme loads, and a POSIX compatibility patch on t
 the keys come from a POSIX terminal; later a loader stacks schemes as composite themes stack
 (`includes`, the later winning), and Workshop gives the weaver a way to choose among them (the
 first-run screen's control scheme the first). The files' inheritance is small; Workshop's
-interface for it is the big ask. The ground today: the defaults live in the program, each pane
+interface for it is the big ask. Its first slice takes the layering route (the founder,
+2026-10-23): weaves declare their own defaults, so no shared file holds them, only the keys a
+weaver saved. The ground today: the defaults live in the program, each pane
 declaring its keys, and the weaver's keymap file (`workshop-keymap.json`) carries only his
 differences over them, pane rows included (`join_pane_rows`); Workshop hears which window
 offered itself (`WindowOffered` names `terminal` or `sdl`), and a POSIX terminal is the
