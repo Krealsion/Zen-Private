@@ -270,7 +270,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   beside the OS window, a participant's injected keys; a window's keys are sent, never
   published. Vision: not intended (a release is a key), the next round's first item, said as
   the rule. Pre-existing, #395's class: a window's release and text refused on the bus by
-  owners that take neither (an app's views, snake).
+  owners that take neither (an app's views, snake). #405 merged (`51f73994`). And found with
+  it: beside the OS window the input component reads the console the run started from (its
+  reader takes the terminal no terminal window holds; stage 7's choice 4, passed by Vision),
+  raw -- no echo, no Ctrl+C -- a second keyboard on the desk. The founder (2026-10-24): the
+  console the user's again, the release gate and the key moments with it, one round
+  ([continuation](../prompts/issue-lane-console-and-key-moments.md)); a Ctrl+C there then ends
+  Workshop as any program (Vision's call).
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
 - code a stranger can read; G2 finished in the main lane, its stages chained on the open parent's
