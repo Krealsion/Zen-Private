@@ -256,8 +256,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   layout at a time -- format 11, one file, a header value and one value per layout, each
   its own decode, written whole by one replace; no field moved but the count, ids and the
   window file D1's; pushed only after the follow-up to Loom #61 merges
-  ([continuation](../prompts/issue-lane-session-a-layout-at-a-time.md)). The check's
-  decisions 2 and 3 wait for his word.
+  ([continuation](../prompts/issue-lane-session-a-layout-at-a-time.md)), its issue #409. The
+  check's decisions 2 and 3 wait for his word (3, riding D1's desk version, his leaning).
+  Loom #61 merged (`1848fa1d`); Zengine's follow-up is #410 (`b557c391`,
+  [report](../reportbacks/main-lane-loom-words-follow-up-RB.md)), reviewed by Vision
+  (2026-10-24, 11 of 11 checks): green against ABI 10, the desk saying SDL's own reason;
+  ready, `main` red until it merges; the issue lane's session split then rebases and pushes.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
