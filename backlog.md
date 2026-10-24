@@ -280,7 +280,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   prompted, warm, for a fresh session ([prompt](../prompts/desk-split-d1.md); the founder,
   2026-10-24: a new phase is prompted warm): one phase, one pull request, a commit a step; its
   two seams -- v11's lines read in the history, the window file's one import -- formed inside
-  Zengine, Loom unchanged.
+  Zengine, Loom unchanged. L1, the layout solver, prompted to the issue lane beside it, warm
+  ([prompt](../prompts/layout-modes-l1.md); item 2 below).
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -644,7 +645,12 @@ owner at a time, and decisions before prompts.
    (Loom's optional fields), not zeros; `right-column` removed, its uses moved to the other
    words; a `fill` drags as a fill, its weight alone changing; `center`; and the cell limit a
    priority -- the session decoded a layout at a time in D1's v9, never Loom's limit raised.
-   Fold or follow answered again, now that a format version is needed.
+   Fold or follow answered again, now that a format version is needed. Answered by D1's check
+   (decision 3, 2026-10-24): the optional fields ride D1's setup v6. L1 prompted to the issue
+   lane, warm, beside D1 (2026-10-24, [prompt](../prompts/layout-modes-l1.md)), the prompt
+   carrying the notes the revision never reported; with the right column no longer dividing
+   (note 2), Vision's reading leaves the divide flow, Webster's rule and fill weights to their
+   first consumer, a view's group.
 3. Settings stages 4 to 6 wait for that owner.
 4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
    Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
