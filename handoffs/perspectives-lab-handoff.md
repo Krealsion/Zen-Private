@@ -26,7 +26,13 @@ page's version of 2026-10-19. Nothing below replaces reading the source.
      day -- which panes and keys they share, where they fight -- and your quality analysis of the
      set as one workflow, improved round by round, back and forth across the domains.
   5. **Short pages.** One task a page, about 120 lines at most: read in five minutes.
-  6. **Every reference resolves** (section 4).
+  6. **Mouse-complete.** Every workflow can be done with the mouse, typing aside: each keyed
+     action has a control a hand can press, and a mode a hand enters is left by hand (WL-HAND-05,
+     `agents/workshop/pane-controls.md`). Where a pane's controls pile up in rows with no order
+     (`pack_controls`, WL-HAND-01), group them: an action dropdown bar at a pane's top is one way,
+     its menus opening as the pane menus the menu presenter already shows (WL-CTX-09 and
+     WL-CTX-10, `agents/workshop/pane-menu.md`). Draw the bars in the terminal draft too.
+  7. **Every reference resolves** (section 4).
 
 ## 2. Where Zen stands (2026-10-23; check it, do not trust it)
 
@@ -69,6 +75,7 @@ page's version of 2026-10-19. Nothing below replaces reading the source.
 - the desk in the terminal window, drawn in ASCII at the size you state, with its keys, and how the
   weaver enters it, leaves it and returns;
 - what the OS window adds, in a short list;
+- each step by mouse: the control a hand presses for it, and where only a key reaches it today;
 - what `main` offers today and what is missing; a missing tool drawn as a weave -- an office or a
   pane -- that talks only by messages, its shapes named by the naming rule: a request ends
   `Requested`, an answer `Answered` or `Refused`, a deed in the past tense, an observation a noun;
