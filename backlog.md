@@ -654,6 +654,24 @@ owner at a time, and decisions before prompts.
      the lines beside the kinds.
    D1 is prompted once G1 and G2 merge, against that `main`: prompted 2026-10-24 against
    `7bda9f0b` ([prompt](../prompts/desk-split-d1.md)), its check's three decisions taken.
+   Reported (2026-10-25, [report](../reportbacks/desk-split-d1-RB.md)): #415 green at
+   `9bb2688a`, rebased onto `dbd03a22`; Workshop takes 79 and sends 58, the owner 15 and 16;
+   `LayoutEdit` 17 operations; Workshop's weave 1,068 lines lighter, `workshop/` 2,789
+   heavier. Reviewed by Vision (2026-10-25, 17 of 17 checks): the split holds -- the owner its
+   own participant, Workshop presenting and asking, nothing forwarding, one writer a file.
+   Owed: the rebase onto #416 (`setups.md`'s session example at 11, the owner at 12), a
+   batch's `save` written before the batch is judged whole (witness 4's mutant), the pages
+   still saying the session holds the room and Workshop keeps the settings, and the `-s`
+   abort. The founder (2026-10-25), choice 7: an agent's desk replaces the live one while a
+   menu is open, and Workshop puts the menu down. Continued, hot
+   ([continuation](../prompts/desk-split-d1-continued.md)); the restore notice as it is.
+   The founder's direction (2026-10-25): the notice line cut out of Workshop's shell into an
+   explorable pane of past notices -- capped at 100 with a setting to raise it, the rows
+   helpers, the wheel alone and no selector, pure information, a sister to Attention; after
+   D1. Vision's notes for its prompt: it changes `limitations.md`'s absence by decision (no
+   history of what stopped being true); the record kept by a small weave its pane walks, as
+   the Terminal's history is the participant's, and running before Workshop's startup notes;
+   the pane on the default desk if the band's line goes.
    Layout choices beyond pixels (the founder, 2026-10-20): a share of the parent, a fit to what a
    pane holds, a fill, as the quarry's `CustomLayout` had, through a solver that turns them into
    the pixels each object needs. Researched read-only beside G1
