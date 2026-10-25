@@ -360,7 +360,16 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   ran Zengine's verify one entry at a time and outgrew its 30 minutes, three attempts stopped
   at the limit; the founder lands four at a time and that job's limit 45 by hand, and #64,
   the round's Loom pull request, rebases onto it
-  ([continuation](../prompts/stranger-guides-round-loom-ci.md)). The Perspectives Lab,
+  ([continuation](../prompts/stranger-guides-round-loom-ci.md)); Loom's `main` green at
+  `6796be5` (#65). The round reported (2026-10-25,
+  [report](../reportbacks/stranger-guides-round-RB.md)): Zengine #416 (issue #414) and Loom #64
+  (#62, #63), green on every job; reviewed by Vision (2026-10-25, 19 of 19 checks, 8 of the 27
+  fixes read again against the source): both ready. #416 merges before D1's #415, which
+  rebases onto it; #64 any time. Asked: the Demo pane's development recipe -- Vision's lean,
+  none, the catalog being exactly the panes Workshop's default plan loads, said on the page.
+  Left for one small follow-up: the notice "an empty desk" after `=`, the old fresh-desk
+  picture, the cheat sheet's opening claim that the checks hold each linked page to the code,
+  and the Composer's comment once #64 merges. The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
   2026-10-24), triage and ui drafted;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
