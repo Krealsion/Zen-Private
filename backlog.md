@@ -690,6 +690,17 @@ owner at a time, and decisions before prompts.
    hands each seated pane its row and keeps what a pane cannot use; a pane asks for its row on
    arrival and draws no room before it holds it (decision 10); Info's delivery facts from the
    owner; `LiveLayout` without the revisions. Its pull request merges before L2's.
+   #415 merged (`65f4a830`). D2 reported (2026-10-25,
+   [report](../reportbacks/desk-split-d2-RB.md)): #420 (issue #417) green at `116fdea4` -- a
+   pane asks for its row (`PaneSettingsAsked`) and draws no room before it holds one, through one
+   installed facet (`PaneSettingsFacet`); the owner hands each row and keeps what a pane cannot
+   use; `LiveLayout` v2 carries only each row's `workshop.` keys and what each pane cannot use;
+   Workshop takes 78 and sends 57, the owner 17 and 17; 14 of 15 mutations caught, one
+   equivalent. Reviewed by Vision (2026-10-25, 12 of 12 checks): ready, merging first. Its
+   choices 2 and 4 kept (the founder, 2026-10-25, as Vision leaned: decision 4 as drawn, and
+   Workshop's old rule of handing only offered panes). The reload not witnessed live (the kit's
+   fresh project lists no pane recipe), its real-image case standing for it. Owed later: the
+   held-row gate is cased for the Terminal and Attention alone, of eight panes.
    The founder's direction (2026-10-25): the notice line cut out of Workshop's shell into an
    explorable pane of past notices -- capped at 100 with a setting to raise it, the rows
    helpers, no selector, pure information, a sister to Attention; after D1. It scrolls by the
@@ -738,6 +749,16 @@ owner at a time, and decisions before prompts.
    offset, the column's width and a `fill` height unless the row says its own); a drag on a
    `fill`'s far edge where nothing shares its frame writes the share whose edge is the hand's
    pixel, and says so.
+   L2 reported (2026-10-25, [report](../reportbacks/layout-modes-l2-RB.md)): #421 green at
+   `e885bf76`, seven steps, the words in setup v6 with no shape or version moved; 20 of 20
+   mutations caught. The founder's answer mid-phase, asked by L2: an old `right-column` row
+   reads as `top-right` at no offset with its own sizes, `default` where it says none -- Info
+   draws at its offer, not the column's width by the room's height as Vision's prompt had it.
+   Reviewed by Vision (2026-10-25, 11 of 11 checks; a trial merge with #420 clean, its text
+   checks passing): ready once rebased onto #420's merge, continued hot
+   ([continuation](../prompts/layout-modes-l2-rebased.md)). For L3: the hand's inverse of a
+   share (`share_reaching`) and an anchor's offset sit in `workshop/setup.hpp`; a view's hand
+   will want them beside `ui`'s solve.
 3. Settings stages 4 to 6 wait for that owner.
 4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
    Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
