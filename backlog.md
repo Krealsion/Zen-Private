@@ -356,9 +356,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   it (two pages, and `loom::terminal` built without the contract a loadable weave's statics
   need). Prompted, warm, next in the issue lane now that #413 has merged
   ([prompt](../prompts/stranger-guides-round.md)); the key check reads only the manuals today
-  and knows no Workshop key, so it learns both. The Perspectives Lab, rebaselined at
-  `7bda9f0b`: flow, editor and exploration settled (the founder's yes, 2026-10-24), triage and
-  ui drafted;
+  and knows no Workshop key, so it learns both. Loom's `main` (2026-10-25): its stranger job
+  ran Zengine's verify one entry at a time and outgrew its 30 minutes, three attempts stopped
+  at the limit; the founder lands four at a time and that job's limit 45 by hand, and #64,
+  the round's Loom pull request, rebases onto it
+  ([continuation](../prompts/stranger-guides-round-loom-ci.md)). The Perspectives Lab,
+  rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
+  2026-10-24), triage and ui drafted;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
   story as a checklist, a command palette, a wire let go on empty space
   ([prompt](../prompts/first-five-minutes-research.md), 2026-10-22). Reported
