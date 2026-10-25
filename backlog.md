@@ -281,7 +281,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   2026-10-24: a new phase is prompted warm): one phase, one pull request, a commit a step; its
   two seams -- v11's lines read in the history, the window file's one import -- formed inside
   Zengine, Loom unchanged. L1, the layout solver, prompted to the issue lane beside it, warm
-  ([prompt](../prompts/layout-modes-l1.md); item 2 below); #413 reviewed by Vision, ready.
+  ([prompt](../prompts/layout-modes-l1.md); item 2 below); #413 merged (`dbd03a22`).
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -354,7 +354,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   revisited, optionally, at the very end of the release line), the existing markers on every
   key and number a guide repeats, repeated behaviour linked to its owner; Loom's three beside
   it (two pages, and `loom::terminal` built without the contract a loadable weave's statics
-  need). Prompted, warm, to run when a lane is free
+  need). Prompted, warm, next in the issue lane now that #413 has merged
   ([prompt](../prompts/stranger-guides-round.md)); the key check reads only the manuals today
   and knows no Workshop key, so it learns both. The Perspectives Lab, rebaselined at
   `7bda9f0b`: flow, editor and exploration settled (the founder's yes, 2026-10-24), triage and
@@ -423,7 +423,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   2026-10-21): steps 1 to 4 work today; the view in a window of its own is what is missing.
   Once the story is ready for the founder to walk himself, a hotkey audit for human use goes
   with it (the founder, 2026-10-23, the pass he had planned before release): every default key
-  judged by a hand and a memory, in each window.
+  judged by a hand and a memory, in each window. The founder (2026-10-24): his walks wait until
+  the pace slows, so they do not go stale as the stranger's rounds did; his notes are begun.
   The export, its window and the way back researched beside G2, building nothing
   ([prompt](../prompts/app-export-research.md), 2026-10-21); reported
   ([report](../reportbacks/app-export-research-RB.md)) and reviewed by Vision (2026-10-21, 8 of 8
@@ -666,11 +667,12 @@ owner at a time, and decisions before prompts.
    L1 reported (2026-10-24, [report](../reportbacks/layout-modes-l1-RB.md)): #413 green at
    `80d01836`, `ui/` solving in whole pixels (`Element` 3, `Place` 1, `Size` 1 in; `Element` 2
    and `Extent` out) and `bounds_of` on it, nothing drawn changing (the shipped desk's pictures
-   byte-identical). Reviewed by Vision (2026-10-24, 17 of 17 checks): ready, merging before
-   D1, whose rebase is small. Asked before L2: a share under one step. `ui` keeps its edge
-   rule; Vision's lean, the desk's accepter refuses a word that leaves a pane under a cell at
-   the smallest screen, as `kPanePxMin` does for pixels, and a divided frame's one step each
-   stays with the divide flow. L1's doc gap rides the guides round.
+   byte-identical). Reviewed by Vision (2026-10-24, 17 of 17 checks) and merged (`dbd03a22`);
+   D1 rebases onto it before its first push. A share under one step (the founder,
+   2026-10-24): a size too small to be useful is the weaver's choice, not Workshop's failure,
+   until the pane becomes undiscoverable or unrecoverable -- L2 keeps every pane findable and
+   its size changeable back, however small its words leave it; `ui` keeps its edge rule.
+   L1's doc gap rides the guides round.
 3. Settings stages 4 to 6 wait for that owner.
 4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
    Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
