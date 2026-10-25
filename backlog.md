@@ -284,6 +284,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   ([prompt](../prompts/layout-modes-l1.md); item 2 below); #413 merged (`dbd03a22`).
   D2 prompted to the issue lane and L2 to the main lane beside it, warm, both to start once D1
   merges (item 2 below).
+  The founder's deep review (2026-10-24, `Zen/scratch/baseline-20261024/`) filed #418, the
+  window's drawing store applying a dense update in quadratic work, and #419, the sanitizer
+  job's Info and Project entries; checked by Vision against `f9018ad9`, both well formed, neither
+  naming its Folders. #419 prompted to the issue lane, warm
+  ([prompt](../prompts/issue-lane-419-sanitizer-profile.md)), measuring only; #418 waits on what
+  it finds, since dense drawings in the slow cases would make its fix a CI speedup too.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
