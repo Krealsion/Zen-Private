@@ -759,6 +759,16 @@ owner at a time, and decisions before prompts.
    ([continuation](../prompts/layout-modes-l2-rebased.md)). For L3: the hand's inverse of a
    share (`share_reaching`) and an anchor's offset sit in `workshop/setup.hpp`; a view's hand
    will want them beside `ui`'s solve.
+   #420 merged (`f9018ad9`); #421 rebased onto it (`2c2cd174`, its steps unchanged). The
+   founder read #421 before its merge and decided two changes (2026-10-25): accordions are
+   coming, so a pane switching between two sizes is followed at once each way, and only a
+   one-pixel wobble is held, in the OS window alone, and said (the research's 4.3 hold goes);
+   and a place may be a share of the room, one word `share`, x and y in ten-thousandths from
+   its top-left, so a bar a third of the way down follows the window. He asked why the share
+   place was missed: the research's decision 3 named "a share of a position beside the
+   anchors" a mistake, citing the old `ui` rule "no 50% across" (gone with L1), and its
+   keep-or-drop table dropped the quarry's percent insets; Vision passed both. Continued, hot
+   ([continuation](../prompts/layout-modes-l2-snap-and-share.md)), after the rebase reports.
 3. Settings stages 4 to 6 wait for that owner.
 4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
    Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
