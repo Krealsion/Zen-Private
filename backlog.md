@@ -282,6 +282,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   two seams -- v11's lines read in the history, the window file's one import -- formed inside
   Zengine, Loom unchanged. L1, the layout solver, prompted to the issue lane beside it, warm
   ([prompt](../prompts/layout-modes-l1.md); item 2 below); #413 merged (`dbd03a22`).
+  D2 prompted to the issue lane and L2 to the main lane beside it, warm, both to start once D1
+  merges (item 2 below).
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -377,8 +379,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   against the diff it was read from; pairing's seam yes, the weaver's hand judged by D1's
   `WeaversActRequested`; tailoring's buttons yes. Pairing found a defect on `main`: a guest
   row with `"admit": "ask"` parks its connection awaiting a decision nothing can make
-  (`GuestDoor::decide` has no caller) -- an issue of its own. The pages want a rebaseline
-  after D1 before any becomes a prompt;
+  (`GuestDoor::decide` has no caller) -- an issue of its own. Applied by Ponder (`80743c72`),
+  the three marked founder-reviewed. The pages want a rebaseline after D1 before any becomes
+  a prompt;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
   story as a checklist, a command palette, a wire let go on empty space
   ([prompt](../prompts/first-five-minutes-research.md), 2026-10-22). Reported
@@ -672,6 +675,11 @@ owner at a time, and decisions before prompts.
    abort. The founder (2026-10-25), choice 7: an agent's desk replaces the live one while a
    menu is open, and Workshop puts the menu down. Continued, hot
    ([continuation](../prompts/desk-split-d1-continued.md)); the restore notice as it is.
+   D2, the hand-off of a row's settings leaving Workshop for the owner, prompted, warm, to the
+   issue lane once D1 merges ([prompt](../prompts/desk-split-d2.md), 2026-10-25): the owner
+   hands each seated pane its row and keeps what a pane cannot use; a pane asks for its row on
+   arrival and draws no room before it holds it (decision 10); Info's delivery facts from the
+   owner; `LiveLayout` without the revisions. Its pull request merges before L2's.
    The founder's direction (2026-10-25): the notice line cut out of Workshop's shell into an
    explorable pane of past notices -- capped at 100 with a setting to raise it, the rows
    helpers, no selector, pure information, a sister to Attention; after D1. It scrolls by the
@@ -713,6 +721,13 @@ owner at a time, and decisions before prompts.
    until the pane becomes undiscoverable or unrecoverable -- L2 keeps every pane findable and
    its size changeable back, however small its words leave it; `ui` keeps its edge rule.
    L1's doc gap rides the guides round.
+   L2 prompted, warm, to the main lane once D1 merges, beside D2
+   ([prompt](../prompts/layout-modes-l2.md), 2026-10-25): one phase, a commit a step, the words
+   new values in setup v6. The founder's calls (2026-10-25): `workshop.side-columns` retires
+   with the right column, an old row's `right-column` read as it looks today (`top-right` at no
+   offset, the column's width and a `fill` height unless the row says its own); a drag on a
+   `fill`'s far edge where nothing shares its frame writes the share whose edge is the hand's
+   pixel, and says so.
 3. Settings stages 4 to 6 wait for that owner.
 4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
    Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
