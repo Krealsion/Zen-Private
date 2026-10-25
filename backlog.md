@@ -371,7 +371,14 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   picture, the cheat sheet's opening claim that the checks hold each linked page to the code,
   and the Composer's comment once #64 merges. The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
-  2026-10-24), triage and ui drafted;
+  2026-10-24), triage and ui settled after them; git, pairing and tailoring drafted, reviewed
+  by Vision (2026-10-25): each seat its option A; git's seam yes, naming how its office
+  reaches git (the build runner, or a child of its own and a power) and a stage judged
+  against the diff it was read from; pairing's seam yes, the weaver's hand judged by D1's
+  `WeaversActRequested`; tailoring's buttons yes. Pairing found a defect on `main`: a guest
+  row with `"admit": "ask"` parks its connection awaiting a decision nothing can make
+  (`GuestDoor::decide` has no caller) -- an issue of its own. The pages want a rebaseline
+  after D1 before any becomes a prompt;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
   story as a checklist, a command palette, a wire let go on empty space
   ([prompt](../prompts/first-five-minutes-research.md), 2026-10-22). Reported
