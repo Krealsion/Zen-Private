@@ -290,6 +290,17 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   naming its Folders. #419 prompted to the issue lane, warm
   ([prompt](../prompts/issue-lane-419-sanitizer-profile.md)), measuring only; #418 waits on what
   it finds, since dense drawings in the slow cases would make its fix a CI speedup too.
+  #419 reported (2026-10-25, [report](../reportbacks/issue-lane-419-sanitizer-profile-RB.md),
+  findings on the issue): the `-j4` sanitizer tests are throughput-bound -- the sum of every
+  entry over four -- so no split or reorder shortens them; Info's longest case is the desk's
+  stamps laying the whole desk out per pane and per pane in front (655,835 layouts in one
+  case), filed as #422; Project's is the census's fresh rig per press, its rule kept by the
+  founder (2026-10-25); #418's apply under 1% of both; the build the larger half of the job.
+  Reviewed by Vision (2026-10-25, 5 of 5 checks); one delete mid-work against rule 12,
+  self-reported. #422 next in the issue lane, warm
+  ([prompt](../prompts/issue-lane-422-desk-stamps.md)), once #421 merges. Doc gaps for later:
+  `AGENTS.md`'s floor set by the longest entry (now the sum over four), and doctest's
+  `--duration` wrapping on WSL's stepped clock.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -775,6 +786,14 @@ owner at a time, and decisions before prompts.
    anchors" a mistake, citing the old `ui` rule "no 50% across" (gone with L1), and its
    keep-or-drop table dropped the quarry's percent insets; Vision passed both. Continued, hot
    ([continuation](../prompts/layout-modes-l2-snap-and-share.md)), after the rebase reports.
+   The rebase's run green (40201482311). Reported (2026-10-25,
+   [report](../reportbacks/layout-modes-l2-snap-and-share-RB.md)): #421 green at `64cfff6c`, nine
+   commits, the seven reviewed unchanged -- `fit` follows a switch at once, a pixel's wobble
+   held in the OS window alone (`d93d70c9`), and the `share` place (`64cfff6c`); the founder's
+   bar witnessed a third down at three sizes in both windows; 13 of 13 mutations; a power cut
+   mid-phase left a build tree with empty outputs, set aside and rebuilt. Reviewed by Vision
+   (2026-10-25, 10 of 10 checks): ready to merge. In the terminal 33.33% floors a 24-row room's
+   third to row 7; 33.34% lands on 8.
 3. Settings stages 4 to 6 wait for that owner.
 4. ~~Every phase's fence: Workshop's weave takes fewer kinds of message after it.~~ Off until
    Workshop is release-ready (the founder, 2026-10-19); the fences are revisited then. The
