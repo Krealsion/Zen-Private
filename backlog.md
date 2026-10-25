@@ -667,11 +667,13 @@ owner at a time, and decisions before prompts.
    ([continuation](../prompts/desk-split-d1-continued.md)); the restore notice as it is.
    The founder's direction (2026-10-25): the notice line cut out of Workshop's shell into an
    explorable pane of past notices -- capped at 100 with a setting to raise it, the rows
-   helpers, the wheel alone and no selector, pure information, a sister to Attention; after
-   D1. Vision's notes for its prompt: it changes `limitations.md`'s absence by decision (no
-   history of what stopped being true); the record kept by a small weave its pane walks, as
-   the Terminal's history is the participant's, and running before Workshop's startup notes;
-   the pane on the default desk if the band's line goes.
+   helpers, no selector, pure information, a sister to Attention; after D1. It scrolls by the
+   wheel, required but not the only path: `up` and `down` too, best if the wheel and the keys
+   resolve to the same action (the founder, 2026-10-25). Vision's notes for its prompt: it
+   changes `limitations.md`'s absence by decision (no history of what stopped being true); the
+   record kept by a small weave its pane walks, as the Terminal's history is the participant's,
+   and running before Workshop's startup notes; the pane on the default desk if the band's line
+   goes.
    Layout choices beyond pixels (the founder, 2026-10-20): a share of the parent, a fit to what a
    pane holds, a fill, as the quarry's `CustomLayout` had, through a solver that turns them into
    the pixels each object needs. Researched read-only beside G1
