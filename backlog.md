@@ -718,6 +718,10 @@ owner at a time, and decisions before prompts.
    Workshop's old rule of handing only offered panes). The reload not witnessed live (the kit's
    fresh project lists no pane recipe), its real-image case standing for it. Owed later: the
    held-row gate is cased for the Terminal and Attention alone, of eight panes.
+   #421 merged (`1c47049`). D3, a pane's close the owner's, prompted, warm, to the main lane
+   beside #422 ([prompt](../prompts/desk-split-d3.md), 2026-10-25). Then the notices pane, once
+   #422 merges (it reshapes the bottom band in the files #422 holds), and settings stage 4 (the
+   settings weave applying themes) once its research is read again against the owner.
    The founder's direction (2026-10-25): the notice line cut out of Workshop's shell into an
    explorable pane of past notices -- capped at 100 with a setting to raise it, the rows
    helpers, no selector, pure information, a sister to Attention; after D1. It scrolls by the
