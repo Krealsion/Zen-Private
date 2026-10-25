@@ -675,6 +675,16 @@ owner at a time, and decisions before prompts.
    abort. The founder (2026-10-25), choice 7: an agent's desk replaces the live one while a
    menu is open, and Workshop puts the menu down. Continued, hot
    ([continuation](../prompts/desk-split-d1-continued.md)); the restore notice as it is.
+   Reported (2026-10-25, [report](../reportbacks/desk-split-d1-continued-RB.md)): #415 green at
+   `9af155e4` on `d433a687` -- the batch's file written after its whole (W16), the menu put
+   down when another desk goes live (W17), the pages, the `-s` case; 17 of 17 mutations caught.
+   Reviewed by Vision (2026-10-25, 14 of 14 checks): ready to merge as it stands. Asked of the
+   founder, choice 4: an agent's desk no longer clears the selection or the keyboard, as
+   `main`'s handler did (the report names only the selection); Vision's lean, keep it -- a
+   layout switch never cleared them, and a keyboard taken mid-typing sends the weaver's next
+   letters to Workshop's own keys. Found: `external-host.md` still gives Workshop a guest's
+   settings ask, folded into D2's pages; the same `-s` abort waits in nine more assertions,
+   each fixed at its case's next change.
    D2, the hand-off of a row's settings leaving Workshop for the owner, prompted, warm, to the
    issue lane once D1 merges ([prompt](../prompts/desk-split-d2.md), 2026-10-25): the owner
    hands each seated pane its row and keeps what a pane cannot use; a pane asks for its row on
