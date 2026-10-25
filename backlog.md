@@ -301,6 +301,18 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   ([prompt](../prompts/issue-lane-422-desk-stamps.md)), once #421 merges. Doc gaps for later:
   `AGENTS.md`'s floor set by the longest entry (now the sum over four), and doctest's
   `--duration` wrapping on WSL's stepped clock.
+  #422 reported (2026-10-25, [report](../reportbacks/issue-lane-422-desk-stamps-RB.md)): #423
+  green at `7ceda8e7` on `1c470497` -- one solve of the desk (`solve_desk`) answers `bounds_of`
+  for its other callers and `desk_bounds` for the stamps, so a publish lays the desk out once
+  (`laid_desk`), and once more through `desk_view` when the desk number is owed; nothing keeps a
+  layout past its call; no case or floor touched. The case alone under the sanitizer build: 151
+  to 84 s, 655,835 layouts to 100,133 over the same 1,007 publishes. Reviewed by Vision with D3's
+  #424 (2026-10-25, 21 of 21 checks across both): ready; its hosted before-and-after (Info 1,837
+  to 1,290 s) weak beside the runners' swing, the count the proof. Both merge now, #423 first, as
+  merge commits (the founder, 2026-10-25). Found: `main`'s hosted entries ran far longer at
+  `1c470497` than #419 recorded at `f9018ad9`, untraced; the 93,618 layouts left are other
+  readers solving the whole desk for one pane (a hit test, a cover, the compose and arrange
+  paths), hooked outside #422's fences.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -722,6 +734,21 @@ owner at a time, and decisions before prompts.
    beside #422 ([prompt](../prompts/desk-split-d3.md), 2026-10-25). Then the notices pane, once
    #422 merges (it reshapes the bottom band in the files #422 holds), and settings stage 4 (the
    settings weave applying themes) once its research is read again against the owner.
+   D3 reported (2026-10-25, [report](../reportbacks/desk-split-d3-RB.md)): #424 green at
+   `e8eba4e6` on `1c470497` -- the owner takes `PaneCloseRequested` from an office (personal
+   speech answered aloud, closing nothing) and the row with its settings and locks, answering
+   `PaneCloseAnswered` v2 naming both; the Pane Manager, the quick setup and Info ask the owner,
+   Workshop's door gone and nothing relaying; the toggle stays Workshop's, its hide Workshop's own
+   unseat; the store's `unseat` now fills `LayoutEditAnswered.unlocked`. Workshop takes 77 and
+   sends 56, the owner 18 and 18; Workshop's weave 57 lines lighter; 9 of 29 cases red at START,
+   10 of 10 mutations caught. Reviewed by Vision with #423 (2026-10-25, 21 of 21 checks across
+   both): ready; the pair merges clean, sharing only `workshop/weave.hpp`, the text checks passing
+   on it. Choice 2 kept (the founder, 2026-10-25, as Vision leaned): the palette hands the keys
+   back whenever its row leaves the desk, whatever took it. Both merge now, #423 then #424, as
+   merge commits (the founder, 2026-10-25), `main`'s push run checking the pair; with it the
+   split's three stages are in. Hooked: a toggle judging a stale copy while an office's close is
+   in flight, refused aloud, not cased; a close's sentence with two composers. Doc gap:
+   `agents/decisions/three-places.md` still names `close_pane`.
    The founder's direction (2026-10-25): the notice line cut out of Workshop's shell into an
    explorable pane of past notices -- capped at 100 with a setting to raise it, the rows
    helpers, no selector, pure information, a sister to Attention; after D1. It scrolls by the
