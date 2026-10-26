@@ -573,7 +573,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   widens the quick setup's closed grant (WL-FIRST-03). L1's report asks one decision: "Start
   here" at later starts without the keys, Workshop's one launch always focusing (WL-DESK-03);
   its recommendation, a second version of the launch ask that seats without the keys, in F2,
-  Vision agreeing (a general door, weaker than today's launch);
+  Vision agreeing (a general door, weaker than today's launch). #435 merged (`887bed5e`). F2 is
+  #440 ([report](../reportbacks/start-here-l1-rebase-RB.md)): launch v2 with `keys` false taken as
+  recommended, green on every job, the tally story walked from Start here, every box ticked by
+  its fact; P3 sent on beside it, not waiting ([addition](../prompts/start-here-p3.md), hot).
+  Its report asks one call: Show me opens the step's pane over Start here, covering its words;
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
