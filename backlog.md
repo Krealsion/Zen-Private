@@ -338,6 +338,15 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   audit's clones, 250 MB of the WASM archives.
   WAMR probed in the main lane, warm ([prompt](../prompts/wamr-probe-research.md), 2026-10-25):
   the founder wants to know whether it is significantly impactful before the loader stage.
+  WAMR reported (2026-10-26, [report](../reportbacks/wamr-probe-research-RB.md)), cut short at
+  the founder's word once its check-in answered him: it changes none of the calls -- Wasmtime
+  in Loom's kernel, bounded by fuel. 21 to 51 times smaller and far quicker to load, its AOT
+  about as fast, but its fast modes lose a weave's exceptions and a thread-free step bound, AOT
+  stopped no spin, and on Windows AOT needs a host without high-entropy ASLR. Reopened only by
+  the current exception form outside its slowest mode and a thread-free step bound in compiled
+  code. Reviewed by Vision (2026-10-26, 8 of 8 checks). Wasmtime's choice is the founder's at
+  the loader stage. The MCP adapter next, beside the lanes, building nothing (the founder,
+  2026-10-26; [prompt](../prompts/mcp-elh-experiment.md), warm).
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -783,6 +792,8 @@ owner at a time, and decisions before prompts.
    record kept by a small weave its pane walks, as the Terminal's history is the participant's,
    and running before Workshop's startup notes; the pane on the default desk if the band's line
    goes.
+   Prompted to the main lane, warm ([prompt](../prompts/notices-pane.md), 2026-10-26), the MCP
+   experiment beside it.
    Layout choices beyond pixels (the founder, 2026-10-20): a share of the parent, a fit to what a
    pane holds, a fill, as the quarry's `CustomLayout` had, through a solver that turns them into
    the pixels each object needs. Researched read-only beside G1
