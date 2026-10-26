@@ -375,6 +375,19 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   and the demo the founder asked for -- one live weave reloaded from its native build into its
   module and back under a stream of messages, nothing lost. Wasmtime the runtime, the research's
   choice (the founder, 2026-10-26); started.
+  Both reported (2026-10-26). Zengine #429 (fixes #428,
+  [report](../reportbacks/issue-lane-act-hears-refusals-RB.md)): `act` follows `NoticeSaid`
+  before its first press, a refusal its own press caused fails the step in Workshop's words,
+  UNRESOLVED over a gap or an end, a row that cannot hear said so; the guide's three window
+  pictures retaken; the leftovers filed, not taken: #430, #431, #432. Loom #72
+  ([report](../reportbacks/wasm-tier-s1-RB.md)): the kernel loads a `.wasm` behind
+  `LOOM_ENABLE_WASM`; a live counter reloaded native -> module -> native while 320 asks were
+  answered in order, two refused reloads leaving it untouched, on WSL, MinGW-w64 and MSVC; the
+  bus held 76-88 ms into the box and under 1 ms back. Reviewed by Vision (2026-10-26, 25 of 25
+  checks): both ready, independent, any order. Hooked: a refusal an owner says in its answer
+  carries no press, so `act` cannot hear it; the box's own lines go to the host's standard error,
+  which a terminal window covers (S4, S5); a refused module costs a compile; `containment_note()`
+  silent on boxes (S2).
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -835,7 +848,7 @@ owner at a time, and decisions before prompts.
    once, in the unit the first window names, whether or not another notice came first --
    WL-SESSION-14's "unless another was said since" overruled, no reason found to keep it -- so
    `say_again` and the record's replace-in-place go; filed as a `ready` issue for a later batch,
-   not taken ([addition](../prompts/issue-lane-act-hears-refusals-say-once.md), hot).
+   not taken: #432 ([addition](../prompts/issue-lane-act-hears-refusals-say-once.md), hot).
    Layout choices beyond pixels (the founder, 2026-10-20): a share of the parent, a fit to what a
    pane holds, a fill, as the quarry's `CustomLayout` had, through a solver that turns them into
    the pixels each object needs. Researched read-only beside G1
