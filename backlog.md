@@ -373,8 +373,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   issue lane (2026-10-26). The WASM tier's stage 1 next, in the main lane, warm
   ([prompt](../prompts/wasm-tier-s1.md)): the loader in Loom's kernel as the research drew it,
   and the demo the founder asked for -- one live weave reloaded from its native build into its
-  module and back under a stream of messages, nothing lost. Wasmtime written in as the runtime,
-  the research's choice, the founder's to confirm.
+  module and back under a stream of messages, nothing lost. Wasmtime the runtime, the research's
+  choice (the founder, 2026-10-26); started.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
