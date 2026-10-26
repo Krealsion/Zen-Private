@@ -498,7 +498,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   (#436), #441 (#432), #442 (#437) and #443 (#431), reviewed by Vision (2026-10-26, 70 of 73
   checks; open: #443's MSVC and sanitizer tests, the lane's report): all five right, any order,
   clean together and on #440; #443 once green. #441's one surviving mutant, the latest window's
-  unit for the first's, no order of offers reaches. The Perspectives Lab,
+  unit for the first's, no order of offers reaches. All five merged (`8478e238`); its report
+  read, 40 of 40. Next in the issue lane (the founder, 2026-10-26,
+  [prompt](../prompts/issue-lane-notice-manual-drawing.md), warm): the editor switch's status
+  notice; the manual page's two gaps (the form is on `manual/docs/manual.md`, which L1's report
+  missed, searching `docs/` and `agents/` alone); then #418. The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
   2026-10-24), triage and ui settled after them; git, pairing and tailoring drafted, reviewed
   by Vision (2026-10-25): each seat its option A; git's seam yes, naming how its office
@@ -589,9 +593,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   remappable row ("press Run" stays true). Show me over Start here, Vision's read: leave it,
   the pane in front is where the move happens; seating beside is the desk's arranging, not the
   asker's. Older than F2, for the issue lane: the editor switch's status is said in Notices at
-  each start, the first notice a stranger reads. #440 merged (`23bcc8c6`). All four closed after
-  P3 by the main lane (the founder, 2026-10-26, [addition](../prompts/start-here-polish.md),
-  hot): F2's three in one pull request, the notice in its own;
+  each start, the first notice a stranger reads. #440 merged (`23bcc8c6`). F2's three closed
+  after P3 by the main lane (the founder, 2026-10-26,
+  [addition](../prompts/start-here-polish.md), hot), the notice by the issue lane;
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
