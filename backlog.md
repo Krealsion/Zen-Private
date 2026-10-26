@@ -347,6 +347,16 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   code. Reviewed by Vision (2026-10-26, 8 of 8 checks). Wasmtime's choice is the founder's at
   the loader stage. The MCP adapter next, beside the lanes, building nothing (the founder,
   2026-10-26; [prompt](../prompts/mcp-elh-experiment.md), warm).
+  S0a and S0b reported (2026-10-26, [report](../reportbacks/issue-lane-tools-by-reach-RB.md)):
+  Loom #68 (`basics-machine`, and `tool_reach`, the reach check, in each repository), Zengine
+  #426 (`workshop` 21 message tools, `workshop-machine` 11, `desk-machine` the reader and the
+  watcher) and Loom #69 (`ArtifactRead`), each green on every job. Reviewed by Vision
+  (2026-10-26, 20 of 20 checks): all ready. Found: the out/ check compares paths by prefix and
+  shares one error code, giving no one anything today; a ready issue (the founder). The founder
+  merged #426 (`52851dc0`) and #69 (`6fae24d2`); #68 rebases overnight over one line of
+  `docs/CONTEXT.md`, and the out/ fix follows, both in the issue lane
+  ([continuation](../prompts/issue-lane-tools-by-reach-continued.md), hot), merged in the
+  morning. The MCP and notices prompts updated for the merges.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
