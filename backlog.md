@@ -402,7 +402,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   reviewed by Vision (2026-10-26, 3 of 4 checks): each output's row now carries its text
   (`text`, `text_cut`, `not_inlined`), adapter 0.1.1; its witness red 16 of 17, then 17 of 17 on
   both hosts. Open: the live check through the app, after the founder restarts Workshop (closed
-  at 18:48:58 UTC) and the app; the weaver case, on 0.1.3.
+  at 18:48:58 UTC) and the app; the weaver case, on 0.1.3. The founder (2026-10-26): sound
+  enough to push on; the live check waits for a lane left empty.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -560,12 +561,15 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   announcement (the founder, 2026-10-26): V1 in the issue lane
   ([prompt](../prompts/issue-lane-view-wiring.md), warm); L1, F2 and P3 in the main lane
   ([prompt](../prompts/start-here.md), warm), F2 waiting for V1 on `main`. #434 (V1, fixes
-  #433) and #435 (L1) reviewed by Vision (2026-10-26, 32 of 36 checks; open: the sanitizer job's
-  tests on both, #434's MSVC job, the issue lane's report): both right. #434 first; then #435
-  rebased over it, one adjacent row of `tests/test_population.txt`, and F2 stacked on it
+  #433) and #435 (L1) reviewed by Vision (2026-10-26, 36 of 36 checks, every job green, ASan
+  35:37 and 30:52, both reports read): both right. #434 merged (`09d316ca`); #435 rebased over
+  it, only a neighbouring row of `tests/test_population.txt` changed (`2daa2da5`), F2 next on it
   ([addition](../prompts/start-here-l1-rebase.md), hot). Nothing wrote `app-session.json` (`main`
   reserved its name; Vision's baseline said the host wrote it): L1 has the app host write it. F2
-  widens the quick setup's closed grant (WL-FIRST-03);
+  widens the quick setup's closed grant (WL-FIRST-03). L1's report asks one decision: "Start
+  here" at later starts without the keys, Workshop's one launch always focusing (WL-DESK-03);
+  its recommendation, a second version of the launch ask that seats without the keys, in F2,
+  Vision agreeing (a general door, weaker than today's launch);
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
