@@ -577,7 +577,15 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   #440 ([report](../reportbacks/start-here-l1-rebase-RB.md)): launch v2 with `keys` false taken as
   recommended, green on every job, the tally story walked from Start here, every box ticked by
   its fact; P3 sent on beside it, not waiting ([addition](../prompts/start-here-p3.md), hot).
-  Its report asks one call: Show me opens the step's pane over Start here, covering its words;
+  Its report asks one call: Show me opens the step's pane over Start here, covering its words.
+  #440 reviewed by Vision (2026-10-26, 24 of 24 checks, five pictures read): right and ready,
+  every job green, clean beside the issue lane's five. A polish after P3: long lines clipped
+  at both panes' right edge (each step's "ticked when" cut off); getting-started's fresh-desk
+  sentence without Notices, above its own new picture; step 1's move naming `ctrl+r` for a
+  remappable row ("press Run" stays true). Show me over Start here, Vision's read: leave it,
+  the pane in front is where the move happens; seating beside is the desk's arranging, not the
+  asker's. Before F2, for the issue lane: the editor switch's status is said in Notices at
+  each start, the first notice a stranger reads;
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
