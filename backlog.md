@@ -398,6 +398,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   pane's id only by trying one: the adapter sends them as text beside a structured record,
   and the app shows the record for a passed run. The founder (2026-10-26): fix it, beside the
   lanes ([prompt](../prompts/mcp-elh-text-outputs.md), warm), with the weaver case on 0.1.3.
+  Done beside the lanes (Zen `d9f38be4`, [report](../reportbacks/mcp-elh-text-outputs-RB.md)),
+  reviewed by Vision (2026-10-26, 3 of 4 checks): each output's row now carries its text
+  (`text`, `text_cut`, `not_inlined`), adapter 0.1.1; its witness red 16 of 17, then 17 of 17 on
+  both hosts. Open: the live check through the app, after the founder restarts Workshop (closed
+  at 18:48:58 UTC) and the app; the weaver case, on 0.1.3.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -554,7 +559,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   small follow-ups need prompts, not research. The rest, "Start here", before the alpha's
   announcement (the founder, 2026-10-26): V1 in the issue lane
   ([prompt](../prompts/issue-lane-view-wiring.md), warm); L1, F2 and P3 in the main lane
-  ([prompt](../prompts/start-here.md), warm), F2 waiting for V1 on `main`;
+  ([prompt](../prompts/start-here.md), warm), F2 waiting for V1 on `main`. #434 (V1, fixes
+  #433) and #435 (L1) reviewed by Vision (2026-10-26, 32 of 35 checks; open: the sanitizer job's
+  tests on both, #434's MSVC job, the issue lane's report): both right. #434 first; then #435
+  rebased over it, one adjacent row of `tests/test_population.txt`, and F2 stacked on it
+  ([addition](../prompts/start-here-l1-rebase.md), hot). Nothing wrote `app-session.json` (`main`
+  reserved its name; Vision's baseline said the host wrote it): L1 has the app host write it. F2
+  widens the quick setup's closed grant (WL-FIRST-03);
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
