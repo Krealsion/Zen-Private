@@ -395,7 +395,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   from Inventory into Info, a scalar edited, saved as a new copy, read again fresh -- eight runs,
   every one passed. Found: a run's JSON outputs (`rows`, `desk`) are not handed back inline, so
   a client with no reach to the run's folder sees pictures and summaries alone, and finds a
-  pane's id only by trying one.
+  pane's id only by trying one: the adapter sends them as text beside a structured record,
+  and the app shows the record for a passed run. The founder (2026-10-26): fix it, beside the
+  lanes ([prompt](../prompts/mcp-elh-text-outputs.md), warm), with the weaver case on 0.1.3.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
