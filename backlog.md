@@ -320,6 +320,22 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   ([prompt](../prompts/loom-only-tools-research.md)), then the WASM tier in the issue lane, its
   probe building ([prompt](../prompts/wasm-tier-research.md)). MCP after them, an experiment
   outside both repositories for trusted agents first; an agent without a shell waits on both.
+  Both reported (2026-10-25). The tools audit
+  ([report](../reportbacks/loom-only-tools-research-RB.md)): 27 of 39 tools reach nothing but
+  the bus and a clock, 12 the machine; a guest's script beside Workshop would act as the weaver
+  (`workshop/actor_scope.hpp`), so it runs at the session host; 8 language forms and 7 doors;
+  after every stage 2 tools stay Python, `repo` and `steps`. The WASM tier
+  ([report](../reportbacks/wasm-tier-research-RB.md)): a Loom weave builds for WASM unchanged,
+  and one module answers through the gate on Linux and Windows, about 2 us a round trip over
+  native, every door kept (B2's child answers nothing); a third loader in Loom's kernel,
+  optional. Reviewed by Vision (2026-10-25, 21 of 21 checks across both). The founder
+  (2026-10-25): a guest's script runs at the agent's host; WAMR probed before the loader stage,
+  Wasmtime not yet chosen; S0a and S0b next, in the issue lane
+  ([prompt](../prompts/issue-lane-tools-by-reach.md), warm); the rest stand as recommended.
+  Found: Wasmtime is Tier 2 on MinGW, and MSYS2 builds it for ucrt64 and clang64, not the kit's
+  mingw64; a box's office, sense and deferred doors are by construction until the tier's S3;
+  ASan beside Wasmtime's traps untested. Scratch kept for remaking the numbers: 514 MB of the
+  audit's clones, 250 MB of the WASM archives.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
