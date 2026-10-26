@@ -560,7 +560,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   announcement (the founder, 2026-10-26): V1 in the issue lane
   ([prompt](../prompts/issue-lane-view-wiring.md), warm); L1, F2 and P3 in the main lane
   ([prompt](../prompts/start-here.md), warm), F2 waiting for V1 on `main`. #434 (V1, fixes
-  #433) and #435 (L1) reviewed by Vision (2026-10-26, 32 of 35 checks; open: the sanitizer job's
+  #433) and #435 (L1) reviewed by Vision (2026-10-26, 32 of 36 checks; open: the sanitizer job's
   tests on both, #434's MSVC job, the issue lane's report): both right. #434 first; then #435
   rebased over it, one adjacent row of `tests/test_population.txt`, and F2 stacked on it
   ([addition](../prompts/start-here-l1-rebase.md), hot). Nothing wrote `app-session.json` (`main`
