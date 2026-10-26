@@ -387,7 +387,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   checks): both ready, independent, any order. Hooked: a refusal an owner says in its answer
   carries no press, so `act` cannot hear it; the box's own lines go to the host's standard error,
   which a terminal window covers (S4, S5); a refused module costs a compile; `containment_note()`
-  silent on boxes (S2).
+  silent on boxes (S2). The founder merged both and ran the demo himself, every requirement met
+  (2026-10-26). Asked how Vision may work in a Workshop through the adapter: package 0.1.2 with
+  Zengine at `52851dc0` (its witnessed pair), `--only workshop,desk`, steps given; 0.1.3 and
+  `main` once the night's package publishes.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -541,7 +544,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   other researches Vision weighed, for the founder to choose among: the release package refreshed
   (once G2 reaches stage 7); G2's stages 6 and 7 split across both lanes; where the suites' time
   goes (ASan back at 60); Zenscript; the snake demo finalized. Step 7 (C1, L2, C2) and Loom's three
-  small follow-ups need prompts, not research;
+  small follow-ups need prompts, not research. The rest, "Start here", before the alpha's
+  announcement (the founder, 2026-10-26): V1 in the issue lane
+  ([prompt](../prompts/issue-lane-view-wiring.md), warm); L1, F2 and P3 in the main lane
+  ([prompt](../prompts/start-here.md), warm), F2 waiting for V1 on `main`;
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
@@ -606,7 +612,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   A1: Zengine's two claims of one process starter (`builder/run.hpp`, the build runner's
   manual) are stale since the Neovim editor's child (the research's doc gaps 2 and 3);
 - the snake demo finalized; a way to the demos in place of a runner pane: Files at the demos, a
-  right-click to run one (its shape open, 2026-10-21);
+  right-click to run one (its shape open, 2026-10-21). The way is in: Files' `go to the demos`,
+  a setup started from its menu (A3); the snake's simplification (BL-WORK-40) not ordered;
 - the README's new preface, the founder's.
 
 Other tools surveyed for layouts and small features, licenses checked
