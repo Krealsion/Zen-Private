@@ -585,7 +585,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   remappable row ("press Run" stays true). Show me over Start here, Vision's read: leave it,
   the pane in front is where the move happens; seating beside is the desk's arranging, not the
   asker's. Older than F2, for the issue lane: the editor switch's status is said in Notices at
-  each start, the first notice a stranger reads;
+  each start, the first notice a stranger reads. #440 merged (`23bcc8c6`). All four closed after
+  P3 by the main lane (the founder, 2026-10-26, [addition](../prompts/start-here-polish.md),
+  hot): F2's three in one pull request, the notice in its own;
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
