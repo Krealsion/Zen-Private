@@ -369,6 +369,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   hears its refusals, in the issue lane once #427 merges, with the kit's fix and the round's two
   leftovers filed ([prompt](../prompts/issue-lane-act-hears-refusals.md), warm). The adapter's
   desktop-app steps are the founder's (`pass-tools/mcp-elh/README.md`).
+  The founder merged #427 (`1c603eac`), #68 (`f9c38dc2`) and #71 (`57372ba8`) and started the
+  issue lane (2026-10-26). The WASM tier's stage 1 next, in the main lane, warm
+  ([prompt](../prompts/wasm-tier-s1.md)): the loader in Loom's kernel as the research drew it,
+  and the demo the founder asked for -- one live weave reloaded from its native build into its
+  module and back under a stream of messages, nothing lost. Wasmtime written in as the runtime,
+  the research's choice, the founder's to confirm.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -825,6 +831,11 @@ owner at a time, and decisions before prompts.
    `notices.md`; a refusal leaves the band, so `act` hears it next (the untrusted-code item). The
    founder (2026-10-26): a page's pictures of the old band wait until the page next changes. Open:
    whether a pane edits `keep`, today a message and a file.
+   Merged (`1c603eac`, 2026-10-26). The founder (2026-10-26): the restore's sentence is said
+   once, in the unit the first window names, whether or not another notice came first --
+   WL-SESSION-14's "unless another was said since" overruled, no reason found to keep it -- so
+   `say_again` and the record's replace-in-place go; filed as a `ready` issue for a later batch,
+   not taken ([addition](../prompts/issue-lane-act-hears-refusals-say-once.md), hot).
    Layout choices beyond pixels (the founder, 2026-10-20): a share of the parent, a fit to what a
    pane holds, a fill, as the quarry's `CustomLayout` had, through a solver that turns them into
    the pixels each object needs. Researched read-only beside G1
