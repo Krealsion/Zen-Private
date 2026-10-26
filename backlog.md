@@ -566,7 +566,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   ([prompt](../prompts/start-here.md), warm), F2 waiting for V1 on `main`. #434 (V1, fixes
   #433) and #435 (L1) reviewed by Vision (2026-10-26, 36 of 36 checks, every job green, ASan
   35:37 and 30:52, both reports read): both right. #434 merged (`09d316ca`); #435 rebased over
-  it, only a neighbouring row of `tests/test_population.txt` changed (`2daa2da5`), F2 next on it
+  it, only a neighbouring row of `tests/test_population.txt` changed (`2daa2da5`), its run
+  green again (ASan 36:14) and ready; F2 next on it
   ([addition](../prompts/start-here-l1-rebase.md), hot). Nothing wrote `app-session.json` (`main`
   reserved its name; Vision's baseline said the host wrote it): L1 has the app host write it. F2
   widens the quick setup's closed grant (WL-FIRST-03). L1's report asks one decision: "Start
