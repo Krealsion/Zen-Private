@@ -357,6 +357,18 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   `docs/CONTEXT.md`, and the out/ fix follows, both in the issue lane
   ([continuation](../prompts/issue-lane-tools-by-reach-continued.md), hot), merged in the
   morning. The MCP and notices prompts updated for the merges.
+  The overnight round reported (2026-10-26): #68 rebased at `312e3e20`, and the out/ check filed
+  as Loom #70 and fixed in #71 at `661cd9f6`, by whole path parts
+  ([report](../reportbacks/issue-lane-tools-by-reach-continued-RB.md)); the MCP adapter, built in
+  `pass-tools/mcp-elh` and witnessed on package 0.1.2, 16 of 16 cases under each host
+  ([report](../reportbacks/mcp-elh-experiment-RB.md)). Reviewed by Vision with #427 (2026-10-26,
+  20 of 20 checks): Loom #68, Loom #71 and Zengine #427 ready, to merge in any order. Found: on a
+  weaver's host `act` passes a press Workshop refuses; the kit's witness approves neither
+  `-machine` package and names `desk/read`; `demo.py` does not approve `ArtifactPage`, which a
+  demo root's reads by message need once a package carries #69. The founder (2026-10-26): act
+  hears its refusals, in the issue lane once #427 merges, with the kit's fix and the round's two
+  leftovers filed ([prompt](../prompts/issue-lane-act-hears-refusals.md), warm). The adapter's
+  desktop-app steps are the founder's (`pass-tools/mcp-elh/README.md`).
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
@@ -804,6 +816,15 @@ owner at a time, and decisions before prompts.
    goes.
    Prompted to the main lane, warm ([prompt](../prompts/notices-pane.md), 2026-10-26), the MCP
    experiment beside it.
+   Reported (2026-10-26, [report](../reportbacks/notices-pane-RB.md)): #427 green on every job
+   at `aa95c41b` -- Workshop publishes each thing it says once (`NoticeSaid`), the record
+   (`zengine.notices`) keeps 100 and up to 1000, the Notices pane walks it by up, down and the
+   wheel as one action, the band the legend's three rows, the pane on the default desk; 16 of 17
+   mutations caught, one equivalent. Reviewed by Vision with the overnight round (2026-10-26, 20
+   of 20 checks): ready. Found: the record's two headers route their law to `attention.md`, not
+   `notices.md`; a refusal leaves the band, so `act` hears it next (the untrusted-code item). The
+   founder (2026-10-26): a page's pictures of the old band wait until the page next changes. Open:
+   whether a pane edits `keep`, today a message and a file.
    Layout choices beyond pixels (the founder, 2026-10-20): a share of the parent, a fit to what a
    pane holds, a fill, as the quarry's `CustomLayout` had, through a solver that turns them into
    the pixels each object needs. Researched read-only beside G1
