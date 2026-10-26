@@ -391,6 +391,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   (2026-10-26). Asked how Vision may work in a Workshop through the adapter: package 0.1.2 with
   Zengine at `52851dc0` (its witnessed pair), `--only workshop,desk`, steps given; 0.1.3 and
   `main` once the night's package publishes.
+  Wired the same day; Vision drove the `values` setup from a Cowork task through it: a drag
+  from Inventory into Info, a scalar edited, saved as a new copy, read again fresh -- eight runs,
+  every one passed. Found: a run's JSON outputs (`rows`, `desk`) are not handed back inline, so
+  a client with no reach to the run's folder sees pictures and summaries alone, and finds a
+  pane's id only by trying one.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
