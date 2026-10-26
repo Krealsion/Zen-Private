@@ -336,6 +336,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   mingw64; a box's office, sense and deferred doors are by construction until the tier's S3;
   ASan beside Wasmtime's traps untested. Scratch kept for remaking the numbers: 514 MB of the
   audit's clones, 250 MB of the WASM archives.
+  WAMR probed in the main lane, warm ([prompt](../prompts/wamr-probe-research.md), 2026-10-25):
+  the founder wants to know whether it is significantly impactful before the loader stage.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
