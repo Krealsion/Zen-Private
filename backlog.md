@@ -494,7 +494,11 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   and the Composer's comment once #64 merges. Taken with #430, #431 and #432 as the issue
   lane's round (the founder, 2026-10-26, [prompt](../prompts/issue-lane-leftovers.md), warm),
   one pull request per issue as the repository asks; the Composer's comment already right on
-  `main`, the fresh-desk page and picture F2's. The Perspectives Lab,
+  `main`, the fresh-desk page and picture F2's. Filed #436 and #437; taken as #438 (#430), #439
+  (#436), #441 (#432), #442 (#437) and #443 (#431), reviewed by Vision (2026-10-26, 70 of 73
+  checks; open: #443's MSVC and sanitizer tests, the lane's report): all five right, any order,
+  clean together and on #440; #443 once green. #441's one surviving mutant, the latest window's
+  unit for the first's, no order of offers reaches. The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
   2026-10-24), triage and ui settled after them; git, pairing and tailoring drafted, reviewed
   by Vision (2026-10-25): each seat its option A; git's seam yes, naming how its office
