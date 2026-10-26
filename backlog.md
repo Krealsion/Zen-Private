@@ -584,7 +584,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   sentence without Notices, above its own new picture; step 1's move naming `ctrl+r` for a
   remappable row ("press Run" stays true). Show me over Start here, Vision's read: leave it,
   the pane in front is where the move happens; seating beside is the desk's arranging, not the
-  asker's. Before F2, for the issue lane: the editor switch's status is said in Notices at
+  asker's. Older than F2, for the issue lane: the editor switch's status is said in Notices at
   each start, the first notice a stranger reads;
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
