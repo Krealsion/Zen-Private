@@ -379,7 +379,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   [report](../reportbacks/issue-lane-act-hears-refusals-RB.md)): `act` follows `NoticeSaid`
   before its first press, a refusal its own press caused fails the step in Workshop's words,
   UNRESOLVED over a gap or an end, a row that cannot hear said so; the guide's three window
-  pictures retaken; the leftovers filed, not taken: #430, #431, #432. Loom #72
+  pictures retaken; the leftovers filed, not taken: #430, #431, #432 (taken, below). Loom #72
   ([report](../reportbacks/wasm-tier-s1-RB.md)): the kernel loads a `.wasm` behind
   `LOOM_ENABLE_WASM`; a live counter reloaded native -> module -> native while 320 asks were
   answered in order, two refused reloads leaving it untouched, on WSL, MinGW-w64 and MSVC; the
@@ -491,7 +491,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   none, the catalog being exactly the panes Workshop's default plan loads, said on the page.
   Left for one small follow-up: the notice "an empty desk" after `=`, the old fresh-desk
   picture, the cheat sheet's opening claim that the checks hold each linked page to the code,
-  and the Composer's comment once #64 merges. The Perspectives Lab,
+  and the Composer's comment once #64 merges. Taken with #430, #431 and #432 as the issue
+  lane's round (the founder, 2026-10-26, [prompt](../prompts/issue-lane-leftovers.md), warm),
+  one pull request per issue as the repository asks; the Composer's comment already right on
+  `main`, the fresh-desk page and picture F2's. The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
   2026-10-24), triage and ui settled after them; git, pairing and tailoring drafted, reviewed
   by Vision (2026-10-25): each seat its option A; git's seam yes, naming how its office
