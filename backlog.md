@@ -313,6 +313,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   `1c470497` than #419 recorded at `f9018ad9`, untraced; the 93,618 layouts left are other
   readers solving the whole desk for one pane (a hit test, a cover, the compose and arrange
   paths), hooked outside #422's fences.
+  Untrusted code (the founder, 2026-10-25): an MCP server over the ELH, the `loom-host --serve`
+  session; WASM for isolation alone, its "one allowed access to the C ABI for Loom"; and the
+  session's Python tools encoded into Loom-only calls, `.zenscript`'s ground. Researched first,
+  both warm: the Loom-only tools audit, building nothing
+  ([prompt](../prompts/loom-only-tools-research.md)), then the WASM tier in the issue lane, its
+  probe building ([prompt](../prompts/wasm-tier-research.md)). MCP after them, an experiment
+  outside both repositories for trusted agents first; an agent without a shell waits on both.
   The issue lane's round, reviewed by Vision (2026-10-23, 31 of 32 checks, #394's sanitizer
   job still building): #389 (the demo note) and #391 (a red Linux job keeps its journeys) ready;
   #392 (#341, answer 1 for all ten) ready once its body names `d6b7c5c5`, its rebase identical;
