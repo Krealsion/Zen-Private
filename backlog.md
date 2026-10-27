@@ -520,7 +520,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   said record by a scan (bounded at 1,024); the kit's mutation script could count each
   mutant's text before anything builds, and a probe helper, asked twice; in the pictures, as
   before them, the terminal's Pane Manager covers Info's first column and the smallest
-  window's Notices covers Info. Then the repository's own mutants, the cases' claims kept under `tests/` and run every
+  window's Notices covers Info. Both merged (`a14946b1`). Then the repository's own mutants, the cases' claims kept under `tests/` and run every
   week (the founder, 2026-10-27, [prompt](../prompts/issue-lane-mutants-weekly.md), warm),
   after the walk's word fixes. The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
