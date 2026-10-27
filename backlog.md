@@ -2798,6 +2798,18 @@ form, only the chosen side spent, makes recursion end by its base case; sorting 
 in an operator. The calculator finds a limit too: a message has one trigger and a trigger writes
 one field, so a Then writing several fields is the founder's call; it needs the branch form too.
 
+The founder (2026-10-27), on the calculator: a press may change several things, and several
+messages may change the same field; every node listens, but only to its own message (and its
+condition), so pressing + computes no divide; an operator suite now, Math and comparators the
+first groups, more or fewer at Vision's word; the gear, yes. A second board on the same link:
+the calculator as four message rows, Digit, Op, Equals and Clear, each Then writing several
+fields; each node marked with the message it listens to and the condition it runs under; a step,
+apply, opening in place on four guarded operators, only the one whose condition holds running,
+divide refusing 0 and each refusing an answer too big to keep; a filter by message; the kept
+fields live; the gear on every pane. Vision's word on the suite: Logic too (and, or, not), since
+the `logic.` group holds only its two selects and a condition of two parts needs it; Lists with
+the quicksort, Text after.
+
 ### BL-WORK-35 — An app of its own, edited live from Workshop
 
 **State:** ISSUE — [Zengine#149](https://github.com/Krealsion/Zengine/issues/149) holds it now (filed by deep review, 2026-10-09).
