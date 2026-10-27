@@ -502,7 +502,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   read, 40 of 40. Next in the issue lane (the founder, 2026-10-26,
   [prompt](../prompts/issue-lane-notice-manual-drawing.md), warm): the editor switch's status
   notice; the manual page's two gaps (the form is on `manual/docs/manual.md`, which L1's report
-  missed, searching `docs/` and `agents/` alone); then #418. The Perspectives Lab,
+  missed, searching `docs/` and `agents/` alone); then #418. Filed #445 and #446; taken as #447
+  (#446), #449 (#445, `EditorSwitchQuietStatusRequested` v1, answered to its asker alone) and
+  #450 (#418: 48.68 -> 3.08 ms at 4,096 nodes, the one-node control unchanged); the report read,
+  33 of 33. Reviewed by Vision (2026-10-27): all three right and green; #447, #449, #444 and #448
+  merged (`200503b6`), #450 ready. Left: #448's quick-setup picture still shows the two status
+  lines; #418's body names a Zen path; the judge's removal step is still removed paths times
+  present nodes (11.77 ms at 4,096). The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
   2026-10-24), triage and ui settled after them; git, pairing and tailoring drafted, reviewed
   by Vision (2026-10-25): each seat its option A; git's seam yes, naming how its office
