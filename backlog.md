@@ -661,6 +661,14 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   (Windows' embeddable 11 MB, Linux's 34.5 MB) -- maybe later a second package set of the same
   name with `_python`, a one-stop shop for those without one -- and instead the README lists its
   dependencies, each linked to a "How to install these dependencies" page (the desk's round 2).
+  Merged 2026-10-27: #455, #462, #460, #461, #463, #464. `main` red from #463 on (`5797fbc7`):
+  `tutorial_walks`, build-your-first-pane step 20 -- Tally, opened from the Pane Manager, now stands
+  at the centre over part of it, so the walk's Ctrl+P brings the Manager forward, not away; each
+  pull request was green alone, and both joins (#459, #465) are red on it alone. Vision's call,
+  for the founder's yes: the toggle gives way -- Ctrl+P puts away a Manager the weaver comes
+  straight from, a covered one they moved on from still comes forward
+  ([desk fix](../prompts/desk-room-ctrl-p.md), [#459 after it](../prompts/issue-lane-459-again.md),
+  both hot).
   The founder's ideas of the day: [ideas-2026-10-27.md](ideas-2026-10-27.md);
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
