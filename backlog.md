@@ -595,7 +595,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   asker's. Older than F2, for the issue lane: the editor switch's status is said in Notices at
   each start, the first notice a stranger reads. #440 merged (`23bcc8c6`). F2's three closed
   after P3 by the main lane (the founder, 2026-10-26,
-  [addition](../prompts/start-here-polish.md), hot), the notice by the issue lane;
+  [addition](../prompts/start-here-polish.md), hot), the notice by the issue lane. P3 is #444,
+  the polish #448, reviewed by Vision (2026-10-27, 37 of 37 checks): both right and green; they
+  share one floor row (`workshop_panes_hand`, 223 with both), #444 first, #448's conflict
+  resolved on GitHub by the founder; the palette's start line is cut at its right edge. The
+  sprint's last window (the founder, 2026-10-27): reviews and merges before the nightly, then
+  the first five minutes walked cold from the package, building nothing, for next month's plan
+  at a quarter of the usage ([addition](../prompts/start-here-feel-walk.md), hot);
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
