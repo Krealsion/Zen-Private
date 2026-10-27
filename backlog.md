@@ -1076,6 +1076,11 @@ for human makers is good for agents; source code stays a first-class way to crea
 neither needed to get value from the other. These are directions and review points, not a session or
 pull request each; a useful slice lands when its evidence does.
 
+The founder's ideas of 2026-10-27, held back through the week and given after the feel walk, are
+sorted with a size each in [ideas-2026-10-27.md](ideas-2026-10-27.md); about a third repeat
+drafts of the UX batch, which waited on the manuals and the desk split, both now done. Nothing
+of it is started.
+
 1. **Documentation first** (the founder, 2026-10-14): docs stage C's manuals for every weave a
 weaver meets, in the form the Builder's set; tutorials wait for the stories. Writing them maps
 ownership (each piece of state's authoritative owner, writers, readers, lifetime and persistence,
