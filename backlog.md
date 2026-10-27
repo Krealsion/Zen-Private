@@ -1032,9 +1032,12 @@ owner at a time, and decisions before prompts.
    once at a batch's end. WSL gets 44 GB (one 8-job build peaked at 13 GB). The kit holds one
    slot until its change lands ([prompt](../prompts/kit-build-slots.md), warm), run first once
    the desk round and the three calls report. Then the wave: the main lane, the issue lane, one
-   for the View Builder and the data panes, one for text and input, and the Flow makeover as
-   mockups beside them, building nothing. Vision checks every name a prompt gives against
-   `main` before the prompt goes out. The lane opened 2026-10-19
+   for the View Builder and the data panes ([prompt](../prompts/lane-view-builder.md), warm:
+   a Discard button, the kinds below Grid, the canvas taking the width, then Project's scroll,
+   Loaded's search and Compose's fields), one for text and input
+   ([prompt](../prompts/lane-text-input.md), warm: the Terminal's Enter, Files' paths, the
+   Editor's right-press menu), and the Flow makeover as mockups beside them, building nothing.
+   Vision checks every name a prompt gives against `main` before the prompt goes out. The lane opened 2026-10-19
    ([prompt](../prompts/issue-lane-first-three.md)): no Zengine issue was `ready`, so three
    bounded seams clear of G1 are filed and taken (#330 to #332, merged). Next in the lane once
    #333 merges: `workshop_panes` broken up, the longest entry and the sanitizer job's limit,
