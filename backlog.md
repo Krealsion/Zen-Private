@@ -2787,7 +2787,16 @@ graph in three lanes, When, Do and Then, a wire into a kept field taking the res
 place; the rule read as a sentence, dashed where unfinished; a Next line with a button in place
 of Run's refusals; Ponder's bar (Run, Apply and Stop in sight, File and View menus); live values
 on wires and one Events line a message; a new message saying up front it needs a restart; and a
-nine-stop tour fading all but the part it explains. Waiting on the founder's feedback.
+nine-stop tour fading all but the part it explains. The founder (2026-10-27): "If we got flow
+looking like that, I would be very happy." His notes: the three parts kept as colour but given a
+larger space, since a quicksort or a calculator needs far more room to Do; the pane's three
+lines a gear. Vision's read: When docked at the left edge, Then at the right, Do the open canvas
+between, and a group folded into a step that opens in the same frame. Quicksort cannot work
+today: no built-in operator takes a list, every node runs (choose picks between answers already
+computed), so a step calling itself never stops and the evaluator refuses it 32 deep. A branch
+form, only the chosen side spent, makes recursion end by its base case; sorting itself belongs
+in an operator. The calculator finds a limit too: a message has one trigger and a trigger writes
+one field, so a Then writing several fields is the founder's call; it needs the branch form too.
 
 ### BL-WORK-35 — An app of its own, edited live from Workshop
 
