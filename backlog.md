@@ -1037,6 +1037,13 @@ owner at a time, and decisions before prompts.
    Loaded's search and Compose's fields), one for text and input
    ([prompt](../prompts/lane-text-input.md), warm: the Terminal's Enter, Files' paths, the
    Editor's right-press menu), and the Flow makeover as mockups beside them, building nothing.
+   The issue lane takes the mutants round, its corpus run in pieces through the slots
+   (`92ec26a0`), then files the UX batch. The main lane's next, written once desk-room is
+   reviewed: leaving with unsaved work asks in a box; Start here's step 4 naming its two
+   prerequisites, its hint out of the alert red; a pane's top right (its own close and move,
+   a box around each icon, the arrange markers boxed, the setup words a row lower); the Pane
+   Manager sorted, its wheel scrolling hidden rows first; the way in named in the package's
+   README and Getting started; the Hotkeys pane in accordions if room. Flow after it.
    Vision checks every name a prompt gives against `main` before the prompt goes out. The lane opened 2026-10-19
    ([prompt](../prompts/issue-lane-first-three.md)): no Zengine issue was `ready`, so three
    bounded seams clear of G1 are filed and taken (#330 to #332, merged). Next in the lane once
