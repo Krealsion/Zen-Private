@@ -2806,9 +2806,24 @@ the calculator as four message rows, Digit, Op, Equals and Clear, each Then writ
 fields; each node marked with the message it listens to and the condition it runs under; a step,
 apply, opening in place on four guarded operators, only the one whose condition holds running,
 divide refusing 0 and each refusing an answer too big to keep; a filter by message; the kept
-fields live; the gear on every pane. Vision's word on the suite: Logic too (and, or, not), since
-the `logic.` group holds only its two selects and a condition of two parts needs it; Lists with
-the quicksort, Text after.
+fields live; the gear on every pane. The suite, Logic added at Vision's word, is BL-WORK-48.
+
+### BL-WORK-48 — The operator suite: Math, comparators and Logic
+
+**State:** DECIDED, NOT ORDERED (the founder, 2026-10-27)  
+**Owed:** The operators to add, needed now: Flow's calculator (BL-WORK-32) runs on them. The
+default set is five Int primitives today (`math.add`, `math.max`, `compare.less_int`,
+`logic.select_bool`, `logic.select_int`; `operator/primitives.hpp`).
+
+- **Math**: subtract, multiply, divide (refuses 0), remainder (refuses 0), negate, abs, min; and
+  square root and logs, from the founder's simplified calculator (BL-WORK-11, 2026-10-12), which
+  want Float beside Int.
+- **Comparators**: equal, not equal, less or equal, greater, greater or equal.
+- **Logic**: and, or, not (Vision's word, taken by the founder, 2026-10-27): a condition of two
+  parts needs them, and the group holds only its two selects.
+- **Later**: Lists, with the quicksort (BL-WORK-32); Text after.
+
+**Source:** the founder and Vision, 2026-10-27.
 
 ### BL-WORK-35 — An app of its own, edited live from Workshop
 
