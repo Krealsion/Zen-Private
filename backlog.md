@@ -610,7 +610,18 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   resolved on GitHub (Vision's steps); the palette's start line is cut at its right edge. The
   sprint's last window (the founder, 2026-10-27): reviews and merges before the nightly, then
   the first five minutes walked cold from the package, building nothing, for next month's plan
-  at a quarter of the usage ([addition](../prompts/start-here-feel-walk.md), hot);
+  at a quarter of the usage ([addition](../prompts/start-here-feel-walk.md), hot). Walked
+  (2026-10-27, [report](../reportbacks/start-here-feel-walk-RB.md)) on the 0.1.3 Windows archive,
+  cold: the nightly's Linux build failed on a 503 and nothing published. Worst first: the desk
+  piles every pane at its top left and a told view jumps in front with the keys; step 2 a Flow
+  lesson Start here does not give (five refusals); a tick lands unseen; Notices in the builders'
+  words; the package starts no setup; the ways back to a pane each fail once (the palette's put
+  down, ctrl+p on a covered Pane Manager, the palette's manual empty); step 4's two hidden
+  prerequisites; five typed trusts at the app's first start. Kept: the two panes, every tick by
+  its fact, the Builder by hand, Flow's wire let go, the moment itself, the app on its own.
+  Vision's read: the desk's room first (a told view keeps its place, a launch seats beside its
+  launcher, then Start here in front on a tick), the moves' words beside it; the founder's three
+  calls: setups in the package, the first start's trusts, what Notices is for;
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
