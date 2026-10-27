@@ -511,7 +511,16 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   present nodes (11.77 ms at 4,096). #450 merged (`90e4934e`). The judge's step and the
   pictures with the old line next in the issue lane (the founder, 2026-10-27,
   [prompt](../prompts/issue-lane-judge-and-pictures.md), warm), the usage's reset two days
-  off. Then the repository's own mutants, the cases' claims kept under `tests/` and run every
+  off. Filed #451 and #452; taken as #453 (#451: the half removal's judge alone 28.82 ->
+  0.83 ms at 4,096 nodes, the dense change and the one-node control unchanged, `graphics`
+  floor 99) and #454 (#452: the six taken again, each alt text saying what Notices holds);
+  the report read. Reviewed by Vision (2026-10-27, 28 of 28 checks): both right and green,
+  no shared file, each clean beside the main lane's #455; the old judge and the new answered
+  303,000 random drawings alike, and 3,000 at the node bound. Left: `apply` still finds each
+  said record by a scan (bounded at 1,024); the kit's mutation script could count each
+  mutant's text before anything builds, and a probe helper, asked twice; in the pictures, as
+  before them, the terminal's Pane Manager covers Info's first column and the smallest
+  window's Notices covers Info. Then the repository's own mutants, the cases' claims kept under `tests/` and run every
   week (the founder, 2026-10-27, [prompt](../prompts/issue-lane-mutants-weekly.md), warm),
   after the walk's word fixes. The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
@@ -631,8 +640,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   The desk makes room in the main lane ([prompt](../prompts/desk-room.md), hot): the weaver
   places a pane the first time it opens in a setup, centered in arrange mode, then where it was
   left; arrange mode no one can miss; the palette centered; a manual over its subject; a view
-  shown again keeping its place; Start here in front on a tick. Then the issue lane takes the
-  three calls ([prompt](../prompts/issue-lane-package-trust-notices.md), warm), before the
+  shown again keeping its place; Start here in front on a tick. Its first pull request, #455
+  (a view registered afresh keeps its place and leaves the keys), opened. Getting started's
+  two desk pictures open the Pane Manager by `ctrl+p`, which the round changes: once #454
+  merges, a picture the round makes untrue is its own to take again
+  ([addition](../prompts/desk-room-pictures.md), hot). Then the issue lane takes the three
+  calls ([prompt](../prompts/issue-lane-package-trust-notices.md), warm), before the
   mutants. The founder's ideas of the day: [ideas-2026-10-27.md](ideas-2026-10-27.md);
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
