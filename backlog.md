@@ -654,11 +654,14 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   issue lane taking "the report" and "the founder" out of #456. The desk's next round takes two
   fixes to #461: Panes' page tells a weaver to end a placing with `Esc` or a right-click, but the
   first key or press ends it and goes on to the pane, `Esc` too; and where two faded panes
-  overlap the fade falls twice (the walk's pictures 06 and 09). Waiting on the founder: a move's
-  words "alone" (the word change and the snap note dropped, Vision's read); a place kept for the
-  run, durable later (a day: the session's and the setup file's next versions); a placing ended
-  only by a key or a press; a Python carried in the package (Windows' embeddable, 11 MB; Linux's,
-  34.5 MB). The founder's ideas of the day: [ideas-2026-10-27.md](ideas-2026-10-27.md);
+  overlap the fade falls twice (the walk's pictures 06 and 09). The founder's calls (2026-10-27):
+  a move keeps its word change ("a little bit of extra info that doesn't hurt the overall flow");
+  a place is kept for the run, a durable one later (a day: the session's and the setup file's
+  next versions); a placing ends only at a key or a press; no Python in the package for now
+  (Windows' embeddable 11 MB, Linux's 34.5 MB) -- maybe later a second package set of the same
+  name with `_python`, a one-stop shop for those without one -- and instead the README lists its
+  dependencies, each linked to a "How to install these dependencies" page (the desk's round 2).
+  The founder's ideas of the day: [ideas-2026-10-27.md](ideas-2026-10-27.md);
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
@@ -1050,13 +1053,16 @@ owner at a time, and decisions before prompts.
    ([prompt](../prompts/lane-text-input.md), warm: the Terminal's Enter, Files' paths, the
    Editor's right-press menu), and the Flow makeover as mockups beside them, building nothing.
    The issue lane takes the mutants round, its corpus run in pieces through the slots
-   (`92ec26a0`), then files the UX batch. The main lane's next, written once desk-room is
-   reviewed: leaving with unsaved work asks in a box; Start here's step 4 naming its two
-   prerequisites, its hint out of the alert red; a pane's top right (its own close and move,
-   a box around each icon, the arrange markers boxed, the setup words a row lower); the Pane
-   Manager sorted, its wheel scrolling hidden rows first; the way in named in the package's
-   README and Getting started; the Hotkeys pane in accordions if room; the review's two fixes to
-   #461 and the Pane Manager's remove saying its hide as WL-NOTE-06 says. Flow after it. Left by
+   (`92ec26a0`), then files the UX batch, leaving out what the desk's round 2 takes. The main
+   lane's next, once #465 merges ([round 2](../prompts/desk-round-2.md), warm): the review's three
+   fixes (Panes' page on a placing's end, an even fade, arranging's hide in WL-NOTE-06's words);
+   Start here's step 4 naming its two prerequisites, its hint out of the alert colour, and the way
+   in (the README's first steps and dependencies, Getting started); the Pane Manager sorted, its
+   wheel scrolling hidden rows first; a pane's top right (its own close and move, each one a pane
+   may switch off, a gear in a window, a box around each icon, the arrange markers boxed, "remove
+   from the setup" for arranging's "hide pane"); leaving with unsaved work asking in a box; the
+   Hotkeys pane in accordions if room. The setup words a row lower wait with Workshop's own title
+   bar. Flow after it. Left by
    the three calls for the issue lane: the View Builder's `<action> complete` (WL-NOTE-06), and the
    quick setup in a package naming pages the package does not carry.
    Vision checks every name a prompt gives against `main` before the prompt goes out. The lane opened 2026-10-19
