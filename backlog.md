@@ -646,7 +646,19 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   merges, a picture the round makes untrue is its own to take again
   ([addition](../prompts/desk-room-pictures.md), hot). Then the issue lane takes the three
   calls ([prompt](../prompts/issue-lane-package-trust-notices.md), warm), before the
-  mutants. The founder's ideas of the day: [ideas-2026-10-27.md](ideas-2026-10-27.md);
+  mutants. Both reported (the desk: #455, #461, #463, #464, #465; the three calls: #462, #459,
+  #460) and were reviewed (Vision, 2026-10-27, 54 of 54 checks): all eight green and in scope. To
+  merge as they stand: #455, #462, #460, #461, #463, #464 (its base `main` once #461 is in); then
+  #459 and #465, each joined to `main` first (both hot: [issue lane](../prompts/issue-lane-join.md),
+  [desk](../prompts/desk-room-join.md)), #465 taking `workshop_panes_hand`'s summed floor and the
+  issue lane taking "the report" and "the founder" out of #456. The desk's next round takes two
+  fixes to #461: Panes' page tells a weaver to end a placing with `Esc` or a right-click, but the
+  first key or press ends it and goes on to the pane, `Esc` too; and where two faded panes
+  overlap the fade falls twice (the walk's pictures 06 and 09). Waiting on the founder: a move's
+  words "alone" (the word change and the snap note dropped, Vision's read); a place kept for the
+  run, durable later (a day: the session's and the setup file's next versions); a placing ended
+  only by a key or a press; a Python carried in the package (Windows' embeddable, 11 MB; Linux's,
+  34.5 MB). The founder's ideas of the day: [ideas-2026-10-27.md](ideas-2026-10-27.md);
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
@@ -1043,7 +1055,10 @@ owner at a time, and decisions before prompts.
    prerequisites, its hint out of the alert red; a pane's top right (its own close and move,
    a box around each icon, the arrange markers boxed, the setup words a row lower); the Pane
    Manager sorted, its wheel scrolling hidden rows first; the way in named in the package's
-   README and Getting started; the Hotkeys pane in accordions if room. Flow after it.
+   README and Getting started; the Hotkeys pane in accordions if room; the review's two fixes to
+   #461 and the Pane Manager's remove saying its hide as WL-NOTE-06 says. Flow after it. Left by
+   the three calls for the issue lane: the View Builder's `<action> complete` (WL-NOTE-06), and the
+   quick setup in a package naming pages the package does not carry.
    Vision checks every name a prompt gives against `main` before the prompt goes out. The lane opened 2026-10-19
    ([prompt](../prompts/issue-lane-first-three.md)): no Zengine issue was `ready`, so three
    bounded seams clear of G1 are filed and taken (#330 to #332, merged). Next in the lane once
