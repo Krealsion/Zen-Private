@@ -508,7 +508,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   33 of 33. Reviewed by Vision (2026-10-27): all three right and green; #447, #449, #444 and #448
   merged (`200503b6`), #450 ready. Left: #448's quick-setup picture still shows the two status
   lines; #418's body names a Zen path; the judge's removal step is still removed paths times
-  present nodes (11.77 ms at 4,096). The Perspectives Lab,
+  present nodes (11.77 ms at 4,096). #450 merged (`90e4934e`). The judge's step and the
+  pictures with the old line next in the issue lane (the founder, 2026-10-27,
+  [prompt](../prompts/issue-lane-judge-and-pictures.md), warm), the usage's reset two days
+  off. The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
   2026-10-24), triage and ui settled after them; git, pairing and tailoring drafted, reviewed
   by Vision (2026-10-25): each seat its option A; git's seam yes, naming how its office
