@@ -627,7 +627,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   trust a plan's own artifacts at an app's first start, so long as what to do and how is
   obvious; Notices says only what helps the weaver understand the recent history -- a drag says
   its before and its after alone, its size too when that changed. Flow gets a makeover before its
-  tutorial (BL-WORK-32): Start here's moves for steps 2 and 3 wait on it, step 4's do not;
+  tutorial (BL-WORK-32): Start here's moves for steps 2 and 3 wait on it, step 4's do not.
+  The desk makes room in the main lane ([prompt](../prompts/desk-room.md), hot): the weaver
+  places a pane the first time it opens in a setup, centered in arrange mode, then where it was
+  left; arrange mode no one can miss; the palette centered; a manual over its subject; a view
+  shown again keeping its place; Start here in front on a tick. Then the issue lane takes the
+  three calls ([prompt](../prompts/issue-lane-package-trust-notices.md), warm), before the
+  mutants. The founder's ideas of the day: [ideas-2026-10-27.md](ideas-2026-10-27.md);
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
