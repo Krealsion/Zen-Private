@@ -620,8 +620,12 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   prerequisites; five typed trusts at the app's first start. Kept: the two panes, every tick by
   its fact, the Builder by hand, Flow's wire let go, the moment itself, the app on its own.
   Vision's read: the desk's room first (a told view keeps its place, a launch seats beside its
-  launcher, then Start here in front on a tick), the moves' words beside it; the founder's three
-  calls: setups in the package, the first start's trusts, what Notices is for;
+  launcher, then Start here in front on a tick), the moves' words beside it. The founder's calls
+  (2026-10-27): the demo service ships in the package, so a setup starts from it; one line may
+  trust a plan's own artifacts at an app's first start, so long as what to do and how is
+  obvious; Notices says only what helps the weaver understand the recent history -- a drag says
+  its before and its after alone, its size too when that changed. Flow gets a makeover before its
+  tutorial (BL-WORK-32): Start here's moves for steps 2 and 3 wait on it, step 4's do not;
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
   Workshop closed and the view still running, Workshop opened and connected to the authored host's
@@ -2729,6 +2733,12 @@ copying neither restores nor runs it; recovery is its own explicit operation.
 ### BL-WORK-32 — Flow's UX milestones
 
 **State:** ISSUE — [Zengine#142](https://github.com/Krealsion/Zengine/issues/142) holds it now (filed by deep review, 2026-10-09).
+
+The founder (2026-10-27), after the feel walk (step 2 took five refusals before a first run):
+Flow still feels clunky and unintuitive, and gets a makeover before its tutorial. Inspiration
+from Ponder's Flow perspective (`rebuild-scaffold/perspectives/flow.md`); the founder sees how
+it looks and feels, and gives feedback, before anything is pushed. Then a guided walkthrough of
+Flow as a demo of its own, highlights and words saying each function's purpose.
 
 ### BL-WORK-35 — An app of its own, edited live from Workshop
 
