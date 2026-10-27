@@ -2781,7 +2781,13 @@ The founder (2026-10-27), after the feel walk (step 2 took five refusals before 
 Flow still feels clunky and unintuitive, and gets a makeover before its tutorial. Inspiration
 from Ponder's Flow perspective (`rebuild-scaffold/perspectives/flow.md`); the founder sees how
 it looks and feels, and gives feedback, before anything is pushed. Then a guided walkthrough of
-Flow as a demo of its own, highlights and words saying each function's purpose.
+Flow as a demo of its own, highlights and words saying each function's purpose. A first
+mockup (Vision, 2026-10-27, [clickable](https://claude.ai/artifact/JxK1MLFeeSmQh2GgD3v4jY)): the
+graph in three lanes, When, Do and Then, a wire into a kept field taking the result node's
+place; the rule read as a sentence, dashed where unfinished; a Next line with a button in place
+of Run's refusals; Ponder's bar (Run, Apply and Stop in sight, File and View menus); live values
+on wires and one Events line a message; a new message saying up front it needs a restart; and a
+nine-stop tour fading all but the part it explains. Waiting on the founder's feedback.
 
 ### BL-WORK-35 — An app of its own, edited live from Workshop
 
