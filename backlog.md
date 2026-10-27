@@ -511,7 +511,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   present nodes (11.77 ms at 4,096). #450 merged (`90e4934e`). The judge's step and the
   pictures with the old line next in the issue lane (the founder, 2026-10-27,
   [prompt](../prompts/issue-lane-judge-and-pictures.md), warm), the usage's reset two days
-  off. The Perspectives Lab,
+  off. Then the repository's own mutants, the cases' claims kept under `tests/` and run every
+  week (the founder, 2026-10-27, [prompt](../prompts/issue-lane-mutants-weekly.md), warm),
+  after the walk's word fixes. The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
   2026-10-24), triage and ui settled after them; git, pairing and tailoring drafted, reviewed
   by Vision (2026-10-25): each seat its option A; git's seam yes, naming how its office
