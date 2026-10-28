@@ -669,6 +669,13 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   straight from, a covered one they moved on from still comes forward
   ([desk fix](../prompts/desk-room-ctrl-p.md), [#459 after it](../prompts/issue-lane-459-again.md),
   both hot).
+  The founder said yes. #466 (Ctrl+P puts away the pane the weaver's input last reached, covered
+  or not; a covered one they moved on from still comes forward) merged 2026-10-28 with #465 and
+  #459 stacked on it, each green on every job; reviewed after the merge (Vision, 13 of 14 checks:
+  main's own three runs still going). The desk lane wrote no report section for #466; the issue
+  lane's is clean and its trees are deleted. The wave: the desk's round 2 and the mutants round
+  started; the View Builder and text lanes next, their prompts' names checked against `main`
+  again; the kit's memory round not yet sent.
   The founder's ideas of the day: [ideas-2026-10-27.md](ideas-2026-10-27.md);
 - the full story, satisfying within the first five minutes: a view made, its inputs wired, its
   logic authored in Flow, its outputs wired back, the view detached into a window of its own,
