@@ -27,8 +27,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 
 - **Main lane: the desk, round 2**, merged ([report](../reportbacks/desk-round-2-RB.md)): #467 the
   review's three fixes, #469 Start here's step 4 and the way in (the dependencies page), #470 the
-  Pane Manager by name, #472 the quit box (2026-10-28). Not built: the Hotkeys pane in accordions,
-  no room; a pane's own top right waits for the picture tool (section 3). Next, Flow made over
+  Pane Manager by name, #472 the quit box (2026-10-28); `main` green after them and #471, every job
+  of each merge's run. Not built: the Hotkeys pane in accordions, no room; a pane's own top right
+  waits for the picture tool (section 3). Next, Flow made over
   ([prompt](../prompts/unrun/flow-made-over.md), warm, not started): as close to the mockup as
   today's graphics draw, part by part beside its pictures, the founder's look before any push.
 - **Issue lane: the repository's own mutants**, merged (#471, fixing #468;
