@@ -1052,9 +1052,11 @@ owner at a time, and decisions before prompts.
 5. One phase and up to three issue lanes beside it (the founder, 2026-10-27; constitution section
    f, `21fc0553`; one before), on three build slots: two to work in at 8 jobs, one at 4 for the
    final lanes; a lane keeps its copy for its round and may work in batches, the official lane
-   once at a batch's end. WSL gets 44 GB (one 8-job build peaked at 13 GB). The kit holds one
-   slot until its change lands ([prompt](../prompts/kit-build-slots.md), warm), run first once
-   the desk round and the three calls report. Then the wave: the main lane, the issue lane, one
+   once at a batch's end. WSL gets 44 GB. The kit holds the three slots
+   ([report](../reportbacks/kit-build-slots-RB.md), 2026-10-27): a cold 8-job build peaks at 18.1
+   GB, a 4-job one at 10.4. The founder (2026-10-27): the work need at that peak for now, then work
+   builds made small enough that all three slots run at once, or three are no better than two
+   ([prompt](../prompts/kit-build-memory.md), hot); the wall's shim stays a whole-machine holder. Then the wave: the main lane, the issue lane, one
    for the View Builder and the data panes ([prompt](../prompts/lane-view-builder.md), warm:
    a Discard button, the kinds below Grid, the canvas taking the width, then Project's scroll,
    Loaded's search and Compose's fields), one for text and input
