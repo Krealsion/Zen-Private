@@ -1,7 +1,8 @@
 - **WSL**: Ubuntu 22.04, GCC 11.4.0, cmake 3.22 (the floor a CMake feature must clear; CLion's
   bundled cmake is 4.0). Ninja and ccache are not installed system-wide; they sit under
   `~/opt/zoom/bin-ninja` and `~/opt/zoom/bin-ccache` (the ccache wrapper needs `LD_LIBRARY_PATH`).
-  `sudo` needs a password. WSL sees 30 GB of the host's 63.
+  `sudo` needs a password. WSL sees 48 GB of the host's 63 (`.wslconfig`, 2026-10-27: 30, then
+  44; `MemTotal` reads 47 GB).
 - **Night Lab's distribution, `Zen-Night-Lab`** (the wall, built and checked 2026-10-16): Ubuntu
   24.04 under WSL 2.6.2, with users of its own: `labagent`, the default, with no sudo and no
   privileged group, and `labadmin`, with sudo, the founder's, its password never in the lab.
@@ -17,7 +18,7 @@
   Zen-Night-Lab -- bash -s < <script> > <output> 2>&1"`. The scripts and the check:
   `Zen/night-lab/wall/` (`verify.sh`, 23 checks passed, 0 failed, 2026-10-16).
 - **CPU**: Ryzen 9 7900X, 12 physical cores / 24 threads. `-j24` is the best measured build
-  parallelism; `-j32` is slower. In WSL, which sees 30 GB, Zengine's official lane at `-j24`
+  parallelism; `-j32` is slower. In WSL, when it saw 30 GB, Zengine's official lane at `-j24`
   had compilers killed for memory (2026-09-30); `-j8` built. The founder's limits (2026-10-04):
   a Windows build (MinGW-w64, MSVC, the SDL tree) runs at up to `-j16`; a WSL build stays at
   `-j8`, since more can run the host out of memory. Measured 2026-10-04: a clean MinGW-w64
