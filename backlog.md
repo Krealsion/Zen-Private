@@ -55,9 +55,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   setting and a content fold its state; on the desk, a pane shut to its title and docks on an
   edge, as `workshop.fold` and `workshop.dock` in the pane's row. First stage: Files' places with
   the Hotkeys pane; then Info's tree, the desk in three stages, Flow's tags. Eight decisions
-  (section 5).
+  (section 5). Stage 1 ([prompt](../prompts/unrun/accordion-stage-1.md), warm, not started): the
+  accordion and its independent group in `component/`, Files' places, the Hotkeys pane in
+  sections, Files' paths, and a resting pointer handed to panes.
 - **Text lane** (not started, [prompt](../prompts/unrun/lane-text-input.md)): the Terminal's Enter
-  and Shift+Enter; Files' paths centre-truncated; the Editor's right-press menu.
+  and Shift+Enter; the Editor's right-press menu. Files' paths moved to the accordion's stage 1
+  (the founder, 2026-10-28).
 - **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
   compiles held to a budget, so all three slots run at once (22.8 GB of 47 at 10 GB). Next, the
   founder's calls of 2026-10-28 ([prompt](../prompts/kit-gate-budget.md), running): 12 GB
@@ -91,7 +94,13 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 - **A pane's own top right** (desk round 2's parked item): close and move, a gear, a box around
   each icon, the arrange markers on boxes of their own, "remove from the setup"; about 116 page
-  pictures retaken with it. Wake: the kit's picture tool (the founder, 2026-10-28).
+  pictures retaken with it. Wake: the kit's picture tool (the founder, 2026-10-28). With the
+  accordion's desk stages (the founder, 2026-10-28): the title bar is the pane's own accordion
+  header, its words and buttons there, a double click shutting or opening the pane; a dock's tag
+  is the same bar drawn small, a vertical one its icons stacked and its name a letter a row.
+- **A pane's bar tinted while it holds news the weaver has not seen** (the founder, 2026-10-28),
+  shut, covered or only unfocused; the pane's own word says what is news, and looking clears it.
+  To weigh against Attention's conditions before a second channel is made.
 - **Settings, stages 4 to 6** (BL-WORK-36; stages 1 to 3B merged, #101 and #314 to #326). Stage
   4 is the settings weave applying themes, once its research is read again against the desk's
   owner; it takes the open report rows 47, 48 and 69 to 71. First check whether stage 3B's
