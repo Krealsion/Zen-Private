@@ -25,21 +25,18 @@ item below up to that day.
 Four lanes run at once on three build slots: two work slots at 8 jobs, one final slot at 4
 (constitution section f). WSL has 48 GB.
 
-- **Main lane: the desk, round 2** ([prompt](../prompts/desk-round-2.md)):
-  - the review's three fixes: Panes' page on how a placing ends, an even fade, arranging's hide
-    said as WL-NOTE-06 says;
-  - Start here's step 4 naming its two prerequisites, its hint out of the alert colour;
-  - the way in: the README's first steps, and a dependencies list linked to a "How to install
-    these dependencies" page; Getting started opening with the package;
-  - the Pane Manager sorted, its wheel scrolling hidden rows first;
-  - a pane's own top right: close and move, a gear, a box around each icon, the arrange markers
-    on boxes of their own, "remove from the setup" in place of "hide pane";
-  - a box for leaving with unsaved work;
-  - the Hotkeys pane in accordions, if the round has room.
-- **Issue lane: the repository's own mutants** (#468,
-  [prompt](../prompts/issue-lane-mutants-weekly.md)), then the UX batch filed from
-  [ux-batch.md](ux-batch.md) and the ideas, leaving out what the desk's round 2 takes. Two
-  leftovers for it: the View Builder still says `<action> complete` (WL-NOTE-06), and the quick
+- **Main lane: the desk, round 2**, reviewed ([report](../reportbacks/desk-round-2-RB.md)): four
+  pull requests ready, to merge in order: #467 the review's three fixes, #469 Start here's step 4
+  and the way in (the dependencies page), #470 the Pane Manager by name, #472 the quit box.
+  - Not built: a pane's own top right (close and move, a gear, a box around each icon, the
+    arrange markers on boxes of their own, "remove from the setup"), parked on its pictures
+    (section 5); the Hotkeys pane in accordions, no room.
+- **Issue lane: the repository's own mutants** (#468, #471 green and reviewed,
+  [report](../reportbacks/issue-lane-mutants-weekly-RB.md)): joined to `main` after the desk's
+  four, with their three claims and one entry #470 stales
+  ([prompt](../prompts/unrun/issue-lane-mutants-join.md), hot, not started). Then the UX batch
+  filed from [ux-batch.md](ux-batch.md) and the ideas, leaving out what the desk's round 2 takes.
+  Two leftovers for it: the View Builder still says `<action> complete` (WL-NOTE-06), and the quick
   setup in a package names pages the package does not carry. With the batch it files the split of
   `tests/workshop_support.hpp` as an issue (BL-WORK-44; the founder, 2026-10-28).
 - **View Builder lane** (not started, [prompt](../prompts/unrun/lane-view-builder.md)): a Discard
@@ -49,7 +46,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   and Shift+Enter; Files' paths centre-truncated; the Editor's right-press menu.
 - **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
   compiles held to a budget, so all three slots run at once (22.8 GB of 47 at 10 GB). Next, the
-  founder's calls of 2026-10-28 ([prompt](../prompts/unrun/kit-gate-budget.md), not started): 12 GB
+  founder's calls of 2026-10-28 ([prompt](../prompts/kit-gate-budget.md), running): 12 GB
   a work slot, and the official and sanitizer trees each learning their own peaks.
 
 ## 2. Next, in order
@@ -163,6 +160,13 @@ Each starts on the founder's word; "wake" is what must be true first.
   ([report](../reportbacks/reports-open-items-RB.md)); none brought yet.
 - Whether to rotate the SSH key a test canary read in BL-WORK-38's stage 1.
 - Where the local lane's agents run (BL-LANE-01).
+- The desk's top right waits on its pictures (about 116 made untrue, 40 in other lanes' folders):
+  Vision's lean is a tool that retakes a page's pictures from a recorded walk first, then the
+  top right with every picture retaken.
+- The quit box discards a pane's work still settling as it does unsaved work: Vision's lean is to
+  leave it (P-WORK-75).
+- #471's survivors to the issue its weekly run opens, the six claims of gone code removed:
+  Vision's leans, written into the join prompt.
 
 ## 6. Filed as issues
 
@@ -272,6 +276,8 @@ marked.
   stepped clock.
 - The kit: the mutation script could count each mutant's text before building; a probe helper,
   asked twice.
+- A held drag in the desk's arrangement says `moved <pane>: ...` at each motion, against
+  WL-NOTE-06 (desk round 2, picture 08): a defect to file.
 
 ## 9. Not backlog
 

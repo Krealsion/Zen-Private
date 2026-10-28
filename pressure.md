@@ -119,6 +119,9 @@ under the same id.
   policy's per-row authority seat.
 - **P-WORK-60** An unknown recipe's refusal is said in the build's outcome field. Wakes: a change
   to `BuildStatus`.
+- **P-WORK-75** A pane's quit refusal cannot say why: unsaved work and work still settling read
+  alike, so the quit box discards both (desk round 2, #472). Wakes: a weaver losing a settling
+  save, or the next change to `PaneQuitAnswered`.
 - **P-WORK-63** An application chord above every mode never reaches Neovim. Wakes: a weaver
   missing a chord; the pane would declare the chords it owns.
 - **P-WORK-04** (the founder's use) Conventional editor features come from use: the Terminal's
