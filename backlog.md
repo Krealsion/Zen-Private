@@ -98,6 +98,11 @@ Each starts on the founder's word; "wake" is what must be true first.
   accordion's desk stages (the founder, 2026-10-28): the title bar is the pane's own accordion
   header, its words and buttons there, a double click shutting or opening the pane; a dock's tag
   is the same bar drawn small, a vertical one its icons stacked and its name a letter a row.
+- **One element set for the panes and the View Builder** (Vision's proposal, 2026-10-28, from
+  the old `zen-ui-vocabulary.md`, the rebuild scaffold's element census and the code): each
+  element a value in `component/` and a face drawn from it, drawn by the panes and offered to
+  makers as the View Builder's kinds. First a census research of the UI code as it stands;
+  the rebuild scaffold's call 6 (the element set) still waits on the founder.
 - **A pane's bar tinted while it holds news the weaver has not seen** (the founder, 2026-10-28),
   shut, covered or only unfocused; the pane's own word says what is news, and looking clears it.
   To weigh against Attention's conditions before a second channel is made.
