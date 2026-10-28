@@ -183,7 +183,11 @@ Each starts on the founder's word; "wake" is what must be true first.
 - The accordion research's eight decisions: Vision takes seven of its recommendations (docks
   taking room, the two row words, the bar's length one setting, the piece in `component/`, Info a
   tree after the first stage, Files' places with the Hotkeys pane first, a pane shut where it
-  stands); "two-sided" is the founder's to say: several panes in one dock, or a bar between two.
+  stands). The founder's shape (2026-10-28): one accordion (a section) apart from its groups, each
+  group a small component over it: independent, exclusive, and a pair ("two-sided": two, one always
+  open, their space constant); a pane on the desk one accordion, its neighbours following by
+  anchors between panes. Open: whether an exclusive group may be all shut; where a pair stands on
+  the desk first; whether docks come before anchors between panes.
 - The four second guards no case can tell from the first (#475's choice 6: `drawable` in the
   Hotkeys file row and in Attention, Files' emit list, the Terminal's wait for its row): Vision's
   lean is to keep them, each saying the host behaviour it guards against.
