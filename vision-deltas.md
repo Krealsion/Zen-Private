@@ -3,7 +3,7 @@
 **Status:** PRIVATE LIVE PROVENANCE INDEX  
 **Refreshed:** 2026-09-10  
 **Role:** compact routing of strategic decisions and unincorporated candidates  
-**Raw source:** `private/raw-vision-deltas.md`  
+**Raw source:** `private/raw-vision-deltas.md`, in git history since 2026-10-28  
 **Current authority:** consequences live in the Strategic Map, Goal Maps, pressure, backlog, or
 repository law—not in this index alone
 

@@ -296,7 +296,7 @@ private/goals/stranger-legible.md     Goal 2's tasks: a plain first-read path, n
 private/pressure.md                   open observed pressure and triggers
 private/backlog.md                    work knowingly owed but not current
 private/vision-deltas.md              compact routed decision/candidate index
-private/raw-vision-deltas.md          raw source archive/inbox; not current authority
+private/raw-vision-deltas.md          raw source archive/inbox, in git history since 2026-10-28
 private/handoffs/current-executor-addendum.md
                                       executor entry route; no phase selected here
 private/handoffs/Zen-FCO-v2.md        first-contact route — the first read for a Vision
