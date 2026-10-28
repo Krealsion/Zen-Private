@@ -28,8 +28,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **Main lane: the desk, round 2**, merged ([report](../reportbacks/desk-round-2-RB.md)): #467 the
   review's three fixes, #469 Start here's step 4 and the way in (the dependencies page), #470 the
   Pane Manager by name, #472 the quit box (2026-10-28). Not built: the Hotkeys pane in accordions,
-  no room; a pane's own top right waits for the picture tool (section 3). The lane's next is Flow
-  made over (section 2).
+  no room; a pane's own top right waits for the picture tool (section 3). Next, Flow made over
+  ([prompt](../prompts/unrun/flow-made-over.md), warm, not started): as close to the mockup as
+  today's graphics draw, part by part beside its pictures, the founder's look before any push.
 - **Issue lane: the repository's own mutants**, merged (#471, fixing #468;
   [report](../reportbacks/issue-lane-mutants-weekly-RB.md)), before the join it was to make with
   the desk's four. Next ([prompt](../prompts/unrun/issue-lane-mutants-follow-up.md), hot, not
@@ -54,7 +55,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 
 ## 2. Next, in order
 
-1. **Flow made over** (BL-WORK-32), after the desk's round 2. The clickable
+1. **Flow made over** (BL-WORK-32), its prompt written (2026-10-28, section 1). The clickable
    [mockup](https://claude.ai/artifact/JxK1MLFeeSmQh2GgD3v4jY): When, Do and Then kept as colour
    with more room to Do; the rule read as a sentence; a Next line in place of Run's refusals; a
    nine-stop tour. The founder's calls (2026-10-27): a press may change several things, and
