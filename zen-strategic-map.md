@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** make Zen legible and good to use as a human weaver and agent alike — documentation per weave (`ManualFacet`), one owner per job (`weave_facets`, the hub split, ~1,000-line file ceiling), one action path, one graphics window (`BL-WORK-37`), and complete maker stories
-**Current execution state:** Typed Inventory reuse, independent Info views, persistence, named folders, Editor transfers (#59), the tower-defense creation story (#60), event-driven ELH observation (Loom #16, Zengine #62), [the tally panel](../reportbacks/zengine-flow-powers/proving-story.md) (#82, #84, #85), the graphical View Builder (#86, #87), the whole-pixel desk (#90–#92), desk-by-messages (#93–#94), text panes on the canvas (#95–#99), settings stage 1 (Loom #31, Zengine #101), the agent desk stages 0–2, `door`, `declare`, and `tutor` (Loom #49/#51/#52, Zengine #150, #151, #158, #186, #207, #215), fast-forward S1 and S3 (Loom #54, Zengine #203, #213), the documentation overhaul stages A, B1–B3, and C manuals (#179, #181, #197, #198, #234–#249, #251, #266, #268, #272, #292, #295), and graphics stage 1 (#218, #219, #233) are merged. Under the founder's spine-cutting roadmap ([backlog.md §1a–1b](backlog.md#1a-the-order-now)), **Path 1 (Phases 1A–3B, #265–#273)**, the **Godfile / Structural Health Split Arc (Waves 1–5, #274–#288, plus #289 CTest longest-first ordering)**, and **Waves 6–7 — Meaningful Abstractions (Phases 9A–10C, #290–#295)** are complete. Next on the spine: moving the window's job whole to graphics (BL-WORK-37 stages 2 to 5, with one action path across window and keymap). The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) and [backlog.md](backlog.md#1a-the-order-now) own coordinated sequencing. Service retirement remains parked.
+**Current execution state:** Typed Inventory reuse, independent Info views, persistence, named folders, Editor transfers (#59), the tower-defense creation story (#60), event-driven ELH observation (Loom #16, Zengine #62), [the tally panel](../reportbacks/zengine-flow-powers/proving-story.md) (#82, #84, #85), the graphical View Builder (#86, #87), the whole-pixel desk (#90–#92), desk-by-messages (#93–#94), text panes on the canvas (#95–#99), settings stage 1 (Loom #31, Zengine #101), the agent desk stages 0–2, `door`, `declare`, and `tutor` (Loom #49/#51/#52, Zengine #150, #151, #158, #186, #207, #215), fast-forward S1 and S3 (Loom #54, Zengine #203, #213), the documentation overhaul stages A, B1–B3, and C manuals (#179, #181, #197, #198, #234–#249, #251, #266, #268, #272, #292, #295), and graphics stage 1 (#218, #219, #233) are merged. Under the founder's spine-cutting roadmap ([backlog.md §1a–1b](history/closed_work.md#1a-the-order-now)), **Path 1 (Phases 1A–3B, #265–#273)**, the **Godfile / Structural Health Split Arc (Waves 1–5, #274–#288, plus #289 CTest longest-first ordering)**, and **Waves 6–7 — Meaningful Abstractions (Phases 9A–10C, #290–#295)** are complete. Next on the spine: moving the window's job whole to graphics (BL-WORK-37 stages 2 to 5, with one action path across window and keymap). The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) and [backlog.md](history/closed_work.md#1a-the-order-now) own coordinated sequencing. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -171,7 +171,7 @@ The desktop/launcher, configurable defaults and narrow real-pane inspection are 
 PR #35; the prototype canvas and picker are retired. Loom #8 and Zengine #36 completed the
 schema-admission repair: native and loaded emitted declarations, nested agreement and valid
 manifest identity, with vocabulary separate from authority.
-[P-LOOM-07](pressure.md#p-loom-07--declared-schema-agreement-is-incomplete) retains the disposition
+[P-LOOM-07](history/closed_pressure.md#p-loom-07--declared-schema-agreement-is-incomplete) retains the disposition
 and evidence. This does not supply or select a general migration system.
 
 The tower-defense creation story (#60) and event-driven ELH observation (Loom #16, Zengine #62)
@@ -281,7 +281,7 @@ not to record every phase. Raw capture is an inbox; proof and chronology stay in
 
 Work runs in two lanes (the founder, 2026-10-09): phases carry the architectural arcs, prompted
 and reviewed stage by stage; bounded work lives as GitHub issues, filed by deep review and merged
-as it is ready, ahead of any phase, which rebases onto it ([backlog §1](backlog.md#1-rules)).
+as it is ready, ahead of any phase, which rebases onto it ([backlog §1](history/closed_work.md#1-rules)).
 
 ## 10. Private authority map
 
