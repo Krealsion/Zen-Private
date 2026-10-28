@@ -32,13 +32,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   waits for the picture tool (section 3). Next, Flow made over
   ([prompt](../prompts/unrun/flow-made-over.md), warm, not started): as close to the mockup as
   today's graphics draw, part by part beside its pictures, the founder's look before any push.
-- **Issue lane: the repository's own mutants**, merged (#471, fixing #468;
-  [report](../reportbacks/issue-lane-mutants-weekly-RB.md)), before the join it was to make with
-  the desk's four. Next ([prompt](../prompts/unrun/issue-lane-mutants-follow-up.md), hot, not
-  started): the corpus brought level with `main` (the desk's three claims, one entry #470 staled,
-  the six claims of gone code removed, two doc gaps), the weekly run dispatched once, then the 30
-  survivors settled. Then the UX batch filed from [ux-batch.md](ux-batch.md) and the ideas, leaving
-  out what the desk's round 2 took. Two leftovers for it: the View Builder still says `<action>
+- **Issue lane: the repository's own mutants**, merged (#471, fixing #468). Its follow-up, reviewed
+  ([report](../reportbacks/issue-lane-mutants-follow-up-RB.md)): #473 the corpus level with `main`,
+  then #475 the 30 survivors settled (13 by stronger cases, 9 corrected, 8 dropped with their
+  reasons), both green; to merge in that order. Filed: #474 (a stale comment in the Inventory
+  pane); the weekly run's own issue #476, closed once a run after the merges is green. Next, the UX
+  batch filed from [ux-batch.md](ux-batch.md) and the ideas, leaving out what the desk's round 2
+  took, with its housekeeping: #474, the four second guards, the weekly run once more and #476
+  closed, the corpus page's two gaps. Two leftovers for it: the View Builder still says `<action>
   complete` (WL-NOTE-06), and the quick setup in a package names pages the package does not carry.
   With the batch it files the split of `tests/workshop_support.hpp` as an issue (BL-WORK-44; the
   founder, 2026-10-28).
@@ -168,6 +169,10 @@ Each starts on the founder's word; "wake" is what must be true first.
   ([report](../reportbacks/reports-open-items-RB.md)); none brought yet.
 - Whether to rotate the SSH key a test canary read in BL-WORK-38's stage 1.
 - Where the local lane's agents run (BL-LANE-01).
+- The four second guards no case can tell from the first (#475's choice 6: `drawable` in the
+  Hotkeys file row and in Attention, Files' emit list, the Terminal's wait for its row): Vision's
+  lean is to keep them, each saying the host behaviour it guards against.
+- #474's labels: Vision's lean is `docs` and `ready`.
 
 ## 6. Filed as issues
 
@@ -276,6 +281,8 @@ marked.
   stepped clock.
 - The kit: the mutation script could count each mutant's text before building; a probe helper,
   asked twice.
+- The corpus's front page (`tests/mutants/README.md`): a hunk's context lines name the function
+  its entry names (two survivors were anchored in the wrong one), and how to probe a survivor.
 - A held drag in the desk's arrangement says `moved <pane>: ...` at each motion, against
   WL-NOTE-06 (desk round 2, picture 08): a defect to file.
 

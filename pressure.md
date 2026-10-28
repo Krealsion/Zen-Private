@@ -163,11 +163,15 @@ under the same id.
 - **P-BUILD-10** The kit's open recommendations: eighteen entries from the rounds of 2026-10-08
   to 10-12, two asks since met by the kit's commit stamps; from the memory round (2026-10-27) a
   profile command, the gates shown by `kit.sh slot`, a listing of the learned peaks, links under
-  the gate, a budget that follows free memory. Wakes: the next pass on the process.
+  the gate, a budget that follows free memory; from the mutants rounds a survivor reader, a probe
+  mode for the runner, lists read without a Windows `\r`. Wakes: the next pass on the process.
 - **P-BUILD-11** A cancelled walk's input session races the next run's ask. Wakes: a job failing
   on it, or a change to the tool's session handling.
 - **P-BUILD-12** Loom's lane runs its entries one at a time. Wakes: a Loom phase touching its
   tests' layout, or a local lane whose time matters.
+- **P-BUILD-16** The Timer suite failed once more, on the nightly's MinGW-w64 job at `4e995de9`
+  (2026-10-28, run 40664013168), after P-BUILD-01 closed; the push runs since are green. Wakes: a
+  second failure: then an issue.
 - **P-BUILD-14** A Loom merge turns Zengine's runs cold. Wakes: a Zengine run near its limit
   after a Loom merge; then a `main` run started whenever Loom merges.
 
