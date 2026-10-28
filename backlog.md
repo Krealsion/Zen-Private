@@ -50,9 +50,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **View Builder lane** (not started, [prompt](../prompts/unrun/lane-view-builder.md)): a Discard
   button; the kinds below Grid; widening grows the canvas alone; then Project scrolls, Loaded
   searches, Compose shows a message's fields.
-- **Accordion lane** (not started, [prompt](../prompts/unrun/accordion-research.md), warm):
-  research only, a pane's parts folded and a pane itself docked as one idea, its owners, what a
-  fold keeps, the waiting consumers in order; nothing in Flow while the founder works it live.
+- **Accordion lane**, researched ([report](../reportbacks/accordion-research-RB.md), reviewed):
+  one idea at both levels. In a pane, a shared piece in `component/`, a part's fold the pane's
+  setting and a content fold its state; on the desk, a pane shut to its title and docks on an
+  edge, as `workshop.fold` and `workshop.dock` in the pane's row. First stage: Files' places with
+  the Hotkeys pane; then Info's tree, the desk in three stages, Flow's tags. Eight decisions
+  (section 5).
 - **Text lane** (not started, [prompt](../prompts/unrun/lane-text-input.md)): the Terminal's Enter
   and Shift+Enter; Files' paths centre-truncated; the Editor's right-press menu.
 - **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
@@ -177,6 +180,10 @@ Each starts on the founder's word; "wake" is what must be true first.
   ([report](../reportbacks/reports-open-items-RB.md)); none brought yet.
 - Whether to rotate the SSH key a test canary read in BL-WORK-38's stage 1.
 - Where the local lane's agents run (BL-LANE-01).
+- The accordion research's eight decisions: Vision takes seven of its recommendations (docks
+  taking room, the two row words, the bar's length one setting, the piece in `component/`, Info a
+  tree after the first stage, Files' places with the Hotkeys pane first, a pane shut where it
+  stands); "two-sided" is the founder's to say: several panes in one dock, or a bar between two.
 - The four second guards no case can tell from the first (#475's choice 6: `drawable` in the
   Hotkeys file row and in Attention, Files' emit list, the Terminal's wait for its row): Vision's
   lean is to keep them, each saying the host behaviour it guards against.
