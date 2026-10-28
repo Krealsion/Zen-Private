@@ -671,8 +671,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   both hot).
   The founder said yes. #466 (Ctrl+P puts away the pane the weaver's input last reached, covered
   or not; a covered one they moved on from still comes forward) merged 2026-10-28 with #465 and
-  #459 stacked on it, each green on every job; reviewed after the merge (Vision, 13 of 14 checks:
-  main's own three runs still going). The desk lane wrote no report section for #466; the issue
+  #459 stacked on it, each green on every job; reviewed after the merge (Vision, 14 of 14 checks:
+  main's own three runs green on every job, the sanitizer job's build and tests apart, at
+  `b298ab5a`, `cf6bda9e` and `4e995de9`). The desk lane wrote no report section for #466; the issue
   lane's is clean and its trees are deleted. The wave: the desk's round 2 and the mutants round
   started; the View Builder and text lanes next, their prompts' names checked against `main`
   again; the kit's memory round not yet sent.
