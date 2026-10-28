@@ -30,8 +30,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Pane Manager by name, #472 the quit box (2026-10-28); `main` green after them and #471, every job
   of each merge's run. Not built: the Hotkeys pane in accordions, no room; a pane's own top right
   waits for the picture tool (section 3). Next, Flow made over
-  ([prompt](../prompts/unrun/flow-made-over.md), warm, not started): as close to the mockup as
-  today's graphics draw, part by part beside its pictures, the founder's look before any push.
+  ([report](../reportbacks/flow-made-over-RB.md), `d2a315de` on `flow/made-over`, not pushed):
+  close to the mockup; the founder works on it live, reloading Flow in place (2026-10-28). His
+  notes: messages autocompleted; When and Then cards moved; a click outside a step deselects it;
+  a double click adds; binding a constant in one typed box. Later, with accordions (BL-WORK-16):
+  the docks narrowed to tags that open on hover with their names and connectors.
 - **Issue lane: the repository's own mutants**, merged (#471, fixing #468). Its follow-up, reviewed
   ([report](../reportbacks/issue-lane-mutants-follow-up-RB.md)): #473 the corpus level with `main`,
   then #475 the 30 survivors settled (13 by stronger cases, 9 corrected, 8 dropped with their
