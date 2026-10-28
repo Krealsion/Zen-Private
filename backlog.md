@@ -25,20 +25,21 @@ item below up to that day.
 Four lanes run at once on three build slots: two work slots at 8 jobs, one final slot at 4
 (constitution section f). WSL has 48 GB.
 
-- **Main lane: the desk, round 2**, reviewed ([report](../reportbacks/desk-round-2-RB.md)): four
-  pull requests ready, to merge in order: #467 the review's three fixes, #469 Start here's step 4
-  and the way in (the dependencies page), #470 the Pane Manager by name, #472 the quit box.
-  - Not built: a pane's own top right (close and move, a gear, a box around each icon, the
-    arrange markers on boxes of their own, "remove from the setup"), parked on its pictures
-    (section 5); the Hotkeys pane in accordions, no room.
-- **Issue lane: the repository's own mutants** (#468, #471 green and reviewed,
-  [report](../reportbacks/issue-lane-mutants-weekly-RB.md)): joined to `main` after the desk's
-  four, with their three claims and one entry #470 stales
-  ([prompt](../prompts/unrun/issue-lane-mutants-join.md), hot, not started). Then the UX batch
-  filed from [ux-batch.md](ux-batch.md) and the ideas, leaving out what the desk's round 2 takes.
-  Two leftovers for it: the View Builder still says `<action> complete` (WL-NOTE-06), and the quick
-  setup in a package names pages the package does not carry. With the batch it files the split of
-  `tests/workshop_support.hpp` as an issue (BL-WORK-44; the founder, 2026-10-28).
+- **Main lane: the desk, round 2**, merged ([report](../reportbacks/desk-round-2-RB.md)): #467 the
+  review's three fixes, #469 Start here's step 4 and the way in (the dependencies page), #470 the
+  Pane Manager by name, #472 the quit box (2026-10-28). Not built: the Hotkeys pane in accordions,
+  no room; a pane's own top right waits for the picture tool (section 3). The lane's next is Flow
+  made over (section 2).
+- **Issue lane: the repository's own mutants**, merged (#471, fixing #468;
+  [report](../reportbacks/issue-lane-mutants-weekly-RB.md)), before the join it was to make with
+  the desk's four. Next ([prompt](../prompts/unrun/issue-lane-mutants-follow-up.md), hot, not
+  started): the corpus brought level with `main` (the desk's three claims, one entry #470 staled,
+  the six claims of gone code removed, two doc gaps), the weekly run dispatched once, then the 30
+  survivors settled. Then the UX batch filed from [ux-batch.md](ux-batch.md) and the ideas, leaving
+  out what the desk's round 2 took. Two leftovers for it: the View Builder still says `<action>
+  complete` (WL-NOTE-06), and the quick setup in a package names pages the package does not carry.
+  With the batch it files the split of `tests/workshop_support.hpp` as an issue (BL-WORK-44; the
+  founder, 2026-10-28).
 - **View Builder lane** (not started, [prompt](../prompts/unrun/lane-view-builder.md)): a Discard
   button; the kinds below Grid; widening grows the canvas alone; then Project scrolls, Loaded
   searches, Compose shows a message's fields.
@@ -47,7 +48,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
   compiles held to a budget, so all three slots run at once (22.8 GB of 47 at 10 GB). Next, the
   founder's calls of 2026-10-28 ([prompt](../prompts/kit-gate-budget.md), running): 12 GB
-  a work slot, and the official and sanitizer trees each learning their own peaks.
+  a work slot, and the official and sanitizer trees each learning their own peaks. Then the
+  picture tool (the founder, 2026-10-28): a page's pictures retaken from a recorded walk, each
+  with its recipe beside it (`witness.sh picture`, desk round 2's recommendation).
 
 ## 2. Next, in order
 
@@ -73,6 +76,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 
 Each starts on the founder's word; "wake" is what must be true first.
 
+- **A pane's own top right** (desk round 2's parked item): close and move, a gear, a box around
+  each icon, the arrange markers on boxes of their own, "remove from the setup"; about 116 page
+  pictures retaken with it. Wake: the kit's picture tool (the founder, 2026-10-28).
 - **Settings, stages 4 to 6** (BL-WORK-36; stages 1 to 3B merged, #101 and #314 to #326). Stage
   4 is the settings weave applying themes, once its research is read again against the desk's
   owner; it takes the open report rows 47, 48 and 69 to 71. First check whether stage 3B's
@@ -160,13 +166,6 @@ Each starts on the founder's word; "wake" is what must be true first.
   ([report](../reportbacks/reports-open-items-RB.md)); none brought yet.
 - Whether to rotate the SSH key a test canary read in BL-WORK-38's stage 1.
 - Where the local lane's agents run (BL-LANE-01).
-- The desk's top right waits on its pictures (about 116 made untrue, 40 in other lanes' folders):
-  Vision's lean is a tool that retakes a page's pictures from a recorded walk first, then the
-  top right with every picture retaken.
-- The quit box discards a pane's work still settling as it does unsaved work: Vision's lean is to
-  leave it (P-WORK-75).
-- #471's survivors to the issue its weekly run opens, the six claims of gone code removed:
-  Vision's leans, written into the join prompt.
 
 ## 6. Filed as issues
 
@@ -176,8 +175,7 @@ marked.
 - **Needs a decision:** #117 a UTF-8 path cut at a clipped boundary; #118 a required Windows
   lane under non-ASCII folders; Loom #35 a path-encoding contract for `loom-host` sessions on
   Windows.
-- **Ready:** #419 profile the Info and Project entries that dominate the sanitizer's verify;
-  #468 the mutants kept and run weekly (the issue lane, now).
+- **Ready:** #419 profile the Info and Project entries that dominate the sanitizer's verify.
 - **Parked:**
   - #119 a release identity and compatibility promise (BL-ADOPT-02);
   - #120 the workload behind the first performance promise (BL-ADOPT-03);
