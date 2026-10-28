@@ -50,6 +50,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **View Builder lane** (not started, [prompt](../prompts/unrun/lane-view-builder.md)): a Discard
   button; the kinds below Grid; widening grows the canvas alone; then Project scrolls, Loaded
   searches, Compose shows a message's fields.
+- **Accordion lane** (not started, [prompt](../prompts/unrun/accordion-research.md), warm):
+  research only, a pane's parts folded and a pane itself docked as one idea, its owners, what a
+  fold keeps, the waiting consumers in order; nothing in Flow while the founder works it live.
 - **Text lane** (not started, [prompt](../prompts/unrun/lane-text-input.md)): the Terminal's Enter
   and Shift+Enter; Files' paths centre-truncated; the Editor's right-press menu.
 - **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
@@ -130,7 +133,8 @@ Each starts on the founder's word; "wake" is what must be true first.
 - **The founder's order of 2026-10-03**, after the settings:
   1. what the canvas unlocks (BL-WORK-09): a hover cue, and a tutorial mode walking a pane's
      parts;
-  2. accordions and anchors, researched first (BL-WORK-16);
+  2. accordions and anchors, researched first (BL-WORK-16; anchors to edges and shares landed in
+     L1 and L2, the research's prompt written 2026-10-28, section 1);
   3. Files answering a request for a path (BL-WORK-17);
   4. Info as a one-slot inspector (BL-WORK-10);
   5. images (BL-WORK-11);
