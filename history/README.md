@@ -16,3 +16,7 @@ CONSOLIDATION-NOTES.md
 zen-companion-maps.md
     the three companion maps, moved from memory 2026-09-03; the maps themselves are
     Zen/prompts/zen-map-{1,2,3}-*.md
+
+closed_work.md
+    the backlog as it stood on 2026-10-27, kept whole: every closed arc, and the full
+    story of each item then open; the live list is private/backlog.md
