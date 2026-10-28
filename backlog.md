@@ -46,9 +46,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   searches, Compose shows a message's fields.
 - **Text lane** (not started, [prompt](../prompts/unrun/lane-text-input.md)): the Terminal's Enter
   and Shift+Enter; Files' paths centre-truncated; the Editor's right-press menu.
-- **The kit's memory round** ([prompt](../prompts/kit-build-memory.md)): a work build's need at its
-  measured peak (a cold 8-job build 18.1 GB, a 4-job one 10.4), then work builds made small
-  enough that all three slots run at once.
+- **The kit's memory round**, done ([report](../reportbacks/kit-build-memory-RB.md)): a compile
+  gate holds a work slot's compiles to a 10 GB budget, so all three slots run at once (22.8 GB of
+  47 measured); a cold work build takes about a third longer. Two calls wait (section 5).
 
 ## 2. Next, in order
 
@@ -104,8 +104,9 @@ Each starts on the founder's word; "wake" is what must be true first.
   lane left empty.
 - **The Perspectives Lab's pages** rebaselined after D1, before any becomes a prompt. Wake: met.
 - **Faster builds** (BL-WORK-44; #343 merged): split `tests/workshop_support.hpp`, the largest
-  lever; the sanitizer job back to 60 minutes if the code's health allows (90 now, #356; #419
-  profiles its longest entries); the old CI caches evicted.
+  lever (2026-10-27: 36 of the 45 compiles over 2 GB include it, 43 % of a cold build's compiling);
+  the sanitizer job back to 60 minutes if the code's health allows (90 now, #356; #419 profiles its
+  longest entries); the old CI caches evicted.
 - **Fast forward** (BL-WORK-43; S1 and S3 merged): S2 and S4 to S6.
 - **The release for Windows and Linux** (BL-ADOPT-06). The nightly package is live (`v0.1.0` on
   2026-10-24, 0.1.3 since, its tally story walked each night). Left: the rest of the release,
@@ -160,6 +161,9 @@ Each starts on the founder's word; "wake" is what must be true first.
   ([report](../reportbacks/reports-open-items-RB.md)); none brought yet.
 - Whether to rotate the SSH key a test canary read in BL-WORK-38's stage 1.
 - Where the local lane's agents run (BL-LANE-01).
+- The kit's compile budget, 10 GB a work slot or 12 (faster, and still fits): Vision's lean is 12,
+  and each tree kind learning its own peaks (the official and sanitizer trees share them now).
+- `tests/workshop_support.hpp`'s split filed as a Zengine issue (BL-WORK-44): Vision's lean is yes.
 
 ## 6. Filed as issues
 

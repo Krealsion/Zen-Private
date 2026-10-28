@@ -158,7 +158,9 @@ under the same id.
 - **P-BUILD-09** The hosted jobs' limits sit close to their times; the sanitizer job has 90
   minutes (#356). Wakes: a job within a tenth of its limit, or a cancel.
 - **P-BUILD-10** The kit's open recommendations: eighteen entries from the rounds of 2026-10-08
-  to 10-12, two asks since met by the kit's commit stamps. Wakes: the next pass on the process.
+  to 10-12, two asks since met by the kit's commit stamps; from the memory round (2026-10-27) a
+  profile command, the gates shown by `kit.sh slot`, a listing of the learned peaks, links under
+  the gate, a budget that follows free memory. Wakes: the next pass on the process.
 - **P-BUILD-11** A cancelled walk's input session races the next run's ask. Wakes: a job failing
   on it, or a change to the tool's session handling.
 - **P-BUILD-12** Loom's lane runs its entries one at a time. Wakes: a Loom phase touching its
