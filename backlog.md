@@ -40,15 +40,17 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   [prompt](../prompts/issue-lane-mutants-weekly.md)), then the UX batch filed from
   [ux-batch.md](ux-batch.md) and the ideas, leaving out what the desk's round 2 takes. Two
   leftovers for it: the View Builder still says `<action> complete` (WL-NOTE-06), and the quick
-  setup in a package names pages the package does not carry.
+  setup in a package names pages the package does not carry. With the batch it files the split of
+  `tests/workshop_support.hpp` as an issue (BL-WORK-44; the founder, 2026-10-28).
 - **View Builder lane** (not started, [prompt](../prompts/unrun/lane-view-builder.md)): a Discard
   button; the kinds below Grid; widening grows the canvas alone; then Project scrolls, Loaded
   searches, Compose shows a message's fields.
 - **Text lane** (not started, [prompt](../prompts/unrun/lane-text-input.md)): the Terminal's Enter
   and Shift+Enter; Files' paths centre-truncated; the Editor's right-press menu.
-- **The kit's memory round**, done ([report](../reportbacks/kit-build-memory-RB.md)): a compile
-  gate holds a work slot's compiles to a 10 GB budget, so all three slots run at once (22.8 GB of
-  47 measured); a cold work build takes about a third longer. Two calls wait (section 5).
+- **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
+  compiles held to a budget, so all three slots run at once (22.8 GB of 47 at 10 GB). Next, the
+  founder's calls of 2026-10-28 ([prompt](../prompts/unrun/kit-gate-budget.md), not started): 12 GB
+  a work slot, and the official and sanitizer trees each learning their own peaks.
 
 ## 2. Next, in order
 
@@ -161,9 +163,6 @@ Each starts on the founder's word; "wake" is what must be true first.
   ([report](../reportbacks/reports-open-items-RB.md)); none brought yet.
 - Whether to rotate the SSH key a test canary read in BL-WORK-38's stage 1.
 - Where the local lane's agents run (BL-LANE-01).
-- The kit's compile budget, 10 GB a work slot or 12 (faster, and still fits): Vision's lean is 12,
-  and each tree kind learning its own peaks (the official and sanitizer trees share them now).
-- `tests/workshop_support.hpp`'s split filed as a Zengine issue (BL-WORK-44): Vision's lean is yes.
 
 ## 6. Filed as issues
 
