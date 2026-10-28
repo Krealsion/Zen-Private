@@ -167,7 +167,8 @@ GitHub holds these; each issue is written as a small prompt any lane can take. Z
 marked.
 
 - **Needs a decision:** #117 a UTF-8 path cut at a clipped boundary; #118 a required Windows
-  lane under non-ASCII folders.
+  lane under non-ASCII folders; Loom #35 a path-encoding contract for `loom-host` sessions on
+  Windows.
 - **Ready:** #419 profile the Info and Project entries that dominate the sanitizer's verify;
   #468 the mutants kept and run weekly (the issue lane, now).
 - **Parked:**
@@ -189,11 +190,12 @@ marked.
   - #141 row views reused in a long list (BL-WORK-31);
   - #142 Flow's next milestone (BL-WORK-32; the makeover is section 2);
   - #143 canvas text fit with a size floor (BL-WORK-34);
-  - #144 maker participants' addressed requests and conditional speech.
+  - #144 maker participants' addressed requests and conditional speech (P-WORK-36);
+  - Loom #36 cross-layer public include debt (BL-ARCH-01), and Loom #37 a shape's name owned
+    explicitly where vocabularies must coexist (P-LOOM-08).
 - **Later:** #145 GitHub from Workshop (BL-ADOPT-04); #146 several Workshop windows
   (BL-WORK-12); #147 Python scripts as participants (BL-WORK-13, paired with the snake's handoff);
   #148 undo through the owners (BL-WORK-33); #149 an app of its own, edited live (BL-WORK-35).
-- **Loom:** #36 cross-layer public include debt (BL-ARCH-01).
 
 ## 7. Directions that govern
 
