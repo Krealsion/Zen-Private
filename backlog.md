@@ -31,9 +31,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   of each merge's run. Not built: the Hotkeys pane in accordions, no room; a pane's own top right
   waits for the picture tool (section 3). Next, Flow made over
   ([report](../reportbacks/flow-made-over-RB.md), `d2a315de` on `flow/made-over`, not pushed):
-  close to the mockup; the founder works on it live, reloading Flow in place (2026-10-28). His
-  notes: messages autocompleted; When and Then cards moved; a click outside a step deselects it;
-  a double click adds; binding a constant in one typed box. Later, with accordions (BL-WORK-16):
+  close to the mockup; the founder works on it live, reloading Flow in place (2026-10-28), from
+  fourteen requests in four batches ([requests](../prompts/unrun/flow-live-requests.md), hot):
+  his notes (autocomplete, moving When and Then, deselecting, double clicks, one typed constant
+  box) and Vision's. Later, with accordions (BL-WORK-16):
   the docks narrowed to tags that open on hover with their names and connectors.
 - **Issue lane: the repository's own mutants**, merged (#471, fixing #468). Its follow-up, reviewed
   ([report](../reportbacks/issue-lane-mutants-follow-up-RB.md)): #473 the corpus level with `main`,
