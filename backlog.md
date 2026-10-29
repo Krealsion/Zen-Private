@@ -35,31 +35,35 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   field of one name refused at the edit, which the maker's admission refuses at Run. Later, with
   accordions (BL-WORK-16): the docks narrowed to tags that open on hover with their names and
   connectors.
-- **Issue lane: the UX batch**, filed and its housekeeping taken
-  ([report](../reportbacks/issue-lane-ux-batch-RB.md), not yet stopped): 65 issues in Zengine
-  (#492 to #566) and Loom #73 (section 6); eight pull requests, each green: #550 (#474), #553,
-  #555, #557, #561, #563, #565, #567. Next, the ELH audit's findings
-  ([prompt](../prompts/unrun/issue-lane-elh-audit.md), warm).
+- **Issue lane**: the UX batch done ([report](../reportbacks/issue-lane-ux-batch-RB.md)): 65
+  issues in Zengine (#492 to #566) and Loom #73 (section 6), its eight pull requests merged, the
+  weekly mutants run 341 of 341 caught and #476 closed. Then the ELH audit's findings
+  ([report](../reportbacks/issue-lane-elh-audit-RB.md), reviewed 2026-10-29): #570, `repo` alone
+  in `accounts-machine` so approving `workshop-machine` grants no push, and Loom #77, a spelling
+  `loom-session` cannot type refused by the input's name, both green; 21 issues (#569, #571 to
+  #589, Loom #76), four of them `needs-decision` (section 5).
 - **Kit lane: the picture tool**, done ([report](../reportbacks/kit-pictures-RB.md)): a picture
-  taken from its recipe, an audit of all 128, 26 recipes; twelve retaken in #558, green. After
-  this wave, an audit again: the counts in the Hotkeys and palette pictures move with #559 and
-  #568, and #563 may take Start here off `hotkeys-keymap-folder-window.png`. The manuals' recipe
-  shows its own hand (Info inspecting the Manual's geometry, Notices listing the commits that
-  placed it); a cleaner composition for the kit's next round.
-- **Accordion lane: stage 2**, as #568 ([report](../reportbacks/accordion-stage-2-RB.md), its run
-  table still open): the group borrows its owner's list and keeps no copy, so a pane's state is
-  the truth; Info's values a tree (WL-INFO-16), with Right, Left and Shift+Left. Rebases after
-  #550 and #565: the info floor 185, each component row from its own side; with it an open on a
-  list in any order, and the pictures the rebase makes untrue
-  ([continuation](../prompts/unrun/accordion-stage-2-rebase.md), hot, 2026-10-29). Three
-  decisions (section 5).
-- **WASM lane: stages 2 and 3** ([prompt](../prompts/wasm-tier-s2-s3.md)): S2 as Loom #74,
-  `Kernel::containment(name)`, green every job, D7's statement in `capabilities.md` as recorded;
-  S3 to come, then its report.
+  taken from its recipe, an audit of all 128, 26 recipes; twelve retaken in #558, merged. An
+  audit of `main` at `14669927` (the accordion lane's, 2026-10-29) finds three already out of
+  date: `hotkeys-keymap-folder-window.png` (Start here, after #563), and the Files manual and the
+  Pane Manager's row menu the kit round left; the Hotkeys and palette counts do not move with
+  #568. After #559, an audit again. The manuals' recipe shows its own hand (Info inspecting the
+  Manual's geometry, Notices listing the commits that placed it); a cleaner composition for the
+  kit's next round.
+- **Accordion lane: stage 2**, as #568 ([report](../reportbacks/accordion-stage-2-RB.md)): the
+  group borrows its owner's list and keeps no copy, so a pane's state is the truth; Info's values
+  a tree (WL-INFO-16), with Right, Left and Shift+Left. Rebased onto `main` at `c46f3098` and
+  green (its last section, reviewed 2026-10-29): the floors measured (component 59, info 185), an
+  open walking a list in any order, witnessed under libstdc++'s debug mode, Info's manual picture
+  retaken; merge-ready. Three decisions (section 5).
+- **WASM lane: stages 2 and 3** ([report](../reportbacks/wasm-tier-s2-s3-RB.md)): S2 merged as
+  Loom #74, `Kernel::containment(name)`, D7's statement in `capabilities.md` as recorded. S3 as
+  Loom #75, rebased onto it and green, tests only: the door cases run on boxed twins built from
+  the same fixtures (24), and the five bounds met; merge-ready. Next, S4: a Zengine pane boxed.
 - **The review waves** (2026-10-29). The first: #485, #491, #489, #486, #484, #490 and #488
   merged, #487 closed. The second, reviewed the same day: #553, #555, #561, #557, #563, #567,
-  #550, #565, #558 and Loom #74 merged; #559 green and merge-ready; #568 once rebased onto them
-  (its two conflicts) and green again.
+  #550, #565, #558 and Loom #74 merged. The third, reviewed that evening, all green and each
+  clean on `main` and with the others: #570, #568 and #559, then Loom #75 and #77 back to back.
 - **UI census**, reported ([report](../reportbacks/ui-census-RB.md), `08693d45`) and reviewed
   (2026-10-29): an element set of nine and an order; its nine decisions with the founder
   (section 5).
@@ -307,6 +311,12 @@ Each starts on the founder's word; "wake" is what must be true first.
 - Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
 
+- The ELH round's four decisions ([report](../reportbacks/issue-lane-elh-audit-RB.md)): #572
+  whether `desk/resolve` follows a cause to the message it leads to, and whether its answer keeps
+  the rule for filing an issue; #580 where a pane's refusal is said whole; #583 which office
+  answers a setup's first task and a pane's purpose; #588 where the fixture tools, the demo
+  service and the test-only inputs go.
+
 ## 6. Filed as issues
 
 GitHub holds these; each issue is written as a small prompt any lane can take. Zengine unless
@@ -315,6 +325,8 @@ marked.
 - **The UX batch** (2026-10-29, [report](../reportbacks/issue-lane-ux-batch-RB.md), whose table
   maps each draft to its issue): #492 to #566 and Loom #73; 39 `ready`, 16 `needs-decision`, 11
   waiting on a lane, another issue or a reproduction.
+- **The ELH audit's findings** (2026-10-29, [report](../reportbacks/issue-lane-elh-audit-RB.md)):
+  #569 (taken by #570), #571 to #589 and Loom #76 (taken by #77); grouped by tool, 17 `ready`.
 - **Needs a decision:** #117 a UTF-8 path cut at a clipped boundary; #118 a required Windows
   lane under non-ASCII folders; Loom #35 a path-encoding contract for `loom-host` sessions on
   Windows.
@@ -400,9 +412,6 @@ install, the restore notice (Notices keeps every notice; reasoned).
   `builder/builder-pane/pane.cpp`, `introspection/loaded.hpp`, `files/files.cpp` (twice),
   `workshop/pane_text.hpp`'s header, `agents/panes.md`, `agents/decisions/
   a-build-keeps-its-own-words.md`, two cases' comments. #553 mended `drawable`'s alone.
-- The accordion group, if #568 does not take it: an open inserts by `upper_bound` into a list
-  documented as possibly unsorted, which `std::upper_bound`'s precondition forbids; append when
-  the list is not sorted.
 - In the pages' pictures the terminal's Pane Manager covers Info's first column, and the
   smallest window's Notices covers Info (the kit's audit).
 - A loaded weave cannot read its own id (Loom; no owner).

@@ -164,6 +164,10 @@ under the same id.
   should show at once, or a key's latency measured.
 - **P-WORK-71** A weave cannot hand a device to its next instance. Wakes: the SDL window stage,
   or a weave holding a device across a reload.
+- **P-WORK-78** A package's name is the only unit of reach: three reaches ride on suffixes (a
+  message package, `-machine`, `accounts-machine`), read by convention. Wakes: a package that
+  reaches something neither suffix names (a network, say), when the catalog would carry a
+  package's reach as data (the ELH round, 2026-10-29).
 
 ## 5. Build and verification
 
@@ -191,8 +195,10 @@ under the same id.
   `\r`. Wakes: the next pass on the process.
 - **P-BUILD-11** A cancelled walk's input session races the next run's ask. Wakes: a job failing
   on it, or a change to the tool's session handling.
-- **P-BUILD-12** Loom's lane runs its entries one at a time. Wakes: a Loom phase touching its
-  tests' layout, or a local lane whose time matters.
+- **P-BUILD-12** Loom's lane runs its entries one at a time. Loom #75's boxed twins write the
+  same temp files as their native cases (`zen-joint-reload.so`, `-held`, `-after-refusal`), safe
+  only while it does. Wakes: a Loom phase touching its tests' layout, or a local lane whose time
+  matters.
 - **P-BUILD-17** The gate counts compiles, not links, and a sanitizer's largest link takes 5.5
   GB: a sanitizer work build could reach about 17 GB against its 11 GB need, and two of them
   beside the final slot's build would come near WSL's 47 GB (kit-gate-budget-RB, 2026-10-28). Not
