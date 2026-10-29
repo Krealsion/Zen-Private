@@ -128,6 +128,16 @@ under the same id.
   flight are worded but held by no case; the presenter cannot read the keymap, so each pane asks
   for it. Wakes: each its report's trigger (lane-view-builder-RB, accordion-stage-1-RB,
   lane-text-input-RB).
+- **P-WORK-77** The second review wave's small pressures (2026-10-29): `InfoPaneState::views` is
+  half live (a row's slot and open levels the truth while the weave runs, the rest a snapshot's);
+  a shut level's summary is cut at a fixed 60 characters, not by the room; no door edits a pane's
+  state from outside, so an edit showing at the next fold is reached only by a reload;
+  `FirstRunState::story_shown` is written and never read; Flow's double-press interval is a copy
+  of Workshop's, a case keeping them equal; three UTF-8 readers (`ascii_spelling`, Files'
+  `utf8_character`, the paints'); a page picture showing a count (keys in force, palette matches)
+  moves with every new key or action. Wakes: each its report's trigger (accordion-stage-2-RB,
+  issue-lane-ux-batch-RB, flow-live-requests-RB); the element set's text core for the readers;
+  the kit's next audit for the counts.
 - **P-WORK-63** An application chord above every mode never reaches Neovim. Wakes: a weaver
   missing a chord; the pane would declare the chords it owns.
 - **P-WORK-04** (the founder's use) Conventional editor features come from use: the Terminal's

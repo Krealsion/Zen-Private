@@ -25,68 +25,49 @@ item below up to that day.
 Four lanes run at once on three build slots: two work slots at 8 jobs, one final slot at 4
 (constitution section f). WSL has 48 GB.
 
-- **Main lane: the desk, round 2**, merged ([report](../reportbacks/desk-round-2-RB.md)): #467 the
-  review's three fixes, #469 Start here's step 4 and the way in (the dependencies page), #470 the
-  Pane Manager by name, #472 the quit box (2026-10-28); `main` green after them and #471, every job
-  of each merge's run. Not built: the Hotkeys pane in accordions, no room; a pane's own top right
-  waits for the picture tool (section 3). Next, Flow made over
-  ([report](../reportbacks/flow-made-over-RB.md), `d2a315de` on `flow/made-over`, not pushed):
-  close to the mockup; the founder works on it live, reloading Flow in place (2026-10-28), from
-  fourteen requests in four batches ([requests](../prompts/flow-live-requests.md)): his notes
-  (autocomplete, moving When and Then, deselecting, double clicks, one typed constant box) and
-  Vision's. All four batches live, seventeen commits, nothing pushed
-  ([report](../reportbacks/flow-live-requests-RB.md)); the pointer's leave waits on a restart.
-  The founder has a little more to do on it first (2026-10-29); with it, the three old dialogs
-  (Add a trigger, Add an emit, Add field) given request 8's words, agreed. Then rebased onto
-  `main`, the guide's pictures retaken, pushed as a pull request. Later, with accordions
-  (BL-WORK-16):
-  the docks narrowed to tags that open on hover with their names and connectors.
-- **Issue lane: the repository's own mutants**, merged (#471, fixing #468). Its follow-up, reviewed
-  ([report](../reportbacks/issue-lane-mutants-follow-up-RB.md)): #473 the corpus level with `main`,
-  then #475 the 30 survivors settled (13 by stronger cases, 9 corrected, 8 dropped with their
-  reasons), both green; to merge in that order. Filed: #474 (a stale comment in the Inventory
-  pane); the weekly run's own issue #476, closed once a run after the merges is green. Next, the UX
-  batch filed from [ux-batch.md](ux-batch.md) and the ideas, leaving out what the desk's round 2
-  took, with its housekeeping: #474, the four second guards, the weekly run once more and #476
-  closed, the corpus page's two gaps. Two leftovers for it: the View Builder still says `<action>
-  complete` (WL-NOTE-06), and the quick setup in a package names pages the package does not carry.
-  With the batch it files the split of `tests/workshop_support.hpp` as an issue (BL-WORK-44; the
-  founder, 2026-10-28), and two from the review wave (the founder, 2026-10-29): Files' listing
-  spells a name beyond ASCII a `?` a character, as its header does; Start here opens at the first
-  launch only.
-- **View Builder lane**, reported ([report](../reportbacks/lane-view-builder-RB.md), reviewed
-  2026-10-29): #489 Project scrolls and #491 Compose's fields merged; #484 Discard merges as it
-  stands; #490 Loaded's search rebased in the round below. #487, one layout at every width, does
-  not merge: the founder liked the width that responds, and the View Builder is made over after
-  Flow (section 2).
-- **Accordion lane**, researched ([report](../reportbacks/accordion-research-RB.md), reviewed):
-  one idea at both levels. In a pane, a shared piece in `component/`, a part's fold the pane's
-  setting and a content fold its state; on the desk, a pane shut to its title and docks on an
-  edge, as `workshop.fold` and `workshop.dock` in the pane's row. First stage: Files' places with
-  the Hotkeys pane; then Info's tree, the desk in three stages, Flow's tags. Eight decisions
-  (section 5). Stage 1 ([prompt](../prompts/accordion-stage-1.md)): the accordion and its
-  independent group in `component/`, Files' places, the Hotkeys pane in sections, Files' paths,
-  and a resting pointer handed to panes. Merged as #486 (2026-10-29,
-  [report](../reportbacks/accordion-stage-1-RB.md)).
-- **Text lane**, reported ([report](../reportbacks/lane-text-input-RB.md), reviewed 2026-10-29):
-  #485 the Terminal's Enter and Shift+Enter merged; #488 the Editor's right-press menu rebased in
-  the round below.
-- **The review wave** (2026-10-29): #485, #491, #489, #486 and #484 merged, every `main` run
-  green; #487 closed. The rebase round ([report](../reportbacks/lane-view-builder-RB.md), its last
-  section) brought #490 and #488 onto `main` at `44214d1d`, the floors measured (inspect 128,
-  seam 179), both runs green; reviewed merge-ready (2026-10-29), in either order.
+- **Main lane: Flow made over**, pushed as #559 at the founder's word (2026-10-29,
+  [report](../reportbacks/flow-live-requests-RB.md)): batches A to E live in his Workshop, the
+  Windows build mended after the first hosted run, three guide pictures taken from recipes (the
+  older ones wait on #521). Reviewed 2026-10-29: at `b8cd3114` its hosted ASan + UBSan and MSVC
+  (advisory) jobs failed in their tests, the canonical Linux and MinGW-w64 jobs green; the logs
+  need a signed-in read (`gh run view 40934099091 --log-failed`). Likely cause, unconfirmed: the
+  pane stamps a press with the steady clock itself, so in a slow build a case's two clicks fall
+  outside 400 ms; Workshop's `interaction_now()` lets a rig wire the clock. The lane mends it
+  before #559 merges. One finding for it: a kept field and a trigger's message field of one name,
+  which no edit refuses (Keep a field, and now both Renames) and the maker's admission refuses at
+  Run. Owed with it or next: the three old dialogs (Add a trigger, Add an emit, Add field) in
+  request 8's words, agreed and left (its decision 5). Later, with accordions (BL-WORK-16): the
+  docks narrowed to tags that open on hover with their names and connectors.
+- **Issue lane: the UX batch**, filed and its housekeeping taken
+  ([report](../reportbacks/issue-lane-ux-batch-RB.md), not yet stopped): 65 issues in Zengine
+  (#492 to #566) and Loom #73 (section 6); eight pull requests, each green: #550 (#474), #553,
+  #555, #557, #561, #563, #565, #567. Next, the ELH audit's findings
+  ([prompt](../prompts/unrun/issue-lane-elh-audit.md), warm).
+- **Kit lane: the picture tool**, done ([report](../reportbacks/kit-pictures-RB.md)): a picture
+  taken from its recipe, an audit of all 128, 26 recipes; twelve retaken in #558, green. After
+  this wave, an audit again: the counts in the Hotkeys and palette pictures move with #559 and
+  #568, and #563 may take Start here off `hotkeys-keymap-folder-window.png`. The manuals' recipe
+  shows its own hand (Info inspecting the Manual's geometry, Notices listing the commits that
+  placed it); a cleaner composition for the kit's next round.
+- **Accordion lane: stage 2**, as #568 ([report](../reportbacks/accordion-stage-2-RB.md), its run
+  table still open): the group borrows its owner's list and keeps no copy, so a pane's state is
+  the truth; Info's values a tree (WL-INFO-16), with Right, Left and Shift+Left. Rebases after
+  #550 and #565: the info floor 185, each component row from its own side. Three decisions
+  (section 5).
+- **WASM lane: stages 2 and 3** ([prompt](../prompts/wasm-tier-s2-s3.md)): S2 as Loom #74,
+  `Kernel::containment(name)`, green every job, D7's statement in `capabilities.md` as recorded;
+  S3 to come, then its report.
+- **The review waves** (2026-10-29). The first: #485, #491, #489, #486, #484, #490 and #488
+  merged, #487 closed. The second, reviewed the same day, in this order: #553, #555, #561, #557,
+  #563, #567, #550, #565, #558 and Loom #74 now; #568 once rebased and green again; #559 once
+  its sanitizer job is mended and green.
 - **UI census**, reported ([report](../reportbacks/ui-census-RB.md), `08693d45`) and reviewed
-  (2026-10-29): the pieces counted, the sheet against the code, an element set of nine and an
-  order; its nine decisions, call 6 among them, are with the founder (section 5).
-- **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
-  compiles held to a budget, so all three slots run at once. The founder's calls of 2026-10-28
-  are in ([report](../reportbacks/kit-gate-budget-RB.md), reviewed): 12 GB a work slot, the work
-  need 11 GB, the official and sanitizer trees each learning their own peaks; three at once took
-  WSL to 25.9 GB of 47. Next the picture tool (the founder, 2026-10-28): a page's pictures
-  retaken from a recorded walk, each with its recipe beside it (`witness.sh picture`, desk round
-  2's recommendation). Its prompt is written ([prompt](../prompts/unrun/kit-pictures.md), warm,
-  2026-10-29): a picture from its recipe, an audit of which are out of date, the stale ones
-  retaken in one pull request, and `land --wait` stopping itself.
+  (2026-10-29): an element set of nine and an order; its nine decisions with the founder
+  (section 5).
+- **Closed this week**, each in its report: the desk's round 2 (#467, #469, #470, #472); the
+  repository's mutants and their follow-up (#471, #473, #475); the View Builder lane (#484, #489,
+  #490, #491; #487 not merged, the builder made over after Flow); the text lane (#485, #488);
+  accordion stage 1 (#486); the kit's compile gate (12 GB a work slot, each tree its own peaks).
 
 ## 2. Next, in order
 
@@ -112,8 +93,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    Grid (his note of 2026-10-27); the width that responds, which he liked (#487 not merged);
    Discard asking a second press, as New and Open do; the census's element set as its kinds; and
    after it, Workshop's two pictures of the builder taken again (`quit-box.png`,
-   `pane-manager-new-view-builder.png`). Then a pass over the smaller panes on the new pieces
-   (the founder, 2026-10-29), in a few phases side by side.
+   `pane-manager-new-view-builder.png`), and its `<action> complete` (WL-NOTE-06), a leftover the
+   issue lane left to it. Then a pass over the smaller panes on the new pieces (the founder,
+   2026-10-29), in a few phases side by side.
 4. **The operator suite** (BL-WORK-48), which Flow's calculator runs on. Today: five Int
    primitives (`operator/primitives.hpp`). To add:
    - Math: subtract, multiply, divide and remainder (both refusing 0), negate, abs, min; square
@@ -154,7 +136,7 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 - **A pane's own top right** (desk round 2's parked item): close and move, a gear, a box around
   each icon, the arrange markers on boxes of their own, "remove from the setup"; about 116 page
-  pictures retaken with it. Wake: the kit's picture tool (the founder, 2026-10-28). With the
+  pictures retaken with it. Wake: the kit's picture tool, now built (#558, 2026-10-29). With the
   accordion's desk stages (the founder, 2026-10-28): the title bar is the pane's own accordion
   header, its words and buttons there, a double click shutting or opening the pane; a dock's tag
   is the same bar drawn small, a vertical one its icons stacked and its name a letter a row.
@@ -180,7 +162,8 @@ Each starts on the founder's word; "wake" is what must be true first.
   the element seam (`graphics/element_abi.h`, `element_export.hpp`, `ZENGINE_EXPORT_ELEMENT`), the
   window's element code and its four shapes, so no window keeps an element's state; the snake's
   board drawn by its world as a picture. About 22 files; two installed headers go, a change to
-  the package. Bounded: an issue for the issue lane.
+  the package. Filed as #546 (2026-10-29); `limitations.md`'s line on `graphics/elements/` (#565)
+  goes with it.
 - **What a window may carry: looks that change with time or the pointer** (the founder,
   2026-10-29, from the blinking caret). A pane's drawing names a behaviour from a closed set the
   window knows (a caret's blink, a part lit while the pointer rests on it, a pressed look while
@@ -308,10 +291,6 @@ Each starts on the founder's word; "wake" is what must be true first.
   under it while the first is shut, at the foot while it is open, so it needs no anchors and may
   itself be a section of an outer accordion; docks (the bars) before anchors between panes, a
   vertical bar spelling each tag one letter a row.
-- The four second guards no case can tell from the first (#475's choice 6: `drawable` in the
-  Hotkeys file row and in Attention, Files' emit list, the Terminal's wait for its row): Vision's
-  lean is to keep them, each saying the host behaviour it guards against.
-- #474's labels: Vision's lean is `docs` and `ready`.
 - The census's nine decisions ([report](../reportbacks/ui-census-RB.md)): Vision takes the
   recommendations of 1 to 8, with the hint fed by one facet that hears the keymap, the View
   Builder's parts moved into its makeover; for 9, the drawn faces lifted from Flow's pen once his
@@ -319,11 +298,24 @@ Each starts on the founder's word; "wake" is what must be true first.
   founder (2026-10-29): the window-run element retired whole (section 3); then "I love what we
   have so far", read by Vision as yes to these leans, to confirm.
 
+- #568's three decisions ([report](../reportbacks/accordion-stage-2-RB.md)): no door edits
+  `DesktopState` or `InfoPaneState` from outside today (Loom's poke writes scalars, its reset
+  wants every field exposed), Vision's lean the intended reach for now, the door a later Loom
+  stage; the three nested-value pictures with no recipe to the kit's recipes, yes; the three
+  already stale and retaken in #568 kept there, yes.
+- The UX batch's thirteen decisions, each on its issue under `needs-decision`: #492, #493, #494,
+  #495, #503, #518, #519, #522 to #526, #533, #534, #535, #543, and Loom #73.
+- Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
+  declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
+
 ## 6. Filed as issues
 
 GitHub holds these; each issue is written as a small prompt any lane can take. Zengine unless
 marked.
 
+- **The UX batch** (2026-10-29, [report](../reportbacks/issue-lane-ux-batch-RB.md), whose table
+  maps each draft to its issue): #492 to #566 and Loom #73; 39 `ready`, 16 `needs-decision`, 11
+  waiting on a lane, another issue or a reproduction.
 - **Needs a decision:** #117 a UTF-8 path cut at a clipped boundary; #118 a required Windows
   lane under non-ASCII folders; Loom #35 a path-encoding contract for `loom-host` sessions on
   Windows.
@@ -395,46 +387,34 @@ marked.
 
 ## 8. Loose ends for the next issue sweep
 
-- The census's three doc gaps (2026-10-29): `component/README.md` and `component/AGENTS.md` call
-  `tab_strip.hpp` the tabs a settings list is filtered by, and nothing is; `workshop/docs/
-  limitations.md` says there is no Button, List or ScrollView while `graphics/elements/` holds
-  them; no page says how a pane draws (rows, a canvas picture, a sketch).
+Filed by the UX batch (2026-10-29, section 6): the guest `ask` row (#536), `fill_laws.sh`
+(#537), the `Surface*` shapes (#538), `apply`'s scan (#539), the desk split's cases (#540) and
+its close sentence (#541), `three-places.md` (#542), Notices' `keep` (#543), the held drag
+(#544), the fixture split (#545), the window-run element (#546), a window's release and text
+(#547), a refusal `act` cannot hear (#548), the palette's start line (#549). Taken by its pull
+requests: the census's doc gaps (#565), the corpus page (#555). Found settled on `main`: the
+census header's `PaintTask`, the notices headers (#430), the build runner's starters, G2's SDK
+install, the restore notice (Notices keeps every notice; reasoned).
 
-- A guest row with `"admit": "ask"` parks its connection for good (`GuestDoor::decide` has no
-  caller): a defect to file.
-- `tools/fill_laws.sh` is not idempotent on `main`: an issue to file.
-- Eight graphics shapes are still named `Surface*`.
-- A window's release and text are refused on the bus by owners that take neither (an app's
-  views, the snake).
-- A refusal an owner says in its answer carries no press, so `act` cannot hear it.
+- Comments and pages still name `judge_content` and `canvas_content_problem`, which exist in
+  neither repository, and say one byte a canvas cannot draw refuses a pane's whole picture:
+  `builder/builder-pane/pane.cpp`, `introspection/loaded.hpp`, `files/files.cpp` (twice),
+  `workshop/pane_text.hpp`'s header, `agents/panes.md`, `agents/decisions/
+  a-build-keeps-its-own-words.md`, two cases' comments. #553 mended `drawable`'s alone.
+- Flow, if #559 does not take it: a kept field and a trigger's message field of one name, which
+  no edit refuses and the maker refuses at Run.
+- The accordion group, if #568 does not take it: an open inserts by `upper_bound` into a list
+  documented as possibly unsorted, which `std::upper_bound`'s precondition forbids; append when
+  the list is not sorted.
+- In the pages' pictures the terminal's Pane Manager covers Info's first column, and the
+  smallest window's Notices covers Info (the kit's audit).
 - A loaded weave cannot read its own id (Loom; no owner).
-- The manuals' pictures show the old desk; in the pages' pictures the terminal's Pane Manager
-  covers Info's first column, and the smallest window's Notices covers Info.
-- The palette's start line is cut at its right edge.
-- `apply` finds each said record by a scan (bounded at 1,024).
-- `main`'s hosted entries ran longer at `1c470497` than #419 recorded, untraced: readers still
-  solve the whole desk for one pane (with #419).
-- The desk split's leftovers: an `-s` abort in nine more assertions, fixed at each case's next
-  change; a reload not witnessed live; the held-row gate cased for 2 of 8 panes; a toggle judging
-  a stale copy while a close is in flight, not cased; a close's sentence with two composers;
-  `agents/decisions/three-places.md` still names `close_pane`.
-- Notices: the record's two headers route their law to `attention.md`; whether a pane edits
-  `keep`.
-- The restore notice is replaced at once by Inventory's startup note (no owner).
-- `tests/census_headers.hpp:242` still says `PaintTask v1`.
-- The app export's doc gaps: the build runner counts two process starters (the launcher makes
-  three); `docs/contributing/taking-an-issue.md` should name `tests/census_headers.hpp`;
-  `builder/run.hpp`'s claim of one starter is stale.
-- Whether G2's stage 8 settled the SDK install carrying no OS window.
+- The desk split's `-s` aborts in nine more assertions, fixed at each case's next change.
 - An issue to shorten `neovim_journey`, set aside.
-- Doc gaps: `AGENTS.md`'s floor wording (now the sum over four); doctest's `--duration` on WSL's
-  stepped clock.
+- Doc gaps not located on `main` from these words (2026-10-29): `AGENTS.md`'s floor wording (now
+  the sum over four); doctest's `--duration` on WSL's stepped clock.
 - The kit: the mutation script could count each mutant's text before building; a probe helper,
   asked twice.
-- The corpus's front page (`tests/mutants/README.md`): a hunk's context lines name the function
-  its entry names (two survivors were anchored in the wrong one), and how to probe a survivor.
-- A held drag in the desk's arrangement says `moved <pane>: ...` at each motion, against
-  WL-NOTE-06 (desk round 2, picture 08): a defect to file.
 
 ## 9. Not backlog
 
