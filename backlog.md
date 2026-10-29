@@ -151,7 +151,20 @@ Each starts on the founder's word; "wake" is what must be true first.
   element a value in `component/` and a face drawn from it, drawn by the panes and offered to
   makers as the View Builder's kinds. The census reported and was reviewed (section 1,
   [report](../reportbacks/ui-census-RB.md)); its nine decisions, the scaffold's call 6 among
-  them, wait on the founder (section 5).
+  them, wait on the founder (section 5). The text area, from the founder's note (2026-10-29): in
+  cells, markers for what is above and below; in a window, free scrolling with a bar of 4 to 8
+  pixels on the right; wrapping by width; its text selected and copied. Vision's reading: the
+  value keeps the scroll and the selection as places in the text, never rows or pixels, so a
+  rewrap keeps both; free scrolling needs the window to cut a line of text by its pixels (today a
+  group's clip drops a line whose top is outside it and lets the last spill); the bar's room kept
+  whether or not the text overflows, so nothing reflows when it appears, and pressed in a wider
+  band than it is drawn; a copy is the text as written, without the wrap's breaks or indents; in a
+  terminal the selection is drawn by the pane, since Workshop holds the terminal's mouse.
+- **The window-run element retired** (the founder, 2026-10-29): `ElementPut`, `ElementChange`,
+  the element seam (`graphics/element_abi.h`, `element_export.hpp`, `ZENGINE_EXPORT_ELEMENT`), the
+  window's element code and its four shapes, so no window keeps an element's state; the snake's
+  board drawn by its world as a picture. About 22 files; two installed headers go, a change to
+  the package. Bounded: an issue for the issue lane.
 - **A pane's bar tinted while it holds news the weaver has not seen** (the founder, 2026-10-28),
   shut, covered or only unfocused; the pane's own word says what is news, and looking clears it.
   To weigh against Attention's conditions before a second channel is made.
@@ -260,10 +273,9 @@ Each starts on the founder's word; "wake" is what must be true first.
 - #474's labels: Vision's lean is `docs` and `ready`.
 - The census's nine decisions ([report](../reportbacks/ui-census-RB.md)): Vision takes the
   recommendations of 1 to 8, with the hint fed by one facet that hears the keymap, the View
-  Builder's parts moved into its makeover, and the window-run element (`ElementPut`) the one
-  place state stays in a window, his to keep or retire; for 9, the drawn faces lifted from Flow's
-  pen once his round ends, its emphasis faces as roles a theme maps, not Flow's own colours
-  (2026-10-29).
+  Builder's parts moved into its makeover; for 9, the drawn faces lifted from Flow's pen once his
+  round ends, its emphasis faces as roles a theme maps, not Flow's own colours (2026-10-29). The
+  founder (2026-10-29): the window-run element retired whole (section 3).
 
 ## 6. Filed as issues
 
