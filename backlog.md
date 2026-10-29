@@ -176,6 +176,15 @@ Each starts on the founder's word; "wake" is what must be true first.
   window's element code and its four shapes, so no window keeps an element's state; the snake's
   board drawn by its world as a picture. About 22 files; two installed headers go, a change to
   the package. Bounded: an issue for the issue lane.
+- **What a window may carry: looks that change with time or the pointer** (the founder,
+  2026-10-29, from the blinking caret). A pane's drawing names a behaviour from a closed set the
+  window knows (a caret's blink, a part lit while the pointer rests on it, a pressed look while
+  held, a change eased from one drawing to the next, perhaps a scroll inside rows drawn past the
+  edges), and the window runs it with no message; what the pane must know to answer (a
+  selection, a fold, what a press means, where a scroll settled) stays the pane's. The test: if
+  the window forgot it now, nothing but a frame of looks is lost. No pane's code in the window,
+  which keeps it apart from the retired element seam. Pictures and cases need a steady mode
+  (no blink, a change shown at its end). A research, the element set stage's first step.
 - **A pane's bar tinted while it holds news the weaver has not seen** (the founder, 2026-10-28),
   shut, covered or only unfocused; the pane's own word says what is news, and looking clears it.
   To weigh against Attention's conditions before a second channel is made.
