@@ -71,10 +71,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **Text lane**, reported ([report](../reportbacks/lane-text-input-RB.md), reviewed 2026-10-29):
   #485 the Terminal's Enter and Shift+Enter merged; #488 the Editor's right-press menu rebased in
   the round below.
-- **The review wave** (2026-10-29): #485, #491, #489 and #486 merged, `main`'s run green on its
-  first jobs; #484 merges as it stands; #487 does not merge. The rebase round
-  ([prompt](../prompts/unrun/lane-view-builder-rebase.md), hot, the View Builder lane's) brings
-  #490 and #488 onto `main`, each floor measured; then those two merge.
+- **The review wave** (2026-10-29): #485, #491, #489, #486 and #484 merged, every `main` run
+  green; #487 closed. The rebase round ([report](../reportbacks/lane-view-builder-RB.md), its last
+  section) brought #490 and #488 onto `main` at `44214d1d`, the floors measured (inspect 128,
+  seam 179), both runs green; reviewed merge-ready (2026-10-29), in either order.
 - **UI census**, reported ([report](../reportbacks/ui-census-RB.md), `08693d45`) and reviewed
   (2026-10-29): the pieces counted, the sheet against the code, an element set of nine and an
   order; its nine decisions, call 6 among them, are with the founder (section 5).
@@ -184,7 +184,10 @@ Each starts on the founder's word; "wake" is what must be true first.
   selection, a fold, what a press means, where a scroll settled) stays the pane's. The test: if
   the window forgot it now, nothing but a frame of looks is lost. No pane's code in the window,
   which keeps it apart from the retired element seam. Pictures and cases need a steady mode
-  (no blink, a change shown at its end). A research, the element set stage's first step.
+  (no blink, a change shown at its end). A research, the element set stage's first step. The
+  founder (2026-10-29): each animation says its own length, since one may loop for good; and an
+  agent's press skips animations by a default way. Vision: not by Shift, which will extend a
+  selection in the text area and the lists; the act tool's own press can carry the skip.
 - **A pane's bar tinted while it holds news the weaver has not seen** (the founder, 2026-10-28),
   shut, covered or only unfocused; the pane's own word says what is news, and looking clears it.
   To weigh against Attention's conditions before a second channel is made.
