@@ -102,13 +102,16 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    core (the text, places in it, the selection, the word rules, the window over it, the copy);
    the text area over it, read only; the text box over it, adding the caret and the editing, at
    first with every behaviour its 25 users have today, then the whole box pressed and the caret
-   blinking. Before the View Builder's makeover, which builds on it.
+   blinking. The box seen as a box (the founder, 2026-10-29): a 1 px border in a light grey role
+   a theme maps, and in cells a spelling of its own; Loaded's search is the first that needs it.
+   Before the View Builder's makeover, which builds on it.
 3. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
    as a whole, not the lane's three notes one by one. What it carries: the kinds a row each below
    Grid (his note of 2026-10-27); the width that responds, which he liked (#487 not merged);
    Discard asking a second press, as New and Open do; the census's element set as its kinds; and
    after it, Workshop's two pictures of the builder taken again (`quit-box.png`,
-   `pane-manager-new-view-builder.png`).
+   `pane-manager-new-view-builder.png`). Then a pass over the smaller panes on the new pieces
+   (the founder, 2026-10-29), in a few phases side by side.
 4. **The operator suite** (BL-WORK-48), which Flow's calculator runs on. Today: five Int
    primitives (`operator/primitives.hpp`). To add:
    - Math: subtract, multiply, divide and remainder (both refusing 0), negate, abs, min; square
@@ -186,8 +189,8 @@ Each starts on the founder's word; "wake" is what must be true first.
   which keeps it apart from the retired element seam. Pictures and cases need a steady mode
   (no blink, a change shown at its end). A research, the element set stage's first step. The
   founder (2026-10-29): each animation says its own length, since one may loop for good; and an
-  agent's press skips animations by a default way. Vision: not by Shift, which will extend a
-  selection in the text area and the lists; the act tool's own press can carry the skip.
+  agent's press skips animations: the act tool's own press carries the skip, never a key a
+  weaver uses, such as Shift, which will extend a selection (agreed, 2026-10-29).
 - **A pane's bar tinted while it holds news the weaver has not seen** (the founder, 2026-10-28),
   shut, covered or only unfocused; the pane's own word says what is news, and looking clears it.
   To weigh against Attention's conditions before a second channel is made.
