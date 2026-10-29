@@ -84,7 +84,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   need 11 GB, the official and sanitizer trees each learning their own peaks; three at once took
   WSL to 25.9 GB of 47. Next the picture tool (the founder, 2026-10-28): a page's pictures
   retaken from a recorded walk, each with its recipe beside it (`witness.sh picture`, desk round
-  2's recommendation).
+  2's recommendation). Its prompt is written ([prompt](../prompts/unrun/kit-pictures.md), warm,
+  2026-10-29): a picture from its recipe, an audit of which are out of date, the stale ones
+  retaken in one pull request, and `land --wait` stopping itself.
 
 ## 2. Next, in order
 
