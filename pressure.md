@@ -133,7 +133,9 @@ under the same id.
   a shut level's summary is cut at a fixed 60 characters, not by the room; no door edits a pane's
   state from outside, so an edit showing at the next fold is reached only by a reload;
   `FirstRunState::story_shown` is written and never read; Flow's double-press interval is a copy
-  of Workshop's, a case keeping them equal; three UTF-8 readers (`ascii_spelling`, Files'
+  of Workshop's, a case keeping them equal, and its pane stamps a press with the steady clock
+  itself, so its double-click cases need two clicks within 400 ms of real time (Workshop's
+  `interaction_now()` lets a rig wire the clock); three UTF-8 readers (`ascii_spelling`, Files'
   `utf8_character`, the paints'); a page picture showing a count (keys in force, palette matches)
   moves with every new key or action. Wakes: each its report's trigger (accordion-stage-2-RB,
   issue-lane-ux-batch-RB, flow-live-requests-RB); the element set's text core for the readers;

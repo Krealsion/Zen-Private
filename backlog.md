@@ -28,16 +28,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **Main lane: Flow made over**, pushed as #559 at the founder's word (2026-10-29,
   [report](../reportbacks/flow-live-requests-RB.md)): batches A to E live in his Workshop, the
   Windows build mended after the first hosted run, three guide pictures taken from recipes (the
-  older ones wait on #521). Reviewed 2026-10-29: at `b8cd3114` its hosted ASan + UBSan and MSVC
-  (advisory) jobs failed in their tests, the canonical Linux and MinGW-w64 jobs green; the logs
-  need a signed-in read (`gh run view 40934099091 --log-failed`). Likely cause, unconfirmed: the
-  pane stamps a press with the steady clock itself, so in a slow build a case's two clicks fall
-  outside 400 ms; Workshop's `interaction_now()` lets a rig wire the clock. The lane mends it
-  before #559 merges. One finding for it: a kept field and a trigger's message field of one name,
-  which no edit refuses (Keep a field, and now both Renames) and the maker's admission refuses at
-  Run. Owed with it or next: the three old dialogs (Add a trigger, Add an emit, Add field) in
-  request 8's words, agreed and left (its decision 5). Later, with accordions (BL-WORK-16): the
-  docks narrowed to tags that open on hover with their names and connectors.
+  older ones wait on #521). Reviewed 2026-10-29: green at `8ffdacfb`, every job, after the
+  sanitizer and MSVC runs found a case reading a copy freed before the read; merges clean onto
+  `main`. Flow's next round (the founder, 2026-10-29, after #559): the three old dialogs (Add a
+  trigger, Add an emit, Add field) in request 8's words, and a kept field and a trigger's message
+  field of one name refused at the edit, which the maker's admission refuses at Run. Later, with
+  accordions (BL-WORK-16): the docks narrowed to tags that open on hover with their names and
+  connectors.
 - **Issue lane: the UX batch**, filed and its housekeeping taken
   ([report](../reportbacks/issue-lane-ux-batch-RB.md), not yet stopped): 65 issues in Zengine
   (#492 to #566) and Loom #73 (section 6); eight pull requests, each green: #550 (#474), #553,
@@ -58,9 +55,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `Kernel::containment(name)`, green every job, D7's statement in `capabilities.md` as recorded;
   S3 to come, then its report.
 - **The review waves** (2026-10-29). The first: #485, #491, #489, #486, #484, #490 and #488
-  merged, #487 closed. The second, reviewed the same day, in this order: #553, #555, #561, #557,
-  #563, #567, #550, #565, #558 and Loom #74 now; #568 once rebased and green again; #559 once
-  its sanitizer job is mended and green.
+  merged, #487 closed. The second, reviewed the same day: #553, #555, #561, #557, #563, #567,
+  #550, #565, #558 and Loom #74 merged; #559 green and merge-ready; #568 once rebased onto them
+  (its two conflicts) and green again.
 - **UI census**, reported ([report](../reportbacks/ui-census-RB.md), `08693d45`) and reviewed
   (2026-10-29): an element set of nine and an order; its nine decisions with the founder
   (section 5).
@@ -401,8 +398,6 @@ install, the restore notice (Notices keeps every notice; reasoned).
   `builder/builder-pane/pane.cpp`, `introspection/loaded.hpp`, `files/files.cpp` (twice),
   `workshop/pane_text.hpp`'s header, `agents/panes.md`, `agents/decisions/
   a-build-keeps-its-own-words.md`, two cases' comments. #553 mended `drawable`'s alone.
-- Flow, if #559 does not take it: a kept field and a trigger's message field of one name, which
-  no edit refuses and the maker refuses at Run.
 - The accordion group, if #568 does not take it: an open inserts by `upper_bound` into a list
   documented as possibly unsorted, which `std::upper_bound`'s precondition forbids; append when
   the list is not sorted.
