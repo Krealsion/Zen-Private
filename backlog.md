@@ -221,7 +221,10 @@ Each starts on the founder's word; "wake" is what must be true first.
   placed. Until the agent desk, an agent's press still moves the keys and the selection.
 - **Untrusted code, the WASM tier** (stage 1 merged, Loom #72). Left: S2 to S5 (a box's own
   doors, its lines on standard error, `containment_note` on boxes) and ASan beside Wasmtime. An
-  agent without a shell waits on this and on tools by reach.
+  agent without a shell waits on this and on tools by reach. S2 and S3's prompt is written
+  ([prompt](../prompts/unrun/wasm-tier-s2-s3.md), warm, 2026-10-29): two pull requests in Loom,
+  for the first lane that frees; D7's words, the research's, for the founder to confirm. ASan
+  beside Wasmtime ran clean in S1's hosted run.
 - **The MCP adapter's live check** through the app, and the weaver case on package 0.1.3. Wake: a
   lane left empty.
 - **The Perspectives Lab's pages** rebaselined after D1, before any becomes a prompt. Wake: met.
