@@ -303,7 +303,8 @@ Each starts on the founder's word; "wake" is what must be true first.
   recommendations of 1 to 8, with the hint fed by one facet that hears the keymap, the View
   Builder's parts moved into its makeover; for 9, the drawn faces lifted from Flow's pen once his
   round ends, its emphasis faces as roles a theme maps, not Flow's own colours (2026-10-29). The
-  founder (2026-10-29): the window-run element retired whole (section 3).
+  founder (2026-10-29): the window-run element retired whole (section 3); then "I love what we
+  have so far", read by Vision as yes to these leans, to confirm.
 
 ## 6. Filed as issues
 
