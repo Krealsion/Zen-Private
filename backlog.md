@@ -32,9 +32,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   waits for the picture tool (section 3). Next, Flow made over
   ([report](../reportbacks/flow-made-over-RB.md), `d2a315de` on `flow/made-over`, not pushed):
   close to the mockup; the founder works on it live, reloading Flow in place (2026-10-28), from
-  fourteen requests in four batches ([requests](../prompts/unrun/flow-live-requests.md), hot):
-  his notes (autocomplete, moving When and Then, deselecting, double clicks, one typed constant
-  box) and Vision's. Later, with accordions (BL-WORK-16):
+  fourteen requests in four batches ([requests](../prompts/flow-live-requests.md)): his notes
+  (autocomplete, moving When and Then, deselecting, double clicks, one typed constant box) and
+  Vision's. Batches A to C live, nothing pushed
+  ([report](../reportbacks/flow-live-requests-RB.md)); batch D waits for his word. Later, with
+  accordions (BL-WORK-16):
   the docks narrowed to tags that open on hover with their names and connectors.
 - **Issue lane: the repository's own mutants**, merged (#471, fixing #468). Its follow-up, reviewed
   ([report](../reportbacks/issue-lane-mutants-follow-up-RB.md)): #473 the corpus level with `main`,
@@ -47,7 +49,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   complete` (WL-NOTE-06), and the quick setup in a package names pages the package does not carry.
   With the batch it files the split of `tests/workshop_support.hpp` as an issue (BL-WORK-44; the
   founder, 2026-10-28).
-- **View Builder lane** (not started, [prompt](../prompts/unrun/lane-view-builder.md)): a Discard
+- **View Builder lane** (running, [prompt](../prompts/lane-view-builder.md)): a Discard
   button; the kinds below Grid; widening grows the canvas alone; then Project scrolls, Loaded
   searches, Compose shows a message's fields.
 - **Accordion lane**, researched ([report](../reportbacks/accordion-research-RB.md), reviewed):
@@ -55,18 +57,25 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   setting and a content fold its state; on the desk, a pane shut to its title and docks on an
   edge, as `workshop.fold` and `workshop.dock` in the pane's row. First stage: Files' places with
   the Hotkeys pane; then Info's tree, the desk in three stages, Flow's tags. Eight decisions
-  (section 5). Stage 1 ([prompt](../prompts/unrun/accordion-stage-1.md), warm, not started): the
-  accordion and its independent group in `component/`, Files' places, the Hotkeys pane in
-  sections, Files' paths, and a resting pointer handed to panes.
-- **Text lane** (not started, [prompt](../prompts/unrun/lane-text-input.md)): the Terminal's Enter
+  (section 5). Stage 1 ([prompt](../prompts/accordion-stage-1.md)): the accordion and its
+  independent group in `component/`, Files' places, the Hotkeys pane in sections, Files' paths,
+  and a resting pointer handed to panes. Reported, Krealsion/Zengine#486 open
+  ([report](../reportbacks/accordion-stage-1-RB.md)); its hosted run still to be written in, and
+  Vision's review then.
+- **Text lane** (running, [prompt](../prompts/lane-text-input.md)): the Terminal's Enter
   and Shift+Enter; the Editor's right-press menu. Files' paths moved to the accordion's stage 1
   (the founder, 2026-10-28).
+- **UI census** (not started, [prompt](../prompts/unrun/ui-census-research.md), warm): research
+  only -- what each pane draws by hand, what is shared and who uses it, the old vocabulary sheet
+  against the code, one element set for the panes and the View Builder's kinds, an order; call 6
+  asked. Starts when a lane frees.
 - **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
-  compiles held to a budget, so all three slots run at once (22.8 GB of 47 at 10 GB). Next, the
-  founder's calls of 2026-10-28 ([prompt](../prompts/kit-gate-budget.md), running): 12 GB
-  a work slot, and the official and sanitizer trees each learning their own peaks. Then the
-  picture tool (the founder, 2026-10-28): a page's pictures retaken from a recorded walk, each
-  with its recipe beside it (`witness.sh picture`, desk round 2's recommendation).
+  compiles held to a budget, so all three slots run at once. The founder's calls of 2026-10-28
+  are in ([report](../reportbacks/kit-gate-budget-RB.md), reviewed): 12 GB a work slot, the work
+  need 11 GB, the official and sanitizer trees each learning their own peaks; three at once took
+  WSL to 25.9 GB of 47. Next the picture tool (the founder, 2026-10-28): a page's pictures
+  retaken from a recorded walk, each with its recipe beside it (`witness.sh picture`, desk round
+  2's recommendation).
 
 ## 2. Next, in order
 
@@ -101,8 +110,9 @@ Each starts on the founder's word; "wake" is what must be true first.
 - **One element set for the panes and the View Builder** (Vision's proposal, 2026-10-28, from
   the old `zen-ui-vocabulary.md`, the rebuild scaffold's element census and the code): each
   element a value in `component/` and a face drawn from it, drawn by the panes and offered to
-  makers as the View Builder's kinds. First a census research of the UI code as it stands;
-  the rebuild scaffold's call 6 (the element set) still waits on the founder.
+  makers as the View Builder's kinds. First a census research of the UI code as it stands
+  (section 1, [prompt](../prompts/unrun/ui-census-research.md)); the rebuild scaffold's call 6
+  (the element set) waits on the founder, asked again in its report.
 - **A pane's bar tinted while it holds news the weaver has not seen** (the founder, 2026-10-28),
   shut, covered or only unfocused; the pane's own word says what is news, and looking clears it.
   To weigh against Attention's conditions before a second channel is made.
