@@ -122,6 +122,12 @@ under the same id.
 - **P-WORK-75** A pane's quit refusal cannot say why: unsaved work and work still settling read
   alike, so the quit box discards both (desk round 2, #472). Wakes: a weaver losing a settling
   save, or the next change to `PaneQuitAnswered`.
+- **P-WORK-76** The review wave's small pressures (2026-10-29): Compose describes each catalog row
+  at every projection; Project drops a wheel step while its reading is out; the View Builder's
+  left column is a constant where Powers' widths are settings; Files' refused fold and its fold in
+  flight are worded but held by no case; the presenter cannot read the keymap, so each pane asks
+  for it. Wakes: each its report's trigger (lane-view-builder-RB, accordion-stage-1-RB,
+  lane-text-input-RB).
 - **P-WORK-63** An application chord above every mode never reaches Neovim. Wakes: a weaver
   missing a chord; the pane would declare the chords it owns.
 - **P-WORK-04** (the founder's use) Conventional editor features come from use: the Terminal's
@@ -178,6 +184,9 @@ under the same id.
   beside the final slot's build would come near WSL's 47 GB (kit-gate-budget-RB, 2026-10-28). Not
   seen: s1's and s2's links fell after their heavy compiles. Wakes: a phase running sanitizer
   builds in both work slots, or a memory kill; then links through the gate (a linker launcher).
+- **P-BUILD-18** A pull request that edits an installed header is package-witnessed only by its
+  lane's own run and the next nightly: the Package workflow's pull-request paths name the install
+  files, not the headers (#488, 2026-10-29). Wakes: a nightly package run red after a merge.
 - **P-BUILD-16** The Timer suite failed once more, on the nightly's MinGW-w64 job at `4e995de9`
   (2026-10-28, run 40664013168), after P-BUILD-01 closed; the push runs since are green. Wakes: a
   second failure: then an issue.

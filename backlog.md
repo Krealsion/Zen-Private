@@ -34,9 +34,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   close to the mockup; the founder works on it live, reloading Flow in place (2026-10-28), from
   fourteen requests in four batches ([requests](../prompts/flow-live-requests.md)): his notes
   (autocomplete, moving When and Then, deselecting, double clicks, one typed constant box) and
-  Vision's. Batches A to C live, nothing pushed
-  ([report](../reportbacks/flow-live-requests-RB.md)); batch D waits for his word. Later, with
-  accordions (BL-WORK-16):
+  Vision's. All four batches live, seventeen commits, nothing pushed
+  ([report](../reportbacks/flow-live-requests-RB.md)); the pointer's leave waits on a restart.
+  Next, once the wave below merges: rebased onto `main`, the guide's pictures retaken, pushed as
+  a pull request. Later, with accordions (BL-WORK-16):
   the docks narrowed to tags that open on hover with their names and connectors.
 - **Issue lane: the repository's own mutants**, merged (#471, fixing #468). Its follow-up, reviewed
   ([report](../reportbacks/issue-lane-mutants-follow-up-RB.md)): #473 the corpus level with `main`,
@@ -49,9 +50,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   complete` (WL-NOTE-06), and the quick setup in a package names pages the package does not carry.
   With the batch it files the split of `tests/workshop_support.hpp` as an issue (BL-WORK-44; the
   founder, 2026-10-28).
-- **View Builder lane** (running, [prompt](../prompts/lane-view-builder.md)): a Discard
-  button; the kinds below Grid; widening grows the canvas alone; then Project scrolls, Loaded
-  searches, Compose shows a message's fields.
+- **View Builder lane**, reported ([report](../reportbacks/lane-view-builder-RB.md), reviewed
+  2026-10-29): #484 Discard, #487 one layout at every width, #489 Project scrolls, #490 Loaded's
+  search, #491 Compose's fields; each green alone, in the wave below.
 - **Accordion lane**, researched ([report](../reportbacks/accordion-research-RB.md), reviewed):
   one idea at both levels. In a pane, a shared piece in `component/`, a part's fold the pane's
   setting and a content fold its state; on the desk, a pane shut to its title and docks on an
@@ -59,16 +60,19 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   the Hotkeys pane; then Info's tree, the desk in three stages, Flow's tags. Eight decisions
   (section 5). Stage 1 ([prompt](../prompts/accordion-stage-1.md)): the accordion and its
   independent group in `component/`, Files' places, the Hotkeys pane in sections, Files' paths,
-  and a resting pointer handed to panes. Reported, Krealsion/Zengine#486 open
-  ([report](../reportbacks/accordion-stage-1-RB.md)); its hosted run still to be written in, and
-  Vision's review then.
-- **Text lane** (running, [prompt](../prompts/lane-text-input.md)): the Terminal's Enter
-  and Shift+Enter; the Editor's right-press menu. Files' paths moved to the accordion's stage 1
-  (the founder, 2026-10-28).
+  and a resting pointer handed to panes. Reported, #486 green
+  ([report](../reportbacks/accordion-stage-1-RB.md), reviewed 2026-10-29), in the wave below.
+- **Text lane**, reported ([report](../reportbacks/lane-text-input-RB.md), reviewed 2026-10-29):
+  #485 the Terminal's Enter and Shift+Enter, #488 the Editor's right-press menu; both green, in
+  the wave below.
+- **The review wave** (2026-10-29): eight pull requests, each green alone, every job. Merge #485,
+  #491, #489, #486 and #487 in that order; then one round rebases #484 onto #487 (the bar's
+  pictures and Workshop's two builder pictures taken again), #490 onto #489 and #488 onto #486
+  (the seam floor measured), and runs the official lane over all eight; then those three merge.
 - **UI census** (not started, [prompt](../prompts/unrun/ui-census-research.md), warm): research
   only -- what each pane draws by hand, what is shared and who uses it, the old vocabulary sheet
   against the code, one element set for the panes and the View Builder's kinds, an order; call 6
-  asked. Starts when a lane frees.
+  asked; the wave's instances of the same added (2026-10-29). Starts when a lane frees.
 - **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
   compiles held to a budget, so all three slots run at once. The founder's calls of 2026-10-28
   are in ([report](../reportbacks/kit-gate-budget-RB.md), reviewed): 12 GB a work slot, the work
