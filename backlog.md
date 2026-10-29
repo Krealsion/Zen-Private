@@ -75,9 +75,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   first jobs; #484 merges as it stands; #487 does not merge. The rebase round
   ([prompt](../prompts/unrun/lane-view-builder-rebase.md), hot, the View Builder lane's) brings
   #490 and #488 onto `main`, each floor measured; then those two merge.
-- **UI census**, reported ([report](../reportbacks/ui-census-RB.md), `08693d45`): the pieces
-  counted, the sheet against the code, an element set of nine and an order; nine decisions asked,
-  call 6 among them. Vision's review next, once the pull requests move.
+- **UI census**, reported ([report](../reportbacks/ui-census-RB.md), `08693d45`) and reviewed
+  (2026-10-29): the pieces counted, the sheet against the code, an element set of nine and an
+  order; its nine decisions, call 6 among them, are with the founder (section 5).
 - **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
   compiles held to a budget, so all three slots run at once. The founder's calls of 2026-10-28
   are in ([report](../reportbacks/kit-gate-budget-RB.md), reviewed): 12 GB a work slot, the work
@@ -123,7 +123,12 @@ Each starts on the founder's word; "wake" is what must be true first.
   it. The pass: every weave's state, each field the truth or a copy; each copy made the truth, or
   named for what it is (his `HotkeysStateBackup`). First the eleven states that are `ZEN_EXPOSE`d
   (two in the snake example), where a poke's write is acknowledged; `IntrospectionState` already
-  says the rule: "a copy here would be the answer that goes stale".
+  says the rule: "a copy here would be the answer that goes stale". The Hotkeys pane's own fix,
+  accepted (the founder, 2026-10-29): its open sections kept in its state as the truth. Beyond the
+  pass (the founder, 2026-10-29): components mark the fields they would keep (a text box's words,
+  never a hover), and a pane given leave keeps its view's marked fields, by a message set apart
+  from snapshot and restore, so no pane keeps a second copy of what it shows. Research at that
+  stage; the element set's values (the census) are where the marks would live.
 - **What terminals can show: a research phase** (the founder, 2026-10-29, in place of an issue).
   The terminal medium asks a colour of each role (`sgr_for_role`,
   `graphics/window/terminal_io.hpp`) and turns on VT processing in a Windows console, yet the
@@ -144,9 +149,9 @@ Each starts on the founder's word; "wake" is what must be true first.
 - **One element set for the panes and the View Builder** (Vision's proposal, 2026-10-28, from
   the old `zen-ui-vocabulary.md`, the rebuild scaffold's element census and the code): each
   element a value in `component/` and a face drawn from it, drawn by the panes and offered to
-  makers as the View Builder's kinds. The census reported (section 1,
-  [report](../reportbacks/ui-census-RB.md)); the rebuild scaffold's call 6 (the element set)
-  waits on the founder, asked again there.
+  makers as the View Builder's kinds. The census reported and was reviewed (section 1,
+  [report](../reportbacks/ui-census-RB.md)); its nine decisions, the scaffold's call 6 among
+  them, wait on the founder (section 5).
 - **A pane's bar tinted while it holds news the weaver has not seen** (the founder, 2026-10-28),
   shut, covered or only unfocused; the pane's own word says what is news, and looking clears it.
   To weigh against Attention's conditions before a second channel is made.
@@ -253,6 +258,12 @@ Each starts on the founder's word; "wake" is what must be true first.
   Hotkeys file row and in Attention, Files' emit list, the Terminal's wait for its row): Vision's
   lean is to keep them, each saying the host behaviour it guards against.
 - #474's labels: Vision's lean is `docs` and `ready`.
+- The census's nine decisions ([report](../reportbacks/ui-census-RB.md)): Vision takes the
+  recommendations of 1 to 8, with the hint fed by one facet that hears the keymap, the View
+  Builder's parts moved into its makeover, and the window-run element (`ElementPut`) the one
+  place state stays in a window, his to keep or retire; for 9, the drawn faces lifted from Flow's
+  pen once his round ends, its emphasis faces as roles a theme maps, not Flow's own colours
+  (2026-10-29).
 
 ## 6. Filed as issues
 
@@ -329,6 +340,11 @@ marked.
   - work is done by mouse where it can be, its keys the ideal ones (the Perspectives Lab's rule).
 
 ## 8. Loose ends for the next issue sweep
+
+- The census's three doc gaps (2026-10-29): `component/README.md` and `component/AGENTS.md` call
+  `tab_strip.hpp` the tabs a settings list is filtered by, and nothing is; `workshop/docs/
+  limitations.md` says there is no Button, List or ScrollView while `graphics/elements/` holds
+  them; no page says how a pane draws (rows, a canvas picture, a sketch).
 
 - A guest row with `"admit": "ask"` parks its connection for good (`GuestDoor::decide` has no
   caller): a defect to file.

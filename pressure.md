@@ -170,6 +170,8 @@ under the same id.
   to 10-12, two asks since met by the kit's commit stamps; from the memory round (2026-10-27) a
   profile command, the gates shown by `kit.sh slot`, a listing of the learned peaks (by kind
   since the 12 GB round), links under the gate (P-BUILD-17), a budget that follows free memory;
+  from the census (2026-10-29) the facts script and a census-tree recipe as kit helpers, and a
+  face-spelling check once one spelling a piece is decided;
   from the 12 GB round (2026-10-28) `land --wait` stopping itself once its staged copy goes (a
   leftover loop landed that round's copy early), a third tree kind, the unknown figure read from
   the store (each kind's is a little under its largest: 3 against 3.04 GB, 4 against 4.08); from
