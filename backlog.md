@@ -96,20 +96,27 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    condition, so pressing `+` computes no divide; a gear for settings. Quicksort needs a branch
    form (only the chosen side computed) and list operators. Start here's moves for steps 2 and 3
    wait on it. Zengine #142 holds the older milestone question.
-2. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
+2. **The element set, its text pieces first** (the founder, 2026-10-29: "High quality
+   components means higher quality composites"), a stage worth the time. The census's set
+   (section 3), its drawn faces lifted from Flow's pen once his round ends. First the text: one
+   core (the text, places in it, the selection, the word rules, the window over it, the copy);
+   the text area over it, read only; the text box over it, adding the caret and the editing, at
+   first with every behaviour its 25 users have today, then the whole box pressed and the caret
+   blinking. Before the View Builder's makeover, which builds on it.
+3. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
    as a whole, not the lane's three notes one by one. What it carries: the kinds a row each below
    Grid (his note of 2026-10-27); the width that responds, which he liked (#487 not merged);
    Discard asking a second press, as New and Open do; the census's element set as its kinds; and
    after it, Workshop's two pictures of the builder taken again (`quit-box.png`,
    `pane-manager-new-view-builder.png`).
-3. **The operator suite** (BL-WORK-48), which Flow's calculator runs on. Today: five Int
+4. **The operator suite** (BL-WORK-48), which Flow's calculator runs on. Today: five Int
    primitives (`operator/primitives.hpp`). To add:
    - Math: subtract, multiply, divide and remainder (both refusing 0), negate, abs, min; square
      root and logs, which want Float beside Int;
    - comparators: equal, not equal, less or equal, greater, greater or equal;
    - Logic: and, or, not;
    - later: Lists, with the quicksort; Text after.
-4. **The UX batch**, filed by the issue lane (above), then **the first complete maker story**
+5. **The UX batch**, filed by the issue lane (above), then **the first complete maker story**
    (theme 13, section 7).
 
 ## 3. Decided, not yet ordered
@@ -159,7 +166,11 @@ Each starts on the founder's word; "wake" is what must be true first.
   group's clip drops a line whose top is outside it and lets the last spill); the bar's room kept
   whether or not the text overflows, so nothing reflows when it appears, and pressed in a wider
   band than it is drawn; a copy is the text as written, without the wrap's breaks or indents; in a
-  terminal the selection is drawn by the pane, since Workshop holds the terminal's mouse.
+  terminal the selection is drawn by the pane, since Workshop holds the terminal's mouse. The
+  founder's calls (2026-10-29): the bar drawn 8 px wide, 12 px while the pointer rests on it (the
+  widening's animation later), its room and its press 16 px, to adjust once used; the markers
+  `... 3 more below` and `3 more above...`; the text box built on the text area, with its own
+  caret, the whole box pressable (today only its text is) and the caret blinking.
 - **The window-run element retired** (the founder, 2026-10-29): `ElementPut`, `ElementChange`,
   the element seam (`graphics/element_abi.h`, `element_export.hpp`, `ZENGINE_EXPORT_ELEMENT`), the
   window's element code and its four shapes, so no window keeps an element's state; the snake's
