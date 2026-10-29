@@ -49,8 +49,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **Accordion lane: stage 2**, as #568 ([report](../reportbacks/accordion-stage-2-RB.md), its run
   table still open): the group borrows its owner's list and keeps no copy, so a pane's state is
   the truth; Info's values a tree (WL-INFO-16), with Right, Left and Shift+Left. Rebases after
-  #550 and #565: the info floor 185, each component row from its own side. Three decisions
-  (section 5).
+  #550 and #565: the info floor 185, each component row from its own side; with it an open on a
+  list in any order, and the pictures the rebase makes untrue
+  ([continuation](../prompts/unrun/accordion-stage-2-rebase.md), hot, 2026-10-29). Three
+  decisions (section 5).
 - **WASM lane: stages 2 and 3** ([prompt](../prompts/wasm-tier-s2-s3.md)): S2 as Loom #74,
   `Kernel::containment(name)`, green every job, D7's statement in `capabilities.md` as recorded;
   S3 to come, then its report.
