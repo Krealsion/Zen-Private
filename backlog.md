@@ -235,7 +235,8 @@ Each starts on the founder's word; "wake" is what must be true first.
   `inspect-capture`'s test inputs on an agent's tool; scenario scripts a quarter of the catalog;
   no quickstart, and no tool asking for a pane's document. Its claim that Inventory, Info, Demo
   and Compose declare no causes does not hold (30, 7, 2 and 1 rows); resolve answering a missing
-  shape as a real one does. Wake: the issue lane's round after its UX batch.
+  shape as a real one does. Wake: the issue lane's round after its UX batch
+  ([prompt](../prompts/unrun/issue-lane-elh-audit.md), warm, 2026-10-29).
 - **The Perspectives Lab's pages** rebaselined after D1, before any becomes a prompt. Wake: met.
 - **Faster builds** (BL-WORK-44; #343 merged): split `tests/workshop_support.hpp`, the largest
   lever (2026-10-27: 36 of the 45 compiles over 2 GB include it, 43 % of a cold build's compiling);
