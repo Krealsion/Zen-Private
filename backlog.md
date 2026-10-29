@@ -227,6 +227,15 @@ Each starts on the founder's word; "wake" is what must be true first.
   beside Wasmtime ran clean in S1's hosted run.
 - **The MCP adapter's live check** through the app, and the weaver case on package 0.1.3. Wake: a
   lane left empty.
+- **The ELH audit's findings** (a cold agent for the founder, 2026-10-29,
+  [report](../reportbacks/elh-audit-report.md)), checked by Vision against the code: the
+  `workshop-machine` package's `repo` tool gives git push and pull requests to any session that
+  approves Workshop's machine tools; act passing a press its owner refused; `open` leaving a pane
+  being placed; Loom's `loom-session` reading an unknown bool spelling as false (`cli.py:247`);
+  `inspect-capture`'s test inputs on an agent's tool; scenario scripts a quarter of the catalog;
+  no quickstart, and no tool asking for a pane's document. Its claim that Inventory, Info, Demo
+  and Compose declare no causes does not hold (30, 7, 2 and 1 rows); resolve answering a missing
+  shape as a real one does. Wake: the issue lane's round after its UX batch.
 - **The Perspectives Lab's pages** rebaselined after D1, before any becomes a prompt. Wake: met.
 - **Faster builds** (BL-WORK-44; #343 merged): split `tests/workshop_support.hpp`, the largest
   lever (2026-10-27: 36 of the 45 compiles over 2 GB include it, 43 % of a cold build's compiling);
