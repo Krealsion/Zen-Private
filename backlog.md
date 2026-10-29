@@ -36,8 +36,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   (autocomplete, moving When and Then, deselecting, double clicks, one typed constant box) and
   Vision's. All four batches live, seventeen commits, nothing pushed
   ([report](../reportbacks/flow-live-requests-RB.md)); the pointer's leave waits on a restart.
-  Next, once the wave below merges: rebased onto `main`, the guide's pictures retaken, pushed as
-  a pull request. Later, with accordions (BL-WORK-16):
+  The founder has a little more to do on it first (2026-10-29); with it, the three old dialogs
+  (Add a trigger, Add an emit, Add field) given request 8's words, agreed. Then rebased onto
+  `main`, the guide's pictures retaken, pushed as a pull request. Later, with accordions
+  (BL-WORK-16):
   the docks narrowed to tags that open on hover with their names and connectors.
 - **Issue lane: the repository's own mutants**, merged (#471, fixing #468). Its follow-up, reviewed
   ([report](../reportbacks/issue-lane-mutants-follow-up-RB.md)): #473 the corpus level with `main`,
@@ -49,10 +51,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   closed, the corpus page's two gaps. Two leftovers for it: the View Builder still says `<action>
   complete` (WL-NOTE-06), and the quick setup in a package names pages the package does not carry.
   With the batch it files the split of `tests/workshop_support.hpp` as an issue (BL-WORK-44; the
-  founder, 2026-10-28).
+  founder, 2026-10-28), and two from the review wave (the founder, 2026-10-29): Files' listing
+  spells a name beyond ASCII a `?` a character, as its header does; Start here opens at the first
+  launch only.
 - **View Builder lane**, reported ([report](../reportbacks/lane-view-builder-RB.md), reviewed
-  2026-10-29): #484 Discard, #487 one layout at every width, #489 Project scrolls, #490 Loaded's
-  search, #491 Compose's fields; each green alone, in the wave below.
+  2026-10-29): #489 Project scrolls and #491 Compose's fields merged; #484 Discard merges as it
+  stands; #490 Loaded's search rebased in the round below. #487, one layout at every width, does
+  not merge: the founder liked the width that responds, and the View Builder is made over after
+  Flow (section 2).
 - **Accordion lane**, researched ([report](../reportbacks/accordion-research-RB.md), reviewed):
   one idea at both levels. In a pane, a shared piece in `component/`, a part's fold the pane's
   setting and a content fold its state; on the desk, a pane shut to its title and docks on an
@@ -60,19 +66,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   the Hotkeys pane; then Info's tree, the desk in three stages, Flow's tags. Eight decisions
   (section 5). Stage 1 ([prompt](../prompts/accordion-stage-1.md)): the accordion and its
   independent group in `component/`, Files' places, the Hotkeys pane in sections, Files' paths,
-  and a resting pointer handed to panes. Reported, #486 green
-  ([report](../reportbacks/accordion-stage-1-RB.md), reviewed 2026-10-29), in the wave below.
+  and a resting pointer handed to panes. Merged as #486 (2026-10-29,
+  [report](../reportbacks/accordion-stage-1-RB.md)).
 - **Text lane**, reported ([report](../reportbacks/lane-text-input-RB.md), reviewed 2026-10-29):
-  #485 the Terminal's Enter and Shift+Enter, #488 the Editor's right-press menu; both green, in
-  the wave below.
-- **The review wave** (2026-10-29): eight pull requests, each green alone, every job. Merge #485,
-  #491, #489, #486 and #487 in that order; then one round rebases #484 onto #487 (the bar's
-  pictures and Workshop's two builder pictures taken again), #490 onto #489 and #488 onto #486
-  (the seam floor measured), and runs the official lane over all eight; then those three merge.
-- **UI census** (not started, [prompt](../prompts/unrun/ui-census-research.md), warm): research
-  only -- what each pane draws by hand, what is shared and who uses it, the old vocabulary sheet
-  against the code, one element set for the panes and the View Builder's kinds, an order; call 6
-  asked; the wave's instances of the same added (2026-10-29). Starts when a lane frees.
+  #485 the Terminal's Enter and Shift+Enter merged; #488 the Editor's right-press menu rebased in
+  the round below.
+- **The review wave** (2026-10-29): #485, #491, #489 and #486 merged, `main`'s run green on its
+  first jobs; #484 merges as it stands; #487 does not merge. The rebase round
+  ([prompt](../prompts/unrun/lane-view-builder-rebase.md), hot, the View Builder lane's) brings
+  #490 and #488 onto `main`, each floor measured; then those two merge.
+- **UI census**, reported ([report](../reportbacks/ui-census-RB.md), `08693d45`): the pieces
+  counted, the sheet against the code, an element set of nine and an order; nine decisions asked,
+  call 6 among them. Vision's review next, once the pull requests move.
 - **The kit's compile gate** ([report](../reportbacks/kit-build-memory-RB.md)): a work slot's
   compiles held to a budget, so all three slots run at once. The founder's calls of 2026-10-28
   are in ([report](../reportbacks/kit-gate-budget-RB.md), reviewed): 12 GB a work slot, the work
@@ -91,19 +96,44 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    condition, so pressing `+` computes no divide; a gear for settings. Quicksort needs a branch
    form (only the chosen side computed) and list operators. Start here's moves for steps 2 and 3
    wait on it. Zengine #142 holds the older milestone question.
-2. **The operator suite** (BL-WORK-48), which Flow's calculator runs on. Today: five Int
+2. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
+   as a whole, not the lane's three notes one by one. What it carries: the kinds a row each below
+   Grid (his note of 2026-10-27); the width that responds, which he liked (#487 not merged);
+   Discard asking a second press, as New and Open do; the census's element set as its kinds; and
+   after it, Workshop's two pictures of the builder taken again (`quit-box.png`,
+   `pane-manager-new-view-builder.png`).
+3. **The operator suite** (BL-WORK-48), which Flow's calculator runs on. Today: five Int
    primitives (`operator/primitives.hpp`). To add:
    - Math: subtract, multiply, divide and remainder (both refusing 0), negate, abs, min; square
      root and logs, which want Float beside Int;
    - comparators: equal, not equal, less or equal, greater, greater or equal;
    - Logic: and, or, not;
    - later: Lists, with the quicksort; Text after.
-3. **The UX batch**, filed by the issue lane (above), then **the first complete maker story**
+4. **The UX batch**, filed by the issue lane (above), then **the first complete maker story**
    (theme 13, section 7).
 
 ## 3. Decided, not yet ordered
 
 Each starts on the founder's word; "wake" is what must be true first.
+
+- **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
+  sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
+  group in the pane's view, copied into the state after each act and read back only when the
+  weave activates, so an edit to the field would show nothing and the next act would overwrite
+  it. The pass: every weave's state, each field the truth or a copy; each copy made the truth, or
+  named for what it is (his `HotkeysStateBackup`). First the eleven states that are `ZEN_EXPOSE`d
+  (two in the snake example), where a poke's write is acknowledged; `IntrospectionState` already
+  says the rule: "a copy here would be the answer that goes stale".
+- **What terminals can show: a research phase** (the founder, 2026-10-29, in place of an issue).
+  The terminal medium asks a colour of each role (`sgr_for_role`,
+  `graphics/window/terminal_io.hpp`) and turns on VT processing in a Windows console, yet the
+  accordion's console pictures showed every role in one grey. What each terminal shows, and why
+  that console showed none; the medium draws what it honestly can, and no two media promise one
+  picture.
+- **A message picked by name, declared whole** (near roadmap; the founder, 2026-10-29). Flow's
+  New message declares a view's message by name with no fields, and listening for a message is of
+  use only with its fields: knowing something happened without its data is hearing an action and
+  not being able to answer it. Needs an owner that answers a message's shape by its name.
 
 - **A pane's own top right** (desk round 2's parked item): close and move, a gear, a box around
   each icon, the arrange markers on boxes of their own, "remove from the setup"; about 116 page
@@ -114,9 +144,9 @@ Each starts on the founder's word; "wake" is what must be true first.
 - **One element set for the panes and the View Builder** (Vision's proposal, 2026-10-28, from
   the old `zen-ui-vocabulary.md`, the rebuild scaffold's element census and the code): each
   element a value in `component/` and a face drawn from it, drawn by the panes and offered to
-  makers as the View Builder's kinds. First a census research of the UI code as it stands
-  (section 1, [prompt](../prompts/unrun/ui-census-research.md)); the rebuild scaffold's call 6
-  (the element set) waits on the founder, asked again in its report.
+  makers as the View Builder's kinds. The census reported (section 1,
+  [report](../reportbacks/ui-census-RB.md)); the rebuild scaffold's call 6 (the element set)
+  waits on the founder, asked again there.
 - **A pane's bar tinted while it holds news the weaver has not seen** (the founder, 2026-10-28),
   shut, covered or only unfocused; the pane's own word says what is news, and looking clears it.
   To weigh against Attention's conditions before a second channel is made.
