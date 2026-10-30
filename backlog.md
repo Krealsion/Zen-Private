@@ -66,12 +66,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   the same fixtures (24), and the five bounds met; merged. S4, a Zengine pane boxed in Workshop,
   reported and reviewed 2026-10-30 ([report](../reportbacks/wasm-tier-s4-RB.md)): Loom #78 green,
   12 of 12, merges first; Zengine #594 green but its boxed job, refused at configure until #78 is
-  in. Continued for the rerun and #594's body ([prompt](../prompts/unrun/wasm-tier-s4-after-78.md),
-  hot). S4b, the Builder's second target, proposed as a stage of its own (section 5).
-- **Docs lane: Loom's README as the front door.** The journey page (#79, +1044 lines) closed by
-  the founder (2026-10-30): docs get smaller and clearer, never longer. First the eight Loom
-  entries of the docs-against-code list in one small pull request
-  ([prompt](../prompts/unrun/message-journey-fixes.md), hot), so the rewrite reads no
+  in. #78 merged (`619d102f`); #594's rerun green on every job, the boxed one included, its body
+  put right; reviewed 2026-10-30, merge-ready. S4b, the Builder's second target, proposed as a
+  stage of its own (section 5).
+- **Docs lane: Loom's README as the front door.** The journey page (#79, +1044 lines) closed by the
+  founder (2026-10-30): docs get smaller and clearer, never longer. First the eight Loom entries of
+  the docs-against-code list in one small pull request, Loom #80, green, reviewed 2026-10-30,
+  merge-ready (loom-25's four non-meanings restored to the header), so the rewrite reads no
   contradiction. Then Loom's README rewritten below the preface: a punchy, honest summary; the
   ideas, ordered for a reader, each section able to stand alone as bullets; install, build, the
   console, a first weave, loading code, sending a message; deep-dive links (loading code, a
@@ -116,7 +117,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    ([report](../reportbacks/element-set-text-RB.md)): Zengine #593, green on every job at
    `492e96c9`. The founder (2026-10-30): `[text___]` in cells; every text box always seen as a
    box, empty included; Loaded's search shown from the start; `component/` knowing no medium.
-   Continued in #593 ([prompt](../prompts/unrun/element-set-text-faces.md), hot).
+   The faces round (`bd184417`) green on every job, reviewed 2026-10-30, merge-ready:
+   `component/` measured in characters, each look a face in `graphics/elements/`, a row carrying
+   its box. The Terminal's line reads heavy as a box in cells (section 5).
 3. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
    as a whole, not the lane's three notes one by one. What it carries: the kinds a row each below
    Grid (his note of 2026-10-27); the width that responds, which he liked (#487 not merged);
@@ -358,8 +361,12 @@ Each starts on the founder's word; "wake" is what must be true first.
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
 - The WASM tier's S4b, the Builder's second target as a stage of its own (Vision: yes, next in
   the lane, before S5).
-- The element set's text stage ([report](../reportbacks/element-set-text-RB.md)): #593 to merge
-  after its faces round; the window-looks record's five (Vision: yes to the set, the record
+- The Terminal's command line in cells: a box like every other, or plain (`> ls -l`) where the
+  terminal layout chooses, the window keeping its outline (Vision: plain).
+- `Mail::reply` falling back to the stamped sender when no reply address was given, as the
+  substrate's answers, the control door and the run manager do (Vision: yes, its own small PR).
+- The element set's text stage ([report](../reportbacks/element-set-text-RB.md)): the
+  window-looks record's five (Vision: yes to the set, the record
   beside the node, the pump beat and steady as an ask; no to `InjectedEvent::steady`, the act
   tool asking steady as a picture does); the picture panes' boxes with their makeovers (Vision:
   agreed).
@@ -475,6 +482,8 @@ install, the restore notice (Notices keeps every notice; reasoned).
   the sum over four); doctest's `--duration` on WSL's stepped clock.
 - The kit: the mutation script could count each mutant's text before building; a probe helper,
   asked twice.
+- A rows pane draws its caret whether or not it holds the keys, so with every box shown two
+  carets stand at once (Loaded's empty box beside the Terminal's line, #593's picture).
 - `story_journey`'s U7, a 0.5 s wait in the tower-defense story driver, ran out on a slow
   MinGW-w64 run (#594's first attempt at `8f40dbf`); green on the rerun.
 - Docs against code, from the founder's self-test (2026-10-30): 26 places where a page or a
