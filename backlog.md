@@ -41,7 +41,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   ([report](../reportbacks/issue-lane-elh-audit-RB.md), reviewed 2026-10-29): #570, `repo` alone
   in `accounts-machine` so approving `workshop-machine` grants no push, and Loom #77, a spelling
   `loom-session` cannot type refused by the input's name, both green; 21 issues (#569, #571 to
-  #589, Loom #76), four of them `needs-decision` (section 5).
+  #589, Loom #76). Then the founder's decisions and the agent tools
+  ([report](../reportbacks/issue-lane-decisions-agent-tools-RB.md), reviewed 2026-10-30): eleven
+  decisions written on their issues, Loom #73 retraced; #590 the desk tools (#571, #573, #582),
+  #591 the input owner's busy words (#579), #592 the workshop tools (#574 to #578, #581, #585,
+  #586, #589), each green; #584 and #587 left open with a question each (section 5).
 - **Kit lane: the picture tool**, done ([report](../reportbacks/kit-pictures-RB.md)): a picture
   taken from its recipe, an audit of all 128, 26 recipes; twelve retaken in #558, merged. An
   audit of `main` at `14669927` (the accordion lane's, 2026-10-29) finds three already out of
@@ -322,8 +326,14 @@ Each starts on the founder's word; "wake" is what must be true first.
   Loom #73 retraced first (Loom already scopes a grant to a run, to a Weaver's session and for
   good with `authority revoke`; the console grants only for good), session a new grant's
   default, a grant for one run a later scalpel. With their stages: #494, #495, #503, #518, #519,
-  #522 to #525, #534. Prompted ([prompt](../prompts/unrun/issue-lane-decisions-agent-tools.md),
-  warm, 2026-10-29), with the agent tools' fixes.
+  #522 to #525, #534. Written on each issue (2026-10-30).
+- The decisions round's two questions
+  ([report](../reportbacks/issue-lane-decisions-agent-tools-RB.md)): #584 an entry's value read by
+  message, Vision's lean an Inventory ask that answers it decoded
+  (the format's reader stays its owner's); #587 the `commands` and `folders` walks, Vision's lean a
+  walk that can carry a value from an earlier step. And Loom #73's rewrite makes every console
+  grant last the session: whether `authority trust` (may it run) goes with `authority allow`
+  (what it may say), where Vision's lean is that trust stays as it is, a rebuild already asking.
 - Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
 
@@ -424,6 +434,9 @@ install, the restore notice (Notices keeps every notice; reasoned).
   a-build-keeps-its-own-words.md`, two cases' comments. #553 mended `drawable`'s alone.
 - In the pages' pictures the terminal's Pane Manager covers Info's first column, and the
   smallest window's Notices covers Info (the kit's audit).
+- A suite's floor is the fewest cases any configuration compiles (`input`: 62 on Linux, 59 on
+  Windows, #591's first run red): `docs/contributing/taking-an-issue.md` says "the measured count"
+  without saying on which.
 - A loaded weave cannot read its own id (Loom; no owner).
 - The desk split's `-s` aborts in nine more assertions, fixed at each case's next change.
 - An issue to shorten `neovim_journey`, set aside.

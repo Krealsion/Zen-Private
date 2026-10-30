@@ -168,6 +168,10 @@ under the same id.
   message package, `-machine`, `accounts-machine`), read by convention. Wakes: a package that
   reaches something neither suffix names (a network, say), when the catalog would carry a
   package's reach as data (the ELH round, 2026-10-29).
+- **P-WORK-79** The agent tools' small pressures (2026-10-30): a walk cannot carry a value from one
+  step to the next (the workbench walk names an id by its row's text; #587); nothing smaller than
+  a desk read names the window office a run's pictures come from (#575). Wakes: #587's decision;
+  a run where the desk read costs.
 
 ## 5. Build and verification
 
@@ -192,7 +196,9 @@ under the same id.
   leftover loop landed that round's copy early), a third tree kind, the unknown figure read from
   the store (each kind's is a little under its largest: 3 against 3.04 GB, 4 against 4.08); from
   the mutants rounds a survivor reader, a probe mode for the runner, lists read without a Windows
-  `\r`. Wakes: the next pass on the process.
+  `\r`; from the decisions round (2026-10-30) `primary.sh second` fetching GitHub (its copy came up
+  on a stale `origin/main` and the primary's SSH remote), a manifest editor, a step-comment batch.
+  Wakes: the next pass on the process.
 - **P-BUILD-11** A cancelled walk's input session races the next run's ask. Wakes: a job failing
   on it, or a change to the tool's session handling.
 - **P-BUILD-12** Loom's lane runs its entries one at a time. Loom #75's boxed twins write the
