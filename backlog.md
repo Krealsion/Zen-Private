@@ -444,6 +444,14 @@ install, the restore notice (Notices keeps every notice; reasoned).
   the sum over four); doctest's `--duration` on WSL's stepped clock.
 - The kit: the mutation script could count each mutant's text before building; a probe helper,
   asked twice.
+- Docs against code, from the founder's self-test (2026-10-30): 26 places where a page or a
+  comment says one thing and the code another, each with its lines, in
+  [drafts/docs-vs-code-2026-10-30.md](drafts/docs-vs-code-2026-10-30.md). The weightiest:
+  `messaging.md` calls `Mail::reply` a send back to the sender when it goes only to `reply_to`,
+  so README's first snippet replies to no one; the poke pages call reading opt-in when every
+  field reads by default; Loom's sessions guide says a package's `asks` where the code reads them
+  per tool; the demo setups' page leaves out the two `-machine` packages every setup approves;
+  four Zengine pages call the Input weave the sole producer of input, which the SDL window is not.
 
 ## 9. Not backlog
 
