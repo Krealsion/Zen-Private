@@ -66,6 +66,15 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   the same fixtures (24), and the five bounds met; merged. S4, a Zengine pane boxed in Workshop,
   reported 2026-10-30 ([report](../reportbacks/wasm-tier-s4-RB.md)), not yet reviewed: Loom #78
   merges before Zengine #594, whose branch moved past its report (`8f40dbf8`).
+- **Docs lane: a message's journey** (prompted 2026-10-30,
+  [prompt](../prompts/unrun/message-journey.md), warm): one Loom page following a message from the
+  send to the handler, each step what and why, its variations (a role, the office, a publication,
+  an ask and its answer, a refusal, a link) as differences from that spine, proven by an example a
+  test runs; the messaging entries of the docs-against-code list made true. The founder's line
+  after it: the self-test cross-referenced with the docs, whatever they answer less cleanly
+  becoming pages too; Zengine's journey (a key press to the pixels); then readers outside the
+  project, their questions seeding an FAQ of plain questions with direct answers a layman can
+  follow, the technical references after.
 - **The review waves** (2026-10-29). The first: #485, #491, #489, #486, #484, #490 and #488
   merged, #487 closed. The second, reviewed the same day: #553, #555, #561, #557, #563, #567,
   #550, #565, #558 and Loom #74 merged. The third, reviewed that evening, all green and each
