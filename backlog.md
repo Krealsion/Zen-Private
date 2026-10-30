@@ -63,7 +63,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **WASM lane: stages 2 and 3** ([report](../reportbacks/wasm-tier-s2-s3-RB.md)): S2 merged as
   Loom #74, `Kernel::containment(name)`, D7's statement in `capabilities.md` as recorded. S3 as
   Loom #75, rebased onto it and green, tests only: the door cases run on boxed twins built from
-  the same fixtures (24), and the five bounds met; merge-ready. Next, S4: a Zengine pane boxed.
+  the same fixtures (24), and the five bounds met; merged. S4, a Zengine pane boxed in Workshop,
+  prompted ([prompt](../prompts/unrun/wasm-tier-s4.md), warm, 2026-10-30).
 - **The review waves** (2026-10-29). The first: #485, #491, #489, #486, #484, #490 and #488
   merged, #487 closed. The second, reviewed the same day: #553, #555, #561, #557, #563, #567,
   #550, #565, #558 and Loom #74 merged. The third, reviewed that evening, all green and each
@@ -86,7 +87,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    condition, so pressing `+` computes no divide; a gear for settings. Quicksort needs a branch
    form (only the chosen side computed) and list operators. Start here's moves for steps 2 and 3
    wait on it. Zengine #142 holds the older milestone question.
-2. **The element set, its text pieces first** (the founder, 2026-10-29: "High quality
+2. **The element set, its text pieces first** (prompted 2026-10-30,
+   [prompt](../prompts/unrun/element-set-text.md), warm) (the founder, 2026-10-29: "High quality
    components means higher quality composites"), a stage worth the time. The census's set
    (section 3), its drawn faces lifted from Flow's pen once his round ends. First the text: one
    core (the text, places in it, the selection, the word rules, the window over it, the copy);
@@ -327,13 +329,11 @@ Each starts on the founder's word; "wake" is what must be true first.
   good with `authority revoke`; the console grants only for good), session a new grant's
   default, a grant for one run a later scalpel. With their stages: #494, #495, #503, #518, #519,
   #522 to #525, #534. Written on each issue (2026-10-30).
-- The decisions round's two questions
-  ([report](../reportbacks/issue-lane-decisions-agent-tools-RB.md)): #584 an entry's value read by
-  message, Vision's lean an Inventory ask that answers it decoded
-  (the format's reader stays its owner's); #587 the `commands` and `folders` walks, Vision's lean a
-  walk that can carry a value from an earlier step. And Loom #73's rewrite makes every console
-  grant last the session: whether `authority trust` (may it run) goes with `authority allow`
-  (what it may say), where Vision's lean is that trust stays as it is, a rebuild already asking.
+- The decisions round's questions, answered (the founder, 2026-10-30), for the next issue lane to
+  write on their issues: #584 an entry's value decoded by Inventory and answered by message; Loom
+  #73 `authority allow` lasts the session by default and `authority trust` stays as it is ("trust
+  is earned, allowance is a leash to test it on"). #587, a walk carrying a value from an earlier
+  step: yes, its whole scope talked through with the founder first.
 - Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
 
