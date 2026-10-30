@@ -317,10 +317,13 @@ Each starts on the founder's word; "wake" is what must be true first.
   for filing an issue (the guide does); #580 a refusal said whole as a notice, beside #548; #583
   `zengine.demo` answers a setup's guidance by message, each pane's office its purpose; #588 the
   one-story tools and the demo service in a demos package, the test-only inputs in their own,
-  `lane` and `source` where they are. Open: #543 (may a pane change Notices' `keep`; Vision's
-  lean yes); Loom #73, to re-trace first (Loom already scopes a grant to a run, to a Weaver's
-  session and for good with `authority revoke`; the console grants only for good), then session
-  and run together; #494, #495, #503, #518, #519, #522 to #525, #534 with their stages.
+  `lane` and `source` where they are; #543 a pane may change its own settings while it runs,
+  limits like `keep` among them, Info's rows over another pane's with a settings pane later;
+  Loom #73 retraced first (Loom already scopes a grant to a run, to a Weaver's session and for
+  good with `authority revoke`; the console grants only for good), session a new grant's
+  default, a grant for one run a later scalpel. With their stages: #494, #495, #503, #518, #519,
+  #522 to #525, #534. Prompted ([prompt](../prompts/unrun/issue-lane-decisions-agent-tools.md),
+  warm, 2026-10-29), with the agent tools' fixes.
 - Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
 

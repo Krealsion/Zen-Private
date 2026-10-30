@@ -255,4 +255,10 @@ These shape completeness tests only; each needs its own consumer and an authoriz
 - **Two forms bridged by Flow** (`goals/two-forms.md`): a live interpreted form and a generated
   durable C++ form, Flow reading code through the Loom ABI's handles. "A raw node is an operator
   iff it has no bus access, transitively" is the founder's hypothesis, not law.
+- **A live trace of the system** (the founder, 2026-10-29): weaves as nodes, messages as edges, a
+  chosen message's path lit as it travels, and at the end its whole trace with each message's
+  fields. The graph from the paths owners declare (#572), the light from Loom's record of each
+  delivery (the Recorder; `dispatch_parent`, the delivery being handled when a message was sent).
+  Loom's history builds no causal graph today, on purpose, and work deferred to a timer or an
+  answer is parented by what woke it.
 - Info rebuilt as a one-slot inspector left the seeds: the founder ordered it as BL-WORK-10.
