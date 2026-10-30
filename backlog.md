@@ -64,7 +64,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Loom #74, `Kernel::containment(name)`, D7's statement in `capabilities.md` as recorded. S3 as
   Loom #75, rebased onto it and green, tests only: the door cases run on boxed twins built from
   the same fixtures (24), and the five bounds met; merged. S4, a Zengine pane boxed in Workshop,
-  prompted ([prompt](../prompts/unrun/wasm-tier-s4.md), warm, 2026-10-30).
+  reported 2026-10-30 ([report](../reportbacks/wasm-tier-s4-RB.md)), not yet reviewed: Loom #78
+  merges before Zengine #594, whose branch moved past its report (`8f40dbf8`).
 - **The review waves** (2026-10-29). The first: #485, #491, #489, #486, #484, #490 and #488
   merged, #487 closed. The second, reviewed the same day: #553, #555, #561, #557, #563, #567,
   #550, #565, #558 and Loom #74 merged. The third, reviewed that evening, all green and each
@@ -88,15 +89,19 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    form (only the chosen side computed) and list operators. Start here's moves for steps 2 and 3
    wait on it. Zengine #142 holds the older milestone question.
 2. **The element set, its text pieces first** (prompted 2026-10-30,
-   [prompt](../prompts/unrun/element-set-text.md), warm) (the founder, 2026-10-29: "High quality
+   [prompt](../prompts/element-set-text.md), warm) (the founder, 2026-10-29: "High quality
    components means higher quality composites"), a stage worth the time. The census's set
    (section 3), its drawn faces lifted from Flow's pen once his round ends. First the text: one
    core (the text, places in it, the selection, the word rules, the window over it, the copy);
    the text area over it, read only; the text box over it, adding the caret and the editing, at
    first with every behaviour its 25 users have today, then the whole box pressed and the caret
    blinking. The box seen as a box (the founder, 2026-10-29): a 1 px border in a light grey role
-   a theme maps, and in cells a spelling of its own; Loaded's search is the first that needs it.
-   Before the View Builder's makeover, which builds on it.
+   a theme maps; Loaded's search is the first that needs it. In cells (2026-10-30): the cells'
+   own layout decides how a box reads, `[[Type here      ]]` or any spelling, never a mirror of
+   the border. Before the View Builder's makeover, which builds on it. The text stage reported
+   2026-10-30 ([report](../reportbacks/element-set-text-RB.md)): Zengine #593, green on every job
+   at `492e96c9`, reviewed, merge-ready; one window border tied to the cells' brackets
+   (`bordered`), to be split. Decisions in section 5.
 3. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
    as a whole, not the lane's three notes one by one. What it carries: the kinds a row each below
    Grid (his note of 2026-10-27); the width that responds, which he liked (#487 not merged);
@@ -336,6 +341,12 @@ Each starts on the founder's word; "wake" is what must be true first.
   step: yes, its whole scope talked through with the founder first.
 - Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
+- The element set's text stage ([report](../reportbacks/element-set-text-RB.md)): merge #593;
+  the window-looks record's five (Vision: yes to the set, the record beside the node, the pump
+  beat and steady as an ask; no to `InjectedEvent::steady`, the act tool asking steady as a
+  picture does); every box outlined in a window once a box's place is split from its spelling
+  (Vision: yes); whether Loaded's empty search shows its box; the picture panes' boxes with their
+  makeovers (Vision: agreed).
 
 ## 6. Filed as issues
 
@@ -414,7 +425,9 @@ marked.
   - a page's old pictures wait until the page next changes;
   - a floating pane is a whole workspace in a window of its own, and an exported app is code of
     its own;
-  - work is done by mouse where it can be, its keys the ideal ones (the Perspectives Lab's rule).
+  - work is done by mouse where it can be, its keys the ideal ones (the Perspectives Lab's rule);
+  - a terminal is never made to show every element a window shows: a border, a bar or a look is
+    the window's, and the cells' own layout decides how an element reads there (2026-10-30).
 
 ## 8. Loose ends for the next issue sweep
 
