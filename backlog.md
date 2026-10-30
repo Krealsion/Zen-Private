@@ -73,15 +73,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   founder (2026-10-30): docs get smaller and clearer, never longer. First the eight Loom entries of
   the docs-against-code list in one small pull request, Loom #80, green, reviewed 2026-10-30,
   merge-ready (loom-25's four non-meanings restored to the header), so the rewrite reads no
-  contradiction. Then Loom's README rewritten below the preface: a punchy, honest summary; the
-  ideas, ordered for a reader, each section able to stand alone as bullets; install, build, the
-  console, a first weave, loading code, sending a message; deep-dive links (loading code, a
-  message's path, the console's commands) folded from today's guides. Every command and code block
-  run by a test, each a small main-only program; a cold reader following it on a clean machine is
-  the gate, the founder's read last. Vision drafts the outline (summary, ideas as takeaways,
-  sections) for his markup before the prompt. After it: the self-test cross-referenced, Zengine's
-  README the same way (its entries of the list fixed first), then readers outside the project
-  seeding an FAQ of plain questions with direct answers a layman can follow.
+  contradiction. Then `Mail::reply` falling back to the stamped sender when no reply address was
+  given, ordinary grant-checked speech still (the founder, 2026-10-30;
+  [prompt](../prompts/unrun/mail-reply-fallback.md), hot, after #80). Then Loom's README rewritten
+  below the preface: a punchy, honest summary; the ideas, ordered for a reader, each section able to
+  stand alone as bullets; install, build, the console, a first weave, loading code, sending a
+  message; deep-dive links (loading code, a message's path, the console's commands) folded from
+  today's guides. Every command and code block run by a test, each a small main-only program; a cold
+  reader following it on a clean machine is the gate, the founder's read last. Vision drafts the
+  outline (summary, ideas as takeaways, sections) for his markup before the prompt. After it: the
+  self-test cross-referenced, Zengine's README the same way (its entries of the list fixed first),
+  then readers outside the project seeding an FAQ of plain questions with direct answers a layman
+  can follow.
 - **The review waves** (2026-10-29). The first: #485, #491, #489, #486, #484, #490 and #488
   merged, #487 closed. The second, reviewed the same day: #553, #555, #561, #557, #563, #567,
   #550, #565, #558 and Loom #74 merged. The third, reviewed that evening, all green and each
@@ -119,7 +122,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    box, empty included; Loaded's search shown from the start; `component/` knowing no medium.
    The faces round (`bd184417`) green on every job, reviewed 2026-10-30, merge-ready:
    `component/` measured in characters, each look a face in `graphics/elements/`, a row carrying
-   its box. The Terminal's line reads heavy as a box in cells (section 5).
+   its box. The founder (2026-10-30): the Terminal's own line plain in cells (`> ls -l`), its
+   outline kept in a window; continued in #593
+   ([prompt](../prompts/unrun/element-set-text-terminal-line.md), hot).
 3. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
    as a whole, not the lane's three notes one by one. What it carries: the kinds a row each below
    Grid (his note of 2026-10-27); the width that responds, which he liked (#487 not merged);
@@ -361,10 +366,6 @@ Each starts on the founder's word; "wake" is what must be true first.
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
 - The WASM tier's S4b, the Builder's second target as a stage of its own (Vision: yes, next in
   the lane, before S5).
-- The Terminal's command line in cells: a box like every other, or plain (`> ls -l`) where the
-  terminal layout chooses, the window keeping its outline (Vision: plain).
-- `Mail::reply` falling back to the stamped sender when no reply address was given, as the
-  substrate's answers, the control door and the run manager do (Vision: yes, its own small PR).
 - The element set's text stage ([report](../reportbacks/element-set-text-RB.md)): the
   window-looks record's five (Vision: yes to the set, the record
   beside the node, the pump beat and steady as an ask; no to `InjectedEvent::steady`, the act
