@@ -64,8 +64,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Loom #74, `Kernel::containment(name)`, D7's statement in `capabilities.md` as recorded. S3 as
   Loom #75, rebased onto it and green, tests only: the door cases run on boxed twins built from
   the same fixtures (24), and the five bounds met; merged. S4, a Zengine pane boxed in Workshop,
-  reported 2026-10-30 ([report](../reportbacks/wasm-tier-s4-RB.md)), not yet reviewed: Loom #78
-  merges before Zengine #594, whose branch moved past its report (`8f40dbf8`).
+  reported and reviewed 2026-10-30 ([report](../reportbacks/wasm-tier-s4-RB.md)): Loom #78 green,
+  12 of 12, merges first; Zengine #594 green but its boxed job, refused at configure until #78 is
+  in. Continued for the rerun and #594's body ([prompt](../prompts/unrun/wasm-tier-s4-after-78.md),
+  hot). S4b, the Builder's second target, proposed as a stage of its own (section 5).
 - **Docs lane: a message's journey** (prompted 2026-10-30,
   [prompt](../prompts/unrun/message-journey.md), warm): one Loom page following a message from the
   send to the handler, each step what and why, its variations (a role, the office, a publication,
@@ -350,6 +352,8 @@ Each starts on the founder's word; "wake" is what must be true first.
   step: yes, its whole scope talked through with the founder first.
 - Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
+- The WASM tier's S4b, the Builder's second target as a stage of its own (Vision: yes, next in
+  the lane, before S5).
 - The element set's text stage ([report](../reportbacks/element-set-text-RB.md)): #593 to merge
   after its faces round; the window-looks record's five (Vision: yes to the set, the record
   beside the node, the pump beat and steady as an ask; no to `InjectedEvent::steady`, the act
@@ -467,6 +471,8 @@ install, the restore notice (Notices keeps every notice; reasoned).
   the sum over four); doctest's `--duration` on WSL's stepped clock.
 - The kit: the mutation script could count each mutant's text before building; a probe helper,
   asked twice.
+- `story_journey`'s U7, a 0.5 s wait in the tower-defense story driver, ran out on a slow
+  MinGW-w64 run (#594's first attempt at `8f40dbf`); green on the rerun.
 - Docs against code, from the founder's self-test (2026-10-30): 26 places where a page or a
   comment says one thing and the code another, each with its lines, in
   [drafts/docs-vs-code-2026-10-30.md](drafts/docs-vs-code-2026-10-30.md). The weightiest:

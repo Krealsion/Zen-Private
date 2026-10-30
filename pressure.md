@@ -172,6 +172,9 @@ under the same id.
   step to the next (the workbench walk names an id by its row's text; #587); nothing smaller than
   a desk read names the window office a run's pictures come from (#575). Wakes: #587's decision;
   a run where the desk read costs.
+- **P-WORK-80** Workshop says a weave's containment once, on its `loaded:` line; the Project pane
+  lists the arrangement live and says none (the WASM tier's S4). Wakes: a weaver loading a boxed
+  pane by hand, when the pane could read `Kernel::containment` through the arrangement door.
 
 ## 5. Build and verification
 
@@ -235,6 +238,9 @@ under the same id.
   answering a new shape, or Loom's dispatch refusals.
 - **P-LOOM-14** Under MSVC a weave keeps the standard handles it loaded with (KERN-05 says so).
   Wakes: a host or a test repointing a standard handle while weaves load.
+- **P-LOOM-15** A package built with the WASM backend links Wasmtime by its absolute build path,
+  and an MSVC program opening a module needs `wasmtime.dll` beside it, which the package neither
+  carries nor names (S4). Wakes: a backend package used off the machine that built it.
 
 ## 7. Adoption
 
