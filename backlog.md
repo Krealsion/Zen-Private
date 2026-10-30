@@ -96,12 +96,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    the text area over it, read only; the text box over it, adding the caret and the editing, at
    first with every behaviour its 25 users have today, then the whole box pressed and the caret
    blinking. The box seen as a box (the founder, 2026-10-29): a 1 px border in a light grey role
-   a theme maps; Loaded's search is the first that needs it. In cells (2026-10-30): the cells'
-   own layout decides how a box reads, `[[Type here      ]]` or any spelling, never a mirror of
-   the border. Before the View Builder's makeover, which builds on it. The text stage reported
-   2026-10-30 ([report](../reportbacks/element-set-text-RB.md)): Zengine #593, green on every job
-   at `492e96c9`, reviewed, merge-ready; one window border tied to the cells' brackets
-   (`bordered`), to be split. Decisions in section 5.
+   a theme maps; Loaded's search is the first that needs it. Before the View Builder's makeover,
+   which builds on it. The text stage reported 2026-10-30
+   ([report](../reportbacks/element-set-text-RB.md)): Zengine #593, green on every job at
+   `492e96c9`. The founder (2026-10-30): `[text___]` in cells; every text box always seen as a
+   box, empty included; Loaded's search shown from the start; `component/` knowing no medium.
+   Continued in #593 ([prompt](../prompts/unrun/element-set-text-faces.md), hot).
 3. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
    as a whole, not the lane's three notes one by one. What it carries: the kinds a row each below
    Grid (his note of 2026-10-27); the width that responds, which he liked (#487 not merged);
@@ -341,12 +341,11 @@ Each starts on the founder's word; "wake" is what must be true first.
   step: yes, its whole scope talked through with the founder first.
 - Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
-- The element set's text stage ([report](../reportbacks/element-set-text-RB.md)): merge #593;
-  the window-looks record's five (Vision: yes to the set, the record beside the node, the pump
-  beat and steady as an ask; no to `InjectedEvent::steady`, the act tool asking steady as a
-  picture does); every box outlined in a window once a box's place is split from its spelling
-  (Vision: yes); whether Loaded's empty search shows its box; the picture panes' boxes with their
-  makeovers (Vision: agreed).
+- The element set's text stage ([report](../reportbacks/element-set-text-RB.md)): #593 to merge
+  after its faces round; the window-looks record's five (Vision: yes to the set, the record
+  beside the node, the pump beat and steady as an ask; no to `InjectedEvent::steady`, the act
+  tool asking steady as a picture does); the picture panes' boxes with their makeovers (Vision:
+  agreed).
 
 ## 6. Filed as issues
 
@@ -427,7 +426,9 @@ marked.
     its own;
   - work is done by mouse where it can be, its keys the ideal ones (the Perspectives Lab's rule);
   - a terminal is never made to show every element a window shows: a border, a bar or a look is
-    the window's, and the cells' own layout decides how an element reads there (2026-10-30).
+    the window's, and the cells' own layout decides how an element reads there (2026-10-30);
+  - `component/` knows no medium: a piece is measured there in characters, and its looks, the
+    window's and the terminal's, are faces side by side (2026-10-30).
 
 ## 8. Loose ends for the next issue sweep
 
