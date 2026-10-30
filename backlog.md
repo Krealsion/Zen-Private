@@ -306,16 +306,23 @@ Each starts on the founder's word; "wake" is what must be true first.
   wants every field exposed), Vision's lean the intended reach for now, the door a later Loom
   stage; the three nested-value pictures with no recipe to the kit's recipes, yes; the three
   already stale and retaken in #568 kept there, yes.
-- The UX batch's thirteen decisions, each on its issue under `needs-decision`: #492, #493, #494,
-  #495, #503, #518, #519, #522 to #526, #533, #534, #535, #543, and Loom #73.
+- The issues' decisions (the founder, 2026-10-29), to be written on each issue and labelled
+  `ready` by the next issue lane: #492 every launch key, `Ctrl+p` among them, selects its surface
+  when it is open and not selected and closes it when selected; #493 a press outside ends the
+  arranging, a one-pane arranging too; #526 the shipped catalog carries every pane's recipe, the
+  Demo pane's none; #533 the 34 `using namespace` lines first, the issue kept open to audit the
+  530 aliases later; #535 the maintainer's copy of `quarry/` kept in a Zen folder; #572
+  `desk/resolve` walks the paths each owner declares a message leads to, hop by hop, branching
+  where an owner declares several, stopping at a loop or a bound, and its answer carries no rule
+  for filing an issue (the guide does); #580 a refusal said whole as a notice, beside #548; #583
+  `zengine.demo` answers a setup's guidance by message, each pane's office its purpose; #588 the
+  one-story tools and the demo service in a demos package, the test-only inputs in their own,
+  `lane` and `source` where they are. Open: #543 (may a pane change Notices' `keep`; Vision's
+  lean yes); Loom #73, to re-trace first (Loom already scopes a grant to a run, to a Weaver's
+  session and for good with `authority revoke`; the console grants only for good), then session
+  and run together; #494, #495, #503, #518, #519, #522 to #525, #534 with their stages.
 - Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
-
-- The ELH round's four decisions ([report](../reportbacks/issue-lane-elh-audit-RB.md)): #572
-  whether `desk/resolve` follows a cause to the message it leads to, and whether its answer keeps
-  the rule for filing an issue; #580 where a pane's refusal is said whole; #583 which office
-  answers a setup's first task and a pane's purpose; #588 where the fixture tools, the demo
-  service and the test-only inputs go.
 
 ## 6. Filed as issues
 
