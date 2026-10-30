@@ -68,15 +68,19 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   12 of 12, merges first; Zengine #594 green but its boxed job, refused at configure until #78 is
   in. Continued for the rerun and #594's body ([prompt](../prompts/unrun/wasm-tier-s4-after-78.md),
   hot). S4b, the Builder's second target, proposed as a stage of its own (section 5).
-- **Docs lane: a message's journey** (prompted 2026-10-30,
-  [prompt](../prompts/unrun/message-journey.md), warm): one Loom page following a message from the
-  send to the handler, each step what and why, its variations (a role, the office, a publication,
-  an ask and its answer, a refusal, a link) as differences from that spine, proven by an example a
-  test runs; the messaging entries of the docs-against-code list made true. The founder's line
-  after it: the self-test cross-referenced with the docs, whatever they answer less cleanly
-  becoming pages too; Zengine's journey (a key press to the pixels); then readers outside the
-  project, their questions seeding an FAQ of plain questions with direct answers a layman can
-  follow, the technical references after.
+- **Docs lane: Loom's README as the front door.** The journey page (#79, +1044 lines) closed by
+  the founder (2026-10-30): docs get smaller and clearer, never longer. First the eight Loom
+  entries of the docs-against-code list in one small pull request
+  ([prompt](../prompts/unrun/message-journey-fixes.md), hot), so the rewrite reads no
+  contradiction. Then Loom's README rewritten below the preface: a punchy, honest summary; the
+  ideas, ordered for a reader, each section able to stand alone as bullets; install, build, the
+  console, a first weave, loading code, sending a message; deep-dive links (loading code, a
+  message's path, the console's commands) folded from today's guides. Every command and code block
+  run by a test, each a small main-only program; a cold reader following it on a clean machine is
+  the gate, the founder's read last. Vision drafts the outline (summary, ideas as takeaways,
+  sections) for his markup before the prompt. After it: the self-test cross-referenced, Zengine's
+  README the same way (its entries of the list fixed first), then readers outside the project
+  seeding an FAQ of plain questions with direct answers a layman can follow.
 - **The review waves** (2026-10-29). The first: #485, #491, #489, #486, #484, #490 and #488
   merged, #487 closed. The second, reviewed the same day: #553, #555, #561, #557, #563, #567,
   #550, #565, #558 and Loom #74 merged. The third, reviewed that evening, all green and each
