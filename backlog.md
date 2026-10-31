@@ -69,7 +69,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   in. #78 merged (`619d102f`); #594's rerun green on every job, the boxed one included, its body
   put right; reviewed 2026-10-30; merged (`8559e428`). S4b, the Builder's second target: the
   founder took it into the Builder (2026-10-30), a recipe making its pane native, boxed or both
-  through Workshop ([prompt](../prompts/unrun/wasm-tier-s4b-builder.md), warm).
+  through Workshop ([prompt](../prompts/wasm-tier-s4b-builder.md), warm): reported 2026-10-30
+  ([report](../reportbacks/wasm-tier-s4b-RB.md)), its review next.
 - **Docs lane: Loom's README as the front door.** The journey page (#79, +1044 lines) closed by the
   founder (2026-10-30): docs get smaller and clearer, never longer. First the eight Loom entries of
   the docs-against-code list in one small pull request, Loom #80, merged (`a2fe7e2`), so the
@@ -151,6 +152,35 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 ## 3. Decided, not yet ordered
 
 Each starts on the founder's word; "wake" is what must be true first.
+
+- **The visual foundation** (the founder, 2026-10-31,
+  [answers](drafts/decision-wave-graphical-answers.txt)), before the makeovers, built for the ideal
+  future: the earned rule retired the same day.
+  - Colours, a new system: the painter knows no colours, each draw carries its own; a pane colours
+    by an exact value, a name from a shared pool named by use (background, text...), or a slot it
+    exposes to themes; themes are JSON, loaded without compiling, setting any exposed slot, each
+    theme saying whether a slot nothing exposes is skipped or refuses it whole; the same pool holds
+    fonts and text sizes. Census 9's emphasis colours fold into it.
+  - Looks: Vision's model (when, what, how; operators a closed set the window knows, a weave's own
+    only boxed and later), several at once on one node, an operator taking a value struct (a fade's
+    end colour). The window-looks record rewritten so: (b) to (d) yes, (e) the act tool holding
+    steady for its run.
+  - Text: weight, size and every character past ASCII drawn in the window; `?` only where a
+    terminal can't show one.
+  - The element set: the old drawn classes retired as faces supersede them, Image and Grid kept
+    until superseded; the setup tabs on `tab_strip`; a menu row's key and submenu mark as fields;
+    every key a hint names read from the keymap; Info's list rule with the list piece; Workshop's
+    panes on a shared piece wherever one fits.
+  - Keys: a pane hears a key first, what it doesn't consume going up to Workshop, and a pane may
+    opt out of Workshop's defaults; a pane owns its own key (from outside it opens or selects the
+    pane, inside it closes it); one action shape carrying its source (a click and its place, a key,
+    an agent's).
+  - Docks cover the room, and only authored anchors move panes; a dock keeps a strip its edge's
+    whole length, open or shut.
+  - Settings: the double-click speed is input's; themes merge and reset (the research's two);
+    locked settings a final layer; a failed key skipped or the theme refused, the theme saying
+    which, a wrong type always loud; a reset whole, or applied on top; several keys an action.
+  Open calls: [clarify](drafts/decision-wave-clarify-1.md).
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
@@ -245,8 +275,8 @@ Each starts on the founder's word; "wake" is what must be true first.
   `check` and `probe`, then 4a to 7; the dense reading (a grid rectangle row by row) not yet
   placed. Until the agent desk, an agent's press still moves the keys and the selection.
 - **Untrusted code, the WASM tier** (S1 to S4 merged: Loom #72, #74, #75, #78; Zengine #594).
-  Left: S4b, the Builder's second target (section 1), then S5, its doors as consumers ask (a
-  clock, standard output as messages, a module cache). D7's statement is in Loom's
+  Left: S4b, the Builder's second target (section 1), then S5, its doors (a clock, standard
+  output as messages, a module cache), designed whole. D7's statement is in Loom's
   `capabilities.md` as the research wrote it (#74). An agent without a shell waits on this and on
   tools by reach.
 - **The MCP adapter's live check** through the app, and the weaver case on package 0.1.3. Wake: a
@@ -301,8 +331,9 @@ Each starts on the founder's word; "wake" is what must be true first.
   lanes; before soliciting contributors.
 - **Current law stays cheap to carry** (BL-ARCH-02; #201 merged): the next pass binds each case
   to its cited test file, then the search-and-link pass.
-- **The drawing door grows one kind at a time** (BL-WORK-37; stages 1 to 7 merged): ovals,
-  polygons, images, shaders and whole widgets, as consumers ask.
+- **The drawing door grows to its full set** (BL-WORK-37; stages 1 to 7 merged): ovals,
+  polygons, images, shaders and whole widgets, built for the design rather than as consumers ask
+  (the founder, 2026-10-31).
 - **The census's remainder** (BL-WORK-45): the mirrors (Attention, Connections, Info's
   properties, Introspection) become data-form views.
 - **Night Lab, era 2** (BL-LAB-01): held, top-down; its findings go through the founder to Vision.
@@ -310,13 +341,11 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
-- `v0.1.0`'s fixed colours: take them, or send them to the settings phase. The founder
-  (2026-10-30): colours perhaps settled before the rest of the makeovers; first in the wave.
 - `authority pending`: a grammar change, only if he wants one.
 - The Demo pane's development recipe: Vision's lean is none.
 - Show me opening over Start here, covering its words: Vision's read is to leave it.
-- The graphics research's round 2, decisions 2 (a group is a layer) and 10 (its eleven seams
-  filed as issues).
+- The graphics research's round 2, decisions 2 (a group is a layer: how it lands, in
+  [clarify](drafts/decision-wave-clarify-1.md)) and 10 (its eleven seams filed as issues).
 - Where the desk's 3a and 3b (BL-WORK-38) and fast forward (BL-WORK-43) fall in the direction.
 - The open decisions in one wave (the founder, 2026-10-30), not small batches: every decision
   asked since 2026-10-15 swept against `main` (Zengine `13cc5674`, Loom `a2fe7e2`), with this
@@ -325,7 +354,9 @@ Each starts on the founder's word; "wake" is what must be true first.
   15 not wise to answer yet, each with its reason, at its group's end. His answers save to the
   sheet; Vision reads them back and folds them in here. The sweep's record:
   [drafts/decision-wave-2026-10-30.md](drafts/decision-wave-2026-10-30.md). The items below that
-  the sheet carries are answered there.
+  the sheet carries are answered there. Its first half answered (2026-10-31) in a file of his own,
+  kept [verbatim](drafts/decision-wave-graphical-answers.txt) and recorded in section 3; his open
+  calls from it, with Vision's answers, in [clarify](drafts/decision-wave-clarify-1.md).
 - Where the local lane's agents run (BL-LANE-01).
 - The accordion research's eight decisions: Vision takes seven of its recommendations (docks
   taking room, the two row words, the bar's length one setting, the piece in `component/`, Info a
@@ -337,13 +368,17 @@ Each starts on the founder's word; "wake" is what must be true first.
   set-size frame of its own, placed like a pane, its first header always at the top and the second
   under it while the first is shut, at the foot while it is open, so it needs no anchors and may
   itself be a section of an outer accordion; docks (the bars) before anchors between panes, a
-  vertical bar spelling each tag one letter a row.
+  vertical bar spelling each tag one letter a row. The founder (2026-10-31): docks cover the
+  room, only authored anchors moving panes, and a dock keeps a strip its edge's whole length; the
+  row words asked again ([clarify](drafts/decision-wave-clarify-1.md)).
 - The census's nine decisions ([report](../reportbacks/ui-census-RB.md)): Vision takes the
   recommendations of 1 to 8, with the hint fed by one facet that hears the keymap, the View
   Builder's parts moved into its makeover; for 9, the drawn faces lifted from Flow's pen once his
   round ends, its emphasis faces as roles a theme maps, not Flow's own colours (2026-10-29). The
   founder (2026-10-29): the window-run element retired whole (section 3); then "I love what we
-  have so far", read by Vision as yes to these leans, to confirm.
+  have so far", read by Vision as yes to these leans, to confirm. The founder (2026-10-31): 3, 4,
+  6 and 7 yes, Image and Grid kept until superseded; 9 folded into the colour system (section 3);
+  1 and 5 asked again ([clarify](drafts/decision-wave-clarify-1.md)); 8 with the View Builder.
 
 - #568's first decision ([report](../reportbacks/accordion-stage-2-RB.md)): no door edits
   `DesktopState` or `InfoPaneState` from outside today (Loom's poke writes scalars, its reset
@@ -373,17 +408,6 @@ Each starts on the founder's word; "wake" is what must be true first.
   step: yes, its whole scope talked through with the founder first.
 - Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
-- The window-looks record ([record](../reportbacks/element-set-text/window-looks.md)). The
-  founder (2026-10-30): yes to (b) a look as a record beside the node, (c) the pump beat as the
-  clock, (d) steady as an ask of the window; (e) no flag on the input: the act tool asks steady
-  for its run and lets go after, holds counted, each ending with its holder. (a) reopened: ease
-  modifies a look and is not one; which animations, and an operator taking a delta time and
-  itself. Vision's model (2026-10-30), for his word: a look is when (always, hovered, held,
-  changed, appearing, leaving), what (shown, opacity, colour, offset, scale, rotation, reveal,
-  face) and how (duration, delay, curve, repeats, played back on release); operators a closed
-  set the window knows, a weave's own only boxed and later; a look keyed on the window's hand
-  whatever the weave listens for, changing paint and never what a press hits. Then the record
-  rewritten, its first stage the caret, the bar, hovered and held.
 
 ## 6. Filed as issues
 

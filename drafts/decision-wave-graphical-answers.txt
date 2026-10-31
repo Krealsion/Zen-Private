@@ -1,0 +1,55 @@
+The founder's answers to the decision wave's first half (2026-10-31), as he wrote them.
+Before them, his direction: "We should be building components and other pieces for the ideal
+future. We need to drop all of the the rules that an element must first be earned by being burned
+by the lack of it for months permanently and completely. I am tired of us settling for mediocre
+tools or components at this point. We did the slow and discipline part for so long because we were
+unsure what this would become. Now, we are seeing it take shape, and we should support that change
+completely. This is now what the future of Zen will be built on, and should be built with the
+utmost care and consideration."
+
+decisions_graphical.txt:
+Colors
+  Colors need a whole new system. I do not like how light_paint is the class that sets up the colors, and are incredibly difficult to read
+  I think we should just hav a color scheme that can be created or accessed in certain ways
+  Perhaps colors are a sense that can be read from, or perhaps they instantiate their own that can't be overriden
+  Perhaps we simply look for Colors that are exposed and use those as the hooks for setting colors with a theme, regardless of if that color was in a theme before
+    This could likely fail if a large theme has colors for weaves that no longer exist, and maybe a config for if it should fail gracefully on those slots and continue on others, or fail completely, resolving each one beforehand
+  I also would *like* one of these shared repositories to be for shared use cases. For instance, background color. If we had a helper like that, where colors where the name was the use case, then many things could reliably pull from the same pool and look similar without knowing about eachother or being set seperately. 
+  So overall, `light_paint.cpp` should be more just the "Painter" functionality, no colors known, passed in for each action like drawing an ellipse or rectangle, and then the panes should have rich access to ways to color their panes exactly how they want, or via a shared pool. This is likely the same shared pool concept we will use for things like fonts and text sizes.
+  I also think the data should be stored in JSON, so we can edit themes and load them without any compiling necessary.
+
+Window Looks and Element Set
+  Element Set Text 1: Your lean feels correct. We should ensure that we can have multiple of these animations at the same time though. For instance, a scrollbar that both expands it's width and becomes brighter at the same time.
+    Also thinking that the operators should likely be able to take in their data_struct with values. For instance, what color a color fade turns into needs to be know in addition to the normal color it is, which is accessible through the instance of the element it receives
+  UI Census 1: Some of these feel overengineered for their specific use case at the moment, like search sounds like a textbox, tabs just sounds like buttons that change state, and I am not even sure what control is supposed to represent. The rest seem fine, but those I would like to know more about.
+  UI Census 3: If these are old classes being completely superceeded, then yes, retire as we replace everything with the new, better versions. Do not drop Image or Grid though until we superceed them.
+  UI Census 4: Your lean, keeping tab strip, and using that in the setups tabs (what you call layouts).
+  UI Census 5: Why are we using Ascii spelling still for GUI? I thought we were having an ASCII flallback for TUI using the already implemented single `?` for non-ascii characters?
+  UI Census 6: Your lean, fields for the row. Sounds like we were having to find the mark in the text, which could easily break if a label had their own `>` characters as some kind of injection. Then we can later do better drawing based on those fields, like highlighting, outlining, or so on instead of an arrow. The arrow can be kept for now, but as an element that overlays to point at the row, rather than being a part of the row itself. (did I read this one correctly?)
+  UI Census 7: Your lean, keymap only.
+  Flow Made Over 4: Yes to all. See UI Census 5 and the last line of "Colors" for reference.
+phase 5a mirror panes and introspection: Your lean, built with lists.
+  phase 9a control strip and list rows: Your lean, yes. If there is a component built for the case, we should be using it. Workshop should be standardized within itself. Others may make things however they want, but we want to set a good example.
+  graphics weave research, round 2, decision 2: Groups as layers make sense to me, but I want to know how this would land before making a decision. I can think of a few ways to do this poorly, and few to do it well.
+
+The Window, keys and presses
+  1. This is kind of personal preference as long as it works the same either way. I personally think panes should get first dibs, with an elevating consumption policy. If a press goes to a pane and isn't consumed, then it goes up to workshop. Or panes could maybe opt in/out to workshop key defaults, which lets' their own key listener fall back to workshops at the end if it's not consumed. This also let's panes override workshops globals, for things like the neovim setup, rather than workshop getting first dips, and panes having to work around them.
+  2. One shape makes sense in theory, but a hotkey that does the same action as a button is not the same as clicking that button. A pane may need to know the click regardless if they want to do some kind of sparkles where you click. So the real shape would be a single shape that also carries the source inside of it, which includes the mouse position if it's a click, or just the information it was a keypress with no additional information. Can maybe also let this carry if it was a spoofed click by an agent, which could be cool for some visualizations of agent actions.
+  3. Your lean, leave it. Someone could likely build out a migration pattern already, albeit likely very specific to a case. We shouldn't need to build out a generic one.
+  4. If by "key" you mean an id representing a button that can be pressed, I agree. If you mean a "hotkey" then no, we shouldn't force every clickable to have a hotkey. If it's the former, I would also be curious as to why we only can click buttons that have messages attached, as that sounds like it'd be hard to detect specifically. If it's the latter, I would almost prefer if it was just an agent tool that asked for an action and resolved how to do that action, be it a press or a key if that is the issue. More information required before a final decision.
+  5. I do not really understand this one.
+  6. I also do not understand this one.
+  7. See answer 1. I think the pane itself should own the hotkey, including the global row it registers, as the same key, and have the registered action globally open it or select it if open, but have it's internal handling of the key close itself.
+  8. Unsure how this plays out, given other decisions so far.
+
+Layout and Docks
+  1. Docks cover the room. Anchors will be how panes react dynamically. Moving panes that are not authored to be moved yet is a recipe for undefined/unexpected behavior. Only authors can determine what really should move. A dock could simply be a popup someone needs for a moment, but now their work is getting rearranged, and maybe altering where they intended to drag and drop to from that docked pane.
+  2. Need more specifics to answer this one.
+  3. For an example, if a pane wants to dock on the right edge, the entire right edge bar would be preserved, so the height of the pane would not change when docked or opened. The dock area would take up space as if it was a scrollbar regardless if it was opened or closed, and have a vertically centered arrow pointing left when closed, or right when opened.
+
+Settings and Themes
+  1. This is not a workshop configuration, this is an input configuration. I am a little worried workshop is becoming sticky to Zengine. I was tempted to migrate workshop into it's own repo, and keep Zengine as an inert default package set to ensure this split is maintained consistently, and this makes me revisit that thought.
+  2. Your lean for the researches two. A reset and reapply of the new merged set is the cleanest way to ensure consistency without complexity.
+  3. Locked setting shsould be treated as a seperate "final layer" in the merge process. For failures, the same thing I was mentioning in Colors, where this could likely be an option in each theme that if it fails, it doesn't apply at all, or if it fails, it just skips it. Values that are the wrong type should probably fail loud regardless, as that's a technical problem we can be assured of, rather than simply an authors preference.
+  4. Think we should support all of these options. A complete reset including all loose options or only setting what the theme would apply on top of existing, which would leave anything it doens't know about unchanged.
+  5. Multiple. Uncommon need, but a need none-the-less.
