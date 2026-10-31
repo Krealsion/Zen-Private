@@ -1618,7 +1618,7 @@ walked on a weaver's desk against a prototype guide mark. With #181's switch to 
 ask, a guest asks a pane's office for its manual directly, needing no `capture` door since a manual
 is public, and the document declarations leave its list of host keepings. Its view probe's canary
 read the founder's SSH private key through `/mnt/c` into a log deleted within a minute (none of it
-found since); rotating it is the founder's call.
+found since); rotating it was the founder's call: he rotated the active key (2026-10-30).
 
 The founder's answers (2026-10-10): the agent the desk supports is one completely contained command
 structure, with access to great power when granted, and containing today's harness (Claude Code) is

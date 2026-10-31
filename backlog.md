@@ -67,15 +67,16 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   reported and reviewed 2026-10-30 ([report](../reportbacks/wasm-tier-s4-RB.md)): Loom #78 green,
   12 of 12, merges first; Zengine #594 green but its boxed job, refused at configure until #78 is
   in. #78 merged (`619d102f`); #594's rerun green on every job, the boxed one included, its body
-  put right; reviewed 2026-10-30, merge-ready. S4b, the Builder's second target, proposed as a
-  stage of its own (section 5).
+  put right; reviewed 2026-10-30; merged (`8559e428`). S4b, the Builder's second target: the
+  founder took it into the Builder (2026-10-30), a recipe making its pane native, boxed or both
+  through Workshop ([prompt](../prompts/unrun/wasm-tier-s4b-builder.md), warm).
 - **Docs lane: Loom's README as the front door.** The journey page (#79, +1044 lines) closed by the
   founder (2026-10-30): docs get smaller and clearer, never longer. First the eight Loom entries of
-  the docs-against-code list in one small pull request, Loom #80, green, reviewed 2026-10-30,
-  merge-ready (loom-25's four non-meanings restored to the header), so the rewrite reads no
-  contradiction. Then `Mail::reply` falling back to the stamped sender when no reply address was
-  given, ordinary grant-checked speech still (the founder, 2026-10-30;
-  [prompt](../prompts/unrun/mail-reply-fallback.md), hot, after #80). Then Loom's README rewritten
+  the docs-against-code list in one small pull request, Loom #80, merged (`a2fe7e2`), so the
+  rewrite reads no contradiction. Then `Mail::reply` falling back to the stamped sender when no
+  reply address was given, ordinary grant-checked speech still (the founder, 2026-10-30;
+  [prompt](../prompts/mail-reply-fallback.md)): Loom #81, reported green at `1429803c`, its
+  review next. Then Loom's README rewritten
   below the preface: a punchy, honest summary; the ideas, ordered for a reader, each section able to
   stand alone as bullets; install, build, the console, a first weave, loading code, sending a
   message; deep-dive links (loading code, a message's path, the console's commands) folded from
@@ -123,8 +124,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    The faces round (`bd184417`) green on every job, reviewed 2026-10-30, merge-ready:
    `component/` measured in characters, each look a face in `graphics/elements/`, a row carrying
    its box. The founder (2026-10-30): the Terminal's own line plain in cells (`> ls -l`), its
-   outline kept in a window; continued in #593
-   ([prompt](../prompts/unrun/element-set-text-terminal-line.md), hot).
+   outline kept in a window. #593 merged (`13cc5674`, squashed); the Terminal's line came as
+   #595, one commit on `main` ([prompt](../prompts/element-set-text-terminal-line.md)), its report
+   due.
 3. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
    as a whole, not the lane's three notes one by one. What it carries: the kinds a row each below
    Grid (his note of 2026-10-27); the width that responds, which he liked (#487 not merged);
@@ -132,7 +134,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    after it, Workshop's two pictures of the builder taken again (`quit-box.png`,
    `pane-manager-new-view-builder.png`), and its `<action> complete` (WL-NOTE-06), a leftover the
    issue lane left to it. Then a pass over the smaller panes on the new pieces (the founder,
-   2026-10-29), in a few phases side by side.
+   2026-10-29), in a few phases side by side. The three picture panes' boxes (view host, View
+   Builder, Flow) go onto `text_box_face` with this makeover and Flow's next round, not alone
+   (the founder, 2026-10-30). The Builder earns a makeover of its own after this one (the
+   founder, 2026-10-30).
 4. **The operator suite** (BL-WORK-48), which Flow's calculator runs on. Today: five Int
    primitives (`operator/primitives.hpp`). To add:
    - Math: subtract, multiply, divide and remainder (both refusing 0), negate, abs, min; square
@@ -306,16 +311,18 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
-- `v0.1.0`'s fixed colours: take them, or send them to the settings phase.
+- `v0.1.0`'s fixed colours: take them, or send them to the settings phase. The founder
+  (2026-10-30): colours perhaps settled before the rest of the makeovers; first in the wave.
 - `authority pending`: a grammar change, only if he wants one.
 - The Demo pane's development recipe: Vision's lean is none.
 - Show me opening over Start here, covering its words: Vision's read is to leave it.
 - The graphics research's round 2, decisions 2 (a group is a layer) and 10 (its eleven seams
   filed as issues).
 - Where the desk's 3a and 3b (BL-WORK-38) and fast forward (BL-WORK-43) fall in the direction.
-- The reports' 126 open decisions, to bring in small batches
-  ([report](../reportbacks/reports-open-items-RB.md)); none brought yet.
-- Whether to rotate the SSH key a test canary read in BL-WORK-38's stage 1.
+- The open decisions in one wave (the founder, 2026-10-30), not small batches: the reports' 126
+  ([report](../reportbacks/reports-open-items-RB.md)) refreshed against `main`, with this
+  section's, grouped by subject, colours first; those unwise to answer yet kept at each group's
+  end under their own header. Vision assembles the sheet.
 - Where the local lane's agents run (BL-LANE-01).
 - The accordion research's eight decisions: Vision takes seven of its recommendations (docks
   taking room, the two row words, the bar's length one setting, the piece in `component/`, Info a
@@ -364,13 +371,17 @@ Each starts on the founder's word; "wake" is what must be true first.
   step: yes, its whole scope talked through with the founder first.
 - Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
-- The WASM tier's S4b, the Builder's second target as a stage of its own (Vision: yes, next in
-  the lane, before S5).
-- The element set's text stage ([report](../reportbacks/element-set-text-RB.md)): the
-  window-looks record's five (Vision: yes to the set, the record
-  beside the node, the pump beat and steady as an ask; no to `InjectedEvent::steady`, the act
-  tool asking steady as a picture does); the picture panes' boxes with their makeovers (Vision:
-  agreed).
+- The window-looks record ([record](../reportbacks/element-set-text/window-looks.md)). The
+  founder (2026-10-30): yes to (b) a look as a record beside the node, (c) the pump beat as the
+  clock, (d) steady as an ask of the window; (e) no flag on the input: the act tool asks steady
+  for its run and lets go after, holds counted, each ending with its holder. (a) reopened: ease
+  modifies a look and is not one; which animations, and an operator taking a delta time and
+  itself. Vision's model (2026-10-30), for his word: a look is when (always, hovered, held,
+  changed, appearing, leaving), what (shown, opacity, colour, offset, scale, rotation, reveal,
+  face) and how (duration, delay, curve, repeats, played back on release); operators a closed
+  set the window knows, a weave's own only boxed and later; a look keyed on the window's hand
+  whatever the weave listens for, changing paint and never what a press hits. Then the record
+  rewritten, its first stage the caret, the bar, hovered and held.
 
 ## 6. Filed as issues
 
