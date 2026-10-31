@@ -244,12 +244,11 @@ Each starts on the founder's word; "wake" is what must be true first.
 - **Agents and weavers on one desk** (BL-WORK-38). Left: #139, stages 3a and 3b, `host`, `ask`,
   `check` and `probe`, then 4a to 7; the dense reading (a grid rectangle row by row) not yet
   placed. Until the agent desk, an agent's press still moves the keys and the selection.
-- **Untrusted code, the WASM tier** (stage 1 merged, Loom #72). Left: S2 to S5 (a box's own
-  doors, its lines on standard error, `containment_note` on boxes) and ASan beside Wasmtime. An
-  agent without a shell waits on this and on tools by reach. S2 and S3's prompt is written
-  ([prompt](../prompts/unrun/wasm-tier-s2-s3.md), warm, 2026-10-29): two pull requests in Loom,
-  for the first lane that frees; D7's words, the research's, for the founder to confirm. ASan
-  beside Wasmtime ran clean in S1's hosted run.
+- **Untrusted code, the WASM tier** (S1 to S4 merged: Loom #72, #74, #75, #78; Zengine #594).
+  Left: S4b, the Builder's second target (section 1), then S5, its doors as consumers ask (a
+  clock, standard output as messages, a module cache). D7's statement is in Loom's
+  `capabilities.md` as the research wrote it (#74). An agent without a shell waits on this and on
+  tools by reach.
 - **The MCP adapter's live check** through the app, and the weaver case on package 0.1.3. Wake: a
   lane left empty.
 - **The ELH audit's findings** (a cold agent for the founder, 2026-10-29,
@@ -319,10 +318,14 @@ Each starts on the founder's word; "wake" is what must be true first.
 - The graphics research's round 2, decisions 2 (a group is a layer) and 10 (its eleven seams
   filed as issues).
 - Where the desk's 3a and 3b (BL-WORK-38) and fast forward (BL-WORK-43) fall in the direction.
-- The open decisions in one wave (the founder, 2026-10-30), not small batches: the reports' 126
-  ([report](../reportbacks/reports-open-items-RB.md)) refreshed against `main`, with this
-  section's, grouped by subject, colours first; those unwise to answer yet kept at each group's
-  end under their own header. Vision assembles the sheet.
+- The open decisions in one wave (the founder, 2026-10-30), not small batches: every decision
+  asked since 2026-10-15 swept against `main` (Zengine `13cc5674`, Loom `a2fe7e2`), with this
+  section's, on one [sheet](https://claude.ai/artifact/XQRS3aJeBCbcR9KGDZ4no2) (2026-10-30): 64
+  to answer in 12 groups, colours first; 15 small calls Vision takes unless he says otherwise;
+  15 not wise to answer yet, each with its reason, at its group's end. His answers save to the
+  sheet; Vision reads them back and folds them in here. The sweep's record:
+  [drafts/decision-wave-2026-10-30.md](drafts/decision-wave-2026-10-30.md). The items below that
+  the sheet carries are answered there.
 - Where the local lane's agents run (BL-LANE-01).
 - The accordion research's eight decisions: Vision takes seven of its recommendations (docks
   taking room, the two row words, the bar's length one setting, the piece in `component/`, Info a
@@ -342,11 +345,10 @@ Each starts on the founder's word; "wake" is what must be true first.
   founder (2026-10-29): the window-run element retired whole (section 3); then "I love what we
   have so far", read by Vision as yes to these leans, to confirm.
 
-- #568's three decisions ([report](../reportbacks/accordion-stage-2-RB.md)): no door edits
+- #568's first decision ([report](../reportbacks/accordion-stage-2-RB.md)): no door edits
   `DesktopState` or `InfoPaneState` from outside today (Loom's poke writes scalars, its reset
   wants every field exposed), Vision's lean the intended reach for now, the door a later Loom
-  stage; the three nested-value pictures with no recipe to the kit's recipes, yes; the three
-  already stale and retaken in #568 kept there, yes.
+  stage (on the sheet). Its other two settled as #568 merged.
 - The issues' decisions (the founder, 2026-10-29), to be written on each issue and labelled
   `ready` by the next issue lane: #492 every launch key, `Ctrl+p` among them, selects its surface
   when it is open and not selected and closes it when selected; #493 a press outside ends the
