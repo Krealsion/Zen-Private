@@ -25,6 +25,12 @@ item below up to that day.
 Four lanes run at once on three build slots: two work slots at 8 jobs, one final slot at 4
 (constitution section f). WSL has 48 GB.
 
+- **Relicense to AGPL-3.0-only** (the founder, 2026-11-01), before anything else: every PR merged,
+  the old repositories renamed and private, new empty ones under the old names; both histories
+  rewritten so no commit says MPL, plain AGPL until a creations exception is drafted, no README
+  note; Ceecee stops before any push ([prompt](../prompts/unrun/relicense-agpl-history.md), warm).
+  Then the push, CI, the open issues carried over, and the founder's settings on the new
+  repositories.
 - **Main lane: Flow made over**, pushed as #559 at the founder's word (2026-10-29,
   [report](../reportbacks/flow-live-requests-RB.md)): batches A to E live in his Workshop, the
   Windows build mended after the first hosted run, three guide pictures taken from recipes (the
