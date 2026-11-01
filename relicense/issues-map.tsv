@@ -1,0 +1,104 @@
+# old issue (Krealsion/<Repo>-history#N)	new issue (Krealsion/<Repo>#M)	title
+Loom-history#35	Loom#1	Choose a Windows path-encoding contract for loom-host sessions
+Loom-history#36	Loom#2	Repair public-header ownership when a real package or platform boundary exposes it
+Loom-history#37	Loom#3	Support explicitly owned shape names when independent vocabularies must coexist
+Loom-history#73	Loom#4	Authority cannot be limited to a session, and a permanent grant cannot be revoked
+Zengine-history#117	Zengine#1	Choose a safe display policy for UTF-8 paths at clipped text boundaries
+Zengine-history#118	Zengine#2	Choose and add a required Windows lane beneath non-ASCII directories
+Zengine-history#119	Zengine#3	Establish a dependable release identity and compatibility promise before release adoption
+Zengine-history#120	Zengine#4	Measure the workload behind the first material performance promise
+Zengine-history#121	Zengine#5	Reassess the unused authored UI API at the first release boundary
+Zengine-history#122	Zengine#6	Align frame_in with resolution when Scene gains a product consumer
+Zengine-history#123	Zengine#7	Reconcile Builder field-click evidence and make the native witness judge its result
+Zengine-history#124	Zengine#8	Keep the simple external pane a usable learning example
+Zengine-history#126	Zengine#9	Keep pane controls reachable when the room is small
+Zengine-history#127	Zengine#10	Zoom View Builder designs without separating text from their boxes
+Zengine-history#128	Zengine#11	Retrieve an Inventory entry without walking its folders
+Zengine-history#129	Zengine#12	Retire unused Inventory view and hotkey configuration safely
+Zengine-history#130	Zengine#13	Choose the next Inventory hotkey context beyond on and off
+Zengine-history#131	Zengine#14	Delete an Inventory folder together with its contents
+Zengine-history#132	Zengine#15	Navigate Inventory folders with Back and Forward
+Zengine-history#133	Zengine#16	Select several Inventory entries together
+Zengine-history#134	Zengine#17	Keep locked Inventory entries in place when sorting
+Zengine-history#135	Zengine#18	Give Inventory entries user-managed tags
+Zengine-history#136	Zengine#19	Run a saved command without assigning it a hotkey
+Zengine-history#137	Zengine#20	Run an authored sequence of Terminal commands with explicit outcomes
+Zengine-history#138	Zengine#21	Prove parallel work detects publication conflicts instead of overwriting
+Zengine-history#139	Zengine#22	Cancel a held agent gesture and control input for a bounded action
+Zengine-history#140	Zengine#23	Open a native Flow operator’s source and registration from Flow
+Zengine-history#141	Zengine#24	Reuse bounded row views when a long list scrolls
+Zengine-history#142	Zengine#25	Select the next Flow milestone for authoring, reuse or live understanding
+Zengine-history#143	Zengine#26	Fit canvas text with a legible size floor
+Zengine-history#144	Zengine#27	Let maker participants express addressed requests, results and conditional speech when a story needs them
+Zengine-history#145	Zengine#28	Manage a linked GitHub folder from Workshop using device sign-in and OS-held credentials
+Zengine-history#146	Zengine#29	Use several Workshop windows with pane dragging and a tab row in each
+Zengine-history#147	Zengine#30	Run a Python demo script as a granted Loom participant through the ABI
+Zengine-history#148	Zengine#31	Undo real effects through their owners before adding demo time travel
+Zengine-history#149	Zengine#32	Run a Workshop-made app independently and join it for live editing
+Zengine-history#419	Zengine#33	Profile the Info and Project entries that dominate sanitizer verification
+Zengine-history#478	Zengine#34	The View Builder's kinds share one row above Size and Grid, and a wider pane widens and rearranges its columns before it widens the canvas
+Zengine-history#492	Zengine#35	The key that opens a surface does not close it: only the Pane Manager's key toggles
+Zengine-history#493	Zengine#36	A press outside the one pane being arranged reminds which pane it is, and does not end the arranging
+Zengine-history#494	Zengine#37	A pane's place is kept only for the run, and hiding a pane takes it off the layout
+Zengine-history#495	Zengine#38	Two rows at the top of the room are reserved whatever stands on them, and the OS window keeps its own title bar
+Zengine-history#496	Zengine#39	A notice is only a row in the Notices pane: it never comes to the weaver, and it names no subject
+Zengine-history#497	Zengine#40	No key or press returns to the layout the weaver came from, with the pane that held the keys
+Zengine-history#498	Zengine#41	Whether a carry crosses into another layout is not said, and no case carries one there
+Zengine-history#499	Zengine#42	Navigation gestures are untried: a middle-button drag to move around, a second button during a drag to change layout
+Zengine-history#500	Zengine#43	Loaded's right press opens only Workshop's pane menu: no Inspect, Reload or Remove for the weave pressed
+Zengine-history#501	Zengine#44	Loaded names a weave and its office, and nothing leads from it to its source, recipe, owner or messages
+Zengine-history#502	Zengine#45	Choosing a command in Compose shows nothing of its manual
+Zengine-history#503	Zengine#46	Compose's catalog is one list: no message carries a tag to group or filter it by
+Zengine-history#504	Zengine#47	Loaded, Project and Compose are three panes for one journey, and Project's rows have no menu
+Zengine-history#505	Zengine#48	Info's rows cannot be read as name, type and value, and a value's type is not named or explained
+Zengine-history#506	Zengine#49	Info cannot follow a value to its owner: who started it, what it sends, what it hears
+Zengine-history#507	Zengine#50	Info's value view says some of its states and not others: an entry gone and a schema changed are not shown
+Zengine-history#508	Zengine#51	A right press offers nothing to open what was pressed in Info
+Zengine-history#509	Zengine#52	Main Inventory is a list of rows: no grid of slots that grows with the room
+Zengine-history#510	Zengine#53	Inventory sorts by type but cannot be filtered by it
+Zengine-history#511	Zengine#54	An Inventory entry's full value is seen only by opening it in an Info view
+Zengine-history#512	Zengine#55	A value dropped into Inventory always asks for a name, where its schema's name would do
+Zengine-history#513	Zengine#56	The demos are reset and walked from a script, but not listed, edited or replayed at a chosen speed from Workshop
+Zengine-history#514	Zengine#57	Workshop shows no message traffic, expensive work or waiting
+Zengine-history#515	Zengine#58	The Terminal does not say how long an ask took to be answered
+Zengine-history#516	Zengine#59	A row cut at a pane's foot counts as shown, so the pane does not scroll to show it whole
+Zengine-history#517	Zengine#60	Workshop's window has no full screen
+Zengine-history#518	Zengine#61	A weaver cannot make a schema in Workshop
+Zengine-history#519	Zengine#62	No tool fills a schema's fields with test data to keep and reuse
+Zengine-history#520	Zengine#63	Two values whose types do not fit, dragged together, are refused, where a conversion could be offered
+Zengine-history#522	Zengine#64	Existing code cannot be marked as holding operators
+Zengine-history#523	Zengine#65	The operator library holds five Int primitives: no algorithms or data structures
+Zengine-history#524	Zengine#66	There is no basic colour type a weaver can use
+Zengine-history#525	Zengine#67	No macro: a sequence of the official steps a weaver runs as one
+Zengine-history#526	Zengine#68	Edit code says "no build recipe produces ..." for every pane Zengine ships
+Zengine-history#527	Zengine#69	No demo shows Workshop improving itself: a pane edited and reloaded in place
+Zengine-history#528	Zengine#70	The agents' tool packages are not read for code they duplicate
+Zengine-history#529	Zengine#71	An agent cannot set what it expects to hear before it sends
+Zengine-history#530	Zengine#72	Workshop has no place for challenges: Start here is a guide, not Challenge 1
+Zengine-history#531	Zengine#73	No audit says how often a workflow cannot be done by the mouse, or how far it travels
+Zengine-history#532	Zengine#74	`ZENGINE_SDL_SKIN` is still refused by name, kept by a CTest entry and a fixture's `-U`
+Zengine-history#533	Zengine#75	34 `using namespace` lines and 530 namespace aliases hide where a name lives
+Zengine-history#534	Zengine#76	The terminal window draws its frames in lines, where box-drawing pipes are asked
+Zengine-history#535	Zengine#77	`quarry/`, the earlier engine kept as reading material, is still in the repository
+Zengine-history#536	Zengine#78	A guest row with `"admit": "ask"` parks its connection for good: nothing decides it
+Zengine-history#537	Zengine#79	`tools/fill_laws.sh` rewraps three decision records on `main`, which the law-register check accepts either way
+Zengine-history#538	Zengine#80	Seven graphics shapes and one Workshop shape are still named `Surface*`
+Zengine-history#539	Zengine#81	The window finds each said element record by a scan of every record
+Zengine-history#540	Zengine#82	The held-row gate is cased for the Terminal and Attention alone, and a toggle during a close is not cased
+Zengine-history#541	Zengine#83	A pane's close is said by two composers
+Zengine-history#542	Zengine#84	`agents/decisions/three-places.md` names `close_pane`, which no code holds
+Zengine-history#543	Zengine#85	Whether a pane may edit the notices record's `keep` is not said
+Zengine-history#544	Zengine#86	A held drag in the desk's arrangement says `moved <pane>: ...` at each motion
+Zengine-history#545	Zengine#87	`tests/workshop_support.hpp` is included by 36 of the 45 compiles over 2 GB
+Zengine-history#546	Zengine#88	The window keeps an element's state: `ElementPut`, `ElementChange` and the element seam, for the snake's board alone
+Zengine-history#547	Zengine#89	A window's release and text are sent to owners that take neither
+Zengine-history#548	Zengine#90	A refusal an owner says in its answer carries no press, so `act` cannot hear it
+Zengine-history#549	Zengine#91	The palette's start line is cut at its right edge
+Zengine-history#552	Zengine#92	The Hotkeys pane's second guard on the keymap file's path says nothing of the host behaviour it guards against
+Zengine-history#572	Zengine#93	`desk/resolve` cannot follow a cause to the message it leads to, and its answer carries the rules for filing an issue
+Zengine-history#580	Zengine#94	A pane's refusal is said only in its painted row, so a reading gets it cut at the pane's width
+Zengine-history#583	Zengine#95	A setup's first task and a pane's purpose are not answered by message, so the desk reader says them absent
+Zengine-history#584	Zengine#96	No tool returns Inventory's entries: their labels, folders, schemas and values
+Zengine-history#587	Zengine#97	Three setups carry no walk, so their first task cannot be replayed
+Zengine-history#588	Zengine#98	The agents' catalog carries fixture tools, the demo service and test-only inputs beside the tools an agent uses
+Zengine-history#598	Zengine#99	The weekly mutants: what survived or no longer applies
