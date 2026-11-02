@@ -28,18 +28,21 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 (constitution section f). WSL has 48 GB.
 
 - **Relicense to AGPL-3.0-only** (the founder, 2026-11-01), before anything else. Done but its
-  clean-up: both histories rewritten so no commit says MPL (plain AGPL until a creations
-  exception is drafted, no README note), pushed to the new public repositories (Loom `98ea61c6`,
-  Zengine `5a07523a`) and green; settings, labels and the 103 open issues carried; the 188 old
-  clones re-pointed to `-history` ([report](../reportbacks/relicense-agpl-history-RB.md), "The
-  push", reviewed 2026-11-01). The founder (2026-11-01): the old clones' work carried, then most
-  removed and the rest on the new history alone, each with a pre-push guard; the bundles kept;
-  private vulnerability reporting on; `zen-night-lab` and `zen-arena` private; Zengine #100
-  fixed first, its `decide` reading the series from `main`'s tip but packaging an older commit
-  ([prompt](../prompts/unrun/relicense-agpl-cleanup.md), hot). Then he merges #100 and turns the
-  package on; once `v0.2.0` is out, the MCP server's 0.1.2 package swapped for it. Still owed:
-  the creations exception, drafted with counsel. Asked, not decided: a CLA before outside
-  contributions; the trademark.
+  last pass: both histories rewritten so no commit says MPL (plain AGPL until a creations
+  exception is drafted, no README note), pushed to the new public repositories and green;
+  settings, labels and the 103 open issues carried
+  ([report](../reportbacks/relicense-agpl-history-RB.md), "The push", reviewed 2026-11-01). The
+  clean-up (reviewed 2026-11-02, the report's "The clean-up"): 358 old copies found by content,
+  their work carried (the founder's into his checkouts, the rest the kit primary's `carried/*`),
+  342 removed, the six that stay on the new history alone with a pre-push guard; the bundles
+  kept; private vulnerability reporting on; `zen-night-lab` and `zen-arena` private; Zengine #100
+  numbering a package from the commit it packages, green, for his merge. The founder
+  (2026-11-02): the 12 copies left, the Zen workspace's old commits (its HEAD reflog of
+  2026-10-07) and the leftovers cleared ([prompt](../prompts/unrun/relicense-agpl-last-pass.md),
+  hot). His: merge #100, then `gh workflow enable package.yml -R Krealsion/Zengine`; once
+  `v0.2.0` is out, the MCP server's 0.1.2 package swapped for it. Pushed branches never merged
+  stay in `-history`, carried on request. Still owed: the creations exception, drafted with
+  counsel. Asked, not decided: a CLA before outside contributions; the trademark.
 - **Main lane: Flow made over**, pushed as #559 at the founder's word (2026-10-29,
   [report](../reportbacks/flow-live-requests-RB.md)): batches A to E live in his Workshop, the
   Windows build mended after the first hosted run, three guide pictures taken from recipes (the
