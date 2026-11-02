@@ -28,21 +28,19 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 (constitution section f). WSL has 48 GB.
 
 - **Relicense to AGPL-3.0-only** (the founder, 2026-11-01), before anything else. Done but its
-  last pass: both histories rewritten so no commit says MPL (plain AGPL until a creations
+  loose ends: both histories rewritten so no commit says MPL (plain AGPL until a creations
   exception is drafted, no README note), pushed to the new public repositories and green;
   settings, labels and the 103 open issues carried
-  ([report](../reportbacks/relicense-agpl-history-RB.md), "The push", reviewed 2026-11-01). The
-  clean-up (reviewed 2026-11-02, the report's "The clean-up"): 358 old copies found by content,
-  their work carried (the founder's into his checkouts, the rest the kit primary's `carried/*`),
-  342 removed, the six that stay on the new history alone with a pre-push guard; the bundles
-  kept; private vulnerability reporting on; `zen-night-lab` and `zen-arena` private; Zengine #100
-  numbering a package from the commit it packages, green, for his merge. The founder
-  (2026-11-02): the 12 copies left, the Zen workspace's old commits (its HEAD reflog of
-  2026-10-07) and the leftovers cleared ([prompt](../prompts/unrun/relicense-agpl-last-pass.md),
-  hot). His: merge #100, then `gh workflow enable package.yml -R Krealsion/Zengine`; once
-  `v0.2.0` is out, the MCP server's 0.1.2 package swapped for it. Pushed branches never merged
-  stay in `-history`, carried on request. Still owed: the creations exception, drafted with
-  counsel. Asked, not decided: a CLA before outside contributions; the trademark.
+  ([report](../reportbacks/relicense-agpl-history-RB.md), reviewed 2026-11-01 and 2026-11-02).
+  No copy of the old history is left on the machine but the bundles; the six repositories that
+  stay carry a pre-push guard; private vulnerability reporting on; `zen-night-lab` and
+  `zen-arena` private; #100 merged and the package on (the founder, 2026-11-02). The carried work
+  read against `main` ([sheet](drafts/loose-changes-2026-11-02.md)): the founder drops 99 and
+  keeps #487's branch as the View Builder's quarry; the toolchains get a home of their own; the
+  kit says what is left behind ([prompt](../prompts/unrun/relicense-agpl-loose-ends.md), hot).
+  Once `v0.2.0` is out, the MCP server's 0.1.2 package swapped for it. Pushed branches never
+  merged stay in `-history`, carried on request. Still owed: the creations exception, drafted
+  with counsel. Asked, not decided: a CLA before outside contributions; the trademark.
 - **Main lane: Flow made over**, pushed as #559 at the founder's word (2026-10-29,
   [report](../reportbacks/flow-live-requests-RB.md)): batches A to E live in his Workshop, the
   Windows build mended after the first hosted run, three guide pictures taken from recipes (the
@@ -148,7 +146,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    due.
 3. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
    as a whole, not the lane's three notes one by one. What it carries: the kinds a row each below
-   Grid (his note of 2026-10-27); the width that responds, which he liked (#487 not merged);
+   Grid (his note of 2026-10-27); the width that responds, which he liked (#487, never merged,
+   its branch the makeover's quarry: the kit primary's `carried/batch/lane-view-builder`);
    Discard asking a second press, as New and Open do; the census's element set as its kinds; and
    after it, Workshop's two pictures of the builder taken again (`quit-box.png`,
    `pane-manager-new-view-builder.png`), and its `<action> complete` (WL-NOTE-06), a leftover the
@@ -359,6 +358,11 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
+- The composer's bare values and optional fields (Loom #31's report, 2026-10-08, not asked since):
+  a bare value fills the first field in declaration order, optional or not, so `7` for
+  `{limit?: Int, n: Int}` fills `limit` and leaves `n` open, and the reply does not say where `7`
+  went. Vision's lean: a bare value fills the first required field, an optional one is filled by
+  name, and the reply says where each value went.
 - `authority pending`: a grammar change, only if he wants one.
 - The Demo pane's development recipe: Vision's lean is none.
 - Show me opening over Start here, covering its words: Vision's read is to leave it.
