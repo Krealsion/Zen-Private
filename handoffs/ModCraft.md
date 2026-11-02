@@ -125,3 +125,8 @@ The plant should not wait for a universal inspector. The inspector should not wa
 **First proof:** grow something surprising, understand one reason it grew that way, preserve or change the working, and let someone else enjoy it.
 
 **Full picture:** a world of games people can understand, reshape, and share—without requiring everyone to play the same game or accept the same rules.
+
+
+One map, many games, dense generation
+
+Minecraft generation, except no chunk memory and different terrtain on return except for known locations. Terrain will have plants and fauna. Terrtain will be like biomes, except working on more analog scales than binary ones. Terrtains can mix, or change with severe weather changes. World map is based on this, and any traveral between locations uses the random generation
