@@ -19,18 +19,27 @@ item below up to that day.
   is never a public issue: it goes into a draft private security advisory.
 - An issue's pull request merges first, and an open phase branch rebases onto it.
 - A prompt not yet run waits in `prompts/unrun/` (constitution section d).
+- Issue and pull request numbers written before 2026-11-01 are the `-history` repositories'; an
+  open issue was carried to a new number ([map](relicense/issues-map.tsv)).
 
 ## 1. Now: the wave
 
 Four lanes run at once on three build slots: two work slots at 8 jobs, one final slot at 4
 (constitution section f). WSL has 48 GB.
 
-- **Relicense to AGPL-3.0-only** (the founder, 2026-11-01), before anything else: every PR merged,
-  the old repositories renamed and private, new empty ones under the old names; both histories
-  rewritten so no commit says MPL, plain AGPL until a creations exception is drafted, no README
-  note; Ceecee stops before any push ([prompt](../prompts/unrun/relicense-agpl-history.md), warm).
-  Then the push, CI, the open issues carried over, and the founder's settings on the new
-  repositories.
+- **Relicense to AGPL-3.0-only** (the founder, 2026-11-01), before anything else. Done but its
+  clean-up: both histories rewritten so no commit says MPL (plain AGPL until a creations
+  exception is drafted, no README note), pushed to the new public repositories (Loom `98ea61c6`,
+  Zengine `5a07523a`) and green; settings, labels and the 103 open issues carried; the 188 old
+  clones re-pointed to `-history` ([report](../reportbacks/relicense-agpl-history-RB.md), "The
+  push", reviewed 2026-11-01). The founder (2026-11-01): the old clones' work carried, then most
+  removed and the rest on the new history alone, each with a pre-push guard; the bundles kept;
+  private vulnerability reporting on; `zen-night-lab` and `zen-arena` private; Zengine #100
+  fixed first, its `decide` reading the series from `main`'s tip but packaging an older commit
+  ([prompt](../prompts/unrun/relicense-agpl-cleanup.md), hot). Then he merges #100 and turns the
+  package on; once `v0.2.0` is out, the MCP server's 0.1.2 package swapped for it. Still owed:
+  the creations exception, drafted with counsel. Asked, not decided: a CLA before outside
+  contributions; the trademark.
 - **Main lane: Flow made over**, pushed as #559 at the founder's word (2026-10-29,
   [report](../reportbacks/flow-live-requests-RB.md)): batches A to E live in his Workshop, the
   Windows build mended after the first hosted run, three guide pictures taken from recipes (the

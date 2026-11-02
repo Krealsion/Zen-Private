@@ -200,7 +200,9 @@ under the same id.
   the store (each kind's is a little under its largest: 3 against 3.04 GB, 4 against 4.08); from
   the mutants rounds a survivor reader, a probe mode for the runner, lists read without a Windows
   `\r`; from the decisions round (2026-10-30) `primary.sh second` fetching GitHub (its copy came up
-  on a stale `origin/main` and the primary's SSH remote), a manifest editor, a step-comment batch.
+  on a stale `origin/main` and the primary's SSH remote), a manifest editor, a step-comment batch;
+  from the relicense push (2026-11-01) `primary.sh setup` and `second` cloning over SSH alone (an
+  HTTPS fallback, or the remote read from the primary's clone).
   Wakes: the next pass on the process.
 - **P-BUILD-11** A cancelled walk's input session races the next run's ask. Wakes: a job failing
   on it, or a change to the tool's session handling.
