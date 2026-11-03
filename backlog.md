@@ -188,9 +188,11 @@ Each starts on the founder's word; "wake" is what must be true first.
     founder, 2026-11-02); of two triggers, the one fired last wins while it holds.
   - Text: weight, size and every character past ASCII drawn in the window; `?` only where a
     terminal can't show one.
-  - The element set: button (once `control`), field, list, choice, section, text area, hint
-    (2026-11-02). Search is the list's filter: filters and a sort chained in order, by the list's
-    type and parameters. Tabs and radio buttons are one choice, `one` or `many`, its look a face
+  - The element set: button (once `control`), field, list, choice, collapsible, text area, hint
+    (2026-11-02; `collapsible` the founder's, 2026-11-03: one fold, a group of them an
+    accordion, so the code's `Accordion` and `IndependentAccordions` are renamed to match).
+    Search is the list's filter: filters and a sort chained in order, by the list's type and
+    parameters. Tabs and radio buttons are one choice, `one` or `many`, its look a face
     (`tab_strip`'s fitting the tab face's); its name asked. Groups are a pane's layers, painted
     and hit in tree order; a move puts a node before or after a sibling, a raise flag lifts one
     until lowered without touching the order, never across groups (Vision's call, the founder
