@@ -1,8 +1,10 @@
 - **WSL**: Ubuntu 22.04, GCC 11.4.0, cmake 3.22 (the floor a CMake feature must clear; CLion's
   bundled cmake is 4.0). Ninja and ccache are not installed system-wide; they sit under
   `~/opt/zoom/bin-ninja` and `~/opt/zoom/bin-ccache` (the ccache wrapper needs `LD_LIBRARY_PATH`).
-  `sudo` needs a password. WSL sees 48 GB of the host's 63 (`.wslconfig`, 2026-10-27: 30, then
-  44; `MemTotal` reads 47 GB).
+  `~/opt/` is WSL's home for such tools: the local lane's Pi suite runs on Node, a standalone
+  CPython 3.12 and Pi in `~/opt/lane-tests/`, made there by `local-lane/lane/tests/setup-pi.sh`
+  (2026-11-03). `sudo` needs a password. WSL sees 48 GB of the host's 63 (`.wslconfig`,
+  2026-10-27: 30, then 44; `MemTotal` reads 47 GB).
 - **Night Lab's distribution, `Zen-Night-Lab`** (the wall, built and checked 2026-10-16): Ubuntu
   24.04 under WSL 2.6.2, with users of its own: `labagent`, the default, with no sudo and no
   privileged group, and `labadmin`, with sudo, the founder's, its password never in the lab.
@@ -208,10 +210,13 @@
   Rebuilt 2026-09-03: exit 0 in 52 s, `workshop.cpp` assembled and `zengine-workshop.exe` linked,
   and a second build says `ninja: no work to do`. Its prefix `Zen\install\loom` was installed
   from `Loom\build-clion`, whose cache names the same MSYS2 compiler and the Windows kernel on.
-- **Seven more MinGW-w64 toolchains** (five MinGW-Builds GCC from 12.2, llvm-mingw Clang 18.1.8 and
-  23.1.2) sit in their home beside the kit's primary, `C:/Users/Joshua/zen-build/toolchains/`
-  (2026-11-02), their archives in the weave-runtime-windows phase's `dl/` (2026-10-11). CLion 2025.2's GCC 13.1 builds Loom's libraries but, once Loom
-  #53 merges, no weave: its libstdc++ lacks `__cxa_thread_atexit`, which the contract refuses.
+- **Nine more MinGW-w64 toolchains**, seven GCCs and two Clangs: MinGW-Builds GCC 12.2.0, 13.1.0,
+  13.2.0, 14.1.0, 14.2.0, 15.2.0 and 16.2.0, and llvm-mingw Clang 18.1.8 and 23.1.2. They sit in
+  their home beside the kit's primary, `C:/Users/Joshua/zen-build/toolchains/`, a folder each
+  (2026-11-02); the archives of seven of them (the GCCs to 14.2.0 and both Clangs) are in the
+  weave-runtime-windows phase's `dl/` (2026-10-11). CLion 2025.2's GCC 13.1 builds Loom's libraries
+  but, once Loom #53 merges, no weave: its libstdc++ lacks `__cxa_thread_atexit`, which the
+  contract refuses.
 - **The harness collapses `\\` to `\` in a command before the shell sees it**, so a `\b`
   written as `\\b` reaches Python or printf as a backspace (measured 2026-09-03: a
   single-quoted `'x\\b'` arrived in Python as one backslash). Text that must carry a
@@ -249,7 +254,7 @@
 - **Under Git Bash's `PATH`, a MinGW-w64 program loads Git for Windows' `libstdc++-6.dll`**
   (`C:\Program Files\Git\mingw64\bin`, ahead of MSYS2's) unless the toolchain's `bin` comes first,
   as the kit puts it (runtime-gcc16, 2026-10-10).
-- **A second MinGW-w64 toolchain sits in scratch**: MSYS2's GCC 16.2.0 Rev5 with binutils 2.47 in
-  `Zen/scratch/runtime-gcc16/toolchains/msys2-gcc16/` (its `fetch-msys2.sh` remakes it from signed
-  packages), beside the verified archives in `dl/`; `C:\msys64x` stays at 15.2.0 Rev8, the kit's
-  (runtime-gcc16, 2026-10-10).
+- **MSYS2's own GCC 16 sits in the toolchains' home too**: GCC 16.2.0 Rev5 with binutils 2.47 in
+  `C:/Users/Joshua/zen-build/toolchains/msys2-gcc16/` (2026-11-03; runtime-gcc16's
+  `fetch-msys2.sh` remakes it from signed packages), its verified archives in that phase's `dl/`;
+  `C:\msys64x` stays at 15.2.0 Rev8, the kit's (runtime-gcc16, 2026-10-10).
