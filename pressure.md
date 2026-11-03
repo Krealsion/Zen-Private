@@ -10,11 +10,14 @@ under the same id.
 
 ## How this file works
 
-- One or two lines an item: what it is, and what wakes it (the trigger that would make it work).
-  Its evidence and story are in closed_pressure.md under the same id.
+- One or two lines an item: what it is, and what it would enable. Its evidence and story are in
+  closed_pressure.md under the same id.
+- Nothing here waits on a trigger (the founder, 2026-11-02). The direction orders the seams, and
+  a seam is built when the plan reaches it, or when its absence would weaken the next work's
+  goals. A "Wakes:" line an item still carries says where the seam bites; it gates nothing.
 - States: ACT, evidence supports a bounded next step; OPEN, a defect measured and not yet taken;
-  PARKED, waiting on a named trigger; SEED, a strategic candidate, not law. An item with no state
-  named is WATCH: real pressure that more use should shape.
+  SEED, a strategic candidate, not law. An item with no state named is a seam for the direction
+  to order. PARKED is retired: its two items are seams like the rest.
 - Pressure is not authorization. A known seam in the code belongs in the repository's law, work
   decided on in backlog.md, bounded work in an issue.
 - An item leaves when its fix merges or an issue takes it; its story stays in history.
@@ -55,7 +58,7 @@ under the same id.
   reshape one; proposed for after the release.
 - **P-WORK-08** A hidden pane loses the position it was hidden at. Wakes: hide and show costing
   arrangements often, or a latent place stated without a second population in the setup.
-- **P-WORK-10** (PARKED) Collision avoidance. Snapping shipped in #92, and a layout's locks with
+- **P-WORK-10** Collision avoidance. Snapping shipped in #92, and a layout's locks with
   the settings (BL-WORK-36). Wakes: arrangement measured as a repeated cost, with a design that
   needs no solver and no second geometry owner.
 - **P-WORK-11** Reading past an ellipsis is a window-only gesture. Wakes: terminal makers meeting
@@ -144,7 +147,7 @@ under the same id.
   missing a chord; the pane would declare the chords it owns.
 - **P-WORK-04** (the founder's use) Conventional editor features come from use: the Terminal's
   interaction, Neovim's discoverability, highlighting, tabs, Git marks; the goal map orders them.
-- **P-WORK-07** (PARKED) Live replacement's general migration, beyond the editor's handoff.
+- **P-WORK-07** Live replacement's general migration, beyond the editor's handoff.
   Wakes: a concrete development task whose shape changes.
 
 ## 4. Guests, authority and the bus
