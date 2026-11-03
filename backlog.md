@@ -225,7 +225,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   [clarify 2](drafts/decision-wave-clarify-2.md)). Workshop in its own repository: the right end
   state (Vision's read, taken): the boundary proven in one repository first, a stranger lane,
   then the move, after the visual foundation's first stages; the distance measured first
-  ([prompt](../prompts/unrun/workshop-as-a-stranger-research.md), warm, a research session).
+  ([report](../reportbacks/workshop-as-a-stranger-research-RB.md), a research session).
   Designed whole before any stage: a research round (the founder, 2026-11-03,
   [prompt](../prompts/unrun/visual-foundation-research.md), warm), then its stages.
 
