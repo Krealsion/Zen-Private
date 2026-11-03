@@ -10,7 +10,7 @@ Gone from Zen's own documents (committed):
 
 - `zen-orientation.md`, section 5: "Build from consumers" is now "Build for the future Zen is
   taking"; "Appreciate seams without building them" is now "Name the seams" (built when the plan
-  reaches them, not when their absence hurts); section 4's "a real consumer pulls" now reads "the
+  reaches them, not when their absence hurts); section 4's "a real consumer pulls" now reads "the     ### "not when their absence hurts" -> "or when their absence would weaken the next works goals" better clarity I think
   design calls for"; a weaver's identity is "still to be designed", no longer "earned by pressure".
 - `executor-constitution.md`, section a: "Do not build speculative frameworks..." now reads:
   build for the future the direction sets, whole and with care; what no plan or direction names
@@ -29,14 +29,14 @@ Three I left alone, because each may not be the rule you mean:
    rather than part of another: two partners or more, a replacement actually used, an authority
    it enforces, or state the weaver changes. It's about how finely to split, not about waiting:
    it folded the snake's controls and clock into the world (3.27 messages a tick became 2.14).
-   Keep it as it is? Your call:
+   Keep it as it is? Your call: Agreed
 2. **Loom: "multi-threaded dispatch is an explicit non-feature until a consumer forces it."**
    That's the waiting rule's wording on a real choice, the single-threaded bus. Your principles
    also say no design should rule out threading later. Reword to "not built; nothing may assume
-   it never will", or keep? Your call:
+   it never will", or keep? Your call: Agreed
 3. **`private/pressure.md`.** Every seam there carries a "wake" condition: the waiting rule's
    machinery. Proposal: keep the file as the list of seams and what each enables, drop "wake"
-   as a gate, and let the direction order them. Your call:
+   as a gate, and let the direction order them. Your call: Agreed
 
 Leans on the sheet's second half that the direction changes, so you don't answer the old ones:
 
@@ -64,7 +64,7 @@ Confirm or correct:
 - One theme file for colours, fonts and settings (stage 4's themes), all under the merge rules
   you set in settings 2 to 5?
 
-Your call:
+Your call: This sounds correct. I only would like helper functions generated (like I have done in the past) to get around with requiring element names to be referenced by string though. As is, if you add a `BLUE` color, I feel like our only current path is something like `zengine::graphics::themes::colors::get_color("BLUE")`. I'd like to avoid that and have something more like `zengine::graphics::themes::colors::BLUE`, so that an IDE auto-complete can resolve names, rather than needing the JSON file open to find the names. The Config Generator in the quarry is the shape of what I want.
 
 ## 2. Window looks and the element set
 
@@ -72,21 +72,21 @@ Your call:
 own property; an operator takes a value struct (the colour a fade ends at) besides the
 element's own values. Open: two looks on the *same* property at once (hover brightens, hold
 reddens). Lean: the later trigger wins while it holds, and the other resumes after. Or leave it
-to the stage. Your call:
+to the stage. Your call: I'd say those seem to be conflicting at first, where both change color, but perhaps that is actually useful. We can have them form chains if they are the same trigger and effect, like a button that goes from white to yellow, to orange, to red for a heating up effect. So they would happen in order of being added.
 
 **UI census 1, what the three are:**
 
 - **control** is the button: a label, whether it's available now, and its action id.
   ("control" because it's the value, drawn however the medium likes; `graphics::Button` was the
-  old drawn class.) Rename it `button`?
+  old drawn class.) Rename it `button`? Yes. Button is a more discoverable and intuitive name
 - **search** isn't a new widget: it's a text box wired to a list's filter, plus the "N more
   match" count. Four panes each wrote their own (Flow, Powers, Loaded, the palette).
-  Proposal: make it the list's filter, not an element.
+  Proposal: make it the list's filter, not an element. I like the design as I understand it. A list allows filter operators based on its type and parameters. This bring up things like sorting as well. Thinking similar to the animation chaining, we could even let filter chain to filter multiple things, and sort, however they choose. 
 - **tabs** are buttons where exactly one is chosen, fitted into a width with an overflow.
-  Proposal: a strip of controls in "one of" mode; `tab_strip` is that fitting arithmetic.
+  Proposal: a strip of controls in "one of" mode; `tab_strip` is that fitting arithmetic. Understood, this makes sense, and is worthwhile, but we can probably expand the scope somehow. Things like a set of three radio buttons where only one can be selected would be a use case, but `tab_strip` doesn't really fit that naming. Something like `option_list` makes more sense where each element has a selected and unselected state or function, but not 100% would love UI design input.
 
 That leaves the set as: control, field (the checkbox is a Bool field), list (with its filter,
-cursor, markers and columns), section, text area, hint. Your call:
+cursor, markers and columns), section, text area, hint. Your call: The notes above describe those elements. I will say, I kind of glossed over Section? A section of what?
 
 **UI census 5.** You read it right. The window shows `?` today only because its face holds
 ASCII glyphs (`graphics/light_paint.hpp:476`). With your yes on Flow made over 4, the window
@@ -100,7 +100,7 @@ and `Offer::submenu`), split back out by `menu_row_words`. A label with its own 
 breaks it: your injection case. Fields fix that, and each presenter draws them its own way.
 One correction: that arrow doesn't point at the row; it says "this row opens another menu".
 The pointer at the chosen row is the list cursor (census 5). So the submenu mark becomes a field
-(drawn as an arrow at the row's end for now), and the cursor stays its own mark. Your call:
+(drawn as an arrow at the row's end for now), and the cursor stays its own mark. Your call: Agreed.
 
 **Graphics research round 2, decision 2: how groups as layers lands.**
 
@@ -119,7 +119,7 @@ The pointer at the chosen row is the list cursor (census 5). So the submenu mark
     putting a node again with a new layer raises it, subtree and all. Never across groups.
 - Lean: groups as layers, plus (a). One order, stated by the tree; raising is one small message.
 
-Your call:
+Your call: I may not have followed that perfectly, so let me try to put it together. Groups are essentially layout trees, and a node can be updated in place easily. Changing it's visible "Z-level" however, due to it being based purely on order in the group, cannot be easily represented as a change of value as if there *were* a layer system. It's not ideal to put the Z-Level into every component, as that is just more data, and more complications for the window to resolve. Sorting it before-hand in which case it's just extra data to order it like they were packets, and sorting it every frame out of place to draw is exceptionally worse. My preference if I were programming it would be to do what you are saying with (a), except with a Linked List, as then we would not run into reordering problems like with a std::vector, especially if the groups are large or numerous. The moving then becomes easy, but we are still missing good helpers for moving and resetting it in the case of an element only being brought forward temporarily, and not clashing in edge cases where you are continuously repositioning elements that are next to eachother and ensuring the order at the end after every move is undone is the same as at the start. Given all of this info, I will defer to what you think would be best given the goals and code.
 
 ## 3. The window, keys and presses
 
@@ -127,7 +127,7 @@ Your call:
 Workshop; a pane can opt out of Workshop's defaults. One fence I'd add: one or two chords always
 go to Workshop first (leave pane, the palette), so no pane, an untrusted one least of all, can
 trap you. Today's `supersedes` (a pane's row standing in for one of Workshop's while the pane
-has the keys) is the start of this. Your call:
+has the keys) is the start of this. Your call: I think you're right that we need protections, but there are always legitimate use cases for overriding a single escape path. The only real way to trap someone is by taking over the whole screen, input and 
 
 **4.** It's the first meaning. "Reachable by a key" means the keymap *may* bind a key to it if a
 weaver wants one; nothing forces a hotkey. Why only buttons that send a message: each action
@@ -136,31 +136,31 @@ manuals and the press witness all read that declaration. A presenter's button th
 code sends no message, so it has nothing to declare, and all three can't see it; neither can an
 agent asking by id. The fix is a cause form that says "this press runs the pane's own code".
 Your agent tool (ask for an action, let the tool work out a press or a key) is agents acting by
-intent (BL-WORK-25), and it needs every action declared, which this gives. Your call:
+intent (BL-WORK-25), and it needs every action declared, which this gives. Your call: Agreed, we should be able to reach those buttons. The question is how. Will it be a feature panes need to declare manually, or can we make this a feature of all pressable thing that happens automatically? Will these be unified in hotkeys, or separate? How will Inventory "buttons" work, as they have hotkeys (and does clicking those slots trigger a press currently)? Looking for what the ideal is here.
 
 **5.** Each button declares the message its press may send, so a manual can say "Send sends a
 ComposeX" and the press witness can check it. Compose's Send and Inventory's command rows send
 whatever message you built, so they can't name one shape and declare nothing. The question:
 should there be a form meaning "sends the message this draft holds"? Lean: yes, in one round
-with 4's form. Your call:
+with 4's form. Your call: Yes, that makes perfect sense to me. This is exactly what we would want for inventory slots. This may also be a pathway for us to add a sort of "callback lambda" form of setting the type (sends a message), and the message itself, defined and filled out in one line. That is mostly a coding preference of mine though, so don't let it weaken the overall idea if it has that risk.
 
 **6.** Jump hints: press a key, every pressable thing shows a short label (as Vimium does), and
 you type a label to act. Switch scanning: an accessibility mode where a highlight steps through
 things on its own and one switch picks. The question: when either lands on something, does it
 press it, press and activate it, or only move the keys there? Lean (the research's): a named
 control runs its action; anything else is a press that only focuses a pane that wasn't active;
-a whole pane gets focus. Your call:
+a whole pane gets focus. Your call: This seems like a really good direction for keyboard only users. Definitely want to suppor them, especially as a vim user myself. I think we should check the scope of this section against that desired goal. For instance, we should be able to click on buttons, which I think is the "named control" you said, but I almost think we should have multiple modes for the keyboard input to be able to represent different desired actions. For instance, clicking a button in a pane you have selected could be as easy as toggling on the hints, and clicking the simple letter button that corsponds with that items hint, 
 
 **7.** Your answer reads as the rule for a pane's own key: from outside, it opens or selects the
 pane; inside, the same key closes it (#492's rule, yes). The question itself was smaller: when an
 old keymap file bound Ctrl+Q to something else, it now gets a collision at load. Should that
-message also say "Ctrl+Q is leave pane now"? Lean unchanged: yes, one line. Your call:
+message also say "Ctrl+Q is leave pane now"? Lean unchanged: yes, one line. Your call: Oh, unnecessary at the moment, but good instinct for future update backwards-compatibility.
 
 **8.** How it plays out: today the keymap file names actions by bare ids, one namespace shared
 by Workshop and every pane, so Flow's `run` and an old retired Workshop `run` are the same
 string. Under your 1 and 7, where a pane owns its keys, a row names its owner (Flow's `run`, or
 Workshop's), so a retired Workshop id can't land on a pane's. Lean: scope keymap ids by owner,
-as part of the key-routing change; then no special list and no renaming Flow's ids. Your call:
+as part of the key-routing change; then no special list and no renaming Flow's ids. Your call: Agreed.
 
 ## 4. Layout and docks
 
@@ -171,16 +171,16 @@ settings}` (`workshop/setup.hpp`). Where the pane is (place, size, in front) is 
 fields beside place (a new setup file version, 7, and session version, 13), or as two words in
 `settings` (no version; an older build refuses them by name)? The research chose words to avoid
 a version. Under the new direction my lean flips to typed fields: they say where the pane is,
-like place and front, and aren't settings of the pane. Your call:
+like place and front, and aren't settings of the pane. Your call: Yes, two new fields. We should never avoid version bumps. I encourage them, in fact, especially as we have a useful migration pattern that can always use extra stress testing.
 
 **3, my reading of your dock.** A dock reserves a strip the whole length of its edge, always:
 the room is narrower by the strip whether the dock is open or shut, like a scrollbar's gutter.
 An arrow sits centred on the strip, pointing in when shut and out when open. The docked pane
 opens over the room and covers what's there. So the bar's length is the whole edge, with no
-setting. Your call:
+setting. Your call: For an intitial implementation, yes this is my thought. As for what the future holds, I do see possible future settings, but they would be built on some of the other, more foundational features, like the animations and maybe later future components that can nest them in interesting ways.
 
 ## 5. Settings and themes
 
 **1.** Agreed: the double-click speed is input's setting, not Workshop's. On moving Workshop to
 its own repository, with Zengine kept as an inert set of default packages: want my read? Your
-call:
+call: Sure, I would love your read.
