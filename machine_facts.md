@@ -209,8 +209,8 @@
   and a second build says `ninja: no work to do`. Its prefix `Zen\install\loom` was installed
   from `Loom\build-clion`, whose cache names the same MSYS2 compiler and the Windows kernel on.
 - **Seven more MinGW-w64 toolchains** (five MinGW-Builds GCC from 12.2, llvm-mingw Clang 18.1.8 and
-  23.1.2) sit under `C:/Users/Joshua/zen-build/weave-runtime-windows/toolchains/`, their archives in
-  that phase's `dl/` (2026-10-11). CLion 2025.2's GCC 13.1 builds Loom's libraries but, once Loom
+  23.1.2) sit in their home beside the kit's primary, `C:/Users/Joshua/zen-build/toolchains/`
+  (2026-11-02), their archives in the weave-runtime-windows phase's `dl/` (2026-10-11). CLion 2025.2's GCC 13.1 builds Loom's libraries but, once Loom
   #53 merges, no weave: its libstdc++ lacks `__cxa_thread_atexit`, which the contract refuses.
 - **The harness collapses `\\` to `\` in a command before the shell sees it**, so a `\b`
   written as `\\b` reaches Python or printf as a backspace (measured 2026-09-03: a
