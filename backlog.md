@@ -177,27 +177,42 @@ Each starts on the founder's word; "wake" is what must be true first.
     by an exact value, a name from a shared pool named by use (background, text...), or a slot it
     exposes to themes; themes are JSON, loaded without compiling, setting any exposed slot, each
     theme saying whether a slot nothing exposes is skipped or refuses it whole; the same pool holds
-    fonts and text sizes. Census 9's emphasis colours fold into it.
+    fonts and text sizes. Census 9's emphasis colours fold into it. Names reached as C++ names,
+    generated as the quarry's Config Generator did: a name per pool entry and per exposed slot,
+    a typo a compile error, the window turning the name into a colour when it paints (the
+    founder, 2026-11-02).
   - Looks: Vision's model (when, what, how; operators a closed set the window knows, a weave's own
     only boxed and later), several at once on one node, an operator taking a value struct (a fade's
     end colour). The window-looks record rewritten so: (b) to (d) yes, (e) the act tool holding
-    steady for its run.
+    steady for its run. Looks of one trigger on one property chain in the order added (the
+    founder, 2026-11-02); of two triggers, the one fired last wins while it holds.
   - Text: weight, size and every character past ASCII drawn in the window; `?` only where a
     terminal can't show one.
-  - The element set: the old drawn classes retired as faces supersede them, Image and Grid kept
-    until superseded; the setup tabs on `tab_strip`; a menu row's key and submenu mark as fields;
+  - The element set: button (once `control`), field, list, choice, section, text area, hint
+    (2026-11-02). Search is the list's filter: filters and a sort chained in order, by the list's
+    type and parameters. Tabs and radio buttons are one choice, `one` or `many`, its look a face
+    (`tab_strip`'s fitting the tab face's); its name asked. Groups are a pane's layers, painted
+    and hit in tree order; a move puts a node before or after a sibling, a raise flag lifts one
+    until lowered without touching the order, never across groups (Vision's call, the founder
+    deferring). The old drawn classes retired as faces supersede them, Image and Grid kept
+    until superseded; a menu row's key and submenu mark as fields;
     every key a hint names read from the keymap; Info's list rule with the list piece; Workshop's
     panes on a shared piece wherever one fits.
   - Keys: a pane hears a key first, what it doesn't consume going up to Workshop, and a pane may
     opt out of Workshop's defaults; a pane owns its own key (from outside it opens or selects the
     pane, inside it closes it); one action shape carrying its source (a click and its place, a key,
-    an agent's).
+    an agent's). Keymap ids scoped by their owner (2026-11-02). Every pressable thing an action
+    and one way in, a button its own declaration, a press declaring what it does (a message, the
+    message a draft holds, or the pane's own code), a hotkey only a keymap binding: Vision's
+    ideal, asked with the escape fence, the jump hints' modes and Inventory's tile press.
   - Docks cover the room, and only authored anchors move panes; a dock keeps a strip its edge's
-    whole length, open or shut.
+    whole length, open or shut. Fold and dock are typed fields of a setup's pane row (setup v7,
+    session v13; the founder, 2026-11-02).
   - Settings: the double-click speed is input's; themes merge and reset (the research's two);
     locked settings a final layer; a failed key skipped or the theme refused, the theme saying
     which, a wrong type always loud; a reset whole, or applied on top; several keys an action.
-  Open calls: [clarify](drafts/decision-wave-clarify-1.md).
+  Answered 2026-11-02 ([clarify](drafts/decision-wave-clarify-1.md)); still open, with Workshop
+  in its own repository: [clarify 2](drafts/decision-wave-clarify-2.md).
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
@@ -473,6 +488,8 @@ marked.
 
 ## 7. Directions that govern
 
+- **Never avoid a version bump** (the founder, 2026-11-02): a shape or a file format moves to a
+  new version whenever it changes; the migration path is worth the exercise.
 - **The goal** (the founder, 2026-10-14): Zen legible, and good to use as a human weaver:
   documentation, then the split, then the UX batch, then complete stories on a well-formed
   architecture.
@@ -515,6 +532,10 @@ marked.
     window's and the terminal's, are faces side by side (2026-10-30).
 
 ## 8. Loose ends for the next issue sweep
+
+Loom's threading line (the founder, 2026-11-02): `docs/laws/messaging-laws.md` says multi-threaded
+dispatch is not built, and nothing may assume it never will, not "a non-feature until a consumer
+forces it".
 
 Filed by the UX batch (2026-10-29, section 6): the guest `ask` row (#536), `fill_laws.sh`
 (#537), the `Surface*` shapes (#538), `apply`'s scan (#539), the desk split's cases (#540) and
