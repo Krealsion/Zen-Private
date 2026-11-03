@@ -70,9 +70,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   date: `hotkeys-keymap-folder-window.png` (Start here, after #563), and the Files manual and the
   Pane Manager's row menu the kit round left; the Hotkeys and palette counts do not move with
   #568. After #559, an audit again. The manuals' recipe shows its own hand (Info inspecting the
-  Manual's geometry, Notices listing the commits that placed it); a cleaner composition for the
-  kit's next round. Owed in that round too: the left-behind check judging a report written by
-  its first commit in Zen, not by its file (the visual foundation research, 2026-11-03).
+  Manual's geometry, Notices listing the commits that placed it); a cleaner composition for a
+  later kit round. The next one, prompted (2026-11-03,
+  [prompt](../prompts/unrun/kit-background-launches.md), warm), run by the founder once the
+  lanes are done: an agent's Workshop kept out of his way (the founder, 2026-11-03: no foreground
+  taken, nothing covered, the two tools that must take it only when a round asks), and the
+  left-behind check judging a report written by its first commit in Zen, not by its file.
 - **Accordion lane: stage 2**, as #568 ([report](../reportbacks/accordion-stage-2-RB.md)): the
   group borrows its owner's list and keeps no copy, so a pane's state is the truth; Info's values
   a tree (WL-INFO-16), with Right, Left and Shift+Left. Rebased onto `main` at `c46f3098` and
