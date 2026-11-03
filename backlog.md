@@ -225,6 +225,8 @@ Each starts on the founder's word; "wake" is what must be true first.
   state (Vision's read, taken): the boundary proven in one repository first, a stranger lane,
   then the move, after the visual foundation's first stages; the distance measured first
   ([prompt](../prompts/unrun/workshop-as-a-stranger-research.md), warm, a research session).
+  Designed whole before any stage: a research round (the founder, 2026-11-03,
+  [prompt](../prompts/unrun/visual-foundation-research.md), warm), then its stages.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
