@@ -205,7 +205,10 @@ under the same id.
   `\r`; from the decisions round (2026-10-30) `primary.sh second` fetching GitHub (its copy came up
   on a stale `origin/main` and the primary's SSH remote), a manifest editor, a step-comment batch;
   from the relicense push (2026-11-01) `primary.sh setup` and `second` cloning over SSH alone (an
-  HTTPS fallback, or the remote read from the primary's clone).
+  HTTPS fallback, or the remote read from the primary's clone); from the two researches
+  (2026-11-03) the facts script asked a third time, a shape's enclosers listed from the shape
+  census, `measure.py` kept (its reverse half the text check), a configure-only target graph,
+  `kit.sh phase --research` for a session holding no primary, an evidence assembler.
   Wakes: the next pass on the process.
 - **P-BUILD-11** A cancelled walk's input session races the next run's ask. Wakes: a job failing
   on it, or a change to the tool's session handling.
@@ -221,6 +224,9 @@ under the same id.
 - **P-BUILD-18** A pull request that edits an installed header is package-witnessed only by its
   lane's own run and the next nightly: the Package workflow's pull-request paths name the install
   files, not the headers (#488, 2026-10-29). Wakes: a nightly package run red after a merge.
+- **P-BUILD-19** No lane runs the CMake floor Zengine promises, 3.16 (`CMakeLists.txt:1`,
+  `docs/getting-started.md:13`): every hosted job uses its runner's CMake, the WSL lane 3.22.1
+  (2026-11-03). The visual foundation's call V-5 picks the floor; then one lane runs it.
 - **P-BUILD-16** The Timer suite failed once more, on the nightly's MinGW-w64 job at `4e995de9`
   (2026-10-28, run 40664013168), after P-BUILD-01 closed; the push runs since are green. Wakes: a
   second failure: then an issue.

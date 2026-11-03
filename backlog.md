@@ -37,11 +37,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `zen-arena` private; #100 merged and the package on (the founder, 2026-11-02). The loose ends
   done (reviewed 2026-11-03): of the carried work 99 dropped and #487's branch kept, the View
   Builder's quarry ([sheet](drafts/loose-changes-2026-11-02.md)); the toolchains in
-  `zen-build/toolchains/`; the kit's left-behind check. What it found, cleared next, with
-  `parked` and `later` retired ([prompt](../prompts/unrun/left-behind-cleared.md), hot).
-  Once `v0.2.0` is out, the MCP server's 0.1.2 package swapped for it. Pushed branches never
-  merged stay in `-history`, carried on request. Still owed: the creations exception, drafted
-  with counsel. Asked, not decided: a CLA before outside contributions; the trademark.
+  `zen-build/toolchains/`; the kit's left-behind check. What it found, cleared, `parked` and
+  `later` retired ([report](../reportbacks/left-behind-cleared-RB.md), reviewed 2026-11-03):
+  nothing left behind. `v0.2.0` is tagged (`84446fb5`): the MCP server's 0.1.2 package swapped
+  for it next. Pushed branches never merged stay in `-history`, carried on request. Still owed:
+  the creations exception, drafted with counsel. Asked, not decided: a CLA before outside
+  contributions; the trademark.
 - **Main lane: Flow made over**, pushed as #559 at the founder's word (2026-10-29,
   [report](../reportbacks/flow-live-requests-RB.md)): batches A to E live in his Workshop, the
   Windows build mended after the first hosted run, three guide pictures taken from recipes (the
@@ -70,7 +71,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Pane Manager's row menu the kit round left; the Hotkeys and palette counts do not move with
   #568. After #559, an audit again. The manuals' recipe shows its own hand (Info inspecting the
   Manual's geometry, Notices listing the commits that placed it); a cleaner composition for the
-  kit's next round.
+  kit's next round. Owed in that round too: the left-behind check judging a report written by
+  its first commit in Zen, not by its file (the visual foundation research, 2026-11-03).
 - **Accordion lane: stage 2**, as #568 ([report](../reportbacks/accordion-stage-2-RB.md)): the
   group borrows its owner's list and keeps no copy, so a pane's state is the truth; Info's values
   a tree (WL-INFO-16), with Right, Left and Shift+Left. Rebased onto `main` at `c46f3098` and
@@ -189,7 +191,7 @@ Each starts on the founder's word; "wake" is what must be true first.
     founder, 2026-11-02); of two triggers, the one fired last wins while it holds.
   - Text: weight, size and every character past ASCII drawn in the window; `?` only where a
     terminal can't show one.
-  - The element set: button (once `control`), field, list, choice, collapsible, text area, hint
+  - The element set: button (once `control`), field, list, collapsible, text area, hint
     (2026-11-02; `collapsible` the founder's, 2026-11-03: one fold, a group of them an
     accordion, so the code's `Accordion` and `IndependentAccordions` are renamed to match).
     Search is the list's filter: filters and a sort chained in order, by the list's type and
@@ -224,10 +226,14 @@ Each starts on the founder's word; "wake" is what must be true first.
   Answered 2026-11-02 and 2026-11-03 ([clarify](drafts/decision-wave-clarify-1.md),
   [clarify 2](drafts/decision-wave-clarify-2.md)). Workshop in its own repository: the right end
   state (Vision's read, taken): the boundary proven in one repository first, a stranger lane,
-  then the move, after the visual foundation's first stages; the distance measured first
-  ([report](../reportbacks/workshop-as-a-stranger-research-RB.md), a research session).
-  Designed whole before any stage: a research round (the founder, 2026-11-03,
-  [prompt](../prompts/unrun/visual-foundation-research.md), warm), then its stages.
+  then the move, after the visual foundation's first stages; the distance measured
+  ([report](../reportbacks/workshop-as-a-stranger-research-RB.md): 111 reverse include lines,
+  the seam Zengine's, 23 closings). Designed whole (2026-11-03,
+  [design](../reportbacks/visual-foundation-research/design.md),
+  [stages](../reportbacks/visual-foundation-research/stages.md),
+  [report](../reportbacks/visual-foundation-research-RB.md)): eleven stages in Zengine, V1 the
+  pool and palettes first. Both reviewed 2026-11-03, their thirteen calls with the founder
+  ([review](drafts/research-review-2026-11-03.md)).
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
@@ -388,6 +394,10 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
+- The two researches' thirteen calls ([review](drafts/research-review-2026-11-03.md),
+  2026-11-03): the visual foundation's V-1 to V-6 (V-6 Vision's own: keys routed by
+  declaration) and Workshop's W-1 to W-7, each with Vision's lean. V1's prompt waits on V-1 and
+  V-5; the first closings' on W-1, W-2 and W-7.
 - The composer's bare values and optional fields (Loom #31's report, 2026-10-08, not asked since):
   a bare value fills the first field in declaration order, optional or not, so `7` for
   `{limit?: Int, n: Int}` fills `limit` and leaves `n` open, and the reply does not say where `7`
