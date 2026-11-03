@@ -60,7 +60,7 @@ How it looks is its face: the same choice can be tabs across the top of a pane o
 in a form, and `tab_strip`'s fitting into a width becomes the tab face's own arithmetic. Name it
 `choice` (short, what a weaver would say) or your `option_list`.
 
-Your call:
+Your call: I am still not 100% satisfied with this, and I am still unsure what the best soluition to the intuition I am getting is. For example the alternative that comes to mind is not a visual component at all, but more just a linked list that knows about elements that specifically have their "on" and "off" toggle states stored with the functions to switch between them. This is because I don't want to limit them to be restricted to purely sequential singular component positioning. For instance, a form where there are 3 radio buttons with forums beneath them, each greyed out unless their box is checked. We can also then support unique/unknown toggle states or have it expand to include other logic like field requirement and verification through a new compositioninal linked-field logic handler system. How does that sound? Does that feel correct, or should we shelve it for now and brainstorm once it comes back up?
 
 ### Section: a section of what?
 
@@ -106,7 +106,7 @@ Inventory's page describes a press on a tile as selecting it, and a command as r
 hotkey. Lean: a press on a command tile runs it, as any button does; the right press keeps its
 menu, and dragging still moves it.
 
-Your call:
+Your call: Agreed
 
 ### Jump hints and keyboard modes (6)
 
@@ -115,7 +115,7 @@ hint,"). How Vimium does it, as a start: one key shows hints that press, another
 move the keys there, another hints that open a thing's menu. Lean: the same hints with a mode
 each, press and focus first.
 
-Your call (and the rest of the sentence):
+Your call (and the rest of the sentence): Agreed, and the rest of the sentance is disappointingly "triggers the indicated action."
 
 ### Escape paths (1)
 
@@ -123,14 +123,14 @@ Your answer stops at "taking over the whole screen, input and". My reading so fa
 needs one escape may take it (a terminal wants Ctrl+Q), but never all of them; whatever a pane
 takes, one way out stays Workshop's (a chord, the mouse, the palette). Right?
 
-Your call (and the rest of the sentence):
+Your call (and the rest of the sentence): Oh, I was meaning it's still very hard to do it as we currently have it due to the setups bar, allowing you to switch to a new setup (as long as clicks don't go to something unless it's within it's area, even if it is focused, but I kind of assume this to be the case). Regardless, anything that acts maliciously like this, as long as there is one of these ways out, would do nothing but ruin it's own reputation and become known to be avoided. One escape path is all we need, regardless of if it's a new one or an old one we perserve.
 
 ### The `parked` label
 
 On GitHub, `parked` reads "Deferred until its stated wake condition", the machinery you just
 retired. Lean: its issues take `later`, and `parked` goes (Ceecee, next round).
 
-Your call:
+Your call: Perhaps parked goes completely, no replacement. Later sends the signal not to look unless you know its time. Needs decision is the right shape of that kind of avoidance, as it is legitimately not ready for a specific reason. Parked or "later" is vague and restrictive. We may need other tags to help identify things properly after this, but I think those new tags will be more useful for it.
 
 ### Workshop in its own repository: my read
 
@@ -153,4 +153,5 @@ Your call:
   short research round could measure the distance: every place Workshop reaches into a package's
   insides. Want it queued?
 
-Your call:
+Your call: Sure! Research is kind of my favorite.
+

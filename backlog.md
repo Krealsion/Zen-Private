@@ -192,8 +192,12 @@ Each starts on the founder's word; "wake" is what must be true first.
     (2026-11-02; `collapsible` the founder's, 2026-11-03: one fold, a group of them an
     accordion, so the code's `Accordion` and `IndependentAccordions` are renamed to match).
     Search is the list's filter: filters and a sort chained in order, by the list's type and
-    parameters. Tabs and radio buttons are one choice, `one` or `many`, its look a face
-    (`tab_strip`'s fitting the tab face's); its name asked. Groups are a pane's layers, painted
+    parameters. A choice is no element but a rule (the founder, 2026-11-03): a group over
+    elements that have an on state, wherever they sit (three radio buttons, each over a form of
+    its own), saying how many may be on. A form greyed out until its box is checked, a field
+    required or checked, are rules of the same family, his linked-field logic: designed as one
+    when the element set reaches forms. Tabs are toggle buttons under a one-of rule, `tab_strip`
+    their strip's layout. Groups are a pane's layers, painted
     and hit in tree order; a move puts a node before or after a sibling, a raise flag lifts one
     until lowered without touching the order, never across groups (Vision's call, the founder
     deferring). The old drawn classes retired as faces supersede them, Image and Grid kept
@@ -206,15 +210,21 @@ Each starts on the founder's word; "wake" is what must be true first.
     an agent's). Keymap ids scoped by their owner (2026-11-02). Every pressable thing an action
     and one way in, a button its own declaration, a press declaring what it does (a message, the
     message a draft holds, or the pane's own code), a hotkey only a keymap binding: Vision's
-    ideal, asked with the escape fence, the jump hints' modes and Inventory's tile press.
+    ideal, taken (the founder, 2026-11-03). A command tile's press runs it. Jump hints with a
+    mode each, press and focus first, a hint's letter triggering its action. One way out is
+    always Workshop's: a pane may take any key, and a press reaches only the area under it, so
+    the setups bar stays one.
   - Docks cover the room, and only authored anchors move panes; a dock keeps a strip its edge's
     whole length, open or shut. Fold and dock are typed fields of a setup's pane row (setup v7,
     session v13; the founder, 2026-11-02).
   - Settings: the double-click speed is input's; themes merge and reset (the research's two);
     locked settings a final layer; a failed key skipped or the theme refused, the theme saying
     which, a wrong type always loud; a reset whole, or applied on top; several keys an action.
-  Answered 2026-11-02 ([clarify](drafts/decision-wave-clarify-1.md)); still open, with Workshop
-  in its own repository: [clarify 2](drafts/decision-wave-clarify-2.md).
+  Answered 2026-11-02 and 2026-11-03 ([clarify](drafts/decision-wave-clarify-1.md),
+  [clarify 2](drafts/decision-wave-clarify-2.md)). Workshop in its own repository: the right end
+  state (Vision's read, taken): the boundary proven in one repository first, a stranger lane,
+  then the move, after the visual foundation's first stages; the distance measured first
+  ([prompt](../prompts/unrun/workshop-as-a-stranger-research.md), warm, a research session).
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
@@ -534,6 +544,10 @@ marked.
     window's and the terminal's, are faces side by side (2026-10-30).
 
 ## 8. Loose ends for the next issue sweep
+
+GitHub labels (the founder, 2026-11-03): `parked` goes with no replacement, and `later` with it,
+both vague and restrictive; `needs-decision` stays, the honest kind of not ready. Their issues
+keep their other labels; better-named labels may come.
 
 Loom's threading line (the founder, 2026-11-02): `docs/laws/messaging-laws.md` says multi-threaded
 dispatch is not built, and nothing may assume it never will, not "a non-feature until a consumer
