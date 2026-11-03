@@ -34,10 +34,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   ([report](../reportbacks/relicense-agpl-history-RB.md), reviewed 2026-11-01 and 2026-11-02).
   No copy of the old history is left on the machine but the bundles; the six repositories that
   stay carry a pre-push guard; private vulnerability reporting on; `zen-night-lab` and
-  `zen-arena` private; #100 merged and the package on (the founder, 2026-11-02). The carried work
-  read against `main` ([sheet](drafts/loose-changes-2026-11-02.md)): the founder drops 99 and
-  keeps #487's branch as the View Builder's quarry; the toolchains get a home of their own; the
-  kit says what is left behind ([prompt](../prompts/unrun/relicense-agpl-loose-ends.md), hot).
+  `zen-arena` private; #100 merged and the package on (the founder, 2026-11-02). The loose ends
+  done (reviewed 2026-11-03): of the carried work 99 dropped and #487's branch kept, the View
+  Builder's quarry ([sheet](drafts/loose-changes-2026-11-02.md)); the toolchains in
+  `zen-build/toolchains/`; the kit's left-behind check. What it found, cleared next, with
+  `parked` and `later` retired ([prompt](../prompts/unrun/left-behind-cleared.md), hot).
   Once `v0.2.0` is out, the MCP server's 0.1.2 package swapped for it. Pushed branches never
   merged stay in `-history`, carried on request. Still owed: the creations exception, drafted
   with counsel. Asked, not decided: a CLA before outside contributions; the trademark.
@@ -549,7 +550,7 @@ marked.
 
 GitHub labels (the founder, 2026-11-03): `parked` goes with no replacement, and `later` with it,
 both vague and restrictive; `needs-decision` stays, the honest kind of not ready. Their issues
-keep their other labels; better-named labels may come.
+keep their other labels; better-named labels may come. Prompted in `left-behind-cleared`.
 
 Loom's threading line (the founder, 2026-11-02): `docs/laws/messaging-laws.md` says multi-threaded
 dispatch is not built, and nothing may assume it never will, not "a non-feature until a consumer
