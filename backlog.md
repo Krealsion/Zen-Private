@@ -235,7 +235,8 @@ Each starts on the founder's word; "wake" is what must be true first.
   pool and palettes first. Both reviewed 2026-11-03, their thirteen calls with the founder
   ([review](drafts/research-review-2026-11-03.md)). The visual foundation's six settled the same
   day, the design amended so (the founder, 2026-11-03), V1 prompted
-  ([prompt](../prompts/unrun/visual-foundation-v1.md), warm):
+  ([prompt](../prompts/unrun/visual-foundation-v1.md), warm) and V8 beside it in a second lane
+  ([prompt](../prompts/unrun/visual-foundation-v8.md), warm):
   - **Pictures**: one may change where the change is the point, named with its reason, before
     and after, for his review; byte for byte only for V2's sweep. Every picture added or retaken
     comes from a recipe the kit's picture tool replays. Excised rather than carried: which of the
