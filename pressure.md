@@ -224,9 +224,6 @@ under the same id.
 - **P-BUILD-18** A pull request that edits an installed header is package-witnessed only by its
   lane's own run and the next nightly: the Package workflow's pull-request paths name the install
   files, not the headers (#488, 2026-10-29). Wakes: a nightly package run red after a merge.
-- **P-BUILD-19** No lane runs the CMake floor Zengine promises, 3.16 (`CMakeLists.txt:1`,
-  `docs/getting-started.md:13`): every hosted job uses its runner's CMake, the WSL lane 3.22.1
-  (2026-11-03). The visual foundation's call V-5 picks the floor; then one lane runs it.
 - **P-BUILD-16** The Timer suite failed once more, on the nightly's MinGW-w64 job at `4e995de9`
   (2026-10-28, run 40664013168), after P-BUILD-01 closed; the push runs since are green. Wakes: a
   second failure: then an issue.

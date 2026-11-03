@@ -233,7 +233,43 @@ Each starts on the founder's word; "wake" is what must be true first.
   [stages](../reportbacks/visual-foundation-research/stages.md),
   [report](../reportbacks/visual-foundation-research-RB.md)): eleven stages in Zengine, V1 the
   pool and palettes first. Both reviewed 2026-11-03, their thirteen calls with the founder
-  ([review](drafts/research-review-2026-11-03.md)).
+  ([review](drafts/research-review-2026-11-03.md)). The visual foundation's six settled the same
+  day, the design amended so (the founder, 2026-11-03), V1 prompted
+  ([prompt](../prompts/unrun/visual-foundation-v1.md), warm):
+  - **Pictures**: one may change where the change is the point, named with its reason, before
+    and after, for his review; byte for byte only for V2's sweep. Every picture added or retaken
+    comes from a recipe the kit's picture tool replays. Excised rather than carried: which of the
+    four looks ship as themes is proposed with pictures for him to pick; no widening of old
+    shapes for strangers (`v0.2.0` is pre-1.0), a bridge for our own drawers ending in V2; the
+    conversions of saved setups and sessions kept.
+  - **V1**: `Paint` named `Color`, and `color` in every new name. Generated names give
+    autocomplete, and a name nobody declared does not build; any name is fine. The generator a
+    CMake script, installed, the floor 3.22, a version a lane runs. The skin seam retired, the
+    painter one library behind one interface in the window. A colour's terminal word (`cells`)
+    optional: without it, the nearest colour the terminal shows; its own ground never matched.
+  - **V2**: Flow's 31 hues collapsed to as few slots as is reasonable (about six by Vision's
+    count), the rest pool names.
+  - **V3**: monospaced first; the platform's fonts, then an embedded last resort that draws the
+    character; cases and pictures on the embedded faces; a fallback glyph in its own cells.
+    Proportional text a stage of this arc, after V3 and before V9, a pane writing one layout for
+    both media.
+  - **V4**: a theme's entries for a pane the load plan names wait for it; `refuse` judged when
+    the theme is applied, a miss found later skipped and said.
+  - **V5**: the beat an office-wide setting, changed through the settings door; a look computed
+    from the time since it began, so it lasts its length at any rate. `back` named
+    `reverse_on_end`; `repeats` a count, forever a named largest value, not 0. A look never moves
+    a hit: the hit drawn at its largest extent, a leaving node taking no press.
+  - **V6**: the press lambda stays in its pane, only its message's shape declared; a hotkey asks
+    an action by its id, and that action's own press form runs.
+  - **V7**: one way-out chord, Ctrl+Q by default, moved only by the weaver; the band shows it
+    while a pane holds the keys, and a notice says once where it went if the legend is hidden.
+    Inputs, batched ones too, resolved one at a time against the state the last one left, the
+    chord never waiting; how keys are routed is Ceecee's.
+  - **V8**: shut on the title bar once it is a `Collapsible`, the arrow at the bar's start (the
+    left of a horizontal bar, the top of a vertical one); meanwhile on today's title row, no
+    second bar; a shut pane keeps its title row with titles hidden.
+  - **V9 to V11**: each element stage reviewed for feel, its faces in both media and a pane's
+    code using them, before it merges.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
@@ -394,10 +430,9 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
-- The two researches' thirteen calls ([review](drafts/research-review-2026-11-03.md),
-  2026-11-03): the visual foundation's V-1 to V-6 (V-6 Vision's own: keys routed by
-  declaration) and Workshop's W-1 to W-7, each with Vision's lean. V1's prompt waits on V-1 and
-  V-5; the first closings' on W-1, W-2 and W-7.
+- Workshop's seven calls, W-1 to W-7 ([review](drafts/research-review-2026-11-03.md),
+  2026-11-03), each with Vision's lean; the first closings' prompt waits on W-1, W-2 and W-7.
+  The visual foundation's six settled the same day (section 3).
 - The composer's bare values and optional fields (Loom #31's report, 2026-10-08, not asked since):
   a bare value fills the first field in declaration order, optional or not, so `7` for
   `{limit?: Int, n: Int}` fills `limit` and leaves `n` open, and the reply does not say where `7`

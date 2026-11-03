@@ -21,7 +21,8 @@ after each "Your call:", as in the clarify files; a bare "yes" takes the lean.
   for four of its stages.
 - **Workshop as a stranger is well measured.** Seven calls. My main change is the order: the move
   after V7, not V5.
-- **Thirteen calls in all**: V-1 to V-6, then W-1 to W-7.
+- **Thirteen calls in all**: V-1 to V-6, then W-1 to W-7. The six V calls settled in chat the
+  same day (section 2.4, and the backlog's section 3); W-1 to W-7 stay open.
 
 ## 1. New words
 
@@ -177,7 +178,7 @@ nothing left to choose.
 
 Lean: retire, the painter kept one library behind one interface inside the window (2.3).
 
-Your call:
+Your call: (in chat, 2026-11-03) Agreed.
 
 **V-2. The way out with no pointer.** You decided the way out is a press on the setups bar, and
 your assumption holds: the window gives a press only to the area under it (`agents/graphics.md`,
@@ -194,7 +195,8 @@ traps them.
 Lean: one chord, movable. It is the keyboard-only support you asked for, and "one escape path is
 all we need" still holds for each hand: one for the mouse, one for the keys.
 
-Your call:
+Your call: (in chat, 2026-11-03) One chord, Ctrl+Q by default, and the weaver can find where it
+moved: the band shows it while a pane holds the keys, a notice once if the legend is hidden.
 
 **V-3. A theme's slots for a pane not loaded yet.** A pane says which slots it exposes only while
 it runs, so a theme applied before Flow loads finds Flow's slots exposed by nothing.
@@ -209,7 +211,7 @@ it runs, so a theme applied before Flow loads finds Flow's slots exposed by noth
 Lean: wait for a named office, with 2.2's fence: `refuse` is judged when the theme is applied,
 and a miss found at a later declaration is skipped and said.
 
-Your call:
+Your call: (in chat, 2026-11-03) As leaned.
 
 **V-4. Faces.** Every pane lays text out by characters of one width, so a proportional face would
 put every line in the wrong place. And JetBrains Mono, today's one face, holds Latin, Greek and
@@ -224,7 +226,8 @@ Cyrillic, not the scripts past them.
 Lean: both of the research's, with 2.2's fences, and a last resort that draws the character
 itself (a bitmap face such as GNU Unifont), not a sign for its script.
 
-Your call:
+Your call: (in chat, 2026-11-03) As leaned, monospaced first, and proportional text supported in
+this arc: a stage of its own after V3 and before V9.
 
 **V-5. Zengine's CMake floor.** The generated names come from a CMake script installed with the
 package, so a stranger's pane generates its slots as Zengine's do. CMake reads JSON from 3.19;
@@ -238,24 +241,15 @@ Zengine promises 3.16.
 Lean: raise it, to 3.22 rather than 3.19: Ubuntu 22.04's, and what our WSL lane runs, so the
 promise is one a lane keeps (2.2).
 
-Your call:
+Your call: (in chat, 2026-11-03) CMake as the generator, the reason sound; the floor at 3.22.
 
-**V-6. How "a pane hears a key first" is carried out** (mine, from 2.2). The same behaviour you
-decided; the question is the mechanism.
+**V-6. Keys answered late** (mine, from 2.2). A key that moves the keys elsewhere is answered by
+message, and a key typed right after it can reach the old place first. The race holds whichever
+way keys are routed, so the mechanism alone does not close it.
 
-- **By answer** (the design): the pane is handed each key and says the ones it did not spend.
-  2.2's race stays, unless the window holds every later key until each answer comes.
-- **By declaration**: the window routes each key at once, by a table Workshop hands it: the keys
-  a pane declared go to it (any key, Workshop's defaults included), the rest to Workshop, the
-  way-out chord always Workshop's. Only a key a pane declares it judges by context (Escape's
-  "deselect, or leave") goes by answer, and the window holds the keys after it until that answer
-  comes, under its correlation: WL-ARR-15's rule, kept.
-
-Lean: by declaration. The pane's verdict is already a lookup in the keys it was handed, so asking
-it adds a hop and the race and buys nothing; the table keeps the order and still delivers
-straight from the window.
-
-Your call:
+Your call: (in chat, 2026-11-03) Inputs, batched ones too, are resolved one at a time, each
+against the state the last one left. Vision's addition, taken: the way-out chord never waits in
+that line. How keys are routed is Ceecee's.
 
 ## 3. Workshop as a stranger
 
