@@ -291,10 +291,14 @@ Each starts on the founder's word; "wake" is what must be true first.
     the other colours by nearest ink; into V2); the snake's `1 skin` (kept); the advisory MSVC
     job's hour, settled (the founder, 2026-11-04): ninety minutes before #101 merges, since a job
     stopped at its limit saves no cache and cancels the run, and the night packages only a passed
-    one, green all the same; the night made to say so
-    ([prompt](../prompts/unrun/ci-msvc-hour.md), hot); the peek (waived until the title bar's
-    composite); the fifteen held pictures (one recipes pass after V3); one word for theme, palette
-    and skin where a weaver sees it (theme, renamed with V4).
+    one, green all the same; the night made to say so: #104
+    ([report](../reportbacks/ci-msvc-hour-RB.md), reviewed 2026-11-04, green on every job), then
+    #101 rebased onto `main` and run again
+    ([prompt](../prompts/unrun/visual-foundation-v1-rebase.md), hot), then #102's rebase.
+    #104's `main's tip` job also runs in a pull request's Package run, where it judges `main`, not
+    the change: limited to the night and a dispatch with the next CI change. The peek (waived until
+    the title bar's composite); the fifteen held pictures (one recipes pass after V3); one word for
+    theme, palette and skin where a weaver sees it (theme, renamed with V4).
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
