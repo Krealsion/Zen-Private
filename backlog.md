@@ -284,9 +284,12 @@ Each starts on the founder's word; "wake" is what must be true first.
     Asked, with Vision's leans: the looks (night and day ship, block a tests' fixture, classic
     another word for night; the pool's `own` kept for text and grounds alone, so a terminal shows
     the other colours by nearest ink; into V2); the snake's `1 skin` (kept); the advisory MSVC
-    job's hour (merge on the required jobs); the peek (waived until the title bar's composite);
-    the fifteen held pictures (one recipes pass after V3); one word for theme, palette and skin
-    where a weaver sees it (theme, renamed with V4).
+    job's hour, settled (the founder, 2026-11-04): ninety minutes before #101 merges, since a job
+    stopped at its limit saves no cache and cancels the run, and the night packages only a passed
+    one, green all the same; the night made to say so
+    ([prompt](../prompts/unrun/ci-msvc-hour.md), hot); the peek (waived until the title bar's
+    composite); the fifteen held pictures (one recipes pass after V3); one word for theme, palette
+    and skin where a weaver sees it (theme, renamed with V4).
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
