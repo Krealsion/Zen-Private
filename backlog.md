@@ -295,8 +295,13 @@ Each starts on the founder's word; "wake" is what must be true first.
     ([report](../reportbacks/ci-msvc-hour-RB.md), reviewed 2026-11-04, green on every job), then
     #101 rebased onto `main` and run again
     ([prompt](../prompts/unrun/visual-foundation-v1-rebase.md), hot), then #102's rebase.
-    #104's `main's tip` job also runs in a pull request's Package run, where it judges `main`, not
-    the change: limited to the night and a dispatch with the next CI change. The peek (waived until
+    #104 merged (2026-11-04). A reviewer of the founder's read the open work (2026-11-04): #66
+    closed by #101 and the word `skin` named as known debt in #101's record, both in its rebase;
+    v0.2.0's notes ("replaces the package before it") untrue for the first release alone, fixed on
+    the release, and `main's tip` kept out of a pull request's Package run
+    ([prompt](../prompts/unrun/ci-release-notes.md), hot, the kit session); #100's stale-green
+    night already answered by #104's tip job; the shapes conflict and #102's role-picked colours
+    (V2's sweep) as known. The peek (waived until
     the title bar's composite); the fifteen held pictures (one recipes pass after V3); one word for
     theme, palette and skin where a weaver sees it (theme, renamed with V4).
 
