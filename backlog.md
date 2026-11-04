@@ -71,11 +71,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Pane Manager's row menu the kit round left; the Hotkeys and palette counts do not move with
   #568. After #559, an audit again. The manuals' recipe shows its own hand (Info inspecting the
   Manual's geometry, Notices listing the commits that placed it); a cleaner composition for a
-  later kit round. The next one, prompted (2026-11-03,
-  [prompt](../prompts/unrun/kit-background-launches.md), warm), run by the founder once the
-  lanes are done: an agent's Workshop kept out of his way (the founder, 2026-11-03: no foreground
-  taken, nothing covered, the two tools that must take it only when a round asks), and the
-  left-behind check judging a report written by its first commit in Zen, not by its file.
+  later kit round. The next one ran (2026-11-03,
+  [report](../reportbacks/kit-background-launches-RB.md)), its review next: an agent's Workshop
+  kept out of his way (no foreground taken, nothing covered, the two tools that must take it only
+  when a round asks), and the left-behind check judging a report by its first commit in Zen.
+  Then a check that marks private words in what a session is about to post, never blocking (the
+  founder, 2026-11-04: an edit after posting keeps the old words in GitHub's history;
+  [prompt](../prompts/unrun/kit-public-words.md), hot).
 - **Accordion lane: stage 2**, as #568 ([report](../reportbacks/accordion-stage-2-RB.md)): the
   group borrows its owner's list and keeps no copy, so a pane's state is the truth; Info's values
   a tree (WL-INFO-16), with Right, Left and Shift+Left. Rebased onto `main` at `c46f3098` and
@@ -278,7 +280,7 @@ Each starts on the founder's word; "wake" is what must be true first.
     2026-11-03 ([V1](../reportbacks/visual-foundation-v1-RB.md),
     [V8](../reportbacks/visual-foundation-v8-RB.md)). #101 merges first, then #102 rebased
     (`tests/shapes.txt`, adjacent lines; [prompt](../prompts/unrun/visual-foundation-v8-rebase.md),
-    hot), which also takes the private workspace out of #101's comment and #102's description.
+    hot). Their texts stay as posted: an edit keeps the old words in GitHub's history.
     Asked, with Vision's leans: the looks (night and day ship, block a tests' fixture, classic
     another word for night; the pool's `own` kept for text and grounds alone, so a terminal shows
     the other colours by nearest ink; into V2); the snake's `1 skin` (kept); the advisory MSVC
