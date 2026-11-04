@@ -71,13 +71,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Pane Manager's row menu the kit round left; the Hotkeys and palette counts do not move with
   #568. After #559, an audit again. The manuals' recipe shows its own hand (Info inspecting the
   Manual's geometry, Notices listing the commits that placed it); a cleaner composition for a
-  later kit round. The next one ran (2026-11-03,
-  [report](../reportbacks/kit-background-launches-RB.md)), its review next: an agent's Workshop
-  kept out of his way (no foreground taken, nothing covered, the two tools that must take it only
-  when a round asks), and the left-behind check judging a report by its first commit in Zen.
-  Then a check that marks private words in what a session is about to post, never blocking (the
-  founder, 2026-11-04: an edit after posting keeps the old words in GitHub's history;
-  [prompt](../prompts/unrun/kit-public-words.md), hot).
+  later kit round. The next two ran and were reviewed (2026-11-04):
+  [background launches](../reportbacks/kit-background-launches-RB.md), the kit in Zen
+  (`08e23581`) and Zengine #103 (the OS window put behind every window on Windows; green on every
+  job, merges clean with #101 and #104, any time): an agent's Workshop opens without the
+  foreground and covers nothing, `winhand.ps1` and `conshot.ps1` take the foreground only under
+  `KIT_FOREGROUND=1` or `-Foreground`, `front.ps1` brings one forward, and the left-behind check
+  counts a report from its first commit. [Private words](../reportbacks/kit-public-words-RB.md)
+  (`891cf87a`): `public-words.py` marks a text before it is posted, never refusing. Asked, with
+  Vision's leans: the flag named for what it now means (`ZENGINE_SDL_BACKGROUND`, in #103 before
+  it merges); next kit round, `behind.ps1` as a guard in the launchers and a `pr-say.sh` route
+  that runs the words check on a pull request's text. The windows branch of #103 is compiled by
+  no hosted job; the night's Windows package build is its first.
 - **Accordion lane: stage 2**, as #568 ([report](../reportbacks/accordion-stage-2-RB.md)): the
   group borrows its owner's list and keeps no copy, so a pane's state is the truth; Info's values
   a tree (WL-INFO-16), with Right, Left and Shift+Left. Rebased onto `main` at `c46f3098` and
