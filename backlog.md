@@ -307,6 +307,9 @@ Each starts on the founder's word; "wake" is what must be true first.
     (V2's sweep) as known. The peek (waived until
     the title bar's composite); the fifteen held pictures (one recipes pass after V3); one word for
     theme, palette and skin where a weaver sees it (theme, renamed with V4).
+    #102 rebased onto `main` (2026-11-04): its sanitizer job killed twice mid-verify by SIGTERM
+    (exit 143) at 64 and 60 minutes, under its 90-minute limit, every step after it skipped; green
+    before the rebase and on `main` that hour; the log not yet read.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
