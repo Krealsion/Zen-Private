@@ -298,8 +298,9 @@ Each starts on the founder's word; "wake" is what must be true first.
     #104 merged (2026-11-04). A reviewer of the founder's read the open work (2026-11-04): #66
     closed by #101 and the word `skin` named as known debt in #101's record, both in its rebase;
     v0.2.0's notes ("replaces the package before it") untrue for the first release alone, fixed on
-    the release, and `main's tip` kept out of a pull request's Package run
-    ([prompt](../prompts/unrun/ci-release-notes.md), hot, the kit session); #100's stale-green
+    the release, and `main's tip` kept out of a pull request's Package run: #105
+    ([report](../reportbacks/ci-release-notes-RB.md), reviewed 2026-11-04, green, merges clean
+    onto `main` with #101 in it; the notes edited); #100's stale-green
     night already answered by #104's tip job; the shapes conflict and #102's role-picked colours
     (V2's sweep) as known. The peek (waived until
     the title bar's composite); the fifteen held pictures (one recipes pass after V3); one word for
