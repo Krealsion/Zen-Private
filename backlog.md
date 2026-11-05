@@ -329,7 +329,14 @@ Each starts on the founder's word; "wake" is what must be true first.
     ([report](../reportbacks/visual-foundation-v2-RB.md), reviewed 2026-11-05), its content ready;
     it follows #102, by its applier from the new start, once the lane's scaling lands
     ([prompt](../prompts/unrun/ci-sanitizer-scale-research.md), warm): its sanitizer job passed its
-    90 minutes, the runners' doubling, not V2's. Asked: a frame in a terminal's own colour.
+    90 minutes, the runners' doubling, not V2's. The founder's calls on it (2026-11-05): `own`
+    named `terminal default`; a pane's ordinary border grey in a terminal; Flow's columns on a
+    second background (`background_alt`, the DO column's old `#20252d`); a terminal matched to
+    what it can show later, with the terminal research: V2 continued once #102 merges
+    ([prompt](../prompts/unrun/visual-foundation-v2-continued.md), hot). The snake's pictures
+    taken in play by a pilot, the first participant an agent runs to play a program for it,
+    playing against the world's own beat and never stepping it, a pause the world honours
+    for a picture ([prompt](../prompts/unrun/snake-pilot.md), warm), after the research.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
