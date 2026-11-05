@@ -310,11 +310,14 @@ Each starts on the founder's word; "wake" is what must be true first.
     #102 rebased onto `main` (2026-11-04): its sanitizer job stopped three times mid-verify by a
     runner shutdown (exit 143), under its 90-minute limit. The job sits at its runner's memory:
     `main` peaks at 15.1 of 16 GB at four jobs, #102 155 MB above it
-    ([report](../reportbacks/visual-foundation-v8-rebase-RB.md)); its fix a CI round of its own,
-    asked. The looks (the founder, 2026-11-04): night and day ship, and block as the terminal
-    look, the one theme that changes how a terminal draws (the tests and the snake keep it; a
-    layer over night or day with V4's `merge`); classic another name for night; `own` for text
-    and grounds alone. V2 prompted ([prompt](../prompts/unrun/visual-foundation-v2.md), warm).
+    ([report](../reportbacks/visual-foundation-v8-rebase-RB.md)); its fix (the founder,
+    2026-11-04): each entry measured, the heaviest apart, three at a time only if none stand out,
+    the peak said and warned past 12 GB
+    ([prompt](../prompts/unrun/ci-sanitizer-memory.md), warm); then #102 rebased. The looks
+    (the founder, 2026-11-04): night and day ship, and block as the terminal look, the one theme
+    that changes how a terminal draws (the tests and the snake keep it; a layer over night or day
+    with V4's `merge`); classic another name for night; `own` for text and grounds alone. V2
+    prompted ([prompt](../prompts/unrun/visual-foundation-v2.md), warm).
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
