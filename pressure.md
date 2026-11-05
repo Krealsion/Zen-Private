@@ -231,14 +231,16 @@ under the same id.
   after a Loom merge; then a `main` run started whenever Loom merges. The sanitizer job after
   #107 took 43 minutes warm on `main`'s push (its verification 40); on #108 (V2) it reached its
   90, a cold build of 39 minutes and the verification still running at 50 (2026-11-05). The
-  founder's direction: scale with the suite, never the limit; researched first
-  ([prompt](../prompts/unrun/ci-sanitizer-scale-research.md), warm).
+  founder's direction: scale with the suite, never the limit; researched
+  ([report](../reportbacks/ci-sanitizer-scale-research-RB.md), reviewed 2026-11-05): the slowest
+  runner's cold job 97 minutes today, 72 with pieces by time and 8-frame stacks, about 47 on
+  two runners split by program; the build round waits on the founder's five calls.
 - **P-BUILD-20** Sixteen suites hold more memory the longer they run, each one test process:
   under ASan Workshop's panes suites reach 5.8 GB (`workshop_panes_project`), so CI's sanitizer
   job runs two of them apart (#107, VM-LANE-27; ci-sanitizer-memory-RB, 2026-11-04). Not the
-  quarantine (256 MB a process); what the cases keep, or the allocator's high water, not looked
-  at. Wakes: the job's memory warning, a third entry apart, or the founder's word; then a
-  research of what the cases keep.
+  quarantine (256 MB a process): ASan's stack depot, each allocation's 30-frame stack kept for
+  good, 8-27 MB a rig; at 8 frames a long suite peaks at 2.2 GB, not 5.7, and catches what 30
+  catches (ci-sanitizer-scale-research-RB, 2026-11-05). Wakes: the founder's call on 8 frames.
 
 ## 6. Loom
 
