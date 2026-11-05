@@ -231,7 +231,8 @@ under the same id.
   after a Loom merge; then a `main` run started whenever Loom merges. The sanitizer job after
   #107 took 43 minutes warm on `main`'s push (its verification 40); on #108 (V2) it reached its
   90, a cold build of 39 minutes and the verification still running at 50 (2026-11-05). The
-  scaling answer is the founder's to take (2026-11-05).
+  founder's direction: scale with the suite, never the limit; researched first
+  ([prompt](../prompts/unrun/ci-sanitizer-scale-research.md), warm).
 - **P-BUILD-20** Sixteen suites hold more memory the longer they run, each one test process:
   under ASan Workshop's panes suites reach 5.8 GB (`workshop_panes_project`), so CI's sanitizer
   job runs two of them apart (#107, VM-LANE-27; ci-sanitizer-memory-RB, 2026-11-04). Not the

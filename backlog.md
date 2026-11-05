@@ -323,7 +323,9 @@ Each starts on the founder's word; "wake" is what must be true first.
     (the founder, 2026-11-04): night and day ship, and block as the terminal look, the one theme
     that changes how a terminal draws (the tests and the snake keep it; a layer over night or day
     with V4's `merge`); classic another name for night; `own` for text and grounds alone. V2
-    prompted ([prompt](../prompts/unrun/visual-foundation-v2.md), warm).
+    prompted ([prompt](../prompts/unrun/visual-foundation-v2.md), warm): #108, its sanitizer job
+    past its 90 minutes, every entry twice #107's times; held for the lane's scaling research
+    ([prompt](../prompts/unrun/ci-sanitizer-scale-research.md), warm) unless a rerun passes.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
