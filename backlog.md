@@ -313,7 +313,10 @@ Each starts on the founder's word; "wake" is what must be true first.
     ([report](../reportbacks/visual-foundation-v8-rebase-RB.md)); its fix (the founder,
     2026-11-04): each entry measured, the heaviest apart, three at a time only if none stand out,
     the peak said and warned past 12 GB
-    ([prompt](../prompts/unrun/ci-sanitizer-memory.md), warm); then #102 rebased. The looks
+    ([prompt](../prompts/unrun/ci-sanitizer-memory.md), warm): #107
+    ([report](../reportbacks/ci-sanitizer-memory-RB.md), reviewed 2026-11-04, ready), the two
+    largest panes suites apart, 6.4 GB on the runner; then #102 rebased
+    ([prompt](../prompts/unrun/visual-foundation-v8-rebase-2.md), hot). The looks
     (the founder, 2026-11-04): night and day ship, and block as the terminal look, the one theme
     that changes how a terminal draws (the tests and the snake keep it; a layer over night or day
     with V4's `merge`); classic another name for night; `own` for text and grounds alone. V2

@@ -229,6 +229,12 @@ under the same id.
   second failure: then an issue.
 - **P-BUILD-14** A Loom merge turns Zengine's runs cold. Wakes: a Zengine run near its limit
   after a Loom merge; then a `main` run started whenever Loom merges.
+- **P-BUILD-20** Sixteen suites hold more memory the longer they run, each one test process:
+  under ASan Workshop's panes suites reach 5.8 GB (`workshop_panes_project`), so CI's sanitizer
+  job runs two of them apart (#107, VM-LANE-27; ci-sanitizer-memory-RB, 2026-11-04). Not the
+  quarantine (256 MB a process); what the cases keep, or the allocator's high water, not looked
+  at. Wakes: the job's memory warning, a third entry apart, or the founder's word; then a
+  research of what the cases keep.
 
 ## 6. Loom
 
