@@ -319,13 +319,17 @@ Each starts on the founder's word; "wake" is what must be true first.
     ([report](../reportbacks/ci-sanitizer-memory-RB.md), reviewed 2026-11-04, merged 2026-11-05,
     `main` green with it), the two
     largest panes suites apart, 6.4 GB on the runner; then #102 rebased
-    ([prompt](../prompts/unrun/visual-foundation-v8-rebase-2.md), hot). The looks
+    ([prompt](../prompts/unrun/visual-foundation-v8-rebase-2.md), hot;
+    [report](../reportbacks/visual-foundation-v8-rebase-2-RB.md), reviewed 2026-11-05, ready: green,
+    its sanitizer job at 88 of its 90 minutes after a rerun for a full disk). The looks
     (the founder, 2026-11-04): night and day ship, and block as the terminal look, the one theme
     that changes how a terminal draws (the tests and the snake keep it; a layer over night or day
     with V4's `merge`); classic another name for night; `own` for text and grounds alone. V2
-    prompted ([prompt](../prompts/unrun/visual-foundation-v2.md), warm): #108, its sanitizer job
-    past its 90 minutes, every entry twice #107's times; held for the lane's scaling research
-    ([prompt](../prompts/unrun/ci-sanitizer-scale-research.md), warm) unless a rerun passes.
+    prompted ([prompt](../prompts/unrun/visual-foundation-v2.md), warm): #108
+    ([report](../reportbacks/visual-foundation-v2-RB.md), reviewed 2026-11-05), its content ready;
+    it follows #102, by its applier from the new start, once the lane's scaling lands
+    ([prompt](../prompts/unrun/ci-sanitizer-scale-research.md), warm): its sanitizer job passed its
+    90 minutes, the runners' doubling, not V2's. Asked: a frame in a terminal's own colour.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion
