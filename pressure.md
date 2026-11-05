@@ -234,13 +234,16 @@ under the same id.
   founder's direction: scale with the suite, never the limit; researched
   ([report](../reportbacks/ci-sanitizer-scale-research-RB.md), reviewed 2026-11-05): the slowest
   runner's cold job 97 minutes today, 72 with pieces by time and 8-frame stacks, about 47 on
-  two runners split by program; the build round waits on the founder's five calls.
+  two runners split by program. The founder took Vision's leans (2026-11-05): eight-frame
+  stacks, the longest cases split, two runners now, 600 s an entry, no `-O1`
+  ([prompt](../prompts/unrun/ci-sanitizer-scale.md), warm).
 - **P-BUILD-20** Sixteen suites hold more memory the longer they run, each one test process:
   under ASan Workshop's panes suites reach 5.8 GB (`workshop_panes_project`), so CI's sanitizer
   job runs two of them apart (#107, VM-LANE-27; ci-sanitizer-memory-RB, 2026-11-04). Not the
   quarantine (256 MB a process): ASan's stack depot, each allocation's 30-frame stack kept for
   good, 8-27 MB a rig; at 8 frames a long suite peaks at 2.2 GB, not 5.7, and catches what 30
-  catches (ci-sanitizer-scale-research-RB, 2026-11-05). Wakes: the founder's call on 8 frames.
+  catches (ci-sanitizer-scale-research-RB, 2026-11-05); 8 frames taken (the founder,
+  2026-11-05), built in ci-sanitizer-scale. Wakes: a long suite's peak climbing again.
 
 ## 6. Loom
 
