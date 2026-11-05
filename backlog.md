@@ -302,7 +302,9 @@ Each starts on the founder's word; "wake" is what must be true first.
     ([report](../reportbacks/ci-release-notes-RB.md), reviewed 2026-11-04, merged; the notes
     edited). Its cost, the reviewer's: the judge runs in no pull request, so one that breaks it
     passes; the judge exercised on fixed cases in every pull request that changes it
-    ([prompt](../prompts/unrun/ci-tip-judge-cases.md), warm). #100's stale-green
+    ([prompt](../prompts/unrun/ci-tip-judge-cases.md), warm): #106
+    ([report](../reportbacks/ci-tip-judge-cases-RB.md), reviewed 2026-11-05, ready), eight
+    cases, one judge; its first live witness the first night after it merges. #100's stale-green
     night already answered by #104's tip job; the shapes conflict and #102's role-picked colours
     (V2's sweep) as known. The peek (waived until
     the title bar's composite); the fifteen held pictures (one recipes pass after V3); one word for
@@ -314,7 +316,8 @@ Each starts on the founder's word; "wake" is what must be true first.
     2026-11-04): each entry measured, the heaviest apart, three at a time only if none stand out,
     the peak said and warned past 12 GB
     ([prompt](../prompts/unrun/ci-sanitizer-memory.md), warm): #107
-    ([report](../reportbacks/ci-sanitizer-memory-RB.md), reviewed 2026-11-04, ready), the two
+    ([report](../reportbacks/ci-sanitizer-memory-RB.md), reviewed 2026-11-04, merged 2026-11-05,
+    `main` green with it), the two
     largest panes suites apart, 6.4 GB on the runner; then #102 rebased
     ([prompt](../prompts/unrun/visual-foundation-v8-rebase-2.md), hot). The looks
     (the founder, 2026-11-04): night and day ship, and block as the terminal look, the one theme

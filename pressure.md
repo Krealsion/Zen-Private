@@ -228,7 +228,9 @@ under the same id.
   (2026-10-28, run 40664013168), after P-BUILD-01 closed; the push runs since are green. Wakes: a
   second failure: then an issue.
 - **P-BUILD-14** A Loom merge turns Zengine's runs cold. Wakes: a Zengine run near its limit
-  after a Loom merge; then a `main` run started whenever Loom merges.
+  after a Loom merge; then a `main` run started whenever Loom merges. The sanitizer job after
+  #107 took 43 minutes warm on `main`'s push (its verification 40), so a cold one, by the
+  measured builds, comes near 81 of its 90 (2026-11-05).
 - **P-BUILD-20** Sixteen suites hold more memory the longer they run, each one test process:
   under ASan Workshop's panes suites reach 5.8 GB (`workshop_panes_project`), so CI's sanitizer
   job runs two of them apart (#107, VM-LANE-27; ci-sanitizer-memory-RB, 2026-11-04). Not the
