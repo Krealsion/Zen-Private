@@ -500,6 +500,14 @@ Each starts on the founder's word; "wake" is what must be true first.
 - Workshop's seven calls, W-1 to W-7 ([review](drafts/research-review-2026-11-03.md),
   2026-11-03), each with Vision's lean; the first closings' prompt waits on W-1, W-2 and W-7.
   The visual foundation's six settled the same day (section 3).
+- An adversarial read of Loom, Zengine and Workshop (the founder's Grinch agent, 2026-11-05,
+  revised with Vision's corrections): gates inside the visual foundation's rest -- the clock
+  (A2) before V5, the interaction contract (A4: gesture streams, a focus chain, dispositions,
+  key routing from declarations against the settled pane-first) before V6 and V7, door-level
+  authored migration edges (A1) and roles on every element before V9 to V11; async causality
+  host-only with an own-origin form for recipients (A5). Cheap now: handler times measured,
+  Neovim's reads off the dispatch thread (`call_now` blocks it up to 2 s, 10 s to adopt or
+  start), the nap between turns rather than inside the Timer's handler.
 - The composer's bare values and optional fields (Loom #31's report, 2026-10-08, not asked since):
   a bare value fills the first field in declaration order, optional or not, so `7` for
   `{limit?: Int, n: Int}` fills `limit` and leaves `n` open, and the reply does not say where `7`
