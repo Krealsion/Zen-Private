@@ -344,6 +344,12 @@ Each starts on the founder's word; "wake" is what must be true first.
     #109 ([report](../reportbacks/snake-pilot-RB.md), reviewed 2026-11-05, ready after #108),
     its place by an exercised replacement (WL-PART-01, asked); onto `main` once #108 merges,
     with the snake's pictures in play ([prompt](../prompts/unrun/snake-pilot-continued.md), hot).
+    #108 merged (2026-11-06). The sanitizer job at scale: #110
+    ([report](../reportbacks/ci-sanitizer-scale-RB.md), reviewed 2026-11-06, ready, clean onto
+    `main`), in before the pilot's continuation; asked: Inventory's view cost (P-WORK-81) and a
+    warning for the builds' memory (P-BUILD-21). The clock's first steps: #111 and #112, their
+    report not yet in, #111's run going; both merge clean onto `main` with #110, and #111 meets
+    the pilot in the snake's CMake list and the population.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion

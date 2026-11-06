@@ -240,7 +240,9 @@ under the same id.
   runner's cold job 97 minutes today, 72 with pieces by time and 8-frame stacks, about 47 on
   two runners split by program. The founder took Vision's leans (2026-11-05): eight-frame
   stacks, the longest cases split, two runners now, 600 s an entry, no `-O1`
-  ([prompt](../prompts/unrun/ci-sanitizer-scale.md), warm).
+  ([prompt](../prompts/unrun/ci-sanitizer-scale.md), warm): #110
+  ([report](../reportbacks/ci-sanitizer-scale-RB.md), reviewed 2026-11-06, ready): panes 28
+  minutes (build 10, verify 17), rest 18 (5 and 12), warm from `main`'s store; leaves on merge.
 - **P-BUILD-20** Sixteen suites hold more memory the longer they run, each one test process:
   under ASan Workshop's panes suites reach 5.8 GB (`workshop_panes_project`), so CI's sanitizer
   job runs two of them apart (#107, VM-LANE-27; ci-sanitizer-memory-RB, 2026-11-04). Not the
@@ -248,6 +250,14 @@ under the same id.
   good, 8-27 MB a rig; at 8 frames a long suite peaks at 2.2 GB, not 5.7, and catches what 30
   catches (ci-sanitizer-scale-research-RB, 2026-11-05); 8 frames taken (the founder,
   2026-11-05), built in ci-sanitizer-scale. Wakes: a long suite's peak climbing again.
+- **P-BUILD-21** (OPEN, asked) The sanitizer builds sit at the runner's memory: the panes build
+  13.3 GB on #110's warm run and 14.5 emulated cold, the rest 9.5 and 13.9, of a runner's 15;
+  said, not warned (ci-sanitizer-scale-RB, 2026-11-06). Next if it bites: the panes program
+  in two, a third runner. Wakes: a build killed, or a peak past 14 GB.
+- **P-WORK-81** (OPEN, asked) Making a view costs more with every view made: Inventory's
+  views case makes 36, 0.2 s for the second and 10 s for the last under ASan (about n^2.7),
+  96 of its 111 s; the growth is Workshop's or Inventory's, not the test's
+  (ci-sanitizer-scale-RB, 2026-11-06). Wakes: a desk of many views.
 
 ## 6. Loom
 
