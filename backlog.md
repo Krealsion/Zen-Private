@@ -27,6 +27,13 @@ item below up to that day.
 Four lanes run at once on three build slots: two work slots at 8 jobs, one final slot at 4
 (constitution section f). WSL has 48 GB.
 
+- **Report-backs land in `Zen/unreviewed/`** (the founder, 2026-11-06): uncommitted until Vision
+  reviews them, then moved into `reportbacks/` and committed (constitution section d, amended).
+  The status overlay rewritten as a board -- the lanes one row a session, the reports to review
+  and prompts unrun, the pull requests and CI, the build slots -- its cleaner retired, the kit
+  taught the landing ([prompt](../prompts/unrun/status-board.md), warm). The clock, view-cost and
+  build-memory rounds reported under the old rule, committed in `reportbacks/`, to review.
+
 - **Relicense to AGPL-3.0-only** (the founder, 2026-11-01), before anything else. Done but its
   loose ends: both histories rewritten so no commit says MPL (plain AGPL until a creations
   exception is drafted, no README note), pushed to the new public repositories and green;
