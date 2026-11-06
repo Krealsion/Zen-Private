@@ -365,7 +365,9 @@ Each starts on the founder's word; "wake" is what must be true first.
     product's, the case unchanged ([prompt](../prompts/unrun/view-cost-research.md), warm); and the
     sanitizer builds warned past 14 GB, in a lane beside them
     ([prompt](../prompts/unrun/ci-sanitizer-build-memory.md), warm). The clock round's
-    continuation reported: #111 and #112 onto `main`, the facet's claim trap in #113, to review.
+    continuation reported: #111 and #112 onto `main`, the facet's claim trap in #113
+    ([report](../reportbacks/time-first-steps-continued-RB.md), reviewed 2026-11-06, all three
+    ready, one tree in any order); the Timer's own claim hook unneeded once #113 is in, one line.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion

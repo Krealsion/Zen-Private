@@ -215,7 +215,8 @@ under the same id.
   after the diff read's last edit, and the public-words run kept with a round's logs; from the
   scale, pilot and clock rounds (2026-11-06) `pieces.sh`, a `--runner` lane mode, a mutation
   driver for script checks, `run-end.sh` saying a run's warnings (#109's budget warning went
-  unreported), `picture.sh retake` from a steady run, `measure.sh`, a Neovim switch recipe.
+  unreported), `picture.sh retake` from a steady run, `measure.sh`, a Neovim switch recipe;
+  `primary.sh second` configuring its WSL tree, and a second copy pushing as the primary does.
   Wakes: the next pass on the process.
 - **P-BUILD-11** A cancelled walk's input session races the next run's ask. Wakes: a job failing
   on it, or a change to the tool's session handling.
