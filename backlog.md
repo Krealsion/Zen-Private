@@ -507,7 +507,8 @@ Each starts on the founder's word; "wake" is what must be true first.
   authored migration edges (A1) and roles on every element before V9 to V11; async causality
   host-only with an own-origin form for recipients (A5). Cheap now: handler times measured,
   Neovim's reads off the dispatch thread (`call_now` blocks it up to 2 s, 10 s to adopt or
-  start), the nap between turns rather than inside the Timer's handler.
+  start), the nap between turns rather than inside the Timer's handler: taken (the founder,
+  2026-11-05; [prompt](../prompts/unrun/time-first-steps.md), warm), input's wire unchanged.
 - The composer's bare values and optional fields (Loom #31's report, 2026-10-08, not asked since):
   a bare value fills the first field in declaration order, optional or not, so `7` for
   `{limit?: Int, n: Int}` fills `limit` and leaves `n` open, and the reply does not say where `7`
