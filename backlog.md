@@ -350,6 +350,15 @@ Each starts on the founder's word; "wake" is what must be true first.
     warning for the builds' memory (P-BUILD-21). The clock's first steps: #111 and #112, their
     report not yet in, #111's run going; both merge clean onto `main` with #110, and #111 meets
     the pilot in the snake's CMake list and the population.
+    #110 merged (2026-11-06). The pilot continued: #109
+    ([report](../reportbacks/snake-pilot-continued-RB.md), reviewed 2026-11-06, ready on today's
+    `main`): the snake's two pictures in play, steady; its test names and rig still say classic
+    (V4's word pass). The clock's first steps: #111 and #112
+    ([report](../reportbacks/time-first-steps-RB.md), reviewed 2026-11-06), their content ready,
+    their runs on `9bc2f646`: onto `main` after #109, with the facet's claim trap fixed
+    ([prompt](../prompts/unrun/time-first-steps-continued.md), hot). Asked: whether the reactor
+    or frame clock (the idle wakes, about 220 a second) is the next round. Not measured: a key in
+    a Neovim pane; the switch asked from the Terminal answered and left the standard Editor.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion

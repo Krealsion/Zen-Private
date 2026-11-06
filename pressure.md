@@ -212,7 +212,10 @@ under the same id.
   From V2 continued and the pilot (2026-11-05): recipes for the three block pictures in a
   terminal, `apply.py --rewrite-patch`, a worktree helper refusing a relative path, `mutate.py`
   building the weave libraries a suite loads, a console's text read as a take, the text checks
-  after the diff read's last edit, and the public-words run kept with a round's logs.
+  after the diff read's last edit, and the public-words run kept with a round's logs; from the
+  scale, pilot and clock rounds (2026-11-06) `pieces.sh`, a `--runner` lane mode, a mutation
+  driver for script checks, `run-end.sh` saying a run's warnings (#109's budget warning went
+  unreported), `picture.sh retake` from a steady run, `measure.sh`, a Neovim switch recipe.
   Wakes: the next pass on the process.
 - **P-BUILD-11** A cancelled walk's input session races the next run's ask. Wakes: a job failing
   on it, or a change to the tool's session handling.
@@ -257,7 +260,12 @@ under the same id.
 - **P-WORK-81** (OPEN, asked) Making a view costs more with every view made: Inventory's
   views case makes 36, 0.2 s for the second and 10 s for the last under ASan (about n^2.7),
   96 of its 111 s; the growth is Workshop's or Inventory's, not the test's
-  (ci-sanitizer-scale-RB, 2026-11-06). Wakes: a desk of many views.
+  (ci-sanitizer-scale-RB, 2026-11-06); the case alone took 607 s on #109's slower panes runner,
+  past the 600 s budget: the first budget warning (2026-11-06). Wakes: a desk of many views.
+- **P-WORK-82** (OPEN, unverified) An editor switch to Neovim asked from the Terminal was
+  answered and left the standard Editor in the office, on `main` and with #111 and #112, and
+  its outcome was not on the Terminal's rows (time-first-steps-RB, 2026-11-06): the harness's
+  ask or a defect. Wakes: the Neovim latency measured, or a weaver's switch that does not take.
 
 ## 6. Loom
 
@@ -282,6 +290,10 @@ under the same id.
   cannot undo it as it leaves: the snake's operator gives back the keys its pilot took. A
   departure notice for an unload, as a swap has its letter, would let the pilot do it. Wakes:
   the next participant that takes something it must give back.
+- **P-LOOM-17** A paint's cause is not in its dispatch ancestry: a text pane's rows are drawn by a
+  weave the key's ancestry never marks, so the bus tally tied 1 of 60 keys to its paint
+  (time-first-steps-RB, 2026-11-06). A paint-cause stamp would be Loom's. Wakes: the frame
+  clock's latencies, or the live trace seed.
 
 ## 7. Adoption
 
