@@ -337,6 +337,12 @@ Each starts on the founder's word; "wake" is what must be true first.
     taken in play by a pilot, the first participant an agent runs to play a program for it,
     playing against the world's own beat and never stepping it, a pause the world honours
     for a picture ([prompt](../prompts/unrun/snake-pilot.md), warm), after the research.
+    V2 continued: #108 ([report](../reportbacks/visual-foundation-v2-continued-RB.md), reviewed
+    2026-11-05, ready: green on every job, its sanitizer job 74 of its 90 minutes); three block
+    pictures in a terminal stale for want of recipes, for the held pictures' pass. The pilot:
+    #109 ([report](../reportbacks/snake-pilot-RB.md), reviewed 2026-11-05, ready after #108),
+    its place by an exercised replacement (WL-PART-01, asked); onto `main` once #108 merges,
+    with the snake's pictures in play ([prompt](../prompts/unrun/snake-pilot-continued.md), hot).
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion

@@ -209,6 +209,10 @@ under the same id.
   (2026-11-03) the facts script asked a third time, a shape's enclosers listed from the shape
   census, `measure.py` kept (its reverse half the text check), a configure-only target graph,
   `kit.sh phase --research` for a session holding no primary, an evidence assembler.
+  From V2 continued and the pilot (2026-11-05): recipes for the three block pictures in a
+  terminal, `apply.py --rewrite-patch`, a worktree helper refusing a relative path, `mutate.py`
+  building the weave libraries a suite loads, a console's text read as a take, the text checks
+  after the diff read's last edit, and the public-words run kept with a round's logs.
   Wakes: the next pass on the process.
 - **P-BUILD-11** A cancelled walk's input session races the next run's ask. Wakes: a job failing
   on it, or a change to the tool's session handling.
@@ -264,6 +268,10 @@ under the same id.
 - **P-LOOM-15** A package built with the WASM backend links Wasmtime by its absolute build path,
   and an MSVC program opening a module needs `wasmtime.dll` beside it, which the package neither
   carries nor names (S4). Wakes: a backend package used off the machine that built it.
+- **P-LOOM-16** Loom tells no weave it is unloaded, so a participant that changed another's state
+  cannot undo it as it leaves: the snake's operator gives back the keys its pilot took. A
+  departure notice for an unload, as a swap has its letter, would let the pilot do it. Wakes:
+  the next participant that takes something it must give back.
 
 ## 7. Adoption
 
