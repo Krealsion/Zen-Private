@@ -359,6 +359,13 @@ Each starts on the founder's word; "wake" is what must be true first.
     ([prompt](../prompts/unrun/time-first-steps-continued.md), hot). Asked: whether the reactor
     or frame clock (the idle wakes, about 220 a second) is the next round. Not measured: a key in
     a Neovim pane; the switch asked from the Terminal answered and left the standard Editor.
+    #109 merged (2026-11-06). The founder took Vision's three leans (2026-11-06): the clock's next
+    round, a reactor or a frame clock, researched first
+    ([prompt](../prompts/unrun/clock-reactor-research.md), warm); the view cost researched as the
+    product's, the case unchanged ([prompt](../prompts/unrun/view-cost-research.md), warm); and the
+    sanitizer builds warned past 14 GB, in a lane beside them
+    ([prompt](../prompts/unrun/ci-sanitizer-build-memory.md), warm). The clock round's
+    continuation reported: #111 and #112 onto `main`, the facet's claim trap in #113, to review.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
   sections (`DesktopState::hotkeys_open`, #486) are a checkpoint: the truth is the accordion

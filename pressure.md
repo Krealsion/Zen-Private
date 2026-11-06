@@ -253,15 +253,18 @@ under the same id.
   good, 8-27 MB a rig; at 8 frames a long suite peaks at 2.2 GB, not 5.7, and catches what 30
   catches (ci-sanitizer-scale-research-RB, 2026-11-05); 8 frames taken (the founder,
   2026-11-05), built in ci-sanitizer-scale. Wakes: a long suite's peak climbing again.
-- **P-BUILD-21** (OPEN, asked) The sanitizer builds sit at the runner's memory: the panes build
+- **P-BUILD-21** (ACT) The sanitizer builds sit at the runner's memory: the panes build
   13.3 GB on #110's warm run and 14.5 emulated cold, the rest 9.5 and 13.9, of a runner's 15;
   said, not warned (ci-sanitizer-scale-RB, 2026-11-06). Next if it bites: the panes program
-  in two, a third runner. Wakes: a build killed, or a peak past 14 GB.
-- **P-WORK-81** (OPEN, asked) Making a view costs more with every view made: Inventory's
+  in two, a third runner. Warned past 14 GB (the founder, 2026-11-06), prompted (warm).
+  Wakes: a build killed, or a peak past 14 GB.
+- **P-WORK-81** (ACT) Making a view costs more with every view made: Inventory's
   views case makes 36, 0.2 s for the second and 10 s for the last under ASan (about n^2.7),
   96 of its 111 s; the growth is Workshop's or Inventory's, not the test's
   (ci-sanitizer-scale-RB, 2026-11-06); the case alone took 607 s on #109's slower panes runner,
-  past the 600 s budget: the first budget warning (2026-11-06). Wakes: a desk of many views.
+  past the 600 s budget: the first budget warning (2026-11-06). The product's to remove,
+  researched first (the founder, 2026-11-06; view-cost-research, warm); P-WORK-50 its
+  history. Wakes: a desk of many views.
 - **P-WORK-82** (OPEN, unverified) An editor switch to Neovim asked from the Terminal was
   answered and left the standard Editor in the office, on `main` and with #111 and #112, and
   its outcome was not on the Terminal's rows (time-first-steps-RB, 2026-11-06): the harness's
