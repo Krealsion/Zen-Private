@@ -308,7 +308,8 @@ Each starts on the founder's word; "wake" is what must be true first.
     night already answered by #104's tip job; the shapes conflict and #102's role-picked colours
     (V2's sweep) as known. The peek (waived until
     the title bar's composite); the fifteen held pictures (one recipes pass after V3); one word for
-    theme, palette and skin where a weaver sees it (theme, renamed with V4).
+    theme, palette and skin where a weaver sees it (theme, renamed with V4; block's summary
+    still says "classic's light").
     #102 rebased onto `main` (2026-11-04): its sanitizer job stopped three times mid-verify by a
     runner shutdown (exit 143), under its 90-minute limit. The job sits at its runner's memory:
     `main` peaks at 15.1 of 16 GB at four jobs, #102 155 MB above it
