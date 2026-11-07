@@ -171,6 +171,14 @@ under the same id.
   it can land after the resume, a step one pace early. A binding that rests and wakes, or a pause
   and resume that keep the id and refuse a stale firing, would make it one line. Wakes: the
   reactor's round, or the next weave to hand-write it.
+- **P-WORK-85** (SEED) Game time (the founder, 2026-11-07): no part of Zen reads the OS clock but
+  the Timer, and every other part gets time from it, so time can run, pause, slow or jump. Today the
+  Timer reads the OS clock (`MonotonicClock`) and about a dozen places read it themselves (the
+  Neovim pane's bounds, Workshop's interaction time, the Input office's `Now`, Flow's pane, Info's
+  and Inventory's timestamps); only the four suites' virtual clock jumps. Two kinds of time, as
+  engines keep: real time for what meets the outside world (a double-click, a key repeat, Neovim's
+  bound, a timeout, a date), and a world's own time (the snake's), which pausing stops. Wakes: the
+  frame clock's round, the first consumer of time at a cadence.
 - **P-WORK-84** An SDL window on Linux keeps its 10 ms beat under the reactor: X11 and Wayland
   expose their display connection's descriptor through SDL's window properties, which the window
   could claim once SDL runs on a real display there (reactor-RB, 2026-11-07). Wakes: Workshop in a
