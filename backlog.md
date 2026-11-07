@@ -41,12 +41,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   The view cost ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
   view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
   declares only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
-- **The visual foundation's V3, V4 and the held pictures** (the founder, 2026-11-07):
-  [V3](../prompts/visual-foundation-v3.md) running from #116's tip, the chain ended after it (the
-  founder: V4 in it no longer worth it); [V4](../prompts/unrun/visual-foundation-v4.md) and [the
-  held pictures](../prompts/unrun/visual-foundation-pictures.md), warm lanes of their own, each on
-  V3's work (`main` once V3 merges, else V3's branch, a draft rebased as V3 merges). Merge order:
-  #116, V3, then V4 and the pictures, a picture both change retaken by the second.
+- **The visual foundation's V3, V4 and the held pictures** (the founder, 2026-11-07): V3 is #118
+  ([report](../reportbacks/visual-foundation-v3-RB.md), reviewed 2026-11-07, ready on `main`, green
+  on every job, closes Zengine#1): every character drawn, from JetBrains Mono, the platform's fonts,
+  then Unifont, about 11 MB of faces embedded (approved in its session). V4 is #117, a draft on V3's
+  branch, its report in `unreviewed/`; [the held pictures](../prompts/visual-foundation-pictures.md)
+  running on V3's branch. Merge order: V3, then V4 and the pictures, a picture both change retaken
+  by the second.
 - **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
   re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
   wrong phase makes another's folders read as the session's own to `kit.sh end --clear`. A
@@ -781,6 +782,11 @@ install, the restore notice (Notices keeps every notice; reasoned).
   (reactor-RB, after review, 2026-11-07): a header a public header includes is the package's too;
   `tip-wsl.sh --package` the cheap way to ask. Owner: the standard delivery (constitution c) or the
   kit's README beside `tip-wsl.sh`.
+- V3's leftovers (visual-foundation-v3-RB, reviewed 2026-11-07): ASCII projections outside its 24
+  files still draw `?` past ASCII and count bytes (Files' `shown_name` and its path test,
+  Introspection's `powers_detail::printable`, Flow's `clean`, Neovim's `ascii_of`,
+  `workshop/path_admission.hpp`), each its owner's change; pane code that measures labels and rule
+  lines by `size()`; the Terminal's manual sections at their 2,048-byte budgets.
 - A suite does not build the weaves it loads: `zengine-tests` names `snake-world-v1` through
   `$<TARGET_FILE:...>`, which adds no build dependency, so building the suite's program alone ran an
   old library against new tests (beats-with-work-RB, 2026-11-07); `tests/CMakeLists.txt` could
