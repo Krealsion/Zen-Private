@@ -40,6 +40,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   The view cost ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
   view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
   declares only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
+- **The visual foundation's V3 then V4, one lane, a chain** (the founder, 2026-11-07):
+  [V3](../prompts/unrun/visual-foundation-v3.md), warm, from #116's tip, then
+  [V4](../prompts/unrun/visual-foundation-v4.md), hot, from V3's branch, in one session; each a
+  draft pull request on its parent's branch, rebased onto `main` and marked ready as its parent
+  merges. Merge order: #116, V3, V4. The second runs only if the first ended green.
 - **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
   re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
   wrong phase makes another's folders read as the session's own to `kit.sh end --clear`. A
