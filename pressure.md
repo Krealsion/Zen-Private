@@ -48,7 +48,7 @@ under the same id.
   connection admission, attributable remote participation, and scoped access for the test
   consumer; not the approve-or-refuse popup, nor a universal identity system.
 - **P-WORK-86** (ACT) Flow times a double press by the steady clock it reads itself
-  (`flow/flow-pane/pane.cpp`, 400 ms; P-WORK-77's part, now biting): red five times on
+  (`flow/flow-pane/pane.cpp`, 400 ms; P-WORK-77's part, now biting): red six times on
   2026-11-07, #119's ASan rest in four attempts of four and #117 once there and once on the
   advisory MSVC, each a change Flow's case does not reach. Owner: S1, the window counting clicks;
   `AreaButtonChanged` (version 3) carries neither a time nor a count.
