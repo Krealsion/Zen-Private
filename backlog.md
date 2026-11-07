@@ -40,13 +40,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   The view cost ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
   view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
   declares only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
-- **The visual foundation's chain, one lane, three stages** (the founder, 2026-11-07, a test of
-  chaining): [V3](../prompts/unrun/visual-foundation-v3.md), warm, from #116's tip;
-  [V4](../prompts/unrun/visual-foundation-v4.md), hot, from V3's branch; [the held
-  pictures](../prompts/unrun/visual-foundation-pictures.md), hot, from V4's branch: the held
-  pictures' one recipes pass after V3. One session; each a draft pull request on its parent's
-  branch, rebased onto `main` and marked ready as its parent merges; each runs only if the one
-  before ended green or red only where its parents are. Merge order: #116, V3, V4, the pictures.
+- **The visual foundation's V3, V4 and the held pictures** (the founder, 2026-11-07):
+  [V3](../prompts/visual-foundation-v3.md) running from #116's tip, the chain ended after it (the
+  founder: V4 in it no longer worth it); [V4](../prompts/unrun/visual-foundation-v4.md) and [the
+  held pictures](../prompts/unrun/visual-foundation-pictures.md), warm lanes of their own, each on
+  V3's work (`main` once V3 merges, else V3's branch, a draft rebased as V3 merges). Merge order:
+  #116, V3, then V4 and the pictures, a picture both change retaken by the second.
 - **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
   re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
   wrong phase makes another's folders read as the session's own to `kit.sh end --clear`. A
