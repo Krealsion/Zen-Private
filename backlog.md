@@ -34,8 +34,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   linked or not, and a key waits under a millisecond on Windows, about one on Linux. Next, once both
   merge: the frame clock's prompt, its beat 16 ms, a change outside a look presented at once, a
   frame's time read through the clock its host wires, with research on game time beside it
-  (P-WORK-85; the founder, 2026-11-07); threads kept possible (P-LOOM-19). #116 is fixing an
-  MSVC-only failure (2026-11-07). The
+  (P-WORK-85; the founder, 2026-11-07); threads kept possible (P-LOOM-19). Loom#5 merged; #116's
+  MSVC fault and the package's missing header fixed (`bc46eaa5`, `5a5a61af`), green on every
+  job and its Package run, reviewed 2026-11-07: ready. The
   research: [report](../reportbacks/clock-reactor-research-RB.md). The build warning, #114, merged.
   The view cost ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
   view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
@@ -775,6 +776,11 @@ install, the restore notice (Notices keeps every notice; reasoned).
   source must drop from its claim a handle it can no longer drain, an ended pipe, since the wait's
   guard cannot see one claimed anew; on a classic console a resize of the height alone may send no
   record (`graphics/docs/zengine.window.terminal.md`).
+- The installed-package witness ran only where rule 6 asked, and the reactor round judged its
+  headers did not reach the package, though a public header it changed included a new one
+  (reactor-RB, after review, 2026-11-07): a header a public header includes is the package's too;
+  `tip-wsl.sh --package` the cheap way to ask. Owner: the standard delivery (constitution c) or the
+  kit's README beside `tip-wsl.sh`.
 - A suite does not build the weaves it loads: `zengine-tests` names `snake-world-v1` through
   `$<TARGET_FILE:...>`, which adds no build dependency, so building the suite's program alone ran an
   old library against new tests (beats-with-work-RB, 2026-11-07); `tests/CMakeLists.txt` could

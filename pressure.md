@@ -282,7 +282,8 @@ under the same id.
   views case makes 36, 0.2 s for the second and 10 s for the last under ASan (about n^2.7),
   96 of its 111 s; the growth is Workshop's or Inventory's, not the test's
   (ci-sanitizer-scale-RB, 2026-11-06); the case alone took 607 s on #109's slower panes runner,
-  past the 600 s budget: the first budget warning (2026-11-06). The product's to remove,
+  past the 600 s budget: the first budget warning (2026-11-06), again 602.91 s on #116's run
+  (2026-11-07). The product's to remove,
   researched (view-cost-research-RB, 2026-11-06): n declarations a view made, a repaint
   each, the desk solved once a pane, eight settles a pane; R1 to R8 measured, 43 s to
   4 s Debug; P-WORK-50 its history. Wakes: a desk of many views.
