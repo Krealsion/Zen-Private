@@ -28,19 +28,20 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 (constitution section f). WSL has 48 GB.
 
 - **The clock's rounds run** (the founder, 2026-11-06):
-  [beats-with-work](../prompts/beats-with-work.md) and [reactor](../prompts/reactor.md), both warm,
-  side by side, beats-with-work merging first. The research
+  [beats-with-work](../prompts/beats-with-work.md) reviewed 2026-11-07
+  ([report](../reportbacks/beats-with-work-RB.md)), #115 green and clean, ready, merging first;
+  [reactor](../prompts/reactor.md), warm, running. The research
   ([report](../reportbacks/clock-reactor-research-RB.md)): one wait on every source takes an idle
   Workshop from 300 turns a second to 1. Taken, the reviewed design with Vision's leans: beats with
   work, the reactor, then the frame clock, all before V5; the wait set a claim; the one wait Loom's,
   beside `LineInput` and `BridgeServer`, in the reactor's round; the rest capped at 1 s; the frame
   clock's beat 16 ms, a change outside a look presented at once; threads kept possible (P-LOOM-19).
   The frame clock's prompt after the reactor reports, a frame's time read through the clock its host
-  wires. The build warning, #114 ([report](../reportbacks/ci-sanitizer-build-memory-RB.md)): no
-  longer open, Zengine `main` at `67058f51` and green (the board, 2026-11-07). The view cost
-  ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every view at each
-  change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory declares
-  only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
+  wires. The build warning, #114 ([report](../reportbacks/ci-sanitizer-build-memory-RB.md)): merged,
+  Zengine `main` at `67058f51`. The view cost ([report](../reportbacks/view-cost-research-RB.md)):
+  Inventory re-declares every view at each change, Workshop repaints per declaration and solves the
+  desk per pane; R1 (Inventory declares only changes) now; asked: R7's shape (Vision's lean: Loom's
+  after-turn hook) and R8.
 - **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
   re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
   wrong phase makes another's folders read as the session's own to `kit.sh end --clear`. A
@@ -758,8 +759,14 @@ install, the restore notice (Notices keeps every notice; reasoned).
 - An issue to shorten `neovim_journey`, set aside.
 - Doc gaps not located on `main` from these words (2026-10-29): `AGENTS.md`'s floor wording (now
   the sum over four); doctest's `--duration` on WSL's stepped clock.
-- The kit: the mutation script could count each mutant's text before building; a probe helper,
-  asked twice.
+- The kit: the mutation script could count each mutant's text before building; a probe helper, asked
+  twice. From beats-with-work-RB (2026-11-07): `case-wsl.sh` passes a `-tc` filter with a comma,
+  which doctest splits; `mutate.sh` runs while a lane builds the same copy; `run-end.sh` ends on one
+  network timeout.
+- A suite does not build the weaves it loads: `zengine-tests` names `snake-world-v1` through
+  `$<TARGET_FILE:...>`, which adds no build dependency, so building the suite's program alone ran an
+  old library against new tests (beats-with-work-RB, 2026-11-07); `tests/CMakeLists.txt` could
+  `add_dependencies` each suite on the libraries its definitions name.
 - A rows pane draws its caret whether or not it holds the keys, so with every box shown two
   carets stand at once (Loaded's empty box beside the Terminal's line, #593's picture).
 - `story_journey`'s U7, a 0.5 s wait in the tower-defense story driver, ran out on a slow

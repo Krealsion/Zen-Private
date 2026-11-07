@@ -165,6 +165,12 @@ under the same id.
 - **P-WORK-69** Every message carries its shape's whole name. Wakes: the bus's bytes mattering.
 - **P-WORK-70** Every message waits out the Timer's nap. Wakes: the first window whose input
   should show at once, or a key's latency measured.
+- **P-WORK-83** The Timer has no beat that rests without work: the Builder, the editor switch,
+  Flow's clock and the snake's world each hand-write giving a beat up and asking again
+  (beats-with-work-RB, 2026-11-07). The snake keeps one id across a pause, so a firing queued before
+  it can land after the resume, a step one pace early. A binding that rests and wakes, or a pause
+  and resume that keep the id and refuse a stale firing, would make it one line. Wakes: the
+  reactor's round, or the next weave to hand-write it.
 - **P-WORK-71** A weave cannot hand a device to its next instance. Wakes: the SDL window stage,
   or a weave holding a device across a reload.
 - **P-WORK-78** A package's name is the only unit of reach: three reaches ride on suffixes (a
