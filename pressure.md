@@ -311,7 +311,9 @@ under the same id.
   unchanged, or runs the delivery itself. Dispatch stays single-threaded (MSG-01). It needs
   effects held for the commit, a weave's whole state in its shape, native weaves opting in to
   other threads, and every read recorded by the mechanism, a send's `Ticket` among them. Wakes:
-  the reactor's round (a wake any thread can set; the frame tick carrying its time).
+  the reactor's round (a thread beside the dispatch thread can end the wait); the frame clock's
+  (a frame's time read through the clock its host wires, so a prepared frame can be handed its
+  due time; time stays an argument, never on a wire).
 
 ## 7. Adoption
 

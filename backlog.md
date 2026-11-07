@@ -28,19 +28,24 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 (constitution section f). WSL has 48 GB.
 
 - **Report-backs land in `Zen/unreviewed/`** (the founder, 2026-11-06): uncommitted until Vision
-  reviews them, then moved into `reportbacks/` and committed (constitution section d, amended).
-  The status overlay rewritten as a board -- the lanes one row a session, the reports to review
-  and prompts unrun, the pull requests and CI, the build slots -- its cleaner retired, the kit
-  taught the landing ([prompt](../prompts/unrun/status-board.md), warm). The clock, view-cost and
-  build-memory rounds reported under the old rule, committed in `reportbacks/`; reviewed
-  2026-11-06. The build warning: #114 ([report](../reportbacks/ci-sanitizer-build-memory-RB.md)),
-  ready. The clock's next round ([report](../reportbacks/clock-reactor-research-RB.md)): one wait
-  on every source takes an idle Workshop from 300 turns a second to 1; asked: the order, the wait
-  set as a claim, Loom's round now, the 16 ms beat, the rest's cap, and where the one wait lives
-  (Vision's lean: in Loom, beside `LineInput` and `BridgeServer`). The view cost
-  ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every view at each
-  change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory declares
-  only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
+  reviews them, then moved into `reportbacks/` and committed (constitution section d, amended). The
+  status overlay rewritten as a board -- the lanes one row a session, the reports to review and
+  prompts unrun, the pull requests and CI, the build slots -- its cleaner retired, the kit taught
+  the landing ([prompt](../prompts/status-board.md), warm); reported 2026-11-07, waiting in
+  `unreviewed/`. The clock, view-cost and build-memory rounds reported under the old rule, committed
+  in `reportbacks/`; reviewed 2026-11-06. The build warning: #114
+  ([report](../reportbacks/ci-sanitizer-build-memory-RB.md)), ready. The clock's next round
+  ([report](../reportbacks/clock-reactor-research-RB.md)): one wait on every source takes an idle
+  Workshop from 300 turns a second to 1. Taken (the founder, 2026-11-06, the reviewed design with
+  Vision's leans): beats with work, the reactor, then the frame clock, all before V5; the wait set a
+  claim; the one wait Loom's, beside `LineInput` and `BridgeServer`, in the reactor's round; the
+  rest capped at 1 s; the frame clock's beat 16 ms, a change outside a look presented at once;
+  threads kept possible (P-LOOM-19). Prompts, warm, side by side:
+  [beats-with-work](../prompts/unrun/beats-with-work.md) and [reactor](../prompts/unrun/reactor.md);
+  the frame clock's after the reactor reports, a frame's time read through the clock its host wires.
+  The view cost ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
+  view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
+  declares only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
 - **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
   re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
   wrong phase makes another's folders read as the session's own to `kit.sh end --clear`.
