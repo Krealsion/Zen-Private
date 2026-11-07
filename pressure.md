@@ -272,6 +272,10 @@ under the same id.
   answered and left the standard Editor in the office, on `main` and with #111 and #112, and
   its outcome was not on the Terminal's rows (time-first-steps-RB, 2026-11-06): the harness's
   ask or a defect. Wakes: the Neovim latency measured, or a weaver's switch that does not take.
+- **P-BUILD-22** A WSL process started while the distribution boots is ended once it has booted
+  (status-board-RB, 2026-11-07, the board's slots case; cause not established): a kit helper that
+  starts a detached WSL process right after WSL starts could lose it the same way. None seen
+  affected. Wakes: a kit helper's WSL process that vanishes on a cold start.
 
 ## 6. Loom
 

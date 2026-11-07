@@ -27,28 +27,26 @@ item below up to that day.
 Four lanes run at once on three build slots: two work slots at 8 jobs, one final slot at 4
 (constitution section f). WSL has 48 GB.
 
-- **Report-backs land in `Zen/unreviewed/`** (the founder, 2026-11-06): uncommitted until Vision
-  reviews them, then moved into `reportbacks/` and committed (constitution section d, amended). The
-  status overlay rewritten as a board -- the lanes one row a session, the reports to review and
-  prompts unrun, the pull requests and CI, the build slots -- its cleaner retired, the kit taught
-  the landing ([prompt](../prompts/status-board.md), warm); reported 2026-11-07, waiting in
-  `unreviewed/`. The clock, view-cost and build-memory rounds reported under the old rule, committed
-  in `reportbacks/`; reviewed 2026-11-06. The build warning: #114
-  ([report](../reportbacks/ci-sanitizer-build-memory-RB.md)), ready. The clock's next round
+- **The clock's rounds run** (the founder, 2026-11-06):
+  [beats-with-work](../prompts/beats-with-work.md) and [reactor](../prompts/reactor.md), both warm,
+  side by side, beats-with-work merging first. The research
   ([report](../reportbacks/clock-reactor-research-RB.md)): one wait on every source takes an idle
-  Workshop from 300 turns a second to 1. Taken (the founder, 2026-11-06, the reviewed design with
-  Vision's leans): beats with work, the reactor, then the frame clock, all before V5; the wait set a
-  claim; the one wait Loom's, beside `LineInput` and `BridgeServer`, in the reactor's round; the
-  rest capped at 1 s; the frame clock's beat 16 ms, a change outside a look presented at once;
-  threads kept possible (P-LOOM-19). Prompts, warm, side by side:
-  [beats-with-work](../prompts/unrun/beats-with-work.md) and [reactor](../prompts/unrun/reactor.md);
-  the frame clock's after the reactor reports, a frame's time read through the clock its host wires.
-  The view cost ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
-  view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
-  declares only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
+  Workshop from 300 turns a second to 1. Taken, the reviewed design with Vision's leans: beats with
+  work, the reactor, then the frame clock, all before V5; the wait set a claim; the one wait Loom's,
+  beside `LineInput` and `BridgeServer`, in the reactor's round; the rest capped at 1 s; the frame
+  clock's beat 16 ms, a change outside a look presented at once; threads kept possible (P-LOOM-19).
+  The frame clock's prompt after the reactor reports, a frame's time read through the clock its host
+  wires. The build warning, #114 ([report](../reportbacks/ci-sanitizer-build-memory-RB.md)): no
+  longer open, Zengine `main` at `67058f51` and green (the board, 2026-11-07). The view cost
+  ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every view at each
+  change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory declares
+  only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
 - **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
   re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
-  wrong phase makes another's folders read as the session's own to `kit.sh end --clear`.
+  wrong phase makes another's folders read as the session's own to `kit.sh end --clear`. A
+  session beside the phase cannot say its start without writing it (status-board-RB, which
+  asks for a `kit.sh start`, and a `kit.sh slot --look` that reads without removing dead
+  tickets). Its round asked, not yet written.
 
 - **Relicense to AGPL-3.0-only** (the founder, 2026-11-01), before anything else. Done but its
   loose ends: both histories rewritten so no commit says MPL (plain AGPL until a creations
@@ -535,6 +533,10 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 4. Standing duties and watches
 
+- **Report-backs land in `Zen/unreviewed/`** (the founder, 2026-11-06; constitution section d):
+  Vision reviews each, moves it with its evidence and folders into `reportbacks/`, and commits it.
+  The status board shows the lanes, what waits for review, the pull requests and the slots
+  ([report](../reportbacks/status-board-RB.md), reviewed 2026-11-07).
 - **Workshop and onboarding grow together** (BL-WORK-01): repeated friction gets a better
   interaction or a true explanation; mandatory before inviting outside contributors.
 - **A front door for human contributors** (BL-ADOPT-01): installed prefixes, IDE discovery, the
