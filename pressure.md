@@ -257,15 +257,17 @@ under the same id.
 - **P-BUILD-21** (ACT) The sanitizer builds sit at the runner's memory: the panes build
   13.3 GB on #110's warm run and 14.5 emulated cold, the rest 9.5 and 13.9, of a runner's 15;
   said, not warned (ci-sanitizer-scale-RB, 2026-11-06). Next if it bites: the panes program
-  in two, a third runner. Warned past 14 GB (the founder, 2026-11-06), prompted (warm).
+  in two, a third runner. Warned past 14 GB (the founder, 2026-11-06): #114, ready; its
+  warm run peaked 13.4 and 12.3 GB, a cold panes build the likeliest first warning.
   Wakes: a build killed, or a peak past 14 GB.
 - **P-WORK-81** (ACT) Making a view costs more with every view made: Inventory's
   views case makes 36, 0.2 s for the second and 10 s for the last under ASan (about n^2.7),
   96 of its 111 s; the growth is Workshop's or Inventory's, not the test's
   (ci-sanitizer-scale-RB, 2026-11-06); the case alone took 607 s on #109's slower panes runner,
   past the 600 s budget: the first budget warning (2026-11-06). The product's to remove,
-  researched first (the founder, 2026-11-06; view-cost-research, warm); P-WORK-50 its
-  history. Wakes: a desk of many views.
+  researched (view-cost-research-RB, 2026-11-06): n declarations a view made, a repaint
+  each, the desk solved once a pane, eight settles a pane; R1 to R8 measured, 43 s to
+  4 s Debug; P-WORK-50 its history. Wakes: a desk of many views.
 - **P-WORK-82** (OPEN, unverified) An editor switch to Neovim asked from the Terminal was
   answered and left the standard Editor in the office, on `main` and with #111 and #112, and
   its outcome was not on the Terminal's rows (time-first-steps-RB, 2026-11-06): the harness's
@@ -298,6 +300,11 @@ under the same id.
   weave the key's ancestry never marks, so the bus tally tied 1 of 60 keys to its paint
   (time-first-steps-RB, 2026-11-06). A paint-cause stamp would be Loom's. Wakes: the frame
   clock's latencies, or the live trace seed.
+- **P-LOOM-18** A reactor cannot see `BridgeServer` or `LineInput` from outside Loom: an admitted
+  connection's socket is the server's alone and its answers wait for the next `service()`,
+  and the line reader keeps its own thread (clock-reactor-research-RB, 2026-11-06). Loom
+  has no after-turn either: a weave that repaints per message pays per message
+  (view-cost-research-RB). Wakes: the reactor's round, or R7's shape.
 
 ## 7. Adoption
 

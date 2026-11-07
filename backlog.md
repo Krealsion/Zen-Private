@@ -32,7 +32,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   The status overlay rewritten as a board -- the lanes one row a session, the reports to review
   and prompts unrun, the pull requests and CI, the build slots -- its cleaner retired, the kit
   taught the landing ([prompt](../prompts/unrun/status-board.md), warm). The clock, view-cost and
-  build-memory rounds reported under the old rule, committed in `reportbacks/`, to review.
+  build-memory rounds reported under the old rule, committed in `reportbacks/`; reviewed
+  2026-11-06. The build warning: #114 ([report](../reportbacks/ci-sanitizer-build-memory-RB.md)),
+  ready. The clock's next round ([report](../reportbacks/clock-reactor-research-RB.md)): one wait
+  on every source takes an idle Workshop from 300 turns a second to 1; asked: the order, the wait
+  set as a claim, Loom's round now, the 16 ms beat, the rest's cap, and where the one wait lives
+  (Vision's lean: in Loom, beside `LineInput` and `BridgeServer`). The view cost
+  ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every view at each
+  change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory declares
+  only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
+- **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
+  re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
+  wrong phase makes another's folders read as the session's own to `kit.sh end --clear`.
 
 - **Relicense to AGPL-3.0-only** (the founder, 2026-11-01), before anything else. Done but its
   loose ends: both histories rewritten so no commit says MPL (plain AGPL until a creations
