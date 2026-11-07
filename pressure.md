@@ -171,6 +171,10 @@ under the same id.
   it can land after the resume, a step one pace early. A binding that rests and wakes, or a pause
   and resume that keep the id and refuse a stale firing, would make it one line. Wakes: the
   reactor's round, or the next weave to hand-write it.
+- **P-WORK-84** An SDL window on Linux keeps its 10 ms beat under the reactor: X11 and Wayland
+  expose their display connection's descriptor through SDL's window properties, which the window
+  could claim once SDL runs on a real display there (reactor-RB, 2026-11-07). Wakes: Workshop in a
+  window on Linux.
 - **P-WORK-71** A weave cannot hand a device to its next instance. Wakes: the SDL window stage,
   or a weave holding a device across a reload.
 - **P-WORK-78** A package's name is the only unit of reach: three reaches ride on suffixes (a
@@ -310,20 +314,25 @@ under the same id.
   weave the key's ancestry never marks, so the bus tally tied 1 of 60 keys to its paint
   (time-first-steps-RB, 2026-11-06). A paint-cause stamp would be Loom's. Wakes: the frame
   clock's latencies, or the live trace seed.
-- **P-LOOM-18** A reactor cannot see `BridgeServer` or `LineInput` from outside Loom: an admitted
-  connection's socket is the server's alone and its answers wait for the next `service()`,
-  and the line reader keeps its own thread (clock-reactor-research-RB, 2026-11-06). Loom
-  has no after-turn either: a weave that repaints per message pays per message
-  (view-cost-research-RB). Wakes: the reactor's round, or R7's shape.
-- **P-LOOM-19** (SEED) Prepared turns (the founder, 2026-11-06): any number of threads run a
-  pending delivery's handler early on a copy of its weave's state and hold the new state and
-  mail; the dispatch thread applies it in FIFO order only if everything the handler read is
-  unchanged, or runs the delivery itself. Dispatch stays single-threaded (MSG-01). It needs
-  effects held for the commit, a weave's whole state in its shape, native weaves opting in to
-  other threads, and every read recorded by the mechanism, a send's `Ticket` among them. Wakes:
-  the reactor's round (a thread beside the dispatch thread can end the wait); the frame clock's
-  (a frame's time read through the clock its host wires, so a prepared frame can be handed its
-  due time; time stays an argument, never on a wire).
+- **P-LOOM-18** Loom has no after-turn: a weave that repaints per message pays per message
+  (view-cost-research-RB, 2026-11-06). Its other half, a reactor that could not see `BridgeServer`
+  or `LineInput` from outside Loom, is Loom#5's (`BridgeServer::wait_set`, `LineInput::wait_set`;
+  reactor-RB, 2026-11-07). Wakes: R7's shape.
+- **P-LOOM-19** (SEED) Prepared turns (the founder, 2026-11-06): any number of threads run a pending
+  delivery's handler early on a copy of its weave's state and hold the new state and mail; the
+  dispatch thread applies it in FIFO order only if everything the handler read is unchanged, or runs
+  the delivery itself. Dispatch stays single-threaded (MSG-01). It needs effects held for the
+  commit, a weave's whole state in its shape, native weaves opting in to other threads, and every
+  read recorded by the mechanism, a send's `Ticket` among them. What the reactor built that would
+  have to change first (reactor-RB, 2026-11-07): a source's settle touches the OS from its handler
+  (a console reader's mode); what a source knows of the wait lives outside its state (`HeldBeat`,
+  the beat's handle); the wait's guard reads a claim's revision as progress; `Reactor::watch` takes
+  only a console, so a worker's finished result has no general way to end the wait. Wakes: the frame
+  clock's round (a frame's time read through the clock its host wires, so a prepared frame can be
+  handed its due time; time stays an argument, never on a wire).
+- **P-LOOM-20** `loom-host --serve` still naps 5 ms at a time: it could rest in the one wait over
+  its door (`BridgeServer::wait_set`) and its console (reactor-RB, 2026-11-07). Wakes: the next
+  change to `loom-host`'s loop.
 
 ## 7. Adoption
 
