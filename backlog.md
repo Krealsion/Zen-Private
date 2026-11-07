@@ -42,13 +42,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
   declares only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
 - **The visual foundation's V4 and the held pictures** (the founder, 2026-11-07): V3, #118,
-  merged as `4dba5cb2` ([report](../reportbacks/visual-foundation-v3-RB.md), closes Zengine#1):
-  every character drawn, from JetBrains Mono, the platform's fonts, then Unifont, about 11 MB of
-  faces embedded (approved in its session). V4 is #117, rebasing onto `main` at the founder's word,
-  its report in `unreviewed/`; [the held pictures](../prompts/visual-foundation-pictures.md)
-  running, its pull request onto `main` now V3 has merged; its audit owes
-  `files-name-beyond-ascii-window.png`, taken 2026-10-28 when Files spelled a byte a `?`. Merge
-  order: V4 and the pictures, a picture both change retaken by the second.
+  merged as `4dba5cb2` ([report](../reportbacks/visual-foundation-v3-RB.md), closes Zengine#1).
+  V4 is #117 ([report](../reportbacks/visual-foundation-v4-RB.md), reviewed 2026-11-07): ready on
+  `main`, every required job green, the advisory MSVC red on Flow's double press (P-WORK-86). The
+  held pictures are #119 ([report](../reportbacks/visual-foundation-pictures-RB.md), reviewed
+  2026-11-07): 23 pictures and two pages' words, red only on Flow's double press, four attempts
+  of four; a merge on that evidence is the founder's call. Neither touches the other's files.
 - **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
   re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
   wrong phase makes another's folders read as the session's own to `kit.sh end --clear`. A
@@ -787,7 +786,22 @@ install, the restore notice (Notices keeps every notice; reasoned).
   files still draw `?` past ASCII and count bytes (Files' `shown_name` and its path test,
   Introspection's `powers_detail::printable`, Flow's `clean`, Neovim's `ascii_of`,
   `workshop/path_admission.hpp`), each its owner's change; pane code that measures labels and rule
-  lines by `size()`; the Terminal's manual sections at their 2,048-byte budgets.
+  lines by `size()`; the Terminal's manual sections at their 2,048-byte budgets. Files'
+  `files-name-beyond-ascii-window.png` and its alt text say a `?` a byte (`Zo?? ??/`), false since
+  `f66429a6` (2026-10-29, a `?` a character), and no recipe takes it: a recipe and a retake once
+  Files draws a name as spelled.
+- V4's follow-ups (visual-foundation-v4-RB, reviewed 2026-11-07): a merge's look lasts until the
+  next launch (its settings and keys are kept), and a palette named by its theme holds one layer,
+  so `block` over `day` in one layout and over `night` in another cannot both stand (asked;
+  Vision's lean: a layout keeps the stack it wears, the palette named by the stack); a row's
+  `workshop.theme` takes the three built-in themes alone, and `app.json` still says `window.skin`
+  (both asked); a stale batch is known by its refusal's words (`stale revision`), not a field; an
+  apply in flight across a reload is lost unanswered; `settings/slots.hpp` is not installed, so a
+  stranger's pane cannot declare slots; the snapshot, promote and provenance doors refuse.
+- The pictures' follow-ups (visual-foundation-pictures-RB, reviewed 2026-11-07): the Files manual's
+  and the row menu's pages cannot be reached by a walk (WL-DESK-20; no `act` step presses a frame's
+  handle); the window twins and 66 other pictures have no recipe; `picture.sh audit` crashes on a
+  picture its checkout lacks; a terminal selection draws nothing in the default look (P-WORK-87).
 - A suite does not build the weaves it loads: `zengine-tests` names `snake-world-v1` through
   `$<TARGET_FILE:...>`, which adds no build dependency, so building the suite's program alone ran an
   old library against new tests (beats-with-work-RB, 2026-11-07); `tests/CMakeLists.txt` could

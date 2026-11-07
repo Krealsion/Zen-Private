@@ -47,6 +47,14 @@ under the same id.
 - **P-LOOM-05** (ACT) Reaching the bridge is not a person's identity. Selected: explicit
   connection admission, attributable remote participation, and scoped access for the test
   consumer; not the approve-or-refuse popup, nor a universal identity system.
+- **P-WORK-86** (ACT) Flow times a double press by the steady clock it reads itself
+  (`flow/flow-pane/pane.cpp`, 400 ms; P-WORK-77's part, now biting): red five times on
+  2026-11-07, #119's ASan rest in four attempts of four and #117 once there and once on the
+  advisory MSVC, each a change Flow's case does not reach. Owner: S1, the window counting clicks;
+  `AreaButtonChanged` (version 3) carries neither a time nor a count.
+- **P-WORK-87** (OPEN) A terminal selection draws nothing in the default look, only the caret,
+  since `eb8ce6ff` (2026-11-03): the medium writes one ink a cell and no ground, and no code draws
+  reverse video; the block look shows it as the highlight ink (visual-foundation-pictures-RB).
 
 ## 2. The desk and its panes
 
