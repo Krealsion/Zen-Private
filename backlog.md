@@ -41,13 +41,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   The view cost ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
   view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
   declares only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
-- **The visual foundation's V3, V4 and the held pictures** (the founder, 2026-11-07): V3 is #118
-  ([report](../reportbacks/visual-foundation-v3-RB.md), reviewed 2026-11-07, ready on `main`, green
-  on every job, closes Zengine#1): every character drawn, from JetBrains Mono, the platform's fonts,
-  then Unifont, about 11 MB of faces embedded (approved in its session). V4 is #117, a draft on V3's
-  branch, its report in `unreviewed/`; [the held pictures](../prompts/visual-foundation-pictures.md)
-  running on V3's branch. Merge order: V3, then V4 and the pictures, a picture both change retaken
-  by the second.
+- **The visual foundation's V4 and the held pictures** (the founder, 2026-11-07): V3, #118,
+  merged as `4dba5cb2` ([report](../reportbacks/visual-foundation-v3-RB.md), closes Zengine#1):
+  every character drawn, from JetBrains Mono, the platform's fonts, then Unifont, about 11 MB of
+  faces embedded (approved in its session). V4 is #117, rebasing onto `main` at the founder's word,
+  its report in `unreviewed/`; [the held pictures](../prompts/visual-foundation-pictures.md)
+  running, its pull request onto `main` now V3 has merged; its audit owes
+  `files-name-beyond-ascii-window.png`, taken 2026-10-28 when Files spelled a byte a `?`. Merge
+  order: V4 and the pictures, a picture both change retaken by the second.
 - **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
   re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
   wrong phase makes another's folders read as the session's own to `kit.sh end --clear`. A
