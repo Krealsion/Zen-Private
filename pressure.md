@@ -305,6 +305,13 @@ under the same id.
   and the line reader keeps its own thread (clock-reactor-research-RB, 2026-11-06). Loom
   has no after-turn either: a weave that repaints per message pays per message
   (view-cost-research-RB). Wakes: the reactor's round, or R7's shape.
+- **P-LOOM-19** (SEED) Prepared turns (the founder, 2026-11-06): any number of threads run a
+  pending delivery's handler early on a copy of its weave's state and hold the new state and
+  mail; the dispatch thread applies it in FIFO order only if everything the handler read is
+  unchanged, or runs the delivery itself. Dispatch stays single-threaded (MSG-01). It needs
+  effects held for the commit, a weave's whole state in its shape, native weaves opting in to
+  other threads, and every read recorded by the mechanism, a send's `Ticket` among them. Wakes:
+  the reactor's round (a wake any thread can set; the frame tick carrying its time).
 
 ## 7. Adoption
 

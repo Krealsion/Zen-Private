@@ -724,7 +724,8 @@ keep their other labels; better-named labels may come. Prompted in `left-behind-
 
 Loom's threading line (the founder, 2026-11-02): `docs/laws/messaging-laws.md` says multi-threaded
 dispatch is not built, and nothing may assume it never will, not "a non-feature until a consumer
-forces it".
+forces it". The same stance stands twice more: MSG-09 ("neither is planned") and
+`docs/reference/known-seams.md` ("Maybe or never").
 
 Filed by the UX batch (2026-10-29, section 6): the guest `ask` row (#536), `fill_laws.sh`
 (#537), the `Surface*` shapes (#538), `apply`'s scan (#539), the desk split's cases (#540) and
