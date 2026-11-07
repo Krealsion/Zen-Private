@@ -33,7 +33,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `main`, so a re-run after it is #116's proof. An idle Workshop turns about once a second, a guest
   linked or not, and a key waits under a millisecond on Windows, about one on Linux. Next, once both
   merge: the frame clock's prompt, its beat 16 ms, a change outside a look presented at once, a
-  frame's time read through the clock its host wires; threads kept possible (P-LOOM-19). The
+  frame's time read through the clock its host wires, with research on game time beside it
+  (P-WORK-85; the founder, 2026-11-07); threads kept possible (P-LOOM-19). #116 is fixing an
+  MSVC-only failure (2026-11-07). The
   research: [report](../reportbacks/clock-reactor-research-RB.md). The build warning, #114, merged.
   The view cost ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
   view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
