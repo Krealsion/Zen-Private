@@ -282,6 +282,15 @@ under the same id.
   answered and left the standard Editor in the office, on `main` and with #111 and #112, and
   its outcome was not on the Terminal's rows (time-first-steps-RB, 2026-11-06): the harness's
   ask or a defect. Wakes: the Neovim latency measured, or a weaver's switch that does not take.
+- **P-BUILD-23** The suites that fake time do not run the reactor (the founder, 2026-11-07: test
+  with its real outcomes). In `timer`, `snake`, `audit_probes` and `flow` and the virtual Timer
+  library, time moves inside the Timer's own beat (`elapse_ms(wait_from(now))`), a beat at most
+  `kVirtualStepMs` (10 ms), and the suites count beats as time (`pump_for`). Without the step: the
+  rig runs the host's loop with the reactor waiting on a virtual clock (a Loom seam: look at the
+  handles, then move the clock to the deadline), the suites wait until a virtual time rather than
+  for a count of beats, a fake source exposes a pipe or event where a case reads its OS side, and a
+  suite with a real child process keeps real time. The session journeys drive the real Workshop and
+  run the reactor for real. Wakes: the frame clock's round, whose cases are all cadence.
 - **P-BUILD-22** A WSL process started while the distribution boots is ended once it has booted
   (status-board-RB, 2026-11-07, the board's slots case; cause not established): a kit helper that
   starts a detached WSL process right after WSL starts could lose it the same way. None seen
