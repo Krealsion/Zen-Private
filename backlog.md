@@ -63,7 +63,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Vision's review found two facts off at `main`: the theme words carried from V4's branch (`main`
   still says `workshop.skin`), and `zengine.workshop` copied as a constant in some thirteen parts,
   not five (the tool reads headers' `k...Role` and misses `.cpp` constants). Its numbers want the
-  tool's patterns fixed before a decision rests on them.
+  tool's patterns fixed before a decision rests on them. The founder's answers (2026-11-08): office
+  becomes role everywhere, in one cut, version bumps accepted; one home per role name; "operator"
+  leaves Loom, the console is the weaver's console; Zengine's display mode is the TUI; multi-word
+  names where senses meet; a manual names its senders by role, checked. All applied by one round
+  ([prompt](../prompts/unrun/office-to-role.md)). Palette waits on the theming design. Open: where
+  the pane protocol and the features' seam vocabularies live (decision 2) -- the founder's picture
+  is a tree, Loom, Zengine, Workshop, then each pane its own context, a pane in its own repository
+  the standard state.
 - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
   ([prompt](../prompts/unrun/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
   spelling ([prompt](../prompts/unrun/persist-moves.md)); the context map and shared vocabulary of
