@@ -56,6 +56,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   design tokens -- the look alone, Workshop's; settings mechanical; keys the keymap's; the terminal
   a look of its own; a repaint or a re-measure by event -- a design page agreed before #117 is
   reshaped ([the theme slice](drafts/context-map-themes.md); the calls: [goals](goals/theming.md)).
+- **The context map and shared vocabulary** ([report](../reportbacks/context-map-RB.md), pages in
+  `reportbacks/context-map/`, reviewed 2026-11-08; redrawn by `pass-tools/context-map/`): Workshop
+  is the hub and its folder holds other parts' languages (the pane protocol, twelve features'
+  seams); fourteen words with two meanings or two owners; eight decisions asked, the founder's.
+  Vision's review found two facts off at `main`: the theme words carried from V4's branch (`main`
+  still says `workshop.skin`), and `zengine.workshop` copied as a constant in some thirteen parts,
+  not five (the tool reads headers' `k...Role` and misses `.cpp` constants). Its numbers want the
+  tool's patterns fixed before a decision rests on them.
 - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
   ([prompt](../prompts/unrun/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
   spelling ([prompt](../prompts/unrun/persist-moves.md)); the context map and shared vocabulary of
