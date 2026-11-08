@@ -51,7 +51,7 @@ under the same id.
   (`flow/flow-pane/pane.cpp`, 400 ms; P-WORK-77's part, now biting): red six times on
   2026-11-07, #119's ASan rest in four attempts of four and #117 once there and once on the
   advisory MSVC, each a change Flow's case does not reach. Owner: S1, the window counting clicks;
-  `AreaButtonChanged` (version 3) carries neither a time nor a count.
+  `AreaButtonChanged` (version 3) carries neither a time nor a count. Taken by #120 (ready).
 - **P-WORK-87** (OPEN) A terminal selection draws nothing in the default look, only the caret,
   since `eb8ce6ff` (2026-11-03): the medium writes one ink a cell and no ground, and no code draws
   reverse video; the block look shows it as the highlight ink (visual-foundation-pictures-RB).
