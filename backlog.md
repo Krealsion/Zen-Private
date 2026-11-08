@@ -61,7 +61,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   spelling ([prompt](../prompts/unrun/persist-moves.md)); the context map and shared vocabulary of
   the whole system ([prompt](../prompts/unrun/context-map.md)); the theming design from it, for the
   founder's decisions ([prompt](../prompts/unrun/theming-design.md)); why the first weekly mutants
-  went red, #99 ([prompt](../prompts/unrun/mutants-red.md)).
+  went red, #99 ([prompt](../prompts/unrun/mutants-red.md)). Ran whole; #119 and #121 merged; #122
+  ([report](../reportbacks/mutants-red-RB.md), reviewed 2026-11-08): the weekly run's 18 stale
+  entries and one #120 stranded, CI green, merge once its dispatched Mutants run is green. Its
+  follow-ups: a corpus text check (`run.py --text`) in every pull request's documentation lane, so
+  moved code cannot strand an entry for a week; the kit's `ext4.py sync` leaves an emptied folder.
 - #120's follow-ups (double-click-RB, reviewed 2026-11-08; its five choices accepted by the
   founder, the count going on among them): an agent's double click rides its link's speed (two
   injects 1/60 s apart), revisited with batching, not by a double-click path of its own -- a batch
