@@ -570,7 +570,9 @@ Each starts on the founder's word; "wake" is what must be true first.
 - **Report-backs land in `Zen/unreviewed/`** (the founder, 2026-11-06; constitution section d):
   Vision reviews each, moves it with its evidence and folders into `reportbacks/`, and commits it.
   The status board shows the lanes, what waits for review, the pull requests and the slots
-  ([report](../reportbacks/status-board-RB.md), reviewed 2026-11-07).
+  ([report](../reportbacks/status-board-RB.md), reviewed 2026-11-07). It could show the runs still
+  going too -- a pull request's CI, a dispatched Mutants run and its pieces -- so a long run's
+  state is seen without asking (the founder, 2026-11-08).
 - **Workshop and onboarding grow together** (BL-WORK-01): repeated friction gets a better
   interaction or a true explanation; mandatory before inviting outside contributors.
 - **A front door for human contributors** (BL-ADOPT-01): installed prefixes, IDE discovery, the
