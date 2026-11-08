@@ -48,6 +48,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   held pictures are #119 ([report](../reportbacks/visual-foundation-pictures-RB.md), reviewed
   2026-11-07): 23 pictures and two pages' words, red only on Flow's double press, four attempts
   of four; a merge on that evidence is the founder's call. Neither touches the other's files.
+  Order (the founder, 2026-11-07, green on `main`): the double click first
+  ([prompt](../prompts/unrun/double-click.md), S1 ahead of V6), then V4 and the pictures rebased
+  onto it; the themes' fix (a layout's stack) into V4 before it merges, once the founder's
+  questions on the theme format are answered.
 - **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
   re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
   wrong phase makes another's folders read as the session's own to `kit.sh end --clear`. A
