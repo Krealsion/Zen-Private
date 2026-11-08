@@ -46,8 +46,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   V4 is #117 ([report](../reportbacks/visual-foundation-v4-RB.md), reviewed 2026-11-07): ready on
   `main`, every required job green, the advisory MSVC red on Flow's double press (P-WORK-86). The
   held pictures are #119 ([report](../reportbacks/visual-foundation-pictures-RB.md), reviewed
-  2026-11-07): 23 pictures and two pages' words, red only on Flow's double press, four attempts
-  of four; a merge on that evidence is the founder's call. Neither touches the other's files.
+  2026-11-07): 23 pictures and two pages' words; rebased onto `main` after #120, its patch the same,
+  green on every job and ready (its after-review section, reviewed 2026-11-08).
   Order (the founder, 2026-11-07, green on `main`): the double click first, #120
   ([report](../reportbacks/double-click-RB.md), reviewed 2026-11-08, ready, green on every job),
   then the pictures rebased onto it. V4 is held (the founder, 2026-11-08): theming is redesigned as
