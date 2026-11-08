@@ -25,8 +25,8 @@ U7). Tests could also skip their waits instead of sitting through them.
 - A check that fails a test reading the clock, with its exceptions named.
 
 **We would lose**:
-- Real time at the edges, tested by default: the window's real double click, a child process's real
-  latency (Neovim), real timeouts. Those need a small labeled set of real-time cases, which can still
+- Real time at the edges, tested by default: the window's real double click, a child process's
+  real latency (Neovim), real timeouts. Those need a small labeled set of real-time cases, which can still
   flake, so they should not gate a merge.
 - Slowness that only shows in real time. The 600 s budget a case still measures real time, so gross
   slowness shows; a subtle latency regression would not.
