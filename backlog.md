@@ -50,7 +50,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   green on every job and ready (its after-review section, reviewed 2026-11-08).
   Order (the founder, 2026-11-07, green on `main`): the double click first, #120
   ([report](../reportbacks/double-click-RB.md), reviewed 2026-11-08, ready, green on every job),
-  then the pictures rebased onto it. V4 is held (the founder, 2026-11-08): theming is redesigned as
+  then the pictures rebased onto it. V4's moves alone are #121
+  ([report](../reportbacks/persist-moves-RB.md), reviewed 2026-11-08, ready: `persist/` and the
+  key spelling, byte for byte V4's). V4 is held (the founder, 2026-11-08): theming is redesigned as
   design tokens -- the look alone, Workshop's; settings mechanical; keys the keymap's; the terminal
   a look of its own; a repaint or a re-measure by event -- a design page agreed before #117 is
   reshaped ([the theme slice](drafts/context-map-themes.md)).
