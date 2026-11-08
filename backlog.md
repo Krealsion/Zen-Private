@@ -55,7 +55,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   key spelling, byte for byte V4's). V4 is held (the founder, 2026-11-08): theming is redesigned as
   design tokens -- the look alone, Workshop's; settings mechanical; keys the keymap's; the terminal
   a look of its own; a repaint or a re-measure by event -- a design page agreed before #117 is
-  reshaped ([the theme slice](drafts/context-map-themes.md)).
+  reshaped ([the theme slice](drafts/context-map-themes.md); the calls: [goals](goals/theming.md)).
 - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
   ([prompt](../prompts/unrun/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
   spelling ([prompt](../prompts/unrun/persist-moves.md)); the context map and shared vocabulary of
