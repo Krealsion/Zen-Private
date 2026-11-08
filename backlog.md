@@ -75,7 +75,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   positions and registers panes; panes Zengine's "acceptable on principle". Vision's reading,
   Workshop one host of a contract Zengine owns, rests on names, so research comes first
   ([prompt](../prompts/unrun/pane-contract-research.md)), on the trees with office-to-role applied.
-  - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
+- **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
   ([prompt](../prompts/unrun/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
   spelling ([prompt](../prompts/unrun/persist-moves.md)); the context map and shared vocabulary of
   the whole system ([prompt](../prompts/unrun/context-map.md)); the theming design from it, for the
@@ -84,16 +84,16 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   ([report](../reportbacks/mutants-red-RB.md), reviewed 2026-11-08): the weekly run's 18 stale
   entries and one #120 stranded, CI green, merge once its dispatched Mutants run is green. Its
   follow-ups: a corpus text check (`run.py --text`) in every pull request's documentation lane, so
-  moved code cannot strand an entry for a week; the kit's `ext4.py sync` leaves an emptied folder. -
-  #120's follow-ups (double-click-RB, reviewed 2026-11-08; its five choices accepted by the founder,
-  the count going on among them): an agent's double click rides its link's speed (two injects 1/60 s
-  apart), revisited with batching, not by a double-click path of its own -- a batch may carry its
-  delays, or land both clicks in one frame (the founder); the mutation runner's restore may keep a
-  file's time, leaving a mutated object unrebuilt; the Terminal's word select and the Builder's list
-  take a second press with no count (V6); `design.md` 2.5 and 1.8 to say the count goes on and is
-  per hand, and V6's versions to carry `PointerTimingAsked`; `zengine-input` compiles against
-  Workshop's settings vocabulary, and where input keeps its settings is open (a plain JSON file
-  would do, the founder).
+  moved code cannot strand an entry for a week; the kit's `ext4.py sync` leaves an emptied folder.
+- #120's follow-ups (double-click-RB, reviewed 2026-11-08; its five choices accepted by the
+  founder, the count going on among them): an agent's double click rides its link's speed (two
+  injects 1/60 s apart), revisited with batching, not by a double-click path of its own -- a batch
+  may carry its delays, or land both clicks in one frame (the founder); the mutation runner's
+  restore may keep a file's time, leaving a mutated object unrebuilt; the Terminal's word select and
+  the Builder's list take a second press with no count (V6); `design.md` 2.5 and 1.8 to say the
+  count goes on and is per hand, and V6's versions to carry `PointerTimingAsked`; `zengine-input`
+  compiles against Workshop's settings vocabulary, and where input keeps its settings is open (a
+  plain JSON file would do, the founder).
 - **The kit's phase is one shared file** (`Zen/primary/PHASE`): another lane's `kit.sh phase`
   re-pointed two rounds' helpers mid-session (2026-11-06); both pinned `ZEN_PHASE` by hand. A
   wrong phase makes another's folders read as the session's own to `kit.sh end --clear`. A
