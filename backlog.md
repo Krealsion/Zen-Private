@@ -56,6 +56,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   design tokens -- the look alone, Workshop's; settings mechanical; keys the keymap's; the terminal
   a look of its own; a repaint or a re-measure by event -- a design page agreed before #117 is
   reshaped ([the theme slice](drafts/context-map-themes.md); the calls: [goals](goals/theming.md)).
+  The design ([report](../reportbacks/theming-design-RB.md), reviewed 2026-11-08): ten decisions,
+  the founder's. Vision's review: four palette offerers on `main`, not two (the app and the snake
+  too), so one owner per palette name; a pane's own value may default to an exact colour (four of
+  Flow's six have no root); a size or font change is a new `AreaRoom`, so no new event shapes; and
+  whether the terminal's look is a theme's section or files of its own.
 - **The context map and shared vocabulary** ([report](../reportbacks/context-map-RB.md), pages in
   `reportbacks/context-map/`, reviewed 2026-11-08; redrawn by `pass-tools/context-map/`): Workshop
   is the hub and its folder holds other parts' languages (the pane protocol, twelve features'
@@ -74,13 +79,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   used without Workshop (Files in a pixel-art editor), and a contract by which anyone creates,
   positions and registers panes; panes Zengine's "acceptable on principle". Vision's reading,
   Workshop one host of a contract Zengine owns, rests on names, so research comes first
-  ([prompt](../prompts/unrun/pane-contract-research.md)), on the trees with office-to-role applied.
+  ([prompt](../prompts/pane-contract-research.md)), on the trees with office-to-role applied.
 - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
-  ([prompt](../prompts/unrun/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
-  spelling ([prompt](../prompts/unrun/persist-moves.md)); the context map and shared vocabulary of
-  the whole system ([prompt](../prompts/unrun/context-map.md)); the theming design from it, for the
-  founder's decisions ([prompt](../prompts/unrun/theming-design.md)); why the first weekly mutants
-  went red, #99 ([prompt](../prompts/unrun/mutants-red.md)). Ran whole; #119 and #121 merged; #122
+  ([prompt](../prompts/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
+  spelling ([prompt](../prompts/persist-moves.md)); the context map and shared vocabulary of
+  the whole system ([prompt](../prompts/context-map.md)); the theming design from it, for the
+  founder's decisions ([prompt](../prompts/theming-design.md)); why the first weekly mutants
+  went red, #99 ([prompt](../prompts/mutants-red.md)). Ran whole; #119 and #121 merged; #122
   ([report](../reportbacks/mutants-red-RB.md), reviewed 2026-11-08): the weekly run's 18 stale
   entries and one #120 stranded, CI green, merge once its dispatched Mutants run is green. Its
   follow-ups: a corpus text check (`run.py --text`) in every pull request's documentation lane, so
@@ -319,8 +324,8 @@ Each starts on the founder's word; "wake" is what must be true first.
   pool and palettes first. Both reviewed 2026-11-03, their thirteen calls with the founder
   ([review](drafts/research-review-2026-11-03.md)). The visual foundation's six settled the same
   day, the design amended so (the founder, 2026-11-03), V1 prompted
-  ([prompt](../prompts/unrun/visual-foundation-v1.md), warm) and V8 beside it in a second lane
-  ([prompt](../prompts/unrun/visual-foundation-v8.md), warm):
+  ([prompt](../prompts/visual-foundation-v1.md), warm) and V8 beside it in a second lane
+  ([prompt](../prompts/visual-foundation-v8.md), warm):
   - **Pictures**: one may change where the change is the point, named with its reason, before
     and after, for his review; byte for byte only for V2's sweep. Every picture added or retaken
     comes from a recipe the kit's picture tool replays. Excised rather than carried: which of the
@@ -358,7 +363,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   - **Built**: V1 as Zengine #101 and V8 as #102, each green on every required job, reviewed
     2026-11-03 ([V1](../reportbacks/visual-foundation-v1-RB.md),
     [V8](../reportbacks/visual-foundation-v8-RB.md)). #101 merges first, then #102 rebased
-    (`tests/shapes.txt`, adjacent lines; [prompt](../prompts/unrun/visual-foundation-v8-rebase.md),
+    (`tests/shapes.txt`, adjacent lines; [prompt](../prompts/visual-foundation-v8-rebase.md),
     hot). Their texts stay as posted: an edit keeps the old words in GitHub's history.
     Asked, with Vision's leans: the looks (night and day ship, block a tests' fixture, classic
     another word for night; the pool's `own` kept for text and grounds alone, so a terminal shows
@@ -368,7 +373,7 @@ Each starts on the founder's word; "wake" is what must be true first.
     one, green all the same; the night made to say so: #104
     ([report](../reportbacks/ci-msvc-hour-RB.md), reviewed 2026-11-04, green on every job), then
     #101 rebased onto `main` and run again
-    ([prompt](../prompts/unrun/visual-foundation-v1-rebase.md), hot), then #102's rebase.
+    ([prompt](../prompts/visual-foundation-v1-rebase.md), hot), then #102's rebase.
     #104 merged (2026-11-04). A reviewer of the founder's read the open work (2026-11-04): #66
     closed by #101 and the word `skin` named as known debt in #101's record, both in its rebase;
     v0.2.0's notes ("replaces the package before it") untrue for the first release alone, fixed on
@@ -376,7 +381,7 @@ Each starts on the founder's word; "wake" is what must be true first.
     ([report](../reportbacks/ci-release-notes-RB.md), reviewed 2026-11-04, merged; the notes
     edited). Its cost, the reviewer's: the judge runs in no pull request, so one that breaks it
     passes; the judge exercised on fixed cases in every pull request that changes it
-    ([prompt](../prompts/unrun/ci-tip-judge-cases.md), warm): #106
+    ([prompt](../prompts/ci-tip-judge-cases.md), warm): #106
     ([report](../reportbacks/ci-tip-judge-cases-RB.md), reviewed 2026-11-05, ready), eight
     cases, one judge; its first live witness the first night after it merges. #100's stale-green
     night already answered by #104's tip job; the shapes conflict and #102's role-picked colours
@@ -390,34 +395,34 @@ Each starts on the founder's word; "wake" is what must be true first.
     ([report](../reportbacks/visual-foundation-v8-rebase-RB.md)); its fix (the founder,
     2026-11-04): each entry measured, the heaviest apart, three at a time only if none stand out,
     the peak said and warned past 12 GB
-    ([prompt](../prompts/unrun/ci-sanitizer-memory.md), warm): #107
+    ([prompt](../prompts/ci-sanitizer-memory.md), warm): #107
     ([report](../reportbacks/ci-sanitizer-memory-RB.md), reviewed 2026-11-04, merged 2026-11-05,
     `main` green with it), the two
     largest panes suites apart, 6.4 GB on the runner; then #102 rebased
-    ([prompt](../prompts/unrun/visual-foundation-v8-rebase-2.md), hot;
+    ([prompt](../prompts/visual-foundation-v8-rebase-2.md), hot;
     [report](../reportbacks/visual-foundation-v8-rebase-2-RB.md), reviewed 2026-11-05, ready: green,
     its sanitizer job at 88 of its 90 minutes after a rerun for a full disk). The looks
     (the founder, 2026-11-04): night and day ship, and block as the terminal look, the one theme
     that changes how a terminal draws (the tests and the snake keep it; a layer over night or day
     with V4's `merge`); classic another name for night; `own` for text and grounds alone. V2
-    prompted ([prompt](../prompts/unrun/visual-foundation-v2.md), warm): #108
+    prompted ([prompt](../prompts/visual-foundation-v2.md), warm): #108
     ([report](../reportbacks/visual-foundation-v2-RB.md), reviewed 2026-11-05), its content ready;
     it follows #102, by its applier from the new start, once the lane's scaling lands
-    ([prompt](../prompts/unrun/ci-sanitizer-scale-research.md), warm): its sanitizer job passed its
+    ([prompt](../prompts/ci-sanitizer-scale-research.md), warm): its sanitizer job passed its
     90 minutes, the runners' doubling, not V2's. The founder's calls on it (2026-11-05): `own`
     named `terminal default`; a pane's ordinary border grey in a terminal; Flow's columns on a
     second background (`background_alt`, the DO column's old `#20252d`); a terminal matched to
     what it can show later, with the terminal research: V2 continued once #102 merges
-    ([prompt](../prompts/unrun/visual-foundation-v2-continued.md), hot). The snake's pictures
+    ([prompt](../prompts/visual-foundation-v2-continued.md), hot). The snake's pictures
     taken in play by a pilot, the first participant an agent runs to play a program for it,
     playing against the world's own beat and never stepping it, a pause the world honours
-    for a picture ([prompt](../prompts/unrun/snake-pilot.md), warm), after the research.
+    for a picture ([prompt](../prompts/snake-pilot.md), warm), after the research.
     V2 continued: #108 ([report](../reportbacks/visual-foundation-v2-continued-RB.md), reviewed
     2026-11-05, ready: green on every job, its sanitizer job 74 of its 90 minutes); three block
     pictures in a terminal stale for want of recipes, for the held pictures' pass. The pilot:
     #109 ([report](../reportbacks/snake-pilot-RB.md), reviewed 2026-11-05, ready after #108),
     its place by an exercised replacement (WL-PART-01, asked); onto `main` once #108 merges,
-    with the snake's pictures in play ([prompt](../prompts/unrun/snake-pilot-continued.md), hot).
+    with the snake's pictures in play ([prompt](../prompts/snake-pilot-continued.md), hot).
     #108 merged (2026-11-06). The sanitizer job at scale: #110
     ([report](../reportbacks/ci-sanitizer-scale-RB.md), reviewed 2026-11-06, ready, clean onto
     `main`), in before the pilot's continuation; asked: Inventory's view cost (P-WORK-81) and a
@@ -430,15 +435,15 @@ Each starts on the founder's word; "wake" is what must be true first.
     (V4's word pass). The clock's first steps: #111 and #112
     ([report](../reportbacks/time-first-steps-RB.md), reviewed 2026-11-06), their content ready,
     their runs on `9bc2f646`: onto `main` after #109, with the facet's claim trap fixed
-    ([prompt](../prompts/unrun/time-first-steps-continued.md), hot). Asked: whether the reactor
+    ([prompt](../prompts/time-first-steps-continued.md), hot). Asked: whether the reactor
     or frame clock (the idle wakes, about 220 a second) is the next round. Not measured: a key in
     a Neovim pane; the switch asked from the Terminal answered and left the standard Editor.
     #109 merged (2026-11-06). The founder took Vision's three leans (2026-11-06): the clock's next
     round, a reactor or a frame clock, researched first
-    ([prompt](../prompts/unrun/clock-reactor-research.md), warm); the view cost researched as the
-    product's, the case unchanged ([prompt](../prompts/unrun/view-cost-research.md), warm); and the
+    ([prompt](../prompts/clock-reactor-research.md), warm); the view cost researched as the
+    product's, the case unchanged ([prompt](../prompts/view-cost-research.md), warm); and the
     sanitizer builds warned past 14 GB, in a lane beside them
-    ([prompt](../prompts/unrun/ci-sanitizer-build-memory.md), warm). The clock round's
+    ([prompt](../prompts/ci-sanitizer-build-memory.md), warm). The clock round's
     continuation reported: #111 and #112 onto `main`, the facet's claim trap in #113
     ([report](../reportbacks/time-first-steps-continued-RB.md), reviewed 2026-11-06, all three
     ready, one tree in any order); the Timer's own claim hook unneeded once #113 is in, one line.
@@ -551,7 +556,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   no quickstart, and no tool asking for a pane's document. Its claim that Inventory, Info, Demo
   and Compose declare no causes does not hold (30, 7, 2 and 1 rows); resolve answering a missing
   shape as a real one does. Wake: the issue lane's round after its UX batch
-  ([prompt](../prompts/unrun/issue-lane-elh-audit.md), warm, 2026-10-29).
+  ([prompt](../prompts/issue-lane-elh-audit.md), warm, 2026-10-29).
 - **The Perspectives Lab's pages** rebaselined after D1, before any becomes a prompt. Wake: met.
 - **Faster builds** (BL-WORK-44; #343 merged): split `tests/workshop_support.hpp`, the largest
   lever (2026-10-27: 36 of the 45 compiles over 2 GB include it, 43 % of a cold build's compiling);
@@ -619,7 +624,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   host-only with an own-origin form for recipients (A5). Cheap now: handler times measured,
   Neovim's reads off the dispatch thread (`call_now` blocks it up to 2 s, 10 s to adopt or
   start), the nap between turns rather than inside the Timer's handler: taken (the founder,
-  2026-11-05; [prompt](../prompts/unrun/time-first-steps.md), warm), input's wire unchanged.
+  2026-11-05; [prompt](../prompts/time-first-steps.md), warm), input's wire unchanged.
 - The composer's bare values and optional fields (Loom #31's report, 2026-10-08, not asked since):
   a bare value fills the first field in declaration order, optional or not, so `7` for
   `{limit?: Int, n: Int}` fills `limit` and leaves `n` open, and the reply does not say where `7`
