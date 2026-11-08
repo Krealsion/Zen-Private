@@ -51,7 +51,7 @@ What each word means in each part. Two meanings or two owners is a decision.
   - Settings: a theme's look, kept under the theme's name (`HeldPalette`).
   - Workshop: the name an area wears (`PaletteChosen`).
   - `night` is offered twice: compiled, by Workshop, and from its file, by Settings. Graphics keeps
-    whichever revision is higher, and the two revisions come from unrelated counters.
+    whichever revision is higher, and nothing relates Workshop's revisions to Settings'.
 - **baseline**, one idea in three places: the flag on an apply (`ThemeApplyRequested.baseline`), a
   layout's theme (`LayoutTheme`), and Workshop's `worn_theme()` (the live layout's, else its own).
 - **slot**, two meanings:
