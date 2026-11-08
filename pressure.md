@@ -187,6 +187,11 @@ under the same id.
   engines keep: real time for what meets the outside world (a double-click, a key repeat, Neovim's
   bound, a timeout, a date), and a world's own time (the snake's), which pausing stops. Wakes: the
   frame clock's round, the first consumer of time at a cadence.
+- **P-WORK-88** (SEED) Every actor a participant (the founder, 2026-11-07): the weaver, an agent
+  and a remote peer each with a hand of its own -- pointer, presses, focus and keys -- so peer
+  programming from afar is one more participant at the desk. The window's hand per actor (`Hand`,
+  `graphics/window/window.hpp`) is its start; the agent desk adds focus and keys; a peer needs more
+  than input (presence, a shared view, its powers). Wakes: the agent desk.
 - **P-WORK-84** An SDL window on Linux keeps its 10 ms beat under the reactor: X11 and Wayland
   expose their display connection's descriptor through SDL's window properties, which the window
   could claim once SDL runs on a real display there (reactor-RB, 2026-11-07). Wakes: Workshop in a

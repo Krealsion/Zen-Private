@@ -31,6 +31,12 @@ U7). Tests could also skip their waits instead of sitting through them.
 - Slowness that only shows in real time. The 600 s budget a case still measures real time, so gross
   slowness shows; a subtle latency regression would not.
 
+**The founder's answer to the losses** (2026-11-07): a test is a mechanical walkthrough that shows
+a thing *can* work under the conditions it sets -- a second press at exactly 400 ms, one frame --
+not a limit test of the real world. Real speed (Neovim's, a frame's) is measured, a number against a
+budget that flags drift without gating a merge; a bug outside the tests means another test, built
+for it. So nothing above is lost, only moved to the kind of test made for it.
+
 **Order**: with or after the frame clock round. Before it, we would build seams the round replaces.
 
 ## B. Main green by construction
