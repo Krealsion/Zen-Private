@@ -36,7 +36,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   commit is authored `Cursor Agent`, against the contributing guide, and goes back for its author;
   #127's advisory MSVC red is read before it merges; #125's picture is retaken in the next picture
   round. The attribution guard passes a commit an AI agent authored: it wants to refuse AI
-  identities, and the PR body's credit, as the guide already says.
+  identities, and the PR body's credit, as the guide already says. Its issue is drafted
+  ([issue](../issues/attribution-check-ai-identities.md)), for the founder to file and hand to Raid;
+  Loom's copy of the predicate follows in an issue of its own.
   Concerns for the end: `PaneRefusalRequested` (#126) lets any seated pane have Workshop say a
   sentence as its own refusal notice, and `act` hears it as one; for the Builder the words are
   Workshop's own verdict, but the notice should say whose refusal it is.
