@@ -82,14 +82,22 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   rebased onto `main` ([prompt](../prompts/unrun/office-to-role-rebase.md)) and merged on green CI.
   Left: the multi-word names (pages partly, code not) and the 13 console pictures, which need the
   foreground; once both merge, the kit's v1 grants of `Run` and `RunList` go. The founder's to
-  decide: the drawing operators' word, and `zengine.window.sdl` beside `zengine.window.tui`. Palette
-  waits on the theming design. Open: where the pane protocol and the features' seam vocabularies
-  live (decision 2) -- the founder's picture is a tree, Loom, Zengine, Workshop, then each pane its
-  own context, a pane in its own repository the standard state. Then his scenario (2026-11-08): a
-  pane used without Workshop (Files in a pixel-art editor), and a contract by which anyone creates,
-  positions and registers panes; panes Zengine's "acceptable on principle". Vision's reading,
-  Workshop one host of a contract Zengine owns, rests on names, so research comes first
-  ([prompt](../prompts/pane-contract-research.md)), on the trees with office-to-role applied.
+  decide: the drawing operators' word. Decided (2026-11-08): `zengine.window.sdl` becomes
+  `zengine.window.gui`, SDL named only in the weave that loads it and the pages about that weave;
+  one follow-up round after #123 takes it with the multi-word names and the 13 console pictures, the
+  founder's machine free for the foreground at any time. Palette waits on the theming design. Open:
+  where the pane protocol and the features' seam vocabularies live (decision 2) -- the founder's
+  picture is a tree, Loom, Zengine, Workshop, then each pane its own context, a pane in its own
+  repository the standard state. Then his scenario (2026-11-08): a pane used without Workshop (Files
+  in a pixel-art editor), and a contract by which anyone creates, positions and registers panes;
+  panes Zengine's "acceptable on principle". The research
+  ([report](../reportbacks/pane-contract-research-RB.md), pages in
+  `reportbacks/pane-contract-research/`, reviewed 2026-11-08): Zengine owns the contract in a
+  library folder `pane/`, Workshop one host holding `zengine.pane.host`; four duties, the rest
+  refused in words; no new shape; six rounds, the app the second host. Ten decisions, the founder's.
+  Vision's review: the settings role wants the host role's reasoning (a contract name, not
+  `zengine.layouts`); its theme amendment 4 is superseded by one owner per palette name; its
+  amendment 3, the row's theme a host setting, belongs in V4 before it runs.
 - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
   ([prompt](../prompts/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
   spelling ([prompt](../prompts/persist-moves.md)); the context map and shared vocabulary of
