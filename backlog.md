@@ -60,10 +60,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   founder the same day for V4's next attempt, with Vision's amendments: one owner per palette name
   (four offerers on `main`, the app and the snake too); a pane's own value may default to an exact
   colour; no new change shapes, a size or font change being a new `AreaRoom`. His own calls with it:
-  a theme is the host's; the terminal's look a theme file of its own, the colour names each loaded
-  with one default until a weaver chooses, edited by group; the theme manager showing a sample
-  wearing a theme fed to it ([goals](goals/theming.md)). Next: V4's next attempt, its prompt not yet
-  written.
+  a theme is the host's; the terminal's look its own file, a theme being a name with a window file,
+  a terminal file or both, the terminal's defaults today's colours; a theme for the other medium a
+  normal link in the chain, converted in its place and warned of in the theme manager; the theme
+  manager showing a sample wearing a theme fed to it ([goals](goals/theming.md)). Next: V4's next
+  attempt ([prompt](../prompts/unrun/theming-v4.md)), after office-to-role merges; the theme manager
+  a round of its own after it.
 - **The context map and shared vocabulary** ([report](../reportbacks/context-map-RB.md), pages in
   `reportbacks/context-map/`, reviewed 2026-11-08; redrawn by `pass-tools/context-map/`): Workshop
   is the hub and its folder holds other parts' languages (the pane protocol, twelve features'

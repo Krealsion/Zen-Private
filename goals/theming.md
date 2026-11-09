@@ -25,9 +25,15 @@ V4's. This file retires once theming lands.
 - **A change is an event by kind**: a colour repaints; a size or a font re-measures. Each weave
   handles it in its own `on`, or not at all. No dirty flags.
 - **Settings stay mechanical; keys are the keymap's own layers.**
-- **The terminal's look is a theme file of its own**: the colour names draws already use
-  (`accent` and the rest), each loaded with the same default until a weaver chooses, and edited by
-  the group a name belongs to; no sizes, fonts or other GUI fields.
+- **The terminal's look is its own file.** A theme is a name with a window file, a terminal file
+  or both, each file's `format` saying its medium. A terminal file holds the colour names draws
+  already use (`accent` and the rest), each with its ink and fill, and the border characters; no
+  sizes, fonts or other window fields. Its defaults are today's terminal colours; a weaver edits
+  them by the group a name belongs to.
+- **A theme for the other medium is a normal link in the chain**: applied in its place, converted
+  as well as it can be (a colour to its nearest ink; an ink to the colour xterm shows it in;
+  `terminal default` falling through to the theme below), and marked with a warning in the theme
+  manager when it is put in.
 - **The theme manager shows a sample**: elements and components wearing a theme fed to it, as the
   look stands or as it would be if applied.
 - **`format` stays** for now: it lets a reader refuse the wrong file early, and with
@@ -43,7 +49,8 @@ V4's. This file retires once theming lands.
 4. **A pane row's theme** is one theme laid over its layout's stack.
 5. **Sizes `tiny` to `huge` are roots**; `caption`, `body`, `heading` and `title` become styles,
    weight a style's field.
-6. **The terminal's look**: the call above.
+6. **The terminal's look**: the two calls above, two files paired by name and the other medium's
+   theme converted in its place.
 7. **No new change shapes**: a size or font change is a new `AreaRoom`, which carries the
    measures; a colour change is the window's own repaint; an owner hears a colour change only once
    a weave computes from one.
