@@ -27,6 +27,19 @@ item below up to that day.
 Four lanes run at once on three build slots: two work slots at 8 jobs, one final slot at 4
 (constitution section f). WSL has 48 GB.
 
+- **The baseline** (the founder, 2026-11-08): after the two researches (several roles, owned shape
+  names), complete what is known through the Workshop split, stopping only for obviously correct
+  detours; concerns are marked here and readdressed at the end. The issue lane runs: Raid, a Cursor
+  cloud agent under `UnknownWorkers` from its fork (the founder, 2026-11-09), its first three
+  Zengine#125, #126, #127 reviewed 2026-11-09. Each PR body carries Cursor's footer and markers,
+  which the squash would carry into `main`'s message, so they are stripped before a merge; #126's
+  commit is authored `Cursor Agent`, against the contributing guide, and goes back for its author;
+  #127's advisory MSVC red is read before it merges; #125's picture is retaken in the next picture
+  round. The attribution guard passes a commit an AI agent authored: it wants to refuse AI
+  identities, and the PR body's credit, as the guide already says.
+  Concerns for the end: `PaneRefusalRequested` (#126) lets any seated pane have Workshop say a
+  sentence as its own refusal notice, and `act` hears it as one; for the Builder the words are
+  Workshop's own verdict, but the notice should say whose refusal it is.
 - **The clock's rounds** (the founder, 2026-11-06): beats-with-work merged (#115, `2dcc3a38`). The
   reactor reviewed 2026-11-07 ([report](../reportbacks/reactor-RB.md)): Loom#5 green on every job
   and merging first, then Zengine#116, whose hosted build stops at Loom's new header until #5 is on
