@@ -31,16 +31,17 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   names), complete what is known through the Workshop split, stopping only for obviously correct
   detours; concerns are marked here and readdressed at the end. The issue lane runs: Raid, a Cursor
   cloud agent under `UnknownWorkers` from its fork (the founder, 2026-11-09), its first four
-  Zengine#125, #126, #127 and #129 reviewed 2026-11-09 and ready. Cursor's footers are gone from
-  their bodies; #125-#127 still open with its hidden marker, which goes before the merge: the
-  merge copies the description into `main`'s message. #126 is re-authored as `563f6986`, the
+  Zengine#125, #126, #127 and #129 reviewed 2026-11-09 and ready. Cursor's footers and its hidden
+  marker were taken off their bodies before the merges, which copy the description into `main`'s
+  message. #126 is re-authored as `563f6986`, the
   reviewed tree; #127's MSVC red has Raid's fix, `18df54d6` (U7 asks `status` until the run
   settles), green; #125's run predates #124, so it is closed and reopened for a fresh run before
   its merge, and its picture is retaken in the next picture round. The attribution guard's issue
   is #128 ([draft](../issues/attribution-check-ai-identities.md)), Raid's #129 its fix; Loom's
-  copy of the predicate follows in an issue of its own. Order (Vision, 2026-11-09): #129, #126,
-  #127, then #125 on its fresh run; Raid's batch ([issues](../issues/raid-batch-2026-11-09.md))
-  once `main` is green.
+  copy of the predicate follows in an issue of its own. Merged 2026-11-09 in Vision's order, each a merge
+  commit: #129 (`0998847d`), #126 (`fcf49556`), #127 (`4ccf743d`); #125 closed and reopened, its
+  fresh run started with no approval (`UnknownWorkers` now a contributor), merging when green;
+  Raid's batch ([issues](../issues/raid-batch-2026-11-09.md)) once `main` is green.
   Concerns for the end: `PaneRefusalRequested` (#126) lets any seated pane have Workshop say a
   sentence as its own refusal notice, and `act` hears it as one; for the Builder the words are
   Workshop's own verdict, but the notice should say whose refusal it is. The audit of 2026-11-09,
