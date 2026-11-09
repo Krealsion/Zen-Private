@@ -1,6 +1,7 @@
 # Theming
 
-**Status:** designed and decided; nothing built to it yet\
+**Status:** built by Zengine#124 (reviewed 2026-11-09, ready), all but the theme manager pane,
+its own round\
 **Decisions:** the founder's
 
 Design answer (Joshua, with Vision), 2026-11-07 and 2026-11-08, reached while reviewing V4 (#117)

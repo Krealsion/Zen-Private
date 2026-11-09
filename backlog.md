@@ -41,18 +41,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   The view cost ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
   view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
   declares only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
-- **The visual foundation's V4 and the held pictures** (the founder, 2026-11-07): V3, #118,
-  merged as `4dba5cb2` ([report](../reportbacks/visual-foundation-v3-RB.md), closes Zengine#1).
-  V4 is #117 ([report](../reportbacks/visual-foundation-v4-RB.md), reviewed 2026-11-07): ready on
-  `main`, every required job green, the advisory MSVC red on Flow's double press (P-WORK-86). The
-  held pictures are #119 ([report](../reportbacks/visual-foundation-pictures-RB.md), reviewed
-  2026-11-07): 23 pictures and two pages' words; rebased onto `main` after #120, its patch the same,
-  green on every job and ready (its after-review section, reviewed 2026-11-08).
+- **The visual foundation's V4 and the held pictures** (the founder, 2026-11-07): V3, #118, merged
+  as `4dba5cb2` ([report](../reportbacks/visual-foundation-v3-RB.md), closes Zengine#1). V4 is #117
+  ([report](../reportbacks/visual-foundation-v4-RB.md), reviewed 2026-11-07): ready on `main`, every
+  required job green, the advisory MSVC red on Flow's double press (P-WORK-86). The held pictures
+  are #119 ([report](../reportbacks/visual-foundation-pictures-RB.md), reviewed 2026-11-07): 23
+  pictures and two pages' words; rebased onto `main` after #120, its patch the same, green on every
+  job and ready (its after-review section, reviewed 2026-11-08).
   Order (the founder, 2026-11-07, green on `main`): the double click first, #120
   ([report](../reportbacks/double-click-RB.md), reviewed 2026-11-08, ready, green on every job),
   then the pictures rebased onto it. V4's moves alone are #121
-  ([report](../reportbacks/persist-moves-RB.md), reviewed 2026-11-08, ready: `persist/` and the
-  key spelling, byte for byte V4's). V4 is held (the founder, 2026-11-08): theming is redesigned as
+  ([report](../reportbacks/persist-moves-RB.md), reviewed 2026-11-08, ready: `persist/` and the key
+  spelling, byte for byte V4's). V4 is held (the founder, 2026-11-08): theming is redesigned as
   design tokens -- the look alone, Workshop's; settings mechanical; keys the keymap's; the terminal
   a look of its own; a repaint or a re-measure by event -- a design page agreed before #117 is
   reshaped ([the theme slice](drafts/context-map-themes.md); the calls: [goals](goals/theming.md)).
@@ -63,9 +63,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   a theme is the host's; the terminal's look its own file, a theme being a name with a window file,
   a terminal file or both, the terminal's defaults today's colours; a theme for the other medium a
   normal link in the chain, converted in its place and warned of in the theme manager; the theme
-  manager showing a sample wearing a theme fed to it ([goals](goals/theming.md)). Next: V4's next
-  attempt ([prompt](../prompts/unrun/theming-v4.md)), after office-to-role merges; the theme manager
-  a round of its own after it.
+  manager showing a sample wearing a theme fed to it ([goals](goals/theming.md)). V4's next attempt
+  is Zengine#124 ([prompt](../prompts/theming-v4.md), [report](../reportbacks/theming-v4-RB.md),
+  reviewed 2026-11-09): every call built, green on every job, ready; #117 the founder's to close
+  once it merges. Its follow-ups: the theme manager pane (sample view, editing by group, the links'
+  warnings), its own round; a theme case through a real window in the desk suite (the grant bug
+  passed it); the kit's picture prefix reinstalled each round, and its end mark wrong on
+  `kit-pictures`.
 - **The context map and shared vocabulary** ([report](../reportbacks/context-map-RB.md), pages in
   `reportbacks/context-map/`, reviewed 2026-11-08; redrawn by `pass-tools/context-map/`): Workshop
   is the hub and its folder holds other parts' languages (the pane protocol, twelve features'
