@@ -78,20 +78,22 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   leaves Loom, the console is the weaver's console; Zengine's display mode is the TUI; multi-word
   names where senses meet; a manual names its senders by role, checked. All applied by one round
   ([prompt](../prompts/office-to-role.md)), reviewed 2026-11-08
-  ([report](../reportbacks/office-to-role-RB.md)): both hold; the order is #122, Loom#6, then #123
-  rebased onto `main` ([prompt](../prompts/unrun/office-to-role-rebase.md)) and merged on green CI.
-  Left: the multi-word names (pages partly, code not) and the 13 console pictures, which need the
-  foreground; once both merge, the kit's v1 grants of `Run` and `RunList` go. The founder's to
-  decide: the drawing operators' word. Decided (2026-11-08): `zengine.window.sdl` becomes
-  `zengine.window.gui`, SDL named only in the weave that loads it and the pages about that weave;
-  one follow-up round after #123 takes it with the multi-word names and the 13 console pictures, the
-  founder's machine free for the foreground at any time. Palette waits on the theming design. Open:
-  where the pane protocol and the features' seam vocabularies live (decision 2) -- the founder's
-  picture is a tree, Loom, Zengine, Workshop, then each pane its own context, a pane in its own
-  repository the standard state. Then his scenario (2026-11-08): a pane used without Workshop (Files
-  in a pixel-art editor), and a contract by which anyone creates, positions and registers panes;
-  panes Zengine's "acceptable on principle". The research
-  ([report](../reportbacks/pane-contract-research-RB.md), pages in
+  ([report](../reportbacks/office-to-role-RB.md)): both hold; #122 and Loom#6 merged, then #123
+  rebased onto `main` ([prompt](../prompts/office-to-role-rebase.md); its section in the report,
+  reviewed 2026-11-08): green on every job after one fix the package witness caught (the Neovim
+  Editor's installed header read an uninstalled one; it keeps a registered copy). Ready: the founder
+  merges, then Loom `main`'s stranger job re-runs green. Left: the multi-word names (pages partly,
+  code not) and the 13 console pictures, which need the foreground; once both merge, the kit's v1
+  grants of `Run` and `RunList` go. The founder's to decide: the drawing operators' word. Decided
+  (2026-11-08): `zengine.window.sdl` becomes `zengine.window.gui`, SDL named only in the weave that
+  loads it and the pages about that weave; one follow-up round after #123 takes it with the
+  multi-word names and the 13 console pictures, the founder's machine free for the foreground at any
+  time. Palette waits on the theming design. Open: where the pane protocol and the features' seam
+  vocabularies live (decision 2) -- the founder's picture is a tree, Loom, Zengine, Workshop, then
+  each pane its own context, a pane in its own repository the standard state. Then his scenario
+  (2026-11-08): a pane used without Workshop (Files in a pixel-art editor), and a contract by which
+  anyone creates, positions and registers panes; panes Zengine's "acceptable on principle". The
+  research ([report](../reportbacks/pane-contract-research-RB.md), pages in
   `reportbacks/pane-contract-research/`, reviewed 2026-11-08): Zengine owns the contract in a
   library folder `pane/`, Workshop one host holding `zengine.pane.host`; four duties, the rest
   refused in words; no new shape; six rounds, the app the second host. Ten decisions, the founder's.
