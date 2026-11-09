@@ -97,7 +97,15 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   refused in words; no new shape; six rounds, the app the second host. Ten decisions, the founder's.
   Vision's review: the settings role wants the host role's reasoning (a contract name, not
   `zengine.layouts`); its theme amendment 4 is superseded by one owner per palette name; its
-  amendment 3, the row's theme a host setting, belongs in V4 before it runs.
+  amendment 3, the row's theme a host setting, belongs in V4 before it runs. Decided (the founder,
+  2026-11-08): the ten, with Vision's two differences: the settings role a contract name,
+  `zengine.pane.settings`; the theme amendment 4 declined, 3 taken into the goals. Order: V4 first,
+  then the contract's rounds 1 to 4; round 5, the host's name, after Loom research on a weave
+  holding several roles (the founder's question, 2026-11-08: a middleman holding the roles of its
+  ecosystem). Before a pane in its own repository is the standard: shape names owned by their
+  vocabulary (P-LOOM-08; its issue was Loom #37 in the old repository, none in the new). Roles
+  across the isolation pipe stay Loom's known seam; a WASM box speaks as its role
+  (`role_send_to_role`), so boxed tests of role holders stand.
 - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
   ([prompt](../prompts/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
   spelling ([prompt](../prompts/persist-moves.md)); the context map and shared vocabulary of

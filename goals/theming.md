@@ -20,8 +20,9 @@ V4's. This file retires once theming lands.
   override of a single field. A theme sets values at any tier: one piece, or a complete set.
 - **Drawn by name, declared where used**, through helper functions: the name a pane sends is the
   name it declared. No pointer crosses a weave.
-- **Themes stack**, and the host keeps the stack a layout wears (in Workshop, the layouts' owner).
-  A weaver sees one word: theme.
+- **Themes stack**, and the host keeps the stack its areas wear: in Workshop the layouts' owner,
+  per layout; a host without layouts names the theme its areas wear. A weaver sees one word:
+  theme.
 - **A change is an event by kind**: a colour repaints; a size or a font re-measures. Each weave
   handles it in its own `on`, or not at all. No dirty flags.
 - **Settings stay mechanical; keys are the keymap's own layers.**
@@ -46,7 +47,10 @@ V4's. This file retires once theming lands.
 2. **A pane's own values are "own values"** in code and pages; Inventory keeps "slot".
 3. **"baseline" retires**: a layout wears a stack, bottom first (`LayoutThemes` for
    `LayoutTheme`), and the theme's fingerprint goes with it.
-4. **A pane row's theme** is one theme laid over its layout's stack.
+4. **A pane row's theme** is one theme laid over its layout's stack: a host setting the layouts'
+   owner keeps beside the row, never a key in the pane's own settings (not `workshop.theme`), so a
+   pane carried to another host carries no Workshop key (the pane contract research, taken
+   2026-11-08).
 5. **Sizes `tiny` to `huge` are roots**; `caption`, `body`, `heading` and `title` become styles,
    weight a style's field.
 6. **The terminal's look**: the two calls above, two files paired by name and the other medium's
