@@ -103,9 +103,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   then the contract's rounds 1 to 4; round 5, the host's name, after Loom research on a weave
   holding several roles (the founder's question, 2026-11-08: a middleman holding the roles of its
   ecosystem). Before a pane in its own repository is the standard: shape names owned by their
-  vocabulary (P-LOOM-08; its issue was Loom #37 in the old repository, none in the new). Roles
-  across the isolation pipe stay Loom's known seam; a WASM box speaks as its role
-  (`role_send_to_role`), so boxed tests of role holders stand.
+  vocabulary (P-LOOM-08, Loom#3, carried from Loom-history#37, open and parked: an opt-in seam, no
+  mass rename). Both researched ([several roles](../prompts/unrun/several-roles-research.md), [owned
+  names](../prompts/unrun/owned-shape-names-research.md)). Roles across the isolation pipe stay
+  Loom's known seam; a WASM box speaks as its role (`role_send_to_role`), so boxed tests of role
+  holders stand.
 - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
   ([prompt](../prompts/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
   spelling ([prompt](../prompts/persist-moves.md)); the context map and shared vocabulary of
@@ -759,7 +761,7 @@ marked.
   - #143 canvas text fit with a size floor (BL-WORK-34);
   - #144 maker participants' addressed requests and conditional speech (P-WORK-36);
   - Loom #36 cross-layer public include debt (BL-ARCH-01), and Loom #37 a shape's name owned
-    explicitly where vocabularies must coexist (P-LOOM-08).
+    explicitly where vocabularies must coexist (P-LOOM-08; now Loom#3).
 - **Later:** #145 GitHub from Workshop (BL-ADOPT-04); #146 several Workshop windows
   (BL-WORK-12); #147 Python scripts as participants (BL-WORK-13, paired with the snake's handoff);
   #148 undo through the owners (BL-WORK-33); #149 an app of its own, edited live (BL-WORK-35).
