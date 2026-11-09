@@ -41,7 +41,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Loom's copy of the predicate follows in an issue of its own.
   Concerns for the end: `PaneRefusalRequested` (#126) lets any seated pane have Workshop say a
   sentence as its own refusal notice, and `act` hears it as one; for the Builder the words are
-  Workshop's own verdict, but the notice should say whose refusal it is.
+  Workshop's own verdict, but the notice should say whose refusal it is. The audit of 2026-11-09,
+  sorted into seven groups ([its page](drafts/audit-2026-11-09.md)): its small fixes are the lane's
+  issues ([batch](../issues/raid-batch-2026-11-09.md)), its two security findings Ceecee's private
+  round ([prompt](../prompts/unrun/private-security-pair.md)), its one-way doors and its structure
+  the end's.
 - **The clock's rounds** (the founder, 2026-11-06): beats-with-work merged (#115, `2dcc3a38`). The
   reactor reviewed 2026-11-07 ([report](../reportbacks/reactor-RB.md)): Loom#5 green on every job
   and merging first, then Zengine#116, whose hosted build stops at Loom's new header until #5 is on
