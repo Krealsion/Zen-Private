@@ -30,15 +30,17 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **The baseline** (the founder, 2026-11-08): after the two researches (several roles, owned shape
   names), complete what is known through the Workshop split, stopping only for obviously correct
   detours; concerns are marked here and readdressed at the end. The issue lane runs: Raid, a Cursor
-  cloud agent under `UnknownWorkers` from its fork (the founder, 2026-11-09), its first three
-  Zengine#125, #126, #127 reviewed 2026-11-09. Each PR body carries Cursor's footer and markers,
-  which the squash would carry into `main`'s message, so they are stripped before a merge; #126's
-  commit is authored `Cursor Agent`, against the contributing guide, and goes back for its author;
-  #127's advisory MSVC red is read before it merges; #125's picture is retaken in the next picture
-  round. The attribution guard passes a commit an AI agent authored: it wants to refuse AI
-  identities, and the PR body's credit, as the guide already says. Its issue is drafted
-  ([issue](../issues/attribution-check-ai-identities.md)), for the founder to file and hand to Raid;
-  Loom's copy of the predicate follows in an issue of its own.
+  cloud agent under `UnknownWorkers` from its fork (the founder, 2026-11-09), its first four
+  Zengine#125, #126, #127 and #129 reviewed 2026-11-09 and ready. Cursor's footers are gone from
+  their bodies; #125-#127 still open with its hidden marker, which goes before the merge: the
+  merge copies the description into `main`'s message. #126 is re-authored as `563f6986`, the
+  reviewed tree; #127's MSVC red has Raid's fix, `18df54d6` (U7 asks `status` until the run
+  settles), green; #125's run predates #124, so it is closed and reopened for a fresh run before
+  its merge, and its picture is retaken in the next picture round. The attribution guard's issue
+  is #128 ([draft](../issues/attribution-check-ai-identities.md)), Raid's #129 its fix; Loom's
+  copy of the predicate follows in an issue of its own. Order (Vision, 2026-11-09): #129, #126,
+  #127, then #125 on its fresh run; Raid's batch ([issues](../issues/raid-batch-2026-11-09.md))
+  once `main` is green.
   Concerns for the end: `PaneRefusalRequested` (#126) lets any seated pane have Workshop say a
   sentence as its own refusal notice, and `act` hears it as one; for the Builder the words are
   Workshop's own verdict, but the notice should say whose refusal it is. The audit of 2026-11-09,
@@ -46,6 +48,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   issues ([batch](../issues/raid-batch-2026-11-09.md)), its two security findings Ceecee's private
   round ([prompt](../prompts/unrun/private-security-pair.md)), its one-way doors and its structure
   the end's.
+  #129's three follow-ups: a re-run reads the description its run started with, so the refusal's
+  "edit the title or the description" wants "then push, or close and reopen"; its self-test pins
+  Cursor's hidden marker as passing, the founder's call whether it is a credit (stripped before
+  these merges, so refusing it later fails no commit on `main`); its self-test footer carries the
+  real agent link from #125, where a made-up one does the same. Approval: GitHub checks a pull
+  request's author and the event's actor; #125's and #129's runs, from opening, name
+  `UnknownWorkers`, and #126's and #127's, from Raid's fix pushes, `cursor[bot]`, so a fix push may
+  still wait for approval after `UnknownWorkers` has a merged pull request.
 - **The clock's rounds** (the founder, 2026-11-06): beats-with-work merged (#115, `2dcc3a38`). The
   reactor reviewed 2026-11-07 ([report](../reportbacks/reactor-RB.md)): Loom#5 green on every job
   and merging first, then Zengine#116, whose hosted build stops at Loom's new header until #5 is on
