@@ -56,11 +56,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   design tokens -- the look alone, Workshop's; settings mechanical; keys the keymap's; the terminal
   a look of its own; a repaint or a re-measure by event -- a design page agreed before #117 is
   reshaped ([the theme slice](drafts/context-map-themes.md); the calls: [goals](goals/theming.md)).
-  The design ([report](../reportbacks/theming-design-RB.md), reviewed 2026-11-08): ten decisions,
-  the founder's. Vision's review: four palette offerers on `main`, not two (the app and the snake
-  too), so one owner per palette name; a pane's own value may default to an exact colour (four of
-  Flow's six have no root); a size or font change is a new `AreaRoom`, so no new event shapes; and
-  whether the terminal's look is a theme's section or files of its own.
+  The design ([report](../reportbacks/theming-design-RB.md), reviewed 2026-11-08), taken by the
+  founder the same day for V4's next attempt, with Vision's amendments: one owner per palette name
+  (four offerers on `main`, the app and the snake too); a pane's own value may default to an exact
+  colour; no new change shapes, a size or font change being a new `AreaRoom`. His own calls with it:
+  a theme is the host's; the terminal's look a theme file of its own, the colour names each loaded
+  with one default until a weaver chooses, edited by group; the theme manager showing a sample
+  wearing a theme fed to it ([goals](goals/theming.md)). Next: V4's next attempt, its prompt not yet
+  written.
 - **The context map and shared vocabulary** ([report](../reportbacks/context-map-RB.md), pages in
   `reportbacks/context-map/`, reviewed 2026-11-08; redrawn by `pass-tools/context-map/`): Workshop
   is the hub and its folder holds other parts' languages (the pane protocol, twelve features'
