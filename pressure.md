@@ -55,6 +55,10 @@ under the same id.
 - **P-WORK-87** (OPEN) A terminal selection draws nothing in the default look, only the caret,
   since `eb8ce6ff` (2026-11-03): the medium writes one ink a cell and no ground, and no code draws
   reverse video; the block look shows it as the highlight ink (visual-foundation-pictures-RB).
+- **P-WORK-89** (OPEN) A rename of an API Loom and Zengine share can show green on neither side
+  before one merges: each repository's CI builds the other's `main` (office-to-role-RB: Loom#6's
+  Zengine stranger red, every #123 build red). Wakes: the next shared rename; a workflow input
+  naming the other repository's branch would let a pair prove itself.
 
 ## 2. The desk and its panes
 
