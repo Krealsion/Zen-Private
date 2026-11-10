@@ -67,8 +67,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `UnknownWorkers`, and #126's and #127's, from Raid's fix pushes, `cursor[bot]`, so a fix push may
   still wait for approval after `UnknownWorkers` has a merged pull request.
 - **The overnight chain of 2026-11-10** (Vision's prompts, one session, warm then hot; reports in
-  `unreviewed/`): the kit's session roots on NTFS and ext4, done (its one ask: the constitution's
-  section c still puts demo roots in `scratch/`); several roles L1, Loom#12; its Zengine half Z1,
+  `unreviewed/`): the kit's session roots on NTFS and ext4, done (the constitution's section c
+  amended, the founder, 2026-11-10: a session's roots live where permissions are kept); several roles L1, Loom#12; its Zengine half Z1,
   Zengine#132; the GUI window's name, Zengine#133, with Loom#13 for the router's words; the pane
   contract's round 1, Zengine#134. L1 reviewed 2026-11-10 and decided (the founder): a release
   ends the role's claims (SENSE-05), as built, since nobody holds the role after it, while a
@@ -79,8 +79,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   total takeover with no work downtime (one shape: the retired weave kept as its successor's
   child to finish what cannot move, such as a build). That research runs before L2, so L2 and the
   split are built once; who is told when a holder leaves (its askers, its subscribers, the weave
-  itself) is its own. Merge order: Raid's Loom fix for the session case, then Loom#13, #133 and
-  #134 (clean together in that order), then Loom#12 and #132 back to back.
+  itself) is its own. Z1, #133 with Loom#13, and #134 reviewed 2026-11-10: each holds, #133 and #134
+  green on every job. For Z2 (round 5): `LoadedSelected` keeps one `role` field, which carries
+  `r1+r2` once a weave holds two, so it wants a `roles` field before Workshop takes its second
+  name. Left of office-to-role: the code's multi-word names, which want a census of identifiers
+  first (the end's). Merge order: Raid's issue pull requests first as they are reviewed (Loom#15,
+  the session case; Zengine#135 and Loom#16, the attribution check), then Loom#13, #133 and #134
+  (clean together in that order), then Loom#12 and #132 back to back.
 - **The clock's rounds** (the founder, 2026-11-06): beats-with-work merged (#115, `2dcc3a38`). The
   reactor reviewed 2026-11-07 ([report](../reportbacks/reactor-RB.md)): Loom#5 green on every job
   and merging first, then Zengine#116, whose hosted build stops at Loom's new header until #5 is on
