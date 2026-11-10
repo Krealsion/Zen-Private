@@ -40,15 +40,24 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   is #128 ([draft](../issues/attribution-check-ai-identities.md)), Raid's #129 its fix; Loom's
   copy of the predicate follows in an issue of its own. Merged 2026-11-09 in Vision's order, each a merge
   commit: #129 (`0998847d`), #126 (`fcf49556`), #127 (`4ccf743d`); #125 closed and reopened, its
-  fresh run started with no approval (`UnknownWorkers` now a contributor), merging when green;
-  Raid's batch ([issues](../issues/raid-batch-2026-11-09.md)) once `main` is green.
+  fresh run started with no approval (`UnknownWorkers` now a contributor), then merged
+  (`b55aca8c`), `main` green on every merge; Raid's batch
+  ([issues](../issues/raid-batch-2026-11-09.md)) next.
   Concerns for the end: `PaneRefusalRequested` (#126) lets any seated pane have Workshop say a
   sentence as its own refusal notice, and `act` hears it as one; for the Builder the words are
   Workshop's own verdict, but the notice should say whose refusal it is. The audit of 2026-11-09,
   sorted into seven groups ([its page](drafts/audit-2026-11-09.md)): its small fixes are the lane's
   issues ([batch](../issues/raid-batch-2026-11-09.md)), its two security findings Ceecee's private
-  round ([prompt](../prompts/unrun/private-security-pair.md)), its one-way doors and its structure
-  the end's.
+  round ([prompt](../prompts/private-security-pair.md),
+  [report](../reportbacks/private-security-pair-RB.md), reviewed 2026-11-09): two draft
+  advisories, the session key's fix made, the schema id's weakness assessed. Decided (the founder,
+  2026-11-09): a key the host cannot make owner-only is refused, FAT and exFAT among them, so
+  session folders live on NTFS; the schema id's option A, structure compared wherever the id
+  decides agreement, before release; the key's advisory published once its fork holds the
+  refusal, the schema's once its fork holds A. The continuation
+  ([prompt](../prompts/unrun/private-security-pair-continued.md), hot) lands both before Loom's
+  next rounds; the lane's `loom-host` catch issue waits for the key's advisory. Its one-way doors
+  and its structure the end's.
   #129's three follow-ups: a re-run reads the description its run started with, so the refusal's
   "edit the title or the description" wants "then push, or close and reopen"; its self-test pins
   Cursor's hidden marker as passing, the founder's call whether it is a credit (stripped before
