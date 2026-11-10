@@ -140,8 +140,22 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   holding several roles (the founder's question, 2026-11-08: a middleman holding the roles of its
   ecosystem). Before a pane in its own repository is the standard: shape names owned by their
   vocabulary (P-LOOM-08, Loom#3, carried from Loom-history#37, open and parked: an opt-in seam, no
-  mass rename). Both researched ([several roles](../prompts/unrun/several-roles-research.md), [owned
-  names](../prompts/unrun/owned-shape-names-research.md)). Roles across the isolation pipe stay
+  mass rename). Both researched ([several roles](../prompts/several-roles-research.md), [owned
+  names](../prompts/owned-shape-names-research.md)). Several roles
+  ([report](../reportbacks/several-roles-research-RB.md), pages in
+  `reportbacks/several-roles-research/`, reviewed 2026-11-09): a weave answers to a set of names,
+  each still with one holder. Decided (the founder, 2026-11-09), the leans with Vision's: the set
+  bound at load only, all or none, bounded, and a role released at any time, out loud, as its
+  holder leaving it (L1); a replacement takes a plan naming every role of the incumbent's, to the
+  candidate or released, an omission refused in words, one candidate (L2); the addressed role (L3,
+  ABI v12) held for its first consumer, since round 5's old address is refused by each pane's grant;
+  the rule for a second role, one state, one authority, one life, one meaning per shape, Zengine's
+  law beside WL-PART-01, Loom stating the mechanism; `roles_of` for `role_of`; round 5 holds
+  `zengine.pane.host` beside `zengine.workshop` and `zengine.pane.settings` beside
+  `zengine.layouts`, contract lines moved by shape in one round, Workshop's own spellings kept (Z1,
+  then Z2, needing L1 alone). L1 can run in Loom beside the contract's rounds 1 to 4. The split, a
+  role apiece to several candidates, waits for its first consumer (P-LOOM-21). Owned names
+  ([report](../unreviewed/owned-shape-names-research-RB.md)): in review. Roles across the isolation pipe stay
   Loom's known seam; a WASM box speaks as its role (`role_send_to_role`), so boxed tests of role
   holders stand.
 - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`

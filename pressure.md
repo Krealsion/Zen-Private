@@ -368,6 +368,19 @@ under the same id.
 - **P-LOOM-20** `loom-host --serve` still naps 5 ms at a time: it could rest in the one wait over
   its door (`BridgeServer::wait_set`) and its console (reactor-RB, 2026-11-07). Wakes: the next
   change to `loom-host`'s loop.
+- **P-LOOM-21** The split replacement (the founder, 2026-11-09): A holding X and Y becomes B holding
+  X and C holding Y in one transaction. The candidates are sealed to one coordinator, each answers
+  its own readiness, and one admission dispatch moves every role and seals A; any refusal aborts
+  all. The plan names every role, to a candidate or released. An abort after A quiesced leaves A
+  holding both and frozen, and Loom tells it nothing (PR-09), so the coordinator resumes it. PR-02's
+  one candidate changes; the merge, several incumbents into one, is the same run backward; a role
+  distributor, the admission policy written as a weave, is a later layer (several-roles-research-RB,
+  2026-11-09). Wakes: the first middleman handing one of its names to a successor of its own.
+- **P-LOOM-22** One weave's roles told apart by the bus: per-role accept-sets (the rule's one meaning
+  per shape, enforced) and per-role grants, both left open, the rule saying split instead; the
+  addressed role, L3, is the lighter half, held for its first consumer (several-roles-research-RB,
+  2026-11-09). Wakes: a door judged by the role it was reached by, a reactor source holding two
+  trusted roles, or a weave found handling one shape for two roles' duties.
 
 ## 7. Adoption
 
