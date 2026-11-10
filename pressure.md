@@ -393,7 +393,8 @@ under the same id.
 
 - **P-WORK-36**: Zengine #144, maker participants' addressed requests, results and conditions.
 - **P-LOOM-08**: Loom#3 (was Loom-history#37), a shape's name owned explicitly where
-  vocabularies must coexist.
+  vocabularies must coexist. Researched and decided 2026-11-09 (owned-shape-names-research-RB):
+  every vocabulary declares an owner or bare; the work is the backlog's, Loom L1 and Zengine Z1.
 
 ## 9. Seeds: strategic candidates, not current work
 

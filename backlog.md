@@ -155,7 +155,21 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `zengine.layouts`, contract lines moved by shape in one round, Workshop's own spellings kept (Z1,
   then Z2, needing L1 alone). L1 can run in Loom beside the contract's rounds 1 to 4. The split, a
   role apiece to several candidates, waits for its first consumer (P-LOOM-21). Owned names
-  ([report](../unreviewed/owned-shape-names-research-RB.md)): in review. Roles across the isolation pipe stay
+  ([report](../reportbacks/owned-shape-names-research-RB.md), pages, census and spike in
+  `reportbacks/owned-shape-names-research/`, reviewed 2026-11-09). Decided (the founder,
+  2026-11-09), the leans with Vision's addition: every vocabulary declares once,
+  `ZEN_VOCABULARY("<owner>")` or `ZEN_VOCABULARY_BARE()`, and one declaring neither does not
+  compile; nothing is renamed now, so no name or content id moves; the owner is the vocabulary's
+  own name after its package's spelling, never a role's; published versions stay bare, an owned
+  version carrying the number on; older names are read forward by each reader, with no alias at
+  Loom's gate; short names only where a person types and nothing is stored; Loom checks an
+  owner's spelling, Zengine refuses one on a namespace with no shapes of its own; `code_values`
+  the light form, a rule that an owner is a name and not a role's copy; Z1 pins today's bare
+  vocabularies, so a new vocabulary takes an owner unless a reviewed pin says otherwise; and
+  Loom's spelling of itself is `loom.` (its own bare shapes `BARE` for now, `loom.<area>` once
+  owned; the published `zen.` names stay as published). Rounds: Loom L1 (the seam, Loom#3's
+  done-when) and Zengine Z1, before the first pane outside this repository and in a gap between
+  the contract's rounds; L2, short names, optional; each conversion at its own wake. Roles across the isolation pipe stay
   Loom's known seam; a WASM box speaks as its role (`role_send_to_role`), so boxed tests of role
   holders stand.
 - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
@@ -811,7 +825,8 @@ marked.
   - #143 canvas text fit with a size floor (BL-WORK-34);
   - #144 maker participants' addressed requests and conditional speech (P-WORK-36);
   - Loom #36 cross-layer public include debt (BL-ARCH-01), and Loom #37 a shape's name owned
-    explicitly where vocabularies must coexist (P-LOOM-08; now Loom#3).
+    explicitly where vocabularies must coexist (P-LOOM-08; now Loom#3, decided 2026-11-09 in
+    section 1: its L1 and Zengine's Z1).
 - **Later:** #145 GitHub from Workshop (BL-ADOPT-04); #146 several Workshop windows
   (BL-WORK-12); #147 Python scripts as participants (BL-WORK-13, paired with the snake's handoff);
   #148 undo through the owners (BL-WORK-33); #149 an app of its own, edited live (BL-WORK-35).
