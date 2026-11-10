@@ -83,9 +83,16 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   green on every job. For Z2 (round 5): `LoadedSelected` keeps one `role` field, which carries
   `r1+r2` once a weave holds two, so it wants a `roles` field before Workshop takes its second
   name. Left of office-to-role: the code's multi-word names, which want a census of identifiers
-  first (the end's). Merge order: Raid's issue pull requests first as they are reviewed (Loom#15,
-  the session case; Zengine#135 and Loom#16, the attribution check), then Loom#13, #133 and #134
-  (clean together in that order), then Loom#12 and #132 back to back.
+  first (the end's). The founder's rule (2026-11-10): a shape change is never ruled out, with no users
+  now its cheapest; and the code does not hold an old name for a file that can change. So #133
+  drops `zengine.window.sdl`'s forward read and the demo medium `sdl`, and #132 gives
+  `LoadedSelected` its `roles` ([prompt](../prompts/unrun/overnight-review-fixes.md), warm). The
+  lane's three reviewed 2026-11-10, each holding: Loom#15 (the session case owned by its user
+  before the read), Zengine#135 (the marker refused, the refusal saying how to clear it, a made-up
+  footer link) and Loom#16 (Zengine's predicate, copied); both repositories' trains trial-merged
+  clean and the new check passed over each whole history. Merge order: Loom#15 and Loom#16 once
+  their first runs are approved, Loom#13, Zengine#135, #134, then #133 after its fix, then Loom#12
+  and #132 (after its fix) back to back.
 - **The clock's rounds** (the founder, 2026-11-06): beats-with-work merged (#115, `2dcc3a38`). The
   reactor reviewed 2026-11-07 ([report](../reportbacks/reactor-RB.md)): Loom#5 green on every job
   and merging first, then Zengine#116, whose hosted build stops at Loom's new header until #5 is on
