@@ -66,6 +66,21 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   request's author and the event's actor; #125's and #129's runs, from opening, name
   `UnknownWorkers`, and #126's and #127's, from Raid's fix pushes, `cursor[bot]`, so a fix push may
   still wait for approval after `UnknownWorkers` has a merged pull request.
+- **The overnight chain of 2026-11-10** (Vision's prompts, one session, warm then hot; reports in
+  `unreviewed/`): the kit's session roots on NTFS and ext4, done (its one ask: the constitution's
+  section c still puts demo roots in `scratch/`); several roles L1, Loom#12; its Zengine half Z1,
+  Zengine#132; the GUI window's name, Zengine#133, with Loom#13 for the router's words; the pane
+  contract's round 1, Zengine#134. L1 reviewed 2026-11-10 and decided (the founder): a release
+  ends the role's claims (SENSE-05), as built, since nobody holds the role after it, while a
+  replacement keeps the incumbent's stale (SENSE-03); and nothing is left waiting -- every ask
+  whose answer can no longer come is told to its asker, with why, so it can retry or wrap up,
+  planned explicitly as the first round of the research **replacement without a seam**
+  ([prompt](../prompts/unrun/replacement-without-a-seam-research.md), warm), the founder's goal a
+  total takeover with no work downtime (one shape: the retired weave kept as its successor's
+  child to finish what cannot move, such as a build). That research runs before L2, so L2 and the
+  split are built once; who is told when a holder leaves (its askers, its subscribers, the weave
+  itself) is its own. Merge order: Raid's Loom fix for the session case, then Loom#13, #133 and
+  #134 (clean together in that order), then Loom#12 and #132 back to back.
 - **The clock's rounds** (the founder, 2026-11-06): beats-with-work merged (#115, `2dcc3a38`). The
   reactor reviewed 2026-11-07 ([report](../reportbacks/reactor-RB.md)): Loom#5 green on every job
   and merging first, then Zengine#116, whose hosted build stops at Loom's new header until #5 is on
@@ -163,7 +178,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `zengine.pane.host` beside `zengine.workshop` and `zengine.pane.settings` beside
   `zengine.layouts`, contract lines moved by shape in one round, Workshop's own spellings kept (Z1,
   then Z2, needing L1 alone). L1 can run in Loom beside the contract's rounds 1 to 4. The split, a
-  role apiece to several candidates, waits for its first consumer (P-LOOM-21). Owned names
+  role apiece to several candidates (P-LOOM-21), is designed with L2 in the research below. Owned names
   ([report](../reportbacks/owned-shape-names-research-RB.md), pages, census and spike in
   `reportbacks/owned-shape-names-research/`, reviewed 2026-11-09). Decided (the founder,
   2026-11-09), the leans with Vision's addition: every vocabulary declares once,

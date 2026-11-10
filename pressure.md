@@ -344,7 +344,8 @@ under the same id.
 - **P-LOOM-16** Loom tells no weave it is unloaded, so a participant that changed another's state
   cannot undo it as it leaves: the snake's operator gives back the keys its pilot took. A
   departure notice for an unload, as a swap has its letter, would let the pilot do it. Wakes:
-  the next participant that takes something it must give back.
+  the next participant that takes something it must give back. Taken into the research
+  replacement without a seam (2026-11-10): who is told when a holder leaves.
 - **P-LOOM-17** A paint's cause is not in its dispatch ancestry: a text pane's rows are drawn by a
   weave the key's ancestry never marks, so the bus tally tied 1 of 60 keys to its paint
   (time-first-steps-RB, 2026-11-06). A paint-cause stamp would be Loom's. Wakes: the frame
@@ -375,7 +376,7 @@ under the same id.
   holding both and frozen, and Loom tells it nothing (PR-09), so the coordinator resumes it. PR-02's
   one candidate changes; the merge, several incumbents into one, is the same run backward; a role
   distributor, the admission policy written as a weave, is a later layer (several-roles-research-RB,
-  2026-11-09). Wakes: the first middleman handing one of its names to a successor of its own.
+  2026-11-09). Designed with L2 in the research replacement without a seam (2026-11-10).
 - **P-LOOM-22** One weave's roles told apart by the bus: per-role accept-sets (the rule's one meaning
   per shape, enforced) and per-role grants, both left open, the rule saying split instead; the
   addressed role, L3, is the lighter half, held for its first consumer (several-roles-research-RB,
