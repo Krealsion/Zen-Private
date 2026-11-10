@@ -382,6 +382,10 @@ under the same id.
   addressed role, L3, is the lighter half, held for its first consumer (several-roles-research-RB,
   2026-11-09). Wakes: a door judged by the role it was reached by, a reactor source holding two
   trusted roles, or a weave found handling one shape for two roles' duties.
+- **P-LOOM-23** A sender that keeps its own `shared_ptr<Value>` to a nested message it sent can
+  still change it between two recipients' deliveries: Loom#18 makes what a recipient is handed
+  const, as its issue asked, and `Cell::message` still accepts a mutable pointer (the lane's batch
+  reviewed, 2026-11-10). Wakes: a native sender found writing what it already sent.
 
 ## 7. Adoption
 

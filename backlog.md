@@ -92,7 +92,44 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   footer link) and Loom#16 (Zengine's predicate, copied); both repositories' trains trial-merged
   clean and the new check passed over each whole history. Merge order: Loom#15 and Loom#16 once
   their first runs are approved, Loom#13, Zengine#135, #134, then #133 after its fix, then Loom#12
-  and #132 (after its fix) back to back.
+  and #132 (after its fix) back to back. The first five merged 2026-11-10; the order now is the
+  lane's batch's, below.
+- **The lane's batch, reviewed 2026-11-10** ([issues](../issues/raid-batch-2026-11-09.md)). Merged
+  first, each a merge commit: Loom#15, whose squash (`5241003d`) carried a co-author line, its tip
+  rewritten as `4fa693bc` with the founder (a contributor's pull request merges with a merge
+  commit); Loom#13 (`84b5ed0`); Loom#16 (`ca5c641`); Zengine#135 (`99faf89`) and #134
+  (`919e466`). Loom `main` at `ca5c641` passed all three Windows jobs, #15's proof on the Server
+  runner, and its Zengine stranger ran past its 45 minutes, as #19's and #20's did: it took 27 to
+  38 before, and Zengine grows, so its limit goes to 90 (Zengine's longest lanes have 90) in a
+  one-line pull request before the next fresh runs. The five from the batch, one commit each (#19
+  three) under `UnknownWorkers`, no trailers, ran merged onto `d8d2b82`, before #15, so every Loom
+  Windows job is red there, and each Loom one is closed and reopened for a fresh run, which also
+  meets #16's check of the title and the description. Zengine#136 (Elounda kept under its author's
+  OFL, Basic removed; the font's bytes and its license matched to upstream `fbe57c50` by Vision)
+  holds, green. Loom#19 (Clang 18 builds Loom; under Clang the weave contract reads a configure
+  probe with `nm`; a Clang lane) holds, and merges first of Loom's so the later fresh runs meet the
+  lane; built here with Clang 18.1.3 over `main` with #17 to #20 and L1, its one error was L1's
+  against #20 (below), and the switchboard, kernel and `host_console` suites passed once patched.
+  Loom#18 (`shared_ptr<const Value>`) holds; its Zengine half, the nine lines it names (the same on
+  `main`, none added by an open pull request), can build against both Looms, so it merges first, as
+  the lane's issue, then #18's fresh run. Loom#17 (1024 waiting per sender) takes a revision: at the
+  bound a role-authored send returns what `weave.hpp` and `bus.hpp` call "does not hold the role",
+  `ZEN_ERR_ROLE_AUTHORSHIP_DENIED` across the ABI, and a loaded weave's answer `ZEN_ERR_REFUSED`,
+  "no answer to spend", while its right is kept (ANS-06). Vision's lean: answers are not counted,
+  each spending a right made by an ask already bounded, and every send door says the bound in its
+  own word, a new status and ABI v12 (L3 then 13); asked. Loom#20 (`main` catches what leaves the
+  pump, says it, removes the session files, exits 1) takes a revision: its `fault` command, a
+  native participant that throws, ships in `loom-host` only for its case (Vision's lean: a test
+  build of the host from the same source, as the probe's two variants), and the guide's exit codes
+  and the session page's "removed when the host ends cleanly" stayed stale outside its folders;
+  #20 and L1 collide at `report_native_failure`'s `role_of`, a clean text merge that does not
+  build, so whichever merges second takes `roles_of`. Vision's order now: Zengine#136; the
+  stranger's 90 minutes; Loom#19; the Zengine half, then Loom#18; Loom#17 and #20 revised; #133
+  once its fix is reviewed; Loom#12 and #132 back to back. Concerns for the end: the lane posts
+  none of the issue comments `taking-an-issue.md` asks for, a crossing of the folders among them
+  (#19's and #136's were needed, and their bodies say why); #18's quoted red cannot come from its
+  final case, whose `static_assert` stops the old code compiling; #136's catalog counts four text
+  documents where there are five; a sender's own pointer to what it sent (P-LOOM-23).
 - **The clock's rounds** (the founder, 2026-11-06): beats-with-work merged (#115, `2dcc3a38`). The
   reactor reviewed 2026-11-07 ([report](../reportbacks/reactor-RB.md)): Loom#5 green on every job
   and merging first, then Zengine#116, whose hosted build stops at Loom's new header until #5 is on
