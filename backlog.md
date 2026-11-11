@@ -895,8 +895,11 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 - The foundation research's open set, choice 3 ([Vision's review](drafts/foundation-research-review-2026-11-11.md)):
   an element's changes, whose shapes a loaded library names, by whole envelopes, by Loom's body
-  codec made public, or by a kind for any shape; Vision's lean whole envelopes, `implied.hpp`
-  deleted with no new Loom door. The union's round and the seam's wait on it.
+  codec made public, or by a kind for any registered shape. Vision's lean, corrected 2026-11-11 on
+  the founder's question: the kind, in the union's round -- the gate checks a nested value at the
+  send, grants bound what may be nested (only what the sender may send), history and tools see
+  it, and Loom has its own consumer (`zen.Bequest`'s items, the takeover's letter); whole
+  envelopes only if `implied.hpp` must go first. The union's round and the seam's wait on it.
 - Workshop's seven calls, W-1 to W-7 ([review](drafts/research-review-2026-11-03.md),
   2026-11-03), each with Vision's lean; the first closings' prompt waits on W-1, W-2 and W-7.
   The visual foundation's six settled the same day (section 3).

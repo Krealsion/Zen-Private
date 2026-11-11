@@ -43,8 +43,13 @@ once.
    provider's state reads its claim and passes it in. Widening later is easy; narrowing is not.
 3. **The open set** (4, D1). Ceecee: a union cannot list shapes named at run time, so Loom's body
    codec goes public (two functions), and a kind for any shape stays pressure. Auditor: the union
-   deletes `graphics/implied.hpp` whole. Lean: Ceecee's; `graphics/element_export.hpp`, the
-   loaded elements' side, uses the hand-written envelope.
+   deletes `graphics/implied.hpp` whole. First lean: Ceecee's. Then, asked: the union for a node's
+   operands (a closed set) and whole envelopes for an element's changes (the open set). Corrected
+   on the founder's question: a kind for any registered shape, in the union's round. The gate
+   checks a nested value at the send, a weave nests only what it may send, history and tools see
+   it, and Loom has its own consumer, `zen.Bequest`'s items (the takeover's letter); an "untyped
+   Any" is what the auditor refused, and bytes are the untyped form. Fence: a field takes any
+   shape only where the set is open.
 4. **The measure** (13, D11). Ceecee: a pinned census, red when the tree differs either way, the
    hub's row marked to fall, in the documentation lanes. Auditor: file and class line ratchets and
    a runtime cap of 24 doors in Loom's `register_weave`. Lean: the census, with the auditor's
