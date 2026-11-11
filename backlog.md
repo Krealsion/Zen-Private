@@ -78,9 +78,19 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   ([report](../reportbacks/loom-foundation-auditor-RB.md), eleven), reviewed 2026-11-11
   ([Vision's review](drafts/foundation-research-review-2026-11-11.md)). They agree on the union,
   values that never change once admitted, blobs, deadlines, an ABI that grows and the order (the
-  union with the seam, then the floor); seven choices differ, each with Vision's lean, all asked.
-  The union removes no handler from the hub: its doors leave with the facts' owners, calls and
-  the floor. F1 waits for the decisions; the open pull requests stand. Workshop moves to its own
+  union with the seam, then the floor); seven choices differed, each with Vision's lean. Decided
+  (the founder, 2026-11-11): a weave is handed one gated value at creation, data and never doors,
+  with its load; a call is a function of its argument alone, provided by a role's holder; the
+  measure is the census of doors a weave, exact both ways, a class-lines ratchet beside it, and no
+  cap in Loom; joint publication is asked again after the floor and deleted if the opening does
+  without it; Loom#17 keeps v12, 13 is the last exact break, and every change after it still
+  moves the number while older images load. Evolution after the release is a research of its own
+  that tries both (doors open to declared extensions; an authored migration helper), tools
+  welcome. The open set (choice 3) was explained, still open. `HostContext::interaction_now` is
+  the rigs' clock, not dead as Ceecee's report says; the founder wants it test-only, so it leaves
+  with the deadlines round's Zengine half, the hub reading no clock. The union removes no handler
+  from the hub: its doors leave with the facts' owners, calls and the floor. F1, the union's
+  round and the seam's wait on choice 3; the open pull requests stand. Workshop moves to its own
   repository after Loom's gaps close. `app/` leaving `workshop/` waits for the stranger
   research's seven decisions, and Zengine's ZR (the realization owner a participant) with them.
 - **The overnight chain of 2026-11-11** (Vision's prompts, one session, warm then hot), reviewed
@@ -883,9 +893,10 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
-- The foundation research's seven choices ([Vision's review](drafts/foundation-research-review-2026-11-11.md),
-  2026-11-11), each with a lean, beside what both reports agree on; F1, the union's round and the
-  seam's wait on them.
+- The foundation research's open set, choice 3 ([Vision's review](drafts/foundation-research-review-2026-11-11.md)):
+  an element's changes, whose shapes a loaded library names, by whole envelopes, by Loom's body
+  codec made public, or by a kind for any shape; Vision's lean whole envelopes, `implied.hpp`
+  deleted with no new Loom door. The union's round and the seam's wait on it.
 - Workshop's seven calls, W-1 to W-7 ([review](drafts/research-review-2026-11-03.md),
   2026-11-03), each with Vision's lean; the first closings' prompt waits on W-1, W-2 and W-7.
   The visual foundation's six settled the same day (section 3).
