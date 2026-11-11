@@ -588,7 +588,11 @@ Each starts on the founder's word; "wake" is what must be true first.
   the text check and the Flow host's export, the contract by the pane contract's rounds, the
   suites after it, the key spelling after V7, W-4's two trees before the move, the package, laws,
   checks and links at the move, and the move after the pane contract's rounds, the foundation's
-  Zengine rounds through calls, and V7. W-6 asked. Designed whole (2026-11-03,
+  Zengine rounds through calls, and V7. W-6 the line held from now by a text check in the
+  documentation lane, both ways, a census row that only falls, and by Zengine built without
+  Workshop's folders before the move. Round 1 prompted
+  ([prompt](../prompts/unrun/workshop-line-round-1.md), warm), to run once #141 to #144 are on
+  `main`. Designed whole (2026-11-03,
   [design](../reportbacks/visual-foundation-research/design.md),
   [stages](../reportbacks/visual-foundation-research/stages.md),
   [report](../reportbacks/visual-foundation-research-RB.md)): eleven stages in Zengine, V1 the
@@ -909,10 +913,6 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
-- W-6 of Workshop's seven calls ([review](drafts/research-review-2026-11-03.md)), the rest
-  answered 2026-11-11 (section 3): the line held by a text check now, a census row that only
-  falls, and by Zengine built without Workshop's folders before the move; asked what the text
-  check is. The first closings' prompt waits on it.
 - An adversarial read of Loom, Zengine and Workshop (the founder's Grinch agent, 2026-11-05,
   revised with Vision's corrections): gates inside the visual foundation's rest -- the clock
   (A2) before V5, the interaction contract (A4: gesture streams, a focus chain, dispositions,
