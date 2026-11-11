@@ -86,11 +86,17 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   without it; Loom#17 keeps v12, 13 is the last exact break, and every change after it still
   moves the number while older images load. Evolution after the release is a research of its own
   that tries both (doors open to declared extensions; an authored migration helper), tools
-  welcome. The open set (choice 3) was explained, still open. `HostContext::interaction_now` is
+  welcome. The open set (choice 3), decided after Vision's corrected lean: a kind for any
+  registered shape, in the union's round, the gate checking a nested value at the send and a weave
+  nesting only what it may send; `implied.hpp` goes in that round's Zengine half (a node's operands
+  by the union, an element's changes by the kind). The founder's rule with it: "we are not waiting
+  for it to hurt anymore", so the research's items hooked to a trigger (a buffer two weaves see, a
+  shape that contains itself, the pipe's request frame, a link that carries blobs, capabilities as
+  tokens) are ordered by the plan, none waiting. `HostContext::interaction_now` is
   the rigs' clock, not dead as Ceecee's report says; the founder wants it test-only, so it leaves
   with the deadlines round's Zengine half, the hub reading no clock. The union removes no handler
-  from the hub: its doors leave with the facts' owners, calls and the floor. F1, the union's
-  round and the seam's wait on choice 3; the open pull requests stand. Workshop moves to its own
+  from the hub: its doors leave with the facts' owners, calls and the floor. F1 follows the
+  union's round and the seam's, both ready to prompt; the open pull requests stand. Workshop moves to its own
   repository after Loom's gaps close. `app/` leaving `workshop/` waits for the stranger
   research's seven decisions, and Zengine's ZR (the realization owner a participant) with them.
 - **The overnight chain of 2026-11-11** (Vision's prompts, one session, warm then hot), reviewed
@@ -893,13 +899,6 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
-- The foundation research's open set, choice 3 ([Vision's review](drafts/foundation-research-review-2026-11-11.md)):
-  an element's changes, whose shapes a loaded library names, by whole envelopes, by Loom's body
-  codec made public, or by a kind for any registered shape. Vision's lean, corrected 2026-11-11 on
-  the founder's question: the kind, in the union's round -- the gate checks a nested value at the
-  send, grants bound what may be nested (only what the sender may send), history and tools see
-  it, and Loom has its own consumer (`zen.Bequest`'s items, the takeover's letter); whole
-  envelopes only if `implied.hpp` must go first. The union's round and the seam's wait on it.
 - Workshop's seven calls, W-1 to W-7 ([review](drafts/research-review-2026-11-03.md),
   2026-11-03), each with Vision's lean; the first closings' prompt waits on W-1, W-2 and W-7.
   The visual foundation's six settled the same day (section 3).
