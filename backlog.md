@@ -66,6 +66,16 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   request's author and the event's actor; #125's and #129's runs, from opening, name
   `UnknownWorkers`, and #126's and #127's, from Raid's fix pushes, `cursor[bot]`, so a fix push may
   still wait for approval after `UnknownWorkers` has a merged pull request.
+- **Loom's foundation** (the founder, 2026-11-10): a cold audit of Loom and Zengine
+  ([its text and Vision's check](drafts/audit-2026-11-10-foundation.md)) found Zengine building
+  around gaps only Loom can close: no union kind, no data plane, nothing synchronous and nothing
+  at a weave's creation, no deadlines. Its claims held in the source, some overstated (Sense
+  already reads a claim synchronously) and some already moving. The founder's goal: things
+  shrink, no god-file growing back; he expects the union to open the path. Researched next
+  ([prompt](../prompts/unrun/loom-foundation-research.md), warm), with the replacement research's
+  floor, takeover and L2 folded in, so F1 waits for it and the ABI changes as few times as is
+  honest; the open pull requests stand. Workshop moves to its own repository after Loom's gaps
+  close. `app/` including `workshop/` headers can be untangled beside it.
 - **The overnight chain of 2026-11-10** (Vision's prompts, one session, warm then hot; reports in
   `unreviewed/`): the kit's session roots on NTFS and ext4, done (the constitution's section c
   amended, the founder, 2026-11-10: a session's roots live where permissions are kept); several roles L1, Loom#12; its Zengine half Z1,
