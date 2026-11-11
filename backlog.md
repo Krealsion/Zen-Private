@@ -71,11 +71,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   around gaps only Loom can close: no union kind, no data plane, nothing synchronous and nothing
   at a weave's creation, no deadlines. Its claims held in the source, some overstated (Sense
   already reads a claim synchronously) and some already moving. The founder's goal: things
-  shrink, no god-file growing back; he expects the union to open the path. Researched next
-  ([prompt](../prompts/unrun/loom-foundation-research.md), warm), with the replacement research's
-  floor, takeover and L2 folded in, so F1 waits for it and the ABI changes as few times as is
-  honest; the open pull requests stand. Workshop moves to its own repository after Loom's gaps
-  close. `app/` including `workshop/` headers can be untangled beside it.
+  shrink, no god-file growing back; he expects the union to open the path. Researched
+  ([prompt](../prompts/loom-foundation-research.md), warm) with the replacement research's floor,
+  takeover and L2 folded in, twice: Ceecee's ([report](../reportbacks/loom-foundation-research-RB.md),
+  fourteen decisions) and the auditor's run of it
+  ([report](../reportbacks/loom-foundation-auditor-RB.md), eleven), reviewed 2026-11-11
+  ([Vision's review](drafts/foundation-research-review-2026-11-11.md)). They agree on the union,
+  values that never change once admitted, blobs, deadlines, an ABI that grows and the order (the
+  union with the seam, then the floor); seven choices differ, each with Vision's lean, all asked.
+  The union removes no handler from the hub: its doors leave with the facts' owners, calls and
+  the floor. F1 waits for the decisions; the open pull requests stand. Workshop moves to its own
+  repository after Loom's gaps close. `app/` leaving `workshop/` waits for the stranger
+  research's seven decisions, and Zengine's ZR (the realization owner a participant) with them.
 - **The overnight chain of 2026-11-11** (Vision's prompts, one session, warm then hot), reviewed
   2026-11-11, every stage holding ([reports](../reportbacks/lane-issues-137-138-RB.md), and
   rounds 2, 3 and the kit's beside it): Zengine#142 (#137, Loom#18's Zengine half, `75827dfc`) and
@@ -876,6 +883,9 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
+- The foundation research's seven choices ([Vision's review](drafts/foundation-research-review-2026-11-11.md),
+  2026-11-11), each with a lean, beside what both reports agree on; F1, the union's round and the
+  seam's wait on them.
 - Workshop's seven calls, W-1 to W-7 ([review](drafts/research-review-2026-11-03.md),
   2026-11-03), each with Vision's lean; the first closings' prompt waits on W-1, W-2 and W-7.
   The visual foundation's six settled the same day (section 3).
