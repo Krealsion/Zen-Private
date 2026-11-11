@@ -106,6 +106,16 @@ under the same id.
 - **P-WORK-74** A document door changes the contract a reload in place compares. Manuals in the
   tree and state kept across a reload landed (#266 to #272); a stranger's and the presenter's
   replacement contract is open. Wakes: the docs' stage D, or the presenter's split.
+- **P-WORK-91** A pane's own `pane` alias shares the contract's namespace name: nineteen files
+  call their pane's namespace `pane` (three in headers others include), so outside a `zengine`
+  namespace the contract is spelled `zengine::pane::` in full. Renaming the aliases (`self`, or
+  the pane's name) lets `pane::` always mean the contract (pane contract round 2, 2026-11-11).
+- **P-WORK-92** Workshop opens `v1`-`v4` and `detail` beside the contract's, so a `using namespace`
+  of both makes a bare `v3::` ambiguous; two such directives stand at global scope (`workshop.cpp`,
+  the tests' shared header). Retiring them ends it (round 2).
+- **P-WORK-93** `workshop/layouts/vocabulary.hpp` cannot install while `LiveLayout` carries the
+  whole setup (`setup_persist::WorkshopSetup`): a pane that reads the live layout needs it split
+  (round 3, 2026-11-11).
 
 ## 3. Flow, the Terminal, the Builder and the editors
 
@@ -321,6 +331,10 @@ under the same id.
   for a count of beats, a fake source exposes a pipe or event where a case reads its OS side, and a
   suite with a real child process keeps real time. The session journeys drive the real Workshop and
   run the reactor for real. Wakes: the frame clock's round, whose cases are all cadence.
+- **P-BUILD-24** A stranger's Loom pull request branched before what Zengine `main` reads goes red
+  in its stranger job for a reason not its own, and a re-run reuses the opening's merge ref: only a
+  close and reopen tests it as it would merge (Loom#18, 2026-11-11). A stranger job that merges the
+  head onto `main` when it runs, or the kit's helper, ends it.
 - **P-BUILD-22** A WSL process started while the distribution boots is ended once it has booted
   (status-board-RB, 2026-11-07, the board's slots case; cause not established): a kit helper that
   starts a detached WSL process right after WSL starts could lose it the same way. None seen

@@ -76,14 +76,33 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   floor, takeover and L2 folded in, so F1 waits for it and the ABI changes as few times as is
   honest; the open pull requests stand. Workshop moves to its own repository after Loom's gaps
   close. `app/` including `workshop/` headers can be untangled beside it.
-- **The overnight chain of 2026-11-11** (Vision's prompts, one session, warm then hot; reports in
-  `unreviewed/`): the lane's Zengine#137 (Loom#18's Zengine half) and #138 (the Files places
-  case) taken by the executor, the lane out of usage until the evening; the pane contract's
-  rounds 2 (the contract's folder, `pane/`) and 3 (the world seams out of the pane protocol);
-  the kit holding one phase in the primary. Merged before it: Loom#22, Zengine#139 and #140.
-  The lane's own: Loom#20's fix pushed (`a2dfc21e`, on L1, wanting #22 under it), Loom#17's
-  proposed idea posted and not yet built (a `refusal` on `Ticket` and `RolePublication`, answers
-  out of the bound); Vision reads both before the lane runs again. The Workshop-as-a-stranger
+- **The overnight chain of 2026-11-11** (Vision's prompts, one session, warm then hot), reviewed
+  2026-11-11, every stage holding ([reports](../reportbacks/lane-issues-137-138-RB.md), and
+  rounds 2, 3 and the kit's beside it): Zengine#142 (#137, Loom#18's Zengine half, `75827dfc`) and
+  #141 (#138, the Files places case reads the cut, `c93fdff6`), each green; the pane contract's
+  round 2, Zengine#143 (`pane/` and the register PANE-SEAM, `4b03f76b`), and round 3, #144 (the
+  world seams out of the pane protocol, `e099fb59`), CI green; the kit holding one phase in the
+  primary (`9ac89c41`). #142's "green against Loom#18's head" was unattainable (#18 branched before
+  Loom#12) and was shown over `main` with #18 merged. Package's Linux build went red on #143 and
+  #144 at its first step: the dated archive's service answered 503 for three indexes, apt went on
+  without them and left two suites out whole, and the build set failed as unmet dependencies (the
+  night of 03:43 built with the same step); round 2 read it as moved live packages, wrongly.
+  Vision's order: #141, #142; Loom#18 closed and reopened for a fresh merge ref (clean onto
+  `main`), merged when green; the chain of two
+  ([stage 1](../prompts/unrun/package-dated-archive-down.md), warm: the step refuses in words when
+  the archive does not answer whole; [stage 2](../prompts/unrun/contract-rounds-onto-main.md), hot:
+  #143 regenerated onto `main`, #141's `omitted_text` respelled by the pass, #144 on it); then
+  #143 and #144, with Package's Linux judge green, since they change what installs. #143 merged
+  after #141 without the rebase would leave `main` unbuildable: the text merge is clean. The lane's
+  batch ([issues](../issues/raid-batch-2026-11-11.md)): the stale mutant `search-ignores-the-role`,
+  and a case cutting Files' places on every machine. The lane's own: Loom#20's fix pushed
+  (`a2dfc21e`, on L1, wanting #22 under it), Loom#17's proposed idea posted and not yet built (a
+  `refusal` on `Ticket` and `RolePublication`, answers out of the bound); Vision reads both and adds
+  them to the batch before the lane runs again. For the kit's next round: `kit.sh hold` (who holds
+  the primary, since when); a stranger check against a Loom pull request as it would merge; a
+  warning for a doctest filter holding a comma (hit twice); the README saying `issue-say.sh idea`
+  adds its own heading; the two rounds' pass walkers lifted into the kit at the third move. A
+  chain's prompt ends each stage's hold before the next names itself. The Workshop-as-a-stranger
   research's seven decisions are still open, so `app/` leaving `workshop/` waits for them.
 - **The overnight chain of 2026-11-10** (Vision's prompts, one session, warm then hot; reports in
   `unreviewed/`): the kit's session roots on NTFS and ext4, done (the constitution's section c
