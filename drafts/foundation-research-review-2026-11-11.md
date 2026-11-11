@@ -8,7 +8,8 @@ eleven), both read at Loom `9fa4896a` and Zengine `a28bd068`. Checked here again
 
 The union goes first, in both. Ceecee's finding stands and corrects the expectation: the union
 removes no handler from the hub. The hub grew in doors (31 accepted shapes and 7,639 lines on
-2026-09-15; 93 in its own list, 98 with its facets', and 12,574 lines at `a28bd068`), and doors
+2026-09-15; 93 in its own list and 3 more from its two facets, which Ceecee counts as 98, and
+12,574 lines at `a28bd068`), and doors
 leave when the facts it relays move to their owners, when calls replace the hooks, and when the
 floor replaces the quit watching. The union is what lets every later round publish its shapes
 once.
@@ -73,7 +74,7 @@ once.
   (`tests/workshop_support.hpp` 1026, 3448) and the hub reads it, falling back to the steady clock
   (`workshop/weave_run.cpp` 25). Its "deletion for the issue lane" is not filed.
 - **The auditor**: 107 accepted and 50 emitted do not match the hub's declaration (93 in its own
-  list, 61 emitted; Ceecee's 98 counts the facets'); "80+ hub overloads" deleted by the union is
+  list and 3 from its facets, 61 emitted; Ceecee's 98 is near, its 61 exact); "80+ hub overloads" deleted by the union is
   not supported; "`HostContext` to 0" leaves out its seven members of live state (`quit`,
   `host_fact`, `managed_pane`, `showings`, `undelivered_quits`, `standing_conditions`,
   `conditions_generation`); the content-id fix belongs to the private round (option A, decided),
