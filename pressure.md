@@ -213,6 +213,10 @@ under the same id.
 - **P-WORK-80** Workshop says a weave's containment once, on its `loaded:` line; the Project pane
   lists the arrangement live and says none (the WASM tier's S4). Wakes: a weaver loading a boxed
   pane by hand, when the pane could read `Kernel::containment` through the arrangement door.
+- **P-WORK-90** A role's name is judged nowhere when a plan is read: an unknown one is found at
+  the load, and whether that load is refused or stands under a role nothing grants or addresses
+  was read in source, not driven (office-to-role-followup after review, 2026-11-10). Wakes: a plan
+  naming a role nothing grants.
 
 ## 5. Build and verification
 

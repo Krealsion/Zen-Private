@@ -86,7 +86,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   first (the end's). The founder's rule (2026-11-10): a shape change is never ruled out, with no users
   now its cheapest; and the code does not hold an old name for a file that can change. So #133
   drops `zengine.window.sdl`'s forward read and the demo medium `sdl`, and #132 gives
-  `LoadedSelected` its `roles` ([prompt](../prompts/unrun/overnight-review-fixes.md), warm). The
+  `LoadedSelected` its `roles` ([prompt](../prompts/overnight-review-fixes.md), warm). Both fixes
+  reviewed 2026-11-10 and holding ([#132's](../reportbacks/several-roles-z1-RB.md#after-review),
+  [#133's](../reportbacks/office-to-role-followup-RB.md#after-review) sections): `LoadedSelected`
+  v2 carries `roles`, a list, and Compose asks a weave at its first role, the decision Z2's first
+  weave of two roles asks; the old window role is read nowhere, and a setup naming `sdl` is
+  refused in words. The Files places case (`test_workshop_panes_files.cpp`, `main`'s) assumes
+  every place shows, so it is red on a Windows machine with more drives than the pane lists: an
+  issue for the lane. The
   lane's three reviewed 2026-11-10, each holding: Loom#15 (the session case owned by its user
   before the read), Zengine#135 (the marker refused, the refusal saying how to clear it, a made-up
   footer link) and Loom#16 (Zengine's predicate, copied); both repositories' trains trial-merged
@@ -123,9 +130,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   build of the host from the same source, as the probe's two variants), and the guide's exit codes
   and the session page's "removed when the host ends cleanly" stayed stale outside its folders;
   #20 and L1 collide at `report_native_failure`'s `role_of`, a clean text merge that does not
-  build, so whichever merges second takes `roles_of`. Vision's order now: Zengine#136; the
-  stranger's 90 minutes; Loom#19; the Zengine half, then Loom#18; Loom#17 and #20 revised; #133
-  once its fix is reviewed; Loom#12 and #132 back to back. Concerns for the end: the lane posts
+  build, so whichever merges second takes `roles_of`. Merged after the review: Zengine#136
+  (`65f9b57`); Loom#21, the stranger's 90 minutes (`37835c2`, whose stranger on `main` took 48);
+  Loom#19 after a fresh run (`dc06bdd`). Vision's order now: #133; Loom#12 closed and reopened for
+  a fresh run, its stranger red until #132 merges since Zengine `main` reads `role_of`, then
+  merged; #132 closed and reopened, so it builds against L1 and over #133, then merged; the
+  stranger re-run on Loom `main`; the Zengine half, then Loom#18; Loom#17 and #20 revised, #20
+  rebased to take `roles_of` once L1 is in. Concerns for the end: the lane posts
   none of the issue comments `taking-an-issue.md` asks for, a crossing of the folders among them
   (#19's and #136's were needed, and their bodies say why); #18's quoted red cannot come from its
   final case, whose `static_assert` stops the old code compiling; #136's catalog counts four text
