@@ -75,11 +75,27 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   replacement keeps the incumbent's stale (SENSE-03); and nothing is left waiting -- every ask
   whose answer can no longer come is told to its asker, with why, so it can retry or wrap up,
   planned explicitly as the first round of the research **replacement without a seam**
-  ([prompt](../prompts/unrun/replacement-without-a-seam-research.md), warm), the founder's goal a
+  ([prompt](../prompts/replacement-without-a-seam-research.md), warm), the founder's goal a
   total takeover with no work downtime (one shape: the retired weave kept as its successor's
   child to finish what cannot move, such as a build). That research runs before L2, so L2 and the
   split are built once; who is told when a holder leaves (its askers, its subscribers, the weave
-  itself) is its own. Z1, #133 with Loom#13, and #134 reviewed 2026-11-10: each holds, #133 and #134
+  itself) is its own. Reviewed 2026-11-10
+  ([report](../reportbacks/replacement-without-a-seam-research-RB.md), pages in
+  `reportbacks/replacement-without-a-seam-research/`), its source claims checked by Vision: an
+  ask is the asker's (`mail.ask`, refused for a weave that does not accept `zen.AskEnded`), and
+  Loom follows it to its answer or to `zen.AskEnded` with its stage and reason; owed long work
+  is a kept answer under a bound per weave; a replaced weave is retired to its successor, which
+  owns it, told `zen.Leaving` after the switch, its queued speech delivered and its owed answers
+  finished, handed over (`zen.AnswerOwed`, role-addressed asks only) or let go, its letter exact
+  without a hold; L2 a plan of rows, one candidate accepted, the Manager's swap on the switch;
+  the hold its own round. Rounds: Loom F1 (the floor, in process), then F2 and T1 (retirement),
+  T2 (L2 and the swap), T3 (the handover, a reload's carry), T4 (the hold, if asked), T5 (the
+  split); Zengine ZF after F1, the build runner first. Sixteen decisions asked, each with a lean;
+  Vision's two changes: the old swap and `zen.ClaimBequest` gone at once, not after a release
+  (decision 13), and no `kept` word reserved until a weave needs it (decision 14). The ABI:
+  Loom#17 takes v12 (the founder, 2026-11-02, never avoid a version bump), so the floor and the
+  addressed role are v13 and the takeover v14; Loom's new notices are not counted by #17's
+  bound, as a dispatch refusal's is not. Z1, #133 with Loom#13, and #134 reviewed 2026-11-10: each holds, #133 and #134
   green on every job. For Z2 (round 5): `LoadedSelected` keeps one `role` field, which carries
   `r1+r2` once a weave holds two, so it wants a `roles` field before Workshop takes its second
   name. Left of office-to-role: the code's multi-word names, which want a census of identifiers
