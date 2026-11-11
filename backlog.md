@@ -578,7 +578,17 @@ Each starts on the founder's word; "wake" is what must be true first.
   state (Vision's read, taken): the boundary proven in one repository first, a stranger lane,
   then the move, after the visual foundation's first stages; the distance measured
   ([report](../reportbacks/workshop-as-a-stranger-research-RB.md): 111 reverse include lines,
-  the seam Zengine's, 23 closings). Designed whole (2026-11-03,
+  the seam Zengine's, 23 closings). Its calls (the founder, 2026-11-11): W-1 settled by
+  the pane contract (2026-11-08); W-2 the Builder, `external-host/` and the launcher Workshop's,
+  the app host and the menu presenter Zengine's; W-3 the Flow host exported whole for now, one
+  host the end goal (Loom's `loom-host`, every build-out a plan; a research queued: each
+  in-process mount in both Zengine hosts mapped to the Loom feature that frees it, the boot plan
+  and the load plan merged, the capabilities a loaded weave holds, the byte seam's cost measured);
+  W-4 named trees; W-5 fixtures; W-7 the closings that depend on nothing now, in one round with
+  the text check and the Flow host's export, the contract by the pane contract's rounds, the
+  suites after it, the key spelling after V7, W-4's two trees before the move, the package, laws,
+  checks and links at the move, and the move after the pane contract's rounds, the foundation's
+  Zengine rounds through calls, and V7. W-6 asked. Designed whole (2026-11-03,
   [design](../reportbacks/visual-foundation-research/design.md),
   [stages](../reportbacks/visual-foundation-research/stages.md),
   [report](../reportbacks/visual-foundation-research-RB.md)): eleven stages in Zengine, V1 the
@@ -899,9 +909,10 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
-- Workshop's seven calls, W-1 to W-7 ([review](drafts/research-review-2026-11-03.md),
-  2026-11-03), each with Vision's lean; the first closings' prompt waits on W-1, W-2 and W-7.
-  The visual foundation's six settled the same day (section 3).
+- W-6 of Workshop's seven calls ([review](drafts/research-review-2026-11-03.md)), the rest
+  answered 2026-11-11 (section 3): the line held by a text check now, a census row that only
+  falls, and by Zengine built without Workshop's folders before the move; asked what the text
+  check is. The first closings' prompt waits on it.
 - An adversarial read of Loom, Zengine and Workshop (the founder's Grinch agent, 2026-11-05,
   revised with Vision's corrections): gates inside the visual foundation's rest -- the clock
   (A2) before V5, the interaction contract (A4: gesture streams, a focus chain, dispositions,
