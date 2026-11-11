@@ -148,7 +148,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   #20 and L1 collide at `report_native_failure`'s `role_of`, a clean text merge that does not
   build, so whichever merges second takes `roles_of`. Merged after the review: Zengine#136
   (`65f9b57`); Loom#21, the stranger's 90 minutes (`37835c2`, whose stranger on `main` took 48);
-  Loom#19 after a fresh run (`dc06bdd`). Vision's order now: #133; Loom#12 closed and reopened for
+  Loom#19 after a fresh run (`dc06bdd`); Zengine#133 (`3f7b5d1`), before its setup format's
+  version could move, so version 2 is a follow-up pull request
+  ([prompt](../prompts/unrun/setup-format-v2.md), warm). Vision's order now: Loom#12 closed and reopened for
   a fresh run, its stranger red until #132 merges since Zengine `main` reads `role_of`, then
   merged; #132 closed and reopened, so it builds against L1 and over #133, then merged; the
   stranger re-run on Loom `main`; the Zengine half, then Loom#18; Loom#17 and #20 revised, #20
