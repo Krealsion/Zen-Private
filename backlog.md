@@ -774,6 +774,13 @@ Each starts on the founder's word; "wake" is what must be true first.
   5. The one-way doors decided first ([the audit](drafts/audit-2026-11-09.md), section 2): the
      ABI's exact-version rule and its fixed tables, the schema id, the licence.
   6. The founder's own setup restarted from nothing; no pre-release build or package kept.
+  7. A version fetched is the version found: a project that fetches a tag or its source archive
+     (FetchContent, CPM, vcpkg, Conan) and installs it is answered by `find_package(zengine
+     0.2.7)`, so a person keeps old versions side by side without a package finder, or their
+     later self, mistaking one. The number is in the downloaded files themselves (the founder,
+     2026-11-10): git fills a placeholder when GitHub builds the archive (`export-subst`), or
+     the nightly attaches a source archive with the number written in. A git checkout of a tag
+     reads its tag. Never a commit made by a workflow.
 - **Loom's own release** (BL-ADOPT-07, [prompt](../prompts/loom-release-research.md)): researched
   once Zengine's nightly has published a few clean nights.
 - **The documentation overhaul's rest** (BL-ADOPT-05): stage C's tutorials wait for the complete
