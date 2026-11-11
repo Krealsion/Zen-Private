@@ -150,11 +150,17 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   (`65f9b57`); Loom#21, the stranger's 90 minutes (`37835c2`, whose stranger on `main` took 48);
   Loom#19 after a fresh run (`dc06bdd`); Zengine#133 (`3f7b5d1`), before its setup format's
   version could move, so version 2 is a follow-up pull request
-  ([prompt](../prompts/unrun/setup-format-v2.md), warm). Vision's order now: Loom#12 closed and reopened for
-  a fresh run, its stranger red until #132 merges since Zengine `main` reads `role_of`, then
-  merged; #132 closed and reopened, so it builds against L1 and over #133, then merged; the
-  stranger re-run on Loom `main`; the Zengine half, then Loom#18; Loom#17 and #20 revised, #20
-  rebased to take `roles_of` once L1 is in. Concerns for the end: the lane posts
+  ([prompt](../prompts/setup-format-v2.md), warm). Then Loom#12, L1 (`0faba92`), and Zengine#132,
+  Z1 (`4865cf8`), back to back, both `main`s green after. Two Ceecee lanes reviewed
+  2026-11-10, each holding and green: one-release-number (Loom#22, Zengine#139; its dry run's
+  package says 0.2.8 in all six places) and the setup format's version 2 (Zengine#140,
+  [section](../reportbacks/office-to-role-followup-RB-setup-format-v2.md)). Both lanes took
+  the primary at once (the kit's one `PHASE` file), each moving to a second copy: the kit
+  should refuse a second phase while one holds the primary, and `kit.sh end` and constitution
+  section c disagree on when a session's second copy goes, both for the kit's next round.
+  Vision's order now: Loom#22, then Zengine#139 (a night is red until Loom names a series);
+  #140 at any time; the Zengine half, then Loom#18; Loom#17 and #20 revised, #20 rebased on
+  L1 and #22, which it conflicts with in `host_main.cpp`. Concerns for the end: the lane posts
   none of the issue comments `taking-an-issue.md` asks for, a crossing of the folders among them
   (#19's and #136's were needed, and their bodies say why); #18's quoted red cannot come from its
   final case, whose `static_assert` stops the old code compiling; #136's catalog counts four text
@@ -768,9 +774,12 @@ Each starts on the founder's word; "wake" is what must be true first.
   3. A documentation and comment pass: no past state anywhere, every page and comment saying
      what is.
   4. One release number, 0.3.0 or later, everywhere: the tag, both repositories'
-     `project(VERSION)`, the package, `--version` and the pages' copies, the tag refused when
-     it differs; a nightly takes no release's number (a pre-release of the next, such as
-     `0.3.0-nightly.5`, where it is `0.2.6` today).
+     `project(VERSION)`, the package, `--version` and the pages' copies. Each nightly is a
+     release of its own and rolls the last number (the founder, 2026-11-10). Built by
+     one-release-number ([report](../reportbacks/one-release-number-RB.md), Loom#22 and
+     Zengine#139, reviewed 2026-11-10): the series in one line in each repository
+     (`LOOM_SERIES`, `ZENGINE_SERIES`), a package's number from its tag, both programs and
+     both CMake packages saying it; at the release only the series moves.
   5. The one-way doors decided first ([the audit](drafts/audit-2026-11-09.md), section 2): the
      ABI's exact-version rule and its fixed tables, the schema id, the licence.
   6. The founder's own setup restarted from nothing; no pre-release build or package kept.
@@ -780,7 +789,8 @@ Each starts on the founder's word; "wake" is what must be true first.
      later self, mistaking one. The number is in the downloaded files themselves (the founder,
      2026-11-10): git fills a placeholder when GitHub builds the archive (`export-subst`), or
      the nightly attaches a source archive with the number written in. A git checkout of a tag
-     reads its tag. Never a commit made by a workflow.
+     reads its tag. Never a commit made by a workflow. Its seam: `LOOM_PACKAGE_VERSION` and
+     `ZENGINE_PACKAGE_VERSION`, filled from the tag in place of the nightly.
 - **Loom's own release** (BL-ADOPT-07, [prompt](../prompts/loom-release-research.md)): researched
   once Zengine's nightly has published a few clean nights.
 - **The documentation overhaul's rest** (BL-ADOPT-05): stage C's tutorials wait for the complete
