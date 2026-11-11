@@ -760,6 +760,20 @@ Each starts on the founder's word; "wake" is what must be true first.
 - **The release for Windows and Linux** (BL-ADOPT-06). The nightly package is live (`v0.1.0` on
   2026-10-24, 0.1.3 since, its tally story walked each night). Left: the rest of the release,
   the first tutorials starting from the extracted folder.
+  **The release checklist** (the founder, 2026-11-10):
+  1. Every version restarts at 1: each shape, each file format, the weave ABI. The release is
+     the marker: from the reset on, a library or file says the release that made it, and a
+     reader refuses one that says none, so nothing from before passes on a matching number.
+  2. All migration code goes: every reader of an older version.
+  3. A documentation and comment pass: no past state anywhere, every page and comment saying
+     what is.
+  4. One release number, 0.3.0 or later, everywhere: the tag, both repositories'
+     `project(VERSION)`, the package, `--version` and the pages' copies, the tag refused when
+     it differs; a nightly takes no release's number (a pre-release of the next, such as
+     `0.3.0-nightly.5`, where it is `0.2.6` today).
+  5. The one-way doors decided first ([the audit](drafts/audit-2026-11-09.md), section 2): the
+     ABI's exact-version rule and its fixed tables, the schema id, the licence.
+  6. The founder's own setup restarted from nothing; no pre-release build or package kept.
 - **Loom's own release** (BL-ADOPT-07, [prompt](../prompts/loom-release-research.md)): researched
   once Zengine's nightly has published a few clean nights.
 - **The documentation overhaul's rest** (BL-ADOPT-05): stage C's tutorials wait for the complete
@@ -936,7 +950,9 @@ marked.
 ## 7. Directions that govern
 
 - **Never avoid a version bump** (the founder, 2026-11-02): a shape or a file format moves to a
-  new version whenever it changes; the migration path is worth the exercise.
+  new version whenever it changes; the migration path is worth the exercise. At the release
+  every version restarts at 1 (the founder, 2026-11-10; the release checklist), so a bump now
+  costs nothing that lasts.
 - **The goal** (the founder, 2026-10-14): Zen legible, and good to use as a human weaver:
   documentation, then the split, then the UX batch, then complete stories on a well-formed
   architecture.
