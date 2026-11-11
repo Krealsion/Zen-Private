@@ -76,6 +76,15 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   floor, takeover and L2 folded in, so F1 waits for it and the ABI changes as few times as is
   honest; the open pull requests stand. Workshop moves to its own repository after Loom's gaps
   close. `app/` including `workshop/` headers can be untangled beside it.
+- **The overnight chain of 2026-11-11** (Vision's prompts, one session, warm then hot; reports in
+  `unreviewed/`): the lane's Zengine#137 (Loom#18's Zengine half) and #138 (the Files places
+  case) taken by the executor, the lane out of usage until the evening; the pane contract's
+  rounds 2 (the contract's folder, `pane/`) and 3 (the world seams out of the pane protocol);
+  the kit holding one phase in the primary. Merged before it: Loom#22, Zengine#139 and #140.
+  The lane's own: Loom#20's fix pushed (`a2dfc21e`, on L1, wanting #22 under it), Loom#17's
+  proposed idea posted and not yet built (a `refusal` on `Ticket` and `RolePublication`, answers
+  out of the bound); Vision reads both before the lane runs again. The Workshop-as-a-stranger
+  research's seven decisions are still open, so `app/` leaving `workshop/` waits for them.
 - **The overnight chain of 2026-11-10** (Vision's prompts, one session, warm then hot; reports in
   `unreviewed/`): the kit's session roots on NTFS and ext4, done (the constitution's section c
   amended, the founder, 2026-11-10: a session's roots live where permissions are kept); several roles L1, Loom#12; its Zengine half Z1,
