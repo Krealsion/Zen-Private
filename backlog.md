@@ -112,6 +112,36 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   limit in words of its own ([prompt](../prompts/unrun/package-download-cache.md), hot; the
   founder, 2026-11-11). The seam round waits for Loom#17; the Zengine halves (the union spent, the
   Timer over a deadline with `interaction_now` gone) follow their Loom rounds' merges.
+  Reviewed 2026-11-12, every stage holding ([reports](../reportbacks/loom-union-RB.md) and beside
+  it): Zengine#148 (the line's census, both ways, every row falling, and twelve closings; forward
+  includes 49 to 30, reverse 47 to 42; Workshop configures whole as a stranger, stopping at closing
+  15) merged; Loom#23 (deadlines; `WaitSet`/`Waited` 2, v1 read and answered in kind) merged;
+  Zengine#149 and #151 merged; Loom#24 (the union, the kind for any registered shape, nested
+  values made in their cell, P-LOOM-23 closed) on its stranger's re-run, then Loom#25 (Loom's own
+  `Crossed`, history record and UI node as unions) retargeted to `main` and run again; Zengine#150
+  (the download cache) still running. Decided with them (the founder, 2026-11-12): #148's
+  tutorials installed by Zengine already exported, read by Workshop's launcher as installed data;
+  the census with no base says so and passes. The researches' leans all taken (the founder,
+  2026-11-12): one host -- Loom's plan format, `loom.host.Plan`, Workshop's retired outright with
+  the repository's plans converted once (O1); a load's capabilities, kind and ceiling in the row,
+  approved by the person, minted per weave as opaque handles, a reload asking again (O2);
+  participant authority beneath the maker's ceiling, ending with it (O3); nothing built into the
+  host for speed, and no `mode` reserved (O4); the person decides what runs, a loaded weave only
+  proposes (O5); a publication's refusal told to its author, bounded (O6); rounds V (after the
+  seam), A, M, R, P in Loom, ZH1 to ZH5 in Zengine. Schema evolution -- both, open doors for
+  additions and the walker for the rest, the wall for state (E1); open doors for observations too
+  (E2); an addition written as an extension, a default no optional (E3); the walker in Loom, its
+  own files on it from the start (E4); the extension check now, advisory until open doors, red
+  after (E5). Queued: `agents/packaging.md`'s stranger half to Workshop's side in the line's next
+  round (16,350 of 16,384 bytes); a link's socket in the reactor's wait and v1 of the wait set
+  dropped once Zengine's Timer moves to 2; Loom's `TypeToken`, `LogRecord` and `Outcome` as unions
+  and a census of `name_of` spellings, ordered by the plan; a census of the Loom shapes Zengine's
+  tools read by hand; `local/batch-137-138` still to force-delete (the union chain's end read
+  `PHASE` without `PHASE.ended`; the kit's `hold` would have said the primary was free). The lane
+  ([batch](../issues/raid-batch-2026-11-12.md)): Loom#17 built as reviewed and green, merging after
+  #24; #20 holding but conflicting again with #23 in `host_main.cpp`, its title's period to go;
+  Zengine#146 and #147 opened by the lane, waiting for `ready`. No contributor beyond the two:
+  every commit of #17 and #20 is UnknownWorkers', `cursor[bot]` only the pusher.
 - **The overnight chain of 2026-11-11** (Vision's prompts, one session, warm then hot), reviewed
   2026-11-11, every stage holding ([reports](../reportbacks/lane-issues-137-138-RB.md), and
   rounds 2, 3 and the kit's beside it): Zengine#142 (#137, Loom#18's Zengine half, `75827dfc`) and
