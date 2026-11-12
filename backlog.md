@@ -129,8 +129,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   batch ([issues](../issues/raid-batch-2026-11-11.md)): the stale mutant `search-ignores-the-role`,
   and a case cutting Files' places on every machine. The lane's own: Loom#20's fix pushed
   (`a2dfc21e`, on L1, wanting #22 under it), Loom#17's proposed idea posted and not yet built (a
-  `refusal` on `Ticket` and `RolePublication`, answers out of the bound); Vision reads both and adds
-  them to the batch before the lane runs again. For the kit's next round: `kit.sh hold` (who holds
+  `refusal` on `Ticket` and `RolePublication`, answers out of the bound); both reviewed
+  2026-11-11 and in the batch, the lane continuing rather than starting over: #20's three fixes
+  answer the review, left only a rebase (`CMakeLists.txt` against #22, the version's definitions
+  inside `loom_add_host_executable` for both builds); #17's idea holds with a publication refused
+  whole at the bound and `README.md`'s marker at 12, after a rebase onto `main`. #17 merges before
+  the foundation's seam round takes 13. The founder's word (2026-11-11): `local/batch-137-138`
+  force-deleted at the next Ceecee session's end, carried in its prompt. For the kit's next round: `kit.sh hold` (who holds
   the primary, since when); a stranger check against a Loom pull request as it would merge; a
   warning for a doctest filter holding a comma (hit twice); the README saying `issue-say.sh idea`
   adds its own heading; the two rounds' pass walkers lifted into the kit at the third move. A
