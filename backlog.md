@@ -116,7 +116,16 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   the archive does not answer whole; [stage 2](../prompts/unrun/contract-rounds-onto-main.md), hot:
   #143 regenerated onto `main`, #141's `omitted_text` respelled by the pass, #144 on it); then
   #143 and #144, with Package's Linux judge green, since they change what installs. #143 merged
-  after #141 without the rebase would leave `main` unbuildable: the text merge is clean. The lane's
+  after #141 without the rebase would leave `main` unbuildable: the text merge is clean. Done
+  2026-11-11: #141 and #142 merged, Loom#18 merged (Loom `main` `827121b`); the chain of two
+  reviewed, each holding: Zengine#145 (`14212239`, the step refuses by name after four tries, the
+  build set unchanged, green), #143 (`f91f182b`, regenerated onto `main` with the one respelled
+  line, checked against Vision's trial merge) and #144 (`12e1bc5a`, replayed identical), every lane
+  and hosted run green, Package's Linux judge among them. Asked: the install's own downloads (24
+  min on a slow day, inside the job's hour) by a cache keyed by the snapshot date and a time limit
+  with words of its own; `local/batch-137-138` force-deleted (`git branch -d` refuses a local merge
+  whose work is on `main`). For the kit: a replay script beside each mass-edit pass (round 3's pass
+  has no README). The lane's
   batch ([issues](../issues/raid-batch-2026-11-11.md)): the stale mutant `search-ignores-the-role`,
   and a case cutting Files' places on every machine. The lane's own: Loom#20's fix pushed
   (`a2dfc21e`, on L1, wanting #22 under it), Loom#17's proposed idea posted and not yet built (a
