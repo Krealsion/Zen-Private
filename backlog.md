@@ -99,6 +99,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   union's round and the seam's, both ready to prompt; the open pull requests stand. Workshop moves to its own
   repository after Loom's gaps close. `app/` leaving `workshop/` waits for the stranger
   research's seven decisions, and Zengine's ZR (the realization owner a participant) with them.
+- **The files every session reads, kept true** (the founder, 2026-11-12; a side lane,
+  [prompt](../prompts/unrun/instruction-drift.md), warm): another tool's audit of the routers
+  (`Zen/Claude outputs/prompt-audit-2026-11-12.md` and its diff) found four stale names and a
+  machine timing, each holding on Zengine `main` by Vision's check, and no dated prompting. The
+  lane widens it to the constitution, the memory store, the kit's README and the much-read pages,
+  fixes what is stale (the constitution and the memory store proposed, not edited), and lands a
+  documentation-lane check that every backticked name resolves; at its end the audit's two files
+  go, and `local/batch-137-138` is force-deleted if the primary is free.
 - **The overnight lanes of 2026-11-12** (Vision's prompts, two sessions side by side, beside
   Workshop's line round 1, which runs in Zengine): lane 1, the union
   ([prompt](../prompts/unrun/loom-union.md), warm: `Kind::Union`, the kind for any registered
