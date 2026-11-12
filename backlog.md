@@ -149,7 +149,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   ([batch](../issues/raid-batch-2026-11-12.md)): Loom#17 built as reviewed and green, merging after
   #24; #20 holding but conflicting again with #23 in `host_main.cpp`, its title's period to go;
   Zengine#146 and #147 opened by the lane, waiting for `ready`. No contributor beyond the two:
-  every commit of #17 and #20 is UnknownWorkers', `cursor[bot]` only the pusher.
+  every commit of #17 and #20 is UnknownWorkers', `cursor[bot]` only the pusher. Zengine#150 reviewed
+  2026-11-12, holding: Vision's premise in its prompt was false -- apt takes a cached `.deb` whose
+  size matches without checking its hash (shown with a changed byte handed to dpkg) -- so each
+  cached file is checked against the index the update just fetched and removed when its SHA-256
+  is not the index's; two dry runs downloaded nothing and installed in 10 s, the build set the
+  night's byte for byte; the cache filled across a day's outage of the dated archive, every attempt
+  ending in the archive's words. Loom#25's continuation holds (a race in the journey, on `main` too;
+  green at `e9987731`).
 - **The overnight chain of 2026-11-11** (Vision's prompts, one session, warm then hot), reviewed
   2026-11-11, every stage holding ([reports](../reportbacks/lane-issues-137-138-RB.md), and
   rounds 2, 3 and the kit's beside it): Zengine#142 (#137, Loom#18's Zengine half, `75827dfc`) and
