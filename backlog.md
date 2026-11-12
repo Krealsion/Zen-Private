@@ -99,6 +99,19 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   union's round and the seam's, both ready to prompt; the open pull requests stand. Workshop moves to its own
   repository after Loom's gaps close. `app/` leaving `workshop/` waits for the stranger
   research's seven decisions, and Zengine's ZR (the realization owner a participant) with them.
+- **The overnight lanes of 2026-11-12** (Vision's prompts, two sessions side by side, beside
+  Workshop's line round 1, which runs in Zengine): lane 1, the union
+  ([prompt](../prompts/unrun/loom-union.md), warm: `Kind::Union`, the kind for any registered
+  shape, nested values made and never adopted, the gate's budget; the manifest's version, not the
+  ABI's), then Loom's own hand-made unions onto it on its branch
+  ([prompt](../prompts/unrun/loom-own-unions.md), hot; its end force-deletes `local/batch-137-138`
+  on the founder's word). Lane 2: deadlines in the reactor ([prompt](../prompts/unrun/loom-deadlines.md),
+  warm), the one-host research ([prompt](../prompts/unrun/one-host-research.md), hot), the
+  schema-evolution research trying both answers ([prompt](../prompts/unrun/schema-evolution-research.md),
+  hot), then #145's follow-up, the install's downloads cached by the snapshot's date and its time
+  limit in words of its own ([prompt](../prompts/unrun/package-download-cache.md), hot; the
+  founder, 2026-11-11). The seam round waits for Loom#17; the Zengine halves (the union spent, the
+  Timer over a deadline with `interaction_now` gone) follow their Loom rounds' merges.
 - **The overnight chain of 2026-11-11** (Vision's prompts, one session, warm then hot), reviewed
   2026-11-11, every stage holding ([reports](../reportbacks/lane-issues-137-138-RB.md), and
   rounds 2, 3 and the kit's beside it): Zengine#142 (#137, Loom#18's Zengine half, `75827dfc`) and
