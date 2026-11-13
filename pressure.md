@@ -200,8 +200,9 @@ under the same id.
   one (Vision's grep, 2026-11-13). Two kinds of time, as engines keep: real time for what meets the
   outside world (a double-click, a key repeat, Neovim's bound, a timeout, a date), and a world's
   own time (the snake's), which pausing stops. Wakes: the frame clock's round, the first consumer
-  of time at a cadence. Researched from 2026-11-13
-  ([prompt](../prompts/unrun/game-time-research.md)).
+  of time at a cadence. Researched 2026-11-13
+  ([report](../reportbacks/game-time-research-RB.md)): the tower defense is a second world, its
+  150 ms beat firing while paused; twelve decisions asked.
 - **P-WORK-88** (SEED) Every actor a participant (the founder, 2026-11-07): the weaver, an agent
   and a remote peer each with a hand of its own -- pointer, presses, focus and keys -- so peer
   programming from afar is one more participant at the desk. The window's hand per actor (`Hand`,

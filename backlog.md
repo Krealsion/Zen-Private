@@ -128,6 +128,41 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   to 14, the app's four `line` rows gone, a trial merge with the union's branch). A third session:
   game time and the frame clock, a research ([prompt](../prompts/unrun/game-time-research.md),
   warm; P-WORK-85).
+  Reviewed 2026-11-13, each holding and green on every job
+  ([reports](../reportbacks/loom-floor-RB.md) and beside it): Loom#26 rebased, both checks kept
+  (13 of 13); Loom#29, the floor at ABI 15 (13 of 13): `zen.AskEnded` a union of four stage
+  enumerations, every ending of 2.4 told where it is made, `kMaxDeferredPerWeave` 64 under 1024,
+  the kept answers a unit (`switchboard/asks.hpp`), the bus's rows falling (4107 to 4105 lines, 154
+  to 153 members), one door appended (15 to 16), 14's image loading; #26 and #29 merge clean, six
+  text checks green on both. Zengine#162, the union's first five items (10 of 10): the class rows a
+  ratchet, the guards gone and each `Kind::Message` comparison decided, `Moment` a union of input's
+  six shapes (`InjectInput` and `AttributedInput` 2), the act tool spelling a lone and a double
+  Shift, the census reading hand-built shapes, the Timer's three gaps; items 4 to 7 not done (the
+  session's whole-diff read before the push skipped, Vision's read of the hunks found nothing).
+  Zengine#163, ZR (17 of 17): `realization::Owner` one weave in `realization/`, installed and
+  exported, claiming `PlanWhere` and `ChoicesHeld`; `HostContext` 18 to 14, the app's four `line`
+  rows and twelve more gone; it conflicts with #162 in the census's `lines` block only (resolved
+  by its trial; nine text checks green on all four Zengine pull requests together). Vision's ask
+  before #163 merges: `PlanWhere::state` (four words) an enumeration, the open-set decision's
+  closed set, with the rebase onto #162. Raid's #160 (3 succeeded, the rest skipped as a text
+  change) and #161 (10 of 10) meet their issues; #161 takes packaging.md one step and the three
+  unbudgeted pages rows (operators 7, realization 8, panes 19). The game-time research
+  ([report](../reportbacks/game-time-research-RB.md)): real time stays the wait's, a date its
+  second reading, a world's time a Zengine world clock serving the Timer's shapes; the frame clock
+  the window's own claim, a frame's time its due time; rounds TT (Loom, the turn's time and date as
+  delivery facts), G1 world time, G2 the frame clock (V5's first stage, after ZU's rest), G3
+  Neovim on the wait's time, ZTT. Asked, with Vision's leans: the floor's two (Loom's control door
+  and Weave Manager keep their answers, in a round before ZF: yes; the run-time refusal for a
+  `WeaveBase` asker stands: yes); the union's items 4 to 7 a round of their own (yes); #26's two
+  (`census` added to the lists of the lane's checks, and the routing table's parenthesized name
+  read as an entry: one Loom issue); the research's twelve (all as leaned; TT the founder's own
+  call, since every delivery would carry the turn's time). Found beside them: Zengine `main`'s
+  MinGW-w64 job failed on two push runs (#151's `344b42d`, #156's `ff4722d0`) and passed on the
+  scheduled run of `ff4722d0`, an intermittent case not yet named (its log is behind sign-in); the
+  night package of 2026-11-13 (`b8fa0e3`) failed at its publish step; four sanitizer entries are
+  past VM-LANE-27's 600 s (`workshop_panes_hand_2` up to 946 s, `hand_4` 732, `panes_info_8` 659,
+  `workshop_desk` 607) and the sanitizer build peaks at 14.4 GB. The wait's leftovers wait for the
+  founder's restart, warm.
 - **The next two lanes** (Vision's prompts, 2026-11-12, on the founder's yes that day; two
   sessions side by side). Lane 1, Loom: the seam that grows
   ([prompt](../prompts/unrun/loom-seam-grows.md), warm: ABI 13, the last exact break; each table
@@ -354,7 +389,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   warning for a doctest filter holding a comma (hit twice); the README saying `issue-say.sh idea`
   adds its own heading; the two rounds' pass walkers lifted into the kit at the third move;
   `kit.sh end` reading a phase's continuations, whose reports have stems of their own (the Timer's
-  third report, 2026-11-13). A chain's prompt ends each stage's hold before the next names itself.
+  third report, 2026-11-13); the primary's Loom prefixes rebuilt when Loom's `main` moves (three
+  sessions of 2026-11-13 built their own, the primary's predating the union); `witness.sh` and
+  `primary.sh second` working with `KIT_LOOM_WIN_PREFIX` set, `witness.sh start --plan` and
+  `witness.sh compare`; `tip-wsl.sh` refusing a copy built against another Loom; `loom-wsl.sh`
+  running one case under the delegated scope, and a box build; `timed.sh` finding a kit helper by
+  name. A chain's prompt ends each stage's hold before the next names itself.
   The Workshop-as-a-stranger research's seven decisions were taken (the founder, 2026-11-11), so
   `app/` leaving `workshop/` is ZR's.
 - **The overnight chain of 2026-11-10** (Vision's prompts, one session, warm then hot; reports in
