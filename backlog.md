@@ -110,10 +110,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   go, and `local/batch-137-138` is force-deleted if the primary is free.
 - **The lanes of 2026-11-13, evening** (Vision's prompts, on the founder's word that day). Merged
   first (the founder, 2026-11-13): Loom#26 and #29 (Loom `main` `003cff6`), Zengine#161, #160 and
-  #162 (`c9ac655a`). Decided with them: the review's leans, but for the game-time research's
-  decision 7: no time on every delivery; a shape that needs the turn's time asks for it in its own
-  schema, and the rest carry none (Vision's form, to confirm: a field of a Loom kind, stamped by
-  Loom at delivery, a sender unable to set it; round TT waits for it). Loom, one session: the
+  #162 (`c9ac655a`). Decided with them: the review's leans; for the game-time research's decision
+  7, after a detour (Vision's field stamped by Loom, withdrawn: Loom does not write a sender's
+  fields), the founder's form: the turn's time attached to every delivery whatever its source, an
+  optional fact a handler reads or ignores (`mail.turn_ms()`), which is the research's TT as
+  leaned; its prompt on his yes. Loom, one session: the
   wait's leftovers ([prompt](../prompts/unrun/loom-wait-leftovers.md), warm, now the first of two),
   then the control door and the Weave Manager keeping the answers they owe
   ([prompt](../prompts/unrun/loom-own-respondents.md), hot; before ZF). Zengine, one session:
