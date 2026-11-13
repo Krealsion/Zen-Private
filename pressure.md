@@ -194,13 +194,14 @@ under the same id.
   and resume that keep the id and refuse a stale firing, would make it one line. Wakes: the
   reactor's round, or the next weave to hand-write it.
 - **P-WORK-85** (SEED) Game time (the founder, 2026-11-07): no part of Zen reads the OS clock but
-  the Timer, and every other part gets time from it, so time can run, pause, slow or jump. Today the
-  Timer reads the OS clock (`MonotonicClock`) and about a dozen places read it themselves (the
-  Neovim pane's bounds, Workshop's interaction time, the Input office's `Now`, Flow's pane, Info's
-  and Inventory's timestamps); only the four suites' virtual clock jumps. Two kinds of time, as
-  engines keep: real time for what meets the outside world (a double-click, a key repeat, Neovim's
-  bound, a timeout, a date), and a world's own time (the snake's), which pausing stops. Wakes: the
-  frame clock's round, the first consumer of time at a cadence.
+  the Timer, and every other part gets time from it, so time can run, pause, slow or jump. Since the
+  deadlines rounds (Loom#23, Zengine#156) the host's wait reads the clock and hands the Timer its
+  time, and the hub reads none; the Neovim pane's bounds, three dates and the bus tally still read
+  one (Vision's grep, 2026-11-13). Two kinds of time, as engines keep: real time for what meets the
+  outside world (a double-click, a key repeat, Neovim's bound, a timeout, a date), and a world's
+  own time (the snake's), which pausing stops. Wakes: the frame clock's round, the first consumer
+  of time at a cadence. Researched from 2026-11-13
+  ([prompt](../prompts/unrun/game-time-research.md)).
 - **P-WORK-88** (SEED) Every actor a participant (the founder, 2026-11-07): the weaver, an agent
   and a remote peer each with a hand of its own -- pointer, presses, focus and keys -- so peer
   programming from afar is one more participant at the desk. The window's hand per actor (`Hand`,
@@ -322,15 +323,6 @@ under the same id.
   answered and left the standard Editor in the office, on `main` and with #111 and #112, and
   its outcome was not on the Terminal's rows (time-first-steps-RB, 2026-11-06): the harness's
   ask or a defect. Wakes: the Neovim latency measured, or a weaver's switch that does not take.
-- **P-BUILD-23** The suites that fake time do not run the reactor (the founder, 2026-11-07: test
-  with its real outcomes). In `timer`, `snake`, `audit_probes` and `flow` and the virtual Timer
-  library, time moves inside the Timer's own beat (`elapse_ms(wait_from(now))`), a beat at most
-  `kVirtualStepMs` (10 ms), and the suites count beats as time (`pump_for`). Without the step: the
-  rig runs the host's loop with the reactor waiting on a virtual clock (a Loom seam: look at the
-  handles, then move the clock to the deadline), the suites wait until a virtual time rather than
-  for a count of beats, a fake source exposes a pipe or event where a case reads its OS side, and a
-  suite with a real child process keeps real time. The session journeys drive the real Workshop and
-  run the reactor for real. Wakes: the frame clock's round, whose cases are all cadence.
 - **P-BUILD-24** A stranger's Loom pull request branched before what Zengine `main` reads goes red
   in its stranger job for a reason not its own, and a re-run reuses the opening's merge ref: only a
   close and reopen tests it as it would merge (Loom#18, 2026-11-11). A stranger job that merges the
@@ -384,9 +376,6 @@ under the same id.
   only a console, so a worker's finished result has no general way to end the wait. Wakes: the frame
   clock's round (a frame's time read through the clock its host wires, so a prepared frame can be
   handed its due time; time stays an argument, never on a wire).
-- **P-LOOM-20** `loom-host --serve` still naps 5 ms at a time: it could rest in the one wait over
-  its door (`BridgeServer::wait_set`) and its console (reactor-RB, 2026-11-07). Wakes: the next
-  change to `loom-host`'s loop.
 - **P-LOOM-21** The split replacement (the founder, 2026-11-09): A holding X and Y becomes B holding
   X and C holding Y in one transaction. The candidates are sealed to one coordinator, each answers
   its own readiness, and one admission dispatch moves every role and seals A; any refusal aborts
@@ -400,10 +389,6 @@ under the same id.
   addressed role, L3, is the lighter half, held for its first consumer (several-roles-research-RB,
   2026-11-09). Wakes: a door judged by the role it was reached by, a reactor source holding two
   trusted roles, or a weave found handling one shape for two roles' duties.
-- **P-LOOM-23** A sender that keeps its own `shared_ptr<Value>` to a nested message it sent can
-  still change it between two recipients' deliveries: Loom#18 makes what a recipient is handed
-  const, as its issue asked, and `Cell::message` still accepts a mutable pointer (the lane's batch
-  reviewed, 2026-11-10). Wakes: a native sender found writing what it already sent.
 
 ## 7. Adoption
 
