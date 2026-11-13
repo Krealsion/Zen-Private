@@ -114,16 +114,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   7, after a detour (Vision's field stamped by Loom, withdrawn: Loom does not write a sender's
   fields), the founder's form: the turn's time attached to every delivery whatever its source, an
   optional fact a handler reads or ignores (`mail.turn_ms()`), which is the research's TT as
-  leaned; its prompt on his yes. Loom, one session: the
-  wait's leftovers ([prompt](../prompts/unrun/loom-wait-leftovers.md), warm, now the first of two),
+  leaned; the turn's time is the steady clock's, the date the calendar's, read together when the
+  wait ends, and nothing schedules on a date. Loom, one session: the
+  wait's leftovers ([prompt](../prompts/loom-wait-leftovers.md), warm, the chain's first),
   then the control door and the Weave Manager keeping the answers they owe
-  ([prompt](../prompts/unrun/loom-own-respondents.md), hot; before ZF). Zengine, one session:
-  `main`'s reds ([prompt](../prompts/unrun/zengine-main-reds.md), warm: the MinGW-w64 flake, the
+  ([prompt](../prompts/unrun/loom-own-respondents.md), hot; before ZF), then TT, added to the chain
+  after it began ([prompt](../prompts/unrun/loom-turn-time.md), hot). Zengine, one session:
+  `main`'s reds ([prompt](../prompts/zengine-main-reds.md), warm: the MinGW-w64 flake, the
   night package's publish step, the four slow sanitizer entries), #163 onto `main` with
   `PlanWhere`'s state an enumeration
   ([prompt](../prompts/unrun/zengine-realization-participant-rebase.md), hot), then the union's
   last four items ([prompt](../prompts/unrun/zengine-union-spent-continued.md), hot). Beside them,
-  Neovim on the wait's time, G3 ([prompt](../prompts/unrun/zengine-neovim-wait-time.md), warm).
+  Neovim on the wait's time, G3 ([prompt](../prompts/zengine-neovim-wait-time.md), warm).
   The lane ([batch](../issues/raid-batch-2026-11-13b.md)): one Loom issue, the four lists of the
   documentation checks missing `census` and a check's entry after its path read by `doc_names`.
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
