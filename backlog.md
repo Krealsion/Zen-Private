@@ -108,6 +108,23 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   fixes what is stale (the constitution and the memory store proposed, not edited), and lands a
   documentation-lane check that every backticked name resolves; at its end the audit's two files
   go, and `local/batch-137-138` is force-deleted if the primary is free.
+- **The lanes of 2026-11-13, evening** (Vision's prompts, on the founder's word that day). Merged
+  first (the founder, 2026-11-13): Loom#26 and #29 (Loom `main` `003cff6`), Zengine#161, #160 and
+  #162 (`c9ac655a`). Decided with them: the review's leans, but for the game-time research's
+  decision 7: no time on every delivery; a shape that needs the turn's time asks for it in its own
+  schema, and the rest carry none (Vision's form, to confirm: a field of a Loom kind, stamped by
+  Loom at delivery, a sender unable to set it; round TT waits for it). Loom, one session: the
+  wait's leftovers ([prompt](../prompts/unrun/loom-wait-leftovers.md), warm, now the first of two),
+  then the control door and the Weave Manager keeping the answers they owe
+  ([prompt](../prompts/unrun/loom-own-respondents.md), hot; before ZF). Zengine, one session:
+  `main`'s reds ([prompt](../prompts/unrun/zengine-main-reds.md), warm: the MinGW-w64 flake, the
+  night package's publish step, the four slow sanitizer entries), #163 onto `main` with
+  `PlanWhere`'s state an enumeration
+  ([prompt](../prompts/unrun/zengine-realization-participant-rebase.md), hot), then the union's
+  last four items ([prompt](../prompts/unrun/zengine-union-spent-continued.md), hot). Beside them,
+  Neovim on the wait's time, G3 ([prompt](../prompts/unrun/zengine-neovim-wait-time.md), warm).
+  The lane ([batch](../issues/raid-batch-2026-11-13b.md)): one Loom issue, the four lists of the
+  documentation checks missing `census` and a check's entry after its path read by `doc_names`.
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
   sessions side by side, every stage its own pull request from `main`, each Green the standard
   delivery). Lane 1, Loom: Loom#26 rebased onto `main`
