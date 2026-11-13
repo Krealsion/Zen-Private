@@ -10,5 +10,6 @@ the new public repositories. What they were before is kept here and on GitHub, p
 | `Loom-map.txt`, `Zengine-map.txt` | one line a commit of the old `main`: the old hash, then its counterpart in the rewritten history |
 
 A bundle is a repository in one file: `git clone Loom-history.bundle loom-mpl` gives it back, and
-`git bundle list-heads` names its refs. The rewrite, its proof and its tools are
+`git bundle list-heads` names its refs. On this machine these bundles are the old histories' only
+copies: no clone, checkout or store holds them. The rewrite, its proof and its tools are
 `Zen/reportbacks/relicense-agpl-history-RB.md` and `Zen/pass-tools/relicense-agpl/`.
