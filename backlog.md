@@ -118,16 +118,31 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   wait ends, and nothing schedules on a date. Loom, one session: the
   wait's leftovers ([prompt](../prompts/loom-wait-leftovers.md), warm, the chain's first),
   then the control door and the Weave Manager keeping the answers they owe
-  ([prompt](../prompts/unrun/loom-own-respondents.md), hot; before ZF), then TT, added to the chain
-  after it began ([prompt](../prompts/unrun/loom-turn-time.md), hot). Zengine, one session:
+  ([prompt](../prompts/loom-own-respondents.md), hot; before ZF), then TT, added to the chain
+  after it began ([prompt](../prompts/loom-turn-time.md), hot). Zengine, one session:
   `main`'s reds ([prompt](../prompts/zengine-main-reds.md), warm: the MinGW-w64 flake, the
   night package's publish step, the four slow sanitizer entries), #163 onto `main` with
   `PlanWhere`'s state an enumeration
-  ([prompt](../prompts/unrun/zengine-realization-participant-rebase.md), hot), then the union's
+  ([prompt](../prompts/zengine-realization-participant-rebase.md), hot), then the union's
   last four items ([prompt](../prompts/unrun/zengine-union-spent-continued.md), hot). Beside them,
   Neovim on the wait's time, G3 ([prompt](../prompts/zengine-neovim-wait-time.md), warm).
   The lane ([batch](../issues/raid-batch-2026-11-13b.md)): one Loom issue, the four lists of the
   documentation checks missing `census` and a check's entry after its path read by `doc_names`.
+  Reviewed (Vision, 2026-11-13, night): every pull request green on its head, and the text checks
+  passing on two trial merges, Loom's three and Zengine's five. Loom#30 (`0c89189`,
+  [report](../reportbacks/loom-wait-leftovers-RB.md)), #31 (`ac9fe50`,
+  [report](../reportbacks/loom-own-respondents-RB.md)) and #32 (`cae56cc`, ABI 16,
+  [report](../reportbacks/loom-turn-time-RB.md)) merge in that order, the second of #31 and #32
+  resolving `docs/CONTEXT.md`'s router row (#31's row kept, #32's added); Zengine#165, #166, #167
+  and #168 ([report](../reportbacks/zengine-main-reds-RB.md)), then #164, G3
+  ([report](../reportbacks/zengine-neovim-wait-time-RB.md)), merge clean together. Asked, with
+  Vision's leans: Loom's run record on Windows, refused while a reader holds `run.json` and retried
+  only at the run's next change (J4's red; #167 only names it) -- the manager retrying a stale
+  record on its own, option (a), in a Loom round with the run manager's stamps split (a handler's
+  from its delivery's date, TT's follow-up); a night publishing an older commit after a workflow
+  change -- waiting, as #166 does, with no stored token holding `workflows`; #30's one `watch_own`
+  set, all or nothing -- several own sets, each held or refused alone. ZTT, the Neovim bound's
+  extra wake among its uses, follows #32's merge.
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
   sessions side by side, every stage its own pull request from `main`, each Green the standard
   delivery). Lane 1, Loom: Loom#26 rebased onto `main`
@@ -414,7 +429,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `primary.sh second` working with `KIT_LOOM_WIN_PREFIX` set, `witness.sh start --plan` and
   `witness.sh compare`; `tip-wsl.sh` refusing a copy built against another Loom; `loom-wsl.sh`
   running one case under the delegated scope, and a box build; `timed.sh` finding a kit helper by
-  name. A chain's prompt ends each stage's hold before the next names itself.
+  name. A chain's prompt ends each stage's hold before the next names itself. From the reports of
+  2026-11-13, night: `kit.sh pieces` (`time_cases.py`, `cut_pieces.py`, `ci_costs.py`), a helper
+  repeating an entry that keeps a red's folder, a stack sampler, edit helpers writing LF,
+  `merge-trial.sh` for a chain's last stage, `mutate.sh` taking `KIT_MUTATE=loom` with
+  `loom-win.sh` under it, one idle counter for the three, `case-wsl.sh --time`.
   The Workshop-as-a-stranger research's seven decisions were taken (the founder, 2026-11-11), so
   `app/` leaving `workshop/` is ZR's.
 - **The overnight chain of 2026-11-10** (Vision's prompts, one session, warm then hot; reports in
@@ -1203,6 +1222,9 @@ Each starts on the founder's word; "wake" is what must be true first.
 
 ## 5. Waiting on the founder
 
+- The review of 2026-11-13, night: three questions, each with Vision's lean (section 1, the lanes
+  of 2026-11-13, evening): Loom's run record on Windows, an older commit published after a
+  workflow change, and the host's own wait set all or nothing.
 - An adversarial read of Loom, Zengine and Workshop (the founder's Grinch agent, 2026-11-05,
   revised with Vision's corrections): gates inside the visual foundation's rest -- the clock
   (A2) before V5, the interaction contract (A4: gesture streams, a focus chain, dispositions,
@@ -1461,6 +1483,16 @@ install, the restore notice (Notices keeps every notice; reasoned).
   field reads by default; Loom's sessions guide says a package's `asks` where the code reads them
   per tool; the demo setups' page leaves out the two `-machine` packages every setup approves;
   four Zengine pages call the Input weave the sole producer of input, which the SDL window is not.
+- The doc gaps of 2026-11-13, night: `editor-materials-demo` looks for the Terminal's old input
+  row (`external-host/tools/workshop-machine/editor_materials_demo.py`, `capture_command`); the
+  game-time research's readings table counts the transfers' naps as product bounds, which were
+  Neovim's own timers; VM-LANE-27 names its budget in hosted seconds and its pieces in local ones,
+  the ratio (4-5 on the slowest runner class) written nowhere, and the sanitizer build's 14 GB
+  warning, past on the panes runner, has no owner; the rig's screen check
+  (`tests/rig_windows.cpp:527`) failed once under a faster `Keys::row_of`, not investigated;
+  `windows.h`'s `far` and `near` macros broke a MinGW-w64 build (Loom's portability notes); a
+  case asserting a time it slept is a flake at Windows' 1 ms timer period, which a check could
+  refuse.
 
 ## 9. Not backlog
 

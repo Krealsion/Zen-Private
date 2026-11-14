@@ -332,6 +332,9 @@ under the same id.
   (status-board-RB, 2026-11-07, the board's slots case; cause not established): a kit helper that
   starts a detached WSL process right after WSL starts could lose it the same way. None seen
   affected. Wakes: a kit helper's WSL process that vanishes on a cold start.
+- **P-WORK-94** The rig's wake (`host_wake()`, `tests/workshop_support.hpp`) hands the machine's
+  time to every source's suite but the Neovim suites' (`PaneTime`); a shared rig clock is a seam
+  for G1 and G2 (zengine-neovim-wait-time-RB, 2026-11-13).
 
 ## 6. Loom
 
@@ -390,6 +393,14 @@ under the same id.
   addressed role, L3, is the lighter half, held for its first consumer (several-roles-research-RB,
   2026-11-09). Wakes: a door judged by the role it was reached by, a reactor source holding two
   trusted roles, or a weave found handling one shape for two roles' duties.
+- **P-LOOM-24** A grant's time has no persisted form: `Grant::with_time()` lives in memory, and the
+  authority store and the console have no word for it, so `loom-host` cannot give a box the time
+  (loom-turn-time-RB, 2026-11-13). Owner: `docs/reference/capabilities.md`, where the powerbox is.
+- **P-LOOM-25** A forward to a door that never answers keeps its asker's right until the relay
+  sheds it or the Manager ends, and the swap still answers in ordinary words (an ask to
+  `zen.SwapWeave` ends `Unanswered`); both T2's (loom-own-respondents-RB, 2026-11-13).
+- **P-LOOM-26** The end of a session knows only its asker: another client mid-conversation gets
+  what is already written, not what it would ask next (loom-wait-leftovers-RB, 2026-11-13).
 
 ## 7. Adoption
 
