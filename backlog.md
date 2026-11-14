@@ -173,8 +173,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Usability before speed (the founder, 2026-11-14): "as long as a human can read and write it
   without much added friction". An audit of how people really draw, what game engines do and what
   their users like and dislike, each job written in Zen beside them, with a verdict a job: natural,
-  with a helper, or not without a change in design
-  ([prompt](../prompts/unrun/drawing-usability-research.md), warm).
+  with a helper, or not without a change in design; run by the executor
+  ([prompt](../prompts/unrun/drawing-usability-research.md), warm) and, for a second answer, by
+  another model ([prompt](../prompts/unrun/drawing-usability-research-second.md), cold).
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
