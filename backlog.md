@@ -183,6 +183,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   or not), the same for every run of a row. A look said once per drawing and named by each run
   would bring a text node to about 8 cells: a whole area (4,096) about 33,000, inside the
   allowance, and a reload about 6,500 kept nodes.
+  Decided (the founder, 2026-11-14): the idea taken and the research held. A drawing says what its
+  nodes share once, in the same message, each node naming what it wears ("general context for a
+  story, before the story proper"); the operands stay one union, the area's bound and Loom's
+  allowance stay, and neither a drawing in parts nor a Loom round on state is taken for it. Item 4
+  lands so ([prompt](../prompts/unrun/zengine-operands-looks.md), warm).
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
   sessions side by side, every stage its own pull request from `main`, each Green the standard
   delivery). Lane 1, Loom: Loom#26 rebased onto `main`
