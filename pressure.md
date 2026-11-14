@@ -401,6 +401,9 @@ under the same id.
   `zen.SwapWeave` ends `Unanswered`); both T2's (loom-own-respondents-RB, 2026-11-13).
 - **P-LOOM-26** The end of a session knows only its asker: another client mid-conversation gets
   what is already written, not what it would ask next (loom-wait-leftovers-RB, 2026-11-13).
+- **P-LOOM-27** Loom has no public spelling of an enumerator, nor its reverse: each reader of an
+  enumeration in words walks `zen_enum_info` itself (Loom's `ask_ended.hpp`, Zengine's `PlanState`;
+  zengine-realization-participant-rebase-RB, 2026-11-13).
 
 ## 7. Adoption
 

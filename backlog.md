@@ -124,7 +124,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   night package's publish step, the four slow sanitizer entries), #163 onto `main` with
   `PlanWhere`'s state an enumeration
   ([prompt](../prompts/zengine-realization-participant-rebase.md), hot), then the union's
-  last four items ([prompt](../prompts/unrun/zengine-union-spent-continued.md), hot). Beside them,
+  last four items ([prompt](../prompts/zengine-union-spent-continued.md), hot). Beside them,
   Neovim on the wait's time, G3 ([prompt](../prompts/zengine-neovim-wait-time.md), warm).
   The lane ([batch](../issues/raid-batch-2026-11-13b.md)): one Loom issue, the four lists of the
   documentation checks missing `census` and a check's entry after its path read by `doc_names`.
@@ -144,6 +144,17 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   change -- waiting, as #166 does, with no stored token holding `workflows`; #30's one `watch_own`
   set, all or nothing -- several own sets, each held or refused alone. ZTT, the Neovim bound's
   extra wake among its uses, follows #32's merge.
+  Merged (the founder, 2026-11-13, night): Loom#30 (`16b7f68`) and #32 (`d824033`); #31's conflict
+  resolved in GitHub's editor (`6b8d614`, its tree the trial merges'), its run going. Zengine#165,
+  #166, #167, #168 and #164 (`main` `894309fb`). #163 reviewed the same night
+  ([report](../reportbacks/zengine-realization-participant-rebase-RB.md)): rebased onto
+  `c9ac655a`, its first two commits as reviewed (the census's `lines` block resolved, the second
+  unchanged), the third the review's ask: `PlanWhere::state` the enumeration `PlanState`
+  (`loading`, `waiting`, `complete`, `refused`), the four word constants gone, a guest still told
+  the word (`spelling`). Green at `f34ffad1`; merged onto `894309fb` it is clean, the nine text
+  checks pass, and no case count moves in a pieced part. Ready. Asked, with Vision's lean: Loom's
+  public spelling of an enumerator and its reverse (`loom::spelling`), which Loom's `ask_ended.hpp`
+  and Zengine's `PlanState` each write by hand -- in Loom's next round, Zengine's copy then gone.
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
   sessions side by side, every stage its own pull request from `main`, each Green the standard
   delivery). Lane 1, Loom: Loom#26 rebased onto `main`
