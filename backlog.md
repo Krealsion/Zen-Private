@@ -108,6 +108,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   fixes what is stale (the constitution and the memory store proposed, not edited), and lands a
   documentation-lane check that every backticked name resolves; at its end the audit's two files
   go, and `local/batch-137-138` is force-deleted if the primary is free.
+- **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
+  round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
+  alone, provided by a role's holder, as decided 2026-11-11
+  ([prompt](../prompts/unrun/loom-calls.md), warm; ZC after it). Zengine, round ZF: the floor
+  adopted, the build runner's result an owed answer first, every ask told its end, the menu's
+  `WithdrawalFence` gone ([prompt](../prompts/unrun/zengine-floor-adopted.md), warm). Ready beside
+  them, unprompted: B (the data plane), F2 then T1, A and R in Loom; ZTT, G1 and ZH1 in Zengine;
+  the union's items 5 to 7 after item 4.
 - **The lanes of 2026-11-13, evening** (Vision's prompts, on the founder's word that day). Merged
   first (the founder, 2026-11-13): Loom#26 and #29 (Loom `main` `003cff6`), Zengine#161, #160 and
   #162 (`c9ac655a`). Decided with them: the review's leans; for the game-time research's decision
@@ -187,7 +195,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   nodes share once, in the same message, each node naming what it wears ("general context for a
   story, before the story proper"); the operands stay one union, the area's bound and Loom's
   allowance stay, and neither a drawing in parts nor a Loom round on state is taken for it. Item 4
-  lands so ([prompt](../prompts/unrun/zengine-operands-looks.md), warm).
+  lands so ([prompt](../prompts/zengine-operands-looks.md), warm; started 2026-11-14).
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
   sessions side by side, every stage its own pull request from `main`, each Green the standard
   delivery). Lane 1, Loom: Loom#26 rebased onto `main`
