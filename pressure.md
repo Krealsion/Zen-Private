@@ -404,6 +404,10 @@ under the same id.
 - **P-LOOM-27** Loom has no public spelling of an enumerator, nor its reverse: each reader of an
   enumeration in words walks `zen_enum_info` itself (Loom's `ask_ended.hpp`, Zengine's `PlanState`;
   zengine-realization-participant-rebase-RB, 2026-11-13).
+- **P-LOOM-28** Loom's one-value budget (`kMaxDecodedCells`, 65,536 cells) was set an order of
+  magnitude above the largest value then sent, when values were mostly bytes and words. Typed values
+  spend it four to six times faster (a cell for every declared field, present or not), and it caps
+  a weave's whole state as well as a message (zengine-union-spent-continued-RB, 2026-11-14).
 
 ## 7. Adoption
 

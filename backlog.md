@@ -157,6 +157,19 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   checks pass, and no case count moves in a pieced part. Ready. Asked, with Vision's lean: Loom's
   public spelling of an enumerator and its reverse (`loom::spelling`), which Loom's `ask_ended.hpp`
   and Zengine's `PlanState` each write by hand -- in Loom's next round, Zengine's copy then gone.
+  The union's last four ([report](../reportbacks/zengine-union-spent-continued-RB.md), reviewed
+  2026-11-14): stopped at item 4 on a fork (rule 5), no pull request (`graphics/operands-one-union`
+  `6ff16a22`, 100 of 101 entries). A node's operands as one union cost 8 to 23 decoded cells where
+  the bytes cost 4, so a whole area of text (4,096 nodes, about 94,000 cells) passes Loom's
+  one-value budget (`kMaxDecodedCells`, 65,536) and is refused. Vision's review: options 1 (the
+  area bound lowered) and 3 (operands left as bytes) are mistakes; 2, a drawing in parts
+  (`Drawn::more`, which the window joins), is written once, in `graphics::Canvas` and View's
+  farewell. Missed by the report: the window's state keeps every node (`KeptNode` in `WinArea`),
+  and a reload carries it as one value under the same budget, so the window's reload falls from
+  about 10,900 kept nodes to about 2,600 text nodes, one full area past it. Asked, with Vision's
+  lean: a Loom round on a weave's state past one value, the window's reload its case, before item
+  4 merges; items 6 and 7 meanwhile, which do not wait on it. Loom's bounds page does say what a
+  cell is (the report's doc gap); what a sender lacks is a public count of a value's cells.
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
   sessions side by side, every stage its own pull request from `main`, each Green the standard
   delivery). Lane 1, Loom: Loom#26 rebased onto `main`
