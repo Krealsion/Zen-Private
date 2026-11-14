@@ -177,6 +177,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   (`from_body`) at least three times a node -- the window's check (`operands_refused`), its
   colours (`inks_of`) and every paint -- each its own decode with its own allowance; the union
   decodes them once. Neither path has been timed.
+  The founder's idea for it (2026-11-14): batch what drawn text shares. Text is already one node a
+  run (`pane/drawing.hpp`: a row's runs, each a slice of the row), but every run carries its whole
+  look (ink, size, style, font, weight: 15 of a text node's 23 cells, one per declared field, set
+  or not), the same for every run of a row. A look said once per drawing and named by each run
+  would bring a text node to about 8 cells: a whole area (4,096) about 33,000, inside the
+  allowance, and a reload about 6,500 kept nodes.
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
   sessions side by side, every stage its own pull request from `main`, each Green the standard
   delivery). Lane 1, Loom: Loom#26 rebased onto `main`
