@@ -1505,6 +1505,10 @@ install, the restore notice (Notices keeps every notice; reasoned).
   `windows.h`'s `far` and `near` macros broke a MinGW-w64 build (Loom's portability notes); a
   case asserting a time it slept is a flake at Windows' 1 ms timer period, which a check could
   refuse.
+- For Raid's next batch (the founder, 2026-11-13): realization's claim `PlanWhere` (#163) renamed
+  `PlanStatus`, the house name for where a thing stands (Zengine's `BuildStatus` and `DemoStatus`,
+  Loom's `LedgerStatus` and `SenseStatus`); it is the only `*Where` shape. `PlanState` stays its
+  one-word phase inside.
 
 ## 9. Not backlog
 
