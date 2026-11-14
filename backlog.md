@@ -143,9 +143,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   512 KiB cap is a stand-in for round B's blobs; raising Loom's cell budget waits for its L3; its
   dispatch-gate stamp is the first run's L3, a law's wording and the founder's. Its accuracy: it
   names Loom doors that do not exist (`ZenWeaveV1`, `on_message`), current shape versions wrongly,
-  a gate call in the window's paint that `main` does not make, and `tally/tally_core.hpp`; and its
-  clones and spikes were deleted at its end, so its numbers cannot be checked again. Its ideas
-  stand; each is re-derived from the source by the round that takes it. Found beside it, for Raid:
+  a gate call in the window's paint that `main` does not make, and `tally/tally_core.hpp`. Its
+  clones were deleted at its end, and its code was saved after its report on the founder's ask
+  (`../reportbacks/realtime-drawing-second/spike/`: two diffs that apply cleanly at the commits it
+  read, its tools, results and suite logs); its code uses the real doors, and its dispatch-gate
+  stamp is the shortcut GATE-01 refuses, taken inside `admit`. Its ideas stand, its code is the
+  record, and each is re-run by the round that takes it. Found beside it, for Raid:
   a second configure with `ZEN_LOOM_DEV=ON` may hand Loom `BUILD_SHARED_LIBS=ON` from SDL3_ttf's
   cache (`CMakeLists.txt` 80), not reproduced here.
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
