@@ -108,6 +108,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   fixes what is stale (the constitution and the memory store proposed, not edited), and lands a
   documentation-lane check that every backticked name resolves; at its end the audit's two files
   go, and `local/batch-137-138` is force-deleted if the primary is free.
+- **Drawing in real time** (the founder, 2026-11-14, after Zengine#172 merged, `7dfd8690`): a
+  frame is about 16 ms and drawing must fit well inside it for real-time games; today a whole area
+  at the bound takes 160 to 230 ms through the TUI window. A research with the whole freedom the
+  founder gave -- every way tried, at any layer, spikes measured, several ways to draw one thing
+  kept where each pattern wants its own -- run by the executor
+  ([prompt](../prompts/unrun/realtime-drawing-research.md), warm) and, for a second answer, by
+  another model ([prompt](../prompts/unrun/realtime-drawing-research-second.md), cold).
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
@@ -150,6 +157,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   and the shipped desk is about 1,000 cells. Vision's lean: merge as is; no guard refusing a
   drawing the window can show; the seam, a weave's state past one value at a reload, is Loom's and
   no planned round covers it (P-LOOM-28), a topic for the research when it comes.
+  Merged (the founder, 2026-11-14): Zengine#172 (`7dfd8690`), as is.
 - **The lanes of 2026-11-13, evening** (Vision's prompts, on the founder's word that day). Merged
   first (the founder, 2026-11-13): Loom#26 and #29 (Loom `main` `003cff6`), Zengine#161, #160 and
   #162 (`c9ac655a`). Decided with them: the review's leans; for the game-time research's decision
