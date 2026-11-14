@@ -116,6 +116,25 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `WithdrawalFence` gone ([prompt](../prompts/unrun/zengine-floor-adopted.md), warm). Ready beside
   them, unprompted: B (the data plane), F2 then T1, A and R in Loom; ZTT, G1 and ZH1 in Zengine;
   the union's items 5 to 7 after item 4.
+  Reviewed (Vision, 2026-11-14): Loom#35, calls (`d1f88f8`, ABI 17, manifest 7,
+  [report](../reportbacks/loom-calls-RB.md)), 13 of 13 green: nine refusals each its own word, the
+  box's function store fresh per call, the pipe and a link refused by name; and Zengine#171, the
+  floor adopted (`65e47e76`, [report](../reportbacks/zengine-floor-adopted-RB.md)), 17 green and
+  Package's three skipped: the build's result owed, `WithdrawalFence` gone, `zen.DispatchRefused`
+  handlers 18 files to 7. Each merges clean onto `main` with its text checks, independent of the
+  other. Item 4 with the looks ([report](../reportbacks/zengine-operands-looks-RB.md)) stopped on
+  its condition, local and unpushed: shared looks fit (6 to 12 cells a node; measured against
+  `main`, the window 4 to 5 times faster and the sketch 5 times, the gate's claim twice as slow);
+  a look each does not, for five of seven kinds, since a `Color` costs 5 cells whatever case it
+  holds. Found in review: a drawing refused at Loom's gate is told to a sender that accepts
+  `zen.DispatchRefused`, and the drawing facets accept `DrawnRefused` only, so the deafness is
+  Zengine's and the report's Loom doc gap is none. Asked, with Vision's lean: `Color`, `TextSize`
+  and `TextStyle` unions, their `from` a spelled kind (item 7's rule, taken here); a drawing past
+  the allowance refused in words its drawer hears; an area of distinct looks that still does not
+  fit is an image's; the image's 12 cells accepted; interning hashed; the two false pages mended.
+  Follow-ups: a call rule in `loom-host`'s authority file and the weaver's commands;
+  `writing-a-weave.md` showing calls; the package consumer's withdrawal shown as an ask;
+  `workshop/weave_session.cpp`'s doubled close comment, for Raid.
 - **The lanes of 2026-11-13, evening** (Vision's prompts, on the founder's word that day). Merged
   first (the founder, 2026-11-13): Loom#26 and #29 (Loom `main` `003cff6`), Zengine#161, #160 and
   #162 (`c9ac655a`). Decided with them: the review's leans; for the game-time research's decision

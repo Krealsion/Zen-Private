@@ -335,6 +335,9 @@ under the same id.
 - **P-WORK-94** The rig's wake (`host_wake()`, `tests/workshop_support.hpp`) hands the machine's
   time to every source's suite but the Neovim suites' (`PaneTime`); a shared rig clock is a seam
   for G1 and G2 (zengine-neovim-wait-time-RB, 2026-11-13).
+- **P-WORK-95** The act tool cannot press while a menu covers the desk, and Workshop's menu key acts
+  only in command mode, so a live menu withdrawal has no driver (zengine-floor-adopted-RB,
+  2026-11-14).
 
 ## 6. Loom
 
@@ -408,6 +411,11 @@ under the same id.
   magnitude above the largest value then sent, when values were mostly bytes and words. Typed values
   spend it four to six times faster (a cell for every declared field, present or not), and it caps
   a weave's whole state as well as a message (zengine-union-spent-continued-RB, 2026-11-14).
+- **P-LOOM-29** An answer needs a send rule: a respondent's answer is a direct send, so every
+  respondent in Workshop is granted `allow_to_any` for its answer shapes. A rule "may answer what
+  it was asked" would say it once, and narrower (zengine-floor-adopted-RB, 2026-11-14).
+- **P-LOOM-30** A call rule has no word in `loom-host`'s authority file or the weaver's commands,
+  so a person cannot grant a loaded or boxed weave a call yet (loom-calls-RB, 2026-11-14).
 
 ## 7. Adoption
 
