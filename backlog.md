@@ -114,7 +114,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   founder gave -- every way tried, at any layer, spikes measured, several ways to draw one thing
   kept where each pattern wants its own -- run by the executor
   ([prompt](../prompts/realtime-drawing-research.md), warm) and, for a second answer, by
-  another model ([prompt](../prompts/unrun/realtime-drawing-research-second.md), cold).
+  another model ([prompt](../prompts/realtime-drawing-research-second.md), cold).
   The executor's run, reviewed 2026-11-14 ([report](../reportbacks/realtime-drawing-research-RB.md),
   its pages beside it): #172's 160 to 230 ms were a Debug tree called Release (every kit tree is
   Debug, `-g0`, and its rig serialized each delivery it tapped); in Release a whole area takes 26
