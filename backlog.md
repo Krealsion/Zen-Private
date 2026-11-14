@@ -170,6 +170,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   lean: a Loom round on a weave's state past one value, the window's reload its case, before item
   4 merges; items 6 and 7 meanwhile, which do not wait on it. Loom's bounds page does say what a
   cell is (the report's doc gap); what a sender lacks is a public count of a value's cells.
+  The founder (2026-11-14): not sold -- some things six times dearer for little gain, which is what
+  he feared of the union; a helper for sending large values wanted; another multi-model research,
+  not yet. Vision's read for it: the six times is one message's allowance, not the work. On `main`
+  a node's operands are bytes Loom decodes as one cell, then decoded again through the gate
+  (`from_body`) at least three times a node -- the window's check (`operands_refused`), its
+  colours (`inks_of`) and every paint -- each its own decode with its own allowance; the union
+  decodes them once. Neither path has been timed.
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
   sessions side by side, every stage its own pull request from `main`, each Green the standard
   delivery). Lane 1, Loom: Loom#26 rebased onto `main`
