@@ -138,7 +138,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Merged (the founder, 2026-11-14): Loom#35 (`9f3db68`) and Zengine#171 (`72d8516a`). Decided
   with them, for item 4: as leaned, and the founder's thought beside it -- looks made once kept and
   referred to, found in one step, not rebuilt and compared each picture -- each drawing still
-  saying its own looks ([continuation](../prompts/unrun/zengine-operands-looks-continued.md), hot).
+  saying its own looks ([continuation](../prompts/zengine-operands-looks-continued.md), hot).
+  Item 4 continued: Zengine#172 (`088461dc`,
+  [report](../reportbacks/zengine-operands-looks-continued-RB.md)), 17 green, reviewed 2026-11-14.
+  `Color` v2, `TextSize` v3 and `TextStyle` v2 unions; a drawing Loom refuses heard by its drawer
+  (the canvas reads `zen.DispatchRefused` for its last 64 sends, a whole refused drawing held back
+  until the picture changes); a look in one step (`LookHash`: 4,096 distinct looks sketched in 20
+  to 33 ms, was 461 to 795; judged and applied in 30 to 48, was 510 to 806). A look each now fits
+  for lines and paths, not for text or a paint. Asked: a window's state holds one whole area at
+  the bound, where `main`'s held two; past it a reload is refused in words and the window runs on,
+  and the shipped desk is about 1,000 cells. Vision's lean: merge as is; no guard refusing a
+  drawing the window can show; the seam, a weave's state past one value at a reload, is Loom's and
+  no planned round covers it (P-LOOM-28), a topic for the research when it comes.
 - **The lanes of 2026-11-13, evening** (Vision's prompts, on the founder's word that day). Merged
   first (the founder, 2026-11-13): Loom#26 and #29 (Loom `main` `003cff6`), Zengine#161, #160 and
   #162 (`c9ac655a`). Decided with them: the review's leans; for the game-time research's decision

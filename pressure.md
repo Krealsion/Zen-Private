@@ -338,6 +338,10 @@ under the same id.
 - **P-WORK-95** The act tool cannot press while a menu covers the desk, and Workshop's menu key acts
   only in command mode, so a live menu withdrawal has no driver (zengine-floor-adopted-RB,
   2026-11-14).
+- **P-WORK-96** A drawer hears Loom's refusal of its drawing only by accepting `zen.DispatchRefused`:
+  Info, the view builder, Workshop's own desk, the first run and the palette pane hear neither it
+  nor the window's own. A facet every drawing pane shares would make it one place
+  (zengine-operands-looks-continued-RB, 2026-11-14).
 
 ## 6. Loom
 
@@ -410,7 +414,9 @@ under the same id.
 - **P-LOOM-28** Loom's one-value budget (`kMaxDecodedCells`, 65,536 cells) was set an order of
   magnitude above the largest value then sent, when values were mostly bytes and words. Typed values
   spend it four to six times faster (a cell for every declared field, present or not), and it caps
-  a weave's whole state as well as a message (zengine-union-spent-continued-RB, 2026-11-14).
+  a weave's whole state as well as a message (zengine-union-spent-continued-RB, 2026-11-14). The
+  window's reload, with typed nodes and shared looks: one whole area of text at the bound (41,217
+  cells), where `main` held two (zengine-operands-looks-continued-RB, 2026-11-14).
 - **P-LOOM-29** An answer needs a send rule: a respondent's answer is a direct send, so every
   respondent in Workshop is granted `allow_to_any` for its answer shapes. A rule "may answer what
   it was asked" would say it once, and narrower (zengine-floor-adopted-RB, 2026-11-14).
