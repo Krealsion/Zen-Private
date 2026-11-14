@@ -135,6 +135,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Follow-ups: a call rule in `loom-host`'s authority file and the weaver's commands;
   `writing-a-weave.md` showing calls; the package consumer's withdrawal shown as an ask;
   `workshop/weave_session.cpp`'s doubled close comment, for Raid.
+  Merged (the founder, 2026-11-14): Loom#35 (`9f3db68`) and Zengine#171 (`72d8516a`). Decided
+  with them, for item 4: as leaned, and the founder's thought beside it -- looks made once kept and
+  referred to, found in one step, not rebuilt and compared each picture -- each drawing still
+  saying its own looks ([continuation](../prompts/unrun/zengine-operands-looks-continued.md), hot).
 - **The lanes of 2026-11-13, evening** (Vision's prompts, on the founder's word that day). Merged
   first (the founder, 2026-11-13): Loom#26 and #29 (Loom `main` `003cff6`), Zengine#161, #160 and
   #162 (`c9ac655a`). Decided with them: the review's leans; for the game-time research's decision
