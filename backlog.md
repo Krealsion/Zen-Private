@@ -127,7 +127,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   last four items ([prompt](../prompts/zengine-union-spent-continued.md), hot). Beside them,
   Neovim on the wait's time, G3 ([prompt](../prompts/zengine-neovim-wait-time.md), warm).
   The lane ([batch](../issues/raid-batch-2026-11-13b.md)): one Loom issue, the four lists of the
-  documentation checks missing `census` and a check's entry after its path read by `doc_names`.
+  documentation checks missing `census` and a check's entry after its path read by `doc_names`;
+  and one Zengine issue, added before it was sent (the founder, 2026-11-13): `PlanWhere` renamed
+  `PlanStatus`, `ready` once this lane's Zengine pull requests are in.
   Reviewed (Vision, 2026-11-13, night): every pull request green on its head, and the text checks
   passing on trial merges of Loom's three and Zengine's five. Loom#30 (`0c89189`,
   [report](../reportbacks/loom-wait-leftovers-RB.md)), then #32 (`cae56cc`, ABI 16,
@@ -1505,10 +1507,6 @@ install, the restore notice (Notices keeps every notice; reasoned).
   `windows.h`'s `far` and `near` macros broke a MinGW-w64 build (Loom's portability notes); a
   case asserting a time it slept is a flake at Windows' 1 ms timer period, which a check could
   refuse.
-- For Raid's next batch (the founder, 2026-11-13): realization's claim `PlanWhere` (#163) renamed
-  `PlanStatus`, the house name for where a thing stands (Zengine's `BuildStatus` and `DemoStatus`,
-  Loom's `LedgerStatus` and `SenseStatus`); it is the only `*Where` shape. `PlanState` stays its
-  one-word phase inside.
 
 ## 9. Not backlog
 
