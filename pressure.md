@@ -342,6 +342,15 @@ under the same id.
   `zen.DispatchRefused`: Info, the view builder, Workshop's own desk, the first run and the palette
   pane hear neither it nor the window's own. A facet every drawing pane shares would make it one place
   (zengine-operands-looks-continued-RB, 2026-11-14).
+- **P-WORK-97** A picture new every frame is the case the data plane leaves undesigned
+  (`data-plane.md` 3.7: frame-rate media between weaves wants a buffer both sides see); the second
+  run's streamed pixels stand in at 225 KB a frame (realtime-drawing-disputed-RB, 2026-11-14).
+- **P-WORK-98** A GUI frame's time is not a steady witness: the same code moved by up to half
+  between passes. A count of draw calls and presents beside `WindowShown`'s others would pin what
+  a time cannot (realtime-drawing-disputed-RB, 2026-11-14).
+- **P-WORK-99** An element's state is copied into its code and back at every event; at 1.2 KB it
+  does not show, and the size at which an element should be a weave is not known
+  (realtime-drawing-disputed-RB, 2026-11-14).
 
 ## 6. Loom
 
@@ -426,6 +435,22 @@ under the same id.
   read and gated at the send, gated and written at dispatch, read, gated and made a shape in the
   receiver. Lazy refusal words (L1), a typed codec at the edges (L2) and bytes straight through
   the host (L4) would make it about three (realtime-drawing-research-RB, 2026-11-14).
+- **P-LOOM-32** (a security matter: a private advisory, never a public issue) A loaded weave's
+  25-byte send can command 65,536 cells: 6.8 MB of host structure and 11.5 ms to take, held in the
+  host's queue, since the host admits a loaded weave's send before queuing it
+  (`src/kernel/kernel.cpp` 529). With 1,024 waiting per sender (`kMaxPendingPerSender`) that is
+  about 7 GB and 12 s of the host, computed from the bounds and not exercised: a value's bound and
+  a sender's queue were never budgeted together (realtime-drawing-disputed-RB, 2026-11-14).
+- **P-LOOM-33** A weave is not told when the host has delivered what was sent, so one present for
+  several areas has only a timer: the saved code looks again 10 ms later (`kLookAgainMs`)
+  (realtime-drawing-disputed-RB, 2026-11-14).
+- **P-LOOM-34** What keeps values is sized against a value's worst size: the console's replies, a
+  terminal's received values and a bridge client's pending replies, 64 each. Wakes: any raise of
+  `kMaxDecodedCells` (realtime-drawing-disputed-RB, 2026-11-14).
+- **P-LOOM-35** The trusting policy (`trust_every_artifact`) grants every send and no call, so a
+  window that asks an element's code by a call is handed `allow_call` by its host; who grants a
+  window its calls, and how it learns which role provides a data form's code, are ZC's
+  (realtime-drawing-disputed-RB, 2026-11-14).
 
 ## 7. Adoption
 

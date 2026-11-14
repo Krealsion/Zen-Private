@@ -55,7 +55,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   session folders live on NTFS; the schema id's option A, structure compared wherever the id
   decides agreement, before release; the key's advisory published once its fork holds the
   refusal, the schema's once its fork holds A. The continuation
-  ([prompt](../prompts/unrun/private-security-pair-continued.md), hot) lands both before Loom's
+  ([prompt](../prompts/private-security-pair-continued.md), hot) lands both before Loom's
   next rounds; the lane's `loom-host` catch issue waits for the key's advisory. Its one-way doors
   and its structure the end's.
   #129's three follow-ups: a re-run reads the description its run started with, so the refusal's
@@ -101,7 +101,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   realization owner a participant), free since the stranger research's seven decisions were taken
   (the founder, 2026-11-11), and prompted for 2026-11-13.
 - **The files every session reads, kept true** (the founder, 2026-11-12; a side lane,
-  [prompt](../prompts/unrun/instruction-drift.md), warm): another tool's audit of the routers
+  [prompt](../prompts/instruction-drift.md), warm): another tool's audit of the routers
   (`Zen/Claude outputs/prompt-audit-2026-11-12.md` and its diff) found four stale names and a
   machine timing, each holding on Zengine `main` by Vision's check, and no dated prompting. The
   lane widens it to the constitution, the memory store, the kit's README and the much-read pages,
@@ -151,12 +151,30 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   record, and each is re-run by the round that takes it. Found beside it, for Raid:
   a second configure with `ZEN_LOOM_DEV=ON` may hand Loom `BUILD_SHARED_LIBS=ON` from SDL3_ttf's
   cache (`CMakeLists.txt` 80), not reproduced here.
+  The disputed half, reviewed 2026-11-14 ([report](../reportbacks/realtime-drawing-disputed-RB.md),
+  its pages and what remakes its spike beside it): all four objections held, each against a test
+  built to fail it. The second run's 35-fold element gain is the element saying what it changed,
+  not its state kept in the library: `main`'s glue draws the whole element twice and compares
+  (`element_export.hpp`, `act`); code offering `change(State&, const C&, Patch&, path)` on `main`'s
+  own table takes a board's step from 624 to 25 µs (15 with the typed codec; the second table 14),
+  and the board as a weave is 15.7. Once a refusal's words are built only to refuse, a 4,096-node
+  drawing walks in 182 µs of bytes, so the stamp buys 6 % of the heaviest frame. Vision's leans on
+  its six decisions: GATE-01 kept; elements say what changed now, with `draw` kept the truth by a
+  check that a change's patch equals drawing twice; sprites from an image node as their sheet only
+  if wanted before blobs; two bounds, a frame's batch and pixels that wait for blobs; the cell
+  budget kept until bytes are carried; what tells the window to present, the founder's (Vision
+  leans a frame clock's beat). Found in review: a sender's queue times the cell budget (P-LOOM-32,
+  private); the second run's folder in `reportbacks/` deleted from Zen's working tree between
+  19:20 and 19:51 by something other than the kit's remover (Git holds it); a saved diff checked
+  out by Windows Git (`core.autocrlf=true`) gets CRLF line ends and does not apply; 51 clones and
+  trees of done phases stay because each holds work no remote has, which rule 12 now lets go once
+  saved; and Vision's prompt named the report off its stem, so the kit's check did not see it.
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
-  ([prompt](../prompts/unrun/loom-calls.md), warm; ZC after it). Zengine, round ZF: the floor
+  ([prompt](../prompts/loom-calls.md), warm; ZC after it). Zengine, round ZF: the floor
   adopted, the build runner's result an owed answer first, every ask told its end, the menu's
-  `WithdrawalFence` gone ([prompt](../prompts/unrun/zengine-floor-adopted.md), warm). Ready beside
+  `WithdrawalFence` gone ([prompt](../prompts/zengine-floor-adopted.md), warm). Ready beside
   them, unprompted: B (the data plane), F2 then T1, A and R in Loom; ZTT, G1 and ZH1 in Zengine;
   the union's items 5 to 7 after item 4.
   Reviewed (Vision, 2026-11-14): Loom#35, calls (`d1f88f8`, ABI 17, manifest 7,
@@ -277,22 +295,22 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
   sessions side by side, every stage its own pull request from `main`, each Green the standard
   delivery). Lane 1, Loom: Loom#26 rebased onto `main`
-  ([prompt](../prompts/unrun/loom-names-check-rebase.md), warm), then the floor in process, F1
-  ([prompt](../prompts/unrun/loom-floor.md), hot: `mail.ask` and `ask_role`, refused for a weave
+  ([prompt](../prompts/loom-names-check-rebase.md), warm), then the floor in process, F1
+  ([prompt](../prompts/loom-floor.md), hot: `mail.ask` and `ask_role`, refused for a weave
   that does not accept `zen.AskEnded`; that notice a union of the four stages, each ending of the
   research's 2.4 told where it is made; `kMaxDeferredPerWeave` under a raised Loom-wide bound; the
   helpers ending; ABI 15 appended, 14's image loading; the bus's census rows falling, the ask's
   record a unit the bus consults), then the wait's leftovers
-  ([prompt](../prompts/unrun/loom-wait-leftovers.md), hot: `WaitSet`/`Waited` v1 gone; a
+  ([prompt](../prompts/loom-wait-leftovers.md), hot: `WaitSet`/`Waited` v1 gone; a
   `BridgeClient` wait set, so `loom-host` rests with links mounted and `kLinkLookMs` and
   `kServeLinkLookMs` go). F1 builds the replacement research's leans on its decisions 1 to 4 and
   16, which the founder ordered but did not take one by one. Lane 2, Zengine: the union spent,
-  now from `main` ([prompt](../prompts/unrun/zengine-union-spent.md), warm: the class-lines rows a
+  now from `main` ([prompt](../prompts/zengine-union-spent.md), warm: the class-lines rows a
   ratchet first, the act tool spelling a lone Shift, the Timer's three gaps), then the realization
-  owner a participant, ZR ([prompt](../prompts/unrun/zengine-realization-participant.md), hot: the
+  owner a participant, ZR ([prompt](../prompts/zengine-realization-participant.md), hot: the
   booter and the executor one weave in a folder of its own, its readings claimed, `HostContext` 18
   to 14, the app's four `line` rows gone, a trial merge with the union's branch). A third session:
-  game time and the frame clock, a research ([prompt](../prompts/unrun/game-time-research.md),
+  game time and the frame clock, a research ([prompt](../prompts/game-time-research.md),
   warm; P-WORK-85).
   Reviewed 2026-11-13, each holding and green on every job
   ([reports](../reportbacks/loom-floor-RB.md) and beside it): Loom#26 rebased, both checks kept
@@ -331,18 +349,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   founder's restart, warm.
 - **The next two lanes** (Vision's prompts, 2026-11-12, on the founder's yes that day; two
   sessions side by side). Lane 1, Loom: the seam that grows
-  ([prompt](../prompts/unrun/loom-seam-grows.md), warm: ABI 13, the last exact break; each table
+  ([prompt](../prompts/loom-seam-grows.md), warm: ABI 13, the last exact break; each table
   and a delivery's facts saying their size, the addressed role (L3) the delivery's first new fact,
   the manifest's version read before `create()`, an image from 13 on loading on every later host,
   12's image kept and refused; Loom's census of 8.3 beside it), then the creation value on its
-  branch ([prompt](../prompts/unrun/loom-creation-value.md), hot: one gated value at a weave's
+  branch ([prompt](../prompts/loom-creation-value.md), hot: one gated value at a weave's
   making, data and never doors, from a boot row, a load request, the console and a native mount;
   the first append, 14, the seam's kept 13 image shown loading). Lane 2, Zengine: the Timer over a
-  deadline from `main` ([prompt](../prompts/unrun/zengine-timer-over-deadline.md), warm: the
+  deadline from `main` ([prompt](../prompts/zengine-timer-over-deadline.md), warm: the
   census's door, hook and class rows first; `Drive`, `TimerRest`, `timer::Rest`, `kBeatCapMs`,
   `HeldBeat` and the virtual step gone; the Timer hearing `zen.DispatchRefused`; `interaction_now`
   out of `HostContext` and no clock read in a handler; the suites on a `ManualClock`, P-BUILD-23),
-  then the union spent on its branch ([prompt](../prompts/unrun/zengine-union-spent.md), hot: the
+  then the union spent on its branch ([prompt](../prompts/zengine-union-spent.md), hot: the
   guards and the `Kind::Message` comparisons; input's moments and a drawing's operands as unions,
   `implied.hpp` deleted; the open sets on the any kind; the hub's window events one door where one
   concept; the spelled kinds counted; the shapes built by hand in the shapes census). The union
@@ -362,8 +380,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   suites still on the beat. Decided (the founder, 2026-11-12): its choice 3 stands, the hub a
   source of the host's wait handed its time, one door (93 to 94) in place of `interaction_now`'s
   hook (19 to 18), the rise said in the pull request; the census's check as built. A fresh session
-  finishes it ([prompt](../prompts/unrun/zengine-timer-over-deadline-continued.md), warm), the page
-  under its budget first ([prompt](../prompts/unrun/packaging-page-under-budget.md), read by it):
+  finishes it ([prompt](../prompts/zengine-timer-over-deadline-continued.md), warm), the page
+  under its budget first ([prompt](../prompts/packaging-page-under-budget.md), read by it):
   Zengine `main` is red since #150, `agents/packaging.md` at 16,712 of 16,384 bytes once #148's
   and #150's additions met, which holds Loom#27's stranger and #152. Vision's miss: #150's trial
   merge was read as text, its checks not run on it. For later: the guest door's first claim is made
@@ -384,7 +402,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   wait holds the Timer, from its last wake only where none does.
   Decided (the founder, 2026-11-13): that lean, option 3. #155 merged (`b8fa0e3a`); Loom#27 merges
   once its stranger is green. A third session finishes the stage
-  ([prompt](../prompts/unrun/zengine-timer-over-deadline-continued-2.md), warm): #152's two rows
+  ([prompt](../prompts/zengine-timer-over-deadline-continued-2.md), warm): #152's two rows
   first, the two reds, the letter's pause, then the pull request by the standard delivery; a fix the
   guest's wake needs in Loom is a Loom pull request of its own, merging first. The union stage waits
   for a session of its own after the Timer's pull request.
@@ -456,7 +474,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   owed answers across a reload: a reload while a letter waits drops its asks (one wait wide), and
   a reload measures from the last wake since no ceremony hands the time first. Loom#28 green on a
   fresh run over `76f0e37`. Loom#26 still in conflict: its rebase
-  ([prompt](../prompts/unrun/loom-names-check-rebase.md), warm). Queued: the union stage's prompt
+  ([prompt](../prompts/loom-names-check-rebase.md), warm). Queued: the union stage's prompt
   from `main` once #156 merges, its census rows there, and the class-lines rows marked to fall (the
   decided ratchet; the census holds them exact but unmarked, so the hub's 1825 to 1841 passed);
   `zengine.guests.md` saying a guest asks where the plan is first; the act tool spelling a lone
@@ -466,15 +484,15 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   above) but `kit.sh end`'s, which waits for the kit's next round.
 - **The overnight lanes of 2026-11-12** (Vision's prompts, two sessions side by side, beside
   Workshop's line round 1, which runs in Zengine): lane 1, the union
-  ([prompt](../prompts/unrun/loom-union.md), warm: `Kind::Union`, the kind for any registered
+  ([prompt](../prompts/loom-union.md), warm: `Kind::Union`, the kind for any registered
   shape, nested values made and never adopted, the gate's budget; the manifest's version, not the
   ABI's), then Loom's own hand-made unions onto it on its branch
-  ([prompt](../prompts/unrun/loom-own-unions.md), hot; its end force-deletes `local/batch-137-138`
-  on the founder's word). Lane 2: deadlines in the reactor ([prompt](../prompts/unrun/loom-deadlines.md),
-  warm), the one-host research ([prompt](../prompts/unrun/one-host-research.md), hot), the
-  schema-evolution research trying both answers ([prompt](../prompts/unrun/schema-evolution-research.md),
+  ([prompt](../prompts/loom-own-unions.md), hot; its end force-deletes `local/batch-137-138`
+  on the founder's word). Lane 2: deadlines in the reactor ([prompt](../prompts/loom-deadlines.md),
+  warm), the one-host research ([prompt](../prompts/one-host-research.md), hot), the
+  schema-evolution research trying both answers ([prompt](../prompts/schema-evolution-research.md),
   hot), then #145's follow-up, the install's downloads cached by the snapshot's date and its time
-  limit in words of its own ([prompt](../prompts/unrun/package-download-cache.md), hot; the
+  limit in words of its own ([prompt](../prompts/package-download-cache.md), hot; the
   founder, 2026-11-11). The seam round waits for Loom#17; the Zengine halves (the union spent, the
   Timer over a deadline with `interaction_now` gone) follow their Loom rounds' merges.
   Reviewed 2026-11-12, every stage holding ([reports](../reportbacks/loom-union-RB.md) and beside
@@ -527,8 +545,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   night of 03:43 built with the same step); round 2 read it as moved live packages, wrongly.
   Vision's order: #141, #142; Loom#18 closed and reopened for a fresh merge ref (clean onto
   `main`), merged when green; the chain of two
-  ([stage 1](../prompts/unrun/package-dated-archive-down.md), warm: the step refuses in words when
-  the archive does not answer whole; [stage 2](../prompts/unrun/contract-rounds-onto-main.md), hot:
+  ([stage 1](../prompts/package-dated-archive-down.md), warm: the step refuses in words when
+  the archive does not answer whole; [stage 2](../prompts/contract-rounds-onto-main.md), hot:
   #143 regenerated onto `main`, #141's `omitted_text` respelled by the pass, #144 on it); then
   #143 and #144, with Package's Linux judge green, since they change what installs. #143 merged
   after #141 without the rebase would leave `main` unbuildable: the text merge is clean. Done
@@ -564,7 +582,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   2026-11-13, night: `kit.sh pieces` (`time_cases.py`, `cut_pieces.py`, `ci_costs.py`), a helper
   repeating an entry that keeps a red's folder, a stack sampler, edit helpers writing LF,
   `merge-trial.sh` for a chain's last stage, `mutate.sh` taking `KIT_MUTATE=loom` with
-  `loom-win.sh` under it, one idle counter for the three, `case-wsl.sh --time`.
+  `loom-win.sh` under it, one idle counter for the three, `case-wsl.sh --time`. From the disputed
+  half (2026-11-14): a Release tree and a pass runner (the median of each pass's median, every pass
+  listed); a file-writing helper for C++ and JSON fragments beside `replace.py`; a look at the
+  desktop before a GUI pass.
   The Workshop-as-a-stranger research's seven decisions were taken (the founder, 2026-11-11), so
   `app/` leaving `workshop/` is ZR's.
 - **The overnight chain of 2026-11-10** (Vision's prompts, one session, warm then hot; reports in
@@ -1031,7 +1052,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   Zengine rounds through calls, and V7. W-6 the line held from now by a text check in the
   documentation lane, both ways, a census row that only falls, and by Zengine built without
   Workshop's folders before the move. Round 1 prompted
-  ([prompt](../prompts/unrun/workshop-line-round-1.md), warm), to run once #141 to #144 are on
+  ([prompt](../prompts/workshop-line-round-1.md), warm), to run once #141 to #144 are on
   `main`. Designed whole (2026-11-03,
   [design](../reportbacks/visual-foundation-research/design.md),
   [stages](../reportbacks/visual-foundation-research/stages.md),
