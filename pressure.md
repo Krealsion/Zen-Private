@@ -338,9 +338,9 @@ under the same id.
 - **P-WORK-95** The act tool cannot press while a menu covers the desk, and Workshop's menu key acts
   only in command mode, so a live menu withdrawal has no driver (zengine-floor-adopted-RB,
   2026-11-14).
-- **P-WORK-96** A drawer hears Loom's refusal of its drawing only by accepting `zen.DispatchRefused`:
-  Info, the view builder, Workshop's own desk, the first run and the palette pane hear neither it
-  nor the window's own. A facet every drawing pane shares would make it one place
+- **P-WORK-96** A drawer hears Loom's refusal of its drawing only by accepting
+  `zen.DispatchRefused`: Info, the view builder, Workshop's own desk, the first run and the palette
+  pane hear neither it nor the window's own. A facet every drawing pane shares would make it one place
   (zengine-operands-looks-continued-RB, 2026-11-14).
 
 ## 6. Loom
