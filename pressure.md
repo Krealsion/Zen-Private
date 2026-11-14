@@ -351,6 +351,18 @@ under the same id.
 - **P-WORK-99** An element's state is copied into its code and back at every event; at 1.2 KB it
   does not show, and the size at which an element should be a weave is not known
   (realtime-drawing-disputed-RB, 2026-11-14).
+- **P-WORK-100** A drawing the window refuses is heard by no one by default: the drawing facet's
+  `DrawnRefused` handler is empty, so a slip (a node in a parent not drawn) shows as a picture
+  frozen at every step (drawing-usability-research-RB, 2026-11-14).
+- **P-WORK-101** After a window refuses a drawing, the canvas sends differences from the picture
+  the window never took (it mends only after Loom's refusal), and the screen keeps stale nodes
+  (drawing-usability-research-RB, 2026-11-14).
+- **P-WORK-102** Nothing in the product shows one drawer: every example brings a host of its own
+  (the snake's 517 lines of code), and `zengine-app` runs views and flows
+  (drawing-usability-research-RB, 2026-11-14).
+- **P-WORK-103** An operator that lands bare has no customer who can write it: the spiked `grid`
+  and `particles` take bytes the drawer packs (26 and 32 lines), so each lands with the helper or
+  `Sketch` method that writes it (drawing-usability-research-RB, 2026-11-14).
 
 ## 6. Loom
 
@@ -451,6 +463,10 @@ under the same id.
   window that asks an element's code by a call is handed `allow_call` by its host; who grants a
   window its calls, and how it learns which role provides a data form's code, are ZC's
   (realtime-drawing-disputed-RB, 2026-11-14).
+- **P-LOOM-36** A field added to a drawer's state is refused at a reload in place ("published
+  schemas are immutable"), the commonest edit while a drawer is being written; what a person does
+  next, a version moved or a stop and a load, and what becomes of the state, was not tried
+  (drawing-usability-research-RB, 2026-11-14).
 
 ## 7. Adoption
 

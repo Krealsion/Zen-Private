@@ -174,8 +174,28 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   without much added friction". An audit of how people really draw, what game engines do and what
   their users like and dislike, each job written in Zen beside them, with a verdict a job: natural,
   with a helper, or not without a change in design; run by the executor
-  ([prompt](../prompts/unrun/drawing-usability-research.md), warm) and, for a second answer, by
+  ([prompt](../prompts/drawing-usability-research.md), warm) and, for a second answer, by
   another model ([prompt](../prompts/unrun/drawing-usability-research-second.md), cold).
+  The executor's run, reviewed 2026-11-14
+  ([report](../reportbacks/drawing-usability-research-RB.md), its pages beside it): yes, with a
+  small library and three traps closed. `picture`, the whole picture from the state at every
+  delivery, is the shape the evidence praises (immediate mode), and eight jobs fit a frame on `main`
+  at small sizes. A header of helpers a drawer includes (`Camera`, `TileMap`, `Console`, `Dots`,
+  `Sheet`, `Animation`, `Menu`, `DebugDraw`) is where the speed rounds' operators land: the same
+  drawer code 14 to 15 times faster when `grid` lands, never rewritten, and no operator lands bare.
+  `Patch` is the fast road, taught second (16.8 against 342.5 µs a step, but the drawing in two
+  places); a pattern's operator gets the same speed with `picture` kept. Traps on `main`: a node in
+  an undrawn parent refuses the whole drawing at every step, and the drawer hears nothing (the
+  facet's `DrawnRefused` is empty); the canvas then diffs against the refused picture and leaves
+  ghosts; an image carrying its own place resends its pixels at every move. A first picture needs a
+  host of one's own (232 to 517 lines). Its six decisions, with its leans: the helpers in a package
+  of their own; an example host now, `zengine-app` taking a drawing weave put to the founder; the
+  `grid` cell a glyph in both windows and a ground, settled before its round; a refusal said as a
+  notice; a missing parent refused at the call; a pen naming by order shipped (Vision leans not).
+  Found in review: its S24 is a thread on 3D debug lines, cited for debug drawing in general;
+  Workshop as the first picture's pane was not tried; a field added to a drawer's state is refused
+  at a reload in place, and moving its version was not tried. Raid candidates, unsent: the refusal
+  no one hears, and the canvas diffing past a window's refusal.
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
