@@ -164,11 +164,17 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   if wanted before blobs; two bounds, a frame's batch and pixels that wait for blobs; the cell
   budget kept until bytes are carried; what tells the window to present, the founder's (Vision
   leans a frame clock's beat). Found in review: a sender's queue times the cell budget (P-LOOM-32,
-  private); the second run's folder in `reportbacks/` deleted from Zen's working tree between
-  19:20 and 19:51 by something other than the kit's remover (Git holds it); a saved diff checked
-  out by Windows Git (`core.autocrlf=true`) gets CRLF line ends and does not apply; 51 clones and
-  trees of done phases stay because each holds work no remote has, which rule 12 now lets go once
-  saved; and Vision's prompt named the report off its stem, so the kit's check did not see it.
+  private); the second run's folder in `reportbacks/` deleted from Zen's working tree, the
+  founder's slip for the empty one in `scratch/`, restored from Git; a saved diff checked out by
+  Windows Git (`core.autocrlf=true`) gets CRLF line ends and does not apply, so Zen keeps `*.diff`
+  and `*.patch` as written (`.gitattributes`); 51 clones and trees of done phases stay because
+  each holds work no remote has, which rule 12 now lets go once saved; and Vision's prompt named
+  the report off its stem, so the kit's check did not see it.
+  Usability before speed (the founder, 2026-11-14): "as long as a human can read and write it
+  without much added friction". An audit of how people really draw, what game engines do and what
+  their users like and dislike, each job written in Zen beside them, with a verdict a job: natural,
+  with a helper, or not without a change in design
+  ([prompt](../prompts/unrun/drawing-usability-research.md), warm).
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
