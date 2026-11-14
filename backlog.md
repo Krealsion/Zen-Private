@@ -113,8 +113,22 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   at the bound takes 160 to 230 ms through the TUI window. A research with the whole freedom the
   founder gave -- every way tried, at any layer, spikes measured, several ways to draw one thing
   kept where each pattern wants its own -- run by the executor
-  ([prompt](../prompts/unrun/realtime-drawing-research.md), warm) and, for a second answer, by
+  ([prompt](../prompts/realtime-drawing-research.md), warm) and, for a second answer, by
   another model ([prompt](../prompts/unrun/realtime-drawing-research-second.md), cold).
+  The executor's run, reviewed 2026-11-14 ([report](../reportbacks/realtime-drawing-research-RB.md),
+  its pages beside it): #172's 160 to 230 ms were a Debug tree called Release (every kit tree is
+  Debug, `-g0`, and its rig serialized each delivery it tapped); in Release a whole area takes 26
+  to 30 ms, and text, a few hundred sprites and a small change are inside 16 ms today. A big
+  frame's time: the window's cover, kept nodes times changed ones (8 to 10 ms of 29); Loom
+  walking a value nine times between two loaded weaves (8); the window's node-by-node work (8).
+  Rounds: W1 the window covers once (Zengine, about 25 lines), L1 a path spelled only to refuse
+  and fields by position (Loom, about 60), then `tiles` and `points`, operators whose one node
+  draws a pattern (0.3 to 2.2 ms a grid frame, measured), then D1 and W2, G2, L2 and round B.
+  Vision's leans: every decision as leaned; rounds 1 and 2 at once, since they change no shape or
+  law; round 3 after the second run's answer is read. Found in review: a batched node's things are
+  packed bytes the gate cannot check one by one, so the window checks them (a Loom kind for a
+  packed list of scalars would let the gate do it, a later choice); and a frame was timed with one
+  drawer and no host loop, so round 3 ends measuring a real host's frame.
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11

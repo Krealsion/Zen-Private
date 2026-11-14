@@ -422,6 +422,10 @@ under the same id.
   it was asked" would say it once, and narrower (zengine-floor-adopted-RB, 2026-11-14).
 - **P-LOOM-30** A call rule has no word in `loom-host`'s authority file or the weaver's commands,
   so a person cannot grant a loaded or boxed weave a call yet (loom-calls-RB, 2026-11-14).
+- **P-LOOM-31** A value between two loaded weaves is walked nine times: made a value, written,
+  read and gated at the send, gated and written at dispatch, read, gated and made a shape in the
+  receiver. Lazy refusal words (L1), a typed codec at the edges (L2) and bytes straight through
+  the host (L4) would make it about three (realtime-drawing-research-RB, 2026-11-14).
 
 ## 7. Adoption
 
