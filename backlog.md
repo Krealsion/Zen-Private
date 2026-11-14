@@ -179,7 +179,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   decodes them once. Neither path has been timed.
   The founder's idea for it (2026-11-14): batch what drawn text shares. Text is already one node a
   run (`pane/drawing.hpp`: a row's runs, each a slice of the row), but every run carries its whole
-  look (ink, size, style, font, weight: 15 of a text node's 23 cells, one per declared field, set
+  look (ink, size, style, font, weight: 16 of a text node's 23 cells, one per declared field, set
   or not), the same for every run of a row. A look said once per drawing and named by each run
   would bring a text node to about 8 cells: a whole area (4,096) about 33,000, inside the
   allowance, and a reload about 6,500 kept nodes.
