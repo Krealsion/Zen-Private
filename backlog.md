@@ -129,6 +129,25 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   packed bytes the gate cannot check one by one, so the window checks them (a Loom kind for a
   packed list of scalars would let the gate do it, a later choice); and a frame was timed with one
   drawer and no host loop, so round 3 ends measuring a real host's frame.
+  The second run, reviewed 2026-11-14 ([report](../reportbacks/realtime-drawing-second-RB.md), its
+  four pages beside it; about four hours): the same baseline (a 4,096-tile grid 28 to 30 ms) and
+  the same causes, with more spiked. New and worth taking: the window paints without copying its
+  nodes into a task, packing what was painted and unpacking it in the same image (about 6 to 8 ms
+  of a grid frame); Loom carrying a value's admitted bytes through the host and building a value
+  tree only for a reader that asks (its L2 and L3, the seam 12 ms to 0.6 in its spike, the nine
+  walks to about three: P-LOOM-31); one present a turn, since with vsync two areas in one tick
+  halve the frame rate (33 to 16.7 ms); the GUI's text and shapes in one draw call; a terminal's
+  sub-cell dots (Braille) for particles and half-blocks for pixels; a grid's own glyphs. Vision's
+  read against it: its retained element seam (a second C table, state in the element library) runs
+  against calls and ZC, which retire `graphics/element_abi.h`; its atlas carried in the node with a
+  512 KiB cap is a stand-in for round B's blobs; raising Loom's cell budget waits for its L3; its
+  dispatch-gate stamp is the first run's L3, a law's wording and the founder's. Its accuracy: it
+  names Loom doors that do not exist (`ZenWeaveV1`, `on_message`), current shape versions wrongly,
+  a gate call in the window's paint that `main` does not make, and `tally/tally_core.hpp`; and its
+  clones and spikes were deleted at its end, so its numbers cannot be checked again. Its ideas
+  stand; each is re-derived from the source by the round that takes it. Found beside it, for Raid:
+  a second configure with `ZEN_LOOM_DEV=ON` may hand Loom `BUILD_SHARED_LIBS=ON` from SDL3_ttf's
+  cache (`CMakeLists.txt` 80), not reproduced here.
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
