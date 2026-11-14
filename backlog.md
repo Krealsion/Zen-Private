@@ -129,12 +129,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   The lane ([batch](../issues/raid-batch-2026-11-13b.md)): one Loom issue, the four lists of the
   documentation checks missing `census` and a check's entry after its path read by `doc_names`.
   Reviewed (Vision, 2026-11-13, night): every pull request green on its head, and the text checks
-  passing on two trial merges, Loom's three and Zengine's five. Loom#30 (`0c89189`,
-  [report](../reportbacks/loom-wait-leftovers-RB.md)), #31 (`ac9fe50`,
-  [report](../reportbacks/loom-own-respondents-RB.md)) and #32 (`cae56cc`, ABI 16,
-  [report](../reportbacks/loom-turn-time-RB.md)) merge in that order, the second of #31 and #32
-  resolving `docs/CONTEXT.md`'s router row (#31's row kept, #32's added); Zengine#165, #166, #167
-  and #168 ([report](../reportbacks/zengine-main-reds-RB.md)), then #164, G3
+  passing on trial merges of Loom's three and Zengine's five. Loom#30 (`0c89189`,
+  [report](../reportbacks/loom-wait-leftovers-RB.md)), then #32 (`cae56cc`, ABI 16,
+  [report](../reportbacks/loom-turn-time-RB.md)), then #31 (`ac9fe50`,
+  [report](../reportbacks/loom-own-respondents-RB.md)), its one conflict, `docs/CONTEXT.md`'s
+  router row, resolved in GitHub's editor (#31's row kept, #32's after it: the tree the trial
+  merges built). Zengine#165, #166, #167 and #168
+  ([report](../reportbacks/zengine-main-reds-RB.md)), then #164, G3
   ([report](../reportbacks/zengine-neovim-wait-time-RB.md)), merge clean together. Asked, with
   Vision's leans: Loom's run record on Windows, refused while a reader holds `run.json` and retried
   only at the run's next change (J4's red; #167 only names it) -- the manager retrying a stale
