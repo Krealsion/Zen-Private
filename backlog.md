@@ -211,6 +211,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   whole path with no scope for it (the missing-parent trap's cause too), and `f` in the guide's own
   example; the medium-independent road already stands (a colour's fill and the borders are the
   terminal's look, `graphics/terminal.json`), and the `Console` helper invites the other.
+  Then on his ask: `group.hpp` beside the page (`Group`, which takes the calls inside a group by
+  each node's own name and draws the group first; `Box`, a place and a size by name), the page with
+  every place named and the room said as an outline, a fill and letters, `drawing` for `f`, and
+  `--watch` pacing the window's own drawing in place of printing over it. Found while rewriting it:
+  the calls panel's word "caption" had replaced the panel's own caption, the same name in one
+  group, silently, in the first version too.
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
