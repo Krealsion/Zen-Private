@@ -201,6 +201,16 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   every helper and every `Sketch` call, shown by the research's headless host (`--watch` added to
   play it); built and run in the cloud on Linux (one hash, operators and nodes alike), not yet on
   Windows.
+  The founder on it (2026-11-14): a simple demo using what will ship was what he wanted, not one
+  on the spikes; the headless host takes no keys, two writers flashed (the window and `--watch`),
+  and the page did not follow a resize. On reading it: the magic numbers want names for what is
+  drawn; `p + "/con"` at every call; `f` should be named for what it is, a drawing collected and
+  sent as one at the end; and the terminal shows in the code (a room's band drawn by loops where
+  a rectangle says it), against drawing that says its intent whatever the medium. Vision: the
+  API's share is a Sketch that takes bare numbers (no box to inset or split), a name that is a
+  whole path with no scope for it (the missing-parent trap's cause too), and `f` in the guide's own
+  example; the medium-independent road already stands (a colour's fill and the borders are the
+  terminal's look, `graphics/terminal.json`), and the `Console` helper invites the other.
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
