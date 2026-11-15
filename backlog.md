@@ -247,11 +247,23 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   tiles, a tile's size the window's unit; a terminal cell with a colour behind; `picture` first;
   `Box` and a group helper; the reviews' traps closed where met. `main`'s tower defense
   (`examples/tower-defense/`, rows of text, its story typing `td.cpp`) is left as it is. One round
-  in Zengine ([prompt](../prompts/unrun/zengine-game-drawing.md), warm).
+  in Zengine ([prompt](../prompts/zengine-game-drawing.md), warm).
+  Reviewed 2026-11-15 ([report](../reportbacks/zengine-game-drawing-RB.md)): Zengine#177
+  (`a3f5153d`), green (CI ten of ten, Package), mergeable clean and clean beside #170. The tile
+  defense (`examples/tile-defense/`); `sheet`, `tiles`, `sprites` and `points` (`Operands` v2), a
+  frame both a picture and a character; six helper headers; the GUI keeping a texture while its
+  pixels hold; a terminal cell with a ground, inks in two bytes, Braille sparks; a node in an
+  undrawn parent left out at the drawing weave, the rest drawn. Overruled with reasons: the sheet
+  an operator of its own, the orphan rule at the weave, a host of its own beside a stage weave.
+  Found in review: a drawer hears of a left-out node only if it declares `DrawnRefused` (the
+  facet's default still says nothing, P-WORK-100); a kept texture still copies the pixels it
+  compared; the terminal shows a tile a cell, square where the GUI is two to one; `stage` names
+  the arranger, a word the workspace and `zengine_stage_sdl` already use. Vision's lean: merge as
+  is, the rest to the next drawing round.
 - **The lanes of 2026-11-14, night** (Vision's prompts, on the founder's yes that day, beside the
   game round in Zengine, above). Loom, private: a contained weave's hold on the host's memory, a
   sender's waiting messages bounded whole, through a draft advisory and its fork
-  ([prompt](../prompts/unrun/private-queue-budget.md), warm; P-LOOM-32, with P-LOOM-34 assessed
+  ([prompt](../prompts/private-queue-budget.md), warm; P-LOOM-32, with P-LOOM-34 assessed
   beside it). Raid, five issues, four in Zengine and one in Loom
   ([batch](../issues/raid-batch-2026-11-14.md)): a deep Windows tree past `MAX_PATH`; the sibling
   Loom built shared on a second configure (read, not reproduced); the package's presenter
