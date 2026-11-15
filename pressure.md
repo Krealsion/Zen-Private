@@ -464,12 +464,14 @@ under the same id.
   (`src/kernel/kernel.cpp` 529). With 1,024 waiting per sender (`kMaxPendingPerSender`) that is
   about 7 GB and 12 s of the host, computed from the bounds and not exercised: a value's bound and
   a sender's queue were never budgeted together (realtime-drawing-disputed-RB, 2026-11-14).
+  Taken by the private round ([prompt](../prompts/unrun/private-queue-budget.md)).
 - **P-LOOM-33** A weave is not told when the host has delivered what was sent, so one present for
   several areas has only a timer: the saved code looks again 10 ms later (`kLookAgainMs`)
   (realtime-drawing-disputed-RB, 2026-11-14).
 - **P-LOOM-34** What keeps values is sized against a value's worst size: the console's replies, a
   terminal's received values and a bridge client's pending replies, 64 each. Wakes: any raise of
-  `kMaxDecodedCells` (realtime-drawing-disputed-RB, 2026-11-14).
+  `kMaxDecodedCells` (realtime-drawing-disputed-RB, 2026-11-14). Assessed in the private round
+  that takes P-LOOM-32.
 - **P-LOOM-35** The trusting policy (`trust_every_artifact`) grants every send and no call, so a
   window that asks an element's code by a call is handed `allow_call` by its host; who grants a
   window its calls, and how it learns which role provides a data form's code, are ZC's

@@ -248,6 +248,16 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `Box` and a group helper; the reviews' traps closed where met. `main`'s tower defense
   (`examples/tower-defense/`, rows of text, its story typing `td.cpp`) is left as it is. One round
   in Zengine ([prompt](../prompts/unrun/zengine-game-drawing.md), warm).
+- **The lanes of 2026-11-14, night** (Vision's prompts, on the founder's yes that day, beside the
+  game round in Zengine, above). Loom, private: a contained weave's hold on the host's memory, a
+  sender's waiting messages bounded whole, through a draft advisory and its fork
+  ([prompt](../prompts/unrun/private-queue-budget.md), warm; P-LOOM-32, with P-LOOM-34 assessed
+  beside it). Raid, five issues, four in Zengine and one in Loom
+  ([batch](../issues/raid-batch-2026-11-14.md)): a deep Windows tree past `MAX_PATH`; the sibling
+  Loom built shared on a second configure (read, not reproduced); the package's presenter
+  answering a withdrawal in role words; a doubled namespace comment; Loom's weave guide showing no
+  call. Waiting: the drawing traps the game round does not close (to Raid) and W1, after its
+  report; L1, after the private round.
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
