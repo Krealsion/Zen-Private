@@ -363,6 +363,17 @@ under the same id.
 - **P-WORK-103** An operator that lands bare has no customer who can write it: the spiked `grid`
   and `particles` take bytes the drawer packs (26 and 32 lines), so each lands with the helper or
   `Sketch` method that writes it (drawing-usability-research-RB, 2026-11-14).
+- **P-WORK-104** A moved image's GUI texture is made again at every move, in a group as well: a
+  put group marks its subtree changed (`window/store.hpp` 422) and the SDL backend makes a texture
+  at each repaint (`window_sdl_backend.hpp` 764). Keeping a texture while its pixels are the same
+  would end it for every image with no shape moved (drawing-usability-research-second-RB,
+  2026-11-14).
+- **P-WORK-105** Paint order is the order nodes were first put, so a node added later paints over
+  every older one, a HUD included; layers made first are the way, and `picture`'s order is not
+  (drawing-usability-research-second-RB, 2026-11-14).
+- **P-WORK-106** A `WindowShaped` that arrives before its arranger is known is dropped without a
+  word (`window/window.hpp` 458): an arranger shapes the window once its area has settled
+  (drawing-usability-research-second-RB, 2026-11-14).
 
 ## 6. Loom
 

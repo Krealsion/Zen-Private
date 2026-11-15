@@ -217,6 +217,26 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `--watch` pacing the window's own drawing in place of printing over it. Found while rewriting it:
   the calls panel's word "caption" had replaced the panel's own caption, the same name in one
   group, silently, in the first version too.
+  The second run, reviewed 2026-11-14
+  ([report](../reportbacks/drawing-usability-research-second-RB.md), its pages beside it): the same
+  road as the executor's (`picture` first, `Patch` for busy scenes, helpers a drawer includes, the
+  missing parent kept loud with a `Scope`, GATE-01 and the cell budget kept), built on `main` alone
+  with its own operators and measured in the GUI too. Its helpers (`graphics/helpers.hpp`): `Scope`
+  (the page's `Group`, by numbers), `Column` and `MenuCursor`, `Camera2D` with ordered layers,
+  `TileGrid`, `CellBuffer`, `SpriteSheet`, `SpriteBatch`, `SpriteClip`, `PointsBatch`, `TextFlow`,
+  `GizmoLayer`, and `SingleAreaArranger`, a weave for one window's boot. Its leans past the first:
+  four operators in one `Operands` bump (`TilesArgs`, `PointsArgs`, `CellsArgs`, `SpritesArgs`),
+  sprites now from an image node as their sheet, a TUI cell with a ground, the arranger weave for a
+  first picture. Found on `main`, checked: a moved image's texture is made again at every move,
+  in a group too (a put group marks its subtree changed, `store.hpp` 422; the GUI makes a texture
+  at a repaint, `window_sdl_backend.hpp` 764), so the executor's group cures the wire and not the
+  GPU; paint order is the order first put, so a node added later paints over the HUD; a
+  `WindowShaped` before its arranger is known is dropped (`window.hpp` 458); an owner's group at a
+  presented element's path is refused at a reload; a TUI ink past 127 wraps (`term_paint.hpp` 94);
+  `Image::set_tint` does nothing for a pool colour; a long phase name passes `MAX_PATH`. Its
+  accuracy: `store.hpp` 466 and 486 are its spike's lines, `main`'s 404 and 422; "silent" overstates
+  the tint and the rank, each of which a comment or the guide says. Raid candidates, unsent: the
+  ink's wrap, the tint, the dropped shaping, and the two traps the guide does not say.
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
