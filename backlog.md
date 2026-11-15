@@ -196,6 +196,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Workshop as the first picture's pane was not tried; a field added to a drawer's state is refused
   at a reload in place, and moving its version was not tried. Raid candidates, unsent: the refusal
   no one hears, and the canvas diffing past a window's refusal.
+  An examples page for the founder (2026-11-14), in `Zen/Claude outputs/drawing-examples/`: Loom
+  and Zengine at the commits read with both spikes applied and `showcase.cpp`, one drawer using
+  every helper and every `Sketch` call, shown by the research's headless host (`--watch` added to
+  play it); built and run in the cloud on Linux (one hash, operators and nodes alike), not yet on
+  Windows.
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
