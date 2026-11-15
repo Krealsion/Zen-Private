@@ -175,7 +175,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   their users like and dislike, each job written in Zen beside them, with a verdict a job: natural,
   with a helper, or not without a change in design; run by the executor
   ([prompt](../prompts/drawing-usability-research.md), warm) and, for a second answer, by
-  another model ([prompt](../prompts/unrun/drawing-usability-research-second.md), cold).
+  another model ([prompt](../prompts/drawing-usability-research-second.md), cold).
   The executor's run, reviewed 2026-11-14
   ([report](../reportbacks/drawing-usability-research-RB.md), its pages beside it): yes, with a
   small library and three traps closed. `picture`, the whole picture from the state at every
@@ -237,6 +237,17 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   accuracy: `store.hpp` 466 and 486 are its spike's lines, `main`'s 404 and 422; "silent" overstates
   the tint and the rank, each of which a comment or the guide says. Raid candidates, unsent: the
   ink's wrap, the tint, the dropped shaping, and the two traps the guide does not say.
+  A game drawn in both windows (the founder, 2026-11-14, after the second run's review): a 2D
+  tower defense "meant to stress test the design" -- two towers, fireball and arrow, each
+  animated, the fireball's particles, a sheet the game makes, long range, a 40 by 20 map of
+  16-pixel tiles against the terminal's 12, real input, the GUI window and the terminal each its
+  own way -- whose diff ends close to a pull request, and which stays as the game each later
+  drawing round keeps running. Vision's leans start it: sprites now; the GUI keeping a texture
+  while its pixels hold; one grid of a sheet's frames, each with pixels and a glyph; the world in
+  tiles, a tile's size the window's unit; a terminal cell with a colour behind; `picture` first;
+  `Box` and a group helper; the reviews' traps closed where met. `main`'s tower defense
+  (`examples/tower-defense/`, rows of text, its story typing `td.cpp`) is left as it is. One round
+  in Zengine ([prompt](../prompts/unrun/zengine-game-drawing.md), warm).
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
