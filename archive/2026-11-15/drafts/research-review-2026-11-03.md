@@ -3,11 +3,11 @@
 Vision's review of the two research rounds, with the left-behind round beside them. Answer inline
 after each "Your call:", as in the clarify files; a bare "yes" takes the lean.
 
-- The visual foundation: [report](../../reportbacks/visual-foundation-research-RB.md),
-  [design](../../reportbacks/visual-foundation-research/design.md),
-  [stages](../../reportbacks/visual-foundation-research/stages.md).
-- Workshop as a stranger: [report](../../reportbacks/workshop-as-a-stranger-research-RB.md),
-  [distance](../../reportbacks/workshop-as-a-stranger-research/distance.md).
+- The visual foundation: [report](../../../../reportbacks/visual-foundation-research-RB.md),
+  [design](../../../../reportbacks/visual-foundation-research/design.md),
+  [stages](../../../../reportbacks/visual-foundation-research/stages.md).
+- Workshop as a stranger: [report](../../../../reportbacks/workshop-as-a-stranger-research-RB.md),
+  [distance](../../../../reportbacks/workshop-as-a-stranger-research/distance.md).
 
 ## 0. The short of it
 

@@ -42,14 +42,14 @@ policy. A concrete capability gap in the first loaded experiment would justify r
 The low-level role-only commit already leaves both participants alive. Its mutation clears the
 candidate's seal, clears the incumbent's role, and moves the role to the candidate. It neither
 destroys nor reloads the incumbent. Kernel exposes a name-based wrapper over that same operation.
-[Switchboard implementation](../../Loom/src/switchboard/switchboard.cpp), lines 1965–1991;
-[Kernel wrapper](../../Loom/src/kernel/kernel.cpp), lines 1122–1136.
+[Switchboard implementation](../../../../Loom/src/switchboard/switchboard.cpp), lines 1965–1991;
+[Kernel wrapper](../../../../Loom/src/kernel/kernel.cpp), lines 1122–1136.
 
 This differs from prepared admission, which seals the predecessor for retirement and admits
 the successor with activation in one dispatch. The lower-level call does not inherit its
 authenticated preparation, exact participant revalidation or transaction outcome machinery.
-Its public contract is narrower. [API distinction](../../Loom/include/zen/switchboard/switchboard.hpp),
-lines 883–913; [prepared admission](../../Loom/docs/reference/prepared-replacement.md#admission).
+Its public contract is narrower. [API distinction](../../../../Loom/include/zen/switchboard/switchboard.hpp),
+lines 883–913; [prepared admission](../../../../Loom/docs/reference/prepared-replacement.md#admission).
 
 | Traffic or fact | After a role-only move |
 |---|---|
@@ -63,9 +63,9 @@ lines 883–913; [prepared admission](../../Loom/docs/reference/prepared-replace
 | A new statement deliberately authored as the moved office | The old holder cannot author it |
 | A statement authored as that office before the move | Keeps its historical office stamp, subject to ordinary delivery checks |
 
-Sources: [routing and seal checks](../../Loom/src/switchboard/switchboard.cpp), lines 1613–1668;
-[publication and office authorship](../../Loom/src/switchboard/switchboard.cpp), lines 1278–1407;
-[answers](../../Loom/src/switchboard/switchboard.cpp), lines 905–927 and 1098–1141.
+Sources: [routing and seal checks](../../../../Loom/src/switchboard/switchboard.cpp), lines 1613–1668;
+[publication and office authorship](../../../../Loom/src/switchboard/switchboard.cpp), lines 1278–1407;
+[answers](../../../../Loom/src/switchboard/switchboard.cpp), lines 905–927 and 1098–1141.
 The probe below exercises the central continuation claims and several counterexamples.
 
 Thus “stops receiving messages” must mean **stops admitting new work through the governed
@@ -89,8 +89,8 @@ immutable. A host-minted `GrantAuthority` can replace the delegated part for one
 its ceiling; it cannot subtract baseline permission or apply itself to the successor's id.
 Authorization occurs at delivery, including for a queued answer. Revoking the permission to
 finish can therefore turn a valid retained answer right into an undeliverable response.
-[Capabilities](../../Loom/docs/reference/capabilities.md#live-delegation-grant-0);
-[answer grant requirement](../../Loom/include/zen/switchboard/bus.hpp), lines 88–92.
+[Capabilities](../../../../Loom/docs/reference/capabilities.md#live-delegation-grant-0);
+[answer grant requirement](../../../../Loom/include/zen/switchboard/bus.hpp), lines 88–92.
 
 Two present integration limits matter before promising a loaded manager:
 
@@ -98,20 +98,20 @@ Two present integration limits matter before promising a loaded manager:
   sends. Revoking delegated permission cannot narrow those existing grants. An explicit-grant
   `Kernel::load` exists; a Zengine host adapter can compose it with sealing as appropriate,
   without a new loading primitive. Candidate native construction is still not a side-effect
-  sandbox. [Load implementation](../../Loom/src/kernel/kernel.cpp), lines 1018–1120.
+  sandbox. [Load implementation](../../../../Loom/src/kernel/kernel.cpp), lines 1018–1120.
 - Native participating weaves can use a supplied `GrantAuthority`. ABI v7's `ZenHostApi` has
   no delegation or role-commit slots, and its library-side bus supplies no delegation override.
   A loaded manager needs a scoped host-side conversation for those acts if it uses them.
   Define that bridge around authorized subjects and decisions rather than granting arbitrary
-  Kernel reach. [ABI table](../../Loom/include/zen/kernel/abi.h), lines 218–310;
-  [library-side bus](../../Loom/include/zen/kernel/export.hpp), `HostApiBus`;
-  [default delegation refusal](../../Loom/include/zen/switchboard/bus.hpp), lines 287–301.
+  Kernel reach. [ABI table](../../../../Loom/include/zen/kernel/abi.h), lines 218–310;
+  [library-side bus](../../../../Loom/include/zen/kernel/export.hpp), `HostApiBus`;
+  [default delegation refusal](../../../../Loom/include/zen/switchboard/bus.hpp), lines 287–301.
 
 This is application wiring work, not evidence that Loom must change. The current Kernel control
 door already supplies load/unload but not this retirement policy; Workshop's realization owner
 and `PlanBooter` demonstrate a host owner with a message-facing bridge. Keep lifecycle facts at
-their existing owners. [Control](../../Loom/include/zen/kernel/control.hpp), lines 187–260;
-[realization](../../Zengine/agents/realization.md), lines 81–90.
+their existing owners. [Control](../../../../Loom/include/zen/kernel/control.hpp), lines 187–260;
+[realization](../../../../Zengine/agents/realization.md), lines 81–90.
 
 ## The manager's meaningful boundary
 
@@ -140,8 +140,8 @@ another request is a participant in two conversations; workers see the router. I
 pretend to preserve the original caller's authenticated identity by copying a payload field.
 Use a deliberate manager/worker relationship, or arrange for clients to address the selected
 instance under appropriate authority. No universal transparent proxy is assumed.
-[Host-only identity injection](../../Loom/include/zen/switchboard/switchboard.hpp), lines 543–551;
-[ordinary relay response](../../Loom/include/zen/weave/relay.hpp), lines 123–135.
+[Host-only identity injection](../../../../Loom/include/zen/switchboard/switchboard.hpp), lines 543–551;
+[ordinary relay response](../../../../Loom/include/zen/weave/relay.hpp), lines 123–135.
 
 Retirement is established by a domain closure condition: the governed admission path is closed
 to new work, its required operations and effects have completed, and resource release is permitted.
@@ -159,8 +159,8 @@ authority survives the administrator's death.
 When removal is appropriate, identify the retired **instance**, with a unique loaded name and
 revalidated identity. `UnloadRole(public_role)` after cutover selects the successor. Merely
 retaining the old name without preventing its reuse is insufficient for delayed cleanup.
-[Kernel unload](../../Loom/include/zen/kernel/kernel.hpp), lines 266–305;
-[authority administrator lifetime](../../Loom/tests/test_grant.cpp), near line 892.
+[Kernel unload](../../../../Loom/include/zen/kernel/kernel.hpp), lines 266–305;
+[authority administrator lifetime](../../../../Loom/tests/test_grant.cpp), near line 892.
 
 ## Keeping old code is not freezing its whole world
 
@@ -178,8 +178,8 @@ does not supply one or overturn the current resolve-at-spend law.
 The paused native `maker/` succession path is a useful precedent for a Zengine-owned ceremony,
 but implements a different policy: cooperative Quiesce, authored conversion, prepared admission,
 then explicit host removal. It uses native interpreter objects, not Kernel-loaded workers, and
-does not prove unaware-incumbent draining. [Maker succession](../../Zengine/maker/succession.hpp),
-lines 268–286; [its law](../../Zengine/agents/maker/succession.md), lines 82–108.
+does not prove unaware-incumbent draining. [Maker succession](../../../../Zengine/maker/succession.hpp),
+lines 268–286; [its law](../../../../Zengine/agents/maker/succession.md), lines 82–108.
 
 ## Evidence and its limits
 
@@ -210,7 +210,7 @@ The [final output](C:/Users/Joshua/Documents/Codex/2026-09-08/https-github-com-k
 and command exit files are retained with the source and runner. No actual output-provider
 coexistence, loaded-manager bridge, dependency pinning, manager recovery, OS containment or
 performance claim was tested. The experiment validates building blocks, not an implemented
-service retirement system. Existing [Kernel tests](../../Loom/tests/test_kernel.cpp), lines
+service retirement system. Existing [Kernel tests](../../../../Loom/tests/test_kernel.cpp), lines
 4246–4269, separately assert both loaded artifacts remain Live after a low-level commit;
 they were source-traced, not rerun here.
 

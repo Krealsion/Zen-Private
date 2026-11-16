@@ -45,17 +45,17 @@ The [Workshop Goal Map](../goals/workshop.md#near-term-order-and-purpose) owns t
 Typed Inventory capture, collection, inspection, Compose, portable slots, Terminal acquisition
 and the interaction-authoring foundation are merged. Durable toolboxes (#54), independent Info
 views (#55) and named folders (#58) are accepted. The founder selected a
-[tower-defense creation story through ELH](../../reportbacks/zengine-tower-defense-creation-story-RB.md) to test
+[tower-defense creation story through ELH](../../../../reportbacks/zengine-tower-defense-creation-story-RB.md) to test
 these foundations against a complete goal. It merged as Zengine #60; its measured
 pressure is P-WORK-29 to P-WORK-32. Reusable tools, live Workshop development and a
 repeatable creation demo take priority over game polish. New product scope follows actual story
 pressure; the immutable host and unsupported reload boundaries remain explicit. The parallel
-[Editor transfer packet](../../reportbacks/zengine-editor-typed-transfers-RB.md) connects selected text, saved
+[Editor transfer packet](../../../../reportbacks/zengine-editor-typed-transfers-RB.md) connects selected text, saved
 commands and file locators to Inventory in isolated worktrees, with optional explicit C++
 generation. It preserves conventional coding and supplies evidence for Flow. Flow and other
 independent pane/editor work continue alongside.
 
-The founder accepted the [Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md)
+The founder accepted the [Flow's powers research](../../../../reportbacks/zengine-flow-powers-RB.md)
 (2026-09-30): Flow composes and keeps the discovery experience, UI building moves to a builder
 beside it, and the tally panel is built in three stages, find, compose and show. P-WORK-34 to
 P-WORK-37 are the pressure that research measured. The find stage merged as Zengine #82
@@ -95,7 +95,7 @@ retirement are not silently selected by this consolidation.
 ### P-WORK-01 — Default pane height and keyboard resizing are tedious
 
 **State:** WATCH — fallback height and coarse step configurable in #321 (`a7b7aa1`, 2026-10-19); self-sizing panes remain  
-**Evidence:** `Zengine/docs/workshop/limitations.md`, ARR-0 recommendation, [Stage 2D report](../../reportbacks/settings-stage-2d-workshop-promotions-RB.md#decisions-asked)
+**Evidence:** `Zengine/docs/workshop/limitations.md`, ARR-0 recommendation, [Stage 2D report](../../../../reportbacks/settings-stage-2d-workshop-promotions-RB.md#decisions-asked)
 
 `workshop.stack-rows` (5–40 rows) and `workshop.arrange-step` (2–16 cells) landed in #321 (`a7b7aa1`), relieving the fallback stack height (`kStackRows`) and coarse keyboard step (`kCoarseStepCells`). Panes that report their own `preferred_extent` (such as Pane Manager and Info on a fresh desk) still size themselves rather than taking `workshop.stack-rows`.
 
@@ -104,7 +104,7 @@ retirement are not silently selected by this consolidation.
 ### P-WORK-02 — Broader pane inspection and contextual acquisition remain future work
 
 **State:** ACT — contextual typed-inspection research selected; narrow pane inspection already accepted
-**Evidence:** [desktop continuation](../../reportbacks/zengine-desktop-foundation-continuation-RB.md),
+**Evidence:** [desktop continuation](../../../../reportbacks/zengine-desktop-foundation-continuation-RB.md),
 Info's current laws and [the accepted foundation](../goals/workshop.md#part-2--replaceable-desktop-and-pane-launching-accepted-foundation).
 
 Info now holds a real pane as its subject independently of selection and keyboard focus, and
@@ -120,7 +120,7 @@ owns acquisition and schema/value reuse; contract-metadata research is
 [BL-WORK-26](closed_work.md#bl-work-26--load-metadata-researched). Full overlay editing and
 layout properties keep their own scope. Keep selection, focus, click-through and the inspected
 subject distinct.
-The [first inventory slot](../../reportbacks/zengine-inventory-capture-RB.md) establishes the destination and typed
+The [first inventory slot](../../../../reportbacks/zengine-inventory-capture-RB.md) establishes the destination and typed
 capture pair before broad contextual acquisition; it needs no new graphical inspector.
 
 ### P-WORK-03 — Remaining shell ownership follows concrete consumers
@@ -139,7 +139,7 @@ Preserve undo, normalization, selection and fallback behavior with the component
 
 The documentation overhaul's research names more host-owned pieces that a feature's folder will
 route to rather than hold (2026-10-10,
-[folder-map.md](../../reportbacks/docs-overhaul-research/folder-map.md#what-the-code-argues)): the
+[folder-map.md](../../../../reportbacks/docs-overhaul-research/folder-map.md#what-the-code-argues)): the
 Builder's mounting and grants, realization, the recipe file's reading, staging, the editor switch,
 the opening office and path admission. WL-DESK-01 keeps room, focus, realization and roots in the
 host; the others are candidates to become weaves, the founder's "write Loom, not host code"
@@ -156,7 +156,7 @@ ignored ids and Attention's hidden-condition wording are repaired. BL-DEF-02 and
 BL-DOC-01 work are closed. Document binding/refusal work is now accepted under P-WORK-26; Files'
 cross-mode intent identity was fixed by PR #29; general queued-picture provenance remains P-WORK-25.
 
-**Evidence:** [corrections report](../../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
+**Evidence:** [corrections report](../../../../reportbacks/zengine-pane-interaction-cleanup-corrections-RB.md),
 Vision's independent ordinary lane and loaded-pane reproductions at `407ca15`, the same-tree
 merge `b42fe35`, and founder acceptance. Current sequence belongs in the Goal Map.
 
@@ -175,8 +175,8 @@ limitation remains deferred until a real Workshop state-replacement consumer is 
 does not extend the current repair sequence. The new Info image on a v1-only host remains an
 explicitly unsupported pairing. The current boundaries live in the document law and decision record.
 
-**Evidence:** [implementation report](../../reportbacks/zengine-info-targeted-commits-RB.md),
-[documentation follow-up](../../reportbacks/zengine-info-targeted-commits-doc-followup-RB.md),
+**Evidence:** [implementation report](../../../../reportbacks/zengine-info-targeted-commits-RB.md),
+[documentation follow-up](../../../../reportbacks/zengine-info-targeted-commits-doc-followup-RB.md),
 Vision's independent official lane and state-swap probe, reviewed `c012085`, and same-tree merge
 `afdc242`. Current sequence belongs in the Goal Map.
 
@@ -190,7 +190,7 @@ through the resulting room grant are repaired, and the keyboard band follows act
 Version inspection remains an observation: a later incompatible holder can refuse the press,
 attributed on the tap, without a retry. No new Loom mechanism was needed.
 
-**Evidence:** [implementation report](../../reportbacks/zengine-files-focus-implementation-RB.md),
+**Evidence:** [implementation report](../../../../reportbacks/zengine-files-focus-implementation-RB.md),
 Vision's independent official run and settled hidden-title Editor drag probe, and founder merge
 confirmation. Its enumerated wording/count corrections (BL-DOC-01) were accepted in PR #27.
 The limitations-page residue (BL-DOC-02) is accepted and closed in PR #28.
@@ -208,7 +208,7 @@ hidden-title repair do not establish correctness across arbitrary intervening pi
 Preserve a route to solve this later without selecting a general revision/history protocol now.
 Terminal's second-press memory is only an analogy, not a reproduced instance of this defect.
 
-**Evidence:** [Files focus investigation](../../reportbacks/zengine-files-focus-investigation-RB.md),
+**Evidence:** [Files focus investigation](../../../../reportbacks/zengine-files-focus-investigation-RB.md),
 P10 and its adjacent probe/evidence pack; Vision independently reproduced the same result.
 **Trigger:** the next selected pointer/presentation provenance investigation, or ordinary use showing
 repeated queued clicks selecting or activating a subject the maker did not aim at.
@@ -223,8 +223,8 @@ carry the collection owner so a restore that keeps folder keys still changes the
 ### P-WORK-27 — Independent Info views leave three measured seams
 
 **State:** WATCH; seams retained after founder acceptance and merge of #55 and its corrections
-**Evidence:** [phase report](../../reportbacks/zengine-independent-info-workbench-RB.md) and its evidence;
-[corrections report](../../reportbacks/zengine-independent-info-workbench-corrections-RB.md)
+**Evidence:** [phase report](../../../../reportbacks/zengine-independent-info-workbench-RB.md) and its evidence;
+[corrections report](../../../../reportbacks/zengine-independent-info-workbench-corrections-RB.md)
 
 - **Responder identity is process-local.** A sample records the WeaveId Loom attests, which
   distinguishes a replacement only within one process. In the fresh-process run, the new
@@ -251,7 +251,7 @@ contract. The choice is the architect's, not an executor default.
 ### P-WORK-28 — The Inventory pane controller keeps growing in one file
 
 **State:** WATCH / MEASURED
-**Evidence:** [named folders report](../../reportbacks/zengine-inventory-named-folders-RB.md)
+**Evidence:** [named folders report](../../../../reportbacks/zengine-inventory-named-folders-RB.md)
 
 `inventory-pane/pane.cpp` grew from 564 to 848 dense lines with named folders, after navigation
 moved to `browser.hpp` and drawing to `presentation.hpp`. The folder acts, the press/drop routing
@@ -265,7 +265,7 @@ every record per operation; behavior and law unchanged.
 ### P-WORK-29 — A recipe authored in Files cannot name a toolchain
 
 **State:** WATCH / MEASURED
-**Evidence:** [tower defense report](../../reportbacks/zengine-tower-defense-creation-story-RB.md),
+**Evidence:** [tower defense report](../../../../reportbacks/zengine-tower-defense-creation-story-RB.md),
 evidence §9
 
 `RecipeAuthorRequested` v2 has no toolchain field and the host composes the row, so a recipe Files
@@ -327,7 +327,7 @@ service as its target.
 ### P-WORK-33 — Stored commands can lose their domain reply
 
 **State:** WATCH / MEASURED
-**Evidence:** [tower-defense second corrections](../../reportbacks/zengine-tower-defense-creation-story-corrections-2-evidence.md), §8b and §10
+**Evidence:** [tower-defense second corrections](../../../../reportbacks/zengine-tower-defense-creation-story-corrections-2-evidence.md), §8b and §10
 
 The maker's enabled Inventory shortcut delivered `TdCommand` to `td.game` and started the wave.
 The game's `zen.Result` answer was refused as `NotAccepted`: Inventory's runner accepts `Ack`
@@ -346,7 +346,7 @@ universal command manager is not selected by this pressure.
 **State:** CLOSED — founder merged Zengine #84 (2026-10-02): one budget per evaluation in
 `op::Catalog`, charged at each spend and refused in words (100000 spends, depth 32); it refuses a
 nested fold past it and a call cycle through identities
-**Evidence:** [pattern map](../../reportbacks/zengine-flow-powers/pattern-map.md#the-bound-the-loop-needs-and-the-one-it-closes), anchors in the [evidence](../../reportbacks/zengine-flow-powers-evidence.md#4-source-anchors)
+**Evidence:** [pattern map](../../../../reportbacks/zengine-flow-powers/pattern-map.md#the-bound-the-loop-needs-and-the-one-it-closes), anchors in the [evidence](../../../../reportbacks/zengine-flow-powers-evidence.md#4-source-anchors)
 
 `Catalog::walk` spends each node by name, and nothing counts depth or spends. One graph cannot hold
 a cycle, but a call cycle through identities is expressible by data: admission and contribution
@@ -360,7 +360,7 @@ words, before the loop form. A check at mount cannot replace it: the catalog cha
 
 **State:** CLOSED — founder merged Zengine #82 (2026-10-01): the maker package mounts trigger
 bodies not offered, and Flow asks the discovery door only for offered powers
-**Evidence:** [discovery](../../reportbacks/zengine-flow-powers/discovery.md#flows-discovery-experience)
+**Evidence:** [discovery](../../../../reportbacks/zengine-flow-powers/discovery.md#flows-discovery-experience)
 
 After a Run, the pane's flat catalog lists the running session's own trigger body as an operator.
 It is revision-scoped and unmounts at the next behaviour edit, so a composition built on it
@@ -376,7 +376,7 @@ package on trigger bodies, keeps them out of composing.
 ### P-WORK-37 — "Source" means two things in the Flow pane
 
 **State:** CLOSED — founder merged Zengine #82 (2026-10-01): the rail is "In scope"
-**Evidence:** [discovery](../../reportbacks/zengine-flow-powers/discovery.md#flows-discovery-experience)
+**Evidence:** [discovery](../../../../reportbacks/zengine-flow-powers/discovery.md#flows-discovery-experience)
 
 The pane's rail calls in-scope fields "Sources (click to wire)", while the operator package's
 Source is a zero-input operator (`op::is_source`). The find stage renames the rail "In scope".
@@ -386,7 +386,7 @@ Source is a zero-input operator (`op::is_source`). The find stage renames the ra
 ### P-WORK-38 — The Terminal shows an answer by its shape
 
 **State:** WATCH
-**Evidence:** [the find stage's report](../../reportbacks/zengine-tally-find-RB.md#pressure-exposed)
+**Evidence:** [the find stage's report](../../../../reportbacks/zengine-tally-find-RB.md#pressure-exposed)
 and its Terminal screenshot in Zengine #82
 
 The Terminal records `v PowersFound v1 from #12` and shows none of the rows; a person reads them
@@ -398,7 +398,7 @@ asking the discovery door there does not see the row they found.
 ### P-WORK-39 — A definition with a fold runs interpreted only
 
 **State:** WATCH
-**Evidence:** [the compose stage's report](../../reportbacks/zengine-tally-compose-RB.md#choices-the-founder-can-overrule),
+**Evidence:** [the compose stage's report](../../../../reportbacks/zengine-tally-compose-RB.md#choices-the-founder-can-overrule),
 choice 9 and decision 3
 
 Generate refuses a definition with a fold in words and writes nothing. The fold is the evaluator's
@@ -411,8 +411,8 @@ witnessed against the interpreted answer.
 
 **State:** CLOSED — founder merged Zengine #85 (2026-10-02): a row known by its kind and identity,
 a refused slot reference put down, the fold node fitting its box
-**Evidence:** [the compose stage's report](../../reportbacks/zengine-tally-compose-RB.md#pressure-exposed)
-and [its fixes' report](../../reportbacks/tally-compose-fixes-RB.md#pressure-exposed), each checked
+**Evidence:** [the compose stage's report](../../../../reportbacks/zengine-tally-compose-RB.md#pressure-exposed)
+and [its fixes' report](../../../../reportbacks/tally-compose-fixes-RB.md#pressure-exposed), each checked
 against Zengine `6492355`
 
 - **A row is known by its identity alone.** The door names the form's row `fold`, and an operator
@@ -429,7 +429,7 @@ against Zengine `6492355`
 
 **State:** CLOSED — founder merged Zengine #86 (2026-10-03): a canvas press may carry a value out
 (WL-CANVAS-05), and a canvas hears where the pointer rests and when it leaves (WL-CANVAS-06)
-**Evidence:** [the show stage's report](../../reportbacks/zengine-tally-show-RB.md#choices-the-founder-can-overrule)
+**Evidence:** [the show stage's report](../../../../reportbacks/zengine-tally-show-RB.md#choices-the-founder-can-overrule)
 (choice 7); `workshop/weave_pointer.cpp` and `workshop/weave_canvas.cpp` at Zengine `8796d90`
 
 A press on a canvas pane begins no value drag, so Flow and the View Builder carry out by a
@@ -443,7 +443,7 @@ element under the pointer. Info's selection mode (§7) needs the same hover.
 
 **State:** WATCH, for its length; its prefix closed by Zengine #86 (2026-10-03), which names where
 a refusal happened in a weaver's words
-**Evidence:** [the show stage's report](../../reportbacks/zengine-tally-show-RB.md#decisions-asked)
+**Evidence:** [the show stage's report](../../../../reportbacks/zengine-tally-show-RB.md#decisions-asked)
 (decision 4); `operator/catalog.hpp`
 
 The evaluator prefixes a refusal with its composition's identity and node index:
@@ -452,15 +452,15 @@ named step. A view shows its owner's whole sentence; at the forty columns a view
 notice rows hold about 117 characters, and this one is 150. Since #86 the sentence names its
 place in a weaver's words (`tally on tally.panel.Count at %0 fold math.add: ...`), eight
 characters longer. It was met live in a 22-row seat, which left the panel one notice row, and the
-sentence ended in `...` ([the graphical builder's report](../../reportbacks/view-builder-canvas-RB.md#pressure-exposed);
-again in [its fixes' report](../../reportbacks/view-builder-fixes-RB.md#pressure-exposed)).
+sentence ended in `...` ([the graphical builder's report](../../../../reportbacks/view-builder-canvas-RB.md#pressure-exposed);
+again in [its fixes' report](../../../../reportbacks/view-builder-fixes-RB.md#pressure-exposed)).
 
 **Trigger:** a weaver who must read a refusal whole in a narrow view.
 
 ### P-WORK-43 — Flow marks an observed state unsaved
 
 **State:** WATCH
-**Evidence:** [the show stage's report](../../reportbacks/zengine-tally-show-RB.md#pressure-exposed)
+**Evidence:** [the show stage's report](../../../../reportbacks/zengine-tally-show-RB.md#pressure-exposed)
 
 Flow adopts a running definition's observed state into its workspace and marks it touched, so
 after the panel's first Count Flow shows `[Save*]` and refuses its quit until saved or discarded,
@@ -471,7 +471,7 @@ though the weaver authored nothing.
 ### P-WORK-44 — A stranger cannot drive the view host
 
 **State:** WATCH
-**Evidence:** [the show stage's report](../../reportbacks/zengine-tally-show-RB.md#choices-the-founder-can-overrule)
+**Evidence:** [the show stage's report](../../../../reportbacks/zengine-tally-show-RB.md#choices-the-founder-can-overrule)
 (choice 6)
 
 `view/` is internal, not installed: Workshop composes the view host and is the description
@@ -482,7 +482,7 @@ format's one consumer.
 ### P-WORK-45 — A running panel cannot change an intent's fields at the same version
 
 **State:** WATCH
-**Evidence:** [the View Builder fixes' report](../../reportbacks/view-builder-fixes-RB.md#choices-the-founder-can-overrule)
+**Evidence:** [the View Builder fixes' report](../../../../reportbacks/view-builder-fixes-RB.md#choices-the-founder-can-overrule)
 (choice 2, decision 2)
 
 Apply registers a successor while the running view still runs, so an intent whose fields change
@@ -497,7 +497,7 @@ version.
 ### P-WORK-46 — A pointer that leaves the window leaves its hover mark
 
 **State:** WATCH
-**Evidence:** [the graphical View Builder's report](../../reportbacks/view-builder-canvas-RB.md#pressure-exposed)
+**Evidence:** [the graphical View Builder's report](../../../../reportbacks/view-builder-canvas-RB.md#pressure-exposed)
 
 No input event says the pointer left the window, so a mark over a canvas the pointer left through
 the window's edge stays until the pointer moves inside again (WL-CANVAS-06). A terminal reports
@@ -508,7 +508,7 @@ no resting pointer at all.
 ### P-WORK-47 — The guest tool package is at Loom's 32-tool limit
 
 **State:** WATCH
-**Evidence:** [the graphical View Builder's report](../../reportbacks/view-builder-canvas-RB.md#decisions-asked)
+**Evidence:** [the graphical View Builder's report](../../../../reportbacks/view-builder-canvas-RB.md#decisions-asked)
 (decision 4)
 
 Workshop's guest tools are one package at the 32 tools Loom allows. A manifest past the limit
@@ -520,7 +520,7 @@ tools`); the builder's `rest` became a step of `workshop/act` to stay inside it.
 ### P-WORK-48 — Inventory labels a kept carried shape by its message
 
 **State:** WATCH
-**Evidence:** [the third fixes' report](../../reportbacks/view-builder-fixes-3-RB.md#choices-the-founder-can-overrule)
+**Evidence:** [the third fixes' report](../../../../reportbacks/view-builder-fixes-3-RB.md#choices-the-founder-can-overrule)
 (choice 3); `inventory-pane/pane.cpp`, which labels an item by its shape when no label is given
 
 A shape carried out of Flow or the View Builder and kept in Inventory is labelled
@@ -533,9 +533,9 @@ shapes look alike.
 
 **State:** CLOSED — founder merged Zengine #89 (2026-10-04); the helpers live in
 `pass-tools/executor-kit/`, and a setup carries its walks
-**Evidence:** the View Builder fixes' three reports ([one](../../reportbacks/view-builder-fixes-RB.md#doc-gaps),
-[two](../../reportbacks/view-builder-fixes-2-RB.md#doc-gaps),
-[three](../../reportbacks/view-builder-fixes-3-RB.md#doc-gaps))
+**Evidence:** the View Builder fixes' three reports ([one](../../../../reportbacks/view-builder-fixes-RB.md#doc-gaps),
+[two](../../../../reportbacks/view-builder-fixes-2-RB.md#doc-gaps),
+[three](../../../../reportbacks/view-builder-fixes-3-RB.md#doc-gaps))
 
 The scripts a phase uses to drive and picture a running Workshop (`ls.sh`, `walk.sh`, `shot.sh`,
 `crop.py`, a demo setup) live in phase scratch and are copied into the next by hand. Two of the
@@ -551,7 +551,7 @@ copied them a third time and three broke; the executor process phase keeps them 
 ### P-WORK-50 — A desk of many panes pays for every change in full
 
 **State:** WATCH
-**Evidence:** [the quick desk fixes' report](../../reportbacks/quick-desk-fixes-RB.md#pressure-exposed)
+**Evidence:** [the quick desk fixes' report](../../../../reportbacks/quick-desk-fixes-RB.md#pressure-exposed)
 
 Creating one Inventory view re-sends lists that grow with the catalog to Desktop and Workshop,
 so a desk's cost per change grows with its size: making 36 views took 30 s and applying their
@@ -559,7 +559,7 @@ desk 18 to 31 s (Debug, MinGW-w64). #88 fixed the worst of it, a repaint whose c
 fourth power of the desk, so that a 36-view desk never finished applying; what remains is the
 fan-out per change.
 
-#92 measured it again ([its report](../../reportbacks/whole-pixel-3-RB.md#pressure-exposed)): with
+#92 measured it again ([its report](../../../../reportbacks/whole-pixel-3-RB.md#pressure-exposed)): with
 every launch seated, Inventory offered and drew every view again at any change, while Workshop
 repaints the whole desk for each content message and starts a re-offered pane's picture over, so
 the 36-view case took 201.6 s. Inventory now offers and draws only what changed (7.7 s). A repaint
@@ -567,7 +567,7 @@ coalesced per turn stays Workshop's general remedy, unbuilt: another provider th
 unchanged picture again will show as time, not as a red case.
 
 The agent's desk stage 2 (#158) measured it with the notice
-([its report](../../reportbacks/agent-desk-2-RB.md#decisions-asked)): the desk number taken at each
+([its report](../../../../reportbacks/agent-desk-2-RB.md#decisions-asked)): the desk number taken at each
 repaint makes the 36-view case 11.1 s at START and 14.7 s after (WSL Debug, back to back), once
 `desk_view` stopped laying the desk out again for each pane (31.6 s before); with a watcher on the
 tower-defense desk the cost stays inside the measure's noise. Accepted as measured (the founder,
@@ -579,7 +579,7 @@ Workshop sends itself, so a run of repaints pays one desk view.
 ### P-WORK-51 — A desk made for a larger screen opens re-laid
 
 **State:** WATCH
-**Evidence:** [the quick desk fixes' report](../../reportbacks/quick-desk-fixes-RB.md#pressure-exposed)
+**Evidence:** [the quick desk fixes' report](../../../../reportbacks/quick-desk-fixes-RB.md#pressure-exposed)
 
 Since #88 the window grows no larger than its display's usable area, and Workshop lays the desk
 out in the room it really has: a 200x60 desk opened at 158x54 on a 1920-wide monitor. Whether a
@@ -590,7 +590,7 @@ desk should instead be fitted to the room is a policy no one has chosen.
 ### P-WORK-52 — Layouts is read by neither version of the pane view
 
 **State:** WATCH
-**Evidence:** [#94's report](../../reportbacks/desk-by-messages-2-RB.md#doc-gaps)
+**Evidence:** [#94's report](../../../../reportbacks/desk-by-messages-2-RB.md#doc-gaps)
 
 Layouts, the tab row, is the one pane Workshop presents itself (`kBuiltinPanes`,
 `workshop/panes.hpp`), and neither version of the pane view reads it, so an agent knows of it only
@@ -601,7 +601,7 @@ what the desk says: no tab as a word or a named part.
 ### P-WORK-53 — Small defects the moved panes still carry
 
 **State:** WATCH
-**Evidence:** [BL-WORK-06 stage 3's report](../../reportbacks/text-panes-canvas-3-RB.md#doc-gaps)
+**Evidence:** [BL-WORK-06 stage 3's report](../../../../reportbacks/text-panes-canvas-3-RB.md#doc-gaps)
 
 Each older than #97, seen there and not changed:
 - an alert's bold (SGR 31;1) is never closed in a terminal row, so plain text after an alert in
@@ -621,7 +621,7 @@ Each older than #97, seen there and not changed:
 **State:** CLOSED — founder merged Zengine #100 (`6205dc9`, 2026-10-08): a picture refused for what
 it holds is said in its pane and in Attention, and no shipped pane draws a byte that refuses it.
 `nvim-edit`'s spaced path moves to P-WORK-55.
-**Evidence:** [the temp-path repair's report](../../reportbacks/temp-path-cases-RB.md#found-not-changed)
+**Evidence:** [the temp-path repair's report](../../../../reportbacks/temp-path-cases-RB.md#found-not-changed)
 (#99), and `workshop/weave_canvas.cpp` `admit_canvas_content`
 
 Workshop refuses a canvas picture whole and tells only its pane (`PaneCanvasRejected`); a refused
@@ -640,8 +640,8 @@ a project under `C:/Users/Jane Doe/` cannot be edited through it (the same repor
 **State:** CLOSED — founder merged Zengine #102 (`cd444d38`, 2026-10-09): every Zengine program
 on Windows runs in the UTF-8 code page, and nvim-edit edits a file whatever its path holds. Found
 still marked ACT by the reports' sweep (2026-10-19).  
-**Evidence:** [#100's report](../../reportbacks/refused-picture-said-RB.md#decisions-asked) and
-[#99's](../../reportbacks/temp-path-cases-RB.md#found-not-changed)
+**Evidence:** [#100's report](../../../../reportbacks/refused-picture-said-RB.md#decisions-asked) and
+[#99's](../../../../reportbacks/temp-path-cases-RB.md#found-not-changed)
 
 - The MinGW-w64 Workshop ends at launch on a narrow non-ASCII path. With `--keymap` it was run
   twice; through `APPDATA` it is source-traced, not run. `load_keymap`'s `std::filesystem::exists`
@@ -660,7 +660,7 @@ touches the Neovim editor.
 ### P-WORK-56 — The Pane Manager's "inspect in Info" likely does nothing
 
 **State:** WATCH — a quick repair, when the founder selects it  
-**Evidence:** [the settings research](../../reportbacks/settings-research-RB.md#pressure-exposed),
+**Evidence:** [the settings research](../../../../reportbacks/settings-research-RB.md#pressure-exposed),
 traced and confirmed by a reviewer, not run
 
 The row sends `InspectPaneRequested` to `zengine.info` (`desktop-pane/pane.cpp`), whose accept list
@@ -674,8 +674,8 @@ inspect door.
 ### P-WORK-57 — A refused picture's mark left its seams
 
 **State:** WATCH  
-**Evidence:** [#100's fixes report](../../reportbacks/refused-picture-said-fixes-RB.md#pressure-exposed)
-and [#100's](../../reportbacks/refused-picture-said-RB.md#pressure-exposed)
+**Evidence:** [#100's fixes report](../../../../reportbacks/refused-picture-said-fixes-RB.md#pressure-exposed)
+and [#100's](../../../../reportbacks/refused-picture-said-RB.md#pressure-exposed)
 
 #100 made the mark Workshop's own chrome: nothing under it is read, pressed or placed. Left open:
 - A hover, a wheel and a carried hover over the mark still reach the provider; a carried hover tells
@@ -696,9 +696,9 @@ and [#100's](../../reportbacks/refused-picture-said-RB.md#pressure-exposed)
 ### P-WORK-58 — The Builder pane cannot tell which `BuildAsked` is its own
 
 **State:** WATCH  
-**Evidence:** [the overhaul findings](../../reportbacks/overhaul-findings-RB.md#pressure-exposed) and
+**Evidence:** [the overhaul findings](../../../../reportbacks/overhaul-findings-RB.md#pressure-exposed) and
 the F3 record's correction 6
-([F3](../../reportbacks/overhaul-findings/verify/F3-realization-notice-latch.md)); Loom's `Mail` and
+([F3](../../../../reportbacks/overhaul-findings/verify/F3-realization-notice-latch.md)); Loom's `Mail` and
 `BusEvent`, read by Vision (2026-10-10)
 
 The tool publishes one `BuildAsked` for every `BuildRequested`, with no correlation
@@ -708,7 +708,7 @@ correlation or the application's own id names an operation (`BusEvent::dispatch_
 the tool refuses the pane's ask, busy or for a stale name, the pane reads the running build's
 ending as its own ask's answer. #164's reading (b) (#177) leaves nothing armed after a plain
 build, but when the running build is another asker's build-and-load the pane now announces that
-load too: one notice wider ([its report](../../reportbacks/realization-notice-RB.md#pressure-exposed)).
+load too: one notice wider ([its report](../../../../reportbacks/realization-notice-RB.md#pressure-exposed)).
 Closing it needs the tool to answer each asker (a change to the tool every asker hears), or a
 `Mail` that carries dispatch ancestry.
 
@@ -717,7 +717,7 @@ Closing it needs the tool to answer each asker (a change to the tool every asker
 ### P-WORK-59 — The Builder tool adopts an operation it did not order
 
 **State:** WATCH — hooked to the admission policy's per-row authority seat  
-**Evidence:** [the overhaul findings](../../reportbacks/overhaul-findings-RB.md#pressure-exposed),
+**Evidence:** [the overhaul findings](../../../../reportbacks/overhaul-findings-RB.md#pressure-exposed),
 traced by its F4 tracer, not run
 
 The tool's `BuildStarted` handler checks only the recipe's name (`builder/weave.hpp`), so a
@@ -733,8 +733,8 @@ operations.
 
 **State:** WATCH  
 **Evidence:** [the realization notice's
-report](../../reportbacks/realization-notice-RB.md#pressure-exposed);
-[F3's correction 4](../../reportbacks/overhaul-findings/verify/F3-realization-notice-latch.md)
+report](../../../../reportbacks/realization-notice-RB.md#pressure-exposed);
+[F3's correction 4](../../../../reportbacks/overhaul-findings/verify/F3-realization-notice-latch.md)
 
 With no build running, the tool writes `unknown recipe` into `BuildStatus.outcome` over the ended
 build's picture, its realization fields left as they were (`builder/weave.hpp`). #173 kept the
@@ -750,7 +750,7 @@ change.
 ### P-WORK-61 — A reloaded pane keeps its predecessor's settings when it declares none
 
 **State:** WATCH — traced, not run  
-**Evidence:** [the overhaul's B1 report](../../reportbacks/docs-overhaul-b1-RB.md#doc-gaps)
+**Evidence:** [the overhaul's B1 report](../../../../reportbacks/docs-overhaul-b1-RB.md#doc-gaps)
 
 A reload in place keeps the weave id (Loom `docs/reference/lifecycle.md`, `incarnation`), and
 WL-SETTING-03 counts a settings declaration by that id alone (`workshop/weave_seam.cpp`
@@ -767,11 +767,11 @@ settings at a re-offer, as #181 does the manual.
 **State:** CLOSED — founder merged Zengine #197 as `9e289e2` (2026-10-11), closing #185: a guest
 asks Workshop where realization is (`GuestPlanRequested`, its `wait` held until the plan rests);
 residue: `workshop_journey` stays apart in CI's four lists until a follow-up after B3, #198
-([prompt](../../prompts/workshop-journey-in-pool.md)): Zengine #202, its run `38192375042` 8 of 8 green
+([prompt](../../../../prompts/workshop-journey-in-pool.md)): Zengine #202, its run `38192375042` 8 of 8 green
 with the journey in the pool in all four jobs, reviewed ready (Vision, 2026-10-12); seven clean
 sanitizer runs since the fix are weak evidence alone, the journey waiting on Workshop's word before
 its first ask is the reason; merged as `fb6d231` (2026-10-12)  
-**Evidence:** [build-speed's report](../../reportbacks/build-speed-RB.md#decisions-asked), its proof
+**Evidence:** [build-speed's report](../../../../reportbacks/build-speed-RB.md#decisions-asked), its proof
 run B (`38094264655`, ASan, attempt 1); the far side named by Vision's review (2026-10-10)
 
 `workshop_journey` check I1 failed once in seven ASan runs at `-j4`: `link refused at
@@ -790,21 +790,21 @@ the plan; serially it has not shown. An agent that connects when the port appear
 refusal as permanent.
 
 Met on MSVC too (2026-10-11): the Windows lanes' proof D, its MSVC job at `-j4`, I1 in the same
-words ([report](../../reportbacks/windows-lanes-RB.md#decisions-asked)). #187 runs `workshop_journey`
+words ([report](../../../../reportbacks/windows-lanes-RB.md#decisions-asked)). #187 runs `workshop_journey`
 alone after the rest on both Windows jobs, which bounds the race and does not repair it; the Linux
 jobs do too until #185's fix merges, replacing the rerun-once rule (the founder, 2026-10-11), and a
 follow-up after the fix takes it out of all four, so the fix's witness is the local parallel lane.
 
 Docs B3 met it on Windows (2026-10-11): a setup started by `demo.py` loses it in 5 of 6 local starts
 on MinGW-w64, the demo's control row loading last. The founder took #185's repair now, B3 stacking
-on its branch ([prompt](../../prompts/guest-door-readiness.md),
-[B3's](../../prompts/docs-overhaul-b3-after-185.md)); a plan that waits on the weaver, or stops
+on its branch ([prompt](../../../../prompts/guest-door-readiness.md),
+[B3's](../../../../prompts/docs-overhaul-b3-after-185.md)); a plan that waits on the weaver, or stops
 refused, keeps no guest out for good (Vision). Its session stopped at the Folders (report:
 `guest-door-readiness-RB.md`): a guest asks Workshop where realization is, answered from the
 executor and held with `wait` until the plan rests, and a session host declares the ask only in
 `external-host/vocabulary_weave.hpp`; the founder widened the Folders by it and took the design,
 every row asking and only rows that read the desk or the inventory told the rows' names (2026-10-11;
-[continuation](../../prompts/guest-door-readiness-scope.md)). The repair is Zengine #197
+[continuation](../../../../prompts/guest-door-readiness-scope.md)). The repair is Zengine #197
 (`GuestPlanRequested` with `wait`, `GuestPlanSaid`, held asks bounded at 32, WL-GUEST-12), reviewed
 (Vision, 2026-10-11): run `38172393502` 8 of 8 green, `demo.py` started 10 times on Windows with no
 race; `guests.md` trimmed to exactly its budget, two lines a shade looser, restored when the
@@ -818,7 +818,7 @@ the fix.
 ### P-WORK-63 — An application chord above every mode never reaches Neovim
 
 **State:** WATCH  
-**Evidence:** [B2's report](../../reportbacks/docs-overhaul-b2-RB.md#choices-the-founder-can-overrule),
+**Evidence:** [B2's report](../../../../reportbacks/docs-overhaul-b2-RB.md#choices-the-founder-can-overrule),
 choice 3; Vision's review (2026-10-11)
 
 B2's `desktop.manual` takes `Ctrl+f` above every mode, beside `Ctrl+t`, `Ctrl+p` and `Ctrl+k`. Above
@@ -834,7 +834,7 @@ declares the chords it owns as superseding the application's.
 ### P-WORK-64 — The Manual shows code spans with their backticks
 
 **State:** WATCH  
-**Evidence:** [B2's report](../../reportbacks/docs-overhaul-b2-RB.md#choices-the-founder-can-overrule),
+**Evidence:** [B2's report](../../../../reportbacks/docs-overhaul-b2-RB.md#choices-the-founder-can-overrule),
 choice 8, and its pictures (`workshop/docs/images/pane-manual-*.png`); Vision's review (2026-10-11)
 
 The Manual makes links and emphasis plain but keeps code spans as written, so a page's
@@ -847,7 +847,7 @@ Builder alone today, or by binding `workshop.band-keys` / `workshop.hotkeys-keys
 ### P-WORK-65 — Three walk tools still wait on a clock for a settling picture
 
 **State:** OPEN — measured by S3 (Zengine #213, 2026-10-12)  
-**Evidence:** [S3's report](../../reportbacks/fast-forward-s3-RB.md), Pressure exposed
+**Evidence:** [S3's report](../../../../reportbacks/fast-forward-s3-RB.md), Pressure exposed
 
 The walk hand waits on Workshop's notice for a picture to be aimed at since S3 (Zengine #213), but
 `builder.py`, `nvim_edit.py` and `place.py` each still sleep 0.1 s and read again for a settling
@@ -875,7 +875,7 @@ graphics weave's (BL-WORK-37). A security matter: never in a public issue or pul
 **State:** WATCH — seen in BL-WORK-37's round 2 review (Vision, 2026-10-12)  
 **Evidence:** Loom `docs/guides/dynamic-weaves.md` (what loading in process means) and
 `docs/reference/capabilities.md` (the hosting tiers); Zengine `files/README.md`; round 2's seams
-([report](../../reportbacks/graphics-weave-research-2-RB.md))
+([report](../../../../reportbacks/graphics-weave-research-2-RB.md))
 
 A loaded weave's native code reaches every file and byte its host can, and Workshop hosts every
 row in process. Loom's `FsAccess` is the only enforced file boundary, and it holds only for an
@@ -924,7 +924,7 @@ message costs.
 **State:** WATCH — measured in BL-WORK-37's round 5 (Vision, 2026-10-13)  
 **Evidence:** Zengine `timer/timer_weave.hpp` (each `Drive` naps to the soonest deadline, and a
 reply to a firing "waits out up to one nap"); `timer/docs/timer-protocol.md`, which does not say so;
-[round 5](../../reportbacks/graphics-weave-research-5-RB.md), Decision 1 and break 7
+[round 5](../../../../reportbacks/graphics-weave-research-5-RB.md), Decision 1 and break 7
 
 The Timer naps inside its handler on Loom's one dispatch thread, so a key, a press or any message
 waits out up to one nap before anything runs. Round 5 measured a key beside a lattice: 25.7 ms with
@@ -939,7 +939,7 @@ for the snake, whose keys act at its next tick.
 **State:** WATCH — met in BL-WORK-37's round 5 (Vision, 2026-10-13)  
 **Evidence:** Loom `src/kernel/kernel.cpp` (`reload_from` makes the candidate's instance before the
 incumbent's snapshot is taken); `docs/guides/dynamic-weaves.md`, Live evolution, which does not say
-so; [round 5](../../reportbacks/graphics-weave-research-5-RB.md), break 11
+so; [round 5](../../../../reportbacks/graphics-weave-research-5-RB.md), break 11
 
 A reload constructs the next instance while the old one lives, so a weave holding a device (an OS
 window, a port, a file) meets two instances at once, and Loom has no way to hand a native handle
@@ -950,7 +950,7 @@ ms a reload to 3.1). Loom's to weigh, and its guide's to say.
 
 ### P-WORK-72 — One end-of-delivery hook a weave
 
-**State:** CLOSED — Zengine #265 (`8b26fd7`, 2026-10-16; [prompt](../../prompts/phase-1a-facets.md))
+**State:** CLOSED — Zengine #265 (`8b26fd7`, 2026-10-16; [prompt](../../../../prompts/phase-1a-facets.md))
 chains `after_delivery` across `WeaveWith<State, Facets...>` facets (`DrawingFacet`, `PaneFacet`,
 `PaneRowsFacet`) and the weave's own `after_delivery`  
 **Evidence:** Loom `include/zen/weave/weave.hpp` (one `after_delivery`, called when the weave
@@ -962,7 +962,7 @@ so a weave can compose `DrawingFacet` or `PaneRowsFacet` alongside its own end-o
 
 ### P-WORK-73 — A room that only resizes reaches no drawer
 
-**State:** CLOSED — Zengine #265 (`8b26fd7`, 2026-10-16; [prompt](../../prompts/phase-1a-facets.md))
+**State:** CLOSED — Zengine #265 (`8b26fd7`, 2026-10-16; [prompt](../../../../prompts/phase-1a-facets.md))
 fires `on_room` when the granted room's size changes as well as when the window or its incarnation
 changed  
 **Evidence:** Zengine `graphics/canvas.hpp` and `graphics/drawing.hpp`
@@ -974,7 +974,7 @@ incarnation, or the area's size changes.
 
 **State:** WATCH (in-tree manuals and reload-in-place state preservation delivered in #266, #268,
 #269, #271, #272; stranger/presenter replacement contract remains open for Stage D / presenter split)  
-**Evidence:** [the manuals' report](../../reportbacks/manuals-first-RB.md), Decisions asked 1; Loom's
+**Evidence:** [the manuals' report](../../../../reportbacks/manuals-first-RB.md), Decisions asked 1; Loom's
 reload in place, which refuses images whose accepted shapes differ
 
 Every weave that gained `PaneDocumentRequested` or `ShapeDocumentRequested` accepts one shape more,
@@ -993,7 +993,7 @@ split.
 ### P-WORK-22 — Optional-load recovery has explicit limits
 
 **State:** WATCH — the original startup blocker is resolved by accepted PR #35
-**Evidence:** [desktop continuation](../../reportbacks/zengine-desktop-foundation-continuation-RB.md),
+**Evidence:** [desktop continuation](../../../../reportbacks/zengine-desktop-foundation-continuation-RB.md),
 its recovery table and the current realization/desktop contracts.
 
 Optional rows, explicit unavailable/pending state and attributable failure presentation let the
@@ -1012,7 +1012,7 @@ a dependency solver, automatic retries or a new boot framework from the accepted
 Terminal interaction, Neovim profile discoverability, editor highlighting/caret presentation,
 standard-editor tabs/navigation/Git marks and reversible hidden comments now have a real consumer.
 The [roadmap](../goals/workshop.md#7-the-next-maker-loop-after-edit-1) owns their sequence and limits.
-Editors may serve different audiences. The accepted [typed transfer packet](../../reportbacks/zengine-editor-typed-transfers-RB.md)
+Editors may serve different audiences. The accepted [typed transfer packet](../../../../reportbacks/zengine-editor-typed-transfers-RB.md)
 now adds existing-selection extraction, text/command insertion and saved file locators across
 both editors. Optional C++ generation is a separate explicit action, with actual header/type
 requirements. Unicode/column geometry, document lifecycle and native write authority remain
@@ -1034,7 +1034,7 @@ condition that materially misleads a maker.
 ### P-WORK-06 — Source provenance is the next self-hosting join
 
 **State:** CLOSED — founder accepted and merged the pane-to-source loop
-**Evidence:** [final correction report](../../reportbacks/zengine-pane-to-source-loop-corrections-RB.md)
+**Evidence:** [final correction report](../../../../reportbacks/zengine-pane-to-source-loop-corrections-RB.md)
 
 The authored pane/office-to-source/recipe join is now a starting capability. Editor retains
 document custody and Files remains a navigator; current law belongs to Zengine's Workshop code
@@ -1045,7 +1045,7 @@ and opening owners. Further provenance needs should name their new consumer.
 ### P-WORK-07 — Live replacement: generic migration remains beyond the editor proof
 
 **State:** SAME-SHAPE RUNG LANDED; EDITOR HANDOFF IMPLEMENTED; GENERAL DEVELOPMENT MIGRATION PARKED
-**Evidence:** Zengine realization laws and [Neovim live-switch report](../../reportbacks/zengine-neovim-live-switch-RB.md)
+**Evidence:** Zengine realization laws and [Neovim live-switch report](../../../../reportbacks/zengine-neovim-live-switch-RB.md)
 
 Same-shape build/reload, explicit promotion and revert remain available. Neovim PR #33 now uses
 Loom prepared replacement and an authored editor handoff; the founder has exercised it successfully.
@@ -1184,7 +1184,7 @@ artifact trust or preserve the initiator through every privileged UI action. The
 (#82) answers any participant with a sender; it only describes, so it follows this item's answer
 rather than adding to it. Research both
 under the [maker-story authority boundary](../goals/workshop.md#complete-maker-stories-and-reusable-information).
-The [first inventory phase](../../reportbacks/zengine-inventory-capture-RB.md) required ordinary bounded acquisition and
+The [first inventory phase](../../../../reportbacks/zengine-inventory-capture-RB.md) required ordinary bounded acquisition and
 storage grants. Broader input-origin enforcement becomes required as contextual UI paths are
 touched; a direct message-only first slot does not claim whole-Workshop artifact-policy hardening.
 An ELH must not approve or enlarge its authority through the ordinary path, including a popup.
@@ -1204,7 +1204,7 @@ Do not infer a universal grant store, modal system or remote identity from the h
 ### P-WORK-19 — Remaining host input policy follows its owner
 
 **State:** WATCH — pane declarations and application defaults have participating owners
-**Evidence:** [desktop continuation](../../reportbacks/zengine-desktop-foundation-continuation-RB.md),
+**Evidence:** [desktop continuation](../../../../reportbacks/zengine-desktop-foundation-continuation-RB.md),
 current keyboard and desktop contracts.
 
 The desktop supplies configurable launch actions and default Escape with declared precedence;
@@ -1240,7 +1240,7 @@ entries building with cl (the session's reading of the log, in its commit `a86e3
 read the logs). The phase had not met it in five proof runs nor locally at `-j16`. #187 runs it
 alone after the rest on both Windows jobs (`ZEN_CTEST_APART`, under ten seconds), which bounds it
 and does not repair it; once #187 merges, the repair is an issue's (Vision): Zengine #191, `ready`
-([prompt](../../prompts/windows-lanes-after-merge.md), 2026-10-11).
+([prompt](../../../../prompts/windows-lanes-after-merge.md), 2026-10-11).
 
 Its cause was the case's, not a Windows concurrency defect: under load the candidate's library load
 and the new service's first beat outlived the one-shot, which fired before the re-ask, and a
@@ -1248,7 +1248,7 @@ preserving re-ask with nothing to preserve is refused, as the Timer's law says. 
 Zengine #210 (`Fixes #191`): the candidate sealed before the one-shot exists, the re-ask ordered at
 the boundary, the case asserting owed or paid; red 16 of 80 under load at START, 0 of 80 after,
 reviewed ready (Vision, 2026-10-12). `timer` leaves the apart lists after it merges
-([prompt](../../prompts/timer-probes-in-pool.md)).
+([prompt](../../../../prompts/timer-probes-in-pool.md)).
 
 **Trigger:** select a focused Windows concurrency investigation before documenting or enabling
 parallel MSVC verification.
@@ -1316,9 +1316,9 @@ and independent denial evidence; do not select a general build-system rewrite fr
 
 **State:** WATCH — the ASan job's limit rose from 45 to 60 minutes in #92, and the Linux
 canonical job's from 30 to 45 in #93  
-**Evidence:** [stage 3's report](../../reportbacks/whole-pixel-3-RB.md#pressure-exposed),
-[its follow-up's](../../reportbacks/whole-pixel-3-fixes-RB.md#what-ran-and-what-did-not) and
-[#94's](../../reportbacks/desk-by-messages-2-RB.md#what-ran-and-what-did-not)
+**Evidence:** [stage 3's report](../../../../reportbacks/whole-pixel-3-RB.md#pressure-exposed),
+[its follow-up's](../../../../reportbacks/whole-pixel-3-fixes-RB.md#what-ran-and-what-did-not) and
+[#94's](../../../../reportbacks/desk-by-messages-2-RB.md#what-ran-and-what-did-not)
 
 A suite that grows shows first as a cancelled job, not a red case, and the local lanes have no
 limit to warn first. #92's first push had its Linux canonical job cancelled at 30 minutes when
@@ -1351,15 +1351,15 @@ set each suite's time beside main's before the push (#92's report, recommendatio
 ### P-BUILD-10 — The kit's open recommendations
 
 **State:** WATCH
-**Evidence:** [BL-WORK-24 stage 2's report](../../reportbacks/desk-by-messages-2-RB.md#executor-optimization-recommendations),
-[its follow-up's](../../reportbacks/desk-by-messages-2-fixes-RB.md#executor-optimization-recommendations),
-[BL-WORK-06 stage 1's](../../reportbacks/text-panes-canvas-1-RB.md#executor-optimization-recommendations),
-[stage 3's](../../reportbacks/text-panes-canvas-3-RB.md#executor-optimization-recommendations),
-[its fixes'](../../reportbacks/text-panes-canvas-3-fixes-RB.md#executor-optimization-recommendations),
-[#100's](../../reportbacks/refused-picture-said-RB.md#executor-optimization-recommendations),
-[its fixes'](../../reportbacks/refused-picture-said-fixes-RB.md#executor-optimization-recommendations),
-[the settings research's](../../reportbacks/settings-research-RB.md#executor-optimization-recommendations) and
-[Loom #31's](../../reportbacks/loom-optional-shape-fields-RB.md#executor-optimization-recommendations)
+**Evidence:** [BL-WORK-24 stage 2's report](../../../../reportbacks/desk-by-messages-2-RB.md#executor-optimization-recommendations),
+[its follow-up's](../../../../reportbacks/desk-by-messages-2-fixes-RB.md#executor-optimization-recommendations),
+[BL-WORK-06 stage 1's](../../../../reportbacks/text-panes-canvas-1-RB.md#executor-optimization-recommendations),
+[stage 3's](../../../../reportbacks/text-panes-canvas-3-RB.md#executor-optimization-recommendations),
+[its fixes'](../../../../reportbacks/text-panes-canvas-3-fixes-RB.md#executor-optimization-recommendations),
+[#100's](../../../../reportbacks/refused-picture-said-RB.md#executor-optimization-recommendations),
+[its fixes'](../../../../reportbacks/refused-picture-said-fixes-RB.md#executor-optimization-recommendations),
+[the settings research's](../../../../reportbacks/settings-research-RB.md#executor-optimization-recommendations) and
+[Loom #31's](../../../../reportbacks/loom-optional-shape-fields-RB.md#executor-optimization-recommendations)
 
 Each was met once, and each cost time:
 - A floor behind a gate no local lane opens is checked only by the hosted run: #94's first push
@@ -1449,7 +1449,7 @@ Each was met once, and each cost time:
   `images/`. B3's report, like #197's and the MSVC stdio phase's, was written before its run ended
   (at 22:28; the run ended green at 22:46), so `run-end.sh` is asked again (Vision); the founder
   added it to the running kit phase (2026-10-11;
-  [prompt](../../prompts/executor-kit-speed-run-end.md)).
+  [prompt](../../../../prompts/executor-kit-speed-run-end.md)).
 - From the law-register appendix (2026-10-11): a primary clone switched to another branch by a
   second session while the first held uncommitted edits in it (the workshop_journey follow-up and
   the appendix ran side by side on Vision's word, which also missed that both edit
@@ -1479,7 +1479,7 @@ Each was met once, and each cost time:
 ### P-BUILD-11 — A cancelled walk's input session races the next run's ask
 
 **State:** WATCH
-**Evidence:** [BL-WORK-06 stage 1's report](../../reportbacks/text-panes-canvas-1-RB.md#pressure-exposed)
+**Evidence:** [BL-WORK-06 stage 1's report](../../../../reportbacks/text-panes-canvas-1-RB.md#pressure-exposed)
 
 `story_journey` failed in #95's tip, official and sanitizer lanes alike, while the Windows SDL
 build or a mutation matrix shared the machine: a run cancelled mid-walk had not yet given back
@@ -1487,7 +1487,7 @@ Workshop's input session when the next run asked for one (`busy: input session 3
 you`). Alone it passed, and in every quiet lane and hosted job. The race is the cancel's cleanup
 against the next ask, in the act tool's session handling as `main` has it. #98's second fixes
 round met it in a quiet lane, nothing else running, in the lane's own parallel run; alone it
-passed three times ([its report](../../reportbacks/text-panes-canvas-4-fixes-2-RB.md#pressure-exposed)):
+passed three times ([its report](../../../../reportbacks/text-panes-canvas-4-fixes-2-RB.md#pressure-exposed)):
 the trigger is met.
 
 **Trigger:** a hosted job or a quiet lane fails on it, or a phase that touches the tool's session
@@ -1496,7 +1496,7 @@ handling.
 ### P-BUILD-12 — Loom's lane runs its entries one at a time
 
 **State:** WATCH; the owner is Loom's tests  
-**Evidence:** [Loom #31's report](../../reportbacks/loom-optional-shape-fields-RB.md#doc-gaps)
+**Evidence:** [Loom #31's report](../../../../reportbacks/loom-optional-shape-fields-RB.md#doc-gaps)
 
 - `admission` and `all` both run the case that copies a weave to the fixed path `ZEN_SO_WEAVE +
   ".admission-once.so"` (`tests/test_admission.cpp`). Under `ctest -j8` they overwrite each other's
@@ -1510,11 +1510,11 @@ handling.
 ### P-BUILD-13 — A suite waits a fixed span of real time
 
 **State:** OPEN — kept apart on both Linux jobs until its repair (the founder, 2026-10-11), by #193;
-its issue Zengine #192, `ready` ([prompt](../../prompts/windows-lanes-after-merge.md)); its repair,
+its issue Zengine #192, `ready` ([prompt](../../../../prompts/windows-lanes-after-merge.md)); its repair,
 Zengine #211, waits for the first visual under a bound of 120 beats, reviewed ready (Vision,
 2026-10-12), and `audit_probes` leaves the apart lists after it merges
-([prompt](../../prompts/timer-probes-in-pool.md))  
-**Evidence:** [the Windows lanes' report](../../reportbacks/windows-lanes-RB.md), its last section;
+([prompt](../../../../prompts/timer-probes-in-pool.md))  
+**Evidence:** [the Windows lanes' report](../../../../reportbacks/windows-lanes-RB.md), its last section;
 proof F's ASan log as the session saved it (`scratch/windows-lanes/runs/proofF-ASan.log`, read by
 Vision)
 
@@ -1544,8 +1544,8 @@ window costs more than one run would: then a Zengine `main` run started when Loo
 ### P-BUILD-15 — A burst of merges leaves code unbuilt on `main`
 
 **State:** OPEN — found by Vision (2026-10-11); Zengine #194, `ready`, with an earlier case, #174's
-merge (2026-10-10) ([prompt](../../prompts/main-push-builds-issue.md),
-[report](../../reportbacks/main-push-builds-issue-RB.md))  
+merge (2026-10-10) ([prompt](../../../../prompts/main-push-builds-issue.md),
+[report](../../../../reportbacks/main-push-builds-issue-RB.md))  
 **Evidence:** Zengine's `main` runs from 15:33 on 2026-10-11 (Vision, from the API)
 
 `main`'s runs share one concurrency group, which keeps one run going and one waiting, and a push
@@ -1578,9 +1578,9 @@ to keep the abstraction warm.
 **State:** PARTLY SUPPLIED — scoped dispatch refusal merged; unresolved obligations remain
 separate selected work (VD-20), requiring their own consumer-grounded scope.
 
-**Evidence:** [merged dispatch-refusal contract](../../Loom/docs/reference/messaging.md#sender-visible-dispatch-refusal),
-[remaining seams](../../Loom/docs/reference/known-seams.md),
-[Editor integration preflight](../../reportbacks/editor-sender-refusal-integration-RB.md).
+**Evidence:** [merged dispatch-refusal contract](../../../../Loom/docs/reference/messaging.md#sender-visible-dispatch-refusal),
+[remaining seams](../../../../Loom/docs/reference/known-seams.md),
+[Editor integration preflight](../../../../reportbacks/editor-sender-refusal-integration-RB.md).
 
 Loom now offers explicit acceptors authenticated notice of selected pre-handler dispatch
 refusals, returned to the exact sending life and incarnation. TerminalSession consumes it;
@@ -1644,9 +1644,9 @@ Do not carry Bridge's current broad grant and whole-bus tap into the new consume
 ### P-LOOM-07 — Declared schema agreement is incomplete
 
 **State:** CLOSED — founder accepted and merged Loom #8 and Zengine #36 on 2026-09-18 (local date)
-**Evidence:** [implementation report](../../reportbacks/loom-schema-admission-implementation-RB.md),
-[corrections and real-consumer witness](../../reportbacks/loom-schema-admission-implementation-corrections-RB.md),
-[final timeout repair](../../reportbacks/loom-schema-admission-implementation-corrections-2-RB.md).
+**Evidence:** [implementation report](../../../../reportbacks/loom-schema-admission-implementation-RB.md),
+[corrections and real-consumer witness](../../../../reportbacks/loom-schema-admission-implementation-corrections-RB.md),
+[final timeout repair](../../../../reportbacks/loom-schema-admission-implementation-corrections-2-RB.md).
 
 Native and loaded emitted declarations now join transitive admission agreement, including nested
 and within-manifest conflicts. Valid identities survive export/reconstruction across the deliberate
@@ -1666,7 +1666,7 @@ machinery into switchboard. General migration and process-lifetime schema retent
 ### P-LOOM-09 — A library is described only by constructing its weave
 
 **State:** WATCH  
-**Evidence:** [#93's report](../../reportbacks/desk-by-messages-1-RB.md#pressure-exposed)
+**Evidence:** [#93's report](../../../../reportbacks/desk-by-messages-1-RB.md#pressure-exposed)
 
 Zengine's census of shapes (#93) reads each weave library's manifest as the Kernel does at load,
 and the manifest is made by constructing the library's weave. A weave that cannot be created
@@ -1680,9 +1680,9 @@ needs one.
 ### P-LOOM-10 — A struct shape's optional fields left four edges
 
 **State:** WATCH; its Terminal completion-order setting landed in #321 (`a7b7aa1`, 2026-10-19); three Loom edges remain on their own triggers  
-**Evidence:** [Loom #31's report](../../reportbacks/loom-optional-shape-fields-RB.md#pressure-exposed),
-[its decisions asked](../../reportbacks/loom-optional-shape-fields-RB.md#decisions-asked), and
-[Stage 2D report](../../reportbacks/settings-stage-2d-workshop-promotions-RB.md)
+**Evidence:** [Loom #31's report](../../../../reportbacks/loom-optional-shape-fields-RB.md#pressure-exposed),
+[its decisions asked](../../../../reportbacks/loom-optional-shape-fields-RB.md#decisions-asked), and
+[Stage 2D report](../../../../reportbacks/settings-stage-2d-workshop-promotions-RB.md)
 
 Loom #31 (`b664311`, 2026-10-08) made a `ZEN_SHAPE` member of type `std::optional<T>` an optional
 field of `T`'s type. Left open:
@@ -1701,11 +1701,11 @@ field of `T`'s type. Left open:
 ### P-LOOM-11 — A MinGW-w64 runtime instance takes a TLS index it never returns
 
 **State:** CLOSED — Loom #53 merged (the founder, 2026-10-11); the stand-in for #41's MinGW-w64 half
-(the founder, 2026-10-11; [prompt](../../prompts/weave-runtime-windows.md)), as Loom #53, reviewed
+(the founder, 2026-10-11; [prompt](../../../../prompts/weave-runtime-windows.md)), as Loom #53, reviewed
 (Vision, 2026-10-11); measured by the GCC 16 experiment
-([report](../../reportbacks/runtime-gcc16-RB.md), reviewed by Vision 2026-10-10); #41 on
+([report](../../../../reportbacks/runtime-gcc16-RB.md), reviewed by Vision 2026-10-10); #41 on
 `weave/carry-runtime-on-windows` (`be65832`)  
-**Evidence:** [the release's L1 report](../../reportbacks/release-l1-RB.md#decisions-asked) and its
+**Evidence:** [the release's L1 report](../../../../reportbacks/release-l1-RB.md#decisions-asked) and its
 evidence, section 5 (`pass-tools/release-l1/reload/`); the experiment's evidence, sections 4-11
 (`pass-tools/runtime-gcc16/`)
 
@@ -1736,7 +1736,7 @@ ended that test binary (the fast-forward research's incident), so it is likely n
 
 **State:** CLOSED — answered in Loom #53, reviewed (Vision, 2026-10-11), merged by the founder
 (2026-10-11); its two residues below stay open  
-**Evidence:** [the release's L1 report](../../reportbacks/release-l1-RB.md#pressure-exposed)
+**Evidence:** [the release's L1 report](../../../../reportbacks/release-l1-RB.md#pressure-exposed)
 
 `zen_host_publish`, `answer_deferred`, `answer`, `office_publish` and the five `sense_*` callbacks
 in `src/kernel/kernel.cpp` catch nothing, and the send callbacks catch only `std::overflow_error`. The
@@ -1756,7 +1756,7 @@ part way answers refused although earlier recipients were queued (#53's report, 
 
 **State:** WATCH — Loom's call  
 **Evidence:** [an agent's powers,
-researched](../../reportbacks/agent-powers-research-RB.md#pressure-exposed)
+researched](../../../../reportbacks/agent-powers-research-RB.md#pressure-exposed)
 
 Loom grant-checks even a legitimate answer, so an owner whose speech lacks the answer's shape
 answers nothing its asker hears: the prototype's `GuideAnswered` was missing from Workshop's speak
@@ -1769,7 +1769,7 @@ told nothing. A dispatch refusal to the requester when its answer is denied is t
 ### P-LOOM-14 — Under MSVC a weave keeps the standard handles it loaded with
 
 **State:** WATCH — the founder's decision 1 (a) on Loom #53 (2026-10-11); KERN-05 says it  
-**Evidence:** [#53's continuation's report](../../reportbacks/weave-runtime-windows-msvc-stdio-RB.md)
+**Evidence:** [#53's continuation's report](../../../../reportbacks/weave-runtime-windows-msvc-stdio-RB.md)
 
 A weave built for the static runtime takes the Windows standard handles as its C stdio when it
 loads, and keeps them: a host that repoints a handle while a weave loads hands that weave the

@@ -2,16 +2,16 @@
 
 **Status:** initial source/live/prototype research complete; human validation and production decisions remain. Interaction and delivery details below are proposals.\
 **Updated:** 2026-09-30\
-**Accepted 2026-09-30:** [Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md)
+**Accepted 2026-09-30:** [Flow's powers research](../../../../reportbacks/zengine-flow-powers-RB.md)
 revises §3, §4, §7 and §10 below; the 2026-09-20 selections stand.\
 **Authority:** [Workshop roadmap](../goals/workshop.md#flow-ux-research-and-hierarchical-authoring).\
 **Companions:** [UI update research](ui-update-research.md) and
 [building blocks, presenter/view pairs and cross-pane authoring](flow-building-blocks.md).
-**Founder refinement:** [2026-09-20 evidence](../../reportbacks/zengine-flow-ux-refinement-RB.md).
-**Research result:** [recommendation and evidence](../../reportbacks/zengine-flow-ux-research/research-result.md),
-with separate [agent contract](../../reportbacks/zengine-flow-ux-research/agent-interface.md),
-[semantic options](../../reportbacks/zengine-flow-ux-research/semantic-options.md) and
-[human task protocol](../../reportbacks/zengine-flow-ux-research/human-patterns.md).
+**Founder refinement:** [2026-09-20 evidence](../../../../reportbacks/zengine-flow-ux-refinement-RB.md).
+**Research result:** [recommendation and evidence](../../../../reportbacks/zengine-flow-ux-research/research-result.md),
+with separate [agent contract](../../../../reportbacks/zengine-flow-ux-research/agent-interface.md),
+[semantic options](../../../../reportbacks/zengine-flow-ux-research/semantic-options.md) and
+[human task protocol](../../../../reportbacks/zengine-flow-ux-research/human-patterns.md).
 The isolated walkthrough completed a running high-water example; the interactive study remains
 a local simulation. No novice-human study or production redesign has been completed.
 
@@ -56,11 +56,11 @@ build provenance and limits.
 Routes: [pane guide](../../Zengine/docs/workshop/flow.md),
 [Flow reference](../../Zengine/docs/reference/flow.md),
 [host boundary](../../Zengine/docs/reference/flow-runtime.md),
-[graph edits](../../Zengine/flow/graph_edit.hpp),
+[graph edits](../../../../Zengine/flow/graph_edit.hpp),
 [pane view](../../Zengine/flow-pane/view.hpp),
 [catalog replies](../../Zengine/flow-host/runtime.hpp),
-[operator model](../../Zengine/operator/operator.hpp), and
-[contribution descriptions](../../Zengine/operator/provider.hpp). Refresh live source before
+[operator model](../../../../Zengine/operator/operator.hpp), and
+[contribution descriptions](../../../../Zengine/operator/provider.hpp). Refresh live source before
 execution; these routes identify owners, not permission to copy their contracts into the pane.
 
 ## 3. One workspace with discoverable supporting surfaces
@@ -109,7 +109,7 @@ contracts; this is a design recommendation, not a shipped capability.
 
 ### Palette
 
-- Search asks the [discovery door](../../reportbacks/zengine-flow-powers/discovery.md#the-door)
+- Search asks the [discovery door](../../../../reportbacks/zengine-flow-powers/discovery.md#the-door)
   across names, prose, tags and input/output signatures; categories are provider-authored tags, and
   the sections are §3's (accepted 2026-09-30). The maker's own folders are Inventory folders of kept
   references; they organize, and never rename operators or change authority.
@@ -257,7 +257,7 @@ transfers active gestures; it must not commit the wrong node from stale hit maps
 GUI, keyboard and messages should use the same semantic edit model. Research found that
 FlowEdit exists but default Terminal/ELH direct semantic authoring is not end-to-end usable:
 vocabulary/grants and structured payload composition are missing; reads can cancel a drag and
-commands depend on active UI context. The [agent audit](../../reportbacks/zengine-flow-ux-research/agent-interface.md)
+commands depend on active UI context. The [agent audit](../../../../reportbacks/zengine-flow-ux-research/agent-interface.md)
 owns the proposed harmless queries, explicit object/version targets, later runtime results and
 shared terminal payload route. Prove both Workshop TerminalSession and loom-host ConsoleEngine,
 including actual ELH transport; input injection is useful evidence but is not semantic parity.
@@ -309,7 +309,7 @@ and the desired interaction, not an arbitrary benchmark score.
 Initial research recommends first-class operation authoring, a typed return binding for direct
 input/constant results, conservative extraction of contiguous single-result intervals, and local
 shared drafts activated through explicit project-scoped application. The
-[decision table](../../reportbacks/zengine-flow-ux-research/research-result.md#decisions-recommended-before-production-contracts-freeze)
+[decision table](../../../../reportbacks/zengine-flow-ux-research/research-result.md#decisions-recommended-before-production-contracts-freeze)
 explains the owner-level changes. These are not yet founder-approved semantics. Keep arbitrary
 visual grouping distinct; no lazy evaluation, general multi-output model or global replacement
 policy is implied. Actual human task observation remains outstanding.
@@ -320,7 +320,7 @@ policy is implied. Actual human task observation remains outstanding.
   supplementary operator details on hover, explicit storage, tags, native-source traversal,
   non-primitive building blocks and cross-pane composition. The companion plan separates
   selected outcomes from proposed protocols and enforcement limits.
-- **Accepted 2026-09-30** ([Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md)):
+- **Accepted 2026-09-30** ([Flow's powers research](../../../../reportbacks/zengine-flow-powers-RB.md)):
   a loop is an evaluator-owned fold over an operator reference resolved through the one catalog,
   fold first and collect later. It counts first and runs by count, refuses a step of 0, takes its
   direction from the step's sign and excludes the limit by default; Flow binds the default step of

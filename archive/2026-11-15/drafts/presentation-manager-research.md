@@ -13,37 +13,37 @@ Loom local `eee04550dfbae61638ff84f1c9da1c32ad90f9b0`, whose source tree matches
 
 ## E1 Unanswered work and existing management
 
-- [Realization law](../../Zengine/agents/realization.md), lines 81–90, 120–151:
+- [Realization law](../../../../Zengine/agents/realization.md), lines 81–90, 120–151:
   `PlanExecutor` is a host-local owner; `PlanBooter` is its message bridge. An unanswered load
   remains loading indefinitely. Empty queue/turn does not establish refusal or abandonment.
   Host policy decides whether a failed plan should end a process.
-- [WeaveManager](../../Loom/include/zen/kernel/manager.hpp), lines 11–33 and 151–209:
+- [WeaveManager](../../../../Loom/include/zen/kernel/manager.hpp), lines 11–33 and 151–209:
   an ordinary replaceable broker to kernel control, without a Kernel pointer or its own
   application policy. Its current public operations include load, swap, reload and list.
   Reaching that broker is meaningful authority, not harmless ordinary messaging by definition.
-- [Kernel control](../../Loom/include/zen/kernel/control.hpp), lines 203–222:
+- [Kernel control](../../../../Loom/include/zen/kernel/control.hpp), lines 203–222:
   successful load registers the participant and queues activation before answering with its id.
-  [Lifecycle law](../../Loom/docs/laws/lifecycle-laws.md) separates activation from health/readiness.
+  [Lifecycle law](../../../../Loom/docs/laws/lifecycle-laws.md) separates activation from health/readiness.
 
 **Inference:** a presentation manager can reuse a proven owner/bridge relationship. Its own
 workflow state and policy do not require Loom to make every request eventually settle.
 
 ## E2 Where presentation lives now
 
-- [Workshop repaint](../../Zengine/workshop/weave_run.cpp), lines 24–65:
+- [Workshop repaint](../../../../Zengine/workshop/weave_run.cpp), lines 24–65:
   refreshes room/projections, reads current owners, publishes status/attention and the composed
   picture. It is not a rendering backend.
-- [Workshop handlers](../../Zengine/workshop/weave_handlers.cpp), lines 135–162 and 191–222:
+- [Workshop handlers](../../../../Zengine/workshop/weave_handlers.cpp), lines 135–162 and 191–222:
   Skin greeting prompts initial composition/restoration; medium extent changes the screen,
   reconciles setup and repaints.
-- [Pane content/reveal seam](../../Zengine/workshop/weave_seam.cpp), lines 156–200 and 282–356:
+- [Pane content/reveal seam](../../../../Zengine/workshop/weave_seam.cpp), lines 156–200 and 282–356:
   Workshop admits a pane's content and separately changes setup, selection and keyboard focus.
   The current Editor reveal commitment is the unaccepted mechanism analyzed by the research.
-- [External text route](../../Zengine/workshop/weave_external.cpp), lines 169–177:
+- [External text route](../../../../Zengine/workshop/weave_external.cpp), lines 169–177:
   Workshop forwards a pane id and text to the provider's role. Document generation is not in
   that current text shape.
-- [Presentation decision](../../Zengine/agents/decisions/a-presentation-owns-no-facts.md),
-  lines 7–25, and [pane waiting law](../../Zengine/agents/workshop/panes-and-windows.md),
+- [Presentation decision](../../../../Zengine/agents/decisions/a-presentation-owns-no-facts.md),
+  lines 7–25, and [pane waiting law](../../../../Zengine/agents/workshop/panes-and-windows.md),
   lines 222–233: a panel presents another owner's facts; an unanswered room request means waiting.
 
 **Inference:** composition, room, focus and semantic routing already form a related ownership
@@ -63,7 +63,7 @@ presentation-specific authoritative facts.
 - [SDL medium](../../Zengine/surface/skin_sdl.cpp), lines 117–153 and 273–315:
   Skin and input reader can be independently selected, share SDL subsystem lifetime, and must
   not steal each other's events. The Skin pumps without consuming the reader's queue.
-- [Artifact intent](../../Zengine/workshop/load_plan.hpp), lines 9–50:
+- [Artifact intent](../../../../Zengine/workshop/load_plan.hpp), lines 9–50:
   mounting an operator-provider surface and loading a weave are separate optional intentions.
 
 **Inference:** a manager should reconcile semantic presentation without absorbing platform
@@ -79,8 +79,8 @@ coexistence is a real constraint; live native resources cannot be assumed to fol
 - [SdlMedium](../../Zengine/surface/skin_sdl.cpp), lines 140–153, 210–217 and 608–636:
   SDL initialization may leave `ok_` false; canvas may return without drawing; window/renderer
   creation can fail. `complain` at lines 103–112 writes the operation and SDL reason to stderr.
-- [Exported construction](../../Loom/include/zen/kernel/export.hpp), lines 334–340,
-  reduces a thrown constructor to null; [Kernel load](../../Loom/src/kernel/kernel.cpp),
+- [Exported construction](../../../../Loom/include/zen/kernel/export.hpp), lines 334–340,
+  reduces a thrown constructor to null; [Kernel load](../../../../Loom/src/kernel/kernel.cpp),
   lines 1045–1047, reports that create returned null. Detailed reasons are not uniformly retained.
 
 **Source-derived conclusion:** current load success, greeting and counters cannot establish
@@ -90,31 +90,31 @@ greeting as a promised renderer health check.
 
 ## E5 Lifecycle boundaries and continuity
 
-- [Prepared replacement](../../Loom/docs/reference/prepared-replacement.md), lines 44–105:
+- [Prepared replacement](../../../../Loom/docs/reference/prepared-replacement.md), lines 44–105:
   exact-participant preparation/admission is available. The coordinator interprets the domain
   answer; Loom authenticates the conversation. It does not supply incumbent state continuity,
   infallible application handlers, or a transaction over device effects.
-- [Authored handoff](../../Loom/docs/reference/handoff.md), lines 57–80 and 100–140:
+- [Authored handoff](../../../../Loom/docs/reference/handoff.md), lines 57–80 and 100–140:
   separate migrators and candidate-owned migration are both legitimate. A domain-authored
   boundary can quiesce state; subsequent traffic may be refused, deferred, buffered, adapted
   or degraded. State migration and continuing to accept old protocols are separate obligations.
-- [Admission and sealing](../../Loom/src/switchboard/switchboard.cpp), lines 2235–2245 and
+- [Admission and sealing](../../../../Loom/src/switchboard/switchboard.cpp), lines 2235–2245 and
   1613–1637: prepared admission seals the incumbent for retirement; only private conversation
   with its coordinator remains. In contrast, lower-level `commit_candidate` moves the role and
   unseals the candidate without sealing the incumbent (lines 1965–1991; the distinction is
-  public in [Switchboard](../../Loom/include/zen/switchboard/switchboard.hpp), lines 883–913).
+  public in [Switchboard](../../../../Loom/include/zen/switchboard/switchboard.hpp), lines 883–913).
   Separate running instances and authored routing are building blocks for old/new coexistence;
   this lower-level path supplies neither automatic work draining nor prepared admission's
   combined activation guarantee.
-- [Kernel reload](../../Loom/src/kernel/kernel.cpp), lines 1176–1240:
+- [Kernel reload](../../../../Loom/src/kernel/kernel.cpp), lines 1176–1240:
   early shape/manifest refusal precedes replacement, but late revive refusal occurs after the
   incumbent instance was destroyed and can leave the weave unavailable. Blanket rollback
   promises for every unsuccessful reload would be false.
-- [Manager swap](../../Loom/include/zen/kernel/manager.hpp), the legacy swap contract near
+- [Manager swap](../../../../Loom/include/zen/kernel/manager.hpp), the legacy swap contract near
   line 53, unloads then loads. A failed successor does not preserve the old participant.
-- [Kernel role unload/query](../../Loom/src/kernel/kernel.cpp), lines 1274–1328:
+- [Kernel role unload/query](../../../../Loom/src/kernel/kernel.cpp), lines 1274–1328:
   a native registered holder is not a Kernel-owned artifact to unload through that path.
-  [Control](../../Loom/include/zen/kernel/control.hpp), lines 245–260, has unload operations;
+  [Control](../../../../Loom/include/zen/kernel/control.hpp), lines 245–260, has unload operations;
   the current Manager vocabulary has no standalone unload command.
 
 **Design obligations:** choose the exact supported transition, source of active-binding truth,
@@ -130,7 +130,7 @@ research recommendation, not a selected implementation.
 
 ## E6 Evidence and attribution
 
-- [Messaging reference](../../Loom/docs/reference/messaging.md), lines 83–158:
+- [Messaging reference](../../../../Loom/docs/reference/messaging.md), lines 83–158:
   `DispatchRefused` is an authenticated, opt-in, best-effort report about an exact pre-handler
   refusal. It is not an answer or a report of every later failure.
 - The same reference, lines 370–394: host observers see delivery/refusal/lifecycle information;
@@ -138,10 +138,10 @@ research recommendation, not a selected implementation.
   outcome. The bounded journal cannot distinguish an expired record from an unknown/pending
   ticket merely through `outcome`. `dispatch_parent` is not application causality. Payload
   references in observer callbacks are not durable storage.
-- [Loaded failure reporting](../../Loom/src/kernel/kernel.cpp), lines 807–826:
+- [Loaded failure reporting](../../../../Loom/src/kernel/kernel.cpp), lines 807–826:
   loaded ABI handler failure reaches the host observation path. The messaging reference's
   opening section describes native exceptions propagating after dispatch state restoration.
-- [Workshop journal](../../Zengine/workshop/workshop.cpp), lines 664–696:
+- [Workshop journal](../../../../Zengine/workshop/workshop.cpp), lines 664–696:
   selected facts can be recorded with `--log`; specific build/realization results are retained
   in full. Existing stderr survives failure of the surface itself. No universal presentation
   operation inspector or manager-facing observer projection is claimed present.
@@ -152,8 +152,8 @@ Runtime observations, participant reports and absent evidence should remain dist
 
 ## E7 Editor commitment and the research limit
 
-The [commitment research](../../reportbacks/editor-commit-investigation-RB.md) and its
-[design](../../reportbacks/editor-commit-investigation/DESIGN.md) demonstrate hypothetical
+The [commitment research](../../../../reportbacks/editor-commit-investigation-RB.md) and its
+[design](../../../../reportbacks/editor-commit-investigation/DESIGN.md) demonstrate hypothetical
 publication of owner-prepared roots in real loaded research participants. They explicitly
 leave full Editor/Workshop integration and production SDK/root lifecycle unimplemented.
 
@@ -169,26 +169,26 @@ the selected outcome and no universal progress guarantee.
 
 ## E8 Inspection, retention and repair limits
 
-- [Weave contract](../../Loom/include/zen/switchboard/weave_contract.hpp), lines 79–103:
+- [Weave contract](../../../../Loom/include/zen/switchboard/weave_contract.hpp), lines 79–103:
   `snapshot()` exposes authored persistable state; `revive()` restores through the state gate.
-  [Poke](../../Loom/docs/reference/messaging.md), lines 374–377, inspects or changes declared
+  [Poke](../../../../Loom/docs/reference/messaging.md), lines 374–377, inspects or changes declared
   live fields. These are useful surfaces, not a promise to expose arbitrary native internals
   or capture before/after state for every handler automatically.
-- [History](../../Loom/docs/reference/history.md), lines 112–161 and 220–305:
+- [History](../../../../Loom/docs/reference/history.md), lines 112–161 and 220–305:
   Recorder keeps bounded metadata and payload windows with explicit forgetting information.
   Logger independently appends selected facts; per-shape caps may be uncapped. Application and
   handoff messages are absent from the default selection and need host policy. Neither owner
   supplies replay, a causal graph, stack walking or crash bundles. A future forensic capture
-  is an explicitly open seam. [Logger implementation](../../Loom/src/history/logger.cpp),
+  is an explicitly open seam. [Logger implementation](../../../../Loom/src/history/logger.cpp),
   lines 384–429 and 490–493, marks failed payload capture as not retained, counts unwritable
   records, and buffers ordinary observations. Retention selection alone cannot promise that
   every event survives a crash.
-- [Answer authority](../../Loom/docs/laws/answer-authority-laws.md), lines 27–59, and
-  [lifecycle](../../Loom/docs/reference/lifecycle.md), lines 8–30: queued speech and deferred
+- [Answer authority](../../../../Loom/docs/laws/answer-authority-laws.md), lines 27–59, and
+  [lifecycle](../../../../Loom/docs/reference/lifecycle.md), lines 8–30: queued speech and deferred
   answer rights have different lifetime bindings. Restoring a serialized waiting flag or
   correlation does not recreate the exact invocation's private answer authority. An authored
   repair can instead reopen a conversation or reconstruct work under a new attempt.
-- [Capabilities and containment](../../Loom/docs/reference/capabilities.md), lines 83–99 and
+- [Capabilities and containment](../../../../Loom/docs/reference/capabilities.md), lines 83–99 and
   144–180: loaded native code shares the host's address space. Speech grants are not native
   resource isolation. A separate contained process has its own platform/enforcement contract;
   copying an artifact and its declared state does not automatically clone or isolate external

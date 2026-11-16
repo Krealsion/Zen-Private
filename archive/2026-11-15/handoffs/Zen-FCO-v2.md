@@ -6,14 +6,14 @@
 
 Zen exists to help people build, learn, explore, grow, share, teach, and steward meaningful
 digital work. The workshop is made from the same material it offers its makers. Read the
-founder's [vision](../../zen-vision.md) for the human promise; do not reduce it to a feature list.
+founder's [vision](../../../../zen-vision.md) for the human promise; do not reduce it to a feature list.
 
 ## 1. Start with the question you are here to answer
 
 Read these three owners first:
 
-1. [Vision](../../zen-vision.md): why this exists.
-2. [Orientation](../../zen-orientation.md): vocabulary, ownership, evidence, and collaboration.
+1. [Vision](../../../../zen-vision.md): why this exists.
+2. [Orientation](../../../../zen-orientation.md): vocabulary, ownership, evidence, and collaboration.
 3. [Strategic map](../zen-strategic-map.md): selected direction and the active goal.
 
 Then read the relevant part of the [Workshop goal map](../goals/workshop.md). Its current
@@ -22,25 +22,25 @@ An old handoff's proposed next phase never overrides these owners or the founder
 
 | When you need… | Read |
 |---|---|
-| repository paths, roles, branches, remotes | [Repository registry](../../REPOSITORIES.md); query Git for live state |
+| repository paths, roles, branches, remotes | [Repository registry](../../../../REPOSITORIES.md); query Git for live state |
 | observed pressure and its wake condition | [Pressure](../pressure.md) |
 | work deliberately owed but deferred | [Backlog](../backlog.md) |
 | the origin of a strategic decision or an unpromoted candidate | [Vision deltas](../vision-deltas.md) |
-| executor workflow, verification, commits, memory | [Executor constitution](../../executor-constitution.md) |
+| executor workflow, verification, commits, memory | [Executor constitution](../../../../executor-constitution.md) |
 | a fresh executor's entry route | [Executor handoff](current-executor-addendum.md) |
-| machine-specific commands and limits | [Machine facts](../machine_facts.md), read only |
+| machine-specific commands and limits | [Machine facts](../../../machine_facts.md), read only |
 | persistent human/author identity design | [Identity design](../goals/identity-phase.md), not a claim of current implementation |
 | live/durable forms and Flow | [Two forms](../goals/two-forms.md), a horizon, not an active phase |
 | a past result or why a claim changed | the relevant reportback, dated handoff, and Git |
 
 Read a repository's `AGENTS.md` before touching it, then follow its subject router:
 
-- [Zengine](../../Zengine/AGENTS.md): package/Workshop behavior; [README](../../Zengine/README.md)
+- [Zengine](../../../../Zengine/AGENTS.md): package/Workshop behavior; [README](../../../../Zengine/README.md)
   inventories the packages.
-- [Loom](../../Loom/AGENTS.md): substrate; [CONTEXT](../../Loom/docs/CONTEXT.md) routes exact
-  reference, law, and test owners. The [mental model](../../Loom/docs/guides/mental-model.md),
-  [weave authoring](../../Loom/docs/guides/writing-a-weave.md), and
-  [replacement guide](../../Loom/docs/guides/replacing-a-service.md) introduce the model.
+- [Loom](../../../../Loom/AGENTS.md): substrate; [CONTEXT](../../../../Loom/docs/CONTEXT.md) routes exact
+  reference, law, and test owners. The [mental model](../../../../Loom/docs/guides/mental-model.md),
+  [weave authoring](../../../../Loom/docs/guides/writing-a-weave.md), and
+  [replacement guide](../../../../Loom/docs/guides/replacing-a-service.md) introduce the model.
 
 Do not make every historical handoff or every pressure entry mandatory reading. Open the source
 that answers the current question. The raw vision capture is an inbox, not default orientation.
@@ -58,7 +58,7 @@ that answers the current question. The raw vision capture is an inbox, not defau
   remaining host-owned surfaces instead of treating the destination as today's implementation.
 - **The human and `loom::Weaver` are different.** The existing Weaver is a bounded policy
   delegate; it is not persistent human identity. Read the
-  [Weaver reference](../../Loom/docs/reference/weaver.md) before designing its Workshop seat.
+  [Weaver reference](../../../../Loom/docs/reference/weaver.md) before designing its Workshop seat.
 - **Tracking an ask is not learning its send's fate.** `AskBook` records pending conversations;
   it does not report dispatch refusal, promise an answer, or supply progress. The current order
   and this distinction are recorded at [P-LOOM-02](../pressure.md#p-loom-02--sender-visible-fate-and-unresolved-obligations-are-still-separate-questions).
@@ -73,7 +73,7 @@ implementation choices within the task's outcome and boundaries; architectural d
 must be surfaced rather than hidden by a prompt's instructions about how to implement them.
 
 The durable workflow and hot/warm/cold prompt definitions live in
-[Orientation §8](../../zen-orientation.md#8-working-rhythm). Invoke the executor constitution
+[Orientation §8](../../../../zen-orientation.md#8-working-rhythm). Invoke the executor constitution
 when writing an execution prompt; do not copy its standing rules here.
 
 When consolidating, rewrite the answer where the reader first needed it. Keep one current owner
@@ -83,7 +83,7 @@ does not add a separate approval gate to the founder's task.
 
 ## 4. Check the whole result, then its premises
 
-Begin with the [architectural-fit review](../../zen-orientation.md#architectural-fit-comes-first):
+Begin with the [architectural-fit review](../../../../zen-orientation.md#architectural-fit-comes-first):
 does the complete result serve the founder's vision and preserve the path for selected next work?
 Passing local tests cannot answer that by themselves. Then answer the relevant source questions
 in your own words, with a named revision and precise

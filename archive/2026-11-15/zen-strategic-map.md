@@ -5,7 +5,7 @@
 **Role:** concise global direction, goal registry, and strategy/process router  
 **Current major goal:** Workshop  
 **Current product direction:** make Zen legible and good to use as a human weaver and agent alike — documentation per weave (`ManualFacet`), one owner per job (`weave_facets`, the hub split, ~1,000-line file ceiling), one action path, one graphics window (`BL-WORK-37`), and complete maker stories
-**Current execution state:** Typed Inventory reuse, independent Info views, persistence, named folders, Editor transfers (#59), the tower-defense creation story (#60), event-driven ELH observation (Loom #16, Zengine #62), [the tally panel](../reportbacks/zengine-flow-powers/proving-story.md) (#82, #84, #85), the graphical View Builder (#86, #87), the whole-pixel desk (#90–#92), desk-by-messages (#93–#94), text panes on the canvas (#95–#99), settings stage 1 (Loom #31, Zengine #101), the agent desk stages 0–2, `door`, `declare`, and `tutor` (Loom #49/#51/#52, Zengine #150, #151, #158, #186, #207, #215), fast-forward S1 and S3 (Loom #54, Zengine #203, #213), the documentation overhaul stages A, B1–B3, and C manuals (#179, #181, #197, #198, #234–#249, #251, #266, #268, #272, #292, #295), and graphics stage 1 (#218, #219, #233) are merged. Under the founder's spine-cutting roadmap ([backlog.md §1a–1b](history/closed_work.md#1a-the-order-now)), **Path 1 (Phases 1A–3B, #265–#273)**, the **Godfile / Structural Health Split Arc (Waves 1–5, #274–#288, plus #289 CTest longest-first ordering)**, and **Waves 6–7 — Meaningful Abstractions (Phases 9A–10C, #290–#295)** are complete. Next on the spine: moving the window's job whole to graphics (BL-WORK-37 stages 2 to 5, with one action path across window and keymap). The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) and [backlog.md](history/closed_work.md#1a-the-order-now) own coordinated sequencing. Service retirement remains parked.
+**Current execution state:** Typed Inventory reuse, independent Info views, persistence, named folders, Editor transfers (#59), the tower-defense creation story (#60), event-driven ELH observation (Loom #16, Zengine #62), [the tally panel](../../../reportbacks/zengine-flow-powers/proving-story.md) (#82, #84, #85), the graphical View Builder (#86, #87), the whole-pixel desk (#90–#92), desk-by-messages (#93–#94), text panes on the canvas (#95–#99), settings stage 1 (Loom #31, Zengine #101), the agent desk stages 0–2, `door`, `declare`, and `tutor` (Loom #49/#51/#52, Zengine #150, #151, #158, #186, #207, #215), fast-forward S1 and S3 (Loom #54, Zengine #203, #213), the documentation overhaul stages A, B1–B3, and C manuals (#179, #181, #197, #198, #234–#249, #251, #266, #268, #272, #292, #295), and graphics stage 1 (#218, #219, #233) are merged. Under the founder's spine-cutting roadmap ([backlog.md §1a–1b](history/closed_work.md#1a-the-order-now)), **Path 1 (Phases 1A–3B, #265–#273)**, the **Godfile / Structural Health Split Arc (Waves 1–5, #274–#288, plus #289 CTest longest-first ordering)**, and **Waves 6–7 — Meaningful Abstractions (Phases 9A–10C, #290–#295)** are complete. Next on the spine: moving the window's job whole to graphics (BL-WORK-37 stages 2 to 5, with one action path across window and keymap). The [Workshop Goal Map](goals/workshop.md#near-term-order-and-purpose) and [backlog.md](history/closed_work.md#1a-the-order-now) own coordinated sequencing. Service retirement remains parked.
 
 This file states current strategy. It is not a phase chronicle. Accepted reports and Git history
 retain how the project arrived here.
@@ -177,8 +177,8 @@ and evidence. This does not supply or select a general migration system.
 The tower-defense creation story (#60) and event-driven ELH observation (Loom #16, Zengine #62)
 are accepted; their tools are reused, not reopened. The remaining product direction is:
 
-1. Build [the tally panel](../reportbacks/zengine-flow-powers/proving-story.md) in three reviewed
-   stages, accepted 2026-09-30 from [Flow's powers research](../reportbacks/zengine-flow-powers-RB.md).
+1. Build [the tally panel](../../../reportbacks/zengine-flow-powers/proving-story.md) in three reviewed
+   stages, accepted 2026-09-30 from [Flow's powers research](../../../reportbacks/zengine-flow-powers-RB.md).
    **Find** (merged, #82): one read-only discovery door over the live catalog, asked alike by Flow, Powers and
    the Terminal. **Compose** (merged, #84): the evaluation budget first, then a bounded loop over
    an operator reference, Flow's carry receivers and emit authoring. **Show** (merged, #85): a UI builder beside Flow, with
@@ -271,8 +271,8 @@ deconstruction. The Workshop map owns the currently selected UX research.
 
 ## 9. Process doctrine
 
-[Orientation §8](../zen-orientation.md#8-working-rhythm) owns prompt construction, temperature,
-review, acceptance, and consolidation. The [executor constitution](../executor-constitution.md)
+[Orientation §8](../../../zen-orientation.md#8-working-rhythm) owns prompt construction, temperature,
+review, acceptance, and consolidation. The [executor constitution](../../../executor-constitution.md)
 owns execution. Reference those owners rather than maintaining a second Prompt Contract here.
 
 The founder chooses direction and acceptance. Vision updates the smallest current authority

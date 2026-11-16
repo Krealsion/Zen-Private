@@ -32,11 +32,11 @@ direction stay here and move by phases.
 
 **Close what is open, then the roadmap** (the founder, 2026-10-14). First: #219, the readability
 pass, merged as it stands (`aab5177`); Zengine's twelve `ready` issues and the grow frame found in
-#219's review, taken in one batch ([prompt](../../prompts/ready-issues-batch.md)), started by the
+#219's review, taken in one batch ([prompt](../../../../prompts/ready-issues-batch.md)), started by the
 founder; these plans current; every arc resting where it is merged, its next step written in its
 item. Both reported and reviewed (Vision, 2026-10-15): the batch as #220 to #233, thirteen pull
 requests green on their own heads and #228 the grow frame, filed; the manuals as #234 to #249,
-sixteen green, 33 pages in all. The merge train ([prompt](../../prompts/merge-train.md)) brought the
+sixteen green, 33 pages in all. The merge train ([prompt](../../../../prompts/merge-train.md)) brought the
 remaining branches onto `main` and raised the suite floors (`#250`, `d86ee70`): round one (#220,
 #221, #222, #223, #225, #227, #229, and #234–#249 except #238, #240, #243), round two (#226
 `65338a6`, #230 `bbe202e`, #231 `524d453`, #232 `98fd5c3`, #233 `a48edc7`, #238 `f9eba7d`, #240
@@ -46,102 +46,102 @@ trigger refused in words, #259 `200f302` refused pane caret said on the notice b
 `8d5c5d0` `zengine.project`) all **CLOSED and merged** on `main` (2026-10-15 to 2026-10-16).
 
 **Path 1 — Spine-Cutting & Readability Arc (Phases 1A–3B, CLOSED 2026-10-16):**
-- **Phase 1A (`#265`, `8b26fd7`, [prompt](../../prompts/phase-1a-facets.md), [MSVC follow-up](../../prompts/phase-1a-facets-msvc.md)):** Composable weave facets (`zengine/weave_facets.hpp` — `WeaveWith<State, Facets...>`, `DrawingFacet`, `RoomFacet`, `PaneFacet`, `PaneRowsFacet`, `AskFacet`, `ManualFacet`), an end-of-delivery chain (closing P-WORK-72), room resizes reaching drawers (closing P-WORK-73), and `ProbeBase` retired in `activation/` in favor of facet `Activated` handlers over `TimedWeave`.
-- **Phase 1B (`#266`, `54d8cc0`, [prompt](../../prompts/phase-1b-actions.md)):** Every shipped pane declares what its presses send (`v3::PaneActionRow` causes across all remaining panes, wrapping `Answers` lines at page width), and single-pane offices answer their manual through `ManualFacet`.
-- **Phase 1C (`#267`, `c2f2a5a`, [prompt](../../prompts/phase-1c-window-clicks.md)):** A press nothing drawn takes is silent unless its area asks for the pointer (`wants_area_pointer`), a press given to an area's owner says it is in the area's pixels, and a facet weave's claim reaches the weave's own handler.
-- **Phase 1D (`#269`, `5575476`, [prompt](../../prompts/phase-1d-pane-facets.md)):** Pane offices compose their offer, room, rows, and asks as facets (`PaneFacet`, `PaneRowsFacet`, `AskFacet`), and Files keeps the row a reload carried (P-WORK-74 in part).
-- **Phase 1E (`#268`, `60a41e5`, [prompt](../../prompts/phase-1e-reload-and-manuals.md)):** Reload-in-place state preservation for four offices (P-WORK-74 in part) and the remaining multi-pane offices answer their manual through `ManualFacet`.
-- **Phase 2A (`#270`, `8d5c5d0`, [prompt](../../prompts/phase-2a-hub-doors.md)):** One project office (`zengine.project`) for the project's readings, recipes, and plan rows (#139 / #224), merged alongside #251, #257, #258, and #259.
-- **Phase 2B (`#271`, `a09da96`, [prompt](../../prompts/phase-2b-panes-and-reload.md)):** Remaining pane facets (`View Builder`, `Connections`, `Demo`), reload-in-place preservation (`Compose` target and form, `Editor` bounded undo history, `Info` value views, `View Builder` re-asking the view host — closing P-WORK-74), and three pane fixes (`Inventory` naming the removed entry, `Info` `info.value.*` action ids, `View Builder` `view.*` action ids).
-- **Phase 3A (`#272`, `b26630b`, [prompt](../../prompts/phase-3a-host-manuals.md)):** The Flow host (`zengine.flow.host`), the view host (`zengine.view.host`), and the build runner (`zengine.builder.runner`) carry their manuals and answer what each shape they accept does (closing BL-ADOPT-05 B2 across host offices).
-- **Phase 3B (`#273`, `7e9183b`, [prompt](../../prompts/phase-3b-surface-timer-and-act.md)):** `zengine-skin-tui-block` built as a second library and documented in `surface/`, timer suite skin swap and timed pokes bounded on their answers, and `workshop/act` boundedly re-reading a moved picture when a press aimed at a word meets a moved picture.
+- **Phase 1A (`#265`, `8b26fd7`, [prompt](../../../../prompts/phase-1a-facets.md), [MSVC follow-up](../../../../prompts/phase-1a-facets-msvc.md)):** Composable weave facets (`zengine/weave_facets.hpp` — `WeaveWith<State, Facets...>`, `DrawingFacet`, `RoomFacet`, `PaneFacet`, `PaneRowsFacet`, `AskFacet`, `ManualFacet`), an end-of-delivery chain (closing P-WORK-72), room resizes reaching drawers (closing P-WORK-73), and `ProbeBase` retired in `activation/` in favor of facet `Activated` handlers over `TimedWeave`.
+- **Phase 1B (`#266`, `54d8cc0`, [prompt](../../../../prompts/phase-1b-actions.md)):** Every shipped pane declares what its presses send (`v3::PaneActionRow` causes across all remaining panes, wrapping `Answers` lines at page width), and single-pane offices answer their manual through `ManualFacet`.
+- **Phase 1C (`#267`, `c2f2a5a`, [prompt](../../../../prompts/phase-1c-window-clicks.md)):** A press nothing drawn takes is silent unless its area asks for the pointer (`wants_area_pointer`), a press given to an area's owner says it is in the area's pixels, and a facet weave's claim reaches the weave's own handler.
+- **Phase 1D (`#269`, `5575476`, [prompt](../../../../prompts/phase-1d-pane-facets.md)):** Pane offices compose their offer, room, rows, and asks as facets (`PaneFacet`, `PaneRowsFacet`, `AskFacet`), and Files keeps the row a reload carried (P-WORK-74 in part).
+- **Phase 1E (`#268`, `60a41e5`, [prompt](../../../../prompts/phase-1e-reload-and-manuals.md)):** Reload-in-place state preservation for four offices (P-WORK-74 in part) and the remaining multi-pane offices answer their manual through `ManualFacet`.
+- **Phase 2A (`#270`, `8d5c5d0`, [prompt](../../../../prompts/phase-2a-hub-doors.md)):** One project office (`zengine.project`) for the project's readings, recipes, and plan rows (#139 / #224), merged alongside #251, #257, #258, and #259.
+- **Phase 2B (`#271`, `a09da96`, [prompt](../../../../prompts/phase-2b-panes-and-reload.md)):** Remaining pane facets (`View Builder`, `Connections`, `Demo`), reload-in-place preservation (`Compose` target and form, `Editor` bounded undo history, `Info` value views, `View Builder` re-asking the view host — closing P-WORK-74), and three pane fixes (`Inventory` naming the removed entry, `Info` `info.value.*` action ids, `View Builder` `view.*` action ids).
+- **Phase 3A (`#272`, `b26630b`, [prompt](../../../../prompts/phase-3a-host-manuals.md)):** The Flow host (`zengine.flow.host`), the view host (`zengine.view.host`), and the build runner (`zengine.builder.runner`) carry their manuals and answer what each shape they accept does (closing BL-ADOPT-05 B2 across host offices).
+- **Phase 3B (`#273`, `7e9183b`, [prompt](../../../../prompts/phase-3b-surface-timer-and-act.md)):** `zengine-skin-tui-block` built as a second library and documented in `surface/`, timer suite skin swap and timed pokes bounded on their answers, and `workshop/act` boundedly re-reading a moved picture when a press aimed at a word meets a moved picture.
 
 **Godfile / Structural Health Split Arc (Waves 1–5, Phases 4A–8C, CLOSED 2026-10-16):**
 Executed to enforce a ~1,000-line ceiling per translation unit and header across Zengine so every subsystem has bite-sized, single-responsibility files before the next roadmap spine themes (every product `.hpp` and `.cpp` now stands under 1,900 lines, down from 6,541):
 - **Wave 1 (CLOSED — `#274` `af210e4`, `#275` `8189c0c`, `#276` `32f4e45`):**
   - **Phase 4A (`#275`, [prompt](../../prompts/phase-4a-workshop-weave-split.md)):** `workshop/weave.hpp` composes its terminal door and its page as facets.
-  - **Phase 4B (`#274`, [prompt](../../prompts/phase-4b-info-value-view-split.md)):** `info/value_view.hpp` hands its watch (`info/value_view_watch.hpp` / `value_view_tree.hpp`) and its picture (`info/value_view_edit.hpp`) to headers of their own.
+  - **Phase 4B (`#274`, [prompt](../../../../prompts/phase-4b-info-value-view-split.md)):** `info/value_view.hpp` hands its watch (`info/value_view_watch.hpp` / `value_view_tree.hpp`) and its picture (`info/value_view_edit.hpp`) to headers of their own.
   - **Phase 4C (`#276`, [prompt](../../prompts/phase-4c-graphics-elements-split.md)):** `graphics/elements.hpp` split into focused part headers (`graphics/element_*.hpp` — button, checkbox, list, grid, icon, image, scroll view, text box).
 - **Wave 2 (CLOSED — `#277` `504ecf4`, `#278` `1b8462a`, `#279` `34c6dfd`):**
-  - **Phase 5A (`#278`, [prompt](../../prompts/phase-5a-mirror-panes-and-introspection.md)):** Mirror panes (`Attention`, `Connections`) compose directly on `PaneRowsFacet`; `Powers` splits `powers_detail.hpp`; `Introspection` splits its three seats (`introspection/seats.hpp`) and detail helpers.
+  - **Phase 5A (`#278`, [prompt](../../../../prompts/phase-5a-mirror-panes-and-introspection.md)):** Mirror panes (`Attention`, `Connections`) compose directly on `PaneRowsFacet`; `Powers` splits `powers_detail.hpp`; `Introspection` splits its three seats (`introspection/seats.hpp`) and detail helpers.
   - **Phase 5B (`#279`, [prompt](../../prompts/phase-5b-terminal-door-and-guest-judge.md)):** The Terminal's host side moves from `workshop/` to `terminal/` (`terminal/door.hpp`, completer, record picture); `GuestDoor` (`workshop/guest_judge.hpp`) answers `ActorScopeRequested` for Workshop's office.
-  - **Phase 5C (`#277`, [prompt](../../prompts/phase-5c-examples-graphics.md)):** `examples/snake` draws new-game and operator buttons with `gfx::Button` and tracks operator asks with `AskBook`.
+  - **Phase 5C (`#277`, [prompt](../../../../prompts/phase-5c-examples-graphics.md)):** `examples/snake` draws new-game and operator buttons with `gfx::Button` and tracks operator asks with `AskBook`.
 - **Wave 3 (CLOSED — `#280` `cf0d85c`, `#281` `de3268d`, `#282` `ee126f9`):**
   - **Phase 6A (`#282`, [prompt](../../prompts/phase-6a-info-property-view.md)):** `info/pane.cpp` (2,422 → 995 lines) extracts `info/property_view.hpp` (showing one pane's properties in one list) and deletes the dead 1,291-line uncompiled `workshop/panes.cpp`.
   - **Phase 6B (`#280`, [prompt](../../prompts/phase-6b-workshop-desk-read-split.md)):** `workshop/weave.hpp` (2,718 → 1,872 lines) and `workshop/weave_inspection.cpp` (1,073 → 339 lines) extract `workshop/desk_read.hpp` and `workshop/weave_desk_read.cpp`.
-  - **Phase 6C (`#281`, [prompt](../../prompts/phase-6c-desktop-pane-views-split.md)):** `workshop/desktop-pane/pane.cpp` (1,924 → 675 lines) extracts `panes_view.hpp`, `hotkeys_view.hpp`, and `manual_view.hpp`.
+  - **Phase 6C (`#281`, [prompt](../../../../prompts/phase-6c-desktop-pane-views-split.md)):** `workshop/desktop-pane/pane.cpp` (1,924 → 675 lines) extracts `panes_view.hpp`, `hotkeys_view.hpp`, and `manual_view.hpp`.
 - **Wave 4 (CLOSED — `#283` `968e8bb`, `#284` `5d75fef`, `#285` `289f50c`):**
   - **Phase 7A (`#285`, [prompt](../../prompts/phase-7a-neovim-editor-split.md)):** `editor/neovim-editor/pane.cpp` (2,340 → 1,038 lines) extracts `handoff.hpp` and `view.hpp`.
   - **Phase 7B (`#283`, [prompt](../../prompts/phase-7b-standard-editor-split.md)):** `editor/editor-pane/pane.cpp` (2,213 → 1,045 lines) extracts `common.hpp`, `opening_switch.hpp`, and `transfers.hpp`.
   - **Phase 7C (`#284`, [prompt](../../prompts/phase-7c-files-pane-split.md)):** `files/files.cpp` (2,211 → 996 lines) extracts `recipe_authoring.hpp` and `browser_view.hpp`.
 - **Wave 5 (CLOSED — `#286` `5491a0d`, `#287` `b6ba800`, `#288` `0c094ab`):**
-  - **Phase 8A (`#287`, `b6ba800`, [prompt](../../prompts/phase-8a-builder-pane-split.md), [report](../../reportbacks/phase-8a-builder-pane-split-RB.md)):** `builder/builder-pane/pane.cpp` (2,788 → 1,789 lines) extracts `output_reader.hpp` (255), `modes.hpp` (331), and `view.hpp` (582).
-  - **Phase 8B (`#288`, `0c094ab`, [prompt](../../prompts/phase-8b-terminal-pane-split.md), [report](../../reportbacks/phase-8b-terminal-pane-split-RB.md)):** `terminal/pane.cpp` (1,489 → 904 lines) extracts `view.hpp` (447) and `history_and_completion.hpp` (264).
-  - **Phase 8C (`#286`, `5491a0d`, [prompt](../../prompts/phase-8c-workshop-keymap-and-setup-split.md), [report](../../reportbacks/phase-8c-workshop-keymap-and-setup-split-RB.md)):** `workshop/keymap.hpp` (1,683 → 724 lines) extracts `gesture_grammar.hpp` (358) and `keymap_join.hpp` (664); `workshop/setup.hpp` (1,561 → 813 lines) extracts `setup_reconcile.hpp` (519) and `layout_shelf.hpp` (286).
-  - **CI Test Order (`#289`, `ab78b10`, [prompt](../../prompts/test-order-longest-first.md), [report](../../reportbacks/test-order-longest-first-RB.md)):** Explicit `COST` properties on the 37 longest CTest entries in `tests/CMakeLists.txt` (verified against `tests/test_population.txt`) so `workshop_panes`, `neovim_journey`, `workshop_desk`, and `story_journey` start immediately on fresh parallel runners.
+  - **Phase 8A (`#287`, `b6ba800`, [prompt](../../../../prompts/phase-8a-builder-pane-split.md), [report](../../../../reportbacks/phase-8a-builder-pane-split-RB.md)):** `builder/builder-pane/pane.cpp` (2,788 → 1,789 lines) extracts `output_reader.hpp` (255), `modes.hpp` (331), and `view.hpp` (582).
+  - **Phase 8B (`#288`, `0c094ab`, [prompt](../../../../prompts/phase-8b-terminal-pane-split.md), [report](../../../../reportbacks/phase-8b-terminal-pane-split-RB.md)):** `terminal/pane.cpp` (1,489 → 904 lines) extracts `view.hpp` (447) and `history_and_completion.hpp` (264).
+  - **Phase 8C (`#286`, `5491a0d`, [prompt](../../../../prompts/phase-8c-workshop-keymap-and-setup-split.md), [report](../../../../reportbacks/phase-8c-workshop-keymap-and-setup-split-RB.md)):** `workshop/keymap.hpp` (1,683 → 724 lines) extracts `gesture_grammar.hpp` (358) and `keymap_join.hpp` (664); `workshop/setup.hpp` (1,561 → 813 lines) extracts `setup_reconcile.hpp` (519) and `layout_shelf.hpp` (286).
+  - **CI Test Order (`#289`, `ab78b10`, [prompt](../../../../prompts/test-order-longest-first.md), [report](../../../../reportbacks/test-order-longest-first-RB.md)):** Explicit `COST` properties on the 37 longest CTest entries in `tests/CMakeLists.txt` (verified against `tests/test_population.txt`) so `workshop_panes`, `neovim_journey`, `workshop_desk`, and `story_journey` start immediately on fresh parallel runners.
 
 **Wave 6 — Meaningful Abstractions Arc, Part 1 (Phases 9A–9C, CLOSED 2026-10-17 — `#290` `7f32082`, `#291` `f0b7b34`, `#292` `8daa8af`):**
-- **Phase 9A (`#291`, `f0b7b34`, [prompt](../../prompts/phase-9a-control-strip-and-list-rows.md), [report](../../reportbacks/phase-9a-control-strip-and-list-rows-RB.md)):** `component/control_strip.hpp` (`kMaxStripRows`, `strip_budget`, typed `pack_controls`, `strip_rows_for`), `component/list_window.hpp` (`earlier_marker`, `more_marker`, `take_wheel_notches`), and `workshop/pane_facets.hpp` (`PaneRowsFacet::strip_rows`, `push_controls`, `push_window`) adopted across `files/` (−76 lines) and `builder/builder-pane/` (−59 lines).
-- **Phase 9B (`#292`, `8daa8af`, [prompt](../../prompts/phase-9b-composer-and-powers-facets.md), [report](../../reportbacks/phase-9b-composer-and-powers-facets-RB.md)):** Value-door bridge (`zengine::ValueDoor`, `zengine::RawValueDoor`, `ZENGINE_VALUE_DOOR`) in `activation/activation.hpp` letting hand-built schemas stand in `loom::Accept<...>` on `loom::WeaveBase` and `zengine::With`; `ComposerWeave` (`composer/composer.cpp` 1,088 → 905 lines, −183) and `PowersDoor` (`workshop/powers_door.hpp`, class body 67 → 38 lines) migrated off raw `loom::Weave` onto `zengine::With`.
-- **Phase 9C (`#290`, `7f32082`, [prompt](../../prompts/phase-9c-editor-office-seam.md), [report](../../reportbacks/phase-9c-editor-office-seam-RB.md)):** Shared header-only `editor/office_seam.hpp` (`namespace zengine::editor_office`, 518 lines) unifying the office seam shared by `editor/editor-pane/` and `editor/neovim-editor/` (`Relay`, `Holding`, `Take`, `Pickup`, `LocateOf<Snapshot>`, relayed open, hold counter, value-carry permission/settle, dropped-location open, and material insertion prose), shrinking the two Editor weave trees by 540 lines (7,930 → 7,390).
+- **Phase 9A (`#291`, `f0b7b34`, [prompt](../../../../prompts/phase-9a-control-strip-and-list-rows.md), [report](../../../../reportbacks/phase-9a-control-strip-and-list-rows-RB.md)):** `component/control_strip.hpp` (`kMaxStripRows`, `strip_budget`, typed `pack_controls`, `strip_rows_for`), `component/list_window.hpp` (`earlier_marker`, `more_marker`, `take_wheel_notches`), and `workshop/pane_facets.hpp` (`PaneRowsFacet::strip_rows`, `push_controls`, `push_window`) adopted across `files/` (−76 lines) and `builder/builder-pane/` (−59 lines).
+- **Phase 9B (`#292`, `8daa8af`, [prompt](../../../../prompts/phase-9b-composer-and-powers-facets.md), [report](../../../../reportbacks/phase-9b-composer-and-powers-facets-RB.md)):** Value-door bridge (`zengine::ValueDoor`, `zengine::RawValueDoor`, `ZENGINE_VALUE_DOOR`) in `activation/activation.hpp` letting hand-built schemas stand in `loom::Accept<...>` on `loom::WeaveBase` and `zengine::With`; `ComposerWeave` (`composer/composer.cpp` 1,088 → 905 lines, −183) and `PowersDoor` (`workshop/powers_door.hpp`, class body 67 → 38 lines) migrated off raw `loom::Weave` onto `zengine::With`.
+- **Phase 9C (`#290`, `7f32082`, [prompt](../../../../prompts/phase-9c-editor-office-seam.md), [report](../../../../reportbacks/phase-9c-editor-office-seam-RB.md)):** Shared header-only `editor/office_seam.hpp` (`namespace zengine::editor_office`, 518 lines) unifying the office seam shared by `editor/editor-pane/` and `editor/neovim-editor/` (`Relay`, `Holding`, `Take`, `Pickup`, `LocateOf<Snapshot>`, relayed open, hold counter, value-carry permission/settle, dropped-location open, and material insertion prose), shrinking the two Editor weave trees by 540 lines (7,930 → 7,390).
 
 **Wave 7 — Meaningful Abstractions Arc, Part 2 (Phases 10A–10C, CLOSED 2026-10-17 — `#293` `a4ff004`, `#294` `ebadfcf`, `#295` `3153b5d`):**
-- **Phase 10A (`#294`, `ebadfcf`, [prompt](../../prompts/phase-10a-multi-pane-seats-and-windows.md)):** `workshop/pane_seat.hpp` (`PaneCanvasSeat` owning per-seat room, rows, canvas, and `show` / `strip_rows` / `push_controls` / `push_window`; `MultiPaneFacet` routing `PaneProviderReady`, `PaneRoomChanged`, and `PaneControlPressed` by `pane_id`) adopted across all four multi-pane weaves (`DesktopWeave`, `IntrospectionWeave`, `InfoWeave`, `EditorWeave`), plus `component::earlier_marker` / `more_marker` / `take_wheel_notches` adopted across `Desktop`, `Introspection`, `Info`, and `Inventory`.
-- **Phase 10B (`#295`, `3153b5d`, [prompt](../../prompts/phase-10b-host-managers-and-presenters.md)):** `flow_host::Manager` (`flow/host_manager.cpp`) and `view::Manager` (`view/manager.hpp` / `view/manager.cpp`) migrated off raw `loom::Weave` onto `zengine::With<manual::ManualFacet<...>>::Weave` via `ZENGINE_VALUE_DOOR`; shared menu-presenter seam helpers (`menu_presenter_offer`, `presenter_manual_answer`, `claim_menu_room`, `release_menu_room`, `publish_menu_picture`, `choose_menu_row`) extracted in `workshop/presenter_vocabulary.hpp` and adopted across `MenuPresenter` and `NumberedPresenter`.
-- **Phase 10C (`#293`, `a4ff004`, [prompt](../../prompts/phase-10c-one-action-path.md)):** `PaneActionFacet`, `PaneMenuFacet`, and `PaneRowsFacet::spend_notice` in `workshop/pane_facets.hpp` adopted across all eight action-bearing single-pane weaves (`Files`, `Terminal`, `Builder`, `Inventory`, `Powers`, `Flow`, `ViewBuilder`, `Demo`), and `graphics::ActionFacet` in `graphics/drawing.hpp` adopted across `SnakeWorld` and `OperatorWeave`, giving pane actions and graphics window actions one `on_action(id, mail)` owner signature.
+- **Phase 10A (`#294`, `ebadfcf`, [prompt](../../../../prompts/phase-10a-multi-pane-seats-and-windows.md)):** `workshop/pane_seat.hpp` (`PaneCanvasSeat` owning per-seat room, rows, canvas, and `show` / `strip_rows` / `push_controls` / `push_window`; `MultiPaneFacet` routing `PaneProviderReady`, `PaneRoomChanged`, and `PaneControlPressed` by `pane_id`) adopted across all four multi-pane weaves (`DesktopWeave`, `IntrospectionWeave`, `InfoWeave`, `EditorWeave`), plus `component::earlier_marker` / `more_marker` / `take_wheel_notches` adopted across `Desktop`, `Introspection`, `Info`, and `Inventory`.
+- **Phase 10B (`#295`, `3153b5d`, [prompt](../../../../prompts/phase-10b-host-managers-and-presenters.md)):** `flow_host::Manager` (`flow/host_manager.cpp`) and `view::Manager` (`view/manager.hpp` / `view/manager.cpp`) migrated off raw `loom::Weave` onto `zengine::With<manual::ManualFacet<...>>::Weave` via `ZENGINE_VALUE_DOOR`; shared menu-presenter seam helpers (`menu_presenter_offer`, `presenter_manual_answer`, `claim_menu_room`, `release_menu_room`, `publish_menu_picture`, `choose_menu_row`) extracted in `workshop/presenter_vocabulary.hpp` and adopted across `MenuPresenter` and `NumberedPresenter`.
+- **Phase 10C (`#293`, `a4ff004`, [prompt](../../../../prompts/phase-10c-one-action-path.md)):** `PaneActionFacet`, `PaneMenuFacet`, and `PaneRowsFacet::spend_notice` in `workshop/pane_facets.hpp` adopted across all eight action-bearing single-pane weaves (`Files`, `Terminal`, `Builder`, `Inventory`, `Powers`, `Flow`, `ViewBuilder`, `Demo`), and `graphics::ActionFacet` in `graphics/drawing.hpp` adopted across `SnakeWorld` and `OperatorWeave`, giving pane actions and graphics window actions one `on_action(id, mail)` owner signature.
 
 **Wave 8 — BL-WORK-37 Stages 2 & 3 (CLOSED 2026-10-17 — `#296` `bf3981e`, `#297` `7457af1`, `#298` `f75cc13`, `#299` `aad758c`):**
-- **Stage 2 (`#296`, `bf3981e`, [prompt](../../prompts/graphics-stage-2-panes-and-actions.md), [report](../../reportbacks/graphics-stage-2-panes-and-actions-RB.md)):** `PaneDrawingFacet` (`workshop/pane_facets.hpp`) and `drawn_rows` (`workshop/pane_drawing.hpp`), plus `Attention` (`attention/pane.cpp`) and `Connections` (`external-host/connections-pane/pane.cpp`) rebuilt on `graphics/`.
-- **Stage 3A (`#297`, `7457af1`, [prompt](../../prompts/graphics-stage-3a-single-panes.md), [report](../../reportbacks/graphics-stage-3a-single-panes-RB.md)):** Single-pane suite (`Demo Control`, `Terminal`, `Builder`, `Files`, `Composer`) on `graphics/` via `PaneDrawingFacet` and `PaneRowsFacet` (`rows_sketch` + `RowPress{.window = true}`).
-- **Stage 3B (`#298`, `f75cc13`, [prompt](../../prompts/graphics-stage-3b-multi-panes.md), [report](../../reportbacks/graphics-stage-3b-multi-panes-RB.md)):** Multi-pane seat suite (`Desktop` — `launcher`, `hotkeys`, `manual`; `Introspection` — `loaded`, `arrangement`, `powers`; `Info` — `info`..`info.4`; `Inventory` — `inventory`..`inventory.N`) on `graphics/` via `PaneCanvasSeat` and `MultiPaneFacet`.
-- **Stage 3C (`#299`, `aad758c`, [prompt](../../prompts/graphics-stage-3c-data-ui-presenter.md), [report](../../reportbacks/graphics-stage-3c-data-ui-presenter-RB.md)):** Data-as-UI (`view::View` + `view::Host` in `view/view.hpp` and `view/host.hpp`) on `graphics/` via `view::sketch`, plus `view::Presenter` (`Host::pair(name, presenter)`).
+- **Stage 2 (`#296`, `bf3981e`, [prompt](../../../../prompts/graphics-stage-2-panes-and-actions.md), [report](../../../../reportbacks/graphics-stage-2-panes-and-actions-RB.md)):** `PaneDrawingFacet` (`workshop/pane_facets.hpp`) and `drawn_rows` (`workshop/pane_drawing.hpp`), plus `Attention` (`attention/pane.cpp`) and `Connections` (`external-host/connections-pane/pane.cpp`) rebuilt on `graphics/`.
+- **Stage 3A (`#297`, `7457af1`, [prompt](../../../../prompts/graphics-stage-3a-single-panes.md), [report](../../../../reportbacks/graphics-stage-3a-single-panes-RB.md)):** Single-pane suite (`Demo Control`, `Terminal`, `Builder`, `Files`, `Composer`) on `graphics/` via `PaneDrawingFacet` and `PaneRowsFacet` (`rows_sketch` + `RowPress{.window = true}`).
+- **Stage 3B (`#298`, `f75cc13`, [prompt](../../../../prompts/graphics-stage-3b-multi-panes.md), [report](../../../../reportbacks/graphics-stage-3b-multi-panes-RB.md)):** Multi-pane seat suite (`Desktop` — `launcher`, `hotkeys`, `manual`; `Introspection` — `loaded`, `arrangement`, `powers`; `Info` — `info`..`info.4`; `Inventory` — `inventory`..`inventory.N`) on `graphics/` via `PaneCanvasSeat` and `MultiPaneFacet`.
+- **Stage 3C (`#299`, `aad758c`, [prompt](../../../../prompts/graphics-stage-3c-data-ui-presenter.md), [report](../../../../reportbacks/graphics-stage-3c-data-ui-presenter-RB.md)):** Data-as-UI (`view::View` + `view::Host` in `view/view.hpp` and `view/host.hpp`) on `graphics/` via `view::sketch`, plus `view::Presenter` (`Host::pair(name, presenter)`).
 
 **Wave 9 — BL-WORK-37 Stage 4: Remaining Authoring/Editor Panes & Seam Unification (CLOSED 2026-10-17 — `#300` `e43c45d`, `#301` `99a08ea`, `#302` `91b9b21`):**
-- **Stage 4A (`#302`, `91b9b21`, [prompt](../../prompts/graphics-stage-4a-canvas-panes.md), [report](../../reportbacks/graphics-stage-4a-canvas-panes-RB.md)):** Canvas-picture authoring panes (`FlowPane` in `flow/flow-pane/` and `ViewBuilderPane` in `view/view-builder/`) on `graphics/` via shared `workshop::canvas_sketch` (`workshop/pane_canvas_drawing.hpp`).
-- **Stage 4B (`#301`, `99a08ea`, [prompt](../../prompts/graphics-stage-4b-editors.md), [report](../../reportbacks/graphics-stage-4b-editors-RB.md)):** Both Editors (`EditorPaneWeave` in `editor/editor-pane/` and `NeovimEditorWeave` in `editor/neovim-editor/`) on `graphics/` via a shared `editor_office::EditorWindow` seam in `editor/office_seam.hpp` (drawing caret and selection over rows).
-- **Stage 4C (`#300`, `e43c45d`, [prompt](../../prompts/graphics-stage-4c-projection-and-standin-unification.md), [report](../../reportbacks/graphics-stage-4c-projection-and-standin-unification-RB.md)):** Unifying `rows_drawing` and `WindowDrawing` (two-state `DrawnRefused` recovery) in `workshop/pane_drawing.hpp` across `PaneCanvasSeat`, `PaneRowsFacet`, and `PaneDrawingFacet`, consolidating `tests/window_stand_in.hpp` into `tests/pane_window.hpp`, and teaching `external-host/tools/workshop/act.py` (`aimed`) to wait through `"no settled picture"`.
+- **Stage 4A (`#302`, `91b9b21`, [prompt](../../../../prompts/graphics-stage-4a-canvas-panes.md), [report](../../../../reportbacks/graphics-stage-4a-canvas-panes-RB.md)):** Canvas-picture authoring panes (`FlowPane` in `flow/flow-pane/` and `ViewBuilderPane` in `view/view-builder/`) on `graphics/` via shared `workshop::canvas_sketch` (`workshop/pane_canvas_drawing.hpp`).
+- **Stage 4B (`#301`, `99a08ea`, [prompt](../../../../prompts/graphics-stage-4b-editors.md), [report](../../../../reportbacks/graphics-stage-4b-editors-RB.md)):** Both Editors (`EditorPaneWeave` in `editor/editor-pane/` and `NeovimEditorWeave` in `editor/neovim-editor/`) on `graphics/` via a shared `editor_office::EditorWindow` seam in `editor/office_seam.hpp` (drawing caret and selection over rows).
+- **Stage 4C (`#300`, `e43c45d`, [prompt](../../../../prompts/graphics-stage-4c-projection-and-standin-unification.md), [report](../../../../reportbacks/graphics-stage-4c-projection-and-standin-unification-RB.md)):** Unifying `rows_drawing` and `WindowDrawing` (two-state `DrawnRefused` recovery) in `workshop/pane_drawing.hpp` across `PaneCanvasSeat`, `PaneRowsFacet`, and `PaneDrawingFacet`, consolidating `tests/window_stand_in.hpp` into `tests/pane_window.hpp`, and teaching `external-host/tools/workshop/act.py` (`aimed`) to wait through `"no settled picture"`.
 
 **Wave 10 — BL-WORK-37 Stage 5: Workshop Window Arranger, Unified `WindowDrawing` + Caret, and `Hand` Unsettled Retry (CLOSED 2026-10-17 — `#303` `44a8bc2`, `#304` `a9d5c99`, `#305` `2ab3de0`):**
-- **Stage 5A (`#304`, `a9d5c99`, [prompt](../../prompts/graphics-stage-5a-workshop-arranger.md), [report](../../reportbacks/graphics-stage-5a-workshop-arranger-RB.md)):** Workshop as `zengine.graphics` arranger (`pane_window_area`, `AreaPlaced`, `SkinOffered`, `SkinChosen` with no-refusal bus guard when `zengine.graphics` is absent) and desk chrome drawer (`workshop_window_drawing` in `workshop/screen_compose.cpp` projecting the same planes `paint` composes — `Layouts`, external pane borders/headers with `*`/`?` actions and waiting/refused fallback, arrangement rings, menus, and bottom band — onto `"zengine.workshop"` via `WindowDrawing`).
-- **Stage 5B (`#303`, `44a8bc2`, [prompt](../../prompts/graphics-stage-5b-window-drawing-and-caret.md), [report](../../reportbacks/graphics-stage-5b-window-drawing-and-caret-RB.md)):** Moving caret bar (`"caret"`) and selection highlight runs (`"sel<r>.<run>"`) into `ws::rows_drawing` (`workshop/pane_drawing.hpp`), passing `caret_` from `PaneRowsFacet::send` so `Terminal` and `Composer` draw their caret and selection in a graphics window, and folding `EditorWindow` (`editor/office_seam.hpp`, 720 → 595 lines), `FlowPane` (`flow/flow-pane/pane.cpp`), and `ViewBuilderPane` (`view/view-builder/pane.cpp`) onto `ws::WindowDrawing`.
-- **Stage 5C (`#305`, `2ab3de0`, [prompt](../../prompts/graphics-stage-5c-point-reader-unsettled-and-story-journey.md), [report](../../reportbacks/graphics-stage-5c-point-reader-unsettled-and-story-journey-RB.md)):** Teaching `Hand.row`, `Hand.pointed`, and `Hand.lattice_point` (`external-host/tools/workshop/hand.py` via shared `Hand.aimed` and `no_settled_picture`, covering both canvas `"no settled picture"` and text `"no settled text picture"`) to wait through unsettled pictures alongside `"picture moved"`, and fixing the `tests/session/story_journey.py` U2 (`unresolved_runs`) startup status race on slow Windows runners.
+- **Stage 5A (`#304`, `a9d5c99`, [prompt](../../../../prompts/graphics-stage-5a-workshop-arranger.md), [report](../../../../reportbacks/graphics-stage-5a-workshop-arranger-RB.md)):** Workshop as `zengine.graphics` arranger (`pane_window_area`, `AreaPlaced`, `SkinOffered`, `SkinChosen` with no-refusal bus guard when `zengine.graphics` is absent) and desk chrome drawer (`workshop_window_drawing` in `workshop/screen_compose.cpp` projecting the same planes `paint` composes — `Layouts`, external pane borders/headers with `*`/`?` actions and waiting/refused fallback, arrangement rings, menus, and bottom band — onto `"zengine.workshop"` via `WindowDrawing`).
+- **Stage 5B (`#303`, `44a8bc2`, [prompt](../../../../prompts/graphics-stage-5b-window-drawing-and-caret.md), [report](../../../../reportbacks/graphics-stage-5b-window-drawing-and-caret-RB.md)):** Moving caret bar (`"caret"`) and selection highlight runs (`"sel<r>.<run>"`) into `ws::rows_drawing` (`workshop/pane_drawing.hpp`), passing `caret_` from `PaneRowsFacet::send` so `Terminal` and `Composer` draw their caret and selection in a graphics window, and folding `EditorWindow` (`editor/office_seam.hpp`, 720 → 595 lines), `FlowPane` (`flow/flow-pane/pane.cpp`), and `ViewBuilderPane` (`view/view-builder/pane.cpp`) onto `ws::WindowDrawing`.
+- **Stage 5C (`#305`, `2ab3de0`, [prompt](../../../../prompts/graphics-stage-5c-point-reader-unsettled-and-story-journey.md), [report](../../../../reportbacks/graphics-stage-5c-point-reader-unsettled-and-story-journey-RB.md)):** Teaching `Hand.row`, `Hand.pointed`, and `Hand.lattice_point` (`external-host/tools/workshop/hand.py` via shared `Hand.aimed` and `no_settled_picture`, covering both canvas `"no settled picture"` and text `"no settled text picture"`) to wait through unsettled pictures alongside `"picture moved"`, and fixing the `tests/session/story_journey.py` U2 (`unresolved_runs`) startup status race on slow Windows runners.
 
 **Wave 11 — BL-WORK-37 Stage 6: Live Window Extent & Text Input, Seat Caret & `view::View` on `WindowDrawing`, and `builder`/`monitor` Aimed Retry (CLOSED 2026-10-18 — `#306` `1d11677`, `#307` `7b1ab14`, `#308` `238bb70`):**
-- **Stage 6A (`#308`, `238bb70`, [prompt](../../prompts/graphics-stage-6a-window-extent-text-and-overlays.md), [report](../../reportbacks/graphics-stage-6a-window-extent-text-and-overlays-RB.md)):** Staging `zengine-graphics`, `zengine-window-terminal`, `zengine-paint-classic`, and `zengine-paint-block` in `workshop/CMakeLists.txt` and `cmake/ZengineInstall.cmake` (verified by `tests/package/CMakeLists.txt`); emitting `TextEntered` from `graphics::window::WindowBase` (`graphics/window/window.hpp`), forwarding `TextEntered` in `WindowT::on_pump` via `to_keys` to areas with `keys == true`, and publishing `WindowOffered` as `office()` in `WindowT::offer`; teaching `WorkshopWeave` (`workshop/weave_handlers.cpp`) to accept `WindowOffered` for session startup and cell-grid resize when no skin is mounted, keeping `keys = true` on `kWorkshopProvider` and `keys = false` on pane areas in `arrange_graphics`, and projecting the `[value]` drag pill and guest `guide_layer` overlay in `workshop_window_drawing` (`workshop/screen_compose.cpp`) with `kWorkshopProvider` raised in front while an overlay stands.
-- **Stage 6B (`#307`, `7b1ab14`, [prompt](../../prompts/graphics-stage-6b-seat-caret-and-view-window-drawing.md), [report](../../reportbacks/graphics-stage-6b-seat-caret-and-view-window-drawing-RB.md)):** Teaching `PaneCanvasSeat` (`workshop/pane_seat.hpp`) to retain `said_caret_` in `say` and pass it to `ws::rows_drawing` in `redraw` so multi-pane seats draw their caret and selection in a graphics window; teaching `view::sketch` (`view/view.hpp`) to draw the `"caret"` line node for a focused number field; and replacing `view::View`'s hand-rolled `graphics::Canvas` + `whole_next_`/`last_whole_` state with `ws::WindowDrawing`.
-- **Stage 6C (`#306`, `1d11677`, [prompt](../../prompts/graphics-stage-6c-builder-monitor-aimed.md), [report](../../reportbacks/graphics-stage-6c-builder-monitor-aimed-RB.md)):** Routing `builder.calm`, `builder.keys_into` (`external-host/tools/workshop/builder.py`), and `Monitor.press_at` (`external-host/tools/workshop/monitor.py`) through `Hand.aimed` so `"no settled picture"` and `"no settled text picture"` are waited through alongside `"picture moved"`.
+- **Stage 6A (`#308`, `238bb70`, [prompt](../../../../prompts/graphics-stage-6a-window-extent-text-and-overlays.md), [report](../../../../reportbacks/graphics-stage-6a-window-extent-text-and-overlays-RB.md)):** Staging `zengine-graphics`, `zengine-window-terminal`, `zengine-paint-classic`, and `zengine-paint-block` in `workshop/CMakeLists.txt` and `cmake/ZengineInstall.cmake` (verified by `tests/package/CMakeLists.txt`); emitting `TextEntered` from `graphics::window::WindowBase` (`graphics/window/window.hpp`), forwarding `TextEntered` in `WindowT::on_pump` via `to_keys` to areas with `keys == true`, and publishing `WindowOffered` as `office()` in `WindowT::offer`; teaching `WorkshopWeave` (`workshop/weave_handlers.cpp`) to accept `WindowOffered` for session startup and cell-grid resize when no skin is mounted, keeping `keys = true` on `kWorkshopProvider` and `keys = false` on pane areas in `arrange_graphics`, and projecting the `[value]` drag pill and guest `guide_layer` overlay in `workshop_window_drawing` (`workshop/screen_compose.cpp`) with `kWorkshopProvider` raised in front while an overlay stands.
+- **Stage 6B (`#307`, `7b1ab14`, [prompt](../../../../prompts/graphics-stage-6b-seat-caret-and-view-window-drawing.md), [report](../../../../reportbacks/graphics-stage-6b-seat-caret-and-view-window-drawing-RB.md)):** Teaching `PaneCanvasSeat` (`workshop/pane_seat.hpp`) to retain `said_caret_` in `say` and pass it to `ws::rows_drawing` in `redraw` so multi-pane seats draw their caret and selection in a graphics window; teaching `view::sketch` (`view/view.hpp`) to draw the `"caret"` line node for a focused number field; and replacing `view::View`'s hand-rolled `graphics::Canvas` + `whole_next_`/`last_whole_` state with `ws::WindowDrawing`.
+- **Stage 6C (`#306`, `1d11677`, [prompt](../../../../prompts/graphics-stage-6c-builder-monitor-aimed.md), [report](../../../../reportbacks/graphics-stage-6c-builder-monitor-aimed-RB.md)):** Routing `builder.calm`, `builder.keys_into` (`external-host/tools/workshop/builder.py`), and `Monitor.press_at` (`external-host/tools/workshop/monitor.py`) through `Hand.aimed` so `"no settled picture"` and `"no settled text picture"` are waited through alongside `"picture moved"`.
 
 **Wave 12 — BL-WORK-37 Stage 7 Wrap-Up: Shipped Window Load Plan & SDK Install, Live Terminal Resize, and `builder.choose`/`Monitor.rows`/`act.aimed` Unification (CLOSED 2026-10-18 — `#309` `7ed868c`, `#310` `5918a4b`, `#311` `5926167`):**
-- **Stage 7A (`#311`, `5926167`, [prompt](../../prompts/graphics-stage-7a-window-load-plan-and-sdk-install.md), [report](../../reportbacks/graphics-stage-7a-window-load-plan-and-sdk-install-RB.md)):** Shipped `workshop/window-load-plan.json` (`zengine-graphics` + `zengine-window-terminal`, `kWindowLoadPlanName`, staged in `workshop/CMakeLists.txt`, documented in `workshop/README.md`, `workshop/docs/load-plans.md`, and `workshop/docs/load-plan.md`, and proven in `tests/test_workshop_load.cpp`), plus exporting `zengine::graphics` (`zengine-graphics-vocabulary` and the 20 public `graphics/` and `graphics/elements/` headers) in `graphics/CMakeLists.txt`, `cmake/ZengineInstall.cmake`, `agents/packaging.md`, `tests/package/CMakeLists.txt`, and `tests/package/public_surface.cpp`.
-- **Stage 7B (`#310`, `5918a4b`, [prompt](../../prompts/graphics-stage-7b-window-terminal-resize.md), [report](../../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md)):** Live terminal resize detection on `zengine.window.pump` in `zengine.window.terminal` (`graphics/window/window.hpp` and `graphics/docs/zengine.window.terminal.md`), marking the resized window dirty and re-publishing `WindowOffered` with the new `cols` and `rows` under the same `epoch`, proven in `tests/test_graphics.cpp`.
-- **Stage 7C (`#309`, `7ed868c`, [prompt](../../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md), [report](../../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed-RB.md)):** Routing `builder.choose` (`external-host/tools/workshop/builder.py`) through `pressing(ctx, hand)` and `Monitor.rows` (`external-host/tools/workshop/monitor.py`) through `DeskStamps` settled-picture waiting (both with an open `Hand` and as a watching-only `_Asker`), plus deduplicating `act.aimed` (`external-host/tools/workshop/act.py`) onto `hand.aimed`, proven in `tests/session/workshop_tool_checks.py`.
+- **Stage 7A (`#311`, `5926167`, [prompt](../../../../prompts/graphics-stage-7a-window-load-plan-and-sdk-install.md), [report](../../../../reportbacks/graphics-stage-7a-window-load-plan-and-sdk-install-RB.md)):** Shipped `workshop/window-load-plan.json` (`zengine-graphics` + `zengine-window-terminal`, `kWindowLoadPlanName`, staged in `workshop/CMakeLists.txt`, documented in `workshop/README.md`, `workshop/docs/load-plans.md`, and `workshop/docs/load-plan.md`, and proven in `tests/test_workshop_load.cpp`), plus exporting `zengine::graphics` (`zengine-graphics-vocabulary` and the 20 public `graphics/` and `graphics/elements/` headers) in `graphics/CMakeLists.txt`, `cmake/ZengineInstall.cmake`, `agents/packaging.md`, `tests/package/CMakeLists.txt`, and `tests/package/public_surface.cpp`.
+- **Stage 7B (`#310`, `5918a4b`, [prompt](../../../../prompts/graphics-stage-7b-window-terminal-resize.md), [report](../../../../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md)):** Live terminal resize detection on `zengine.window.pump` in `zengine.window.terminal` (`graphics/window/window.hpp` and `graphics/docs/zengine.window.terminal.md`), marking the resized window dirty and re-publishing `WindowOffered` with the new `cols` and `rows` under the same `epoch`, proven in `tests/test_graphics.cpp`.
+- **Stage 7C (`#309`, `7ed868c`, [prompt](../../../../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md), [report](../../../../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed-RB.md)):** Routing `builder.choose` (`external-host/tools/workshop/builder.py`) through `pressing(ctx, hand)` and `Monitor.rows` (`external-host/tools/workshop/monitor.py`) through `DeskStamps` settled-picture waiting (both with an open `Hand` and as a watching-only `_Asker`), plus deduplicating `act.aimed` (`external-host/tools/workshop/act.py`) onto `hand.aimed`, proven in `tests/session/workshop_tool_checks.py`.
 
 **Wave 13 — BL-WORK-37 Stage 7 Follow-Up Polish: Settled `stdout` Banner Suppression Over Terminal Media & Guest Input Sessions Under `window-load-plan.json` (CLOSED 2026-10-18 — `#312` `bd8e31c`, `#313` `5b180eb`):**
-- **Stage 7D (`#312`, `bd8e31c`, [prompt](../../prompts/graphics-stage-7d-settled-banner-and-window-plan.md), [report](../../reportbacks/graphics-stage-7d-settled-banner-and-window-plan-RB.md)):** Suppressing the settled `stdout` arrangement banner (`load::medium_holds_terminal` in `workshop/load_execute.hpp` and `workshop/workshop.cpp`) when a terminal medium holds a measured terminal so `loaded:` lines do not scroll or smear `zengine-window-terminal`, adding `zengine-input` (`zengine.input`) to `workshop/window-load-plan.json` for guest input sessions, and closing the doc gaps in `workshop/docs/load-plans.md`, `workshop/docs/load-plan.md`, `workshop/docs/getting-started.md`, and `cheat_sheet.md`.
-- **Stage 7E (`#313`, `5b180eb`, [prompt](../../prompts/graphics-stage-7e-window-terminal-input-yield.md), [report](../../reportbacks/graphics-stage-7e-window-terminal-input-yield-RB.md)):** Process-scoped PID+refcount terminal-input claim (`claim_window_terminal_input`, `release_window_terminal_input`, `window_holds_terminal_input`, `terminal_reader_may_use_terminal` in `input/terminal_reader.hpp` and `ProcessTerminal` in `graphics/window/window.cpp`) so `zengine-input` yields `stdin` when `zengine-window-terminal` holds the terminal while still serving guest input sessions, plus closing the `WindowOffered` resize doc gap in `graphics/docs/zengine.graphics.md`.
+- **Stage 7D (`#312`, `bd8e31c`, [prompt](../../../../prompts/graphics-stage-7d-settled-banner-and-window-plan.md), [report](../../../../reportbacks/graphics-stage-7d-settled-banner-and-window-plan-RB.md)):** Suppressing the settled `stdout` arrangement banner (`load::medium_holds_terminal` in `workshop/load_execute.hpp` and `workshop/workshop.cpp`) when a terminal medium holds a measured terminal so `loaded:` lines do not scroll or smear `zengine-window-terminal`, adding `zengine-input` (`zengine.input`) to `workshop/window-load-plan.json` for guest input sessions, and closing the doc gaps in `workshop/docs/load-plans.md`, `workshop/docs/load-plan.md`, `workshop/docs/getting-started.md`, and `cheat_sheet.md`.
+- **Stage 7E (`#313`, `5b180eb`, [prompt](../../../../prompts/graphics-stage-7e-window-terminal-input-yield.md), [report](../../../../reportbacks/graphics-stage-7e-window-terminal-input-yield-RB.md)):** Process-scoped PID+refcount terminal-input claim (`claim_window_terminal_input`, `release_window_terminal_input`, `window_holds_terminal_input`, `terminal_reader_may_use_terminal` in `input/terminal_reader.hpp` and `ProcessTerminal` in `graphics/window/window.cpp`) so `zengine-input` yields `stdin` when `zengine-window-terminal` holds the terminal while still serving guest input sessions, plus closing the `WindowOffered` resize doc gap in `graphics/docs/zengine.graphics.md`.
 
 **Wave 14 — BL-WORK-36 Stage 2A, Keyboard Focus, & `surface/` Retirement Stage S1 (`zengine-window-sdl` + Severing `graphics/` from `surface/`) (CLOSED 2026-10-18 — `#314` `93376b1`, `#315` `ef07fb1`, `#316` `681abe6`):**
-- **Lane 14A (`#315`, `ef07fb1`, [prompt](../../prompts/settings-stage-2-doors.md), [report](../../reportbacks/settings-stage-2-doors-RB.md)):** `v2::PaneSettingRow` (`tags`, `pinned`, `summary`), `v2::PaneSettingsDeclared`, `v2::PaneSettings` (`revision`), `workshop/settings_seam_vocabulary.hpp` (`PaneSettingsRequested`, `PaneSettingsShown`, `PaneSettingCommitRequested`, `PaneSettingActed`, `PaneSettingUnused`, `SettingLockShown`), `P-WORK-61` incarnation-based reload settings reset in `accept_pane_offer`, `"settings"` guest power in `workshop-guests.json`, `act.py settings` CLI step, and `Terminal` upgraded to `v2::PaneSettingsDeclared` & `v2::PaneSettings` (`legend`, `wheel-rows`, `prompt`).
-- **Lane 14B (`#314`, `93376b1`, [prompt](../../prompts/keyboard-focus.md), [report](../../reportbacks/keyboard-focus-RB.md)):** Eight remappable `focus.*` actions in `workshop/keymap.hpp` (`focus.leave` `ctrl+q` in `KeyContext::kGlobal`, and `focus.next` `tab`, `focus.previous` `shift+tab`, `focus.left`/`right`/`up`/`down` arrows, and `focus.enter` `return` in `KeyContext::kCommand`), pure `selectable_panes`, `cycle_pane`, and `spatial_neighbour` helpers in `workshop/screen.hpp` / `workshop/screen_arrange.cpp`, medium-aware command-mode selection highlight in `workshop/screen_compose.cpp`, and keyboard-only pane entry (`WL-FOCUS-04`) and trap-free exit closing WCAG 2.1.1 G1 and 2.1.2 G2.
-- **Lane 14C (`#316`, `681abe6`, [prompt](../../prompts/surface-retire-s1-window-sdl.md), [report](../../reportbacks/surface-retire-s1-window-sdl-RB.md)):** Severs `graphics/` completely from `surface/` (moving canonical `role` constants into `graphics/role.hpp` and terminal I/O + size into `graphics/window/terminal_io.hpp`, removing `zengine-surface-vocabulary` from `zengine-graphics-vocabulary` with `VM-WALL-11` tripwire), unifies `Window<Medium>` over `TerminalMedium` and `LightMedium`, ships the pixel/light painter (`graphics/light_paint.hpp`) and light skins (`zengine-paint-day` and `zengine-paint-night`) over `ZenginePainterV1` with zero new `ZEN_SHAPE`s, and ships `zengine-window-sdl` (`zengine.window.sdl` in `graphics/window/window_sdl.hpp` and `graphics/window/window_sdl.cpp` with `graphics/docs/zengine.window.sdl.md`).
+- **Lane 14A (`#315`, `ef07fb1`, [prompt](../../../../prompts/settings-stage-2-doors.md), [report](../../../../reportbacks/settings-stage-2-doors-RB.md)):** `v2::PaneSettingRow` (`tags`, `pinned`, `summary`), `v2::PaneSettingsDeclared`, `v2::PaneSettings` (`revision`), `workshop/settings_seam_vocabulary.hpp` (`PaneSettingsRequested`, `PaneSettingsShown`, `PaneSettingCommitRequested`, `PaneSettingActed`, `PaneSettingUnused`, `SettingLockShown`), `P-WORK-61` incarnation-based reload settings reset in `accept_pane_offer`, `"settings"` guest power in `workshop-guests.json`, `act.py settings` CLI step, and `Terminal` upgraded to `v2::PaneSettingsDeclared` & `v2::PaneSettings` (`legend`, `wheel-rows`, `prompt`).
+- **Lane 14B (`#314`, `93376b1`, [prompt](../../../../prompts/keyboard-focus.md), [report](../../../../reportbacks/keyboard-focus-RB.md)):** Eight remappable `focus.*` actions in `workshop/keymap.hpp` (`focus.leave` `ctrl+q` in `KeyContext::kGlobal`, and `focus.next` `tab`, `focus.previous` `shift+tab`, `focus.left`/`right`/`up`/`down` arrows, and `focus.enter` `return` in `KeyContext::kCommand`), pure `selectable_panes`, `cycle_pane`, and `spatial_neighbour` helpers in `workshop/screen.hpp` / `workshop/screen_arrange.cpp`, medium-aware command-mode selection highlight in `workshop/screen_compose.cpp`, and keyboard-only pane entry (`WL-FOCUS-04`) and trap-free exit closing WCAG 2.1.1 G1 and 2.1.2 G2.
+- **Lane 14C (`#316`, `681abe6`, [prompt](../../../../prompts/surface-retire-s1-window-sdl.md), [report](../../../../reportbacks/surface-retire-s1-window-sdl-RB.md)):** Severs `graphics/` completely from `surface/` (moving canonical `role` constants into `graphics/role.hpp` and terminal I/O + size into `graphics/window/terminal_io.hpp`, removing `zengine-surface-vocabulary` from `zengine-graphics-vocabulary` with `VM-WALL-11` tripwire), unifies `Window<Medium>` over `TerminalMedium` and `LightMedium`, ships the pixel/light painter (`graphics/light_paint.hpp`) and light skins (`zengine-paint-day` and `zengine-paint-night`) over `ZenginePainterV1` with zero new `ZEN_SHAPE`s, and ships `zengine-window-sdl` (`zengine.window.sdl` in `graphics/window/window_sdl.hpp` and `graphics/window/window_sdl.cpp` with `graphics/docs/zengine.window.sdl.md`).
 
 **Wave 15 — BL-WORK-36 Stage 2B (Tags, Pins & Office Settings), Stage 2C (Pane Setting Promotions), & `surface/` Retirement Stages S2 & S3A (CLOSED 2026-10-18 — `#317` `8581d35`, `#318` `d1f6adf`, `#319` `6e5a130`, `#320` `4f96d69`):**
-- **Lane 15A (`#319`, `6e5a130`, [prompt](../../prompts/settings-stage-2b-tags-and-pins.md), [follow-up](../../prompts/settings-stage-2b-drop-info.md), [report](../../reportbacks/settings-stage-2b-tags-and-pins-RB.md)):** `WorkshopPrefs` v3 (`offices`, `pins`, `locks` with corrupt-file and two-hands byte guard), `OfficeSettings*` and `PaneSettingPin*` doors in `workshop/settings_seam_vocabulary.hpp` / `workshop/weave_settings.cpp`, Workshop's 5 office settings (`workshop.pane-titles`, `workshop.band-keys`, `workshop.hotkeys-keys`, `workshop.pinned-scope`, `workshop.focus.ring`), and pure `component/tab_strip.hpp` (with `Info` untouched so settings editing lives in the Gear Overlay and Settings Studio).
-- **Lane 15B (`#318`, `d1f6adf`, [prompt](../../prompts/settings-stage-2c-pane-promotions.md), [report](../../reportbacks/settings-stage-2c-pane-promotions-RB.md)):** Promotes the scraped per-pane constants across seven pane weaves (`Desktop/Hotkeys` `help`; `Editor` `tab-width`, `status`, `wheel-lines`, `undo-depth`; `Neovim` `profile`, `status`; `Files` `wheel-rows`, `listed-entries`; `Attention` `detail`; `Introspection/Powers` `view-columns`, `composite-columns`, `gap`; `View Builder` `snap-reach`, `new-width`, `new-height`) onto `v2::PaneSettingsDeclared`, `v2::PaneSettings`, and `PaneSettingUnused` via shared `workshop/pane_settings_taken.hpp`.
-- **Lane 15C (`#317`, `8581d35`, [prompt](../../prompts/surface-retire-s2-window-input-and-close.md), [report](../../reportbacks/surface-retire-s2-window-input-and-close-RB.md)):** Completes `KeyReleased`, `PointerButton` (buttons 1/2/3 press and release), `PointerMoved`, `PointerWheel`, and close-request tracking across `Window<Medium>` (`graphics/window/window.hpp`), `zengine-window-sdl` (`graphics/window/window_sdl.cpp` via `input/translate_sdl_core.hpp`), and `zengine-window-terminal`, plus process-scoped `ZENGINE_WINDOW_SDL_INPUT_PID` queue yield in `input/window_claim.hpp` and `input/input_sdl.cpp` with zero new `ZEN_SHAPE`s.
-- **Stage S3A (`#320`, `4f96d69`, [prompt](../../prompts/surface-retire-s3a-window-medium-parity.md), [report](../../reportbacks/surface-retire-s3a-window-medium-parity-RB.md)):** Desktop window placement & display clamping (`WindowPlacementValue`, `DesktopSpan`, `DesktopPoint`, `placement_within`, `centred_within`, `grown_within`, `placement()`, `place()`), clipboard copy & paste (`terminal_base64`, `terminal_clipboard_sequence` OSC 52, `SDL_SetClipboardText`, `SDL_HasClipboardText`/`SDL_GetClipboardText`, `clipboard_copy()`, `clipboard_text()`), and presented picture capture (`CapturedWindowPicture`, `text/cells` on `TerminalMedium`, 24-bit bottom-up BMP `bmp_of_bgr24` via `SDL_RenderReadPixels` + `SDL_ConvertSurface` on `LightMedium` / `ProcessSdlBackend`).
+- **Lane 15A (`#319`, `6e5a130`, [prompt](../../../../prompts/settings-stage-2b-tags-and-pins.md), [follow-up](../../../../prompts/settings-stage-2b-drop-info.md), [report](../../../../reportbacks/settings-stage-2b-tags-and-pins-RB.md)):** `WorkshopPrefs` v3 (`offices`, `pins`, `locks` with corrupt-file and two-hands byte guard), `OfficeSettings*` and `PaneSettingPin*` doors in `workshop/settings_seam_vocabulary.hpp` / `workshop/weave_settings.cpp`, Workshop's 5 office settings (`workshop.pane-titles`, `workshop.band-keys`, `workshop.hotkeys-keys`, `workshop.pinned-scope`, `workshop.focus.ring`), and pure `component/tab_strip.hpp` (with `Info` untouched so settings editing lives in the Gear Overlay and Settings Studio).
+- **Lane 15B (`#318`, `d1f6adf`, [prompt](../../../../prompts/settings-stage-2c-pane-promotions.md), [report](../../../../reportbacks/settings-stage-2c-pane-promotions-RB.md)):** Promotes the scraped per-pane constants across seven pane weaves (`Desktop/Hotkeys` `help`; `Editor` `tab-width`, `status`, `wheel-lines`, `undo-depth`; `Neovim` `profile`, `status`; `Files` `wheel-rows`, `listed-entries`; `Attention` `detail`; `Introspection/Powers` `view-columns`, `composite-columns`, `gap`; `View Builder` `snap-reach`, `new-width`, `new-height`) onto `v2::PaneSettingsDeclared`, `v2::PaneSettings`, and `PaneSettingUnused` via shared `workshop/pane_settings_taken.hpp`.
+- **Lane 15C (`#317`, `8581d35`, [prompt](../../../../prompts/surface-retire-s2-window-input-and-close.md), [report](../../../../reportbacks/surface-retire-s2-window-input-and-close-RB.md)):** Completes `KeyReleased`, `PointerButton` (buttons 1/2/3 press and release), `PointerMoved`, `PointerWheel`, and close-request tracking across `Window<Medium>` (`graphics/window/window.hpp`), `zengine-window-sdl` (`graphics/window/window_sdl.cpp` via `input/translate_sdl_core.hpp`), and `zengine-window-terminal`, plus process-scoped `ZENGINE_WINDOW_SDL_INPUT_PID` queue yield in `input/window_claim.hpp` and `input/input_sdl.cpp` with zero new `ZEN_SHAPE`s.
+- **Stage S3A (`#320`, `4f96d69`, [prompt](../../../../prompts/surface-retire-s3a-window-medium-parity.md), [report](../../../../reportbacks/surface-retire-s3a-window-medium-parity-RB.md)):** Desktop window placement & display clamping (`WindowPlacementValue`, `DesktopSpan`, `DesktopPoint`, `placement_within`, `centred_within`, `grown_within`, `placement()`, `place()`), clipboard copy & paste (`terminal_base64`, `terminal_clipboard_sequence` OSC 52, `SDL_SetClipboardText`, `SDL_HasClipboardText`/`SDL_GetClipboardText`, `clipboard_copy()`, `clipboard_text()`), and presented picture capture (`CapturedWindowPicture`, `text/cells` on `TerminalMedium`, 24-bit bottom-up BMP `bmp_of_bgr24` via `SDL_RenderReadPixels` + `SDL_ConvertSurface` on `LightMedium` / `ProcessSdlBackend`).
 
 **Wave 16 — `surface/` Retirement Stage S3B (Window Bus Doors) & BL-WORK-36 Stage 2D (Workshop Setting Promotions) (CLOSED 2026-10-19 — `#321` `a7b7aa1`, `#322` `98672c4`):**
-- **Lane 16A (`#322`, `98672c4`, [prompt](../../prompts/surface-retire-s3b-window-bus-doors.md), [report](../../reportbacks/surface-retire-s3b-window-bus-doors-RB.md)):** Moves `ClipboardCopy`, `ClipboardTextRequested`, `ClipboardText`, `SurfaceCloseRequested`, `SurfacePlacement`, `SurfacePlacementRemembered`, `SurfaceCaptureRequested`, `SurfaceCaptured`, `SurfaceCaptureChunkRequested`, `SurfaceCaptureChunk`, `PumpSurface`, `kCaptureChunkBytes`, and `kMaxCaptureBytes` into `graphics/vocabulary.hpp` (`namespace zengine::graphics`) with `using` aliases in `surface/vocabulary.hpp` (zero `ZEN_SHAPE` changes in `tests/shapes.txt`), and wires all of those bus doors into `Window<Medium>` (`graphics/window/window.hpp`) for both `zengine.window.terminal` and `zengine.window.sdl`.
-- **Lane 16B (`#321`, `a7b7aa1`, [prompt](../../prompts/settings-stage-2d-workshop-promotions.md), [report](../../reportbacks/settings-stage-2d-workshop-promotions-RB.md)):** Promotes the 6 Workshop settings in `workshop_office_rows()` (`workshop/prefs_persist.hpp`): `workshop.skin` (`"classic"` or `"block"`, both Workshop-wide in `prefs_` and per-pane on `SetupPane::settings` for `arrange_graphics`, with `row_setting_absence` keeping `"classic"` explicitly on a pane row so a pane can wear `"classic"` under a Workshop-wide `"block"`), `workshop.completion-order` (`"declared"` or `"required-first"`, closing the Terminal completion line of `P-LOOM-10` in `terminal/complete.hpp` & `terminal/door.hpp`), `workshop.arrange-step` (`2..16` cells), `workshop.snap-reach` (`6..11` px), `workshop.side-columns` (`16..64` cells), and `workshop.stack-rows` (`5..40` rows, narrowing `P-WORK-01`).
+- **Lane 16A (`#322`, `98672c4`, [prompt](../../../../prompts/surface-retire-s3b-window-bus-doors.md), [report](../../../../reportbacks/surface-retire-s3b-window-bus-doors-RB.md)):** Moves `ClipboardCopy`, `ClipboardTextRequested`, `ClipboardText`, `SurfaceCloseRequested`, `SurfacePlacement`, `SurfacePlacementRemembered`, `SurfaceCaptureRequested`, `SurfaceCaptured`, `SurfaceCaptureChunkRequested`, `SurfaceCaptureChunk`, `PumpSurface`, `kCaptureChunkBytes`, and `kMaxCaptureBytes` into `graphics/vocabulary.hpp` (`namespace zengine::graphics`) with `using` aliases in `surface/vocabulary.hpp` (zero `ZEN_SHAPE` changes in `tests/shapes.txt`), and wires all of those bus doors into `Window<Medium>` (`graphics/window/window.hpp`) for both `zengine.window.terminal` and `zengine.window.sdl`.
+- **Lane 16B (`#321`, `a7b7aa1`, [prompt](../../../../prompts/settings-stage-2d-workshop-promotions.md), [report](../../../../reportbacks/settings-stage-2d-workshop-promotions-RB.md)):** Promotes the 6 Workshop settings in `workshop_office_rows()` (`workshop/prefs_persist.hpp`): `workshop.skin` (`"classic"` or `"block"`, both Workshop-wide in `prefs_` and per-pane on `SetupPane::settings` for `arrange_graphics`, with `row_setting_absence` keeping `"classic"` explicitly on a pane row so a pane can wear `"classic"` under a Workshop-wide `"block"`), `workshop.completion-order` (`"declared"` or `"required-first"`, closing the Terminal completion line of `P-LOOM-10` in `terminal/complete.hpp` & `terminal/door.hpp`), `workshop.arrange-step` (`2..16` cells), `workshop.snap-reach` (`6..11` px), `workshop.side-columns` (`16..64` cells), and `workshop.stack-rows` (`5..40` rows, narrowing `P-WORK-01`).
 
 **Wave 17 — `surface/` Retirement Stage S4A (Window Routing & SDL Window Plan) & BL-WORK-36 Stage 3A (Theme Files, Composite DAG Resolution & Settings Vocabulary) (CLOSED 2026-10-19 — `#323` `5c06cfd`, `#324` `6ebc035`):**
-- **Lane 17A (`#324`, `6ebc035`, [prompt](../../prompts/surface-retire-s4a-window-routing-and-sdl-plan.md), [report](../../reportbacks/surface-retire-s4a-window-routing-and-sdl-plan-RB.md)):** Accepts `zengine.window.sdl` in `WorkshopWeave::on(const graphics::WindowOffered&)` and places areas on `window_name_`; offers all four painter skins (`"classic"`, `"block"`, `"day"`, `"night"`) and widens `workshop.skin` choices; ships `workshop/sdl-window-load-plan.json` (loading `zengine-window-sdl` + `zengine-input-sdl`); routes `ClipboardTextRequested` and `SurfacePlacementRemembered` in Workshop (`medium_office()`) and 5 pasting panes (`Editor`, `Neovim`, `Terminal`, `Composer`, `Info` via `WindowDrawing::clipboard_office()`) to the active window or Skin; and widens `kPowerCapture` and `external-host/tools/workshop/` (`workshop_steps.py`, `inspect_capture.py`) to capture from `zengine.window.sdl` and `zengine.window.terminal` as well as `zengine.skin`.
-- **Lane 17B (`#323`, `5c06cfd`, [prompt](../../prompts/settings-stage-3a-theme-files-and-resolution.md), [report](../../reportbacks/settings-stage-3a-theme-files-and-resolution-RB.md)):** Establishes `settings/` (`settings/theme_persist.hpp`, `settings/vocabulary.hpp`, `zengine-settings-vocabulary`): `zengine-theme` v1 durable format (`ThemeSetting`, `ThemeKey`, `ThemeFile`) with envelope-first admission, entry/target validation, canonical sorting, atomic `save_file` with two-hands `expected_bytes` + `replace` guard, `list_themes` (surfacing broken files by their refusal), deterministic 64-bit FNV-1a `theme_fingerprint`, composite DAG `resolve_theme` with cycle/depth/visited/entry bounds and `"later wins"` `from_theme` provenance, and all 20 `zengine.settings` v1 shapes (`settings_themes` suite, 18/18 cases, 26/26 mutants).
+- **Lane 17A (`#324`, `6ebc035`, [prompt](../../../../prompts/surface-retire-s4a-window-routing-and-sdl-plan.md), [report](../../../../reportbacks/surface-retire-s4a-window-routing-and-sdl-plan-RB.md)):** Accepts `zengine.window.sdl` in `WorkshopWeave::on(const graphics::WindowOffered&)` and places areas on `window_name_`; offers all four painter skins (`"classic"`, `"block"`, `"day"`, `"night"`) and widens `workshop.skin` choices; ships `workshop/sdl-window-load-plan.json` (loading `zengine-window-sdl` + `zengine-input-sdl`); routes `ClipboardTextRequested` and `SurfacePlacementRemembered` in Workshop (`medium_office()`) and 5 pasting panes (`Editor`, `Neovim`, `Terminal`, `Composer`, `Info` via `WindowDrawing::clipboard_office()`) to the active window or Skin; and widens `kPowerCapture` and `external-host/tools/workshop/` (`workshop_steps.py`, `inspect_capture.py`) to capture from `zengine.window.sdl` and `zengine.window.terminal` as well as `zengine.skin`.
+- **Lane 17B (`#323`, `5c06cfd`, [prompt](../../../../prompts/settings-stage-3a-theme-files-and-resolution.md), [report](../../../../reportbacks/settings-stage-3a-theme-files-and-resolution-RB.md)):** Establishes `settings/` (`settings/theme_persist.hpp`, `settings/vocabulary.hpp`, `zengine-settings-vocabulary`): `zengine-theme` v1 durable format (`ThemeSetting`, `ThemeKey`, `ThemeFile`) with envelope-first admission, entry/target validation, canonical sorting, atomic `save_file` with two-hands `expected_bytes` + `replace` guard, `list_themes` (surfacing broken files by their refusal), deterministic 64-bit FNV-1a `theme_fingerprint`, composite DAG `resolve_theme` with cycle/depth/visited/entry bounds and `"later wins"` `from_theme` provenance, and all 20 `zengine.settings` v1 shapes (`settings_themes` suite, 18/18 cases, 26/26 mutants).
 
 **Wave 18 — `surface/` Retirement Stage S4B (Remaining Paste Panes & Workshop Probe Capture Fallback) & BL-WORK-36 Stage 3B (Setting Locks & Cross-Layout Doors) (CLOSED 2026-10-19 -- `#325` `a50d6be`, `#326` `7cc0ec1`):**
-- **Lane 18A ([prompt](../../prompts/surface-retire-s4b-remaining-paste-panes-and-probe.md)):** Routes the remaining 4 clipboard-pasting panes (`BuilderPaneWeave::begin_paste` in `builder/builder-pane/pane.cpp`, `FilesWeave::begin_paste` in `files/files.cpp`, `PowersSeat::begin_clipboard_paste` in `introspection/seats.hpp`, and `HotkeysView::begin_paste`/`ask_refused` in `workshop/desktop-pane/hotkeys_view.hpp`) through `room().clipboard_office()` / `keys_canvas_.clipboard_office()` instead of hardcoded `surface::kSkinRole`, and teaches `examples/workshop-probe/probe.hpp` (`Step::Capture`) to try `zengine.skin`, `zengine.window.sdl`, and `zengine.window.terminal` in order on `kOutcomeDispatchRefused` so the probe captures cleanly under both legacy Skin and window plans.
-- **Lane 18B ([prompt](../../prompts/settings-stage-3b-locks-and-cross-layout-doors.md)):** Adds the 13 cross-layout and lock `ZEN_SHAPE`s in `workshop/settings_seam_vocabulary.hpp` (`PaneSettingLockRequested`, `PaneSettingLockActed`, `LayoutSettingsRequested`, `LayoutTheme`, `LayoutPaneSettings`, `LayoutSettings`, `DeclaredSettings`, `LayoutSettingsShown`, `SettingWrite`, `LayoutThemeWrite`, `SettingsWriteRequested`, `SettingWriteResult`, `SettingsWritten`); persists per-layout locks (`<office>/<pane>@<layout_name>` in `prefs_.locks`) and per-layout `LayoutTheme` baselines (`@<layout_name>` in `prefs_.offices`) in `WorkshopPrefs` v3 without bumping `WorkshopSetup` v5 or `WorkshopSession` v8; enforces layout and everywhere locks (and weaver-only unlock) across `PaneSettingCommitRequested`, `PaneCommitRequested`, `PaneSettingsShown`, and `SettingsWriteRequested`; implements `LayoutSettingsRequested` and whole-batch-validated `SettingsWriteRequested`; and widens Terminal + `"settings"` guest power.
+- **Lane 18A ([prompt](../../../../prompts/surface-retire-s4b-remaining-paste-panes-and-probe.md)):** Routes the remaining 4 clipboard-pasting panes (`BuilderPaneWeave::begin_paste` in `builder/builder-pane/pane.cpp`, `FilesWeave::begin_paste` in `files/files.cpp`, `PowersSeat::begin_clipboard_paste` in `introspection/seats.hpp`, and `HotkeysView::begin_paste`/`ask_refused` in `workshop/desktop-pane/hotkeys_view.hpp`) through `room().clipboard_office()` / `keys_canvas_.clipboard_office()` instead of hardcoded `surface::kSkinRole`, and teaches `examples/workshop-probe/probe.hpp` (`Step::Capture`) to try `zengine.skin`, `zengine.window.sdl`, and `zengine.window.terminal` in order on `kOutcomeDispatchRefused` so the probe captures cleanly under both legacy Skin and window plans.
+- **Lane 18B ([prompt](../../../../prompts/settings-stage-3b-locks-and-cross-layout-doors.md)):** Adds the 13 cross-layout and lock `ZEN_SHAPE`s in `workshop/settings_seam_vocabulary.hpp` (`PaneSettingLockRequested`, `PaneSettingLockActed`, `LayoutSettingsRequested`, `LayoutTheme`, `LayoutPaneSettings`, `LayoutSettings`, `DeclaredSettings`, `LayoutSettingsShown`, `SettingWrite`, `LayoutThemeWrite`, `SettingsWriteRequested`, `SettingWriteResult`, `SettingsWritten`); persists per-layout locks (`<office>/<pane>@<layout_name>` in `prefs_.locks`) and per-layout `LayoutTheme` baselines (`@<layout_name>` in `prefs_.offices`) in `WorkshopPrefs` v3 without bumping `WorkshopSetup` v5 or `WorkshopSession` v8; enforces layout and everywhere locks (and weaver-only unlock) across `PaneSettingCommitRequested`, `PaneCommitRequested`, `PaneSettingsShown`, and `SettingsWriteRequested`; implements `LayoutSettingsRequested` and whole-batch-validated `SettingsWriteRequested`; and widens Terminal + `"settings"` guest power.
 - **Reviewed by Vision and merged (2026-10-19):** `#325` (18A) and `#326` (18B). The founder took
   18B's storage as a stopgap (2026-10-19): a layout's locks, pins and baseline stay in Workshop's
   settings file under the layout's name until the desk split moves them into the layout.
@@ -158,9 +158,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   and tags the next `v0.1.N`, `v0.1.0` first, the version read from the tag rather than written in
   code (BL-ADOPT-06's stages cut to that). The week's most important deliverable (the founder,
   2026-10-22), so researched now rather than after G2, beside both lanes
-  ([prompt](../../prompts/alpha-package-research.md)): what a stranger downloads per platform, the
+  ([prompt](../../../../prompts/alpha-package-research.md)): what a stranger downloads per platform, the
   nightly job, a probe package walked, and stages the issue lane builds after the quick setup.
-  Reported ([report](../../reportbacks/alpha-package-research-RB.md)) and reviewed by Vision
+  Reported ([report](../../../../reportbacks/alpha-package-research-RB.md)) and reviewed by Vision
   (2026-10-23, 11 of 11 checks): `main` makes the package today, about 160 lines of install rules;
   Workshop started from the extracted folder with nothing installed, and an exported app ran from
   it and outlived Workshop; stages N0 to N10, the alpha's share N0 to N4 and N6. Decisions A to F
@@ -171,9 +171,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   the demos stay out (N7). The founder (2026-10-23): A to F and Vision's two additions, taken;
   D overturns the 10-10 decision 8 (only he pushing `v*` tags), which he had taken with the other
   fourteen at once and does not stand by: his merge is now the package's gate. The issue lane's
-  continuation ([prompt](../../prompts/issue-lane-alpha-package.md)): N1 to N4, N6 beside N2, N5
+  continuation ([prompt](../../../../prompts/issue-lane-alpha-package.md)): N1 to N4, N6 beside N2, N5
   if the week has room; his three settings before N4 merges. Overnight
-  ([report](../../reportbacks/issue-lane-alpha-package-RB.md)), reviewed by Vision (2026-10-23,
+  ([report](../../../../reportbacks/issue-lane-alpha-package-RB.md)), reviewed by Vision (2026-10-23,
   14 of 14 checks), each green at its first attempt and clean in sequence: #375 (the flake: a
   story root waits for Workshop's plan at rest before its first key, the race, not a longer
   wait), #377 (N1: `ZENGINE_PACKAGE`, the project in `%USERPROFILE%\Zengine`, the app's host
@@ -191,7 +191,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   checks); N3, #382, building. The founder merged all three (`main` `ccd7f5d5`) and took both
   decisions as (a), each with a condition: a press refused only where an entirely new element
   stands under the hand, never for a picture merely updated; the notice barring no threading
-  later. G2's follow-up ([prompt](../../prompts/graphics-only-g2-s6b-press-and-notice.md))
+  later. G2's follow-up ([prompt](../../../../prompts/graphics-only-g2-s6b-press-and-notice.md))
   carries both, with BL-WORK-46's first step. N4, #386, reviewed by Vision (2026-10-23, 12 of
   12 checks) and ready, the founder's three settings on (the default token was already
   read-only); the first night after it merges publishes `v0.1.0`, the publish job's first run.
@@ -200,10 +200,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   back; `AreaSettled` goes to arrangers that refuse it (the app host's, snake's), owed a small
   fix at the start of G2's next. The first night is read by the last
   round's session; the issue lane's round after the alpha is a new session's, written warm
-  ([prompt](../../prompts/issue-lane-after-the-alpha.md)): #341; the demo note's `KeyError` and a
+  ([prompt](../../../../prompts/issue-lane-after-the-alpha.md)): #341; the demo note's `KeyError` and a
   failed story run's folders kept by CI; N5 after the first publication (the founder's answer);
   the tag made last; BL-WORK-46's second step once #387 is on `main`. The founder merged #387
-  (`main` `416ed1ca`). G2's stage 7 ([prompt](../../prompts/graphics-only-g2-s7-skins-and-surface.md))
+  (`main` `416ed1ca`). G2's stage 7 ([prompt](../../../../prompts/graphics-only-g2-s7-skins-and-surface.md))
   opens with the settle notice reaching only the arrangers that hear it, a pull request of its
   own, then the stage as routing section 11 has it: the Skins and `zengine-input-sdl` retired,
   an old plan refused by name, the close the window's (D11), the status line gone,
@@ -218,18 +218,18 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   every pane's area `<office>.<pane>`; Workshop takes 82 kinds and sends 60; 28 files deleted),
   reviewed by Vision (2026-10-24, 9 of 10 checks): ready once rebased onto `main` and its
   package dry run walks #400's story green, two example comments D12 left stale fixed with it
-  ([continuation](../../prompts/graphics-only-g2-s7b-rebase.md)); rebased onto `5661e376` and
+  ([continuation](../../../../prompts/graphics-only-g2-s7b-rebase.md)); rebased onto `5661e376` and
   reviewed again (Vision, 2026-10-24, 8 of 8 checks): the four commits as they were, the fifth
   the examples' comments, CI green (59:51) and the dry run's judges walking the story (0:28,
   0:24) -- ready; merged (`2b48d263`). Its decision asked, a restored room smaller than the OS
   window, taken by the founder (2026-10-24): the restore shapes the window, in stage 8. Later:
   eight graphics shapes still named `Surface*`. Stage 8 prompted
-  ([continuation](../../prompts/graphics-only-g2-s8-window-choice.md), 2026-10-24): the window a
+  ([continuation](../../../../prompts/graphics-only-g2-s8-window-choice.md), 2026-10-24): the window a
   choice in the plan (format version 4), the launch's fallback to the terminal window saying
   why once, Workshop's own `--tui`, one shipped plan, and the restore shaping the OS window, a
   terminal run leaving its room as it was; the terminal launchers share the window's project
   (Vision's call); the exported app's plan is G2's to say. It is Zengine #403 (six commits,
-  the last `e7b1e93d`, [report](../../reportbacks/graphics-only-g2-s8-window-choice-RB.md)),
+  the last `e7b1e93d`, [report](../../../../reportbacks/graphics-only-g2-s8-window-choice-RB.md)),
   reviewed by Vision (2026-10-24, 18 of 18 checks): ready. A row's `otherwise` (format 4)
   loads the OS window, else the terminal window; the OS window refuses its own making where
   it cannot open; session format 10 keeps the OS window's room. The exported app keeps the OS
@@ -240,7 +240,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   refused making carries its words into the load's refusal (an ABI change: `create` has no
   channel for them), and the fallback says them on the desk. #403 merged (`99cb054e`): G2
   done. Then, the issue lane busy with its console round, the founder (2026-10-24) runs the
-  main thread as a second issue lane before D1 ([continuation](../../prompts/main-lane-before-d1.md)):
+  main thread as a second issue lane before D1 ([continuation](../../../../prompts/main-lane-before-d1.md)):
   the guest door's one asker (rows 86-87 (b), private, no issue), D1's design checked against
   `main` read-only (stopping for his word), and the Loom words, Zengine's follow-up after
   Loom's merge. Both lanes reported; reviewed by Vision (2026-10-24): #407 (the console, the
@@ -252,22 +252,22 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   says (the census calls `create`). #407 and #408 merge clean either way. Order: #407 and
   #408, then Loom #61, then Zengine's follow-up at once (census sink, three operator cases,
   the fallback's words), `main` red between. D1's check: three decisions asked
-  ([check](../../reportbacks/desk-split-research/check.md)). #407 (`20a96268`) and #408
+  ([check](../../../../reportbacks/desk-split-research/check.md)). #407 (`20a96268`) and #408
   (`20fb7e61`) merged, each body's sentence corrected at the merge; Zengine's follow-up
   prompted for once Loom #61 merges
-  ([continuation](../../prompts/main-lane-loom-words-follow-up.md)). The check's decision 1, taken
+  ([continuation](../../../../prompts/main-lane-loom-words-follow-up.md)). The check's decision 1, taken
   by the founder (2026-10-24) ahead of D1 and given to the issue lane: the session read a
   layout at a time -- format 11, one file, a header value and one value per layout, each
   its own decode, written whole by one replace; no field moved but the count, ids and the
   window file D1's; pushed only after the follow-up to Loom #61 merges
-  ([continuation](../../prompts/issue-lane-session-a-layout-at-a-time.md)), its issue #409. The
+  ([continuation](../../../../prompts/issue-lane-session-a-layout-at-a-time.md)), its issue #409. The
   check's decisions 2 and 3 wait for his word (3, riding D1's desk version, his leaning).
   Loom #61 merged (`1848fa1d`); Zengine's follow-up is #410 (`b557c391`,
-  [report](../../reportbacks/main-lane-loom-words-follow-up-RB.md)), reviewed by Vision
+  [report](../../../../reportbacks/main-lane-loom-words-follow-up-RB.md)), reviewed by Vision
   (2026-10-24, 11 of 11 checks): green against ABI 10, the desk saying SDL's own reason;
   ready, `main` red until it merges; the issue lane's session split then rebases and pushes.
   #410 merged (`0e4e1100`). The session split is #411 (`89f7977c`, issue #409,
-  [report](../../reportbacks/issue-lane-session-a-layout-at-a-time-RB.md)), reviewed by Vision
+  [report](../../../../reportbacks/issue-lane-session-a-layout-at-a-time-RB.md)), reviewed by Vision
   (2026-10-24, 11 of 11 checks): format 11 a header line and a line per layout (64 and 8,012
   cells at every bound), the whole in memory alone as `WorkshopSession` v11, Loom's
   conversion seam working within one shape's family; ready. Its seam for D1: the next format's
@@ -281,20 +281,20 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   console input and by its own expiry; a footgun, marked so. #411 merged (`7bda9f0b`). Decision 2
   taken (the founder, 2026-10-24): the remembered choices in the session's header, written by the
   layouts' owner from the host's reading handed at its mount; his switch weave after D1. D1
-  prompted, warm, for a fresh session ([prompt](../../prompts/desk-split-d1.md); the founder,
+  prompted, warm, for a fresh session ([prompt](../../../../prompts/desk-split-d1.md); the founder,
   2026-10-24: a new phase is prompted warm): one phase, one pull request, a commit a step; its
   two seams -- v11's lines read in the history, the window file's one import -- formed inside
   Zengine, Loom unchanged. L1, the layout solver, prompted to the issue lane beside it, warm
-  ([prompt](../../prompts/layout-modes-l1.md); item 2 below); #413 merged (`dbd03a22`).
+  ([prompt](../../../../prompts/layout-modes-l1.md); item 2 below); #413 merged (`dbd03a22`).
   D2 prompted to the issue lane and L2 to the main lane beside it, warm, both to start once D1
   merges (item 2 below).
   The founder's deep review (2026-10-24, `Zen/scratch/baseline-20261024/`) filed #418, the
   window's drawing store applying a dense update in quadratic work, and #419, the sanitizer
   job's Info and Project entries; checked by Vision against `f9018ad9`, both well formed, neither
   naming its Folders. #419 prompted to the issue lane, warm
-  ([prompt](../../prompts/issue-lane-419-sanitizer-profile.md)), measuring only; #418 waits on what
+  ([prompt](../../../../prompts/issue-lane-419-sanitizer-profile.md)), measuring only; #418 waits on what
   it finds, since dense drawings in the slow cases would make its fix a CI speedup too.
-  #419 reported (2026-10-25, [report](../../reportbacks/issue-lane-419-sanitizer-profile-RB.md),
+  #419 reported (2026-10-25, [report](../../../../reportbacks/issue-lane-419-sanitizer-profile-RB.md),
   findings on the issue): the `-j4` sanitizer tests are throughput-bound -- the sum of every
   entry over four -- so no split or reorder shortens them; Info's longest case is the desk's
   stamps laying the whole desk out per pane and per pane in front (655,835 layouts in one
@@ -302,10 +302,10 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   founder (2026-10-25); #418's apply under 1% of both; the build the larger half of the job.
   Reviewed by Vision (2026-10-25, 5 of 5 checks); one delete mid-work against rule 12,
   self-reported. #422 next in the issue lane, warm
-  ([prompt](../../prompts/issue-lane-422-desk-stamps.md)), once #421 merges. Doc gaps for later:
+  ([prompt](../../../../prompts/issue-lane-422-desk-stamps.md)), once #421 merges. Doc gaps for later:
   `AGENTS.md`'s floor set by the longest entry (now the sum over four), and doctest's
   `--duration` wrapping on WSL's stepped clock.
-  #422 reported (2026-10-25, [report](../../reportbacks/issue-lane-422-desk-stamps-RB.md)): #423
+  #422 reported (2026-10-25, [report](../../../../reportbacks/issue-lane-422-desk-stamps-RB.md)): #423
   green at `7ceda8e7` on `1c470497` -- one solve of the desk (`solve_desk`) answers `bounds_of`
   for its other callers and `desk_bounds` for the stamps, so a publish lays the desk out once
   (`laid_desk`), and once more through `desk_view` when the desk number is owed; nothing keeps a
@@ -321,28 +321,28 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   session; WASM for isolation alone, its "one allowed access to the C ABI for Loom"; and the
   session's Python tools encoded into Loom-only calls, `.zenscript`'s ground. Researched first,
   both warm: the Loom-only tools audit, building nothing
-  ([prompt](../../prompts/loom-only-tools-research.md)), then the WASM tier in the issue lane, its
-  probe building ([prompt](../../prompts/wasm-tier-research.md)). MCP after them, an experiment
+  ([prompt](../../../../prompts/loom-only-tools-research.md)), then the WASM tier in the issue lane, its
+  probe building ([prompt](../../../../prompts/wasm-tier-research.md)). MCP after them, an experiment
   outside both repositories for trusted agents first; an agent without a shell waits on both.
   Both reported (2026-10-25). The tools audit
-  ([report](../../reportbacks/loom-only-tools-research-RB.md)): 27 of 39 tools reach nothing but
+  ([report](../../../../reportbacks/loom-only-tools-research-RB.md)): 27 of 39 tools reach nothing but
   the bus and a clock, 12 the machine; a guest's script beside Workshop would act as the weaver
   (`workshop/actor_scope.hpp`), so it runs at the session host; 8 language forms and 7 doors;
   after every stage 2 tools stay Python, `repo` and `steps`. The WASM tier
-  ([report](../../reportbacks/wasm-tier-research-RB.md)): a Loom weave builds for WASM unchanged,
+  ([report](../../../../reportbacks/wasm-tier-research-RB.md)): a Loom weave builds for WASM unchanged,
   and one module answers through the gate on Linux and Windows, about 2 us a round trip over
   native, every door kept (B2's child answers nothing); a third loader in Loom's kernel,
   optional. Reviewed by Vision (2026-10-25, 21 of 21 checks across both). The founder
   (2026-10-25): a guest's script runs at the agent's host; WAMR probed before the loader stage,
   Wasmtime not yet chosen; S0a and S0b next, in the issue lane
-  ([prompt](../../prompts/issue-lane-tools-by-reach.md), warm); the rest stand as recommended.
+  ([prompt](../../../../prompts/issue-lane-tools-by-reach.md), warm); the rest stand as recommended.
   Found: Wasmtime is Tier 2 on MinGW, and MSYS2 builds it for ucrt64 and clang64, not the kit's
   mingw64; a box's office, sense and deferred doors are by construction until the tier's S3;
   ASan beside Wasmtime's traps untested. Scratch kept for remaking the numbers: 514 MB of the
   audit's clones, 250 MB of the WASM archives.
-  WAMR probed in the main lane, warm ([prompt](../../prompts/wamr-probe-research.md), 2026-10-25):
+  WAMR probed in the main lane, warm ([prompt](../../../../prompts/wamr-probe-research.md), 2026-10-25):
   the founder wants to know whether it is significantly impactful before the loader stage.
-  WAMR reported (2026-10-26, [report](../../reportbacks/wamr-probe-research-RB.md)), cut short at
+  WAMR reported (2026-10-26, [report](../../../../reportbacks/wamr-probe-research-RB.md)), cut short at
   the founder's word once its check-in answered him: it changes none of the calls -- Wasmtime
   in Loom's kernel, bounded by fuel. 21 to 51 times smaller and far quicker to load, its AOT
   about as fast, but its fast modes lose a weave's exceptions and a thread-free step bound, AOT
@@ -350,8 +350,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   the current exception form outside its slowest mode and a thread-free step bound in compiled
   code. Reviewed by Vision (2026-10-26, 8 of 8 checks). Wasmtime's choice is the founder's at
   the loader stage. The MCP adapter next, beside the lanes, building nothing (the founder,
-  2026-10-26; [prompt](../../prompts/mcp-elh-experiment.md), warm).
-  S0a and S0b reported (2026-10-26, [report](../../reportbacks/issue-lane-tools-by-reach-RB.md)):
+  2026-10-26; [prompt](../../../../prompts/mcp-elh-experiment.md), warm).
+  S0a and S0b reported (2026-10-26, [report](../../../../reportbacks/issue-lane-tools-by-reach-RB.md)):
   Loom #68 (`basics-machine`, and `tool_reach`, the reach check, in each repository), Zengine
   #426 (`workshop` 21 message tools, `workshop-machine` 11, `desk-machine` the reader and the
   watcher) and Loom #69 (`ArtifactRead`), each green on every job. Reviewed by Vision
@@ -359,32 +359,32 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   shares one error code, giving no one anything today; a ready issue (the founder). The founder
   merged #426 (`52851dc0`) and #69 (`6fae24d2`); #68 rebases overnight over one line of
   `docs/CONTEXT.md`, and the out/ fix follows, both in the issue lane
-  ([continuation](../../prompts/issue-lane-tools-by-reach-continued.md), hot), merged in the
+  ([continuation](../../../../prompts/issue-lane-tools-by-reach-continued.md), hot), merged in the
   morning. The MCP and notices prompts updated for the merges.
   The overnight round reported (2026-10-26): #68 rebased at `312e3e20`, and the out/ check filed
   as Loom #70 and fixed in #71 at `661cd9f6`, by whole path parts
-  ([report](../../reportbacks/issue-lane-tools-by-reach-continued-RB.md)); the MCP adapter, built in
+  ([report](../../../../reportbacks/issue-lane-tools-by-reach-continued-RB.md)); the MCP adapter, built in
   `pass-tools/mcp-elh` and witnessed on package 0.1.2, 16 of 16 cases under each host
-  ([report](../../reportbacks/mcp-elh-experiment-RB.md)). Reviewed by Vision with #427 (2026-10-26,
+  ([report](../../../../reportbacks/mcp-elh-experiment-RB.md)). Reviewed by Vision with #427 (2026-10-26,
   20 of 20 checks): Loom #68, Loom #71 and Zengine #427 ready, to merge in any order. Found: on a
   weaver's host `act` passes a press Workshop refuses; the kit's witness approves neither
   `-machine` package and names `desk/read`; `demo.py` does not approve `ArtifactPage`, which a
   demo root's reads by message need once a package carries #69. The founder (2026-10-26): act
   hears its refusals, in the issue lane once #427 merges, with the kit's fix and the round's two
-  leftovers filed ([prompt](../../prompts/issue-lane-act-hears-refusals.md), warm). The adapter's
+  leftovers filed ([prompt](../../../../prompts/issue-lane-act-hears-refusals.md), warm). The adapter's
   desktop-app steps are the founder's (`pass-tools/mcp-elh/README.md`).
   The founder merged #427 (`1c603eac`), #68 (`f9c38dc2`) and #71 (`57372ba8`) and started the
   issue lane (2026-10-26). The WASM tier's stage 1 next, in the main lane, warm
-  ([prompt](../../prompts/wasm-tier-s1.md)): the loader in Loom's kernel as the research drew it,
+  ([prompt](../../../../prompts/wasm-tier-s1.md)): the loader in Loom's kernel as the research drew it,
   and the demo the founder asked for -- one live weave reloaded from its native build into its
   module and back under a stream of messages, nothing lost. Wasmtime the runtime, the research's
   choice (the founder, 2026-10-26); started.
   Both reported (2026-10-26). Zengine #429 (fixes #428,
-  [report](../../reportbacks/issue-lane-act-hears-refusals-RB.md)): `act` follows `NoticeSaid`
+  [report](../../../../reportbacks/issue-lane-act-hears-refusals-RB.md)): `act` follows `NoticeSaid`
   before its first press, a refusal its own press caused fails the step in Workshop's words,
   UNRESOLVED over a gap or an end, a row that cannot hear said so; the guide's three window
   pictures retaken; the leftovers filed, not taken: #430, #431, #432 (taken, below). Loom #72
-  ([report](../../reportbacks/wasm-tier-s1-RB.md)): the kernel loads a `.wasm` behind
+  ([report](../../../../reportbacks/wasm-tier-s1-RB.md)): the kernel loads a `.wasm` behind
   `LOOM_ENABLE_WASM`; a live counter reloaded native -> module -> native while 320 asks were
   answered in order, two refused reloads leaving it untouched, on WSL, MinGW-w64 and MSVC; the
   bus held 76-88 ms into the box and under 1 ms back. Reviewed by Vision (2026-10-26, 25 of 25
@@ -401,8 +401,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   a client with no reach to the run's folder sees pictures and summaries alone, and finds a
   pane's id only by trying one: the adapter sends them as text beside a structured record,
   and the app shows the record for a passed run. The founder (2026-10-26): fix it, beside the
-  lanes ([prompt](../../prompts/mcp-elh-text-outputs.md), warm), with the weaver case on 0.1.3.
-  Done beside the lanes (Zen `d9f38be4`, [report](../../reportbacks/mcp-elh-text-outputs-RB.md)),
+  lanes ([prompt](../../../../prompts/mcp-elh-text-outputs.md), warm), with the weaver case on 0.1.3.
+  Done beside the lanes (Zen `d9f38be4`, [report](../../../../reportbacks/mcp-elh-text-outputs-RB.md)),
   reviewed by Vision (2026-10-26, 3 of 4 checks): each output's row now carries its text
   (`text`, `text_cut`, `not_inlined`), adapter 0.1.1; its witness red 16 of 17, then 17 of 17 on
   both hosts. Open: the live check through the app, after the founder restarts Workshop (closed
@@ -415,7 +415,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   its own) owes two small fixes, Tally's button off the guest's role (`kGuide`) and the palette's
   lines named by a short name each entry keeps (an entry's address can pass the part-name bound,
   its report says) so a re-listing refuses no press on the same one; held until the lane's report
-  (the founder), then sent ([continuation](../../prompts/issue-lane-after-the-alpha-394-fixes.md)),
+  (the founder), then sent ([continuation](../../../../prompts/issue-lane-after-the-alpha-394-fixes.md)),
   its run green (61:29, the sanitizer job 60:36) and the thirteen panes still on rows named in its
   section; reviewed again at `ed337c7e` (Vision, 2026-10-24, 8 of 8 checks): both fixed, a relist
   case red before green, ready. The round's last two, each 8 of 8 checks and ready: #398, the tag
@@ -429,7 +429,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   WL-KEY-08, and the natural keys (`ctrl+return`, `ctrl+shift+s`) back where they arrive, the
   POSIX terminal's own keys where the keys come from one -- one follow-up pull request, the first
   slice of control schemes (BL-WORK-47), the issue lane's once its open pull requests clear
-  ([prompt](../../prompts/issue-lane-posix-keys.md), 2026-10-23: one id an action, a row naming
+  ([prompt](../../../../prompts/issue-lane-posix-keys.md), 2026-10-23: one id an action, a row naming
   its POSIX key beside its default, Workshop putting the layer in force). Its form, the
   founder's (2026-10-23): a POSIX compatibility layer, a patch over the defaults under the
   weaver's file, not two full key setups -- weaves declare their own defaults, so no shared file
@@ -443,7 +443,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   needs one (`2a81099f`); the published alpha has it. The founder (2026-10-24), on Vision's
   shape: not intended; a key the window gives names its hand, as its pointer moments do, not
   routed through the input office (one road keeps a press and its key in order) -- the issue
-  lane's next round ([continuation](../../prompts/issue-lane-window-keys-hand.md)). The manuals'
+  lane's next round ([continuation](../../../../prompts/issue-lane-window-keys-hand.md)). The manuals'
   pictures (2026-10-14 to 16) show the old desk, not #392's keys: a refresh of their own.
   Done as #405 (issue #404), reviewed by Vision (2026-10-24, 15 of 15 checks): ready, the
   window's keys its own moments (`AreaKeyPressed`, `AreaKeyReleased`, `AreaTextEntered`),
@@ -458,7 +458,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   reader takes the terminal no terminal window holds; stage 7's choice 4, passed by Vision),
   raw -- no echo, no Ctrl+C -- a second keyboard on the desk. The founder (2026-10-24): the
   console the user's again, the release gate and the key moments with it, one round
-  ([continuation](../../prompts/issue-lane-console-and-key-moments.md)); a Ctrl+C there then ends
+  ([continuation](../../../../prompts/issue-lane-console-and-key-moments.md)); a Ctrl+C there then ends
   Workshop as any program (Vision's call).
   Loom's own release researched once Zengine's nightly has published clean nights (BL-ADOPT-07,
   not run);
@@ -481,14 +481,14 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   key and number a guide repeats, repeated behaviour linked to its owner; Loom's three beside
   it (two pages, and `loom::terminal` built without the contract a loadable weave's statics
   need). Prompted, warm, next in the issue lane now that #413 has merged
-  ([prompt](../../prompts/stranger-guides-round.md)); the key check reads only the manuals today
+  ([prompt](../../../../prompts/stranger-guides-round.md)); the key check reads only the manuals today
   and knows no Workshop key, so it learns both. Loom's `main` (2026-10-25): its stranger job
   ran Zengine's verify one entry at a time and outgrew its 30 minutes, three attempts stopped
   at the limit; the founder lands four at a time and that job's limit 45 by hand, and #64,
   the round's Loom pull request, rebases onto it
-  ([continuation](../../prompts/stranger-guides-round-loom-ci.md)); Loom's `main` green at
+  ([continuation](../../../../prompts/stranger-guides-round-loom-ci.md)); Loom's `main` green at
   `6796be5` (#65). The round reported (2026-10-25,
-  [report](../../reportbacks/stranger-guides-round-RB.md)): Zengine #416 (issue #414) and Loom #64
+  [report](../../../../reportbacks/stranger-guides-round-RB.md)): Zengine #416 (issue #414) and Loom #64
   (#62, #63), green on every job; reviewed by Vision (2026-10-25, 19 of 19 checks, 8 of the 27
   fixes read again against the source): both ready. #416 merges before D1's #415, which
   rebases onto it; #64 any time. Asked: the Demo pane's development recipe -- Vision's lean,
@@ -496,7 +496,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   Left for one small follow-up: the notice "an empty desk" after `=`, the old fresh-desk
   picture, the cheat sheet's opening claim that the checks hold each linked page to the code,
   and the Composer's comment once #64 merges. Taken with #430, #431 and #432 as the issue
-  lane's round (the founder, 2026-10-26, [prompt](../../prompts/issue-lane-leftovers.md), warm),
+  lane's round (the founder, 2026-10-26, [prompt](../../../../prompts/issue-lane-leftovers.md), warm),
   one pull request per issue as the repository asks; the Composer's comment already right on
   `main`, the fresh-desk page and picture F2's. Filed #436 and #437; taken as #438 (#430), #439
   (#436), #441 (#432), #442 (#437) and #443 (#431), reviewed by Vision (2026-10-26, 70 of 73
@@ -504,7 +504,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   clean together and on #440; #443 once green. #441's one surviving mutant, the latest window's
   unit for the first's, no order of offers reaches. All five merged (`8478e238`); its report
   read, 40 of 40. Next in the issue lane (the founder, 2026-10-26,
-  [prompt](../../prompts/issue-lane-notice-manual-drawing.md), warm): the editor switch's status
+  [prompt](../../../../prompts/issue-lane-notice-manual-drawing.md), warm): the editor switch's status
   notice; the manual page's two gaps (the form is on `manual/docs/manual.md`, which L1's report
   missed, searching `docs/` and `agents/` alone); then #418. Filed #445 and #446; taken as #447
   (#446), #449 (#445, `EditorSwitchQuietStatusRequested` v1, answered to its asker alone) and
@@ -514,7 +514,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   lines; #418's body names a Zen path; the judge's removal step is still removed paths times
   present nodes (11.77 ms at 4,096). #450 merged (`90e4934e`). The judge's step and the
   pictures with the old line next in the issue lane (the founder, 2026-10-27,
-  [prompt](../../prompts/issue-lane-judge-and-pictures.md), warm), the usage's reset two days
+  [prompt](../../../../prompts/issue-lane-judge-and-pictures.md), warm), the usage's reset two days
   off. Filed #451 and #452; taken as #453 (#451: the half removal's judge alone 28.82 ->
   0.83 ms at 4,096 nodes, the dense change and the one-node control unchanged, `graphics`
   floor 99) and #454 (#452: the six taken again, each alt text saying what Notices holds);
@@ -525,7 +525,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   mutant's text before anything builds, and a probe helper, asked twice; in the pictures, as
   before them, the terminal's Pane Manager covers Info's first column and the smallest
   window's Notices covers Info. Both merged (`a14946b1`). Then the repository's own mutants, the cases' claims kept under `tests/` and run every
-  week (the founder, 2026-10-27, [prompt](../../prompts/issue-lane-mutants-weekly.md), warm),
+  week (the founder, 2026-10-27, [prompt](../../../../prompts/issue-lane-mutants-weekly.md), warm),
   after the walk's word fixes. The Perspectives Lab,
   rebaselined at `7bda9f0b`: flow, editor and exploration settled (the founder's yes,
   2026-10-24), triage and ui settled after them; git, pairing and tailoring drafted, reviewed
@@ -539,8 +539,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   a prompt;
 - the first five minutes researched beside both lanes, building nothing: a first-run setup, the
   story as a checklist, a command palette, a wire let go on empty space
-  ([prompt](../../prompts/first-five-minutes-research.md), 2026-10-22). Reported
-  ([report](../../reportbacks/first-five-minutes-research-RB.md)) and reviewed by Vision
+  ([prompt](../../../../prompts/first-five-minutes-research.md), 2026-10-22). Reported
+  ([report](../../../../reportbacks/first-five-minutes-research-RB.md)) and reviewed by Vision
   (2026-10-22, 6 of 6 checks): `zengine-palette` and `zengine-first-run`, each drawing in an area of
   its own; Workshop's one new door, `PaletteRunRequested`, running an entry by its key's path for
   the hand that chose it; Flow's wire let go asking `takes`; ten stages, W1, P1, P2, F0, F1, V1,
@@ -555,7 +555,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   opens the right Loom environment before Workshop -- for the package's research, not L1, which
   is A3's in-Workshop launcher answering what it can start.
   Its stages are the issue lane's, beside G2's stage 6
-  ([continuation](../../prompts/issue-lane-first-five-minutes.md), 2026-10-22), each an issue and a
+  ([continuation](../../../../prompts/issue-lane-first-five-minutes.md), 2026-10-22), each an issue and a
   pull request, a report section each as its run turns green: W1; T1, a POSIX terminal's byte 0
   read as Ctrl+Space (no row binds it today; #341's unsaid gap); P1, its door `CommandRunRequested`
   from the palette's office alone, on `ctrl+space`; P2 on P1's branch; the band in full; F0; F1
@@ -574,7 +574,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   Ctrl+Space is swallowed by `expected_text_of`, but no case types it (the surviving mutant): a
   case for P2's pull request. `neovim_journey` failed `main`'s run after #353 too, the third time.
   #368 merged (`5a32d858`). The lane's report whole
-  ([report](../../reportbacks/issue-lane-first-five-minutes-RB.md)), reviewed by Vision (2026-10-23,
+  ([report](../../../../reportbacks/issue-lane-first-five-minutes-RB.md)), reviewed by Vision (2026-10-23,
   13 of 13 checks): #369 (P2 with the console's space case,
   `78e3bbcc`), #370 (the band in full, `02b0087a`) and #371 (F0, `4bd07a83`) ready, clean in any
   order. #373 (F1, `2de525c0`) waits on one change (private): on a weaver's host a guest reaches
@@ -594,21 +594,21 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   goes (ASan back at 60); Zenscript; the snake demo finalized. Step 7 (C1, L2, C2) and Loom's three
   small follow-ups need prompts, not research. The rest, "Start here", before the alpha's
   announcement (the founder, 2026-10-26): V1 in the issue lane
-  ([prompt](../../prompts/issue-lane-view-wiring.md), warm); L1, F2 and P3 in the main lane
-  ([prompt](../../prompts/start-here.md), warm), F2 waiting for V1 on `main`. #434 (V1, fixes
+  ([prompt](../../../../prompts/issue-lane-view-wiring.md), warm); L1, F2 and P3 in the main lane
+  ([prompt](../../../../prompts/start-here.md), warm), F2 waiting for V1 on `main`. #434 (V1, fixes
   #433) and #435 (L1) reviewed by Vision (2026-10-26, 36 of 36 checks, every job green, ASan
   35:37 and 30:52, both reports read): both right. #434 merged (`09d316ca`); #435 rebased over
   it, only a neighbouring row of `tests/test_population.txt` changed (`2daa2da5`), its run
   green again (ASan 36:14) and ready; F2 next on it
-  ([addition](../../prompts/start-here-l1-rebase.md), hot). Nothing wrote `app-session.json` (`main`
+  ([addition](../../../../prompts/start-here-l1-rebase.md), hot). Nothing wrote `app-session.json` (`main`
   reserved its name; Vision's baseline said the host wrote it): L1 has the app host write it. F2
   widens the quick setup's closed grant (WL-FIRST-03). L1's report asks one decision: "Start
   here" at later starts without the keys, Workshop's one launch always focusing (WL-DESK-03);
   its recommendation, a second version of the launch ask that seats without the keys, in F2,
   Vision agreeing (a general door, weaker than today's launch). #435 merged (`887bed5e`). F2 is
-  #440 ([report](../../reportbacks/start-here-l1-rebase-RB.md)): launch v2 with `keys` false taken as
+  #440 ([report](../../../../reportbacks/start-here-l1-rebase-RB.md)): launch v2 with `keys` false taken as
   recommended, green on every job, the tally story walked from Start here, every box ticked by
-  its fact; P3 sent on beside it, not waiting ([addition](../../prompts/start-here-p3.md), hot).
+  its fact; P3 sent on beside it, not waiting ([addition](../../../../prompts/start-here-p3.md), hot).
   Its report asks one call: Show me opens the step's pane over Start here, covering its words.
   #440 reviewed by Vision (2026-10-26, 24 of 24 checks, five pictures read): right and ready,
   every job green, clean beside the issue lane's five. A polish after P3: long lines clipped
@@ -619,14 +619,14 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   asker's. Older than F2, for the issue lane: the editor switch's status is said in Notices at
   each start, the first notice a stranger reads. #440 merged (`23bcc8c6`). F2's three closed
   after P3 by the main lane (the founder, 2026-10-26,
-  [addition](../../prompts/start-here-polish.md), hot), the notice by the issue lane. P3 is #444,
+  [addition](../../../../prompts/start-here-polish.md), hot), the notice by the issue lane. P3 is #444,
   the polish #448, reviewed by Vision (2026-10-27, 37 of 37 checks): both right and green; they
   share one floor row (`workshop_panes_hand`, 223 with both), #444 first, then #448's conflict
   resolved on GitHub (Vision's steps); the palette's start line is cut at its right edge. The
   sprint's last window (the founder, 2026-10-27): reviews and merges before the nightly, then
   the first five minutes walked cold from the package, building nothing, for next month's plan
-  at a quarter of the usage ([addition](../../prompts/start-here-feel-walk.md), hot). Walked
-  (2026-10-27, [report](../../reportbacks/start-here-feel-walk-RB.md)) on the 0.1.3 Windows archive,
+  at a quarter of the usage ([addition](../../../../prompts/start-here-feel-walk.md), hot). Walked
+  (2026-10-27, [report](../../../../reportbacks/start-here-feel-walk-RB.md)) on the 0.1.3 Windows archive,
   cold: the nightly's Linux build failed on a 503 and nothing published. Worst first: the desk
   piles every pane at its top left and a told view jumps in front with the keys; step 2 a Flow
   lesson Start here does not give (five refusals); a tick lands unseen; Notices in the builders'
@@ -641,20 +641,20 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   obvious; Notices says only what helps the weaver understand the recent history -- a drag says
   its before and its after alone, its size too when that changed. Flow gets a makeover before its
   tutorial (BL-WORK-32): Start here's moves for steps 2 and 3 wait on it, step 4's do not.
-  The desk makes room in the main lane ([prompt](../../prompts/desk-room.md), hot): the weaver
+  The desk makes room in the main lane ([prompt](../../../../prompts/desk-room.md), hot): the weaver
   places a pane the first time it opens in a setup, centered in arrange mode, then where it was
   left; arrange mode no one can miss; the palette centered; a manual over its subject; a view
   shown again keeping its place; Start here in front on a tick. Its first pull request, #455
   (a view registered afresh keeps its place and leaves the keys), opened. Getting started's
   two desk pictures open the Pane Manager by `ctrl+p`, which the round changes: once #454
   merges, a picture the round makes untrue is its own to take again
-  ([addition](../../prompts/desk-room-pictures.md), hot). Then the issue lane takes the three
-  calls ([prompt](../../prompts/issue-lane-package-trust-notices.md), warm), before the
+  ([addition](../../../../prompts/desk-room-pictures.md), hot). Then the issue lane takes the three
+  calls ([prompt](../../../../prompts/issue-lane-package-trust-notices.md), warm), before the
   mutants. Both reported (the desk: #455, #461, #463, #464, #465; the three calls: #462, #459,
   #460) and were reviewed (Vision, 2026-10-27, 54 of 54 checks): all eight green and in scope. To
   merge as they stand: #455, #462, #460, #461, #463, #464 (its base `main` once #461 is in); then
-  #459 and #465, each joined to `main` first (both hot: [issue lane](../../prompts/issue-lane-join.md),
-  [desk](../../prompts/desk-room-join.md)), #465 taking `workshop_panes_hand`'s summed floor and the
+  #459 and #465, each joined to `main` first (both hot: [issue lane](../../../../prompts/issue-lane-join.md),
+  [desk](../../../../prompts/desk-room-join.md)), #465 taking `workshop_panes_hand`'s summed floor and the
   issue lane taking "the report" and "the founder" out of #456. The desk's next round takes two
   fixes to #461: Panes' page tells a weaver to end a placing with `Esc` or a right-click, but the
   first key or press ends it and goes on to the pane, `Esc` too; and where two faded panes
@@ -671,7 +671,7 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   pull request was green alone, and both joins (#459, #465) are red on it alone. Vision's call,
   for the founder's yes: the toggle gives way -- Ctrl+P puts away a Manager the weaver comes
   straight from, a covered one they moved on from still comes forward
-  ([desk fix](../../prompts/desk-room-ctrl-p.md), [#459 after it](../../prompts/issue-lane-459-again.md),
+  ([desk fix](../../../../prompts/desk-room-ctrl-p.md), [#459 after it](../../../../prompts/issue-lane-459-again.md),
   both hot).
   The founder said yes. #466 (Ctrl+P puts away the pane the weaver's input last reached, covered
   or not; a covered one they moved on from still comes forward) merged 2026-10-28 with #465 and
@@ -693,8 +693,8 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   judged by a hand and a memory, in each window. The founder (2026-10-24): his walks wait until
   the pace slows, so they do not go stale as the stranger's rounds did; his notes are begun.
   The export, its window and the way back researched beside G2, building nothing
-  ([prompt](../../prompts/app-export-research.md), 2026-10-21); reported
-  ([report](../../reportbacks/app-export-research-RB.md)) and reviewed by Vision (2026-10-21, 8 of 8
+  ([prompt](../../../../prompts/app-export-research.md), 2026-10-21); reported
+  ([report](../../../../reportbacks/app-export-research-RB.md)) and reviewed by Vision (2026-10-21, 8 of 8
   checks): the app opened by a small Zengine host of its own, `zengine-app`, after Loom installs
   its consent half (L1); a view that hears its own window; steps 5 and 6 are L1, A1 and A2, about
   four days of a lane; step 7 (C1, L2, C2) after the release; the take-back an authored
@@ -702,22 +702,22 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   recommended (2026-10-21): the app host owns the host's setup and its cycle, game-engine
   states for that cycle much later; a closed second window puts its layout back on the shelf,
   a way to restore the window later. L1 is the issue lane's
-  ([prompt](../../prompts/issue-lane-loom-consent.md)): Loom #58, taken as #59 (`84151bf`),
+  ([prompt](../../../../prompts/issue-lane-loom-consent.md)): Loom #58, taken as #59 (`84151bf`),
   reviewed by Vision (2026-10-22, 8 of 8 checks): `loom::host-policy` installed, the command
   moved word for word behind `AuthorityDesk`, its run's 10 jobs green; merged (`02779d7`,
   2026-10-22). Its report leaves A1 the console's seat (about 60 lines over `AuthorityDesk`, as
   the witness's) and where adoption happens when Zengine's plan executor loads; `authority
   pending` lists a refused artifact without the command that answers it (the refusal names it),
   a grammar change only if the founder wants one. The package waits until G2 is done. A1 is the
-  issue lane's next ([prompt](../../prompts/issue-lane-app-host.md), 2026-10-22): `zengine-app`,
+  issue lane's next ([prompt](../../../../prompts/issue-lane-app-host.md), 2026-10-22): `zengine-app`,
   its console on Loom's store, the app's own weave, a view that hears its window, the probe
   `examples/tally-app/`; it meets G2's stage 4 in `view/view.hpp`. A1 is Zengine #347
-  (`a952914e`, fixes #346, [report](../../reportbacks/issue-lane-app-host-RB.md)), reviewed by
+  (`a952914e`, fixes #346, [report](../../../../reportbacks/issue-lane-app-host-RB.md)), reviewed by
   Vision (2026-10-22, 12 of 12 checks): its run's 8 jobs green; merged (`4dbffd3a`). A view takes
   its window's keys and text, not its pointer, so a field is focused by Tab, not a click: the
   founder wants it clicked into too (2026-10-22), a small issue once stage 4's pointer shapes
   land. Overnight the lane takes A2, A4, then A3 on A2's branch
-  ([continuation](../../prompts/issue-lane-app-export-and-start.md), 2026-10-22). Loom, after the
+  ([continuation](../../../../prompts/issue-lane-app-export-and-start.md), 2026-10-22). Loom, after the
   alpha: an installed `AuthorityDesk` seat (a second host now writes one) and `authority trust`'s
   reply naming a host's baseline. Reviewed by Vision (2026-10-22): #350 (A2) ready; #353 (A4)
   rebases over stage 4, ten graphics files shared; #354 (A3) needs a POSIX start that closes
@@ -726,9 +726,9 @@ notes are kept by item, not as a file: their themes in section 1b, their UX item
   `main`. Loom, later: the bridge's sockets close on exec (private: a child holds them). Asked in
   A2, the founder (2026-10-22): the plan built from a flow's providers later; the export and the
   start decided with the alpha's package. The morning's lane
-  ([continuation](../../prompts/issue-lane-app-fixes-and-click.md), 2026-10-22): the ASan limit,
+  ([continuation](../../../../prompts/issue-lane-app-fixes-and-click.md), 2026-10-22): the ASan limit,
   A3's POSIX fixes, A4's rebase, and a view hearing its window's pointer. Reported
-  ([report](../../reportbacks/issue-lane-app-fixes-and-click-RB.md)) and reviewed by Vision
+  ([report](../../../../reportbacks/issue-lane-app-fixes-and-click-RB.md)) and reviewed by Vision
   (2026-10-22): #356 merged; #354 (A3, its POSIX start closing all but its three streams and saying
   it has no console), #353 (A4 rebased) and #358 (a view clicked into, fixes #357) green, each
   clean against `main` and after #359, but the three conflict among themselves (the population,
@@ -773,30 +773,30 @@ owner at a time, and decisions before prompts.
 
 1. Finish the Skin. Workshop's own area takes the whole pointer in a window and the window plans
    become the defaults (G1); then `surface/`, the Skins and Workshop's row projection go (G2).
-   G1 is prompted ([prompt](../../prompts/graphics-only-g1-window-pointer.md), 2026-10-19): a census
+   G1 is prompted ([prompt](../../../../prompts/graphics-only-g1-window-pointer.md), 2026-10-19): a census
    of every pointer gesture against both windows and the routing first, then a stop.
    The founder took its routing (2026-10-19): D1 to D10 as recommended; D11 with Workshop declining
    `AreaHoldEnded` (G1 adds three kinds taken, one sent), and G2's fence set below Workshop's count
    at `7cc0ec14` (81 taken, 72 sent; lifted 2026-10-20 with every phase's, item 4), the bare
    pointer moments among what G2 drops. Built in one
-   pull request ([continuation](../../prompts/graphics-only-g1-window-pointer-build.md)); the
+   pull request ([continuation](../../../../prompts/graphics-only-g1-window-pointer-build.md)); the
    defaults move after it merges. Opened as Zengine #333 (Workshop takes 84, sends 73; G2 would
    leave 78 and 70). The founder took the rename to #332's rule (`AreaButtonChanged`,
    `AreaPointerMoved`, `AreaWheelTurned`) and three loose changes into one push, before merge
-   ([continuation](../../prompts/graphics-only-g1-window-pointer-build-names.md), 2026-10-19).
+   ([continuation](../../../../prompts/graphics-only-g1-window-pointer-build-names.md), 2026-10-19).
    For G2: Workshop's `window_moment_` flag, which keeps its old relays off placed panes, goes
    with the Skin path. The defaults move next, with D11 reversed: Workshop takes `AreaHoldEnded`
    and `AreaPointerLeft`, which the window now tells it, and its own copy of the cover rule goes
-   ([continuation](../../prompts/graphics-only-g1-defaults.md), 2026-10-19).
+   ([continuation](../../../../prompts/graphics-only-g1-defaults.md), 2026-10-19).
    Merged as #338 (2026-10-20): Workshop takes 86 kinds and sends 73
-   ([report](../../reportbacks/graphics-only-g1-defaults-RB.md)). Its live witness found six window
+   ([report](../../../../reportbacks/graphics-only-g1-defaults-RB.md)). Its live witness found six window
    defects already on `main` that the switch made the default. The founder took Vision's
    recommendations (2026-10-20): defects 1-4 and 6 fixed before G2, a re-shown area by the
    window's word (`AreaRoom`, a new version), the two `SurfaceText` setups kept on the Skin's
-   plan ([continuation](../../prompts/graphics-only-g1-window-defects.md)); the status line and the
+   plan ([continuation](../../../../prompts/graphics-only-g1-window-defects.md)); the status line and the
    Terminal's `SurfaceText` verb retire with the Skin in G2, which proposes the Terminal's
    ordinary verb. Opened as #339, green, reviewed by Vision (2026-10-20)
-   ([report](../../reportbacks/graphics-only-g1-window-defects-RB.md)): `AreaRoom` 3 says `empty`,
+   ([report](../../../../reportbacks/graphics-only-g1-window-defects-RB.md)): `AreaRoom` 3 says `empty`,
    `WindowOffered` 2 says `cell_px` (the OS window's unit is the pixel), text a cell a character
    in light; the setups on the Skin's plan are `presets` and `editor-materials` (the prompt's
    `commands` was wrong). For G2, Vision's recommendations: each owner paints its area's ground
@@ -811,20 +811,20 @@ owner at a time, and decisions before prompts.
    (2026-10-20): the OS window says its face's measure and offers its room in pixels, each
    owner places text by it, the terminal window keeps the cell, each owner paints its area's
    ground, and the SDL Skin's real face moves to the OS window if it serves it
-   ([continuation](../../prompts/graphics-only-g1-window-pixels.md)).
+   ([continuation](../../../../prompts/graphics-only-g1-window-pixels.md)).
    Opened as #340, green, reviewed by Vision (2026-10-20)
-   ([report](../../reportbacks/graphics-only-g1-window-pixels-RB.md)): `WindowOffered` 3 offers the
+   ([report](../../../../reportbacks/graphics-only-g1-window-pixels-RB.md)): `WindowOffered` 3 offers the
    room in pixels and the face's measure, `AreaRoom` 4 and `PaintTask` 2 carry it, and the face
    (JetBrains Mono, 8 by 18) is copied to `graphics/window/fonts/`; found live, each pane's frame
    is an area of Workshop's at the pane's depth, and the OS window grows per axis. Two decisions
    asked; Vision: take both. For G2: frames named by the one area rule; Workshop's overlay
    labels placed by the face; a one-picture pane's second drawing, a row a cell, goes with the
    row projection; `tests/census_headers.hpp:242` still says `PaintTask v1`. Merged (2026-10-20).
-   G2 is prompted ([prompt](../../prompts/graphics-only-g2.md), 2026-10-20): a census of every use
+   G2 is prompted ([prompt](../../../../prompts/graphics-only-g2.md), 2026-10-20): a census of every use
    of `surface/`, of the Skins' seam and of the second picture each pane sends Workshop, and its
    routing -- what the agent desk, a guide mark, a frame and the managed opening read once that
    picture goes -- then a stop for the founder's word. Reported and reviewed by Vision
-   (2026-10-20, [report](../../reportbacks/graphics-only-g2-RB.md)): seven stages, smallest first;
+   (2026-10-20, [report](../../../../reportbacks/graphics-only-g2-RB.md)): seven stages, smallest first;
    nine decisions asked, two of them private (an agent's hand in a window; a close is the
    window's). The prompt's seam range (14 to 33) was Vision's misreading: G2's open seams are
    14 to 51, all classified. The founder took all nine as recommended (2026-10-20), and every
@@ -838,21 +838,21 @@ owner at a time, and decisions before prompts.
    own plan copies the medium rows, so the founder took the window as a choice in the plan (OS
    window, else terminal), carried by the shipped default: G2's stage 8, after stage 7, a load
    plan format version. Stage 1 is prompted
-   ([continuation](../../prompts/graphics-only-g2-s1-stray-ends.md), 2026-10-20) and is Zengine #342
+   ([continuation](../../../../prompts/graphics-only-g2-s1-stray-ends.md), 2026-10-20) and is Zengine #342
    (`572771bb`), reviewed (Vision, 2026-10-20, 7 of 8 checks): its run's 8 jobs green, ready to
    merge; the presets story through Info 2 recommended to stand, its authority refusal held by
    `tests/test_workshop_inventory_info.cpp`. With stage 2: the session's held rewrap `0b9d7485`,
    #342's run table, and the new case checking that no rule of the Terminal's names `Drawn`.
    #342 merged (`15afcb4e`). Stage 2, the shares to their owners, prompted
-   ([continuation](../../prompts/graphics-only-g2-s2-shares.md), 2026-10-20), is Zengine #344
-   (`82114ac0`, [report](../../reportbacks/graphics-only-g2-s2-shares-RB.md)), reviewed (Vision,
+   ([continuation](../../../../prompts/graphics-only-g2-s2-shares.md), 2026-10-20), is Zengine #344
+   (`82114ac0`, [report](../../../../reportbacks/graphics-only-g2-s2-shares-RB.md)), reviewed (Vision,
    2026-10-21, 10 of 10 checks): the mass edit regenerated byte for byte from `f53ab015`, its
    run's 8 jobs green (ASan 45:21 of 60, nearly cold), ready to merge with its seven choices.
    #344 merged (`3fa139a1`). Stage 3, the rigs on a window, prompted
-   ([continuation](../../prompts/graphics-only-g2-s3-rigs.md), 2026-10-21), with the kit's three
+   ([continuation](../../../../prompts/graphics-only-g2-s3-rigs.md), 2026-10-21), with the kit's three
    doc gaps from stage 2's report and stage 2's self-comparing `static_assert`
    (`workshop/weave_handlers.cpp:242`), which Vision's review missed. Stage 3 is Zengine #345
-   (`9a5159bd`, [report](../../reportbacks/graphics-only-g2-s3-rigs-RB.md)), reviewed (Vision,
+   (`9a5159bd`, [report](../../../../reportbacks/graphics-only-g2-s3-rigs-RB.md)), reviewed (Vision,
    2026-10-22, 12 of 12 checks): the desk read off the window's device, checked against
    `WindowShowAsked` every 32nd idle read; the terminal window composing on a grid (product, the
    same cells); two defects the rig found, each red before its fix; its run's 8 jobs green (MSVC,
@@ -863,10 +863,10 @@ owner at a time, and decisions before prompts.
    owner); the window's dirty cells an ordered set, 24% of the hottest case (stage 4).
    `GlyphGrid::rows_above` still defaults to `surface::kTuiCanvasTopRow`, the default behind the
    first defect (stage 4). Stage 4, the agent desk and the agent's hand in the window, prompted
-   ([continuation](../../prompts/graphics-only-g2-s4-desk-and-hand.md), 2026-10-22), chained on
+   ([continuation](../../../../prompts/graphics-only-g2-s4-desk-and-hand.md), 2026-10-22), chained on
    #345's branch, with #345's ends: the typed send's text checked again, that default, the dirty
    cells' cost. Stage 4 is Zengine #351 (`6d62b007`,
-   [report](../../reportbacks/graphics-only-g2-s4-desk-and-hand-RB.md)), reviewed by Vision
+   [report](../../../../reportbacks/graphics-only-g2-s4-desk-and-hand-RB.md)), reviewed by Vision
    (2026-10-22, the morning's four PRs, 23 of 23 checks): its run green, ASan 58:59 of 60 on a
    cold compile; #345's ends all taken; its body's "G2's fourth stage" taken out at the merge.
    Not as routed: an agent's press still moves the keys and the selection (BL-WORK-38's rule, for
@@ -880,21 +880,21 @@ owner at a time, and decisions before prompts.
    goes through anyway (Zengine #356, fixes #355), its times tracked through the week; #356's own
    run took 61:52 in ASan, and #353's 58:20 under the old 60: the 90 was needed. #350 and #351
    merged as merge commits (`364ee623`); stage 5, the menu presenter in its own area, prompted
-   ([continuation](../../prompts/graphics-only-g2-s5-presenter.md), 2026-10-22). Stage 5 is Zengine
-   #359 (`83280b71`, [report](../../reportbacks/graphics-only-g2-s5-presenter-RB.md)), reviewed by
+   ([continuation](../../../../prompts/graphics-only-g2-s5-presenter.md), 2026-10-22). Stage 5 is Zengine
+   #359 (`83280b71`, [report](../../../../reportbacks/graphics-only-g2-s5-presenter-RB.md)), reviewed by
    Vision (2026-10-22): its run green, ASan 39:38; MenuShown 3 names the presenter's area and
    carries no lines; seams row 18 closed; no window, no pane menu until stage 7. Its seam: no shape
    says which drawing a press hit.
    #359 merged (`60eb5497`, a merge commit, its body clean). Stage 6, no second picture, prompted
-   ([continuation](../../prompts/graphics-only-g2-s6-no-second-picture.md), 2026-10-22), with the
+   ([continuation](../../../../prompts/graphics-only-g2-s6-no-second-picture.md), 2026-10-22), with the
    wheel swallowed during a carry, stage 3's waiting pane and two windows, the press seam hooked
    unless a case shows it, D12 (in no stage's row: here or stage 7) and the suites' time; one
    pull request, or two chained where the managed opening and the install stand apart.
 2. Then the first real split, by job: the desk -- layouts, setups, and what each layout holds
    (settings, pins, locks, its theme baseline) -- becomes its own owner, out of Workshop's weave,
    in setup v6 as the settings research drew it.
-   Researched first, read-only beside G1 ([prompt](../../prompts/desk-split-research.md),
-   2026-10-19); reported the same day ([report](../../reportbacks/desk-split-research-RB.md):
+   Researched first, read-only beside G1 ([prompt](../../../../prompts/desk-split-research.md),
+   2026-10-19); reported the same day ([report](../../../../reportbacks/desk-split-research-RB.md):
    `zengine.layouts`, stages D1 to D3) and reviewed by Vision. The founder took its twelve
    decisions as recommended (2026-10-19), with four of Vision's changes:
    - the unlock (decision 9): none of it built in D1. WL-LOCK-02 says that on a development host
@@ -908,8 +908,8 @@ owner at a time, and decisions before prompts.
    - D1 one phase, committed step by step, its report counting `LayoutEdit`'s operations and
      the lines beside the kinds.
    D1 is prompted once G1 and G2 merge, against that `main`: prompted 2026-10-24 against
-   `7bda9f0b` ([prompt](../../prompts/desk-split-d1.md)), its check's three decisions taken.
-   Reported (2026-10-25, [report](../../reportbacks/desk-split-d1-RB.md)): #415 green at
+   `7bda9f0b` ([prompt](../../../../prompts/desk-split-d1.md)), its check's three decisions taken.
+   Reported (2026-10-25, [report](../../../../reportbacks/desk-split-d1-RB.md)): #415 green at
    `9bb2688a`, rebased onto `dbd03a22`; Workshop takes 79 and sends 58, the owner 15 and 16;
    `LayoutEdit` 17 operations; Workshop's weave 1,068 lines lighter, `workshop/` 2,789
    heavier. Reviewed by Vision (2026-10-25, 17 of 17 checks): the split holds -- the owner its
@@ -919,8 +919,8 @@ owner at a time, and decisions before prompts.
    still saying the session holds the room and Workshop keeps the settings, and the `-s`
    abort. The founder (2026-10-25), choice 7: an agent's desk replaces the live one while a
    menu is open, and Workshop puts the menu down. Continued, hot
-   ([continuation](../../prompts/desk-split-d1-continued.md)); the restore notice as it is.
-   Reported (2026-10-25, [report](../../reportbacks/desk-split-d1-continued-RB.md)): #415 green at
+   ([continuation](../../../../prompts/desk-split-d1-continued.md)); the restore notice as it is.
+   Reported (2026-10-25, [report](../../../../reportbacks/desk-split-d1-continued-RB.md)): #415 green at
    `9af155e4` on `d433a687` -- the batch's file written after its whole (W16), the menu put
    down when another desk goes live (W17), the pages, the `-s` case; 17 of 17 mutations caught.
    Reviewed by Vision (2026-10-25, 14 of 14 checks): ready to merge as it stands. Choice 4,
@@ -931,12 +931,12 @@ owner at a time, and decisions before prompts.
    settings ask, folded into D2's pages; the same `-s` abort waits in nine more assertions,
    each fixed at its case's next change.
    D2, the hand-off of a row's settings leaving Workshop for the owner, prompted, warm, to the
-   issue lane once D1 merges ([prompt](../../prompts/desk-split-d2.md), 2026-10-25): the owner
+   issue lane once D1 merges ([prompt](../../../../prompts/desk-split-d2.md), 2026-10-25): the owner
    hands each seated pane its row and keeps what a pane cannot use; a pane asks for its row on
    arrival and draws no room before it holds it (decision 10); Info's delivery facts from the
    owner; `LiveLayout` without the revisions. Its pull request merges before L2's.
    #415 merged (`65f4a830`). D2 reported (2026-10-25,
-   [report](../../reportbacks/desk-split-d2-RB.md)): #420 (issue #417) green at `116fdea4` -- a
+   [report](../../../../reportbacks/desk-split-d2-RB.md)): #420 (issue #417) green at `116fdea4` -- a
    pane asks for its row (`PaneSettingsAsked`) and draws no room before it holds one, through one
    installed facet (`PaneSettingsFacet`); the owner hands each row and keeps what a pane cannot
    use; `LiveLayout` v2 carries only each row's `workshop.` keys and what each pane cannot use;
@@ -947,10 +947,10 @@ owner at a time, and decisions before prompts.
    fresh project lists no pane recipe), its real-image case standing for it. Owed later: the
    held-row gate is cased for the Terminal and Attention alone, of eight panes.
    #421 merged (`1c47049`). D3, a pane's close the owner's, prompted, warm, to the main lane
-   beside #422 ([prompt](../../prompts/desk-split-d3.md), 2026-10-25). Then the notices pane, once
+   beside #422 ([prompt](../../../../prompts/desk-split-d3.md), 2026-10-25). Then the notices pane, once
    #422 merges (it reshapes the bottom band in the files #422 holds), and settings stage 4 (the
    settings weave applying themes) once its research is read again against the owner.
-   D3 reported (2026-10-25, [report](../../reportbacks/desk-split-d3-RB.md)): #424 green at
+   D3 reported (2026-10-25, [report](../../../../reportbacks/desk-split-d3-RB.md)): #424 green at
    `e8eba4e6` on `1c470497` -- the owner takes `PaneCloseRequested` from an office (personal
    speech answered aloud, closing nothing) and the row with its settings and locks, answering
    `PaneCloseAnswered` v2 naming both; the Pane Manager, the quick setup and Info ask the owner,
@@ -974,9 +974,9 @@ owner at a time, and decisions before prompts.
    record kept by a small weave its pane walks, as the Terminal's history is the participant's,
    and running before Workshop's startup notes; the pane on the default desk if the band's line
    goes.
-   Prompted to the main lane, warm ([prompt](../../prompts/notices-pane.md), 2026-10-26), the MCP
+   Prompted to the main lane, warm ([prompt](../../../../prompts/notices-pane.md), 2026-10-26), the MCP
    experiment beside it.
-   Reported (2026-10-26, [report](../../reportbacks/notices-pane-RB.md)): #427 green on every job
+   Reported (2026-10-26, [report](../../../../reportbacks/notices-pane-RB.md)): #427 green on every job
    at `aa95c41b` -- Workshop publishes each thing it says once (`NoticeSaid`), the record
    (`zengine.notices`) keeps 100 and up to 1000, the Notices pane walks it by up, down and the
    wheel as one action, the band the legend's three rows, the pane on the default desk; 16 of 17
@@ -989,13 +989,13 @@ owner at a time, and decisions before prompts.
    once, in the unit the first window names, whether or not another notice came first --
    WL-SESSION-14's "unless another was said since" overruled, no reason found to keep it -- so
    `say_again` and the record's replace-in-place go; filed as a `ready` issue for a later batch,
-   not taken: #432 ([addition](../../prompts/issue-lane-act-hears-refusals-say-once.md), hot).
+   not taken: #432 ([addition](../../../../prompts/issue-lane-act-hears-refusals-say-once.md), hot).
    Layout choices beyond pixels (the founder, 2026-10-20): a share of the parent, a fit to what a
    pane holds, a fill, as the quarry's `CustomLayout` had, through a solver that turns them into
    the pixels each object needs. Researched read-only beside G1
-   ([prompt](../../prompts/layout-modes-research.md)); folded into D1's move where the design
+   ([prompt](../../../../prompts/layout-modes-research.md)); folded into D1's move where the design
    allows, not forced. Reported and reviewed by Vision (2026-10-20,
-   [report](../../reportbacks/layout-modes-research-RB.md)): the choices are words in today's
+   [report](../../../../reportbacks/layout-modes-research-RB.md)): the choices are words in today's
    `{mode, amount}` and `{mode, x, y}` -- sizes `share`, `fit`, `fill`; places the nine points of
    the frame -- no shape and no version (WL-SETUP-04), so nothing to fold; one solver, `ui/`
    grown to the pixel, called in `bounds_of`; the right column divides; Webster's rule after one
@@ -1003,17 +1003,17 @@ owner at a time, and decisions before prompts.
    merges, L2 (the words) after D1, L3 (the views) after G1's window-pixels step. The session
    stands at 64,197 of 65,536 decoded cells, so any per-row field (a minimum, a frame) overflows
    it. Twelve decisions asked of the founder. His notes (2026-10-20), sent back to the research
-   ([continuation](../../prompts/layout-modes-research-revised.md)): optional `x`, `y` and `amount`
+   ([continuation](../../../../prompts/layout-modes-research-revised.md)): optional `x`, `y` and `amount`
    (Loom's optional fields), not zeros; `right-column` removed, its uses moved to the other
    words; a `fill` drags as a fill, its weight alone changing; `center`; and the cell limit a
    priority -- the session decoded a layout at a time in D1's v9, never Loom's limit raised.
    Fold or follow answered again, now that a format version is needed. Answered by D1's check
    (decision 3, 2026-10-24): the optional fields ride D1's setup v6. L1 prompted to the issue
-   lane, warm, beside D1 (2026-10-24, [prompt](../../prompts/layout-modes-l1.md)), the prompt
+   lane, warm, beside D1 (2026-10-24, [prompt](../../../../prompts/layout-modes-l1.md)), the prompt
    carrying the notes the revision never reported; with the right column no longer dividing
    (note 2), Vision's reading leaves the divide flow, Webster's rule and fill weights to their
    first consumer, a view's group.
-   L1 reported (2026-10-24, [report](../../reportbacks/layout-modes-l1-RB.md)): #413 green at
+   L1 reported (2026-10-24, [report](../../../../reportbacks/layout-modes-l1-RB.md)): #413 green at
    `80d01836`, `ui/` solving in whole pixels (`Element` 3, `Place` 1, `Size` 1 in; `Element` 2
    and `Extent` out) and `bounds_of` on it, nothing drawn changing (the shipped desk's pictures
    byte-identical). Reviewed by Vision (2026-10-24, 17 of 17 checks) and merged (`dbd03a22`);
@@ -1023,20 +1023,20 @@ owner at a time, and decisions before prompts.
    its size changeable back, however small its words leave it; `ui` keeps its edge rule.
    L1's doc gap rides the guides round.
    L2 prompted, warm, to the main lane once D1 merges, beside D2
-   ([prompt](../../prompts/layout-modes-l2.md), 2026-10-25): one phase, a commit a step, the words
+   ([prompt](../../../../prompts/layout-modes-l2.md), 2026-10-25): one phase, a commit a step, the words
    new values in setup v6. The founder's calls (2026-10-25): `workshop.side-columns` retires
    with the right column, an old row's `right-column` read as it looks today (`top-right` at no
    offset, the column's width and a `fill` height unless the row says its own); a drag on a
    `fill`'s far edge where nothing shares its frame writes the share whose edge is the hand's
    pixel, and says so.
-   L2 reported (2026-10-25, [report](../../reportbacks/layout-modes-l2-RB.md)): #421 green at
+   L2 reported (2026-10-25, [report](../../../../reportbacks/layout-modes-l2-RB.md)): #421 green at
    `e885bf76`, seven steps, the words in setup v6 with no shape or version moved; 20 of 20
    mutations caught. The founder's answer mid-phase, asked by L2: an old `right-column` row
    reads as `top-right` at no offset with its own sizes, `default` where it says none -- Info
    draws at its offer, not the column's width by the room's height as Vision's prompt had it.
    Reviewed by Vision (2026-10-25, 11 of 11 checks; a trial merge with #420 clean, its text
    checks passing): ready once rebased onto #420's merge, continued hot
-   ([continuation](../../prompts/layout-modes-l2-rebased.md)). For L3: the hand's inverse of a
+   ([continuation](../../../../prompts/layout-modes-l2-rebased.md)). For L3: the hand's inverse of a
    share (`share_reaching`) and an anchor's offset sit in `workshop/setup.hpp`; a view's hand
    will want them beside `ui`'s solve.
    #420 merged (`f9018ad9`); #421 rebased onto it (`2c2cd174`, its steps unchanged). The
@@ -1048,9 +1048,9 @@ owner at a time, and decisions before prompts.
    place was missed: the research's decision 3 named "a share of a position beside the
    anchors" a mistake, citing the old `ui` rule "no 50% across" (gone with L1), and its
    keep-or-drop table dropped the quarry's percent insets; Vision passed both. Continued, hot
-   ([continuation](../../prompts/layout-modes-l2-snap-and-share.md)), after the rebase reports.
+   ([continuation](../../../../prompts/layout-modes-l2-snap-and-share.md)), after the rebase reports.
    The rebase's run green (40201482311). Reported (2026-10-25,
-   [report](../../reportbacks/layout-modes-l2-snap-and-share-RB.md)): #421 green at `64cfff6c`, nine
+   [report](../../../../reportbacks/layout-modes-l2-snap-and-share-RB.md)): #421 green at `64cfff6c`, nine
    commits, the seven reviewed unchanged -- `fit` follows a switch at once, a pixel's wobble
    held in the OS window alone (`d93d70c9`), and the `share` place (`64cfff6c`); the founder's
    bar witnessed a third down at three sizes in both windows; 13 of 13 mutations; a power cut
@@ -1066,19 +1066,19 @@ owner at a time, and decisions before prompts.
    final lanes; a lane keeps its copy for its round and may work in batches, the official lane
    once at a batch's end. WSL gets 44 GB, 48 from the kit's memory round on (the founder,
    2026-10-27, for room). The kit holds the three slots
-   ([report](../../reportbacks/kit-build-slots-RB.md), 2026-10-27): a cold 8-job build peaks at 18.1
+   ([report](../../../../reportbacks/kit-build-slots-RB.md), 2026-10-27): a cold 8-job build peaks at 18.1
    GB, a 4-job one at 10.4. The founder (2026-10-27): the work need at that peak for now (a cold
    build's; an incremental one's measured apart), then work
    builds made small enough that all three slots run at once, or three are no better than two
-   ([prompt](../../prompts/kit-build-memory.md), hot); the wall's shim stays a whole-machine holder. Then the wave: the main lane, the issue lane, one
-   for the View Builder and the data panes ([prompt](../../prompts/lane-view-builder.md), warm:
+   ([prompt](../../../../prompts/kit-build-memory.md), hot); the wall's shim stays a whole-machine holder. Then the wave: the main lane, the issue lane, one
+   for the View Builder and the data panes ([prompt](../../../../prompts/lane-view-builder.md), warm:
    a Discard button, the kinds below Grid, the canvas taking the width, then Project's scroll,
    Loaded's search and Compose's fields), one for text and input
-   ([prompt](../../prompts/lane-text-input.md), warm: the Terminal's Enter, Files' paths, the
+   ([prompt](../../../../prompts/lane-text-input.md), warm: the Terminal's Enter, Files' paths, the
    Editor's right-press menu), and the Flow makeover as mockups beside them, building nothing.
    The issue lane takes the mutants round, its corpus run in pieces through the slots
    (`92ec26a0`), then files the UX batch, leaving out what the desk's round 2 takes. The main
-   lane's next, once #465 merges ([round 2](../../prompts/desk-round-2.md), warm): the review's three
+   lane's next, once #465 merges ([round 2](../../../../prompts/desk-round-2.md), warm): the review's three
    fixes (Panes' page on a placing's end, an even fade, arranging's hide in WL-NOTE-06's words);
    Start here's step 4 naming its two prerequisites, its hint out of the alert colour, and the way
    in (the README's first steps and dependencies, Getting started); the Pane Manager sorted, its
@@ -1090,28 +1090,28 @@ owner at a time, and decisions before prompts.
    the three calls for the issue lane: the View Builder's `<action> complete` (WL-NOTE-06), and the
    quick setup in a package naming pages the package does not carry.
    Vision checks every name a prompt gives against `main` before the prompt goes out. The lane opened 2026-10-19
-   ([prompt](../../prompts/issue-lane-first-three.md)): no Zengine issue was `ready`, so three
+   ([prompt](../../../../prompts/issue-lane-first-three.md)): no Zengine issue was `ready`, so three
    bounded seams clear of G1 are filed and taken (#330 to #332, merged). Next in the lane once
    #333 merges: `workshop_panes` broken up, the longest entry and the sanitizer job's limit,
    researched read-only on #333's branch first
-   ([prompt](../../prompts/workshop-panes-split-research.md), 2026-10-19). The founder took its
+   ([prompt](../../../../prompts/workshop-panes-split-research.md), 2026-10-19). The founder took its
    eight decisions as recommended: one program run as eight entries by subject, a whole-count
    check, each part's floor at its count, the COST rows from its own run. S1 is the lane's
-   ([prompt](../../prompts/issue-lane-panes-split.md)), taken as #335; S2, the kit's part
+   ([prompt](../../../../prompts/issue-lane-panes-split.md)), taken as #335; S2, the kit's part
    selection, waits. Next in the lane after #335: CI's compiler caches kept across runner images,
-   the cold Linux builds of a rollout ([prompt](../../prompts/issue-lane-ci-cache-keys.md),
+   the cold Linux builds of a rollout ([prompt](../../../../prompts/issue-lane-ci-cache-keys.md),
    2026-10-19). #335 merged (2026-10-20): with its measured COST rows the sanitizer job's verify
    took 676 s (1,209 before the split; 856 on `main`'s run after it). The cache fix is #336, taken
    as #337: green, each store named by its compiler's bytes, warm builds of 38 to 110 s, one
-   across images ([report](../../reportbacks/issue-lane-ci-cache-keys-RB.md)); merged before #338
+   across images ([report](../../../../reportbacks/issue-lane-ci-cache-keys-RB.md)); merged before #338
    (2026-10-20). The lane's next issue is not chosen. A defect found reviewing a perspective is
    filed by a prompt (2026-10-20): three default keys never arrive from a POSIX terminal, and
-   `posix_gap` does not say so ([prompt](../../prompts/posix-ctrl-gap-issue.md)).
+   `posix_gap` does not say so ([prompt](../../../../prompts/posix-ctrl-gap-issue.md)).
 6. The decisions asked in the reports since 2026-10-15 are swept into one list: those the code has
    settled marked, the rest brought to the founder in small batches.
 7. One list of the seams the reports keep deferring, each with one owner and closed in one phase.
-   Items 6 and 7 are swept read-only beside G1 ([prompt](../../prompts/reports-open-items.md),
-   2026-10-19); reported the same day ([report](../../reportbacks/reports-open-items-RB.md): 126
+   Items 6 and 7 are swept read-only beside G1 ([prompt](../../../../prompts/reports-open-items.md),
+   2026-10-19); reported the same day ([report](../../../../reportbacks/reports-open-items-RB.md): 126
    decisions, 186 seams) and reviewed by Vision. G1's open rows (15-17, 20-21) come with G2's
    prompt, settings' (47, 48, 69-71) with stage 4's. The 28 seams with no owner get two:
    authority (theme 4) for the three private, the later splits for the rest.
@@ -1166,13 +1166,13 @@ of it is started.
 weaver meets, in the form the Builder's set; tutorials wait for the stories. Writing them maps
 ownership (each piece of state's authoritative owner, writers, readers, lifetime and persistence,
 kept apart from derived displays and caches) and sorts every message into request, performed action,
-observation or outcome: the split's input ([prompt](../../prompts/manuals-first.md)). **Done** as #234
+observation or outcome: the split's input ([prompt](../../../../prompts/manuals-first.md)). **Done** as #234
 to #249 (2026-10-15), with `ManualFacet` across single- and multi-pane offices (#266, #268, #292) and the
 three host offices (`zengine.flow.host`, `zengine.view.host`, `zengine.builder.runner`) in #272 and #295
 (2026-10-16 to 2026-10-17), plus the ASCII manual byte check in #251 (`0ea9441`): every weave a weaver meets
 carries its manual, answered when asked (the menu presenters not yet: P-WORK-74). The maps
-([ownership](../../reportbacks/manuals-first/ownership.md),
-[messages](../../reportbacks/manuals-first/messages.md)) supplied the split's list and the reload-in-place
+([ownership](../../../../reportbacks/manuals-first/ownership.md),
+[messages](../../../../reportbacks/manuals-first/messages.md)) supplied the split's list and the reload-in-place
 list (P-WORK-74, closed across Phases 1D, 1E, and 2B).
 
 2. **One owner per job: the split.** The hub's responsibilities go to owners, guided by the manuals'
@@ -1323,7 +1323,7 @@ weaver has one way to make a pane from data and Workshop paints no authored pane
 comes with BL-WORK-05.
 **Source:** the founder's choice while the show stage's prompt was prepared
 (`prompts/zengine-tally-show.md`); the research that missed it,
-[the UI builder](../../reportbacks/zengine-flow-powers/ui-builder.md).
+[the UI builder](../../../../reportbacks/zengine-flow-powers/ui-builder.md).
 
 ### BL-WORK-05 — Workshop's unit becomes the whole pixel
 
@@ -1347,7 +1347,7 @@ described views (BL-WORK-04). Arrangement mode snaps (P-WORK-10).
 
 A canvas pane asks for its room in pixels, not in Workshop's text rows and columns: the
 founder's choice (2026-10-03) of option (a) in the View Builder's size round
-([its report](../../reportbacks/view-builder-size-RB.md#decisions-asked)). Today a view offers its
+([its report](../../../../reportbacks/view-builder-size-RB.md#decisions-asked)). Today a view offers its
 size in 12-pixel canvas cells and Workshop reads them as its own text cells, so a 680 by 360
 view got a pane about 456 pixels wide, cut on the right. Then views and the View Builder
 measure in pixels end to end, nothing in a window forced onto cells: the window's picture is
@@ -1426,7 +1426,7 @@ skin's settings live, likely for every desk at once; per-pane text size against 
 that a pane chooses no font; showing and hiding parts as one mechanism with BL-WORK-16's
 accordions; the setup file's format past version 4.
 
-Researched ([its report](../../reportbacks/settings-research-RB.md), 2026-10-07): a pane declares rows
+Researched ([its report](../../../../reportbacks/settings-research-RB.md), 2026-10-07): a pane declares rows
 -- a key, a label, what the key takes and its default -- and the desk keeps the chosen values in
 each layout's setup row (setup v5, session v8), hands a seated pane its row's values before any
 room, and Info edits them as rows of the pane it inspects. Later stages add message doors, the
@@ -1489,7 +1489,7 @@ choice.
      applies one (for example, a script that shifts themes throughout the day), writing the
      unlocked settings into the target setup(s) while leaving `locked` settings untouched and never
      restricting the weaver from applying their own tweaks afterward.
-6. **Master Theme Files & Auto-Saving Loose Changes (`Option A` vs. `Option B` vs. Hybrid, researched in [prompt](../../prompts/settings-themes-research.md), [report](../../reportbacks/settings-themes-research-RB.md)):**
+6. **Master Theme Files & Auto-Saving Loose Changes (`Option A` vs. `Option B` vs. Hybrid, researched in [prompt](../../../../prompts/settings-themes-research.md), [report](../../../../reportbacks/settings-themes-research-RB.md)):**
    - Two models for how a setup saves its settings and themes, resolved by the **Hybrid** (`storage.md`):
      - `SetupPane::settings` rows stay the one truth of what a pane is handed (`Option A`), so live tweaks ride the session on close and `s` on save without re-evaluating a theme stack on hand-off or boot, and without crossing Loom's 65,536-cell session decode ceiling (a maximal v8 session is already 64,116 cells; adding a field per stored setting overflows to 72,308, whereas the hybrid adds only 80 cells to reach 64,196).
      - Each layout (`WorkshopSetup` v6) keeps a **baseline theme link** (`LayoutTheme{name, fingerprint}`, `Option B`'s Master Theme as a relation), and **loose changes are derived on demand** by comparing the layout's rows against the resolved baseline and shown at the tail of the Master View (`LOOSE`), where weavers can **snapshot** a stable backup (`S`), **promote** loose changes into a reusable theme (`P`), **reset loose changes** to the baseline (`R`, preserving locked keys), or edit/save the master's `includes` (`W`).
@@ -1509,7 +1509,7 @@ choice.
    - Keyboard focus actions (`focus.next`/`previous`/`left`/`right`/`up`/`down`/`enter` and global `focus.leave` closing WCAG 2.1.1 G1 and 2.1.2 G2 in Wave 14B) plus a replaceable navigation presenter (`zengine-navigation`, Wave 18) offering **jump hints** (Avy/Vimium style over `control:<id>`) and **switch scanning** (1-switch auto, 2-switch step, inverse, shared with `BL-WORK-09`'s tutorial walk) and `motion.*` action bindings (`navigation.md`).
 
 **Wake:** met: BL-WORK-06 closed with #98 and #99 (2026-10-07); Stage 2+ & Themes research completed
-([prompt](../../prompts/settings-themes-research.md), [report](../../reportbacks/settings-themes-research-RB.md), 2026-10-18), reviewed by Vision and amended with the founder's GUI-first & compile-time live sample design (2026-10-18).
+([prompt](../../../../prompts/settings-themes-research.md), [report](../../../../reportbacks/settings-themes-research-RB.md), 2026-10-18), reviewed by Vision and amended with the founder's GUI-first & compile-time live sample design (2026-10-18).
 **Source:** the founder (2026-10-07), after #96's light terminal, with the two messages and the
 setup file as the store his own; and (2026-10-18) for tags, pinned items, compact scrolling tag
 tabs, Workshop-wide pin scope setting, setting locks, composite themes with explicit application,
@@ -1525,7 +1525,7 @@ merged as #150, #151 and #158 (2026-10-09),
 #151's three review fixes as #155, #157 and #156 in the issue lane; stages 3a and 3b wait for the
 documentation overhaul's folder move and its stages 4a and 4b (BL-ADOPT-05), and an agent's
 powers are researched ahead of them (2026-10-10, below); researched
-([its report](../../reportbacks/agent-desk-research-RB.md): stages 0 to 7, 24 decisions); decisions
+([its report](../../../../reportbacks/agent-desk-research-RB.md): stages 0 to 7, 24 decisions); decisions
 7, 9, 11, 15 and 24, then 1, 2, 3, 5, 13, 14 and 19, and 4 and 18 in part, taken as recommended
 (the founder, 2026-10-09)  
 **Owed:** Agents and weavers do not work well together today, and Workshop is too technical for an
@@ -1572,7 +1572,7 @@ Decision 13 (what a notice carries), as recommended. Owed and not yet placed: de
 reading, a rectangle of the grid written row by row, which `desk/read` does not write (#151).
 
 Stage 2's (the founder, 2026-10-09,
-[its report](../../reportbacks/agent-desk-2-RB.md#decisions-asked)): the notice's cost accepted as
+[its report](../../../../reportbacks/agent-desk-2-RB.md#decisions-asked)): the notice's cost accepted as
 measured, P-WORK-50 kept open, and a burst coalesced into one notice by a message Workshop sends
 itself when a real desk shows the cost (1); a pane's holder leaving between deliveries is told at
 Workshop's next look, until stage 6a, which builds the better solution: Loom tells Workshop when an
@@ -1594,7 +1594,7 @@ The founder's direction for an agent's host (2026-10-09), beyond the research:
   nothing (BL-WORK-09's tutorial outline).
 
 The founder's direction for agents' permissions (2026-10-10), researched before stage 3a
-([prompt](../../prompts/agent-powers-research.md)): permissions as gates, by how much each can
+([prompt](../../../../prompts/agent-powers-research.md)): permissions as gates, by how much each can
 bypass; a Tutor's whole use case is reading the desk and highlighting its elements, the baseline;
 pressing some buttons, scoped by pane, locked setup or button; an agent building code for one
 issue that touches only certain files; anything more asked for through the weaver, set up
@@ -1602,7 +1602,7 @@ beforehand, or shared by a more trusted orchestrator from its own limited, highe
 Vision's amendment, accepted: no single ladder, a role (Tutor, Builder, Steward) is a named
 bundle of separate powers, each enforced on its own.
 
-Researched ([its report](../../reportbacks/agent-powers-research-RB.md), 2026-10-10; reviewed by Vision
+Researched ([its report](../../../../reportbacks/agent-powers-research-RB.md), 2026-10-10; reviewed by Vision
 the same day, 26 decisions asked, answered in part below): a role is a bundle of separate powers --
 Tutor, Builder, Player, Orchestrator (a row with `share`) and Steward -- and every scope the weaver
 may widen live is a door, `<office>/<pane>[:<id>]` or `arrange:<id>`, held as Loom authority,
@@ -1623,11 +1623,11 @@ found since); rotating it was the founder's call: he rotated the active key (202
 The founder's answers (2026-10-10): the agent the desk supports is one completely contained command
 structure, with access to great power when granted, and containing today's harness (Claude Code) is
 a later problem; the Weaver's decisions name their prompt now, ahead of `door`
-([prompt](../../prompts/weaver-decisions.md), [report](../../reportbacks/weaver-decisions-RB.md)), no
+([prompt](../../../../prompts/weaver-decisions.md), [report](../../../../reportbacks/weaver-decisions-RB.md)), no
 public issue, as Loom #49, reviewed ready to merge, its hosted run green on all ten jobs (Vision,
 2026-10-11); its names count per Weaver, so a replacing Weaver's prompt 1 could take a decision sent
 to the office for the old one, and a follow-up makes a name unique among the host's Weavers
-([prompt](../../prompts/weaver-prompt-names.md), [report](../../reportbacks/weaver-prompt-names-RB.md)),
+([prompt](../../../../prompts/weaver-prompt-names.md), [report](../../../../reportbacks/weaver-prompt-names-RB.md)),
 the WeaveId addressing #49 documents kept as the second guard: Loom #51, a name its Weaver's WeaveId
 times 10^9 plus its count, reviewed (Vision, 2026-10-10) and merged by the founder (2026-10-11);
 stage `door`'s prompt makes `AuthorityPrompt` v3 and `RequestAuthority` v2, and binds a decision
@@ -1636,7 +1636,7 @@ its names, again; a Weaver reloaded in place by `swap_state` (its policy refuses
 also counts again; the highlight researched to match a press, a message resolved to the control that
 sends it on a view, and a message no control on the desk sends moving the weaver to a pane or setup
 that can, or improving the tool where the control belongs
-([prompt](../../prompts/tutor-highlight-research.md)); an issue names its bounded areas in a `##
+([prompt](../../../../prompts/tutor-highlight-research.md)); an issue names its bounded areas in a `##
 Folders` block, not files; and agents work under a GitHub machine account of their own,
 `UnknownWorkers`, that comments, makes branches, pull requests and issues, and never merges. On a
 personal account's repository a collaborator has one level, write, which merges and labels (Vision,
@@ -1650,17 +1650,17 @@ agreed; a security defect is never one of them. An issue carries a prompt's full
 cold, so that once it is `ready` other agents can take it under the founder's final approval, among
 them a local frontier model a friend of the founder's runs (2026-10-10). Every other decision of the
 powers research taken as recommended (the founder, 2026-10-11): stage `door`
-([prompt](../../prompts/agent-desk-door.md), [report](../../reportbacks/agent-desk-door-RB.md)) is Loom
+([prompt](../../../../prompts/agent-desk-door.md), [report](../../../../reportbacks/agent-desk-door-RB.md)) is Loom
 #52, reviewed (Vision, 2026-10-11): the door's grammar, containment by segment, the disjoint axis,
 `RequestAuthority` v2 and `AuthorityPrompt` v3, a describe-only capability, as the research has
 them; its first run ended `success` with its three Windows jobs, advisory, red, which the report did
-not read; a continuation ([prompt](../../prompts/agent-desk-door-windows.md),
-[report](../../reportbacks/agent-desk-door-windows-RB.md)) found both causes the change's, `doc_links`
+not read; a continuation ([prompt](../../../../prompts/agent-desk-door-windows.md),
+[report](../../../../reportbacks/agent-desk-door-windows-RB.md)) found both causes the change's, `doc_links`
 reading block comments by a pattern CMake's regex engine recurses through past a Windows thread's
 stack, and the host's largest unit past a COFF object's section ceiling, and repaired each: run
 `38129706119` at `23f6ce3`, every job green, the advisory ones included, reviewed (Vision,
 2026-10-11) and merged by the founder (2026-10-11). Stage `declare`
-([prompt](../../prompts/agent-desk-declare.md), [report](../../reportbacks/agent-desk-declare-RB.md)) is
+([prompt](../../../../prompts/agent-desk-declare.md), [report](../../../../reportbacks/agent-desk-declare-RB.md)) is
 Zengine #186: each action row says what a press of it may cause, with the pane's mode, the row's
 `enters` and the other modes' causes, kept true by the census (`tests/actions.txt`, 49 rows) and a
 press witness, which found a cause the research missed (`authoring.commit` sends
@@ -1668,45 +1668,45 @@ press witness, which found a cause the research missed (`authoring.commit` sends
 merge. Zengine's CI builds against Loom's `main` as it stands at run time, and neither run built the
 two together, so Loom #52 merged first and #186's run ran again against it, 8 of 8 green, so #186
 was ready to merge (Vision, 2026-10-11), and the founder merged it (2026-10-11); stage `tutor` is
-next ([prompt](../../prompts/agent-desk-tutor.md)), after the address law, #183, taken from the issue
-lane first ([prompt](../../prompts/address-law.md)). Its session stopped at the Folders (2026-10-12,
-[report](../../reportbacks/address-law-RB.md)): the outcome makes `agents/panes.md`'s count of the
+next ([prompt](../../../../prompts/agent-desk-tutor.md)), after the address law, #183, taken from the issue
+lane first ([prompt](../../../../prompts/address-law.md)). Its session stopped at the Folders (2026-10-12,
+[report](../../../../reportbacks/address-law-RB.md)): the outcome makes `agents/panes.md`'s count of the
 Powers and Composer rows false; the founder amended #183 with that file, the sentence naming where
 the rows are declared rather than counting them, and took the session's plan (Inventory's bar
 unnamed while a name is edited, the View Builder's More as `control:choices`, the demo's id `reset`,
 Flow's names kept with a keyless row each, its Hotkeys list 6 to about 39, the check in the readers)
-([prompt](../../prompts/address-law-amended.md)); `tutor` waits for it, and fast forward's S3 too,
+([prompt](../../../../prompts/address-law-amended.md)); `tutor` waits for it, and fast forward's S3 too,
 since #183's folders hold the tools S3 rewrites. It stopped again (2026-10-12,
-[report](../../reportbacks/address-law-amended-RB.md)): `tests/test_workshop_panes_actions.cpp` pins
+[report](../../../../reportbacks/address-law-amended-RB.md)): `tests/test_workshop_panes_actions.cpp` pins
 Powers at four rows; the founder amended #183 a second time with that file, its case naming the
 actions rather than counting them, one shared header for the judge of `control:` parts, and the
 address law a law of its own in `pane-parts.md` rather than a share of WL-HAND-06's bullet (rule 2);
 an Inventory case's one unexplained red is to be explained first
-([prompt](../../prompts/address-law-amended-2.md)). Fast forward S1 is Zengine #203 and Loom #54
-([report](../../reportbacks/fast-forward-s1-s3-RB.md)), each run green on every job (8 and 10),
+([prompt](../../../../prompts/address-law-amended-2.md)). Fast forward S1 is Zengine #203 and Loom #54
+([report](../../../../reportbacks/fast-forward-s1-s3-RB.md)), each run green on every job (8 and 10),
 reviewed ready (Vision, 2026-10-12): the Timer and the serving host nap on a high-resolution
 waitable timer on Windows, falling back to `Sleep`, their witnesses reading what the clock reads and
 what a nap asked; Loom #54 merges first, then #203's run again against it, then #203. The kit's
 second copies sit on C: beside their trees, the quiet window 10 s (Zen `f20dd0c9`,
-[report](../../reportbacks/executor-kit-speed-copies-RB.md)), reviewed (Vision, 2026-10-12). The
-address law stopped a third time (2026-10-12, [report](../../reportbacks/address-law-amended-2-RB.md)):
+[report](../../../../reportbacks/executor-kit-speed-copies-RB.md)), reviewed (Vision, 2026-10-12). The
+address law stopped a third time (2026-10-12, [report](../../../../reportbacks/address-law-amended-2-RB.md)):
 a law of its own, which Vision asked for, needs its record
 `agents/decisions/a-pane-names-its-parts.md` to list it, Vision's miss; the founder amended #183 a
 third time with that record's line, the session listing every file the change touches before it
-starts ([prompt](../../prompts/address-law-amended-3.md)). The Inventory red was a stale object: the
+starts ([prompt](../../../../prompts/address-law-amended-3.md)). The Inventory red was a stale object: the
 kit's ext4 copy kept a checkout's file time, so an edit made during a build looked older than its
 object; the copy now stamps the time it writes (Zen `c9011952`). S1 merged: Loom #54, then #203
 after its run again against it, 8 of 8 green (2026-10-12); `main`'s run for #202, the journey in the
 pool, green. Overnight (the founder's choice, 2026-10-12), beside #183, three batches from the issue
 lane, each issue its own pull request from `main` and a stop moving on to the next: Zengine #116,
-#110, #109 and #105, documentation ([prompt](../../prompts/overnight-docs-batch.md)); Loom #33, #32 and
-#34 ([prompt](../../prompts/overnight-loom-batch.md)); Zengine #191 and #192, proved by loaded repeats
-([prompt](../../prompts/overnight-load-flakes.md)); and #188 with #103 in the Builder suite
-([prompt](../../prompts/overnight-builder-tests.md)). Not tonight: #199 and #200 (every test file, one
+#110, #109 and #105, documentation ([prompt](../../../../prompts/overnight-docs-batch.md)); Loom #33, #32 and
+#34 ([prompt](../../../../prompts/overnight-loom-batch.md)); Zengine #191 and #192, proved by loaded repeats
+([prompt](../../../../prompts/overnight-load-flakes.md)); and #188 with #103 in the Builder suite
+([prompt](../../../../prompts/overnight-builder-tests.md)). Not tonight: #199 and #200 (every test file, one
 build file), #194 (needs merges to witness), #106, #107, #112 and #115 (#183's files). #114, the
 Info register's split, lost its premise to #201: `info-body.md` stands at 15,642 of the whole file's
 24,576, so Vision proposes closing it. The address law is Zengine #207
-([report](../../reportbacks/address-law-amended-3-RB.md)), `3b8c778` on `7409847`, its run
+([report](../../../../reportbacks/address-law-amended-3-RB.md)), `3b8c778` on `7409847`, its run
 `38212810792` 8 of 8 green, reviewed ready (Vision, 2026-10-12, 10 of 10 checks): WL-HAND-07, one
 judge in `tests/control_parts.hpp` read on every `held_parts`, all 26 files inside the amended
 Folders; it found `tools/fill_laws.sh` not idempotent on `main` (an issue to file). Overnight,
@@ -1719,22 +1719,22 @@ their session's report. Merge order: the documentation, then #207, #209 and #212
 shape (v2, each pane's aimed picture number), its producer and readers, and merges first; `tutor`
 scopes who hears it on top of v2 and does the rest meanwhile, since the two share the guests file,
 the grant, the guest vocabulary, the desk reads and `tests/shapes.txt`
-([tutor](../../prompts/agent-desk-tutor.md), [S3](../../prompts/fast-forward-s3.md)).
-The load flakes are #210 and #211 ([report](../../reportbacks/overnight-load-flakes-RB.md)), each red
+([tutor](../../../../prompts/agent-desk-tutor.md), [S3](../../../../prompts/fast-forward-s3.md)).
+The load flakes are #210 and #211 ([report](../../../../reportbacks/overnight-load-flakes-RB.md)), each red
 on START under load and green after, its mutations caught, 8 of 8 loaded lanes and every hosted job
 green, reviewed ready (Vision, 2026-10-12, 8 of 8 checks): the pilot's paid path is asserted, not
 exercised, its expectation read in the Timer's own code (`apply_ensure`, `fire_due`). Merge order:
 Loom #55, #56 and #57, then #210 and #211, `main`'s run after them the check of the two together;
-then the apart lists go ([prompt](../../prompts/timer-probes-in-pool.md)). S3 is #213
-([report](../../reportbacks/fast-forward-s3-RB.md)), 8 of 8 green, reviewed (Vision, 2026-10-12, 7 of 7
+then the apart lists go ([prompt](../../../../prompts/timer-probes-in-pool.md)). S3 is #213
+([report](../../../../reportbacks/fast-forward-s3-RB.md)), 8 of 8 green, reviewed (Vision, 2026-10-12, 7 of 7
 checks): `DeskStamps` v2's `aimed` is a list that must line up with `panes`, which Zengine's own
 rule forbids (`tests/weavelib/operator_ask.hpp`), forced by Vision's fence ("no new shape beyond
 `DeskStamps` v2"); the founder amended S3 (2026-10-12): each pane's entry carries its stamp and its
 aimed number, one entry shape, `v2::PaneStamp` unchanged, F5 (a) dropped, the description's private
-pointers gone ([prompt](../../prompts/fast-forward-s3-amended.md)); `tutor`'s scoping builds on that.
+pointers gone ([prompt](../../../../prompts/fast-forward-s3-amended.md)); `tutor`'s scoping builds on that.
 The apart lists' follow-up is #214, and S3 amended is #213 (`DeskStamps` v2 `{desk, panes}` of
 `v2::StampedPane{stamp, aimed}`), each 8 of 8 green and reviewed ready (Vision, 2026-10-12, 6 of 6
-checks each). The stage `tutor` is #215 ([report](../../reportbacks/agent-desk-tutor-RB.md)): the
+checks each). The stage `tutor` is #215 ([report](../../../../reportbacks/agent-desk-tutor-RB.md)): the
 guests file's version 3 (a role, `guide`, `keystrokes`, and `capture` and `guide` doors compiled to
 Loom door rules Workshop asks at each read and mark), reading by pane, the weaver-only surfaces for
 every guest, the guide mark `GuideRequested{pane, control, words}`, `desk/guide` and `desk/resolve`;
@@ -1742,9 +1742,9 @@ every guest, the guide mark `GuideRequested{pane, control, words}`, `desk/guide`
 its tests unread); it conflicts with #213 in three files. The founder took its two recommendations
 (2026-10-12): `DeskStamps` stays refused to a row that reads by pane, and the text checks' `/*`
 crash goes to an issue. Merge order: #214, #213, then #215 rebased onto them
-([prompt](../../prompts/agent-desk-tutor-continued.md)).
+([prompt](../../../../prompts/agent-desk-tutor-continued.md)).
 The founder merged #214 and #213 (2026-10-12; `main` `a2f87c9`). #215 rebased onto them
-([report](../../reportbacks/agent-desk-tutor-continued-RB.md)), the three conflicts resolved as both
+([report](../../../../reportbacks/agent-desk-tutor-continued-RB.md)), the three conflicts resolved as both
 sides (the guest vocabulary declares 103), `DeskStamps` v2 refused to a row that reads by pane in
 the observation case; its run 38287005825 at `4d5f0da` 8 of 8 green; reviewed ready (Vision,
 2026-10-12, 7 of 7 checks). The text checks' `/*` crash is Zengine #216, `ready`, `defect`.
@@ -1754,8 +1754,8 @@ needs no approval of its own: the fix's approval is the gate, and each issue say
 it was checked (the founder, 2026-10-10); so the check at the pull request bounds a change to its
 issue's folders and asks nothing of who wrote the issue. Both repositories already teach the issue's
 form (`docs/contributing/taking-an-issue.md`); their `ready` issues, checked before the folder move,
-are refreshed on current main with their folders ([prompt](../../prompts/ready-issues-refresh.md),
-[report](../../reportbacks/ready-issues-refresh-RB.md)): 16 of 16 still hold (Loom #33 in part), each
+are refreshed on current main with their folders ([prompt](../../../../prompts/ready-issues-refresh.md),
+[report](../../../../reportbacks/ready-issues-refresh-RB.md)): 16 of 16 still hold (Loom #33 in part), each
 with a Folders block and a Checked against saying how far its check went, no private plan id left;
 the form says so in Zengine #182 and Loom #50, documentation-only, reviewed (Vision) and merged by
 the founder (2026-10-11); the address law is Zengine #183, filed under `UnknownWorkers`, `ready` and
@@ -1765,12 +1765,12 @@ founder took its `ready` off until his decision (2026-10-11). The check at the p
 issue's Folders block as it stood when `ready` was set, since the account that filed an issue can
 edit it after (Vision).
 
-The Tutor's highlight, researched ([its report](../../reportbacks/tutor-highlight-research-RB.md),
+The Tutor's highlight, researched ([its report](../../../../reportbacks/tutor-highlight-research-RB.md),
 2026-10-11; reviewed by Vision the same day, 12 decisions asked; the address law taken for the issue
 lane now (decisions 1 and 11, the founder, 2026-10-11;
-[continuation](../../prompts/ready-issues-refresh-address-law.md)), the rest, 2 to 10 and 12, as
+[continuation](../../../../prompts/ready-issues-refresh-address-law.md)), the rest, 2 to 10 and 12, as
 recommended (the founder, 2026-10-11), stage `declare` first
-([prompt](../../prompts/agent-desk-declare.md))): a press and a highlight name one address,
+([prompt](../../../../prompts/agent-desk-declare.md))): a press and a highlight name one address,
 `<office>/<pane>:<id>`, drawn by the part `control:<id>`, so five panes' control parts are renamed
 to their ids (the address law, Zengine #183 in the issue lane); what a press may cause is declared
 on the action row (`causes`, with the pane's `mode`, the row's `enters` and the other modes' causes,
@@ -1867,10 +1867,10 @@ issue once its first form is chosen.
 
 ### BL-WORK-43 — Fast forward: a walk as fast as its messages go, and the bus measured
 
-**State:** ORDERED — researched ([prompt](../../prompts/fast-forward-research.md),
-[report](../../reportbacks/fast-forward-research-RB.md), 2026-10-10; reviewed by Vision 2026-10-11; its
+**State:** ORDERED — researched ([prompt](../../../../prompts/fast-forward-research.md),
+[report](../../../../reportbacks/fast-forward-research-RB.md), 2026-10-10; reviewed by Vision 2026-10-11; its
 seven decisions taken as recommended, S1 and S3 queued after the Windows lanes phase (BL-WORK-44),
-now prompted together, each its own pull request ([prompt](../../prompts/fast-forward-s1-s3.md)), S1
+now prompted together, each its own pull request ([prompt](../../../../prompts/fast-forward-s1-s3.md)), S1
 trying Windows' high-resolution waitable timer before a raised resolution (Vision) (the founder,
 2026-10-11)): a walk's time is the Windows tick, not the bus or the bridge -- the Timer reads
 `GetTickCount64` and `loom-host --serve` naps through MinGW's `sleep_for`, each a 15.6 ms tick -- so
@@ -1886,7 +1886,7 @@ at the bus's edges. Its incident: a cleanup's too-wide `taskkill` ended another 
 binary at 23:41 UTC, inside runtime-gcc16's lane, whose `workshop_load` death in that run is likely
 it (Vision). S1 merged as Zengine #203 and Loom #54 (2026-10-12); S3 is Zengine #213, amended so
 each pane's entry carries its aimed number (the founder, 2026-10-12,
-[prompt](../../prompts/fast-forward-s3-amended.md)), merged as #213 (2026-10-12); S2 and S4 to S6
+[prompt](../../../../prompts/fast-forward-s3-amended.md)), merged as #213 (2026-10-12); S2 and S4 to S6
 wait for the roadmap (the founder, 2026-10-14)  
 **Owed:** A fast-forward mode for the demo runs, as in a game: a walk goes as fast as its actions
 can go, where today it reaches four or five actions a second at most; faster runs let agents work
@@ -1898,10 +1898,10 @@ toward the founder's final test of Workshop, a small 3D third-person action game
 ### BL-WORK-44 — Faster builds: the quick wins
 
 **State:** ORDERED, first beside the documentation (the founder, 2026-10-11) — reported
-([prompt](../../prompts/build-speed.md), [report](../../reportbacks/build-speed-RB.md)) and reviewed
+([prompt](../../../../prompts/build-speed.md), [report](../../../../reportbacks/build-speed-RB.md)) and reviewed
 (Vision, 2026-10-10); from the fast-builds research
-([report](../../reportbacks/fast-builds-research-RB.md)) and the C: drive test
-([report](../../reportbacks/c-drive-builds-RB.md)): the Windows build trees on C:, the WSL lanes from
+([report](../../../../reportbacks/fast-builds-research-RB.md)) and the C: drive test
+([report](../../../../reportbacks/c-drive-builds-RB.md)): the Windows build trees on C:, the WSL lanes from
 an ext4 source copy, and CI's Q1 to Q3 (Loom without its tests, a compiler cache written only by
 `main`'s runs, parallel CTest on the Linux jobs), the research's decision 1 as recommended (the
 founder, 2026-10-10). Zen itself stays on G:. CI's quick wins are Zengine #180, merged by the
@@ -1913,21 +1913,21 @@ Windows trees are under `C:/Users/Joshua/zen-build/` and the WSL lanes run from 
 `7ec2f1a6`). The parallel ASan lane met a race in `workshop_journey` I1, Workshop's guest door
 serving before its plan is realized (P-WORK-62): the founder kept `-j4` on both Linux jobs and took
 the race to an issue (#180's decision 1, 2026-10-11), Zengine #185, `ready`
-([report](../../reportbacks/guest-door-readiness-issue-RB.md)), a red with only that failure rerun once
+([report](../../../../reportbacks/guest-door-readiness-issue-RB.md)), a red with only that failure rerun once
 and named until its fix merges. The MSVC job now bounds a run (the founder asked, 2026-10-11): on
 #181's run it spent 1,080 s compiling and 1,034 s on a serial verify. The fast-builds research's
 decision 10, open, kept it bare; a measured phase, on #180's branch once its session ends
-([prompt](../../prompts/windows-lanes.md)), the founder's choice (2026-10-11): the cache on pull
+([prompt](../../../../prompts/windows-lanes.md)), the founder's choice (2026-10-11): the cache on pull
 requests (embedded debug information and a launcher in CI's configure line, not Zengine's CMake),
 one bare MSVC run on `main` nightly as the stranger's proof, and both Windows jobs' tests in
-parallel where they do not clash. Zengine #187 ([report](../../reportbacks/windows-lanes-RB.md)),
+parallel where they do not clash. Zengine #187 ([report](../../../../reportbacks/windows-lanes-RB.md)),
 reviewed (Vision, 2026-10-11), not yet ready: by its report's medians MSVC 2,227 s before, 1,554
 cold and 890 warm, MinGW-w64 856 to 464; `workshop_journey` runs alone on both Windows jobs, its
 race met on MSVC too, and `timer` since #187's first run met it (P-BUILD-01); the run at `a86e349e`
 ended green, 8 of 8, on its MSVC job's second attempt, the first cancelled at its limit on a slow
 runner (P-BUILD-09), and the report records the end; its Counts and the pull request's Evidence miss
 proof F's ASan red, so a continuation names it, adds the Linux jobs' list to #187 and files the
-path-bound `builder` case as an issue ([prompt](../../prompts/windows-lanes-run-end.md)). The founder's
+path-bound `builder` case as an issue ([prompt](../../../../prompts/windows-lanes-run-end.md)). The founder's
 decision 1 (2026-10-11): all four build jobs keep `workshop_journey` apart until #185's fix merges,
 replacing the rerun-once rule, and a follow-up after the fix takes it out of all four. The
 continuation did so: proof F's red is `audit_probes` probe D, a fixed 400 ms real-clock window under
@@ -1937,19 +1937,19 @@ by the founder (2026-10-11), the proof branch deleted; its 17 caches, about 7.8 
 repository's 10, remain until deleted or evicted. `audit_probes` kept apart on the Linux jobs too
 until its repair (the founder, 2026-10-11), `timer` and probe D to the issue lane, and #185's
 comment corrected to leave its fix inside its folders
-([prompt](../../prompts/windows-lanes-after-merge.md)). The cold builds after Loom #52 were Loom's
+([prompt](../../../../prompts/windows-lanes-after-merge.md)). The cold builds after Loom #52 were Loom's
 merge, not the stores (P-BUILD-14). After the merges, the `timer` and probe D issues are Zengine
 #191 and #192, `ready`, and `audit_probes` apart is #193, whose run is the first to build `main`'s
 merges together, since `main`'s own runs did not (P-BUILD-15): 8 of 8 green against Loom #53, MSVC
 and `snake` included, reviewed (Vision, 2026-10-11), ready to merge alone, so that `main`'s run for
 it saves every store against the new Loom, MSVC's first. The kit's own quick wins, Q4 to Q6, Q7's
 issue and a slot given in turn, were prompted for a quiet window after docs B3
-([prompt](../../prompts/executor-kit-speed.md)), and the founder started the phase (2026-10-11),
-`run-end.sh` added to it as a continuation ([prompt](../../prompts/executor-kit-speed-run-end.md)); the
+([prompt](../../../../prompts/executor-kit-speed.md)), and the founder started the phase (2026-10-11),
+`run-end.sh` added to it as a continuation ([prompt](../../../../prompts/executor-kit-speed-run-end.md)); the
 founder then tries the machine whole with several sessions, and what moves to an external host is
 judged from the slot's waits (the founder, 2026-10-11): evidence-only lanes, never bytes a weaver's
 Workshop loads (decision 7). The phase landed as Zen `ee2d32fb`
-([report](../../reportbacks/executor-kit-speed-RB.md)), reviewed (Vision, 2026-10-12, 8 of 8 checks, by
+([report](../../../../reportbacks/executor-kit-speed-RB.md)), reviewed (Vision, 2026-10-12, 8 of 8 checks, by
 reading: no measurement rerun while two sessions held the slot): a second WSL tree 392.8 to 267.9 s
 (243 of 303 hits), a Windows tree of one checkout 403.8 to 340.2 s, a test-only edit 239.9 to 179.0
 s (`timer` 12.7 s), a same-bytes Loom reinstall 34.2 s to nothing, a Windows build's turn in the
@@ -1959,17 +1959,17 @@ definitions carry absolute paths) and #200 (the load suite's reload copies), rea
 both as recommended (2026-10-12): a phase's second copy cloned on Windows under the kit's root,
 beside its trees, the primary and his checkouts unmoved, and the slot's quiet window at 10 s, landed
 once nothing reads the kit, with a comment on #200
-([prompt](../../prompts/executor-kit-speed-copies.md)). The kit still taught the delivery from
+([prompt](../../../../prompts/executor-kit-speed-copies.md)). The kit still taught the delivery from
 before 2026-10-10 (`pass-tools/executor-kit/README.md:97-111`), so phases ran the full lanes before
 the push: #340's local runs took 227 minutes, 64 of them in 19 loops of 62 entries each, each loop
 measuring all the branch had changed (Vision, 2026-10-20). The founder's direction (2026-10-20): the
 change's own suite while working; the local proof and the diff read before the push; the official
 lane, the mutation matrices, the witnesses and any lane rule 6 asks for after it, while the hosted
 run runs; the witness's Windows tree without the suites; prompted for once G2 stage 1's session
-ends ([prompt](../../prompts/kit-standard-delivery.md)). Vision set aside an issue to shorten
+ends ([prompt](../../../../prompts/kit-standard-delivery.md)). Vision set aside an issue to shorten
 `neovim_journey`, every full lane's floor at 212 s: run beside the hosted run, the lane holds no
 one up. The phase landed as Zen `a4c3df04`
-([report](../../reportbacks/kit-standard-delivery-RB.md)), reviewed and accepted (Vision, 2026-10-20,
+([report](../../../../reportbacks/kit-standard-delivery-RB.md)), reviewed and accepted (Vision, 2026-10-20,
 6 of 7 checks, one in part): a test-only loop 68 to 77 s against #340's 246 to 252, the change's
 own suite after a product edit 12.6 s, the SDL tree's first build 130 s against 468; `affected`'s
 rules kept, since the journeys are reached through Workshop's own program, not the blanket rule.
@@ -1977,13 +1977,13 @@ What a build weighs, measured (Vision, 2026-10-20,
 [handoff](../handoffs/dll-size-and-compile-time.md)): 90 % of a weave DLL is debug information and
 names, 74 % of the compile time is test objects. The founder's order (2026-10-20): the cheap cuts
 before G2's stage 2 -- line tables on CI's GCC jobs, a cheaper facet merge, SDL measured before
-anything more is cached for it ([prompt](../../prompts/lighter-builds.md)); splitting
+anything more is cached for it ([prompt](../../../../prompts/lighter-builds.md)); splitting
 `tests/workshop_support.hpp`, the largest lever, after G2, which rewrites the rigs and deletes the
 Skins and the seam that header carries. Then the founder's call (2026-10-21), measuring stopped:
 CI's GCC jobs and the kit's GCC trees without debug information (`-g0`), the sanitizer builds with
 line tables (`-g1`), a weaver's Debug build untouched
-([continuation](../../prompts/lighter-builds-g0.md)). Reported
-([report](../../reportbacks/lighter-builds-g0-RB.md)) and reviewed (Vision, 2026-10-21, 6 of 8
+([continuation](../../../../prompts/lighter-builds-g0.md)). Reported
+([report](../../../../reportbacks/lighter-builds-g0-RB.md)) and reviewed (Vision, 2026-10-21, 6 of 8
 checks): Zengine #343 green in every job at `2b3cbf38`, ready to merge, `main`'s first run after it
 cold in the GCC jobs; the kit's trees at `-g0`, the sanitizer's at `-g1`, `KIT_DEBUG=g` for a
 debugger (Zen `9044b88e`). Measured on one runner per job, `-g1` against `-g` builds 7 to 12 %
@@ -2090,46 +2090,46 @@ carry; its research decides whether Images waits for it (2026-10-07).
 #### BL-WORK-37 — The skin's drawing door
 
 **State:** ORDERED, STAGES 1–7 AND READABILITY PASS MERGED (`#218`, `#219`, `#296`–`#311`), STAGE 7 POLISH (`7D`, `7E`) PROMPTED
-— [round 1](../../prompts/graphics-weave-research.md),
-[round 2](../../prompts/graphics-weave-research-2.md),
-[round 3](../../prompts/graphics-weave-research-3.md),
-[round 4](../../prompts/graphics-weave-research-4.md),
-[round 5](../../prompts/graphics-weave-research-5.md); stage 1, the snake
-([prompt](../../prompts/graphics-stage-snake.md)), amended from rounds 4 and 5 (the founder,
+— [round 1](../../../../prompts/graphics-weave-research.md),
+[round 2](../../../../prompts/graphics-weave-research-2.md),
+[round 3](../../../../prompts/graphics-weave-research-3.md),
+[round 4](../../../../prompts/graphics-weave-research-4.md),
+[round 5](../../../../prompts/graphics-weave-research-5.md); stage 1, the snake
+([prompt](../../../../prompts/graphics-stage-snake.md)), amended from rounds 4 and 5 (the founder,
 2026-10-13; filed 2026-10-07); stage 2, one action path and `Attention` + `Connections` on `graphics/`
-([prompt](../../prompts/graphics-stage-2-panes-and-actions.md), merged as `#296` / `bf3981e`, 2026-10-17);
-stage 3, three parallel lanes ([3A single panes](../../prompts/graphics-stage-3a-single-panes.md) /
-[report](../../reportbacks/graphics-stage-3a-single-panes-RB.md) `#297` `7457af1`,
-[3B multi-pane seats](../../prompts/graphics-stage-3b-multi-panes.md) /
-[report](../../reportbacks/graphics-stage-3b-multi-panes-RB.md) `#298` `f75cc13`,
-[3C data-as-UI presenter](../../prompts/graphics-stage-3c-data-ui-presenter.md) /
-[report](../../reportbacks/graphics-stage-3c-data-ui-presenter-RB.md) `#299` `aad758c`, 2026-10-17);
-stage 4, three parallel lanes ([4A canvas panes](../../prompts/graphics-stage-4a-canvas-panes.md) /
-[report](../../reportbacks/graphics-stage-4a-canvas-panes-RB.md) `#302` `91b9b21`,
-[4B editors](../../prompts/graphics-stage-4b-editors.md) /
-[report](../../reportbacks/graphics-stage-4b-editors-RB.md) `#301` `99a08ea`,
-[4C projection and stand-in unification](../../prompts/graphics-stage-4c-projection-and-standin-unification.md) /
-[report](../../reportbacks/graphics-stage-4c-projection-and-standin-unification-RB.md) `#300` `e43c45d`, 2026-10-17);
-stage 5, three parallel lanes ([5A Workshop arranger](../../prompts/graphics-stage-5a-workshop-arranger.md) /
-[report](../../reportbacks/graphics-stage-5a-workshop-arranger-RB.md) `#304` `a9d5c99`,
-[5B unified WindowDrawing and caret](../../prompts/graphics-stage-5b-window-drawing-and-caret.md) /
-[report](../../reportbacks/graphics-stage-5b-window-drawing-and-caret-RB.md) `#303` `44a8bc2`,
-[5C Hand unsettled retry and story_journey U2](../../prompts/graphics-stage-5c-point-reader-unsettled-and-story-journey.md) /
-[report](../../reportbacks/graphics-stage-5c-point-reader-unsettled-and-story-journey-RB.md) `#305` `2ab3de0`, 2026-10-17);
-stage 6, three parallel lanes ([6A window extent, text & overlays](../../prompts/graphics-stage-6a-window-extent-text-and-overlays.md) /
-[report](../../reportbacks/graphics-stage-6a-window-extent-text-and-overlays-RB.md) `#308` `238bb70`,
-[6B seat caret & View on WindowDrawing](../../prompts/graphics-stage-6b-seat-caret-and-view-window-drawing.md) /
-[report](../../reportbacks/graphics-stage-6b-seat-caret-and-view-window-drawing-RB.md) `#307` `7b1ab14`,
-[6C builder & monitor aimed retry](../../prompts/graphics-stage-6c-builder-monitor-aimed.md) /
-[report](../../reportbacks/graphics-stage-6c-builder-monitor-aimed-RB.md) `#306` `1d11677`, 2026-10-18);
-stage 7 wrap-up, three parallel lanes ([7A window load plan & SDK install](../../prompts/graphics-stage-7a-window-load-plan-and-sdk-install.md) /
-[report](../../reportbacks/graphics-stage-7a-window-load-plan-and-sdk-install-RB.md) `#311` `5926167`,
-[7B terminal resize re-offer](../../prompts/graphics-stage-7b-window-terminal-resize.md) /
-[report](../../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md) `#310` `5918a4b`,
-[7C builder.choose, Monitor.rows & act.aimed](../../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md) /
-[report](../../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed-RB.md) `#309` `7ed868c`, 2026-10-18);
-stage 7 follow-up polish, two parallel lanes prompted ([7D settled banner & window plan input row](../../prompts/graphics-stage-7d-settled-banner-and-window-plan.md),
-[7E terminal input yield & graphics resize doc](../../prompts/graphics-stage-7e-window-terminal-input-yield.md), 2026-10-18)  
+([prompt](../../../../prompts/graphics-stage-2-panes-and-actions.md), merged as `#296` / `bf3981e`, 2026-10-17);
+stage 3, three parallel lanes ([3A single panes](../../../../prompts/graphics-stage-3a-single-panes.md) /
+[report](../../../../reportbacks/graphics-stage-3a-single-panes-RB.md) `#297` `7457af1`,
+[3B multi-pane seats](../../../../prompts/graphics-stage-3b-multi-panes.md) /
+[report](../../../../reportbacks/graphics-stage-3b-multi-panes-RB.md) `#298` `f75cc13`,
+[3C data-as-UI presenter](../../../../prompts/graphics-stage-3c-data-ui-presenter.md) /
+[report](../../../../reportbacks/graphics-stage-3c-data-ui-presenter-RB.md) `#299` `aad758c`, 2026-10-17);
+stage 4, three parallel lanes ([4A canvas panes](../../../../prompts/graphics-stage-4a-canvas-panes.md) /
+[report](../../../../reportbacks/graphics-stage-4a-canvas-panes-RB.md) `#302` `91b9b21`,
+[4B editors](../../../../prompts/graphics-stage-4b-editors.md) /
+[report](../../../../reportbacks/graphics-stage-4b-editors-RB.md) `#301` `99a08ea`,
+[4C projection and stand-in unification](../../../../prompts/graphics-stage-4c-projection-and-standin-unification.md) /
+[report](../../../../reportbacks/graphics-stage-4c-projection-and-standin-unification-RB.md) `#300` `e43c45d`, 2026-10-17);
+stage 5, three parallel lanes ([5A Workshop arranger](../../../../prompts/graphics-stage-5a-workshop-arranger.md) /
+[report](../../../../reportbacks/graphics-stage-5a-workshop-arranger-RB.md) `#304` `a9d5c99`,
+[5B unified WindowDrawing and caret](../../../../prompts/graphics-stage-5b-window-drawing-and-caret.md) /
+[report](../../../../reportbacks/graphics-stage-5b-window-drawing-and-caret-RB.md) `#303` `44a8bc2`,
+[5C Hand unsettled retry and story_journey U2](../../../../prompts/graphics-stage-5c-point-reader-unsettled-and-story-journey.md) /
+[report](../../../../reportbacks/graphics-stage-5c-point-reader-unsettled-and-story-journey-RB.md) `#305` `2ab3de0`, 2026-10-17);
+stage 6, three parallel lanes ([6A window extent, text & overlays](../../../../prompts/graphics-stage-6a-window-extent-text-and-overlays.md) /
+[report](../../../../reportbacks/graphics-stage-6a-window-extent-text-and-overlays-RB.md) `#308` `238bb70`,
+[6B seat caret & View on WindowDrawing](../../../../prompts/graphics-stage-6b-seat-caret-and-view-window-drawing.md) /
+[report](../../../../reportbacks/graphics-stage-6b-seat-caret-and-view-window-drawing-RB.md) `#307` `7b1ab14`,
+[6C builder & monitor aimed retry](../../../../prompts/graphics-stage-6c-builder-monitor-aimed.md) /
+[report](../../../../reportbacks/graphics-stage-6c-builder-monitor-aimed-RB.md) `#306` `1d11677`, 2026-10-18);
+stage 7 wrap-up, three parallel lanes ([7A window load plan & SDK install](../../../../prompts/graphics-stage-7a-window-load-plan-and-sdk-install.md) /
+[report](../../../../reportbacks/graphics-stage-7a-window-load-plan-and-sdk-install-RB.md) `#311` `5926167`,
+[7B terminal resize re-offer](../../../../prompts/graphics-stage-7b-window-terminal-resize.md) /
+[report](../../../../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md) `#310` `5918a4b`,
+[7C builder.choose, Monitor.rows & act.aimed](../../../../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md) /
+[report](../../../../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed-RB.md) `#309` `7ed868c`, 2026-10-18);
+stage 7 follow-up polish, two parallel lanes prompted ([7D settled banner & window plan input row](../../../../prompts/graphics-stage-7d-settled-banner-and-window-plan.md),
+[7E terminal input yield & graphics resize doc](../../../../prompts/graphics-stage-7e-window-terminal-input-yield.md), 2026-10-18)  
 **Owed:** A pane asks the skin to draw, and the skin keeps what it was asked:
 `draw_rectangle name="mine" pos=(0, 0, 100, 50) color=RGB(60, 0, 160)` builds a draw function in
 the skin, kept under the pane and its key and called every frame the skin draws until the pane
@@ -2175,7 +2175,7 @@ The stage `tutor` (#215) draws its guide mark in Workshop, in a surface role of 
 a row that reads every pane all their pixels (WL-GUIDE-03); both are the graphics weave's to settle:
 where a mark lives, and a picture withheld by region (Vision, 2026-10-12).
 
-Researched once ([report](../../reportbacks/graphics-weave-research-RB.md)): a graphics weave that
+Researched once ([report](../../../../reportbacks/graphics-weave-research-RB.md)): a graphics weave that
 keeps named items and routes them, skins that paint and keep nothing, a window that stacks, three
 kinds, the helpers measured with 42 fresh writers, the snake moved in scratch; 16 decisions,
 reviewed (Vision, 2026-10-12). The founder did not take them (2026-10-12): `DrawnItem` is a glob of
@@ -2197,12 +2197,12 @@ can later make a "RecyclerListView" that people use as easily as if Zen had buil
 operators on all sides hold what someone new to a language would expect without asking, like a
 simplified calculator (a square root and logs; what is easily made on the spot may be left out);
 whether a repeat or a grid earns a primitive, he is not sure. Round 2 prompted
-([prompt](../../prompts/graphics-weave-research-2.md)). The operator package's own default set is five
+([prompt](../../../../prompts/graphics-weave-research-2.md)). The operator package's own default set is five
 Int primitives today (`math.add`, `math.max`, `compare.less_int`, `logic.select_bool`,
 `logic.select_int`): a calculator's set over Int and Float is bounded work, an issue to file
 (Vision, 2026-10-12).
 
-Researched again ([report](../../reportbacks/graphics-weave-research-2-RB.md)): one primitive, a node
+Researched again ([report](../../../../reportbacks/graphics-weave-research-2-RB.md)): one primitive, a node
 (path, operator, operands), with meaning in element records above it; seven operators every medium
 draws; eleven elements as vertical slices, placed by the split rule; a stranger's recycler list
 loaded and used as easily as ours; the snake's tick 619 bytes in 5 messages, beside today's 72 in 2
@@ -2218,7 +2218,7 @@ platform pump per process where the platform has one input queue (SDL). Round 2'
 group is a layer; room, an integer layer) and 10 (the eleven seams filed as issues once 1 to 9 are
 taken) wait for the founder. Whether Zen splits other jobs this way is BL-WORK-45.
 
-Round 3 reported ([report](../../reportbacks/graphics-weave-research-3-RB.md)) and reviewed (Vision,
+Round 3 reported ([report](../../../../reportbacks/graphics-weave-research-3-RB.md)) and reviewed (Vision,
 2026-10-12, 11 of 12 checks): a window weave per OS window or terminal keeps the one retained copy,
 paints with skins loaded as code (one C symbol on the provider seam's conventions), composes, writes
 its device and judges presses; the directory introduces areas off the hot path; one pump a process.
@@ -2250,7 +2250,7 @@ crosses, and as a participant between both cross (round 2: +1 message, +204 byte
 game choosing an element (the board a grid) and sending its changes (`UiGridSet`, 63 bytes a tick in
 round 2), behaviour staying the owner's. Round 4 first, stage 1 waiting (the founder, 2026-10-12).
 
-Round 4 reported ([report](../../reportbacks/graphics-weave-research-4-RB.md)) and reviewed (Vision,
+Round 4 reported ([report](../../../../reportbacks/graphics-weave-research-4-RB.md)) and reviewed (Vision,
 2026-10-12, 12 of 12 checks): the window presents elements from code it loads as it loads a skin
 (`ElementPut` once, then `ElementChange{ref, kind, change}`, the change's shape implied), keeps
 their state and its own painted cells; the snake's board as the game's own element (`SnakeStep{head,
@@ -2267,7 +2267,7 @@ first (2026-10-12): the shape stressed until each workload breaks, up to an OS w
 SDL's software and GPU renderers on the Windows tree, timed with the instruments off -- what Zengine
 #120 (BL-ADOPT-03) waits for.
 
-Round 5 reported ([report](../../reportbacks/graphics-weave-research-5-RB.md)) and reviewed (Vision,
+Round 5 reported ([report](../../../../reportbacks/graphics-weave-research-5-RB.md)) and reviewed (Vision,
 2026-10-13, 12 of 12 checks): round 4's shape grown until each workload broke, timed in optimised
 builds with the probe's instruments compiled out, on the terminal (WSL) and on an OS window through
 SDL3 on Windows. It broke first in the probe's own code -- the window's structures cost the area,
@@ -2287,7 +2287,7 @@ Nine decisions, taken as recommended but the ninth: Zengine #120 stays parked un
 exists, this round's harness and figures its baseline (the founder, 2026-10-13). Stage 1 amended
 from rounds 4 and 5.
 
-Stage 1 reported ([report](../../reportbacks/graphics-stage-snake-RB.md)) as Zengine #218, four
+Stage 1 reported ([report](../../../../reportbacks/graphics-stage-snake-RB.md)) as Zengine #218, four
 commits, green on all eight hosted jobs at `d601d1f4`, 12 mutants caught, and reviewed (Vision,
 2026-10-13, 10 of 10 checks): `graphics/` (the vocabulary, the canvas, the seven operators, the
 terminal window in five files, 1,361 lines, the directory, the two seams, the classic and block
@@ -2300,11 +2300,11 @@ where its board is shown, `show` must end every drawing handler, an element's ch
 by their place in a tuple, about twenty new terms, and the snake example grew from about 690 lines
 to 1,150. The report's five decisions taken (its fourth cites P-WORK-67 for per-row grants, which
 are P-WORK-68). The founder merges #218 as it stands and orders one readability pass before stage 2
-([prompt](../../prompts/graphics-readability.md)): the handshake the library's, showing that cannot be
+([prompt](../../../../prompts/graphics-readability.md)): the handshake the library's, showing that cannot be
 forgotten, a room naming the elements its window holds, a change type checked at build time; stage 2
 takes the tick's time (the founder, 2026-10-13).
 
-The readability pass reported ([report](../../reportbacks/graphics-readability-RB.md)) as Zengine #219,
+The readability pass reported ([report](../../../../reportbacks/graphics-readability-RB.md)) as Zengine #219,
 two commits, green on all eight hosted jobs at `027d6e5a`, 14 mutants caught, and reviewed (Vision,
 2026-10-14, 13 checks run of 13, 12 passing; its builds, mutants and bench read from its evidence,
 not rerun): `graphics/drawing.hpp`'s `DrawingWeave` owns the room's handshake and shows at the end
@@ -2332,8 +2332,8 @@ composition, arrangement and routing move there whole over stages 2 to 5, which 
 (a press crosses once) keeps in one window weave.
 
 **Stage 2 and the solidified data-as-UI + presenter end-state** (the founder, 2026-10-17;
-[prompt](../../prompts/graphics-stage-2-panes-and-actions.md),
-[report](../../reportbacks/graphics-stage-2-panes-and-actions-RB.md)): Stage 2 (`#296`, merged as
+[prompt](../../../../prompts/graphics-stage-2-panes-and-actions.md),
+[report](../../../../reportbacks/graphics-stage-2-panes-and-actions-RB.md)): Stage 2 (`#296`, merged as
 `bf3981e`, 8 of 8 CI jobs green on run `39037359516`, 12/12 mutants caught, reviewed ready by
 Vision 2026-10-17) introduces `PaneDrawingFacet` (`workshop/pane_facets.hpp`) and `drawn_rows`
 (`workshop/pane_drawing.hpp`, reusing `graphics::term::spaces` and `Painter`) so a pane weave writes
@@ -2355,8 +2355,8 @@ After `#296` merged as a tight 2-pane slice, the founder ordered scaling up Stag
 non-overlapping parallel lanes, and added the standing multi-lane rule that executors may step
 outside their initial file list whenever needed provided they check with sibling lanes first and
 record every out-of-scope file and why in their report-back:
-1. **Lane 3A — Single-Pane Suite** ([prompt](../../prompts/graphics-stage-3a-single-panes.md),
-   [report](../../reportbacks/graphics-stage-3a-single-panes-RB.md), PR `#297` merged as `7457af1`, 13 files,
+1. **Lane 3A — Single-Pane Suite** ([prompt](../../../../prompts/graphics-stage-3a-single-panes.md),
+   [report](../../../../reportbacks/graphics-stage-3a-single-panes-RB.md), PR `#297` merged as `7457af1`, 13 files,
    8 of 8 CI jobs green on run `39056554015`, 19/19 mutants caught, reviewed ready by Vision
    2026-10-17): upgrades `workshop/pane_drawing.hpp` (`rows_sketch`, emitting disjoint
    `parts/<row>.<run>` nodes in front of row text so overlapping parts resolve to `RowMap::at`'s
@@ -2368,8 +2368,8 @@ record every out-of-scope file and why in their report-back:
    (`external-host/demo-control/control.hpp`) to `PaneDrawingFacet`, and updates
    `external-host/docs/zengine.demo.md`, `composer/docs/zengine.composer.md`, and
    `workshop/docs/workshop-panes.md`.
-2. **Lane 3B — Multi-Pane Seat Suite** ([prompt](../../prompts/graphics-stage-3b-multi-panes.md),
-   [report](../../reportbacks/graphics-stage-3b-multi-panes-RB.md), PR `#298` merged as `f75cc13`, 14 files,
+2. **Lane 3B — Multi-Pane Seat Suite** ([prompt](../../../../prompts/graphics-stage-3b-multi-panes.md),
+   [report](../../../../reportbacks/graphics-stage-3b-multi-panes-RB.md), PR `#298` merged as `f75cc13`, 14 files,
    8 of 8 CI jobs green on run `39059883066`, 16 mutants / 18 of 18 runs caught, reviewed ready by
    Vision 2026-10-17): upgrades `PaneCanvasSeat` and `MultiPaneFacet` (`workshop/pane_seat.hpp`) so
    every seat owns a `graphics::Canvas` at `<office>.<pane>` (`rows_drawing`, disjoint runs, bounded
@@ -2379,8 +2379,8 @@ record every out-of-scope file and why in their report-back:
    (`loaded`, `arrangement`, `powers`), `Info` (`info`..`info.4`), and `Inventory`
    (`inventory`..`inventory.N`) onto `graphics/` with zero file overlap with `#297`.
 3. **Lane 3C — Data-as-UI Graphics & `view::Presenter`**
-   ([prompt](../../prompts/graphics-stage-3c-data-ui-presenter.md),
-   [report](../../reportbacks/graphics-stage-3c-data-ui-presenter-RB.md), PR `#299` merged as `aad758c`, 6
+   ([prompt](../../../../prompts/graphics-stage-3c-data-ui-presenter.md),
+   [report](../../../../reportbacks/graphics-stage-3c-data-ui-presenter-RB.md), PR `#299` merged as `aad758c`, 6
    files, 8 of 8 CI jobs green on run `39068582742`, 22/22 mutants caught across `m3` + `m4`,
    reviewed ready by Vision 2026-10-17): adds `view::sketch` (projecting the single `view::picture`
    via `rects_by` / `texts_by` so the one-renderer law in `agents/view.md` holds and Workshop's
@@ -2393,8 +2393,8 @@ record every out-of-scope file and why in their report-back:
 
 **Stage 4 (Wave 9 — three parallel lanes, CLOSED 2026-10-17 — `#300` `e43c45d`, `#301` `99a08ea`, `#302` `91b9b21`, 36 files with zero overlap):**
 Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up the Stage 3 cross-lane seams:
-1. **Lane 4A — Canvas-Picture Authoring Panes** ([prompt](../../prompts/graphics-stage-4a-canvas-panes.md),
-   [report](../../reportbacks/graphics-stage-4a-canvas-panes-RB.md), PR `#302` merged as `91b9b21`, 14 files,
+1. **Lane 4A — Canvas-Picture Authoring Panes** ([prompt](../../../../prompts/graphics-stage-4a-canvas-panes.md),
+   [report](../../../../reportbacks/graphics-stage-4a-canvas-panes-RB.md), PR `#302` merged as `91b9b21`, 14 files,
    26/26 mutants caught across `m1` + `m2`, reviewed ready by Vision 2026-10-17): introduces
    `workshop::canvas_sketch` (`workshop/pane_canvas_drawing.hpp`, 126 lines — projecting a
    `v4::PaneCanvasContent` into `picture/<n>` and `parts/<n>/<k>` groups so delta nodes stay in
@@ -2404,8 +2404,8 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
    `ViewBuilderPane` (`view/view-builder/pane.cpp`, unifying pointer and window presses in `choose`
    and drawing from a presentation copy so a window room never clamps Workshop's pan) onto
    `graphics/`.
-2. **Lane 4B — Both Editors on `graphics/`** ([prompt](../../prompts/graphics-stage-4b-editors.md),
-   [report](../../reportbacks/graphics-stage-4b-editors-RB.md), PR `#301` merged as `99a08ea`, 7 files, 8 of 8
+2. **Lane 4B — Both Editors on `graphics/`** ([prompt](../../../../prompts/graphics-stage-4b-editors.md),
+   [report](../../../../reportbacks/graphics-stage-4b-editors-RB.md), PR `#301` merged as `99a08ea`, 7 files, 8 of 8
    CI jobs green on run `39077688883`, 17/17 mutants caught across `m1` + `m2`, reviewed ready by
    Vision 2026-10-17): introduces `editor_office::EditorWindow` in `editor/office_seam.hpp` (drawing
    rows via `ws::rows_drawing` plus `mark` for accent selection runs and the `caret` vertical bar
@@ -2415,8 +2415,8 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
    replacement candidate emits no `RoomAsked` or `Drawn` before admission and clearing `drag_` /
    `grab_` / `release_drag()` on discrete window presses.
 3. **Lane 4C — Projection, Refusal, Stand-In Unification & `act.py` Retry**
-   ([prompt](../../prompts/graphics-stage-4c-projection-and-standin-unification.md),
-   [report](../../reportbacks/graphics-stage-4c-projection-and-standin-unification-RB.md), PR `#300` merged as
+   ([prompt](../../../../prompts/graphics-stage-4c-projection-and-standin-unification.md),
+   [report](../../../../reportbacks/graphics-stage-4c-projection-and-standin-unification-RB.md), PR `#300` merged as
    `e43c45d`, 15 files, 8 of 8 CI jobs green on run `39075043364`, 7/7 mutant witness runs caught,
    reviewed ready by Vision 2026-10-17): moves the single templated `ws::rows_drawing<Part>` and
    `ws::WindowDrawing` (owning `graphics::Canvas`, `last_`, and the two-state `fresh_` /
@@ -2429,8 +2429,8 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
 
 **Stage 5 (Wave 10 — three parallel lanes, CLOSED 2026-10-17 — `#303` `44a8bc2`, `#304` `a9d5c99`, `#305` `2ab3de0`, 29 files with zero overlap):**
 1. **Lane 5A — Workshop as `zengine.graphics` Arranger & Desk Chrome Drawer**
-   ([prompt](../../prompts/graphics-stage-5a-workshop-arranger.md),
-   [report](../../reportbacks/graphics-stage-5a-workshop-arranger-RB.md), PR `#304` merged as `a9d5c99`, 13 files,
+   ([prompt](../../../../prompts/graphics-stage-5a-workshop-arranger.md),
+   [report](../../../../reportbacks/graphics-stage-5a-workshop-arranger-RB.md), PR `#304` merged as `a9d5c99`, 13 files,
    8 of 8 CI jobs green on run `39093569054`, 44/44 mutants caught across `m1`–`m3`,
    reviewed ready by Vision 2026-10-17): teaches Workshop (`WorkshopWeave` in `workshop/weave.hpp`,
    `workshop/weave_run.cpp`, `workshop/weave_handlers.cpp`, `workshop/weave_pointer.cpp`, `workshop/grant.cpp`,
@@ -2442,8 +2442,8 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
    `"zengine.workshop"` via `WindowDrawing` with a hash-rooted path so structural additions/removals never
    paint out of order.
 2. **Lane 5B — Unified `WindowDrawing` & Caret/Selection in `rows_drawing`**
-   ([prompt](../../prompts/graphics-stage-5b-window-drawing-and-caret.md),
-   [report](../../reportbacks/graphics-stage-5b-window-drawing-and-caret-RB.md), PR `#303` merged as `44a8bc2`, 12 files,
+   ([prompt](../../../../prompts/graphics-stage-5b-window-drawing-and-caret.md),
+   [report](../../../../reportbacks/graphics-stage-5b-window-drawing-and-caret-RB.md), PR `#303` merged as `44a8bc2`, 12 files,
    8 of 8 CI jobs green on run `39089254377`, 12 mutants / 16 of 16 witness runs caught, reviewed ready by
    Vision 2026-10-17): moves the caret bar (`"caret"`) and selection highlight runs (`"sel<r>.<run>"`) from
    `EditorWindow::mark` into `ws::rows_drawing` (`workshop/pane_drawing.hpp`, capped to drawn rows `max_rows`),
@@ -2453,8 +2453,8 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
    (`editor/office_seam.hpp`, 720 → 595 lines), `FlowPane` (`flow/flow-pane/pane.cpp`), and `ViewBuilderPane`
    (`view/view-builder/pane.cpp`) onto `ws::WindowDrawing`.
 3. **Lane 5C — External-Host Point-Reader `"no settled picture"` Unification & `story_journey.py` U2 Startup Wait**
-   ([prompt](../../prompts/graphics-stage-5c-point-reader-unsettled-and-story-journey.md),
-   [report](../../reportbacks/graphics-stage-5c-point-reader-unsettled-and-story-journey-RB.md), PR `#305` merged as
+   ([prompt](../../../../prompts/graphics-stage-5c-point-reader-unsettled-and-story-journey.md),
+   [report](../../../../reportbacks/graphics-stage-5c-point-reader-unsettled-and-story-journey-RB.md), PR `#305` merged as
    `2ab3de0`, 4 files, 8 of 8 CI jobs green on run `39092555815`, 12 `hand` + 4 `story_journey` mutants caught,
    reviewed ready by Vision 2026-10-17): introduces `Hand.aimed` and `no_settled_picture` (covering both canvas
    `"no settled picture"` and text `"no settled text picture"`) in `external-host/tools/workshop/hand.py` across
@@ -2464,8 +2464,8 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
 
 **Stage 6 (Wave 11 — three parallel lanes, CLOSED 2026-10-18 — `#306` `1d11677`, `#307` `7b1ab14`, `#308` `238bb70`, 29 files with zero overlap):**
 1. **Lane 6A — Live Window Extent, `TextEntered`, Staging & Desk Overlays**
-   ([prompt](../../prompts/graphics-stage-6a-window-extent-text-and-overlays.md),
-   [report](../../reportbacks/graphics-stage-6a-window-extent-text-and-overlays-RB.md), PR `#308` merged as `238bb70`, 20 files,
+   ([prompt](../../../../prompts/graphics-stage-6a-window-extent-text-and-overlays.md),
+   [report](../../../../reportbacks/graphics-stage-6a-window-extent-text-and-overlays-RB.md), PR `#308` merged as `238bb70`, 20 files,
    8 of 8 CI jobs green on run `39103907554`, 24/24 mutants caught across `m1` + `m2`, reviewed ready by Vision 2026-10-18):
    stages `zengine-graphics`, `zengine-window-terminal`, `zengine-paint-classic`, and `zengine-paint-block` in
    `workshop/CMakeLists.txt` and `cmake/ZengineInstall.cmake` (witnessed in `tests/package/CMakeLists.txt`); emits
@@ -2475,15 +2475,15 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
    `kWorkshopProvider` (`keys = false` on pane areas), and projects `[value]` drag pills and guest `guide_layer` marks
    in `workshop_window_drawing` (`workshop/screen_compose.cpp`) with `kWorkshopProvider` raised in front while an overlay stands.
 2. **Lane 6B — Multi-Pane Seat Caret & `view::View` on `WindowDrawing`**
-   ([prompt](../../prompts/graphics-stage-6b-seat-caret-and-view-window-drawing.md),
-   [report](../../reportbacks/graphics-stage-6b-seat-caret-and-view-window-drawing-RB.md), PR `#307` merged as `7b1ab14`, 6 files,
+   ([prompt](../../../../prompts/graphics-stage-6b-seat-caret-and-view-window-drawing.md),
+   [report](../../../../reportbacks/graphics-stage-6b-seat-caret-and-view-window-drawing-RB.md), PR `#307` merged as `7b1ab14`, 6 files,
    8 of 8 CI jobs green on run `39102354851`, 13/13 mutants caught, reviewed ready by Vision 2026-10-18):
    teaches `PaneCanvasSeat` (`workshop/pane_seat.hpp`) to retain `said_caret_` in `say` and pass it to `ws::rows_drawing`
    in `redraw` so multi-pane seats draw their caret and selection in a graphics window; teaches `view::sketch` (`view/view.hpp`)
    to draw the `"caret"` line node for a focused number field; and folds `view::View` onto `ws::WindowDrawing`.
 3. **Lane 6C — `builder.py` & `monitor.py` Aimed Unsettled-Picture Retry**
-   ([prompt](../../prompts/graphics-stage-6c-builder-monitor-aimed.md),
-   [report](../../reportbacks/graphics-stage-6c-builder-monitor-aimed-RB.md), PR `#306` merged as `1d11677`, 3 files,
+   ([prompt](../../../../prompts/graphics-stage-6c-builder-monitor-aimed.md),
+   [report](../../../../reportbacks/graphics-stage-6c-builder-monitor-aimed-RB.md), PR `#306` merged as `1d11677`, 3 files,
    8 of 8 CI jobs green on run `39100980822`, 19/19 mutants caught, reviewed ready by Vision 2026-10-18):
    routes `builder.calm`, `builder.keys_into` (`external-host/tools/workshop/builder.py`), and `Monitor.press_at`
    (`external-host/tools/workshop/monitor.py`) through `Hand.aimed` so `"no settled picture"` and `"no settled text picture"`
@@ -2491,8 +2491,8 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
 
 **Stage 7 Wrap-Up (Wave 12 — three parallel lanes, CLOSED 2026-10-18 — `#309` `7ed868c`, `#310` `5918a4b`, `#311` `5926167`, 23 files with zero overlap):**
 1. **Lane 7A — Shipped `workshop/window-load-plan.json` & `zengine::graphics` Public SDK Install Surface**
-   ([prompt](../../prompts/graphics-stage-7a-window-load-plan-and-sdk-install.md),
-   [report](../../reportbacks/graphics-stage-7a-window-load-plan-and-sdk-install-RB.md), PR `#311` merged as `5926167`, 16 files,
+   ([prompt](../../../../prompts/graphics-stage-7a-window-load-plan-and-sdk-install.md),
+   [report](../../../../reportbacks/graphics-stage-7a-window-load-plan-and-sdk-install-RB.md), PR `#311` merged as `5926167`, 16 files,
    8 of 8 CI jobs green on run `39126892001`, 7/7 mutants + 1 install mutant caught, reviewed ready by Vision 2026-10-18):
    authors and stages `workshop/window-load-plan.json` (`zengine-graphics` + `zengine-window-terminal` in rows 2 and 3,
    `kWindowLoadPlanName` in `workshop/load_persist.hpp`, `workshop/CMakeLists.txt`, `workshop/workshop.cpp`,
@@ -2501,15 +2501,15 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
    `graphics/` and `graphics/elements/` headers) in `graphics/CMakeLists.txt`, `cmake/ZengineInstall.cmake`,
    `agents/packaging.md`, `tests/package/CMakeLists.txt`, and `tests/package/public_surface.cpp`.
 2. **Lane 7B — Live Terminal Resize Detection & `WindowOffered` Re-Publication in `zengine.window.terminal`**
-   ([prompt](../../prompts/graphics-stage-7b-window-terminal-resize.md),
-   [report](../../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md), PR `#310` merged as `5918a4b`, 3 files,
+   ([prompt](../../../../prompts/graphics-stage-7b-window-terminal-resize.md),
+   [report](../../../../reportbacks/graphics-stage-7b-window-terminal-resize-RB.md), PR `#310` merged as `5918a4b`, 3 files,
    8 of 8 CI jobs green on run `39121549940`, 9/9 mutants caught, reviewed ready by Vision 2026-10-18):
    teaches `WindowT::on_pump` (`graphics/window/window.hpp` and `graphics/docs/zengine.window.terminal.md`) to measure
    `terminal_.size()` on each `zengine.window.pump` beat and, when `(cols, rows)` changes, mark the resized cell grid
    dirty and re-publish `WindowOffered` with the new `cols` and `rows` under the same `epoch`, proven in `tests/test_graphics.cpp`.
 3. **Lane 7C — Settled-Picture Discipline in `builder.choose` and `Monitor.rows`, and Deduplicating `act.aimed` onto `hand.aimed`**
-   ([prompt](../../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md),
-   [report](../../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed-RB.md), PR `#309` merged as `7ed868c`, 4 files,
+   ([prompt](../../../../prompts/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed.md),
+   [report](../../../../reportbacks/graphics-stage-7c-builder-choose-monitor-rows-and-act-aimed-RB.md), PR `#309` merged as `7ed868c`, 4 files,
    8 of 8 CI jobs green on run `39122773961`, 28/28 mutants caught across `m1`–`m3`, reviewed ready by Vision 2026-10-18):
    routes `builder.choose` (`external-host/tools/workshop/builder.py`) through `pressing(ctx, hand)`, teaches
    `Monitor.rows` / `_Asker` (`external-host/tools/workshop/monitor.py`) to wait through `takes_no_press` and
@@ -2519,14 +2519,14 @@ Brings the last 4 shipped pane weaves in Zengine onto `graphics/` and cleans up 
 
 **Stage 7 Follow-Up Polish (Wave 13 — two parallel lanes, PROMPTED 2026-10-18 — 14 files with zero overlap):**
 1. **Lane 7D — Settled `stdout` Banner Suppression Over Terminal Media & `zengine-input` in `window-load-plan.json`**
-   ([prompt](../../prompts/graphics-stage-7d-settled-banner-and-window-plan.md)):
+   ([prompt](../../../../prompts/graphics-stage-7d-settled-banner-and-window-plan.md)):
    adds `load::medium_holds_terminal` (`workshop/load_execute.hpp` and `workshop/workshop.cpp`) so Workshop does not print
    its settled arrangement banner over a measured terminal held by `zengine.window.terminal` or a terminal `zengine.skin`,
    adds `zengine-input` (`zengine.input`) to `workshop/window-load-plan.json` so guest input sessions work under the window
    plan, and closes the doc gaps in `workshop/docs/load-plans.md`, `workshop/docs/load-plan.md`,
    `workshop/docs/getting-started.md`, and `cheat_sheet.md`, proven in `tests/test_workshop_load.cpp`.
 2. **Lane 7E — Process-Scoped Terminal Input Claim for `zengine-window-terminal` & Graphics Resize Doc**
-   ([prompt](../../prompts/graphics-stage-7e-window-terminal-input-yield.md)):
+   ([prompt](../../../../prompts/graphics-stage-7e-window-terminal-input-yield.md)):
    adds a PID-stamped, refcounted process claim (`claim_window_terminal_input`, `release_window_terminal_input`,
    `window_holds_terminal_input`, `terminal_reader_may_use_terminal` in `input/terminal_reader.hpp` and `ProcessTerminal`
    in `graphics/window/window.cpp`) so `zengine-input` yields `stdin` when `zengine-window-terminal` holds the process's
@@ -2541,8 +2541,8 @@ draw list the skin keeps.
 
 ### BL-WORK-45 — Forced participants: a census against the split rule
 
-**State:** REPORTED, REVIEWED, AND EXECUTING IN THE SPLIT ARC — [prompt](../../prompts/participant-census.md),
-[report](../../reportbacks/participant-census-RB.md); its decisions the founder's (2026-10-12);
+**State:** REPORTED, REVIEWED, AND EXECUTING IN THE SPLIT ARC — [prompt](../../../../prompts/participant-census.md),
+[report](../../../../reportbacks/participant-census-RB.md); its decisions the founder's (2026-10-12);
 extractions merged in #232, #270, #275, #278, #279, and #282 (2026-10-15 to 2026-10-16)  
 **Owed:** The founder's question (2026-10-12), once the graphics design's third round gave the
 window the whole job: are there more places where Zen forces a participant where something
@@ -2585,9 +2585,9 @@ window stages.
 ### BL-WORK-46 — Every pane a free picture, text a helper inside it
 
 **State:** DECIDED AND ORDERED -- step 1 merged as #387 (`416ed1ca`), G2's follow-up
-([prompt](../../prompts/graphics-only-g2-s6b-press-and-notice.md); Vision's fold, 2026-10-23, the
+([prompt](../../../../prompts/graphics-only-g2-s6b-press-and-notice.md); Vision's fold, 2026-10-23, the
 same press path); step 2 the issue lane's, opened as #394, two small fixes owed
-([prompt](../../prompts/issue-lane-after-the-alpha.md), the founder, 2026-10-23)  
+([prompt](../../../../prompts/issue-lane-after-the-alpha.md), the founder, 2026-10-23)  
 **Owed:** The founder (2026-10-23), reading #380's rows: "ONLY full freedom, and then you have
 helper methods for placing text." The window takes any drawing from any pane; `PaneRowsFacet` is
 the limit, and most panes sit on it because rows are the paved path: before stage 6 every pane
@@ -2723,7 +2723,7 @@ a pane as UI data whose events reach handlers; helpers for agents, run with para
 operators as its escape, made when a pattern repeats. No C++ inside a script for now; `maker/`
 its runtime, a small interpreter filling out a definition's fields from readable text (maker's
 authoring was set aside for a grammar written in C++). A side-experiment research
-([prompt](../../prompts/zenscript-research.md)), to start once the layout research reports; it
+([prompt](../../../../prompts/zenscript-research.md)), to start once the layout research reports; it
 lifts #137's fence against a broad shell language.
 
 ### BL-WORK-24 — Agents read the desk by messages
@@ -2977,10 +2977,10 @@ their figures its baseline (the founder, 2026-10-13).
 roadmap's first step, documentation first (the founder, 2026-10-14), its manuals the ownership
 map (Vision); D after the release. Before that: first beside the build-speed changes (the
 founder, 2026-10-11) — researched
-([its report](../../reportbacks/docs-overhaul-research-RB.md)); its ten decisions taken as recommended
+([its report](../../../../reportbacks/docs-overhaul-research-RB.md)); its ten decisions taken as recommended
 but F2: no forwarding headers, since the move precedes the first release (the founder, 2026-10-10).
 Stage A, the move, merged as Zengine #179 with Loom #47 (2026-10-10). B1, the Builder's manuals
-([prompt](../../prompts/docs-overhaul-b1.md), [report](../../reportbacks/docs-overhaul-b1-RB.md)), is
+([prompt](../../../../prompts/docs-overhaul-b1.md), [report](../../../../reportbacks/docs-overhaul-b1-RB.md)), is
 Zengine #181, merged as `f55a82a` (2026-10-11), its two commits reviewed (Vision), each one's hosted
 run green on all eight jobs (the second's, on `3592c04`, 51 minutes): a weave carries its manual
 compiled in (`MANUAL`, `cmake/ZengineManual.cmake`), a pane declares it beside its offer and
@@ -2989,24 +2989,24 @@ office answers `ShapeDocumentRequested` from its page; the `manual` check, the a
 `tests/actions.txt` and the key markers; the Builder's two manuals and its first tutorial; its ten
 choices accepted, then 2 and 3 reversed: the founder chose a pane's manual answered on ask instead
 of held by Workshop, in #181 before it merges (2026-10-10;
-[prompt](../../prompts/docs-overhaul-b1-ask.md)): the research's decision 12 held it, on the settings
+[prompt](../../../../prompts/docs-overhaul-b1-ask.md)): the research's decision 12 held it, on the settings
 declaration's pattern, so the `?` could redraw from words in hand, which an answer kept while the
 `?` is open gives as well; the held copy, its drop at a re-offer and its lines in WL-DESK-06 went (a
 law of verdicts, the placement the B1 prompt carried from the research: Vision's miss), in #181's
-second commit ([prompt](../../prompts/docs-overhaul-b1-ask.md),
-[report](../../reportbacks/docs-overhaul-b1-ask-RB.md)): `PaneDocumentRequested` asked of the pane's
+second commit ([prompt](../../../../prompts/docs-overhaul-b1-ask.md),
+[report](../../../../reportbacks/docs-overhaul-b1-ask-RB.md)): `PaneDocumentRequested` asked of the pane's
 office directly and answered to the asker alone, the whole page or one section; a manual is public,
 the repository's own page, so reading one needs no scope. B2
-([prompt](../../prompts/docs-overhaul-b2.md), [report](../../reportbacks/docs-overhaul-b2-RB.md)) is
+([prompt](../../../../prompts/docs-overhaul-b2.md), [report](../../../../reportbacks/docs-overhaul-b2-RB.md)) is
 Zengine #184, one commit, its hosted run green on all eight jobs, reviewed ready to merge (Vision,
 2026-10-11): a `?` and a gear (`=`) on a pane whose holder answers its manual, the desktop's Manual
 pane showing it with the keys in force (`Ctrl+f`, above every mode), and the two spellings in the
 preferences file (v2); its pictures' roots under `C:/Zen-pictures`, though the Builder's header
 still shows the build tree's `C:\Users\Joshua\zen-build\...`; B3 after it
-([prompt](../../prompts/docs-overhaul-b3.md)), stacked on #185's repair since it met that race on
-Windows ([continuation](../../prompts/docs-overhaul-b3-after-185.md)); its `?` and settings need
+([prompt](../../../../prompts/docs-overhaul-b3.md)), stacked on #185's repair since it met that race on
+Windows ([continuation](../../../../prompts/docs-overhaul-b3-after-185.md)); its `?` and settings need
 nothing new; its tutorial mode follows the highlight research
-([report](../../reportbacks/tutor-highlight-research-RB.md)): after the address law and B2, it reads a
+([report](../../../../reportbacks/tutor-highlight-research-RB.md)): after the address law and B2, it reads a
 control part's section by its id with no ask, and asks the pane (`PanePartDocumentRequested`) only
 for a subject part's `Shows` key; the `?`, tutorial mode, the census and the Tutor's highlight read
 the one action row. Into B2: a setting each for how the band and the Hotkeys view spell a key,
@@ -3017,7 +3017,7 @@ writes, never a C++ reading of the page. Into B3: the tutorial's pictures taken 
 `C:/Zen-pictures`, with the tree the Builder names under it too, so no path of this machine shows,
 as every tutorial's and demo's pictures are from now on (the founder, 2026-10-10: first `D:/Zen`,
 then this once D: went; they show `G:/programming/cpp/Zen/scratch/` today), and the Pane Manager put
-away before the last. B3 is Zengine #198 ([report](../../reportbacks/docs-overhaul-b3-RB.md)), two
+away before the last. B3 is Zengine #198 ([report](../../../../reportbacks/docs-overhaul-b3-RB.md)), two
 commits on `9e289e2`, its hosted run `38180509676` green on all eight jobs, reviewed ready to merge
 (Vision, 2026-10-11, 12 of 12 checks): `tutorial_walks`, in the session gate on every OS, installs
 the build into a prefix of its own, starts each `<feature>/docs/tutorials/<name>/` from the copy the
@@ -3042,21 +3042,21 @@ multi-pane offices in #266 (`54d8cc0`) and #268 (`60a41e5`), and the three host 
 (`zengine.flow.host`, `zengine.view.host`, `zengine.builder.runner`) in #272 (`b26630b`, 2026-10-16);
 C's remaining tutorials wait for the complete stories; D after the release. BL-WORK-38's stages 3a
 and 3b follow B2. The research's findings are verified and filed in deep review's place
-([report](../../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and merged as
+([report](../../../../reportbacks/overhaul-findings-RB.md)): Zengine #162-#168, six taken and merged as
 #169-#174 (2026-10-10). #164, the Builder pane's build-and-load notice: the founder chose reading
 (b), with the build send keeping its ticket (2026-10-10); taken with the follower's lost realization
 (#176) as #177 and #178, merged before the move (2026-10-10)
-([report](../../reportbacks/realization-notice-RB.md)). Stage C's inputs from them: the told history in
-`agents/` that [the F6 record](../../reportbacks/overhaul-findings/verify/F6-realization-history.md)
+([report](../../../../reportbacks/realization-notice-RB.md)). Stage C's inputs from them: the told history in
+`agents/` that [the F6 record](../../../../reportbacks/overhaul-findings/verify/F6-realization-history.md)
 lists; `docs/workshop/limitations.md`'s unload sentences and package count beside
 `docs/getting-started.md`'s target list; and the `builder` tool's module note and its
 `loom-tool.json` description, which list `unknown recipe` among a taken ask's endings; and the
-move's own doc gaps ([its report](../../reportbacks/docs-overhaul-a-RB.md#doc-gaps))  
+move's own doc gaps ([its report](../../../../reportbacks/docs-overhaul-a-RB.md#doc-gaps))  
 **Owed:** Documentation a layman reads well, almost a full tutorial for each step (the founder).
 - Docs are attached to the specific weave and organized by command, and the `man` page equivalent
   is the primary reference, whether the weave links its Markdown file or a new macro carries it.
   Stage 4a's declaration and its Markdown beside the source are the seam
-  ([documentation.md](../../reportbacks/agent-desk-research/documentation.md#authored-where-the-code-is));
+  ([documentation.md](../../../../reportbacks/agent-desk-research/documentation.md#authored-where-the-code-is));
   the `?` (stage 4b) and the agent's guide read the same words.
 - Folders become part of the intuitive navigation: a feature's folder holds its docs and its
   parts. The founder's sketch, which he says may not catch them all:
@@ -3084,7 +3084,7 @@ move's own doc gaps ([its report](../../reportbacks/docs-overhaul-a-RB.md#doc-ga
   else installed, and the first is a Terminal hello world (the founder, 2026-10-10, finding the
   Builder's tutorial pretty good). The release they start from is BL-ADOPT-06.
 - The agent guide's doc gaps are its examples of errors to make impossible
-  ([the report](../../reportbacks/agent-guide-RB.md#doc-gaps)): a wrong target name, stale counts,
+  ([the report](../../../../reportbacks/agent-guide-RB.md#doc-gaps)): a wrong target name, stale counts,
   missing routing rows, and three routing tables that already disagree with the registers.
 
 It meets Tasks 1 and 7 of [the stranger-legible goal](../goals/stranger-legible.md), which the
@@ -3099,25 +3099,25 @@ feature's folder is the natural unit of a pane built alone.
 decisions and overturning decision 8 below, 2026-10-23). Before that: R0 to R5 not started and
 their 10-22 date dropped, the
 founder closing what is open first (2026-10-14). Before that: researched
-([its report](../../reportbacks/release-research-RB.md), 2026-10-10):
+([its report](../../../../reportbacks/release-research-RB.md), 2026-10-10):
 one package per platform made by the repositories' own install and judged clean, a C seam so a pane
 author's compiler is theirs, and stages R0 to R5 with Loom's L1 and the Builder's R1b, 10-11 to
 10-22, the build slot their constraint. The founder agreed with its direction and put it beside the
 architecture work, taken in the issue lane as the machine allows (2026-10-10), its fifteen decisions
 as Vision put them: as recommended, but the pane's runtime rule in Loom's weave build contract, and
-0.1 a preview with Task 1's cold walk on a dry run. L1 ([prompt](../../prompts/release-l1.md),
-[report](../../reportbacks/release-l1-RB.md)): Loom #46 (no bytecode) and #48 (a weave opens from any
+0.1 a preview with Task 1's cold walk on a dry run. L1 ([prompt](../../../../prompts/release-l1.md),
+[report](../../../../reportbacks/release-l1-RB.md)): Loom #46 (no bytecode) and #48 (a weave opens from any
 folder, a refusal names what is missing, every Loom program in the UTF-8 code page) merged
 (2026-10-10); #41, a weave carrying its runtime, held for the founder: on MinGW-w64 a runtime
 instance per weave runs out of TLS indexes after about 1,088 loads (P-LOOM-11), so decision 2 is
-open again. The GCC 16 experiment ([report](../../reportbacks/runtime-gcc16-RB.md), reviewed by Vision
+open again. The GCC 16 experiment ([report](../../../../reportbacks/runtime-gcc16-RB.md), reviewed by Vision
 2026-10-10): native TLS does not end the leak, which is winpthreads' index (a guarded static,
 `std::call_once`, `std::thread`), and a Loom stand-in that returns a weave's indexes and its
 exception pool at unload makes Zengine's MinGW-w64 lane pass against #41 on GCC 16, 55 of 55, where
 #41 alone fails; the founder took the stand-in for #41's MinGW-w64 half (2026-10-11), with the
 reload witness in Loom's lanes and P-LOOM-12 closed beside it
-([prompt](../../prompts/weave-runtime-windows.md)); reported
-([report](../../reportbacks/weave-runtime-windows-RB.md)) as Loom #53, reviewed (Vision, 2026-10-11):
+([prompt](../../../../prompts/weave-runtime-windows.md)); reported
+([report](../../../../reportbacks/weave-runtime-windows-RB.md)) as Loom #53, reviewed (Vision, 2026-10-11):
 run `38133001920` every job green; the stand-in returns every TLS and FLS index and the pool at
 unload (1,200 loads clean, under 2.5 KB left a load), the contract accepts MinGW-w64 GCC from 12.2
 and Clang from 18.1 and refuses older in words, and no exception crosses a host door. Under the MSVC
@@ -3125,8 +3125,8 @@ ABI a weave's C stdio is its own, so Zengine's `snake` reads nothing from a skin
 catcher; the founder kept it so, a host redirecting the Windows handle before a weave loads
 (decision 1 (a), 2026-10-11, kept so it holds alike across platforms for now, compiler updates
 perhaps allowing a better option later): `snake`'s fix in Zengine merges first, then #53, then the
-Zengine documents #53 makes false ([continuation](../../prompts/weave-runtime-windows-msvc-stdio.md),
-[report](../../reportbacks/weave-runtime-windows-msvc-stdio-RB.md)): KERN-05 says it, the reload weave
+Zengine documents #53 makes false ([continuation](../../../../prompts/weave-runtime-windows-msvc-stdio.md),
+[report](../../../../reportbacks/weave-runtime-windows-msvc-stdio-RB.md)): KERN-05 says it, the reload weave
 writes through `std::cout` and stays clean, #41's done-when amended, Zengine #189 (`snake`'s
 catchers made before the load, a hush leaving no weave a closed handle) and #190 (the documents),
 every run green, reviewed (Vision, 2026-10-11), and merged by the founder in that order, #189, #53,
@@ -3142,7 +3142,7 @@ compatibility promise) and BL-ADOPT-01 (the contributor front door).
 
 ### BL-ADOPT-07 — Loom's own release: the substrate downloaded alone
 
-**State:** NOT RUN -- researched first ([prompt](../../prompts/loom-release-research.md)), once
+**State:** NOT RUN -- researched first ([prompt](../../../../prompts/loom-release-research.md)), once
 Zengine's nightly has published a few clean nights (the founder and Vision, 2026-10-23)  
 **Owed:** The founder (2026-10-23): a Loom release cycle beside Zengine's package -- the libraries
 compiled for easy linking, and a raw Loom environment, a "Loom Console" -- so the substrate is seen
@@ -3185,9 +3185,9 @@ out of the registers, rather than split registers one by one, each split adding 
 (Vision, 2026-10-11). The founder chose (2026-10-11): the budget raised by about half, the added
 bytes an appendix of the proofs, their lists compressed, searching and linking a later pass; after
 #185 and docs B3 merge, before the address law and `tutor` touch registers
-([prompt](../../prompts/law-register-appendix.md)). #185's repair, Zengine #197, merged with
+([prompt](../../../../prompts/law-register-appendix.md)). #185's repair, Zengine #197, merged with
 `guests.md` trimmed to exactly its budget (2026-10-11); the appendix waits on B3 (#198). The
-appendix is Zengine #201 ([report](../../reportbacks/law-register-appendix-RB.md)), one commit on
+appendix is Zengine #201 ([report](../../../../reportbacks/law-register-appendix-RB.md)), one commit on
 `10241b3`, its run `38184693918` green (docs only, the five build jobs skipped), reviewed (Vision,
 2026-10-11, 12 of 12 checks): all 68 registers, WL, MW and VM, laws first and proofs under
 `### <id>` in an appendix at the end (`## Proven by`, `## Seen`), laws 16 KB, the appendix 8 KB,
@@ -3198,26 +3198,26 @@ cited under the wrong file) green as it was before. Found: the 8 KB appendix bin
 `geometry`, `guests` and `opening` stand at 92 to 94% of it while their laws parts are half empty,
 so each takes about one more law, not half again; the founder chose the laws' 16 KB kept and the
 whole file capped at 24 KB in place of the appendix's 8 KB (2026-10-11;
-[prompt](../../prompts/law-register-appendix-whole-file.md)). The pull request's text names Zen's tool
+[prompt](../../../../prompts/law-register-appendix-whole-file.md)). The pull request's text names Zen's tool
 path and commit. The report's two questions: the file legend (about 20 KB) left for the
 search-and-link pass, and one router budget, which `workshop/AGENTS.md` also needed (44 bytes from
 the old 8 KB), both as it leaned, not overruled (the founder, 2026-10-11). A case is resolved
 against every test file, not the file cited before it (as before #201): binding it is the next
 pass's. The cap is #201's second commit, `7c8e6ee`
-([report](../../reportbacks/law-register-appendix-whole-file-RB.md)), its run `38186766249` green (docs
+([report](../../../../reportbacks/law-register-appendix-whole-file-RB.md)), its run `38186766249` green (docs
 only), reviewed (Vision, 2026-10-12, 10 of 10 checks): `ZEN_LAW_FILE_BYTES` 24,576 in place of the
 appendix's own cap, the self-test red a byte past each cap and green at both, an appendix grown to
 9.6 KB under the file cap green and a file at 25.2 KB red, the description free of Zen; one page
 left stating the old budgets, `agents/verification.md`'s `law_register` bullet (a router 8,192 since
 the first commit, missed by both reviews), its fix a continuation
-([prompt](../../prompts/law-register-appendix-page.md)). The page fixed in `b90b37d` (run `38189723777`
+([prompt](../../../../prompts/law-register-appendix-page.md)). The page fixed in `b90b37d` (run `38189723777`
 green), each budget under its value marker, `code_values` red on a stale one (Vision, 2026-10-12):
 #201 ready, but it and #202 both rewrite VM-LANE-11 and conflict in either order, so #202 merges
 first and #201 is rebased by regenerating its registers from the new `main`
-([prompt](../../prompts/law-register-appendix-rebase.md)), a docs-only run. #202 merged as `fb6d231`
+([prompt](../../../../prompts/law-register-appendix-rebase.md)), a docs-only run. #202 merged as `fb6d231`
 (2026-10-12); #201 rebased as `d78a2a6` on it, its registers regenerated from that `main` and proven
 again, VM-LANE-11 with #202's BECAUSE, run `38194233891` green, Vision's comparison against
-`fb6d231` the same as before ([report](../../reportbacks/law-register-appendix-rebase-RB.md)): ready to
+`fb6d231` the same as before ([report](../../../../reportbacks/law-register-appendix-rebase-RB.md)): ready to
 merge (Vision, 2026-10-12).
 
 ## 5a. Night Lab
@@ -3228,12 +3228,12 @@ merge (Vision, 2026-10-12).
 while a new Vision writes Path 1's prompts ([the
 handoff](../handoffs/night-lab-scaffolding-handoff.md)): the lab drafts, ahead of Phases 2 and 3, the
 panes and setups on the target, how a gesture or a request travels, and what each screen shows a
-person and offers an agent, in [`rebuild-scaffold/`](../../rebuild-scaffold/README.md) until the wall
+person and offers an agent, in [`rebuild-scaffold/`](../../../../rebuild-scaffold/README.md) until the wall
 is built; no pull request of its own while Path 1 cuts the spine; its findings go through the
 founder to Vision. A1, the panes, drafted (2026-10-15). The wall built and checked (2026-10-16): its
 own distribution, `Zen-Night-Lab`, with no Windows drive, program or PATH, no GPU, no root for its
 agent, WSLg off for every distribution, and a token reaching only `zen-night-lab`; 23 checks passed,
-the shared network the one limit ([machine facts](../machine_facts.md)). Before that: ORDERED, ITS
+the shared network the one limit ([machine facts](../../../machine_facts.md)). Before that: ORDERED, ITS
 THREAD GONE — the lab's own thread went, with deep review, before any of era 2 reached the lab's
 repository (its last commit 2026-08-07): "we are going to need to take hold of Night lab if we want
 to use it" (the founder, 2026-10-14). Vision proposes holding it: era 2's question becomes the
@@ -3270,9 +3270,9 @@ and each pane or setup it makes is judged by what it costs an agent and what it 
 
 **State:** SHELVED — the founder is weighing where the agents run, on our side or on the friend's
 machine beside the models (2026-10-10). Researched
-([its report](../../reportbacks/local-lane-research-RB.md), its decisions in
+([its report](../../../../reportbacks/local-lane-research-RB.md), its decisions in
 `local-lane/decisions.md`); L3 would become the Pi coding agent, the harness the
-friend runs, its switch written ([prompt](../../prompts/local-lane-2.md)) and run (2026-10-10, Zen
+friend runs, its switch written ([prompt](../../../../prompts/local-lane-2.md)) and run (2026-10-10, Zen
 `31120f9`, a kit-wide build slot among its changes; unreviewed while shelved); the other nine,
 and L7's room, await his word. The fast-builds research counts a kit-wide build lock beside stage
 7d's slot a mistake (its decision 6), which L7's room would need to answer. The friend offers his

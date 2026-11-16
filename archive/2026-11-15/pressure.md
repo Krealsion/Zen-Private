@@ -201,7 +201,7 @@ under the same id.
   outside world (a double-click, a key repeat, Neovim's bound, a timeout, a date), and a world's
   own time (the snake's), which pausing stops. Wakes: the frame clock's round, the first consumer
   of time at a cadence. Researched 2026-11-13
-  ([report](../reportbacks/game-time-research-RB.md)): the tower defense is a second world, its
+  ([report](../../../reportbacks/game-time-research-RB.md)): the tower defense is a second world, its
   150 ms beat firing while paused; twelve decisions asked.
 - **P-WORK-88** (SEED) Every actor a participant (the founder, 2026-11-07): the weaver, an agent
   and a remote peer each with a hand of its own -- pointer, presses, focus and keys -- so peer
@@ -291,12 +291,12 @@ under the same id.
   #107 took 43 minutes warm on `main`'s push (its verification 40); on #108 (V2) it reached its
   90, a cold build of 39 minutes and the verification still running at 50 (2026-11-05). The
   founder's direction: scale with the suite, never the limit; researched
-  ([report](../reportbacks/ci-sanitizer-scale-research-RB.md), reviewed 2026-11-05): the slowest
+  ([report](../../../reportbacks/ci-sanitizer-scale-research-RB.md), reviewed 2026-11-05): the slowest
   runner's cold job 97 minutes today, 72 with pieces by time and 8-frame stacks, about 47 on
   two runners split by program. The founder took Vision's leans (2026-11-05): eight-frame
   stacks, the longest cases split, two runners now, 600 s an entry, no `-O1`
   ([prompt](../prompts/unrun/ci-sanitizer-scale.md), warm): #110
-  ([report](../reportbacks/ci-sanitizer-scale-RB.md), reviewed 2026-11-06, ready): panes 28
+  ([report](../../../reportbacks/ci-sanitizer-scale-RB.md), reviewed 2026-11-06, ready): panes 28
   minutes (build 10, verify 17), rest 18 (5 and 12), warm from `main`'s store; leaves on merge.
 - **P-BUILD-20** Sixteen suites hold more memory the longer they run, each one test process:
   under ASan Workshop's panes suites reach 5.8 GB (`workshop_panes_project`), so CI's sanitizer
@@ -464,7 +464,7 @@ under the same id.
   (`src/kernel/kernel.cpp` 529). With 1,024 waiting per sender (`kMaxPendingPerSender`) that is
   about 7 GB and 12 s of the host, computed from the bounds and not exercised: a value's bound and
   a sender's queue were never budgeted together (realtime-drawing-disputed-RB, 2026-11-14).
-  Taken by the private round ([prompt](../prompts/private-queue-budget.md)).
+  Taken by the private round ([prompt](../../../prompts/private-queue-budget.md)).
 - **P-LOOM-33** A weave is not told when the host has delivered what was sent, so one present for
   several areas has only a timer: the saved code looks again 10 ms later (`kLookAgainMs`)
   (realtime-drawing-disputed-RB, 2026-11-14).

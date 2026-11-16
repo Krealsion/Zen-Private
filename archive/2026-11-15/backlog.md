@@ -20,7 +20,7 @@ item below up to that day.
 - An issue's pull request merges first, and an open phase branch rebases onto it.
 - A prompt not yet run waits in `prompts/unrun/` (constitution section d).
 - Issue and pull request numbers written before 2026-11-01 are the `-history` repositories'; an
-  open issue was carried to a new number ([map](relicense/issues-map.tsv)).
+  open issue was carried to a new number ([map](../../relicense/issues-map.tsv)).
 
 ## 1. Now: the wave
 
@@ -37,25 +37,25 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   reviewed tree; #127's MSVC red has Raid's fix, `18df54d6` (U7 asks `status` until the run
   settles), green; #125's run predates #124, so it is closed and reopened for a fresh run before
   its merge, and its picture is retaken in the next picture round. The attribution guard's issue
-  is #128 ([draft](../issues/attribution-check-ai-identities.md)), Raid's #129 its fix; Loom's
+  is #128 ([draft](../../../issues/attribution-check-ai-identities.md)), Raid's #129 its fix; Loom's
   copy of the predicate follows in an issue of its own. Merged 2026-11-09 in Vision's order, each a merge
   commit: #129 (`0998847d`), #126 (`fcf49556`), #127 (`4ccf743d`); #125 closed and reopened, its
   fresh run started with no approval (`UnknownWorkers` now a contributor), then merged
   (`b55aca8c`), `main` green on every merge; Raid's batch
-  ([issues](../issues/raid-batch-2026-11-09.md)) next.
+  ([issues](../../../issues/raid-batch-2026-11-09.md)) next.
   Concerns for the end: `PaneRefusalRequested` (#126) lets any seated pane have Workshop say a
   sentence as its own refusal notice, and `act` hears it as one; for the Builder the words are
   Workshop's own verdict, but the notice should say whose refusal it is. The audit of 2026-11-09,
   sorted into seven groups ([its page](drafts/audit-2026-11-09.md)): its small fixes are the lane's
-  issues ([batch](../issues/raid-batch-2026-11-09.md)), its two security findings Ceecee's private
-  round ([prompt](../prompts/private-security-pair.md),
-  [report](../reportbacks/private-security-pair-RB.md), reviewed 2026-11-09): two draft
+  issues ([batch](../../../issues/raid-batch-2026-11-09.md)), its two security findings Ceecee's private
+  round ([prompt](../../../prompts/private-security-pair.md),
+  [report](../../../reportbacks/private-security-pair-RB.md), reviewed 2026-11-09): two draft
   advisories, the session key's fix made, the schema id's weakness assessed. Decided (the founder,
   2026-11-09): a key the host cannot make owner-only is refused, FAT and exFAT among them, so
   session folders live on NTFS; the schema id's option A, structure compared wherever the id
   decides agreement, before release; the key's advisory published once its fork holds the
   refusal, the schema's once its fork holds A. The continuation
-  ([prompt](../prompts/private-security-pair-continued.md), hot) lands both before Loom's
+  ([prompt](../../../prompts/private-security-pair-continued.md), hot) lands both before Loom's
   next rounds; the lane's `loom-host` catch issue waits for the key's advisory. Its one-way doors
   and its structure the end's.
   #129's three follow-ups: a re-run reads the description its run started with, so the refusal's
@@ -72,10 +72,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   at a weave's creation, no deadlines. Its claims held in the source, some overstated (Sense
   already reads a claim synchronously) and some already moving. The founder's goal: things
   shrink, no god-file growing back; he expects the union to open the path. Researched
-  ([prompt](../prompts/loom-foundation-research.md), warm) with the replacement research's floor,
-  takeover and L2 folded in, twice: Ceecee's ([report](../reportbacks/loom-foundation-research-RB.md),
+  ([prompt](../../../prompts/loom-foundation-research.md), warm) with the replacement research's floor,
+  takeover and L2 folded in, twice: Ceecee's ([report](../../../reportbacks/loom-foundation-research-RB.md),
   fourteen decisions) and the auditor's run of it
-  ([report](../reportbacks/loom-foundation-auditor-RB.md), eleven), reviewed 2026-11-11
+  ([report](../../../reportbacks/loom-foundation-auditor-RB.md), eleven), reviewed 2026-11-11
   ([Vision's review](drafts/foundation-research-review-2026-11-11.md)). They agree on the union,
   values that never change once admitted, blobs, deadlines, an ABI that grows and the order (the
   union with the seam, then the floor); seven choices differed, each with Vision's lean. Decided
@@ -101,7 +101,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   realization owner a participant), free since the stranger research's seven decisions were taken
   (the founder, 2026-11-11), and prompted for 2026-11-13.
 - **The files every session reads, kept true** (the founder, 2026-11-12; a side lane,
-  [prompt](../prompts/instruction-drift.md), warm): another tool's audit of the routers
+  [prompt](../../../prompts/instruction-drift.md), warm): another tool's audit of the routers
   (`Zen/Claude outputs/prompt-audit-2026-11-12.md` and its diff) found four stale names and a
   machine timing, each holding on Zengine `main` by Vision's check, and no dated prompting. The
   lane widens it to the constitution, the memory store, the kit's README and the much-read pages,
@@ -113,9 +113,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   at the bound takes 160 to 230 ms through the TUI window. A research with the whole freedom the
   founder gave -- every way tried, at any layer, spikes measured, several ways to draw one thing
   kept where each pattern wants its own -- run by the executor
-  ([prompt](../prompts/realtime-drawing-research.md), warm) and, for a second answer, by
-  another model ([prompt](../prompts/realtime-drawing-research-second.md), cold).
-  The executor's run, reviewed 2026-11-14 ([report](../reportbacks/realtime-drawing-research-RB.md),
+  ([prompt](../../../prompts/realtime-drawing-research.md), warm) and, for a second answer, by
+  another model ([prompt](../../../prompts/realtime-drawing-research-second.md), cold).
+  The executor's run, reviewed 2026-11-14 ([report](../../../reportbacks/realtime-drawing-research-RB.md),
   its pages beside it): #172's 160 to 230 ms were a Debug tree called Release (every kit tree is
   Debug, `-g0`, and its rig serialized each delivery it tapped); in Release a whole area takes 26
   to 30 ms, and text, a few hundred sprites and a small change are inside 16 ms today. A big
@@ -129,7 +129,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   packed bytes the gate cannot check one by one, so the window checks them (a Loom kind for a
   packed list of scalars would let the gate do it, a later choice); and a frame was timed with one
   drawer and no host loop, so round 3 ends measuring a real host's frame.
-  The second run, reviewed 2026-11-14 ([report](../reportbacks/realtime-drawing-second-RB.md), its
+  The second run, reviewed 2026-11-14 ([report](../../../reportbacks/realtime-drawing-second-RB.md), its
   four pages beside it; about four hours): the same baseline (a 4,096-tile grid 28 to 30 ms) and
   the same causes, with more spiked. New and worth taking: the window paints without copying its
   nodes into a task, packing what was painted and unpacking it in the same image (about 6 to 8 ms
@@ -151,7 +151,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   record, and each is re-run by the round that takes it. Found beside it, for Raid:
   a second configure with `ZEN_LOOM_DEV=ON` may hand Loom `BUILD_SHARED_LIBS=ON` from SDL3_ttf's
   cache (`CMakeLists.txt` 80), not reproduced here.
-  The disputed half, reviewed 2026-11-14 ([report](../reportbacks/realtime-drawing-disputed-RB.md),
+  The disputed half, reviewed 2026-11-14 ([report](../../../reportbacks/realtime-drawing-disputed-RB.md),
   its pages and what remakes its spike beside it): all four objections held, each against a test
   built to fail it. The second run's 35-fold element gain is the element saying what it changed,
   not its state kept in the library: `main`'s glue draws the whole element twice and compares
@@ -174,10 +174,10 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   without much added friction". An audit of how people really draw, what game engines do and what
   their users like and dislike, each job written in Zen beside them, with a verdict a job: natural,
   with a helper, or not without a change in design; run by the executor
-  ([prompt](../prompts/drawing-usability-research.md), warm) and, for a second answer, by
-  another model ([prompt](../prompts/drawing-usability-research-second.md), cold).
+  ([prompt](../../../prompts/drawing-usability-research.md), warm) and, for a second answer, by
+  another model ([prompt](../../../prompts/drawing-usability-research-second.md), cold).
   The executor's run, reviewed 2026-11-14
-  ([report](../reportbacks/drawing-usability-research-RB.md), its pages beside it): yes, with a
+  ([report](../../../reportbacks/drawing-usability-research-RB.md), its pages beside it): yes, with a
   small library and three traps closed. `picture`, the whole picture from the state at every
   delivery, is the shape the evidence praises (immediate mode), and eight jobs fit a frame on `main`
   at small sizes. A header of helpers a drawer includes (`Camera`, `TileMap`, `Console`, `Dots`,
@@ -218,7 +218,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   the calls panel's word "caption" had replaced the panel's own caption, the same name in one
   group, silently, in the first version too.
   The second run, reviewed 2026-11-14
-  ([report](../reportbacks/drawing-usability-research-second-RB.md), its pages beside it): the same
+  ([report](../../../reportbacks/drawing-usability-research-second-RB.md), its pages beside it): the same
   road as the executor's (`picture` first, `Patch` for busy scenes, helpers a drawer includes, the
   missing parent kept loud with a `Scope`, GATE-01 and the cell budget kept), built on `main` alone
   with its own operators and measured in the GUI too. Its helpers (`graphics/helpers.hpp`): `Scope`
@@ -247,8 +247,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   tiles, a tile's size the window's unit; a terminal cell with a colour behind; `picture` first;
   `Box` and a group helper; the reviews' traps closed where met. `main`'s tower defense
   (`examples/tower-defense/`, rows of text, its story typing `td.cpp`) is left as it is. One round
-  in Zengine ([prompt](../prompts/zengine-game-drawing.md), warm).
-  Reviewed 2026-11-15 ([report](../reportbacks/zengine-game-drawing-RB.md)): Zengine#177
+  in Zengine ([prompt](../../../prompts/zengine-game-drawing.md), warm).
+  Reviewed 2026-11-15 ([report](../../../reportbacks/zengine-game-drawing-RB.md)): Zengine#177
   (`a3f5153d`), green (CI ten of ten, Package), mergeable clean and clean beside #170. The tile
   defense (`examples/tile-defense/`); `sheet`, `tiles`, `sprites` and `points` (`Operands` v2), a
   frame both a picture and a character; six helper headers; the GUI keeping a texture while its
@@ -263,9 +263,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **The lanes of 2026-11-14, night** (Vision's prompts, on the founder's yes that day, beside the
   game round in Zengine, above). Loom, private: a contained weave's hold on the host's memory, a
   sender's waiting messages bounded whole, through a draft advisory and its fork
-  ([prompt](../prompts/private-queue-budget.md), warm; P-LOOM-32, with P-LOOM-34 assessed
+  ([prompt](../../../prompts/private-queue-budget.md), warm; P-LOOM-32, with P-LOOM-34 assessed
   beside it). Raid, five issues, four in Zengine and one in Loom
-  ([batch](../issues/raid-batch-2026-11-14.md)): a deep Windows tree past `MAX_PATH`; the sibling
+  ([batch](../../../issues/raid-batch-2026-11-14.md)): a deep Windows tree past `MAX_PATH`; the sibling
   Loom built shared on a second configure (read, not reproduced); the package's presenter
   answering a withdrawal in role words; a doubled namespace comment; Loom's weave guide showing no
   call. Waiting: the drawing traps the game round does not close (to Raid) and W1, after its
@@ -273,18 +273,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
 - **The lanes of 2026-11-14** (Vision's prompts, on the founder's yes that day, beside item 4's
   round in Zengine, above, and Raid's batch). Loom, round C: calls, a function of its argument
   alone, provided by a role's holder, as decided 2026-11-11
-  ([prompt](../prompts/loom-calls.md), warm; ZC after it). Zengine, round ZF: the floor
+  ([prompt](../../../prompts/loom-calls.md), warm; ZC after it). Zengine, round ZF: the floor
   adopted, the build runner's result an owed answer first, every ask told its end, the menu's
-  `WithdrawalFence` gone ([prompt](../prompts/zengine-floor-adopted.md), warm). Ready beside
+  `WithdrawalFence` gone ([prompt](../../../prompts/zengine-floor-adopted.md), warm). Ready beside
   them, unprompted: B (the data plane), F2 then T1, A and R in Loom; ZTT, G1 and ZH1 in Zengine;
   the union's items 5 to 7 after item 4.
   Reviewed (Vision, 2026-11-14): Loom#35, calls (`d1f88f8`, ABI 17, manifest 7,
-  [report](../reportbacks/loom-calls-RB.md)), 13 of 13 green: nine refusals each its own word, the
+  [report](../../../reportbacks/loom-calls-RB.md)), 13 of 13 green: nine refusals each its own word, the
   box's function store fresh per call, the pipe and a link refused by name; and Zengine#171, the
-  floor adopted (`65e47e76`, [report](../reportbacks/zengine-floor-adopted-RB.md)), 17 green and
+  floor adopted (`65e47e76`, [report](../../../reportbacks/zengine-floor-adopted-RB.md)), 17 green and
   Package's three skipped: the build's result owed, `WithdrawalFence` gone, `zen.DispatchRefused`
   handlers 18 files to 7. Each merges clean onto `main` with its text checks, independent of the
-  other. Item 4 with the looks ([report](../reportbacks/zengine-operands-looks-RB.md)) stopped on
+  other. Item 4 with the looks ([report](../../../reportbacks/zengine-operands-looks-RB.md)) stopped on
   its condition, local and unpushed: shared looks fit (6 to 12 cells a node; measured against
   `main`, the window 4 to 5 times faster and the sketch 5 times, the gate's claim twice as slow);
   a look each does not, for five of seven kinds, since a `Color` costs 5 cells whatever case it
@@ -300,9 +300,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Merged (the founder, 2026-11-14): Loom#35 (`9f3db68`) and Zengine#171 (`72d8516a`). Decided
   with them, for item 4: as leaned, and the founder's thought beside it -- looks made once kept and
   referred to, found in one step, not rebuilt and compared each picture -- each drawing still
-  saying its own looks ([continuation](../prompts/zengine-operands-looks-continued.md), hot).
+  saying its own looks ([continuation](../../../prompts/zengine-operands-looks-continued.md), hot).
   Item 4 continued: Zengine#172 (`088461dc`,
-  [report](../reportbacks/zengine-operands-looks-continued-RB.md)), 17 green, reviewed 2026-11-14.
+  [report](../../../reportbacks/zengine-operands-looks-continued-RB.md)), 17 green, reviewed 2026-11-14.
   `Color` v2, `TextSize` v3 and `TextStyle` v2 unions; a drawing Loom refuses heard by its drawer
   (the canvas reads `zen.DispatchRefused` for its last 64 sends, a whole refused drawing held back
   until the picture changes); a look in one step (`LookHash`: 4,096 distinct looks sketched in 20
@@ -321,29 +321,29 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   optional fact a handler reads or ignores (`mail.turn_ms()`), which is the research's TT as
   leaned; the turn's time is the steady clock's, the date the calendar's, read together when the
   wait ends, and nothing schedules on a date. Loom, one session: the
-  wait's leftovers ([prompt](../prompts/loom-wait-leftovers.md), warm, the chain's first),
+  wait's leftovers ([prompt](../../../prompts/loom-wait-leftovers.md), warm, the chain's first),
   then the control door and the Weave Manager keeping the answers they owe
-  ([prompt](../prompts/loom-own-respondents.md), hot; before ZF), then TT, added to the chain
-  after it began ([prompt](../prompts/loom-turn-time.md), hot). Zengine, one session:
-  `main`'s reds ([prompt](../prompts/zengine-main-reds.md), warm: the MinGW-w64 flake, the
+  ([prompt](../../../prompts/loom-own-respondents.md), hot; before ZF), then TT, added to the chain
+  after it began ([prompt](../../../prompts/loom-turn-time.md), hot). Zengine, one session:
+  `main`'s reds ([prompt](../../../prompts/zengine-main-reds.md), warm: the MinGW-w64 flake, the
   night package's publish step, the four slow sanitizer entries), #163 onto `main` with
   `PlanWhere`'s state an enumeration
-  ([prompt](../prompts/zengine-realization-participant-rebase.md), hot), then the union's
-  last four items ([prompt](../prompts/zengine-union-spent-continued.md), hot). Beside them,
-  Neovim on the wait's time, G3 ([prompt](../prompts/zengine-neovim-wait-time.md), warm).
-  The lane ([batch](../issues/raid-batch-2026-11-13b.md)): one Loom issue, the four lists of the
+  ([prompt](../../../prompts/zengine-realization-participant-rebase.md), hot), then the union's
+  last four items ([prompt](../../../prompts/zengine-union-spent-continued.md), hot). Beside them,
+  Neovim on the wait's time, G3 ([prompt](../../../prompts/zengine-neovim-wait-time.md), warm).
+  The lane ([batch](../../../issues/raid-batch-2026-11-13b.md)): one Loom issue, the four lists of the
   documentation checks missing `census` and a check's entry after its path read by `doc_names`;
   and one Zengine issue, added before it was sent (the founder, 2026-11-13): `PlanWhere` renamed
   `PlanStatus`.
   Reviewed (Vision, 2026-11-13, night): every pull request green on its head, and the text checks
   passing on trial merges of Loom's three and Zengine's five. Loom#30 (`0c89189`,
-  [report](../reportbacks/loom-wait-leftovers-RB.md)), then #32 (`cae56cc`, ABI 16,
-  [report](../reportbacks/loom-turn-time-RB.md)), then #31 (`ac9fe50`,
-  [report](../reportbacks/loom-own-respondents-RB.md)), its one conflict, `docs/CONTEXT.md`'s
+  [report](../../../reportbacks/loom-wait-leftovers-RB.md)), then #32 (`cae56cc`, ABI 16,
+  [report](../../../reportbacks/loom-turn-time-RB.md)), then #31 (`ac9fe50`,
+  [report](../../../reportbacks/loom-own-respondents-RB.md)), its one conflict, `docs/CONTEXT.md`'s
   router row, resolved in GitHub's editor (#31's row kept, #32's after it: the tree the trial
   merges built). Zengine#165, #166, #167 and #168
-  ([report](../reportbacks/zengine-main-reds-RB.md)), then #164, G3
-  ([report](../reportbacks/zengine-neovim-wait-time-RB.md)), merge clean together. Asked, with
+  ([report](../../../reportbacks/zengine-main-reds-RB.md)), then #164, G3
+  ([report](../../../reportbacks/zengine-neovim-wait-time-RB.md)), merge clean together. Asked, with
   Vision's leans: Loom's run record on Windows, refused while a reader holds `run.json` and retried
   only at the run's next change (J4's red; #167 only names it) -- the manager retrying a stale
   record on its own, option (a), in a Loom round with the run manager's stamps split (a handler's
@@ -354,7 +354,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Merged (the founder, 2026-11-13, night): Loom#30 (`16b7f68`) and #32 (`d824033`); #31's conflict
   resolved in GitHub's editor (`6b8d614`, its tree the trial merges'), its run going. Zengine#165,
   #166, #167, #168 and #164 (`main` `894309fb`). #163 reviewed the same night
-  ([report](../reportbacks/zengine-realization-participant-rebase-RB.md)): rebased onto
+  ([report](../../../reportbacks/zengine-realization-participant-rebase-RB.md)): rebased onto
   `c9ac655a`, its first two commits as reviewed (the census's `lines` block resolved, the second
   unchanged), the third the review's ask: `PlanWhere::state` the enumeration `PlanState`
   (`loading`, `waiting`, `complete`, `refused`), the four word constants gone, a guest still told
@@ -362,7 +362,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   checks pass, and no case count moves in a pieced part. Ready. Asked, with Vision's lean: Loom's
   public spelling of an enumerator and its reverse (`loom::spelling`), which Loom's `ask_ended.hpp`
   and Zengine's `PlanState` each write by hand -- in Loom's next round, Zengine's copy then gone.
-  The union's last four ([report](../reportbacks/zengine-union-spent-continued-RB.md), reviewed
+  The union's last four ([report](../../../reportbacks/zengine-union-spent-continued-RB.md), reviewed
   2026-11-14): stopped at item 4 on a fork (rule 5), no pull request (`graphics/operands-one-union`
   `6ff16a22`, 100 of 101 entries). A node's operands as one union cost 8 to 23 decoded cells where
   the bytes cost 4, so a whole area of text (4,096 nodes, about 94,000 cells) passes Loom's
@@ -392,29 +392,29 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   nodes share once, in the same message, each node naming what it wears ("general context for a
   story, before the story proper"); the operands stay one union, the area's bound and Loom's
   allowance stay, and neither a drawing in parts nor a Loom round on state is taken for it. Item 4
-  lands so ([prompt](../prompts/zengine-operands-looks.md), warm; started 2026-11-14).
+  lands so ([prompt](../../../prompts/zengine-operands-looks.md), warm; started 2026-11-14).
 - **The overnight lanes of 2026-11-13** (Vision's prompts, on the founder's yes that day; three
   sessions side by side, every stage its own pull request from `main`, each Green the standard
   delivery). Lane 1, Loom: Loom#26 rebased onto `main`
-  ([prompt](../prompts/loom-names-check-rebase.md), warm), then the floor in process, F1
-  ([prompt](../prompts/loom-floor.md), hot: `mail.ask` and `ask_role`, refused for a weave
+  ([prompt](../../../prompts/loom-names-check-rebase.md), warm), then the floor in process, F1
+  ([prompt](../../../prompts/loom-floor.md), hot: `mail.ask` and `ask_role`, refused for a weave
   that does not accept `zen.AskEnded`; that notice a union of the four stages, each ending of the
   research's 2.4 told where it is made; `kMaxDeferredPerWeave` under a raised Loom-wide bound; the
   helpers ending; ABI 15 appended, 14's image loading; the bus's census rows falling, the ask's
   record a unit the bus consults), then the wait's leftovers
-  ([prompt](../prompts/loom-wait-leftovers.md), hot: `WaitSet`/`Waited` v1 gone; a
+  ([prompt](../../../prompts/loom-wait-leftovers.md), hot: `WaitSet`/`Waited` v1 gone; a
   `BridgeClient` wait set, so `loom-host` rests with links mounted and `kLinkLookMs` and
   `kServeLinkLookMs` go). F1 builds the replacement research's leans on its decisions 1 to 4 and
   16, which the founder ordered but did not take one by one. Lane 2, Zengine: the union spent,
-  now from `main` ([prompt](../prompts/zengine-union-spent.md), warm: the class-lines rows a
+  now from `main` ([prompt](../../../prompts/zengine-union-spent.md), warm: the class-lines rows a
   ratchet first, the act tool spelling a lone Shift, the Timer's three gaps), then the realization
-  owner a participant, ZR ([prompt](../prompts/zengine-realization-participant.md), hot: the
+  owner a participant, ZR ([prompt](../../../prompts/zengine-realization-participant.md), hot: the
   booter and the executor one weave in a folder of its own, its readings claimed, `HostContext` 18
   to 14, the app's four `line` rows gone, a trial merge with the union's branch). A third session:
-  game time and the frame clock, a research ([prompt](../prompts/game-time-research.md),
+  game time and the frame clock, a research ([prompt](../../../prompts/game-time-research.md),
   warm; P-WORK-85).
   Reviewed 2026-11-13, each holding and green on every job
-  ([reports](../reportbacks/loom-floor-RB.md) and beside it): Loom#26 rebased, both checks kept
+  ([reports](../../../reportbacks/loom-floor-RB.md) and beside it): Loom#26 rebased, both checks kept
   (13 of 13); Loom#29, the floor at ABI 15 (13 of 13): `zen.AskEnded` a union of four stage
   enumerations, every ending of 2.4 told where it is made, `kMaxDeferredPerWeave` 64 under 1024,
   the kept answers a unit (`switchboard/asks.hpp`), the bus's rows falling (4107 to 4105 lines, 154
@@ -432,7 +432,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   closed set, with the rebase onto #162. Raid's #160 (3 succeeded, the rest skipped as a text
   change) and #161 (10 of 10) meet their issues; #161 takes packaging.md one step and the three
   unbudgeted pages rows (operators 7, realization 8, panes 19). The game-time research
-  ([report](../reportbacks/game-time-research-RB.md)): real time stays the wait's, a date its
+  ([report](../../../reportbacks/game-time-research-RB.md)): real time stays the wait's, a date its
   second reading, a world's time a Zengine world clock serving the Timer's shapes; the frame clock
   the window's own claim, a frame's time its due time; rounds TT (Loom, the turn's time and date as
   delivery facts), G1 world time, G2 the frame clock (V5's first stage, after ZU's rest), G3
@@ -450,18 +450,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   founder's restart, warm.
 - **The next two lanes** (Vision's prompts, 2026-11-12, on the founder's yes that day; two
   sessions side by side). Lane 1, Loom: the seam that grows
-  ([prompt](../prompts/loom-seam-grows.md), warm: ABI 13, the last exact break; each table
+  ([prompt](../../../prompts/loom-seam-grows.md), warm: ABI 13, the last exact break; each table
   and a delivery's facts saying their size, the addressed role (L3) the delivery's first new fact,
   the manifest's version read before `create()`, an image from 13 on loading on every later host,
   12's image kept and refused; Loom's census of 8.3 beside it), then the creation value on its
-  branch ([prompt](../prompts/loom-creation-value.md), hot: one gated value at a weave's
+  branch ([prompt](../../../prompts/loom-creation-value.md), hot: one gated value at a weave's
   making, data and never doors, from a boot row, a load request, the console and a native mount;
   the first append, 14, the seam's kept 13 image shown loading). Lane 2, Zengine: the Timer over a
-  deadline from `main` ([prompt](../prompts/zengine-timer-over-deadline.md), warm: the
+  deadline from `main` ([prompt](../../../prompts/zengine-timer-over-deadline.md), warm: the
   census's door, hook and class rows first; `Drive`, `TimerRest`, `timer::Rest`, `kBeatCapMs`,
   `HeldBeat` and the virtual step gone; the Timer hearing `zen.DispatchRefused`; `interaction_now`
   out of `HostContext` and no clock read in a handler; the suites on a `ManualClock`, P-BUILD-23),
-  then the union spent on its branch ([prompt](../prompts/zengine-union-spent.md), hot: the
+  then the union spent on its branch ([prompt](../../../prompts/zengine-union-spent.md), hot: the
   guards and the `Kind::Message` comparisons; input's moments and a drawing's operands as unions,
   `implied.hpp` deleted; the open sets on the any kind; the hub's window events one door where one
   concept; the spelled kinds counted; the shapes built by hand in the shapes census). The union
@@ -481,14 +481,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   suites still on the beat. Decided (the founder, 2026-11-12): its choice 3 stands, the hub a
   source of the host's wait handed its time, one door (93 to 94) in place of `interaction_now`'s
   hook (19 to 18), the rise said in the pull request; the census's check as built. A fresh session
-  finishes it ([prompt](../prompts/zengine-timer-over-deadline-continued.md), warm), the page
-  under its budget first ([prompt](../prompts/packaging-page-under-budget.md), read by it):
+  finishes it ([prompt](../../../prompts/zengine-timer-over-deadline-continued.md), warm), the page
+  under its budget first ([prompt](../../../prompts/packaging-page-under-budget.md), read by it):
   Zengine `main` is red since #150, `agents/packaging.md` at 16,712 of 16,384 bytes once #148's
   and #150's additions met, which holds Loom#27's stranger and #152. Vision's miss: #150's trial
   merge was read as text, its checks not run on it. For later: the guest door's first claim is made
   by its host (choice 5), since Loom never activates a weave its host registers -- a Loom seam.
   Reviewed 2026-11-13, the continuation holding
-  ([report](../reportbacks/zengine-timer-over-deadline-continued-RB.md)): #155 (the page at 16,341
+  ([report](../../../reportbacks/zengine-timer-over-deadline-continued-RB.md)): #155 (the page at 16,341
   bytes) green, merging first; the Timer's branch `22bd532` builds whole, its official lane 97 of
   100, the product 742 lines in and 963 out, the guest door's lost re-claim found and fixed. Two
   reds stand -- `workshop_neovim`'s case that made the pane speak by refusing its beat, and
@@ -503,7 +503,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   wait holds the Timer, from its last wake only where none does.
   Decided (the founder, 2026-11-13): that lean, option 3. #155 merged (`b8fa0e3a`); Loom#27 merges
   once its stranger is green. A third session finishes the stage
-  ([prompt](../prompts/zengine-timer-over-deadline-continued-2.md), warm): #152's two rows
+  ([prompt](../../../prompts/zengine-timer-over-deadline-continued-2.md), warm): #152's two rows
   first, the two reds, the letter's pause, then the pull request by the standard delivery; a fix the
   guest's wake needs in Loom is a Loom pull request of its own, merging first. The union stage waits
   for a session of its own after the Timer's pull request.
@@ -519,7 +519,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   merges first. For Raid's next batch: a commit subject names no issue number (#153's ends "(#147)",
   which `main`'s history reads as a pull request's).
   Merged 2026-11-13: Zengine#153 and #154, Loom#20 (`9e2d822`). Reviewed the same day, holding:
-  Loom#27, the seam ([report](../reportbacks/loom-seam-grows-RB.md)): `ZenWeaveAbi` opens with
+  Loom#27, the seam ([report](../../../reportbacks/loom-seam-grows-RB.md)): `ZenWeaveAbi` opens with
   `abi_version`, `size`, `host_size` and `manifest_version`; `ZenHostApi` and `ZenSenseBy` start with
   `size`; `handle` takes one `ZenDelivery`, the addressed role its first new fact, written by the bus
   at dispatch; one reading of a descriptor (`zen/kernel/descriptor.hpp`) for the kernel, the box and
@@ -532,7 +532,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   checks pass with #28 on top), so #26 rebases after #27 in the next Loom session; #156 meets #152 on
   the packaging page's exported-targets line, resolved at its review.
   Loom#27 merged (`76f0e37`). Loom#28, the creation value, reviewed 2026-11-13, holding
-  ([report](../reportbacks/loom-creation-value-RB.md)): `ZEN_MADE_WITH(Setup)` and a constructor
+  ([report](../../../reportbacks/loom-creation-value-RB.md)): `ZEN_MADE_WITH(Setup)` and a constructor
   taking `const Setup&`; ABI 14 appends two slots, `describe_creation` (the shape, no instance
   needed, since the manifest is read from one) and `create_with`; one judgement,
   `loom::judge_creation`, against the image's own declared shapes, for load, reload, candidate,
@@ -544,7 +544,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   version. `local/batch-137-138` deleted at its end, at last. Retargeted to `main`; its one run
   predates Zengine's fix, so it is closed and reopened before it merges. #26 is now in conflict
   with `main`, as foreseen.
-  The instruction-drift report reviewed 2026-11-13 ([report](../reportbacks/instruction-drift-RB.md));
+  The instruction-drift report reviewed 2026-11-13 ([report](../../../reportbacks/instruction-drift-RB.md));
   Zengine#152 merged (`8a822fed`). Decided (the founder, 2026-11-13), its 1 to 7 as Vision leaned:
   the constitution's three stale sentences applied (`9ae64582`, with the orientation's opening
   guard now "build what it calls for whole, whether or not anything needs it yet; say what a piece
@@ -561,11 +561,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   information or clarity takes its kind's default plus 20% a step, each step asked for in the
   report and approved by the merge; one table, each row exact (the fewest steps that hold its
   page); the three unbudgeted pages get rows; the table is the release's list. The lane's batch
-  ([issues](../issues/raid-batch-2026-11-13.md)): the steps, with the packaging page's three
+  ([issues](../../../issues/raid-batch-2026-11-13.md)): the steps, with the packaging page's three
   targets as their first use; `component/` knows no medium as a law; suites a sentence names read
   by the names check; and a commit subject names no issue number.
   Final merge check 2026-11-13: Zengine#156, the Timer over a deadline, holding
-  ([report](../reportbacks/zengine-timer-over-deadline-continued-2-RB.md)): green on every job and
+  ([report](../../../reportbacks/zengine-timer-over-deadline-continued-2-RB.md)): green on every job and
   on Package at `4216757` over `main` `8a822fe`, the nine text checks green on the merge; the
   guest's "missing wake" was a journey leaning on the beat's timing (the door answered at once, the
   Input row not yet loaded), so the journey asks where the plan is first, as WL-GUEST-12 offers; the
@@ -575,7 +575,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   owed answers across a reload: a reload while a letter waits drops its asks (one wait wide), and
   a reload measures from the last wake since no ceremony hands the time first. Loom#28 green on a
   fresh run over `76f0e37`. Loom#26 still in conflict: its rebase
-  ([prompt](../prompts/loom-names-check-rebase.md), warm). Queued: the union stage's prompt
+  ([prompt](../../../prompts/loom-names-check-rebase.md), warm). Queued: the union stage's prompt
   from `main` once #156 merges, its census rows there, and the class-lines rows marked to fall (the
   decided ratchet; the census holds them exact but unmarked, so the hub's 1825 to 1841 passed);
   `zengine.guests.md` saying a guest asks where the plan is first; the act tool spelling a lone
@@ -585,18 +585,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   above) but `kit.sh end`'s, which waits for the kit's next round.
 - **The overnight lanes of 2026-11-12** (Vision's prompts, two sessions side by side, beside
   Workshop's line round 1, which runs in Zengine): lane 1, the union
-  ([prompt](../prompts/loom-union.md), warm: `Kind::Union`, the kind for any registered
+  ([prompt](../../../prompts/loom-union.md), warm: `Kind::Union`, the kind for any registered
   shape, nested values made and never adopted, the gate's budget; the manifest's version, not the
   ABI's), then Loom's own hand-made unions onto it on its branch
-  ([prompt](../prompts/loom-own-unions.md), hot; its end force-deletes `local/batch-137-138`
-  on the founder's word). Lane 2: deadlines in the reactor ([prompt](../prompts/loom-deadlines.md),
-  warm), the one-host research ([prompt](../prompts/one-host-research.md), hot), the
-  schema-evolution research trying both answers ([prompt](../prompts/schema-evolution-research.md),
+  ([prompt](../../../prompts/loom-own-unions.md), hot; its end force-deletes `local/batch-137-138`
+  on the founder's word). Lane 2: deadlines in the reactor ([prompt](../../../prompts/loom-deadlines.md),
+  warm), the one-host research ([prompt](../../../prompts/one-host-research.md), hot), the
+  schema-evolution research trying both answers ([prompt](../../../prompts/schema-evolution-research.md),
   hot), then #145's follow-up, the install's downloads cached by the snapshot's date and its time
-  limit in words of its own ([prompt](../prompts/package-download-cache.md), hot; the
+  limit in words of its own ([prompt](../../../prompts/package-download-cache.md), hot; the
   founder, 2026-11-11). The seam round waits for Loom#17; the Zengine halves (the union spent, the
   Timer over a deadline with `interaction_now` gone) follow their Loom rounds' merges.
-  Reviewed 2026-11-12, every stage holding ([reports](../reportbacks/loom-union-RB.md) and beside
+  Reviewed 2026-11-12, every stage holding ([reports](../../../reportbacks/loom-union-RB.md) and beside
   it): Zengine#148 (the line's census, both ways, every row falling, and twelve closings; forward
   includes 49 to 30, reverse 47 to 42; Workshop configures whole as a stranger, stopping at closing
   15) merged; Loom#23 (deadlines; `WaitSet`/`Waited` 2, v1 read and answered in kind) merged;
@@ -622,7 +622,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   and a census of `name_of` spellings, ordered by the plan; a census of the Loom shapes Zengine's
   tools read by hand; `local/batch-137-138` still to force-delete (the union chain's end read
   `PHASE` without `PHASE.ended`; the kit's `hold` would have said the primary was free). The lane
-  ([batch](../issues/raid-batch-2026-11-12.md)): Loom#17 built as reviewed and green, merging after
+  ([batch](../../../issues/raid-batch-2026-11-12.md)): Loom#17 built as reviewed and green, merging after
   #24; #20 holding but conflicting again with #23 in `host_main.cpp`, its title's period to go;
   Zengine#146 and #147 opened by the lane, waiting for `ready`. No contributor beyond the two:
   every commit of #17 and #20 is UnknownWorkers', `cursor[bot]` only the pusher. Zengine#150 reviewed
@@ -634,7 +634,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   ending in the archive's words. Loom#25's continuation holds (a race in the journey, on `main` too;
   green at `e9987731`).
 - **The overnight chain of 2026-11-11** (Vision's prompts, one session, warm then hot), reviewed
-  2026-11-11, every stage holding ([reports](../reportbacks/lane-issues-137-138-RB.md), and
+  2026-11-11, every stage holding ([reports](../../../reportbacks/lane-issues-137-138-RB.md), and
   rounds 2, 3 and the kit's beside it): Zengine#142 (#137, Loom#18's Zengine half, `75827dfc`) and
   #141 (#138, the Files places case reads the cut, `c93fdff6`), each green; the pane contract's
   round 2, Zengine#143 (`pane/` and the register PANE-SEAM, `4b03f76b`), and round 3, #144 (the
@@ -646,8 +646,8 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   night of 03:43 built with the same step); round 2 read it as moved live packages, wrongly.
   Vision's order: #141, #142; Loom#18 closed and reopened for a fresh merge ref (clean onto
   `main`), merged when green; the chain of two
-  ([stage 1](../prompts/package-dated-archive-down.md), warm: the step refuses in words when
-  the archive does not answer whole; [stage 2](../prompts/contract-rounds-onto-main.md), hot:
+  ([stage 1](../../../prompts/package-dated-archive-down.md), warm: the step refuses in words when
+  the archive does not answer whole; [stage 2](../../../prompts/contract-rounds-onto-main.md), hot:
   #143 regenerated onto `main`, #141's `omitted_text` respelled by the pass, #144 on it); then
   #143 and #144, with Package's Linux judge green, since they change what installs. #143 merged
   after #141 without the rebase would leave `main` unbuildable: the text merge is clean. Done
@@ -660,7 +660,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   with words of its own; `local/batch-137-138` force-deleted (`git branch -d` refuses a local merge
   whose work is on `main`). For the kit: a replay script beside each mass-edit pass (round 3's pass
   has no README). The lane's
-  batch ([issues](../issues/raid-batch-2026-11-11.md)): the stale mutant `search-ignores-the-role`,
+  batch ([issues](../../../issues/raid-batch-2026-11-11.md)): the stale mutant `search-ignores-the-role`,
   and a case cutting Files' places on every machine. The lane's own: Loom#20's fix pushed
   (`a2dfc21e`, on L1, wanting #22 under it), Loom#17's proposed idea posted and not yet built (a
   `refusal` on `Ticket` and `RolePublication`, answers out of the bound); both reviewed
@@ -698,12 +698,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   replacement keeps the incumbent's stale (SENSE-03); and nothing is left waiting -- every ask
   whose answer can no longer come is told to its asker, with why, so it can retry or wrap up,
   planned explicitly as the first round of the research **replacement without a seam**
-  ([prompt](../prompts/replacement-without-a-seam-research.md), warm), the founder's goal a
+  ([prompt](../../../prompts/replacement-without-a-seam-research.md), warm), the founder's goal a
   total takeover with no work downtime (one shape: the retired weave kept as its successor's
   child to finish what cannot move, such as a build). That research runs before L2, so L2 and the
   split are built once; who is told when a holder leaves (its askers, its subscribers, the weave
   itself) is its own. Reviewed 2026-11-10
-  ([report](../reportbacks/replacement-without-a-seam-research-RB.md), pages in
+  ([report](../../../reportbacks/replacement-without-a-seam-research-RB.md), pages in
   `reportbacks/replacement-without-a-seam-research/`), its source claims checked by Vision: an
   ask is the asker's (`mail.ask`, refused for a weave that does not accept `zen.AskEnded`), and
   Loom follows it to its answer or to `zen.AskEnded` with its stage and reason; owed long work
@@ -725,9 +725,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   first (the end's). The founder's rule (2026-11-10): a shape change is never ruled out, with no users
   now its cheapest; and the code does not hold an old name for a file that can change. So #133
   drops `zengine.window.sdl`'s forward read and the demo medium `sdl`, and #132 gives
-  `LoadedSelected` its `roles` ([prompt](../prompts/overnight-review-fixes.md), warm). Both fixes
-  reviewed 2026-11-10 and holding ([#132's](../reportbacks/several-roles-z1-RB.md#after-review),
-  [#133's](../reportbacks/office-to-role-followup-RB.md#after-review) sections): `LoadedSelected`
+  `LoadedSelected` its `roles` ([prompt](../../../prompts/overnight-review-fixes.md), warm). Both fixes
+  reviewed 2026-11-10 and holding ([#132's](../../../reportbacks/several-roles-z1-RB.md#after-review),
+  [#133's](../../../reportbacks/office-to-role-followup-RB.md#after-review) sections): `LoadedSelected`
   v2 carries `roles`, a list, and Compose asks a weave at its first role, the decision Z2's first
   weave of two roles asks; the old window role is read nowhere, and a setup naming `sdl` is
   refused in words. The Files places case (`test_workshop_panes_files.cpp`, `main`'s) assumes
@@ -740,7 +740,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   their first runs are approved, Loom#13, Zengine#135, #134, then #133 after its fix, then Loom#12
   and #132 (after its fix) back to back. The first five merged 2026-11-10; the order now is the
   lane's batch's, below.
-- **The lane's batch, reviewed 2026-11-10** ([issues](../issues/raid-batch-2026-11-09.md)). Merged
+- **The lane's batch, reviewed 2026-11-10** ([issues](../../../issues/raid-batch-2026-11-09.md)). Merged
   first, each a merge commit: Loom#15, whose squash (`5241003d`) carried a co-author line, its tip
   rewritten as `4fa693bc` with the founder (a contributor's pull request merges with a merge
   commit); Loom#13 (`84b5ed0`); Loom#16 (`ca5c641`); Zengine#135 (`99faf89`) and #134
@@ -773,11 +773,11 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   (`65f9b57`); Loom#21, the stranger's 90 minutes (`37835c2`, whose stranger on `main` took 48);
   Loom#19 after a fresh run (`dc06bdd`); Zengine#133 (`3f7b5d1`), before its setup format's
   version could move, so version 2 is a follow-up pull request
-  ([prompt](../prompts/setup-format-v2.md), warm). Then Loom#12, L1 (`0faba92`), and Zengine#132,
+  ([prompt](../../../prompts/setup-format-v2.md), warm). Then Loom#12, L1 (`0faba92`), and Zengine#132,
   Z1 (`4865cf8`), back to back, both `main`s green after. Two Ceecee lanes reviewed
   2026-11-10, each holding and green: one-release-number (Loom#22, Zengine#139; its dry run's
   package says 0.2.8 in all six places) and the setup format's version 2 (Zengine#140,
-  [section](../reportbacks/office-to-role-followup-RB-setup-format-v2.md)). Both lanes took
+  [section](../../../reportbacks/office-to-role-followup-RB-setup-format-v2.md)). Both lanes took
   the primary at once (the kit's one `PHASE` file), each moving to a second copy: the kit
   should refuse a second phase while one holds the primary, and `kit.sh end` and constitution
   section c disagree on when a session's second copy goes, both for the kit's next round.
@@ -789,7 +789,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   final case, whose `static_assert` stops the old code compiling; #136's catalog counts four text
   documents where there are five; a sender's own pointer to what it sent (P-LOOM-23).
 - **The clock's rounds** (the founder, 2026-11-06): beats-with-work merged (#115, `2dcc3a38`). The
-  reactor reviewed 2026-11-07 ([report](../reportbacks/reactor-RB.md)): Loom#5 green on every job
+  reactor reviewed 2026-11-07 ([report](../../../reportbacks/reactor-RB.md)): Loom#5 green on every job
   and merging first, then Zengine#116, whose hosted build stops at Loom's new header until #5 is on
   `main`, so a re-run after it is #116's proof. An idle Workshop turns about once a second, a guest
   linked or not, and a key waits under a millisecond on Windows, about one on Linux. Next, once both
@@ -798,26 +798,26 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   (P-WORK-85; the founder, 2026-11-07); threads kept possible (P-LOOM-19). Loom#5 merged; #116's
   MSVC fault and the package's missing header fixed (`bc46eaa5`, `5a5a61af`), green on every
   job and its Package run, reviewed 2026-11-07: ready. The
-  research: [report](../reportbacks/clock-reactor-research-RB.md). The build warning, #114, merged.
-  The view cost ([report](../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
+  research: [report](../../../reportbacks/clock-reactor-research-RB.md). The build warning, #114, merged.
+  The view cost ([report](../../../reportbacks/view-cost-research-RB.md)): Inventory re-declares every
   view at each change, Workshop repaints per declaration and solves the desk per pane; R1 (Inventory
   declares only changes) now; asked: R7's shape (Vision's lean: Loom's after-turn hook) and R8.
 - **The visual foundation's V4 and the held pictures** (the founder, 2026-11-07): V3, #118, merged
-  as `4dba5cb2` ([report](../reportbacks/visual-foundation-v3-RB.md), closes Zengine#1). V4 is #117
-  ([report](../reportbacks/visual-foundation-v4-RB.md), reviewed 2026-11-07): ready on `main`, every
+  as `4dba5cb2` ([report](../../../reportbacks/visual-foundation-v3-RB.md), closes Zengine#1). V4 is #117
+  ([report](../../../reportbacks/visual-foundation-v4-RB.md), reviewed 2026-11-07): ready on `main`, every
   required job green, the advisory MSVC red on Flow's double press (P-WORK-86). The held pictures
-  are #119 ([report](../reportbacks/visual-foundation-pictures-RB.md), reviewed 2026-11-07): 23
+  are #119 ([report](../../../reportbacks/visual-foundation-pictures-RB.md), reviewed 2026-11-07): 23
   pictures and two pages' words; rebased onto `main` after #120, its patch the same, green on every
   job and ready (its after-review section, reviewed 2026-11-08).
   Order (the founder, 2026-11-07, green on `main`): the double click first, #120
-  ([report](../reportbacks/double-click-RB.md), reviewed 2026-11-08, ready, green on every job),
+  ([report](../../../reportbacks/double-click-RB.md), reviewed 2026-11-08, ready, green on every job),
   then the pictures rebased onto it. V4's moves alone are #121
-  ([report](../reportbacks/persist-moves-RB.md), reviewed 2026-11-08, ready: `persist/` and the key
+  ([report](../../../reportbacks/persist-moves-RB.md), reviewed 2026-11-08, ready: `persist/` and the key
   spelling, byte for byte V4's). V4 is held (the founder, 2026-11-08): theming is redesigned as
   design tokens -- the look alone, Workshop's; settings mechanical; keys the keymap's; the terminal
   a look of its own; a repaint or a re-measure by event -- a design page agreed before #117 is
   reshaped ([the theme slice](drafts/context-map-themes.md); the calls: [goals](goals/theming.md)).
-  The design ([report](../reportbacks/theming-design-RB.md), reviewed 2026-11-08), taken by the
+  The design ([report](../../../reportbacks/theming-design-RB.md), reviewed 2026-11-08), taken by the
   founder the same day for V4's next attempt, with Vision's amendments: one owner per palette name
   (four offerers on `main`, the app and the snake too); a pane's own value may default to an exact
   colour; no new change shapes, a size or font change being a new `AreaRoom`. His own calls with it:
@@ -825,13 +825,13 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   a terminal file or both, the terminal's defaults today's colours; a theme for the other medium a
   normal link in the chain, converted in its place and warned of in the theme manager; the theme
   manager showing a sample wearing a theme fed to it ([goals](goals/theming.md)). V4's next attempt
-  is Zengine#124 ([prompt](../prompts/theming-v4.md), [report](../reportbacks/theming-v4-RB.md),
+  is Zengine#124 ([prompt](../../../prompts/theming-v4.md), [report](../../../reportbacks/theming-v4-RB.md),
   reviewed 2026-11-09): every call built, green on every job, ready; #117 the founder's to close
   once it merges. Its follow-ups: the theme manager pane (sample view, editing by group, the links'
   warnings), its own round; a theme case through a real window in the desk suite (the grant bug
   passed it); the kit's picture prefix reinstalled each round, and its end mark wrong on
   `kit-pictures`.
-- **The context map and shared vocabulary** ([report](../reportbacks/context-map-RB.md), pages in
+- **The context map and shared vocabulary** ([report](../../../reportbacks/context-map-RB.md), pages in
   `reportbacks/context-map/`, reviewed 2026-11-08; redrawn by `pass-tools/context-map/`): Workshop
   is the hub and its folder holds other parts' languages (the pane protocol, twelve features'
   seams); fourteen words with two meanings or two owners; eight decisions asked, the founder's.
@@ -842,9 +842,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   becomes role everywhere, in one cut, version bumps accepted; one home per role name; "operator"
   leaves Loom, the console is the weaver's console; Zengine's display mode is the TUI; multi-word
   names where senses meet; a manual names its senders by role, checked. All applied by one round
-  ([prompt](../prompts/office-to-role.md)), reviewed 2026-11-08
-  ([report](../reportbacks/office-to-role-RB.md)): both hold; #122 and Loom#6 merged, then #123
-  rebased onto `main` ([prompt](../prompts/office-to-role-rebase.md); its section in the report,
+  ([prompt](../../../prompts/office-to-role.md)), reviewed 2026-11-08
+  ([report](../../../reportbacks/office-to-role-RB.md)): both hold; #122 and Loom#6 merged, then #123
+  rebased onto `main` ([prompt](../../../prompts/office-to-role-rebase.md); its section in the report,
   reviewed 2026-11-08): green on every job after one fix the package witness caught (the Neovim
   Editor's installed header read an uninstalled one; it keeps a registered copy). Ready: the founder
   merges, then Loom `main`'s stranger job re-runs green. Left: the multi-word names (pages partly,
@@ -858,7 +858,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   each pane its own context, a pane in its own repository the standard state. Then his scenario
   (2026-11-08): a pane used without Workshop (Files in a pixel-art editor), and a contract by which
   anyone creates, positions and registers panes; panes Zengine's "acceptable on principle". The
-  research ([report](../reportbacks/pane-contract-research-RB.md), pages in
+  research ([report](../../../reportbacks/pane-contract-research-RB.md), pages in
   `reportbacks/pane-contract-research/`, reviewed 2026-11-08): Zengine owns the contract in a
   library folder `pane/`, Workshop one host holding `zengine.pane.host`; four duties, the rest
   refused in words; no new shape; six rounds, the app the second host. Ten decisions, the founder's.
@@ -871,9 +871,9 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   holding several roles (the founder's question, 2026-11-08: a middleman holding the roles of its
   ecosystem). Before a pane in its own repository is the standard: shape names owned by their
   vocabulary (P-LOOM-08, Loom#3, carried from Loom-history#37, open and parked: an opt-in seam, no
-  mass rename). Both researched ([several roles](../prompts/several-roles-research.md), [owned
-  names](../prompts/owned-shape-names-research.md)). Several roles
-  ([report](../reportbacks/several-roles-research-RB.md), pages in
+  mass rename). Both researched ([several roles](../../../prompts/several-roles-research.md), [owned
+  names](../../../prompts/owned-shape-names-research.md)). Several roles
+  ([report](../../../reportbacks/several-roles-research-RB.md), pages in
   `reportbacks/several-roles-research/`, reviewed 2026-11-09): a weave answers to a set of names,
   each still with one holder. Decided (the founder, 2026-11-09), the leans with Vision's: the set
   bound at load only, all or none, bounded, and a role released at any time, out loud, as its
@@ -886,7 +886,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   `zengine.layouts`, contract lines moved by shape in one round, Workshop's own spellings kept (Z1,
   then Z2, needing L1 alone). L1 can run in Loom beside the contract's rounds 1 to 4. The split, a
   role apiece to several candidates (P-LOOM-21), is designed with L2 in the research below. Owned names
-  ([report](../reportbacks/owned-shape-names-research-RB.md), pages, census and spike in
+  ([report](../../../reportbacks/owned-shape-names-research-RB.md), pages, census and spike in
   `reportbacks/owned-shape-names-research/`, reviewed 2026-11-09). Decided (the founder,
   2026-11-09), the leans with Vision's addition: every vocabulary declares once,
   `ZEN_VOCABULARY("<owner>")` or `ZEN_VOCABULARY_BARE()`, and one declaring neither does not
@@ -904,12 +904,12 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   Loom's known seam; a WASM box speaks as its role (`role_send_to_role`), so boxed tests of role
   holders stand.
 - **The overnight chain** (the founder, 2026-11-08), one session, warm then hot: #119 onto `main`
-  ([prompt](../prompts/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
-  spelling ([prompt](../prompts/persist-moves.md)); the context map and shared vocabulary of
-  the whole system ([prompt](../prompts/context-map.md)); the theming design from it, for the
-  founder's decisions ([prompt](../prompts/theming-design.md)); why the first weekly mutants
-  went red, #99 ([prompt](../prompts/mutants-red.md)). Ran whole; #119 and #121 merged; #122
-  ([report](../reportbacks/mutants-red-RB.md), reviewed 2026-11-08): the weekly run's 18 stale
+  ([prompt](../../../prompts/pictures-onto-main.md)); V4's moves alone, `persist/` and the key
+  spelling ([prompt](../../../prompts/persist-moves.md)); the context map and shared vocabulary of
+  the whole system ([prompt](../../../prompts/context-map.md)); the theming design from it, for the
+  founder's decisions ([prompt](../../../prompts/theming-design.md)); why the first weekly mutants
+  went red, #99 ([prompt](../../../prompts/mutants-red.md)). Ran whole; #119 and #121 merged; #122
+  ([report](../../../reportbacks/mutants-red-RB.md), reviewed 2026-11-08): the weekly run's 18 stale
   entries and one #120 stranded, CI green, merge once its dispatched Mutants run is green. Its
   follow-ups: a corpus text check (`run.py --text`) in every pull request's documentation lane, so
   moved code cannot strand an entry for a week; the kit's `ext4.py sync` leaves an emptied folder.
@@ -933,20 +933,20 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   loose ends: both histories rewritten so no commit says MPL (plain AGPL until a creations
   exception is drafted, no README note), pushed to the new public repositories and green;
   settings, labels and the 103 open issues carried
-  ([report](../reportbacks/relicense-agpl-history-RB.md), reviewed 2026-11-01 and 2026-11-02).
+  ([report](../../../reportbacks/relicense-agpl-history-RB.md), reviewed 2026-11-01 and 2026-11-02).
   No copy of the old history is left on the machine but the bundles; the six repositories that
   stay carry a pre-push guard; private vulnerability reporting on; `zen-night-lab` and
   `zen-arena` private; #100 merged and the package on (the founder, 2026-11-02). The loose ends
   done (reviewed 2026-11-03): of the carried work 99 dropped and #487's branch kept, the View
   Builder's quarry ([sheet](drafts/loose-changes-2026-11-02.md)); the toolchains in
   `zen-build/toolchains/`; the kit's left-behind check. What it found, cleared, `parked` and
-  `later` retired ([report](../reportbacks/left-behind-cleared-RB.md), reviewed 2026-11-03):
+  `later` retired ([report](../../../reportbacks/left-behind-cleared-RB.md), reviewed 2026-11-03):
   nothing left behind. `v0.2.0` is tagged (`84446fb5`): the MCP server's 0.1.2 package swapped
   for it next. Pushed branches never merged stay in `-history`, carried on request. Still owed:
   the creations exception, drafted with counsel. Asked, not decided: a CLA before outside
   contributions; the trademark.
 - **Main lane: Flow made over**, pushed as #559 at the founder's word (2026-10-29,
-  [report](../reportbacks/flow-live-requests-RB.md)): batches A to E live in his Workshop, the
+  [report](../../../reportbacks/flow-live-requests-RB.md)): batches A to E live in his Workshop, the
   Windows build mended after the first hosted run, three guide pictures taken from recipes (the
   older ones wait on #521). Reviewed 2026-10-29: green at `8ffdacfb`, every job, after the
   sanitizer and MSVC runs found a case reading a copy freed before the read; merges clean onto
@@ -955,18 +955,18 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   field of one name refused at the edit, which the maker's admission refuses at Run. Later, with
   accordions (BL-WORK-16): the docks narrowed to tags that open on hover with their names and
   connectors.
-- **Issue lane**: the UX batch done ([report](../reportbacks/issue-lane-ux-batch-RB.md)): 65
+- **Issue lane**: the UX batch done ([report](../../../reportbacks/issue-lane-ux-batch-RB.md)): 65
   issues in Zengine (#492 to #566) and Loom #73 (section 6), its eight pull requests merged, the
   weekly mutants run 341 of 341 caught and #476 closed. Then the ELH audit's findings
-  ([report](../reportbacks/issue-lane-elh-audit-RB.md), reviewed 2026-10-29): #570, `repo` alone
+  ([report](../../../reportbacks/issue-lane-elh-audit-RB.md), reviewed 2026-10-29): #570, `repo` alone
   in `accounts-machine` so approving `workshop-machine` grants no push, and Loom #77, a spelling
   `loom-session` cannot type refused by the input's name, both green; 21 issues (#569, #571 to
   #589, Loom #76). Then the founder's decisions and the agent tools
-  ([report](../reportbacks/issue-lane-decisions-agent-tools-RB.md), reviewed 2026-10-30): eleven
+  ([report](../../../reportbacks/issue-lane-decisions-agent-tools-RB.md), reviewed 2026-10-30): eleven
   decisions written on their issues, Loom #73 retraced; #590 the desk tools (#571, #573, #582),
   #591 the input owner's busy words (#579), #592 the workshop tools (#574 to #578, #581, #585,
   #586, #589), each green; #584 and #587 left open with a question each (section 5).
-- **Kit lane: the picture tool**, done ([report](../reportbacks/kit-pictures-RB.md)): a picture
+- **Kit lane: the picture tool**, done ([report](../../../reportbacks/kit-pictures-RB.md)): a picture
   taken from its recipe, an audit of all 128, 26 recipes; twelve retaken in #558, merged. An
   audit of `main` at `14669927` (the accordion lane's, 2026-10-29) finds three already out of
   date: `hotkeys-keymap-folder-window.png` (Start here, after #563), and the Files manual and the
@@ -974,40 +974,40 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   #568. After #559, an audit again. The manuals' recipe shows its own hand (Info inspecting the
   Manual's geometry, Notices listing the commits that placed it); a cleaner composition for a
   later kit round. The next two ran and were reviewed (2026-11-04):
-  [background launches](../reportbacks/kit-background-launches-RB.md), the kit in Zen
+  [background launches](../../../reportbacks/kit-background-launches-RB.md), the kit in Zen
   (`08e23581`) and Zengine #103 (the OS window put behind every window on Windows; green on every
   job, merges clean with #101 and #104, any time): an agent's Workshop opens without the
   foreground and covers nothing, `winhand.ps1` and `conshot.ps1` take the foreground only under
   `KIT_FOREGROUND=1` or `-Foreground`, `front.ps1` brings one forward, and the left-behind check
-  counts a report from its first commit. [Private words](../reportbacks/kit-public-words-RB.md)
+  counts a report from its first commit. [Private words](../../../reportbacks/kit-public-words-RB.md)
   (`891cf87a`): `public-words.py` marks a text before it is posted, never refusing. Asked, with
   Vision's leans: the flag named for what it now means (`ZENGINE_SDL_BACKGROUND`, in #103 before
   it merges); next kit round, `behind.ps1` as a guard in the launchers and a `pr-say.sh` route
   that runs the words check on a pull request's text. The windows branch of #103 is compiled by
   no hosted job; the night's Windows package build is its first.
-- **Accordion lane: stage 2**, as #568 ([report](../reportbacks/accordion-stage-2-RB.md)): the
+- **Accordion lane: stage 2**, as #568 ([report](../../../reportbacks/accordion-stage-2-RB.md)): the
   group borrows its owner's list and keeps no copy, so a pane's state is the truth; Info's values
   a tree (WL-INFO-16), with Right, Left and Shift+Left. Rebased onto `main` at `c46f3098` and
   green (its last section, reviewed 2026-10-29): the floors measured (component 59, info 185), an
   open walking a list in any order, witnessed under libstdc++'s debug mode, Info's manual picture
   retaken; merge-ready. Three decisions (section 5).
-- **WASM lane: stages 2 and 3** ([report](../reportbacks/wasm-tier-s2-s3-RB.md)): S2 merged as
+- **WASM lane: stages 2 and 3** ([report](../../../reportbacks/wasm-tier-s2-s3-RB.md)): S2 merged as
   Loom #74, `Kernel::containment(name)`, D7's statement in `capabilities.md` as recorded. S3 as
   Loom #75, rebased onto it and green, tests only: the door cases run on boxed twins built from
   the same fixtures (24), and the five bounds met; merged. S4, a Zengine pane boxed in Workshop,
-  reported and reviewed 2026-10-30 ([report](../reportbacks/wasm-tier-s4-RB.md)): Loom #78 green,
+  reported and reviewed 2026-10-30 ([report](../../../reportbacks/wasm-tier-s4-RB.md)): Loom #78 green,
   12 of 12, merges first; Zengine #594 green but its boxed job, refused at configure until #78 is
   in. #78 merged (`619d102f`); #594's rerun green on every job, the boxed one included, its body
   put right; reviewed 2026-10-30; merged (`8559e428`). S4b, the Builder's second target: the
   founder took it into the Builder (2026-10-30), a recipe making its pane native, boxed or both
-  through Workshop ([prompt](../prompts/wasm-tier-s4b-builder.md), warm): reported 2026-10-30
-  ([report](../reportbacks/wasm-tier-s4b-RB.md)), its review next.
+  through Workshop ([prompt](../../../prompts/wasm-tier-s4b-builder.md), warm): reported 2026-10-30
+  ([report](../../../reportbacks/wasm-tier-s4b-RB.md)), its review next.
 - **Docs lane: Loom's README as the front door.** The journey page (#79, +1044 lines) closed by the
   founder (2026-10-30): docs get smaller and clearer, never longer. First the eight Loom entries of
   the docs-against-code list in one small pull request, Loom #80, merged (`a2fe7e2`), so the
   rewrite reads no contradiction. Then `Mail::reply` falling back to the stamped sender when no
   reply address was given, ordinary grant-checked speech still (the founder, 2026-10-30;
-  [prompt](../prompts/mail-reply-fallback.md)): Loom #81, reported green at `1429803c`, its
+  [prompt](../../../prompts/mail-reply-fallback.md)): Loom #81, reported green at `1429803c`, its
   review next. Then Loom's README rewritten
   below the preface: a punchy, honest summary; the ideas, ordered for a reader, each section able to
   stand alone as bullets; install, build, the console, a first weave, loading code, sending a
@@ -1022,7 +1022,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
   merged, #487 closed. The second, reviewed the same day: #553, #555, #561, #557, #563, #567,
   #550, #565, #558 and Loom #74 merged. The third, reviewed that evening, all green and each
   clean on `main` and with the others: #570, #568 and #559, then Loom #75 and #77 back to back.
-- **UI census**, reported ([report](../reportbacks/ui-census-RB.md), `08693d45`) and reviewed
+- **UI census**, reported ([report](../../../reportbacks/ui-census-RB.md), `08693d45`) and reviewed
   (2026-10-29): an element set of nine and an order; its nine decisions with the founder
   (section 5).
 - **Closed this week**, each in its report: the desk's round 2 (#467, #469, #470, #472); the
@@ -1041,7 +1041,7 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    form (only the chosen side computed) and list operators. Start here's moves for steps 2 and 3
    wait on it. Zengine #142 holds the older milestone question.
 2. **The element set, its text pieces first** (prompted 2026-10-30,
-   [prompt](../prompts/element-set-text.md), warm) (the founder, 2026-10-29: "High quality
+   [prompt](../../../prompts/element-set-text.md), warm) (the founder, 2026-10-29: "High quality
    components means higher quality composites"), a stage worth the time. The census's set
    (section 3), its drawn faces lifted from Flow's pen once his round ends. First the text: one
    core (the text, places in it, the selection, the word rules, the window over it, the copy);
@@ -1050,14 +1050,14 @@ Four lanes run at once on three build slots: two work slots at 8 jobs, one final
    blinking. The box seen as a box (the founder, 2026-10-29): a 1 px border in a light grey role
    a theme maps; Loaded's search is the first that needs it. Before the View Builder's makeover,
    which builds on it. The text stage reported 2026-10-30
-   ([report](../reportbacks/element-set-text-RB.md)): Zengine #593, green on every job at
+   ([report](../../../reportbacks/element-set-text-RB.md)): Zengine #593, green on every job at
    `492e96c9`. The founder (2026-10-30): `[text___]` in cells; every text box always seen as a
    box, empty included; Loaded's search shown from the start; `component/` knowing no medium.
    The faces round (`bd184417`) green on every job, reviewed 2026-10-30, merge-ready:
    `component/` measured in characters, each look a face in `graphics/elements/`, a row carrying
    its box. The founder (2026-10-30): the Terminal's own line plain in cells (`> ls -l`), its
    outline kept in a window. #593 merged (`13cc5674`, squashed); the Terminal's line came as
-   #595, one commit on `main` ([prompt](../prompts/element-set-text-terminal-line.md)), its report
+   #595, one commit on `main` ([prompt](../../../prompts/element-set-text-terminal-line.md)), its report
    due.
 3. **The View Builder made over** (the founder, 2026-10-29), after Flow, as Flow was: the design
    as a whole, not the lane's three notes one by one. What it carries: the kinds a row each below
@@ -1139,7 +1139,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   [clarify 2](drafts/decision-wave-clarify-2.md)). Workshop in its own repository: the right end
   state (Vision's read, taken): the boundary proven in one repository first, a stranger lane,
   then the move, after the visual foundation's first stages; the distance measured
-  ([report](../reportbacks/workshop-as-a-stranger-research-RB.md): 111 reverse include lines,
+  ([report](../../../reportbacks/workshop-as-a-stranger-research-RB.md): 111 reverse include lines,
   the seam Zengine's, 23 closings). Its calls (the founder, 2026-11-11): W-1 settled by
   the pane contract (2026-11-08); W-2 the Builder, `external-host/` and the launcher Workshop's,
   the app host and the menu presenter Zengine's; W-3 the Flow host exported whole for now, one
@@ -1153,16 +1153,16 @@ Each starts on the founder's word; "wake" is what must be true first.
   Zengine rounds through calls, and V7. W-6 the line held from now by a text check in the
   documentation lane, both ways, a census row that only falls, and by Zengine built without
   Workshop's folders before the move. Round 1 prompted
-  ([prompt](../prompts/workshop-line-round-1.md), warm), to run once #141 to #144 are on
+  ([prompt](../../../prompts/workshop-line-round-1.md), warm), to run once #141 to #144 are on
   `main`. Designed whole (2026-11-03,
-  [design](../reportbacks/visual-foundation-research/design.md),
-  [stages](../reportbacks/visual-foundation-research/stages.md),
-  [report](../reportbacks/visual-foundation-research-RB.md)): eleven stages in Zengine, V1 the
+  [design](../../../reportbacks/visual-foundation-research/design.md),
+  [stages](../../../reportbacks/visual-foundation-research/stages.md),
+  [report](../../../reportbacks/visual-foundation-research-RB.md)): eleven stages in Zengine, V1 the
   pool and palettes first. Both reviewed 2026-11-03, their thirteen calls with the founder
   ([review](drafts/research-review-2026-11-03.md)). The visual foundation's six settled the same
   day, the design amended so (the founder, 2026-11-03), V1 prompted
-  ([prompt](../prompts/visual-foundation-v1.md), warm) and V8 beside it in a second lane
-  ([prompt](../prompts/visual-foundation-v8.md), warm):
+  ([prompt](../../../prompts/visual-foundation-v1.md), warm) and V8 beside it in a second lane
+  ([prompt](../../../prompts/visual-foundation-v8.md), warm):
   - **Pictures**: one may change where the change is the point, named with its reason, before
     and after, for his review; byte for byte only for V2's sweep. Every picture added or retaken
     comes from a recipe the kit's picture tool replays. Excised rather than carried: which of the
@@ -1198,9 +1198,9 @@ Each starts on the founder's word; "wake" is what must be true first.
   - **V9 to V11**: each element stage reviewed for feel, its faces in both media and a pane's
     code using them, before it merges.
   - **Built**: V1 as Zengine #101 and V8 as #102, each green on every required job, reviewed
-    2026-11-03 ([V1](../reportbacks/visual-foundation-v1-RB.md),
-    [V8](../reportbacks/visual-foundation-v8-RB.md)). #101 merges first, then #102 rebased
-    (`tests/shapes.txt`, adjacent lines; [prompt](../prompts/visual-foundation-v8-rebase.md),
+    2026-11-03 ([V1](../../../reportbacks/visual-foundation-v1-RB.md),
+    [V8](../../../reportbacks/visual-foundation-v8-RB.md)). #101 merges first, then #102 rebased
+    (`tests/shapes.txt`, adjacent lines; [prompt](../../../prompts/visual-foundation-v8-rebase.md),
     hot). Their texts stay as posted: an edit keeps the old words in GitHub's history.
     Asked, with Vision's leans: the looks (night and day ship, block a tests' fixture, classic
     another word for night; the pool's `own` kept for text and grounds alone, so a terminal shows
@@ -1208,18 +1208,18 @@ Each starts on the founder's word; "wake" is what must be true first.
     job's hour, settled (the founder, 2026-11-04): ninety minutes before #101 merges, since a job
     stopped at its limit saves no cache and cancels the run, and the night packages only a passed
     one, green all the same; the night made to say so: #104
-    ([report](../reportbacks/ci-msvc-hour-RB.md), reviewed 2026-11-04, green on every job), then
+    ([report](../../../reportbacks/ci-msvc-hour-RB.md), reviewed 2026-11-04, green on every job), then
     #101 rebased onto `main` and run again
-    ([prompt](../prompts/visual-foundation-v1-rebase.md), hot), then #102's rebase.
+    ([prompt](../../../prompts/visual-foundation-v1-rebase.md), hot), then #102's rebase.
     #104 merged (2026-11-04). A reviewer of the founder's read the open work (2026-11-04): #66
     closed by #101 and the word `skin` named as known debt in #101's record, both in its rebase;
     v0.2.0's notes ("replaces the package before it") untrue for the first release alone, fixed on
     the release, and `main's tip` kept out of a pull request's Package run: #105
-    ([report](../reportbacks/ci-release-notes-RB.md), reviewed 2026-11-04, merged; the notes
+    ([report](../../../reportbacks/ci-release-notes-RB.md), reviewed 2026-11-04, merged; the notes
     edited). Its cost, the reviewer's: the judge runs in no pull request, so one that breaks it
     passes; the judge exercised on fixed cases in every pull request that changes it
-    ([prompt](../prompts/ci-tip-judge-cases.md), warm): #106
-    ([report](../reportbacks/ci-tip-judge-cases-RB.md), reviewed 2026-11-05, ready), eight
+    ([prompt](../../../prompts/ci-tip-judge-cases.md), warm): #106
+    ([report](../../../reportbacks/ci-tip-judge-cases-RB.md), reviewed 2026-11-05, ready), eight
     cases, one judge; its first live witness the first night after it merges. #100's stale-green
     night already answered by #104's tip job; the shapes conflict and #102's role-picked colours
     (V2's sweep) as known. The peek (waived until
@@ -1229,60 +1229,60 @@ Each starts on the founder's word; "wake" is what must be true first.
     #102 rebased onto `main` (2026-11-04): its sanitizer job stopped three times mid-verify by a
     runner shutdown (exit 143), under its 90-minute limit. The job sits at its runner's memory:
     `main` peaks at 15.1 of 16 GB at four jobs, #102 155 MB above it
-    ([report](../reportbacks/visual-foundation-v8-rebase-RB.md)); its fix (the founder,
+    ([report](../../../reportbacks/visual-foundation-v8-rebase-RB.md)); its fix (the founder,
     2026-11-04): each entry measured, the heaviest apart, three at a time only if none stand out,
     the peak said and warned past 12 GB
-    ([prompt](../prompts/ci-sanitizer-memory.md), warm): #107
-    ([report](../reportbacks/ci-sanitizer-memory-RB.md), reviewed 2026-11-04, merged 2026-11-05,
+    ([prompt](../../../prompts/ci-sanitizer-memory.md), warm): #107
+    ([report](../../../reportbacks/ci-sanitizer-memory-RB.md), reviewed 2026-11-04, merged 2026-11-05,
     `main` green with it), the two
     largest panes suites apart, 6.4 GB on the runner; then #102 rebased
-    ([prompt](../prompts/visual-foundation-v8-rebase-2.md), hot;
-    [report](../reportbacks/visual-foundation-v8-rebase-2-RB.md), reviewed 2026-11-05, ready: green,
+    ([prompt](../../../prompts/visual-foundation-v8-rebase-2.md), hot;
+    [report](../../../reportbacks/visual-foundation-v8-rebase-2-RB.md), reviewed 2026-11-05, ready: green,
     its sanitizer job at 88 of its 90 minutes after a rerun for a full disk). The looks
     (the founder, 2026-11-04): night and day ship, and block as the terminal look, the one theme
     that changes how a terminal draws (the tests and the snake keep it; a layer over night or day
     with V4's `merge`); classic another name for night; `own` for text and grounds alone. V2
-    prompted ([prompt](../prompts/visual-foundation-v2.md), warm): #108
-    ([report](../reportbacks/visual-foundation-v2-RB.md), reviewed 2026-11-05), its content ready;
+    prompted ([prompt](../../../prompts/visual-foundation-v2.md), warm): #108
+    ([report](../../../reportbacks/visual-foundation-v2-RB.md), reviewed 2026-11-05), its content ready;
     it follows #102, by its applier from the new start, once the lane's scaling lands
-    ([prompt](../prompts/ci-sanitizer-scale-research.md), warm): its sanitizer job passed its
+    ([prompt](../../../prompts/ci-sanitizer-scale-research.md), warm): its sanitizer job passed its
     90 minutes, the runners' doubling, not V2's. The founder's calls on it (2026-11-05): `own`
     named `terminal default`; a pane's ordinary border grey in a terminal; Flow's columns on a
     second background (`background_alt`, the DO column's old `#20252d`); a terminal matched to
     what it can show later, with the terminal research: V2 continued once #102 merges
-    ([prompt](../prompts/visual-foundation-v2-continued.md), hot). The snake's pictures
+    ([prompt](../../../prompts/visual-foundation-v2-continued.md), hot). The snake's pictures
     taken in play by a pilot, the first participant an agent runs to play a program for it,
     playing against the world's own beat and never stepping it, a pause the world honours
-    for a picture ([prompt](../prompts/snake-pilot.md), warm), after the research.
-    V2 continued: #108 ([report](../reportbacks/visual-foundation-v2-continued-RB.md), reviewed
+    for a picture ([prompt](../../../prompts/snake-pilot.md), warm), after the research.
+    V2 continued: #108 ([report](../../../reportbacks/visual-foundation-v2-continued-RB.md), reviewed
     2026-11-05, ready: green on every job, its sanitizer job 74 of its 90 minutes); three block
     pictures in a terminal stale for want of recipes, for the held pictures' pass. The pilot:
-    #109 ([report](../reportbacks/snake-pilot-RB.md), reviewed 2026-11-05, ready after #108),
+    #109 ([report](../../../reportbacks/snake-pilot-RB.md), reviewed 2026-11-05, ready after #108),
     its place by an exercised replacement (WL-PART-01, asked); onto `main` once #108 merges,
-    with the snake's pictures in play ([prompt](../prompts/snake-pilot-continued.md), hot).
+    with the snake's pictures in play ([prompt](../../../prompts/snake-pilot-continued.md), hot).
     #108 merged (2026-11-06). The sanitizer job at scale: #110
-    ([report](../reportbacks/ci-sanitizer-scale-RB.md), reviewed 2026-11-06, ready, clean onto
+    ([report](../../../reportbacks/ci-sanitizer-scale-RB.md), reviewed 2026-11-06, ready, clean onto
     `main`), in before the pilot's continuation; asked: Inventory's view cost (P-WORK-81) and a
     warning for the builds' memory (P-BUILD-21). The clock's first steps: #111 and #112, their
     report not yet in, #111's run going; both merge clean onto `main` with #110, and #111 meets
     the pilot in the snake's CMake list and the population.
     #110 merged (2026-11-06). The pilot continued: #109
-    ([report](../reportbacks/snake-pilot-continued-RB.md), reviewed 2026-11-06, ready on today's
+    ([report](../../../reportbacks/snake-pilot-continued-RB.md), reviewed 2026-11-06, ready on today's
     `main`): the snake's two pictures in play, steady; its test names and rig still say classic
     (V4's word pass). The clock's first steps: #111 and #112
-    ([report](../reportbacks/time-first-steps-RB.md), reviewed 2026-11-06), their content ready,
+    ([report](../../../reportbacks/time-first-steps-RB.md), reviewed 2026-11-06), their content ready,
     their runs on `9bc2f646`: onto `main` after #109, with the facet's claim trap fixed
-    ([prompt](../prompts/time-first-steps-continued.md), hot). Asked: whether the reactor
+    ([prompt](../../../prompts/time-first-steps-continued.md), hot). Asked: whether the reactor
     or frame clock (the idle wakes, about 220 a second) is the next round. Not measured: a key in
     a Neovim pane; the switch asked from the Terminal answered and left the standard Editor.
     #109 merged (2026-11-06). The founder took Vision's three leans (2026-11-06): the clock's next
     round, a reactor or a frame clock, researched first
-    ([prompt](../prompts/clock-reactor-research.md), warm); the view cost researched as the
-    product's, the case unchanged ([prompt](../prompts/view-cost-research.md), warm); and the
+    ([prompt](../../../prompts/clock-reactor-research.md), warm); the view cost researched as the
+    product's, the case unchanged ([prompt](../../../prompts/view-cost-research.md), warm); and the
     sanitizer builds warned past 14 GB, in a lane beside them
-    ([prompt](../prompts/ci-sanitizer-build-memory.md), warm). The clock round's
+    ([prompt](../../../prompts/ci-sanitizer-build-memory.md), warm). The clock round's
     continuation reported: #111 and #112 onto `main`, the facet's claim trap in #113
-    ([report](../reportbacks/time-first-steps-continued-RB.md), reviewed 2026-11-06, all three
+    ([report](../../../reportbacks/time-first-steps-continued-RB.md), reviewed 2026-11-06, all three
     ready, one tree in any order); the Timer's own claim hook unneeded once #113 is in, one line.
 
 - **State or checkpoint: a research pass** (the founder, 2026-10-29). The Hotkeys pane's open
@@ -1319,7 +1319,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   the old `zen-ui-vocabulary.md`, the rebuild scaffold's element census and the code): each
   element a value in `component/` and a face drawn from it, drawn by the panes and offered to
   makers as the View Builder's kinds. The census reported and was reviewed (section 1,
-  [report](../reportbacks/ui-census-RB.md)); its nine decisions, the scaffold's call 6 among
+  [report](../../../reportbacks/ui-census-RB.md)); its nine decisions, the scaffold's call 6 among
   them, wait on the founder (section 5). The text area, from the founder's note (2026-10-29): in
   cells, markers for what is above and below; in a window, free scrolling with a bar of 4 to 8
   pixels on the right; wrapping by width; its text selected and copied. Vision's reading: the
@@ -1366,7 +1366,7 @@ Each starts on the founder's word; "wake" is what must be true first.
 - **Layout modes L3, the views** (L1 #413 and L2 #421 merged). A share's inverse and an anchor's
   offset sit in `workshop/setup.hpp` for it. Wake: met (#340).
 - **The story's step 7**: Workshop reconnects to an exported app and takes its weaves back (C1,
-  L2 and C2 of the [research](../reportbacks/app-export-research-RB.md)); it needs prompts, not
+  L2 and C2 of the [research](../../../reportbacks/app-export-research-RB.md)); it needs prompts, not
   research. With it, Loom's small follow-ups: an installed `AuthorityDesk` seat, `authority
   trust` naming a host's baseline, and the bridge's sockets closed on exec (private). Wake: after
   the release.
@@ -1385,7 +1385,7 @@ Each starts on the founder's word; "wake" is what must be true first.
 - **The MCP adapter's live check** through the app, and the weaver case on package 0.1.3. Wake: a
   lane left empty.
 - **The ELH audit's findings** (a cold agent for the founder, 2026-10-29,
-  [report](../reportbacks/elh-audit-report.md)), checked by Vision against the code: the
+  [report](../../../reportbacks/elh-audit-report.md)), checked by Vision against the code: the
   `workshop-machine` package's `repo` tool gives git push and pull requests to any session that
   approves Workshop's machine tools; act passing a press its owner refused; `open` leaving a pane
   being placed; Loom's `loom-session` reading an unknown bool spelling as false (`cli.py:247`);
@@ -1393,7 +1393,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   no quickstart, and no tool asking for a pane's document. Its claim that Inventory, Info, Demo
   and Compose declare no causes does not hold (30, 7, 2 and 1 rows); resolve answering a missing
   shape as a real one does. Wake: the issue lane's round after its UX batch
-  ([prompt](../prompts/issue-lane-elh-audit.md), warm, 2026-10-29).
+  ([prompt](../../../prompts/issue-lane-elh-audit.md), warm, 2026-10-29).
 - **The Perspectives Lab's pages** rebaselined after D1, before any becomes a prompt. Wake: met.
 - **Faster builds** (BL-WORK-44; #343 merged): split `tests/workshop_support.hpp`, the largest
   lever (2026-10-27: 36 of the 45 compiles over 2 GB include it, 43 % of a cold build's compiling);
@@ -1413,7 +1413,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   4. One release number, 0.3.0 or later, everywhere: the tag, both repositories'
      `project(VERSION)`, the package, `--version` and the pages' copies. Each nightly is a
      release of its own and rolls the last number (the founder, 2026-11-10). Built by
-     one-release-number ([report](../reportbacks/one-release-number-RB.md), Loom#22 and
+     one-release-number ([report](../../../reportbacks/one-release-number-RB.md), Loom#22 and
      Zengine#139, reviewed 2026-11-10): the series in one line in each repository
      (`LOOM_SERIES`, `ZENGINE_SERIES`), a package's number from its tag, both programs and
      both CMake packages saying it; at the release only the series moves.
@@ -1428,7 +1428,7 @@ Each starts on the founder's word; "wake" is what must be true first.
      the nightly attaches a source archive with the number written in. A git checkout of a tag
      reads its tag. Never a commit made by a workflow. Its seam: `LOOM_PACKAGE_VERSION` and
      `ZENGINE_PACKAGE_VERSION`, filled from the tag in place of the nightly.
-- **Loom's own release** (BL-ADOPT-07, [prompt](../prompts/loom-release-research.md)): researched
+- **Loom's own release** (BL-ADOPT-07, [prompt](../../../prompts/loom-release-research.md)): researched
   once Zengine's nightly has published a few clean nights.
 - **The documentation overhaul's rest** (BL-ADOPT-05): stage C's tutorials wait for the complete
   stories; stage D comes after the release.
@@ -1456,7 +1456,7 @@ Each starts on the founder's word; "wake" is what must be true first.
 - **Report-backs land in `Zen/unreviewed/`** (the founder, 2026-11-06; constitution section d):
   Vision reviews each, moves it with its evidence and folders into `reportbacks/`, and commits it.
   The status board shows the lanes, what waits for review, the pull requests and the slots
-  ([report](../reportbacks/status-board-RB.md), reviewed 2026-11-07). It could show the runs still
+  ([report](../../../reportbacks/status-board-RB.md), reviewed 2026-11-07). It could show the runs still
   going too -- a pull request's CI, a dispatched Mutants run and its pieces -- so a long run's
   state is seen without asking (the founder, 2026-11-08).
 - **Workshop and onboarding grow together** (BL-WORK-01): repeated friction gets a better
@@ -1486,7 +1486,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   host-only with an own-origin form for recipients (A5). Cheap now: handler times measured,
   Neovim's reads off the dispatch thread (`call_now` blocks it up to 2 s, 10 s to adopt or
   start), the nap between turns rather than inside the Timer's handler: taken (the founder,
-  2026-11-05; [prompt](../prompts/time-first-steps.md), warm), input's wire unchanged.
+  2026-11-05; [prompt](../../../prompts/time-first-steps.md), warm), input's wire unchanged.
 - The composer's bare values and optional fields (Loom #31's report, 2026-10-08, not asked since):
   a bare value fills the first field in declaration order, optional or not, so `7` for
   `{limit?: Int, n: Int}` fills `limit` and leaves `n` open, and the reply does not say where `7`
@@ -1522,7 +1522,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   vertical bar spelling each tag one letter a row. The founder (2026-10-31): docks cover the
   room, only authored anchors moving panes, and a dock keeps a strip its edge's whole length; the
   row words asked again ([clarify](drafts/decision-wave-clarify-1.md)).
-- The census's nine decisions ([report](../reportbacks/ui-census-RB.md)): Vision takes the
+- The census's nine decisions ([report](../../../reportbacks/ui-census-RB.md)): Vision takes the
   recommendations of 1 to 8, with the hint fed by one facet that hears the keymap, the View
   Builder's parts moved into its makeover; for 9, the drawn faces lifted from Flow's pen once his
   round ends, its emphasis faces as roles a theme maps, not Flow's own colours (2026-10-29). The
@@ -1531,7 +1531,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   6 and 7 yes, Image and Grid kept until superseded; 9 folded into the colour system (section 3);
   1 and 5 asked again ([clarify](drafts/decision-wave-clarify-1.md)); 8 with the View Builder.
 
-- #568's first decision ([report](../reportbacks/accordion-stage-2-RB.md)): no door edits
+- #568's first decision ([report](../../../reportbacks/accordion-stage-2-RB.md)): no door edits
   `DesktopState` or `InfoPaneState` from outside today (Loom's poke writes scalars, its reset
   wants every field exposed), Vision's lean the intended reach for now, the door a later Loom
   stage (on the sheet). Its other two settled as #568 merged.
@@ -1557,7 +1557,7 @@ Each starts on the founder's word; "wake" is what must be true first.
   #73 `authority allow` lasts the session by default and `authority trust` stays as it is ("trust
   is earned, allowance is a leash to test it on"). #587, a walk carrying a value from an earlier
   step: yes, its whole scope talked through with the founder first.
-- Flow's decisions ([report](../reportbacks/flow-live-requests-RB.md)): 3, a view's message
+- Flow's decisions ([report](../../../reportbacks/flow-live-requests-RB.md)): 3, a view's message
   declared whole, is section 3's near-roadmap item; 5 was agreed (section 1).
 
 ## 6. Filed as issues
@@ -1565,10 +1565,10 @@ Each starts on the founder's word; "wake" is what must be true first.
 GitHub holds these; each issue is written as a small prompt any lane can take. Zengine unless
 marked.
 
-- **The UX batch** (2026-10-29, [report](../reportbacks/issue-lane-ux-batch-RB.md), whose table
+- **The UX batch** (2026-10-29, [report](../../../reportbacks/issue-lane-ux-batch-RB.md), whose table
   maps each draft to its issue): #492 to #566 and Loom #73; 39 `ready`, 16 `needs-decision`, 11
   waiting on a lane, another issue or a reproduction.
-- **The ELH audit's findings** (2026-10-29, [report](../reportbacks/issue-lane-elh-audit-RB.md)):
+- **The ELH audit's findings** (2026-10-29, [report](../../../reportbacks/issue-lane-elh-audit-RB.md)):
   #569 (taken by #570), #571 to #589 and Loom #76 (taken by #77); grouped by tool, 17 `ready`.
 - **Needs a decision:** #117 a UTF-8 path cut at a clipped boundary; #118 a required Windows
   lane under non-ASCII folders; Loom #35 a path-encoding contract for `loom-host` sessions on

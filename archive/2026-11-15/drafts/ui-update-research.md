@@ -3,7 +3,7 @@
 **Status:** selected side research; no production renderer architecture selected.\
 **Updated:** 2026-09-30\
 **Authority:** [Workshop roadmap](../goals/workshop.md#ui-update-optimization-research).\
-**First consumer:** the view renderer ([accepted 2026-09-30](../../reportbacks/zengine-flow-powers/ui-builder.md)),
+**First consumer:** the view renderer ([accepted 2026-09-30](../../../../reportbacks/zengine-flow-powers/ui-builder.md)),
 alongside ordinary pane movement/resizing.
 
 ## 1. Question and useful result
@@ -32,14 +32,14 @@ line numbers.
 - [Zengine UI](../../Zengine/docs/reference/ui.md) already separates authored extents/context
   from resolved geometry; its result is currently cached nowhere. Its cell-lattice document
   semantics do not automatically become the right representation for pane interiors.
-- [Loom component vocabulary](../../Loom/include/zen/ui/component.hpp) declares field bindings,
+- [Loom component vocabulary](../../../../Loom/include/zen/ui/component.hpp) declares field bindings,
   slots and presenters. It explicitly lacks a live binding/presenter runtime. Loom's
-  [pixel layout](../../Loom/include/zen/ui/pixel.hpp) produces drawing commands and hit targets
+  [pixel layout](../../../../Loom/include/zen/ui/pixel.hpp) produces drawing commands and hit targets
   from a widget tree; it is another useful seed, not a required universal UI model.
 - [Pane canvas](../../Zengine/workshop/pane_canvas_vocabulary.hpp) carries replacement pictures.
   [Room refresh](../../Zengine/workshop/weave_canvas.cpp) currently regrants on geometry changes.
   A retained view would need to separate description lifetime from resolved-frame/input validity.
-- [Drag research](../../reportbacks/zengine-flow-presentation/drag-research.md) found repeated
+- [Drag research](../../../../reportbacks/zengine-flow-presentation/drag-research.md) found repeated
   room/picture work under changed motions and explains why a generic queued paint marker can
   break causal settlement/capture. Its counts are not physical latency measurements. Reproduce
   the relevant workload before comparing designs; preserve the no-op and safe-preview repairs.

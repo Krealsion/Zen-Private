@@ -1,7 +1,7 @@
 # The foundation research, two reports: Vision's review (2026-11-11)
 
-Ceecee's research ([report](../../reportbacks/loom-foundation-research-RB.md), fourteen
-decisions) and the auditor's run of the same prompt ([report](../../reportbacks/loom-foundation-auditor-RB.md),
+Ceecee's research ([report](../../../../reportbacks/loom-foundation-research-RB.md), fourteen
+decisions) and the auditor's run of the same prompt ([report](../../../../reportbacks/loom-foundation-auditor-RB.md),
 eleven), both read at Loom `9fa4896a` and Zengine `a28bd068`. Checked here against those trees.
 
 ## The headline

@@ -113,7 +113,7 @@ The state still says `closed` and `open`: the pane-state classifier's word, the 
 `[open]` mark, Info's subject rows ("closed -- show it from the Pane Manager"), Attention's
 conditions, law WL-PANE and the setup guides. The state takes the act's word, so a reader meets
 one word for one thing. Action and shape ids stay, as `manage.remove` did.
-**Evidence:** [the words report](../../reportbacks/pane-menu-words-RB.md#pressure-exposed).
+**Evidence:** [the words report](../../../../reportbacks/pane-menu-words-RB.md#pressure-exposed).
 
 ### Task 6 — The tool explains its own words
 

@@ -2,7 +2,7 @@
 
 **Status:** founder-selected research direction; contracts below remain design proposals.\
 **Updated:** 2026-09-30\
-**Accepted 2026-09-30:** [Flow's powers research](../../reportbacks/zengine-flow-powers-RB.md)
+**Accepted 2026-09-30:** [Flow's powers research](../../../../reportbacks/zengine-flow-powers-RB.md)
 revises §2 to §5 below.\
 **Entry:** [Flow UX plan](flow-ux-research.md).\
 **Related:** [UI update research](ui-update-research.md).
@@ -34,7 +34,7 @@ the updated state. An evaluation refusal leaves that maker state unchanged; prev
 ambient native effects are not rolled back. An emission failure does not undo committed state.
 The existing `On.output` can therefore be presented as an explicit **Store** boundary without
 pretending arbitrary state-writing operators already exist. See
-[the source findings](../../reportbacks/zengine-flow-ux-refinement/state-patterns.md).
+[the source findings](../../../../reportbacks/zengine-flow-ux-refinement/state-patterns.md).
 
 Current Store changes the running maker's in-memory state. Restart durability belongs to a
 separate snapshot/save policy; do not label this write as saving a file or a durable checkpoint.
@@ -78,7 +78,7 @@ library, but keep their kinds visible. This does not put every kind into the exi
 wiring and declared requirements; it does not silently load artifacts or grant authority.
 
 **Accepted 2026-09-30:** the library splits by kind
-([power map](../../reportbacks/zengine-flow-powers/power-map.md)). Forms that run operators (loop,
+([power map](../../../../reportbacks/zengine-flow-powers/power-map.md)). Forms that run operators (loop,
 choose, map, fold) belong to the operator evaluator; owned state, messages and time belong to
 participants, so a Timer or a store is asked, never placed as a block; presentation values and
 reusable UI assemblies belong to the view package and the UI builder. Flow's graph holds operators
@@ -171,7 +171,7 @@ message and ownership contracts.
 
 **Accepted 2026-09-30:** prose rides inside each contribution, `zengine.OperatorContribution`
 version 2, authored where the operator is authored, so an overlay brings its own words; every
-asker reads it through the one [discovery door](../../reportbacks/zengine-flow-powers/discovery.md).
+asker reads it through the one [discovery door](../../../../reportbacks/zengine-flow-powers/discovery.md).
 The maker's own tags and folders are Inventory's. Source for a provider's native leaf needs
 operator → artifact → recipe, which does not exist yet.
 
@@ -195,7 +195,7 @@ owns the distinction between author declarations and host-attested file, actor a
 Entering an authored composite opens its graph. Entering a native primitive opens actual source
 when available, including the function and registration that give it its catalog identity.
 For the current basic provider, `math.max` is authored in
-[`operator/primitives.hpp`](../../Zengine/operator/primitives.hpp). Provider overlays mean that
+[`operator/primitives.hpp`](../../../../Zengine/operator/primitives.hpp). Provider overlays mean that
 an identity alone is insufficient: show the currently resolved implementation, or the recorded
 implementation for a historical invocation. A current lookup cannot establish past resolution;
 historical claims require recorded provider/artifact provenance.
@@ -214,7 +214,7 @@ receivers for values, shapes, operator references and operations; the tally pane
 stage brings the first three.
 
 Flow remains an intended consumer of the Workshop-wide transfer protocol. The accepted
-[Editor transfer packet](../../reportbacks/zengine-editor-typed-transfers-RB.md) exercises selected text, command
+[Editor transfer packet](../../../../reportbacks/zengine-editor-typed-transfers-RB.md) exercises selected text, command
 insertion and file locators first, with separate optional C++ generation. Conventional code
 editing must remain independently useful: no Flow document or compiler is required to reuse
 material across these panes. Let the observed friction inform Flow's conveniences without

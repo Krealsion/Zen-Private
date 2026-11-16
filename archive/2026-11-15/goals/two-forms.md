@@ -84,7 +84,7 @@ writing and mounting a raw node must be as smooth as snapping one, or the wall r
 the side door. Today that requirement fails at the provider: a C++ leaf written in the Editor is
 built by Builder and mounted by the plan, but a rebuilt provider is never remounted
 (`Zengine/agents/realization.md`), so a raw node is as smooth as a snapped one only once a provider
-can be remounted ([Flow's powers](../../reportbacks/zengine-flow-powers-RB.md), 2026-09-30). A
+can be remounted ([Flow's powers](../../../../reportbacks/zengine-flow-powers-RB.md), 2026-09-30). A
 visible indicator of the form being edited. The definition kept as the artifact
 after completion, so the live view is never lost.
 

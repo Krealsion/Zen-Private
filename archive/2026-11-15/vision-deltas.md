@@ -348,7 +348,7 @@ decisions. This does not authorize speculative frameworks or ignoring required v
 After reviewing Editor Corrections Part 3, the founder accepts parking PR #23 unmerged,
 preserving its work and failure cases, doing sender fate in Loom next, then returning for a
 bounded integration/acceptance pass. This changes the sequence, not the Editor's guarantees
-or the PR's acceptance status. Vision's [research](../reportbacks/sender-fate-research-RB.md)
+or the PR's acceptance status. Vision's [research](../../../reportbacks/sender-fate-research-RB.md)
 distinguishes VD-20's dispatch-refusal phase from later conversation abandonment; the first
 does not promise to repair the remaining application transaction. Its proposed API remains
 research until an implementation task selects it.
