@@ -22,7 +22,7 @@ Tasks:
 - [ ] the founder: the revocations, the sign-ins, git's identity (the kickstart's section 1), and
   the system set, one `sudo apt install` line from Zengine's Linux package build set (given
   2026-11-16, so the round can build from its start)
-- [ ] Ceecee's restore round, `prompts/unrun/machine-restore.md` (cold; Zen `1cb56f27`), from the
+- [ ] Ceecee's restore round, `prompts/unrun/machine-restore.md` (cold), from the
   kickstart's sections 4 and 5. It also owes the two items of 2026-11-13: the memory store's
   three proposed sentences (`reportbacks/instruction-drift/memory-proposed.diff`), each into its
   owner; and the `pass-tools/` folders without an entry, listed keep-or-go for the founder's

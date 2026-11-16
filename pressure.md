@@ -8,7 +8,7 @@ a goal pursued; [backlog.md](backlog.md), work decided but not pursued;
 [archive/2026-11-15/history/closed_pressure.md](archive/2026-11-15/history/closed_pressure.md),
 each item's older story, under the same id.  
 **Updated:** 2026-11-16, at the rebuild: the preamble new, and the items a goal took moved there
-(P-LOOM-08, -21, -30, -31, -32 and -34; P-WORK-85).
+(P-LOOM-08, -21, -30, -31, -32 and -34; P-WORK-85 and -105).
 
 ## How this file works
 
@@ -361,9 +361,6 @@ each item's older story, under the same id.
   at each repaint (`window_sdl_backend.hpp` 764). Keeping a texture while its pixels are the same
   would end it for every image with no shape moved (drawing-usability-research-second-RB,
   2026-11-14).
-- **P-WORK-105** Paint order is the order nodes were first put, so a node added later paints over
-  every older one, a HUD included; layers made first are the way, and `picture`'s order is not
-  (drawing-usability-research-second-RB, 2026-11-14).
 - **P-WORK-106** A `WindowShaped` that arrives before its arranger is known is dropped without a
   word (`window/window.hpp` 458): an arranger shapes the window once its area has settled
   (drawing-usability-research-second-RB, 2026-11-14).
