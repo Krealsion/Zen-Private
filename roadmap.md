@@ -127,8 +127,9 @@ Next:
 
 - Nothing builds until the restore round, `prompts/unrun/machine-restore.md` (cold), written
   2026-11-16.
-- Waiting on the founder: the restore round started; #177's merge; the calls below.
-- Waiting on Vision: the security round's review, Raid's three pull requests.
+- Waiting on the founder: the restore round started; the security fix's calls
+  ([queue-budget](goals/queue-budget.md), reviewed 2026-11-16); #177's merge; the calls below.
+- Waiting on Vision: Raid's three pull requests.
 
 ## Next, in order
 

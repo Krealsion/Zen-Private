@@ -112,6 +112,9 @@ lane is free.
 - A look at the desktop before a GUI pass; the picture prefix reinstalled each round, and its end
   mark on `kit-pictures`; a cleaner composition for the manuals' recipe; a picture audit after the
   makeovers.
+- From the queue-budget round (2026-11-16): a build refused while a lane holds its tree;
+  a Release Loom kind (`loom-wsl.sh release`); `case-wsl.sh` refusing a Loom phase;
+  `left-behind.py` reading an advisory fork's pull requests; a kept harness measuring the bus.
 - `behind.ps1` as a guard in the launchers; a `pr-say.sh` route running the words check on a pull
   request's text; the mutation runner's restore keeping a file's time, so a mutated object is
   rebuilt.

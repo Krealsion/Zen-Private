@@ -445,6 +445,25 @@ each item's older story, under the same id.
   schemas are immutable"), the commonest edit while a drawer is being written; what a person does
   next, a version moved or a stop and a load, and what becomes of the state, was not tried
   (drawing-usability-research-RB, 2026-11-14).
+- **P-LOOM-37** (a security matter: private until its advisory) An observation relay keeps a
+  `latest` shape's newest occurrence as serialized bytes, up to 8 shapes a subscription and 64
+  subscriptions: 512 payloads, each bounded only by one sender's byte room, 64 MiB. Read from the
+  bounds, not exercised (private-queue-budget-RB, 2026-11-16).
+- **P-LOOM-38** (private) A bridge client keeps up to 64 undecoded reply payloads
+  (`kMaxPendingDelivered`), each up to a frame (64 MiB), while their schema is unknown: the
+  client's memory, fed by the host it chose (private-queue-budget-RB, 2026-11-16).
+- **P-LOOM-39** (private) The bus bounds each sender and no total: a host with a hundred
+  participants may hold a hundred senders' rooms (6.4 GB of payload). A total needs a policy for
+  the innocent sender who meets a total a greedy one filled; `kMaxDeferredAnswers` over
+  `kMaxDeferredPerWeave` is the precedent, and `PendingSpeech` the place
+  (private-queue-budget-RB, 2026-11-16).
+- **P-LOOM-40** (private) Nothing paces a sender over time: the bound is on what waits, so a sender
+  whose messages are dispatched promptly may send again at once; a host that wants a rate has no
+  seam for it (private-queue-budget-RB, 2026-11-16).
+- **P-LOOM-41** `tests/abi_kept` compares `abi.h` with the kept copy byte for byte, so a comment
+  cannot be corrected without moving the ABI version; comparing tokens, as
+  `check_change_kind.cmake` does, would keep the shape pinned and free the prose
+  (private-queue-budget-RB, 2026-11-16).
 
 ## 7. Adoption
 
