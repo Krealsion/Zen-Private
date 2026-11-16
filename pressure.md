@@ -1,17 +1,19 @@
 # Zen pressure
 
-**What it holds:** pressure Zen has met that may become work: a seam, a measured cost, a defect
-with no owner yet. None of it is owed; once Zen decides it is, it moves to
-[backlog.md](backlog.md).  
-**Updated:** 2026-10-27, rewritten short. The old board is kept whole as
-[history/closed_pressure.md](history/closed_pressure.md): each item's full story and evidence,
-under the same id.  
-**Beside it:** [backlog.md](backlog.md), the work owed; `zen-strategic-map.md`, the strategy.
+**What it holds:** what Zen has met and not decided: a seam, a measured cost, a defect with
+no owner yet. None of it is owed. Once the founder decides an item is owed, it moves: into a
+goal's file in [goals/](goals/) if it is pursued now, into [backlog.md](backlog.md) if not.  
+**Beside it:** [roadmap.md](roadmap.md), the plan and its order; [goals/](goals/), one checklist
+a goal pursued; [backlog.md](backlog.md), work decided but not pursued;
+[archive/2026-11-15/history/closed_pressure.md](archive/2026-11-15/history/closed_pressure.md),
+each item's older story, under the same id.  
+**Updated:** 2026-11-16, at the rebuild: the preamble new, and the items a goal took moved there
+(P-LOOM-08, -21, -30, -31, -32 and -34; P-WORK-85).
 
 ## How this file works
 
 - One or two lines an item: what it is, and what it would enable. Its evidence and story are in
-  closed_pressure.md under the same id.
+  `archive/2026-11-15/history/closed_pressure.md` under the same id.
 - Nothing here waits on a trigger (the founder, 2026-11-02). The direction orders the seams, and
   a seam is built when the plan reaches it, or when its absence would weaken the next work's
   goals. A "Wakes:" line an item still carries says where the seam bites; it gates nothing.
@@ -19,8 +21,9 @@ under the same id.
   SEED, a strategic candidate, not law. An item with no state named is a seam for the direction
   to order. PARKED is retired: its two items are seams like the rest.
 - Pressure is not authorization. A known seam in the code belongs in the repository's law, work
-  decided on in backlog.md, bounded work in an issue.
-- An item leaves when its fix merges or an issue takes it; its story stays in history.
+  decided on in a goal's file or backlog.md, bounded work in an issue.
+- An item leaves when a goal, the backlog or an issue takes it, or its fix merges; its story
+  stays in the archive.
 - States are as last recorded, most between 2026-10-09 and 10-19. The rewrite closed only what it
   verified; that list heads closed_pressure.md.
 
@@ -193,16 +196,6 @@ under the same id.
   it can land after the resume, a step one pace early. A binding that rests and wakes, or a pause
   and resume that keep the id and refuse a stale firing, would make it one line. Wakes: the
   reactor's round, or the next weave to hand-write it.
-- **P-WORK-85** (SEED) Game time (the founder, 2026-11-07): no part of Zen reads the OS clock but
-  the Timer, and every other part gets time from it, so time can run, pause, slow or jump. Since the
-  deadlines rounds (Loom#23, Zengine#156) the host's wait reads the clock and hands the Timer its
-  time, and the hub reads none; the Neovim pane's bounds, three dates and the bus tally still read
-  one (Vision's grep, 2026-11-13). Two kinds of time, as engines keep: real time for what meets the
-  outside world (a double-click, a key repeat, Neovim's bound, a timeout, a date), and a world's
-  own time (the snake's), which pausing stops. Wakes: the frame clock's round, the first consumer
-  of time at a cadence. Researched 2026-11-13
-  ([report](../reportbacks/game-time-research-RB.md)): the tower defense is a second world, its
-  150 ms beat firing while paused; twelve decisions asked.
 - **P-WORK-88** (SEED) Every actor a participant (the founder, 2026-11-07): the weaver, an agent
   and a remote peer each with a hand of its own -- pointer, presses, focus and keys -- so peer
   programming from afar is one more participant at the desk. The window's hand per actor (`Hand`,
@@ -295,7 +288,7 @@ under the same id.
   runner's cold job 97 minutes today, 72 with pieces by time and 8-frame stacks, about 47 on
   two runners split by program. The founder took Vision's leans (2026-11-05): eight-frame
   stacks, the longest cases split, two runners now, 600 s an entry, no `-O1`
-  ([prompt](../prompts/unrun/ci-sanitizer-scale.md), warm): #110
+  ([prompt](../prompts/ci-sanitizer-scale.md), warm): #110
   ([report](../reportbacks/ci-sanitizer-scale-RB.md), reviewed 2026-11-06, ready): panes 28
   minutes (build 10, verify 17), rest 18 (5 and 12), warm from `main`'s store; leaves on merge.
 - **P-BUILD-20** Sixteen suites hold more memory the longer they run, each one test process:
@@ -419,14 +412,6 @@ under the same id.
   only a console, so a worker's finished result has no general way to end the wait. Wakes: the frame
   clock's round (a frame's time read through the clock its host wires, so a prepared frame can be
   handed its due time; time stays an argument, never on a wire).
-- **P-LOOM-21** The split replacement (the founder, 2026-11-09): A holding X and Y becomes B holding
-  X and C holding Y in one transaction. The candidates are sealed to one coordinator, each answers
-  its own readiness, and one admission dispatch moves every role and seals A; any refusal aborts
-  all. The plan names every role, to a candidate or released. An abort after A quiesced leaves A
-  holding both and frozen, and Loom tells it nothing (PR-09), so the coordinator resumes it. PR-02's
-  one candidate changes; the merge, several incumbents into one, is the same run backward; a role
-  distributor, the admission policy written as a weave, is a later layer (several-roles-research-RB,
-  2026-11-09). Designed with L2 in the research replacement without a seam (2026-11-10).
 - **P-LOOM-22** One weave's roles told apart by the bus: per-role accept-sets (the rule's one meaning
   per shape, enforced) and per-role grants, both left open, the rule saying split instead; the
   addressed role, L3, is the lighter half, held for its first consumer (several-roles-research-RB,
@@ -452,26 +437,9 @@ under the same id.
 - **P-LOOM-29** An answer needs a send rule: a respondent's answer is a direct send, so every
   respondent in Workshop is granted `allow_to_any` for its answer shapes. A rule "may answer what
   it was asked" would say it once, and narrower (zengine-floor-adopted-RB, 2026-11-14).
-- **P-LOOM-30** A call rule has no word in `loom-host`'s authority file or the weaver's commands,
-  so a person cannot grant a loaded or boxed weave a call yet (loom-calls-RB, 2026-11-14).
-- **P-LOOM-31** A value between two loaded weaves is walked nine times: made a value, written,
-  read and gated at the send, gated and written at dispatch, read, gated and made a shape in the
-  receiver. Lazy refusal words (L1), a typed codec at the edges (L2) and bytes straight through
-  the host (L4) would make it about three (realtime-drawing-research-RB, 2026-11-14).
-- **P-LOOM-32** (a security matter: a private advisory, never a public issue) A loaded weave's
-  25-byte send can command 65,536 cells: 6.8 MB of host structure and 11.5 ms to take, held in the
-  host's queue, since the host admits a loaded weave's send before queuing it
-  (`src/kernel/kernel.cpp` 529). With 1,024 waiting per sender (`kMaxPendingPerSender`) that is
-  about 7 GB and 12 s of the host, computed from the bounds and not exercised: a value's bound and
-  a sender's queue were never budgeted together (realtime-drawing-disputed-RB, 2026-11-14).
-  Taken by the private round ([prompt](../prompts/private-queue-budget.md)).
 - **P-LOOM-33** A weave is not told when the host has delivered what was sent, so one present for
   several areas has only a timer: the saved code looks again 10 ms later (`kLookAgainMs`)
   (realtime-drawing-disputed-RB, 2026-11-14).
-- **P-LOOM-34** What keeps values is sized against a value's worst size: the console's replies, a
-  terminal's received values and a bridge client's pending replies, 64 each. Wakes: any raise of
-  `kMaxDecodedCells` (realtime-drawing-disputed-RB, 2026-11-14). Assessed in the private round
-  that takes P-LOOM-32.
 - **P-LOOM-35** The trusting policy (`trust_every_artifact`) grants every send and no call, so a
   window that asks an element's code by a call is handed `allow_call` by its host; who grants a
   window its calls, and how it learns which role provides a data form's code, are ZC's
@@ -491,9 +459,6 @@ under the same id.
 ## 8. Held by issues
 
 - **P-WORK-36**: Zengine #144, maker participants' addressed requests, results and conditions.
-- **P-LOOM-08**: Loom#3 (was Loom-history#37), a shape's name owned explicitly where
-  vocabularies must coexist. Researched and decided 2026-11-09 (owned-shape-names-research-RB):
-  every vocabulary declares an owner or bare; the work is the backlog's, Loom L1 and Zengine Z1.
 
 ## 9. Seeds: strategic candidates, not current work
 
