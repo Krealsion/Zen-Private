@@ -18,9 +18,10 @@ next" 5):
 
 Tasks:
 
-- [ ] the census, in [audit-recheck](audit-recheck.md)'s round
-- [ ] the cut's design with the founder, from the census
-- [ ] the cut, a round a repository. Holds on the design.
+- [ ] the round, `law-cut` (cold), run by the model that wrote the audit, outside Zen: it reads
+  only the public repositories, decides how, and hands back a pull request or a patch series a
+  repository; beside [audit-recheck](audit-recheck.md)'s (the founder, 2026-11-19)
+- [ ] Vision reviews the changes; the founder merges
 
 Records: `reportbacks/zen-audit-2026-11-09.md`; the law-register arc's close,
 `reportbacks/law-register-close-RB.md` (2026-09-03), and its appendix, Zengine #201 (2026-10-11).
