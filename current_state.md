@@ -42,6 +42,8 @@ the kit there.
 
 ## Now
 
+- The instruction audit, `prompts/unrun/instruction-audit.md` (cold), runs first: it reads
+  only, so on either machine once Claude Code runs there; the restore round after it.
 - Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
   run there; its prompt, written for the laptop, is rewritten for the PC first.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
@@ -63,7 +65,7 @@ Up to three Ceecee lanes, the issue lane beside them in the cloud, as many as th
 holds. Each step holds until the
 one it names has merged. Vision's proposal, for the founder to set:
 
-- **Lane 0, the machine**: machine-restore. All lanes wait on it.
+- **Lane 0, the machine**: instruction-audit, then machine-restore. All lanes wait on it.
 - **Lane 1, Zengine, the drawing**: tile-defense (#177's merge); drawing-order-names;
   drawing-speed's W1; language-pass's first slice (`graphics/` and the tile defense); ports,
   TheyCameInWaves first. Why: each step works in the files the last one changed, and the ports

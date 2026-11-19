@@ -32,38 +32,41 @@ Each direction, with why it matters, and its goals in order; each goal is a chec
 
 Now:
 
-1. **The machine.** Every lane waits on it.
+1. **The ways of working.** The plan and both constitutions were rebuilt in three days; a reader
+   with no memory checks them before Ceecee's memory is rebuilt around them.
+   [instruction-audit](goals/instruction-audit.md).
+2. **The machine.** Every lane waits on it.
    [machine-restore](goals/machine-restore.md).
-2. **Drawing for real-time games.** A game is the hardest everyday test of a drawing design; the
+3. **Drawing for real-time games.** A game is the hardest everyday test of a drawing design; the
    founder wants drawing that fits a 16 ms frame and reads naturally to the person writing it.
    [tile-defense](goals/tile-defense.md), [drawing-order-names](goals/drawing-order-names.md),
    [drawing-speed](goals/drawing-speed.md), [game-time](goals/game-time.md),
    [ports](goals/ports.md).
-3. **Security** (private). A defect outranks features. [queue-budget](goals/queue-budget.md),
+4. **Security** (private). A defect outranks features. [queue-budget](goals/queue-budget.md),
    [security-pair](goals/security-pair.md).
-4. **Loom's foundation.** Close the gaps Zengine builds around, so its files shrink and no
+5. **Loom's foundation.** Close the gaps Zengine builds around, so its files shrink and no
    god-file grows back. [data-plane](goals/data-plane.md), [takeover](goals/takeover.md),
    [one-host](goals/one-host.md), [schema-evolution](goals/schema-evolution.md),
    [unions-rest](goals/unions-rest.md), [calls-in-zengine](goals/calls-in-zengine.md).
 
 Next:
 
-5. **Untrusted code.** One home for it that holds on every platform; recovered 2026-11-15, after
+6. **Untrusted code.** One home for it that holds on every platform; recovered 2026-11-15, after
    it fell off the plan. [wasm-box](goals/wasm-box.md),
    [sandbox-retired](goals/sandbox-retired.md).
-6. **The Workshop split.** The founder's baseline runs through it.
+7. **The Workshop split.** The founder's baseline runs through it.
    [pane-contract](goals/pane-contract.md), [owned-names](goals/owned-names.md) (decided
    2026-11-09, never built), [workshop-move](goals/workshop-move.md).
-7. **The visual foundation.** "High quality components means higher quality composites" (the
+8. **The visual foundation.** "High quality components means higher quality composites" (the
    founder, 2026-10-29). [looks-in-time](goals/looks-in-time.md),
    [keys-and-presses](goals/keys-and-presses.md), [element-set](goals/element-set.md),
    [view-cost](goals/view-cost.md).
-8. **The makeovers.** The panes rebuilt on the new pieces, Flow's way: the design taken whole.
+9. **The makeovers.** The panes rebuilt on the new pieces, Flow's way: the design taken whole.
    [flow-next](goals/flow-next.md), [view-builder-makeover](goals/view-builder-makeover.md),
    [operator-suite](goals/operator-suite.md).
-9. **Readability.** Code pleasant to write, docs plain first.
+10. **Readability.** Code pleasant to write, docs plain first.
    [language-pass](goals/language-pass.md), [front-doors](goals/front-doors.md).
-10. **The release.** Zen in people's hands, after Workshop's move. [release](goals/release.md).
+11. **The release.** Zen in people's hands, after Workshop's move. [release](goals/release.md).
 
 ## Standing duties
 
