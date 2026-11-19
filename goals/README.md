@@ -10,13 +10,14 @@ Every goal file has the same parts:
 - **Done when**: the requirements, the decided rules among them. A box is checked when `main`
   holds it, and stays checked until the goal is done.
 - **Tasks**: the work that gets there, in order, each with its prompt and temperature, and what
-  it holds on. A task leaves the file the day it is done; its story goes to history.
+  it holds on. A task leaves the file the day it is done; its reviewed report is its record.
 - **Open**: calls not yet made, each with Vision's lean.
 - **Records**: the reports and research it rests on (paths are Zen's: `reportbacks/` is
   `Zen/reportbacks/`).
 
-A task line says its state, never its story: the story is its report's, then history's. When
-every "Done when" box is checked, the goal's story is written into `history/<year>-<month>.md`
--- rewritten, never pasted -- and its file moves to `archive/goals/`. A paused goal keeps its
-file, its open boxes in view, and the roadmap says it is paused. "Day one" marks a check to make
-once the machine is back; each goes when made.
+A task line says its state, never its story: the story is its reviewed report, which stays in
+`reportbacks/` for good. When every "Done when" box is checked, the goal gets one short entry in
+`history/<year>-<month>.md` -- what was wanted, what was built and in which pull requests, what it
+taught, and which reports hold the record -- and its file moves to `archive/goals/`. A paused goal
+keeps its file, its open boxes in view, and the roadmap says it is paused. "Day one" marks a check
+still to make; each goes when made.
