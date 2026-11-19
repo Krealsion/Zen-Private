@@ -57,13 +57,15 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - Waiting on the founder: the PC; the security fix's calls
   ([queue-budget](goals/queue-budget.md), reviewed 2026-11-16); #177's and Loom #38's merges;
   the calls below.
-- Waiting on Vision: Raid's three pull requests.
+- Waiting on the founder's merges, in this order (2026-11-19): Loom #34 and #37, Zengine #170 and
+  #177; then the law cut's rebase of Loom #38 and Zengine #178 ([law-cut](goals/law-cut.md)).
 
 ## The issue lane
 
 - **The issue lane**: Raid, at its weekly cap until about 2026-11-19; the founder weighs moving
-  its job to Ponder. Open for review: Zengine #170 (`PlanWhere` named `PlanStatus`), Loom #34 and
-  #37. Filed, no pull request yet: Zengine #173 to #176 (#175 answered: the stand-in host
+  its job to Ponder. Reviewed 2026-11-19, each to merge: Zengine #170 (`PlanWhere` named
+  `PlanStatus`), Loom #34 (the text checks named from one list) and #37 (the guide shows a call).
+  Filed, no pull request yet: Zengine #173 to #176 (#175 answered: the stand-in host
   withdraws as an ask). A fix pushed by `cursor[bot]` may still wait for a run's approval.
 
 ## Each lane's next step

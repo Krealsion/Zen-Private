@@ -18,12 +18,13 @@ next" 5):
 
 Tasks:
 
-- [ ] Loom #38: the founder merges (reviewed 2026-11-19: `AGENTS.md` alone, each statement that
-  left it held where the description says)
-- [ ] Zengine #178, the cut with 64 laws back (the continuation, reviewed 2026-11-19), merges
-  last of three: #177 first, then #170 once it is reviewed (an issue's pull request before a
-  round's), then #178 rebased onto both in the law cut's session (hot), its applier run again
-  and its CI read to the end; the founder merges each
+- [ ] the founder merges, before the rebase: Loom #34 and #37; Zengine #170 and #177 (all four
+  reviewed 2026-11-19)
+- [ ] the rebase, `prompts/unrun/law-cut-rebased.md`, hot, in the law cut's session: Loom #38
+  onto #34 (one `AGENTS.md` bullet: #38's, with #34's pointer to the checks' list), Zengine #178
+  onto #170 and #177 (a paragraph of `agents/realization.md`, a census row), each last in its
+  repository
+- [ ] Vision reviews the rebase; the founder merges Loom #38 and Zengine #178
 
 Open, each with Vision's lean:
 
