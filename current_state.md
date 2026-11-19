@@ -59,8 +59,10 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - Waiting on the founder: the PC; the security fix's calls
   ([queue-budget](goals/queue-budget.md), reviewed 2026-11-16); #177's and Loom #38's merges;
   the calls below.
-- Waiting on the founder's merges, in this order (2026-11-19): Loom #34 and #37, Zengine #170 and
-  #177; then the law cut's rebase of Loom #38 and Zengine #178 ([law-cut](goals/law-cut.md)).
+- Merged 2026-11-19: Loom #34 and #37, Zengine #170 and #177. Zengine's `main` went red at
+  `94f0492` on a race in a builder case, proven (its first look can take the line its check
+  reads): its issue waits in `Zen/issues/raid-batch-2026-11-19.md` for the issue lane, and the law
+  cut's rebase of Loom #38 and Zengine #178 waits on `main` green ([law-cut](goals/law-cut.md)).
 
 ## The issue lane
 
