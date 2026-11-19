@@ -486,7 +486,7 @@ These shape completeness tests only; each needs its own consumer and an authoriz
   claimants, and never become authority over behaviour.
 - **Generated ceremony:** provider, schema, ABI and build glue may be generated; the C++ compiler
   parses C++, and Zen builds no parser for arbitrary C++.
-- **Two forms bridged by Flow** (`goals/two-forms.md`): a live interpreted form and a generated
+- **Two forms bridged by Flow** (`archive/2026-11-15/goals/two-forms.md`): a live interpreted form and a generated
   durable C++ form, Flow reading code through the Loom ABI's handles. "A raw node is an operator
   iff it has no bus access, transitively" is the founder's hypothesis, not law.
 - **A live trace of the system** (the founder, 2026-10-29): weaves as nodes, messages as edges, a
@@ -495,4 +495,8 @@ These shape completeness tests only; each needs its own consumer and an authoriz
   delivery (the Recorder; `dispatch_parent`, the delivery being handled when a message was sent).
   Loom's history builds no causal graph today, on purpose, and work deferred to a timer or an
   answer is parented by what woke it.
+- **A stress-test suite** (the founder, 2026-11-18): the design held to complete, real-world
+  applications, games one avenue among others (the tile defense and the first ports are today's,
+  each a goal of its own). A possible future goal, not a standing guide, so that no executor
+  builds a game it was not asked for.
 - Info rebuilt as a one-slot inspector left the seeds: the founder ordered it as BL-WORK-10.
