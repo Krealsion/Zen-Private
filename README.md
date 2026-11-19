@@ -29,7 +29,7 @@ shared by Vision and the executor; how each of them works is `Zen/vision-constit
 | `history/<year>-<month>.md` | one short entry a finished goal, pointing at its pull requests and reports | a goal finishes | Vision |
 | `archive/` | the old files, kept whole ([what](archive/README.md)) | a goal finishes | Vision |
 | `machine_facts.md` | the founder's machine | the machine changes | the executor, when a prompt hands it over |
-| `relicense/` | the MPL-era histories, bundled | never | nobody |
+| `relicense/` | the maps of the MPL-era rewrite and of this repository's own; the bundles themselves on this drive, outside Git | never | nobody |
 
 The executor reads here and edits only a file its prompt hands over (its constitution, section a).
 
