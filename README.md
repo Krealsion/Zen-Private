@@ -2,8 +2,8 @@
 
 **What it is:** the founder's own plan for Zen, and this page its way in: what each file here
 holds, the order to read them, and what to change after a phase or a review. A git repository of
-its own with no remote, committed as the founder with a pathspec. This page changes only when a
-file's job changes.
+its own, its remote the private `Krealsion/Zen-Private`, committed as the founder with a
+pathspec. This page changes only when a file's job changes.
 
 ## Read first
 
@@ -38,7 +38,8 @@ The executor reads here and edits only a file its prompt hands over (its constit
 The same day, in this order:
 
 1. The report moves from `Zen/unreviewed/` to `Zen/reportbacks/` with its evidence, committed in
-   Zen. The reviewed report is the record, for good.
+   Zen and pushed to its private remote, `Krealsion/Zen-Core`. The reviewed report is the
+   record, for good.
 2. The goal's file: a box is checked when `main` holds it; a done task leaves; new tasks and calls
    are added, each call with its lean.
 3. `current_state.md`: what runs, what waits, each lane's next step, the calls.
@@ -46,7 +47,7 @@ The same day, in this order:
 5. `pressure.md` and `backlog.md`, as items arrive or move.
 6. A goal whose every box is checked: one entry in `history/<year>-<month>.md`, and its file moved
    to `archive/goals/` with `git mv`, its links mended (`Zen/pass-tools/private-archive/`).
-7. Commit here with a pathspec, as `Krealsion <krealsion@gmail.com>`.
+7. Commit here with a pathspec, as `Krealsion <krealsion@gmail.com>`, and push.
 
 ## Rules that hold
 

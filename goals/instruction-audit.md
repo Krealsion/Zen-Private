@@ -36,15 +36,16 @@ Decided (the founder, 2026-11-18), the round's ten calls:
 3. The design laws go into the repository whose code each governs, a small round a repository.
 4. Two private GitHub repositories, made by the founder: `Krealsion/Zen-Core` for Zen and
    `Krealsion/Zen-Private` for `private/`, pushed as the founder once gh was signed in.
-   `private/`'s history holds the relicense bundles, the MPL-era histories, so its push waits
-   on the founder's word.
+   Zen pushed 2026-11-18; `private/`'s history rewritten first without the relicense bundles
+   (the founder: kept on the drive, ignored), then pushed. Both are pushed at every filing.
 5. One memory, an agnostic `Zen/AGENTS.md` naming the entry points, and no `CLAUDE.md`: the
    founder keeps Claude Code current. Two temperatures, hot and cold, so Zen's work leans
    portable and relies less on one tool's help.
 6. A `Zen/README.md` for newcomers, mapping the root. Staying: `giant-shoulders.md`,
    `readme-rebuild/`, `status-overlay/`, and `night-lab/` (the founder means to restart that
-   series); `stranger/` gets one more pass before it goes. Not yet answered:
-   `zen-ui-vocabulary.md`, `rebuild-scaffold/`, `local-lane/`, `install/`.
+   series); `stranger/` gets one more pass before it goes. Retired 2026-11-18, kept in Zen's
+   history: `zen-ui-vocabulary.md`, `rebuild-scaffold/`, `local-lane/`. `install/` is untracked
+   and Windows-era, for the PC's restore.
 7. Vision's constitution keeps a short summary of the laws, pointing at where each lives.
 8. Rule 11 a law with one door (a prompt he approved, with a stated scope and cap); rule 12 as the
    slots leave it.
@@ -53,9 +54,6 @@ Decided (the founder, 2026-11-18), the round's ten calls:
 10. The handoff page goes; Vision's constitution reads an area's laws before reviewing it, its
     decision records only when a law's reason is in question (done, Zen's next commit).
 
-Open:
-
-- The four root entries call 6 left unanswered.
 
 Records: `reportbacks/instruction-audit-RB.md` and its evidence (reviewed 2026-11-18);
 `pass-tools/instruction-audit/`.

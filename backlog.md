@@ -65,7 +65,8 @@ The tail of the founder's order of 2026-10-29 and 10-30, decided but not yet des
   check). Back: a lane left empty.
 - **The Perspectives Lab's pages**, rebaselined before any becomes a prompt. Back: met.
 - **Night Lab, era 2** (BL-LAB-01): held, top-down; findings through the founder.
-- **The local lane** (BL-LANE-01): shelved while the founder weighs where the agents run.
+- **The local lane** (BL-LANE-01): shelved while the founder weighs where the agents run; its
+  folder left Zen on 2026-11-18 and is in Zen's history.
 
 ## Loom seams for a later round
 
