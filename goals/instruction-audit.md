@@ -19,7 +19,7 @@ Done when (the founder, 2026-11-18):
 
 Tasks:
 
-- [ ] the founder takes or leaves the 20 diffs (`reportbacks/instruction-audit/diffs/`); call 7
+- [ ] the founder takes or leaves the 20 diffs (`reportbacks/instruction-audit/diffs/`)
 - [ ] the diffs taken applied: the plan's and Vision's constitution by Vision; the executor
   constitution, the orientation and the registry on the founder's word
 
@@ -34,12 +34,18 @@ Decided (the founder, 2026-11-18), the round's ten calls:
    constitution, the executor keeping only what binds it, and the orientation's Prompt Contract
    v1 retires.
 3. The design laws go into the repository whose code each governs, a small round a repository.
-4. Two private GitHub repositories, made by the founder, hold Zen and `private/`; pushed once gh
-   is signed in on the machine.
-5. One memory, an agnostic `Zen/AGENTS.md` naming the entry points, a `CLAUDE.md` only as an
-   import where Claude Code needs one. Two temperatures, hot and cold: read as agreed with it,
-   unless the founder says otherwise.
-6. A `Zen/README.md` for newcomers, mapping the root; the founder reviews the retired entries.
+4. Two private GitHub repositories, made by the founder: `Krealsion/Zen-Core` for Zen and
+   `Krealsion/Zen-Private` for `private/`, pushed as the founder once gh was signed in.
+   `private/`'s history holds the relicense bundles, the MPL-era histories, so its push waits
+   on the founder's word.
+5. One memory, an agnostic `Zen/AGENTS.md` naming the entry points, and no `CLAUDE.md`: the
+   founder keeps Claude Code current. Two temperatures, hot and cold, so Zen's work leans
+   portable and relies less on one tool's help.
+6. A `Zen/README.md` for newcomers, mapping the root. Staying: `giant-shoulders.md`,
+   `readme-rebuild/`, `status-overlay/`, and `night-lab/` (the founder means to restart that
+   series); `stranger/` gets one more pass before it goes. Not yet answered:
+   `zen-ui-vocabulary.md`, `rebuild-scaffold/`, `local-lane/`, `install/`.
+7. Vision's constitution keeps a short summary of the laws, pointing at where each lives.
 8. Rule 11 a law with one door (a prompt he approved, with a stated scope and cap); rule 12 as the
    slots leave it.
 9. A size budget for the executor constitution; simple first; the founder reads it through
@@ -49,8 +55,7 @@ Decided (the founder, 2026-11-18), the round's ten calls:
 
 Open:
 
-- 7, asked again in plainer words: once the laws live in their repositories, does Vision's
-  constitution keep its own short copy of them, or only point at them?
+- The four root entries call 6 left unanswered.
 
 Records: `reportbacks/instruction-audit-RB.md` and its evidence (reviewed 2026-11-18);
 `pass-tools/instruction-audit/`.
