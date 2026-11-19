@@ -19,8 +19,9 @@ Done when (the founder, 2026-11-19):
 
 Tasks:
 
-- [ ] the founder marks up `Zen/documentation-design.md`, Vision's draft of 2026-11-19
-- [ ] the research round's prompt, once the design's questions have the founder's leans
+- [ ] the research round, `prompts/unrun/doc-design-research.md` (cold, on the laptop; read-only):
+  the design marked up twice by the founder and taken for research (2026-11-19)
+- [ ] Vision reviews it; the founder settles the design's questions from its findings
 
 Open:
 

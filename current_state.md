@@ -50,8 +50,8 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The law cut and its continuation are reviewed (2026-11-19): Loom #38 waits on the founder's
   merge; Zengine #178, with 64 laws back, merges after #177 and #170, rebased onto both
   ([law-cut](goals/law-cut.md)).
-- The documentation's design is begun (2026-11-19): Vision's draft, `Zen/documentation-design.md`,
-  waits on the founder's markup; research follows it ([doc-design](goals/doc-design.md)).
+- The documentation's design (2026-11-19), marked up twice by the founder, goes to research:
+  `doc-design-research` (cold, read-only, on the laptop) ([doc-design](goals/doc-design.md)).
 - Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
   run there; its prompt, written for the laptop, is rewritten for the PC first.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
