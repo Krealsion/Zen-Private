@@ -35,10 +35,10 @@ Workshop still lives inside Zengine; its move to a repository of its own is deci
 and the line between them falls round by round. Security work is open, privately: a contained
 weave can hold gigabytes of the host's memory through its waiting messages (its fix reported,
 waiting for review); a schema's agreement by structure and the session key's owner-only file
-are on `main` since 2026-11-10, both advisories published. The founder's boot drive failed on 2026-11-15; Zen's folder survived on its own drive. A laptop
-reads and writes Zen since 2026-11-16 and builds nothing; the PC comes back with a new system
-drive in a couple of days (2026-11-18), and nothing builds until the restore round has rebuilt
-the kit there.
+are on `main` since 2026-11-10, both advisories published. The founder's boot drive failed on
+2026-11-15; Zen's folder survived on its own drive. A laptop reads and writes Zen since
+2026-11-16 and builds nothing; the PC comes back with a new system drive in a couple of days
+(2026-11-18), and nothing builds until the restore round has rebuilt the kit there.
 
 ## Now
 
@@ -48,8 +48,8 @@ the kit there.
   calls wait on the founder ([audit-recheck](goals/audit-recheck.md)). It found the security
   pair finished on 2026-11-10, now in history.
 - The law cut is reviewed (2026-11-19): Loom #38 waits on the founder's merge; Zengine #178 waits
-  on his word for a continuation that brings back the laws its own sheet's kinds keep, and on
-  #177's merge to rebase onto ([law-cut](goals/law-cut.md)).
+  on its continuation (written, hot), which brings back the laws its own sheet's kinds keep and
+  rebases onto #177 once that merges ([law-cut](goals/law-cut.md)).
 - Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
   run there; its prompt, written for the laptop, is rewritten for the PC first.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
@@ -72,7 +72,7 @@ Up to three Ceecee lanes, the issue lane beside them in the cloud, as many as th
 holds. Each step holds until the
 one it names has merged. Vision's proposal, for the founder to set:
 
-- **Lane 0, the ways of working and the machine**: law-cut's continuation on #178;
+- **Lane 0, the ways of working and the machine**: law-cut's continuation on #178 (written, hot);
   instruction-audit's diffs; machine-restore once the PC is back. All lanes wait on it.
 - **Lane 1, Zengine, the drawing**: tile-defense (#177's merge); drawing-order-names;
   drawing-speed's W1; language-pass's first slice (`graphics/` and the tile defense); ports,

@@ -16,7 +16,8 @@ Done when:
 - [ ] `machine_facts.md` and the kit's README say what changed (the founder expects only the
   drive)
 - [ ] Ceecee's memory rebuilt: each fact in its owner, and one memory, an agnostic
-  `Zen/AGENTS.md` naming the entry points (no `CLAUDE.md`: the founder keeps Claude Code current)
+  `Zen/AGENTS.md` naming the entry points (no `CLAUDE.md`: the founder keeps Claude Code current;
+  `Zen/AGENTS.md` written 2026-11-19, after the law cut's report landed in the wrong folder)
 - [ ] what was lost is known, and anything worth redoing is a task in its goal
 - [ ] the primary folder gone (the founder, 2026-11-18): three equal slots on the PC's own
   disk, each a lane's from START until its review, a script moving a free slot to the new

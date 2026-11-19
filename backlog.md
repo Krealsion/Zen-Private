@@ -157,6 +157,10 @@ section 8. Back: the issue lane's next sweep.
 - The demos' last step, a right-click that runs one.
 - Maybe later: a second package set named with `_python`, carrying a Python; the setup words a row
   lower, with Workshop's own title bar.
+- **Maker, back as a library** (the founder, 2026-11-19): `maker/`, paused since 2026-09-06 to
+  shore up the foundation (generated C++ the default form, a definition only for live testing),
+  comes back as an easy library for certain functions, not a language of its own. Back: the
+  founder digs in; its design with Vision comes before any round.
 
 ## Workshop's themes not yet goals (2026-10-14)
 

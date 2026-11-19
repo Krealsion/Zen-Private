@@ -53,8 +53,10 @@ Now:
 
 Next:
 
-6. **Untrusted code.** One home for it that holds on every platform; recovered 2026-11-15, after
-   it fell off the plan. [wasm-box](goals/wasm-box.md),
+6. **Untrusted code.** One home for it that holds on every platform: the box, Zen's one
+   containment and its default, the Linux kernel-based isolation retired once the box is finished
+   (the founder, 2026-11-19). Recovered 2026-11-15, after it fell off the plan.
+   [wasm-box](goals/wasm-box.md),
    [sandbox-retired](goals/sandbox-retired.md).
 7. **The Workshop split.** The founder's baseline runs through it.
    [pane-contract](goals/pane-contract.md), [owned-names](goals/owned-names.md) (decided

@@ -26,11 +26,12 @@ Open, each with Vision's lean:
 4. The hub's measure: into [pane-contract](pane-contract.md)'s "Done when", "a new tool or gesture
    lands without editing `workshop/weave.hpp`", and a census row for `WorkshopWeave`'s doors (94
    accepts today) that only falls.
-5. Boxed by default, what was not built on this machine: [one-host](one-host.md) O2's, since
-   which row runs boxed is the host's policy over a plan row; [wasm-box](wasm-box.md) builds the
-   box it spends.
-6. The maker's first step, a pane base with one action door or Flow named the beginner's height,
-   and the first maker other than the founder: his call, no lean.
+5. Boxed by default, what was not built on this machine: wanted, since the box is to be Zen's one
+   containment and its default ([sandbox-retired](sandbox-retired.md), the founder, 2026-11-19).
+   Lean: [one-host](one-host.md) O2's, since which row runs boxed is the host's policy over a plan
+   row; [wasm-box](wasm-box.md) builds the box it spends.
+6. The maker's first step and the first maker other than the founder: they wait on Maker's
+   return as a library (the backlog, the founder, 2026-11-19), which he has still to dig into.
 7. Copyright of agent-written code: into [release](release.md)'s "Open", beside the CLA, for
    counsel.
 8. The small notes (`.clang-tidy` in CI; Loom's kernel-full and kernel-less Windows lanes

@@ -20,8 +20,9 @@ Tasks:
 
 - [ ] Loom #38: the founder merges (reviewed 2026-11-19: `AGENTS.md` alone, each statement that
   left it held where the description says)
-- [ ] Zengine #178: a continuation on its branch before it merges, on the founder's word: the
-  laws of the kinds its own sheet keeps (A, authority, custody and loss; C, a duty over code not
+- [ ] Zengine #178: the continuation on its branch before it merges (the founder's word,
+  2026-11-19), `prompts/unrun/law-cut-continued.md`, hot, in the first round's session: the laws
+  of the kinds its own sheet keeps (A, authority, custody and loss; C, a duty over code not
   yet written) brought back whole, with their records from `docs/history/` (fifteen in Vision's
   reading, marked `[back?]` in `reportbacks/law-cut/retired-laws.md`); the five lines its
   citation removal left as a lone ` .` mended; rebased onto `main` once #177 merges, and onto
