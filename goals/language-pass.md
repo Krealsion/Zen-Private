@@ -20,6 +20,10 @@ Tasks:
 
 Open:
 
+- `RunningRecipe::look()` (`builder/run.hpp`) takes the output it reads, and its name says it only
+  looks; the builder race of 2026-11-19 grew from that (Zengine #179,
+  `reportbacks/builder-look-race-RB.md`). Lean: a name that says it takes.
+
 - Cold readers: readers given only a function's code and comments say what it does and flag what
   repeats; it needs an exception to Ceecee's rule 11. Lean: a small model, scoped and capped,
   reading before and after each rename; Ponder the outside read once a slice merges.
