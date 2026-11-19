@@ -5,7 +5,7 @@ calls waiting on the founder. The file changed most, at every phase, review or c
 goal and links its file; what the goal still needs is in that file.  
 **Beside it:** [README.md](README.md), the map and the rules; [roadmap.md](roadmap.md), the order;
 [goals/](goals/), a checklist a goal.  
-**Updated:** 2026-11-18, split from the roadmap.
+**Updated:** 2026-11-18, the instruction audit reviewed.
 
 ## Where Zen stands
 
@@ -42,8 +42,8 @@ the kit there.
 
 ## Now
 
-- The instruction audit, `prompts/unrun/instruction-audit.md` (cold), runs first: it reads
-  only, so on either machine once Claude Code runs there; the restore round after it.
+- The instruction audit ran and is reviewed (2026-11-18): its ten calls and 20 diffs wait on
+  the founder ([instruction-audit](goals/instruction-audit.md)); the restore round after them.
 - Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
   run there; its prompt, written for the laptop, is rewritten for the PC first.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
@@ -65,7 +65,8 @@ Up to three Ceecee lanes, the issue lane beside them in the cloud, as many as th
 holds. Each step holds until the
 one it names has merged. Vision's proposal, for the founder to set:
 
-- **Lane 0, the machine**: instruction-audit, then machine-restore. All lanes wait on it.
+- **Lane 0, the machine**: instruction-audit's diffs, then machine-restore. All lanes wait on
+  it.
 - **Lane 1, Zengine, the drawing**: tile-defense (#177's merge); drawing-order-names;
   drawing-speed's W1; language-pass's first slice (`graphics/` and the tile defense); ports,
   TheyCameInWaves first. Why: each step works in the files the last one changed, and the ports
