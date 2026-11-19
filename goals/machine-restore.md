@@ -15,9 +15,14 @@ Done when:
 - [ ] the kit working again, its trees rebuilt, both `main`s green
 - [ ] `machine_facts.md` and the kit's README say what changed (the founder expects only the
   drive)
-- [ ] Ceecee's memory rebuilt: each fact in its owner, and one memory, Zen's own `CLAUDE.md`,
-  naming the executor constitution as the entry point
+- [ ] Ceecee's memory rebuilt: each fact in its owner, and one memory, an agnostic
+  `Zen/AGENTS.md` naming the entry points (a `CLAUDE.md` only to import it)
 - [ ] what was lost is known, and anything worth redoing is a task in its goal
+- [ ] the primary folder gone (the founder, 2026-11-18): three equal slots on the PC's own
+  disk, each a lane's from START until its review, a script moving a free slot to the new
+  `main`, each with its cached build folders; no second copies and no clone per phase; rule 12
+  and the executor constitution's sections c and f rewritten for them
+- [ ] the executor constitution under a size budget, the machine's paragraphs moved out
 
 Tasks:
 

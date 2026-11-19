@@ -19,39 +19,38 @@ Done when (the founder, 2026-11-18):
 
 Tasks:
 
-- [ ] the founder decides the ten calls below and takes or leaves the 20 diffs
-  (`reportbacks/instruction-audit/diffs/`)
+- [ ] the founder takes or leaves the 20 diffs (`reportbacks/instruction-audit/diffs/`); call 7
 - [ ] the diffs taken applied: the plan's and Vision's constitution by Vision; the executor
   constitution, the orientation and the registry on the founder's word
 
-Open (the round's ten, each with Vision's lean):
+Decided (the founder, 2026-11-18), the round's ten calls:
 
-1. Lanes: three Ceecee lanes or four? Lean: three, each a queue of phases, one holding the primary
-   and the others in second copies, the issue lane in the cloud; section f's four predates Raid.
-2. The prompt's form: is `## Deliver` the one stop-condition list? Lean: yes, and the house form
-   gets one owner both readers read, the orientation's section 8, its Prompt Contract v1 rewritten
-   into it; the two constitutions point there.
-3. Where the design laws live. Lean: in the repository whose code each governs, carried by one
-   small round a repository once the PC is up; a prompt each time is what failed.
-4. One copy of Zen and `private/`. Lean: a private GitHub repository for each, pushed at filing:
-   off the drive and versioned with one command (the relicense bundles are 5 and 44 MB).
-5. Warm. Lean: two temperatures, hot and cold, once `CLAUDE.md` is the only memory: a fresh
-   session then has what a cold prompt gives it, and the pointer.
-6. Zen's root. Lean: a short `Zen/README.md` mapping each root entry and its owner, the retired
-   ones marked for the founder's call.
-7. Vision's section 6. Lean: it points at the laws' owners once call 3 has placed them, keeping
-   only what no other page holds.
-8. Rules 11 and 12. Lean: rule 11 a law with one door, a prompt the founder approved lifting it
-   with a stated scope and cap; rule 12's principle a law, its timing a default.
-9. A size for the executor constitution. Lean: a budget at its size once the restore round moves
-   its machine paragraphs out, a size that only falls.
-10. The Project's `claude/zen-vision-handoff.md`. Lean: it goes (`V4`), after its one line the
-    constitution lacks is carried into section 8: read a repository's decision records and laws
-    before reviewing its area.
+1. Lanes: the primary slot goes. Three equal slots, each held by its lane until review, a script
+   then moving it to the new `main`, each with cached build folders so nothing rebuilds whole;
+   built in the restore round ([machine-restore](machine-restore.md)), with rule 12 rewritten for
+   it. The founder's reason: the writing the old layout did, a likely cause of the drive's death.
+2. The prompt's form: `## Deliver` is the outputs on success, how a failure is handled among them;
+   a list of its own says the stop conditions; the prompt's structure moves to Vision's
+   constitution, the executor keeping only what binds it, and the orientation's Prompt Contract
+   v1 retires.
+3. The design laws go into the repository whose code each governs, a small round a repository.
+4. Two private GitHub repositories, made by the founder, hold Zen and `private/`; pushed once gh
+   is signed in on the machine.
+5. One memory, an agnostic `Zen/AGENTS.md` naming the entry points, a `CLAUDE.md` only as an
+   import where Claude Code needs one. Two temperatures, hot and cold: read as agreed with it,
+   unless the founder says otherwise.
+6. A `Zen/README.md` for newcomers, mapping the root; the founder reviews the retired entries.
+8. Rule 11 a law with one door (a prompt he approved, with a stated scope and cap); rule 12 as the
+   slots leave it.
+9. A size budget for the executor constitution; simple first; the founder reads it through
+   himself.
+10. The handoff page goes; Vision's constitution reads an area's laws before reviewing it, its
+    decision records only when a law's reason is in question (done, Zen's next commit).
 
-Vision's own calls on the diffs: `V3` (a cold prompt saying so inside) is left: the founder's
-rule stands, and a cold prompt says what its reader has rather than its temperature. The rest
-are taken as written, pending the calls they wait on (`V2` on 2, `V4` on 10).
+Open:
+
+- 7, asked again in plainer words: once the laws live in their repositories, does Vision's
+  constitution keep its own short copy of them, or only point at them?
 
 Records: `reportbacks/instruction-audit-RB.md` and its evidence (reviewed 2026-11-18);
 `pass-tools/instruction-audit/`.
