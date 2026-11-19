@@ -126,6 +126,9 @@ Small, decided fixes waiting to be filed as issues; each with its lines in the a
 section 8. Back: the issue lane's next sweep.
 
 - Pages and comments naming `judge_content` and `canvas_content_problem`, which no longer exist.
+- A text check refusing a stranded stop: a Markdown or comment line that is only a stop, or opens
+  with one (`check_source_comments` for comments, `law_register` for law pages); the law cut
+  left nine that every check passed (`reportbacks/law-cut-continued-RB.md`).
 - In the pages' pictures, the terminal's Pane Manager covering Info's first column.
 - `taking-an-issue.md`'s "the measured count" not saying on which configuration.
 - A loaded weave cannot read its own id (Loom; no owner).

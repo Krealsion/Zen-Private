@@ -47,9 +47,9 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The outside audit of 2026-11-09, checked at today's `main`, is reviewed (2026-11-19): eight
   calls wait on the founder ([audit-recheck](goals/audit-recheck.md)). It found the security
   pair finished on 2026-11-10, now in history.
-- The law cut is reviewed (2026-11-19): Loom #38 waits on the founder's merge; Zengine #178 waits
-  on its continuation (written, hot), which brings back the laws its own sheet's kinds keep and
-  rebases onto #177 once that merges ([law-cut](goals/law-cut.md)).
+- The law cut and its continuation are reviewed (2026-11-19): Loom #38 waits on the founder's
+  merge; Zengine #178, with 64 laws back, merges after #177 and #170, rebased onto both
+  ([law-cut](goals/law-cut.md)).
 - Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
   run there; its prompt, written for the laptop, is rewritten for the PC first.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
@@ -72,7 +72,7 @@ Up to three Ceecee lanes, the issue lane beside them in the cloud, as many as th
 holds. Each step holds until the
 one it names has merged. Vision's proposal, for the founder to set:
 
-- **Lane 0, the ways of working and the machine**: law-cut's continuation on #178 (written, hot);
+- **Lane 0, the ways of working and the machine**: #178's last rebase, once #177 and #170 merge;
   instruction-audit's diffs; machine-restore once the PC is back. All lanes wait on it.
 - **Lane 1, Zengine, the drawing**: tile-defense (#177's merge); drawing-order-names;
   drawing-speed's W1; language-pass's first slice (`graphics/` and the tile defense); ports,

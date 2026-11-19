@@ -35,6 +35,8 @@ Tasks:
   `reportbacks/instruction-drift/memory-proposed.diff`, each into its owner; and the
   `pass-tools/` folders without an entry, listed keep-or-go for the founder's yes)
 - [ ] the founder: gh's sign-ins and the `zen-elh` steps the round writes
+- [ ] the kit runs where `python` is missing and `python3` is there (`kit.sh` line 81, found on
+  the laptop by the law cut's continuation, 2026-11-19)
 - [ ] Vision reviews it; the founder takes the proposals: the constitution's, `CLAUDE.md`'s and
   the permission list's
 
