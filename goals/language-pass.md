@@ -6,8 +6,9 @@ A goal of *readability* on the [roadmap](../roadmap.md); how this file works:
 Done when (the founder, 2026-11-15):
 
 - [ ] function names are verbs that say what happens; parameters say what they hold; numbers are
-  named locals the compiler folds away; comments say only what the code cannot, nothing said
-  twice; helpers make the path people naturally take the clear one
+  named locals the compiler folds away; comments as the documentation's design says
+  ([doc-design](doc-design.md): complete sentences, each comment earned; the founder,
+  2026-11-19); helpers make the path people naturally take the clear one
 - [ ] across Zengine and Loom, a slice at a time, each pull request carrying a rename map
 
 Tasks:

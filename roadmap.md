@@ -34,9 +34,11 @@ Now:
 
 1. **The ways of working.** The plan and both constitutions were rebuilt in three days; a reader
    with no memory checks them before Ceecee's memory is rebuilt around them. And the law an agent
-   carries, over half a megabyte, is cut to what a stranger could break.
+   carries, over half a megabyte, is cut to what a stranger could break. Then the documentation
+   is designed from its readers up, before any rewrite, and now, since it needs no build (the
+   founder, 2026-11-19).
    [instruction-audit](goals/instruction-audit.md), [audit-recheck](goals/audit-recheck.md),
-   [law-cut](goals/law-cut.md).
+   [law-cut](goals/law-cut.md), [doc-design](goals/doc-design.md).
 2. **The machine.** Every lane waits on it.
    [machine-restore](goals/machine-restore.md).
 3. **Drawing for real-time games.** A game is the hardest everyday test of a drawing design; the
@@ -68,8 +70,8 @@ Next:
 9. **The makeovers.** The panes rebuilt on the new pieces, Flow's way: the design taken whole.
    [flow-next](goals/flow-next.md), [view-builder-makeover](goals/view-builder-makeover.md),
    [operator-suite](goals/operator-suite.md).
-10. **Readability.** Code pleasant to write, docs plain first.
-   [language-pass](goals/language-pass.md), [front-doors](goals/front-doors.md).
+10. **Readability.** Code pleasant to write, docs plain first, both written to the documentation's
+   design. [language-pass](goals/language-pass.md), [front-doors](goals/front-doors.md).
 11. **The release.** Zen in people's hands, after Workshop's move. [release](goals/release.md).
 
 ## Standing duties
