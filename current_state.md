@@ -61,8 +61,9 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
   the calls below.
 - Merged 2026-11-19: Loom #34 and #37, Zengine #170 and #177. Zengine's `main` went red at
   `94f0492` on a race in a builder case, proven (its first look can take the line its check
-  reads): its issue waits in `Zen/issues/raid-batch-2026-11-19.md` for the issue lane, and the law
-  cut's rebase of Loom #38 and Zengine #178 waits on `main` green ([law-cut](goals/law-cut.md)).
+  reads). Its fix runs on the laptop, `prompts/unrun/builder-look-race.md` (cold; the issue lane
+  is away), the builder suite alone built here, and merges first; the law cut's rebase of Loom #38
+  and Zengine #178 waits on it ([law-cut](goals/law-cut.md)).
 
 ## The issue lane
 
