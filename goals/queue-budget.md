@@ -19,17 +19,20 @@ Done when:
 
 Tasks:
 
-- [ ] the byte room's door check, a continuation in the fork before the merge: an explicit refusal
-  of a spent byte room in `refuses`, as the cells have, and a door case with only the byte room
-  spent. Its prompt once the founder agrees; it needs the restored machine.
+- [ ] the byte room's door check, a continuation in the fork before the merge (the founder,
+  2026-11-18): an explicit refusal of a spent byte room in `refuses`, as the cells have, and a
+  door case with only the byte room spent. Its prompt once its lanes' home is settled (Open).
 - [ ] the founder merges the fork's pull request and publishes the advisory
 - [ ] the round's clones in `scratch/private-queue-budget/trees/` kept until the merge: the kit's
   `left-behind.py` reads an advisory fork's pull request as none and marks them to go
 
 Open:
 
-- The byte check before the merge, or after. Lean: before: it is a few lines, and the advisory
-  should not say "refused before decoding" of a unit the door misses.
+- Where the continuation's lanes run, with no machine that builds them: the advisory's fork runs
+  no Actions (GitHub lets no integration reach it), so either a private repository of the
+  founder's own carries the branch and `ci.yml` (a Loom run is about 137 of the 2,000 private
+  minutes a month: 88 Linux, 24 Windows at twice the rate, measured on `9f3db68`'s run), or the
+  round waits for the PC. Lean: the private repository.
 - The advisory covering both halves. Lean: yes, as the round wrote it; without the bytes it would
   describe a queue bounded in structure alone.
 - The branch's five commits squashed at the merge. Lean: yes, so Loom's `main` keeps one clean
