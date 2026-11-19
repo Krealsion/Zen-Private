@@ -33,8 +33,10 @@ Each direction, with why it matters, and its goals in order; each goal is a chec
 Now:
 
 1. **The ways of working.** The plan and both constitutions were rebuilt in three days; a reader
-   with no memory checks them before Ceecee's memory is rebuilt around them.
-   [instruction-audit](goals/instruction-audit.md).
+   with no memory checks them before Ceecee's memory is rebuilt around them. And the law an agent
+   carries, over half a megabyte, is cut to what a stranger could break.
+   [instruction-audit](goals/instruction-audit.md), [audit-recheck](goals/audit-recheck.md),
+   [law-cut](goals/law-cut.md).
 2. **The machine.** Every lane waits on it.
    [machine-restore](goals/machine-restore.md).
 3. **Drawing for real-time games.** A game is the hardest everyday test of a drawing design; the

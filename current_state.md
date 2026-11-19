@@ -44,6 +44,9 @@ the kit there.
 
 - The instruction audit ran and is reviewed (2026-11-18): its ten calls and 20 diffs wait on
   the founder ([instruction-audit](goals/instruction-audit.md)); the restore round after them.
+- The outside audit of 2026-11-09, found again, is checked at today's `main` and the law
+  measured for its cut: `prompts/unrun/audit-recheck.md` (cold), reads only, on the laptop
+  ([audit-recheck](goals/audit-recheck.md), then [law-cut](goals/law-cut.md)).
 - Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
   run there; its prompt, written for the laptop, is rewritten for the PC first.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
@@ -65,8 +68,8 @@ Up to three Ceecee lanes, the issue lane beside them in the cloud, as many as th
 holds. Each step holds until the
 one it names has merged. Vision's proposal, for the founder to set:
 
-- **Lane 0, the machine**: instruction-audit's diffs, then machine-restore. All lanes wait on
-  it.
+- **Lane 0, the ways of working and the machine**: audit-recheck, then law-cut's design;
+  instruction-audit's diffs; machine-restore once the PC is back. All lanes wait on it.
 - **Lane 1, Zengine, the drawing**: tile-defense (#177's merge); drawing-order-names;
   drawing-speed's W1; language-pass's first slice (`graphics/` and the tile defense); ports,
   TheyCameInWaves first. Why: each step works in the files the last one changed, and the ports
