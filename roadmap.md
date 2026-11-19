@@ -39,9 +39,10 @@ Workshop still lives inside Zengine; its move to a repository of its own is deci
 and the line between them falls round by round. Security work is open, privately: a contained
 weave can hold gigabytes of the host's memory through its waiting messages (its fix reported,
 waiting for review), and a schema's id is to be checked by structure before the release. The
-founder's boot drive failed on 2026-11-15; Zen's folder survived on its own drive. Its
-replacement, a laptop running Ubuntu 22.04 with 15 GB and 8 threads, is up since 2026-11-16, and
-nothing builds until the restore round has rebuilt the kit there.
+founder's boot drive failed on 2026-11-15; Zen's folder survived on its own drive. A laptop
+reads and writes Zen since 2026-11-16 and builds nothing; the PC comes back with a new system
+drive in a couple of days (2026-11-18), and nothing builds until the restore round has rebuilt
+the kit there.
 
 ## Where it goes, and why
 
@@ -125,16 +126,17 @@ Next:
 
 ## Now
 
-- Nothing builds until the restore round, `prompts/unrun/machine-restore.md` (cold), written
-  2026-11-16.
-- Waiting on the founder: the restore round started; the security fix's calls
+- Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
+  run there; its prompt, written for the laptop, is rewritten for the PC first.
+- The founder reviews the rebuilt plan, then brings his Workshop notes of 2026-11-18.
+- Waiting on the founder: the PC; the security fix's calls
   ([queue-budget](goals/queue-budget.md), reviewed 2026-11-16); #177's merge; the calls below.
 - Waiting on Vision: Raid's three pull requests.
 
 ## Next, in order
 
-Up to three Ceecee lanes, the issue lane beside them in the cloud; the laptop's 15 GB may hold
-one building lane at a time, and the restore round measures how many. Each step holds until the
+Up to three Ceecee lanes, the issue lane beside them in the cloud, as many as the restored PC
+holds. Each step holds until the
 one it names has merged. Vision's proposal, for the founder to set:
 
 - **Lane 0, the machine**: machine-restore. All lanes wait on it.
