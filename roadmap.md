@@ -44,8 +44,8 @@ Now:
    [tile-defense](goals/tile-defense.md), [drawing-order-names](goals/drawing-order-names.md),
    [drawing-speed](goals/drawing-speed.md), [game-time](goals/game-time.md),
    [ports](goals/ports.md).
-4. **Security** (private). A defect outranks features. [queue-budget](goals/queue-budget.md),
-   [security-pair](goals/security-pair.md).
+4. **Security** (private). A defect outranks features. [queue-budget](goals/queue-budget.md);
+   the session key and the schema id finished 2026-11-10 (history).
 5. **Loom's foundation.** Close the gaps Zengine builds around, so its files shrink and no
    god-file grows back. [data-plane](goals/data-plane.md), [takeover](goals/takeover.md),
    [one-host](goals/one-host.md), [schema-evolution](goals/schema-evolution.md),

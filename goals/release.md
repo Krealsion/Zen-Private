@@ -6,8 +6,8 @@ A goal of *the release* on the [roadmap](../roadmap.md); how this file works:
 Done when (the founder's checklist, 2026-11-10):
 
 - [ ] the one-way doors decided first: the ABI's exact-version rule and fixed tables (13 the last
-  exact break), the schema id (option A, the security pair), the licence (AGPL done; the
-  creations exception, drafted with counsel)
+  exact break; built, Loom #27), the schema id (option A, the security pair; built, Loom
+  `d8d2b82`), the licence (AGPL done; the creations exception, drafted with counsel)
 - [ ] every version restarts at 1 -- each shape, each file format, the weave ABI -- the release
   the marker: a library or file says the release that made it, and a reader refuses one that
   says none
