@@ -50,8 +50,8 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The law cut finished 2026-11-20 (Loom #38, Zengine #178 and #180 merged; in
   [history](history/2026-11.md)). Its clones in `Zen/scratch/law-cut/` go at the next session's
   end.
-- The documentation's design: stage 4 reviewed; its fixes run (`prompts/doc-design-publish-fixes.md`,
-  hot), then Loom #39 merges, then Zengine #181 ([doc-design](goals/doc-design.md)).
+- The documentation's design: stage 4 and its fixes reviewed and filed (2026-11-20); Loom #39
+  merges first, then Zengine #181, both green ([doc-design](goals/doc-design.md)).
 - Built apart (2026-11-20): the build couples what the running program keeps apart. Its research,
   `prompts/unrun/built-apart-research.md` (cold), runs on the laptop while it is free
   ([built-apart](goals/built-apart.md)).
