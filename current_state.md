@@ -5,7 +5,7 @@ calls waiting on the founder. The file changed most, at every phase, review or c
 goal and links its file; what the goal still needs is in that file.  
 **Beside it:** [README.md](README.md), the map and the rules; [roadmap.md](roadmap.md), the order;
 [goals/](goals/), a checklist a goal.  
-**Updated:** 2026-11-19, the documentation's trial reviewed and filed; the law cut's lane fix running.
+**Updated:** 2026-11-20, the law cut finished; stage 4 of the documentation under review.
 
 ## Where Zen stands
 
@@ -47,26 +47,19 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The outside audit of 2026-11-09, checked at today's `main`, is reviewed (2026-11-19): eight
   calls wait on the founder ([audit-recheck](goals/audit-recheck.md)). It found the security
   pair finished on 2026-11-10, now in history.
-- The law cut: Loom #38 merged (2026-11-19); Zengine #178, with 64 laws back, waits on its run
-  and the founder's merge, and its two last rounds wait to be filed together
-  ([law-cut](goals/law-cut.md)).
-- The documentation's design is tried, reviewed and in its fourth pass (2026-11-19): smaller
-  encouraged and never forced, the size caps paused for the rewrite, three passes. Stage 4,
-  `prompts/unrun/doc-design-publish.md` (cold), runs once #178 merges: the design published, the
-  guides, start files and checks, and `timer/` the first folder converted
-  ([doc-design](goals/doc-design.md)).
+- The law cut finished 2026-11-20 (Loom #38, Zengine #178 and #180 merged; in
+  [history](history/2026-11.md)). Its clones in `Zen/scratch/law-cut/` go at the next session's
+  end.
+- The documentation's design: stage 4 ran (`prompts/doc-design-publish.md`), Loom #39 and
+  Zengine #181 open, its report under review ([doc-design](goals/doc-design.md)).
 - Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
   run there; its prompt, written for the laptop, is rewritten for the PC first.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
   he approves the plan's layout.
 - Waiting on the founder: the PC; the security fix's calls
-  ([queue-budget](goals/queue-budget.md), reviewed 2026-11-16); Zengine #178's merge, once its
-  run is green; the calls below.
-- Merged 2026-11-19: Loom #34 and #37, Zengine #170, #177 and #179. Zengine's `main` went red at
-  `94f0492` on a race in a builder case, proven (its first look can take the line its check
-  reads); #179 fixed it (`55d533a`). Then Zengine #180 (the MinGW lane's limit at 90 minutes,
-  `175b0ac`) and Loom #38 (the law cut, `c823c58`). Zengine #178, the law cut, stands on #180 and
-  its run is building ([law-cut](goals/law-cut.md)).
+  ([queue-budget](goals/queue-budget.md), reviewed 2026-11-16); the calls below.
+- Merged 2026-11-19 and 20: Loom #34, #37 and #38; Zengine #170, #177, #179, #180 and #178.
+  Zengine's `main` went red at `94f0492` on a race in a builder case, proven; #179 fixed it.
 
 ## The issue lane
 
