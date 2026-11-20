@@ -62,9 +62,10 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
   merges, after their rebase; the calls below.
 - Merged 2026-11-19: Loom #34 and #37, Zengine #170, #177 and #179. Zengine's `main` went red at
   `94f0492` on a race in a builder case, proven (its first look can take the line its check
-  reads); #179 fixed it (`55d533a`). The law cut's rebase of Loom #38 and Zengine #178,
-  `prompts/unrun/law-cut-rebased.md` (hot), runs once `main`'s run is green
-  ([law-cut](goals/law-cut.md)).
+  reads); #179 fixed it (`55d533a`). The law cut's rebase ran: Loom #38 is green; Zengine #178's
+  MinGW job met its 60-minute limit on a cold build. Its continuation,
+  `prompts/unrun/law-cut-lane-limit.md` (hot), fits the lane's limit first, in a pull request of
+  its own, then moves #178 onto it ([law-cut](goals/law-cut.md)).
 
 ## The issue lane
 

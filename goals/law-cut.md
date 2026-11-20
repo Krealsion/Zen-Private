@@ -18,13 +18,15 @@ next" 5):
 
 Tasks:
 
-- [ ] the founder merges, before the rebase: Loom #34 and #37; Zengine #170 and #177 (all four
-  reviewed 2026-11-19)
-- [ ] the rebase, `prompts/unrun/law-cut-rebased.md`, hot, in the law cut's session: Loom #38
-  onto #34 (one `AGENTS.md` bullet: #38's, with #34's pointer to the checks' list), Zengine #178
-  onto #170 and #177 (a paragraph of `agents/realization.md`, a census row), each last in its
-  repository
-- [ ] Vision reviews the rebase; the founder merges Loom #38 and Zengine #178
+- [x] the founder merges, before the rebase: Loom #34 and #37; Zengine #170, #177 and #179
+  (2026-11-19)
+- [x] the rebase, `prompts/law-cut-rebased.md`, run 2026-11-19: Loom #38 at `2f690fa`, green;
+  Zengine #178 at `48db232a`, its MinGW job cancelled at its 60-minute limit (a cold build)
+- [ ] the lane's limit, `prompts/unrun/law-cut-lane-limit.md`, hot, in the law cut's session:
+  #38's commit message reworded (it named "the founder's design laws"); the MinGW lane's limit
+  fitted to a cold build, in a pull request of its own that merges first; #178 onto it
+- [ ] Vision reviews the rebase and the lane's round together, and files them; the founder merges
+  the lane's fix, then Loom #38 and Zengine #178
 
 Open, each with Vision's lean:
 
