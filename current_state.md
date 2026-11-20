@@ -47,8 +47,8 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The outside audit of 2026-11-09, checked at today's `main`, is reviewed (2026-11-19): eight
   calls wait on the founder ([audit-recheck](goals/audit-recheck.md)). It found the security
   pair finished on 2026-11-10, now in history.
-- The law cut and its continuation are reviewed (2026-11-19): Loom #38 waits on the founder's
-  merge; Zengine #178, with 64 laws back, merges after #177 and #170, rebased onto both
+- The law cut: Loom #38 merged (2026-11-19); Zengine #178, with 64 laws back, waits on its run
+  and the founder's merge, and its two last rounds wait to be filed together
   ([law-cut](goals/law-cut.md)).
 - The documentation's design is tried, reviewed and in its fourth pass (2026-11-19): smaller
   encouraged and never forced, the size caps paused for the rewrite, three passes. Stage 4's
