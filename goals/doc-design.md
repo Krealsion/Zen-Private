@@ -13,8 +13,9 @@ Done when (the founder, 2026-11-19):
   unasked, and the executor constitution sorted into public, generic and private
 - [x] tried: one folder rewritten to the design on a scratch branch, and a cold reader's task on it
   compared with the same task on today's text (2026-11-19, `reportbacks/doc-design-trial-RB.md`)
-- [ ] distilled: the design published in each repository's contributor pages, the guide all new
-  text is written with
+- [x] distilled: the design published in each repository's contributor pages, the guide all new
+  text is written with (2026-11-20: Loom's `docs/contributing/documentation-design.md`, linked
+  from both guides)
 - [ ] the rewrite planned in three passes, a slice at a time, each slice measured by kind against
   its start; smaller encouraged, never forced (the founder, 2026-11-19)
 
@@ -38,9 +39,9 @@ Tasks:
   "More lanes" into `build-and-test.md`; the recommended setup only for choosing a setup, its
   practices stated in Loom's guide and listed in best practices; small faults. Filed with stage 4
   (`reportbacks/doc-design-publish-RB.md`)
-- [ ] the founder merges Loom #39 (`b2142b17`), then Zengine #181 (`ab1b4b5a`), both green
-- [ ] `Zen/documentation-design.md` trimmed to what is private (the stages, today's measures, the
-  dated decisions), linking Loom's page, once Loom's merges
+- [x] the founder merges Loom #39 (`beb74e2`), then Zengine #181 (`75987b6`), 2026-11-20
+- [x] `Zen/documentation-design.md` trimmed to what is private (the dated decisions, the
+  baseline, the stages and passes), linking Loom's page (2026-11-20)
 - [ ] the first pass's folders in an order, from stage 4's report
 
 Open, each with Vision's lean:

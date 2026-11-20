@@ -19,6 +19,8 @@ Done when (planned 2026-10-30):
 
 Tasks:
 
+- [ ] the quarry out of Zengine and into Zen, `prompts/unrun/quarry-move.md`, cold (the founder,
+  2026-11-20: meant long before, and a stranger's first look at the tree should not meet it)
 - [ ] Vision's outline (the summary, the ideas as takeaways, the sections) for the founder's
   markup
 - [ ] Loom's README round

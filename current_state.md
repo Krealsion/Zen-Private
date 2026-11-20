@@ -50,8 +50,11 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The law cut finished 2026-11-20 (Loom #38, Zengine #178 and #180 merged; in
   [history](history/2026-11.md)). Its clones in `Zen/scratch/law-cut/` go at the next session's
   end.
-- The documentation's design: stage 4 and its fixes reviewed and filed (2026-11-20); Loom #39
-  merges first, then Zengine #181, both green ([doc-design](goals/doc-design.md)).
+- The documentation's design is published (2026-11-20: Loom #39, Zengine #181), `timer/` the
+  first folder in its shape; the first pass's order of folders waits on the founder
+  ([doc-design](goals/doc-design.md)).
+- The quarry leaves Zengine for Zen: `prompts/unrun/quarry-move.md`, cold
+  ([front-doors](goals/front-doors.md)).
 - Built apart (2026-11-20): the build couples what the running program keeps apart. Its research,
   `prompts/unrun/built-apart-research.md` (cold), runs on the laptop while it is free
   ([built-apart](goals/built-apart.md)).
