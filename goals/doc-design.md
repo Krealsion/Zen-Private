@@ -19,8 +19,7 @@ Done when (the founder, 2026-11-19):
 
 Tasks:
 
-- [ ] the founder's look at the third pass (written 2026-11-19 from his answers and the research's
-  proposed revision)
+- [x] the third pass, looked at by the founder and taken to the trial (2026-11-19)
 - [ ] the trial's prompt (stage 3): one folder rewritten on a scratch branch, a cold reader's task
 
 Decided (the founder, 2026-11-19), on the research's thirteen decisions:
