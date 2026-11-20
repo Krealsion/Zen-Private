@@ -31,7 +31,13 @@ Tasks:
   lines) merges first; then Zengine's (the guide, the start file, the glossary, the checks in two
   kinds, `folder_map` and `law_register` holding both shapes) with `timer/` converted from the
   trial's record
-- [ ] stage 4 run and reviewed; the founder merges Loom's, then Zengine's
+- [x] stage 4 run (`prompts/doc-design-publish.md`) and reviewed 2026-11-20: Loom #39 and
+  Zengine #181, green; the founder's calls as Ceecee chose (a census row keeps its class below
+  the threshold; the second pass's marks in `Zen/pass-tools/`)
+- [ ] the review's fixes, `prompts/unrun/doc-design-publish-fixes.md`, hot, in stage 4's session:
+  "More lanes" into `build-and-test.md`; the recommended setup only for choosing a setup, its
+  practices into Loom's best practices, its harness list kept to what is checked; small faults
+- [ ] the founder merges Loom #39, then Zengine #181; Vision files stage 4
 - [ ] `Zen/documentation-design.md` trimmed to what is private (the stages, today's measures, the
   dated decisions), linking Loom's page, once Loom's merges
 - [ ] the first pass's folders in an order, from stage 4's report
