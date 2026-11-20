@@ -30,10 +30,11 @@ Tasks:
 
 Open, from this round:
 
-- The founder's test (2026-11-19): Ceecee was not told that #180's merge commit leaves #178
-  standing on `main`. If it rebases or re-runs CI anyway, a rule goes into the executor
-  constitution: before a rebase or a re-run, check whether the tree under test would change, and
-  spend no run that tests the same tree again.
+- The founder's test (2026-11-19): Ceecee rebased #178 onto `main` after #180 merged (`f81adf05`,
+  every tree unchanged), reading the prompt's "standing on `main`" as a step, and a new run began.
+  Done: the executor constitution's section c, "A run is spent only on a tree not yet tested";
+  the Vision constitution's section 9, a hold names the outcome, never a step. #178 keeps
+  `f81adf05` and its run is read to its end.
 
 Open, each with Vision's lean:
 
