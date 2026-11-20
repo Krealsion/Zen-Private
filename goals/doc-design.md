@@ -25,17 +25,21 @@ Tasks:
 - [x] the cold reader's setup archived for later exceptions, out of `Zen/.claude/agents/`:
   `pass-tools/cold-reader/` (2026-11-19)
 - [x] the fourth pass: what the trial taught, with the founder's answers (2026-11-19)
-- [ ] stage 4's prompt: the design published in each repository's contributor pages; the two
-  standards replaced; the checks that only cap size paused (the page budgets, the six-line limit
-  on a comment, the manual's section bounds once their reason is read); the census counting code
-  lines only; the checks of today's shape changed
-- [ ] the first pass's slices, in an order
+- [x] stage 4's prompt, written 2026-11-19: `prompts/unrun/doc-design-publish.md`, cold, for the
+  laptop, after #178 merges. Loom's pull request (the design as a contributor page, its
+  standards, the start file, the recommended setup, the six-line limit paused, the census on code
+  lines) merges first; then Zengine's (the guide, the start file, the glossary, the checks in two
+  kinds, `folder_map` and `law_register` holding both shapes) with `timer/` converted from the
+  trial's record
+- [ ] stage 4 run and reviewed; the founder merges Loom's, then Zengine's
+- [ ] `Zen/documentation-design.md` trimmed to what is private (the stages, today's measures, the
+  dated decisions), linking Loom's page, once Loom's merges
+- [ ] the first pass's folders in an order, from stage 4's report
 
 Open, each with Vision's lean:
 
-1. The first pass's first slice: `timer/`, from the trial's record
-   (`reportbacks/doc-design-trial/rewrite/`), with the counters' meanings back on the manual as
-   labels and the trial's draft marks taken off. Lean: yes; its readings and checks are done once.
+1. The first pass's second folder: one heavy with the agent layer, part of `workshop/` for
+   example, where the duplication is. Lean: yes, decided from stage 4's measures.
 
 Decided (the founder, 2026-11-19), on the research's thirteen decisions:
 

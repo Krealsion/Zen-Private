@@ -51,8 +51,10 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
   and the founder's merge, and its two last rounds wait to be filed together
   ([law-cut](goals/law-cut.md)).
 - The documentation's design is tried, reviewed and in its fourth pass (2026-11-19): smaller
-  encouraged and never forced, the size caps paused for the rewrite, three passes. Stage 4's
-  prompt is next, publishing it ([doc-design](goals/doc-design.md)).
+  encouraged and never forced, the size caps paused for the rewrite, three passes. Stage 4,
+  `prompts/unrun/doc-design-publish.md` (cold), runs once #178 merges: the design published, the
+  guides, start files and checks, and `timer/` the first folder converted
+  ([doc-design](goals/doc-design.md)).
 - Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
   run there; its prompt, written for the laptop, is rewritten for the PC first.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
