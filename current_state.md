@@ -5,7 +5,7 @@ calls waiting on the founder. The file changed most, at every phase, review or c
 goal and links its file; what the goal still needs is in that file.  
 **Beside it:** [README.md](README.md), the map and the rules; [roadmap.md](roadmap.md), the order;
 [goals/](goals/), a checklist a goal.  
-**Updated:** 2026-11-19, the documentation's trial written; #179 merged.
+**Updated:** 2026-11-19, the documentation's trial reviewed and filed; the law cut's lane fix running.
 
 ## Where Zen stands
 
@@ -50,9 +50,9 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The law cut and its continuation are reviewed (2026-11-19): Loom #38 waits on the founder's
   merge; Zengine #178, with 64 laws back, merges after #177 and #170, rebased onto both
   ([law-cut](goals/law-cut.md)).
-- The documentation's design is researched, decided and in its third pass (2026-11-19). Its trial
-  waits to run: `prompts/unrun/doc-design-trial.md`, cold, on the laptop, with a cold reader as
-  rule 11's exception for that session alone ([doc-design](goals/doc-design.md)).
+- The documentation's design is tried, reviewed and in its fourth pass (2026-11-19): smaller
+  encouraged and never forced, the size caps paused for the rewrite, three passes. Stage 4's
+  prompt is next, publishing it ([doc-design](goals/doc-design.md)).
 - Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
   run there; its prompt, written for the laptop, is rewritten for the PC first.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once

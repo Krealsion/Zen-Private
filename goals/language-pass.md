@@ -28,5 +28,10 @@ Open:
   repeats; it needs an exception to Ceecee's rule 11. Lean: a small model, scoped and capped,
   reading before and after each rename; Ponder the outside read once a slice merges. The founder,
   2026-11-19: the documentation's trial uses one, its exception stated in the prompt
-  ([doc-design](doc-design.md)), and its setup is archived after it for reuse. Lean now: the same
-  setup in each slice's prompt, once the trial has shown what it is worth.
+  ([doc-design](doc-design.md)), and its setup is archived for reuse in `pass-tools/cold-reader/`
+  (14 readings, about 17,000 tokens each). Lean now: the same setup in each slice's prompt.
+
+- The founder, 2026-11-19: this goal is the documentation rewrite's second pass, after the first
+  (readable, one owner for each fact). The first pass marks each comment that exists only because
+  a name is poor; those marks are this pass's list, and the comments a better name makes unneeded
+  go here.
