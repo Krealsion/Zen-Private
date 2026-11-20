@@ -19,8 +19,8 @@ Done when (the founder, 2026-11-19):
 
 Tasks:
 
-- [ ] Vision writes the design's third pass from his answers and the research's proposed revision
-  (`reportbacks/doc-design-research/documentation-design.diff`)
+- [ ] the founder's look at the third pass (written 2026-11-19 from his answers and the research's
+  proposed revision)
 - [ ] the trial's prompt (stage 3): one folder rewritten on a scratch branch, a cold reader's task
 
 Decided (the founder, 2026-11-19), on the research's thirteen decisions:
