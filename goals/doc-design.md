@@ -8,7 +8,7 @@ Done when (the founder, 2026-11-19):
 - [ ] the design settled with the founder: its principles, its readers and their questions, one
   owner for each answer, the comment and page rules, the required path
   (`Zen/documentation-design.md`)
-- [ ] researched, read-only: each reader's questions traced to where their answers live today,
+- [x] researched, read-only (2026-11-19, `reportbacks/doc-design-research-RB.md`): each reader's questions traced to where their answers live today,
   what is said more than once, what is loaded unasked, and the executor constitution sorted into
   public, generic and private
 - [ ] tried: one folder rewritten to the design on a scratch branch, and a cold reader's task on it
@@ -19,13 +19,15 @@ Done when (the founder, 2026-11-19):
 
 Tasks:
 
-- [ ] the research round, `prompts/unrun/doc-design-research.md` (cold, on the laptop; read-only):
-  the design marked up twice by the founder and taken for research (2026-11-19)
-- [ ] Vision reviews it; the founder settles the design's questions from its findings
+- [ ] the founder settles the research's thirteen decisions (Open below)
+- [ ] Vision writes the design's third pass from his answers and the research's proposed revision
+  (`reportbacks/doc-design-research/documentation-design.diff`)
+- [ ] the trial's prompt (stage 3): one folder rewritten on a scratch branch, a cold reader's task
 
-Open:
-
-- The design's seven questions, listed in the draft; Vision's lean on each once researched.
+Open: the research's thirteen decisions (its report, "Decisions asked"), each with Vision's lean
+in the review of 2026-11-19; and the executor constitution's section f, which says a research
+session pushes nothing while rule 10 and `Zen/AGENTS.md` have it push its prompt's move (lean: it
+pushes nothing to Loom or Zengine).
 
 Records: the founder's direction of 2026-11-19 (complete sentences, a comment earned, agent and
 human pages merged without bloat, a sizable cut, the executor constitution made a public
