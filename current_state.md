@@ -5,7 +5,7 @@ calls waiting on the founder. The file changed most, at every phase, review or c
 goal and links its file; what the goal still needs is in that file.  
 **Beside it:** [README.md](README.md), the map and the rules; [roadmap.md](roadmap.md), the order;
 [goals/](goals/), a checklist a goal.  
-**Updated:** 2026-11-19, the audit's recheck and the law cut reviewed.
+**Updated:** 2026-11-19, the documentation's trial written; #179 merged.
 
 ## Where Zen stands
 
@@ -50,19 +50,21 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The law cut and its continuation are reviewed (2026-11-19): Loom #38 waits on the founder's
   merge; Zengine #178, with 64 laws back, merges after #177 and #170, rebased onto both
   ([law-cut](goals/law-cut.md)).
-- The documentation's design is researched and reviewed (2026-11-19): thirteen decisions wait on
-  the founder, then the design's third pass and the trial ([doc-design](goals/doc-design.md)).
+- The documentation's design is researched, decided and in its third pass (2026-11-19). Its trial
+  waits to run: `prompts/unrun/doc-design-trial.md`, cold, on the laptop, with a cold reader as
+  rule 11's exception for that session alone ([doc-design](goals/doc-design.md)).
 - Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
   run there; its prompt, written for the laptop, is rewritten for the PC first.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
   he approves the plan's layout.
 - Waiting on the founder: the PC; the security fix's calls
-  ([queue-budget](goals/queue-budget.md), reviewed 2026-11-16); #177's and Loom #38's merges;
-  the calls below.
-- Merged 2026-11-19: Loom #34 and #37, Zengine #170 and #177. Zengine's `main` went red at
+  ([queue-budget](goals/queue-budget.md), reviewed 2026-11-16); Loom #38's and Zengine #178's
+  merges, after their rebase; the calls below.
+- Merged 2026-11-19: Loom #34 and #37, Zengine #170, #177 and #179. Zengine's `main` went red at
   `94f0492` on a race in a builder case, proven (its first look can take the line its check
-  reads). Its fix, Zengine #179 (made on the laptop, reviewed 2026-11-19, CI green), merges first;
-  the law cut's rebase of Loom #38 and Zengine #178 waits on it ([law-cut](goals/law-cut.md)).
+  reads); #179 fixed it (`55d533a`). The law cut's rebase of Loom #38 and Zengine #178,
+  `prompts/unrun/law-cut-rebased.md` (hot), runs once `main`'s run is green
+  ([law-cut](goals/law-cut.md)).
 
 ## The issue lane
 
@@ -111,6 +113,6 @@ The calls no goal owns, each with Vision's lean:
    sheet -- those still open come here or go to their goal, the rest go: the archived backlog's
    section 5, and the drawing operators' word (2026-11-08).
 
-A goal's own calls are in its file's "Open". The near ones: #177's merge and its follow-ups
-(tile-defense); cold readers, an exception to Ceecee's rule 11 (language-pass); what tells the
-window to present (game-time); the sandbox's retirement and its scope (sandbox-retired).
+A goal's own calls are in its file's "Open". The near ones: #177's follow-ups (tile-defense); cold
+readers in the language pass, once the documentation's trial has tested one (language-pass); what
+tells the window to present (game-time); the sandbox's retirement and its scope (sandbox-retired).

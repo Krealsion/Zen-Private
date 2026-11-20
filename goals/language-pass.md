@@ -26,4 +26,7 @@ Open:
 
 - Cold readers: readers given only a function's code and comments say what it does and flag what
   repeats; it needs an exception to Ceecee's rule 11. Lean: a small model, scoped and capped,
-  reading before and after each rename; Ponder the outside read once a slice merges.
+  reading before and after each rename; Ponder the outside read once a slice merges. The founder,
+  2026-11-19: the documentation's trial uses one, its exception stated in the prompt
+  ([doc-design](doc-design.md)), and its setup is archived after it for reuse. Lean now: the same
+  setup in each slice's prompt, once the trial has shown what it is worth.

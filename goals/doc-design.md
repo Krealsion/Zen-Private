@@ -20,7 +20,12 @@ Done when (the founder, 2026-11-19):
 Tasks:
 
 - [x] the third pass, looked at by the founder and taken to the trial (2026-11-19)
-- [ ] the trial's prompt (stage 3): one folder rewritten on a scratch branch, a cold reader's task
+- [x] the trial's prompt (stage 3), written 2026-11-19: `prompts/unrun/doc-design-trial.md`, cold,
+  for the laptop; the cold reader `Zen/.claude/agents/cold-reader.md` beside it
+- [ ] the trial run, and its report reviewed
+- [ ] after the trial: the cold reader's setup (its agent file, and the prompt's section that
+  lifts rule 11) archived for later exceptions, out of `Zen/.claude/agents/` so no other session
+  meets it (the founder, 2026-11-19)
 
 Decided (the founder, 2026-11-19), on the research's thirteen decisions:
 
@@ -41,6 +46,11 @@ Decided (the founder, 2026-11-19), on the research's thirteen decisions:
   counted.
 - The executor constitution's section f: done, a research session pushes nothing to Loom or
   Zengine.
+- The cold reader (the founder, 2026-11-19): a cheap reader (Sonnet, low effort, reading only)
+  asked what a passage says, before and after, and as a self-audit, in part or whole; Ceecee
+  decides when and how much, and what the answers mean; tokens counted where shown. Rule 11's
+  exception is stated in the prompt itself: the rule, its home, that it does not hold for the
+  session, and the rules for the reader's use.
 
 Records: the founder's direction of 2026-11-19 (complete sentences, a comment earned, agent and
 human pages merged without bloat, a sizable cut, the executor constitution made a public

@@ -48,7 +48,9 @@ Decided (the founder, 2026-11-18), the round's ten calls:
    and Windows-era, for the PC's restore.
 7. Vision's constitution keeps a short summary of the laws, pointing at where each lives.
 8. Rule 11 a law with one door (a prompt he approved, with a stated scope and cap); rule 12 as the
-   slots leave it.
+   slots leave it. The door's first use, the founder's form (2026-11-19): the documentation
+   trial's prompt names rule 11 and its home, says it does not hold for that session, and gives
+   the reader's rules.
 9. A size budget for the executor constitution; simple first; the founder reads it through
    himself.
 10. The handoff page goes; Vision's constitution reads an area's laws before reviewing it, its
