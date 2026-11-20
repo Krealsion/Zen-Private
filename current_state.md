@@ -50,10 +50,14 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The law cut finished 2026-11-20 (Loom #38, Zengine #178 and #180 merged; in
   [history](history/2026-11.md)). Its clones in `Zen/scratch/law-cut/` go at the next session's
   end.
-- The documentation's design: stage 4 ran (`prompts/doc-design-publish.md`), Loom #39 and
-  Zengine #181 open, its report under review ([doc-design](goals/doc-design.md)).
-- Nothing builds until the PC is back (a couple of days, 2026-11-18) and the restore round has
-  run there; its prompt, written for the laptop, is rewritten for the PC first.
+- The documentation's design: stage 4 reviewed; its fixes run (`prompts/doc-design-publish-fixes.md`,
+  hot), then Loom #39 merges, then Zengine #181 ([doc-design](goals/doc-design.md)).
+- Built apart (2026-11-20): the build couples what the running program keeps apart. Its research,
+  `prompts/unrun/built-apart-research.md` (cold), runs on the laptop while it is free
+  ([built-apart](goals/built-apart.md)).
+- The laptop builds one thing at a time (Linux, 15 GB; 2026-11-19, a build beside another
+  session's checks had every session stopped for memory). The PC's restore round, its prompt
+  written for the laptop, is rewritten for the PC when it is back.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
   he approves the plan's layout.
 - Waiting on the founder: the PC; the security fix's calls

@@ -231,11 +231,14 @@ each item's older story, under the same id.
   policy stays advisory until decided apart.
 - **P-BUILD-07** Four routed documents over budget (`operators`, `panes`, `realization`,
   `surface`) each want a register phase in the family-table shape.
-- **P-BUILD-08** The broad Workshop fixture header rebuilds many suites when touched. Wakes: a
-  change that keeps touching it; faster builds (BL-WORK-44) plans to split
-  `tests/workshop_support.hpp`.
+- **P-BUILD-08** The broad Workshop fixture header rebuilds many suites when touched. Taken by
+  [built-apart](goals/built-apart.md) (2026-11-20): it compiles Workshop and every pane into each
+  of 44 test units, 3.4 GB and 47 s each.
 - **P-BUILD-09** The hosted jobs' limits sit close to their times; the sanitizer job has 90
-  minutes (#356). Wakes: a job within a tenth of its limit, or a cancel.
+  minutes (#356). Woke 2026-11-19, a cancel: the MinGW-w64 job met its 60 minutes on a cold build,
+  and `main` had met it once before, unnoticed (2026-11-14). Zengine #180 gave it 90. The Linux
+  stranger (45) and the boxed pane (60) stay close on a cold build. Wakes: a job within a tenth
+  of its limit, or a cancel.
 - **P-BUILD-10** The kit's open recommendations: eighteen entries from the rounds of 2026-10-08
   to 10-12, two asks since met by the kit's commit stamps; from the memory round (2026-10-27) a
   profile command, the gates shown by `kit.sh slot`, a listing of the learned peaks (by kind

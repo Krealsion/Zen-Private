@@ -60,9 +60,12 @@ Next:
    (the founder, 2026-11-19). Recovered 2026-11-15, after it fell off the plan.
    [wasm-box](goals/wasm-box.md),
    [sandbox-retired](goals/sandbox-retired.md).
-7. **The Workshop split.** The founder's baseline runs through it.
-   [pane-contract](goals/pane-contract.md), [owned-names](goals/owned-names.md) (decided
-   2026-11-09, never built), [workshop-move](goals/workshop-move.md).
+7. **The Workshop split.** The founder's baseline runs through it, and his first picture of Zen:
+   separate nodes joined only through Loom, in the build as in the running program (2026-11-20;
+   built-apart's research runs now).
+   [built-apart](goals/built-apart.md), [pane-contract](goals/pane-contract.md),
+   [owned-names](goals/owned-names.md) (decided 2026-11-09, never built),
+   [workshop-move](goals/workshop-move.md).
 8. **The visual foundation.** "High quality components means higher quality composites" (the
    founder, 2026-10-29). [looks-in-time](goals/looks-in-time.md),
    [keys-and-presses](goals/keys-and-presses.md), [element-set](goals/element-set.md),
