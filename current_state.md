@@ -58,14 +58,13 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
   he approves the plan's layout.
 - Waiting on the founder: the PC; the security fix's calls
-  ([queue-budget](goals/queue-budget.md), reviewed 2026-11-16); Loom #38's and Zengine #178's
-  merges, after their rebase; the calls below.
+  ([queue-budget](goals/queue-budget.md), reviewed 2026-11-16); Zengine #178's merge, once its
+  run is green; the calls below.
 - Merged 2026-11-19: Loom #34 and #37, Zengine #170, #177 and #179. Zengine's `main` went red at
   `94f0492` on a race in a builder case, proven (its first look can take the line its check
-  reads); #179 fixed it (`55d533a`). The law cut's rebase ran: Loom #38 is green; Zengine #178's
-  MinGW job met its 60-minute limit on a cold build. Its continuation,
-  `prompts/unrun/law-cut-lane-limit.md` (hot), fits the lane's limit first, in a pull request of
-  its own, then moves #178 onto it ([law-cut](goals/law-cut.md)).
+  reads); #179 fixed it (`55d533a`). Then Zengine #180 (the MinGW lane's limit at 90 minutes,
+  `175b0ac`) and Loom #38 (the law cut, `c823c58`). Zengine #178, the law cut, stands on #180 and
+  its run is building ([law-cut](goals/law-cut.md)).
 
 ## The issue lane
 

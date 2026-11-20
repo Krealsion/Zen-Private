@@ -22,11 +22,18 @@ Tasks:
   (2026-11-19)
 - [x] the rebase, `prompts/law-cut-rebased.md`, run 2026-11-19: Loom #38 at `2f690fa`, green;
   Zengine #178 at `48db232a`, its MinGW job cancelled at its 60-minute limit (a cold build)
-- [ ] the lane's limit, `prompts/unrun/law-cut-lane-limit.md`, hot, in the law cut's session:
-  #38's commit message reworded (it named "the founder's design laws"); the MinGW lane's limit
-  fitted to a cold build, in a pull request of its own that merges first; #178 onto it
-- [ ] Vision reviews the rebase and the lane's round together, and files them; the founder merges
-  the lane's fix, then Loom #38 and Zengine #178
+- [x] the lane's limit, `prompts/law-cut-lane-limit.md`: #38's message reworded; Zengine #180,
+  the MinGW lane's limit at 90 minutes; #178 stacked on it (run 44672441671)
+- [x] the founder merges Zengine #180 (`175b0ac`) and Loom #38 (`c823c58`), 2026-11-19
+- [ ] #178's run read to its end; the founder merges #178; Vision files the rebase and the lane's
+  round together
+
+Open, from this round:
+
+- The founder's test (2026-11-19): Ceecee was not told that #180's merge commit leaves #178
+  standing on `main`. If it rebases or re-runs CI anyway, a rule goes into the executor
+  constitution: before a rebase or a re-run, check whether the tree under test would change, and
+  spend no run that tests the same tree again.
 
 Open, each with Vision's lean:
 
