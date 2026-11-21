@@ -234,6 +234,12 @@ each item's older story, under the same id.
 - **P-BUILD-08** The broad Workshop fixture header rebuilds many suites when touched. Taken by
   [built-apart](goals/built-apart.md) (2026-11-20): it compiles Workshop into each of 44 test
   units and loads the panes, 47% of the cold build's compile time.
+- **P-BUILD-20** A weave image exports every inline function it instantiates, at default
+  visibility, though nothing imports them: a header's spelling of an inline helper renames
+  exports in every image that uses it (777 at lazy shapes, 2026-11-20). Hiding them
+  (`-fvisibility-inlines-hidden`) changes every image's exports and the weave build contract
+  (KERN-05), with Loom's Windows lanes. Wakes: an image's load time or size, or a round that
+  touches `cmake/loom-weave.cmake`.
 - **P-BUILD-19** Workshop's 14 host hooks and its grant are host code a weave is handed, and who
   holds a role, an incarnation and a live authority have no answer by message: loading Workshop
   as an image needs them. Wakes: built-apart's slice 5, or one-host's O2 and O4

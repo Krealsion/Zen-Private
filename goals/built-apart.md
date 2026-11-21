@@ -24,8 +24,11 @@ Tasks:
 - [ ] slices 3 and 1, `prompts/unrun/built-apart-census-fixture.md`, cold: the law on its public
   page and the census's rows; the fixture compiled once; the two defects; the laptop's row in
   `machine_facts.md`. After the quarry's move merges
-- [ ] slice 2, `prompts/unrun/built-apart-lazy-shapes.md`, cold: a shape's field list lazy, in a
-  Loom pull request under Loom's whole lane
+- [ ] slice 2, a shape's field list lazy, in a Loom pull request under Loom's whole lane:
+  `prompts/built-apart-lazy-shapes.md` stopped on renamed weak `zen_fields` exports, reviewed
+  2026-11-20 (an image's contract is its content ids, its manifest and `zen_weave_abi`, all
+  unchanged); its continuation `prompts/unrun/built-apart-lazy-shapes-continued.md`, hot, also
+  states that contract in Loom's weave guide
 - [ ] slice 4, the panes suite with no Workshop in it
 - [ ] slice 5, Workshop's suites load Workshop, reading it by message
 - [ ] slice 6, the seam vocabularies to their contracts, internals out of weaves; each folder

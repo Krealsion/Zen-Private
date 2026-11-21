@@ -19,10 +19,10 @@ Done when (planned 2026-10-30):
 
 Tasks:
 
-- [ ] the quarry out of Zengine and into Zen (the founder, 2026-11-20: meant long before, and a
+- [x] the quarry out of Zengine and into Zen (the founder, 2026-11-20: meant long before, and a
   stranger's first look at the tree should not meet it): `prompts/quarry-move.md` run and
-  reviewed 2026-11-20; Zen holds it at `e7dee2c7`; Zengine #182 removes it, green, the founder
-  to merge
+  reviewed 2026-11-20; Zen holds it at `e7dee2c7`; Zengine #182 removes it, merged
+  2026-11-20
 - [ ] Vision's outline (the summary, the ideas as takeaways, the sections) for the founder's
   markup
 - [ ] Loom's README round

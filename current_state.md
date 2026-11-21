@@ -53,12 +53,12 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The documentation's design is published (2026-11-20: Loom #39, Zengine #181), `timer/` the
   first folder in its shape; the first pass's order of folders waits on the founder
   ([doc-design](goals/doc-design.md)).
-- The quarry is in Zen (`Zen/quarry/`, 2026-11-20); Zengine #182, green and reviewed, removes it
-  ([front-doors](goals/front-doors.md)). Built apart's Zengine round waits on its merge.
-- Built apart (2026-11-20): the research is reviewed and its decisions made. Next,
-  `prompts/unrun/built-apart-census-fixture.md` (Zengine, after the quarry's move merges) and
-  `prompts/unrun/built-apart-lazy-shapes.md` (Loom), both cold, one at a time on the laptop
-  ([built-apart](goals/built-apart.md)).
+- The quarry is in Zen (`Zen/quarry/`) and out of Zengine (#182 merged, 2026-11-20)
+  ([front-doors](goals/front-doors.md)).
+- Built apart (2026-11-20): `prompts/unrun/built-apart-census-fixture.md` (Zengine, cold) can
+  start; the lazy shapes' stop is reviewed and its continuation,
+  `prompts/unrun/built-apart-lazy-shapes-continued.md` (hot), goes on. One heavy build at a time
+  on the laptop ([built-apart](goals/built-apart.md)).
 - The laptop builds one thing at a time (Linux, 15 GB; 2026-11-19, a build beside another
   session's checks had every session stopped for memory). The PC's restore round, its prompt
   written for the laptop, is rewritten for the PC when it is back.
