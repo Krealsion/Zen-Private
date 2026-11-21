@@ -5,7 +5,7 @@ calls waiting on the founder. The file changed most, at every phase, review or c
 goal and links its file; what the goal still needs is in that file.  
 **Beside it:** [README.md](README.md), the map and the rules; [roadmap.md](roadmap.md), the order;
 [goals/](goals/), a checklist a goal.  
-**Updated:** 2026-11-20, the law cut finished; stage 4 of the documentation under review.
+**Updated:** 2026-11-21, the PC back; its restore round rewritten for it.
 
 ## Where Zen stands
 
@@ -55,13 +55,13 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
   ([doc-design](goals/doc-design.md)).
 - The quarry is in Zen (`Zen/quarry/`) and out of Zengine (#182 merged, 2026-11-20)
   ([front-doors](goals/front-doors.md)).
-- Built apart (2026-11-20): `prompts/unrun/built-apart-census-fixture.md` (Zengine, cold) can
-  start; the lazy shapes' stop is reviewed and its continuation,
-  `prompts/unrun/built-apart-lazy-shapes-continued.md` (hot), goes on. One heavy build at a time
-  on the laptop ([built-apart](goals/built-apart.md)).
-- The laptop builds one thing at a time (Linux, 15 GB; 2026-11-19, a build beside another
-  session's checks had every session stopped for memory). The PC's restore round, its prompt
-  written for the laptop, is rewritten for the PC when it is back.
+- Built apart (2026-11-20): `prompts/unrun/built-apart-census-fixture.md` (Zengine, cold) waits
+  for the restored PC; the lazy shapes' continuation finished (Loom #40 open, green), its report
+  in `unreviewed/` waiting for review ([built-apart](goals/built-apart.md)).
+- The PC is back (2026-11-21): a new system drive, a fresh Windows, Zen's drive at G: again. The
+  founder installs its tools; then the restore round, `prompts/unrun/machine-restore.md` (cold,
+  rewritten for the PC), builds the three slots ([machine-restore](goals/machine-restore.md)).
+  The laptop holds only #40's Loom trees.
 - The founder's Workshop notes of 2026-11-18 (`founder-notes.txt`, here) wait to be filed once
   he approves the plan's layout.
 - Waiting on the founder: the PC; the security fix's calls

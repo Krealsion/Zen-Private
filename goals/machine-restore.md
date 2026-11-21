@@ -29,11 +29,11 @@ Tasks:
 
 - [ ] the founder, on the PC: the revocations, the sign-ins, git's identity (the kickstart's
   section 1)
-- [ ] Ceecee's restore round, `prompts/unrun/machine-restore.md` (cold). Written 2026-11-16 for the
-  laptop, so rewritten for the PC once it is up, before it runs: the kickstart's sections 4 and 5
-  still hold, with the two items of 2026-11-13 (the memory store's three proposed sentences,
-  `reportbacks/instruction-drift/memory-proposed.diff`, each into its owner; and the
-  `pass-tools/` folders without an entry, listed keep-or-go for the founder's yes)
+- [ ] Ceecee's restore round, `prompts/unrun/machine-restore.md` (cold), rewritten for the PC
+  2026-11-21: the three slots, the kit on them, both `main`s green with the MinGW-w64 lane, the
+  memory into its owners, the two items of 2026-11-13, and the founder's steps. It runs once the
+  founder's installs are in (Git, gh, CMake, Python, Node.js; MSYS2 at `C:\msys64x`; WSL Ubuntu
+  22.04 with the build set; no Store, so nothing through winget)
 - [ ] the founder: gh's sign-ins and the `zen-elh` steps the round writes
 - [ ] the kit runs where `python` is missing and `python3` is there (`kit.sh` line 81, found on
   the laptop by the law cut's continuation, 2026-11-19)
