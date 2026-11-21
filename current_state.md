@@ -53,8 +53,8 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
 - The documentation's design is published (2026-11-20: Loom #39, Zengine #181), `timer/` the
   first folder in its shape; the first pass's order of folders waits on the founder
   ([doc-design](goals/doc-design.md)).
-- The quarry leaves Zengine for Zen: `prompts/unrun/quarry-move.md`, cold
-  ([front-doors](goals/front-doors.md)).
+- The quarry is in Zen (`Zen/quarry/`, 2026-11-20); Zengine #182, green and reviewed, removes it
+  ([front-doors](goals/front-doors.md)). Built apart's Zengine round waits on its merge.
 - Built apart (2026-11-20): the research is reviewed and its decisions made. Next,
   `prompts/unrun/built-apart-census-fixture.md` (Zengine, after the quarry's move merges) and
   `prompts/unrun/built-apart-lazy-shapes.md` (Loom), both cold, one at a time on the laptop
