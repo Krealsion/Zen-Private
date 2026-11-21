@@ -55,8 +55,9 @@ are on `main` since 2026-11-10, both advisories published. The founder's boot dr
   ([doc-design](goals/doc-design.md)).
 - The quarry leaves Zengine for Zen: `prompts/unrun/quarry-move.md`, cold
   ([front-doors](goals/front-doors.md)).
-- Built apart (2026-11-20): the build couples what the running program keeps apart. Its research,
-  `prompts/unrun/built-apart-research.md` (cold), runs on the laptop while it is free
+- Built apart (2026-11-20): the research is reviewed and its decisions made. Next,
+  `prompts/unrun/built-apart-census-fixture.md` (Zengine, after the quarry's move merges) and
+  `prompts/unrun/built-apart-lazy-shapes.md` (Loom), both cold, one at a time on the laptop
   ([built-apart](goals/built-apart.md)).
 - The laptop builds one thing at a time (Linux, 15 GB; 2026-11-19, a build beside another
   session's checks had every session stopped for memory). The PC's restore round, its prompt

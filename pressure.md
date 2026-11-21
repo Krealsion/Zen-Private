@@ -232,8 +232,12 @@ each item's older story, under the same id.
 - **P-BUILD-07** Four routed documents over budget (`operators`, `panes`, `realization`,
   `surface`) each want a register phase in the family-table shape.
 - **P-BUILD-08** The broad Workshop fixture header rebuilds many suites when touched. Taken by
-  [built-apart](goals/built-apart.md) (2026-11-20): it compiles Workshop and every pane into each
-  of 44 test units, 3.4 GB and 47 s each.
+  [built-apart](goals/built-apart.md) (2026-11-20): it compiles Workshop into each of 44 test
+  units and loads the panes, 47% of the cold build's compile time.
+- **P-BUILD-19** Workshop's 14 host hooks and its grant are host code a weave is handed, and who
+  holds a role, an incarnation and a live authority have no answer by message: loading Workshop
+  as an image needs them. Wakes: built-apart's slice 5, or one-host's O2 and O4
+  (`reportbacks/built-apart-research-RB.md`, "Pressure exposed").
 - **P-BUILD-09** The hosted jobs' limits sit close to their times; the sanitizer job has 90
   minutes (#356). Woke 2026-11-19, a cancel: the MinGW-w64 job met its 60 minutes on a cold build,
   and `main` had met it once before, unnoticed (2026-11-14). Zengine #180 gave it 90. The Linux
